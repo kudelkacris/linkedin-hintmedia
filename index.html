@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hint Media · Generador LinkedIn</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#FF5C35;--orange-dark:#CC3A1A;--orange-light:#FFF0EB;
+  --dark:#0D0D0D;--dark2:#1A1A1A;--dark3:#2A2A2A;
+  --mid:#666;--light:#F5F3EF;--white:#FFFFFF;--border:#E8E5DF;
+  --green:#27AE60;--green-light:#EAF7EF;
+  --blue-light:#E6F1FB;--blue:#1A5FA8;
+  --shadow:0 2px 16px rgba(0,0,0,0.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--light);color:var(--dark);min-height:100vh}
+
+/* HEADER */
+header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--orange)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-dot{width:28px;height:28px;background:var(--orange);border-radius:6px;display:flex;align-items:center;justify-content:center}
+.logo-dot svg{width:15px;height:15px;stroke:white;fill:none;stroke-width:2}
+.logo-name{font-family:'DM Serif Display',serif;font-size:17px;color:white}
+.logo-sub{font-size:11px;color:#777;margin-top:1px}
+.status-pill{background:var(--dark3);border:1px solid #333;border-radius:20px;padding:4px 12px;font-size:11.5px;color:#aaa;display:flex;align-items:center;gap:6px}
+.status-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+/* CONTAINER */
+.page{max-width:1060px;margin:0 auto;padding:2rem 1.5rem 5rem}
+.page-title{margin-bottom:1.5rem}
+.page-title h1{font-family:'DM Serif Display',serif;font-size:26px;color:var(--dark);line-height:1.2;margin-bottom:3px}
+.page-title h1 em{color:var(--orange);font-style:italic}
+.page-title p{font-size:13px;color:var(--mid)}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:420px 1fr;gap:1.5rem;align-items:start}
+
+/* CARD */
+.card{background:white;border-radius:14px;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden}
+.card-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-icon{width:30px;height:30px;border-radius:7px;background:var(--orange-light);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-icon svg{width:15px;height:15px;stroke:var(--orange);fill:none;stroke-width:2}
+.card-ttl{font-size:13px;font-weight:600;color:var(--dark)}
+.card-sub{font-size:11px;color:var(--mid);margin-top:1px}
+.card-body{padding:16px}
+
+/* FORM */
+textarea.profile{width:100%;min-height:240px;padding:12px;font-family:'DM Sans',sans-serif;font-size:12.5px;line-height:1.6;color:var(--dark);background:var(--light);border:1.5px solid var(--border);border-radius:9px;resize:vertical;outline:none;transition:border-color .2s}
+textarea.profile:focus{border-color:var(--orange);background:white}
+textarea.profile::placeholder{color:#bbb}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}
+label.lbl{display:block;font-size:11px;font-weight:600;color:var(--mid);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+select.sel{width:100%;padding:8px 10px;font-family:'DM Sans',sans-serif;font-size:12.5px;color:var(--dark);background:var(--light);border:1.5px solid var(--border);border-radius:7px;outline:none;cursor:pointer;transition:border-color .2s;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center}
+select.sel:focus{border-color:var(--orange)}
+
+/* BUTTONS */
+.btn-main{width:100%;margin-top:12px;padding:11px;background:var(--orange);color:white;border:none;border-radius:9px;font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .2s,transform .1s}
+.btn-main:hover{background:var(--orange-dark)}
+.btn-main:active{transform:scale(.98)}
+.btn-main:disabled{background:#ccc;cursor:not-allowed}
+.btn-main svg{width:16px;height:16px;stroke:white;fill:none;stroke-width:2;flex-shrink:0}
+.spinner{width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;display:none;flex-shrink:0}
+
+/* RESULTS PANEL */
+.results-wrap{display:flex;flex-direction:column;gap:12px}
+.empty-state{text-align:center;padding:3rem 1.5rem;color:#ccc}
+.empty-state svg{width:44px;height:44px;stroke:#ddd;fill:none;stroke-width:1.5;margin:0 auto 10px;display:block}
+.empty-state p{font-size:12.5px;line-height:1.6;color:#bbb}
+
+/* LOADING */
+.loading-box{display:none;flex-direction:column;align-items:center;padding:2.5rem;gap:12px}
+.loading-ring{width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--orange);border-radius:50%;animation:spin .8s linear infinite}
+.loading-lbl{font-size:12.5px;color:var(--mid)}
+
+/* VARIANT CARD */
+.variant{border:1px solid var(--border);border-radius:11px;overflow:hidden;animation:fadeUp .35s ease both}
+.variant:nth-child(1){animation-delay:.05s}
+.variant:nth-child(2){animation-delay:.15s}
+.variant:nth-child(3){animation-delay:.25s}
+.var-head{display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)}
+.var-left{display:flex;align-items:center;gap:7px}
+.vtag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
+.variant-best{border:2px solid #F97316;box-shadow:0 0 0 3px #FFF0EB}
+.best-badge{font-size:10px;font-weight:700;background:#F97316;color:white;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
+.vtag-a{background:#FFF0EB;color:#993C1D}
+.vtag-b{background:var(--green-light);color:#1A6635}
+.vtag-c{background:var(--blue-light);color:var(--blue)}
+.vtag-d{background:#F3EEFF;color:#6B21A8}
+.vtitle{font-size:12px;font-weight:600;color:var(--dark)}
+.copy-btn{font-size:11px;color:var(--mid);background:white;border:1px solid var(--border);border-radius:6px;padding:3px 9px;cursor:pointer;display:flex;align-items:center;gap:3px;transition:all .15s;font-family:'DM Sans',sans-serif}
+.copy-btn:hover{border-color:var(--orange);color:var(--orange)}
+.copy-btn svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
+
+/* CHAT */
+.msg-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#bbb;padding:7px 13px 2px}
+.chat-area{padding:10px 13px;background:#FAFAF8;display:flex;flex-direction:column;gap:5px}
+.bwrap{display:flex}
+.bwrap.out{justify-content:flex-start}
+.bwrap.in{justify-content:flex-end}
+.bub{max-width:86%;padding:7px 12px;border-radius:16px 16px 16px 4px;font-size:12px;line-height:1.55;color:var(--dark);background:white;border:1px solid var(--border);white-space:pre-wrap;word-break:break-word}
+.bub.in{border-radius:16px 16px 4px 16px;background:var(--blue-light);border-color:#C5DDF6;color:#0A3A6B}
+.bub.hl{background:var(--orange-light);border-color:#FFD0BC}
+.bub.wait{background:none;border:1px dashed #ccc;color:#aaa;font-style:italic;font-size:11px;max-width:100%;border-radius:7px;padding:5px 9px}
+.var-tip{padding:7px 13px;border-top:1px solid var(--border);font-size:11px;color:var(--mid);display:flex;align-items:flex-start;gap:5px;background:white}
+.var-tip svg{width:13px;height:13px;stroke:var(--orange);fill:none;stroke-width:2;flex-shrink:0;margin-top:1px}
+
+/* USE THIS BUTTON */
+.use-btn{width:100%;padding:8px;background:none;border:1px dashed var(--orange);border-radius:7px;color:var(--orange);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;transition:all .15s;margin-top:4px}
+.use-btn:hover{background:var(--orange-light)}
+.use-btn svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2}
+
+/* CONVERSATION THREAD */
+.thread{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+.thread-step{border:1px solid var(--border);border-radius:11px;overflow:hidden;animation:slideDown .3s ease both}
+.thread-step-head{padding:9px 13px;background:var(--dark2);display:flex;align-items:center;justify-content:space-between}
+.thread-step-head span{font-size:11.5px;font-weight:600;color:white}
+.thread-step-head small{font-size:10.5px;color:#888}
+.reply-box{padding:12px 13px;background:var(--light);border-bottom:1px solid var(--border)}
+.reply-box label{display:block;font-size:11px;font-weight:600;color:var(--mid);margin-bottom:5px;text-transform:uppercase;letter-spacing:.04em}
+textarea.reply-input{width:100%;padding:9px 11px;font-family:'DM Sans',sans-serif;font-size:12.5px;line-height:1.55;color:var(--dark);background:white;border:1.5px solid var(--border);border-radius:8px;resize:vertical;min-height:70px;outline:none;transition:border-color .2s}
+textarea.reply-input:focus{border-color:var(--orange)}
+textarea.reply-input::placeholder{color:#bbb;font-style:italic}
+.reply-actions{display:flex;gap:7px;margin-top:8px}
+.btn-reply{flex:1;padding:8px;background:var(--orange);color:white;border:none;border-radius:7px;font-family:'DM Sans',sans-serif;font-size:12.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;transition:background .15s}
+.btn-reply:hover{background:var(--orange-dark)}
+.btn-reply:disabled{background:#ccc;cursor:not-allowed}
+.btn-reply svg{width:14px;height:14px;stroke:white;fill:none;stroke-width:2}
+.btn-reply .mini-spin{width:13px;height:13px;border:2px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;display:none}
+.response-bubble{padding:10px 13px;background:#FAFAF8;display:flex;flex-direction:column;gap:5px}
+
+/* SELECTED INDICATOR */
+.selected-tag{background:var(--green);color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em}
+
+/* HISTORY */
+.hist-panel{margin-top:12px}
+.hist-count{font-size:10px;background:var(--orange);color:white;padding:1px 7px;border-radius:20px;font-weight:700;min-width:20px;text-align:center}
+.hist-list{padding:0 10px 10px;display:flex;flex-direction:column;gap:6px}
+.hist-item{padding:9px 11px;border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all .15s;background:var(--light);display:flex;flex-direction:column}
+.hist-item:hover{border-color:var(--orange);background:var(--orange-light)}
+.hist-item-row{display:flex;align-items:center;gap:5px}
+.hist-item-name{font-size:12.5px;font-weight:600;color:var(--dark);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hist-item-meta{font-size:10.5px;color:var(--mid);margin-top:3px;display:flex;gap:6px;align-items:center}
+.hist-item-var{font-size:10px;padding:1px 6px;border-radius:10px;background:var(--blue-light);color:var(--blue);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px}
+.hist-empty{text-align:center;padding:1.5rem;color:#bbb;font-size:12px}
+.hist-del{background:none;border:none;cursor:pointer;padding:2px 5px;color:#ccc;font-size:11px;border-radius:4px;transition:all .15s;flex-shrink:0}
+.hist-del:hover{color:#c0392b;background:#fdf0ef}
+.hist-chevron{width:14px;height:14px;stroke:var(--mid);fill:none;stroke-width:2;transition:transform .2s;margin-left:8px;flex-shrink:0}
+
+@media(max-width:750px){.grid{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+
+/* STAGE PILLS */
+.stage-pill{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em;white-space:nowrap}
+.sp-1{background:#FFF0EB;color:#993C1D}
+.sp-2{background:#E6F1FB;color:#1A5FA8}
+.sp-3{background:#F3EEFF;color:#6B21A8}
+.sp-4{background:#EAF7EF;color:#1A6635}
+.sp-5{background:#F0F0F0;color:#555}
+
+/* STAGE BAR */
+.stage-bar{display:flex;align-items:center;padding:11px 14px;background:var(--light);border-bottom:1px solid var(--border)}
+.stage-step{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+.stage-dot{width:22px;height:22px;border-radius:50%;background:#E0DDD7;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#999}
+.stage-dot.done{background:var(--orange);color:white}
+.stage-dot.curr{background:var(--orange);color:white;box-shadow:0 0 0 3px #FFD0BC}
+.stage-lbl{font-size:9px;color:var(--mid);text-align:center;line-height:1.3;max-width:52px}
+.stage-lbl.act{color:var(--orange);font-weight:700}
+.stage-line{height:2px;flex:1;background:#E0DDD7;margin-bottom:16px}
+.stage-line.done{background:var(--orange)}
+
+/* ADVANCE BOX */
+.advance-box{padding:10px 14px;border-bottom:1px solid var(--border);background:white;display:flex;flex-direction:column;gap:7px}
+.advance-note{width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;line-height:1.5;border:1.5px solid var(--border);border-radius:7px;outline:none;resize:none;min-height:52px;color:var(--dark);background:var(--light)}
+.advance-note:focus{border-color:var(--orange);background:white}
+.btn-advance{padding:7px 13px;background:var(--dark2);color:white;border:none;border-radius:7px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .15s;align-self:flex-start}
+.btn-advance:hover{background:var(--dark)}
+.stage-log-item{font-size:11px;color:var(--mid);display:flex;gap:6px;align-items:flex-start;line-height:1.45}
+.stage-log-dot{width:6px;height:6px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:4px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-dot">
+      <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    </div>
+    <div>
+      <div class="logo-name">Hint Media</div>
+      <div class="logo-sub">Generador LinkedIn</div>
+    </div>
+  </div>
+  <div class="status-pill">
+    <span class="status-dot"></span>
+    <span id="status-txt">Listo</span>
+  </div>
+</header>
+
+<div class="page">
+  <div class="page-title">
+    <h1>Mensajes que <em>abren puertas</em></h1>
+    <p>Pegá el perfil · Generá los mensajes · Respondé en tiempo real</p>
+  </div>
+
+  <div class="grid">
+
+    <!-- LEFT: INPUT -->
+    <div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div class="card-ttl">Perfil del prospect</div>
+            <div class="card-sub">Pegá todo el texto de LinkedIn</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <textarea class="profile" id="profile-input" placeholder="Pegá acá el perfil completo de LinkedIn...
+
+Nombre, cargo, empresa, descripción, lo que sea. Cuanto más texto pegues, más personalizado queda el mensaje.
+
+Ejemplo:
+Grecia Soberanes Fragoso
+Marketing Grouper Manager | Sr. Brand Manager
+Dermocosmetics | Beauty Care | Skin Care..."></textarea>
+
+          <div class="row2">
+            <div>
+              <label class="lbl">Idioma</label>
+              <select class="sel" id="idioma">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+            <div>
+              <label class="lbl">Tono</label>
+              <select class="sel" id="tono">
+                <option value="ameno">Ameno y cercano</option>
+                <option value="profesional">Profesional</option>
+                <option value="directo">Directo al grano</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn-main" id="gen-btn" onclick="generateOpeners()">
+            <svg id="gen-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <div class="spinner" id="gen-spin"></div>
+            <span id="gen-txt">Generar mensajes de apertura</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- HISTORY PANEL -->
+      <div class="card hist-panel">
+        <div class="card-head" onclick="toggleHistory()" style="cursor:pointer">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><polyline points="12 8 12 12 14 14"/><path d="M3.05 11a9 9 0 1 0 .5-4"/><polyline points="3 3 3 7 7 7"/></svg></div>
+          <div style="flex:1">
+            <div class="card-ttl">Historial</div>
+            <div class="card-sub">Prospectos contactados</div>
+          </div>
+          <span class="hist-count" id="hist-count">0</span>
+          <svg class="hist-chevron" id="hist-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+        <div id="hist-body" style="display:none">
+          <div style="padding:8px 10px 6px">
+            <input id="hist-search" type="text" placeholder="Buscar por nombre..." oninput="renderHistoryList()" style="width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
+          </div>
+          <div class="hist-list" id="hist-list">
+            <div class="hist-empty">Todavía no hay prospectos guardados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: RESULTS -->
+    <div id="right-col">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+          <div>
+            <div class="card-ttl">Mensajes generados</div>
+            <div class="card-sub">3 variantes · hacé click en "Usar esta" para continuar la conversación</div>
+          </div>
+        </div>
+        <div class="card-body" style="padding:0">
+          <div class="loading-box" id="loading">
+            <div class="loading-ring"></div>
+            <div class="loading-lbl">Analizando perfil y generando mensajes...</div>
+          </div>
+          <div class="results-wrap" id="results" style="padding:14px">
+            <div class="empty-state">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              <p>Pegá un perfil a la izquierda<br>y hacé click en <strong>Generar</strong></p>
+            </div>
+          </div>
+        </div>
+      </card>
+
+      <!-- CONVERSATION THREAD (appears after selecting a variant) -->
+      <div class="thread" id="conv-thread" style="display:none"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+// State
+let state = {
+  profile: '',
+  idioma: 'es',
+  selectedVariant: null,
+  conversationHistory: [],
+  extraMsgs: {},
+  rawText: '',
+  _historyId: null
+};
+
+const SYSTEM = `Sos el motor estratégico de prospección outbound de Hint Media.
+
+NO sos un generador de mensajes genéricos.
+Sos un analista de prospectos.
+
+Tu tarea es entender el trabajo real de cada persona para construir conversaciones relevantes que generen respuesta.
+
+El objetivo final es conseguir una reunión comercial para Hint Media.
+La reunión nunca debe buscarse de forma directa.
+La secuencia debe sentirse humana, personalizada y contextual.
+
+HINT MEDIA:
+- Florencia Di Rado, CMO y co-fundadora
+- Clientes: TGS, Transener, Sullair, Libra Seguros, Destiny Group
+- Modelo: equipo completo insertado en la estructura del cliente — Trafficker, CM, Diseñador y PM de cuenta — por menos de lo que cuesta contratar una sola persona in-house
+- Dossier: [LINK DOSSIER]
+
+FRAMEWORK OBLIGATORIO:
+TRABAJO → RESPONSABILIDAD → OPORTUNIDAD → CONVERSACIÓN → HINT MEDIA
+
+Nunca comenzar hablando de Hint.
+Nunca comenzar vendiendo.
+
+PERSONALIZACIÓN:
+NO personalizar por cargo.
+Personalizar por trabajo real.
+
+NO: "Vi que sos Gerente de Marketing en X"
+SI: "Vi varias iniciativas vinculadas al posicionamiento institucional que vienen impulsando"
+
+ÁNGULOS POR INDUSTRIA:
+- RRHH → marca empleadora, cultura, talento, comunicación interna
+- Comunicación → contenido, narrativa, reputación, voceros, posicionamiento
+- Marketing → campañas, marca, performance, crecimiento
+- Energía → infraestructura, transición energética, posicionamiento sectorial
+- Seguros → confianza, marca, educación financiera
+- Real Estate → posicionamiento, desarrollos, expansión
+- Minería → desarrollo local, sostenibilidad, comunidad
+- Relaciones Institucionales → stakeholders, reputación, relacionamiento
+
+REGLAS MSG1:
+- Objetivo único: transformar contacto frío en conversación
+- NO vender, NO diagnosticar, NO hablar de servicios, NO hablar de reuniones
+- Primera burbuja SIEMPRE: "[Nombre], gracias por aceptar la conexión! 👋" o "[Nombre], gracias por conectar! 👋"
+- La observación surge de: experiencia, proyectos, responsabilidades, logros — NO del cargo
+- La pregunta final debe poder responderse en menos de 5 palabras
+- Ejemplos de preguntas correctas: "¿Lo vienen impulsando fuerte?" / "¿Nació desde tu equipo?" / "¿Lo están escalando?" / "¿Tuviste participación directa?"
+- NO hacer preguntas profundas, consultivas o de diagnóstico
+- Generar 4 variantes con ángulo, observación y pregunta DISTINTOS
+- VARIANTE D obligatoria: estructura "verificación + permiso" — B1 agradecimiento, B2 verificar cargo/empresa ("Según veo, sos [cargo] en [empresa], es así?"), B3 pedir permiso para preguntar ("Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?"). Tono informal y directo, sin observación ni pregunta de fondo todavía.
+
+REGLAS MSG2:
+- Objetivo: conectar su mundo con Hint Media
+- NO vender todavía, NO pedir reunión
+- Estructura: agradecimiento → su contexto → oportunidad observada → conectar con Hint → pedir permiso para dossier
+- Primero su mundo. Después mi mundo. Recién después Hint.
+- CTA: "¿Te lo envío por acá?" o "¿Te lo envío por acá? En todo caso me podrás indicar a quién se lo puedo enviar."
+- Generar 4 variantes (incluyendo MSG2 para la Variante D "verificación + permiso")
+
+REGLAS MSG3:
+- Corto y contundente
+- El dossier hace el trabajo pesado
+- NO explicar demasiado
+- Incluir: cómo trabajamos + equipo completo + link dossier
+
+REGLAS MSG4:
+- 3 a 5 días después
+- Preguntar si vio el dossier
+- Proponer charla breve sin presión
+
+REGLAS SEGUIMIENTOS:
+- SEG1: retomar brevemente, entender si hay sinergia o prefieren más adelante
+- SEG2: cierre de ciclo, sin quemar el contacto, dejar la puerta abierta
+
+PROHIBIDO EN TODOS LOS MENSAJES:
+- Más de una pregunta por mensaje
+- Bullets o listas dentro de las burbujas
+- Frases como "me obsesiona" o "me voló la cabeza"
+- Sonar vendedor, consultor o auditor
+- Parecer automatizado
+- Más de 2 emojis por mensaje
+- Bloques de texto largos
+
+FORMATO DE BURBUJAS:
+Cada mensaje se divide en burbujas cortas separadas.
+Máximo 3 líneas por burbuja.
+Cada burbuja es un párrafo separado.
+Escribir cada burbuja en una línea nueva.
+
+SALIDA OBLIGATORIA — usar EXACTAMENTE este formato:
+
+RESUMEN: (2-3 líneas sobre quién es y qué hace realmente)
+TRABAJO: (qué hace día a día)
+RESPONSABILIDADES: (qué gestiona)
+OPORTUNIDAD: (qué detectamos para Hint)
+ANGULO: (desde dónde arrancamos la conversación)
+
+---VARIANTE---
+TITULO: (nombre corto variante A)
+SCORE: (número del 1 al 10 indicando qué tan fuerte es esta variante para este prospecto específico, siendo 10 la más recomendada)
+TIP: (por qué funciona)
+MSG1_B1: texto burbuja 1
+MSG1_B2: texto burbuja 2
+MSG1_B3: texto burbuja 3
+RESPUESTA: (ejemplo de respuesta esperada)
+MSG2_B1: texto burbuja 1
+MSG2_B2: texto burbuja 2
+MSG2_B3: texto burbuja 3
+MSG2_B4: texto burbuja 4
+
+---VARIANTE---
+TITULO: (nombre corto variante B)
+SCORE: (número del 1 al 10)
+TIP: (por qué funciona)
+MSG1_B1: texto
+MSG1_B2: texto
+MSG1_B3: texto
+RESPUESTA: (ejemplo de respuesta esperada)
+MSG2_B1: texto
+MSG2_B2: texto
+MSG2_B3: texto
+MSG2_B4: texto
+
+---VARIANTE---
+TITULO: (nombre corto variante C)
+SCORE: (número del 1 al 10)
+TIP: (por qué funciona)
+MSG1_B1: texto
+MSG1_B2: texto
+MSG1_B3: texto
+RESPUESTA: (ejemplo de respuesta esperada)
+MSG2_B1: texto
+MSG2_B2: texto
+MSG2_B3: texto
+MSG2_B4: texto
+
+---VARIANTE---
+TITULO: Verificación + permiso
+SCORE: (número del 1 al 10)
+TIP: (por qué funciona esta estructura de confirmación de rol)
+MSG1_B1: [Nombre], gracias por aceptar mi solicitud de conexión!
+MSG1_B2: Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos [cargo] en [empresa], es así?
+MSG1_B3: Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?
+RESPUESTA: (ejemplo de respuesta esperada)
+MSG2_B1: texto
+MSG2_B2: texto
+MSG2_B3: texto
+MSG2_B4: texto
+
+---MSG3---
+B1: texto
+B2: texto
+B3: texto
+B4: [LINK DOSSIER]
+
+---MSG4---
+B1: texto
+B2: texto
+B3: texto
+
+---SEG1---
+B1: texto
+B2: texto
+B3: texto
+
+---SEG2---
+B1: texto
+B2: texto
+B3: texto
+B4: texto`;
+
+// ─── GENERATE OPENERS ───────────────────────────────────────────────
+async function generateOpeners() {
+  const profile = document.getElementById('profile-input').value.trim();
+  const idioma = document.getElementById('idioma').value;
+  const tono = document.getElementById('tono').value;
+
+  if (!profile) { alert('Pegá el perfil de LinkedIn primero'); return; }
+
+  state.profile = profile;
+  state.idioma = idioma;
+  state.selectedVariant = null;
+  state.conversationHistory = [];
+  state.rawText = '';
+  state._historyId = null;
+
+  setLoading(true, 'gen');
+  document.getElementById('conv-thread').style.display = 'none';
+  document.getElementById('conv-thread').innerHTML = '';
+
+  const prompt = `${SYSTEM}
+
+PERFIL A ANALIZAR:
+${profile}
+
+IDIOMA: ${idioma === 'es' ? 'Español' : 'English'}
+TONO: ${tono}
+
+Analizá este perfil y generá la salida EXACTAMENTE con este formato — sin agregar texto adicional antes o entre secciones:
+
+RESUMEN: ...
+TRABAJO: ...
+RESPONSABILIDADES: ...
+OPORTUNIDAD: ...
+ANGULO: ...
+
+---VARIANTE---
+TITULO: ...
+TIP: ...
+MSG1_B1: ...
+MSG1_B2: ...
+MSG1_B3: ...
+RESPUESTA: ...
+MSG2_B1: ...
+MSG2_B2: ...
+MSG2_B3: ...
+MSG2_B4: ...
+
+---VARIANTE---
+TITULO: ...
+TIP: ...
+MSG1_B1: ...
+MSG1_B2: ...
+MSG1_B3: ...
+RESPUESTA: ...
+MSG2_B1: ...
+MSG2_B2: ...
+MSG2_B3: ...
+MSG2_B4: ...
+
+---VARIANTE---
+TITULO: ...
+TIP: ...
+MSG1_B1: ...
+MSG1_B2: ...
+MSG1_B3: ...
+RESPUESTA: ...
+MSG2_B1: ...
+MSG2_B2: ...
+MSG2_B3: ...
+MSG2_B4: ...
+
+---VARIANTE---
+TITULO: Verificación + permiso
+TIP: ...
+MSG1_B1: [Nombre], gracias por aceptar mi solicitud de conexión!
+MSG1_B2: Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos [cargo] en [empresa], es así?
+MSG1_B3: Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?
+RESPUESTA: ...
+MSG2_B1: ...
+MSG2_B2: ...
+MSG2_B3: ...
+MSG2_B4: ...
+
+---MSG3---
+B1: ...
+B2: ...
+B3: ...
+B4: [LINK DOSSIER]
+
+---MSG4---
+B1: ...
+B2: ...
+B3: ...
+
+---SEG1---
+B1: ...
+B2: ...
+B3: ...
+
+---SEG2---
+B1: ...
+B2: ...
+B3: ...
+B4: ...`;
+
+  try {
+    const text = await callAPI(prompt);
+    state.rawText = text;
+    renderVariants(text);
+    state.conversationHistory.push({ role: 'system', text: `Perfil analizado: ${profile.substring(0,300)}` });
+  } catch(e) {
+    showError(e.message);
+  } finally {
+    setLoading(false, 'gen');
+  }
+}
+
+// ─── RENDER VARIANTS ────────────────────────────────────────────────
+function renderVariants(text) {
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  results.style.padding = '14px';
+  results.style.display = 'flex';
+  results.style.flexDirection = 'column';
+  results.style.gap = '12px';
+
+  // Parse strategic analysis
+  const getField = key => {
+    const re = new RegExp('^' + key + ':\\s*(.+)', 'im');
+    const m = text.match(re);
+    return m ? m[1].trim() : '';
+  };
+  const resumen = getField('RESUMEN');
+  const oportunidad = getField('OPORTUNIDAD');
+  const angulo = getField('ANGULO');
+
+  if (resumen || oportunidad || angulo) {
+    const ap = document.createElement('div');
+    ap.style.cssText = 'background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:11px;padding:13px 15px;font-size:12px;line-height:1.65;display:flex;flex-direction:column;gap:7px;animation:fadeUp .3s ease both';
+    ap.innerHTML = `
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--orange);margin-bottom:1px">Análisis estratégico</div>
+      ${resumen ? `<div><span style="font-weight:600;color:var(--dark)">Quién es: </span>${esc(resumen)}</div>` : ''}
+      ${oportunidad ? `<div><span style="font-weight:600;color:var(--dark)">Oportunidad: </span>${esc(oportunidad)}</div>` : ''}
+      ${angulo ? `<div style="background:var(--orange-light);border-radius:7px;padding:6px 10px"><span style="font-weight:600;color:#993C1D">Ángulo: </span>${esc(angulo)}</div>` : ''}`;
+    results.appendChild(ap);
+  }
+
+  // Parse fixed blocks: ---MSG3---, ---MSG4---, ---SEG1---, ---SEG2---
+  const parseFixedBlock = tag => {
+    const re = new RegExp('\\s*---\\s*' + tag + '\\s*---\\s*([\\s\\S]*?)(?=\\s*---|$)', 'i');
+    const m = text.match(re);
+    if (!m) return [];
+    return m[1].trim().split('\n').map(l => l.trim()).filter(l => /^B\d+:/i.test(l)).map(l => l.slice(l.indexOf(':') + 1).trim());
+  };
+  state.extraMsgs = {
+    MSG3: parseFixedBlock('MSG3'),
+    MSG4: parseFixedBlock('MSG4'),
+    SEG1: parseFixedBlock('SEG1'),
+    SEG2: parseFixedBlock('SEG2')
+  };
+
+  // Parse ---VARIANTE--- blocks (stop before fixed blocks)
+  const variantSection = text.split(/\s*---\s*(MSG3|MSG4|SEG1|SEG2)\s*---\s*/i)[0];
+  const blocks = variantSection.split(/\s*---\s*VARIANTE\s*[A-Z]?\s*---\s*/i).filter(b => b.trim());
+  // blocks[0] may be the analysis section (no TITULO) — skip it
+  const startIdx = /TITULO:/i.test(blocks[0]) ? 0 : 1;
+  const variantBlocks = blocks.slice(startIdx, startIdx + 4);
+  const tagClass = ['vtag-a','vtag-b','vtag-c','vtag-d'];
+  const tagLabel = ['Variante A','Variante B','Variante C','Variante D'];
+
+  // First pass: parse scores to find best
+  const parsedBlocks = variantBlocks.slice(0, 4).map((block, idx) => {
+    const lines = block.trim().split('\n').map(l => l.trim()).filter(l => l);
+    const get = k => { const l = lines.find(l => l.toLowerCase().startsWith(k.toLowerCase() + ':')); return l ? l.slice(l.indexOf(':') + 1).trim() : ''; };
+    return { block, idx, lines, get, score: parseInt(get('SCORE')) || 0 };
+  });
+  const maxScore = Math.max(...parsedBlocks.map(p => p.score));
+
+  parsedBlocks.forEach(({ block, idx, lines, get }) => {
+    if (idx > 3) return;
+    const getBubbles = prefix => lines.filter(l => l.toLowerCase().startsWith(prefix.toLowerCase())).map(l => ({ text: l.slice(l.indexOf(':') + 1).trim(), hl: false }));
+
+    const titulo = get('TITULO') || get('TITLE') || tagLabel[idx];
+    const tip = get('TIP');
+    const score = parseInt(get('SCORE')) || 0;
+    const isBest = maxScore > 0 && score === maxScore;
+    const respuesta = get('RESPUESTA');
+    const msg1 = getBubbles('MSG1_B');
+    const msg2 = getBubbles('MSG2_B');
+
+    const fullText = ['── MENSAJE 1 ──', ...msg1.map(b => b.text), '', respuesta ? `[Respuesta esperada: "${respuesta}"]` : '', ' ', '── MENSAJE 2 ──', ...msg2.map(b => b.text)].join('\n');
+    const b1html = msg1.map(b => `<div class="bwrap out"><div class="bub">${esc(b.text)}</div></div>`).join('');
+    const repHtml = respuesta ? `<div class="bwrap in"><div class="bub in">${esc(respuesta)}</div></div>` : '';
+    const b2html = msg2.map(b => `<div class="bwrap out"><div class="bub">${esc(b.text)}</div></div>`).join('');
+
+    const varEl = document.createElement('div');
+    varEl.className = 'variant' + (isBest ? ' variant-best' : '');
+    varEl.id = `variant-${idx}`;
+    varEl.innerHTML = `
+      <div class="var-head">
+        <div class="var-left">
+          <span class="vtag ${tagClass[idx]}">${tagLabel[idx]}</span>
+          <span class="vtitle">${esc(titulo)}</span>
+          ${isBest ? `<span class="best-badge">⭐ Mejor opción</span>` : ''}
+        </div>
+        <button class="copy-btn" onclick="copyTxt(this,\`${escAttr(fullText)}\`)">
+          <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+      <div class="msg-label">Primer mensaje</div>
+      <div class="chat-area">${b1html}</div>
+      ${respuesta ? `<div class="msg-label" style="color:var(--blue)">Respuesta esperada</div><div class="chat-area">${repHtml}</div>` : ''}
+      <div class="msg-label">Segundo mensaje</div>
+      <div class="chat-area">${b2html}</div>
+      ${tip ? `<div class="var-tip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span>${esc(tip)}</span></div>` : ''}
+      <button class="use-btn" onclick="selectVariant(${idx}, '${idx}', \`${escAttr(fullText)}\`, \`${escAttr(msg1.map(b=>b.text).join('\n\n'))}\`, \`${escAttr(msg2.map(b=>b.text).join('\n\n'))}\`)">
+        <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        Usar esta variante → continuar conversación
+      </button>`;
+    results.appendChild(varEl);
+  });
+
+  if (!results.querySelector('.variant')) showError('No se pudieron generar los mensajes. Intentá de nuevo.');
+}
+
+// ─── SELECT VARIANT ─────────────────────────────────────────────────
+function selectVariant(idx, letter, fullText, msg1Text, msg2Text) {
+  document.querySelectorAll('.variant').forEach((v,i) => {
+    const btn = v.querySelector('.use-btn');
+    const head = v.querySelector('.var-head .var-left');
+    if(i === idx) {
+      btn.innerHTML = `<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2"><polyline points="20 6 9 17 4 12"/></svg> Seleccionada`;
+      btn.style.background = 'var(--green-light)';
+      btn.style.borderColor = 'var(--green)';
+      btn.style.color = 'var(--green)';
+      if(!head.querySelector('.selected-tag')) {
+        const tag = document.createElement('span');
+        tag.className = 'selected-tag';
+        tag.textContent = 'EN USO';
+        head.appendChild(tag);
+      }
+    } else {
+      btn.style.opacity = '0.4';
+      btn.disabled = true;
+    }
+  });
+
+  state.selectedVariant = { idx, letter, msg1: msg1Text, msg2: msg2Text };
+  state.conversationHistory.push({ role: 'sent', text: msg1Text });
+
+  // Save to history (lightweight — no rawText)
+  const varTitleEl = document.querySelector(`#variant-${idx} .vtitle`);
+  const variantTitle = varTitleEl ? varTitleEl.textContent.trim() : `Variante ${idx + 1}`;
+  const histId = state._historyId || String(Date.now());
+  state._historyId = histId;
+  histUpsert({
+    id: histId,
+    date: new Date().toLocaleDateString('es-AR', { day:'2-digit', month:'2-digit', year:'2-digit' }),
+    name: histExtractName(state.profile),
+    variantTitle,
+    msg1: msg1Text,
+    msg2: msg2Text,
+    extraMsgs: state.extraMsgs || {},
+    conversationHistory: [{ role: 'sent', text: msg1Text }]
+  });
+
+  const thread = document.getElementById('conv-thread');
+  thread.style.display = 'flex';
+  thread.innerHTML = '';
+  addReplyStep(thread, 1);
+
+  // Show MSG3/4/SEG1/2 as reference sequence
+  const extra = state.extraMsgs;
+  const hasExtra = Object.values(extra).some(arr => arr.length > 0);
+  if (hasExtra) {
+    const seqEl = document.createElement('div');
+    seqEl.className = 'card';
+    seqEl.style.animation = 'fadeUp .4s ease both';
+    const labels = { MSG3: 'MSG3 — Presentación con dossier', MSG4: 'MSG4 — Cierre de conversación', SEG1: 'SEG1 — Seguimiento 1', SEG2: 'SEG2 — Seguimiento 2' };
+    let seqInner = `<div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><div><div class="card-ttl">Secuencia de seguimiento</div><div class="card-sub">Mensajes pre-generados para continuar la conversación</div></div></div><div style="padding:12px 14px;display:flex;flex-direction:column;gap:10px">`;
+    Object.entries(labels).forEach(([key, label]) => {
+      const bubbles = extra[key];
+      if (!bubbles || !bubbles.length) return;
+      const fullMsg = bubbles.join('\n\n');
+      const bubblesHtml = bubbles.map(t => `<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+      seqInner += `
+        <div style="border:1px solid var(--border);border-radius:9px;overflow:hidden">
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;background:var(--light);border-bottom:1px solid var(--border)">
+            <span style="font-size:11px;font-weight:700;color:var(--dark)">${label}</span>
+            <button class="copy-btn" onclick="copyTxt(this,\`${escAttr(fullMsg)}\`)">
+              <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+              Copiar
+            </button>
+          </div>
+          <div class="chat-area">${bubblesHtml}</div>
+        </div>`;
+    });
+    seqInner += '</div>';
+    seqEl.innerHTML = seqInner;
+    thread.appendChild(seqEl);
+  }
+
+  setTimeout(() => thread.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+}
+
+// ─── ADD REPLY STEP ──────────────────────────────────────────────────
+function addReplyStep(thread, stepNum) {
+  const stepEl = document.createElement('div');
+  stepEl.className = 'thread-step';
+  stepEl.id = `step-${stepNum}`;
+  const es = state.idioma === 'es';
+  stepEl.innerHTML = `
+    <div class="thread-step-head">
+      <span>${es ? '💬 ¿Qué te respondió?' : '💬 What did they reply?'}</span>
+      <small>${es ? 'Pegá su respuesta exacta' : 'Paste their exact reply'}</small>
+    </div>
+    <div class="reply-box">
+      <textarea class="reply-input" id="reply-${stepNum}" placeholder="${es ? 'Pegá acá lo que te escribió...\n\nEjemplo: "Hola Florencia, así es. Ese es mi cargo. ¿En qué te puedo ayudar?"' : 'Paste what they wrote...\n\nExample: "Hi Florencia, that\'s correct. How can I help you?"'}"></textarea>
+      <div class="reply-actions">
+        <button class="btn-reply" id="reply-btn-${stepNum}" onclick="handleReply(${stepNum})">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <div class="mini-spin" id="reply-spin-${stepNum}"></div>
+          <span id="reply-btn-txt-${stepNum}">${es ? 'Generar respuesta' : 'Generate reply'}</span>
+        </button>
+      </div>
+    </div>
+    <div class="response-bubble" id="response-${stepNum}" style="display:none"></div>`;
+  thread.appendChild(stepEl);
+}
+
+// ─── HANDLE REPLY ────────────────────────────────────────────────────
+async function handleReply(stepNum) {
+  const replyText = document.getElementById(`reply-${stepNum}`).value.trim();
+  if(!replyText) { alert(state.idioma==='es'?'Pegá la respuesta primero':'Paste their reply first'); return; }
+
+  const btn = document.getElementById(`reply-btn-${stepNum}`);
+  const spin = document.getElementById(`reply-spin-${stepNum}`);
+  const btnTxt = document.getElementById(`reply-btn-txt-${stepNum}`);
+
+  btn.disabled = true;
+  spin.style.display = 'block';
+  btnTxt.textContent = state.idioma==='es'?'Generando...':'Generating...';
+  document.getElementById('status-txt').textContent = 'Procesando...';
+
+  state.conversationHistory.push({ role: 'received', text: replyText });
+
+  const historyText = state.conversationHistory.map(m => {
+    if(m.role==='system') return `[CONTEXTO: ${m.text}]`;
+    if(m.role==='sent') return `FLORENCIA ENVIÓ:\n${m.text}`;
+    if(m.role==='received') return `PROSPECT RESPONDIÓ:\n${m.text}`;
+    if(m.role==='suggested') return `FLORENCIA ENVIÓ:\n${m.text}`;
+    return '';
+  }).join('\n\n---\n\n');
+
+  const prompt = `${SYSTEM}
+
+CONVERSACIÓN EN CURSO:
+${historyText}
+
+La persona acaba de responder: "${replyText}"
+
+IDIOMA: ${state.idioma==='es'?'Español':'English'}
+
+Analizá qué dijo y generá el mensaje exacto que Florencia debería mandar ahora.
+
+Devolvé SOLO el mensaje en burbujas, con este formato:
+BURBUJA1: texto
+BURBUJA2: texto
+BURBUJA3: texto (si hace falta)
+BURBUJA4: texto con [HIGHLIGHT] si es el cierre/call-to-action
+
+Después agregá:
+ANALISIS: (1 línea explicando por qué este mensaje en función de lo que respondieron)
+SIGUIENTE: (qué se espera que pase después - "call agendada", "pide más info", "no interesado", etc.)`;
+
+  try {
+    const text = await callAPI(prompt);
+    renderReplyResponse(stepNum, replyText, text);
+  } catch(e) {
+    btn.disabled = false;
+    spin.style.display = 'none';
+    btnTxt.textContent = state.idioma==='es'?'Generar respuesta':'Generate reply';
+    alert('Error: ' + e.message);
+  } finally {
+    document.getElementById('status-txt').textContent = 'Listo';
+  }
+}
+
+// ─── RENDER REPLY RESPONSE ───────────────────────────────────────────
+function renderReplyResponse(stepNum, replyText, text) {
+  const lines = text.split('\n').map(l=>l.trim()).filter(l=>l);
+  const bubbles = lines.filter(l=>/^BURBUJA\d+:/i.test(l)).map(l=>{ const v=l.slice(l.indexOf(':')+1).trim(); return {text:v.replace('[HIGHLIGHT]','').trim(),hl:v.includes('[HIGHLIGHT]')}; });
+  const analisis = (lines.find(l=>/^ANALISIS:/i.test(l))||'').replace(/^ANALISIS:/i,'').trim();
+  const siguiente = (lines.find(l=>/^SIGUIENTE:/i.test(l))||'').replace(/^SIGUIENTE:/i,'').trim();
+
+  const fullReply = bubbles.map(b=>b.text).join('\n\n');
+  state.conversationHistory.push({ role: 'suggested', text: fullReply });
+  if (state._historyId) histUpdateConv(state._historyId, state.conversationHistory);
+
+  const responseEl = document.getElementById(`response-${stepNum}`);
+  responseEl.style.display = 'flex';
+  responseEl.style.flexDirection = 'column';
+  responseEl.style.gap = '5px';
+  responseEl.style.padding = '10px 13px';
+
+  responseEl.innerHTML = `
+    <div class="msg-label" style="color:var(--blue)">Ellos dijeron</div>
+    <div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div>
+    <div class="msg-label" style="margin-top:6px">Tu respuesta sugerida</div>
+    ${bubbles.map(b=>`<div class="bwrap out"><div class="bub${b.hl?' hl':''}">${esc(b.text)}</div></div>`).join('')}
+    ${analisis?`<div style="margin-top:6px;padding:7px 10px;background:var(--orange-light);border-radius:7px;font-size:11px;color:#4A1B0C;display:flex;gap:5px;align-items:flex-start"><span style="color:var(--orange);flex-shrink:0">→</span><span>${esc(analisis)}</span></div>`:''}
+    ${siguiente?`<div style="margin-top:4px;padding:5px 10px;background:var(--green-light);border-radius:7px;font-size:11px;color:#1A6635;display:flex;gap:5px"><span>✓</span><span><strong>Próximo paso:</strong> ${esc(siguiente)}</span></div>`:''}
+    <div style="display:flex;gap:7px;margin-top:8px">
+      <button class="btn-reply" style="flex:1" onclick="copyTxt(this,\`${escAttr(fullReply)}\`)">
+        <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        <span>Copiar respuesta</span>
+      </button>
+      <button class="btn-reply" style="flex:1;background:var(--dark2)" onclick="addNextStep(${stepNum})">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        <span>${state.idioma==='es'?'Volvió a responder →':'They replied again →'}</span>
+      </button>
+    </div>`;
+
+  document.getElementById(`reply-${stepNum}`).disabled = true;
+  const replyBox = document.getElementById(`reply-btn-${stepNum}`);
+  replyBox.disabled = true;
+  replyBox.style.opacity = '0.4';
+  document.getElementById(`reply-spin-${stepNum}`).style.display = 'none';
+  document.getElementById(`reply-btn-txt-${stepNum}`).textContent = state.idioma==='es'?'Enviado':'Sent';
+}
+
+// ─── ADD NEXT STEP ───────────────────────────────────────────────────
+function addNextStep(currentStep) {
+  const thread = document.getElementById('conv-thread');
+  const nextStep = currentStep + 1;
+  addReplyStep(thread, nextStep);
+  setTimeout(() => document.getElementById(`step-${nextStep}`).scrollIntoView({ behavior:'smooth', block:'start' }), 100);
+}
+
+// ─── API CALL (via servidor local) ──────────────────────────────────
+async function callAPI(prompt) {
+  const res = await fetch('/api/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt })
+  });
+  const data = await res.json();
+  if (!res.ok || data.error) throw new Error(data.error || 'Error en la API');
+  return data.text;
+}
+
+// ─── UI HELPERS ──────────────────────────────────────────────────────
+function setLoading(on, type) {
+  if(type === 'gen') {
+    const btn = document.getElementById('gen-btn');
+    const spin = document.getElementById('gen-spin');
+    const icon = document.getElementById('gen-icon');
+    const txt = document.getElementById('gen-txt');
+    const loading = document.getElementById('loading');
+    const results = document.getElementById('results');
+    btn.disabled = on;
+    spin.style.display = on ? 'block' : 'none';
+    icon.style.display = on ? 'none' : 'block';
+    txt.textContent = on ? 'Generando...' : 'Generar 3 mensajes de apertura';
+    loading.style.display = on ? 'flex' : 'none';
+    results.style.display = on ? 'none' : 'flex';
+    document.getElementById('status-txt').textContent = on ? 'Procesando...' : 'Listo';
+  }
+}
+
+function showError(msg) {
+  const results = document.getElementById('results');
+  results.style.display = 'flex';
+  results.innerHTML = `<div style="padding:2rem;text-align:center;color:#c0392b;font-size:12.5px"><strong>Error:</strong> ${esc(msg)}<br><br><small style="color:#999">Verificá tu conexión y que la API key sea válida.</small></div>`;
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/\n/g,'<br>');
+}
+function escAttr(s) {
+  return String(s||'').replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$/g,'\\$').replace(/"/g,'&quot;').replace(/\r?\n/g,'\\n');
+}
+function copyTxt(btn, text) {
+  const cleanText = text.replace(/\\n/g,'\n');
+  navigator.clipboard.writeText(cleanText).then(()=>{
+    const o = btn.innerHTML;
+    btn.innerHTML = btn.innerHTML.replace(/<span>.*?<\/span>/,'<span>✓ Copiado</span>');
+    setTimeout(()=>{ btn.innerHTML = o; }, 2000);
+  });
+}
+
+document.addEventListener('keydown', e => { if(e.ctrlKey && e.key==='Enter') generateOpeners(); });
+
+// ─── HISTORY ─────────────────────────────────────────────────────────
+
+const STAGES = [null,
+  {label:'Apertura'},
+  {label:'En conversación'},
+  {label:'Dossier enviado'},
+  {label:'Seguimiento 1'},
+  {label:'Seguimiento 2'}
+];
+const STAGE_COLORS = ['','sp-1','sp-2','sp-3','sp-4','sp-5'];
+const STAGE_NAMES_SHORT = ['','Apertura','En conv.','Dossier','Seg. 1','Seg. 2'];
+
+function stgLabel(s){ return (STAGES[s]||{label:'?'}).label; }
+
+function renderStageBar(en) {
+  const cur = en.stage || 1;
+  let h = '<div class="stage-bar">';
+  for (let i=1;i<=5;i++) {
+    const done = i < cur, curr = i === cur;
+    h += '<div class="stage-step">';
+    h += '<div class="stage-dot' + (done?' done':curr?' curr':'') + '">' + i + '</div>';
+    h += '<div class="stage-lbl' + (curr?' act':'') + '">' + STAGE_NAMES_SHORT[i] + '</div>';
+    h += '</div>';
+    if (i<5) h += '<div class="stage-line' + (done?' done':'') + '"></div>';
+  }
+  h += '</div>';
+  return h;
+}
+
+function renderAdvanceBox(en) {
+  const cur = en.stage || 1;
+  const log = en.stageHistory || [{stage:1, date:en.date, note:''}];
+  let h = '<div class="advance-box">';
+  if (log.length) {
+    h += '<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);margin-bottom:2px">Registro</div>';
+    h += log.map(l =>
+      '<div class="stage-log-item"><div class="stage-log-dot"></div><span><strong>' + stgLabel(l.stage) + '</strong> · ' + l.date + (l.note ? ' — <em>' + esc(l.note) + '</em>' : '') + '</span></div>'
+    ).join('');
+  }
+  if (cur < 5) {
+    h += '<div style="font-size:11px;color:var(--mid);margin-top:4px">¿Qué pasó? <span style="color:#bbb">(opcional)</span></div>';
+    h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés, quiere saber más del equipo..."></textarea>';
+    h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\')">';
+    h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
+    h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+  } else {
+    h += '<div style="font-size:11px;color:var(--green);font-weight:600;display:flex;gap:5px;align-items:center;margin-top:2px"><span>✓</span><span>Secuencia completa</span></div>';
+  }
+  h += '</div>';
+  return h;
+}
+
+function histAdvanceStage(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en || (en.stage||1) >= 5) return;
+  const noteEl = document.getElementById('advance-note-' + id);
+  const note = noteEl ? noteEl.value.trim() : '';
+  const newStage = (en.stage||1) + 1;
+  const dateStr = new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'2-digit',year:'2-digit'});
+  en.stage = newStage;
+  if (!en.stageHistory) en.stageHistory = [{stage:1, date:en.date, note:''}];
+  en.stageHistory.push({stage:newStage, date:dateStr, note});
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+
+let _histEntries = [];
+
+async function initHist() {
+  try {
+    const res = await fetch('/api/historial');
+    const data = await res.json();
+    if (Array.isArray(data) && data.length > 0) {
+      _histEntries = data;
+    } else {
+      // migración one-time desde localStorage
+      try {
+        const local = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]');
+        if (local.length > 0) { _histEntries = local; histPersist(); }
+      } catch {}
+    }
+  } catch {
+    try { _histEntries = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]'); } catch { _histEntries = []; }
+  }
+  renderHistoryList();
+  if (_histEntries.length) {
+    document.getElementById('hist-body').style.display = 'block';
+    document.getElementById('hist-chevron').style.transform = 'rotate(180deg)';
+  }
+}
+
+function histPersist() {
+  fetch('/api/historial', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(_histEntries)
+  }).catch(() => {});
+}
+function histExtractName(profile) {
+  return (profile || '').trim().split('\n').map(l => l.trim()).find(l => l) || 'Sin nombre';
+}
+function histUpsert(entry) {
+  const i = _histEntries.findIndex(e => e.id === entry.id);
+  if (i >= 0) {
+    // preserve stage + stageHistory on upsert
+    entry.stage = entry.stage || _histEntries[i].stage || 1;
+    entry.stageHistory = entry.stageHistory || _histEntries[i].stageHistory || [{stage:1, date:entry.date, note:''}];
+    _histEntries[i] = entry;
+  } else {
+    if (!entry.stage) entry.stage = 1;
+    if (!entry.stageHistory) entry.stageHistory = [{stage:1, date:entry.date, note:''}];
+    _histEntries.unshift(entry);
+  }
+  if (_histEntries.length > 300) _histEntries = _histEntries.slice(0, 300);
+  histPersist();
+  renderHistoryList();
+}
+function histUpdateConv(id, conversationHistory) {
+  const i = _histEntries.findIndex(e => e.id === id);
+  if (i >= 0) { _histEntries[i].conversationHistory = [...conversationHistory]; histPersist(); }
+}
+function histDeleteEntry(id, e) {
+  e.stopPropagation();
+  _histEntries = _histEntries.filter(en => en.id !== id);
+  histPersist();
+  renderHistoryList();
+}
+function toggleHistory() {
+  const body = document.getElementById('hist-body');
+  const chevron = document.getElementById('hist-chevron');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.style.transform = open ? '' : 'rotate(180deg)';
+}
+function renderHistoryList() {
+  document.getElementById('hist-count').textContent = _histEntries.length;
+  const list = document.getElementById('hist-list');
+  if (!_histEntries.length) {
+    list.innerHTML = '<div class="hist-empty">Todavía no hay prospectos guardados</div>';
+    return;
+  }
+  const q = (document.getElementById('hist-search')?.value || '').toLowerCase().trim();
+  const parseDate = d => { const p=(d||'').split('/'); return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0; };
+  const sorted = [..._histEntries].sort((a,b) => parseDate(b.date) - parseDate(a.date));
+  const filtered = q ? sorted.filter(en => en.name.toLowerCase().includes(q)) : sorted;
+  if (!filtered.length) {
+    list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
+    return;
+  }
+  list.innerHTML = filtered.map(en => `
+    <div class="hist-item" onclick="histRestore('${en.id}')">
+      <div class="hist-item-row">
+        <div class="hist-item-name">${esc(en.name)}</div>
+        <span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>
+        <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
+      </div>
+      <div class="hist-item-meta">
+        <span>${en.date}</span>
+        <span class="hist-item-var">${esc(en.variantTitle)}</span>
+      </div>
+    </div>`).join('');
+}
+function histRestore(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+
+  state.extraMsgs = en.extraMsgs || {};
+  state.conversationHistory = [...(en.conversationHistory || [])];
+  state._historyId = id;
+
+  // Show history detail view in right column
+  const results = document.getElementById('results');
+  document.getElementById('loading').style.display = 'none';
+  results.style.display = 'flex';
+  results.style.flexDirection = 'column';
+  results.style.gap = '12px';
+  results.style.padding = '14px';
+
+  const msg1Bubbles = en.msg1.replace(/\\n/g,'\n').split('\n\n').filter(t=>t.trim());
+  const msg2Bubbles = en.msg2.replace(/\\n/g,'\n').split('\n\n').filter(t=>t.trim());
+  const b1html = msg1Bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+  const b2html = msg2Bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+
+  const detailEl = document.createElement('div');
+  detailEl.className = 'variant';
+  detailEl.innerHTML = `
+    <div class="var-head">
+      <div class="var-left">
+        <span class="vtag vtag-b">Historial</span>
+        <span class="vtitle">${esc(en.name)} — ${esc(en.variantTitle)}</span>
+      </div>
+      <span style="font-size:10.5px;color:var(--mid)">${en.date}</span>
+    </div>
+    ${renderStageBar(en)}
+    ${renderAdvanceBox(en)}
+    <div class="msg-label">Primer mensaje (enviado)</div>
+    <div class="chat-area">${b1html}</div>
+    <div class="msg-label">Segundo mensaje</div>
+    <div class="chat-area" style="position:relative">
+      ${b2html}
+      <button class="copy-btn" style="margin:6px 0 0 0" onclick="copyTxt(this,\`${escAttr(en.msg2)}\`)">
+        <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        <span>Copiar MSG2</span>
+      </button>
+    </div>`;
+  results.innerHTML = '';
+  results.appendChild(detailEl);
+
+  // Follow-up sequence
+  const extra = en.extraMsgs || {};
+  const hasExtra = Object.values(extra).some(arr => arr.length > 0);
+  if (hasExtra) {
+    const seqEl = document.createElement('div');
+    seqEl.className = 'card';
+    const labels = { MSG3: 'MSG3 — Dossier', MSG4: 'MSG4 — Cierre', SEG1: 'SEG1 — Seguimiento 1', SEG2: 'SEG2 — Seguimiento 2' };
+    let seqInner = `<div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><div><div class="card-ttl">Secuencia de seguimiento</div></div></div><div style="padding:12px 14px;display:flex;flex-direction:column;gap:10px">`;
+    Object.entries(labels).forEach(([key, label]) => {
+      const bubbles = extra[key];
+      if (!bubbles || !bubbles.length) return;
+      const fullMsg = bubbles.join('\n\n');
+      const bubblesHtml = bubbles.map(t => `<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+      seqInner += `<div style="border:1px solid var(--border);border-radius:9px;overflow:hidden"><div style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;background:var(--light);border-bottom:1px solid var(--border)"><span style="font-size:11px;font-weight:700;color:var(--dark)">${label}</span><button class="copy-btn" onclick="copyTxt(this,\`${escAttr(fullMsg)}\`)"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>Copiar</button></div><div class="chat-area">${bubblesHtml}</div></div>`;
+    });
+    seqInner += '</div>';
+    seqEl.innerHTML = seqInner;
+    results.appendChild(seqEl);
+  }
+
+  // Conversation thread — past exchanges + active step
+  const thread = document.getElementById('conv-thread');
+  thread.style.display = 'flex';
+  thread.innerHTML = '';
+  const history = en.conversationHistory || [];
+  let stepNum = 1;
+  let i = 0;
+  while (i < history.length && history[i].role !== 'received') i++;
+  while (i < history.length) {
+    if (history[i].role === 'received') {
+      const replyText = history[i].text;
+      const suggested = history[i+1] && history[i+1].role === 'suggested' ? history[i+1].text : null;
+      if (suggested) {
+        const stepEl = document.createElement('div');
+        stepEl.className = 'thread-step';
+        const bHtml = suggested.replace(/\\n/g,'\n').split('\n\n').filter(t=>t).map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+        stepEl.innerHTML = `<div class="thread-step-head"><span>💬 Intercambio ${stepNum}</span><small>Historial</small></div><div class="response-bubble" style="display:flex;flex-direction:column;gap:5px;padding:10px 13px"><div class="msg-label" style="color:var(--blue)">Ellos dijeron</div><div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div><div class="msg-label" style="margin-top:6px">Respuesta enviada</div>${bHtml}</div>`;
+        thread.appendChild(stepEl);
+        stepNum++; i += 2;
+      } else i++;
+    } else i++;
+  }
+  addReplyStep(thread, stepNum);
+  setTimeout(() => document.getElementById('right-col').scrollIntoView({ behavior:'smooth', block:'start' }), 100);
+}
+
+function recuperarSesion() {
+  const missing = [
+    { name: 'Otto Mena W', variantTitle: 'Verificación + permiso' },
+    { name: 'Andrea Catalina Prieto Chapeton', variantTitle: 'Verificación + permiso' },
+    { name: 'Dario Jerez Isla', variantTitle: 'Verificación + permiso' },
+    { name: 'Alejandro Castaño Vargas', variantTitle: 'Expansión y narrativa regulatoria' },
+    { name: 'Jorge Barreto', variantTitle: 'Verificación + permiso' },
+    { name: 'Gustavo Castillo', variantTitle: 'Verificación + permiso' },
+    { name: 'Grecia Soberanes Fragoso', variantTitle: 'Verificación + permiso' },
+    { name: 'David Spaggiari', variantTitle: 'Verificación + permiso' },
+  ];
+  missing.forEach((e, i) => {
+    if (!_histEntries.find(h => h.name === e.name)) {
+      _histEntries.push({ id: String(Date.now() - (missing.length - i) * 1000), date: '04/06/26', name: e.name, variantTitle: e.variantTitle, msg1: '', msg2: '', extraMsgs: {}, conversationHistory: [] });
+    }
+  });
+  histPersist();
+  renderHistoryList();
+  document.getElementById('btn-recuperar').style.display = 'none';
+}
+
+initHist();
+</script>
+</body>
+</html>

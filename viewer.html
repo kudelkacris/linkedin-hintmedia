@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hint Media · Seguimiento de Prospectos</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#FF5C35;--orange-dark:#CC3A1A;--orange-light:#FFF0EB;
+  --dark:#0D0D0D;--dark2:#1A1A1A;--dark3:#2A2A2A;
+  --mid:#666;--light:#F5F3EF;--white:#FFFFFF;--border:#E8E5DF;
+  --green:#27AE60;--green-light:#EAF7EF;
+  --blue-light:#E6F1FB;--blue:#1A5FA8;
+  --shadow:0 2px 16px rgba(0,0,0,0.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--light);color:var(--dark);min-height:100vh}
+header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--orange)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-dot{width:28px;height:28px;background:var(--orange);border-radius:6px;display:flex;align-items:center;justify-content:center}
+.logo-dot svg{width:15px;height:15px;stroke:white;fill:none;stroke-width:2}
+.logo-name{font-family:'DM Serif Display',serif;font-size:17px;color:white}
+.logo-sub{font-size:11px;color:#777;margin-top:1px}
+.readonly-badge{background:#333;border:1px solid #444;border-radius:20px;padding:4px 12px;font-size:11px;color:#aaa}
+.page{max-width:1100px;margin:0 auto;padding:2rem 1.5rem 5rem}
+.page-title{margin-bottom:1.5rem}
+.page-title h1{font-family:'DM Serif Display',serif;font-size:26px;color:var(--dark);line-height:1.2;margin-bottom:3px}
+.page-title h1 em{color:var(--orange);font-style:italic}
+.page-title p{font-size:13px;color:var(--mid)}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:1.5rem;align-items:start}
+.card{background:white;border-radius:14px;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden}
+.card-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-icon{width:30px;height:30px;border-radius:7px;background:var(--orange-light);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-icon svg{width:15px;height:15px;stroke:var(--orange);fill:none;stroke-width:2}
+.card-ttl{font-size:13px;font-weight:600;color:var(--dark)}
+.card-sub{font-size:11px;color:var(--mid);margin-top:1px}
+
+/* STATS BAR */
+.stats-bar{display:flex;gap:12px;margin-bottom:1.5rem;flex-wrap:wrap}
+.stat-card{background:white;border:1px solid var(--border);border-radius:11px;padding:12px 16px;display:flex;flex-direction:column;gap:2px;flex:1;min-width:100px}
+.stat-num{font-size:22px;font-weight:700;color:var(--dark)}
+.stat-lbl{font-size:11px;color:var(--mid)}
+.stat-card.active{border-color:var(--orange);background:var(--orange-light)}
+.stat-card.active .stat-num{color:var(--orange)}
+
+/* FILTER ROW */
+.filter-row{display:flex;gap:8px;padding:10px 12px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.filter-input{flex:1;min-width:140px;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)}
+.filter-input:focus{border-color:var(--orange)}
+.filter-sel{padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark);cursor:pointer}
+.filter-sel:focus{border-color:var(--orange)}
+
+/* PROSPECT LIST */
+.prospect-list{max-height:calc(100vh - 260px);overflow-y:auto}
+.prospect-item{padding:11px 14px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .12s;display:flex;flex-direction:column;gap:4px}
+.prospect-item:hover{background:var(--orange-light)}
+.prospect-item.selected{background:#FFF8F5;border-left:3px solid var(--orange)}
+.pi-row{display:flex;align-items:center;gap:6px}
+.pi-name{font-size:13px;font-weight:600;color:var(--dark);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pi-meta{font-size:10.5px;color:var(--mid);display:flex;gap:6px;align-items:center}
+.pi-variant{font-size:10px;padding:1px 6px;border-radius:10px;background:var(--blue-light);color:var(--blue);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:120px}
+.empty-list{padding:2rem;text-align:center;color:#bbb;font-size:12.5px}
+
+/* STAGE PILLS */
+.stage-pill{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em;white-space:nowrap}
+.sp-1{background:#FFF0EB;color:#993C1D}
+.sp-2{background:#E6F1FB;color:#1A5FA8}
+.sp-3{background:#F3EEFF;color:#6B21A8}
+.sp-4{background:#EAF7EF;color:#1A6635}
+.sp-5{background:#F0F0F0;color:#555}
+
+/* DETAIL VIEW */
+.detail-wrap{display:flex;flex-direction:column;gap:12px}
+.empty-detail{display:flex;align-items:center;justify-content:center;min-height:300px;color:#ccc;font-size:13px;text-align:center}
+.empty-detail svg{width:44px;height:44px;stroke:#ddd;fill:none;stroke-width:1.5;margin:0 auto 12px;display:block}
+
+/* STAGE BAR */
+.stage-bar{display:flex;align-items:center;padding:11px 14px;background:var(--light);border-bottom:1px solid var(--border)}
+.stage-step{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+.stage-dot{width:22px;height:22px;border-radius:50%;background:#E0DDD7;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#999}
+.stage-dot.done{background:var(--orange);color:white}
+.stage-dot.curr{background:var(--orange);color:white;box-shadow:0 0 0 3px #FFD0BC}
+.stage-lbl{font-size:9px;color:var(--mid);text-align:center;line-height:1.3;max-width:52px}
+.stage-lbl.act{color:var(--orange);font-weight:700}
+.stage-line{height:2px;flex:1;background:#E0DDD7;margin-bottom:16px}
+.stage-line.done{background:var(--orange)}
+
+/* CHAT */
+.msg-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#bbb;padding:7px 13px 2px}
+.chat-area{padding:10px 13px;background:#FAFAF8;display:flex;flex-direction:column;gap:5px}
+.bwrap{display:flex}
+.bwrap.out{justify-content:flex-start}
+.bwrap.in{justify-content:flex-end}
+.bub{max-width:86%;padding:7px 12px;border-radius:16px 16px 16px 4px;font-size:12px;line-height:1.55;color:var(--dark);background:white;border:1px solid var(--border);white-space:pre-wrap;word-break:break-word}
+.bub.in{border-radius:16px 16px 4px 16px;background:var(--blue-light);border-color:#C5DDF6;color:#0A3A6B}
+.bub.hl{background:var(--orange-light);border-color:#FFD0BC}
+
+/* STAGE LOG */
+.stage-log-section{padding:10px 14px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:6px}
+.stage-log-item{font-size:11px;color:var(--mid);display:flex;gap:6px;align-items:flex-start;line-height:1.45}
+.stage-log-dot{width:6px;height:6px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:4px}
+
+/* COPY BTN */
+.copy-btn{font-size:11px;color:var(--mid);background:white;border:1px solid var(--border);border-radius:6px;padding:3px 9px;cursor:pointer;display:flex;align-items:center;gap:3px;transition:all .15s;font-family:'DM Sans',sans-serif}
+.copy-btn:hover{border-color:var(--orange);color:var(--orange)}
+.copy-btn svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.animate{animation:fadeUp .3s ease both}
+
+@media(max-width:750px){.grid{grid-template-columns:1fr}.stats-bar{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-dot">
+      <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    </div>
+    <div>
+      <div class="logo-name">Hint Media</div>
+      <div class="logo-sub">Seguimiento de Prospectos</div>
+    </div>
+  </div>
+  <div class="readonly-badge">👁 Solo lectura · <span id="last-update">cargando...</span></div>
+</header>
+
+<div class="page">
+  <div class="page-title">
+    <h1>Pipeline de <em>outreach</em></h1>
+    <p>Vista de seguimiento — actualizado cada vez que se sube el historial</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat-card"><div class="stat-num" id="st-total">—</div><div class="stat-lbl">Total prospectos</div></div>
+    <div class="stat-card"><div class="stat-num" id="st-1" style="color:#993C1D">—</div><div class="stat-lbl">Apertura enviada</div></div>
+    <div class="stat-card"><div class="stat-num" id="st-2" style="color:#1A5FA8">—</div><div class="stat-lbl">En conversación</div></div>
+    <div class="stat-card"><div class="stat-num" id="st-3" style="color:#6B21A8">—</div><div class="stat-lbl">Dossier enviado</div></div>
+    <div class="stat-card"><div class="stat-num" id="st-4" style="color:#1A6635">—</div><div class="stat-lbl">Seguimiento 1</div></div>
+    <div class="stat-card"><div class="stat-num" id="st-5" style="color:#555">—</div><div class="stat-lbl">Seguimiento 2</div></div>
+  </div>
+
+  <div class="grid">
+    <!-- LEFT: LIST -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <div style="flex:1">
+          <div class="card-ttl">Prospectos</div>
+          <div class="card-sub" id="list-count">—</div>
+        </div>
+      </div>
+      <div class="filter-row">
+        <input class="filter-input" id="search-input" placeholder="Buscar por nombre..." oninput="renderList()">
+        <select class="filter-sel" id="stage-filter" onchange="renderList()">
+          <option value="">Todas las etapas</option>
+          <option value="1">Apertura</option>
+          <option value="2">En conversación</option>
+          <option value="3">Dossier enviado</option>
+          <option value="4">Seguimiento 1</option>
+          <option value="5">Seguimiento 2</option>
+        </select>
+      </div>
+      <div class="prospect-list" id="prospect-list">
+        <div class="empty-list">Cargando...</div>
+      </div>
+    </div>
+
+    <!-- RIGHT: DETAIL -->
+    <div id="detail-col">
+      <div class="card">
+        <div class="card-body" style="padding:0">
+          <div class="empty-detail" id="empty-detail">
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              <p>Seleccioná un prospecto<br>para ver el detalle</p>
+            </div>
+          </div>
+          <div id="detail-view" style="display:none"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const STAGES = [null,
+  {label:'Apertura'},
+  {label:'En conversación'},
+  {label:'Dossier enviado'},
+  {label:'Seguimiento 1'},
+  {label:'Seguimiento 2'}
+];
+const STAGE_COLORS = ['','sp-1','sp-2','sp-3','sp-4','sp-5'];
+const STAGE_NAMES_SHORT = ['','Apertura','En conv.','Dossier','Seg. 1','Seg. 2'];
+
+let _entries = [];
+let _selected = null;
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/\n/g,'<br>');
+}
+function escAttr(s) {
+  return String(s||'').replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$/g,'\\$').replace(/"/g,'&quot;').replace(/\r?\n/g,'\\n');
+}
+function stgLabel(s){ return (STAGES[s]||{label:'?'}).label; }
+
+function parseDate(d) {
+  const p=(d||'').split('/');
+  return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('historial.json?t=' + Date.now());
+    const data = await res.json();
+    _entries = Array.isArray(data) ? data : [];
+    document.getElementById('last-update').textContent = 'actualizado';
+  } catch(e) {
+    _entries = [];
+    document.getElementById('last-update').textContent = 'sin datos';
+  }
+  renderStats();
+  renderList();
+}
+
+function renderStats() {
+  document.getElementById('st-total').textContent = _entries.length;
+  [1,2,3,4,5].forEach(s => {
+    document.getElementById('st-' + s).textContent = _entries.filter(e => (e.stage||1) === s).length;
+  });
+}
+
+function renderList() {
+  const q = (document.getElementById('search-input').value || '').toLowerCase().trim();
+  const sf = document.getElementById('stage-filter').value;
+  const sorted = [..._entries].sort((a,b) => parseDate(b.date) - parseDate(a.date));
+  let filtered = sorted;
+  if (q) filtered = filtered.filter(e => e.name.toLowerCase().includes(q));
+  if (sf) filtered = filtered.filter(e => (e.stage||1) === parseInt(sf));
+
+  document.getElementById('list-count').textContent = filtered.length + ' prospecto' + (filtered.length !== 1 ? 's' : '');
+
+  const list = document.getElementById('prospect-list');
+  if (!filtered.length) {
+    list.innerHTML = '<div class="empty-list">Sin resultados</div>';
+    return;
+  }
+  list.innerHTML = filtered.map(en => `
+    <div class="prospect-item${_selected === en.id ? ' selected' : ''}" onclick="selectProspect('${en.id}')">
+      <div class="pi-row">
+        <div class="pi-name">${esc(en.name)}</div>
+        <span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>
+      </div>
+      <div class="pi-meta">
+        <span>${en.date}</span>
+        <span class="pi-variant">${esc(en.variantTitle)}</span>
+      </div>
+    </div>`).join('');
+}
+
+function selectProspect(id) {
+  _selected = id;
+  renderList();
+  const en = _entries.find(e => e.id === id);
+  if (!en) return;
+  renderDetail(en);
+}
+
+function renderStageBar(en) {
+  const cur = en.stage || 1;
+  let h = '<div class="stage-bar">';
+  for (let i=1;i<=5;i++) {
+    const done = i < cur, curr = i === cur;
+    h += '<div class="stage-step">';
+    h += '<div class="stage-dot' + (done?' done':curr?' curr':'') + '">' + i + '</div>';
+    h += '<div class="stage-lbl' + (curr?' act':'') + '">' + STAGE_NAMES_SHORT[i] + '</div>';
+    h += '</div>';
+    if (i<5) h += '<div class="stage-line' + (done?' done':'') + '"></div>';
+  }
+  h += '</div>';
+  return h;
+}
+
+function renderDetail(en) {
+  document.getElementById('empty-detail').style.display = 'none';
+  const dv = document.getElementById('detail-view');
+  dv.style.display = 'block';
+
+  const msg1Bubbles = (en.msg1||'').replace(/\\n/g,'\n').split('\n\n').filter(t=>t.trim());
+  const msg2Bubbles = (en.msg2||'').replace(/\\n/g,'\n').split('\n\n').filter(t=>t.trim());
+  const b1html = msg1Bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+  const b2html = msg2Bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+
+  // Stage log
+  const log = en.stageHistory || [{stage:1, date:en.date, note:''}];
+  const logHtml = log.map(l =>
+    '<div class="stage-log-item"><div class="stage-log-dot"></div><span><strong>' + stgLabel(l.stage) + '</strong> · ' + l.date + (l.note ? ' — <em>' + esc(l.note) + '</em>' : '') + '</span></div>'
+  ).join('');
+
+  // Extra messages (MSG3, MSG4, SEG1, SEG2)
+  const extra = en.extraMsgs || {};
+  const extraLabels = { MSG3:'MSG3 — Dossier', MSG4:'MSG4 — Cierre', SEG1:'SEG1 — Seguimiento 1', SEG2:'SEG2 — Seguimiento 2' };
+  let extraHtml = '';
+  Object.entries(extraLabels).forEach(([key, label]) => {
+    const bubbles = extra[key];
+    if (!bubbles || !bubbles.length) return;
+    const bubblesHtml = bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+    extraHtml += `<div style="border:1px solid var(--border);border-radius:9px;overflow:hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;background:var(--light);border-bottom:1px solid var(--border)">
+        <span style="font-size:11px;font-weight:700;color:var(--dark)">${label}</span>
+        <button class="copy-btn" onclick="copyTxt(this,'${escAttr(bubbles.join('\n\n'))}')">\
+          <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>Copiar\
+        </button>
+      </div>
+      <div class="chat-area">${bubblesHtml}</div>
+    </div>`;
+  });
+
+  // Conversation history
+  let convHtml = '';
+  const history = en.conversationHistory || [];
+  let stepNum = 1;
+  let i = 0;
+  while (i < history.length && history[i].role !== 'received') i++;
+  while (i < history.length) {
+    if (history[i].role === 'received') {
+      const replyText = history[i].text;
+      const suggested = history[i+1] && history[i+1].role === 'suggested' ? history[i+1].text : null;
+      if (suggested) {
+        const bHtml = suggested.replace(/\\n/g,'\n').split('\n\n').filter(t=>t).map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+        convHtml += `<div style="border:1px solid var(--border);border-radius:11px;overflow:hidden">
+          <div style="padding:9px 13px;background:var(--dark2);display:flex;align-items:center;justify-content:space-between">
+            <span style="font-size:11.5px;font-weight:600;color:white">💬 Intercambio ${stepNum}</span>
+          </div>
+          <div class="chat-area" style="display:flex;flex-direction:column;gap:5px">
+            <div class="msg-label" style="color:var(--blue)">Respondió</div>
+            <div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div>
+            <div class="msg-label" style="margin-top:4px">Respuesta enviada</div>${bHtml}
+          </div>
+        </div>`;
+        stepNum++; i += 2;
+      } else i++;
+    } else i++;
+  }
+
+  dv.innerHTML = `
+    <div class="var-head" style="display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:7px">
+        <span style="font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;background:var(--blue-light);color:var(--blue)">Prospecto</span>
+        <span style="font-size:12px;font-weight:600;color:var(--dark)">${esc(en.name)}</span>
+      </div>
+      <span style="font-size:10.5px;color:var(--mid)">${en.date} · ${esc(en.variantTitle)}</span>
+    </div>
+    ${renderStageBar(en)}
+    <div style="padding:10px 14px;border-bottom:1px solid var(--border);background:white">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);margin-bottom:6px">Registro de etapas</div>
+      ${logHtml}
+    </div>
+    ${b1html ? `<div class="msg-label">Primer mensaje</div><div class="chat-area">${b1html}</div>` : ''}
+    ${b2html ? `<div class="msg-label">Segundo mensaje</div><div class="chat-area">${b2html}</div>` : ''}
+    ${convHtml ? `<div style="padding:12px 14px;display:flex;flex-direction:column;gap:10px">${convHtml}</div>` : ''}
+    ${extraHtml ? `<div style="padding:0 14px 14px;display:flex;flex-direction:column;gap:10px">${extraHtml}</div>` : ''}
+  `;
+}
+
+function copyTxt(btn, text) {
+  const cleanText = text.replace(/\\n/g,'\n');
+  navigator.clipboard.writeText(cleanText).then(()=>{
+    const o = btn.innerHTML;
+    btn.innerHTML = '<span>✓ Copiado</span>';
+    setTimeout(()=>{ btn.innerHTML = o; }, 2000);
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>
