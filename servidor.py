@@ -4,6 +4,10 @@ import http.server
 import socketserver
 import httpx
 import os
+import threading
+import subprocess
+
+_hist_lock = threading.Lock()
 
 # Load .env.local if present (local dev only, never committed)
 _env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env.local')
@@ -79,11 +83,25 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
 
         elif self.path == '/api/historial':
             try:
-                entries = json.loads(body)
-                with open(HIST_FILE, 'w', encoding='utf-8') as f:
-                    json.dump(entries, f, ensure_ascii=False, indent=2)
+                incoming = json.loads(body)
+                with _hist_lock:
+                    try:
+                        with open(HIST_FILE, 'r', encoding='utf-8') as f:
+                            existing = json.load(f)
+                    except (FileNotFoundError, json.JSONDecodeError):
+                        existing = []
+                    # upsert por id — incoming puede ser array completo o entry única
+                    if isinstance(incoming, dict):
+                        incoming = [incoming]
+                    index = {e['id']: e for e in existing}
+                    for entry in incoming:
+                        index[entry['id']] = entry
+                    merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True)
+                    with open(HIST_FILE, 'w', encoding='utf-8') as f:
+                        json.dump(merged, f, ensure_ascii=False, indent=2)
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(b'{"ok":true}')
             except Exception as e:
@@ -91,6 +109,30 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_header('Content-Type', 'application/json')
                 self.end_headers()
                 self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+
+        elif self.path == '/api/sync':
+            try:
+                msgs = []
+                for cmd in [
+                    ['git', '-C', BASE_DIR, 'add', 'historial.json'],
+                    ['git', '-C', BASE_DIR, 'commit', '-m', 'sync historial', '--allow-empty'],
+                    ['git', '-C', BASE_DIR, 'push'],
+                ]:
+                    r = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+                    msgs.append(r.stdout.strip() or r.stderr.strip())
+                    if r.returncode != 0 and cmd[3] != 'commit':
+                        raise Exception(msgs[-1])
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': True, 'msg': ' | '.join(msgs)}).encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': False, 'msg': str(e)}).encode('utf-8'))
 
         else:
             self.send_response(404)

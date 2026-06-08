@@ -31,6 +31,28 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 
+/* PROXIMOS PANEL */
+#proximos-bar{background:var(--dark2);border-bottom:2px solid #333;padding:0 2rem;position:sticky;top:56px;z-index:99}
+#proximos-toggle{display:flex;align-items:center;gap:10px;height:38px;cursor:pointer;user-select:none}
+#proximos-toggle:hover .prox-label{color:white}
+.prox-label{font-size:12px;font-weight:600;color:#aaa;transition:color .15s}
+.prox-count{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;background:#333;color:#ccc}
+.prox-count.has-overdue{background:#7C1D00;color:#FF9980}
+.prox-chevron{margin-left:auto;color:#555;font-size:13px;transition:transform .2s}
+#proximos-body{display:none;padding:10px 0 12px;display:none}
+#proximos-body.open{display:flex;flex-wrap:wrap;gap:8px;animation:slideDown .2s ease}
+.prox-card{background:#1F1F1F;border:1px solid #333;border-radius:9px;padding:8px 12px;cursor:pointer;transition:all .15s;min-width:180px;max-width:220px}
+.prox-card:hover{border-color:var(--orange);background:#2A2A2A}
+.prox-card.overdue{border-color:#7C1D00;background:#1A0800}
+.prox-card.overdue:hover{border-color:#FF3B00}
+.prox-card-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+.prox-card-days{font-size:11px;font-weight:700}
+.prox-card-days.red{color:#FF5C35}
+.prox-card-days.orange{color:#FFA040}
+.prox-card-days.green{color:#27AE60}
+.prox-card-stage{font-size:10px;color:#666;margin-top:1px}
+.overdue-badge{font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#FFE5E0;color:#8B1A00;flex-shrink:0}
+
 /* CONTAINER */
 .page{max-width:1060px;margin:0 auto;padding:2rem 1.5rem 5rem}
 .page-title{margin-bottom:1.5rem}
@@ -161,6 +183,12 @@ textarea.reply-input::placeholder{color:#bbb;font-style:italic}
 .sp-3{background:#F3EEFF;color:#6B21A8}
 .sp-4{background:#EAF7EF;color:#1A6635}
 .sp-5{background:#F0F0F0;color:#555}
+.sp-x{background:#F0F0F0;color:#999}
+.hist-item.noint{opacity:.55}
+.hist-item.noint .hist-item-name{text-decoration:line-through;color:#aaa}
+.hist-chip{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;border:1.5px solid var(--border);background:var(--light);color:var(--mid);cursor:pointer;transition:all .15s;user-select:none}
+.hist-chip:hover{border-color:var(--orange);color:var(--orange)}
+.hist-chip.active{border-color:var(--orange);background:var(--orange-light);color:var(--orange-dark)}
 
 /* STAGE BAR */
 .stage-bar{display:flex;align-items:center;padding:11px 14px;background:var(--light);border-bottom:1px solid var(--border)}
@@ -195,11 +223,27 @@ textarea.reply-input::placeholder{color:#bbb;font-style:italic}
       <div class="logo-sub">Generador LinkedIn</div>
     </div>
   </div>
-  <div class="status-pill">
-    <span class="status-dot"></span>
-    <span id="status-txt">Listo</span>
+  <div style="display:flex;align-items:center;gap:8px">
+    <button id="sync-btn" onclick="syncJefe()" style="background:#1a1a1a;border:1px solid #444;border-radius:20px;padding:4px 12px;font-size:11.5px;color:#aaa;cursor:pointer;display:flex;align-items:center;gap:6px;font-family:'DM Sans',sans-serif;transition:all .15s" onmouseover="this.style.borderColor='#FF5C35';this.style.color='#FF5C35'" onmouseout="this.style.borderColor='#444';this.style.color='#aaa'">
+      <svg id="sync-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+      <span id="sync-txt">Sincronizar</span>
+    </button>
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      <span id="status-txt">Listo</span>
+    </div>
   </div>
 </header>
+
+<div id="proximos-bar">
+  <div id="proximos-toggle" onclick="toggleProximos()">
+    <span style="font-size:14px">📅</span>
+    <span class="prox-label">Próximos a contactar</span>
+    <span class="prox-count" id="prox-count">0</span>
+    <span class="prox-chevron" id="prox-chevron">▼</span>
+  </div>
+  <div id="proximos-body"></div>
+</div>
 
 <div class="page">
   <div class="page-title">
@@ -267,7 +311,8 @@ Dermocosmetics | Beauty Care | Skin Care..."></textarea>
           <svg class="hist-chevron" id="hist-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
         </div>
         <div id="hist-body" style="display:none">
-          <div style="padding:8px 10px 6px">
+          <div id="hist-stats" style="display:flex;flex-wrap:wrap;gap:5px;padding:8px 10px 4px"></div>
+          <div style="padding:4px 10px 6px">
             <input id="hist-search" type="text" placeholder="Buscar por nombre..." oninput="renderHistoryList()" style="width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
           </div>
           <div class="hist-list" id="hist-list">
@@ -370,6 +415,7 @@ REGLAS MSG1:
 - Ejemplos de preguntas correctas: "¿Lo vienen impulsando fuerte?" / "¿Nació desde tu equipo?" / "¿Lo están escalando?" / "¿Tuviste participación directa?"
 - NO hacer preguntas profundas, consultivas o de diagnóstico
 - Generar 4 variantes con ángulo, observación y pregunta DISTINTOS
+- VARIANTE C obligatoria: estructura "investigación + logro" — B1 agradecimiento, B2 solo hechos: cargo + empresa + qué hace + logro específico con dato concreto del perfil (SIN pregunta, SIN opinión, SIN observación), B3 textual exacto: "Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar." NO modificar B3. NO agregar pregunta en ninguna burbuja.
 - VARIANTE D obligatoria: estructura "verificación + permiso" — B1 agradecimiento, B2 verificar cargo/empresa ("Según veo, sos [cargo] en [empresa], es así?"), B3 pedir permiso para preguntar ("Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?"). Tono informal y directo, sin observación ni pregunta de fondo todavía.
 
 REGLAS MSG2:
@@ -377,6 +423,7 @@ REGLAS MSG2:
 - NO vender todavía, NO pedir reunión
 - Estructura: agradecimiento → su contexto → oportunidad observada → conectar con Hint → pedir permiso para dossier
 - Primero su mundo. Después mi mundo. Recién después Hint.
+- MÁXIMO 4 burbujas, cada burbuja máximo 2 líneas. Mensaje corto y directo, no explicar de más.
 - CTA: "¿Te lo envío por acá?" o "¿Te lo envío por acá? En todo caso me podrás indicar a quién se lo puedo enviar."
 - Generar 4 variantes (incluyendo MSG2 para la Variante D "verificación + permiso")
 
@@ -445,12 +492,12 @@ MSG2_B3: texto
 MSG2_B4: texto
 
 ---VARIANTE---
-TITULO: (nombre corto variante C)
+TITULO: Investigación + logro
 SCORE: (número del 1 al 10)
-TIP: (por qué funciona)
-MSG1_B1: texto
-MSG1_B2: texto
-MSG1_B3: texto
+TIP: (por qué funciona mostrar que investigaste con logro específico)
+MSG1_B1: [Nombre], gracias por conectar! 👋
+MSG1_B2: Vi que [cargo en empresa] — [qué hace la empresa en 1 frase]. [logro específico extraído del perfil, dato concreto]. SIN pregunta, SIN observación, SIN opinión. Solo hechos.
+MSG1_B3: Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar. (EXACTO, no modificar)
 RESPUESTA: (ejemplo de respuesta esperada)
 MSG2_B1: texto
 MSG2_B2: texto
@@ -491,6 +538,23 @@ B1: texto
 B2: texto
 B3: texto
 B4: texto`;
+
+// ─── SYNC JEFE ───────────────────────────────────────────────────────
+async function syncJefe() {
+  const btn = document.getElementById('sync-btn');
+  const txt = document.getElementById('sync-txt');
+  txt.textContent = 'Sincronizando...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('/api/sync', { method: 'POST' });
+    const data = await res.json();
+    txt.textContent = data.ok ? '✓ Sincronizado' : '✗ Error';
+    setTimeout(() => { txt.textContent = 'Sincronizar'; btn.disabled = false; }, 3000);
+  } catch {
+    txt.textContent = '✗ Error';
+    setTimeout(() => { txt.textContent = 'Sincronizar'; btn.disabled = false; }, 3000);
+  }
+}
 
 // ─── GENERATE OPENERS ───────────────────────────────────────────────
 async function generateOpeners() {
@@ -1025,14 +1089,30 @@ function renderAdvanceBox(en) {
       '<div class="stage-log-item"><div class="stage-log-dot"></div><span><strong>' + stgLabel(l.stage) + '</strong> · ' + l.date + (l.note ? ' — <em>' + esc(l.note) + '</em>' : '') + '</span></div>'
     ).join('');
   }
-  if (cur < 5) {
-    h += '<div style="font-size:11px;color:var(--mid);margin-top:4px">¿Qué pasó? <span style="color:#bbb">(opcional)</span></div>';
-    h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés, quiere saber más del equipo..."></textarea>';
-    h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\')">';
-    h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
-    h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+  // botones acción
+  h += '<div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap">';
+  if (cur > 1) {
+    h += '<button class="btn-advance" style="background:#444;flex:0" onclick="histGoBack(\'' + en.id + '\')">';
+    h += '← Volver a ' + stgLabel(cur - 1) + '</button>';
+  }
+  if (!en.noInterest) {
+    h += '<button class="btn-advance" style="background:#888;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
+    h += '✕ No interesado</button>';
   } else {
-    h += '<div style="font-size:11px;color:var(--green);font-weight:600;display:flex;gap:5px;align-items:center;margin-top:2px"><span>✓</span><span>Secuencia completa</span></div>';
+    h += '<button class="btn-advance" style="background:#444;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
+    h += '↩ Reactivar</button>';
+  }
+  h += '</div>';
+  if (!en.noInterest) {
+    if (cur < 5) {
+      h += '<div style="font-size:11px;color:var(--mid);margin-top:8px">¿Qué pasó? <span style="color:#bbb">(opcional)</span></div>';
+      h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés, quiere saber más del equipo..."></textarea>';
+      h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\')">';
+      h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
+      h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+    } else {
+      h += '<div style="font-size:11px;color:var(--green);font-weight:600;display:flex;gap:5px;align-items:center;margin-top:2px"><span>✓</span><span>Secuencia completa</span></div>';
+    }
   }
   h += '</div>';
   return h;
@@ -1052,8 +1132,26 @@ function histAdvanceStage(id) {
   renderHistoryList();
   histRestore(id);
 }
+function histGoBack(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en || (en.stage||1) <= 1) return;
+  en.stage = (en.stage||1) - 1;
+  if (en.stageHistory && en.stageHistory.length > 1) en.stageHistory.pop();
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+function histMarkNoInterest(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  en.noInterest = !en.noInterest;
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
 
 let _histEntries = [];
+let _histStageFilter = '';
 
 async function initHist() {
   try {
@@ -1078,11 +1176,72 @@ async function initHist() {
   }
 }
 
-function histPersist() {
+function parseDateEntry(str) {
+  const p = (str||'').split('/');
+  if (p.length !== 3) return null;
+  const [d, m, y] = p.map(Number);
+  return new Date(2000 + y, m - 1, d);
+}
+function daysAgo(dateStr) {
+  const d = parseDateEntry(dateStr);
+  if (!d) return 0;
+  return Math.floor((Date.now() - d.getTime()) / 86400000);
+}
+function getLastActivityDate(entry) {
+  const hist = entry.stageHistory;
+  if (hist && hist.length > 0) return hist[hist.length - 1].date;
+  return entry.date;
+}
+function getOverdueEntries() {
+  return _histEntries
+    .filter(en => daysAgo(getLastActivityDate(en)) >= 7)
+    .sort((a, b) => daysAgo(getLastActivityDate(b)) - daysAgo(getLastActivityDate(a)));
+}
+function renderAlertBanner() {
+  renderProximos();
+}
+function toggleProximos() {
+  const body = document.getElementById('proximos-body');
+  const chev = document.getElementById('prox-chevron');
+  const open = body.classList.contains('open');
+  body.classList.toggle('open', !open);
+  chev.style.transform = open ? '' : 'rotate(180deg)';
+}
+function renderProximos() {
+  const sorted = [..._histEntries].filter(en => !en.noInterest).sort((a, b) => daysAgo(getLastActivityDate(b)) - daysAgo(getLastActivityDate(a)));
+  const countEl = document.getElementById('prox-count');
+  const body = document.getElementById('proximos-body');
+  if (!sorted.length || !countEl || !body) return;
+  const overdueCnt = sorted.filter(en => daysAgo(getLastActivityDate(en)) >= 7).length;
+  countEl.textContent = sorted.length;
+  countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
+  body.innerHTML = sorted.map(en => {
+    const days = daysAgo(getLastActivityDate(en));
+    const remaining = 7 - days;
+    const overdue = days >= 7;
+    let daysLabel, daysClass;
+    if (overdue) { daysLabel = `⚠ Vencido · hace ${days}d`; daysClass = 'red'; }
+    else if (remaining <= 2) { daysLabel = `Hablar en ${remaining}d`; daysClass = 'orange'; }
+    else { daysLabel = `Hablar en ${remaining}d`; daysClass = 'green'; }
+    return `<div class="prox-card${overdue ? ' overdue' : ''}" onclick="proxCardClick('${en.id}')">
+      <div class="prox-card-name">${esc(en.name)}</div>
+      <div class="prox-card-days ${daysClass}">${daysLabel}</div>
+      <div class="prox-card-stage">${stgLabel(en.stage || 1)}</div>
+    </div>`;
+  }).join('');
+}
+function proxCardClick(id) {
+  histRestore(id);
+  document.getElementById('hist-body').style.display = 'block';
+  document.getElementById('hist-chevron').style.transform = 'rotate(180deg)';
+  toggleProximos();
+}
+function histPersist(entry) {
+  const payload = entry ? entry : _histEntries;
   fetch('/api/historial', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(_histEntries)
+    body: JSON.stringify(payload)
   }).catch(() => {});
 }
 function histExtractName(profile) {
@@ -1101,12 +1260,22 @@ function histUpsert(entry) {
     _histEntries.unshift(entry);
   }
   if (_histEntries.length > 300) _histEntries = _histEntries.slice(0, 300);
-  histPersist();
+  histPersist(entry);
   renderHistoryList();
 }
 function histUpdateConv(id, conversationHistory) {
   const i = _histEntries.findIndex(e => e.id === id);
   if (i >= 0) { _histEntries[i].conversationHistory = [...conversationHistory]; histPersist(); }
+}
+function histRename(id, e) {
+  e.stopPropagation();
+  const entry = _histEntries.find(en => en.id === id);
+  if (!entry) return;
+  const nuevo = prompt('Nuevo nombre:', entry.name);
+  if (!nuevo || !nuevo.trim() || nuevo.trim() === entry.name) return;
+  entry.name = nuevo.trim();
+  histPersist();
+  renderHistoryList();
 }
 function histDeleteEntry(id, e) {
   e.stopPropagation();
@@ -1121,8 +1290,34 @@ function toggleHistory() {
   body.style.display = open ? 'none' : 'block';
   chevron.style.transform = open ? '' : 'rotate(180deg)';
 }
+function filterHistChip(val) {
+  _histStageFilter = (_histStageFilter === val) ? '' : val;
+  renderHistoryList();
+}
+function renderHistStats() {
+  const bar = document.getElementById('hist-stats');
+  if (!bar) return;
+  const counts = {1:0,2:0,3:0,4:0,5:0,noint:0};
+  _histEntries.forEach(e => {
+    if (e.noInterest) counts.noint++;
+    else counts[e.stage||1] = (counts[e.stage||1]||0) + 1;
+  });
+  const chips = [
+    {val:'1', label:`Apertura · ${counts[1]}`},
+    {val:'2', label:`Conv. · ${counts[2]}`},
+    {val:'3', label:`Dossier · ${counts[3]}`},
+    {val:'4', label:`Seg.1 · ${counts[4]}`},
+    {val:'5', label:`Seg.2 · ${counts[5]}`},
+    {val:'noint', label:`No int. · ${counts.noint}`},
+  ];
+  bar.innerHTML = chips.map(c =>
+    `<span class="hist-chip${_histStageFilter === c.val ? ' active' : ''}" onclick="filterHistChip('${c.val}')">${c.label}</span>`
+  ).join('');
+}
 function renderHistoryList() {
   document.getElementById('hist-count').textContent = _histEntries.length;
+  renderAlertBanner();
+  renderHistStats();
   const list = document.getElementById('hist-list');
   if (!_histEntries.length) {
     list.innerHTML = '<div class="hist-empty">Todavía no hay prospectos guardados</div>';
@@ -1131,23 +1326,32 @@ function renderHistoryList() {
   const q = (document.getElementById('hist-search')?.value || '').toLowerCase().trim();
   const parseDate = d => { const p=(d||'').split('/'); return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0; };
   const sorted = [..._histEntries].sort((a,b) => parseDate(b.date) - parseDate(a.date));
-  const filtered = q ? sorted.filter(en => en.name.toLowerCase().includes(q)) : sorted;
+  let filtered = q ? sorted.filter(en => en.name.toLowerCase().includes(q)) : sorted;
+  if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
+  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && (en.stage||1) === parseInt(_histStageFilter));
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
     return;
   }
-  list.innerHTML = filtered.map(en => `
-    <div class="hist-item" onclick="histRestore('${en.id}')">
+  list.innerHTML = filtered.map(en => {
+    const days = daysAgo(getLastActivityDate(en));
+    const overdue = !en.noInterest && days >= 7;
+    const noint = !!en.noInterest;
+    return `
+    <div class="hist-item${noint ? ' noint' : ''}" onclick="histRestore('${en.id}')" style="${overdue ? 'border-color:#FFBCB0' : ''}">
       <div class="hist-item-row">
         <div class="hist-item-name">${esc(en.name)}</div>
-        <span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>
+        ${overdue ? `<span class="overdue-badge">⚠ ${days}d</span>` : ''}
+        ${noint ? `<span class="stage-pill sp-x">✕ No int.</span>` : `<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
+        <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
         <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
       </div>
       <div class="hist-item-meta">
         <span>${en.date}</span>
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 function histRestore(id) {
   const en = _histEntries.find(e => e.id === id);
