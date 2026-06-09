@@ -124,17 +124,25 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .prox-chevron{margin-left:auto;color:#555;font-size:13px;transition:transform .2s}
 #proximos-body{display:none;padding:10px 0 12px}
 #proximos-body.open{display:flex;flex-wrap:wrap;gap:8px;animation:slideDown .2s ease}
-.prox-card{background:#1F1F1F;border:1px solid #333;border-radius:9px;padding:8px 12px;cursor:pointer;transition:all .15s;min-width:180px;max-width:220px}
+.prox-card{background:#1F1F1F;border:1px solid #333;border-radius:9px;padding:8px 11px;cursor:pointer;transition:all .15s;width:200px;flex-shrink:0;display:flex;flex-direction:column;gap:2px}
 .prox-card:hover{border-color:var(--orange);background:#2A2A2A}
 .prox-card.overdue{border-color:#7C1D00;background:#1A0800}
 .prox-card.overdue:hover{border-color:#FF3B00}
-.prox-card-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+.prox-card-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .prox-card-days{font-size:11px;font-weight:700}
 .prox-card-days.red{color:#FF5C35}
 .prox-card-days.orange{color:#FFA040}
 .prox-card-days.green{color:#27AE60}
-.prox-card-stage{font-size:10px;color:#666;margin-top:1px}
+.prox-card-stage{font-size:10px;color:#666}
 .overdue-badge{font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#FFE5E0;color:#8B1A00;flex-shrink:0}
+.prox-group{display:contents}
+.prox-group-label{width:100%;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#aaa;padding:6px 4px 4px;margin-top:2px;flex-basis:100%;border-top:1px solid #333}
+.prox-card-snippet{font-size:10px;color:#555;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;font-style:italic}
+.prox-card-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:3px;gap:6px}
+.prox-stage-pill{font-size:9px;font-weight:700;padding:1px 6px;border-radius:10px;white-space:nowrap}
+.psp-1{background:#3A1500;color:#FF9060}
+.psp-2{background:#002A50;color:#60B0FF}
+.psp-3{background:#1A0040;color:#B080FF}
 
 @media(max-width:750px){.grid{grid-template-columns:1fr}.stats-bar{flex-wrap:wrap}}
 </style>
@@ -453,27 +461,73 @@ function toggleProximos() {
   body.classList.toggle('open', !open);
   chev.style.transform = open ? '' : 'rotate(180deg)';
 }
+function getThreshold(en) {
+  const s = en.stage || 1;
+  if (s === 2) return 2;
+  if (s === 3) return 5;
+  return 7;
+}
+function getSnippet(en) {
+  const hist = en.conversationHistory || [];
+  for (let i = hist.length - 1; i >= 0; i--) {
+    const r = hist[i];
+    if (r.role === 'received' || r.sender === 'them') {
+      const t = (r.text || '').trim().replace(/\n/g,' ');
+      return t.length > 55 ? t.substring(0,52)+'…' : t;
+    }
+  }
+  return '';
+}
+function stagePillProx(s) {
+  const cls = s===2?'psp-2':s===3?'psp-3':'psp-1';
+  return `<span class="prox-stage-pill ${cls}">${STAGE_NAMES_SHORT[s]||'Apertura'}</span>`;
+}
 function renderProximos() {
-  const sorted = [..._entries].sort((a, b) => daysAgo(getLastActivityDate(b)) - daysAgo(getLastActivityDate(a)));
+  const active = _entries.filter(en => !en.noInterest);
   const countEl = document.getElementById('prox-count');
   const body = document.getElementById('proximos-body');
-  if (!sorted.length || !countEl || !body) return;
-  const overdueCnt = sorted.filter(en => daysAgo(getLastActivityDate(en)) >= 7).length;
-  countEl.textContent = sorted.length;
-  countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
-  body.innerHTML = sorted.map(en => {
+  if (!countEl || !body) return;
+
+  const enriched = active.map(en => {
     const days = daysAgo(getLastActivityDate(en));
-    const remaining = 7 - days;
-    const overdue = days >= 7;
-    let daysLabel, daysClass;
-    if (overdue) { daysLabel = `⚠ Vencido · hace ${days}d`; daysClass = 'red'; }
-    else if (remaining <= 2) { daysLabel = `Hablar en ${remaining}d`; daysClass = 'orange'; }
-    else { daysLabel = `Hablar en ${remaining}d`; daysClass = 'green'; }
-    return `<div class="prox-card${overdue ? ' overdue' : ''}" onclick="selectProspect('${en.id}')">
-      <div class="prox-card-name">${esc(en.name)}</div>
-      <div class="prox-card-days ${daysClass}">${daysLabel}</div>
-      <div class="prox-card-stage">${stgLabel(en.stage || 1)}</div>
-    </div>`;
+    const thresh = getThreshold(en);
+    const remaining = thresh - days;
+    return { en, days, thresh, remaining, overdue: remaining <= 0 };
+  }).sort((a,b) => {
+    if (a.overdue !== b.overdue) return a.overdue ? -1 : 1;
+    if (a.remaining !== b.remaining) return a.remaining - b.remaining;
+    const sp = {2:0,3:1,1:2,4:3,5:4};
+    return (sp[a.en.stage||1]||2) - (sp[b.en.stage||1]||2);
+  });
+
+  const overdueCnt = enriched.filter(x => x.overdue).length;
+  countEl.textContent = enriched.length;
+  countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
+
+  const groups = [
+    { label: '⚠ Vencidos', items: enriched.filter(x => x.overdue) },
+    { label: '🟠 Próximos (1-2 días)', items: enriched.filter(x => !x.overdue && x.remaining <= 2) },
+    { label: '🟢 Con tiempo', items: enriched.filter(x => !x.overdue && x.remaining > 2) },
+  ].filter(g => g.items.length > 0);
+
+  body.innerHTML = groups.map(g => {
+    const cards = g.items.map(({en, days, remaining, overdue}) => {
+      const s = en.stage || 1;
+      let daysLabel, daysClass;
+      if (overdue) { daysLabel = `Vencido · hace ${days}d`; daysClass = 'red'; }
+      else if (remaining <= 1) { daysLabel = remaining === 0 ? 'Hoy' : 'Mañana'; daysClass = 'orange'; }
+      else { daysLabel = `En ${remaining}d`; daysClass = 'green'; }
+      const snippet = getSnippet(en);
+      return `<div class="prox-card${overdue ? ' overdue' : ''}" onclick="selectProspect('${en.id}')">
+        <div class="prox-card-name">${esc(en.name)}</div>
+        ${snippet ? `<div class="prox-card-snippet">${esc(snippet)}</div>` : ''}
+        <div class="prox-card-bottom">
+          <div class="prox-card-days ${daysClass}">${daysLabel}</div>
+          ${stagePillProx(s)}
+        </div>
+      </div>`;
+    }).join('');
+    return `<div class="prox-group-label">${g.label} (${g.items.length})</div>${cards}`;
   }).join('');
 }
 
