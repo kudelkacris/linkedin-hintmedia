@@ -38,7 +38,9 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 
 /* STATS BAR */
 .stats-bar{display:flex;gap:12px;margin-bottom:1.5rem;flex-wrap:wrap}
-.stat-card{background:white;border:1px solid var(--border);border-radius:11px;padding:12px 16px;display:flex;flex-direction:column;gap:2px;flex:1;min-width:100px}
+.stat-card{background:white;border:1px solid var(--border);border-radius:11px;padding:12px 16px;display:flex;flex-direction:column;gap:2px;flex:1;min-width:100px;cursor:pointer;transition:all .15s;user-select:none}
+.stat-card:hover{border-color:var(--orange);background:var(--orange-light)}
+.stat-card:hover .stat-num{color:var(--orange)}
 .stat-num{font-size:22px;font-weight:700;color:var(--dark)}
 .stat-lbl{font-size:11px;color:var(--mid)}
 .stat-card.active{border-color:var(--orange);background:var(--orange-light)}
@@ -69,6 +71,8 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .sp-3{background:#F3EEFF;color:#6B21A8}
 .sp-4{background:#EAF7EF;color:#1A6635}
 .sp-5{background:#F0F0F0;color:#555}
+.sp-x{background:#F0F0F0;color:#999}
+.pi-name.noint{text-decoration:line-through;color:#aaa}
 
 /* DETAIL VIEW */
 .detail-wrap{display:flex;flex-direction:column;gap:12px}
@@ -107,7 +111,30 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .copy-btn svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 .animate{animation:fadeUp .3s ease both}
+
+/* PROXIMOS PANEL */
+#proximos-bar{background:var(--dark2);border-bottom:2px solid #333;padding:0 2rem;position:sticky;top:56px;z-index:99}
+#proximos-toggle{display:flex;align-items:center;gap:10px;height:38px;cursor:pointer;user-select:none}
+#proximos-toggle:hover .prox-label{color:white}
+.prox-label{font-size:12px;font-weight:600;color:#aaa;transition:color .15s}
+.prox-count{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;background:#333;color:#ccc}
+.prox-count.has-overdue{background:#7C1D00;color:#FF9980}
+.prox-chevron{margin-left:auto;color:#555;font-size:13px;transition:transform .2s}
+#proximos-body{display:none;padding:10px 0 12px}
+#proximos-body.open{display:flex;flex-wrap:wrap;gap:8px;animation:slideDown .2s ease}
+.prox-card{background:#1F1F1F;border:1px solid #333;border-radius:9px;padding:8px 12px;cursor:pointer;transition:all .15s;min-width:180px;max-width:220px}
+.prox-card:hover{border-color:var(--orange);background:#2A2A2A}
+.prox-card.overdue{border-color:#7C1D00;background:#1A0800}
+.prox-card.overdue:hover{border-color:#FF3B00}
+.prox-card-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+.prox-card-days{font-size:11px;font-weight:700}
+.prox-card-days.red{color:#FF5C35}
+.prox-card-days.orange{color:#FFA040}
+.prox-card-days.green{color:#27AE60}
+.prox-card-stage{font-size:10px;color:#666;margin-top:1px}
+.overdue-badge{font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#FFE5E0;color:#8B1A00;flex-shrink:0}
 
 @media(max-width:750px){.grid{grid-template-columns:1fr}.stats-bar{flex-wrap:wrap}}
 </style>
@@ -127,6 +154,16 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
   <div class="readonly-badge">👁 Solo lectura · <span id="last-update">cargando...</span></div>
 </header>
 
+<div id="proximos-bar">
+  <div id="proximos-toggle" onclick="toggleProximos()">
+    <span style="font-size:14px">📅</span>
+    <span class="prox-label">Próximos a contactar</span>
+    <span class="prox-count" id="prox-count">0</span>
+    <span class="prox-chevron" id="prox-chevron">▼</span>
+  </div>
+  <div id="proximos-body"></div>
+</div>
+
 <div class="page">
   <div class="page-title">
     <h1>Pipeline de <em>outreach</em></h1>
@@ -135,12 +172,13 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 
   <!-- STATS -->
   <div class="stats-bar" id="stats-bar">
-    <div class="stat-card"><div class="stat-num" id="st-total">—</div><div class="stat-lbl">Total prospectos</div></div>
-    <div class="stat-card"><div class="stat-num" id="st-1" style="color:#993C1D">—</div><div class="stat-lbl">Apertura enviada</div></div>
-    <div class="stat-card"><div class="stat-num" id="st-2" style="color:#1A5FA8">—</div><div class="stat-lbl">En conversación</div></div>
-    <div class="stat-card"><div class="stat-num" id="st-3" style="color:#6B21A8">—</div><div class="stat-lbl">Dossier enviado</div></div>
-    <div class="stat-card"><div class="stat-num" id="st-4" style="color:#1A6635">—</div><div class="stat-lbl">Seguimiento 1</div></div>
-    <div class="stat-card"><div class="stat-num" id="st-5" style="color:#555">—</div><div class="stat-lbl">Seguimiento 2</div></div>
+    <div class="stat-card" onclick="filterStat('')"><div class="stat-num" id="st-total">—</div><div class="stat-lbl">Total prospectos</div></div>
+    <div class="stat-card" onclick="filterStat('1')"><div class="stat-num" id="st-1" style="color:#993C1D">—</div><div class="stat-lbl">Apertura enviada</div></div>
+    <div class="stat-card" onclick="filterStat('2')"><div class="stat-num" id="st-2" style="color:#1A5FA8">—</div><div class="stat-lbl">En conversación</div></div>
+    <div class="stat-card" onclick="filterStat('3')"><div class="stat-num" id="st-3" style="color:#6B21A8">—</div><div class="stat-lbl">Dossier enviado</div></div>
+    <div class="stat-card" onclick="filterStat('4')"><div class="stat-num" id="st-4" style="color:#1A6635">—</div><div class="stat-lbl">Seguimiento 1</div></div>
+    <div class="stat-card" onclick="filterStat('5')"><div class="stat-num" id="st-5" style="color:#555">—</div><div class="stat-lbl">Seguimiento 2</div></div>
+    <div class="stat-card" onclick="filterStat('noint')"><div class="stat-num" id="st-noint" style="color:#999">—</div><div class="stat-lbl">No interesados</div></div>
   </div>
 
   <div class="grid">
@@ -155,13 +193,14 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
       </div>
       <div class="filter-row">
         <input class="filter-input" id="search-input" placeholder="Buscar por nombre..." oninput="renderList()">
-        <select class="filter-sel" id="stage-filter" onchange="renderList()">
+        <select class="filter-sel" id="stage-filter" onchange="syncStatCards();renderList()">
           <option value="">Todas las etapas</option>
           <option value="1">Apertura</option>
           <option value="2">En conversación</option>
           <option value="3">Dossier enviado</option>
           <option value="4">Seguimiento 1</option>
           <option value="5">Seguimiento 2</option>
+          <option value="noint">No interesados</option>
         </select>
       </div>
       <div class="prospect-list" id="prospect-list">
@@ -225,22 +264,37 @@ async function loadData() {
   }
   renderStats();
   renderList();
+  renderProximos();
 }
 
 function renderStats() {
   document.getElementById('st-total').textContent = _entries.length;
   [1,2,3,4,5].forEach(s => {
-    document.getElementById('st-' + s).textContent = _entries.filter(e => (e.stage||1) === s).length;
+    document.getElementById('st-' + s).textContent = _entries.filter(e => (e.stage||1) === s && !e.noInterest).length;
   });
+  document.getElementById('st-noint').textContent = _entries.filter(e => e.noInterest).length;
 }
 
+function filterStat(val) {
+  const sel = document.getElementById('stage-filter');
+  sel.value = (sel.value === val) ? '' : val;
+  syncStatCards();
+  renderList();
+}
+function syncStatCards() {
+  const val = document.getElementById('stage-filter').value;
+  const cards = document.querySelectorAll('.stat-card');
+  const vals = ['','1','2','3','4','5','noint'];
+  cards.forEach((c,i) => c.classList.toggle('active', vals[i] === val && val !== ''));
+}
 function renderList() {
   const q = (document.getElementById('search-input').value || '').toLowerCase().trim();
   const sf = document.getElementById('stage-filter').value;
   const sorted = [..._entries].sort((a,b) => parseDate(b.date) - parseDate(a.date));
   let filtered = sorted;
   if (q) filtered = filtered.filter(e => e.name.toLowerCase().includes(q));
-  if (sf) filtered = filtered.filter(e => (e.stage||1) === parseInt(sf));
+  if (sf === 'noint') filtered = filtered.filter(e => e.noInterest);
+  else if (sf) filtered = filtered.filter(e => !e.noInterest && (e.stage||1) === parseInt(sf));
 
   document.getElementById('list-count').textContent = filtered.length + ' prospecto' + (filtered.length !== 1 ? 's' : '');
 
@@ -250,10 +304,10 @@ function renderList() {
     return;
   }
   list.innerHTML = filtered.map(en => `
-    <div class="prospect-item${_selected === en.id ? ' selected' : ''}" onclick="selectProspect('${en.id}')">
+    <div class="prospect-item${_selected === en.id ? ' selected' : ''}" style="${en.noInterest ? 'opacity:.55' : ''}" onclick="selectProspect('${en.id}')">
       <div class="pi-row">
-        <div class="pi-name">${esc(en.name)}</div>
-        <span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>
+        <div class="pi-name${en.noInterest ? ' noint' : ''}">${esc(en.name)}</div>
+        ${en.noInterest ? '<span class="stage-pill sp-x">✕ No int.</span>' : `<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
       </div>
       <div class="pi-meta">
         <span>${en.date}</span>
@@ -374,6 +428,53 @@ function copyTxt(btn, text) {
     btn.innerHTML = '<span>✓ Copiado</span>';
     setTimeout(()=>{ btn.innerHTML = o; }, 2000);
   });
+}
+
+function parseDateEntry(str) {
+  const p = (str||'').split('/');
+  if (p.length !== 3) return null;
+  const [d, m, y] = p.map(Number);
+  return new Date(2000 + y, m - 1, d);
+}
+function daysAgo(dateStr) {
+  const d = parseDateEntry(dateStr);
+  if (!d) return 0;
+  return Math.floor((Date.now() - d.getTime()) / 86400000);
+}
+function getLastActivityDate(entry) {
+  const hist = entry.stageHistory;
+  if (hist && hist.length > 0) return hist[hist.length - 1].date;
+  return entry.date;
+}
+function toggleProximos() {
+  const body = document.getElementById('proximos-body');
+  const chev = document.getElementById('prox-chevron');
+  const open = body.classList.contains('open');
+  body.classList.toggle('open', !open);
+  chev.style.transform = open ? '' : 'rotate(180deg)';
+}
+function renderProximos() {
+  const sorted = [..._entries].sort((a, b) => daysAgo(getLastActivityDate(b)) - daysAgo(getLastActivityDate(a)));
+  const countEl = document.getElementById('prox-count');
+  const body = document.getElementById('proximos-body');
+  if (!sorted.length || !countEl || !body) return;
+  const overdueCnt = sorted.filter(en => daysAgo(getLastActivityDate(en)) >= 7).length;
+  countEl.textContent = sorted.length;
+  countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
+  body.innerHTML = sorted.map(en => {
+    const days = daysAgo(getLastActivityDate(en));
+    const remaining = 7 - days;
+    const overdue = days >= 7;
+    let daysLabel, daysClass;
+    if (overdue) { daysLabel = `⚠ Vencido · hace ${days}d`; daysClass = 'red'; }
+    else if (remaining <= 2) { daysLabel = `Hablar en ${remaining}d`; daysClass = 'orange'; }
+    else { daysLabel = `Hablar en ${remaining}d`; daysClass = 'green'; }
+    return `<div class="prox-card${overdue ? ' overdue' : ''}" onclick="selectProspect('${en.id}')">
+      <div class="prox-card-name">${esc(en.name)}</div>
+      <div class="prox-card-days ${daysClass}">${daysLabel}</div>
+      <div class="prox-card-stage">${stgLabel(en.stage || 1)}</div>
+    </div>`;
+  }).join('');
 }
 
 loadData();
