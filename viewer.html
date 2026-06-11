@@ -110,6 +110,23 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .copy-btn:hover{border-color:var(--orange);color:var(--orange)}
 .copy-btn svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
 
+/* EMAIL LIST */
+.email-section{margin-bottom:1.5rem}
+.email-section-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.email-section-title{font-family:'DM Serif Display',serif;font-size:18px;color:var(--dark)}
+.email-badge{background:#E6F1FB;color:#1A5FA8;font-size:11px;font-weight:700;padding:2px 9px;border-radius:20px}
+.email-table{width:100%;border-collapse:collapse;background:white;border-radius:14px;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden}
+.email-table th{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);padding:9px 14px;background:var(--light);border-bottom:1px solid var(--border);text-align:left}
+.email-table td{font-size:12.5px;padding:10px 14px;border-bottom:1px solid #F0EDE8;vertical-align:top}
+.email-table tr:last-child td{border-bottom:none}
+.email-table tr:hover td{background:#FAFAF8}
+.email-name{font-weight:600;color:var(--dark)}
+.email-empresa{color:#666;font-size:11.5px;margin-top:2px}
+.email-addr{color:#1A5FA8;font-size:12px;display:flex;align-items:center;gap:6px}
+.email-ctx{font-size:11px;color:#888;font-style:italic;max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.email-copy{font-size:11px;color:var(--mid);background:white;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;white-space:nowrap;transition:all .15s;font-family:'DM Sans',sans-serif}
+.email-copy:hover{border-color:#1A5FA8;color:#1A5FA8}
+
 @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 @keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 .animate{animation:fadeUp .3s ease both}
@@ -184,6 +201,7 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
     <div class="stat-card" onclick="filterStat('1')"><div class="stat-num" id="st-1" style="color:#993C1D">—</div><div class="stat-lbl">Apertura enviada</div></div>
     <div class="stat-card" onclick="filterStat('2')"><div class="stat-num" id="st-2" style="color:#1A5FA8">—</div><div class="stat-lbl">En conversación</div></div>
     <div class="stat-card" onclick="filterStat('3')"><div class="stat-num" id="st-3" style="color:#6B21A8">—</div><div class="stat-lbl">Dossier enviado</div></div>
+    <div class="stat-card" onclick="filterStat('email')"><div class="stat-num" id="st-email" style="color:#1A5FA8">—</div><div class="stat-lbl">Dossier × mail</div></div>
     <div class="stat-card" onclick="filterStat('4')"><div class="stat-num" id="st-4" style="color:#1A6635">—</div><div class="stat-lbl">Seguimiento 1</div></div>
     <div class="stat-card" onclick="filterStat('5')"><div class="stat-num" id="st-5" style="color:#555">—</div><div class="stat-lbl">Seguimiento 2</div></div>
     <div class="stat-card" onclick="filterStat('noint')"><div class="stat-num" id="st-noint" style="color:#999">—</div><div class="stat-lbl">No interesados</div></div>
@@ -200,12 +218,13 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
         </div>
       </div>
       <div class="filter-row">
-        <input class="filter-input" id="search-input" placeholder="Buscar por nombre..." oninput="renderList()">
+        <input class="filter-input" id="search-input" placeholder="Buscar nombre, empresa, email, conversación..." oninput="renderList()">
         <select class="filter-sel" id="stage-filter" onchange="syncStatCards();renderList()">
           <option value="">Todas las etapas</option>
           <option value="1">Apertura</option>
           <option value="2">En conversación</option>
           <option value="3">Dossier enviado</option>
+          <option value="email">📧 Con email</option>
           <option value="4">Seguimiento 1</option>
           <option value="5">Seguimiento 2</option>
           <option value="noint">No interesados</option>
@@ -273,6 +292,7 @@ async function loadData() {
   renderStats();
   renderList();
   renderProximos();
+  renderEmailList();
 }
 
 function renderStats() {
@@ -281,6 +301,7 @@ function renderStats() {
     document.getElementById('st-' + s).textContent = _entries.filter(e => (e.stage||1) === s && !e.noInterest).length;
   });
   document.getElementById('st-noint').textContent = _entries.filter(e => e.noInterest).length;
+  document.getElementById('st-email').textContent = _entries.filter(e => !e.noInterest && histHasEmail(e)).length;
 }
 
 function filterStat(val) {
@@ -292,16 +313,33 @@ function filterStat(val) {
 function syncStatCards() {
   const val = document.getElementById('stage-filter').value;
   const cards = document.querySelectorAll('.stat-card');
-  const vals = ['','1','2','3','4','5','noint'];
+  const vals = ['','1','2','3','email','4','5','noint'];
   cards.forEach((c,i) => c.classList.toggle('active', vals[i] === val && val !== ''));
+}
+function histHasEmail(en) {
+  if (en.dossierMail) return true;
+  for (const sh of (en.stageHistory||[])) {
+    if (/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(sh.note||'')) return true;
+  }
+  return false;
 }
 function renderList() {
   const q = (document.getElementById('search-input').value || '').toLowerCase().trim();
   const sf = document.getElementById('stage-filter').value;
   const sorted = [..._entries].sort((a,b) => parseDate(b.date) - parseDate(a.date));
   let filtered = sorted;
-  if (q) filtered = filtered.filter(e => e.name.toLowerCase().includes(q));
+  if (q) filtered = filtered.filter(e => {
+    if (e.name.toLowerCase().includes(q)) return true;
+    if ((e.variantTitle||'').toLowerCase().includes(q)) return true;
+    if ((e.empresa||'').toLowerCase().includes(q)) return true;
+    if ((e.msg1||'').toLowerCase().includes(q)) return true;
+    if ((e.msg2||'').toLowerCase().includes(q)) return true;
+    for (const sh of (e.stageHistory||[])) { if ((sh.note||'').toLowerCase().includes(q)) return true; }
+    for (const c of (e.conversationHistory||[])) { if ((c.text||'').toLowerCase().includes(q)) return true; }
+    return false;
+  });
   if (sf === 'noint') filtered = filtered.filter(e => e.noInterest);
+  else if (sf === 'email') filtered = filtered.filter(e => !e.noInterest && histHasEmail(e));
   else if (sf) filtered = filtered.filter(e => !e.noInterest && (e.stage||1) === parseInt(sf));
 
   document.getElementById('list-count').textContent = filtered.length + ' prospecto' + (filtered.length !== 1 ? 's' : '');
@@ -319,6 +357,7 @@ function renderList() {
       </div>
       <div class="pi-meta">
         <span>${en.date}</span>
+        ${en.empresa ? `<span style="color:#888">${esc(en.empresa)}</span>` : ''}
         <span class="pi-variant">${esc(en.variantTitle)}</span>
       </div>
     </div>`).join('');
@@ -409,14 +448,25 @@ function renderDetail(en) {
     } else i++;
   }
 
+  const detailEmail = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' '));
+  const detailEmpresa = en.empresa || '';
+
   dv.innerHTML = `
     <div class="var-head" style="display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)">
       <div style="display:flex;align-items:center;gap:7px">
         <span style="font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;background:var(--blue-light);color:var(--blue)">Prospecto</span>
         <span style="font-size:12px;font-weight:600;color:var(--dark)">${esc(en.name)}</span>
+        ${detailEmpresa ? `<span style="font-size:11px;color:var(--mid)">· ${esc(detailEmpresa)}</span>` : ''}
       </div>
       <span style="font-size:10.5px;color:var(--mid)">${en.date} · ${esc(en.variantTitle)}</span>
     </div>
+    ${detailEmail ? `<div style="display:flex;align-items:center;gap:10px;padding:8px 13px;background:#E6F1FB;border-bottom:1px solid #C4DAFA">
+      <span style="font-size:12px">📧</span>
+      <span style="font-size:13px;font-weight:600;color:#1A5FA8">${esc(detailEmail)}</span>
+      <button class="copy-btn" style="margin-left:auto;border-color:#C4DAFA;color:#1A5FA8" onclick="copyTxt(this,'${escAttr(detailEmail)}')">
+        <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>Copiar
+      </button>
+    </div>` : ''}
     ${renderStageBar(en)}
     <div style="padding:10px 14px;border-bottom:1px solid var(--border);background:white">
       <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);margin-bottom:6px">Registro de etapas</div>
@@ -427,6 +477,52 @@ function renderDetail(en) {
     ${convHtml ? `<div style="padding:12px 14px;display:flex;flex-direction:column;gap:10px">${convHtml}</div>` : ''}
     ${extraHtml ? `<div style="padding:0 14px 14px;display:flex;flex-direction:column;gap:10px">${extraHtml}</div>` : ''}
   `;
+}
+
+function extractEmail(text) {
+  const m = (text||'').match(/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/);
+  return m ? m[0] : null;
+}
+function domainToEmpresa(email) {
+  const domain = email.split('@')[1] || '';
+  const base = domain.replace(/\.(com|org|net|co|ar|cr|pa|mx|uy|cl|pe|br|info|biz)(\.[a-z]{2})?$/i,'');
+  return base.replace(/[-_.]/g,' ').replace(/\b\w/g,c=>c.toUpperCase()).trim();
+}
+function renderEmailList() {
+  const emailRows = [];
+  for (const en of _entries) {
+    for (const sh of (en.stageHistory||[])) {
+      const note = sh.note || '';
+      if (!note.includes('@')) continue;
+      const email = extractEmail(note);
+      if (!email) continue;
+      const empresa = domainToEmpresa(email);
+      const ctx = (typeof en.msg1 === 'string' ? en.msg1 : '').replace(/\n/g,' ').trim().slice(0,80);
+      emailRows.push({ name: en.name, email, empresa, ctx, id: en.id });
+      break;
+    }
+  }
+  const sec = document.getElementById('email-section');
+  const tbody = document.getElementById('email-tbody');
+  const badge = document.getElementById('email-badge');
+  badge.textContent = emailRows.length;
+  sec.style.display = emailRows.length ? '' : 'none';
+  tbody.innerHTML = emailRows.map(r =>
+    `<tr>
+      <td><div class="email-name">${esc(r.name)}</div></td>
+      <td><div class="email-addr">${esc(r.email)}<button class="email-copy" onclick="copyEmail(this,'${escAttr(r.email)}')">Copiar</button></div></td>
+      <td><div class="email-empresa">${esc(r.empresa)}</div></td>
+      <td><div class="email-ctx" title="${escAttr(r.ctx)}">${esc(r.ctx)}</div></td>
+      <td></td>
+    </tr>`
+  ).join('');
+}
+function copyEmail(btn, email) {
+  navigator.clipboard.writeText(email).then(() => {
+    const o = btn.textContent;
+    btn.textContent = '✓ Copiado';
+    setTimeout(() => { btn.textContent = o; }, 2000);
+  });
 }
 
 function copyTxt(btn, text) {

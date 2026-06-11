@@ -195,8 +195,19 @@ textarea.reply-input::placeholder{color:#bbb;font-style:italic}
 .hist-item.noint{opacity:.55}
 .hist-item.noint .hist-item-name{text-decoration:line-through;color:#aaa}
 .hist-chip{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;border:1.5px solid var(--border);background:var(--light);color:var(--mid);cursor:pointer;transition:all .15s;user-select:none}
+.hsc{background:white;border:1px solid var(--border);border-radius:9px;padding:8px 11px;display:flex;flex-direction:column;gap:1px;flex:1;min-width:70px;cursor:pointer;transition:all .15s;user-select:none}
+.hsc:hover{border-color:var(--orange)}
+.hsc.active{border-color:var(--orange);background:var(--orange-light)}
+.hsc.active .hsc-num{color:var(--orange)}
+.hsc.blue-card{border-color:#C4DAFA}
+.hsc.blue-card:hover,.hsc.blue-card.active{border-color:#1A5FA8;background:#E6F1FB}
+.hsc.blue-card.active .hsc-num,.hsc.blue-card:hover .hsc-num{color:#1A5FA8}
+.hsc-num{font-size:18px;font-weight:700;color:var(--dark)}
+.hsc-lbl{font-size:10px;color:var(--mid)}
 .hist-chip:hover{border-color:var(--orange);color:var(--orange)}
 .hist-chip.active{border-color:var(--orange);background:var(--orange-light);color:var(--orange-dark)}
+.hist-chip.blue{color:#1A5FA8;border-color:#C4DAFA}
+.hist-chip.blue.active{border-color:#1A5FA8;background:#E6F1FB;color:#1A5FA8}
 
 /* STAGE BAR */
 .stage-bar{display:flex;align-items:center;padding:11px 14px;background:var(--light);border-bottom:1px solid var(--border)}
@@ -279,7 +290,12 @@ Nombre, cargo, empresa, descripción, lo que sea. Cuanto más texto pegues, más
 Ejemplo:
 Grecia Soberanes Fragoso
 Marketing Grouper Manager | Sr. Brand Manager
-Dermocosmetics | Beauty Care | Skin Care..."></textarea>
+Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></textarea>
+
+          <div style="padding:4px 0 2px;display:flex;align-items:center;gap:8px">
+            <label style="font-size:11px;font-weight:600;color:var(--mid);white-space:nowrap">Empresa</label>
+            <input id="empresa-input" type="text" placeholder="Se detecta automáticamente..." style="flex:1;padding:5px 9px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
+          </div>
 
           <div class="row2">
             <div>
@@ -319,9 +335,10 @@ Dermocosmetics | Beauty Care | Skin Care..."></textarea>
           <svg class="hist-chevron" id="hist-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
         </div>
         <div id="hist-body" style="display:none">
-          <div id="hist-stats" style="display:flex;flex-wrap:wrap;gap:5px;padding:8px 10px 4px"></div>
+          <div id="hist-statcards" style="display:flex;flex-wrap:wrap;gap:7px;padding:10px 10px 4px"></div>
+          <div id="hist-stats" style="display:flex;flex-wrap:wrap;gap:5px;padding:4px 10px 4px"></div>
           <div style="padding:4px 10px 6px">
-            <input id="hist-search" type="text" placeholder="Buscar por nombre..." oninput="renderHistoryList()" style="width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
+            <input id="hist-search" type="text" placeholder="Buscar nombre, email, empresa, conversación..." oninput="renderHistoryList()" style="width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
           </div>
           <div class="hist-list" id="hist-list">
             <div class="hist-empty">Todavía no hay prospectos guardados</div>
@@ -527,12 +544,17 @@ REGLAS MSG2:
     "Imagino que ahí empieza una parte del trabajo que suele pasar desapercibida..."
   El prospecto debe sentir primero "entendió mi situación" — y recién después "me está contando qué hace".
 
-- ESTRUCTURA OBLIGATORIA (6 pasos, 4 burbujas):
-  PASO 1 (burbuja 1): Retomar la observación del MSG1. Explicar por qué llamó la atención. Conectar con una realidad profesional. En A: partir de lo observado sobre la persona. En C: plantear el desafío que genera el contexto de negocio.
-  PASO 2 (burbuja 2): Qué es Hint. FRASE OBLIGATORIA: "En Hint Media trabajamos como un equipo externo integrado a áreas de marketing y comunicación."
-  PASO 3 (burbuja 2 o 3): Cómo trabaja Hint. Trafficker + CM + Diseñador + PM por menos que un empleado in-house.
-  PASO 4 (burbuja 3): Credibilidad. Clientes: TGS, Transener, Libra Seguros.
-  PASO 5 (burbuja 4 — CTA OBLIGATORIO): "¿Te puedo enviar un dossier breve por acá? O, en todo caso, ¿me podrías indicar a quién tendría sentido enviárselo?"
+- ESTRUCTURA OBLIGATORIA (4 burbujas):
+  PASO 0 (burbuja 1): Saludo humano breve que responde al prospecto. Si saludó, devolver el saludo. Si preguntó cómo estás, responder. Si fue cordial, ser cordial. Máximo 1 línea. Ejemplo: "Hola [Nombre], muy bien gracias! Un gusto también."
+  PASO 1 (burbuja 2): Retomar la observación del MSG1. Explicar por qué llamó la atención. Conectar con una realidad profesional. En A: partir de lo observado sobre la persona. En C: plantear el desafío que genera el contexto de negocio.
+  PASO 2 (burbuja 2): Introducir Hint de forma natural (no como frase armada). Qué hacemos, cómo trabajamos, 1-2 clientes relevantes — elegir según sector:
+    - Energía / Infraestructura / Industria pesada → TGS, Transener
+    - Seguros / Finanzas / Servicios → Libra Seguros, Destiny Group
+    - Retail / Moda / Deportes / Consumo masivo → Destiny Group, Tasarolli
+    - Comunicación / ESG / Corporativo → TGS, Transener
+    - Consultoría / Agencia / Tech → Destiny Group, Libra Seguros
+    - Si hay duda: Destiny Group + el más neutro disponible
+  PASO 3 (burbuja 3 — CTA OBLIGATORIO): "Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
 
 - MÁXIMO 4 burbujas, cada burbuja máximo 2 líneas. Corto y directo.
 - NUNCA usar ¡ ni ¿ en ningún mensaje. Solo signos de cierre (! y ?).
@@ -591,8 +613,7 @@ MSG1_B3: texto burbuja 3
 RESPUESTA: (ejemplo de respuesta esperada)
 MSG2_B1: texto burbuja 1
 MSG2_B2: texto burbuja 2
-MSG2_B3: texto burbuja 3
-MSG2_B4: texto burbuja 4
+MSG2_B3: Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---VARIANTE---
 TITULO: Investigación + logro
@@ -604,8 +625,7 @@ MSG1_B3: Si es correcto lo que leí, tenía una duda y quería saber si me podr�
 RESPUESTA: (ejemplo de respuesta esperada)
 MSG2_B1: texto
 MSG2_B2: texto
-MSG2_B3: texto
-MSG2_B4: texto
+MSG2_B3: Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 
 ---MSG3---
@@ -693,8 +713,7 @@ MSG1_B3: Si estoy entendiendo bien lo que leí, tenía una consulta y quería sa
 RESPUESTA: ...
 MSG2_B1: ...
 MSG2_B2: ...
-MSG2_B3: ...
-MSG2_B4: ...
+MSG2_B3: Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---VARIANTE---
 TITULO: Investigación + logro
@@ -705,8 +724,7 @@ MSG1_B3: Si es correcto lo que leí, tenía una duda y quería saber si me podí
 RESPUESTA: ...
 MSG2_B1: ...
 MSG2_B2: ...
-MSG2_B3: ...
-MSG2_B4: ...
+MSG2_B3: Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---MSG3---
 B1: ...
@@ -889,6 +907,7 @@ function selectVariant(idx, letter, fullText, msg1Text, msg2Text) {
     id: histId,
     date: new Date().toLocaleDateString('es-AR', { day:'2-digit', month:'2-digit', year:'2-digit' }),
     name: histExtractName(state.profile),
+    empresa: (document.getElementById('empresa-input')?.value?.trim()) || histExtractEmpresa(msg1Text, state.profile),
     variantTitle,
     msg1: msg1Text,
     msg2: msg2Text,
@@ -1178,11 +1197,23 @@ function renderAdvanceBox(en) {
   h += '</div>';
   if (!en.noInterest) {
     if (cur < 5) {
-      h += '<div style="font-size:11px;color:var(--mid);margin-top:8px">¿Qué pasó? <span style="color:#bbb">(opcional)</span></div>';
-      h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés, quiere saber más del equipo..."></textarea>';
-      h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\')">';
-      h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
-      h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+      h += '<div style="font-size:11px;color:var(--mid);margin-top:8px">¿Qué pasó? <span style="color:#bbb">(opcional — si te dieron email, pegalo acá)</span></div>';
+      h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés... o pegá el mail si lo dieron" oninput="detectEmailNote(this)"></textarea>';
+      h += '<div id="email-hint-' + en.id + '" style="display:none;font-size:11px;color:#1A5FA8;background:#E6F1FB;border-radius:6px;padding:4px 9px;margin-top:4px">📧 Email detectado</div>';
+      if (cur === 2) {
+        h += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px">';
+        h += '<button class="btn-advance" style="margin-top:0" onclick="histAdvanceStage(\'' + en.id + '\',false)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>';
+        h += 'Dossier</button>';
+        h += '<button class="btn-advance" style="margin-top:0;background:#1A5FA8" onclick="histAdvanceStage(\'' + en.id + '\',true)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>';
+        h += 'Dossier × mail</button>';
+        h += '</div>';
+      } else {
+        h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\',false)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
+        h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+      }
     } else {
       h += '<div style="font-size:11px;color:var(--green);font-weight:600;display:flex;gap:5px;align-items:center;margin-top:2px"><span>✓</span><span>Secuencia completa</span></div>';
     }
@@ -1191,7 +1222,14 @@ function renderAdvanceBox(en) {
   return h;
 }
 
-function histAdvanceStage(id) {
+function detectEmailNote(textarea) {
+  const id = textarea.id.replace('advance-note-','');
+  const hint = document.getElementById('email-hint-' + id);
+  if (!hint) return;
+  hint.style.display = /[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(textarea.value) ? '' : 'none';
+}
+
+function histAdvanceStage(id, isDossierMail) {
   const en = _histEntries.find(e => e.id === id);
   if (!en || (en.stage||1) >= 5) return;
   const noteEl = document.getElementById('advance-note-' + id);
@@ -1199,6 +1237,7 @@ function histAdvanceStage(id) {
   const newStage = (en.stage||1) + 1;
   const dateStr = new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'2-digit',year:'2-digit'});
   en.stage = newStage;
+  if (isDossierMail) en.dossierMail = true;
   if (!en.stageHistory) en.stageHistory = [{stage:1, date:en.date, note:''}];
   en.stageHistory.push({stage:newStage, date:dateStr, note});
   histPersist();
@@ -1363,6 +1402,53 @@ function histPersist(entry) {
 function histExtractName(profile) {
   return (profile || '').trim().split('\n').map(l => l.trim()).find(l => l) || 'Sin nombre';
 }
+function autoDetectEmpresa() {
+  const profile = document.getElementById('profile-input').value;
+  const input = document.getElementById('empresa-input');
+  if (!input || input.dataset.manual === '1') return;
+  const empresa = histExtractEmpresaFromProfile(profile);
+  input.value = empresa;
+}
+function histExtractEmpresaFromProfile(profile) {
+  const lines = (profile||'').split('\n').map(l => l.trim()).filter(l => l);
+  for (let i = 1; i < Math.min(lines.length, 10); i++) {
+    const l = lines[i];
+    const ma = l.match(/\bat\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (ma) return ma[1].trim();
+    const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (me) return me[1].trim();
+    if (!l.includes('|') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && l.length < 50 && !/grado|años|er |ción$|miento$/.test(l)) return l;
+  }
+  return '';
+}
+function histHasEmail(en) {
+  if (en.dossierMail) return true;
+  for (const sh of (en.stageHistory||[])) {
+    if (/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(sh.note||'')) return true;
+  }
+  return false;
+}
+
+function histExtractEmpresa(msg1, profile) {
+  // Try msg1 first: "en Company —"
+  const m = (msg1||'').match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^—\n]{2,50}?)\s*—/);
+  if (m) return m[1].trim();
+  // Fallback: profile text — look for "at Company" or "en Company" in headline lines
+  const lines = (profile||'').split('\n').map(l => l.trim()).filter(l => l);
+  for (let i = 1; i < Math.min(lines.length, 8); i++) {
+    const l = lines[i];
+    // "Title at Company" or "Title en Company"
+    const ma = l.match(/\bat\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (ma) return ma[1].trim();
+    const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (me) return me[1].trim();
+    // Standalone company line: short, capitalized, no | separators
+    if (!l.includes('|') && !l.includes('grado') && !l.includes('er') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3) {
+      return l;
+    }
+  }
+  return '';
+}
 function histUpsert(entry) {
   const i = _histEntries.findIndex(e => e.id === entry.id);
   if (i >= 0) {
@@ -1410,25 +1496,49 @@ function filterHistChip(val) {
   _histStageFilter = (_histStageFilter === val) ? '' : val;
   renderHistoryList();
 }
+function renderHistStatCards(counts) {
+  const el = document.getElementById('hist-statcards');
+  if (!el) return;
+  const cards = [
+    {val:'', num: _histEntries.length, lbl:'Total', color:'var(--dark)'},
+    {val:'1', num: counts[1], lbl:'Apertura', color:'#993C1D'},
+    {val:'2', num: counts[2], lbl:'Conv.', color:'#1A5FA8'},
+    {val:'3', num: counts[3], lbl:'Dossier', color:'#6B21A8'},
+    {val:'email', num: counts.email, lbl:'× mail', color:'#1A5FA8', blue:true},
+    {val:'4', num: counts[4], lbl:'Seg. 1', color:'#1A6635'},
+    {val:'5', num: counts[5], lbl:'Seg. 2', color:'#555'},
+    {val:'noint', num: counts.noint, lbl:'No int.', color:'#999'},
+  ];
+  el.innerHTML = cards.map(c => {
+    const isActive = _histStageFilter === c.val && c.val !== '';
+    return `<div class="hsc${isActive?' active':''}${c.blue?' blue-card':''}" onclick="filterHistChip('${c.val}')">
+      <div class="hsc-num" style="color:${c.color}">${c.num}</div>
+      <div class="hsc-lbl">${c.lbl}</div>
+    </div>`;
+  }).join('');
+}
+
 function renderHistStats() {
   const bar = document.getElementById('hist-stats');
   if (!bar) return;
-  const counts = {1:0,2:0,3:0,4:0,5:0,noint:0};
+  const counts = {1:0,2:0,3:0,4:0,5:0,noint:0,email:0};
   _histEntries.forEach(e => {
     if (e.noInterest) counts.noint++;
-    else counts[e.stage||1] = (counts[e.stage||1]||0) + 1;
+    else { counts[e.stage||1] = (counts[e.stage||1]||0) + 1; if (histHasEmail(e)) counts.email++; }
   });
   const chips = [
     {val:'1', label:`Apertura · ${counts[1]}`},
     {val:'2', label:`Conv. · ${counts[2]}`},
     {val:'3', label:`Dossier · ${counts[3]}`},
+    {val:'email', label:`📧 Mail · ${counts.email}`, blue:true},
     {val:'4', label:`Seg.1 · ${counts[4]}`},
     {val:'5', label:`Seg.2 · ${counts[5]}`},
     {val:'noint', label:`No int. · ${counts.noint}`},
   ];
   bar.innerHTML = chips.map(c =>
-    `<span class="hist-chip${_histStageFilter === c.val ? ' active' : ''}" onclick="filterHistChip('${c.val}')">${c.label}</span>`
+    `<span class="hist-chip${_histStageFilter === c.val ? ' active' : ''}${c.blue ? ' blue' : ''}" onclick="filterHistChip('${c.val}')">${c.label}</span>`
   ).join('');
+  renderHistStatCards(counts);
 }
 function renderHistoryList() {
   document.getElementById('hist-count').textContent = _histEntries.length;
@@ -1442,8 +1552,18 @@ function renderHistoryList() {
   const q = (document.getElementById('hist-search')?.value || '').toLowerCase().trim();
   const parseDate = d => { const p=(d||'').split('/'); return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0; };
   const sorted = _histEntries.map((e,i)=>({e,i})).sort((a,b)=>{ const dd=parseDate(b.e.date)-parseDate(a.e.date); return dd!==0?dd:a.i-b.i; }).map(x=>x.e);
-  let filtered = q ? sorted.filter(en => en.name.toLowerCase().includes(q)) : sorted;
+  function searchEntry(en) {
+    if (en.name.toLowerCase().includes(q)) return true;
+    if ((en.variantTitle||'').toLowerCase().includes(q)) return true;
+    if ((en.msg1||'').toLowerCase().includes(q)) return true;
+    if ((en.msg2||'').toLowerCase().includes(q)) return true;
+    for (const sh of (en.stageHistory||[])) { if ((sh.note||'').toLowerCase().includes(q)) return true; }
+    for (const c of (en.conversationHistory||[])) { if ((c.text||'').toLowerCase().includes(q)) return true; }
+    return false;
+  }
+  let filtered = q ? sorted.filter(searchEntry) : sorted;
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
+  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
   else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && (en.stage||1) === parseInt(_histStageFilter));
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
@@ -1464,6 +1584,7 @@ function renderHistoryList() {
       </div>
       <div class="hist-item-meta">
         <span>${en.date}</span>
+        ${en.empresa ? `<span style="color:#888;font-size:10.5px">${esc(en.empresa)}</span>` : ''}
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
     </div>`;
@@ -1476,6 +1597,9 @@ function histRestore(id) {
   state.extraMsgs = en.extraMsgs || {};
   state.conversationHistory = [...(en.conversationHistory || [])];
   state._historyId = id;
+
+  const empEl = document.getElementById('empresa-input');
+  if (empEl) { empEl.value = en.empresa || ''; empEl.dataset.manual = '0'; }
 
   // Show history detail view in right column
   const results = document.getElementById('results');
