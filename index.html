@@ -686,9 +686,7 @@ async function generateOpeners() {
   document.getElementById('conv-thread').style.display = 'none';
   document.getElementById('conv-thread').innerHTML = '';
 
-  const prompt = `${SYSTEM}
-
-PERFIL A ANALIZAR:
+  const prompt = `PERFIL A ANALIZAR:
 ${profile}
 
 IDIOMA: ${idioma === 'es' ? 'Español' : 'English'}
@@ -749,7 +747,7 @@ B3: ...
 B4: ...`;
 
   try {
-    const text = await callAPI(prompt);
+    const text = await callAPI(prompt, SYSTEM);
     state.rawText = text;
     renderVariants(text);
     state.conversationHistory.push({ role: 'system', text: `Perfil analizado: ${profile.substring(0,300)}` });
@@ -1003,9 +1001,7 @@ async function handleReply(stepNum) {
     return '';
   }).join('\n\n---\n\n');
 
-  const prompt = `${SYSTEM}
-
-CONVERSACIÓN EN CURSO:
+  const prompt = `CONVERSACIÓN EN CURSO:
 ${historyText}
 
 La persona acaba de responder: "${replyText}"
@@ -1025,7 +1021,7 @@ ANALISIS: (1 línea explicando por qué este mensaje en función de lo que respo
 SIGUIENTE: (qué se espera que pase después - "call agendada", "pide más info", "no interesado", etc.)`;
 
   try {
-    const text = await callAPI(prompt);
+    const text = await callAPI(prompt, SYSTEM);
     renderReplyResponse(stepNum, replyText, text);
   } catch(e) {
     btn.disabled = false;
@@ -1089,11 +1085,11 @@ function addNextStep(currentStep) {
 }
 
 // ─── API CALL (via servidor local) ──────────────────────────────────
-async function callAPI(prompt) {
+async function callAPI(prompt, system) {
   const res = await fetch('/api/generate', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ prompt })
+    body: JSON.stringify({ prompt, system: system || '' })
   });
   const data = await res.json();
   if (!res.ok || data.error) throw new Error(data.error || 'Error en la API');
@@ -1417,7 +1413,7 @@ function histExtractEmpresaFromProfile(profile) {
     if (ma) return ma[1].trim();
     const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
     if (me) return me[1].trim();
-    if (!l.includes('|') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && l.length < 50 && !/grado|años|er |ción$|miento$/.test(l)) return l;
+    if (!l.includes('|') && !l.includes(',') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && l.length < 50 && !/grado|años|er |ción$|miento$|contacto|mensaje|navigator|enviar|conectar/i.test(l)) return l;
   }
   return '';
 }
@@ -1452,7 +1448,7 @@ function histExtractEmpresa(msg1, profile) {
     const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
     if (me) return me[1].trim();
     // Standalone company line: short, capitalized, no | separators
-    if (!l.includes('|') && !l.includes('grado') && !l.includes('er') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3) {
+    if (!l.includes('|') && !l.includes(',') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && !/grado|años|er |ción$|miento$|contacto|mensaje|navigator|enviar|conectar/i.test(l)) {
       return l;
     }
   }
@@ -1477,6 +1473,17 @@ function histUpsert(entry) {
 function histUpdateConv(id, conversationHistory) {
   const i = _histEntries.findIndex(e => e.id === id);
   if (i >= 0) { _histEntries[i].conversationHistory = [...conversationHistory]; histPersist(); }
+}
+function histEditEmpresa(id, e) {
+  e.stopPropagation();
+  const entry = _histEntries.find(en => en.id === id);
+  if (!entry) return;
+  const nuevo = prompt('Empresa:', entry.empresa || '');
+  if (nuevo === null) return;
+  entry.empresa = nuevo.trim();
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
 }
 function histRename(id, e) {
   e.stopPropagation();
@@ -1593,7 +1600,7 @@ function renderHistoryList() {
       </div>
       <div class="hist-item-meta">
         <span>${en.date}</span>
-        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1,'') || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px">${esc(emp)}</span>` : ''; })()}
+        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1,'') || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px"><span style="font-weight:600;color:var(--mid)">Empresa:</span> ${esc(emp)}</span>` : ''; })()}
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
     </div>`;
@@ -1632,6 +1639,11 @@ function histRestore(id) {
         <span class="vtitle">${esc(en.name)} — ${esc(en.variantTitle)}</span>
       </div>
       <span style="font-size:10.5px;color:var(--mid)">${en.date}</span>
+    </div>
+    <div style="padding:6px 13px;background:var(--light);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px">
+      <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--mid)">Empresa</span>
+      <span id="empresa-display-${en.id}" style="font-size:12px;font-weight:600;color:var(--dark)">${esc(en.empresa||'—')}</span>
+      <button class="hist-del" style="font-size:11px;margin-left:2px" onclick="histEditEmpresa('${en.id}', event)" title="Editar empresa">✏️</button>
     </div>
     ${renderStageBar(en)}
     ${renderAdvanceBox(en)}

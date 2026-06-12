@@ -62,11 +62,18 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         if self.path == '/api/generate':
             data = json.loads(body)
             prompt = data.get('prompt', '')
+            system = data.get('system', '')
             try:
+                payload = {
+                    'model': 'claude-haiku-4-5-20251001',
+                    'max_tokens': 4000,
+                    'messages': [{'role': 'user', 'content': prompt}]
+                }
+                if system:
+                    payload['system'] = [{'type': 'text', 'text': system, 'cache_control': {'type': 'ephemeral'}}]
                 response = client.post(API_URL,
-                    json={'model': 'claude-haiku-4-5-20251001', 'max_tokens': 4000,
-                          'messages': [{'role': 'user', 'content': prompt}]},
-                    headers={'x-api-key': API_KEY, 'anthropic-version': '2023-06-01'}
+                    json=payload,
+                    headers={'x-api-key': API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-beta': 'prompt-caching-2024-07-31'}
                 )
                 result = response.json()
                 text = result['content'][0]['text']
