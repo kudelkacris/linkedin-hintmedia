@@ -1,5 +1,1279 @@
 [
   {
+    "id": "1781303319181",
+    "date": "12/06/26",
+    "name": "Ricardo Correa",
+    "empresa": "Grupo Valor",
+    "variantTitle": "La paradoja de tu crecimiento",
+    "msg1": "Ricardo, gracias por conectar. Un gusto.\n\nMe llamó la atención tu publicación sobre \"haz lo mejor que puedas, con lo que tienes, en donde estás\". No era un post motivacional genérico — era una reflexión sobre resiliencia operativa. Y justo después leo que Grupo Valor creció de 3 personas a 150+ colaboradores en 13 años, en 12 países, con 500+ casos. Eso no sucede por suerte.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Exacto. La razón por la que te escribo es porque vimos que muchas firmas de consultoría como Grupo Valor enfrentan un desafío particular cuando escalan: la demanda crece más rápido que la capacidad interna de ejecutar bien.\n\nEn Hint Media hacemos algo distinto. Insertamos equipos completos (Trafficker, CM, Diseñador, PM) dentro de la estructura de nuestros clientes por menos de lo que cuesta una sola persona in-house. Trabajamos con firmas como Destiny Group y Libra Seguros bajo ese modelo. Lo que vimos es que cuando una consultoría necesita multiplicar su capacidad de generación de demanda, narrativa y posicionamiento sin dilatar equipo permanente, ese es un espacio donde podemos complementar mucho.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Te envío acá el dossier de Hint Media. Adentro está cómo trabajamos, clientes y la propuesta completa.",
+        "La idea es que veas si hay sinergia con lo que están armando en Grupo Valor en los próximos 12 meses. Sin presión.",
+        "Cualquier duda mientras lo lees, me escribís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Ricardo, pasaron unos días. Quisiera saber si pudiste revisar el dossier.",
+        "Me interesa entender si hay algo en lo que Hint pueda sumar a Grupo Valor, o si preferís dejar esto para más adelante.",
+        "Sin apuro, solo quería saber en qué anda."
+      ],
+      "SEG1": [
+        "Ricardo, entiendo que los tiempos en consultoría son intensos. No quería quedar en la nada.",
+        "Si dentro de algunos meses hay algo donde podamos conversar sobre cómo complementar capacidad operativa y narrativa, me encantaría seguir en contacto.",
+        "De todas formas, quería agradecerte el tiempo y desearte éxitos en la expansión de Grupo Valor."
+      ],
+      "SEG2": [
+        "Último mensaje.",
+        "Mirando el perfil de Grupo Valor, veo que están abriendo nuevos servicios alrededor de healthcare, supply chain y transformación digital.",
+        "Si en algún momento necesitás armar narrativa diferenciada o escalar demanda en alguna de esas líneas sin sumar headcount permanente, el dossier sigue acá.",
+        "Gracias por abrirte a conectar. Nos vemos en el camino."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Ricardo, gracias por conectar. Un gusto.\n\nMe llamó la atención tu publicación sobre \"haz lo mejor que puedas, con lo que tienes, en donde estás\". No era un post motivacional genérico — era una reflexión sobre resiliencia operativa. Y justo después leo que Grupo Valor creció de 3 personas a 150+ colaboradores en 13 años, en 12 países, con 500+ casos. Eso no sucede por suerte.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303257171",
+    "date": "12/06/26",
+    "name": "Andrea Ruzicka",
+    "empresa": "San José Metropolitan Area",
+    "variantTitle": "La vida que elegimos — reflexión + complejidad operativa",
+    "msg1": "Andrea, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco. Lo que más me gustó fue que diferencies entre lo que construimos y lo que vivimos — y que lo hayas reflexionado en voz alta a los 40. Eso habla de alguien que ya aprendió a decir no a lo que no importa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola, claro. Lo que me quedó fue justamente eso: alguien que decidió ser consciente de dónde va su energía.\n\nEn Hint Media trabajamos con empresas que tienen equipos completos pero enfrentan un desafío típico — están ocupadas ejecutando, no liderando. Hacemos exactamente lo opuesto: insertamos un equipo completo (trafficker, CM, diseñador, PM) para que tus equipos internos se enfoquen en estrategia y negociación. Trabajamos con Destiny Group, Libra Seguros, empresas farmacéuticas y de distribución. El modelo funciona porque el costo es menor al de una contratación in-house y la ejecución es inmediata.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te lo envío en un momento. Adentro está el modelo, casos de clientes similares y el equipo que se insertaría en LACOFA si hacemos sinergia.",
+        "La idea es que veas cómo trabajamos sin presión. Si resuena, hablamos. Si no, sin drama.",
+        "Link dossier acá.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Andrea, ¿pudiste ver el dossier sin drama?",
+        "Si en algún momento querés charlar 15 min para resolver dudas puntuales, aviso.",
+        "De lo contrario, seguimos en contacto igual para cuando lo necesites."
+      ],
+      "SEG1": [
+        "Pasó un tiempo y no quisiera ser insistente, pero quería confirmar: ¿viste el dossier?",
+        "Si te generó dudas o querés conversar cómo podría funcionar para LACOFA, puedo hacer tiempo. Si por ahora no aplica, totalmente respeto — en cualquier momento escribime.",
+        "Saludos!"
+      ],
+      "SEG2": [
+        "Andrea, respeto tu tiempo y no quiero insistir. Solo quería cerrar esta conversación limpiamente.",
+        "Si en algún momento LACOFA enfrenta un desafío de ejecución en marketing o contenido (lanzamientos, posicionamiento, expansión regional), pensá en Hint.",
+        "Seguimos conectados. Un abrazo y éxito con lo que vienen armando.",
+        "🙌"
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Andrea, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco. Lo que más me gustó fue que diferencies entre lo que construimos y lo que vivimos — y que lo hayas reflexionado en voz alta a los 40. Eso habla de alguien que ya aprendió a decir no a lo que no importa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303238560",
+    "date": "12/06/26",
+    "name": "María José Vallecillo Badilla",
+    "empresa": "Salud",
+    "variantTitle": "La apertura a colaborar",
+    "msg1": "María José, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre impresión 3D. Lo que más me gustó fue que pediste recomendaciones abiertas en lugar de buscar solo en tu red cerrada. Eso dice bastante de cómo abordás los desafíos — colaborativo, directo, sin prejuicios sobre de dónde viene la solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola María José, me quedó esa impresión porque en salud muchas veces el marketing termina siendo una tensión — necesitás ejecutar campañas ágiles, contenido, diseño, pero al mismo tiempo la confianza requiere rigor y coherencia narrativa.\n\nJustamente por eso existe Hint — trabajamos insertando equipos completos (trafficker, community manager, diseñador, project manager) dentro de la estructura de empresas como Sumedical, para que líderes como vos puedan enfocarse en estrategia mientras nosotros ejecutamos. Clientes como Libra Seguros (sector sensible también) usan este modelo. Si querés, te mando un dossier con casos concretos.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Te dejo el dossier acá. Muestra un poco cómo es la dinámica con clientes — básicamente insertamos un equipo que funciona como extensión tuya, no como una agencia externa.",
+        "Los casos de Libra Seguros y Destiny Group son bien ilustrativos porque, como Sumedical, necesitaban escala en ejecución sin perder coherencia narrativa. Vale la pena echarle un vistazo.",
+        "Cualquier duda al leerlo, me escribís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "María José, pasaron unos días. ¿Tuviste chance de ver el dossier?",
+        "Sin presión, pero si te quedó alguna duda sobre cómo funciona el modelo o querés conversar brevemente de cómo sería en Sumedical, me avisa.",
+        "Sino, queda para cuando tengas un momento."
+      ],
+      "SEG1": [
+        "María José, te escribo porque quedó en el aire. Solo quería saber si sigue siendo el momento para explorar esto juntos, o preferís que lo retomemos más adelante cuando la agenda esté más tranquila.",
+        "Sin compromiso de ningún lado — solo quería entender si hay sinergia real o si es cuestión de timing.",
+        "Me avisás cuando tengas un minuto."
+      ],
+      "SEG2": [
+        "Entiendo que quizá en este momento no es la prioridad.",
+        "De todas formas, quería dejarte en claro que la puerta queda abierta — si en algún momento sentís que necesitás escala en ejecución o que el equipo necesita un respiro, nos contactás.",
+        "Valoro el tiempo que le dedicaste al dossier.",
+        "Seguimos en contacto."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "María José, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre impresión 3D. Lo que más me gustó fue que pediste recomendaciones abiertas en lugar de buscar solo en tu red cerrada. Eso dice bastante de cómo abordás los desafíos — colaborativo, directo, sin prejuicios sobre de dónde viene la solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303211532",
+    "date": "12/06/26",
+    "name": "Guille Tejada",
+    "empresa": "Panamá",
+    "variantTitle": "Escala operativa en comunicaciones integradas",
+    "msg1": "Guille, gracias por conectar!\n\nEstuve revisando un poco lo que vienen haciendo en Komunika. Me llamó la atención que en poco más de 4 años pasaste de Gerente de Digital a liderar toda la unidad de PR, Marketing y Comunicaciones Corporativas. Eso significa mucho crecimiento en clientes, proyectos y complejidad operativa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque cuando una agencia crece en ese sentido, la ejecución operativa suele crecer al doble del ritmo que puede crecer el equipo estratégico.\n\nTrabajamos con equipos de comunicación y marketing que enfrentan exactamente ese punto. Somos Hint Media — complementamos capacidad de ejecución. Insertamos un equipo completo (trafficker, diseñador, community manager, PM) en la estructura del cliente. Con Libra Seguros, Destiny Group y otros, el resultado es que el equipo interno puede enfocarse en estrategia y relación con el cliente mientras nosotros hacemos la ejecución pesada.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá va el dossier con más detalle sobre cómo trabajamos y algunos casos de clientes.",
+        "La idea es que veas cómo el modelo funciona en agencias y equipos in-house que tienen el mismo desafío que ustedes — múltiples disciplinas, múltiples clientes, una sola oportunidad para ejecutar bien.",
+        "Cualquier duda mientras lo lees, me avisas.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Guille, viste el dossier?",
+        "Sin presión, pero si te quedan dudas o te parece que hay algo donde podríamos complementar, me encantaría charlar un rato para ver si tiene sentido.",
+        "Avísame si conviene en los próximos días."
+      ],
+      "SEG1": [
+        "Guille, no quería dejarte sin respuesta. En caso de que no hayas tenido tiempo de verlo, el dossier está ahí cuando puedas.",
+        "Si la dinámica de Komunika no da para esta clase de colaboración en este momento, lo entiendo. Pero si en algún punto del año ves que hay oportunidad de liberar capacidad interna, me gustaría estar en el radar.",
+        "Cualquier cosa, acá me tenés."
+      ],
+      "SEG2": [
+        "Una última cosa antes de cerrar — no sé si el timing es el correcto para ustedes, pero lo que hacemos funciona en agencias que están en la posición de Komunika.",
+        "Si en el futuro cercano ves que necesitan un respiro operativo sin perder calidad, está bien quedarse con la idea.",
+        "No quiero ocupar más espacio en tu inbox, pero si querés tener una conversación breve sin compromiso, me aviso.",
+        "De todas formas, mucho éxito con lo que vienen haciendo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Guille, gracias por conectar!\n\nEstuve revisando un poco lo que vienen haciendo en Komunika. Me llamó la atención que en poco más de 4 años pasaste de Gerente de Digital a liderar toda la unidad de PR, Marketing y Comunicaciones Corporativas. Eso significa mucho crecimiento en clientes, proyectos y complejidad operativa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303189335",
+    "date": "12/06/26",
+    "name": "Toivo E Halvorsen",
+    "empresa": "Dharma",
+    "variantTitle": "La autenticidad como liderazgo",
+    "msg1": "Toivo, gracias por conectar! 👋\n\nMe quedó sonando la publicación que escribiste hace poco sobre lo que realmente es ser CEO — ese \"unseen grit\" y que la autenticidad vive en la lucha, no en el trofeo. No es lo que típicamente ves en este espacio. Me llamó la atención precisamente porque es la opuesta a cómo la mayoría de los líderes se comunican acá.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Toivo, lo que me pasó es que he seguido tu contenido sobre operaciones en hospitality y veo un patrón claro en lo que escribís. No es solo hablar de features. Es contar por qué esos problemas operativos importan, por qué afectan a los equipos.\n\nTrabajo con empresas como TGS y Destiny Group en algo similar — ayudamos a construir narrativa y contenido consistente sin que el líder tenga que estar escribiendo constantemente. En hospitality, esa conversación sobre \"tech + personas\" que estás armando merece llegar a más operators. Me imagino que multiplicar eso en diferentes formatos y canales sin perder tu voz es algo que toma tiempo.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá te envío el dossier. Adentro está cómo trabajamos, ejemplos de clientes y el modelo de equipo que insertamos.",
+        "Lo que puede resultar útil para Dharma: un Trafficker + CM + Diseñador + PM de cuenta enfocados exclusivamente en destilar la narrativa que vos estás armando sobre operaciones en hospitality. Máquinas de contenido, sin que vos tengas que estar escribiendo.",
+        "Miralo con calma. Si hay algo que genere ruido o preguntas, aviso.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Toivo, pasó una semana. Quisiera saber si tuviste oportunidad de mirar el dossier.",
+        "Sin presión — sé que estás en expansión y no es prioridad ahora. Solo quería chequear si tiene sentido para lo que vienen haciendo en Dharma.",
+        "Si hay algo que valga la pena conversar, aviso cuando tengas un rato."
+      ],
+      "SEG1": [
+        "Toivo, no quería dejar esto sin cerrar. Una pregunta simple: ¿tiene sentido para Dharma multiplicar esa conversación sobre operaciones que estás armando, o es algo que van a gestionar in-house por ahora?",
+        "Pregunto porque si es un \"más adelante\", podría ser útil mantener contacto. A veces cuando llega el momento de escalar contenido, ya saben dónde está la solución.",
+        "¿Cómo lo ves?"
+      ],
+      "SEG2": [
+        "Toivo, entiendo que ahora no sea el timing. Estás en modo expansion y tiene lógica mantener todo in-house.",
+        "Dejo una última cosa: si en algún momento sientes que la narrativa de Dharma necesita más velocidad en múltiples canales sin perder consistencia, ya sabés dónde estamos.",
+        "Nos cruzamos de nuevo cuando sea el momento. Suerte con la expansión en Centroamérica.",
+        "Un gusto haber conectado."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Toivo, gracias por conectar! 👋\n\nMe quedó sonando la publicación que escribiste hace poco sobre lo que realmente es ser CEO — ese \"unseen grit\" y que la autenticidad vive en la lucha, no en el trofeo. No es lo que típicamente ves en este espacio. Me llamó la atención precisamente porque es la opuesta a cómo la mayoría de los líderes se comunican acá.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303089474",
+    "date": "12/06/26",
+    "name": "Alejandra Soto Solano",
+    "empresa": "NCQ Technologies",
+    "variantTitle": "El pensamiento lateral que busca",
+    "msg1": "Alejandra, gracias por conectar. 👋\n\nMe llamó la atención algo que compartiste hace poco sobre el curso de B2B Lead Generation. Específicamente, eso que mencionaste de atreverse a salir de lo tradicional para encontrar oportunidades donde otros no están mirando. No es lo que típicamente escucha uno en esos espacios.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque en nuestro día a día hablamos con muchos líderes de marketing en empresas tech, y eso de \"salir de lo tradicional\" es más fácil de decir que de hacer. Especialmente cuando estás sólo o con un equipo pequeño.\n\nNosotros trabajamos así: complementamos equipos internos insertando un equipo completo (trafficker, CM, diseñador, PM de cuenta) que se dedica a ejecutar estrategias de crecimiento mientras el líder de marketing como vos mantiene el rumbo estratégico y la relación comercial. Clientes como Destiny Group y Libra Seguros lo hacen así. Funciona porque generan el espacio mental que necesita alguien como vos para innovar.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá está el dossier. Te muestro cómo funciona el equipo, con quiénes hemos trabajado, y cómo nos insertamos sin reemplazar a nadie.",
+        "Cualquier duda mientras lo lees, me escribís sin problema.",
+        "Saludos,",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Alejandra, ¿pudiste ver el dossier?",
+        "Si hay algo que no quedó claro o querés charlar un poco más sobre cómo podríamos trabajar con NCQ, tengo 15 minutos libres esta semana sin drama.",
+        "Sino, seguimos en contacto y lo revisas con más tiempo."
+      ],
+      "SEG1": [
+        "Alejandra, simplemente no quería dejar esto sin cerrar: ¿tiene sentido en este momento una alianza como la que te propuse, o preferís esperar a que se estabilice un poco más el crecimiento de NCQ?",
+        "Sin presión de ningún lado. Solo quería entender en qué momento estás vos.",
+        "Saludos."
+      ],
+      "SEG2": [
+        "Bueno, dejamos el tema por acá.",
+        "Si en algún momento ves que la ejecución de marketing se te convierte en un cuello de botella, o simplemente querés explorar cómo otro equipo podría complementar lo que tienen, sabés dónde encontrarme.",
+        "Mucho éxito con NCQ y con el programa de liderazgo de Aspire.",
+        "Abrazo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Alejandra, gracias por conectar. 👋\n\nMe llamó la atención algo que compartiste hace poco sobre el curso de B2B Lead Generation. Específicamente, eso que mencionaste de atreverse a salir de lo tradicional para encontrar oportunidades donde otros no están mirando. No es lo que típicamente escucha uno en esos espacios.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303070962",
+    "date": "12/06/26",
+    "name": "Laura Rojas Salas CR",
+    "empresa": "Aceros Carazo Reimers",
+    "variantTitle": "Frustración sobre rol inflado",
+    "msg1": "Laura, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste hace unos meses sobre lo que RRHH solicita para perfiles senior de marketing. La realidad que describiste (diseño, redes, SEO, email, eventos, todo en una persona) es exactamente lo que mata las estrategias reales. Me quedó claro que vos entendés la diferencia entre un ejecutor y un líder.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Laura, lo interesante de eso que escribiste es que muchas empresas terminan contratando equipos completos dispersos (trafficker acá, diseñador allá, CM en otro lado) sin coordinación real. El costo sube, la consistencia baja y el líder de marketing termina gerenciando proveedores en lugar de construir estrategia.\n\nEn Hint Media trabajamos al revés. Insertamos un equipo completo coordinado (trafficker, community manager, diseñador y PM) dentro de la estructura de la empresa. El costo es significativamente menor que contratar a cada especialista por separado, y el resultado es coherencia real. Trabajamos así con empresas como Destiny Group y Libra Seguros. La idea es que vos tengas capacidad de ejecución sin perder el control estratégico.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá va el dossier con detalle de cómo trabajamos, casos y estructura de equipos.",
+        "La idea es que lo revises sin presión. Si hay algo que te suene que podría funcionar para Aceros Carazo en esta fase de crecimiento, entonces hablamos.",
+        "Cualquier duda sobre el modelo, me avisas.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Laura, ¿pudiste revisar el dossier?",
+        "Sin presión, pero si te pareció que hay algo para hablar, me aviso y coordinamos una breve charla. Si no es el momento, sin drama, quedamos en contacto.",
+        "De todas formas, creería que es bueno para que conozcas cómo trabajamos, por si en algún momento surge la necesidad."
+      ],
+      "SEG1": [
+        "Laura, antes de dejarla en paz quería preguntarte una cosa. ¿El modelo de equipo insertado en la estructura tiene sentido para lo que vienen haciendo en Aceros Carazo, o preferís esperar a ver cómo evoluciona la expansión?",
+        "Pregunto porque a veces es tema de timing más que de necesidad real. Si es eso, perfecto. Quedamos en contacto para cuando sea el momento.",
+        "De todas formas, si en algún punto necesitás ayuda con algo puntal (una campaña, diseño, contenido), no dudes en escribir."
+      ],
+      "SEG2": [
+        "Laura, quería dejarte una última cosa clara. No es que Hint sea \"reemplazo\" de lo que ya tenés en marketing.",
+        "Es complemento. Muchas de las empresas con las que trabajamos tienen equipos internos. Lo que hacemos es darles capacidad operativa para ejecutar más sin sacrificar estrategia.",
+        "Entiendo que tal vez no es el momento. Pero cuando lo sea (sea en Aceros Carazo o en cualquier otro proyecto), nos encantaría charlar.",
+        "Mientras tanto, seguimos conectados. Éxito con la expansión."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Laura, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste hace unos meses sobre lo que RRHH solicita para perfiles senior de marketing. La realidad que describiste (diseño, redes, SEO, email, eventos, todo en una persona) es exactamente lo que mata las estrategias reales. Me quedó claro que vos entendés la diferencia entre un ejecutor y un líder.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781303038650",
+    "date": "12/06/26",
+    "name": "Anabel Aguilar",
+    "empresa": "Evenia Hotels",
+    "variantTitle": "La persona que cree que las ventas son relaciones",
+    "msg1": "Anabel, gracias por conectar! 👋\n\nMe llamó mucho la atención algo que escribiste hace poco sobre las relaciones en ventas. Dijiste que cuando conectamos desde lo genuino, los resultados dejan de ser una meta y se convierten en una consecuencia. No suele ser lo primero que escucho en la industria hotelera — la mayoría habla de ocupancy, revenue, cierre. Vos pusiste eso primero.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola! Me quedó esa impresión porque justamente eso que planteas — construir relaciones que perduren — es lo que muchos dicen pero pocos logran mantener a escala. Cuando estás creciendo en LATAM, participando en FIEXPO, visitando clientes, alineando equipos, mantener esa consistencia en la narrativa de marca se vuelve complejo.\n\nEn Hint Media trabajamos con empresas hoteleras y de eventos exactamente en esto — complementamos equipos insertando gente en estructura para ejecutar estrategia comercial, campañas y contenido que refuerce esas relaciones que vos estás construyendo. Clientes como Destiny Group y otros en hospitalidad nos tienen para que la marca hable lo mismo que vos hablás en cada visita, cada feria, cada conversación.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto! Te lo mando en un mensaje aparte para que lo veas con calma.",
+        "Es un resumen de cómo trabajamos, quiénes somos y algunos clientes con los que estamos. Cualquier duda cuando lo leas, me avisás.",
+        "No es para decidir nada ahora — solo para que entiendas la mecánica.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hola Anabel! ¿Pudiste darle una mirada al dossier?",
+        "Sin presión si no tuviste tiempo, pero si querés podemos charlar 15 minutos sobre cómo trabajamos con equipos comerciales como el tuyo.",
+        "Avisame qué te parece."
+      ],
+      "SEG1": [
+        "Entiendo que anda todo a mil con FIEXPO y las campañas. No quería dejar morir el contacto sin saber si ves potencial en esto.",
+        "La idea es que sepas que estamos acá si en algún momento decidís que necesitás complementar capacidad de ejecución — sin cambiar nada de lo que ya estás haciendo bien.",
+        "¿Hay sinergia o lo dejamos para más adelante?"
+      ],
+      "SEG2": [
+        "Dale, sin problema. Si en algún momento durante el año — ya sea MICE, SMERF o cualquier iniciativa — sienten que necesitan una mano extra en ejecución o contenido, sabés dónde encontrarme.",
+        "De verdad aprecié que te hayas tomado el tiempo.",
+        "Cualquier cosa, acá ando.",
+        "Un abrazo! 🤝"
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Anabel, gracias por conectar! 👋\n\nMe llamó mucho la atención algo que escribiste hace poco sobre las relaciones en ventas. Dijiste que cuando conectamos desde lo genuino, los resultados dejan de ser una meta y se convierten en una consecuencia. No suele ser lo primero que escucho en la industria hotelera — la mayoría habla de ocupancy, revenue, cierre. Vos pusiste eso primero.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302964015",
+    "date": "12/06/26",
+    "name": "Maria Jesus Lopez Martos",
+    "empresa": "SLS Cancun",
+    "variantTitle": "Logro de posicionamiento + expansión",
+    "msg1": "Maria Jesus, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en los últimos 2 años. CASA POLANCO logró posicionarse como best luxury boutique hotel en México City con partnerships con Dior, Cartier, Rolex — eso no es menor. Ahora estás en SLS Cancun escalando el mismo modelo en un contexto mucho más competitivo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Hola Maria Jesus, lo que me llamó la atención fue que la estrategia de CASA POLANCO no fue solo lujo — fue lujo + narrativa local + partnerships con artistas y vendors locales. Eso es posicionamiento de marca de verdad, no solo construction.\n\nEn Hint trabajamos exactamente con esa lógica — equipos que entienden contexto local pero ejecutan a escala. Tenemos experiencia con hospitality y luxury brands. El modelo es simple: un equipo tuyo, integrado en estructura, que maneja marketing, diseño y ejecución de campañas. TGS y Transener usan el modelo durante fases de crecimiento para no sobrecargar estructura.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá te dejo el dossier con más detalles de cómo trabajamos y casos como el tuyo en hospitality.",
+        "La idea es que veas exactamente cómo otros GM complementaron su equipo interno sin crear burocracia ni duplicar roles. Cualquier duda, me preguntas.",
+        "Si en algún momento querés conversar cómo podría funcionar para SLS, avísame.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Maria Jesus, pasaron unos días — pudiste ver el dossier?",
+        "Sin presión, pero si tenés dudas sobre cómo funciona el modelo o cómo escalamos lo que hiciste en CASA POLANCO, puedo pasar detalles.",
+        "Cuando quieras una charla breve, acá estoy."
+      ],
+      "SEG1": [
+        "Maria Jesus, entiendo que es un momento intenso en SLS Cancun con el tema de hiring y expansión.",
+        "No quería dejar pasar la oportunidad — si en algún momento necesitás complementar capacidad en marketing o diseño sin sumar cabezas, sé que podemos ayudarte.",
+        "Cuando tengas un momento, me avisás."
+      ],
+      "SEG2": [
+        "Entiendo que de repente no es el momento o ya tienen otras soluciones.",
+        "Solo quería dejar esto en el radar — muchos GM's en lujo terminan usando el modelo de Hint justamente cuando enfrentan este tipo de expansión simultanea.",
+        "Si en algún momento del año cambia algo y querés conversar, acá estaré.",
+        "Éxito con SLS Cancun — el posicionamiento que estás armando es de nivel."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Maria Jesus, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en los últimos 2 años. CASA POLANCO logró posicionarse como best luxury boutique hotel en México City con partnerships con Dior, Cartier, Rolex — eso no es menor. Ahora estás en SLS Cancun escalando el mismo modelo en un contexto mucho más competitivo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302936557",
+    "date": "12/06/26",
+    "name": "Jose Benavides",
+    "empresa": "Director Comercial y Marketing",
+    "variantTitle": "La filosofía de visibilizar a otros",
+    "msg1": "Jose, gracias por conectar! 👋\n\nMe llamó la atención la forma en que compartís tus logros. Casi todos los posts que vi tienen el mismo hilo: un proyecto o iniciativa de Ultrapark, pero el protagonista nunca eres vos — son Alexandra, Natasha, el equipo. No es lo que suele pasar con directores comerciales.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque eso que hacés vos — esa forma de construir narrativa donde el equipo es el centro, donde se celebran logros colectivos — es exactamente lo que las empresas buscan proyectar hacia afuera cuando crecen.\n\nEn Hint Media trabajamos de forma parecida: somos un equipo completo (Trafficker, CM, Diseñador, PM) que se inserta en la estructura de empresas como Transener, TGS, Libra Seguros, Destiny Group. Hacemos la ejecución estratégica de marketing y comunicación sin que sea un costo de estructura para el cliente. Lo interesante es que mientras ustedes crecen comercialmente — nuevos clientes, nuevas ocupaciones — alguien tiene que mantener esa narrativa de marca consistente, los eventos, el posicionamiento regional.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te lo envío por acá abajo. Es un documento breve con cómo trabajamos, qué servicios hacemos y algunos casos de clientes con contexto similar al de Ultrapark.",
+        "Cualquier duda, escribime. Sino, cuando lo veas podemos charlarlo sin apuro.",
+        "Un abrazo!",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Jose, ¿viste el dossier que te envié?",
+        "Sin apuro, pero me gustaría saber si ves sinergia o si prefieres que lo charlemos cuando tengas un momento.",
+        "Avísame cuando quieras, estoy disponible."
+      ],
+      "SEG1": [
+        "Jose, no quería molestarte pero te dejo por acá también — si en algún momento sientes que necesitás apoyo en la parte de ejecución estratégica de marca o eventos, o simplemente querés conversar sobre cómo scaling a nivel regional, acá estoy.",
+        "Entiendo que probablemente ya tengan equipos internos, pero muchas de las empresas con las que trabajamos también — lo que complementamos es capacidad de ejecución sin agregar estructura de costos.",
+        "Seguimos en contacto, sin apuro."
+      ],
+      "SEG2": [
+        "Jose, te dejo acá por última vez porque no quiero ser insistente.",
+        "Simplemente: si en algún momento entre este año y el próximo ves que la ejecución de narrativa o eventos necesita más manos, o querés conversar sobre cómo posicionar Ultrapark a nivel regional sin sacrificar crecimiento comercial, acá estamos.",
+        "Sin presión de reuniones ni procesos largos. Si pinta en algún momento, escribime.",
+        "Un abrazo!"
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Jose, gracias por conectar! 👋\n\nMe llamó la atención la forma en que compartís tus logros. Casi todos los posts que vi tienen el mismo hilo: un proyecto o iniciativa de Ultrapark, pero el protagonista nunca eres vos — son Alexandra, Natasha, el equipo. No es lo que suele pasar con directores comerciales.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302899798",
+    "date": "12/06/26",
+    "name": "Gema Sandez",
+    "empresa": "En búsqueda laboral",
+    "variantTitle": "El sector que Gema conoce",
+    "msg1": "Gema, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que pasaste casi una década en Barrick en roles que tocan todo — desde análisis y valoración de puestos hasta liquidaciones e ingresos masivos en Veladero. Eso es complejo de llevar solo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Gracias Gema. Lo que me llamó la atención fue eso: que trabajaste en contextos donde RRHH no es un área chica — es estructura. Minería se mueve rápido, la gente entra y sale, hay múltiples sistemas, regulaciones.\n\nNosotros trabajamos con empresas medianas en infraestructura y energía — Transener, TGS — insertando equipos que complementan lo que existe adentro. No reemplazamos, completamos capacidad. Si alguna vez te cruzás con algo donde necesiten más manos o visión fresca en comunicación o procesos, te gustaría conocer cómo lo hacemos.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Gema, te envío el dossier adjunto. Ahí ves cómo trabajamos con equipos insertados, casos concretos, y por qué el modelo funciona en contextos como los que vos viviste.",
+        "Si ves algo que te resuena — o si alguien de tu red se te cruza en una búsqueda donde necesiten ese tipo de apoyo — estaré por acá.",
+        "Éxito con la búsqueda, en serio.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Gema, pregunta rápida: llegaste a ver el dossier que te pasé hace unos días.",
+        "Sin presión, solo si en algún momento ves que hay sinergia con algo que estés buscando o alguien que conozcas.",
+        "De todas formas, te dejo el contacto a mano por si necesitas algo más adelante."
+      ],
+      "SEG1": [
+        "Gema, no voy a molestarte más. Solo decirte que si en algún momento buscás explorar algo juntos — o si alguien de minería o energía te dice que necesita apoyo en procesos o comunicación interna — me gustaría ayudar.",
+        "Mientras tanto, mucho éxito con lo que venís buscando. El sector te conoce, y eso vale.",
+        "Cualquier cosa, acá estamos."
+      ],
+      "SEG2": [
+        "Gema, era la última. Te dejo un último dato por si te sirve.",
+        "Muchas de las empresas donde trabajaste — Barrick, contexto minería — ahora están en transición energética o expansión. Gente como vos que entiende esos procesos, suele ser muy buscada.",
+        "Si en algún momento necesitás conexión o referencia, contame. No hace falta que sea trabajo con nosotros.",
+        "Mucho éxito, en serio."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Gema, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que pasaste casi una década en Barrick en roles que tocan todo — desde análisis y valoración de puestos hasta liquidaciones e ingresos masivos en Veladero. Eso es complejo de llevar solo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302823408",
+    "date": "12/06/26",
+    "name": "Evanny Monge Córdoba",
+    "empresa": "Universidad Americana (CR)",
+    "variantTitle": "La conversación que sigue al storytelling",
+    "msg1": "Evanny, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre storytelling. No tanto la definición, sino lo que dijiste de la diferencia entre contar historias y lograr que el público se identifique. Pareciera que esa frontera es más grande de lo que parece.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Exacto, es que muchas veces esa diferencia vive en los detalles de ejecución. Una historia puede ser estratégicamente correcta, pero si no se traduce bien en diseño, timing, contenido, tono — nunca llega a conectar de verdad.\n\nPor eso me intersesó tu trabajo. Nosotros en Hint complementamos equipos de marketing con diseño, content y trafficker. Trabajamos así en TGS, Libra Seguros y Destiny Group — más que reemplazar, nos insertamos en la estructura para que la narrativa que se armó estratégicamente tenga ejecución de verdad.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá te mando el dossier. Adentro está cómo trabajamos, casos, y estructura del equipo. Si alguna pregunta, sin drama.",
+        "La idea es que lo revises con tranquilidad y si ves que podría haber sinergia, coordinamos una charla breve para que veas si tiene sentido.",
+        "Cualquier cosa, acá ando.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hola Evanny, solo te quería consultar si tuviste chance de ver el dossier.",
+        "Sin presión, sé que andan ocupados. Si en algún momento surge algo donde puedan necesitar refuerzo en ejecución, me acordaré de esto.",
+        "Estamos acá."
+      ],
+      "SEG1": [
+        "Hola Evanny, pasó un tiempo y no quisiera quemar el contacto sin antes preguntar.",
+        "Si en TTU consideran que en algún momento necesitan ampliar capacidad de ejecución en marketing sin sumar headcount, nos encantaría charlar. Si no es el momento, queda anotado.",
+        "Un saludo."
+      ],
+      "SEG2": [
+        "Entiendo. De todas formas, a veces las cosas cambian más rápido de lo esperado en los equipos.",
+        "Si en algún momento necesitan refuerzo — ya sea para un proyecto específico, una campaña con deadline ajustado, o simplemente ampliar el equipo sin contratar directamente — acá seguimos.",
+        "No voy a molestar más, pero quedate con mi contacto por si en el futuro lo necesitás.",
+        "Un abrazo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Evanny, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre storytelling. No tanto la definición, sino lo que dijiste de la diferencia entre contar historias y lograr que el público se identifique. Pareciera que esa frontera es más grande de lo que parece.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302802463",
+    "date": "12/06/26",
+    "name": "Oscar Luis Gonzalez Rezex",
+    "empresa": "MarkeTHINKStudio",
+    "variantTitle": "La tensión de escalar sin perder especialidad",
+    "msg1": "Oscar, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que en MarkeTHINK ya estén con 17 personas en equipo implementando estrategias para 20+ proyectos en Latam. Imagino que eso genera bastante fricción — crecer en volumen sin perder en ejecución.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Lo que me llamó la atención fue que estén abriendo posiciones de GDR y otras vacantes justamente ahora. Eso sugiere que necesitan agregar capacidad sin necesariamente aumentar la estructura de liderazgo.\n\nEn Hint Media trabajamos con agencias exactamente en eso. Complementamos equipos internos con talento especializado — trafficker, community manager, diseñador y PM de cuenta. El modelo es que se insertan en tu operación sin ser parte de tu estructura. TGS, Transener y otras crecieron usando esto para tomar más clientes sin replicar overhead. Con 20+ proyectos simultáneos, tener un equipo complementario cambia el juego.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Oscar, acá va el dossier con cómo trabajamos, equipo completo y referencias.",
+        "La idea es simple: complementamos capacidad sin reemplazar estructura. Vos definís estrategia y los resultados, nosotros ejecutamos junto a tu equipo.",
+        "Cualquier pregunta del dossier, acá estamos.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Oscar, viste el dossier que te mandé?",
+        "Si hay sinergia, podemos charlar 20 minutos para ver si hay algo en común. Sin presión.",
+        "Si no es el momento, lo entendemos perfectamente. Quedamos conectados."
+      ],
+      "SEG1": [
+        "Oscar, solo para cerrar el loop — el dossier llegó bien?",
+        "No es urgencia, pero sí quería confirmar si le viste valor a lo que hacemos o si preferís explorar más adelante.",
+        "De cualquier forma, quedamos conectados."
+      ],
+      "SEG2": [
+        "Oscar, voy a dejar de joderte, pero quería dejar la puerta abierta.",
+        "Si en algún momento MarkeTHINK necesita complementar ejecución o escalar sin crecer en estructura, acá estamos.",
+        "Éxitos con el crecimiento de la agencia. Parece que estás construyendo algo muy sólido.",
+        "Un abrazo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Oscar, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que en MarkeTHINK ya estén con 17 personas en equipo implementando estrategias para 20+ proyectos en Latam. Imagino que eso genera bastante fricción — crecer en volumen sin perder en ejecución.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302779651",
+    "date": "12/06/26",
+    "name": "Luris Elizabeth Aguilar, MBA",
+    "empresa": "Universidad Tecnológica de Panamá",
+    "variantTitle": "El factor humano en la venta",
+    "msg1": "Luris, gracias por conectar.\n\nMe llamó la atención que en tu feed la mayoría de lo que compartís sea sobre inteligencia emocional, empatía y liderazgo consciente — no es lo típico en alguien que lidera un equipo comercial. Muchas veces en ventas eso queda de lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque cuando liderás equipos comerciales eso suele funcionar como diferenciador real. No es soft skill nomás.\n\nNosotros trabajamos con equipos de empresas como Destiny Group y Libra Seguros complementando la capacidad comercial — insertamos gente que maneja la ejecución día a día (campañas, coordinación de cuenta, desarrollo de materiales) liberando a líderes como vos para enfocarse en estrategia, relaciones y desarrollo del equipo. Es un modelo que funciona bien cuando hay coherencia en cómo se comunica y ejecuta.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Adjunto te dejo el dossier con un resumen de cómo trabajamos y algunos de los clientes con los que colaboramos.",
+        "No es un documento de ventas — es más bien cómo operamos y qué pasa en el día a día cuando complementamos un equipo.",
+        "Cualquier duda sobre algún caso específico, me avisas.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Luris, ¿tuviste oportunidad de revisar el dossier?",
+        "Sin presión — solo quería ver si hay algo que te resuene o si prefieres que lo revisemos en otro momento.",
+        "De todas formas quería dejarte el contacto por si en algún momento necesitás tirar una idea o charlar sobre cómo escalar la ejecución comercial."
+      ],
+      "SEG1": [
+        "Luris, no quería dejar pasar sin preguntarte directamente — ¿viste algo en el dossier que te pareció interesante?",
+        "Si no es el momento para Logística Panamá, perfecto. Pero si en algún momento sienten que les falta capacidad de ejecución en paralelo, me gustaría conversar con vos.",
+        "Mientras tanto, seguimos conectados."
+      ],
+      "SEG2": [
+        "Luris, antes de cerrar — quería preguntarte algo sin pretensión.",
+        "Si en Logística Panamá en algún momento sienten presión por escalar ejecución comercial mientras mantienen calidad en cómo se comunica (cosa que veo que para vos es importante), podés escribirme directamente.",
+        "No necesita ser ahora. Pero quería que supieras que el espacio existe.",
+        "Éxitos con el equipo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Luris, gracias por conectar.\n\nMe llamó la atención que en tu feed la mayoría de lo que compartís sea sobre inteligencia emocional, empatía y liderazgo consciente — no es lo típico en alguien que lidera un equipo comercial. Muchas veces en ventas eso queda de lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302635292",
+    "date": "12/06/26",
+    "name": "Ezequiel Schiavino",
+    "empresa": "Transener",
+    "variantTitle": "La forma de contar el trabajo",
+    "msg1": "Ezequiel, gracias por conectar. 👋\n\nMe llamó la atención la forma en que describiste el mantenimiento en Vivoratá — ese detalle sobre la \"preparación de un mes antes de cortar\" para saber exactamente qué atacar. No es lo típico que alguien destaca cuando cuenta un logro. La mayoría dice \"lo hicimos en tiempo y forma\". Vos subrayaste el proceso inverso: que la ejecución perfecta empieza mucho antes.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Ezequiel, gracias por responder.\n\nLo interesante de lo que contás sobre transición energética es que Transener maneja un posicionamiento bastante estratégico — no es el operador de red, es el socio que garantiza que esa transición sea operativamente posible. Pero siento que ese mensaje no circula igual en todos los públicos que deberían entenderlo: decisores de plantas renovables, ejecutivos de industria pesada, funcionarios de infraestructura. En Hint Media trabajamos con empresas de infraestructura y energía (TGS, Transener, otros operadores) para que ese tipo de narrativa estratégica circule de forma consistente. Complementamos equipos internos con capacidad de ejecución en marketing y comunicación, sin reemplazar.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te lo envío por acá.",
+        "En el dossier vas a ver casos de TGS, Transener, otros operadores. Cómo complementamos equipos internos: insertamos un trafficker, community manager, diseñador y project manager que trabajan 100% integrados en la estructura del cliente. Modelo diferente al de agencia.",
+        "Échale un vistazo cuando tengas un momento y después conversamos si hay algo que cierre para ustedes.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Ezequiel, ¿tuviste oportunidad de ver el dossier?",
+        "Sin presión si no llegaste. Solo quería saber si hay algo que te haya quedado dando vueltas o si tiene sentido conversar 10 minutos.",
+        "Cualquier cosa, avísame."
+      ],
+      "SEG1": [
+        "Ezequiel, entiendo que quizás no sea el momento o quizás no sea la prioridad ahora.",
+        "La idea era simple: detectamos que Transener tiene transformaciones internas fuertes (MEGA, innovación técnica) que merecen más visibilidad estratégica. Si en algún momento eso es tema, nosotros sabemos cómo hacerlo. Sin obligación.",
+        "¿Tiene sentido dejarla abierta por si en algún momento quieres conversar?"
+      ],
+      "SEG2": [
+        "Ezequiel, respeto tu tiempo y no quiero insistir.",
+        "Solo decirte que si alguna vez necesitás complementar capacidad de ejecución en marketing o comunicación para amplificar lo que están haciendo internamente, acá estamos.",
+        "Éxito con Transener y la transición energética. Son temas en los que realmente estás haciendo un diferencial.",
+        "Cualquier cosa, acá ando."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Ezequiel, gracias por conectar. 👋\n\nMe llamó la atención la forma en que describiste el mantenimiento en Vivoratá — ese detalle sobre la \"preparación de un mes antes de cortar\" para saber exactamente qué atacar. No es lo típico que alguien destaca cuando cuenta un logro. La mayoría dice \"lo hicimos en tiempo y forma\". Vos subrayaste el proceso inverso: que la ejecución perfecta empieza mucho antes.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302615607",
+    "date": "12/06/26",
+    "name": "Milena Ureña",
+    "empresa": "Growth Marketing & Brand Management",
+    "variantTitle": "Equilibrio entre ambición estratégica y ejecución operativa",
+    "msg1": "Milena, gracias por conectar! 👋\n\nMe llamó la atención cómo hablás de la disciplina como el puente entre esfuerzo y resultados. Lo que más me gustó fue que no lo planteás solo como concepto personal, sino como lo que sostenés en tu rol — esa idea de que \"la constancia es la que te hace cruzar la meta.\" Eso que escribiste sobre no negociar con la mente mientras jugás tantos roles a la vez, me pareció honesto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque exactamente eso es lo que vemos en muchas agencias que están en transformación como McCann. La dirección estratégica está clara, pero la ejecución operativa suele ser el cuello de botella — y eso consume energía que debería estar en nuevos negocios y posicionamiento.\n\nEn Hint trabajamos de forma diferente. Insertamos equipos completos — Trafficker, Content Manager, Diseñador, PM — dentro de la estructura del cliente. Destiny Group y Libra Seguros usan esto para que sus directores se enfoquen en estrategia mientras nosotros sostenemos la ejecución diaria. Es como tener una extensión operativa sin ampliar headcount.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te paso el dossier acá. Adentro está cómo trabajamos, quiénes somos y casos concretos de cómo complementamos equipos internos.",
+        "La idea es que lo revises sin presión. Si hay sinergia, hablamos. Si no, queda en el radar para adelante.",
+        "Cualquier duda mientras lo mirás, me decís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Milena, pasaron unos días. Tenías que revisar el dossier cuando pudiera ser.",
+        "Sin presión — sé que estás full con la reestructuración. Solo quería saber si te hizo sentido o si preferís que hablemos en otro momento.",
+        "Estoy acá si querés una charla breve al respecto."
+      ],
+      "SEG1": [
+        "Pasó un tiempo. Entiendo que la transformación de McCann requiere full atención.",
+        "Simplemente quería saber si cuando haya más aire, la idea de complementar capacidad operativa sigue siendo relevante para ustedes, o si prefieren esperar a que el ciclo de restructuración esté más avanzado.",
+        "De cualquier forma, quedamos en contacto — esto suena como algo que vale la pena revisar cuando el timing sea mejor."
+      ],
+      "SEG2": [
+        "Milena, creo que hace sentido que cierren este ciclo aquí.",
+        "Claramente estás en un momento de transformación importante en McCann, y parece que ahora no es el timing para explorar esto.",
+        "Pero de verdad — cuando las cosas se estabilicen un poco y sientas que necesitás complementar ejecución sin sumar headcount, este mensaje va a estar acá.",
+        "Un gusto haber conectado. Seguimos."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Milena, gracias por conectar! 👋\n\nMe llamó la atención cómo hablás de la disciplina como el puente entre esfuerzo y resultados. Lo que más me gustó fue que no lo planteás solo como concepto personal, sino como lo que sostenés en tu rol — esa idea de que \"la constancia es la que te hace cruzar la meta.\" Eso que escribiste sobre no negociar con la mente mientras jugás tantos roles a la vez, me pareció honesto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302594342",
+    "date": "12/06/26",
+    "name": "Amanda Morera Núñez",
+    "empresa": "PC Central",
+    "variantTitle": "El trabajo detrás de escena",
+    "msg1": "Amanda, gracias por conectar! 👋\n\nMe llamó la atención tu publicación sobre el Kick Off 2026. Lo que más me gustó fue que le dieras bastante crédito al proceso — mes y medio de planificación, coordinación, creatividad — en lugar de solo mostrar el evento terminado. No es lo primero que la gente destaca cuando anuncia un logro así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Amanda, lo interesante de eso es que en equipos que hacen transformación digital como la de PC Central, ese tipo de proyectos (eventos, campañas, contenido estratégico) empiezan a acumularse rápido. Y la coordinación entre creatividad, pautados, analítica y vocería se vuelve cada vez más exigente.\n\nEn Hint trabajamos de forma un poco diferente. Nos insertamos dentro de equipos internos — un trafficker, community manager, diseñador y project manager de cuenta — para que ustedes sigan liderando la estrategia sin que se quede atrapada en la ejecución. Trabajamos así con empresas como Destiny Group y Libra Seguros. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá va el dossier. Está todo documentado — cómo trabajamos, equipo completo, casos de clientes.",
+        "No necesita ser una decisión ahora. Es más para que veas si hay algo que resuene con lo que están armando en PC Central.",
+        "Cualquier duda, me decís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hola Amanda, solo quería saber si llegaste a ver el dossier.",
+        "Sin presión. A veces los ciclos de empresas de tech son medio acelerados y no hay tiempo ni para abrir un email.",
+        "Pero si en algún momento querés charlar 15 minutos sobre cómo estamos complementando equipos de growth, aviso nomás."
+      ],
+      "SEG1": [
+        "Amanda, vimos que no abriste el dossier. Puede ser que no sea el momento o simplemente que no vea el fit. Totalmente válido.",
+        "Antes de no molestar más, una pregunta: ¿en algún punto del 2026 imaginás que van a necesitar músculo de ejecución para proyectos específicos? (campañas, eventos, contenido, etc.)",
+        "Si sí, me gustaría charlar. Si no, quedamos en contacto de todas formas."
+      ],
+      "SEG2": [
+        "Amanda, entiendo que entre el nuevo rol en PC Central y tus estudios tenés bastante en el plato.",
+        "Dejame una reflexión nomás: muchas veces los equipos internos de growth se quedan cortos en ejecución creativa y técnica, no por falta de talento sino por falta de capacidad. Y eso es exactamente donde podemos ayudar — sin reemplazar a nadie, complementando.",
+        "Cuando haya claridad en PC Central sobre si necesitan ese complemento, el contacto está. No te molesto más.",
+        "Mucho éxito con todo lo que estén armando."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Amanda, gracias por conectar! 👋\n\nMe llamó la atención tu publicación sobre el Kick Off 2026. Lo que más me gustó fue que le dieras bastante crédito al proceso — mes y medio de planificación, coordinación, creatividad — en lugar de solo mostrar el evento terminado. No es lo primero que la gente destaca cuando anuncia un logro así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302472728",
+    "date": "12/06/26",
+    "name": "Patricia Jimenez",
+    "empresa": "Director comercial",
+    "variantTitle": "Cambio reciente + responsabilidad expandida",
+    "msg1": "Patricia, gracias por conectar! 👋\n\nVi que asumiste dirección de ventas y marketing en Central Hoteles hace poco menos de un año. Eso significa que probablemente hayas consolidado el equipo comercial pero al mismo tiempo tengas que armar la parte de campañas, posicionamiento y contenido sin dejar caer las metas de ocupación.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Eso que describís es lo que vemos todo el tiempo en hotelería. El director comercial hereda dos responsabilidades pero solo puede estar en un lugar a la vez.\n\nPor eso trabajamos con empresas insertando equipos dentro de su estructura. Clientes como Destiny Group y Libra Seguros usan nuestro modelo: un trafficker, CM, diseñador y PM dedicados a su cuenta, pero como complemento de su equipo interno, no como reemplazo. Así ustedes manejan la estrategia y el relacionamiento, y nosotros ejecutamos día a día.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te lo envío por acá.",
+        "El dossier tiene cómo trabajamos, ejemplos de clientes y equipo. Si después te surgen preguntas sobre cómo aplicaría a Central Hoteles, avísame.",
+        "Cualquier cosa, acá ando.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Patricia, pasaron algunos días. Pudiste mirar el dossier?",
+        "Sin presión, solo quería saber si te generó alguna pregunta o si preferís seguimos en contacto más adelante.",
+        "Avísame cualquier cosa."
+      ],
+      "SEG1": [
+        "Entiendo que andes con mil cosas. Solo quería dejar clara la puerta: cuando sientas que la ejecución de campañas se ralentiza o necesites potenciar la salida de contenido, avísame.",
+        "Muchas veces en hotelería pasa que el equipo de ventas está 100% enfocado en cierre y marketing queda con menos recursos de lo que necesita.",
+        "Si en algún momento eso es un problema, sé exactamente cómo ayudarte."
+      ],
+      "SEG2": [
+        "Patricia, una última cosa y después no jodo más.",
+        "No sé si viste pero hace poco empezamos a trabajar con una cadena en México. Si en algún momento te late charlar sobre cómo fue o si hay algo que te late explorar, la puerta está abierta.",
+        "De todas formas, te dejo en mis contactos. Si algo surge de tu lado, sabés dónde encontrarme.",
+        "Éxito con Central Hoteles."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Patricia, gracias por conectar! 👋\n\nVi que asumiste dirección de ventas y marketing en Central Hoteles hace poco menos de un año. Eso significa que probablemente hayas consolidado el equipo comercial pero al mismo tiempo tengas que armar la parte de campañas, posicionamiento y contenido sin dejar caer las metas de ocupación.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302438756",
+    "date": "12/06/26",
+    "name": "Jeff Alejandro Morales",
+    "empresa": "Konzerta.com y Multitrabajos.com",
+    "variantTitle": "Escala de auditorios y complejidad operativa",
+    "msg1": "Jeff, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Konzerta. Me llamó la atención que coordines estrategias regionales para cinco países con ferias que movilizaban más de un millón de usuarios. Eso abre muchos frentes simultáneamente.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque coordinar esa escala — múltiples mercados, múltiples marcas, múltiples audiencias — suele generar un desafío que no siempre se ve a nivel estrategia.\n\nEn Hint trabajamos desde adentro de la estructura de clientes como TGS y Transener, armando equipos completos que ejecutan branding, performance y contenido. La realidad es que la estrategia regional es sólida, pero traducirla en campañas coherentes en múltiples frentes y mercados requiere una ejecución constante y especializada.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Jeff, acá te dejo el dossier. Ahí está la forma en que trabajamos, los clientes con los que estamos, y cómo se estructura el equipo que se inserta en cada organización.",
+        "Lo importante: no reemplazamos lo que ya tienen, complementamos capacidad de ejecución. La diferencia suele notarse rápido en volumen de trabajo y en coherencia de las campañas.",
+        "Cualquier duda, me decís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hola Jeff, solo pasaba para preguntar si pudiste ver el dossier. Sin presión, pero me gustaría saber si hay algo que te cierre o si hay algo que no quedó claro.",
+        "Si querés, podemos charlar 15 minutos para que veas cómo funcionamos desde adentro. Nada formal, solo una charla.",
+        "Avísame qué te parece."
+      ],
+      "SEG1": [
+        "Jeff, entiendo que quizá no sea el momento o que ya tengan cobertura en eso. Pero si en algún momento ves que necesitás capacidad extra para ejecutar en branding o performance en cualquiera de tus mercados, estamos acá.",
+        "A veces la necesidad aparece cuando te encontrás con un proyecto grande o cuando un equipo se va. Cuando eso pase, acordate que somos una opción.",
+        "Nos mantenemos en contacto."
+      ],
+      "SEG2": [
+        "Jeff, antes de dejar esto quieto, quería saber una cosa: ¿la razón por la que no avanzamos fue que ya tienen cubierto ese frente, o simplemente no era el momento?",
+        "Pregunto porque a veces el \"no de ahora\" se transforma en \"sí en seis meses\" cuando aparece un proyecto o una necesidad específica.",
+        "Si es eso, perfecto. Quedan en la lista y volvemos a conectar cuando tenga sentido.",
+        "Gracias por tu tiempo de todas formas."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Jeff, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Konzerta. Me llamó la atención que coordines estrategias regionales para cinco países con ferias que movilizaban más de un millón de usuarios. Eso abre muchos frentes simultáneamente.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302352889",
+    "date": "12/06/26",
+    "name": "Valeria Murillo Herrera",
+    "empresa": "Mercadeo",
+    "variantTitle": "La tensión del mercadeo en finanzas",
+    "msg1": "Valeria, gracias por conectar! 👋\n\nEstuve revisando un poco lo que hacen en Banco Cathay. Me llamó la atención que lideraes mercadeo en un sector donde probablemente gran parte del trabajo pasa por equilibrar narrativa de marca con presión comercial constante. Imagino que ahí es donde empieza la complejidad real.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Valeria, mucho gusto también.\n\nLo que me llamó la atención fue justamente eso — en empresas como Banco Cathay, muchas veces el equipo de mercadeo debe definir estrategia, producir contenido, coordinar diseño, gestionar campañas y medir todo al mismo tiempo. En Hint Media trabajamos complementando eso. Tenemos un equipo embebido (Trafficker, Community Manager, Diseñador y PM) que se integra en la estructura del cliente y ejecuta bajo su dirección estratégica. Trabajamos con TGS, Transener, Libra Seguros y otros. Basicamente reducimos la carga operativa sin perder coherencia de marca.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá va el dossier de Hint Media.",
+        "Explica cómo armamos el equipo, cómo integramos a la estructura del cliente y cuántos clientes ya operan con este modelo. Relevante para ella porque muestra escala y viabilidad.",
+        "Cualquier pregunta sobre cómo adaptaríamos el modelo a Banco Cathay, avísame.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Valeria, un toque de seguimiento — viste el dossier?",
+        "Sin presión, pero si te pareció interesante, podríamos charlar 15 minutos brevemente sobre cómo vendría a funcionar en Cathay.",
+        "Si no es el momento, sin drama — quedamos en contacto."
+      ],
+      "SEG1": [
+        "Valeria, entiendo que probablemente estés priorizando otras cosas ahora.",
+        "Solo quería chequear si el modelo de Hint resonó con lo que necesitás o si preferís explorar más adelante. Sin presión.",
+        "Quedamos en contacto de todas formas."
+      ],
+      "SEG2": [
+        "Una última cosa — si en algún momento necesitás ampliar capacidad de ejecución en mercadeo sin sumar estructura interna, acá estamos.",
+        "No es urgente, pero quería dejártelo registrado.",
+        "Cualquier cosa, podés contactarme directamente.",
+        "Éxitos en Cathay!"
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Valeria, gracias por conectar! 👋\n\nEstuve revisando un poco lo que hacen en Banco Cathay. Me llamó la atención que lideraes mercadeo en un sector donde probablemente gran parte del trabajo pasa por equilibrar narrativa de marca con presión comercial constante. Imagino que ahí es donde empieza la complejidad real.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302332245",
+    "date": "12/06/26",
+    "name": "Fatima Corredera",
+    "empresa": "Comunicadora Social",
+    "variantTitle": "La persona detrás de la narrativa",
+    "msg1": "Fatima, gracias por conectar! 👋\n\nMe llamó la atención cómo promovés la CAR25 — no es el típico \"venid a nuestro evento\". Hay ahí una convocatoria que suena más a \"seamos parte de esto juntos\". Y después vi cómo amplificás la búsqueda laboral de Martina en tu feed. Eso no es casualidad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque en comunicación institucional pasa mucho que las áreas terminan eligiendo entre estrategia narrativa o ejecución operativa — alguien tiene que hacer que la historia llegue en todos los formatos, y eso consume energía.\n\nEn Hint Media trabajamos exactamente en eso — insertamos equipos que manejan la parte de ejecución (diseño, edición, formatos, distribución) para que comunicadores y estrategas como vos puedan enfocarse en la narrativa y los stakeholders. Con clientes como Libra Seguros y Destiny Group, lo que vimos es que liberás mucho tiempo cuando alguien maneja la producción de contenido audiovisual y diseño de manera integrada.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te envío el dossier acá abajo. Ahí vas a ver cómo trabajamos y a quiénes tenemos como clientes.",
+        "No es un documento de venta — es básicamente cómo nos insertamos en los equipos y qué rol cumple cada persona del equipo que llevamos. Seguramente va a resonar con lo que estás viviendo ahora mismo con las series audiovisuales.",
+        "Cualquier cosa que no quede clara, avisame.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Fatima, cómo estás? Pasaron unos días — quisiera saber si tuviste la chance de ver el dossier.",
+        "Sin presión, pero si en algún momento querés conversar un poco más sobre cómo podemos ayudar con la parte de ejecución audiovisual y diseño, me encantaría.",
+        "Cualquier cosa, acá ando."
+      ],
+      "SEG1": [
+        "Hola Fatima, sin apuro pero antes de que cierre el tema — vale la pena que nos conoczcamos aunque sea 15 minutos para que veas si hay sinergia o preferís seguir con el equipo que tenés ahora.",
+        "Muchas fundaciones con las que trabajamos también tienen comunicadores internos fuertes. Nuestra función suele ser complementar capacidad de ejecución — nada más que eso.",
+        "Avisame si te parece bien una charla breve, o si preferís que sigamos en contacto para más adelante."
+      ],
+      "SEG2": [
+        "Fatima, entiendo que capaz no es el momento o no cierra con lo que necesitás ahora.",
+        "De todas formas, déjame tu mail o indicame cómo contactarte si en algún punto del año necesitás escalar producción audiovisual o diseño sin agregar headcount.",
+        "Queda todo abierto — mientras tanto, mucho éxito con las series de FADA. Se nota que el contenido está bien pensado.",
+        "Cualquier cosa, acá ando."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Fatima, gracias por conectar! 👋\n\nMe llamó la atención cómo promovés la CAR25 — no es el típico \"venid a nuestro evento\". Hay ahí una convocatoria que suena más a \"seamos parte de esto juntos\". Y después vi cómo amplificás la búsqueda laboral de Martina en tu feed. Eso no es casualidad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781302310219",
+    "date": "12/06/26",
+    "name": "Hugh Tafel",
+    "empresa": "Panamá",
+    "variantTitle": "La filosofía de Hugh — paciencia estratégica",
+    "msg1": "Hugh, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre cómo manejas los \"no\". Lo que más me gustó fue el enfoque — \"el cliente que dice no hoy puede ser tu mejor cliente en 12 meses si lo manejás bien.\" No es lo que típicamente ves en gente que vende coaching.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque casi todos en tu espacio corren detrás del cierre inmediato. Vos hablás de arquitectura — de relaciones que se construyen.\n\nLo interesante de eso es que requiere mucha ejecución operativa sin que vos estés metido en cada detalle. En Hint hacemos exactamente eso con coaches y profesionales independientes — equipo completo insertado en la estructura (trafficker, cm, diseñador, pm de cuenta) para que liberes tiempo de estrategia real. Clientes como Destiny Group pasaron de 2-3 campañas al mes a 10+ sin sumar headcount.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Hugh, te paso el link del dossier acá abajo. Es breve — muestra cómo trabajamos y qué equipos insertamos.",
+        "Si tiene sentido, después conversamos sin presión. Si no, queda guardado para cuando lo necesites.",
+        "Gracias por abrir el espacio para conectar.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hugh, preguntaba si tuviste chance de ver el dossier.",
+        "Sin presión si no llegaste — sé que estás full con los coaches. Si en algún momento querés una charla breve de 15 minutos para ver si hay sinergia, aviso.",
+        "Cualquier cosa, me avisás."
+      ],
+      "SEG1": [
+        "Hugh, no quiero ser pesado. Solo dejá la puerta abierta — si en los próximos 2-3 meses la escala operativa se hace problema, ya sabés dónde encontrarnos.",
+        "Tenemos equipo disponible para casos como el tuyo — coaches y profesionales con sistemas que necesitan ejecutar sin distraerse en detalles.",
+        "Éxitos con Street Smarts. Parece que está tomando vuelo."
+      ],
+      "SEG2": [
+        "Hugh, me queda clara la prioridad ahora mismo — está full con el crecimiento.",
+        "Solo una última cosa — dejá el dossier a mano para cuando la ejecución empiece a ser el problema real. Cuando suceda (y probablemente suceda), contactame directo.",
+        "El espacio va a estar. Y sin quejas de nuestra parte si decidís armar internamente.",
+        "Adelante con el proyecto."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Hugh, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre cómo manejas los \"no\". Lo que más me gustó fue el enfoque — \"el cliente que dice no hoy puede ser tu mejor cliente en 12 meses si lo manejás bien.\" No es lo que típicamente ves en gente que vende coaching.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781301850027",
+    "date": "12/06/26",
+    "name": "Jennifer Viggiano",
+    "empresa": "Electrisa",
+    "variantTitle": "La filosofía detrás del marketing que practica",
+    "msg1": "Jennifer, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre el propósito del marketing. Lo que más me gustó fue que enfatizaras que el marketing \"conecta personas, impulsa industrias y transforma experiencias\"—no es lo que típicamente alguien destaca en una reflexión así. La mayoría habla de números o campañas. Vos hablaste de impacto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Jennifer, muy bien gracias! Un gusto también.\n\nMe quedó esa impresión porque ese tipo de posicionamiento—pensar en transformar experiencias, no solo ejecutar campañas—es justamente lo que vemos que diferencia a los equipos que logran escala real en empresas como Electrisa. Lo interesante es que muchas veces esa visión termina compitiendo con la ejecución del día a día. Nosotros trabajamos complementando equipos de marketing internos—insertamos un equipo que cubre trafficker, estrategia de contenido, diseño y gestión de cuenta. Trabajamos con empresas como TGS, Transener y Destiny Group precisamente en eso: mantener la estrategia sin perder velocidad de ejecución.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Jennifer, te envío el dossier por acá.",
+        "Muestra cómo trabajamos, algunos casos de clientes y cómo se estructura el equipo que se inserta. Es breve, diseñado para que en 5 minutos entiendas la dinámica.",
+        "Cualquier duda cuando lo veas, avísame.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Jennifer, pasaron un par de días. ¿Pudiste ver el dossier?",
+        "Sin presión—solo quería saber si generó alguna sinergia o si preferís que lo retomemos en otro momento.",
+        "Cualquier cosa, quedo atento."
+      ],
+      "SEG1": [
+        "Jennifer, entiendo que anda complicado de revisar en este momento.",
+        "Cuando tengas un rato, el dossier queda ahí. No es urgente, pero sí creo que puede ser relevante para lo que vienen haciendo en Electrisa—especialmente para descomprimir ejecución sin perder control estratégico.",
+        "¿Te parece que nos vemos en 2-3 semanas para charlar de esto, sin presión?"
+      ],
+      "SEG2": [
+        "Jennifer, prefiero no insistir más.",
+        "Pero quería dejarte una puerta abierta—en caso de que en algún momento de este año necesiten ampliar capacidad en marketing sin agregar estructura fija, sabés dónde encontrarme.",
+        "El dossier queda disponible si lo necesitás en el futuro.",
+        "Gracias de todas formas y mucho éxito con Electrisa."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Jennifer, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre el propósito del marketing. Lo que más me gustó fue que enfatizaras que el marketing \"conecta personas, impulsa industrias y transforma experiencias\"—no es lo que típicamente alguien destaca en una reflexión así. La mayoría habla de números o campañas. Vos hablaste de impacto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 2,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "12/06/26",
+        "note": "si dime"
+      }
+    ]
+  },
+  {
+    "id": "1781301791456",
+    "date": "12/06/26",
+    "name": "Sofía López Barón",
+    "empresa": "Kukun",
+    "variantTitle": "La filosofía de transformación",
+    "msg1": "Sofía, gracias por conectar! 👋\n\nMe llamó la atención cómo planteás el tema de transformar desafíos en oportunidades. No es algo que leas todos los días en perfiles de marketing — la mayoría enfatiza métricas o herramientas. Vos priorizaste el mindset.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque ese mindset es exactamente lo que necesitan equipos que escalan en mercados complejos como el tuyo. Cuando crecés, la ejecución operativa suele comer tiempo que deberías usar pensando en estrategia.\n\nTrabajamos complementando equipos de marketing y ventas en empresas que están en ese punto. Clientes como Destiny Group, Libra Seguros y otros en growth acelerado dejan que nosotros manejemos la ejecución de campañas, contenido y posicionamiento mientras ellos garantizan que la dirección estratégica sea correcta. Somos básicamente un equipo completo insertado en la estructura.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Sofía, acá va el dossier con cómo trabajamos y algunos casos de clientes que pasaron por situaciones similares.",
+        "Básicamente mostramos equipo completo, cómo nos insertamos, y cuál fue el impacto en empresas que estaban en scaling. No es presupuesto, es capacidad de ejecución.",
+        "Leelo con calma y si algo genera curiosidad, me decís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Sofía, ¿pudiste ver el dossier? Nada urgente, solo quería saber si generó algo.",
+        "Si te pareció interesante y querés charlar un toque sobre cómo podría funcionar en Kukun, estoy disponible cuando tengas 15 minutos.",
+        "Si ahora no es el momento, sin drama — simplemente avisame y lo retomamos cuando sea."
+      ],
+      "SEG1": [
+        "Sofía, pasaron unos días y no quería dejar caer el tema. A veces estas cosas llegan en mal momento o simplemente no es prioridad.",
+        "Si sigue siendo de interés, me encantaría charlar brevemente sobre cómo se vería esto en Kukun. Si no, lo dejamos acá sin problema.",
+        "De cualquier forma, quería dejarte saber que si en algún momento necesitás equipo complementario para acelerar ejecución, acá ando."
+      ],
+      "SEG2": [
+        "Sofía, una última cosa. Entiendo que capaz ahora no es el timing, pero a medida que Kukun crece, la presión sobre marketing y ventas suele crecer exponencialmente también.",
+        "Por eso te dejo acá mi contacto directo. Si llega ese momento y querés explorar cómo un equipo complementario puede ayudar sin romper estructura, me escribís sin problema.",
+        "Seguiremos conectados. Cualquier cosa, acá estoy.",
+        "Éxitos con Kukun — el posicionamiento que están haciendo en neo-hospitality tiene potencial."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Sofía, gracias por conectar! 👋\n\nMe llamó la atención cómo planteás el tema de transformar desafíos en oportunidades. No es algo que leas todos los días en perfiles de marketing — la mayoría enfatiza métricas o herramientas. Vos priorizaste el mindset.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781301639175",
+    "date": "12/06/26",
+    "name": "Fabiola Urbina Oporta",
+    "empresa": "Grupo Forco",
+    "variantTitle": "Crecimiento y gestión de equipos",
+    "msg1": "Fabiola, gracias por conectar! 👋\n\nEstuve revisando tu experiencia. Me llamó la atención que hayas liderado equipos multidisciplinarios en Mundo Mágico durante temporadas de alta demanda y que hayas logrado superar metas comerciales. Eso sugiere que no solo ejecutas sino que coordinás variables complejas.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "msg2": "La razón por la que te escribo es que ahí es exactamente donde muchos equipos de marketing empiezan a toparse con un límite. Conseguir que múltiples disciplinas (diseño, community, estrategia, ejecución) funcionen en sincronía, especialmente en temporadas pico, requiere estructura.\n\nNosotros en Hint hacemos exactamente eso desde hace años. Insertamos un equipo completo dentro de la estructura del cliente para que el marketing no sea un cuello de botella. Clientes como Destiny Group y TGS escalaron su capacidad de ejecución sin sumar headcount fijo. Pagán menos que una sola persona senior pero tienen cuatro disciplinas funcionando.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Fabiola, acá te paso el dossier. Ahí está cómo trabajamos, equipos, clientes y algunos casos.",
+        "La idea es que veas si hay sinergia con lo que venís haciendo en Grupo Forco. Sin presión alguna.",
+        "Cualquier duda, me decís.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Fabiola, ¿tuviste oportunidad de mirar el dossier?",
+        "Sin apuro, solo quería chequear si había sinergia para charlar una vez.",
+        "Sino, tranquilo. Nos quedamos en contacto de todas formas."
+      ],
+      "SEG1": [
+        "Entiendo que probablemente esté en una fase donde prefieren consolidar equipos internos primero. Eso es totalmente lógico.",
+        "Solo quería dejar claro que muchas de las empresas con las que trabajamos también tienen equipos internos fuertes. Nuestra función suele ser complementar capacidad de ejecución en picos o iniciativas específicas.",
+        "Cualquier momento en el que veas que necesitan una mano extra, acá estamos."
+      ],
+      "SEG2": [
+        "Fabiola, no quiero insistir sin razón.",
+        "Solo quería dejarte esto en el radar por si en algún momento ves que hay espacio para explorar cómo complementamos equipos de marketing sin agregar costos fijos.",
+        "De todas formas, gracias por los minutos y por conectar. Cualquier cosa, decime.",
+        "Un abrazo."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Fabiola, gracias por conectar! 👋\n\nEstuve revisando tu experiencia. Me llamó la atención que hayas liderado equipos multidisciplinarios en Mundo Mágico durante temporadas de alta demanda y que hayas logrado superar metas comerciales. Eso sugiere que no solo ejecutas sino que coordinás variables complejas.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781301617748",
+    "date": "12/06/26",
+    "name": "Angelo Soto",
+    "empresa": "American Beauty Supply",
+    "variantTitle": "Narrativa Progresiva",
+    "msg1": "Angelo, gracias por conectar! 👋\n\nMe llamó la atención la forma en que compartiste la alianza con Pluxee — no solo como deal, sino como \"escalón más adelante del objetivo\". Y después la campaña dirigida específicamente a las mujeres, con ese tono conversacional. Hay una diferencia entre anunciar algo y construir narrativa alrededor de eso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Me quedó esa impresión porque la mayoría de los gerentes comerciales anuncia y listo. Vos estás pensando en cómo la gente vive eso.\n\nJustamente por eso existe Hint Media — trabajamos con equipos comerciales que necesitan ejecutar campañas multi-canal con velocidad pero sin sacrificar narrativa. Clientes como Destiny Group y TGS trabajan con un equipo nuestro embebido: trafficker, community manager, diseñador y PM. La diferencia es que pagan menos de lo que cuesta una persona sola in-house, pero tienen toda la capacidad de ejecución sin coordinación interna.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Acá te dejo el dossier. Adentro está cómo trabajamos, el equipo completo y un par de casos de clientes en retail y comercio.",
+        "Básicamente: insertamos Trafficker, Community Manager, Diseñador y PM como equipo único. Ejecutamos campañas multi-canal, mantenemos narrativa consistente, no sumamos carga coordinativa.",
+        "Cualquier duda me avisas.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Hola Angelo, ¿viste el dossier que te pasé?",
+        "Sin presión, pero me gustaría entender si hay algo que no te cierre o si es tema de timing para explorar esto juntos.",
+        "Estoy disponible cuando quieras charlar — aunque sea breve, me interesa saber si esto hace sentido para American Beauty."
+      ],
+      "SEG1": [
+        "Angelo, te escribo porque pasó una semana y no sé si llegó bien el dossier o si está en la cola de lectura.",
+        "Sin quilombo — si no es el momento, prefiero saberlo. Si es tema de que algo no quedó claro, con gusto te lo explico en una llamada corta.",
+        "¿Me decís cómo estamos?"
+      ],
+      "SEG2": [
+        "Bueno, dejo de molestar — pero antes te quería decir una cosa.",
+        "Muchos gerentes comerciales con los que hablamos tenían exactamente tu perfil: estrategia clara, equipos creativos internos, pero batallando con la velocidad de ejecución en multi-canal.",
+        "Si en algún momento del año esto cambia (nuevo lanzamiento, expansión, alianza grande), sabés dónde encontrarme.",
+        "Mucho éxito con Pluxee y todo lo que vienen haciendo en American Beauty."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Angelo, gracias por conectar! 👋\n\nMe llamó la atención la forma en que compartiste la alianza con Pluxee — no solo como deal, sino como \"escalón más adelante del objetivo\". Y después la campaña dirigida específicamente a las mujeres, con ese tono conversacional. Hay una diferencia entre anunciar algo y construir narrativa alrededor de eso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781301592824",
+    "date": "12/06/26",
+    "name": "Foto de portada",
+    "empresa": "Karina Segura Ovares",
+    "variantTitle": "Construcción de equipo desde el rol",
+    "msg1": "Karina, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre la búsqueda del Jefe de Mercadeo en Paseo de las Flores. La forma en que describiste lo que necesitan (desarrollo del plan, tráfico, eventos, campañas digitales, alianzas) refleja bastante bien toda la complejidad de armar un equipo de marketing desde cero en un centro comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola, gracias. Básicamente estuve analizando esto que estás armando en Paseo y me quedó una impresión. Cuando arrancar desde cero la estructura de marketing en un retail grande, suele pasar que el rol de Jefe de Mercadeo termina siendo 3-4 roles al mismo tiempo: estrategia + ejecución de campañas + gestión operativa + coordinación de eventos.\n\nMuchas empresas del retail y centros comerciales con las que trabajamos desde Hint Media enfrentan exactamente eso. Nosotros básicamente hacemos lo opuesto: insertamos un equipo completo (Trafficker, especialista en campaña, diseñador, PM de cuenta) que complementa la estructura interna. Clientes como Destiny Group en retail así lo resolvieron. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {
+      "MSG3": [
+        "Perfecto, te lo envío por acá.",
+        "Es un dossier corto: quiénes somos, cómo trabajamos (equipo insertado sin costos de estructura), casos con retail y centros comerciales, y ejemplos de lo que ejecutamos mes a mes.",
+        "Dale una mirada con calma cuando tengas un momento. Cualquier duda cuando lo leas, me escribis sin drama.",
+        "[LINK DOSSIER]"
+      ],
+      "MSG4": [
+        "Karina, te debo preguntar: viste el dossier que te pasé?",
+        "Sin presión. Si ves que hay algo que vale la pena explorar, podemos charlar 20 minutos para ver si encaja con lo que necesitan en Paseo.",
+        "Y si no es el timing, sin problema. Queda de todas formas en el radar."
+      ],
+      "SEG1": [
+        "Acabo de ver que te incorporaste hace 2 meses nada más a Paseo. Imagino que estás en full construcción de estructura.",
+        "Si en algún momento necesitan complementar capacidad en marketing / campañas sin agregar personas a nómina, la conversación sigue en pie. Sin presión.",
+        "Éxitos con la búsqueda del Jefe de Mercadeo."
+      ],
+      "SEG2": [
+        "Karina, cierre rápido de mi parte.",
+        "Vi que Paseo de las Flores está buscando ese Jefe de Mercadeo. Cuando lo encuentren y arranquen con el plan anual, va a ser un buen momento para evaluar si necesitan capacidad ejecutiva extra.",
+        "De verdad, sin presión. Dejo abierta la puerta por si en algún punto del año te viene bien conversar.",
+        "Éxitos con todo lo que están armando."
+      ]
+    },
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Karina, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre la búsqueda del Jefe de Mercadeo en Paseo de las Flores. La forma en que describiste lo que necesitan (desarrollo del plan, tráfico, eventos, campañas digitales, alianzas) refleja bastante bien toda la complejidad de armar un equipo de marketing desde cero en un centro comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      }
+    ]
+  },
+  {
     "id": "1781300253282",
     "date": "12/06/26",
     "name": "Luis Perez",
@@ -37,12 +1311,22 @@
         "text": "Luis, gracias por conectar. 👋\n\nMe llamó la atención la forma en que describiste tu propuesta. Arrancaste con el problema que nadie resuelve, explicaste el método científico específico, y cerraste con el impacto financiero. No es lo que suele ver en especialistas técnicos — la mayoría arranca contando qué saben, no por qué importa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "12/06/26",
+        "note": "En lo que pueda ayudarte , con gusto"
+      },
+      {
+        "stage": 3,
+        "date": "12/06/26",
+        "note": "ENVAIMELO"
       }
     ]
   },
@@ -563,9 +1847,10 @@
       {
         "stage": 2,
         "date": "12/06/26",
-        "note": "si dime"
+        "note": "NO TRABAJA MAS AQUI. Pero Miguel Vallejos es el Manager de Panama"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1781298444499",
@@ -1523,12 +2808,22 @@
         "text": "Rodrigo, gracias por conectar! 👋\n\nMe quedó dando vueltas la publicación sobre Levi's y la lona blanca. Lo que más me gustó fue que no la escribiste como \"esto es una buena campaña\", sino como una reflexión sobre cómo la restricción bien leída se convierte en brief. Eso dice mucho sobre cómo pensás los desafíos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "12/06/26",
+        "note": "Hola Florencia, muchas gracias por tu mensaje, con gusto podemos hablar. Saludos"
+      },
+      {
+        "stage": 3,
+        "date": "12/06/26",
+        "note": "tienen  todo in house pero lo revisan"
       }
     ]
   },
@@ -1867,12 +3162,17 @@
         "text": "Hilary, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo cerraste el post sobre Move On 2026. Lo que la mayoría suele resaltar es el evento en sí o los resultados, pero vos le diste el crédito al equipo desde el primer párrafo. Dice bastante sobre cómo ves tu trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "12/06/26",
+        "note": "Hola Florencia, muchas gracias! Un placer \n\n    😄\n    🤐\n    👏\n\nY claro que sí. Cuéntame"
       }
     ]
   },
@@ -6131,7 +7431,7 @@
         "text": "Marcela, gracias por conectar 👋\n\nMe llamó la atención la forma en que escribiste sobre Bless Truck. No describiste un caso más de \"cliente con flota exitosa\". Hiciste un análisis de por qué funciona: disponibilidad mecánica como métrica, TCO como framework, la lógica de negocio detrás. Eso no es content marketing estándar, es estrategia construida en prosa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -6142,6 +7442,11 @@
         "stage": 2,
         "date": "09/06/26",
         "note": "Hola Florencia adelante"
+      },
+      {
+        "stage": 3,
+        "date": "12/06/26",
+        "note": "enviamelo"
       }
     ]
   },
@@ -11725,6 +13030,18 @@
       }
     ],
     "notes": "Marketing & design / Branding - Shopper experience - Packaging. Retail, consumer goods, architecture, esports & entertainment. Respondio brevemente que hoy esta en Arquitectura y Diseno."
+  },
+  {
+    "id": "1749400000001",
+    "date": "14/06/26",
+    "name": "María José Garro Camacho",
+    "empresa": "SeedTrust Escrow",
+    "cargo": "Marketing & Communications Manager",
+    "pais": "Costa Rica",
+    "variantTitle": "Mudra y energía femenina — señal humana",
+    "msg1": "María José, gracias por conectar! 👋\n\nMe llamó la atención cómo elegiste cerrar la semana con una publicación sobre Mudra y energía femenina. La mayoría de los líderes de marketing evitan mostrar ese lado. Lo interesante fue que lo hiciste de forma natural, sin sonar desconectado de tu rol profesional.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "estado": "MSG1 enviado — respondió adelante",
+    "respuesta": "Hola! Claro! Pregúntame"
   },
   {
     "id": "1749390000001",
