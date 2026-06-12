@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 420px;
+      min-height: 120px;
+      font-family: -apple-system, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #1a1a1a;
+      background: #fff;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      background: #FF5A1F;
+      color: white;
+    }
+    .header-title { font-weight: 700; font-size: 14px; letter-spacing: .03em; }
+    .status-pill {
+      font-size: 11px;
+      background: rgba(255,255,255,.25);
+      padding: 2px 9px;
+      border-radius: 99px;
+    }
+
+    /* Content area */
+    .content { padding: 12px 14px; }
+
+    /* Loading state */
+    .loading-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 0;
+      color: #666;
+    }
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2px solid #ddd;
+      border-top-color: #FF5A1F;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Error */
+    .error-box {
+      background: #FFF0F0;
+      border: 1.5px solid #FFCCCC;
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: #C00;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .error-box button {
+      margin-top: 8px;
+      background: #FF5A1F;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 5px 12px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    /* Profile name */
+    .profile-name {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .profile-name strong { color: #1a1a1a; }
+
+    /* Variant card */
+    .variant-card {
+      border: 1.5px solid #e8e8e8;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color .15s;
+    }
+    .variant-card:hover { border-color: #FF5A1F; }
+    .variant-card.selected {
+      border-color: #FF5A1F;
+      background: #FFFAF8;
+    }
+    .variant-card.best { border-color: #FF5A1F; }
+
+    .var-head {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 11px;
+      background: #F9F9F9;
+      border-bottom: 1px solid #eee;
+    }
+    .var-card.selected .var-head { background: #FFF3EE; }
+
+    .vtag {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .vtag-a { background: #FFF3CD; color: #7A5000; }
+    .vtag-c { background: #E8F0FE; color: #1A5FA8; }
+
+    .vtitle { font-size: 12px; font-weight: 600; flex: 1; }
+    .best-badge { font-size: 10px; color: #FF5A1F; }
+    .score-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: #FF5A1F;
+      background: #FFF3EE;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .bubbles { padding: 8px 11px; display: flex; flex-direction: column; gap: 5px; }
+    .bub {
+      background: #e8e8e8;
+      border-radius: 12px 12px 12px 3px;
+      padding: 6px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      max-width: 92%;
+    }
+
+    .tip-text {
+      font-size: 11px;
+      color: #888;
+      padding: 0 11px 8px;
+      font-style: italic;
+    }
+
+    /* Tono/idioma selects */
+    .opts-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .opts-row select {
+      flex: 1;
+      font-size: 12px;
+      padding: 4px 8px;
+      border: 1.5px solid #ddd;
+      border-radius: 6px;
+      background: white;
+      color: #333;
+    }
+    .opts-row select:focus { outline: none; border-color: #FF5A1F; }
+
+    /* Action buttons */
+    .btn-primary {
+      width: 100%;
+      background: #FF5A1F;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s;
+      margin-top: 4px;
+    }
+    .btn-primary:hover { background: #E04D18; }
+    .btn-primary:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      width: 100%;
+      background: white;
+      color: #FF5A1F;
+      border: 1.5px solid #FF5A1F;
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 6px;
+    }
+    .btn-secondary:hover { background: #FFF3EE; }
+
+    /* Send progress */
+    .progress-list { display: flex; flex-direction: column; gap: 6px; padding: 8px 0; }
+    .progress-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #888;
+    }
+    .progress-item.done { color: #1a1a1a; }
+    .progress-item.active { color: #FF5A1F; font-weight: 600; }
+    .prog-icon { width: 16px; text-align: center; }
+
+    /* Done state */
+    .done-box {
+      background: #F0FFF4;
+      border: 1.5px solid #9FD9B4;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .done-box .done-icon { font-size: 24px; margin-bottom: 6px; }
+    .done-box .done-title { font-weight: 700; font-size: 14px; color: #1A7A3C; }
+    .done-box .done-sub { font-size: 12px; color: #555; margin-top: 4px; }
+
+    .divider { height: 1px; background: #eee; margin: 10px 0; }
+    #app { min-height: 80px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="header-title">Hint Media</span>
+    <span class="status-pill" id="status-pill">Cargando...</span>
+  </div>
+  <div class="content">
+    <div id="app"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
