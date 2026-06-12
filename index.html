@@ -1593,7 +1593,7 @@ function renderHistoryList() {
       </div>
       <div class="hist-item-meta">
         <span>${en.date}</span>
-        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px">${esc(emp)}</span>` : ''; })()}
+        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1,'') || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px">${esc(emp)}</span>` : ''; })()}
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
     </div>`;

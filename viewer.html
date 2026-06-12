@@ -357,7 +357,7 @@ function renderList() {
       </div>
       <div class="pi-meta">
         <span>${en.date}</span>
-        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888">${esc(emp)}</span>` : ''; })()}
+        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1) || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888">${esc(emp)}</span>` : ''; })()}
         <span class="pi-variant">${esc(en.variantTitle)}</span>
       </div>
     </div>`).join('');
@@ -449,7 +449,7 @@ function renderDetail(en) {
   }
 
   const detailEmail = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' '));
-  const detailEmpresa = en.empresa || (detailEmail ? domainToEmpresa(detailEmail) : '');
+  const detailEmpresa = en.empresa || histExtractEmpresa(en.msg1) || (detailEmail ? domainToEmpresa(detailEmail) : '');
 
   dv.innerHTML = `
     <div class="var-head" style="display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)">
@@ -487,6 +487,10 @@ function domainToEmpresa(email) {
   const domain = email.split('@')[1] || '';
   const base = domain.replace(/\.(com|org|net|co|ar|cr|pa|mx|uy|cl|pe|br|info|biz)(\.[a-z]{2})?$/i,'');
   return base.replace(/[-_.]/g,' ').replace(/\b\w/g,c=>c.toUpperCase()).trim();
+}
+function histExtractEmpresa(msg1) {
+  const m = (msg1||'').match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^—\n]{2,50}?)\s*—/);
+  return m ? m[1].trim() : '';
 }
 function renderEmailList() {
   const emailRows = [];
