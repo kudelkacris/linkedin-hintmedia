@@ -357,7 +357,7 @@ function renderList() {
       </div>
       <div class="pi-meta">
         <span>${en.date}</span>
-        ${en.empresa ? `<span style="color:#888">${esc(en.empresa)}</span>` : ''}
+        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888">${esc(emp)}</span>` : ''; })()}
         <span class="pi-variant">${esc(en.variantTitle)}</span>
       </div>
     </div>`).join('');
@@ -449,7 +449,7 @@ function renderDetail(en) {
   }
 
   const detailEmail = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' '));
-  const detailEmpresa = en.empresa || '';
+  const detailEmpresa = en.empresa || (detailEmail ? domainToEmpresa(detailEmail) : '');
 
   dv.innerHTML = `
     <div class="var-head" style="display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)">

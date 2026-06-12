@@ -1421,6 +1421,15 @@ function histExtractEmpresaFromProfile(profile) {
   }
   return '';
 }
+function extractEmail(text) {
+  const m = (text||'').match(/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/);
+  return m ? m[0] : null;
+}
+function domainToEmpresa(email) {
+  const domain = (email||'').split('@')[1] || '';
+  const base = domain.replace(/\.(com|org|net|co|ar|cr|pa|mx|uy|cl|pe|br|info|biz)(\.[a-z]{2})?$/i,'');
+  return base.replace(/[-_.]/g,' ').replace(/\b\w/g,c=>c.toUpperCase()).trim();
+}
 function histHasEmail(en) {
   if (en.dossierMail) return true;
   for (const sh of (en.stageHistory||[])) {
@@ -1584,7 +1593,7 @@ function renderHistoryList() {
       </div>
       <div class="hist-item-meta">
         <span>${en.date}</span>
-        ${en.empresa ? `<span style="color:#888;font-size:10.5px">${esc(en.empresa)}</span>` : ''}
+        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px">${esc(emp)}</span>` : ''; })()}
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
     </div>`;
