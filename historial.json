@@ -178,12 +178,17 @@
         "text": "Guille, gracias por conectar!\n\nEstuve revisando un poco lo que vienen haciendo en Komunika. Me llamó la atención que en poco más de 4 años pasaste de Gerente de Digital a liderar toda la unidad de PR, Marketing y Comunicaciones Corporativas. Eso significa mucho crecimiento en clientes, proyectos y complejidad operativa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "¡Buenos días Florencia, muchas gracias por tus palabras! Cuéntame en qué te puedo apoyar."
       }
     ]
   },
@@ -319,12 +324,17 @@
         "text": "Laura, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste hace unos meses sobre lo que RRHH solicita para perfiles senior de marketing. La realidad que describiste (diseño, redes, SEO, email, eventos, todo en una persona) es exactamente lo que mata las estrategias reales. Me quedó claro que vos entendés la diferencia entre un ejecutor y un líder.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "¡Hola! Claro, ¿cuál es tu consulta?"
       }
     ]
   },
@@ -382,7 +392,7 @@
     "empresa": "SLS Cancun",
     "variantTitle": "Logro de posicionamiento + expansión",
     "msg1": "Maria Jesus, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en los últimos 2 años. CASA POLANCO logró posicionarse como best luxury boutique hotel en México City con partnerships con Dior, Cartier, Rolex — eso no es menor. Ahora estás en SLS Cancun escalando el mismo modelo en un contexto mucho más competitivo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
-    "msg2": "Hola Maria Jesus, lo que me llamó la atención fue que la estrategia de CASA POLANCO no fue solo lujo — fue lujo + narrativa local + partnerships con artistas y vendors locales. Eso es posicionamiento de marca de verdad, no solo construction.\n\nEn Hint trabajamos exactamente con esa lógica — equipos que entienden contexto local pero ejecutan a escala. Tenemos experiencia con hospitality y luxury brands. El modelo es simple: un equipo tuyo, integrado en estructura, que maneja marketing, diseño y ejecución de campañas. TGS y Transener usan el modelo durante fases de crecimiento para no sobrecargar estructura.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "msg2": "Maria Jesus, gracias por responder!\n\nLo que lograste en CASA POLANCO me llamo la atencion: posicionar un boutique hotel como el mejor de Ciudad de Mexico con alianzas con Dior, Cartier, Rolex no es solo operacion, es un trabajo muy fino de narrativa de marca.\n\nEn Hint acompanamos a hoteles y marcas de hospitalidad de lujo en estrategia de contenido y posicionamiento digital que sostenga esa imagen de forma consistente.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
     "extraMsgs": {
       "MSG3": [
         "Acá te dejo el dossier con más detalles de cómo trabajamos y casos como el tuyo en hospitality.",
@@ -411,14 +421,27 @@
       {
         "role": "sent",
         "text": "Maria Jesus, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en los últimos 2 años. CASA POLANCO logró posicionarse como best luxury boutique hotel en México City con partnerships con Dior, Cartier, Rolex — eso no es menor. Ahora estás en SLS Cancun escalando el mismo modelo en un contexto mucho más competitivo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Hola. Si es correcto. Como te puedo ayudar?"
+      },
+      {
+        "role": "sent",
+        "text": "Maria Jesus, gracias por responder!\n\nLo que lograste en CASA POLANCO me llamo la atencion: posicionar un boutique hotel como el mejor de Ciudad de Mexico con alianzas con Dior, Cartier, Rolex no es solo operacion, es un trabajo muy fino de narrativa de marca.\n\nEn Hint acompanamos a hoteles y marcas de hospitalidad de lujo en estrategia de contenido y posicionamiento digital que sostenga esa imagen de forma consistente.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "si claro dime"
       }
     ]
   },
@@ -523,7 +546,7 @@
     "empresa": "Universidad Americana (CR)",
     "variantTitle": "La conversación que sigue al storytelling",
     "msg1": "Evanny, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre storytelling. No tanto la definición, sino lo que dijiste de la diferencia entre contar historias y lograr que el público se identifique. Pareciera que esa frontera es más grande de lo que parece.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
-    "msg2": "Exacto, es que muchas veces esa diferencia vive en los detalles de ejecución. Una historia puede ser estratégicamente correcta, pero si no se traduce bien en diseño, timing, contenido, tono — nunca llega a conectar de verdad.\n\nPor eso me intersesó tu trabajo. Nosotros en Hint complementamos equipos de marketing con diseño, content y trafficker. Trabajamos así en TGS, Libra Seguros y Destiny Group — más que reemplazar, nos insertamos en la estructura para que la narrativa que se armó estratégicamente tenga ejecución de verdad.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "msg2": "Evanny, gracias por responder!\n\nLo que describiste en el post de storytelling me parecio muy preciso: \"contar historias no es solo hablar de una marca o un producto, es lograr que el publico se identifique y conecte.\" Eso es exactamente el estandar que cuesta mas sostener en el dia a dia.\n\nEn Hint trabajamos con instituciones y marcas en contenido estrategico, storytelling y posicionamiento digital que mantienen ese nivel de conexion de forma consistente.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
     "extraMsgs": {
       "MSG3": [
         "Acá te mando el dossier. Adentro está cómo trabajamos, casos, y estructura del equipo. Si alguna pregunta, sin drama.",
@@ -552,14 +575,27 @@
       {
         "role": "sent",
         "text": "Evanny, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre storytelling. No tanto la definición, sino lo que dijiste de la diferencia entre contar historias y lograr que el público se identifique. Pareciera que esa frontera es más grande de lo que parece.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Hola Florencia! Como estas? Claro con gusto."
+      },
+      {
+        "role": "sent",
+        "text": "Evanny, gracias por responder!\n\nLo que describiste en el post de storytelling me parecio muy preciso: \"contar historias no es solo hablar de una marca o un producto, es lograr que el publico se identifique y conecte.\" Eso es exactamente el estandar que cuesta mas sostener en el dia a dia.\n\nEn Hint trabajamos con instituciones y marcas en contenido estrategico, storytelling y posicionamiento digital que mantienen ese nivel de conexion de forma consistente.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia! Cómo estás? Claro con gusto"
       }
     ]
   },
@@ -648,12 +684,17 @@
         "text": "Luris, gracias por conectar.\n\nMe llamó la atención que en tu feed la mayoría de lo que compartís sea sobre inteligencia emocional, empatía y liderazgo consciente — no es lo típico en alguien que lidera un equipo comercial. Muchas veces en ventas eso queda de lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia, un gusto. Claro que sí, déjame saber tu consulta por favor ."
       }
     ]
   },
@@ -742,12 +783,17 @@
         "text": "Milena, gracias por conectar! 👋\n\nMe llamó la atención cómo hablás de la disciplina como el puente entre esfuerzo y resultados. Lo que más me gustó fue que no lo planteás solo como concepto personal, sino como lo que sostenés en tu rol — esa idea de que \"la constancia es la que te hace cruzar la meta.\" Eso que escribiste sobre no negociar con la mente mientras jugás tantos roles a la vez, me pareció honesto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "si claro"
       }
     ]
   },
@@ -930,12 +976,17 @@
         "text": "Valeria, gracias por conectar! 👋\n\nEstuve revisando un poco lo que hacen en Banco Cathay. Me llamó la atención que lideraes mercadeo en un sector donde probablemente gran parte del trabajo pasa por equilibrar narrativa de marca con presión comercial constante. Imagino que ahí es donde empieza la complejidad real.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola, saludos.\n¿Cómo le puedo colaborar?"
       }
     ]
   },
@@ -1170,12 +1221,17 @@
         "text": "Fabiola, gracias por conectar! 👋\n\nEstuve revisando tu experiencia. Me llamó la atención que hayas liderado equipos multidisciplinarios en Mundo Mágico durante temporadas de alta demanda y que hayas logrado superar metas comerciales. Eso sugiere que no solo ejecutas sino que coordinás variables complejas.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola, Florencia\n\n    😄\n    🤐\n    👏\n\nEn qué puedo ayudarte."
       }
     ]
   },
@@ -1368,12 +1424,17 @@
         "text": "José, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que hayas creado conceptos como Mundo Celebración y Mundo Desayuno con crecimientos de doble dígito. Esos conceptos no solo requieren rediseño estratégico, sino ejecución constante en contenido, diseño y relación con el mercado.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia, un gusto saludarla. Efectivamente, el reto no estuvo únicamente en desarrollar los conceptos, sino en convertirlos en plataformas comerciales sostenibles. El crecimiento de doble dígito fue el resultado de alinear estrategia, ejecución en punto de venta, contenido, comunicación y una lectura constante del mercado para ajustar la propuesta de valor según las necesidades del consumidor. Sin duda, una experiencia muy enriquecedora a nivel comercial."
       }
     ]
   },
@@ -1415,12 +1476,17 @@
         "text": "Marcela, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación sobre el viaje a República Dominicana. Lo que más destacaste fue el trabajo que hizo Gilsé en el panel de agencias — crédito explícito, \"nos llenó de orgullo\" — cuando muchos líderes hubieran hablado solo de lo que ellos hicieron. Eso dice bastante sobre cómo construís equipo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia. ¿Cómo puedo ayudarte?"
       }
     ]
   },
@@ -1696,12 +1762,17 @@
         "text": "Leidy, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo posicionaste a Congero en London Tech Week. Lo que más valoro es que decidiste destacar a Celio y Alexander como puntos de entrada en lugar de solo listar servicios. Eso dice bastante sobre cómo pensás el relacionamiento comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia, espero se encuentre bien, claro dejame saber tu consulta"
       }
     ]
   },
@@ -1984,12 +2055,17 @@
         "text": "Lisandra, gracias por conectar. 👋\n\nMe llamó la atención que hayan creado una posición nueva específicamente para desarrollar comunicación institucional. Eso sugiere que la marca y la narrativa interna/externa son prioridad ahora — lo que casi nunca es pequeño.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Es así, mucho que hacer… muy interesante todo"
       }
     ]
   },
@@ -2000,7 +2076,7 @@
     "empresa": "Costa Rica",
     "variantTitle": "Investigación + logro",
     "msg1": "Pablo, gracias por conectar 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que manejes Shopify, Klaviyo, Mailchimp, Attentive, Meta Ads, Google Ads, LinkedIn Ads y TikTok Ads para múltiples empresas. Es un espectro amplio.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
-    "msg2": "Lo interesante de manejar ese volumen de plataformas para múltiples clientes es que la fragmentación operativa consume mucho tiempo en configuración, monitoreo y troubleshooting.\n\nTrabajamos con empresas donde la ejecución en múltiples canales es crítica. Armamos equipos internos que se dedican tiempo completo a eso, dejando al cliente libre para pensar en estrategia. Destiny Group y Libra Seguros tienen ese modelo funcionando.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "msg2": "Pablo, gracias por responder!\n\nEso que escribiste sobre el email marketing que muchas empresas subestiman me resono. Hay una diferencia entre saber que algo funciona y que la direccion le de el presupuesto y la prioridad que merece.\n\nEn Hint trabajamos estrategia de contenido y posicionamiento de marca, el lado que complementa lo que vos ejecutas en performance y plataformas.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
     "extraMsgs": {
       "MSG3": [
         "Te paso el dossier acá.",
@@ -2029,14 +2105,27 @@
       {
         "role": "sent",
         "text": "Pablo, gracias por conectar 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que manejes Shopify, Klaviyo, Mailchimp, Attentive, Meta Ads, Google Ads, LinkedIn Ads y TikTok Ads para múltiples empresas. Es un espectro amplio.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Hola Florencia, un gusto! Claro, si esta dentro de mi alcance con gusto te ayudo."
+      },
+      {
+        "role": "sent",
+        "text": "Pablo, gracias por responder!\n\nEso que escribiste sobre el email marketing que muchas empresas subestiman me resono. Hay una diferencia entre saber que algo funciona y que la direccion le de el presupuesto y la prioridad que merece.\n\nEn Hint trabajamos estrategia de contenido y posicionamiento de marca, el lado que complementa lo que vos ejecutas en performance y plataformas.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia, un gusto!\n\nClaro, si está dentro de mi alcance con gusto te ayudo"
       }
     ]
   },
@@ -2170,14 +2259,32 @@
       {
         "role": "sent",
         "text": "Tatiana, gracias por conectar! 👋\n\nMe llamó la atención tu enfoque en soluciones de marketing sostenibles. Imagino que en ese tipo de iniciativas empieza un desafío que suele pasar desapercibido: balancear el propósito y la misión social con la necesidad real de que las campañas escalen y generen engagement medible.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      },
+      {
+        "role": "received",
+        "text": "En mi trabajo no tengo poder de decision para adquisicion de servicios, pero si deseas dejarlo y que yo lo comparta, claro, con gusto puedes enviarme por esta via tu carta de servicios."
+      },
+      {
+        "role": "sent",
+        "text": "Tatiana, muchas gracias! Te lo mando ahora."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Florencia Di Rado\n18:01\n\nTatiana, gracias por conectar! 👋\n\nMe llamó la atención tu enfoque en soluciones de marketing sostenibles. Imagino que en ese tipo de iniciativas empieza un desafío que suele pasar desapercibido: balancear el propósito y la misión social con la necesidad real de que las campañas escalen y generen engagement medible.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\nTatiana Alfaro ha enviado los siguientes mensajes a las 20:40\nVer el perfil de Tatiana Tatiana Alfaro\nTatiana Alfaro\n20:40\n\n    😄\n    🤐\n    👏\n\nHola, Florencia.\nUn gusto. Dime más sobre tu duda."
+      },
+      {
+        "stage": 3,
+        "date": "15/06/26",
+        "note": "En mi trabajo no tengo poder de decisión para adquisición de servicios, pero si deseas dejarlo y que yo lo comparta, claro, con gusto puedes enviarme por esta vía tu carta de servicios."
       }
     ]
   },
@@ -2219,14 +2326,25 @@
         "text": "Dulce, gracias por conectar! 👋\n\nMe llamó la atención cómo definís tu trabajo: \"tender puentes entre las ideas, las marcas y las personas\". No es lo que la mayoría dice cuando habla de marketing o comunicación. Dice mucho sobre cómo pensás la estrategia.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola Florencia, un gusto saludarte, muchas gracias por tu mensaje, cuéntame"
+      },
+      {
+        "stage": 3,
+        "date": "15/06/26",
+        "note": "Dulce Rodríguez 16:54\n\n    😄\n    🤐\n    👏\n\nHola Florencia, te agradezco, nosotros trabajamos la estrategia inhouse y ya tenemos una agencia para pauta y compra de medios, saludos"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1781297940409",
@@ -2266,12 +2384,17 @@
         "text": "Anabel, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste la reflexión sobre el Panamá Circular Experience. No es lo más común que alguien destaque que \"detrás hay mucho más que logística\" — la mayoría solo anuncia el resultado. Vos lo que enfatizaste fue la coordinación, la estrategia alineada, los múltiples actores en movimiento al mismo tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "si claro dime"
       }
     ]
   },
@@ -2313,12 +2436,17 @@
         "text": "Fabiola, gracias por conectar. Un gusto.\n\nEstuve revisando un poco lo que vienen haciendo en RC Inmobiliaria. Me llamó la atención que hayan logrado +70% en crecimiento de ventas en poco más de 3 años, especialmente en inmobiliario donde el ciclo suele ser largo. Imagino que una escala así abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Buenas tardes Florencia.\n\nClaro, en que te puedo ayudar."
       }
     ]
   },
@@ -2714,12 +2842,17 @@
         "text": "Erika, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo en Cofersa. Me llamó la atención que en pocos meses hayas logrado reducir overstock en 20% y optimizar costos en -17% mientras impulsas lanzamientos de marca y activaciones en puntos de venta al mismo tiempo. Eso requiere gestionar muchos frentes en paralelo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola buenas tardes, cual es la duda puntualmente para poder apoyarte"
       }
     ]
   },
@@ -2761,12 +2894,22 @@
         "text": "Karina, gracias por conectar 👋\n\nMe llamó la atención cómo enfocaste las publicaciones de los lanzamientos. Antes que hablar de features, visibilizaste que era \"parte del equipo detrás\" de Translations y de AI-Generated Video Detection. No es lo típico cuando alguien anuncia un logro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola me alegra que haya gustado, claro dime"
+      },
+      {
+        "stage": 3,
+        "date": "15/06/26",
+        "note": "Sí puedes enviármelo"
       }
     ]
   },
@@ -3365,12 +3508,17 @@
         "text": "Daniel, gracias por conectar. Un gusto.\n\nEstuve revisando un poco tu perfil y me quedó claro que gran parte de tu trabajo pasa por construir infraestructura que funcione — automatización, flujos, integraciones — pero al mismo tiempo necesitás que eso genere resultados que el equipo pueda usar hoy. Eso es un equilibrio bastante particular.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Hola buenos días un gusto \n\n    😄\n    🤐\n    👏\n\nY claro correcto, así tal cual"
       }
     ]
   },
@@ -3512,10 +3660,20 @@
         "text": "Gastón, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo enfocaste la publicación de la entrevista. Lo que más me gustó fue que en lugar de hablar del programa o del destino, le diste crédito a Diego por la invitación. No suele ser lo primero que la gente destaca cuando comparte algo así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "12/06/26",
+        "note": "enviamelo"
+      },
+      {
+        "stage": 3,
         "date": "12/06/26",
         "note": ""
       }
@@ -4564,12 +4722,17 @@
         "text": "Ericka, gracias por conectar. Un gusto.\n\nMe llamó la atención que en lugar de destacar un logro de campaña, compartiste tu aprendizaje del Foro de Sostenibilidad. Lo que más me gustó fue que enfatizaras que \"seguir aprendiendo sobre planificación urbana y movilidad es fundamental\" en desarrollo inmobiliario. No es lo típico que ves en marketing — suele haber más ruido comercial que reflexión estratégica.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Claro en que te puedo ayudar ?"
       }
     ]
   },
@@ -5169,12 +5332,17 @@
         "text": "Paulo, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en Centriz. Me llamó la atención que pasen de Budget Car Rental tradicional a Rent Centric Platform mientras expanden Cero Stress y Renting. Imagino que ahí se arma una complejidad interesante: necesitás que cada marca hable con identidad propia, pero que AvisBudget a nivel global sepa qué estás haciendo. Todo al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "10/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "SI es correcto, Renting es un sub Marca de Budget y Cerostress es de venta de vehiculos usados todo bajo el conocimento y libros de marca de ABG"
       }
     ]
   },
@@ -6755,12 +6923,17 @@
         "text": "Matthew, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste en tu perfil: que te caracterizás por combinar habilidades analíticas con visión creativa. No es lo que ves todos los días. La mayoría termina eligiendo un lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "10/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Buenas noches, muchas gracias por tomarte el tiempo de escribir.\n\nSi esta dentro de mis posibildisdes, ¡podria ayudar con mucho gusto!"
       }
     ]
   },
@@ -12968,6 +13141,44 @@
     ]
   },
   {
+    "id": "1750025000001",
+    "date": "15/06/26",
+    "name": "Josue Medina",
+    "empresa": "Colegio de Abogados y Abogadas de Costa Rica",
+    "cargo": "Director de Comunicaciones y Mercadeo",
+    "variantTitle": "Publicar no es posicionar",
+    "msg1": "Josue, gracias por conectar! 👋\n\nMe quedó dando vueltas la publicación que compartiste sobre la diferencia entre publicar y posicionar. Lo que me gustó fue que la escribiste desde la frustración de quien realmente gestiona ese desafío día a día, no desde la teoría. La mayoría de los que hablan de eso están vendiendo herramientas, no viviendo el problema.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "msg2": "Hola Josué! Eso es exactamente lo que quise decir cuando leí tu publicación.\n\nEl pico es la trampa. Se siente bien en el momento, suben las visualizaciones, el cliente queda contento, pero no construye nada. Y el problema es que muchos nunca salen de ese ciclo porque nadie les hace la pregunta de fondo: ¿hacia dónde querés que vaya esta marca en dos años?\n\nEso es justo en lo que trabajamos desde Hint Media: ayudar a marcas e instituciones a construir esa visión y ejecutar la comunicación que la sostenga en el tiempo. No picos, sino presencia con dirección. Hemos trabajado con TGS y Libra Seguros en ese tipo de estructura.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "extraMsgs": {},
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Josue, gracias por conectar! 👋\n\nMe quedó dando vueltas la publicación que compartiste sobre la diferencia entre publicar y posicionar. Lo que me gustó fue que la escribiste desde la frustración de quien realmente gestiona ese desafío día a día, no desde la teoría. La mayoría de los que hablan de eso están vendiendo herramientas, no viviendo el problema.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Hola Florencia, que gusto saludarte, si exacto, lo que trataba de dar a entender al final de cuentas, es que la comunicación y el marketing no es una moda, o un trend, como se les esta vendiendo a los emprendedores hoy en día, hay muchas personas que venden publicidad pero al final de cuentas el resultado cual es? un pico de ventas? un pico de visualización? etc... pero no va a pasar de ahí, en términos generales no existe una visión o planificación que logre soportar un poco más de tiempo el posicionamiento. Y todo esto quería enfocarlo a las personas y emprendimientos que no saben por dónde iniciar, y que estén anuentes a que no lo que hace todos los demás está bien, y al final tener una visión de lo que se quiere que la marca llegue ser, pero una visión clara y objetiva."
+      },
+      {
+        "role": "sent",
+        "text": "Hola Josué! Eso es exactamente lo que quise decir cuando leí tu publicación.\n\nEl pico es la trampa. Se siente bien en el momento, suben las visualizaciones, el cliente queda contento, pero no construye nada. Y el problema es que muchos nunca salen de ese ciclo porque nadie les hace la pregunta de fondo: ¿hacia dónde querés que vaya esta marca en dos años?\n\nEso es justo en lo que trabajamos desde Hint Media: ayudar a marcas e instituciones a construir esa visión y ejecutar la comunicación que la sostenga en el tiempo. No picos, sino presencia con dirección. Hemos trabajado con TGS y Libra Seguros en ese tipo de estructura.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+      }
+    ],
+    "stage": 2,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "15/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "MSG2 enviado, respondió con reflexión elaborada sobre posicionamiento vs. picos"
+      }
+    ]
+  },
+  {
     "id": "1749498000000",
     "date": "09/06/26",
     "name": "María Fernanda Garita Rojas",
@@ -13054,7 +13265,26 @@
     "msg1": "Bernardo, gracias por conectar!\n\nMe llamo la atencion la forma en que anunciaste la oportunidad en Gulf. Muchos directivos solo publican el rol y listo, pero vos hablaste del legado y de unirse en algo mas grande. Da la impresion de que armas equipos desde la conviccion, no desde la urgencia.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
     "msg2": "Hola Bernardo, gracias!\n\n8 paises en paralelo, cada mercado con su propio ritmo y exigencia. En ese volumen mantener coherencia de marca y calidad de ejecucion al mismo tiempo es donde el contenido empieza a ceder.\n\nEn Hint trabajamos con equipos en esa brecha. Con TGS acompanamos la produccion de contenido y comunicacion para que la estrategia regional tambien se vea en cada mercado.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
     "estado": "MSG2 enviado",
-    "respuesta": "Hola Florencia. Buenas tardes. Cuentame como te puedo ayudar?"
+    "respuesta": "Hola Florencia. Buenas tardes. Cuentame como te puedo ayudar?",
+    "stage": 3,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "12/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "Florencia Di Rado\n12:47\n\nBernardo, gracias por conectar! 👋\n\nMe llamó la atención la forma en que anunciaste la oportunidad en Gulf. Muchos directivos solo publican el rol y listo, pero vos hablaste del \"legado\" y de \"unirse\" en algo más grande. Da la impresión de que armás equipos desde la convicción, no desde la urgencia.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\nBernardo Diaz ha enviado el siguiente mensaje a las 18:11\nVer el perfil de Bernardo Bernardo Diaz\nBernardo Diaz 18:11\n\nHola Florencia. Buenas tardes. \nCuéntame ¿cómo te puedo ayudar?\nFlorencia Di Rado ha enviado los siguientes mensajes a las 18:16\nVer el perfil de Florencia Florencia Di Rado\nFlorencia Di Rado\n18:16\n\nHola Bernardo, gracias!\n\n8 países en paralelo, cada mercado con su propio ritmo y exigencia. En ese volumen mantener coherencia de marca y calidad de ejecución al mismo tiempo es donde el contenido empieza a ceder.\n\nEn Hint trabajamos con equipos en esa brecha. Con TGS acompañamos la producción de contenido y comunicación para que la estrategia regional también se vea en cada mercado.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\nBernardo Diaz ha enviado los siguientes mensajes a las 21:09\nVer el perfil de Bernardo Bernardo Diaz\nBernardo Diaz 21:09\n\nHola. Lo puedes enviar a mi email\n\nBdiaz@gulfoilpanama.com"
+      },
+      {
+        "stage": 3,
+        "date": "15/06/26",
+        "note": "Bdiaz@gulfoilpanama.com"
+      }
+    ],
+    "dossierMail": true
   },
   {
     "id": "1749380300007",
@@ -13522,6 +13752,44 @@
         "stage": 1,
         "date": "08/06/26",
         "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1781554623897",
+    "date": "15/06/26",
+    "name": "Karina Herrera",
+    "empresa": "Dataformas de Costa Rica",
+    "cargo": "Marketing Coordinator",
+    "variantTitle": "Investigacion + logro",
+    "msg1": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
+    "msg2": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "extraMsgs": {},
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Un gusto Florencia! 👋🏻\n\nAsi es, todo resultado se da gracias al trabajo en equipo detras de el y lo que se aprende brinda oportunidades de crecimiento y mejora. Cuenteme en que puedo ayudarte"
+      },
+      {
+        "role": "sent",
+        "text": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
+      }
+    ],
+    "stage": 2,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "MSG2 enviado"
       }
     ]
   }

@@ -1,0 +1,34 @@
+# Daniel Mendoza López
+
+**Estado:** MSG2 enviado
+**Fecha:** 15/06/26
+**Cargo:** Marketing Automation Specialist, Loymark
+**País:** Costa Rica
+**Empresa:** Loymark (agencia digital/marketing)
+
+## Conversación
+
+**MSG1 (Florencia, miércoles 12:34):**
+Destacó su equilibrio entre construir infraestructura técnica y generar resultados que el equipo puede usar hoy.
+
+**Respuesta Daniel (sábado 10:38):**
+"Hola buenos días un gusto"
+
+**Confirmación posterior:**
+"Y claro correcto, así tal cual"
+
+**MSG2 (redactado):**
+> Daniel, gracias por confirmar.
+>
+> Vi que compartiste algo de Loymark sobre presencia en entornos de IA: "no basta con existir, la diferencia está en si la IA te menciona o te elige." Eso aplica igual para el contenido y la marca. La infraestructura técnica necesita material estratégico de calidad para que los flujos tengan sentido.
+>
+> En Hint trabajamos con equipos de marketing en estrategia de contenido y posicionamiento de marca que alimenta y da sentido a esa infraestructura.
+>
+> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Notas
+- Trabaja en Loymark (agencia) — posicionado como complementario
+- Especialista técnico: GA4, GTM, CRM, Zapier, WordPress, Meta Ads
+- 4+ años en Loymark
+- Certificaciones: HubSpot Marketing, HubSpot Sales, Meta Digital Marketing Associate
+- Loymark tiene AURA GEO (herramienta de presencia en AI/GEO)
