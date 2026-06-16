@@ -1,6 +1,6 @@
 # Leidy Sandi Jimenez
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado — respondió "Sí, claro"
 **Fecha:** 15/06/26
 **Cargo:** Marketing Lead, Congero Technology Group
 **País:** Costa Rica
@@ -22,6 +22,14 @@ Citó cómo posicionó a Congero en London Tech Week, destacando a Celio y Alexa
 > En Hint acompañamos a empresas B2B de tecnología para que sus mensajes lleguen al nivel C-suite con la claridad que merece lo que hacen.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+**Respuesta Leidy (16/06/26):**
+"Sí, claro"
+
+**Respuesta enviada:**
+> Perfecto Leidy, te lo mando por acá ahora mismo!
+>
+> Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
 ## Notas
 - Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)

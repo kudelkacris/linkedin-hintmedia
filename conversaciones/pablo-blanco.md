@@ -1,6 +1,6 @@
 # Pablo Blanco
 
-**Estado:** MSG2 enviado
+**Estado:** Pivot a colaboración — preguntó "cuál sería el fin del dossier", respondido con ángulo alianza
 **Fecha:** 15/06/26
 **Cargo:** Digital Marketing Specialist / Marketing Team Leader
 **País:** Costa Rica
@@ -22,6 +22,14 @@ Destacó el amplio espectro de plataformas que maneja: Shopify, Klaviyo, Mailchi
 > En Hint trabajamos estrategia de contenido y posicionamiento de marca, el lado que complementa lo que vos ejecutás en performance y plataformas.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+**Respuesta Pablo:**
+"Hola Florencia. Eso que escribí fue un post que compartí de mi empresa de Agencia de Marketing Digital. Cuál sería el fin del dossier?"
+
+**Respuesta enviada (pivot a colaboración):**
+> Pablo, la idea era ver si había algo en lo que pudiéramos sumar, ya sea con algún cliente tuyo o explorando si tiene sentido trabajar juntos en algo.
+>
+> Vale la pena que lo veas?
 
 ## Notas
 - Especialista performance/e-commerce, no decision-maker de compra

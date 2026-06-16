@@ -1,6 +1,6 @@
 # Ericka Torres
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado — respondió "Sí, claro"
 **Fecha:** 15/06/26
 **Cargo:** Gerente de Marketing, Novogar Costa Rica
 **País:** Costa Rica (Heredia)

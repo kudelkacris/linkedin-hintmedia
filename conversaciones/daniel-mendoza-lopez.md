@@ -1,6 +1,6 @@
 # Daniel Mendoza López
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado — respondió "Si claro esta bien"
 **Fecha:** 15/06/26
 **Cargo:** Marketing Automation Specialist, Loymark
 **País:** Costa Rica
@@ -25,6 +25,14 @@ Destacó su equilibrio entre construir infraestructura técnica y generar result
 > En Hint trabajamos con equipos de marketing en estrategia de contenido y posicionamiento de marca que alimenta y da sentido a esa infraestructura.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+**Respuesta Daniel:**
+"Si claro esta bien"
+
+**Respuesta enviada:**
+> Perfecto Daniel, te lo mando por acá ahora mismo!
+>
+> Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
 ## Notas
 - Trabaja en Loymark (agencia) — posicionado como complementario

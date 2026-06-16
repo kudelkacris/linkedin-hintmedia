@@ -1,6 +1,6 @@
 # Guille Tejada
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado — dio email gtejada@komunikalatam.com
 **Fecha:** 15/06/26
 **Cargo:** Head of PR, Digital and Marketing Communications, Komunika Latam
 **País:** Panamá
@@ -22,6 +22,12 @@ Destacó que en 4 años pasó de Gerente de Digital a liderar toda la unidad de 
 > En Hint trabajamos en estrategia de contenido, marca y digital para empresas que necesitan esa consistencia sostenida. Muchas veces de forma complementaria con agencias de PR.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+**Respuesta Guille (16/06/26):**
+"Buen día Florencia! Claro que sí, compárteme por aquí tus credenciales o a mi email gtejada@komunikalatam.com"
+
+**Respuesta enviada:**
+> Perfecto Guille, te lo mando por acá y también a gtejada@komunikalatam.com ahora mismo!
 
 ## Notas
 - Trabaja en Komunika (agencia PR/comunicación) — posicionado como complementario
