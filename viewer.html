@@ -139,24 +139,27 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .prox-count{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;background:#333;color:#ccc}
 .prox-count.has-overdue{background:#7C1D00;color:#FF9980}
 .prox-chevron{margin-left:auto;color:#555;font-size:13px;transition:transform .2s}
-#proximos-body{display:none;padding:10px 0 12px}
-#proximos-body.open{display:flex;flex-wrap:wrap;gap:8px;animation:slideDown .2s ease}
-.prox-card{background:#1F1F1F;border:1px solid #333;border-radius:9px;padding:8px 11px;cursor:pointer;transition:all .15s;width:200px;flex-shrink:0;display:flex;flex-direction:column;gap:2px}
-.prox-card:hover{border-color:var(--orange);background:#2A2A2A}
-.prox-card.overdue{border-color:#7C1D00;background:#1A0800}
-.prox-card.overdue:hover{border-color:#FF3B00}
-.prox-card-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.prox-card-days{font-size:11px;font-weight:700}
-.prox-card-days.red{color:#FF5C35}
-.prox-card-days.orange{color:#FFA040}
-.prox-card-days.green{color:#27AE60}
-.prox-card-stage{font-size:10px;color:#666}
-.overdue-badge{font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#FFE5E0;color:#8B1A00;flex-shrink:0}
-.prox-group{display:contents}
-.prox-group-label{width:100%;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#aaa;padding:6px 4px 4px;margin-top:2px;flex-basis:100%;border-top:1px solid #333}
-.prox-card-snippet{font-size:10px;color:#555;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;font-style:italic}
-.prox-card-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:3px;gap:6px}
-.prox-stage-pill{font-size:9px;font-weight:700;padding:1px 6px;border-radius:10px;white-space:nowrap}
+#proximos-body{display:none;padding:10px 0 14px}
+#proximos-body.open{display:flex;gap:16px;animation:slideDown .2s ease;overflow-x:auto;align-items:flex-start}
+.prox-col{flex:0 0 300px;min-width:240px;max-width:320px}
+.prox-col-head{display:flex;align-items:center;gap:7px;padding:6px 10px;border-radius:7px 7px 0 0;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.prox-col-head.col-msg2{background:#3A1500;color:#FF9060}
+.prox-col-head.col-dossier{background:#002040;color:#60A8FF}
+.prox-col-head.col-seg{background:#1A1040;color:#A080FF}
+.prox-col-count{font-weight:800;font-size:13px;margin-left:auto}
+.prox-col-body{background:#161616;border:1px solid #2A2A2A;border-top:none;border-radius:0 0 7px 7px;max-height:260px;overflow-y:auto}
+.prox-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid #1F1F1F;cursor:pointer;transition:background .12s}
+.prox-row:last-child{border-bottom:none}
+.prox-row:hover{background:#1F1F1F}
+.prox-row.overdue-row{border-left:2px solid #7C1D00}
+.prox-row-info{flex:1;min-width:0}
+.prox-row-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prox-row-empresa{font-size:10px;color:#555;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prox-row-days{font-size:11px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.prox-row-days.red{color:#FF5C35}
+.prox-row-days.orange{color:#FFA040}
+.prox-row-days.green{color:#27AE60}
+.prox-empty-col{padding:14px 10px;font-size:11px;color:#444;text-align:center;font-style:italic}
 .psp-1{background:#3A1500;color:#FF9060}
 .psp-2{background:#002A50;color:#60B0FF}
 .psp-3{background:#1A0040;color:#B080FF}
@@ -582,52 +585,69 @@ function stagePillProx(s) {
   const cls = s===2?'psp-2':s===3?'psp-3':'psp-1';
   return `<span class="prox-stage-pill ${cls}">${STAGE_NAMES_SHORT[s]||'Apertura'}</span>`;
 }
+function getActionForStage(stage) {
+  if (stage === 1) return 'msg2';
+  if (stage === 2) return 'dossier';
+  if (stage === 3 || stage === 4) return 'seg';
+  return 'other';
+}
+function getEmpresaDisplay(en) {
+  if (en.empresa) return en.empresa;
+  const m1 = (en.msg1 || '').match(/en\s+([A-Z][^\.,\n]{2,30})/);
+  if (m1) return m1[1];
+  if (en.email) { const d = en.email.split('@')[1]; if (d) return d.split('.')[0]; }
+  return '';
+}
 function renderProximos() {
-  const active = _entries.filter(en => !en.noInterest);
+  const active = _entries.filter(en => !en.noInterest && (en.stage||1) <= 4);
   const countEl = document.getElementById('prox-count');
   const body = document.getElementById('proximos-body');
   if (!countEl || !body) return;
-
   const enriched = active.map(en => {
     const days = daysAgo(getLastActivityDate(en));
     const thresh = getThreshold(en);
     const remaining = thresh - days;
-    return { en, days, thresh, remaining, overdue: remaining <= 0 };
-  }).sort((a,b) => {
-    if (a.overdue !== b.overdue) return a.overdue ? -1 : 1;
-    if (a.remaining !== b.remaining) return a.remaining - b.remaining;
-    const sp = {2:0,3:1,1:2,4:3,5:4};
-    return (sp[a.en.stage||1]||2) - (sp[b.en.stage||1]||2);
-  });
-
+    const overdue = remaining <= 0;
+    const action = getActionForStage(en.stage || 1);
+    return { en, days, remaining, overdue, action };
+  }).filter(x => x.overdue || x.remaining <= 3)
+    .sort((a,b) => a.remaining - b.remaining);
   const overdueCnt = enriched.filter(x => x.overdue).length;
   countEl.textContent = enriched.length;
   countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
-
-  const groups = [
-    { label: '⚠ Vencidos', items: enriched.filter(x => x.overdue) },
-    { label: '🟠 Próximos (1-2 días)', items: enriched.filter(x => !x.overdue && x.remaining <= 2) },
-    { label: '🟢 Con tiempo', items: enriched.filter(x => !x.overdue && x.remaining > 2) },
-  ].filter(g => g.items.length > 0);
-
-  body.innerHTML = groups.map(g => {
-    const cards = g.items.map(({en, days, remaining, overdue}) => {
-      const s = en.stage || 1;
-      let daysLabel, daysClass;
-      if (overdue) { daysLabel = `Vencido · hace ${days}d`; daysClass = 'red'; }
-      else if (remaining <= 1) { daysLabel = remaining === 0 ? 'Hoy' : 'Mañana'; daysClass = 'orange'; }
-      else { daysLabel = `En ${remaining}d`; daysClass = 'green'; }
-      const snippet = getSnippet(en);
-      return `<div class="prox-card${overdue ? ' overdue' : ''}" onclick="selectProspect('${en.id}')">
-        <div class="prox-card-name">${esc(en.name)}</div>
-        ${snippet ? `<div class="prox-card-snippet">${esc(snippet)}</div>` : ''}
-        <div class="prox-card-bottom">
-          <div class="prox-card-days ${daysClass}">${daysLabel}</div>
-          ${stagePillProx(s)}
-        </div>
-      </div>`;
-    }).join('');
-    return `<div class="prox-group-label">${g.label} (${g.items.length})</div>${cards}`;
+  const cols = [
+    { key:'msg2',    head:'col-msg2',   label:'Enviar MSG2',    emoji:'💬' },
+    { key:'dossier', head:'col-dossier',label:'Enviar dossier', emoji:'📄' },
+    { key:'seg',     head:'col-seg',    label:'Seguimiento',    emoji:'🔁' },
+  ];
+  function daysLabel(x) {
+    if (x.overdue) return { text: `hace ${x.days}d`, cls: 'red' };
+    if (x.remaining === 0) return { text: 'Hoy', cls: 'orange' };
+    if (x.remaining === 1) return { text: 'Mañana', cls: 'orange' };
+    return { text: `en ${x.remaining}d`, cls: 'green' };
+  }
+  body.innerHTML = cols.map(col => {
+    const items = enriched.filter(x => x.action === col.key);
+    const rows = items.length === 0
+      ? `<div class="prox-empty-col">Sin pendientes</div>`
+      : items.map(x => {
+          const { text, cls } = daysLabel(x);
+          const empresa = getEmpresaDisplay(x.en);
+          return `<div class="prox-row${x.overdue ? ' overdue-row' : ''}" onclick="selectProspect('${x.en.id}')">
+            <div class="prox-row-info">
+              <div class="prox-row-name">${esc(x.en.name)}</div>
+              ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+            </div>
+            <div class="prox-row-days ${cls}">${text}</div>
+          </div>`;
+        }).join('');
+    return `<div class="prox-col">
+      <div class="prox-col-head ${col.head}">
+        <span>${col.emoji} ${col.label}</span>
+        <span class="prox-col-count">${items.length}</span>
+      </div>
+      <div class="prox-col-body">${rows}</div>
+    </div>`;
   }).join('');
 }
 
