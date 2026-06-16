@@ -1,5 +1,43 @@
 [
   {
+    "id": "1781554623897",
+    "date": "15/06/26",
+    "name": "Karina Herrera",
+    "empresa": "Dataformas de Costa Rica",
+    "cargo": "Marketing Coordinator",
+    "variantTitle": "Investigacion + logro",
+    "msg1": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
+    "msg2": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "extraMsgs": {},
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar."
+      },
+      {
+        "role": "received",
+        "text": "Un gusto Florencia! 👋🏻\n\nAsi es, todo resultado se da gracias al trabajo en equipo detras de el y lo que se aprende brinda oportunidades de crecimiento y mejora. Cuenteme en que puedo ayudarte"
+      },
+      {
+        "role": "sent",
+        "text": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
+      }
+    ],
+    "stage": 2,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/06/26",
+        "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "15/06/26",
+        "note": "MSG2 enviado"
+      }
+    ]
+  },
+  {
     "id": "1781303319181",
     "date": "12/06/26",
     "name": "Ricardo Correa",
@@ -178,7 +216,7 @@
         "text": "Guille, gracias por conectar!\n\nEstuve revisando un poco lo que vienen haciendo en Komunika. Me llamó la atención que en poco más de 4 años pasaste de Gerente de Digital a liderar toda la unidad de PR, Marketing y Comunicaciones Corporativas. Eso significa mucho crecimiento en clientes, proyectos y complejidad operativa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -189,8 +227,14 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "¡Buenos días Florencia, muchas gracias por tus palabras! Cuéntame en qué te puedo apoyar."
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "Buen día Florencia! Claro que sí, compárteme por aquí tus credenciales o a mi email gtejada@komunikalatam.com"
       }
-    ]
+    ],
+    "dossierMail": true
   },
   {
     "id": "1781303189335",
@@ -324,7 +368,7 @@
         "text": "Laura, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste hace unos meses sobre lo que RRHH solicita para perfiles senior de marketing. La realidad que describiste (diseño, redes, SEO, email, eventos, todo en una persona) es exactamente lo que mata las estrategias reales. Me quedó claro que vos entendés la diferencia entre un ejecutor y un líder.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -335,6 +379,11 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "¡Hola! Claro, ¿cuál es tu consulta?"
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "si envialo"
       }
     ]
   },
@@ -585,7 +634,7 @@
         "text": "Evanny, gracias por responder!\n\nLo que describiste en el post de storytelling me parecio muy preciso: \"contar historias no es solo hablar de una marca o un producto, es lograr que el publico se identifique y conecte.\" Eso es exactamente el estandar que cuesta mas sostener en el dia a dia.\n\nEn Hint trabajamos con instituciones y marcas en contenido estrategico, storytelling y posicionamiento digital que mantienen ese nivel de conexion de forma consistente.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -596,6 +645,11 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "Hola Florencia! Cómo estás? Claro con gusto"
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "si claro"
       }
     ]
   },
@@ -1762,7 +1816,7 @@
         "text": "Leidy, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo posicionaste a Congero en London Tech Week. Lo que más valoro es que decidiste destacar a Celio y Alexander como puntos de entrada en lugar de solo listar servicios. Eso dice bastante sobre cómo pensás el relacionamiento comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -1773,6 +1827,11 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "Hola Florencia, espero se encuentre bien, claro dejame saber tu consulta"
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "si claro"
       }
     ]
   },
@@ -3508,7 +3567,7 @@
         "text": "Daniel, gracias por conectar. Un gusto.\n\nEstuve revisando un poco tu perfil y me quedó claro que gran parte de tu trabajo pasa por construir infraestructura que funcione — automatización, flujos, integraciones — pero al mismo tiempo necesitás que eso genere resultados que el equipo pueda usar hoy. Eso es un equilibrio bastante particular.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -3519,6 +3578,11 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "Hola buenos días un gusto \n\n    😄\n    🤐\n    👏\n\nY claro correcto, así tal cual"
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "si claro"
       }
     ]
   },
@@ -4675,12 +4739,17 @@
         "text": "Fabio, gracias por conectar 👋\n\nMe llamó la atención la forma en que compartiste la reflexión sobre resiliencia. No fue sobre un logro o un número, sino sobre qué aprendiste del proceso. Es raro ver a alguien en posición general manager que comunique de esa manera — la mayoría tira métrica o resultado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "12/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "16/06/26",
+        "note": "con gusto"
       }
     ]
   },
@@ -4722,7 +4791,7 @@
         "text": "Ericka, gracias por conectar. Un gusto.\n\nMe llamó la atención que en lugar de destacar un logro de campaña, compartiste tu aprendizaje del Foro de Sostenibilidad. Lo que más me gustó fue que enfatizaras que \"seguir aprendiendo sobre planificación urbana y movilidad es fundamental\" en desarrollo inmobiliario. No es lo típico que ves en marketing — suele haber más ruido comercial que reflexión estratégica.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -4733,6 +4802,11 @@
         "stage": 2,
         "date": "15/06/26",
         "note": "Claro en que te puedo ayudar ?"
+      },
+      {
+        "stage": 3,
+        "date": "16/06/26",
+        "note": "Sí, claro"
       }
     ]
   },
@@ -8800,12 +8874,17 @@
         "text": "Juliana, gracias por aceptar mi solicitud de conexión! 👋\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Jefe de RRHH en VENOIL ENERGÍA, ¿es así?\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "08/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "16/06/26",
+        "note": "buenas si dime"
       }
     ]
   },
@@ -13752,44 +13831,6 @@
         "stage": 1,
         "date": "08/06/26",
         "note": ""
-      }
-    ]
-  },
-  {
-    "id": "1781554623897",
-    "date": "15/06/26",
-    "name": "Karina Herrera",
-    "empresa": "Dataformas de Costa Rica",
-    "cargo": "Marketing Coordinator",
-    "variantTitle": "Investigacion + logro",
-    "msg1": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
-    "msg2": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
-    "extraMsgs": {},
-    "conversationHistory": [
-      {
-        "role": "sent",
-        "text": "Karina, gracias por conectar! 👋\n\nMe llamo la atencion como enfocaste la publicacion sobre Reset Comercial. Casi todos resaltan el evento en si, el numero de asistentes, el resultado visual. Vos pusiste primero el trabajo detras, la coordinacion, lo que se aprendio. Eso dice bastante sobre como pensas las cosas.\n\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar."
-      },
-      {
-        "role": "received",
-        "text": "Un gusto Florencia! 👋🏻\n\nAsi es, todo resultado se da gracias al trabajo en equipo detras de el y lo que se aprende brinda oportunidades de crecimiento y mejora. Cuenteme en que puedo ayudarte"
-      },
-      {
-        "role": "sent",
-        "text": "Karina, gracias por responder!\n\nEso que decis refleja bien como se construye una marca en B2B: no en el evento en si, sino en lo que queda despues, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n\nEn Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?"
-      }
-    ],
-    "stage": 2,
-    "stageHistory": [
-      {
-        "stage": 1,
-        "date": "14/06/26",
-        "note": ""
-      },
-      {
-        "stage": 2,
-        "date": "15/06/26",
-        "note": "MSG2 enviado"
       }
     ]
   }
