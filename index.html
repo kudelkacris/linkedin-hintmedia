@@ -586,6 +586,7 @@ PROHIBIDO EN TODOS LOS MENSAJES:
 - Parecer automatizado
 - Más de 2 emojis por mensaje
 - Bloques de texto largos
+- Guiones largos (—) para separar frases. Usar coma, punto o dos puntos en su lugar.
 
 FORMATO DE BURBUJAS:
 Cada mensaje se divide en burbujas cortas separadas.
@@ -1466,7 +1467,7 @@ function histUpsert(entry) {
     if (!entry.stageHistory) entry.stageHistory = [{stage:1, date:entry.date, note:''}];
     _histEntries.unshift(entry);
   }
-  if (_histEntries.length > 300) _histEntries = _histEntries.slice(0, 300);
+  if (_histEntries.length > 2000) _histEntries = _histEntries.slice(0, 2000);
   histPersist(entry);
   renderHistoryList();
 }
