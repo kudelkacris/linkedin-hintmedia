@@ -31,6 +31,17 @@ Destacó comentario de Laura sobre RRHH que pide diseño + redes + SEO + email +
 >
 > Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
+## SEG1 (enviado 17/06/26)
+> Laura, espero que andes bien. No sé si llegaste a ver el material que te envié, pero me quedé pensando en algo después de mandártelo.
+>
+> Ese comentario tuyo sobre lo que RRHH pide para perfiles senior (diseño, redes, SEO, email, eventos, todo junto) me parece que describe algo más grande que un problema de carga de trabajo.
+>
+> Es casi un síntoma de cómo se diseñan los roles de marketing en muchas empresas, y de cuánto termina dependiendo de una sola persona algo que debería sostenerse en equipo.
+>
+> Si te parece que tiene sentido, podemos conversarlo 15 minutos.
+
+**Estado actualizado:** SEG1 enviado (17/06/26)
+
 ## Notas
 - Viene de Essity (TENA, FMCG, Centroamérica)
 - Está explorando también consultoría independiente para pymes

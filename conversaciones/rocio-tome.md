@@ -4,7 +4,7 @@
 **Cargo:** Analista de Comunicaciones (abr 2025, 1 año 3 meses)
 **País:** Argentina
 **Sector:** Oil & Gas / Energía
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado (17/06/26)
 
 ---
 
@@ -16,6 +16,13 @@
 
 ## Cierre
 > Perfecto Rocio, te lo mando ahora! Justamente trabajamos como capa adicional al equipo — no en reemplazo de la agencia. Quedamos en contacto!
+
+## SEG1 (enviado 17/06/26, en 4 burbujas)
+> Rocío, cómo andás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste, que el Foro lo manejan con equipo interno y la agencia como soporte.
+>
+> Esa combinación funciona bien hasta que aparecen dos o tres proyectos de ese tamaño al mismo tiempo, ahí suele verse quién termina sosteniendo la coherencia entre todos.
+>
+> Es justo el tipo de situación donde solemos sumar como capa adicional, sin tocar lo que ya tienen armado con la agencia. Si te parece útil, lo conversamos 15 minutos y vemos si tiene sentido para tu realidad.
 
 ---
 

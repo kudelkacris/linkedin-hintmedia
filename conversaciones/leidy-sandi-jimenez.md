@@ -31,6 +31,17 @@ Citó cómo posicionó a Congero en London Tech Week, destacando a Celio y Alexa
 >
 > Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
+## SEG1 (enviado 17/06/26)
+> Leidy, espero que andes bien. Me quedó dando vueltas algo después de mandarte el material.
+>
+> Esa frase tuya, "el crecimiento no sucede por casualidad, sino por convicción".
+>
+> Me llamó la atención por una razón puntual, no es lo típico que alguien en comercial lo diga así.
+>
+> Si te parece que tiene sentido, podemos conversarlo 15 minutos.
+
+**Estado actualizado:** SEG1 enviado (17/06/26)
+
 ## Notas
 - Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)
 - Leidy maneja toda la comunicación/marketing de Congero

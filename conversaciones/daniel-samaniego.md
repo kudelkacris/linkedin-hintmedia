@@ -4,7 +4,7 @@
 **Cargo:** Coordinador de Marketing (feb 2026, 5 meses)
 **País:** Panamá
 **Sector:** Automotriz
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado (17/06/26)
 
 ---
 
@@ -32,6 +32,13 @@
 
 ## Cierre
 > Perfecto Daniel, te lo mando ahora. Quedamos en contacto!
+
+## SEG1 (enviado 17/06/26, en 4 burbujas)
+> Daniel, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de armar el área de marketing de Petromotors casi desde cero, viniendo de retail.
+>
+> Esos primeros meses suelen marcar si la estructura queda lista para escalar o si todo sigue dependiendo de una sola persona aunque el equipo crezca después.
+>
+> Es una etapa donde solemos acompañar bastante a equipos que están en eso mismo. Si te hace sentido, podemos hablar 15 minutos esta semana.
 
 ---
 

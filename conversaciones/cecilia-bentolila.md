@@ -5,7 +5,7 @@
 **Otro rol:** Presidenta de Circom CBA
 **País:** Argentina (Córdoba)
 **Sector:** Real estate / Comunicación institucional
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado (17/06/26)
 
 ---
 
@@ -34,6 +34,15 @@
 ## Cierre
 > Perfecto Cecilia, te lo mando ahora. Quedamos en contacto!
 
+## SEG1 (enviado 17/06/26, en 4 burbujas)
+> Cecilia, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.
+>
+> Lo de liderar Circom mientras manejás la comunicación institucional de ECIPSA, formar a otros en cómo comunicar y comunicar vos misma al mismo tiempo.
+>
+> Esa doble posición suele cambiar bastante la vara con la que uno mismo termina midiendo lo que su propio equipo produce hacia afuera.
+>
+> Es justo el tipo de exigencia con la que solemos acompañar a empresas en proyectos complejos. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.
+
 ---
 
 ## Notas
@@ -41,3 +50,4 @@
 - Circom CBA: organización de comunicación en Córdoba, capacitaciones streaming y audiovisual.
 - Ángulo: no solo comunica hacia afuera, también forma a otros en comunicar — mirada distinta.
 - Clientes usados: TGS, Transener, Libra Seguros (fit comunicación institucional Argentina).
+- Trabaja junto a Elisa Schipani (otro contacto, mismo equipo ECIPSA — ver [elisa-schipani.md](elisa-schipani.md)).

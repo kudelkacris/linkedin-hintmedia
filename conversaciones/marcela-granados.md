@@ -15,5 +15,12 @@ metadata:
 - MSG2 enviado — gap: comunicación construida desde lógica de negocio exige equipo que entienda qué comunica y por qué. Mención TGS, Transener, Libra Seguros.
 - Respondió: "Enviame el dossier acá"
 - Dossier enviado
+- SEG1 enviado 17/06/26:
 
-**Estado:** Dossier enviado
+> Marcela, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Trade marketing es una posición rara, estás todo el día entre lo que pasa en el punto de venta y lo que la marca quiere decir hacia afuera.
+>
+> Me llamó la atención por una razón puntual, no es un rol que se entienda fácil desde afuera.
+>
+> Si te parece que tiene sentido, podemos conversarlo 15 minutos.
+
+**Estado:** SEG1 enviado (17/06/26)
