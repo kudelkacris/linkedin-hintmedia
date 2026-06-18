@@ -1,7 +1,7 @@
 # Juan Carlos Posada
 
-**Estado:** SEG1 enviado, esperando momento de SEG2
-**Fecha:** 04/06/26 (MSG1) — SEG1 17/06/26
+**Estado:** Cerrado, no interesado
+**Fecha:** 04/06/26 (MSG1) — SEG1 17/06/26 — rechazo 18/06/26
 **Cargo:** Gerente General | CMO | CCO
 **Empresa:** BAOBAB
 **País:** —
@@ -40,6 +40,11 @@
 > Es justo el tipo de situación con la que solemos acompañar a ejecutivos en procesos de cambio así.
 >
 > Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.
+
+## Cierre final (18/06/26)
+> Hola Florencia, gracias pero no estoy interesado. Saludos
+
+No responder más. Cerrado.
 
 ## Notas
 - MSG1/MSG2 originales no siguen la metodología nueva (pregunta consultiva directa en MSG2, "vemos constantemente" — diagnóstico). Quedó como aprendizaje de qué NO repetir.

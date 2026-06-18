@@ -1,7 +1,7 @@
 # Matthew Hernandez
 
-**Estado:** MSG2 enviado
-**Fecha:** 15/06/26
+**Estado:** Dossier enviado
+**Fecha:** 15/06/26 (MSG2) — dossier 18/06/26
 **Cargo:** Marketing Coordinator, Nexsys Centroamérica y Caribe
 **País:** Costa Rica (Cartago)
 **Empresa:** Nexsys Centroamérica y Caribe (distribuidor tech: Adobe, Red Hat, SonicWall, Salesforce)
@@ -22,6 +22,10 @@ Destacó que combina "habilidades analíticas con visión creativa."
 > En Hint acompañamos a equipos de marketing B2B con contenido, posicionamiento y estrategia de marca que sostiene ese tipo de resultados a mediano plazo.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+**Respuesta Matthew (miércoles 21:38):** "Buenas noches, si claro, si gustas me lo compartes y nosotros lo revisamos"
+
+**Dossier enviado (hoy 18/06, 11:50):** "Buen dia Matt, te lo dejo adjunto por aca"
 
 ## Notas
 - Coordinador junior (9 meses en Nexsys, oct 2025)

@@ -588,7 +588,8 @@ function stagePillProx(s) {
 function getActionForStage(stage) {
   if (stage === 1) return 'msg2';
   if (stage === 2) return 'dossier';
-  if (stage === 3 || stage === 4) return 'seg';
+  if (stage === 3) return 'seg1';
+  if (stage === 4) return 'seg2';
   return 'other';
 }
 function getEmpresaDisplay(en) {
@@ -610,15 +611,15 @@ function renderProximos() {
     const overdue = remaining <= 0;
     const action = getActionForStage(en.stage || 1);
     return { en, days, remaining, overdue, action };
-  }).filter(x => x.overdue || x.remaining <= 3)
-    .sort((a,b) => a.remaining - b.remaining);
+  }).sort((a,b) => a.remaining - b.remaining);
   const overdueCnt = enriched.filter(x => x.overdue).length;
   countEl.textContent = enriched.length;
   countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
   const cols = [
-    { key:'msg2',    head:'col-msg2',   label:'Enviar MSG2',    emoji:'💬' },
-    { key:'dossier', head:'col-dossier',label:'Enviar dossier', emoji:'📄' },
-    { key:'seg',     head:'col-seg',    label:'Seguimiento',    emoji:'🔁' },
+    { key:'msg2',    head:'col-msg2',   label:'Enviar MSG2',      emoji:'💬' },
+    { key:'dossier', head:'col-dossier',label:'Enviar dossier',   emoji:'📄' },
+    { key:'seg1',    head:'col-seg',    label:'Seguimiento 1',    emoji:'🔁' },
+    { key:'seg2',    head:'col-seg',    label:'Seguimiento 2',    emoji:'🔁' },
   ];
   function daysLabel(x) {
     if (x.overdue) return { text: `hace ${x.days}d`, cls: 'red' };

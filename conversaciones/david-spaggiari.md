@@ -1,7 +1,7 @@
 # David Spaggiari
 
-**Estado:** SEG1 enviado (interés BAJO — solo reaccionó con 👍 al dossier)
-**Fecha:** 01/06/26 (MSG1) — SEG1 17/06/26
+**Estado:** CERRADO — declinó, otras prioridades en la empresa
+**Fecha:** 01/06/26 (MSG1) — SEG1 17/06/26 — cierre 18/06/26
 **Cargo:** CEO | Director General
 **Empresa:** Olnatura
 **Sector:** Sustainable Product Manufacturing — suplementos dietarios y productos de salud
@@ -47,6 +47,11 @@
 >
 > Si te interesa explorarlo, coordinamos una llamada breve.
 
+## Cierre final (18/06/26)
+> David: "gracias Florencia, en este momento tenemos otras prioridades en la emoresa"
+> Respuesta: "Entiendo David, gracias por la sinceridad. Quedo atenta si en algún momento vuelve a ser prioridad. Éxitos con Olnatura!"
+
 ## Notas
 - MSG2 original viola la regla "PROHIBIDO comenzar con: Por eso pensé en escribirte" — quedó como ejemplo de qué evitar en mensajes futuros.
 - Interés bajo (solo 👍), CTA de SEG1 elegido más suave a propósito ("coordinamos una llamada breve" en vez de proponer 15min directo).
+- Cerrado definitivamente, no insistir más.
