@@ -37,3 +37,8 @@ Jerarquía: publicaciones recientes → actividad → logros → experiencia →
 - Abrir con cargo o empresa
 - Resumir el perfil del prospecto
 - Cualquier guion largo (—)
+
+### FRASES PROHIBIDAS (blocklist, cero excepciones)
+- "Gracias por la apertura" (ninguna variante: "por la apertura", "con apertura", etc). Usuario lo marcó como error grave repetido el 18/06/26. Reemplazar por "Buenas [nombre]!" o ir directo a responder lo que dijo el prospecto.
+- "Por eso pensé en escribirte" / "Por eso te escribo" / "Te escribo porque" (ver ESTRUCTURA MSG2 arriba)
+- Antes de mandar cualquier B1, revisar que no contenga la palabra "apertura".
