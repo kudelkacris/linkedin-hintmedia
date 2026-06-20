@@ -5,7 +5,7 @@
 **Otro rol:** Presidenta de Circom CBA
 **País:** Argentina (Córdoba)
 **Sector:** Real estate / Comunicación institucional
-**Estado:** SEG1 enviado (17/06/26)
+**Estado:** SEG2 enviado (19/06/26)
 
 ---
 
@@ -42,6 +42,12 @@
 > Esa doble posición suele cambiar bastante la vara con la que uno mismo termina midiendo lo que su propio equipo produce hacia afuera.
 >
 > Es justo el tipo de exigencia con la que solemos acompañar a empresas en proyectos complejos. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.
+
+## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: LOW-MEDIUM, respuestas mínimas en todo el hilo)
+> Cecilia, cómo estás?
+> No sé si llegaste a ver el material que te compartí.
+> Me quedé pensando en eso de liderar Circom mientras gestionás la comunicación de ECIPSA, formando a otros en cómo comunicar mientras también comunicás hacia afuera.
+> Cualquier cosa que te genere, quedo atenta.
 
 ---
 

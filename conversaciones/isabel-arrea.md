@@ -16,5 +16,12 @@ metadata:
 - Respondió: "Hola, como estas? Si claro, contame"
 - MSG2 enviado — gap: fundación con mucho impacto para comunicar (446k visitantes, 186 alianzas) pero recursos de producción de contenido y diseño suelen ser los primeros en ajustarse. Mención Libra Seguros.
 - Respondió: "si claro, envíamelo y lo reviso" — aceptó dossier
+- Dossier enviado 19/06/26, sin respuesta aún
 
-**Estado:** Dossier aceptado — pendiente envío del link
+## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — cordial sin frialdad pero sin elaboración o entusiasmo marcado)
+> Isabel, cómo estás?
+> No sé si llegaste a revisar el material que te compartí.
+> Me quedé pensando en eso del informe anual de la Fundación, todo ese impacto real en alianzas y proyectos, y en cómo esos recursos de producción y diseño suelen ser los primeros en ajustarse cuando hay que priorizar.
+> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesita la fundación hoy.
+
+**Estado:** SEG1 enviado (19/06/26)

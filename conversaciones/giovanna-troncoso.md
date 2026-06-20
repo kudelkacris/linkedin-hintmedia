@@ -28,6 +28,20 @@
 > [link dossier]
 > Cualquier duda me avisás.
 
+## SEG1 (19/06/26, ENGAGEMENT_LEVEL: HIGH — pidió el dossier con entusiasmo y exclamaciones, prometió comentar feedback)
+> Giovanna, cómo estás? No sé si llegaste a ver el material que te compartí.
+> Me quedé pensando en lo de las "Situaciones Por Resolver", esa lógica de resolver varios frentes en paralelo sin que uno frene a los demás es justo donde más rinde tener capacidad de ejecución extra.
+> Te parece si coordinamos 15 minutos esta semana y lo vemos en detalle?
+
+## Respuesta SEG1 (20/06/26)
+> Saludos Florencia, te abordo de querer profundizar. Mil gracias.
+
+## Coordinación de call (20/06/26)
+> Giovanna propuso Teams call el miércoles próximo, pidió que Florencia explique cómo lo haría y el costo del proyecto. Preguntó dónde está ubicada Florencia.
+> Florencia confirmó miércoles por Teams, ubicación Argentina, trabajo remoto LATAM sin problema de zona horaria.
+
+**Estado:** Call agendada para el miércoles próximo (Teams)
+
 ---
 
 ## Notas

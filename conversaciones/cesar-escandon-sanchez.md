@@ -17,5 +17,9 @@ metadata:
 - MSG2 enviado — gap: hotel con propuesta distinta al lujo estándar necesita contenido a la altura. Mención Destiny Group.
 - Respondió: ya trabajan con una empresa de difusión/promoción, y aclaró que el mindfulness es personal/interno, no modelo de negocio
 - Dossier enviado de todas formas, dejando puerta abierta para proyectos puntuales
+- Seguimiento liviano 19/06/26 (sin CTA, ya tiene agencia — no corresponde push de venta):
+> César, cómo estás?
+> Quedó la idea del dossier por si en algún momento surge un proyecto puntual donde haga sentido sumar una mano extra.
+> Sin apuro, cualquier cosa quedo atenta.
 
-**Estado:** Dossier enviado — ya tienen agencia, temperatura baja
+**Estado:** Seguimiento liviano enviado (19/06/26) — ya tienen agencia, temperatura baja

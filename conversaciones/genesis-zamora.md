@@ -15,5 +15,10 @@ metadata:
 - Respondió: "Sí claro, envíalo por acá y se lo envío a la persona indicada." — aceptó dossier
 - Dossier enviado con frase personalizada: "qué bueno que lo pude captar bien"
 
-**Estado:** Dossier enviado — lo pasa a quien corresponda
+- SEG1 enviado 19/06/26, ENGAGEMENT_LEVEL: MEDIUM-alto (no es la decisora, lo reenvía a la persona indicada — CTA ajustado, no se le pide la llamada a ella):
+> Génesis, cómo estás? No sé si llegó a la persona indicada el material que te compartí.
+> Me quedó pensando en eso que escribiste, esa traducción entre lo que pasa adentro de la industria y cómo se comunica hacia afuera.
+> Si te parece, quedo atenta para cuando tengan novedades o si hace sentido coordinar una charla breve con quien corresponda.
+
+**Estado:** SEG1 enviado (19/06/26) — lo pasa a quien corresponda
 *Nota: perfil completo no disponible en esta sesión.*

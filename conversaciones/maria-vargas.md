@@ -39,6 +39,25 @@
 > Perfecto María, te lo mando ahora.
 > Y lo que contás habla bien del trabajo — construir todo eso sin presupuesto es exactamente lo que las empresas con RSE buscan cuando quieren que sus alianzas tengan impacto real, no solo visibilidad. Quedamos en contacto!
 
+## Plantillas de seguimiento preparadas (19/06/26, según cómo conteste)
+
+**Si no contesta (SEG1):**
+> María, cómo estás?
+> No sé si llegaste a ver el material que te compartí.
+> Me quedé pensando en eso de construir Toucan en Costa Rica sin presupuesto, sosteniendo igual declaratorias, alianzas y campañas al mismo tiempo.
+> Eso normalmente es lo que termina marcando si una fundación logra escalar su impacto o se queda atada a la capacidad de una sola persona.
+> Cuando quieras lo charlamos, sin apuro de tu lado.
+
+**Si retoma el tema del presupuesto:**
+> María, entiendo totalmente, las fundaciones suelen necesitar otro tipo de esquema.
+> Muchas veces trabajamos formatos más chicos o por proyecto puntual, pensado justo para organizaciones que se sostienen con donaciones.
+> Si te sirve, lo charlamos 15 minutos sin compromiso y vemos qué tendría sentido para Toucan.
+
+**Si declina por presupuesto (cierre):**
+> María, totalmente entendible, gracias por la honestidad.
+> Quedamos en contacto, y si en algún momento aparece una alianza o proyecto puntual donde tenga sentido, encantada de retomar.
+> Sigan haciendo ese trabajo enorme en Costa Rica!
+
 ## Notas
 - Variante C (trabajo) — construcción de presencia desde cero en mercado local
 - ONG con limitaciones de presupuesto probable — enfoque en RSE y comunicación institucional

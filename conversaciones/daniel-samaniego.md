@@ -4,7 +4,7 @@
 **Cargo:** Coordinador de Marketing (feb 2026, 5 meses)
 **País:** Panamá
 **Sector:** Automotriz
-**Estado:** SEG1 enviado (17/06/26)
+**Estado:** SEG2 enviado (19/06/26)
 
 ---
 
@@ -41,6 +41,12 @@
 > Es una etapa donde solemos acompañar bastante a equipos que están en eso mismo. Si te hace sentido, podemos hablar 15 minutos esta semana.
 
 ---
+
+## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: MEDIUM-bajo, directo sin elaboración)
+> Daniel, cómo estás?
+> No sé si llegaste a checar el material.
+> Me quedé pensando en eso de pasar de retail a coordinar marketing en automotriz, sosteniendo digital, ATL/BTL y activaciones de showroom al mismo tiempo en los primeros meses.
+> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para Petromotors.
 
 ## Notas
 - Antes: Gerente de Sucursal en Todo a Dollar Oficial (7 meses).

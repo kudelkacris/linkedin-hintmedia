@@ -23,4 +23,11 @@ metadata:
 >
 > Si te parece que tiene sentido, podemos conversarlo 15 minutos.
 
-**Estado:** SEG1 enviado (17/06/26)
+**Estado:** SEG2 enviado (19/06/26)
+
+## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: MEDIUM-bajo, nota: el mensaje de envío del dossier no confirma explícitamente que se haya mandado, revisar)
+> Marcela, cómo estás?
+> No sé si llegaste a ver el material que te compartí.
+> Me quedé pensando en eso del caso Bless Truck, cómo construiste el análisis desde la lógica de negocio y no como un caso de éxito más.
+> Cuando la comunicación parte de ahí, la exigencia sobre quien ejecuta también cambia.
+> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para CAM&CAR.

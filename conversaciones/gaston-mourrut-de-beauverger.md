@@ -24,4 +24,12 @@ metadata:
 >
 > Si te resuena, coordinamos 15 minutos y te cuento lo que estamos viendo.
 
-**Estado:** SEG1 enviado (17/06/26)
+## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: HIGH, CTA directo)
+> Gastón, cómo estás? No sé si llegaste a ver el material.
+> Me quedé pensando en eso de estar siempre en los momentos de apertura o reposicionamiento, Hampton, KOS, y ahora Territorio entrando a Smy.
+> Esas etapas suelen necesitar contenido a la altura de lo que está pasando, justo cuando el equipo operativo tiene menos ancho de banda para producirlo.
+> Te parece si coordinamos 15 minutos esta semana y vemos cómo podría aplicar a esta nueva etapa?
+
+**Estado:** SEG2 enviado (19/06/26)
+
+**Nota de calidad:** el MSG2 original tuvo un bug — el párrafo de la observación se repitió dos veces y se saltó directo a pedir el dossier sin presentar Hint Media (rompe la Regla 5 del SYSTEM: observación → realidad profesional → "ahí ayudamos" → Hint → dossier). Ya enviado, no corregible retroactivamente.

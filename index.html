@@ -700,9 +700,31 @@ MANEJO DE OBJECIÓN "YA TENEMOS EQUIPO":
 - NO contraargumentar, NO discutir
 - Reposicionar: "Muchas de las empresas con las que trabajamos también tienen equipos internos. Nuestra función suele ser complementar capacidad de ejecución."
 
-REGLAS SEGUIMIENTOS:
-- SEG1: retomar brevemente, entender si hay sinergia o prefieren más adelante
-- SEG2: cierre de ciclo, sin quemar el contacto, dejar la puerta abierta
+REGLAS SEGUIMIENTOS (SEG1 — post dossier, actualizado 19/06/26):
+
+Objetivo de SEG1: NO es que vea el dossier, es conseguir 15-20min de llamada SOLO si el nivel de interés lo justifica. Mandar CTA a todos por igual desperdicia la personalización construida en MSG1/MSG2.
+
+PASO 1 — CLASIFICAR ENGAGEMENT_LEVEL (obligatorio, interno, antes de escribir el mensaje) usando TODA la conversación (MSG1, respuesta, MSG2, respuesta al dossier):
+- HIGH: respuesta al dossier con entusiasmo o iniciativa propia ("suena interesante", "envíamelo ya", dio el mail sin que se lo pidan, hizo preguntas, respuestas rápidas y con elaboración propia en todo el hilo).
+- MEDIUM: aceptación estándar y cordial sin elaborar ("sí, claro", "dale", "ok, gracias", "se lo paso a alguien del equipo") — sin señales de frialdad ni de entusiasmo marcado.
+- LOW: respuestas mínimas/monosilábicas, tiempos de respuesta largos, tono distante o evasivo, dudas sobre si somos agencia sin calidez, poca o nula elaboración propia en ningún mensaje del hilo.
+
+PASO 2 — ELEGIR MODO DE SEG1 según ENGAGEMENT_LEVEL:
+- LOW → modo "Detectar interés": SOLO burbujas 1-3 (referencia al material + observación recuperada + tensión profesional). SIN CTA de llamada. Cierra con algo abierto y de bajo compromiso, ej: "Cualquier cosa, quedo atento." NO pedir 15 minutos.
+- MEDIUM → modo "Detectar interés + CTA": las 4 burbujas completas (estructura de 6 líneas vigente). CTA de llamada al final pero formulado como invitación blanda, nunca como pedido directo: "Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes."
+- HIGH → modo "CTA directo": acortar burbujas 1-3 (referencia + observación pueden fusionarse en una sola burbuja, sin alargar el sondeo) e ir más rápido al CTA. El CTA puede ser más directo y concreto, ej: "Te parece si coordinamos 15 minutos esta semana y lo vemos en detalle?" — puede incluso proponer día/franja.
+
+ESTRUCTURA BASE (las 3 variantes parten de esta misma base, ver PASO 2 para qué burbujas incluir):
+1. Saludo + referencia suave al material. Rotar. Ej: "No sé si llegaste a ver el material que te mandé." / "Me quedé pensando en algo después de enviarte la información."
+2. Recuperar una observación REAL ya usada en MSG1/MSG2 (no inventar nueva, no forzar ángulo nuevo).
+3. Convertir eso en tensión profesional genérica que genera curiosidad implícita, sin diagnosticar al prospecto puntual ("muchas veces..." / "eso suele marcar la diferencia entre...").
+4. Conectar con "donde solemos acompañar" sin mencionar Hint, dossier, clientes ni precio — y CTA según el modo elegido en PASO 2.
+
+PROHIBIDO en SEG1 (todos los modos): "¿pudiste ver el dossier?", "¿qué te pareció?", "¿lo revisaste?", "¿tuviste tiempo de verlo?", "¿te interesó?", misterio artificial ("vi algo", "detecté un patrón", "te quiero contar algo"), mencionar dossier/presentación/servicios/propuesta/presupuesto/agencia/contratación, diagnóstico personal dirigido al prospecto puntual.
+
+Estilo: sin ¿ ¡ de apertura, sin guiones largos, frases cortas, tono conversacional. 60-120 palabras en modo MEDIUM/HIGH, menos en modo LOW.
+
+SEG2: cierre de ciclo si no hubo respuesta a SEG1, sin quemar el contacto, dejar la puerta abierta.
 
 PROHIBIDO EN TODOS LOS MENSAJES:
 - Más de una pregunta por mensaje
@@ -1172,6 +1194,9 @@ IDIOMA: ${state.idioma==='es'?'Español':'English'}
 
 Analizá qué dijo y generá el mensaje exacto que Florencia debería mandar ahora.
 
+Si esta conversación ya pasó la etapa de dossier enviado (Florencia ya ofreció o mandó el dossier en algún mensaje anterior) y esta respuesta es la reacción al dossier o algo posterior, esto es un SEG1: aplicá la lógica de REGLAS SEGUIMIENTOS del SYSTEM.
+Antes de redactar, clasificá internamente ENGAGEMENT_LEVEL (LOW / MEDIUM / HIGH) usando TODA la conversación, y elegí el modo correspondiente (Detectar interés / Detectar interés + CTA / CTA directo) según esa clasificación. No mandes CTA de llamada a un engagement LOW.
+
 Devolvé SOLO el mensaje en burbujas, con este formato:
 BURBUJA1: texto
 BURBUJA2: texto
@@ -1179,6 +1204,7 @@ BURBUJA3: texto (si hace falta)
 BURBUJA4: texto con [HIGHLIGHT] si es el cierre/call-to-action
 
 Después agregá:
+ENGAGEMENT_LEVEL: (LOW / MEDIUM / HIGH / N-A si todavía no aplica — + justificación breve en la misma línea, separada por " — ")
 ANALISIS: (1 línea explicando por qué este mensaje en función de lo que respondieron)
 SIGUIENTE: (qué se espera que pase después - "call agendada", "pide más info", "no interesado", etc.)`;
 
@@ -1201,6 +1227,7 @@ function renderReplyResponse(stepNum, replyText, text) {
   const bubbles = lines.filter(l=>/^BURBUJA\d+:/i.test(l)).map(l=>{ const v=l.slice(l.indexOf(':')+1).trim(); return {text:v.replace('[HIGHLIGHT]','').trim(),hl:v.includes('[HIGHLIGHT]')}; });
   const analisis = (lines.find(l=>/^ANALISIS:/i.test(l))||'').replace(/^ANALISIS:/i,'').trim();
   const siguiente = (lines.find(l=>/^SIGUIENTE:/i.test(l))||'').replace(/^SIGUIENTE:/i,'').trim();
+  const engagement = (lines.find(l=>/^ENGAGEMENT_LEVEL:/i.test(l))||'').replace(/^ENGAGEMENT_LEVEL:/i,'').trim();
 
   const fullReply = bubbles.map(b=>b.text).join('\n\n');
   state.conversationHistory.push({ role: 'suggested', text: fullReply });
@@ -1217,6 +1244,7 @@ function renderReplyResponse(stepNum, replyText, text) {
     <div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div>
     <div class="msg-label" style="margin-top:6px">Tu respuesta sugerida</div>
     ${bubbles.map(b=>`<div class="bwrap out"><div class="bub${b.hl?' hl':''}">${esc(b.text)}</div></div>`).join('')}
+    ${engagement&&!/^N-A/i.test(engagement)?`<div style="margin-top:6px;padding:5px 10px;background:#EDE7FF;border-radius:7px;font-size:11px;color:#3B1E8C;display:flex;gap:5px"><span>📶</span><span><strong>Engagement:</strong> ${esc(engagement)}</span></div>`:''}
     ${analisis?`<div style="margin-top:6px;padding:7px 10px;background:var(--orange-light);border-radius:7px;font-size:11px;color:#4A1B0C;display:flex;gap:5px;align-items:flex-start"><span style="color:var(--orange);flex-shrink:0">→</span><span>${esc(analisis)}</span></div>`:''}
     ${siguiente?`<div style="margin-top:4px;padding:5px 10px;background:var(--green-light);border-radius:7px;font-size:11px;color:#1A6635;display:flex;gap:5px"><span>✓</span><span><strong>Próximo paso:</strong> ${esc(siguiente)}</span></div>`:''}
     <div style="display:flex;gap:7px;margin-top:8px">

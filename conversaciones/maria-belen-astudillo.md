@@ -1,7 +1,7 @@
 # María Belén Astudillo Abarzúa
 
-**Estado:** activa, preguntó si somos agencia, aclaración enviada
-**Fecha:** 18/06/26
+**Estado:** CERRADA, ya tiene agencia (iniciaron hace poco), queda contacto a futuro
+**Fecha:** 18/06/26, cierre 19/06/26
 **Cargo:** Jefa de Marketing
 **Empresa:** CFL Inmobiliaria
 **País:** Chile (Santiago)
@@ -24,6 +24,10 @@
 ## Seguimiento
 > Ella: "a mi, dale, no hay problema, pero ustedes son una agencia?"
 > Respuesta: "Sí, somos agencia de comunicación y contenido. Trabajamos con varios clientes en real estate y retail llevando estrategia y ejecución de punta a punta, no freelance suelto. Te mando el dossier y ahí ves bien el detalle de servicios y casos."
+
+## Cierre
+> Ella: "Florencia, muchas gracias, pero la empresa, por el momento, no está buscando agencia (iniciamos con una hace poco), pero nunca está de más tener esta información y contacto."
+> Respuesta: "Hola María Belén, entendido totalmente! Gracias por la honestidad y por darte el tiempo de responder. Quedo en contacto por si en algún momento futuro necesitan sumar otra mirada o un proyecto puntual. Éxitos con la nueva agencia!"
 
 ## Notas
 - HECHO: post sobre ir a terreno a Peñalolén antes de armar la estrategia ("las buenas estrategias no nacen en una planilla, nacen en terreno").

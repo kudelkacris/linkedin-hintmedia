@@ -4,7 +4,7 @@
 **Cargo:** Especialista de Mercadeo y Comunicación (jul 2022, 4 años)
 **País:** Costa Rica (San José)
 **Sector:** Atracción de inversión / ONG / Comunicación institucional
-**Estado:** MSG2 enviado, esperando respuesta
+**Estado:** SEG1 enviado (19/06/26)
 
 ---
 
@@ -26,6 +26,18 @@
 > Desde Hint Media trabajamos con equipos que tienen esa brecha entre la visión y la capacidad de ejecución — sumamos producción de contenido, diseño y digital para que nada de lo que se construye se pierda por falta de brazos. Hemos trabajado con TGS, Libra Seguros y otros con comunicación institucional de alto perfil.
 >
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2
+> Si gusta me lo comparte por acá o al correo pcambronero@cinde.org
+
+## Cierre
+> Dossier enviado 12/06/26 por ambos canales.
+
+## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — elaboración propia notable en MSG1, sin entusiasmo explícito)
+> Pamela, cómo estás?
+> No sé si llegaste a ver el material que te compartí.
+> Me quedé pensando en eso que decías, de la comunicación como vehículo para educar, transformar e impactar, y en todo lo que implica sostener esa narrativa en vivo en cada evento de CINDE mientras corre el resto del contenido.
+> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitan hoy.
 
 ---
 

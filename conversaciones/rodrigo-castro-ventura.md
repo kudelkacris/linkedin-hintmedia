@@ -23,4 +23,9 @@ metadata:
 - ES COMPETENCIA/POSIBLE ALIADO — no tratarlo como prospecto cliente normal
 - Publicaciones muy buenas: análisis de marketing, PR, estrategia
 
-**Estado:** MSG enviado explorando alianza — esperando respuesta
+- MSG2 quedó en "visto" sin respuesta. Seguimiento liviano enviado 19/06/26 (no es venta, es exploración de alianza entre agencias):
+> Rodrigo, cómo estás?
+> Te dejo la idea picando nomás, sin apuro de tu lado.
+> Cuando tengas un rato y te haga sentido, lo charlamos.
+
+**Estado:** Seguimiento liviano enviado (19/06/26) — esperando respuesta
