@@ -19,4 +19,7 @@ metadata:
 - 9+ años en World Organization of the Scout Movement (WOSM) antes de Laudato Si', experiencia en comunicación de crisis y gestión de voluntarios.
 - Rol actual desde enero 2025, foco en cambio climático y crisis ecológica.
 
-**Estado:** MSG2 enviado, esperando respuesta.
+- Pidió que el dossier vaya a su correo: Susana.Salguero@laudatosimovement.org
+- Dossier enviado por mail, cierre con buena onda ("estamos en contacto").
+
+**Estado:** Dossier enviado por mail.

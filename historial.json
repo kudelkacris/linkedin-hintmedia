@@ -230,7 +230,7 @@
         "text": "Susana, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en Movimiento Laudato Si'. Me llamó la atención que acabaras de asumir el rol de Director of Global Communications hace poco — imagino que es una etapa donde tenés que sincronizar comunicación en múltiples mercados y audiencias al mismo tiempo, con equipos que probablemente están dispersos.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -241,8 +241,14 @@
         "stage": 2,
         "date": "22/06/26",
         "note": "Sí, es una matriz de un equipo global y varios equipos dispersos en diferentes partes del mundo"
+      },
+      {
+        "stage": 3,
+        "date": "22/06/26",
+        "note": "Mejor a mi correo Susana.Salguero@laudatosimovement.org"
       }
-    ]
+    ],
+    "dossierMail": true
   },
   {
     "id": "1782138609481",
@@ -6073,7 +6079,7 @@
         "text": "Paola, gracias por conectar. 👋\n\nMe llamó la atención algo que compartiste sobre la campaña V-Power. Dijiste que el marketing boca a boca inicia por la recomendación del personal de estaciones, que en apenas 3-5 minutos tienen que recibir solicitud, comunicar el mensaje del producto y hacer el cobro. No es lo que la mayoría destaca cuando celebra una activación. Generalmente ponen el foco en la estrategia, no en quién la sostiene.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -6084,6 +6090,11 @@
         "stage": 2,
         "date": "18/06/26",
         "note": "Hola Florencia un gusto. Claro dime en que te puedo ayudar."
+      },
+      {
+        "stage": 3,
+        "date": "22/06/26",
+        "note": "si claro enviamelo"
       }
     ]
   },

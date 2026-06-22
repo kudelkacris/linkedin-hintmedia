@@ -1,6 +1,6 @@
 # Paola Ruilova Accini
 
-**Estado:** MSG2 por enviar
+**Estado:** Dossier enviado, cierre con buena onda (22/06/26)
 **Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)
 **Cargo:** Supervisora de Marketing (Especialista de Marketing)
 **Empresa:** NUCOPSA S.A. (licenciataria Shell Ecuador)
@@ -26,3 +26,5 @@
 - COMPLEJIDAD: coordinar mensaje consistente de marca a través de cientos de personas en múltiples estaciones, en interacciones brevísimas.
 - Sector: energía/combustible (Shell) → clientes referencia TGS/Transener.
 - Perfil con mucha actividad (3907 seguidores), publica seguido sobre marketing experiencial.
+- Aceptó dossier: "Hola! si claro envíame, gracias."
+- Dossier enviado, cierre: "Estamos en contacto para el futuro, buena semana!"
