@@ -34,3 +34,7 @@ metadata:
 - Mexicano viviendo en Costa Rica por ecosistema med device
 
 **Estado:** Call agendada, miércoles 16hs ARG, Teams, lperez@foamtecusa.com, máx 30 min
+
+**Actualización 22/06/26:**
+- Florencia confirmó invite por Google Calendar.
+- Luis preguntó "La puedes grabar?". Florencia confirmó que sí, así le queda para compartir con quien necesite del lado de Foamtec.

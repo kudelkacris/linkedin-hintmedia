@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caso Luis Pérez · Foamtec International</title>
+<style>
+  :root{
+    --navy:#0b1f3a;
+    --navy-2:#142d52;
+    --gray-900:#1c2430;
+    --gray-700:#4a5568;
+    --gray-400:#94a3b8;
+    --gray-200:#e2e8f0;
+    --gray-100:#f4f6f9;
+    --accent:#2f7df6;
+    --accent-soft:#dce8fd;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{
+    height:100%;
+    font-family:'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background:var(--gray-900);
+    overflow:hidden;
+  }
+  .deck{
+    position:relative;
+    width:100%;
+    height:100vh;
+  }
+  .slide{
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:6vh 9vw;
+    background:var(--white);
+    opacity:0;
+    visibility:hidden;
+    transform:translateX(40px);
+    transition:opacity .4s ease, transform .4s ease;
+  }
+  .slide.active{
+    opacity:1;
+    visibility:visible;
+    transform:translateX(0);
+    z-index:2;
+  }
+  .slide.prev{
+    transform:translateX(-40px);
+  }
+
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.78rem;
+    font-weight:600;
+    color:var(--accent);
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:2.6rem;
+    color:var(--navy);
+    font-weight:700;
+    line-height:1.15;
+    margin-bottom:18px;
+  }
+  h2{
+    font-size:2.1rem;
+    color:var(--navy);
+    font-weight:700;
+    margin-bottom:28px;
+  }
+  p{
+    font-size:1.15rem;
+    color:var(--gray-700);
+    line-height:1.6;
+  }
+  .lead{
+    font-size:1.3rem;
+    color:var(--gray-700);
+    max-width:780px;
+    line-height:1.55;
+  }
+
+  /* SLIDE 1 - cover */
+  .cover{
+    background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 60%, #0c1830 100%);
+    color:var(--white);
+    justify-content:center;
+    align-items:flex-start;
+  }
+  .cover .tag{
+    display:inline-block;
+    background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.25);
+    color:var(--white);
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:.85rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    margin-bottom:30px;
+  }
+  .cover h1{
+    color:var(--white);
+    font-size:3.4rem;
+    margin-bottom:14px;
+  }
+  .cover .subtitle{
+    color:var(--accent-soft);
+    font-size:1.4rem;
+    font-weight:300;
+    margin-bottom:40px;
+  }
+  .cover .badge-row{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .badge{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.18);
+    padding:10px 20px;
+    border-radius:10px;
+    color:var(--gray-200);
+    font-size:.95rem;
+  }
+  .badge strong{ color:var(--white); }
+  .cover .footer-note{
+    position:absolute;
+    bottom:6vh;
+    left:9vw;
+    color:rgba(255,255,255,.5);
+    font-size:.85rem;
+  }
+
+  /* generic two col */
+  .grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    margin-top:10px;
+  }
+  .card{
+    background:var(--gray-100);
+    border:1px solid var(--gray-200);
+    border-radius:14px;
+    padding:28px 30px;
+  }
+  .card h3{
+    color:var(--navy);
+    font-size:1.15rem;
+    margin-bottom:12px;
+    font-weight:700;
+  }
+  .card p{ font-size:1.02rem; }
+  .card ul{
+    margin-top:10px;
+    padding-left:20px;
+    color:var(--gray-700);
+  }
+  .card li{
+    font-size:1rem;
+    margin-bottom:8px;
+    line-height:1.5;
+  }
+  .pill-row{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:16px;
+  }
+  .pill{
+    background:var(--accent-soft);
+    color:var(--navy);
+    font-size:.85rem;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:30px;
+  }
+
+  /* slide 3 signals */
+  .signal-list{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    margin-top:6px;
+  }
+  .signal{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    background:var(--gray-100);
+    border-left:4px solid var(--accent);
+    border-radius:8px;
+    padding:18px 22px;
+  }
+  .signal .num{
+    font-weight:700;
+    color:var(--accent);
+    font-size:1.1rem;
+    min-width:28px;
+  }
+  .signal p{ font-size:1.05rem; margin:0; color:var(--gray-900); }
+  .signal .sub{ color:var(--gray-700); font-size:.95rem; margin-top:4px; }
+
+  /* slide 4 gap */
+  .gap-flow{
+    display:flex;
+    align-items:stretch;
+    gap:0;
+    margin-top:10px;
+    flex-wrap:wrap;
+  }
+  .gap-box{
+    flex:1;
+    min-width:180px;
+    background:var(--navy);
+    color:var(--white);
+    border-radius:12px;
+    padding:24px 20px;
+    margin:8px;
+    text-align:center;
+  }
+  .gap-box.contrast{
+    background:var(--gray-100);
+    color:var(--gray-900);
+    border:2px dashed #c4cdd8;
+  }
+  .gap-box h4{
+    font-size:1.6rem;
+    margin-bottom:8px;
+  }
+  .gap-box p{
+    font-size:.95rem;
+    color:inherit;
+    opacity:.9;
+  }
+  .gap-box.contrast p{ color:var(--gray-700); opacity:1;}
+  .gap-conclusion{
+    margin-top:30px;
+    background:var(--accent-soft);
+    border-radius:12px;
+    padding:20px 26px;
+    font-size:1.15rem;
+    color:var(--navy);
+    font-weight:600;
+  }
+
+  /* timeline slide 5 */
+  .timeline{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    margin-top:30px;
+    position:relative;
+  }
+  .timeline:before{
+    content:'';
+    position:absolute;
+    top:17px;
+    left:0;
+    right:0;
+    height:3px;
+    background:var(--gray-200);
+    z-index:0;
+  }
+  .tl-step{
+    position:relative;
+    z-index:1;
+    flex:1;
+    text-align:center;
+    padding:0 6px;
+  }
+  .tl-dot{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    background:var(--navy);
+    color:var(--white);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    margin:0 auto 14px;
+    font-size:.95rem;
+  }
+  .tl-step.final .tl-dot{
+    background:var(--accent);
+    box-shadow:0 0 0 6px var(--accent-soft);
+  }
+  .tl-step h5{
+    font-size:1rem;
+    color:var(--navy);
+    margin-bottom:6px;
+  }
+  .tl-step p{
+    font-size:.85rem;
+    color:var(--gray-700);
+    line-height:1.4;
+  }
+
+  /* slide 6 proposal */
+  .proposal-cols{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+    margin-top:10px;
+  }
+  .prop-card{
+    border-radius:14px;
+    padding:26px 24px;
+    background:var(--gray-100);
+    border-top:4px solid var(--accent);
+  }
+  .prop-card .step-label{
+    font-size:.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--accent);
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .prop-card h3{ font-size:1.2rem; color:var(--navy); margin-bottom:10px;}
+  .prop-card ul{ padding-left:18px; color:var(--gray-700); }
+  .prop-card li{ font-size:.95rem; margin-bottom:8px; line-height:1.45;}
+
+  /* slide 7 closing */
+  .closing{
+    background:linear-gradient(135deg, var(--navy-2) 0%, var(--navy) 100%);
+    color:var(--white);
+  }
+  .closing h2{ color:var(--white); }
+  .reason-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    margin-top:10px;
+  }
+  .reason{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:12px;
+    padding:20px 22px;
+  }
+  .reason h4{
+    font-size:1.05rem;
+    margin-bottom:8px;
+    color:var(--accent-soft);
+  }
+  .reason p{
+    color:rgba(255,255,255,.85);
+    font-size:.95rem;
+  }
+  .next-steps{
+    margin-top:26px;
+    font-size:1.1rem;
+    color:var(--white);
+    background:rgba(255,255,255,.08);
+    border-radius:12px;
+    padding:18px 24px;
+    border-left:4px solid var(--accent);
+  }
+
+  /* nav controls */
+  .nav-btn{
+    position:fixed;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(11,31,58,.85);
+    color:#fff;
+    border:none;
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    font-size:1.4rem;
+    cursor:pointer;
+    z-index:50;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:background .2s ease, opacity .2s ease;
+    opacity:.85;
+  }
+  .nav-btn:hover{ background:var(--accent); opacity:1;}
+  .nav-btn:disabled{ opacity:.25; cursor:default; }
+  #prevBtn{ left:24px; }
+  #nextBtn{ right:24px; }
+
+  .progress{
+    position:fixed;
+    bottom:24px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:8px;
+    z-index:50;
+  }
+  .dot{
+    width:9px;
+    height:9px;
+    border-radius:50%;
+    background:var(--gray-200);
+    cursor:pointer;
+    transition:background .2s ease, transform .2s ease;
+  }
+  .dot.active{
+    background:var(--accent);
+    transform:scale(1.3);
+  }
+
+  .slide-counter{
+    position:fixed;
+    top:24px;
+    right:32px;
+    color:var(--gray-400);
+    font-size:.85rem;
+    letter-spacing:.05em;
+    z-index:50;
+  }
+  .deck-light .slide-counter{ color:var(--gray-400); }
+
+  @media (max-width:900px){
+    .grid-2, .proposal-cols, .reason-grid{ grid-template-columns:1fr; }
+    h1{ font-size:2rem; }
+    .cover h1{ font-size:2.3rem; }
+    h2{ font-size:1.6rem; }
+    .timeline{ flex-direction:column; gap:20px; }
+    .timeline:before{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: PORTADA -->
+  <section class="slide cover active" data-index="0">
+    <span class="tag">Caso de outreach · LinkedIn</span>
+    <h1>Luis Pérez<br>Foamtec International WCC</h1>
+    <p class="subtitle">Primera call agendada del proyecto Hint Media</p>
+    <div class="badge-row">
+      <div class="badge"><strong>Responsable Comercial</strong> LATAM &amp; Caribe</div>
+      <div class="badge"><strong>5.331</strong> seguidores en LinkedIn</div>
+      <div class="badge"><strong>5</strong> países cubiertos</div>
+      <div class="badge"><strong>Miércoles 16hs</strong> ARG · Teams · 30 min</div>
+    </div>
+    <div class="footer-note">Hint Media · Outreach LinkedIn · Junio 2026</div>
+  </section>
+
+  <!-- SLIDE 2: QUIEN ES / QUE HACE -->
+  <section class="slide" data-index="1">
+    <span class="eyebrow">Quién es / qué hace</span>
+    <h2>Ciencia aplicada a decisiones de negocio</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>El rol</h3>
+        <p>Su título en LinkedIn dice "Contamination Surface Investigation Specialist", pero hoy lidera comercialmente la región LATAM y Caribe para Foamtec. Mexicano radicado en Costa Rica.</p>
+        <div class="pill-row">
+          <span class="pill">Costa Rica</span>
+          <span class="pill">México</span>
+          <span class="pill">Brasil</span>
+          <span class="pill">Puerto Rico</span>
+          <span class="pill">Rep. Dominicana</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>El método</h3>
+        <ul>
+          <li>Investiga contaminación de superficies en cuartos limpios de manufactura médica y farmacéutica.</li>
+          <li>Usa microscopía óptica, SEM-EDS, trazadores UV fluorescentes y muestreo de precisión.</li>
+          <li>Entrega reportes de causa raíz y presentaciones ejecutivas para Calidad, Operaciones e Ingeniería.</li>
+          <li>Construye evidencia para cierre de CAPAs por no conformidades de material extraño (FM).</li>
+          <li>Justifica financieramente upgrades de consumibles vía mejora de FPY (First Pass Yield).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: COMPORTAMIENTO LINKEDIN -->
+  <section class="slide" data-index="2">
+    <span class="eyebrow">Comportamiento en LinkedIn</span>
+    <h2>Señales detectadas</h2>
+    <div class="signal-list">
+      <div class="signal">
+        <span class="num">01</span>
+        <div>
+          <p>Activo, pero 90% reactivo: felicita colegas y resharea contenido de Foamtec y partners (O&amp;M Halyard, ASH, ECI).</p>
+        </div>
+      </div>
+      <div class="signal">
+        <span class="num">02</span>
+        <div>
+          <p>Su sección "Acerca de" es excelente: problema, método y resultado financiero, vende sola.</p>
+          <p class="sub">Ese nivel de claridad no se repite en ninguno de sus posts propios.</p>
+        </div>
+      </div>
+      <div class="signal">
+        <span class="num">03</span>
+        <div>
+          <p>Apareció en Life Sciences Forum 2026 (booth S49) representando a Foamtec, pero la cobertura quedó en la cuenta de la empresa, no en la suya.</p>
+        </div>
+      </div>
+      <div class="signal">
+        <span class="num">04</span>
+        <div>
+          <p>5.331 seguidores sin contenido propio que los capitalice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: EL GAP -->
+  <section class="slide" data-index="3">
+    <span class="eyebrow">El gap identificado</span>
+    <h2>Autoridad real, sin vocería que la escale</h2>
+    <div class="gap-flow">
+      <div class="gap-box">
+        <h4>Tiene</h4>
+        <p>Autoridad técnica genuina. Bio que vende sola. Confianza ya generada en conversaciones reales.</p>
+      </div>
+      <div class="gap-box contrast">
+        <h4>vs.</h4>
+        <p>Brecha entre lo que sabe comunicar y lo que efectivamente publica.</p>
+      </div>
+      <div class="gap-box">
+        <h4>Le falta</h4>
+        <p>Contenido propio que traduzca esa autoridad. Cobertura personal de eventos. Estrategia de comunicación unificada en 5 mercados.</p>
+      </div>
+    </div>
+    <div class="gap-conclusion">
+      Presencia en eventos sin cobertura propia. Bio que promete y posts que no sostienen esa promesa. Mercado multi-país sin coherencia de marca.
+    </div>
+  </section>
+
+  <!-- SLIDE 5: TIMELINE -->
+  <section class="slide" data-index="4">
+    <span class="eyebrow">Recorrido de la conversación</span>
+    <h2>De MSG1 a la primera call agendada</h2>
+    <div class="timeline">
+      <div class="tl-step">
+        <div class="tl-dot">1</div>
+        <h5>MSG1</h5>
+        <p>Florencia observa cómo describió su propuesta: problema, método científico, impacto financiero.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot">2</div>
+        <h5>Respuesta</h5>
+        <p>Responde con buena onda.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot">3</div>
+        <h5>MSG2</h5>
+        <p>Gap LATAM/Caribe, coherencia de marca por mercado, mención cliente TGS.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot">4</div>
+        <h5>Dossier</h5>
+        <p>Pide que se lo envíen. Se manda. Pregunta "cómo me ubicaste?", señal de interés real.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot">5</div>
+        <h5>SEG1</h5>
+        <p>Engagement HIGH: respuestas rápidas, aporta contexto propio sin que se lo pidan.</p>
+      </div>
+      <div class="tl-step final">
+        <div class="tl-dot">6</div>
+        <h5>Call agendada</h5>
+        <p>Miércoles 16hs ARG, Teams, lperez@foamtecusa.com, máximo 30 minutos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: PROPUESTA PARA LA CALL -->
+  <section class="slide" data-index="5">
+    <span class="eyebrow">Propuesta para la call (30 min)</span>
+    <h2>Estructura de la conversación</h2>
+    <div class="proposal-cols">
+      <div class="prop-card">
+        <div class="step-label">Apertura</div>
+        <h3>Mostrar que se leyó todo</h3>
+        <ul>
+          <li>Reconocer su perfil completo.</li>
+          <li>Destacar la fuerza de su sección "Acerca de" como punto de partida.</li>
+        </ul>
+      </div>
+      <div class="prop-card">
+        <div class="step-label">Cuerpo</div>
+        <h3>El gap y la solución</h3>
+        <ul>
+          <li>Coherencia de marca cruzando los 5 países.</li>
+          <li>Vocería digital: casos CSI sin romper confidencialidad, firmados por Luis y no por Foamtec.</li>
+          <li>Cobertura de eventos desde su cuenta personal.</li>
+          <li>Cliente ejemplo: TGS, para mantener consistencia con lo ya conversado.</li>
+        </ul>
+      </div>
+      <div class="prop-card">
+        <div class="step-label">Cierre</div>
+        <h3>Alcance propuesto</h3>
+        <ul>
+          <li>Dossier como respaldo.</li>
+          <li>Branding personal y contenido.</li>
+          <li>Vocería digital.</li>
+          <li>Paid media como posible siguiente capa.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 7: POR QUE IMPORTA -->
+  <section class="slide closing" data-index="6">
+    <span class="eyebrow" style="color:var(--accent-soft);">Por qué este caso importa</span>
+    <h2>Prueba de concepto del método</h2>
+    <div class="reason-grid">
+      <div class="reason">
+        <h4>Primera call del proyecto</h4>
+        <p>Valida el flujo completo: MSG1, MSG2, dossier, SEG1, call.</p>
+      </div>
+      <div class="reason">
+        <h4>Engagement HIGH confirmado</h4>
+        <p>Con señales objetivas (velocidad de respuesta, contexto espontáneo), no supuestas.</p>
+      </div>
+      <div class="reason">
+        <h4>Argumento financiero ya integrado</h4>
+        <p>Luis ya habla en FPY, CAPA y NCR. Encaja directo con el ángulo de ROI de Hint Media.</p>
+      </div>
+      <div class="reason">
+        <h4>Caso replicable</h4>
+        <p>El mismo patrón de gap (autoridad sin vocería) aparece en otros prospectos técnicos del pipeline.</p>
+      </div>
+    </div>
+    <div class="next-steps">
+      Next step: call miércoles 16hs ARG vía Teams. Llevar dossier, ejemplo TGS y propuesta de alcance (branding, contenido, vocería digital, paid media).
+    </div>
+  </section>
+
+</div>
+
+<button class="nav-btn" id="prevBtn" aria-label="Anterior">&#8249;</button>
+<button class="nav-btn" id="nextBtn" aria-label="Siguiente">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 07</div>
+<div class="progress" id="progress"></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  let current = 0;
+
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    progress.appendChild(dot);
+  });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  function pad(n){ return n < 10 ? '0' + n : n; }
+
+  function render(){
+    slides.forEach((s, i) => {
+      s.classList.remove('active', 'prev');
+      if (i === current) s.classList.add('active');
+      else if (i < current) s.classList.add('prev');
+    });
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = pad(current + 1) + ' / ' + pad(total);
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+
+  function goTo(i){
+    if (i < 0 || i >= total) return;
+    current = i;
+    render();
+  }
+
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { next(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { prev(); e.preventDefault(); }
+    if (e.key === 'Home') { goTo(0); }
+    if (e.key === 'End') { goTo(total - 1); }
+  });
+
+  // basic touch / wheel support
+  let touchStartX = null;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (diff > 60) prev();
+    if (diff < -60) next();
+    touchStartX = null;
+  });
+
+  let wheelLock = false;
+  document.addEventListener('wheel', (e) => {
+    if (wheelLock) return;
+    if (Math.abs(e.deltaY) < 30) return;
+    wheelLock = true;
+    if (e.deltaY > 0) next(); else prev();
+    setTimeout(() => { wheelLock = false; }, 500);
+  }, { passive:true });
+
+  render();
+</script>
+
+</body>
+</html>
