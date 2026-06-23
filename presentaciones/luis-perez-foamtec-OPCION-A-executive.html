@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis Pérez · Executive Strategy Deck · Hint Media</title>
+<style>
+  :root{
+    --ink:#050505;
+    --panel:#0e0e0e;
+    --line:rgba(255,255,255,.12);
+    --cream:#f3efe4;
+    --gray:rgba(243,239,228,.55);
+    --gray-soft:rgba(243,239,228,.32);
+    --gold:#c9a35a;
+    --gold-soft:#e9d9ad;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{ height:100%; font-family:'Segoe UI', Helvetica, Arial, sans-serif; background:var(--ink); overflow:hidden; }
+  .serif{ font-family:Georgia,'Iowan Old Style',serif; }
+  .deck{ position:relative; width:100%; height:100vh; }
+  .slide{
+    position:absolute; top:0; left:0; width:100%; height:100%;
+    display:flex; flex-direction:column; justify-content:center; align-items:flex-start;
+    padding:8vh 11vw; background:var(--ink); color:var(--cream);
+    opacity:0; visibility:hidden; transform:translateY(28px);
+    transition:opacity .5s ease, transform .5s ease; overflow-y:auto;
+  }
+  .slide.active{ opacity:1; visibility:visible; transform:translateY(0); z-index:2; }
+
+  @media print{
+    html, body{ overflow:visible; height:auto; }
+    .deck{ height:auto; }
+    .slide{ position:relative; opacity:1 !important; visibility:visible !important; transform:none !important;
+      page-break-after:always; break-after:page; height:100vh; overflow:visible; }
+    .nav-btn, .progress, .slide-counter{ display:none !important; }
+  }
+
+  .eyebrow{ text-transform:uppercase; letter-spacing:.24em; font-size:.68rem; font-weight:600; color:var(--gold); margin-bottom:26px; }
+  .hairline{ width:38px; height:1px; background:var(--gold); margin-bottom:30px; }
+  .statement{ font-family:Georgia,serif; font-size:3.3rem; line-height:1.25; color:var(--cream); font-weight:400; max-width:920px; }
+  .statement em{ color:var(--gold); font-style:normal; }
+  .support{ margin-top:26px; font-size:1.05rem; color:var(--gray); max-width:600px; line-height:1.6; }
+  .micro{ margin-top:auto; padding-top:40px; font-size:.72rem; color:var(--gray-soft); letter-spacing:.06em; }
+
+  .cover .statement{ font-size:4.2rem; }
+  .cover .sub{ margin-top:18px; font-size:1.15rem; color:var(--gray); font-style:italic; }
+
+  /* stat duo */
+  .duo{ display:flex; gap:100px; margin-top:50px; }
+  .duo .num{ font-family:Georgia,serif; font-size:5.5rem; color:var(--gold); line-height:1; }
+  .duo .num.dim{ color:rgba(243,239,228,.25); }
+  .duo .lbl{ margin-top:10px; font-size:.92rem; color:var(--gray); max-width:200px; }
+
+  /* single point timeline */
+  .point-line{ display:flex; align-items:center; margin-top:48px; max-width:520px; width:100%; }
+  .point-line .seg{ flex:1; height:1px; background:var(--line); }
+  .point-line .dot{ width:10px; height:10px; border-radius:50%; background:var(--gold); margin:0 18px; }
+
+  /* quote */
+  .quote{ font-family:Georgia,serif; font-size:1.9rem; font-style:italic; color:var(--cream); max-width:760px; line-height:1.5; }
+  .quote-who{ margin-top:18px; color:var(--gray); font-size:.9rem; }
+
+  /* closing */
+  .closing .statement{ color:var(--gold-soft); }
+  .contact{ margin-top:60px; color:var(--gray-soft); font-size:.78rem; letter-spacing:.05em; }
+
+  .nav-btn{ position:fixed; top:50%; transform:translateY(-50%); background:rgba(255,255,255,.06); color:var(--cream); border:1px solid var(--line);
+    width:46px; height:46px; border-radius:50%; font-size:1.2rem; cursor:pointer; z-index:50;
+    display:flex; align-items:center; justify-content:center; transition:background .2s ease; }
+  .nav-btn:hover{ background:rgba(201,163,90,.25); }
+  .nav-btn:disabled{ opacity:.2; cursor:default; }
+  #prevBtn{ left:20px; } #nextBtn{ right:20px; }
+  .progress{ position:fixed; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:7px; z-index:50; }
+  .dot2{ width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,.18); cursor:pointer; }
+  .dot2.active{ background:var(--gold); transform:scale(1.3); }
+  .slide-counter{ position:fixed; top:20px; right:28px; color:var(--gray-soft); font-size:.75rem; letter-spacing:.06em; z-index:50; }
+
+  @media (max-width:900px){
+    .statement{ font-size:2.1rem; } .cover .statement{ font-size:2.4rem; }
+    .duo{ gap:40px; } .duo .num{ font-size:3.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- 1 COVER -->
+  <section class="slide cover active" data-index="0">
+    <span class="eyebrow">Hint Media</span>
+    <div class="statement">Luis Pérez</div>
+    <div class="sub">Una lectura estratégica de tu posición actual</div>
+  </section>
+
+  <!-- 2 INSIGHT: AUTORIDAD INVISIBLE -->
+  <section class="slide" data-index="1">
+    <span class="eyebrow">Diagnóstico</span>
+    <div class="hairline"></div>
+    <div class="statement">Construiste 16 años de autoridad que tu mercado <em>no puede ver</em>.</div>
+    <div class="support">Berkshire Corporation, Thunderbird, Foamtec. Trayectoria real. Visibilidad pública: prácticamente ninguna.</div>
+  </section>
+
+  <!-- 3 PATRON -->
+  <section class="slide" data-index="2">
+    <span class="eyebrow">El patrón</span>
+    <div class="hairline"></div>
+    <div class="statement">Celebrás el éxito ajeno. <em>Silenciás</em> el propio.</div>
+    <div class="duo">
+      <div><div class="num">30+</div><div class="lbl">Felicitaciones a colegas, 6 meses</div></div>
+      <div><div class="num dim">0</div><div class="lbl">Posts propios sobre tu trabajo</div></div>
+    </div>
+  </section>
+
+  <!-- 4 RIESGO -->
+  <section class="slide" data-index="3">
+    <span class="eyebrow">El riesgo</span>
+    <div class="hairline"></div>
+    <div class="statement">La autoridad invisible <em>no decide nada</em>.</div>
+    <div class="support">No la ve el comprador que te busca. No la ve el evento que invita a la empresa y no a vos. No la ve quien podría abrirte la próxima puerta.</div>
+  </section>
+
+  <!-- 5 MOMENTO -->
+  <section class="slide" data-index="4">
+    <span class="eyebrow">El momento</span>
+    <div class="hairline"></div>
+    <div class="statement">El cargo correcto. La red correcta. <em>El momento que no se repite.</em></div>
+    <div class="point-line"><div class="seg"></div><div class="dot"></div><div class="seg"></div></div>
+  </section>
+
+  <!-- 6 POSICIONAMIENTO -->
+  <section class="slide" data-index="5">
+    <span class="eyebrow">El posicionamiento posible</span>
+    <div class="hairline"></div>
+    <div class="statement">De responsable comercial regional a <em>referencia</em> de su especialidad en LATAM.</div>
+  </section>
+
+  <!-- 7 FILOSOFIA DE TRABAJO -->
+  <section class="slide" data-index="6">
+    <span class="eyebrow">Cómo lo pensamos</span>
+    <div class="hairline"></div>
+    <div class="statement">Vos seguís siendo el experto. <em>Nosotros construimos el eco.</em></div>
+  </section>
+
+  <!-- 8 PRUEBA -->
+  <section class="slide" data-index="7">
+    <span class="eyebrow">Ya lo hicimos</span>
+    <div class="hairline"></div>
+    <div class="quote">"Con Hint encontramos un socio estratégico más que una agencia. Son parte fundamental de nuestro crecimiento."</div>
+    <div class="quote-who">Mariano Aquino · CEO, Destiny Group</div>
+  </section>
+
+  <!-- 9 CIERRE -->
+  <section class="slide closing" data-index="8">
+    <span class="eyebrow">Próximo paso</span>
+    <div class="hairline"></div>
+    <div class="statement">Esta conversación ya es <em>el primer contenido</em>.</div>
+    <div class="support">¿Coordinamos 45 minutos la semana que viene para mapear tus primeros 3 posts?</div>
+    <div class="contact">florencia@hintmedia.net · +54 11 2386 8788</div>
+  </section>
+
+</div>
+
+<button class="nav-btn" id="prevBtn" aria-label="Anterior">&#8249;</button>
+<button class="nav-btn" id="nextBtn" aria-label="Siguiente">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 09</div>
+<div class="progress" id="progress"></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  let current = 0;
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot2' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    progress.appendChild(dot);
+  });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  function pad(n){ return n < 10 ? '0' + n : n; }
+  function render(){
+    slides.forEach((s, i) => s.classList.toggle('active', i === current));
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = pad(current + 1) + ' / ' + pad(total);
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+  function goTo(i){ if (i < 0 || i >= total) return; current = i; render(); }
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { next(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { prev(); e.preventDefault(); }
+    if (e.key === 'Home') { goTo(0); }
+    if (e.key === 'End') { goTo(total - 1); }
+  });
+  let touchStartX = null;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (diff > 60) prev();
+    if (diff < -60) next();
+    touchStartX = null;
+  });
+  let wheelLock = false;
+  document.addEventListener('wheel', (e) => {
+    if (wheelLock) return;
+    if (Math.abs(e.deltaY) < 30) return;
+    wheelLock = true;
+    if (e.deltaY > 0) next(); else prev();
+    setTimeout(() => { wheelLock = false; }, 500);
+  }, { passive:true });
+  render();
+</script>
+
+</body>
+</html>

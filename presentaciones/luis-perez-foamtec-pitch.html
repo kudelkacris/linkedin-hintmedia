@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis Pérez · La firma que falta · Hint Media</title>
+<style>
+  :root{
+    --ink:#1c1c1c;
+    --charcoal:#3a3a3a;
+    --charcoal-2:#2a2a2a;
+    --cream:#ece6d6;
+    --cream-2:#ddd5bd;
+    --gold:#b8924a;
+    --gold-soft:#f0e4c8;
+    --gray-700:#5a5a5a;
+    --gray-400:#9a9a9a;
+    --white:#ffffff;
+    --warn:#9c3b1f;
+    --warn-soft:#f4e0d4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{
+    height:100%;
+    font-family:'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background:var(--charcoal-2);
+    overflow:hidden;
+  }
+  .deck{ position:relative; width:100%; height:100vh; }
+  .slide{
+    position:absolute; top:0; left:0; width:100%; height:100%;
+    display:flex; flex-direction:column; justify-content:center;
+    padding:6vh 8vw;
+    background:var(--white);
+    opacity:0; visibility:hidden; transform:translateX(40px);
+    transition:opacity .4s ease, transform .4s ease;
+    overflow-y:auto;
+  }
+  .slide.active{ opacity:1; visibility:visible; transform:translateX(0); z-index:2; }
+  .slide.prev{ transform:translateX(-40px); }
+
+  @media print{
+    html, body{ overflow:visible; height:auto; }
+    .deck{ height:auto; }
+    .slide{
+      position:relative; opacity:1 !important; visibility:visible !important;
+      transform:none !important; page-break-after:always; break-after:page;
+      height:100vh; overflow:visible;
+    }
+    .nav-btn, .progress, .slide-counter{ display:none !important; }
+  }
+
+  .eyebrow{
+    text-transform:uppercase; letter-spacing:.16em; font-size:.78rem;
+    font-weight:700; color:var(--gold); margin-bottom:14px;
+  }
+  h1{ font-size:2.7rem; color:var(--ink); font-weight:800; line-height:1.18; margin-bottom:18px; }
+  h2{ font-size:2.2rem; color:var(--ink); font-weight:800; margin-bottom:24px; line-height:1.25; }
+  p{ font-size:1.12rem; color:var(--gray-700); line-height:1.6; }
+  .lead{ font-size:1.35rem; color:var(--charcoal); max-width:780px; line-height:1.55; font-weight:500; }
+
+  /* split layout */
+  .split{ display:grid; grid-template-columns:1.15fr .85fr; gap:50px; align-items:center; flex:1; }
+  .split.reverse{ grid-template-columns:.85fr 1.15fr; }
+  .split.reverse .stock{ order:-1; }
+
+  /* stock placeholder */
+  .stock{
+    border:2px dashed var(--gold);
+    border-radius:16px;
+    background:var(--gold-soft);
+    min-height:340px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:30px; gap:10px;
+  }
+  .stock .cam{ font-size:2.4rem; }
+  .stock .label{ font-weight:700; color:var(--charcoal); font-size:.95rem; }
+  .stock .hint{ color:var(--gray-700); font-size:.85rem; max-width:240px; }
+
+  /* SLIDE 1 - cover */
+  .cover{
+    background:linear-gradient(135deg, var(--ink) 0%, var(--charcoal) 55%, #14110a 100%);
+    color:var(--white); justify-content:center;
+  }
+  .cover .tag{
+    display:inline-block; background:rgba(184,146,74,.18); border:1px solid var(--gold);
+    color:var(--gold-soft); padding:8px 18px; border-radius:30px; font-size:.85rem;
+    letter-spacing:.06em; text-transform:uppercase; margin-bottom:30px;
+  }
+  .cover h1{ color:var(--white); font-size:3rem; max-width:920px; }
+  .cover .subtitle{ color:rgba(255,255,255,.7); font-size:1.3rem; font-weight:300; margin-top:10px; }
+  .cover .footer-note{ position:absolute; bottom:6vh; left:8vw; color:rgba(255,255,255,.45); font-size:.85rem; }
+
+  /* quote cards */
+  .quote-grid{ display:flex; flex-direction:column; gap:14px; margin-top:6px; }
+  .quote-card{
+    background:#faf8f2; border-left:4px solid var(--gold); border-radius:8px;
+    padding:16px 22px;
+  }
+  .quote-card p{ font-style:italic; color:var(--ink); font-size:1.05rem; margin:0; }
+  .quote-card .who{ color:var(--gray-700); font-size:.85rem; margin-top:6px; font-style:normal; }
+  .stat-bar{
+    margin-top:22px; background:var(--charcoal); color:var(--white);
+    border-radius:10px; padding:16px 22px; font-size:1.05rem; font-weight:600;
+  }
+  .stat-bar span{ color:var(--gold-soft); }
+
+  /* logos row */
+  .logo-row{ display:flex; gap:18px; flex-wrap:wrap; margin-top:24px; }
+  .logo-chip{
+    background:var(--cream); border:1px solid var(--cream-2); border-radius:10px;
+    padding:14px 22px; font-weight:800; color:var(--charcoal); font-size:1.05rem;
+  }
+  .kpi-row{ display:flex; gap:28px; margin-top:30px; flex-wrap:wrap; }
+  .kpi{ }
+  .kpi .num{ font-size:2.4rem; font-weight:800; color:var(--gold); }
+  .kpi .label{ font-size:.9rem; color:var(--gray-700); }
+
+  /* fact list */
+  .fact-list{ display:flex; flex-direction:column; gap:14px; margin-top:6px; }
+  .fact{
+    display:flex; gap:16px; align-items:flex-start;
+    background:var(--cream); border-radius:10px; padding:16px 20px;
+  }
+  .fact .dot{ width:10px; height:10px; min-width:10px; border-radius:50%; background:var(--gold); margin-top:8px; }
+  .fact p{ color:var(--ink); font-size:1.05rem; margin:0; }
+  .tension-box{
+    margin-top:22px; background:var(--ink); color:var(--white);
+    border-radius:10px; padding:18px 22px; font-size:1.1rem; font-weight:600;
+  }
+
+  /* cost list */
+  .cost-list{ display:flex; flex-direction:column; gap:16px; margin-top:6px; }
+  .cost-item{
+    border-left:4px solid var(--warn); background:var(--warn-soft); border-radius:8px;
+    padding:16px 22px;
+  }
+  .cost-item p{ color:#5c2410; margin:0; font-size:1.05rem; }
+  .punch{
+    margin-top:24px; font-size:1.3rem; font-weight:800; color:var(--ink);
+    border-top:2px solid var(--gold); padding-top:18px;
+  }
+
+  /* roadmap */
+  .roadmap{ display:flex; flex-direction:column; gap:18px; margin-top:6px; }
+  .road-step{ display:flex; gap:22px; align-items:flex-start; }
+  .road-step .stage{
+    min-width:120px; font-weight:800; color:var(--gold); font-size:1rem;
+    text-transform:uppercase; letter-spacing:.04em;
+  }
+  .road-step .body{ background:var(--cream); border-radius:10px; padding:16px 20px; flex:1; }
+  .road-step .body h4{ color:var(--ink); font-size:1.08rem; margin-bottom:6px; }
+  .road-step .body p{ font-size:.98rem; margin:0; }
+
+  /* money cards */
+  .money-grid{ display:flex; flex-direction:column; gap:14px; margin-top:6px; }
+  .money-card{
+    background:var(--ink); color:var(--white); border-radius:12px; padding:20px 24px;
+    display:flex; gap:18px; align-items:flex-start;
+  }
+  .money-card .icon{ font-size:1.6rem; color:var(--gold-soft); }
+  .money-card p{ color:rgba(255,255,255,.9); margin:0; font-size:1.02rem; }
+  .disclaimer{ margin-top:18px; font-size:.85rem; color:var(--gray-400); }
+
+  /* method steps */
+  .method-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:10px; }
+  .method-card{
+    background:var(--cream); border-top:4px solid var(--gold); border-radius:12px; padding:20px 18px;
+  }
+  .method-card .step-num{ font-size:1.5rem; font-weight:800; color:var(--gold); margin-bottom:8px; }
+  .method-card h4{ color:var(--ink); font-size:1.02rem; margin-bottom:8px; }
+  .method-card p{ font-size:.9rem; margin:0; }
+
+  /* closing */
+  .closing{
+    background:linear-gradient(135deg, var(--ink) 0%, var(--charcoal) 100%); color:var(--white);
+  }
+  .closing h2{ color:var(--white); }
+  .closing .lead{ color:rgba(255,255,255,.85); }
+  .contact-row{ display:flex; gap:30px; margin-top:30px; flex-wrap:wrap; }
+  .contact-row .c{ color:rgba(255,255,255,.8); font-size:1rem; }
+  .contact-row .c strong{ color:var(--gold-soft); display:block; font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+
+  /* nav */
+  .nav-btn{
+    position:fixed; top:50%; transform:translateY(-50%);
+    background:rgba(28,28,28,.85); color:#fff; border:none; width:52px; height:52px;
+    border-radius:50%; font-size:1.4rem; cursor:pointer; z-index:50;
+    display:flex; align-items:center; justify-content:center;
+    transition:background .2s ease, opacity .2s ease; opacity:.85;
+  }
+  .nav-btn:hover{ background:var(--gold); opacity:1; }
+  .nav-btn:disabled{ opacity:.25; cursor:default; }
+  #prevBtn{ left:24px; } #nextBtn{ right:24px; }
+
+  .progress{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); display:flex; gap:8px; z-index:50; }
+  .dot{ width:9px; height:9px; border-radius:50%; background:var(--cream-2); cursor:pointer; transition:background .2s ease, transform .2s ease; }
+  .dot.active{ background:var(--gold); transform:scale(1.3); }
+  .slide-counter{ position:fixed; top:24px; right:32px; color:var(--gray-400); font-size:.85rem; letter-spacing:.05em; z-index:50; }
+
+  @media (max-width:1100px){
+    .split, .split.reverse{ grid-template-columns:1fr; }
+    .split.reverse .stock{ order:0; }
+    .method-row{ grid-template-columns:1fr 1fr; }
+  }
+  @media (max-width:900px){
+    h1{ font-size:2rem; } .cover h1{ font-size:2.1rem; } h2{ font-size:1.6rem; }
+    .method-row{ grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: PORTADA -->
+  <section class="slide cover active" data-index="0">
+    <span class="tag">Propuesta para Luis Pérez · Foamtec International WCC</span>
+    <h1>Encontrás la causa raíz de la contaminación invisible.<br>Nosotros encontramos la causa raíz de por qué nadie más lo sabe.</h1>
+    <p class="subtitle">30 minutos. Lo que ya construiste, contado en voz alta.</p>
+    <div class="footer-note">Hint Media · Junio 2026</div>
+  </section>
+
+  <!-- SLIDE 2: EL PATRON / MIRROR -->
+  <section class="slide" data-index="1">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Lo que vimos en tu LinkedIn</span>
+        <h2>Felicitás a todos. ¿Quién te felicita a ti?</h2>
+        <div class="quote-grid">
+          <div class="quote-card">
+            <p>"Enhorabuena por tan tremenda trayectoria, te deseo el mayor de los éxitos."</p>
+            <div class="who">Luis, comentando el logro de un colega</div>
+          </div>
+          <div class="quote-card">
+            <p>"Mi respeto y admiración, me pareció tu comentario digno de un líder."</p>
+            <div class="who">Luis, reconociendo a otro líder</div>
+          </div>
+          <div class="quote-card">
+            <p>"Somos los expertos en CSI, te espero en el booth S49."</p>
+            <div class="who">Único post propio en 6 meses, escrito por Foamtec, no por Luis</div>
+          </div>
+        </div>
+        <div class="stat-bar">Más de <span>30 felicitaciones</span> a colegas en 6 meses. <span>Cero posts propios</span> contando tu trabajo.</div>
+      </div>
+      <div class="stock">
+        <div class="cam">📷</div>
+        <div class="label">STOCK sugerido</div>
+        <div class="hint">Manos escribiendo en laptop, feed de LinkedIn desenfocado de fondo, luz cálida</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: QUIENES SOMOS -->
+  <section class="slide" data-index="2">
+    <div class="split reverse">
+      <div class="stock">
+        <div class="cam">📷</div>
+        <div class="label">STOCK sugerido</div>
+        <div class="hint">Equipo joven trabajando en oficina creativa, pantallas con contenido digital</div>
+      </div>
+      <div>
+        <span class="eyebrow">Quiénes somos</span>
+        <h2>Hint Media</h2>
+        <p class="lead">Agencia de comunicación omnicanal. Convertimos autoridad técnica real en voz pública que se nota y que vende.</p>
+        <div class="logo-row">
+          <div class="logo-chip">TGS</div>
+          <div class="logo-chip">Transener</div>
+          <div class="logo-chip">Destiny Group</div>
+          <div class="logo-chip">Libra Seguros</div>
+          <div class="logo-chip">Tassaroli</div>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi"><div class="num">+20</div><div class="label">profesionales</div></div>
+          <div class="kpi"><div class="num">7</div><div class="label">países con presencia activa</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: PRUEBA / VOCERIA DIGITAL -->
+  <section class="slide" data-index="3">
+    <span class="eyebrow">Esto ya lo hicimos, con resultados reales</span>
+    <h2>La vocería digital, en boca de quienes la viven</h2>
+    <div class="quote-grid" style="margin-top:10px;">
+      <div class="quote-card">
+        <p>"Con Hint encontramos un socio estratégico más que una agencia. Son parte fundamental de nuestro crecimiento."</p>
+        <div class="who">Mariano Aquino · CEO Destiny Group</div>
+      </div>
+      <div class="quote-card">
+        <p>"Hint se convirtió en una extensión de nuestro equipo. Aportan estrategia, contenido y resultados con una implicación que supera nuestras expectativas."</p>
+        <div class="who">Facundo Di Pino · Jefe RRII, Transportadora de Gas del Sur</div>
+      </div>
+    </div>
+    <div class="kpi-row">
+      <div class="kpi"><div class="num">80%</div><div class="label">de los perfiles que gestionamos reportan directo al CEO</div></div>
+      <div class="kpi"><div class="num">5</div><div class="label">industrias activas: energía, seguros, turismo, fitness, hotelería</div></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: DIAGNOSTICO DE SU CASO -->
+  <section class="slide" data-index="4">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Tu caso, específicamente</span>
+        <h2>Tenés la autoridad. Te falta la firma.</h2>
+        <div class="fact-list">
+          <div class="fact"><div class="dot"></div><p>16 años liderando ventas LATAM en Berkshire Corporation antes de Foamtec.</p></div>
+          <div class="fact"><div class="dot"></div><p>Global MBA en Thunderbird School of Global Management. Ingeniero Químico Administrador del Tec de Monterrey.</p></div>
+          <div class="fact"><div class="dot"></div><p>Booth propio en Life Sciences Forum 2026, hablando de CSI frente a compradores de toda la región.</p></div>
+          <div class="fact"><div class="dot"></div><p>Tu "Acerca de" en LinkedIn ya vende sola: arranca con el problema, explica el método científico, cierra con el impacto financiero.</p></div>
+        </div>
+        <div class="tension-box">Nada de esto lo estás contando vos. Lo cuenta la empresa, o no se cuenta.</div>
+      </div>
+      <div class="stock">
+        <div class="cam">📷</div>
+        <div class="label">STOCK sugerido</div>
+        <div class="hint">Profesional con bata en sala blanca, microscopio o luz UV, mirada segura a cámara</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: EL COSTO DE NO HACER NADA -->
+  <section class="slide" data-index="5">
+    <span class="eyebrow">Lo que se pierde en silencio</span>
+    <h2>Cada mes sin voz propia es una oportunidad que no vuelve</h2>
+    <div class="cost-list">
+      <div class="cost-item"><p>Un comprador busca "experto en contaminación de superficie LATAM" y no te encuentra a ti, encuentra a otro.</p></div>
+      <div class="cost-item"><p>Un evento te invita... a la empresa. No a vos. El próximo booth puede tener otro nombre.</p></div>
+      <div class="cost-item"><p>Un reclutador, un cliente nuevo o un par de la industria nunca se entera de los 16 años de trayectoria detrás del cargo actual.</p></div>
+    </div>
+    <p class="punch">La autoridad que no se ve, no existe para el que decide.</p>
+  </section>
+
+  <!-- SLIDE 7: VISION 12 MESES -->
+  <section class="slide" data-index="6">
+    <span class="eyebrow">A dónde podemos llegar</span>
+    <h2>De responsable comercial a referente regional de CSI</h2>
+    <div class="roadmap">
+      <div class="road-step">
+        <div class="stage">0 a 3 meses</div>
+        <div class="body"><h4>Voz propia</h4><p>Posts mensuales con tu método, tus casos reales, tu manera de explicar lo que nadie más explica así.</p></div>
+      </div>
+      <div class="road-step">
+        <div class="stage">4 a 8 meses</div>
+        <div class="body"><h4>Autoridad visible</h4><p>Cobertura en primera persona de cada evento. Tu contenido circula entre los compradores de cuartos limpios de LATAM, no el comunicado de la empresa.</p></div>
+      </div>
+      <div class="road-step">
+        <div class="stage">9 a 12 meses</div>
+        <div class="body"><h4>Posición de eminencia</h4><p>Invitaciones a paneles, webinars y charlas del sector. La referencia regional cuando se habla de contaminación de superficie.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: CUANTO PUEDE VALER -->
+  <section class="slide" data-index="7">
+    <span class="eyebrow">Lo que esto vale, en plata</span>
+    <h2>La autoridad pública se traduce en negociación</h2>
+    <div class="money-grid">
+      <div class="money-card"><div class="icon">📈</div><p>Perfiles técnicos B2B con vocería activa reciben varias veces más mensajes entrantes de oportunidades: clientes, charlas, ofertas.</p></div>
+      <div class="money-card"><div class="icon">🎤</div><p>Una charla en un evento del sector (Life Sciences Forum, AdvaMed, MD&M) para un ponente reconocido suele pagarse entre 500 y 3.000 USD, más el valor de quedar frente a compradores de toda la región.</p></div>
+      <div class="money-card"><div class="icon">🤝</div><p>Quien es reconocido como la autoridad del tema entra a cualquier conversación salarial o comercial desde otro lugar.</p></div>
+    </div>
+    <p class="disclaimer">Cifras de referencia de mercado, no garantía. El objetivo real es la posición, el ingreso es consecuencia de la posición.</p>
+  </section>
+
+  <!-- SLIDE 9: METODO -->
+  <section class="slide" data-index="8">
+    <span class="eyebrow">Cómo lo hacemos</span>
+    <h2>Tu trabajo diario, convertido en contenido</h2>
+    <div class="method-row">
+      <div class="method-card"><div class="step-num">01</div><h4>Escuchamos</h4><p>Entrevista corta mensual. Extraemos casos y hallazgos reales.</p></div>
+      <div class="method-card"><div class="step-num">02</div><h4>Proponemos</h4><p>Pilares de contenido y calendario alineado a tu rol y tu audiencia.</p></div>
+      <div class="method-card"><div class="step-num">03</div><h4>Actuamos</h4><p>Redacción en tu voz. Cobertura en vivo del próximo evento, desde tu perfil.</p></div>
+      <div class="method-card"><div class="step-num">04</div><h4>Medimos</h4><p>Tracción real de cada post. Ajuste mensual, nada al azar.</p></div>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: CIERRE -->
+  <section class="slide closing" data-index="9">
+    <span class="eyebrow" style="color:var(--gold-soft);">El siguiente paso</span>
+    <h2>30 minutos hoy. 12 meses de posición distinta.</h2>
+    <p class="lead">Esta misma conversación, contada con tu voz, ya es el primer contenido.</p>
+    <div class="contact-row">
+      <div class="c"><strong>Email</strong>florencia@hintmedia.net</div>
+      <div class="c"><strong>Teléfono</strong>+54 11 2386 8788</div>
+      <div class="c"><strong>Web</strong>hintmedia.net</div>
+    </div>
+  </section>
+
+</div>
+
+<button class="nav-btn" id="prevBtn" aria-label="Anterior">&#8249;</button>
+<button class="nav-btn" id="nextBtn" aria-label="Siguiente">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 10</div>
+<div class="progress" id="progress"></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  let current = 0;
+
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    progress.appendChild(dot);
+  });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  function pad(n){ return n < 10 ? '0' + n : n; }
+
+  function render(){
+    slides.forEach((s, i) => {
+      s.classList.remove('active', 'prev');
+      if (i === current) s.classList.add('active');
+      else if (i < current) s.classList.add('prev');
+    });
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = pad(current + 1) + ' / ' + pad(total);
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+
+  function goTo(i){ if (i < 0 || i >= total) return; current = i; render(); }
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { next(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { prev(); e.preventDefault(); }
+    if (e.key === 'Home') { goTo(0); }
+    if (e.key === 'End') { goTo(total - 1); }
+  });
+
+  let touchStartX = null;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (diff > 60) prev();
+    if (diff < -60) next();
+    touchStartX = null;
+  });
+
+  let wheelLock = false;
+  document.addEventListener('wheel', (e) => {
+    if (wheelLock) return;
+    if (Math.abs(e.deltaY) < 30) return;
+    wheelLock = true;
+    if (e.deltaY > 0) next(); else prev();
+    setTimeout(() => { wheelLock = false; }, 500);
+  }, { passive:true });
+
+  render();
+</script>
+
+</body>
+</html>

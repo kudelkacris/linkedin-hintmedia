@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis Pérez · Growth Blueprint · Hint Media</title>
+<style>
+  :root{
+    --ink:#10131a;
+    --teal:#0d9488;
+    --teal-soft:#d7f1ec;
+    --orange:#f59e0b;
+    --orange-soft:#fdecc8;
+    --blue:#2563eb;
+    --blue-soft:#dbe7fd;
+    --gray-900:#1c2430;
+    --gray-700:#54606e;
+    --gray-400:#9aa3ad;
+    --gray-100:#f4f6f8;
+    --gray-200:#e3e8ed;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{ height:100%; font-family:'Segoe UI', Helvetica, Arial, sans-serif; background:var(--ink); overflow:hidden; }
+  .deck{ position:relative; width:100%; height:100vh; }
+  .slide{
+    position:absolute; top:0; left:0; width:100%; height:100%;
+    display:flex; flex-direction:column; justify-content:center;
+    padding:5.5vh 6vw; background:var(--white);
+    opacity:0; visibility:hidden; transform:translateY(28px);
+    transition:opacity .45s ease, transform .45s ease; overflow-y:auto;
+  }
+  .slide.active{ opacity:1; visibility:visible; transform:translateY(0); z-index:2; }
+
+  @media print{
+    html, body{ overflow:visible; height:auto; }
+    .deck{ height:auto; }
+    .slide{ position:relative; opacity:1 !important; visibility:visible !important; transform:none !important;
+      page-break-after:always; break-after:page; height:100vh; overflow:visible; }
+    .nav-btn, .progress, .slide-counter{ display:none !important; }
+  }
+
+  .eyebrow{ text-transform:uppercase; letter-spacing:.12em; font-size:.74rem; font-weight:700; color:var(--teal); margin-bottom:10px; }
+  h2{ font-size:1.95rem; color:var(--gray-900); font-weight:800; margin-bottom:22px; line-height:1.25; max-width:900px; }
+  p{ font-size:1rem; color:var(--gray-700); line-height:1.55; }
+  .lead{ font-size:1.15rem; color:var(--gray-700); max-width:760px; }
+
+  .cover{ background:linear-gradient(135deg,#0d9488 0%, #2563eb 100%); color:var(--white); justify-content:center; }
+  .cover .tag{ background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.3); padding:8px 18px; border-radius:30px;
+    font-size:.82rem; text-transform:uppercase; letter-spacing:.08em; display:inline-block; margin-bottom:24px; }
+  .cover h1{ font-size:2.8rem; font-weight:800; }
+  .cover p{ color:rgba(255,255,255,.85); font-size:1.2rem; margin-top:12px; }
+
+  /* swimlane */
+  .swimlane{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
+  .lane{ display:flex; align-items:center; gap:18px; }
+  .lane .who{ min-width:90px; font-weight:800; font-size:.85rem; text-transform:uppercase; letter-spacing:.05em; }
+  .lane.luis .who{ color:var(--blue); }
+  .lane.hint .who{ color:var(--teal); }
+  .lane .steps{ display:flex; gap:10px; flex:1; flex-wrap:wrap; }
+  .step-chip{ padding:10px 16px; border-radius:8px; font-size:.88rem; font-weight:600; }
+  .lane.luis .step-chip{ background:var(--blue-soft); color:#1d3f9e; }
+  .lane.hint .step-chip{ background:var(--teal-soft); color:#0a6b62; }
+
+  /* interview cards */
+  .card-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:8px; }
+  .icard{ background:var(--gray-100); border-radius:12px; padding:20px; border-top:4px solid var(--teal); }
+  .icard h4{ font-size:1rem; color:var(--gray-900); margin-bottom:8px; }
+  .icard p{ font-size:.9rem; margin:0; }
+
+  /* calendar table */
+  table.cal{ width:100%; border-collapse:collapse; margin-top:8px; font-size:.92rem; }
+  table.cal th{ background:var(--ink); color:var(--white); padding:10px 14px; text-align:left; font-size:.78rem; text-transform:uppercase; letter-spacing:.05em; }
+  table.cal td{ padding:12px 14px; border-bottom:1px solid var(--gray-200); color:var(--gray-700); }
+  table.cal tr:nth-child(even) td{ background:var(--gray-100); }
+  .tag-pill{ display:inline-block; padding:3px 10px; border-radius:20px; font-size:.75rem; font-weight:700; }
+  .tag-pill.tech{ background:var(--teal-soft); color:#0a6b62; }
+  .tag-pill.evento{ background:var(--orange-soft); color:#92590a; }
+  .tag-pill.opinion{ background:var(--blue-soft); color:#1d3f9e; }
+
+  /* linkedin post mockup */
+  .li-mock{ max-width:520px; border:1px solid var(--gray-200); border-radius:12px; padding:18px 20px; box-shadow:0 8px 24px rgba(0,0,0,.06); }
+  .li-head{ display:flex; gap:12px; align-items:center; margin-bottom:12px; }
+  .li-avatar{ width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg,var(--teal),var(--blue)); }
+  .li-name{ font-weight:700; color:var(--gray-900); font-size:.95rem; }
+  .li-role{ color:var(--gray-400); font-size:.78rem; }
+  .li-body{ color:var(--gray-900); font-size:.95rem; line-height:1.55; white-space:pre-line; }
+  .li-foot{ margin-top:14px; display:flex; gap:18px; color:var(--gray-400); font-size:.82rem; border-top:1px solid var(--gray-200); padding-top:10px; }
+  .draft-tag{ display:inline-block; margin-top:10px; background:var(--orange-soft); color:#92590a; font-size:.72rem; font-weight:700; padding:4px 10px; border-radius:20px; }
+
+  /* before after */
+  .ba-cols{ display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:8px; }
+  .ba-box{ border-radius:12px; padding:20px; }
+  .ba-box.before{ background:var(--gray-100); border:1px dashed var(--gray-400); }
+  .ba-box.after{ background:var(--teal-soft); border:1px solid var(--teal); }
+  .ba-box h4{ font-size:.85rem; text-transform:uppercase; letter-spacing:.05em; margin-bottom:10px; }
+  .ba-box.before h4{ color:var(--gray-400); }
+  .ba-box.after h4{ color:#0a6b62; }
+  .ba-box ul{ padding-left:18px; }
+  .ba-box li{ font-size:.92rem; color:var(--gray-700); margin-bottom:6px; }
+
+  /* weekly cronograma */
+  .week-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:8px; }
+  .week-card{ background:var(--gray-100); border-radius:10px; padding:16px; border-top:3px solid var(--blue); }
+  .week-card .wk{ font-size:.75rem; font-weight:800; color:var(--blue); text-transform:uppercase; margin-bottom:6px; }
+  .week-card p{ font-size:.85rem; margin:0; }
+
+  /* kpi dashboard */
+  .kpi-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:8px; }
+  .kpi-tile{ background:var(--ink); color:var(--white); border-radius:12px; padding:22px 18px; }
+  .kpi-tile .n{ font-size:2.1rem; font-weight:800; color:var(--teal-soft); }
+  .kpi-tile .l{ font-size:.8rem; color:rgba(255,255,255,.65); margin-top:6px; }
+
+  /* roadmap 12 month colorful */
+  .road12{ display:flex; gap:0; margin-top:10px; }
+  .road12 .seg{ flex:1; padding:16px; border-radius:10px; margin-right:10px; }
+  .road12 .seg:nth-child(1){ background:var(--blue-soft); }
+  .road12 .seg:nth-child(2){ background:var(--orange-soft); }
+  .road12 .seg:nth-child(3){ background:var(--teal-soft); }
+  .road12 .seg h4{ font-size:1rem; color:var(--gray-900); margin-bottom:6px; }
+  .road12 .seg p{ font-size:.85rem; margin:0; }
+
+  .closing{ background:var(--ink); color:var(--white); justify-content:center; }
+  .closing h2{ color:var(--white); }
+  .closing .lead{ color:rgba(255,255,255,.8); }
+  .closing .ask{ margin-top:18px; font-size:1.3rem; font-weight:700; color:var(--teal-soft); }
+  .closing .contact{ margin-top:40px; color:rgba(255,255,255,.4); font-size:.8rem; }
+  .disclaimer{ margin-top:14px; font-size:.78rem; color:var(--gray-400); }
+
+  .nav-btn{ position:fixed; top:50%; transform:translateY(-50%); background:rgba(16,19,26,.85); color:#fff; border:none;
+    width:48px; height:48px; border-radius:50%; font-size:1.3rem; cursor:pointer; z-index:50;
+    display:flex; align-items:center; justify-content:center; transition:background .2s ease; opacity:.85; }
+  .nav-btn:hover{ background:var(--teal); }
+  .nav-btn:disabled{ opacity:.2; cursor:default; }
+  #prevBtn{ left:20px; } #nextBtn{ right:20px; }
+  .progress{ position:fixed; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:7px; z-index:50; }
+  .dot3{ width:8px; height:8px; border-radius:50%; background:var(--gray-200); cursor:pointer; }
+  .dot3.active{ background:var(--teal); transform:scale(1.3); }
+  .slide-counter{ position:fixed; top:20px; right:28px; color:var(--gray-400); font-size:.78rem; z-index:50; }
+
+  @media (max-width:1100px){
+    .card-row, .week-grid, .kpi-grid{ grid-template-columns:1fr 1fr; }
+    .ba-cols, .road12{ grid-template-columns:1fr; flex-direction:column; }
+  }
+  @media (max-width:900px){
+    h2{ font-size:1.4rem; } .cover h1{ font-size:2rem; }
+    .card-row, .week-grid, .kpi-grid{ grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- 1 COVER -->
+  <section class="slide cover active" data-index="0">
+    <span class="tag">Growth Blueprint · Hint Media</span>
+    <h1>Luis Pérez</h1>
+    <p>Cómo se vería trabajar juntos, en la práctica</p>
+  </section>
+
+  <!-- 2 MAPA DEL PROCESO -->
+  <section class="slide" data-index="1">
+    <span class="eyebrow">Mapa del proceso completo</span>
+    <h2>Quién hace qué, cada mes</h2>
+    <div class="swimlane">
+      <div class="lane luis"><div class="who">Luis</div><div class="steps">
+        <div class="step-chip">Entrevista mensual (30 min)</div>
+        <div class="step-chip">Aprueba borradores</div>
+        <div class="step-chip">Vive el evento / el caso técnico</div>
+      </div></div>
+      <div class="lane hint"><div class="who">Hint</div><div class="steps">
+        <div class="step-chip">Extrae conocimiento</div>
+        <div class="step-chip">Redacta en su voz</div>
+        <div class="step-chip">Publica y mide</div>
+        <div class="step-chip">Amplifica los primeros 60 min</div>
+        <div class="step-chip">Reporta resultados</div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 3 SISTEMA DE ENTREVISTAS -->
+  <section class="slide" data-index="2">
+    <span class="eyebrow">Sistema de entrevistas</span>
+    <h2>30 minutos al mes. Así se estructura</h2>
+    <div class="card-row">
+      <div class="icard"><h4>Antes</h4><p>Hint envía 3-4 preguntas guía: casos recientes, eventos, hallazgos técnicos, conversaciones con clientes.</p></div>
+      <div class="icard"><h4>Durante</h4><p>Conversación grabada de 30 min. Luis cuenta, sin preocuparse por la redacción.</p></div>
+      <div class="icard"><h4>Después</h4><p>Hint transcribe, identifica 3-4 ángulos de contenido y arma los borradores del mes.</p></div>
+    </div>
+  </section>
+
+  <!-- 4 CALENDARIO EDITORIAL -->
+  <section class="slide" data-index="3">
+    <span class="eyebrow">Calendario editorial ejemplo</span>
+    <h2>Un mes típico, 4 publicaciones</h2>
+    <table class="cal">
+      <tr><th>Semana</th><th>Pilar</th><th>Idea</th></tr>
+      <tr><td>1</td><td><span class="tag-pill tech">Caso técnico</span></td><td>Hallazgo de contaminación resuelto con microscopía + trazador UV.</td></tr>
+      <tr><td>2</td><td><span class="tag-pill opinion">Liderazgo regional</span></td><td>Postura sobre estándares de cuarto limpio en LATAM.</td></tr>
+      <tr><td>3</td><td><span class="tag-pill evento">Evento</span></td><td>Cobertura en primera persona de una feria o visita a cliente.</td></tr>
+      <tr><td>4</td><td><span class="tag-pill tech">Método</span></td><td>Explicación simple de SEM-EDS o trazadores UV para no técnicos.</td></tr>
+    </table>
+  </section>
+
+  <!-- 5 EJEMPLO POST 1 -->
+  <section class="slide" data-index="4">
+    <span class="eyebrow">Ejemplo de contenido · pilar caso técnico</span>
+    <h2>Así se vería un post real</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar"></div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">Encontramos un defecto que llevaba 8 meses sin explicación.
+
+No estaba en la máquina. Estaba en un guante.
+
+Microscopía óptica y trazador UV mostraron el punto exacto de contacto. Recalificar ese guante cambió la tasa de FPY de la línea.
+
+En contaminación de superficie no buscamos culpables. Buscamos evidencia.</div>
+      <div class="li-foot"><span>👍 Me gusta</span><span>💬 Comentar</span><span>↗ Compartir</span></div>
+    </div>
+    <div class="draft-tag">Borrador ilustrativo, a validar con Luis antes de publicar</div>
+  </section>
+
+  <!-- 6 EJEMPLO POST 2 -->
+  <section class="slide" data-index="5">
+    <span class="eyebrow">Ejemplo de contenido · pilar evento</span>
+    <h2>Cobertura en primera persona, no comunicado de empresa</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar"></div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">Booth S49, Life Sciences Forum 2026.
+
+Un comprador me preguntó por qué su línea seguía rechazando lotes después de cambiar todo el protocolo de limpieza.
+
+La respuesta estaba en un trazador UV, no en el protocolo.
+
+Gracias a todos los que pasaron a conversar esta semana.</div>
+      <div class="li-foot"><span>👍 Me gusta</span><span>💬 Comentar</span><span>↗ Compartir</span></div>
+    </div>
+    <div class="draft-tag">Borrador ilustrativo, a validar con Luis antes de publicar</div>
+  </section>
+
+  <!-- 7 EJEMPLO POST 3 -->
+  <section class="slide" data-index="6">
+    <span class="eyebrow">Ejemplo de contenido · pilar liderazgo regional</span>
+    <h2>La opinión que lo posiciona como referencia</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar"></div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">La mayoría de los problemas de FPY que veo en cuartos limpios de LATAM no son de proceso.
+
+Son de superficie. Y casi nadie los está midiendo.
+
+Llevamos años copiando estándares globales sin adaptarlos a nuestra realidad operativa regional.
+
+¿Qué están viendo ustedes en sus líneas?</div>
+      <div class="li-foot"><span>👍 Me gusta</span><span>💬 Comentar</span><span>↗ Compartir</span></div>
+    </div>
+    <div class="draft-tag">Borrador ilustrativo, a validar con Luis antes de publicar</div>
+  </section>
+
+  <!-- 8 PERFIL OPTIMIZADO -->
+  <section class="slide" data-index="7">
+    <span class="eyebrow">Perfil optimizado</span>
+    <h2>Tu "Acerca de" ya vende. Tu actividad no lo respalda</h2>
+    <div class="ba-cols">
+      <div class="ba-box before">
+        <h4>Hoy</h4>
+        <ul>
+          <li>Sección destacada vacía, sin posts propios anclados</li>
+          <li>Actividad reciente: solo felicitaciones a terceros</li>
+          <li>Banner genérico de Foamtec, sin huella personal</li>
+        </ul>
+      </div>
+      <div class="ba-box after">
+        <h4>Con el sistema funcionando</h4>
+        <ul>
+          <li>Sección destacada con 3 posts ancla (caso, evento, opinión)</li>
+          <li>Actividad reciente: tu propia voz, no solo reposteos</li>
+          <li>Banner y título alineados a "experto en contaminación de superficie LATAM"</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 FLUJO OPERATIVO MENSUAL -->
+  <section class="slide" data-index="8">
+    <span class="eyebrow">Flujo operativo mensual</span>
+    <h2>4 semanas, sin sorpresas</h2>
+    <div class="week-grid">
+      <div class="week-card"><div class="wk">Semana 1</div><p>Entrevista de 30 min + Hint extrae ángulos de contenido.</p></div>
+      <div class="week-card"><div class="wk">Semana 2</div><p>Hint redacta. Luis aprueba o ajusta en 10 minutos.</p></div>
+      <div class="week-card"><div class="wk">Semana 3</div><p>Publicación. Hint gestiona los primeros 60 minutos de tracción.</p></div>
+      <div class="week-card"><div class="wk">Semana 4</div><p>Medición y reporte. Ajuste del calendario del mes siguiente.</p></div>
+    </div>
+  </section>
+
+  <!-- 10 CRONOGRAMA 90 DIAS -->
+  <section class="slide" data-index="9">
+    <span class="eyebrow">Cronograma de implementación</span>
+    <h2>Primeros 90 días, semana por semana</h2>
+    <div class="week-grid">
+      <div class="week-card"><div class="wk">Sem. 1-2</div><p>Kickoff, primera entrevista, auditoría de perfil.</p></div>
+      <div class="week-card"><div class="wk">Sem. 3-6</div><p>Primeros 2 posts publicados, perfil optimizado.</p></div>
+      <div class="week-card"><div class="wk">Sem. 7-10</div><p>Cobertura del próximo evento en vivo, ritmo de 1 post/semana.</p></div>
+      <div class="week-card"><div class="wk">Sem. 11-13</div><p>Primer reporte de tracción real, ajuste de pilares.</p></div>
+    </div>
+  </section>
+
+  <!-- 11 KPI DASHBOARD -->
+  <section class="slide" data-index="10">
+    <span class="eyebrow">Ejemplo de tablero de seguimiento</span>
+    <h2>Lo que medimos cada mes</h2>
+    <div class="kpi-grid">
+      <div class="kpi-tile"><div class="n">Impresiones</div><div class="l">Alcance mensual del contenido propio</div></div>
+      <div class="kpi-tile"><div class="n">Visitas al perfil</div><div class="l">Quién llega a ver quién es Luis</div></div>
+      <div class="kpi-tile"><div class="n">Mensajes entrantes</div><div class="l">Conversaciones que arrancan otros</div></div>
+      <div class="kpi-tile"><div class="n">Apariciones en búsqueda</div><div class="l">Encontrabilidad como experto</div></div>
+    </div>
+    <p class="disclaimer">Estructura de seguimiento ilustrativa. Los valores reales se establecen recién con datos del perfil de Luis.</p>
+  </section>
+
+  <!-- 12 ROADMAP 12 MESES -->
+  <section class="slide" data-index="11">
+    <span class="eyebrow">Roadmap a 12 meses</span>
+    <h2>De responsable comercial a referencia regional</h2>
+    <div class="road12">
+      <div class="seg"><h4>0-3 meses</h4><p>Voz propia activa, perfil optimizado, ritmo mensual.</p></div>
+      <div class="seg"><h4>4-8 meses</h4><p>Cobertura de eventos en primera persona, contenido que circula entre compradores.</p></div>
+      <div class="seg"><h4>9-12 meses</h4><p>Invitaciones a paneles y conversaciones del sector como referencia de CSI en LATAM.</p></div>
+    </div>
+  </section>
+
+  <!-- 13 CIERRE -->
+  <section class="slide closing" data-index="12">
+    <span class="eyebrow" style="color:var(--teal-soft);">Próximo paso</span>
+    <h2>Esto es exactamente cómo trabajaríamos</h2>
+    <p class="lead">Nada de esto es teórico. Es el mismo sistema que usamos hoy con perfiles ejecutivos de TGS y Destiny Group.</p>
+    <div class="ask">¿Coordinamos 45 minutos la semana que viene para arrancar la primera entrevista?</div>
+    <div class="contact">florencia@hintmedia.net · +54 11 2386 8788 · hintmedia.net</div>
+  </section>
+
+</div>
+
+<button class="nav-btn" id="prevBtn" aria-label="Anterior">&#8249;</button>
+<button class="nav-btn" id="nextBtn" aria-label="Siguiente">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 13</div>
+<div class="progress" id="progress"></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  let current = 0;
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot3' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    progress.appendChild(dot);
+  });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  function pad(n){ return n < 10 ? '0' + n : n; }
+  function render(){
+    slides.forEach((s, i) => s.classList.toggle('active', i === current));
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = pad(current + 1) + ' / ' + pad(total);
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+  function goTo(i){ if (i < 0 || i >= total) return; current = i; render(); }
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { next(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { prev(); e.preventDefault(); }
+    if (e.key === 'Home') { goTo(0); }
+    if (e.key === 'End') { goTo(total - 1); }
+  });
+  let touchStartX = null;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (diff > 60) prev();
+    if (diff < -60) next();
+    touchStartX = null;
+  });
+  let wheelLock = false;
+  document.addEventListener('wheel', (e) => {
+    if (wheelLock) return;
+    if (Math.abs(e.deltaY) < 30) return;
+    wheelLock = true;
+    if (e.deltaY > 0) next(); else prev();
+    setTimeout(() => { wheelLock = false; }, 500);
+  }, { passive:true });
+  render();
+</script>
+
+</body>
+</html>

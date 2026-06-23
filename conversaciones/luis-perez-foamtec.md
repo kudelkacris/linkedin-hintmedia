@@ -38,3 +38,12 @@ metadata:
 **Actualización 22/06/26:**
 - Florencia confirmó invite por Google Calendar.
 - Luis preguntó "La puedes grabar?". Florencia confirmó que sí, así le queda para compartir con quien necesite del lado de Foamtec.
+
+**Actualización 23/06/26 — decks para la call del miércoles:**
+- Se construyeron 3 decks alternativos en `presentaciones/`, todos client-facing (sin info interna de Hint visible):
+  - `luis-perez-foamtec-v3.html` — versión base, estructura "Luis primero, Hint después", 12 slides.
+  - `luis-perez-foamtec-OPCION-A-executive.html` — Executive Strategy Deck, 9 slides, fondo negro, minimalista (McKinsey/Apple), para si Luis se muestra estratégico/visión.
+  - `luis-perez-foamtec-OPCION-B-blueprint.html` — Growth Blueprint, 13 slides, color, mockups de posts reales, calendario editorial, cronograma 90 días, para si Luis pregunta "cómo sería el día a día" (más probable dado su perfil ingeniería/calidad/ventas técnicas).
+- Insumo: 52 comentarios de LinkedIn de Luis de los últimos 6 meses (patrón: felicita a todos, 0 posts propios) + foto del MD Summit Costa Rica + CV completo (16 años Berkshire Corporation, MBA Thunderbird, Ing. Tec de Monterrey).
+- Decisión clave: se sacó toda cifra de USD de la primera reunión (riesgo de disparar negociación de precio antes de establecer valor). Slide de "resultados esperados" usa lenguaje consultivo + disclaimer, no promesas.
+- Guiones orales completos en `guion-luis-perez-v3.md` y `guion-opciones-AB.md` (apertura, transiciones, objeciones, cuándo usar A vs B, autocrítica).
