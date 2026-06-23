@@ -1,6 +1,6 @@
 # Anabel Arroyo Navarro
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM)
 **Fecha:** 15/06/26
 **Cargo:** Marketing & Communications Strategist / Project Manager
 **País:** Panamá
@@ -25,6 +25,9 @@ Citó cómo cerró su reflexión sobre el Panamá Circular Experience: "detrás 
 > En Hint acompañamos a marcas y organizaciones con estrategia de contenido, comunicación y posicionamiento que conecta propósito con impacto real.
 >
 > ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## SEG1 (enviado 23/06/26)
+> Anabel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya sobre diseñar experiencias estratégicas que fortalezcan marcas y generen resultados medibles, va más allá de organizar el evento en sí. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si hay terreno para trabajar juntas en algún proyecto puntual.
 
 ## Notas
 - Activa en sostenibilidad/economía circular en Panamá (Cámara de Reciclaje, Fundación SEED)

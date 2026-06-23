@@ -1,6 +1,6 @@
 # Greg Barton
 
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado, SEG1 enviado 23/06/26 (engagement MEDIUM, ángulo alianza con Pilgrims LatAm)
 **Fecha:** 18/06/26
 **Cargo:** Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)
 **Empresa:** Independiente / Pilgrimslatam.com
@@ -21,6 +21,9 @@
 > En Hint Media trabajamos comunicación y contenido para empresas y consultoras en expansión regional, como Destiny Group y Libra Seguros.
 >
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## SEG1 (enviado 23/06/26)
+> Greg, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de Pilgrims LATAM enfocado en entender el ecosistema antes que cerrar negocio rápido, eso encaja bien con cómo trabajamos nosotros en minería y energía. Si te parece, coordinamos 15 minutos y vemos si hay terreno real para esa alianza entre tu emprendimiento y lo que hacemos con TGS y compañía.
 
 ## Notas
 - Antes trabajaba en BNamericas, ahora lanzó proyecto propio Pilgrims LatAm.

@@ -1,6 +1,6 @@
 # Paula Quijada
 
-**Estado:** MSG2 por enviar
+**Estado:** Dossier enviado (a pqe@fexmin.cl), SEG1 enviado 23/06/26 (engagement MEDIUM)
 **Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)
 **Cargo:** Executive Director FEXMIN / Administrative Manager Minera Cachinal / Commercial Relationship CIM Los Andes
 **País:** Chile
@@ -19,6 +19,9 @@
 > En Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener historias reales del sector de forma consistente en el tiempo. Trabajamos con TGS y Transener en estructuras similares.
 >
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## SEG1 (enviado 23/06/26)
+> Paula, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener historias reales como la del joven geólogo en cada edición, mientras en paralelo llevás la parte administrativa y comercial de otras organizaciones del sector. Eso suele ser lo que más se resiente cuando hay tanto en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo hoy en FEXMIN.
 
 ## Notas
 - HECHO: compartió la historia de un joven geólogo que encontró trabajo gracias a la instancia de posters de FEXMIN, en vez de vender "el valor de FEXMIN".

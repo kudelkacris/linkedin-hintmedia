@@ -34,6 +34,9 @@ Destacó su equilibrio entre construir infraestructura técnica y generar result
 >
 > Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
+## SEG1 (enviado 23/06/26, engagement MEDIUM)
+> Daniel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que la infraestructura técnica que armás necesita material estratégico de calidad para que los flujos tengan sentido, sin eso la automatización corre en el aire. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.
+
 ## Notas
 - Trabaja en Loymark (agencia) — posicionado como complementario
 - Especialista técnico: GA4, GTM, CRM, Zapier, WordPress, Meta Ads

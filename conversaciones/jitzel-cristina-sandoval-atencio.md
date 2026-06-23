@@ -4,7 +4,7 @@
 **Cargo:** Líder de Imagen / Marketing
 **País:** Panamá
 **Sector:** Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias
-**Estado:** Conversación activa — esperando respuesta a MSG3 con humor
+**Estado:** Sin respuesta al MSG3, se mandó SEG1 de reimpulso 23/06/26 con CTA directo (engagement HIGH: elaboró mucho, corrigió datos de 37 a 48 marcas, hizo pregunta directa, dio el mail)
 
 ---
 
@@ -42,6 +42,9 @@
 > Hint Media trabaja exactamente en eso — sumamos capacidad de ejecución para que tu equipo no tenga que estirar recursos entre categorías que no tienen nada que ver entre sí.
 >
 > Te mando el dossier a j.sandoval@matcointernacional.com y vemos qué divisiones tienen más urgencia hoy?
+
+## SEG1 / reimpulso (enviado 23/06/26)
+> Jitzel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó dando vueltas lo de las 48 marcas divididas por categorías tan distintas, agro, construcción, autorepuestos, limpieza. Me parece que tiene más sentido conversarlo en una llamada corta que seguir por mensaje. Te parece si coordinamos 15 minutos esta semana y vemos por dónde empezar?
 
 ---
 

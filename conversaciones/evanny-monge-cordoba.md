@@ -31,6 +31,9 @@ Citó su post de storytelling: la diferencia entre contar historias y lograr que
 >
 > Y si preferís que te lo envíe también por mail, decime a qué dirección.
 
+## SEG1 (enviado 23/06/26, engagement MEDIUM)
+> Evanny, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya sobre la diferencia entre contar historias y lograr que el público se identifique, eso es justo lo que más cuesta sostener consistente en el día a día. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.
+
 ## Notas
 - Marketing Lead TTU-CR, 11 meses en el rol (2.5 años total en TTU-CR)
 - Lic. Comunicación de Mercadeo, Summa Cum Laude

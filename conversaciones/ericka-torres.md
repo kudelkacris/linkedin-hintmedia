@@ -26,7 +26,8 @@ Destacó que compartió su aprendizaje del Foro de Sostenibilidad en lugar de un
 ## Cierre dossier
 > Lo dejo adjunto por aqui Ericka, buena semana y estamos en contacto.
 
-**Estado actualizado:** SEG1 enviado (17/06/26)
+**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):
+> Ericka, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya de seguir aprendiendo sobre planificación urbana y movilidad, esa curiosidad genuina más allá de la campaña de turno es justo lo que más cuesta sostener en desarrollo inmobiliario. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están trabajando hoy en Novogar.
 
 ## SEG1 (enviado 17/06/26)
 > Ericka, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.

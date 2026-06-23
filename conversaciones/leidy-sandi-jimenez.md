@@ -40,7 +40,8 @@ Citó cómo posicionó a Congero en London Tech Week, destacando a Celio y Alexa
 >
 > Si te parece que tiene sentido, podemos conversarlo 15 minutos.
 
-**Estado actualizado:** SEG1 enviado (17/06/26)
+**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):
+> Leidy, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya de que el crecimiento no sucede por casualidad sino por convicción, y que la comunicación tiene que estar a la altura de eso cuando una empresa crece tan rápido como Congero. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo hoy.
 
 ## Notas
 - Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)

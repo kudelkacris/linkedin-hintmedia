@@ -40,7 +40,8 @@ Destacó comentario de Laura sobre RRHH que pide diseño + redes + SEO + email +
 >
 > Si te parece que tiene sentido, podemos conversarlo 15 minutos.
 
-**Estado actualizado:** SEG1 enviado (17/06/26)
+**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):
+> Laura, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que en Aceros Carazo te toca cubrir estrategia y ejecución al mismo tiempo, justo lo que vos misma describiste como el problema de fondo en esos perfiles senior. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.
 
 ## Notas
 - Viene de Essity (TENA, FMCG, Centroamérica)

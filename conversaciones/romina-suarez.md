@@ -3,7 +3,7 @@
 **Empresa:** (no especificada en la conversación)
 **País:** Argentina
 **Sector:** (no especificado)
-**Estado:** Dossier enviado
+**Estado:** Dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM)
 
 ---
 
@@ -22,6 +22,9 @@
 
 ## Cierre
 > Perfecto Romina, te lo mando ahora. Quedamos en contacto!
+
+## SEG1 (enviado 23/06/26)
+> Romina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.
 
 ---
 

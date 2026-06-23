@@ -21,4 +21,5 @@ metadata:
 - Enfocado en crecimiento de marca, market share y expansión regional
 - Énfasis en P&L y EBITDA — perfil comercial fuerte
 
-**Estado:** Esperando respuesta al MSG2
+**Estado:** Dossier enviado (a Bdiaz@gulfoilpanama.com), SEG1 enviado 23/06/26 (engagement MEDIUM):
+> Bernardo, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de manejar 8 países en paralelo, cada uno con su propio ritmo, y lo que cuesta sostener coherencia de marca y calidad de ejecución al mismo tiempo en todos. Eso suele ser lo que más cede primero cuando el volumen crece. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a la operación de Gulf en la región.

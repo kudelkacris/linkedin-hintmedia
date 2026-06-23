@@ -29,6 +29,9 @@ Destacó que en 4 años pasó de Gerente de Digital a liderar toda la unidad de 
 **Respuesta enviada:**
 > Perfecto Guille, te lo mando por acá y también a gtejada@komunikalatam.com ahora mismo!
 
+## SEG1 (enviado 23/06/26, engagement MEDIUM, ángulo alianza/complementario)
+> Guille, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase que dijiste en AMAP sobre la credibilidad sostenida en el tiempo, encaja directo con cómo pensamos el contenido de fondo. Como mencioné, muchas veces trabajamos complementando agencias de PR en vez de competir con ellas. Si te parece, coordinamos 15 minutos y vemos si hay terreno para complementarnos en algún cliente puntual.
+
 ## Notas
 - Trabaja en Komunika (agencia PR/comunicación) — posicionado como complementario
 - Muy articulado, columnista en La Prensa Panamá

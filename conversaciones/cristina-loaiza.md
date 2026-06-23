@@ -28,6 +28,9 @@
 ## Cierre
 > Buenísimo, te lo mando ahora mismo. Cualquier consulta que tengas viéndolo, estoy acá.
 
+## SEG1 (enviado 23/06/26) — bajo compromiso, respeta que trabajan in-house
+> Cristina, como estás? No sé si llegaste a ver el material que te mandamos. Entiendo que hoy lo manejan todo in-house, tiene mucho sentido con un equipo chico que ya domina campañas, eventos y contenido a la vez. Si en algún momento puntual necesitan una mano extra para algo específico, con gusto charlamos 15 minutos sin compromiso.
+
 ## Notas
 - Trabajan todo in-house, igual aceptó ver el dossier. Sector consumo/alimentos → Destiny Group y Tasarolli.
 - Pendiente enviar dossier real.

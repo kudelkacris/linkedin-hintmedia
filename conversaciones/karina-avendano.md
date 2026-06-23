@@ -24,6 +24,7 @@ metadata:
 >
 > Si te resuena, coordinamos 15 minutos y te cuento lo que estamos viendo.
 
-**Estado:** SEG1 enviado (17/06/26)
+**Estado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):
+> Karina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea del ritmo de lanzamientos que tienen, Translations, AI Detection, Video Intelligence, todo en pocas semanas, y lo que cuesta traducir eso en contenido sin perder precisión técnica. Eso suele ser lo que más absorbe tiempo del equipo interno. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo ahora.
 
 **Nota metodológica:** primera versión del SEG1 (anterior a esta) diagnosticaba ("eso suele marcar la diferencia entre una marca que la gente recuerda y una que solo anuncia productos") — se corrigió porque viola la regla de L4 sin diagnóstico, ver [[project-metodologia-seg1]].

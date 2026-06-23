@@ -4,7 +4,7 @@
 **Cargo:** Gerente General - Seguros
 **País:** Costa Rica
 **Sector:** Seguros / Finanzas
-**Estado:** MSG2 enviado, esperando respuesta
+**Estado:** Dossier enviado (a roberto.gutierrezv@ageseguros.com), SEG1 enviado 23/06/26
 
 ---
 
@@ -28,6 +28,12 @@
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
+
+## SEG1 (enviado 23/06/26, engagement MEDIUM)
+> Roberto, como estas? No sé si llegaste a ver el material que te mandamos.
+> Me quedó esa idea de los tres mercados al mismo tiempo, cada equipo local exigiendo la misma velocidad de ejecución.
+> Eso suele marcar la diferencia entre arrancar fuerte en un sector nuevo o quedar atado al ritmo del equipo interno mientras se rueda.
+> Si te parece que puede aportar valor en ese arranque, coordinamos 15 minutos y vemos si aplica.
 
 ## Notas
 - Variante C (trabajo) — transformación digital en 3 países, ahora nuevo rol en seguros
