@@ -289,14 +289,20 @@
         "text": "Yescenia, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste la reflexión sobre JUMP. Lo que más me gustó fue que en un espacio donde podrías haber hablado del crecimiento, la audiencia o el impacto numérico, le dieras el crédito principal al equipo de Be:Brave que \"hace posible este proyecto\". No suele ser lo primero que alguien destaca cuando celebra una iniciativa así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "22/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "23/06/26",
+        "note": "Hola Florencia. \nmuchas gracias. \nClaro cuentame como te puedo ayudar \nsaludos"
       }
-    ]
+    ],
+    "noInterest": false
   },
   {
     "id": "1782138585474",
@@ -390,12 +396,17 @@
         "text": "Carla, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo en Novartis. Me llamó la atención que en los últimos meses estés compartiendo constantemente contenido sobre IA, optimización de datos y omnicanalidad — no son posts de la empresa, son aprendizajes que estás recolectando. Eso sugiere que hay algo importante pasando en tu rol.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "22/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "23/06/26",
+        "note": "si claro dime"
       }
     ]
   },
@@ -4484,7 +4495,7 @@
         "text": "Yanelly, gracias por conectar! 👋\n\nMe quedó la reflexión que compartiste sobre la segunda edición de Talent Up. Lo que me llamó la atención no fue solo el evento en sí, sino cómo describiste el proceso: algo que empezó como una idea y se convirtió en iniciativa, y cómo eso te obligó a descubrir áreas de liderazgo que no sabías que tenías.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -4495,6 +4506,11 @@
         "stage": 2,
         "date": "20/06/26",
         "note": "Hola, Florencia! Muchas gracias por tomarse el tiempo de leerlo con tanto detalle!\n\nDe hecho fue una experiencia que me retó bastante y me dejó muchos aprendizajes sobre liderazgo y ejecución.\nVer el perfil de Yanelly Yanelly Ramírez Baltodano\nYanelly Ramírez Baltodano 14:54\n\n    🤗\n    😄\n    🤐\n\nFeliz de conversar. Cuéntame, ¿cuál era tu consulta?"
+      },
+      {
+        "stage": 3,
+        "date": "23/06/26",
+        "note": "si mandamelo"
       }
     ]
   },

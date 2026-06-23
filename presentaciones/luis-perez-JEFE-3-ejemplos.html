@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis Pérez · Ejemplos de trabajo aplicado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15182b; --ink-soft:#3c4156; --muted:#6b7080; --line:#dcd6c8;
+    --paper:#f9f6ee; --paper-2:#f1ecdf; --gold:#9c7a3f; --gold-soft:#eee3cb;
+    --warn:#7a3b2e; --warn-soft:#f3e2da; --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{ height:100%; font-family:'Inter',-apple-system,sans-serif; background:var(--ink); overflow:hidden; color:var(--ink); }
+  h1,h2,h3,.serif{ font-family:'Playfair Display', Georgia, serif; }
+  .deck{ position:relative; width:100%; height:100vh; }
+  .slide{ position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; justify-content:center; padding:7vh 10vw; background:var(--paper); opacity:0; visibility:hidden; transform:translateX(40px); transition:opacity .4s ease, transform .4s ease; overflow-y:auto; }
+  .slide.active{ opacity:1; visibility:visible; transform:translateX(0); z-index:2; }
+  .slide.prev{ transform:translateX(-40px); }
+  @media print{ html,body{overflow:visible;height:auto;} .deck{height:auto;} .slide{position:relative;opacity:1!important;visibility:visible!important;transform:none!important;page-break-after:always;height:100vh;overflow:visible;} .nav-btn,.progress,.slide-counter{display:none!important;} }
+  .eyebrow{ text-transform:uppercase; letter-spacing:.16em; font-size:.72rem; font-weight:600; color:var(--gold); margin-bottom:18px; }
+  h1{ font-size:3rem; color:var(--ink); font-weight:600; line-height:1.15; margin-bottom:18px; }
+  h2{ font-size:2rem; color:var(--ink); font-weight:600; margin-bottom:30px; }
+  p{ font-size:1.08rem; color:var(--ink-soft); line-height:1.65; }
+  .lead{ font-size:1.18rem; color:var(--ink-soft); max-width:780px; line-height:1.6; }
+
+  .cover{ background:var(--ink); color:var(--paper); align-items:flex-start; }
+  .cover .tag{ display:inline-block; border:1px solid rgba(249,246,238,.35); color:var(--gold-soft); padding:8px 18px; border-radius:2px; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:34px; }
+  .cover h1{ color:var(--paper); font-size:3.6rem; margin-bottom:10px; }
+  .cover .subtitle{ color:#cfc6ab; font-size:1.3rem; font-weight:400; font-style:italic; margin-bottom:46px; font-family:'Playfair Display',serif; }
+  .cover .footer-note{ position:absolute; bottom:6vh; left:10vw; color:#76705a; font-size:.82rem; letter-spacing:.04em; }
+
+  /* calendario editorial */
+  .cal-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:10px; }
+  .cal-card{ background:var(--white); border:1px solid var(--line); border-top:3px solid var(--gold); padding:20px 18px; }
+  .cal-card .week{ font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); margin-bottom:10px; }
+  .cal-card h4{ font-size:.98rem; color:var(--ink); margin-bottom:8px; line-height:1.3; }
+  .cal-card p{ font-size:.82rem; color:var(--muted); line-height:1.4; }
+
+  /* mockup linkedin post */
+  .li-mock{ background:var(--white); border:1px solid var(--line); padding:0; max-width:640px; }
+  .li-head{ display:flex; gap:14px; align-items:center; padding:20px 24px 14px; }
+  .li-avatar{ width:46px; height:46px; border-radius:50%; background:var(--gold-soft); border:1px solid var(--gold); display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-weight:700; color:var(--gold); font-size:1.1rem; }
+  .li-name{ font-size:.95rem; font-weight:600; color:var(--ink); }
+  .li-role{ font-size:.78rem; color:var(--muted); }
+  .li-body{ padding:0 24px 22px; }
+  .li-body p{ font-size:1.05rem; color:var(--ink); line-height:1.6; font-style:italic; font-family:'Playfair Display',serif; }
+  .li-tag{ display:inline-block; margin-top:14px; background:var(--gold-soft); color:var(--ink); font-size:.74rem; text-transform:uppercase; letter-spacing:.06em; padding:5px 14px; border-radius:2px; }
+
+  /* perfil antes/despues */
+  .before-after{ display:grid; grid-template-columns:1fr 1fr; gap:30px; margin-top:6px; }
+  .ba-card{ background:var(--white); border:1px solid var(--line); padding:26px 28px; }
+  .ba-card.now{ opacity:.7; }
+  .ba-card .lab{ font-size:.74rem; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
+  .ba-card ul{ padding-left:18px; }
+  .ba-card li{ font-size:.94rem; color:var(--ink-soft); margin-bottom:8px; line-height:1.5; }
+
+  /* cronograma */
+  .phase-row{ display:flex; flex-direction:column; gap:0; margin-top:6px; }
+  .phase{ display:flex; gap:24px; padding:18px 0; border-bottom:1px solid var(--line); }
+  .phase:last-child{ border-bottom:none; }
+  .phase .range{ min-width:120px; font-size:.82rem; color:var(--gold); font-weight:600; letter-spacing:.03em; padding-top:2px; }
+  .phase h4{ font-size:1.02rem; color:var(--ink); margin-bottom:4px; }
+  .phase p{ font-size:.92rem; margin:0; }
+
+  /* kpi */
+  .kpi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:10px; }
+  .kpi-card{ background:var(--white); border:1px solid var(--line); padding:26px 24px; text-align:left; }
+  .kpi-card .kpi-label{ font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+  .kpi-card .kpi-val{ font-family:'Playfair Display',serif; font-size:1.6rem; color:var(--ink); font-weight:600; margin-bottom:8px; }
+  .kpi-card p{ font-size:.88rem; color:var(--muted); }
+
+  .closing{ background:var(--ink); color:var(--paper); }
+  .closing h2{ color:var(--paper); }
+  .closing .eyebrow{ color:var(--gold-soft); }
+  .closing p{ color:#c9c2a8; }
+  .disclaimer{ margin-top:24px; font-size:.85rem; color:var(--muted); font-style:italic; }
+
+  .nav-btn{ position:fixed; top:50%; transform:translateY(-50%); background:transparent; color:var(--ink); border:1px solid var(--ink); width:46px; height:46px; border-radius:50%; font-size:1.2rem; cursor:pointer; z-index:50; display:flex; align-items:center; justify-content:center; opacity:.55; transition:opacity .2s ease, background .2s ease, color .2s ease; }
+  .nav-btn:hover{ opacity:1; background:var(--ink); color:var(--paper); }
+  .nav-btn:disabled{ opacity:.15; cursor:default; }
+  #prevBtn{ left:24px; } #nextBtn{ right:24px; }
+  .progress{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); display:flex; gap:8px; z-index:50; }
+  .dot{ width:7px; height:7px; border-radius:50%; background:#cfc6ab; cursor:pointer; transition:all .2s ease; }
+  .dot.active{ background:var(--gold); transform:scale(1.4); }
+  .slide-counter{ position:fixed; top:24px; right:32px; color:#cfc6ab; font-size:.8rem; letter-spacing:.08em; z-index:50; }
+  @media(max-width:1100px){ .cal-grid{ grid-template-columns:repeat(2,1fr); } .kpi-grid{ grid-template-columns:1fr; } }
+  @media(max-width:900px){ .before-after{ grid-template-columns:1fr; } h1{font-size:2.2rem;} .cover h1{font-size:2.6rem;} }
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+  <section class="slide cover active" data-index="0">
+    <span class="tag">Material interno · Hint Media</span>
+    <h1>Así se vería<br>trabajar con Luis</h1>
+    <p class="subtitle">Ejemplos concretos aplicados a su perfil</p>
+    <div class="footer-note">Ejemplos aplicados · 3 de 3 · Caso piloto del proyecto</div>
+  </section>
+
+  <section class="slide" data-index="1">
+    <span class="eyebrow">Un mes típico</span>
+    <h2>Calendario editorial de ejemplo</h2>
+    <div class="cal-grid">
+      <div class="cal-card"><div class="week">Semana 1</div><h4>Caso de contaminación real</h4><p>Un hallazgo anónimo, cómo lo rastreó, qué costó en FPY.</p></div>
+      <div class="cal-card"><div class="week">Semana 2</div><h4>Método técnico explicado</h4><p>Microscopía o trazadores UV, en lenguaje accesible.</p></div>
+      <div class="cal-card"><div class="week">Semana 3</div><h4>LATAM en cuartos limpios</h4><p>Realidad regional frente a estándares globales.</p></div>
+      <div class="cal-card"><div class="week">Semana 4</div><h4>Bitácora de evento</h4><p>Lo que vivió en primera persona, no el comunicado de Foamtec.</p></div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="2">
+    <span class="eyebrow">Ejemplo de post · pilar 1</span>
+    <h2>Caso real, contado en su voz</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar">LP</div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">
+        <p>Encontré la causa de un defecto que llevaba 8 meses sin explicación. Estaba en un guante, no en la máquina.</p>
+        <span class="li-tag">Pilar 1 · caso real</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="3">
+    <span class="eyebrow">Ejemplo de post · pilar 4</span>
+    <h2>El argumento regional</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar">LP</div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">
+        <p>El 80% de los problemas de FPY que veo en cuartos limpios de LATAM no son de proceso. Son de superficie. Y nadie los está midiendo.</p>
+        <span class="li-tag">Pilar 4 · LATAM</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="4">
+    <span class="eyebrow">Ejemplo de post · pilar 5</span>
+    <h2>El evento, desde adentro</h2>
+    <div class="li-mock">
+      <div class="li-head"><div class="li-avatar">LP</div><div><div class="li-name">Luis Pérez</div><div class="li-role">Foamtec International WCC</div></div></div>
+      <div class="li-body">
+        <p>Booth S49, Life Sciences Forum 2026. Un comprador me preguntó por qué su línea seguía rechazando lotes después de cambiar todo el protocolo de limpieza. La respuesta estaba en un trazador UV.</p>
+        <span class="li-tag">Pilar 5 · evento</span>
+      </div>
+    </div>
+    <p class="disclaimer">Estos tres ejemplos son borradores de tono. Nada se publica sin que Luis lo revise y ajuste antes.</p>
+  </section>
+
+  <section class="slide" data-index="5">
+    <span class="eyebrow">Su perfil hoy y mañana</span>
+    <h2>De autoridad invisible a autoridad activa</h2>
+    <div class="before-after">
+      <div class="ba-card now">
+        <div class="lab">Hoy</div>
+        <ul>
+          <li>"Acerca de" excelente, sin ningún post que lo respalde.</li>
+          <li>90% de la actividad reciente es felicitar o resharear a otros.</li>
+          <li>El evento más relevante del semestre quedó solo en la cuenta corporativa.</li>
+        </ul>
+      </div>
+      <div class="ba-card">
+        <div class="lab">Con el plan en marcha</div>
+        <ul>
+          <li>2 a 3 publicaciones mensuales con su voz real y su vocabulario técnico.</li>
+          <li>Casos y hallazgos propios convertidos en contenido, no solo informes internos.</li>
+          <li>Cobertura en primera persona del próximo evento regional.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="6">
+    <span class="eyebrow">Primeros 90 días</span>
+    <h2>Cronograma concreto</h2>
+    <div class="phase-row">
+      <div class="phase"><span class="range">Días 1-30</span><div><h4>Captura y primer contenido</h4><p>Entrevista inicial, definición de pilares, primeras 2 publicaciones.</p></div></div>
+      <div class="phase"><span class="range">Días 31-60</span><div><h4>Ritmo y ajuste de tono</h4><p>Calendario mensual estable, primeras lecturas de qué resuena más.</p></div></div>
+      <div class="phase"><span class="range">Días 61-90</span><div><h4>Cobertura de evento en vivo</h4><p>Primera bitácora de evento desde su perfil personal, no desde Foamtec.</p></div></div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="7">
+    <span class="eyebrow">Lo que vamos a mirar juntos</span>
+    <h2>Indicadores del plan</h2>
+    <div class="kpi-grid">
+      <div class="kpi-card"><div class="kpi-label">Alcance</div><div class="kpi-val">Impresiones</div><p>Crecimiento de impresiones mes a mes sobre el contenido propio.</p></div>
+      <div class="kpi-card"><div class="kpi-label">Conversación</div><div class="kpi-val">Comentarios</div><p>Calidad de comentarios: ¿son colegas o son potenciales clientes?</p></div>
+      <div class="kpi-card"><div class="kpi-label">Negocio</div><div class="kpi-val">Conexiones</div><p>Nuevas conexiones de perfiles con poder de decisión en la industria.</p></div>
+    </div>
+    <p class="disclaimer">Los números reales salen del perfil de Luis una vez en marcha. Esto es la estructura de seguimiento, no una promesa de resultado.</p>
+  </section>
+
+  <section class="slide closing" data-index="8">
+    <span class="eyebrow">En una frase</span>
+    <h2>Lo aplicado a Luis, resumido</h2>
+    <p class="lead">No se trata de crearle una voz nueva, sino de poner en público lo que ya genera todos los días en su trabajo. El material existe, solo falta el canal.</p>
+  </section>
+
+</div>
+<button class="nav-btn" id="prevBtn">&#8249;</button>
+<button class="nav-btn" id="nextBtn">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 09</div>
+<div class="progress" id="progress"></div>
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length; let current = 0;
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => { const d=document.createElement('div'); d.className='dot'+(i===0?' active':''); d.addEventListener('click',()=>goTo(i)); progress.appendChild(d); });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  function pad(n){ return n<10?'0'+n:n; }
+  function render(){
+    slides.forEach((s,i)=>{ s.classList.remove('active','prev'); if(i===current) s.classList.add('active'); else if(i<current) s.classList.add('prev'); });
+    dots.forEach((d,i)=>d.classList.toggle('active', i===current));
+    counter.textContent = pad(current+1)+' / '+pad(total);
+    prevBtn.disabled = current===0; nextBtn.disabled = current===total-1;
+  }
+  function goTo(i){ if(i<0||i>=total) return; current=i; render(); }
+  function next(){ goTo(current+1); } function prev(){ goTo(current-1); }
+  prevBtn.addEventListener('click', prev); nextBtn.addEventListener('click', next);
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){ next(); e.preventDefault(); }
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){ prev(); e.preventDefault(); }
+    if(e.key==='Home'){ goTo(0); } if(e.key==='End'){ goTo(total-1); }
+  });
+  let touchStartX=null;
+  document.addEventListener('touchstart',(e)=>{ touchStartX=e.touches[0].clientX; });
+  document.addEventListener('touchend',(e)=>{
+    if(touchStartX===null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if(diff>60) prev(); if(diff<-60) next(); touchStartX=null;
+  });
+  let wheelLock=false;
+  document.addEventListener('wheel',(e)=>{
+    if(wheelLock) return; if(Math.abs(e.deltaY)<30) return;
+    wheelLock=true; if(e.deltaY>0) next(); else prev(); setTimeout(()=>{wheelLock=false;},500);
+  },{passive:true});
+  render();
+</script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luis Pérez · Perfil del cliente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15182b;
+    --ink-soft:#3c4156;
+    --muted:#6b7080;
+    --line:#dcd6c8;
+    --paper:#f9f6ee;
+    --paper-2:#f1ecdf;
+    --gold:#9c7a3f;
+    --gold-soft:#eee3cb;
+    --warn:#7a3b2e;
+    --warn-soft:#f3e2da;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{
+    height:100%;
+    font-family:'Inter', -apple-system, sans-serif;
+    background:var(--ink);
+    overflow:hidden;
+    color:var(--ink);
+  }
+  h1,h2,h3,.serif{ font-family:'Playfair Display', Georgia, serif; }
+  .deck{ position:relative; width:100%; height:100vh; }
+  .slide{
+    position:absolute; top:0; left:0; width:100%; height:100%;
+    display:flex; flex-direction:column; justify-content:center;
+    padding:7vh 10vw;
+    background:var(--paper);
+    opacity:0; visibility:hidden; transform:translateX(40px);
+    transition:opacity .4s ease, transform .4s ease;
+    overflow-y:auto;
+  }
+  .slide.active{ opacity:1; visibility:visible; transform:translateX(0); z-index:2; }
+  .slide.prev{ transform:translateX(-40px); }
+
+  @media print{
+    html,body{ overflow:visible; height:auto; }
+    .deck{ height:auto; }
+    .slide{ position:relative; opacity:1!important; visibility:visible!important; transform:none!important; page-break-after:always; height:100vh; overflow:visible; }
+    .nav-btn,.progress,.slide-counter{ display:none!important; }
+  }
+
+  .eyebrow{
+    text-transform:uppercase; letter-spacing:.16em; font-size:.72rem; font-weight:600;
+    color:var(--gold); margin-bottom:18px;
+  }
+  h1{ font-size:3rem; color:var(--ink); font-weight:600; line-height:1.15; margin-bottom:18px; }
+  h2{ font-size:2rem; color:var(--ink); font-weight:600; margin-bottom:30px; }
+  p{ font-size:1.08rem; color:var(--ink-soft); line-height:1.65; }
+  .lead{ font-size:1.22rem; color:var(--ink-soft); max-width:760px; line-height:1.6; }
+  hr.rule{ border:none; border-top:1px solid var(--line); margin:22px 0; }
+
+  /* cover */
+  .cover{ background:var(--ink); color:var(--paper); align-items:flex-start; }
+  .cover .tag{
+    display:inline-block; border:1px solid rgba(249,246,238,.35); color:var(--gold-soft);
+    padding:8px 18px; border-radius:2px; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase;
+    margin-bottom:34px;
+  }
+  .cover h1{ color:var(--paper); font-size:3.6rem; margin-bottom:10px; }
+  .cover .subtitle{ color:#cfc6ab; font-size:1.3rem; font-weight:400; font-style:italic; margin-bottom:46px; font-family:'Playfair Display',serif; }
+  .cover .badge-row{ display:flex; gap:0; flex-wrap:wrap; border-top:1px solid rgba(249,246,238,.2); padding-top:24px; width:100%; max-width:760px; }
+  .cover .badge{ flex:1; padding-right:24px; }
+  .cover .badge .label{ font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; color:#8d8567; margin-bottom:6px; }
+  .cover .badge .val{ font-size:1.05rem; color:var(--paper); font-weight:500; }
+  .cover .footer-note{ position:absolute; bottom:6vh; left:10vw; color:#76705a; font-size:.82rem; letter-spacing:.04em; }
+
+  .grid-2{ display:grid; grid-template-columns:1.1fr .9fr; gap:60px; margin-top:6px; }
+  .grid-3{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:6px; }
+
+  .quote-block{
+    border-left:3px solid var(--gold); padding:6px 0 6px 26px; margin-bottom:26px;
+  }
+  .quote-block p{ font-family:'Playfair Display',serif; font-style:italic; font-size:1.3rem; color:var(--ink); line-height:1.5; }
+
+  .fact-list{ display:flex; flex-direction:column; gap:0; }
+  .fact{ display:flex; gap:20px; padding:16px 0; border-bottom:1px solid var(--line); }
+  .fact:last-child{ border-bottom:none; }
+  .fact .k{ min-width:160px; font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:2px; }
+  .fact .v{ font-size:1.05rem; color:var(--ink); line-height:1.5; }
+
+  .pill-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; }
+  .pill{ border:1px solid var(--line); color:var(--ink-soft); font-size:.85rem; padding:7px 16px; border-radius:2px; background:var(--white); }
+
+  .signal-list{ display:flex; flex-direction:column; gap:16px; }
+  .signal{ display:flex; gap:20px; align-items:flex-start; padding:20px 24px; border-radius:2px; background:var(--white); border-left:3px solid var(--gold); }
+  .signal.warn{ border-left-color:var(--warn); background:var(--warn-soft); }
+  .signal .num{ font-family:'Playfair Display',serif; font-weight:700; font-size:1.3rem; color:var(--gold); min-width:34px; }
+  .signal.warn .num{ color:var(--warn); }
+  .signal p{ margin:0; color:var(--ink); font-size:1.02rem; }
+  .signal .sub{ color:var(--muted); font-size:.92rem; margin-top:6px; }
+
+  .col-card{ background:var(--white); border:1px solid var(--line); padding:30px 32px; }
+  .col-card.gold{ background:var(--gold-soft); border-color:var(--gold); }
+  .col-card.warn{ background:var(--warn-soft); border-color:#d9b9a8; }
+  .col-card h3{ font-size:1.2rem; margin-bottom:14px; color:var(--ink); }
+  .col-card ul{ padding-left:18px; color:var(--ink-soft); }
+  .col-card li{ font-size:.98rem; margin-bottom:10px; line-height:1.5; }
+
+  .timeline{ display:flex; flex-direction:column; gap:0; margin-top:10px; }
+  .tl-item{ display:flex; gap:24px; padding:14px 0; border-bottom:1px solid var(--line); align-items:baseline; }
+  .tl-item:last-child{ border-bottom:none; }
+  .tl-item .date{ min-width:110px; font-size:.82rem; color:var(--gold); font-weight:600; letter-spacing:.04em; }
+  .tl-item .ev{ font-size:1rem; color:var(--ink); }
+
+  .checklist{ display:flex; flex-direction:column; gap:14px; margin-top:6px; }
+  .check-item{ display:flex; gap:18px; align-items:flex-start; padding:16px 20px; background:var(--white); border:1px solid var(--line); }
+  .check-item .n{ font-family:'Playfair Display',serif; font-weight:700; color:var(--gold); min-width:24px; }
+  .check-item p{ margin:0; color:var(--ink); font-size:1rem; }
+
+  .closing{ background:var(--ink); color:var(--paper); }
+  .closing h2{ color:var(--paper); }
+  .closing .eyebrow{ color:var(--gold-soft); }
+  .closing p{ color:#c9c2a8; }
+
+  .nav-btn{
+    position:fixed; top:50%; transform:translateY(-50%);
+    background:transparent; color:var(--ink); border:1px solid var(--ink);
+    width:46px; height:46px; border-radius:50%; font-size:1.2rem; cursor:pointer; z-index:50;
+    display:flex; align-items:center; justify-content:center; opacity:.55; transition:opacity .2s ease, background .2s ease, color .2s ease;
+  }
+  .nav-btn:hover{ opacity:1; background:var(--ink); color:var(--paper); }
+  .nav-btn:disabled{ opacity:.15; cursor:default; }
+  #prevBtn{ left:24px; } #nextBtn{ right:24px; }
+  .progress{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); display:flex; gap:8px; z-index:50; }
+  .dot{ width:7px; height:7px; border-radius:50%; background:#cfc6ab; cursor:pointer; transition:all .2s ease; }
+  .dot.active{ background:var(--gold); transform:scale(1.4); }
+  .slide-counter{ position:fixed; top:24px; right:32px; color:#cfc6ab; font-size:.8rem; letter-spacing:.08em; z-index:50; }
+  @media(max-width:1000px){ .grid-2,.grid-3{ grid-template-columns:1fr; } h1{font-size:2.2rem;} .cover h1{font-size:2.6rem;} }
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+  <section class="slide cover active" data-index="0">
+    <span class="tag">Material interno · Hint Media</span>
+    <h1>Luis Pérez</h1>
+    <p class="subtitle">Quién es el cliente que vamos a ver mañana</p>
+    <div class="badge-row">
+      <div class="badge"><div class="label">Empresa</div><div class="val">Foamtec International WCC</div></div>
+      <div class="badge"><div class="label">Cargo real</div><div class="val">Responsable Comercial LATAM & Caribe</div></div>
+      <div class="badge"><div class="label">Call</div><div class="val">Mañana · 16hs ARG · Teams</div></div>
+    </div>
+    <div class="footer-note">Perfil del cliente · 1 de 3 · Caso piloto del proyecto</div>
+  </section>
+
+  <section class="slide" data-index="1">
+    <span class="eyebrow">Quién es</span>
+    <h2>Una trayectoria técnica sólida, poco visible</h2>
+    <div class="fact-list">
+      <div class="fact"><div class="k">Origen / residencia</div><div class="v">Mexicano, radicado en Costa Rica por el ecosistema de dispositivos médicos de la región.</div></div>
+      <div class="fact"><div class="k">Formación</div><div class="v">Ingeniería en el Tecnológico de Monterrey. MBA en Thunderbird School of Global Management.</div></div>
+      <div class="fact"><div class="k">Trayectoria</div><div class="v">16 años en Berkshire Corporation antes de su rol actual en Foamtec International WCC.</div></div>
+      <div class="fact"><div class="k">Título en LinkedIn</div><div class="v">"Contamination Surface Investigation Specialist", aunque hoy su función real es comercial.</div></div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="2">
+    <span class="eyebrow">Qué hace</span>
+    <h2>Un detective de fábricas, en lenguaje simple</h2>
+    <div class="quote-block">
+      <p>Cuando un fabricante de dispositivos médicos o una farmacéutica tiene un problema de calidad que nadie puede explicar, Luis encuentra de dónde viene la contaminación y le pone precio en dólares a la solución.</p>
+    </div>
+    <p class="lead" style="margin-bottom:20px;">Usa microscopía óptica, SEM-EDS y trazadores UV para rastrear partículas invisibles en superficies de producción. Su argumento final no es científico, es financiero: cuánto mejora el FPY (productos que pasan el control de calidad a la primera) si se corrige el origen.</p>
+    <div class="pill-row">
+      <span class="pill">Costa Rica</span><span class="pill">México</span><span class="pill">Brasil</span>
+      <span class="pill">Puerto Rico</span><span class="pill">Rep. Dominicana</span>
+    </div>
+  </section>
+
+  <section class="slide" data-index="3">
+    <span class="eyebrow">Su huella en LinkedIn</span>
+    <h2>Autoridad real, casi sin voz propia</h2>
+    <div class="signal-list">
+      <div class="signal warn">
+        <span class="num">01</span>
+        <div><p>5.331 seguidores, pero el 90% de su actividad de los últimos 6 meses es felicitar o resharear a otros.</p><p class="sub">Cero publicaciones propias con su voz en ese período.</p></div>
+      </div>
+      <div class="signal warn">
+        <span class="num">02</span>
+        <div><p>Representó a Foamtec en el Life Sciences Forum 2026 (booth S49), pero todo el contenido del evento salió de la cuenta corporativa, no de la suya.</p><p class="sub">Perdió la oportunidad más barata de generar pipeline propio.</p></div>
+      </div>
+      <div class="signal">
+        <span class="num">03</span>
+        <div><p>Su sección "Acerca de" ya vende sola: problema, método científico, impacto financiero.</p><p class="sub">No hay ningún post que la respalde con prueba real.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="4">
+    <span class="eyebrow">Lectura del caso</span>
+    <h2>A favor y en contra</h2>
+    <div class="grid-2">
+      <div class="col-card gold">
+        <h3>Lo que juega a favor</h3>
+        <ul>
+          <li>Autoridad técnica real, no impostada.</li>
+          <li>Ya tiene base de seguidores, solo falta activarla.</li>
+          <li>Genera materia prima de contenido todos los días: informes, hallazgos, conversaciones con clientes.</li>
+          <li>Habla naturalmente en términos de ROI, encaja directo con el ángulo financiero.</li>
+          <li>Engagement HIGH confirmado: respondió rápido en todo el hilo, dio contexto propio sin que se lo pidiéramos, preguntó cómo lo ubicamos, agendó la call enseguida.</li>
+        </ul>
+      </div>
+      <div class="col-card warn">
+        <h3>Lo que falta validar</h3>
+        <ul>
+          <li>Hoy estamos con un solo contacto y un solo canal (riesgo de quedar "single threaded").</li>
+          <li>No sabemos si Luis decide presupuesto o si esto debe escalar a marketing corporativo o a un VP regional.</li>
+          <li>No está confirmado si hay presupuesto de marketing asignado a la región o si Luis tendría que venderlo hacia arriba.</li>
+          <li>No sabemos si el interés responde a un dolor de negocio vigente o a curiosidad intelectual.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="5">
+    <span class="eyebrow">Cómo llegamos hasta acá</span>
+    <h2>El camino del primer contacto a la call</h2>
+    <div class="timeline">
+      <div class="tl-item"><span class="date">14/06</span><span class="ev">MSG1 enviado a partir de cómo describió su propuesta de valor en un post propio.</span></div>
+      <div class="tl-item"><span class="date">14/06</span><span class="ev">MSG2: gap de coherencia de marca entre mercados LATAM y Caribe. Mención de TGS como cliente.</span></div>
+      <div class="tl-item"><span class="date">14/06</span><span class="ev">Dossier enviado. Luis preguntó "¿Cómo me ubicaste?", señal de interés real.</span></div>
+      <div class="tl-item"><span class="date">19/06</span><span class="ev">SEG1 enviado, engagement clasificado como HIGH. Propuso coordinar 15 minutos.</span></div>
+      <div class="tl-item"><span class="date">20-22/06</span><span class="ev">Coordinación de horario y agenda. Confirmó que se puede grabar la call para compartir internamente en Foamtec.</span></div>
+      <div class="tl-item"><span class="date">Mañana</span><span class="ev">Call agendada, 16hs hora Argentina, vía Teams, máximo 30 minutos.</span></div>
+    </div>
+  </section>
+
+  <section class="slide" data-index="6">
+    <span class="eyebrow">Para la call de 30 minutos</span>
+    <h2>Qué necesitamos validar</h2>
+    <div class="checklist">
+      <div class="check-item"><span class="n">01</span><p>Quién más participa en decisiones de comunicación o marca en Foamtec, y si LATAM tiene presupuesto propio.</p></div>
+      <div class="check-item"><span class="n">02</span><p>Si esto sería una propuesta nueva que Luis debe vender hacia arriba, o si ya hay presupuesto asignado.</p></div>
+      <div class="check-item"><span class="n">03</span><p>Qué disparó el interés real: un problema vigente o una exploración curiosa.</p></div>
+      <div class="check-item"><span class="n">04</span><p>Si Luis sería el champion interno (se beneficia directo) o solo el punto de entrada.</p></div>
+    </div>
+  </section>
+
+  <section class="slide closing" data-index="7">
+    <span class="eyebrow">En una frase</span>
+    <h2>El caso, resumido</h2>
+    <p class="lead">Luis tiene autoridad técnica real y un primer interés genuino, pero todavía no sabemos si decide o si solo abre la puerta. La call de mañana no es para cerrar nada, es para confirmar eso.</p>
+  </section>
+
+</div>
+<button class="nav-btn" id="prevBtn">&#8249;</button>
+<button class="nav-btn" id="nextBtn">&#8250;</button>
+<div class="slide-counter" id="counter">01 / 08</div>
+<div class="progress" id="progress"></div>
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length; let current = 0;
+  const progress = document.getElementById('progress');
+  slides.forEach((_, i) => { const d=document.createElement('div'); d.className='dot'+(i===0?' active':''); d.addEventListener('click',()=>goTo(i)); progress.appendChild(d); });
+  const dots = Array.from(progress.children);
+  const counter = document.getElementById('counter');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  function pad(n){ return n<10?'0'+n:n; }
+  function render(){
+    slides.forEach((s,i)=>{ s.classList.remove('active','prev'); if(i===current) s.classList.add('active'); else if(i<current) s.classList.add('prev'); });
+    dots.forEach((d,i)=>d.classList.toggle('active', i===current));
+    counter.textContent = pad(current+1)+' / '+pad(total);
+    prevBtn.disabled = current===0; nextBtn.disabled = current===total-1;
+  }
+  function goTo(i){ if(i<0||i>=total) return; current=i; render(); }
+  function next(){ goTo(current+1); } function prev(){ goTo(current-1); }
+  prevBtn.addEventListener('click', prev); nextBtn.addEventListener('click', next);
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){ next(); e.preventDefault(); }
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){ prev(); e.preventDefault(); }
+    if(e.key==='Home'){ goTo(0); } if(e.key==='End'){ goTo(total-1); }
+  });
+  let touchStartX=null;
+  document.addEventListener('touchstart',(e)=>{ touchStartX=e.touches[0].clientX; });
+  document.addEventListener('touchend',(e)=>{
+    if(touchStartX===null) return;
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if(diff>60) prev(); if(diff<-60) next(); touchStartX=null;
+  });
+  let wheelLock=false;
+  document.addEventListener('wheel',(e)=>{
+    if(wheelLock) return; if(Math.abs(e.deltaY)<30) return;
+    wheelLock=true; if(e.deltaY>0) next(); else prev(); setTimeout(()=>{wheelLock=false;},500);
+  },{passive:true});
+  render();
+</script>
+</body>
+</html>
