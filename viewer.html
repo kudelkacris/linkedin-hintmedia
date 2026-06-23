@@ -73,6 +73,11 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .sp-5{background:#F0F0F0;color:#555}
 .sp-x{background:#F0F0F0;color:#999}
 .pi-name.noint{text-decoration:line-through;color:#aaa}
+.mail-check{display:flex;align-items:center;gap:4px;flex-shrink:0;cursor:pointer;user-select:none}
+.mail-check input{width:14px;height:14px;cursor:pointer;accent-color:var(--green)}
+.mail-check .mc-lbl{font-size:9.5px;color:var(--mid);font-weight:600;letter-spacing:.02em}
+.prospect-item.mail-sent{background:var(--green-light)}
+.prospect-item.mail-sent:hover{background:#DFF3E6}
 
 /* DETAIL VIEW */
 .detail-wrap{display:flex;flex-direction:column;gap:12px}
@@ -319,6 +324,20 @@ function syncStatCards() {
   const vals = ['','1','2','3','email','4','5','noint'];
   cards.forEach((c,i) => c.classList.toggle('active', vals[i] === val && val !== ''));
 }
+function getMailMap() {
+  try { return JSON.parse(localStorage.getItem('mailSentMap') || '{}'); }
+  catch (e) { return {}; }
+}
+function isMailSent(id) {
+  return !!getMailMap()[id];
+}
+function toggleMailSent(id, checked) {
+  const map = getMailMap();
+  if (checked) map[id] = true;
+  else delete map[id];
+  localStorage.setItem('mailSentMap', JSON.stringify(map));
+  renderList();
+}
 function histHasEmail(en) {
   if (en.dossierMail) return true;
   for (const sh of (en.stageHistory||[])) {
@@ -353,7 +372,7 @@ function renderList() {
     return;
   }
   list.innerHTML = filtered.map(en => `
-    <div class="prospect-item${_selected === en.id ? ' selected' : ''}" style="${en.noInterest ? 'opacity:.55' : ''}" onclick="selectProspect('${en.id}')">
+    <div class="prospect-item${_selected === en.id ? ' selected' : ''}${isMailSent(en.id) ? ' mail-sent' : ''}" style="${en.noInterest ? 'opacity:.55' : ''}" onclick="selectProspect('${en.id}')">
       <div class="pi-row">
         <div class="pi-name${en.noInterest ? ' noint' : ''}">${esc(en.name)}</div>
         ${en.noInterest ? '<span class="stage-pill sp-x">✕ No int.</span>' : `<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
@@ -362,6 +381,10 @@ function renderList() {
         <span>${en.date}</span>
         ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1) || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888">${esc(emp)}</span>` : ''; })()}
         <span class="pi-variant">${esc(en.variantTitle)}</span>
+        <label class="mail-check" onclick="event.stopPropagation()">
+          <input type="checkbox" ${isMailSent(en.id) ? 'checked' : ''} onchange="toggleMailSent('${en.id}', this.checked)">
+          <span class="mc-lbl">Mail enviado</span>
+        </label>
       </div>
     </div>`).join('');
 }
