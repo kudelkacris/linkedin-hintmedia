@@ -19,4 +19,4 @@ metadata:
 - 8+ años en Fischer y Cía, maneja medios, RSE, RR.HH, relacionamiento con grupos de interés.
 - Contenido de la firma es muy técnico/regulatorio (reforma tributaria, DDJJ, firma electrónica).
 
-**Estado:** MSG2 enviado, esperando respuesta.
+**Estado:** CERRADA. Respondió 23/06/26: "No usamos agencia, mil gracias!". Se cerró cordialmente.

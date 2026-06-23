@@ -26,3 +26,11 @@
 - Sector turismo/eventos corporativos → clientes Destiny Group y Tasarolli (no TGS/Transener, esos son energía y no calzan).
 - El historial.json tenía guardado un MSG2 viejo con placeholder de texto ("(omitir si respuesta es neutra)") y clientes incorrectos (TGS/Transener); corregido el 18/06/26.
 - Ver [[feedback-clientes-por-sector-critico]] y [[feedback-msg2-estilo]] (sin "gracias por la apertura").
+
+## Seguimiento 23/06/26
+- Dossier confirmado (revisado con calma), reacción muy positiva: "me gustó mucho el enfoque de Hint Media y la manera en que integran estrategia con ejecución".
+- Propuso colaborar como freelance (estrategia creativa, conceptos, guiones audiovisual, neuromarketing) en vez de ser prospecto cliente.
+- Se le propuso llamada corta para explorar sinergia. Aceptó.
+- **CALL AGENDADA.**
+
+**Estado:** Call agendada (explorar colaboración freelance, no venta directa).
