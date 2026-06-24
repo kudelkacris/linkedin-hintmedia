@@ -182,12 +182,17 @@
         "text": "Jose Carlos, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste el post de los 15 años de CORE TECH. En vez de destacar números o hitos comerciales, la primera línea fue el crédito al equipo. No es lo más común cuando una empresa está celebrando esa etapa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "22/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "24/06/26",
+        "note": "si dime, claro que en linkedin una consulta casi siempre significa que me van a ofrecer algo jaja, y es mal momento."
       }
     ]
   },
@@ -289,7 +294,7 @@
         "text": "Yescenia, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste la reflexión sobre JUMP. Lo que más me gustó fue que en un espacio donde podrías haber hablado del crecimiento, la audiencia o el impacto numérico, le dieras el crédito principal al equipo de Be:Brave que \"hace posible este proyecto\". No suele ser lo primero que alguien destaca cuando celebra una iniciativa así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -300,9 +305,15 @@
         "stage": 2,
         "date": "23/06/26",
         "note": "Hola Florencia. \nmuchas gracias. \nClaro cuentame como te puedo ayudar \nsaludos"
+      },
+      {
+        "stage": 3,
+        "date": "23/06/26",
+        "note": "ynavarro@bbravegroup.com"
       }
     ],
-    "noInterest": false
+    "noInterest": false,
+    "dossierMail": true
   },
   {
     "id": "1782138585474",
@@ -9022,7 +9033,7 @@
         "text": "Anabel, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste la reflexión sobre el Panamá Circular Experience. No es lo más común que alguien destaque que \"detrás hay mucho más que logística\" — la mayoría solo anuncia el resultado. Vos lo que enfatizaste fue la coordinación, la estrategia alineada, los múltiples actores en movimiento al mismo tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 4,
+    "stage": 5,
     "stageHistory": [
       {
         "stage": 1,
@@ -9043,8 +9054,14 @@
         "stage": 4,
         "date": "23/06/26",
         "note": ""
+      },
+      {
+        "stage": 5,
+        "date": "23/06/26",
+        "note": "Por el momento no estoy desarrollando ningún proyecto. En cuanto surja algo, me contactaré"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1781297908099",
