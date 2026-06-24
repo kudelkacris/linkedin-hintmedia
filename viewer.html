@@ -273,6 +273,7 @@ const STAGE_NAMES_SHORT = ['','Apertura','En conv.','Dossier','Seg. 1','Seg. 2']
 
 let _entries = [];
 let _selected = null;
+let _mailMap = {};
 
 function esc(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/\n/g,'<br>');
@@ -296,6 +297,12 @@ async function loadData() {
   } catch(e) {
     _entries = [];
     document.getElementById('last-update').textContent = 'sin datos';
+  }
+  try {
+    const res = await fetch('/api/mail-status?t=' + Date.now());
+    _mailMap = await res.json();
+  } catch(e) {
+    _mailMap = {};
   }
   renderStats();
   renderList();
@@ -324,19 +331,22 @@ function syncStatCards() {
   const vals = ['','1','2','3','email','4','5','noint'];
   cards.forEach((c,i) => c.classList.toggle('active', vals[i] === val && val !== ''));
 }
-function getMailMap() {
-  try { return JSON.parse(localStorage.getItem('mailSentMap') || '{}'); }
-  catch (e) { return {}; }
-}
 function isMailSent(id) {
-  return !!getMailMap()[id];
+  return !!_mailMap[id];
 }
-function toggleMailSent(id, checked) {
-  const map = getMailMap();
-  if (checked) map[id] = true;
-  else delete map[id];
-  localStorage.setItem('mailSentMap', JSON.stringify(map));
+async function toggleMailSent(id, checked) {
+  if (checked) _mailMap[id] = true;
+  else delete _mailMap[id];
   renderList();
+  try {
+    await fetch('/api/mail-status', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ id, checked })
+    });
+  } catch (e) {
+    // si falla la red, queda marcado solo en esta sesión hasta el próximo refresh
+  }
 }
 function histHasEmail(en) {
   if (en.dossierMail) return true;
