@@ -1,6 +1,6 @@
 ---
 name: oscar-david-quintero-ramirez
-description: MSG2 enviado, Lider Comercial Datalog DCO sector minero-energetico Colombia, 22/06/26
+description: CERRADA 24/06/26, dossier enviado por LinkedIn, Lider Comercial Datalog DCO sector minero-energetico Colombia
 metadata:
   type: project
 ---
@@ -19,4 +19,4 @@ metadata:
 - 17+ años en sector minero-energético, oil & gas, sostenibilidad y transición energética.
 - Miembro Junta Directiva ACGGP (Asociación Colombiana de Geólogos y Geofísicos de la Energía).
 
-**Estado:** MSG2 enviado, esperando respuesta.
+**Estado:** Dossier confirmado y enviado por acá, 24/06/26. Cierre: "Estamos al habla en el futuro cercano, cualquier duda a disposición."

@@ -1,6 +1,6 @@
 # Laura Rojas Salas CR
 
-**Estado:** Dossier confirmado — respondió "Sí, claro"
+**Estado:** CERRADA 24/06/26 — ya trabaja con otra agencia
 **Fecha:** 15/06/26
 **Cargo:** Jefe de Mercadeo, Aceros Carazo Reimers
 **País:** Costa Rica
@@ -49,3 +49,4 @@ Destacó comentario de Laura sobre RRHH que pide diseño + redes + SEO + email +
 - Publicó encuesta: "¿contrataría un senior de marketing a medio tiempo?" — 85% sí
 - Comparte contenido sobre marketing estratégico vs ejecución
 - 5.772 seguidores, activa en LinkedIn
+- Respondió 24/06/26 al segundo SEG1: "Hola Florencia, gracias, pero ya trabajamos con una agencia." Cierre cordial enviado, sin pitch posterior.
