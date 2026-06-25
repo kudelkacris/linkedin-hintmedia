@@ -1,5 +1,30 @@
 [
   {
+    "id": "1782405975778",
+    "date": "25/06/26",
+    "name": "Carlos A. Gomez",
+    "empresa": "Grupo Eurobelleza",
+    "variantTitle": "",
+    "profileRaw": "Carlos A. Gomez\n\n· 1er\n\nCEO | International Business Developer | Business Growth Strategist | Leader in Customer Success and Global Expansion\n\nCali, Valle del Cauca, Colombia\n\nAcerca de\n\nStrategic CEO with extensive experience in driving business growth and innovation. Known for developing effective strategies, managing key relationships, and leading successful launches that deliver market impact. Committed to building strong stakeholder relationships and leveraging innovative solutions to achieve sustainable business success.\n\nPrincipales aptitudes\n\nMarketing digital • Gestión de proyectos • Liderazgo estratégico • Diseño de experiencia de usuario (UX)\n\nExperiencia\nCEO\nGrupo Eurobelleza · Jornada completa\njul. 2013 - actualidad · 13 años\nMiami, Florida, Estados Unidos · Híbrido",
+    "msg1": "Carlos, gracias por conectar! Me llamó la atención que en tu perfil se repite bastante la idea de crecimiento y expansión internacional, más que el cargo en sí. Imagino que esa mirada de expandir mercados es algo que llevás bastante tiempo trabajando en Eurobelleza. Si es así, tenía una consulta y quería saber si me podrías ayudar.",
+    "msg2": "",
+    "extraMsgs": {},
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Carlos, gracias por conectar! Me llamó la atención que en tu perfil se repite bastante la idea de crecimiento y expansión internacional, más que el cargo en sí. Imagino que esa mirada de expandir mercados es algo que llevás bastante tiempo trabajando en Eurobelleza. Si es así, tenía una consulta y quería saber si me podrías ayudar."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "25/06/26",
+        "note": "Perfil sin senal humana fuerte, descartado en analisis inicial, MSG1 generado y guardado a pedido del usuario"
+      }
+    ]
+  },
+  {
     "id": "1782405356701",
     "date": "25/06/26",
     "name": "Madeleyn Fonseca Suárez",
@@ -134,14 +159,20 @@
         "text": "Laura, gracias por conectar 👋\n\nMe llamó la atención algo en tus publicaciones. Cada vez que celebras un logro — la campaña \"El corazón que impulsa\", la Carrera Verde, \"Érase una vez la energía\" — siempre le das el crédito al equipo por nombre. No es lo que hace todo el mundo cuando quiere mostrar un proyecto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "25/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "25/06/26",
+        "note": "Florencia encantada! Sin embargo nosotros no trabajamos directamente con posibles proveedores ya que la empresa tiene una estricta política de procura. Además, al ser una empresa de naturaleza mixta hay que pasar primero el filtro del área de abastecimento"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1782405290456",
