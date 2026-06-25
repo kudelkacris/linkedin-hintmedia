@@ -12737,7 +12737,7 @@
     "name": "Alberto Castro Velzaquez",
     "variantTitle": "La persona detrás de los detalles",
     "msg1": "Alberto, gracias por conectar. 👋\n\nMe llamó la atención cómo planteaste la estandarización en Uraján de Luna. Lo que más me gustó fue que le diste importancia a algo que muchos ven como lo opuesto: que estandarizar no mata la personalidad sino que la protege. Eso es difícil de comunicar bien.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
-    "msg2": "Buenas Alberto, gracias por confirmar! Esa idea de que estandarizar protege la personalidad de la marca en vez de matarla es clave justo en gastronomía, donde cada punto de venta puede perder consistencia si no hay estructura detrás. En Hint Media trabajamos con marcas de foodservice y retail que necesitan sostener esa identidad mientras escalan, ayudando con contenido y comunicación, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "msg2": "Me quedó esa impresión porque generalmente los hoteles hablan de operaciones o amenidades. Vos hablaste de experiencia, de detalles que crean \"magia\". Eso es diferenciador.\n\nEn Hint Media trabajamos con equipos completos insertados en empresas como Transener, TGS y Libra Seguros — un trafficker, community manager, diseñador y PM de cuenta — manejando todo lo que es campañas, contenido y comunicación de marca. Muchas veces el desafío de marcas como Uraján de Luna es que necesitan profesionales ejecutando eso constantemente, sin meter costo fijo en estructura interna.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
     "extraMsgs": {
       "MSG3": [
         "Listo, te envío el dossier por acá. Tenemos 4 profesionales — trafficker, CM, diseñador y PM — que trabajan como equipo insertado en estructura del cliente manejando todo lo que es ejecución de marca y campañas.",
@@ -12769,14 +12769,18 @@
       },
       {
         "role": "received",
-        "text": "Hola Florencia, buenas tardes, es correcto llevamos la estandarización al primer paso."
+        "text": "Hola Florencia, sí claro solo comentarte que ya no estoy en la propiedad"
       },
       {
         "role": "sent",
-        "text": "Buenas Alberto, gracias por confirmar! Esa idea de que estandarizar protege la personalidad de la marca en vez de matarla es clave justo en gastronomía, donde cada punto de venta puede perder consistencia si no hay estructura detrás. En Hint Media trabajamos con marcas de foodservice y retail que necesitan sostener esa identidad mientras escalan, ayudando con contenido y comunicación, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+        "text": "Ah, gracias por avisarme Alberto! Me indicarías a quién le podría escribir ahora en Uraján de Luna, o ya no tenés contacto con el equipo?"
+      },
+      {
+        "role": "sent",
+        "text": "Dale Alberto, no hay drama! Te paso el dossier, quiza te sirva a ti tambien o se lo podes reenviar a quien este a cargo ahora. Gracias por la buena onda durante toda la charla!"
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -12789,11 +12793,17 @@
         "note": "si dime"
       },
       {
-        "stage": 2,
+        "stage": 3,
         "date": "25/06/26",
-        "note": "MSG2 enviado, cliente referencia corregido a Tasarolli (foodservice/retail, antes TGS/Transener no calzaba), sin guion largo"
+        "note": "Hola Florencia, sí claro solo comentarte que ya no estoy en la propiedad"
+      },
+      {
+        "stage": 3,
+        "date": "25/06/26",
+        "note": "Ya no trabaja en Uraján de Luna, se le envió dossier igual para que lo reenvie a quien corresponda"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1781114246038",
