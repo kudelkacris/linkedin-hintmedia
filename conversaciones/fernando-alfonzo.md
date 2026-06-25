@@ -1,7 +1,7 @@
 # Fernando Alfonzo
 
-**Estado:** Dossier por enviar (pidió conocer más de Hint)
-**Fecha:** 18/06/26 (MSG1, MSG2, respuesta y pedido de dossier el mismo día)
+**Estado:** Dossier enviado, esperando que coordine reunión virtual (engagement HIGH)
+**Fecha:** 18/06/26 (MSG1-MSG3, dossier enviado), seguimiento 25/06/26
 **Cargo:** Regional Brand Manager, LATAM
 **Empresa:** Abbott
 **Sector:** Pharma
@@ -26,6 +26,12 @@
 
 ## MSG3 (redactado, por enviar con dossier adjunto)
 > Que lindo que lo veas así Fernando, gracias por la sinceridad! Te cuento brevemente: somos Hint Media, equipo de comunicación y marketing insertado directamente en la estructura del cliente, trafficker, community manager, diseñador y PM de cuenta, por menos de lo que cuesta contratar una sola persona in-house. Te dejo el dossier para que conozcas mejor cómo trabajamos.
+
+## Dossier enviado (18/06, 15:53)
+> Reacción: emoji "Pura vida"
+
+## SEG1 enviado (25/06/26)
+> Pura vida Fernando! Mencionaste que después de revisarlo podríamos coordinar una reunión virtual si te surgen preguntas. Te parece si vemos algunos horarios esta semana o la que viene para conversarlo con más detalle?
 
 ## Notas
 - Excepción declarada: normalmente no atiende proveedores nuevos por LinkedIn, hizo excepción por el approach.

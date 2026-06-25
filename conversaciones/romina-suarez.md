@@ -3,7 +3,7 @@
 **Empresa:** (no especificada en la conversación)
 **País:** Argentina
 **Sector:** (no especificado)
-**Estado:** Dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM)
+**Estado:** CERRADA 25/06/26, no le interesa
 
 ---
 
@@ -28,6 +28,17 @@
 
 ---
 
+## Follow-up (martes)
+> Romina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.
+
+## Respuesta final (25/06/26)
+> Hola Florencia, espero que te encuentres muy bien. Por el momento no estamos interesados. Gracias por escribirme. Slds. Romina
+
+## Cierre enviado
+> Hola Romina, todo bien por acá, gracias! Entendido, igual quedo a disposición si más adelante surge algo. Mucho éxito con todo!
+
 ## Notas
 - Perfil completo no disponible — conversación corta.
 - Contexto del MSG2: rol en organización grande, múltiples iniciativas simultáneas.
+- Empresa: ARSAT S.A. (Responsable de Capacitación y Comunicación, 16 años en el rol). Sector: estatal/satelital.
+- Rechazo educado, sin objeción específica. Cerrado.
