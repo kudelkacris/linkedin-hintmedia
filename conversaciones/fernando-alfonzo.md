@@ -1,6 +1,6 @@
 # Fernando Alfonzo
 
-**Estado:** Dossier enviado, esperando que coordine reunión virtual (engagement HIGH)
+**Estado:** CERRADA 25/06/26, ya tienen agencia única para LATAM, redirigido a persona encargada por email
 **Fecha:** 18/06/26 (MSG1-MSG3, dossier enviado), seguimiento 25/06/26
 **Cargo:** Regional Brand Manager, LATAM
 **Empresa:** Abbott
@@ -33,7 +33,16 @@
 ## SEG1 enviado (25/06/26)
 > Pura vida Fernando! Mencionaste que después de revisarlo podríamos coordinar una reunión virtual si te surgen preguntas. Te parece si vemos algunos horarios esta semana o la que viene para conversarlo con más detalle?
 
+## Seguimiento (25/06/26, antes de revisar)
+> Como estas Fer! Pudiste revisar el dossier? ... Fer: "Vieras que no lo he visto. Pero este fin de semana le doy un ojo"
+> Respuesta: Dale Fer, sin apuro! Cualquier cosa que te surja después de verlo me avisas y coordinamos.
+
+## Cierre (25/06/26, después de revisar)
+> Fer: Hola. Ya revisé. Te puse un correo. Aquí se usa una sola agencia para todo latam. Y ya le hablé a la persona encargada para que te atienda. Suerte.
+> Respuesta: Fer, mil gracias por la gestion y por darle lugar a esto! Reviso el correo y seguimos por ahi con la persona que me indicaste. Te agradezco mucho la buena onda durante todo esto, exito!
+
 ## Notas
+- Cierre positivo: ya tienen agencia única para LATAM, pero Fernando gestionó introducción por email con la persona encargada. Seguimiento pasa a depender de ese contacto nuevo (revisar correo cuando llegue).
 - Excepción declarada: normalmente no atiende proveedores nuevos por LinkedIn, hizo excepción por el approach.
 - Empresa: Abbott (no Nexsys, corregir si se confundió antes).
 - Hecho: da crédito a colaboración/educación médica en vez de números en logros regionales.

@@ -1,6 +1,6 @@
 # Zayhani Rodríguez
 
-**Estado:** Dossier por enviar (aceptó, pidió que sea por acá)
+**Estado:** Dossier enviado, SEG1 enviado 25/06/26 (engagement MEDIUM)
 **Fecha:** 18/06/26 (MSG1, MSG2 y aceptación dossier el mismo día)
 **Cargo:** Jefe de Marketing
 **Empresa:** ANS S.A. (plataforma B2B de intermediación de seguros)
@@ -23,6 +23,15 @@
 
 ## Respuesta MSG2
 > Sí, claro. Envíalo por acá
+
+## Dossier enviado
+> Muchas gracias, esttamos en contacto para el futuro. Buen fin de semana!
+
+## Reacción
+> Gracias, igualmente
+
+## SEG1 enviado (25/06/26)
+> Zayhani, como estas! No se si llegaste a ver el dossier que te mande. Me quedo esa idea de sostener una sola marca con la misma exigencia de resultados que manejabas en consultoria, eso suele pesar cuando el equipo es mas chico. Si te parece que puede aportar valor, vemos 15 minutos y lo conversamos con mas detalle.
 
 ## Notas
 - HECHO: escribió en su perfil "no creo en el marketing como soporte, creo en el marketing como motor de negocio". Reciente incorporación a ANS S.A. (3 meses), antes consultora independiente 1 año 4 meses con clientes LATAM (Reba Americas, Tauro Publicidad, CCME Yucatán, 4Geeks Academy, Lamimaya).

@@ -1,6 +1,6 @@
 # Clara Ruiz Casallas
 
-**Estado:** MSG2 enviado (versión 2, con tono sensible)
+**Estado:** Dossier confirmado y enviado (25/06/26)
 **Fecha:** 18/06/26
 **Cargo:** Marketing and Pipeline Advisor
 **Empresa:** SierraCol Energy
@@ -24,6 +24,12 @@
 > En Hint Media trabajamos comunicación y contenido con empresas del sector, como TGS y Transener.
 >
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Aceptación dossier (25/06/26)
+> Enviamelo si y miro a quien lo podrias enviar
+
+## Dossier enviado
+> Genial Clara, te lo mando ahora! Cualquier cosa que te surja al revisarlo me avisas, y vemos a quien mas le puede servir.
 
 ## Notas
 - Sector energía → clientes TGS y Transener.
