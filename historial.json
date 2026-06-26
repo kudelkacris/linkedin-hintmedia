@@ -116,12 +116,17 @@
         "text": "Elizabeth, gracias por conectar! 👋\n\nMe llamó la atención la publicación que hiciste después del BenchClub Summit sobre la diferencia entre hacer networking y construir relacionamiento real. Dijiste algo que no muchos se atreven a publicar: que \"muchas de las mejores oportunidades profesionales no han llegado por tener muchos contactos, sino por haber construido relaciones reales basadas en confianza, respeto y autenticidad\". Eso dice bastante sobre cómo ves el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "25/06/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "26/06/26",
+        "note": "si claro dime"
       }
     ]
   },
@@ -314,7 +319,7 @@
         "text": "Claudia, gracias por conectar! 👋\n\nMe llamó la atención que en medio de lanzamientos corporativos y comunicación de proyectos de alto impacto, le des crédito público a tu hijo y lo recomiendes directamente. No es lo que típicamente ve uno en perfiles de comunicación. Habla de cómo llevás la convicción sobre inclusión y apoyo a talento local, más allá de lo que dice la empresa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -325,8 +330,14 @@
         "stage": 2,
         "date": "25/06/26",
         "note": "si dime"
+      },
+      {
+        "stage": 3,
+        "date": "26/06/26",
+        "note": "czazzali@aminerals.cl"
       }
-    ]
+    ],
+    "dossierMail": true
   },
   {
     "id": "1782138983964",
@@ -699,7 +710,7 @@
         "text": "Carla, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo en Novartis. Me llamó la atención que en los últimos meses estés compartiendo constantemente contenido sobre IA, optimización de datos y omnicanalidad — no son posts de la empresa, son aprendizajes que estás recolectando. Eso sugiere que hay algo importante pasando en tu rol.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -710,6 +721,11 @@
         "stage": 2,
         "date": "23/06/26",
         "note": "si claro dime"
+      },
+      {
+        "stage": 3,
+        "date": "26/06/26",
+        "note": "si claro enviamlo"
       }
     ]
   },
