@@ -134,6 +134,14 @@
   .advice li { display: flex; gap: 10px; font-size: .85rem; line-height: 1.5; }
   .advice li::before { content: '→'; color: var(--accent); flex-shrink: 0; font-weight: 700; }
 
+  /* Cost table */
+  .cost-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media(max-width:700px){ .cost-grid { grid-template-columns:1fr; } }
+  .cost-row { display: grid; grid-template-columns: 1fr 80px 80px 90px; gap: 8px; align-items: center; padding: 10px 12px; background: var(--surface2); border-radius: 8px; font-size: .82rem; }
+  .cost-row.header { background: transparent; color: var(--muted); font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding-bottom: 4px; }
+  .cost-row.total { background: rgba(79,124,255,.08); border: 1px solid rgba(79,124,255,.2); font-weight: 700; }
+  .cost-val { text-align: right; font-weight: 600; }
+  .cost-note { font-size: .78rem; color: var(--muted); }
   footer { text-align: center; color: var(--muted); font-size: .75rem; padding: 24px; border-top: 1px solid var(--border); margin-top: 40px; }
 </style>
 </head>
@@ -517,6 +525,115 @@
       </div>
     </div>
     <p class="note">Clave: incluso "ya tengo agencia" convierte al 50%. No frenar la conversación ante objeciones — 140 casos sin objeción tienen 51% de conversión igual.</p>
+  </div>
+
+  <!-- Costos API -->
+  <div class="section-title">Costos de API — cuanto gastamos</div>
+  <div class="cost-grid">
+    <div class="card">
+      <h3>Gasto real del proyecto hasta hoy</h3>
+      <div style="margin:16px 0 8px">
+        <div style="font-size:3rem;font-weight:800;color:var(--green)">~$10 USD</div>
+        <div style="font-size:.85rem;color:var(--muted);margin-top:4px">Total gastado desde el inicio · modelo Claude Haiku</div>
+      </div>
+      <div style="display:flex;gap:24px;margin-top:20px">
+        <div>
+          <div style="font-size:1.6rem;font-weight:700">~880</div>
+          <div style="font-size:.75rem;color:var(--muted)">llamadas totales a la API</div>
+        </div>
+        <div>
+          <div style="font-size:1.6rem;font-weight:700">$0.011</div>
+          <div style="font-size:.75rem;color:var(--muted)">costo promedio por llamada</div>
+        </div>
+        <div>
+          <div style="font-size:1.6rem;font-weight:700">Haiku</div>
+          <div style="font-size:.75rem;color:var(--muted)">modelo usado (el más económico)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Costo por mensaje generado</h3>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+          <div>
+            <div style="font-size:.85rem;font-weight:600">MSG1 — primer contacto</div>
+            <div class="cost-note">1 llamada · ~1200 tokens entrada + ~100 salida</div>
+          </div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.001</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+          <div>
+            <div style="font-size:.85rem;font-weight:600">MSG2 — mensaje con pitch</div>
+            <div class="cost-note">1 llamada · ~1500 tokens entrada + ~220 salida</div>
+          </div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.002</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+          <div>
+            <div style="font-size:.85rem;font-weight:600">SEG1 / SEG2 — seguimiento</div>
+            <div class="cost-note">1 llamada · ~1400 tokens entrada + ~180 salida</div>
+          </div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.001</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0">
+          <div>
+            <div style="font-size:.85rem;font-weight:600">Conversación completa (MSG1+MSG2+SEG1)</div>
+            <div class="cost-note">3 llamadas · todo el flujo hasta seguimiento</div>
+          </div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--accent)">~$0.004</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:20px">
+    <h3>Desglose de llamadas realizadas</h3>
+    <div style="margin-top:12px">
+      <div class="cost-row header">
+        <div>Tipo de llamada</div>
+        <div class="cost-val">Cantidad</div>
+        <div class="cost-val">Costo unit.</div>
+        <div class="cost-val">Subtotal</div>
+      </div>
+      <div class="cost-row">
+        <div>MSG1 generados (programa principal)</div>
+        <div class="cost-val">427</div>
+        <div class="cost-val">$0.001</div>
+        <div class="cost-val">~$0.43</div>
+      </div>
+      <div class="cost-row">
+        <div>MSG2 generados</div>
+        <div class="cost-val">211</div>
+        <div class="cost-val">$0.002</div>
+        <div class="cost-val">~$0.42</div>
+      </div>
+      <div class="cost-row">
+        <div>SEG1 / SEG2 generados</div>
+        <div class="cost-val">~104</div>
+        <div class="cost-val">$0.001</div>
+        <div class="cost-val">~$0.10</div>
+      </div>
+      <div class="cost-row">
+        <div>Analytics — enrichment de datos (167 conversaciones)</div>
+        <div class="cost-val">187</div>
+        <div class="cost-val">$0.001</div>
+        <div class="cost-val">~$0.15</div>
+      </div>
+      <div class="cost-row">
+        <div>Desarrollo y pruebas (estimado)</div>
+        <div class="cost-val">~150</div>
+        <div class="cost-val">—</div>
+        <div class="cost-val">~$8.90</div>
+      </div>
+      <div class="cost-row total">
+        <div>TOTAL gastado</div>
+        <div class="cost-val">~979</div>
+        <div class="cost-val">—</div>
+        <div class="cost-val">~$10 USD</div>
+      </div>
+    </div>
+    <p class="note" style="margin-top:14px">Proyección futura: si se contactan 100 personas nuevas con flujo completo (MSG1+MSG2+SEG1), el costo adicional es de aproximadamente <strong>$0.40 USD</strong>. Escalar a 1.000 contactos costaría menos de $5 USD en API.</p>
   </div>
 
   <!-- Consejo final -->
