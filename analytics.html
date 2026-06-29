@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LinkedIn Outreach — Analytics | Hint Media</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #22263a;
+    --border: #2e3347;
+    --accent: #4f7cff;
+    --accent2: #7c5cfc;
+    --green: #22c55e;
+    --yellow: #f59e0b;
+    --red: #ef4444;
+    --orange: #f97316;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --card-radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; min-height: 100vh; }
+
+  header {
+    background: linear-gradient(135deg, #1a1d27 0%, #12162a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 40px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+  header h1 span { color: var(--accent); }
+  header .subtitle { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+  .badge { background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 6px 14px; font-size: .8rem; color: var(--muted); }
+
+  main { max-width: 1200px; margin: 0 auto; padding: 36px 24px 60px; }
+
+  /* Section headers */
+  .section-title {
+    font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); margin: 44px 0 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  /* KPI row */
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  @media(max-width:760px){ .kpi-grid { grid-template-columns: repeat(2,1fr); } }
+  .kpi {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--card-radius);
+    padding: 22px 20px; position: relative; overflow: hidden;
+  }
+  .kpi::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--kpi-color, var(--accent));
+  }
+  .kpi .val { font-size: 2.4rem; font-weight: 800; line-height: 1; letter-spacing: -0.03em; }
+  .kpi .label { font-size: .82rem; color: var(--muted); margin-top: 6px; }
+  .kpi .sub { font-size: .75rem; color: var(--muted); margin-top: 8px; }
+
+  /* Funnel */
+  .funnel { display: flex; flex-direction: column; gap: 10px; }
+  .funnel-row { display: flex; align-items: center; gap: 14px; }
+  .funnel-label { width: 200px; font-size: .85rem; color: var(--text); flex-shrink: 0; }
+  .funnel-bar-wrap { flex: 1; background: var(--surface2); border-radius: 6px; height: 34px; overflow: hidden; }
+  .funnel-bar { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-left: 12px; font-size: .8rem; font-weight: 600; transition: width .6s ease; }
+  .funnel-pct { width: 54px; text-align: right; font-size: .82rem; font-weight: 600; color: var(--text); }
+  .funnel-n { width: 42px; text-align: right; font-size: .78rem; color: var(--muted); }
+
+  /* Two-col layout */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media(max-width:800px){ .two-col { grid-template-columns:1fr; } }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 22px 20px;
+  }
+  .card h3 { font-size: .9rem; font-weight: 600; margin-bottom: 18px; color: var(--text); }
+  .card .note { font-size: .75rem; color: var(--muted); margin-top: 12px; }
+
+  /* Bar chart horizontal */
+  .bar-chart { display: flex; flex-direction: column; gap: 10px; }
+  .bc-row { display: flex; flex-direction: column; gap: 4px; }
+  .bc-label { font-size: .8rem; color: var(--text); display: flex; justify-content: space-between; }
+  .bc-label span { color: var(--muted); font-size: .75rem; }
+  .bc-track { background: var(--surface2); border-radius: 4px; height: 10px; overflow: hidden; }
+  .bc-fill { height: 100%; border-radius: 4px; }
+
+  /* Sector table */
+  .sector-grid { display: flex; flex-direction: column; gap: 8px; }
+  .sector-row {
+    display: grid; grid-template-columns: 1fr 54px 54px 54px;
+    align-items: center; gap: 8px; padding: 10px 12px;
+    background: var(--surface2); border-radius: 8px; font-size: .82rem;
+  }
+  .sector-row.header { background: transparent; color: var(--muted); font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding-bottom: 4px; }
+  .sector-name { font-weight: 500; }
+  .pill {
+    display: inline-block; border-radius: 12px; padding: 2px 8px; font-size: .72rem; font-weight: 700; text-align: center;
+  }
+  .pill-green { background: rgba(34,197,94,.15); color: var(--green); }
+  .pill-yellow { background: rgba(245,158,11,.15); color: var(--yellow); }
+  .pill-red { background: rgba(239,68,68,.12); color: var(--red); }
+  .pill-blue { background: rgba(79,124,255,.15); color: var(--accent); }
+  .pill-gray { background: var(--border); color: var(--muted); }
+
+  /* Insight box */
+  .insight-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+  @media(max-width:700px){ .insight-grid { grid-template-columns:1fr; } }
+  .insight {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--card-radius);
+    padding: 18px 16px;
+  }
+  .insight .icon { font-size: 1.4rem; margin-bottom: 10px; }
+  .insight .title { font-size: .85rem; font-weight: 700; margin-bottom: 6px; }
+  .insight .body { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+  .insight.good { border-color: rgba(34,197,94,.25); }
+  .insight.warn { border-color: rgba(245,158,11,.25); }
+  .insight.bad  { border-color: rgba(239,68,68,.2); }
+
+  /* Engagement */
+  .eng-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px; }
+  @media(max-width:600px){ .eng-grid { grid-template-columns:repeat(2,1fr); } }
+  .eng-card {
+    background: var(--surface2); border-radius: 10px; padding: 16px 12px; text-align: center;
+    border: 1px solid var(--border);
+  }
+  .eng-card .eng-val { font-size: 1.8rem; font-weight: 800; }
+  .eng-card .eng-label { font-size: .72rem; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .06em; }
+  .eng-card .eng-sub { font-size: .75rem; color: var(--muted); margin-top: 8px; }
+
+  /* Advice section */
+  .advice { background: linear-gradient(135deg, rgba(79,124,255,.08), rgba(124,92,252,.06)); border: 1px solid rgba(79,124,255,.2); border-radius: var(--card-radius); padding: 26px 24px; }
+  .advice h3 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; }
+  .advice ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .advice li { display: flex; gap: 10px; font-size: .85rem; line-height: 1.5; }
+  .advice li::before { content: '→'; color: var(--accent); flex-shrink: 0; font-weight: 700; }
+
+  footer { text-align: center; color: var(--muted); font-size: .75rem; padding: 24px; border-top: 1px solid var(--border); margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>LinkedIn Outreach <span>Analytics</span></h1>
+    <div class="subtitle">Hint Media — datos al 29/06/2026</div>
+  </div>
+  <div class="badge">427 contactos totales</div>
+</header>
+
+<main>
+
+  <!-- KPIs -->
+  <div class="section-title">Resumen ejecutivo</div>
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#4f7cff">
+      <div class="val">427</div>
+      <div class="label">Contactos iniciados</div>
+      <div class="sub">Desde junio 2026</div>
+    </div>
+    <div class="kpi" style="--kpi-color:#22c55e">
+      <div class="val">25%</div>
+      <div class="label">Llegaron a dossier</div>
+      <div class="sub">107 de 427</div>
+    </div>
+    <div class="kpi" style="--kpi-color:#f59e0b">
+      <div class="val">13%</div>
+      <div class="label">Con seguimiento activo</div>
+      <div class="sub">55 contactos</div>
+    </div>
+    <div class="kpi" style="--kpi-color:#7c5cfc">
+      <div class="val">2.3%</div>
+      <div class="label">Reunión / avanzado</div>
+      <div class="sub">10 contactos</div>
+    </div>
+  </div>
+
+  <!-- Funnel -->
+  <div class="section-title">Embudo de conversión</div>
+  <div class="card">
+    <h3>De cada 100 conexiones — cuántos avanzan</h3>
+    <div class="funnel" style="margin-top:8px">
+      <div class="funnel-row">
+        <div class="funnel-label">Conexión iniciada</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:100%;background:linear-gradient(90deg,#4f7cff,#7c5cfc)">427 contactos</div></div>
+        <div class="funnel-pct">100%</div>
+        <div class="funnel-n">427</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">MSG2 enviado</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:49.4%;background:#3b5bd6">MSG2 enviado</div></div>
+        <div class="funnel-pct">49%</div>
+        <div class="funnel-n">211</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Respondió</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:28%;background:#22c55e">Respondió</div></div>
+        <div class="funnel-pct">28%</div>
+        <div class="funnel-n">~120</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Dossier enviado</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:25.1%;background:#16a34a"></div></div>
+        <div class="funnel-pct">25%</div>
+        <div class="funnel-n">107</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Seguimiento activo</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:12.9%;background:#f59e0b"></div></div>
+        <div class="funnel-pct">13%</div>
+        <div class="funnel-n">55</div>
+      </div>
+      <div class="funnel-row">
+        <div class="funnel-label">Reunión / avanzado</div>
+        <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:2.3%;background:#ef4444">10</div></div>
+        <div class="funnel-pct">2.3%</div>
+        <div class="funnel-n">10</div>
+      </div>
+    </div>
+    <p class="note" style="margin-top:16px">Fuente: 427 registros del historial del programa. Stage 1 = MSG1 generado · Stage 2 = MSG2 enviado · Stage 3 = dossier · Stage 4 = SEG · Stage 5 = avanzado.</p>
+  </div>
+
+  <!-- Sector performance -->
+  <div class="section-title">Rendimiento por sector</div>
+  <div class="card">
+    <h3>Qué sectores convirtieron mejor — basado en conversaciones reales (n=167)</h3>
+    <div class="sector-grid">
+      <div class="sector-row header">
+        <div>Sector</div>
+        <div style="text-align:center">Respondió</div>
+        <div style="text-align:center">Dossier</div>
+        <div style="text-align:center">Reunión</div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Seguros / Finanzas</div>
+        <div style="text-align:center"><span class="pill pill-green">100%</span></div>
+        <div style="text-align:center"><span class="pill pill-green">100%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Tecnología</div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Educación</div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Turismo / Hotelería</div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-green">67%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Energía</div>
+        <div style="text-align:center"><span class="pill pill-yellow">57%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">57%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Agencia / Marketing</div>
+        <div style="text-align:center"><span class="pill pill-yellow">57%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">57%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Real Estate</div>
+        <div style="text-align:center"><span class="pill pill-yellow">50%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">50%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Salud / Clínica</div>
+        <div style="text-align:center"><span class="pill pill-yellow">50%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">50%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Minería</div>
+        <div style="text-align:center"><span class="pill pill-yellow">42%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">42%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Farmacéutico</div>
+        <div style="text-align:center"><span class="pill pill-red">20%</span></div>
+        <div style="text-align:center"><span class="pill pill-red">20%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Automotriz</div>
+        <div style="text-align:center"><span class="pill pill-red">17%</span></div>
+        <div style="text-align:center"><span class="pill pill-red">17%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Retail / Consumo</div>
+        <div style="text-align:center"><span class="pill pill-red">13%</span></div>
+        <div style="text-align:center"><span class="pill pill-red">13%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div class="sector-name">Logística · Automotriz · Construcción</div>
+        <div style="text-align:center"><span class="pill pill-red">0%</span></div>
+        <div style="text-align:center"><span class="pill pill-red">0%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+    </div>
+    <p class="note">Columna "Dossier" = llegó a pedir o recibir el dossier de Hint Media. Base: 167 conversaciones con historial completo.</p>
+  </div>
+
+  <!-- Sector bar charts side by side -->
+  <div class="two-col" style="margin-top:20px">
+    <div class="card">
+      <h3>Sectores con mayor volumen (427 contactos)</h3>
+      <div class="bar-chart">
+        <div class="bc-row">
+          <div class="bc-label">Educación <span>42 contactos · 36% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:35.7%;background:var(--green)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Energía <span>26 contactos · 27% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:26.9%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Agencia/Marketing <span>25 contactos · 28% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:28%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Tecnología <span>20 contactos · 25% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:25%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Farmacéutico <span>20 contactos · 25% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:25%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Retail/Consumo <span>16 contactos · 13% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:12.5%;background:var(--red)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Minería <span>14 contactos · 36% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:35.7%;background:var(--green)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Turismo/Hotelería <span>14 contactos · 14% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:14.3%;background:var(--red)"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Por nivel de cargo (seniority)</h3>
+      <div class="bar-chart">
+        <div class="bc-row">
+          <div class="bc-label">Otros / no identificado <span>363 contactos · 26% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:25.9%;background:var(--accent)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Director <span>11 contactos · 27% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:27.3%;background:var(--accent)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Specialist <span>8 contactos · 25% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:25%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">Manager / Gerente <span>34 contactos · 21% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:20.6%;background:var(--yellow)"></div></div>
+        </div>
+        <div class="bc-row">
+          <div class="bc-label">CEO / Fundador <span>10 contactos · 10% dossier</span></div>
+          <div class="bc-track"><div class="bc-fill" style="width:10%;background:var(--red)"></div></div>
+        </div>
+      </div>
+      <p class="note">Los CEO responden menos en frío. Director/Manager son el target óptimo.</p>
+    </div>
+  </div>
+
+  <!-- Engagement -->
+  <div class="section-title">Engagement y señales de interes</div>
+  <div class="card">
+    <h3>Nivel de engagement vs conversión (167 conversaciones con respuesta)</h3>
+    <div class="eng-grid" style="margin-top:8px">
+      <div class="eng-card" style="border-color:rgba(34,197,94,.3)">
+        <div class="eng-val" style="color:var(--green)">100%</div>
+        <div class="eng-label">HIGH</div>
+        <div class="eng-sub">13 contactos llegaron a dossier<br>15% llegaron a reunión</div>
+      </div>
+      <div class="eng-card" style="border-color:rgba(245,158,11,.3)">
+        <div class="eng-val" style="color:var(--yellow)">82%</div>
+        <div class="eng-label">MEDIUM</div>
+        <div class="eng-sub">51 contactos llegaron a dossier<br>2% llegaron a reunión</div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-val" style="color:var(--orange)">39%</div>
+        <div class="eng-label">LOW</div>
+        <div class="eng-sub">56 contactos llegaron a dossier<br>5% llegaron a reunión</div>
+      </div>
+      <div class="eng-card">
+        <div class="eng-val" style="color:var(--muted)">25%</div>
+        <div class="eng-label">SIN SEÑAL</div>
+        <div class="eng-sub">47 contactos — no respondieron<br>0% reunión</div>
+      </div>
+    </div>
+    <p class="note" style="margin-top:16px">Si un prospecto responde con entusiasmo (HIGH), el 100% termina pidiendo el dossier y 15% llega a reunión. Identificar esta señal temprano es clave.</p>
+  </div>
+
+  <!-- Variante MSG1 -->
+  <div class="section-title">Tipo de mensaje inicial (MSG1)</div>
+  <div class="two-col">
+    <div class="card">
+      <h3>Variante A — arranca desde la persona</h3>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:14px">El primer mensaje habla de algo que el prospecto publicó, compartió o logró. No menciona Hint Media.</p>
+      <div style="display:flex;gap:20px;margin-top:8px">
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--green)">49%</div>
+          <div style="font-size:.75rem;color:var(--muted)">llega a dossier</div>
+        </div>
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--accent)">4.3%</div>
+          <div style="font-size:.75rem;color:var(--muted)">llega a reunión</div>
+        </div>
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--muted)">69</div>
+          <div style="font-size:.75rem;color:var(--muted)">contactos</div>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="border-color:rgba(124,92,252,.3)">
+      <h3>Variante C — arranca desde la empresa</h3>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:14px">El primer mensaje habla del trabajo que viene haciendo la empresa del prospecto. Más directo.</p>
+      <div style="display:flex;gap:20px;margin-top:8px">
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--green)">75%</div>
+          <div style="font-size:.75rem;color:var(--muted)">llega a dossier</div>
+        </div>
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--accent)">8.3%</div>
+          <div style="font-size:.75rem;color:var(--muted)">llega a reunión</div>
+        </div>
+        <div>
+          <div style="font-size:2rem;font-weight:800;color:var(--muted)">12</div>
+          <div style="font-size:.75rem;color:var(--muted)">contactos</div>
+        </div>
+      </div>
+      <p class="note">Muestra chica (12 casos) pero resultados superiores. Vale probar más.</p>
+    </div>
+  </div>
+
+  <!-- Recomendaciones -->
+  <div class="section-title">Recomendaciones para el outreach</div>
+  <div class="insight-grid">
+    <div class="insight good">
+      <div class="icon">🎯</div>
+      <div class="title">Sectores donde buscar primero</div>
+      <div class="body">Seguros/Finanzas, Tecnología, Educación y Minería tienen tasas de dossier del 36–100%. Son los perfiles que más convierten. Priorizar conexiones ahí.</div>
+    </div>
+    <div class="insight good">
+      <div class="icon">📋</div>
+      <div class="title">Target de cargo óptimo</div>
+      <div class="body">Director y Manager convierten mejor que CEO. Los CEO en frío responden poco (10%). Mejor apuntar a quien maneja el área de comunicación/marketing directo.</div>
+    </div>
+    <div class="insight good">
+      <div class="icon">⚡</div>
+      <div class="title">Leer la señal de engagement</div>
+      <div class="body">Si el prospecto responde con detalle o pregunta algo, el 100% de esos llega a dossier. Vale la pena priorizar el seguimiento cuando hay respuesta elaborada.</div>
+    </div>
+    <div class="insight warn">
+      <div class="icon">🔄</div>
+      <div class="title">Variante C da mejores números</div>
+      <div class="body">75% vs 49% de dossier. Solo se usó en 12 casos. Si se amplía el uso de esta variante, puede mejorar la tasa general sin cambiar el volumen de contactos.</div>
+    </div>
+    <div class="insight warn">
+      <div class="icon">📬</div>
+      <div class="title">51% de conexiones nunca avanzó</div>
+      <div class="body">216 contactos quedaron en stage 1 (solo MSG1 generado). Revisar si se enviaron o si se descartaron antes. Hay margen para reactivar algunos.</div>
+    </div>
+    <div class="insight bad">
+      <div class="icon">🚫</div>
+      <div class="title">Sectores a evitar por ahora</div>
+      <div class="body">Logística, Construcción, Medios y Automotriz tienen 0% de conversión. No justifican el esfuerzo con el volumen que tienen. Redirigir esas horas a los sectores top.</div>
+    </div>
+  </div>
+
+  <!-- Objeciones -->
+  <div class="section-title">Tipos de objeción que aparecen</div>
+  <div class="card">
+    <h3>Qué pasa cuando alguien pone una objeción</h3>
+    <div class="sector-grid">
+      <div class="sector-row header">
+        <div>Tipo de objeción</div>
+        <div style="text-align:center">Casos</div>
+        <div style="text-align:center">% dossier</div>
+        <div style="text-align:center">% reunión</div>
+      </div>
+      <div class="sector-row">
+        <div><strong>CURIOSITY_ONLY</strong> — "mandame el dossier" sin más</div>
+        <div style="text-align:center">5</div>
+        <div style="text-align:center"><span class="pill pill-green">100%</span></div>
+        <div style="text-align:center"><span class="pill pill-green">60%</span></div>
+      </div>
+      <div class="sector-row">
+        <div><strong>PARTNERSHIP</strong> — quieren colaborar, no comprar</div>
+        <div style="text-align:center">10</div>
+        <div style="text-align:center"><span class="pill pill-green">70%</span></div>
+        <div style="text-align:center"><span class="pill pill-yellow">10%</span></div>
+      </div>
+      <div class="sector-row">
+        <div><strong>BAD_TIMING</strong> — "por ahora no es el momento"</div>
+        <div style="text-align:center">5</div>
+        <div style="text-align:center"><span class="pill pill-yellow">60%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div><strong>HAS_AGENCY</strong> — ya tienen agencia</div>
+        <div style="text-align:center">4</div>
+        <div style="text-align:center"><span class="pill pill-yellow">50%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+      <div class="sector-row">
+        <div><strong>NO_BUDGET</strong> — sin presupuesto</div>
+        <div style="text-align:center">1</div>
+        <div style="text-align:center"><span class="pill pill-green">100%</span></div>
+        <div style="text-align:center"><span class="pill pill-gray">0%</span></div>
+      </div>
+    </div>
+    <p class="note">Clave: incluso "ya tengo agencia" convierte al 50%. No frenar la conversación ante objeciones — 140 casos sin objeción tienen 51% de conversión igual.</p>
+  </div>
+
+  <!-- Consejo final -->
+  <div class="section-title" style="margin-top:44px">Guia rapida para conectar</div>
+  <div class="advice">
+    <h3>Que buscar cuando hacés una nueva conexión en LinkedIn</h3>
+    <ul>
+      <li>Buscá en sectores de alta conversión primero: <strong>Seguros, Tecnología, Educación, Minería, Energía</strong>. Ahí 1 de cada 2 llega a dossier.</li>
+      <li>Apuntá a <strong>Director o Manager</strong> de comunicación, marketing o branding — no al CEO directamente. Convierten más y responden en frío.</li>
+      <li>Buscá señales humanas en el perfil: publicaciones recientes, logros, actividad. Si tiene algo para comentar, el mensaje inicial pega mejor.</li>
+      <li>Si el prospecto responde con más de 2 oraciones o te hace una pregunta, es señal HIGH — priorizalo para seguimiento inmediato.</li>
+      <li>Cuando alguien dice "ya tengo agencia" o "no es el momento", no cortar. El 50–70% de esos termina pidiendo el dossier igual.</li>
+      <li>Evitá Logística, Automotriz y Construcción por ahora — 0 conversiones en todos los contactos hasta la fecha.</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  Hint Media — Analytics interno · Generado el 29/06/2026 · 427 contactos · 167 conversaciones con historial completo
+</footer>
+
+</body>
+</html>
