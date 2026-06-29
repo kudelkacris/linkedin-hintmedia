@@ -1,0 +1,1338 @@
+{
+  "TOTAL_CONVERSACIONES": 167,
+  "RESPONSE_RATE_MSG1": 61.7,
+  "DOSSIER_RATE": 41.9,
+  "FOLLOWUP_RATE": 28.7,
+  "MEETING_RATE": 3.6,
+  "CLIENT_RATE": 0.0,
+  "distribucion": {
+    "SECTOR": {
+      "Energía": 14,
+      "Minería": 12,
+      "Retail/Consumo": 9,
+      "Tecnología": 9,
+      "Agencia/Marketing": 7,
+      "Automotriz": 6,
+      "Farmacéutico": 5,
+      "Seguros/Finanzas": 4,
+      "Real Estate": 4,
+      "Salud/Clínica": 4,
+      "Consultoría/Legal": 3,
+      "Educación": 3,
+      "Turismo/Hotelería": 3,
+      "Agro/Alimentos": 2,
+      "ONG/Fundación": 2,
+      "Seguros": 2,
+      "Foodservice/Retail (gastronomía)": 1,
+      "Comunicaciones / en búsqueda activa de empleo": 1,
+      "Farmacéutico/Salud": 1,
+      "Belleza": 1,
+      "Agroindustria / Biotecnología agrícola": 1,
+      "institucional (MERCO ESG, Great Place to Work, certificación OECD con 34 empresas)": 1,
+      "Gastronomía / Entretenimiento": 1,
+      "Industrial/Eléctrico": 1,
+      "Real estate / Comunicación institucional": 1,
+      "Consumo / alimentos": 1,
+      "Sustainable Product Manufacturing — suplementos dietarios y productos de salud": 1,
+      "Hospitality / Turismo": 1,
+      "Educación superior": 1,
+      "Pharma": 1,
+      "Retail & Fashion": 1,
+      "Consumo/Alimentos": 1,
+      "Comunicación / ESG / Corporativo": 1,
+      "Consultoría / BD": 1,
+      "Biotecnología / Manufactura de dispositivos médicos / Genética forense": 1,
+      "Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias": 1,
+      "(no especificado — perfil con operación grande)": 1,
+      "Institucional / Martech / Consultoría": 1,
+      "Transformación de negocios, multicultural (Europa, Asia, LATAM)": 1,
+      "Retail / Moda / Consumo masivo": 1,
+      "Turismo / Eventos corporativos": 1,
+      "Consultoría / Personal branding (perfil similar/colega, no cliente típico)": 1,
+      "Logística/Transporte": 1,
+      "Oil & Gas": 1,
+      "ONG / ESG / Comunicación institucional": 1,
+      "Gastronomía / Comunicación corporativa": 1,
+      "Banca / Finanzas": 1,
+      "Industria alimentaria / Manufactura / Supply Chain — transformación operacional": 1,
+      "Atracción de inversión / ONG / Comunicación institucional": 1,
+      "Salud/dental (ex-hospitality)": 1,
+      "Consultoría / Agencia": 1,
+      "Tech / Software (staff augmentation, IT talent)": 1,
+      "Salud / dispositivos médicos / industrial MRO": 1,
+      "Seguros / Finanzas": 1,
+      "Oil & Gas / Energía": 1,
+      "(no especificado)": 1,
+      "Tech / AI": 1,
+      "Salud / Dispositivos médicos": 1,
+      "Comunicación / Contenido": 1
+    },
+    "PAIS": {
+      "Costa Rica": 39,
+      "Panamá": 21,
+      "Chile": 13,
+      "Argentina": 10,
+      "(no especificado)": 8,
+      "Colombia (Bogotá)": 5,
+      "Colombia": 5,
+      "Chile (Santiago)": 5,
+      "Costa Rica (Cartago)": 3,
+      "Costa Rica (Heredia)": 2,
+      "Jalisco, México": 1,
+      "São Paulo, Brasil": 1,
+      "Costa Rica (Heredia, remoto)": 1,
+      "Miami / Cali, Colombia": 1,
+      "Argentina (Rosario)": 1,
+      "Argentina (Córdoba)": 1,
+      "Tulum, Quintana Roo, México": 1,
+      "Costa Rica (Alajuela)": 1,
+      "(Costa Rica presumiblemente)": 1,
+      "Argentina (Puerto Madryn)": 1,
+      "México (Monterrey, Nuevo León)": 1,
+      "Panamá (remoto)": 1,
+      "Costa Rica (mercados: CR, Nicaragua, Panamá)": 1,
+      "—": 1,
+      "Argentina (Mendoza)": 1,
+      "Costa Rica (remoto, expansión América/Europa/Asia)": 1,
+      "Costa Rica (mexicano)": 1,
+      "Pérez Zeledón, Costa Rica": 1,
+      "Panamá (trabaja en remoto desde Colombia)": 1,
+      "Colombia (remoto, Houston)": 1,
+      "México (Cancún)": 1,
+      "Argentina (Buenos Aires)": 1,
+      "Chile (Concepción)": 1,
+      "Chile (La Serena)": 1,
+      "Costa Rica (San José)": 1,
+      "Ecuador (Guayaquil)": 1,
+      "Chile (ubicación perfil); trabaja presencial en Barranquilla, Colombia": 1,
+      "México": 1
+    },
+    "CARGO": {
+      "General Manager": 3,
+      "Marketing Coordinator": 3,
+      "Jefe de Marketing": 3,
+      "Comunicaciones Corporativas": 2,
+      "Brand Manager": 2,
+      "Marketing Manager": 2,
+      "Jefe de Mercadeo": 2,
+      "Director de Marketing": 2,
+      "(no se guardó perfil completo)": 1,
+      "Marketing & Communications Strategist / Project Manager": 1,
+      "Gerente de Marca": 1,
+      "Jefe de Marketing Digital": 1,
+      "Marketing Brand Manager": 1,
+      "Marketing Strategist (La Cuisine International) / Founder Ant Studio Agency": 1,
+      "Marketing Lead": 1,
+      "Regional Marketing Manager": 1,
+      "Gerente Comercial": 1,
+      "Marketing Specialist Associate": 1,
+      "Cardiovascular Marketing Lead": 1,
+      "Responsable de Comunicación Institucional y Brand Experience": 1,
+      "Marketing Associate": 1,
+      "CEO": 1,
+      "Gerente General (abr 2024, 2 años) — antes Gerente Comercial 20 años": 1,
+      "Commercial Manager": 1,
+      "Strategic Marketing & Business Development Executive | Founder Demeter Innovation Lab": 1,
+      "Responsable de Comunicación y Marketing (feb 2025, 1.5 años) — 6 sucursales": 1,
+      "Open Innovation / Growth Marketing / Brand Partnerships Manager": 1,
+      "Channel Marketing Specialist": 1,
+      "Directora de Comunicaciones": 1,
+      "Directora de Marketing y Comunicaciones": 1,
+      "Gerente Corporativo de Relaciones Institucionales, Comunicación y Sustentabilidad": 1,
+      "Gerente General": 1,
+      "Chief Digital Officer (CDO) IT/OT": 1,
+      "Marketing & Design Lead": 1,
+      "Marketing and Pipeline Advisor": 1,
+      "Sub Gerenta Comunicaciones Antofagasta Minerals Norte": 1,
+      "Marketing & Digital Strategy": 1,
+      "Marketing Automation Specialist, Loymark": 1,
+      "Coordinador de Marketing (feb 2026, 5 meses)": 1,
+      "Digital Marketing Executive (may 2026, 2 meses)": 1,
+      "CEO | Director General": 1,
+      "Estratega de Marketing y Comunicación, CORBANA": 1,
+      "Marketing (rol individual — múltiples frentes)": 1,
+      "Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad": 1,
+      "Directora de Marketing y Asuntos Corporativos": 1,
+      "Gerente de Marketing, Novogar Costa Rica": 1,
+      "Marketing Lead, Texas Tech University - Costa Rica": 1,
+      "Multi Country General Manager": 1,
+      "Coordinador de Marketing y Publicidad, Grupo Forco": 1,
+      "Digital Marketing Manager": 1,
+      "CMGO": 1,
+      "Regional Brand Manager, LATAM": 1,
+      "Marketing Manager (Marketing Operations Manager)": 1,
+      "Marketing Digital & E-commerce Leader": 1,
+      "Marketing en Tanzi": 1,
+      "(no especificado — perfil de comunicación/estrategia)": 1,
+      "Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)": 1,
+      "Head of PR, Digital and Marketing Communications, Komunika Latam": 1,
+      "(no provisto, falta perfil completo)": 1,
+      "CEO VaGO International Manufacturing, CEO DEBBIOM, COO Smartligner — Consejo IVG Group": 1,
+      "Líder de Imagen / Marketing": 1,
+      "Líder de Marketing (16 personas, presupuesto $1M USD)": 1,
+      "Digital Marketing Strategist & Project Manager (Demand & Lead Gen, Martech)": 1,
+      "Director Comercial y de Inteligencia de Negocios": 1,
+      "(ex) Channel Sales Manager / Jefe Comercial": 1,
+      "Jefe de Marca — Wuling y FOTON Costa Rica (oct 2025, 9 meses)": 1,
+      "LATAM Director": 1,
+      "Gerente comercial": 1,
+      "Director Comercial, Dataformas de Costa Rica": 1,
+      "Subgerente de Marketing": 1,
+      "Gerente General | CMO | CCO": 1,
+      "Group CEO / VP Comercial Latam / Country Manager / Managing Director": 1,
+      "Líder de Comunicación, experta en gestión del cambio": 1,
+      "Jefe Ecommerce y Marketing Digital": 1,
+      "Product Marketing Manager - Colombia and Caribbean": 1,
+      "Jefe de Capital Humano (RRHH)": 1,
+      "Brand & Growth Strategist": 1,
+      "Head of Marketing & Customer Success": 1,
+      "Jefe Desarrollo de Nuevos Mercados y Marketing": 1,
+      "Business Manager (Revenue Growth, GTM & Commercial Strategy LATAM)": 1,
+      "Especialista en Eventos Corporativos / Supervisora de Marketing": 1,
+      "VP Marketing AICI Global / Consultora de Imagen Estratégica": 1,
+      "Jefe de Mercadeo, Aceros Carazo Reimers": 1,
+      "Brand Management | Sponsorships, Events and Social Media": 1,
+      "Marketing Lead, Congero Technology Group": 1,
+      "Marketing Manager (Marketing Associate Manager)": 1,
+      "Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)": 1,
+      "Analista de Comunicación": 1,
+      "Líder de Comunicación y Relaciones Públicas": 1,
+      "Contamination Surface Investigation Specialist / Responsable Comercial LATAM & Caribe": 1,
+      "Gerente de Ventas, Logística Panamá S.A.": 1,
+      "Social Media Content Specialist": 1,
+      "Trade Marketing Manager CAM&CAR": 1,
+      "Compa / Experience Designer - Front Office": 1,
+      "Jefa de Marketing": 1,
+      "Directora de Marketing Digital": 1,
+      "Project Admin (antes 9+ años marketing digital/freelance/branding)": 1,
+      "General Manager, SLS Cancun": 1,
+      "Marketing & Communications Manager": 1,
+      "Head of Communications and Governance": 1,
+      "Communication & Strategy for Social Impact | Marketing | Fundraising | Sustainability": 1,
+      "Encargada de Comunicaciones Corporativas, Periodista UDP": 1,
+      "Supervisor y Responsable de Comunicación (sept 2025, 10 meses)": 1,
+      "Head of Marketing & Estrategia": 1,
+      "Marketing Manager (may 2026, 2 meses)": 1,
+      "Marketing Coordinator, Nexsys Centroamérica y Caribe": 1,
+      "Jefe Comercial": 1,
+      "Ventas, mercadeo y servicio al cliente": 1,
+      "Responsable de Comunicación en Biofarma": 1,
+      "Marketing Manager / Directora de Marketing Hub Andino": 1,
+      "Gerencia General / CEO / Country Manager": 1,
+      "Directora Marketing Digital, McCann San José": 1,
+      "Immunology Marketing Specialist": 1,
+      "Head of Marketing (desde mayo 2026, 2 meses)": 1,
+      "Jefa de Comunicaciones": 1,
+      "Gerente de Marketing & Customer Experience BMWG": 1,
+      "Líder Comercial y Desarrollo de Negocios / Sales & Marketing Manager": 1,
+      "Director General": 1,
+      "Digital Marketing Specialist / Marketing Team Leader": 1,
+      "Especialista de Mercadeo y Comunicación (jul 2022, 4 años)": 1,
+      "Supervisora de Marketing (Especialista de Marketing)": 1,
+      "Consultor / Estratega de Marketing": 1,
+      "Executive Director FEXMIN / Administrative Manager Minera Cachinal / Commercial Relationship CIM Los Andes": 1,
+      "Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis": 1,
+      "Vice President Sales & Marketing": 1,
+      "Gerente Corporativo de Estrategia, Marketing y Desarrollo Organizacional": 1,
+      "Director Comercial (CCO)": 1,
+      "Gerente General - Seguros": 1,
+      "Analista de Comunicaciones (abr 2025, 1 año 3 meses)": 1,
+      "AI Solutions Engineer": 1,
+      "CEO GARNIER DIGITAL PR LATAM": 1,
+      "Chief Marketing Officer / AI Marketing Orchestrator": 1,
+      "Director of Global Communications": 1,
+      "Soluciones de Marketing Sostenible": 1,
+      "Líder de Marketing": 1,
+      "Analista de Marketing": 1,
+      "Performance Media Buyer": 1,
+      "Jefa de Marketing y Comunicaciones": 1,
+      "Communication Lead/Advisor (Strategic Communications and Public Affairs, Sustainability and Communities)": 1,
+      "Marketing Manager and Technical Sales": 1,
+      "Jefe de Mercadeo (recién ascendido)": 1,
+      "Coordinadora de Comunicación Estratégica y Empleabilidad": 1
+    },
+    "ENGAGEMENT_LEVEL": {
+      "LOW": 56,
+      "MEDIUM": 51,
+      "N/A": 47,
+      "HIGH": 13
+    },
+    "OBJECION_PRINCIPAL": {
+      "NONE": 140,
+      "PARTNERSHIP": 10,
+      "BAD_TIMING": 5,
+      "CURIOSITY_ONLY": 5,
+      "HAS_AGENCY": 4,
+      "NO_BUDGET": 1
+    },
+    "RESULTADO_FINAL": {
+      "SIN_RESPUESTA": 78,
+      "SEGUIMIENTO": 45,
+      "DOSSIER": 38,
+      "REUNION": 6
+    },
+    "VARIANTE_MSG1": {
+      "A": 69,
+      "C": 12
+    }
+  },
+  "conversion_por_sector": {
+    "Foodservice/Retail (gastronomía)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(sin dato)": {
+      "total": 35,
+      "convertidos": 3,
+      "tasa_pct": 8.6
+    },
+    "Comunicaciones / en búsqueda activa de empleo": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Retail/Consumo": {
+      "total": 9,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Energía": {
+      "total": 14,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Automotriz": {
+      "total": 6,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Seguros/Finanzas": {
+      "total": 4,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Tecnología": {
+      "total": 9,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Farmacéutico": {
+      "total": 5,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Farmacéutico/Salud": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Belleza": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Agroindustria / Biotecnología agrícola": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "institucional (MERCO ESG, Great Place to Work, certificación OECD con 34 empresas)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gastronomía / Entretenimiento": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Industrial/Eléctrico": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Minería": {
+      "total": 12,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Consultoría/Legal": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Real estate / Comunicación institucional": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Real Estate": {
+      "total": 4,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Educación": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Consumo / alimentos": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Agencia/Marketing": {
+      "total": 7,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Sustainable Product Manufacturing — suplementos dietarios y productos de salud": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Agro/Alimentos": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Hospitality / Turismo": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Educación superior": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Pharma": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Salud/Clínica": {
+      "total": 4,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Retail & Fashion": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Consumo/Alimentos": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Turismo/Hotelería": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Comunicación / ESG / Corporativo": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Consultoría / BD": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Biotecnología / Manufactura de dispositivos médicos / Genética forense": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "ONG/Fundación": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(no especificado — perfil con operación grande)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Institucional / Martech / Consultoría": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Transformación de negocios, multicultural (Europa, Asia, LATAM)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Retail / Moda / Consumo masivo": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Turismo / Eventos corporativos": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Consultoría / Personal branding (perfil similar/colega, no cliente típico)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Seguros": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Logística/Transporte": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Oil & Gas": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "ONG / ESG / Comunicación institucional": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gastronomía / Comunicación corporativa": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Banca / Finanzas": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Industria alimentaria / Manufactura / Supply Chain — transformación operacional": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Atracción de inversión / ONG / Comunicación institucional": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Salud/dental (ex-hospitality)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Consultoría / Agencia": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Tech / Software (staff augmentation, IT talent)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Salud / dispositivos médicos / industrial MRO": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Seguros / Finanzas": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Oil & Gas / Energía": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(no especificado)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Tech / AI": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Salud / Dispositivos médicos": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Comunicación / Contenido": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    }
+  },
+  "conversion_por_cargo": {
+    "(sin dato)": {
+      "total": 14,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "General Manager": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(no se guardó perfil completo)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Comunicaciones Corporativas": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing & Communications Strategist / Project Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente de Marca": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Marketing Digital": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Brand Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Strategist (La Cuisine International) / Founder Ant Studio Agency": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Lead": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Regional Marketing Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente Comercial": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Specialist Associate": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Cardiovascular Marketing Lead": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Responsable de Comunicación Institucional y Brand Experience": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Associate": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "CEO": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente General (abr 2024, 2 años) — antes Gerente Comercial 20 años": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Commercial Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Strategic Marketing & Business Development Executive | Founder Demeter Innovation Lab": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Responsable de Comunicación y Marketing (feb 2025, 1.5 años) — 6 sucursales": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Open Innovation / Growth Marketing / Brand Partnerships Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Channel Marketing Specialist": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Directora de Comunicaciones": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Directora de Marketing y Comunicaciones": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente Corporativo de Relaciones Institucionales, Comunicación y Sustentabilidad": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente General": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Chief Digital Officer (CDO) IT/OT": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing & Design Lead": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing and Pipeline Advisor": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Sub Gerenta Comunicaciones Antofagasta Minerals Norte": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing & Digital Strategy": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Automation Specialist, Loymark": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Coordinador de Marketing (feb 2026, 5 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Digital Marketing Executive (may 2026, 2 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "CEO | Director General": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Estratega de Marketing y Comunicación, CORBANA": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing (rol individual — múltiples frentes)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Directora de Marketing y Asuntos Corporativos": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente de Marketing, Novogar Costa Rica": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Lead, Texas Tech University - Costa Rica": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Multi Country General Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Coordinador de Marketing y Publicidad, Grupo Forco": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Digital Marketing Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "CMGO": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Regional Brand Manager, LATAM": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager (Marketing Operations Manager)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Brand Manager": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Digital & E-commerce Leader": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing en Tanzi": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(no especificado — perfil de comunicación/estrategia)": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Head of PR, Digital and Marketing Communications, Komunika Latam": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(no provisto, falta perfil completo)": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Marketing Coordinator": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "CEO VaGO International Manufacturing, CEO DEBBIOM, COO Smartligner — Consejo IVG Group": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Mercadeo": {
+      "total": 2,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Líder de Imagen / Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Líder de Marketing (16 personas, presupuesto $1M USD)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Digital Marketing Strategist & Project Manager (Demand & Lead Gen, Martech)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director Comercial y de Inteligencia de Negocios": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "(ex) Channel Sales Manager / Jefe Comercial": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Marca — Wuling y FOTON Costa Rica (oct 2025, 9 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "LATAM Director": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente comercial": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director Comercial, Dataformas de Costa Rica": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Subgerente de Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente General | CMO | CCO": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Group CEO / VP Comercial Latam / Country Manager / Managing Director": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director de Marketing": {
+      "total": 2,
+      "convertidos": 1,
+      "tasa_pct": 50.0
+    },
+    "Líder de Comunicación, experta en gestión del cambio": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe Ecommerce y Marketing Digital": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Product Marketing Manager - Colombia and Caribbean": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Capital Humano (RRHH)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Brand & Growth Strategist": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Head of Marketing & Customer Success": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe Desarrollo de Nuevos Mercados y Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Business Manager (Revenue Growth, GTM & Commercial Strategy LATAM)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Especialista en Eventos Corporativos / Supervisora de Marketing": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "VP Marketing AICI Global / Consultora de Imagen Estratégica": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Mercadeo, Aceros Carazo Reimers": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Brand Management | Sponsorships, Events and Social Media": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Lead, Congero Technology Group": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager (Marketing Associate Manager)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Analista de Comunicación": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Líder de Comunicación y Relaciones Públicas": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Contamination Surface Investigation Specialist / Responsable Comercial LATAM & Caribe": {
+      "total": 1,
+      "convertidos": 1,
+      "tasa_pct": 100.0
+    },
+    "Gerente de Ventas, Logística Panamá S.A.": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Social Media Content Specialist": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Trade Marketing Manager CAM&CAR": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Compa / Experience Designer - Front Office": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefa de Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Directora de Marketing Digital": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Project Admin (antes 9+ años marketing digital/freelance/branding)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "General Manager, SLS Cancun": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing & Communications Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Head of Communications and Governance": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Communication & Strategy for Social Impact | Marketing | Fundraising | Sustainability": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Marketing": {
+      "total": 3,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Encargada de Comunicaciones Corporativas, Periodista UDP": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Supervisor y Responsable de Comunicación (sept 2025, 10 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Head of Marketing & Estrategia": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager (may 2026, 2 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Coordinator, Nexsys Centroamérica y Caribe": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe Comercial": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Ventas, mercadeo y servicio al cliente": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Responsable de Comunicación en Biofarma": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager / Directora de Marketing Hub Andino": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerencia General / CEO / Country Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Directora Marketing Digital, McCann San José": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Immunology Marketing Specialist": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Head of Marketing (desde mayo 2026, 2 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefa de Comunicaciones": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente de Marketing & Customer Experience BMWG": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Líder Comercial y Desarrollo de Negocios / Sales & Marketing Manager": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director General": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Digital Marketing Specialist / Marketing Team Leader": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Especialista de Mercadeo y Comunicación (jul 2022, 4 años)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Supervisora de Marketing (Especialista de Marketing)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Consultor / Estratega de Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Executive Director FEXMIN / Administrative Manager Minera Cachinal / Commercial Relationship CIM Los Andes": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Vice President Sales & Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente Corporativo de Estrategia, Marketing y Desarrollo Organizacional": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director Comercial (CCO)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Gerente General - Seguros": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Analista de Comunicaciones (abr 2025, 1 año 3 meses)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "AI Solutions Engineer": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "CEO GARNIER DIGITAL PR LATAM": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Chief Marketing Officer / AI Marketing Orchestrator": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Director of Global Communications": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Soluciones de Marketing Sostenible": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Líder de Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Analista de Marketing": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Performance Media Buyer": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefa de Marketing y Comunicaciones": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Communication Lead/Advisor (Strategic Communications and Public Affairs, Sustainability and Communities)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Marketing Manager and Technical Sales": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Jefe de Mercadeo (recién ascendido)": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "Coordinadora de Comunicación Estratégica y Empleabilidad": {
+      "total": 1,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    }
+  },
+  "conversion_por_engagement": {
+    "HIGH": {
+      "total": 13,
+      "convertidos": 2,
+      "tasa_pct": 15.4
+    },
+    "N/A": {
+      "total": 47,
+      "convertidos": 0,
+      "tasa_pct": 0.0
+    },
+    "LOW": {
+      "total": 56,
+      "convertidos": 3,
+      "tasa_pct": 5.4
+    },
+    "MEDIUM": {
+      "total": 51,
+      "convertidos": 1,
+      "tasa_pct": 2.0
+    }
+  },
+  "conversion_por_variante": {
+    "A": {
+      "total": 69,
+      "convertidos": 3,
+      "tasa_pct": 4.3
+    },
+    "(sin dato)": {
+      "total": 86,
+      "convertidos": 2,
+      "tasa_pct": 2.3
+    },
+    "C": {
+      "total": 12,
+      "convertidos": 1,
+      "tasa_pct": 8.3
+    }
+  },
+  "needs_ai_count": 133
+}

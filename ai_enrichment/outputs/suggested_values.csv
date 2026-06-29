@@ -1,0 +1,12 @@
+ID_CONVERSACION,PROSPECTO,FIELD,SUGGESTED_VALUE,CONFIDENCE,EVIDENCE,REASON,GUARDRAIL_NOTES
+CONV_0001,Alberto Castro Velzaquez,AREA,,LOW,,,
+CONV_0001,Alberto Castro Velzaquez,TIPO_PERFIL,,LOW,,,
+CONV_0003,Ana Laura González Salinas,SECTOR,,LOW,,,
+CONV_0003,Ana Laura González Salinas,TIPO_PERFIL,,LOW,,,
+CONV_0003,Ana Laura González Salinas,MOTIVO_FRACASO,Falta de perfil completo de LinkedIn y respuesta pasiva inicial (sin reciprocidad en MSG1),LOW,"""Falta perfil completo de LinkedIn para próximos seguimientos"" | ""Respondió: 'Sí, claro' (sin reciprocidad, directo al cuerpo)"" | ""RESULTADO_FINAL: SIN_RESPUESTA""",No hay respuesta a MSG2. La falta de reciprocidad inicial y datos incompletos limitaron personalización y seguimiento efectivo.,
+CONV_0004,Ana Maria Urrea G,TIPO_PERFIL,,LOW,,,
+CONV_0008,Andrea Ramírez,MOTIVO_FRACASO,,LOW,,,
+CONV_0017,Candela Pedraza,SECTOR,,LOW,,,
+CONV_0019,Carlos A. Gomez,AREA,,LOW,,,
+CONV_0020,Carlos Alberto Vargas Serrato,MOTIVO_FRACASO,,LOW,,,
+CONV_0021,Carlos Raúl Anguizola Typaldos,MOTIVO_FRACASO,,LOW,,,

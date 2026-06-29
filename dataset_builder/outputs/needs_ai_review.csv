@@ -1,0 +1,134 @@
+ID_CONVERSACION,PROSPECTO,FUENTE_ARCHIVO,OBJECION_PRINCIPAL,ENGAGEMENT_LEVEL,MOTIVO_EXITO,MOTIVO_FRACASO,TIPO_PERFIL
+CONV_0001,Alberto Castro Velzaquez,alberto-castro-velzaquez.md,NONE,HIGH,,,
+CONV_0002,Alessandro Stifani,alessandro-stifani.md,NONE,N/A,,,
+CONV_0003,Ana Laura González Salinas,ana-laura-gonzalez-salinas.md,NONE,N/A,,,
+CONV_0004,Ana Maria Urrea G,ana-maria-urrea-g.md,NONE,LOW,,,
+CONV_0006,Andrea Catalina Prieto Chapeton,andrea-catalina-prieto-chapeton.md,NONE,LOW,,,
+CONV_0007,Andrea Martínez Luna,andrea-martinez-luna.md,NONE,LOW,,,
+CONV_0008,Andrea Ramírez,andrea-ramirez.md,NONE,N/A,,,PARTNER
+CONV_0009,Anika Altamirano Marchini,anika-altamirano-marchini.md,NONE,MEDIUM,,,
+CONV_0010,Ariel Salas Sibaja,ariel-salas-sibaja.md,NONE,LOW,,,
+CONV_0011,Beatriz Guevara Gallardo,beatriz-guevara-gallardo.md,NONE,MEDIUM,,,
+CONV_0012,Bernardo Diaz,bernardo-diaz.md,NONE,MEDIUM,,,
+CONV_0013,Bernardo Guevara Morales,bernardo-guevara-morales.md,NONE,LOW,,,
+CONV_0014,Beto (Humberto) Cordeiro,beto-cordeiro.md,NONE,N/A,,no interesado,
+CONV_0015,Brenda Michelle Morales,brenda-michelle-morales.md,NONE,HIGH,,,
+CONV_0016,Camila Cantelmi,camila-cantelmi.md,NONE,LOW,,,
+CONV_0017,Candela Pedraza,candela-pedraza.md,NONE,MEDIUM,,,
+CONV_0018,Carla Bertossi,carla-bertossi.md,NONE,LOW,,,
+CONV_0019,Carlos A. Gomez,carlos-a-gomez.md,NONE,N/A,,,DECISION_MAKER
+CONV_0020,Carlos Alberto Vargas Serrato,carlos-alberto-vargas-serrato.md,NONE,LOW,,,DECISION_MAKER
+CONV_0021,Carlos Raúl Anguizola Typaldos,carlos-raul-anguizola-typaldos.md,NONE,N/A,,,
+CONV_0022,Carlos Wong Arias,carlos-wong-arias.md,NONE,MEDIUM,,,
+CONV_0023,Carolina Araya,carolina-araya.md,NONE,N/A,,,
+CONV_0024,Carolina Cabrera,carolina-cabrera.md,BAD_TIMING,MEDIUM,,no estamos buscando,
+CONV_0025,Carolina Mendoza,carolina-mendoza.md,NONE,LOW,,,
+CONV_0026,Carolina Rodriguez,carolina-rodriguez.md,NONE,LOW,,,
+CONV_0028,Catalina Torres Black,catalina-torres-black.md,NONE,N/A,,,DECISION_MAKER
+CONV_0029,Cecilia Bentolila,cecilia-bentolila.md,NONE,LOW,,,
+CONV_0030,César Escandón Sanchez,cesar-escandon-sanchez.md,HAS_AGENCY,N/A,,,DECISION_MAKER
+CONV_0032,Christel Rivera Scafidi,christel-rivera-scafidi.md,NONE,N/A,,,
+CONV_0033,Clara Ruiz Casallas,clara-ruiz-casallas.md,NONE,MEDIUM,,,
+CONV_0034,Claudia Cardemil,claudia-cardemil.md,NONE,HIGH,,,
+CONV_0035,Claudia Zazzali,claudia-zazzali.md,NONE,LOW,,,
+CONV_0036,Cristina Loaiza,cristina-loaiza.md,NONE,MEDIUM,,,
+CONV_0039,Daniela Leitón Salazar,daniela-leiton-salazar.md,NONE,MEDIUM,,,
+CONV_0040,David Spaggiari,david-spaggiari.md,CURIOSITY_ONLY,LOW,,,DECISION_MAKER
+CONV_0041,Diana Abad,diana-abad.md,NONE,MEDIUM,,,
+CONV_0042,Dulce Rodríguez,dulce-rodriguez.md,HAS_AGENCY,N/A,,,
+CONV_0043,Dyana Díaz,dyana-diaz.md,NONE,LOW,,,
+CONV_0044,Elisa Schipani,elisa-schipani.md,CURIOSITY_ONLY,MEDIUM,,,
+CONV_0045,Elizabeth Bruce,elizabeth-bruce.md,NONE,LOW,,,DECISION_MAKER
+CONV_0046,Ericka Torres,ericka-torres.md,NONE,MEDIUM,,,
+CONV_0047,Evanny Monge Córdoba,evanny-monge-cordoba.md,NONE,MEDIUM,,,
+CONV_0048,Fabio Daniel Robledo Cadavid,fabio-daniel-robledo-cadavid.md,NONE,N/A,,,
+CONV_0049,Fabiola Urbina Oporta,fabiola-urbina-oporta.md,NONE,N/A,,,SPECIALIST
+CONV_0050,Faviola Crosbie,faviola-crosbie.md,NONE,N/A,,,
+CONV_0053,Fiorella Mora,fiorella-mora.md,NONE,LOW,,,
+CONV_0054,Gabriela Láncara,gabriela-lancara.md,NONE,MEDIUM,,,
+CONV_0055,Gabriela Romero C.,gabriela-romero.md,NONE,MEDIUM,,,
+CONV_0056,Gaspar Dalla Valle,gaspar-dalla-valle.md,NONE,LOW,,,
+CONV_0057,Gastón Mourrut de Beauverger,gaston-mourrut-de-beauverger.md,NONE,HIGH,,,
+CONV_0058,Génesis Zamora,genesis-zamora.md,NONE,MEDIUM,,,
+CONV_0059,Giovanna Troncoso,giovanna-troncoso.md,CURIOSITY_ONLY,HIGH,Call agendada,,
+CONV_0062,Guillermo Perez,guillermo-perez.md,NONE,LOW,,,
+CONV_0063,Hilary Mejía,hilary-mejia.md,NONE,N/A,,,
+CONV_0066,Jana Antonioli,jana-antonioli.md,NONE,N/A,,,
+CONV_0067,Jill Benavides,jill-benavides.md,NONE,N/A,,,
+CONV_0068,Jitzel Cristina Sandoval Atencio,jitzel-cristina-sandoval-atencio.md,NONE,HIGH,,,
+CONV_0069,Johnathan Andres Torres Bermúdez,johnathan-torres-bermudez.md,BAD_TIMING,LOW,,,
+CONV_0070,Johnny Garbanzo G,johnny-garbanzo-g.md,PARTNERSHIP,LOW,,,PARTNER
+CONV_0071,Jorge Bonilla Calvo,jorge-bonilla-calvo.md,NONE,LOW,,,DECISION_MAKER
+CONV_0072,José Adrián Brenes M.,jose-adrian-brenes.md,NONE,MEDIUM,,,
+CONV_0073,Jose Alcazar Moya,jose-alcazar-moya.md,NONE,LOW,,,
+CONV_0074,Jose Carlos Restrepo,jose-carlos-restrepo.md,NONE,LOW,,,DECISION_MAKER
+CONV_0076,Jose Manuel Alfaro Molina,jose-manuel-alfaro-molina.md,NONE,LOW,,,
+CONV_0077,José Molina,jose-molina-dataformas.md,NONE,N/A,,,DECISION_MAKER
+CONV_0078,José Pablo Cáceres Aguirre,jose-pablo-caceres-aguirre.md,NONE,LOW,,,
+CONV_0083,Julian Fernando Sanchez Cardona,julian-fernando-sanchez-cardona.md,NONE,MEDIUM,,,
+CONV_0084,Julián Tovar,julian-tovar.md,NONE,HIGH,,,
+CONV_0085,Juliana Méndez,juliana-mendez-venoil.md,NONE,N/A,,,
+CONV_0086,Karina Avendaño,karina-avendano.md,NONE,MEDIUM,,,
+CONV_0087,Karina Herrera,karina-herrera.md,NONE,N/A,,,DECISION_MAKER
+CONV_0088,Karla Castillo,karla-castillo.md,NONE,HIGH,,,
+CONV_0089,Karla Lagunas Lufin,karla-lagunas-lufin.md,NONE,LOW,,,
+CONV_0090,Karla Molina Vásquez,karla-molina-vasquez.md,NONE,N/A,,,
+CONV_0091,Karla Zúñiga Chacón,karla-zuniga-chacon.md,NONE,LOW,,,
+CONV_0092,Katherine Sofía Ortiz Rodríguez,katherine-sofia-ortiz-rodriguez.md,NONE,LOW,,,
+CONV_0094,Kristela Degay AICI CIC,kristela-degay.md,PARTNERSHIP,LOW,,,DECISION_MAKER
+CONV_0095,Laura Rojas Salas CR,laura-rojas-salas.md,HAS_AGENCY,MEDIUM,,,
+CONV_0096,Laura Zarta,laura-zarta.md,NONE,MEDIUM,,,
+CONV_0097,Leidy Sandi Jimenez,leidy-sandi-jimenez.md,NONE,MEDIUM,,,
+CONV_0098,Lidia Monge,lidia-monge.md,NONE,LOW,,,
+CONV_0099,Lilia Sánchez González,lilia-sanchez-gonzalez.md,NONE,N/A,,,
+CONV_0100,Lisandra (Lis) Chaves Leiva,lisandra-chaves-leiva.md,NONE,N/A,,,SPECIALIST
+CONV_0102,Luis Alejandro Meneses,luis-alejandro-meneses.md,NONE,LOW,,,
+CONV_0103,Luis Perez,luis-perez-foamtec.md,NONE,HIGH,Call agendada,,
+CONV_0104,Luis Rodríguez,luis-rodriguez-top-brands.md,NONE,N/A,,,
+CONV_0105,"Luris Elizabeth Aguilar, MBA",luris-elizabeth-aguilar.md,NONE,N/A,,,
+CONV_0107,Manuel García Villarreal,manuel-garcia-villarreal.md,CURIOSITY_ONLY,LOW,,,DECISION_MAKER
+CONV_0108,Marcela Alfaro Ubico,marcela-alfaro-ubico.md,,MEDIUM,,,DECISION_MAKER
+CONV_0109,Marcela Granados,marcela-granados.md,NONE,MEDIUM,,,
+CONV_0110,Marco Mora,marco-mora.md,NONE,N/A,,,
+CONV_0111,María Belén Astudillo Abarzúa,maria-belen-astudillo.md,NONE,LOW,,,PARTNER
+CONV_0113,María Emma Pereira,maria-emma-pereira.md,NONE,LOW,,,PARTNER
+CONV_0114,María Jesús López Martos,maria-jesus-lopez-martos.md,PARTNERSHIP,N/A,,,DECISION_MAKER
+CONV_0115,María José Garro Camacho,maria-jose-garro.md,NONE,N/A,,,
+CONV_0116,María Murillo Reyes,maria-murillo-reyes.md,NONE,LOW,,,
+CONV_0118,Mariana Btesh,mariana-btesh.md,NONE,MEDIUM,,,
+CONV_0119,Mariana Ossandón Vera,mariana-ossandon-vera.md,BAD_TIMING,MEDIUM,,No es el momento,
+CONV_0120,Mariano Rodriguez,mariano-rodriguez.md,NONE,LOW,,,SPECIALIST
+CONV_0121,Mario Zambrano,mario-zambrano.md,NONE,LOW,,,SPECIALIST
+CONV_0122,Marisa Diaz,marisa-diaz.md,NONE,LOW,,,
+CONV_0124,Mauro Carrillo Vivanco,mauro-carrillo-vivanco.md,NONE,N/A,,,
+CONV_0125,Melania Rodriguez Morales,melania-rodriguez-morales.md,NONE,N/A,,,
+CONV_0126,Meliné Gejekoushian,meline-gejekoushian.md,BAD_TIMING,HIGH,,,
+CONV_0127,Micaela Ravina,micaela-ravina.md,NONE,LOW,,,DECISION_MAKER
+CONV_0129,Milena Ureña,milena-urena.md,NONE,N/A,,,DECISION_MAKER
+CONV_0130,Mora Ghiraldo,mora-ghiraldo.md,NONE,LOW,,,
+CONV_0133,Nicole Vilches Busques,nicole-vilches-busques.md,NONE,MEDIUM,,,
+CONV_0134,Ninon Muñoz Martínez,ninon-munoz-martinez.md,NONE,LOW,,,
+CONV_0135,Nohelia Alfaro B,nohelia-alfaro-b.md,NONE,N/A,,,
+CONV_0136,Oscar David Quintero Ramírez,oscar-david-quintero-ramirez.md,NONE,N/A,,,
+CONV_0140,Paola Gaspard M.,paola-gaspard.md,NONE,LOW,,,
+CONV_0144,Raul Campesino Ruiz,raul-campesino-ruiz.md,NONE,N/A,,,DECISION_MAKER
+CONV_0145,Reinaldo Bareyns,reinaldo-bareyns.md,NONE,LOW,,,
+CONV_0146,Ricardo Antonio Castillo Moya,ricardo-antonio-castillo-moya.md,NONE,N/A,,,
+CONV_0147,Richard Sandi Campos,richard-sandi-campos.md,NONE,LOW,,,DECISION_MAKER
+CONV_0150,Rodolfo Alabarca,rodolfo-alabarca.md,NONE,N/A,,,
+CONV_0151,Rodrigo Castro Ventura,rodrigo-castro-ventura.md,NONE,N/A,,,DECISION_MAKER
+CONV_0152,Romina Suárez,romina-suarez.md,NONE,MEDIUM,,,
+CONV_0153,Santiago Cicchetti,santiago-cicchetti.md,,N/A,,,
+CONV_0154,Steven Alfaro,steven-alfaro.md,NONE,LOW,,,DECISION_MAKER
+CONV_0156,Tatiana Alfaro,tatiana-alfaro.md,NONE,N/A,,,
+CONV_0157,Tatiana Alvarez 🇨🇷,tatiana-alvarez.md,NONE,LOW,,,PARTNER
+CONV_0158,Valentina Nuñez,valentina-nunez.md,NONE,MEDIUM,,,SPECIALIST
+CONV_0159,Valeria Pérez González,valeria-perez-gonzalez.md,NONE,N/A,,,
+CONV_0160,Vanessa Mancini Rivera,vanessa-mancini-rivera.md,NONE,MEDIUM,,,
+CONV_0161,Vero González,vero-gonzalez.md,NONE,N/A,,,
+CONV_0162,Veronica Lara,veronica-lara.md,NONE,MEDIUM,,,
+CONV_0163,Victor Peña Lisbona,victor-pena-lisbona.md,NONE,LOW,,,
+CONV_0164,Viviana Fernández Marín,viviana-fernandez-marin.md,NONE,HIGH,,,
+CONV_0165,Wilberth Picado G.,wilberth-picado-g.md,NONE,N/A,,,
+CONV_0166,Yanelly Ramírez Baltodano,yanelly-ramirez-baltodano.md,NONE,MEDIUM,,,SPECIALIST
+CONV_0167,Zayhani Rodríguez,zayhani-rodriguez.md,NONE,MEDIUM,,,

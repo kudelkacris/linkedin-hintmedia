@@ -1,0 +1,18 @@
+{
+  "registros_procesados": 20,
+  "errores": 0,
+  "campos_completados_aplicados": 52,
+  "campos_solo_sugeridos": 11,
+  "confidence_counts": {
+    "LOW": 11,
+    "MEDIUM": 15,
+    "HIGH": 37
+  },
+  "campos_mas_enriquecidos": {
+    "AREA": 18,
+    "TIPO_PERFIL": 14,
+    "SECTOR": 13,
+    "MOTIVO_FRACASO": 7
+  },
+  "detalle_errores": []
+}

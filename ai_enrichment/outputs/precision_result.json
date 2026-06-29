@@ -1,0 +1,24 @@
+{
+  "umbral_precision": 0.85,
+  "por_bucket": {
+    "HIGH": {
+      "total_revisado": 10,
+      "correctos": 10,
+      "precision_pct": 100.0
+    },
+    "MEDIUM": {
+      "total_revisado": 10,
+      "correctos": 8,
+      "precision_pct": 80.0
+    },
+    "LOW": {
+      "total_revisado": 10,
+      "correctos": 10,
+      "precision_pct": 100.0
+    }
+  },
+  "precision_applied_pct": 90.0,
+  "total_applied_revisado": 20,
+  "run_full_batch_recomendado": true,
+  "filas_pendientes_de_revision": 0
+}
