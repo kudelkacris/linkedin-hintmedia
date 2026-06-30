@@ -6,7 +6,7 @@
     "respuesta_sugerida": "",
     "recuperable": null,
     "ultima_actualizacion": "2026-06-30",
-    "version": 8
+    "version": 9
   },
   "CURIOSITY_ONLY": {
     "objecion": "CURIOSITY_ONLY",
@@ -15,7 +15,7 @@
     "respuesta_sugerida": "",
     "recuperable": null,
     "ultima_actualizacion": "2026-06-30",
-    "version": 8
+    "version": 9
   },
   "HAS_AGENCY": {
     "objecion": "HAS_AGENCY",
@@ -24,7 +24,7 @@
     "respuesta_sugerida": "",
     "recuperable": null,
     "ultima_actualizacion": "2026-06-30",
-    "version": 8
+    "version": 9
   },
   "PARTNERSHIP": {
     "objecion": "PARTNERSHIP",
@@ -33,6 +33,6 @@
     "respuesta_sugerida": "",
     "recuperable": null,
     "ultima_actualizacion": "2026-06-30",
-    "version": 8
+    "version": 9
   }
 }

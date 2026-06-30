@@ -22,6 +22,7 @@ import knowledge_base
 import change_detector
 import conversation_engine
 import experiment_engine
+import strategy_engine
 import report_builder
 
 
@@ -129,7 +130,16 @@ def run_full():
     log('Generando context_injection.json...')
     knowledge_base.build_context_injection(sectors, patterns)
 
-    # ── 7. Reporte ────────────────────────────────────────────────────────────
+    # ── 7. Strategy brief ─────────────────────────────────────────────────────
+    log('Generando strategy_brief.md...')
+    conv_signals = {}
+    if os.path.exists(config.KB_SIGNALS):
+        with open(config.KB_SIGNALS, 'r', encoding='utf-8') as _f:
+            conv_signals = json.load(_f)
+    brief_path = strategy_engine.run(patterns, sectors, alerts, exp_data, conv_signals)
+    log(f'  Brief: {brief_path}')
+
+    # ── 8. Reporte ────────────────────────────────────────────────────────────
     log('Generando intelligence_report.md...')
     report_path = report_builder.build(patterns, sectors, objections, alerts, exp_data)
     log(f'  Reporte: {report_path}')
