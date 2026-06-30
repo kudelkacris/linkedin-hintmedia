@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "generado": "2026-06-30",
+    "n_historial": 427,
+    "n_dataset_md": 167,
+    "version": 2,
+    "previous_n": 427
+  },
+  "global": {
+    "n": 427,
+    "respondio_n": 23,
+    "respondio_pct": 5.4,
+    "dossier_n": 107,
+    "dossier_pct": 25.1,
+    "seg_n": 55,
+    "seg_pct": 12.9,
+    "avanzado_n": 10,
+    "avanzado_pct": 2.3,
+    "confianza": "HIGH"
+  },
+  "por_sector": {
+    "(sin dato)": {
+      "dimension": "SECTOR",
+      "valor": "(sin dato)",
+      "n": 199,
+      "confianza": "HIGH",
+      "respondio_pct": 5.5,
+      "dossier_pct": 23.6,
+      "seg_pct": 16.6,
+      "avanzado_pct": 2.5,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Agencia/Marketing": {
+      "dimension": "SECTOR",
+      "valor": "Agencia/Marketing",
+      "n": 25,
+      "confianza": "LOW",
+      "respondio_pct": 8.0,
+      "dossier_pct": 28.0,
+      "seg_pct": 12.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Agro/Alimentos": {
+      "dimension": "SECTOR",
+      "valor": "Agro/Alimentos",
+      "n": 4,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 25.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Automotriz": {
+      "dimension": "SECTOR",
+      "valor": "Automotriz",
+      "n": 3,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 0.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Construcción/Materiales": {
+      "dimension": "SECTOR",
+      "valor": "Construcción/Materiales",
+      "n": 3,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 0.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Consultoría/Legal": {
+      "dimension": "SECTOR",
+      "valor": "Consultoría/Legal",
+      "n": 10,
+      "confianza": "LOW",
+      "respondio_pct": 10.0,
+      "dossier_pct": 30.0,
+      "seg_pct": 10.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Educación": {
+      "dimension": "SECTOR",
+      "valor": "Educación",
+      "n": 42,
+      "confianza": "MEDIUM",
+      "respondio_pct": 2.4,
+      "dossier_pct": 35.7,
+      "seg_pct": 7.1,
+      "avanzado_pct": 2.4,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Energía": {
+      "dimension": "SECTOR",
+      "valor": "Energía",
+      "n": 26,
+      "confianza": "LOW",
+      "respondio_pct": 7.7,
+      "dossier_pct": 26.9,
+      "seg_pct": 7.7,
+      "avanzado_pct": 3.8,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Farmacéutico": {
+      "dimension": "SECTOR",
+      "valor": "Farmacéutico",
+      "n": 20,
+      "confianza": "LOW",
+      "respondio_pct": 10.0,
+      "dossier_pct": 25.0,
+      "seg_pct": 5.0,
+      "avanzado_pct": 5.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Logística/Transporte": {
+      "dimension": "SECTOR",
+      "valor": "Logística/Transporte",
+      "n": 4,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 0.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Medios/Comunicación": {
+      "dimension": "SECTOR",
+      "valor": "Medios/Comunicación",
+      "n": 3,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 0.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Minería": {
+      "dimension": "SECTOR",
+      "valor": "Minería",
+      "n": 14,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 35.7,
+      "seg_pct": 14.3,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Real Estate": {
+      "dimension": "SECTOR",
+      "valor": "Real Estate",
+      "n": 8,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 37.5,
+      "seg_pct": 37.5,
+      "avanzado_pct": 12.5,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Retail/Consumo": {
+      "dimension": "SECTOR",
+      "valor": "Retail/Consumo",
+      "n": 16,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 12.5,
+      "seg_pct": 12.5,
+      "avanzado_pct": 6.2,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Salud/Clínica": {
+      "dimension": "SECTOR",
+      "valor": "Salud/Clínica",
+      "n": 6,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 33.3,
+      "seg_pct": 16.7,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Seguros/Finanzas": {
+      "dimension": "SECTOR",
+      "valor": "Seguros/Finanzas",
+      "n": 9,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 11.1,
+      "dossier_pct": 33.3,
+      "seg_pct": 22.2,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Tecnología": {
+      "dimension": "SECTOR",
+      "valor": "Tecnología",
+      "n": 20,
+      "confianza": "LOW",
+      "respondio_pct": 10.0,
+      "dossier_pct": 25.0,
+      "seg_pct": 5.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Turismo/Hotelería": {
+      "dimension": "SECTOR",
+      "valor": "Turismo/Hotelería",
+      "n": 14,
+      "confianza": "LOW",
+      "respondio_pct": 7.1,
+      "dossier_pct": 14.3,
+      "seg_pct": 7.1,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "por_seniority": {
+    "CEO": {
+      "dimension": "SENIORITY",
+      "valor": "CEO",
+      "n": 10,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 10.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "DIRECTOR": {
+      "dimension": "SENIORITY",
+      "valor": "DIRECTOR",
+      "n": 11,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 27.3,
+      "seg_pct": 9.1,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "MANAGER": {
+      "dimension": "SENIORITY",
+      "valor": "MANAGER",
+      "n": 34,
+      "confianza": "MEDIUM",
+      "respondio_pct": 2.9,
+      "dossier_pct": 20.6,
+      "seg_pct": 5.9,
+      "avanzado_pct": 2.9,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "OTHER": {
+      "dimension": "SENIORITY",
+      "valor": "OTHER",
+      "n": 363,
+      "confianza": "HIGH",
+      "respondio_pct": 6.1,
+      "dossier_pct": 25.9,
+      "seg_pct": 14.0,
+      "avanzado_pct": 2.5,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "SPECIALIST": {
+      "dimension": "SENIORITY",
+      "valor": "SPECIALIST",
+      "n": 8,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 25.0,
+      "seg_pct": 12.5,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "por_variante": {
+    "A": {
+      "dimension": "VARIANTE",
+      "valor": "A",
+      "n": 260,
+      "confianza": "HIGH",
+      "respondio_pct": 5.8,
+      "dossier_pct": 28.5,
+      "seg_pct": 12.7,
+      "avanzado_pct": 2.3,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "C": {
+      "dimension": "VARIANTE",
+      "valor": "C",
+      "n": 67,
+      "confianza": "MEDIUM",
+      "respondio_pct": 6.0,
+      "dossier_pct": 19.4,
+      "seg_pct": 13.4,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "combos": {
+    "Agencia/Marketing × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Agencia/Marketing × OTHER",
+      "n": 22,
+      "confianza": "LOW",
+      "respondio_pct": 9.1,
+      "dossier_pct": 31.8,
+      "seg_pct": 13.6,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Consultoría/Legal × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Consultoría/Legal × OTHER",
+      "n": 5,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 20.0,
+      "dossier_pct": 20.0,
+      "seg_pct": 20.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Educación × DIRECTOR": {
+      "dimension": "COMBO",
+      "valor": "Educación × DIRECTOR",
+      "n": 5,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 0.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Educación × MANAGER": {
+      "dimension": "COMBO",
+      "valor": "Educación × MANAGER",
+      "n": 11,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 9.1,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Educación × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Educación × OTHER",
+      "n": 23,
+      "confianza": "LOW",
+      "respondio_pct": 4.3,
+      "dossier_pct": 52.2,
+      "seg_pct": 13.0,
+      "avanzado_pct": 4.3,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Energía × MANAGER": {
+      "dimension": "COMBO",
+      "valor": "Energía × MANAGER",
+      "n": 5,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 20.0,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Energía × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Energía × OTHER",
+      "n": 20,
+      "confianza": "LOW",
+      "respondio_pct": 10.0,
+      "dossier_pct": 25.0,
+      "seg_pct": 10.0,
+      "avanzado_pct": 5.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Farmacéutico × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Farmacéutico × OTHER",
+      "n": 18,
+      "confianza": "LOW",
+      "respondio_pct": 5.6,
+      "dossier_pct": 22.2,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Minería × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Minería × OTHER",
+      "n": 10,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 40.0,
+      "seg_pct": 10.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Real Estate × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Real Estate × OTHER",
+      "n": 7,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 0.0,
+      "dossier_pct": 28.6,
+      "seg_pct": 28.6,
+      "avanzado_pct": 14.3,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Retail/Consumo × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Retail/Consumo × OTHER",
+      "n": 13,
+      "confianza": "LOW",
+      "respondio_pct": 0.0,
+      "dossier_pct": 15.4,
+      "seg_pct": 15.4,
+      "avanzado_pct": 7.7,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Seguros/Finanzas × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Seguros/Finanzas × OTHER",
+      "n": 7,
+      "confianza": "INSUFFICIENT",
+      "respondio_pct": 14.3,
+      "dossier_pct": 42.9,
+      "seg_pct": 28.6,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Tecnología × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Tecnología × OTHER",
+      "n": 17,
+      "confianza": "LOW",
+      "respondio_pct": 11.8,
+      "dossier_pct": 23.5,
+      "seg_pct": 5.9,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "Turismo/Hotelería × OTHER": {
+      "dimension": "COMBO",
+      "valor": "Turismo/Hotelería × OTHER",
+      "n": 12,
+      "confianza": "LOW",
+      "respondio_pct": 8.3,
+      "dossier_pct": 8.3,
+      "seg_pct": 0.0,
+      "avanzado_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "por_engagement": {
+    "HIGH": {
+      "dimension": "ENGAGEMENT_LEVEL",
+      "valor": "HIGH",
+      "n": 13,
+      "confianza": "LOW",
+      "dossier_pct": 69.2,
+      "reunion_pct": 15.4,
+      "cliente_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "LOW": {
+      "dimension": "ENGAGEMENT_LEVEL",
+      "valor": "LOW",
+      "n": 56,
+      "confianza": "MEDIUM",
+      "dossier_pct": 30.4,
+      "reunion_pct": 5.4,
+      "cliente_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "MEDIUM": {
+      "dimension": "ENGAGEMENT_LEVEL",
+      "valor": "MEDIUM",
+      "n": 51,
+      "confianza": "MEDIUM",
+      "dossier_pct": 66.7,
+      "reunion_pct": 2.0,
+      "cliente_pct": 0.0,
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "por_objecion": {
+    "BAD_TIMING": {
+      "dimension": "OBJECION_PRINCIPAL",
+      "valor": "BAD_TIMING",
+      "n": 5,
+      "confianza": "INSUFFICIENT",
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "CURIOSITY_ONLY": {
+      "dimension": "OBJECION_PRINCIPAL",
+      "valor": "CURIOSITY_ONLY",
+      "n": 5,
+      "confianza": "INSUFFICIENT",
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "HAS_AGENCY": {
+      "dimension": "OBJECION_PRINCIPAL",
+      "valor": "HAS_AGENCY",
+      "n": 4,
+      "confianza": "INSUFFICIENT",
+      "fecha": "2026-06-30",
+      "version": 1
+    },
+    "PARTNERSHIP": {
+      "dimension": "OBJECION_PRINCIPAL",
+      "valor": "PARTNERSHIP",
+      "n": 10,
+      "confianza": "LOW",
+      "fecha": "2026-06-30",
+      "version": 1
+    }
+  },
+  "insights": [
+    {
+      "id": "INS_BEST_SECTOR",
+      "tipo": "CONVERSION_PATTERN",
+      "titulo": "Mejor sector: Real Estate (37.5% dossier, n=8)",
+      "confianza": "INSUFFICIENT",
+      "n": 8,
+      "accion": "Priorizar contactos en Real Estate",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_VARIANTE_WINNER",
+      "tipo": "CONVERSION_PATTERN",
+      "titulo": "Variante A supera a C: 28.5% vs 19.4% dossier",
+      "confianza": "MEDIUM",
+      "n_A": 260,
+      "n_C": 67,
+      "accion": "Default Variante A. Aumentar casos de Variante C para confirmar (n=67, necesita ≥30 para confianza MEDIUM)",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_CEO_UNDERPERFORMS",
+      "tipo": "TARGETING_WARNING",
+      "titulo": "CEO convierte menos en frío: 10.0% vs Director 27.3%",
+      "confianza": "LOW",
+      "n_ceo": 10,
+      "n_director": 11,
+      "accion": "Preferir Director/Manager como primer contacto. Escalar a CEO solo si el Director lo sugiere.",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_PROMISING_CONSULTORÍA_LEGAL",
+      "tipo": "EXPERIMENT_NEEDED",
+      "titulo": "Consultoría/Legal: 30.0% dossier pero n=10 (insuficiente para confirmar)",
+      "confianza": "LOW",
+      "n": 10,
+      "accion": "Aumentar volumen en Consultoría/Legal para confirmar el patrón. Objetivo: n=30.",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_PROMISING_MINERÍA",
+      "tipo": "EXPERIMENT_NEEDED",
+      "titulo": "Minería: 35.7% dossier pero n=14 (insuficiente para confirmar)",
+      "confianza": "LOW",
+      "n": 14,
+      "accion": "Aumentar volumen en Minería para confirmar el patrón. Objetivo: n=30.",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_PROMISING_REAL ESTATE",
+      "tipo": "EXPERIMENT_NEEDED",
+      "titulo": "Real Estate: 37.5% dossier pero n=8 (insuficiente para confirmar)",
+      "confianza": "LOW",
+      "n": 8,
+      "accion": "Aumentar volumen en Real Estate para confirmar el patrón. Objetivo: n=30.",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_PROMISING_SALUD_CLÍNICA",
+      "tipo": "EXPERIMENT_NEEDED",
+      "titulo": "Salud/Clínica: 33.3% dossier pero n=6 (insuficiente para confirmar)",
+      "confianza": "LOW",
+      "n": 6,
+      "accion": "Aumentar volumen en Salud/Clínica para confirmar el patrón. Objetivo: n=30.",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_PROMISING_SEGUROS_FINANZAS",
+      "tipo": "EXPERIMENT_NEEDED",
+      "titulo": "Seguros/Finanzas: 33.3% dossier pero n=9 (insuficiente para confirmar)",
+      "confianza": "LOW",
+      "n": 9,
+      "accion": "Aumentar volumen en Seguros/Finanzas para confirmar el patrón. Objetivo: n=30.",
+      "fecha": "2026-06-30"
+    }
+  ]
+}

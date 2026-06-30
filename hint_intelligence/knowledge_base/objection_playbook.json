@@ -1,0 +1,38 @@
+{
+  "BAD_TIMING": {
+    "objecion": "BAD_TIMING",
+    "n": 5,
+    "confianza": "INSUFFICIENT",
+    "respuesta_sugerida": "",
+    "recuperable": null,
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "CURIOSITY_ONLY": {
+    "objecion": "CURIOSITY_ONLY",
+    "n": 5,
+    "confianza": "INSUFFICIENT",
+    "respuesta_sugerida": "",
+    "recuperable": null,
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "HAS_AGENCY": {
+    "objecion": "HAS_AGENCY",
+    "n": 4,
+    "confianza": "INSUFFICIENT",
+    "respuesta_sugerida": "",
+    "recuperable": null,
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "PARTNERSHIP": {
+    "objecion": "PARTNERSHIP",
+    "n": 10,
+    "confianza": "LOW",
+    "respuesta_sugerida": "",
+    "recuperable": null,
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "generado": "2026-06-30",
+    "n_total": 427,
+    "dossier_rate_global": 25.1
+  },
+  "por_sector": {
+    "Agencia/Marketing": {
+      "dossier_pct": 28.0,
+      "confianza": "LOW",
+      "n": 25,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Tasarolli"
+      ]
+    },
+    "Agro/Alimentos": {
+      "dossier_pct": 25.0,
+      "confianza": "INSUFFICIENT",
+      "n": 4,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Automotriz": {
+      "dossier_pct": 0.0,
+      "confianza": "INSUFFICIENT",
+      "n": 3,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Construcción/Materiales": {
+      "dossier_pct": 0.0,
+      "confianza": "INSUFFICIENT",
+      "n": 3,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "TGS",
+        "Transener"
+      ]
+    },
+    "Consultoría/Legal": {
+      "dossier_pct": 30.0,
+      "confianza": "LOW",
+      "n": 10,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Educación": {
+      "dossier_pct": 35.7,
+      "confianza": "MEDIUM",
+      "n": 42,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Energía": {
+      "dossier_pct": 26.9,
+      "confianza": "LOW",
+      "n": 26,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "TGS",
+        "Transener"
+      ]
+    },
+    "Farmacéutico": {
+      "dossier_pct": 25.0,
+      "confianza": "LOW",
+      "n": 20,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Libra Seguros",
+        "Destiny Group"
+      ]
+    },
+    "Logística/Transporte": {
+      "dossier_pct": 0.0,
+      "confianza": "INSUFFICIENT",
+      "n": 4,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Medios/Comunicación": {
+      "dossier_pct": 0.0,
+      "confianza": "INSUFFICIENT",
+      "n": 3,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Minería": {
+      "dossier_pct": 35.7,
+      "confianza": "LOW",
+      "n": 14,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "TGS",
+        "Transener"
+      ]
+    },
+    "Real Estate": {
+      "dossier_pct": 37.5,
+      "confianza": "INSUFFICIENT",
+      "n": 8,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Retail/Consumo": {
+      "dossier_pct": 12.5,
+      "confianza": "LOW",
+      "n": 16,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Tasarolli"
+      ]
+    },
+    "Salud/Clínica": {
+      "dossier_pct": 33.3,
+      "confianza": "INSUFFICIENT",
+      "n": 6,
+      "mejor_seniority": "INSUFFICIENT_DATA",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Libra Seguros",
+        "Destiny Group"
+      ]
+    },
+    "Seguros/Finanzas": {
+      "dossier_pct": 33.3,
+      "confianza": "INSUFFICIENT",
+      "n": 9,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Libra Seguros",
+        "Destiny Group"
+      ]
+    },
+    "Tecnología": {
+      "dossier_pct": 25.0,
+      "confianza": "LOW",
+      "n": 20,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    },
+    "Turismo/Hotelería": {
+      "dossier_pct": 14.3,
+      "confianza": "LOW",
+      "n": 14,
+      "mejor_seniority": "OTHER",
+      "mejor_variante": "A",
+      "clientes_hint": [
+        "Destiny Group",
+        "Libra Seguros"
+      ]
+    }
+  },
+  "variantes": {
+    "A": {
+      "dossier_pct": 28.5,
+      "n": 260
+    },
+    "C": {
+      "dossier_pct": 19.4,
+      "n": 67
+    }
+  },
+  "seniorities": {
+    "CEO": {
+      "dossier_pct": 10.0,
+      "n": 10
+    },
+    "DIRECTOR": {
+      "dossier_pct": 27.3,
+      "n": 11
+    },
+    "MANAGER": {
+      "dossier_pct": 20.6,
+      "n": 34
+    },
+    "OTHER": {
+      "dossier_pct": 25.9,
+      "n": 363
+    },
+    "SPECIALIST": {
+      "dossier_pct": 25.0,
+      "n": 8
+    }
+  },
+  "insights_criticos": [
+    {
+      "id": "INS_BEST_SECTOR",
+      "tipo": "CONVERSION_PATTERN",
+      "titulo": "Mejor sector: Real Estate (37.5% dossier, n=8)",
+      "confianza": "INSUFFICIENT",
+      "n": 8,
+      "accion": "Priorizar contactos en Real Estate",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_VARIANTE_WINNER",
+      "tipo": "CONVERSION_PATTERN",
+      "titulo": "Variante A supera a C: 28.5% vs 19.4% dossier",
+      "confianza": "MEDIUM",
+      "n_A": 260,
+      "n_C": 67,
+      "accion": "Default Variante A. Aumentar casos de Variante C para confirmar (n=67, necesita ≥30 para confianza MEDIUM)",
+      "fecha": "2026-06-30"
+    },
+    {
+      "id": "INS_CEO_UNDERPERFORMS",
+      "tipo": "TARGETING_WARNING",
+      "titulo": "CEO convierte menos en frío: 10.0% vs Director 27.3%",
+      "confianza": "LOW",
+      "n_ceo": 10,
+      "n_director": 11,
+      "accion": "Preferir Director/Manager como primer contacto. Escalar a CEO solo si el Director lo sugiere.",
+      "fecha": "2026-06-30"
+    }
+  ]
+}

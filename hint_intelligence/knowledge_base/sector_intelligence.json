@@ -1,0 +1,291 @@
+{
+  "Agencia/Marketing": {
+    "sector": "Agencia/Marketing",
+    "n_total": 25,
+    "respondio_pct": 8.0,
+    "dossier_pct": 28.0,
+    "seg_pct": 12.0,
+    "avanzado_pct": 0.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Tasarolli"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Agro/Alimentos": {
+    "sector": "Agro/Alimentos",
+    "n_total": 4,
+    "respondio_pct": 0.0,
+    "dossier_pct": 25.0,
+    "seg_pct": 0.0,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Automotriz": {
+    "sector": "Automotriz",
+    "n_total": 3,
+    "respondio_pct": 0.0,
+    "dossier_pct": 0.0,
+    "seg_pct": 0.0,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Construcción/Materiales": {
+    "sector": "Construcción/Materiales",
+    "n_total": 3,
+    "respondio_pct": 0.0,
+    "dossier_pct": 0.0,
+    "seg_pct": 0.0,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "TGS",
+      "Transener"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Consultoría/Legal": {
+    "sector": "Consultoría/Legal",
+    "n_total": 10,
+    "respondio_pct": 10.0,
+    "dossier_pct": 30.0,
+    "seg_pct": 10.0,
+    "avanzado_pct": 0.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Educación": {
+    "sector": "Educación",
+    "n_total": 42,
+    "respondio_pct": 2.4,
+    "dossier_pct": 35.7,
+    "seg_pct": 7.1,
+    "avanzado_pct": 2.4,
+    "confianza": "MEDIUM",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Energía": {
+    "sector": "Energía",
+    "n_total": 26,
+    "respondio_pct": 7.7,
+    "dossier_pct": 26.9,
+    "seg_pct": 7.7,
+    "avanzado_pct": 3.8,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "TGS",
+      "Transener"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Farmacéutico": {
+    "sector": "Farmacéutico",
+    "n_total": 20,
+    "respondio_pct": 10.0,
+    "dossier_pct": 25.0,
+    "seg_pct": 5.0,
+    "avanzado_pct": 5.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Libra Seguros",
+      "Destiny Group"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Logística/Transporte": {
+    "sector": "Logística/Transporte",
+    "n_total": 4,
+    "respondio_pct": 0.0,
+    "dossier_pct": 0.0,
+    "seg_pct": 0.0,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Medios/Comunicación": {
+    "sector": "Medios/Comunicación",
+    "n_total": 3,
+    "respondio_pct": 0.0,
+    "dossier_pct": 0.0,
+    "seg_pct": 0.0,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Minería": {
+    "sector": "Minería",
+    "n_total": 14,
+    "respondio_pct": 0.0,
+    "dossier_pct": 35.7,
+    "seg_pct": 14.3,
+    "avanzado_pct": 0.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "TGS",
+      "Transener"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Real Estate": {
+    "sector": "Real Estate",
+    "n_total": 8,
+    "respondio_pct": 0.0,
+    "dossier_pct": 37.5,
+    "seg_pct": 37.5,
+    "avanzado_pct": 12.5,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Retail/Consumo": {
+    "sector": "Retail/Consumo",
+    "n_total": 16,
+    "respondio_pct": 0.0,
+    "dossier_pct": 12.5,
+    "seg_pct": 12.5,
+    "avanzado_pct": 6.2,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Tasarolli"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Salud/Clínica": {
+    "sector": "Salud/Clínica",
+    "n_total": 6,
+    "respondio_pct": 0.0,
+    "dossier_pct": 33.3,
+    "seg_pct": 16.7,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "INSUFFICIENT_DATA",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Libra Seguros",
+      "Destiny Group"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Seguros/Finanzas": {
+    "sector": "Seguros/Finanzas",
+    "n_total": 9,
+    "respondio_pct": 11.1,
+    "dossier_pct": 33.3,
+    "seg_pct": 22.2,
+    "avanzado_pct": 0.0,
+    "confianza": "INSUFFICIENT",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Libra Seguros",
+      "Destiny Group"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Tecnología": {
+    "sector": "Tecnología",
+    "n_total": 20,
+    "respondio_pct": 10.0,
+    "dossier_pct": 25.0,
+    "seg_pct": 5.0,
+    "avanzado_pct": 0.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  },
+  "Turismo/Hotelería": {
+    "sector": "Turismo/Hotelería",
+    "n_total": 14,
+    "respondio_pct": 7.1,
+    "dossier_pct": 14.3,
+    "seg_pct": 7.1,
+    "avanzado_pct": 0.0,
+    "confianza": "LOW",
+    "mejor_seniority": "OTHER",
+    "mejor_variante": "A",
+    "clientes_hint": [
+      "Destiny Group",
+      "Libra Seguros"
+    ],
+    "ultima_actualizacion": "2026-06-30",
+    "version": 2
+  }
+}
