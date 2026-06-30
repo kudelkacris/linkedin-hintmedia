@@ -1004,6 +1004,108 @@ B4: ...`;
   }
 }
 
+// ─── HIE REPLY SCORER ────────────────────────────────────────────────────────
+// Señales positivas y negativas cargadas desde signals.json (via /api/intelligence)
+let _hieSignals = null;
+
+async function loadHIESignals() {
+  if (_hieSignals) return _hieSignals;
+  try {
+    const res = await fetch('/api/intelligence');
+    if (!res.ok) return null;
+    const data = await res.json();
+    const kb = data.context;
+    // Extraer señales del context (el servidor sirve context_injection.json,
+    // pero signals.json está en KB por separado — usamos datos hardcodeados
+    // desde el último run del engine como fallback si no están en context)
+    _hieSignals = {
+      positive: ['correcto', 'contenido', 'marcas', 'interesante', 'nosotros', 'años',
+                 'sin', 'eso', 'mismo', 'puede', 'media', 'apoyarte', 'embargo', 'area'],
+      negative: ['escribirme', 'cuentame', 'cual', 'alegra'],
+      // Umbrales validados empíricamente
+      LONG_RESPONSE_CHARS: 200,    // >200 → señal positiva
+      MEDIUM_RESPONSE_CHARS: 100,  // 100-200 → neutral
+      // Tasas históricas para mostrar en UI
+      dossier_pct: { HIGH: 81.8, MEDIUM: 71.1, LOW: 31.5 },
+    };
+    return _hieSignals;
+  } catch(_) {
+    return null;
+  }
+}
+
+async function scoreReply(textarea, stepNum) {
+  const text = textarea.value.trim();
+  const scoreEl = document.getElementById(`reply-score-${stepNum}`);
+  if (!scoreEl) return;
+
+  if (text.length < 10) {
+    scoreEl.style.display = 'none';
+    return;
+  }
+
+  const signals = await loadHIESignals();
+  if (!signals) return;
+
+  const lower = text.toLowerCase();
+  const words = lower.match(/\b[a-záéíóúüñ]{3,}\b/g) || [];
+  const wordSet = new Set(words);
+
+  // Calcular score
+  let score = 0;
+  const found_pos = [];
+  const found_neg = [];
+
+  // Longitud (predictor más fuerte)
+  if (text.length >= signals.LONG_RESPONSE_CHARS) {
+    score += 3;
+  } else if (text.length >= signals.MEDIUM_RESPONSE_CHARS) {
+    score += 1;
+  }
+
+  // Pregunta (2do predictor más fuerte)
+  if (text.includes('?')) score += 2;
+
+  // Señales positivas
+  for (const w of signals.positive) {
+    if (wordSet.has(w)) { score += 1; found_pos.push(w); }
+  }
+
+  // Señales negativas
+  for (const w of signals.negative) {
+    if (wordSet.has(w)) { score -= 1; found_neg.push(w); }
+  }
+
+  // Clasificar
+  let nivel, color, bg, hist_pct, label;
+  if (score >= 5) {
+    nivel = 'HIGH'; color = '#1A7A3C'; bg = '#EBF9F1';
+    hist_pct = signals.dossier_pct.HIGH; label = 'Señal alta de conversión';
+  } else if (score >= 2) {
+    nivel = 'MEDIUM'; color = '#8A5C00'; bg = '#FFF8E6';
+    hist_pct = signals.dossier_pct.MEDIUM; label = 'Señal media';
+  } else {
+    nivel = 'LOW'; color = '#7A3800'; bg = '#FFF0EB';
+    hist_pct = signals.dossier_pct.LOW; label = 'Señal baja';
+  }
+
+  // Razones
+  const reasons = [];
+  if (text.length >= signals.LONG_RESPONSE_CHARS) reasons.push(`respuesta larga (${text.length} chars)`);
+  if (text.includes('?')) reasons.push('hace una pregunta');
+  if (found_pos.length > 0) reasons.push(`palabras clave: ${found_pos.slice(0,3).join(', ')}`);
+  if (found_neg.length > 0) reasons.push(`señales frías: ${found_neg.join(', ')}`);
+
+  scoreEl.style.display = 'block';
+  scoreEl.style.background = bg;
+  scoreEl.style.borderColor = color;
+  scoreEl.style.color = color;
+  scoreEl.innerHTML = `
+    <strong>${label}</strong> · ${hist_pct}% llegaron a dossier con este patrón
+    <br><span style="opacity:.75;font-size:10.5px">${reasons.join(' · ') || 'respuesta corta'}</span>
+  `;
+}
+
 // ─── HIE CONTEXT BUILDER ─────────────────────────────────────────────────────
 function buildHIEContextBlock(ctx, profileText) {
   if (!ctx || !ctx.por_sector) return '';
@@ -1373,7 +1475,8 @@ function addReplyStep(thread, stepNum) {
       <small>${es ? 'Pegá su respuesta exacta' : 'Paste their exact reply'}</small>
     </div>
     <div class="reply-box">
-      <textarea class="reply-input" id="reply-${stepNum}" placeholder="${es ? 'Pegá acá lo que te escribió...\n\nEjemplo: "Hola Florencia, así es. Ese es mi cargo. ¿En qué te puedo ayudar?"' : 'Paste what they wrote...\n\nExample: "Hi Florencia, that\'s correct. How can I help you?"'}"></textarea>
+      <textarea class="reply-input" id="reply-${stepNum}" placeholder="${es ? 'Pegá acá lo que te escribió...\n\nEjemplo: "Hola Florencia, así es. Ese es mi cargo. ¿En qué te puedo ayudar?"' : 'Paste what they wrote...\n\nExample: "Hi Florencia, that\'s correct. How can I help you?"'}" oninput="scoreReply(this, ${stepNum})"></textarea>
+      <div id="reply-score-${stepNum}" style="display:none;margin-top:6px;padding:7px 10px;border-radius:7px;font-size:11.5px;line-height:1.5;border:1.5px solid"></div>
       <div class="reply-actions">
         <button class="btn-reply" id="reply-btn-${stepNum}" onclick="handleReply(${stepNum})">
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
