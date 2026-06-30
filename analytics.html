@@ -553,42 +553,43 @@
     </div>
 
     <div class="card">
-      <h3>Costo por mensaje generado</h3>
+      <h3>Costo por contacto — qué mueve la aguja</h3>
       <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px">
         <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
           <div>
-            <div style="font-size:.85rem;font-weight:600">MSG1 — primer contacto</div>
-            <div class="cost-note">1 llamada · ~1200 tokens entrada + ~100 salida</div>
+            <div style="font-size:.85rem;font-weight:600">MSG1 — primer mensaje personalizado</div>
+            <div class="cost-note">System prompt 8.400 tokens + perfil LinkedIn ~3.300 tokens + output ~100 tokens</div>
           </div>
-          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.001</div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--yellow)">~$0.010</div>
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
           <div>
             <div style="font-size:.85rem;font-weight:600">MSG2 — mensaje con pitch</div>
-            <div class="cost-note">1 llamada · ~1500 tokens entrada + ~220 salida</div>
+            <div class="cost-note">System prompt cacheado + contexto conversación + output ~220 tokens</div>
           </div>
-          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.002</div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.003</div>
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
           <div>
             <div style="font-size:.85rem;font-weight:600">SEG1 / SEG2 — seguimiento</div>
-            <div class="cost-note">1 llamada · ~1400 tokens entrada + ~180 salida</div>
+            <div class="cost-note">System prompt cacheado + contexto + output ~180 tokens</div>
           </div>
-          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.001</div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--green)">~$0.003</div>
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0">
           <div>
-            <div style="font-size:.85rem;font-weight:600">Conversación completa (MSG1+MSG2+SEG1)</div>
-            <div class="cost-note">3 llamadas · todo el flujo hasta seguimiento</div>
+            <div style="font-size:.85rem;font-weight:600">Conversación completa (MSG1 + MSG2 + SEG1)</div>
+            <div class="cost-note">3 llamadas · flujo completo hasta seguimiento</div>
           </div>
-          <div style="font-size:1.1rem;font-weight:700;color:var(--accent)">~$0.004</div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--accent)">~$0.016</div>
         </div>
       </div>
+      <p class="note" style="margin-top:12px">El MSG1 es la llamada más cara porque manda el perfil completo de LinkedIn (~3.300 tokens promedio). El system prompt (8.400 tokens) está cacheado — se cobra una vez y los siguientes mensajes lo reusan a 1/10 del precio.</p>
     </div>
   </div>
 
   <div class="card" style="margin-top:20px">
-    <h3>Desglose de llamadas realizadas</h3>
+    <h3>Desglose de llamadas realizadas (427 contactos)</h3>
     <div style="margin-top:12px">
       <div class="cost-row header">
         <div>Tipo de llamada</div>
@@ -597,43 +598,43 @@
         <div class="cost-val">Subtotal</div>
       </div>
       <div class="cost-row">
-        <div>MSG1 generados (programa principal)</div>
+        <div>MSG1 generados</div>
         <div class="cost-val">427</div>
-        <div class="cost-val">$0.001</div>
-        <div class="cost-val">~$0.43</div>
+        <div class="cost-val">$0.010</div>
+        <div class="cost-val">~$4.27</div>
       </div>
       <div class="cost-row">
         <div>MSG2 generados</div>
         <div class="cost-val">211</div>
-        <div class="cost-val">$0.002</div>
-        <div class="cost-val">~$0.42</div>
+        <div class="cost-val">$0.003</div>
+        <div class="cost-val">~$0.63</div>
       </div>
       <div class="cost-row">
         <div>SEG1 / SEG2 generados</div>
         <div class="cost-val">~104</div>
-        <div class="cost-val">$0.001</div>
-        <div class="cost-val">~$0.10</div>
+        <div class="cost-val">$0.003</div>
+        <div class="cost-val">~$0.31</div>
       </div>
       <div class="cost-row">
-        <div>Analytics — enrichment de datos (167 conversaciones)</div>
+        <div>Analytics — enrichment de 167 conversaciones</div>
         <div class="cost-val">187</div>
         <div class="cost-val">$0.001</div>
         <div class="cost-val">~$0.15</div>
       </div>
       <div class="cost-row">
-        <div>Desarrollo y pruebas (estimado)</div>
-        <div class="cost-val">~150</div>
+        <div>Resto no identificado (pruebas, reenvíos, etc.)</div>
         <div class="cost-val">—</div>
-        <div class="cost-val">~$8.90</div>
+        <div class="cost-val">—</div>
+        <div class="cost-val">~$4.64</div>
       </div>
       <div class="cost-row total">
         <div>TOTAL gastado</div>
-        <div class="cost-val">~979</div>
+        <div class="cost-val">~929</div>
         <div class="cost-val">—</div>
         <div class="cost-val">~$10 USD</div>
       </div>
     </div>
-    <p class="note" style="margin-top:14px">Proyección futura: si se contactan 100 personas nuevas con flujo completo (MSG1+MSG2+SEG1), el costo adicional es de aproximadamente <strong>$0.40 USD</strong>. Escalar a 1.000 contactos costaría menos de $5 USD en API.</p>
+    <p class="note" style="margin-top:14px">Proyección futura: contactar 100 personas nuevas con flujo completo (MSG1+MSG2+SEG1) cuesta aproximadamente <strong>$1.60 USD</strong>. Escalar a 1.000 contactos = ~$16 USD en API.</p>
   </div>
 
   <!-- Consejo final -->
