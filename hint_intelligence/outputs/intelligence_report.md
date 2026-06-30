@@ -1,5 +1,5 @@
 # HINT INTELLIGENCE ENGINE — Reporte
-**Generado:** 2026-06-30  |  **Total contactos:** 427  |  **Versión KB:** 7
+**Generado:** 2026-06-30  |  **Total contactos:** 427  |  **Versión KB:** 8
 
 ---
 
@@ -134,6 +134,53 @@
 ### 🧪 Seguros/Finanzas: 33.3% dossier pero n=9 (insuficiente para confirmar)
 - **Confianza:** 🔴 LOW
 - **Acción:** Aumentar volumen en Seguros/Finanzas para confirmar el patrón. Objetivo: n=30.
+
+
+---
+
+## EXPERIMENTOS PROPUESTOS
+
+### [~] EXP_SECTOR_CONSULTORÍA_LEG
+**Hipótesis:** Consultoría/Legal convierte al 30.0% — confirmar con más volumen
+**Por qué:** Solo 10 casos. Con n<30 no es concluyente.
+**Cómo testear:** Buscar y contactar 20 prospectos más en Consultoría/Legal.
+**Progreso:** 10/30 casos · Faltan: 20
+**Impacto si confirma:** Priorizar Consultoría/Legal como sector de alto rendimiento.
+
+### [~] EXP_SECTOR_MINERÍA
+**Hipótesis:** Minería convierte al 35.7% — confirmar con más volumen
+**Por qué:** Solo 14 casos. Con n<30 no es concluyente.
+**Cómo testear:** Buscar y contactar 16 prospectos más en Minería.
+**Progreso:** 14/30 casos · Faltan: 16
+**Impacto si confirma:** Priorizar Minería como sector de alto rendimiento.
+
+### [~] EXP_CEO_APPROACH
+**Hipótesis:** CEO convierte mejor si primero se conecta con alguien de su equipo (Director/Manager)
+**Por qué:** CEO directo = 10.0% dossier (n=10). Posible que el approach indirecto sea más efectivo.
+**Cómo testear:** Próximos 10 CEOs: no contactar al CEO directamente. Primero conectar con Director/Manager del área. Trackear si la tasa de dossier sube.
+**Progreso:** 0/10 casos · Faltan: 10
+**Impacto si confirma:** Cambiar la estrategia de targeting para empresas con CEO conocido.
+
+### [·] EXP_SECTOR_REAL_ESTATE
+**Hipótesis:** Real Estate convierte al 37.5% — confirmar con más volumen
+**Por qué:** Solo 8 casos. Con n<30 no es concluyente.
+**Cómo testear:** Buscar y contactar 22 prospectos más en Real Estate.
+**Progreso:** 8/30 casos · Faltan: 22
+**Impacto si confirma:** Priorizar Real Estate como sector de alto rendimiento.
+
+### [·] EXP_SECTOR_SALUD_CLÍNICA
+**Hipótesis:** Salud/Clínica convierte al 33.3% — confirmar con más volumen
+**Por qué:** Solo 6 casos. Con n<30 no es concluyente.
+**Cómo testear:** Buscar y contactar 24 prospectos más en Salud/Clínica.
+**Progreso:** 6/30 casos · Faltan: 24
+**Impacto si confirma:** Priorizar Salud/Clínica como sector de alto rendimiento.
+
+### [·] EXP_SECTOR_SEGUROS_FINANZA
+**Hipótesis:** Seguros/Finanzas convierte al 33.3% — confirmar con más volumen
+**Por qué:** Solo 9 casos. Con n<30 no es concluyente.
+**Cómo testear:** Buscar y contactar 21 prospectos más en Seguros/Finanzas.
+**Progreso:** 9/30 casos · Faltan: 21
+**Impacto si confirma:** Priorizar Seguros/Finanzas como sector de alto rendimiento.
 
 ---
 

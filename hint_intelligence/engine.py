@@ -21,6 +21,7 @@ import pattern_engine
 import knowledge_base
 import change_detector
 import conversation_engine
+import experiment_engine
 import report_builder
 
 
@@ -119,13 +120,18 @@ def run_full():
         log(f'  conversation_engine omitido: {e}')
         conv_result = None
 
+    # ── 5c. Experiment engine ─────────────────────────────────────────────────
+    log('Ejecutando experiment_engine...')
+    exp_data, nuevos = experiment_engine.run(patterns)
+    log(f'  {exp_data["metadata"]["n_pendientes"]} experimentos pendientes ({len(nuevos)} nuevos)')
+
     # ── 6. Context injection ──────────────────────────────────────────────────
     log('Generando context_injection.json...')
     knowledge_base.build_context_injection(sectors, patterns)
 
     # ── 7. Reporte ────────────────────────────────────────────────────────────
     log('Generando intelligence_report.md...')
-    report_path = report_builder.build(patterns, sectors, objections, alerts)
+    report_path = report_builder.build(patterns, sectors, objections, alerts, exp_data)
     log(f'  Reporte: {report_path}')
 
     # ── 8. Log ────────────────────────────────────────────────────────────────

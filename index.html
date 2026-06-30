@@ -307,6 +307,8 @@ Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></tex
             <input id="empresa-input" type="text" placeholder="Se detecta automáticamente..." style="flex:1;padding:5px 9px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
           </div>
 
+          <div id="sector-intel-bar" style="display:none;padding:6px 10px;background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:8px;font-size:11.5px;line-height:1.5;color:#7A3800"></div>
+
           <div class="row2">
             <div>
               <label class="lbl">Idioma</label>
@@ -2139,6 +2141,63 @@ function autoDetectEmpresa() {
   if (!input || input.dataset.manual === '1') return;
   const empresa = histExtractEmpresaFromProfile(profile);
   input.value = empresa;
+  updateSectorIntelBar(profile);
+}
+
+async function updateSectorIntelBar(profileText) {
+  const bar = document.getElementById('sector-intel-bar');
+  if (!bar || !profileText || profileText.length < 30) { if(bar) bar.style.display='none'; return; }
+
+  // Reusar la detección de sector del buildHIEContextBlock
+  const sectorMap = {
+    'Energía': ['tgs', 'transener', 'energía', 'ecopetrol', 'petrobras', 'gas', 'oil', 'eléctric'],
+    'Minería': ['minería', 'antofagasta', 'newmont', 'barrick', 'bhp', 'miner'],
+    'Educación': ['universidad', 'educación', 'edutech', 'business school', 'institute'],
+    'Seguros/Finanzas': ['seguros', 'finanzas', 'libra', 'banca', 'fintech', 'crédito'],
+    'Farmacéutico': ['farmacéutico', 'abbott', 'novartis', 'laboratorio', 'pharma'],
+    'Tecnología': ['software', 'technology', 'tech', 'datos', 'crm', 'erp', 'saas'],
+    'Real Estate': ['inmobil', 'real estate', 'desarrollo inmobiliario'],
+    'Retail/Consumo': ['retail', 'consumo', 'moda', 'tasarolli'],
+    'Turismo/Hotelería': ['hotel', 'turismo', 'hospitalidad', 'resort', 'vacations'],
+    'Agencia/Marketing': ['agencia', 'marketing', 'publicidad'],
+    'Consultoría/Legal': ['consultor', 'consulting', 'legal', 'abogad'],
+    'Salud/Clínica': ['clínica', 'hospital', 'salud'],
+    'Construcción/Materiales': ['construc', 'materiales', 'ternium', 'acero'],
+  };
+
+  const lower = profileText.toLowerCase();
+  let sector = null;
+  for (const [s, kws] of Object.entries(sectorMap)) {
+    if (kws.some(k => lower.includes(k))) { sector = s; break; }
+  }
+
+  if (!sector) { bar.style.display = 'none'; return; }
+
+  try {
+    const res = await fetch('/api/intelligence');
+    if (!res.ok) { bar.style.display = 'none'; return; }
+    const data = await res.json();
+    const ctx = data.context || {};
+    const sd = (ctx.por_sector || {})[sector];
+    const varA = (ctx.variantes || {})['A'];
+    const varC = (ctx.variantes || {})['C'];
+
+    if (!sd) { bar.style.display = 'none'; return; }
+
+    const conf = { HIGH: '🟢', MEDIUM: '🟡', LOW: '🔴', INSUFFICIENT: '⚫' };
+    const varText = (varA && varC)
+      ? `Var A ${varA.dossier_pct}% vs C ${varC.dossier_pct}%`
+      : '';
+    const clientes = (sd.clientes_hint || []).join(', ');
+
+    bar.style.display = 'block';
+    bar.innerHTML = `
+      <strong>${sector}</strong> ${conf[sd.confianza]||''} &nbsp;·&nbsp;
+      Dossier histórico: <strong>${sd.dossier_pct}%</strong> (n=${sd.n}) &nbsp;·&nbsp;
+      ${varText ? varText + ' &nbsp;·&nbsp;' : ''}
+      Clientes: <em>${clientes}</em>
+    `;
+  } catch(_) { bar.style.display = 'none'; }
 }
 function histExtractEmpresaFromProfile(profile) {
   const lines = (profile||'').split('\n').map(l => l.trim()).filter(l => l);

@@ -19,6 +19,14 @@
         "n_no_conv": 0
       },
       {
+        "palabra": "correcto",
+        "freq_conv": 11.3,
+        "freq_no_conv": 0.0,
+        "ratio": 113.21,
+        "n_conv": 6,
+        "n_no_conv": 0
+      },
+      {
         "palabra": "marcas",
         "freq_conv": 11.3,
         "freq_no_conv": 0.0,
@@ -35,43 +43,11 @@
         "n_no_conv": 0
       },
       {
-        "palabra": "correcto",
-        "freq_conv": 11.3,
-        "freq_no_conv": 0.0,
-        "ratio": 113.21,
-        "n_conv": 6,
-        "n_no_conv": 0
-      },
-      {
         "palabra": "eso",
         "freq_conv": 9.4,
         "freq_no_conv": 0.0,
         "ratio": 94.34,
         "n_conv": 5,
-        "n_no_conv": 0
-      },
-      {
-        "palabra": "nosotros",
-        "freq_conv": 7.5,
-        "freq_no_conv": 0.0,
-        "ratio": 75.47,
-        "n_conv": 4,
-        "n_no_conv": 0
-      },
-      {
-        "palabra": "mas",
-        "freq_conv": 7.5,
-        "freq_no_conv": 0.0,
-        "ratio": 75.47,
-        "n_conv": 4,
-        "n_no_conv": 0
-      },
-      {
-        "palabra": "desde",
-        "freq_conv": 7.5,
-        "freq_no_conv": 0.0,
-        "ratio": 75.47,
-        "n_conv": 4,
         "n_no_conv": 0
       },
       {
@@ -83,7 +59,7 @@
         "n_no_conv": 0
       },
       {
-        "palabra": "vez",
+        "palabra": "desde",
         "freq_conv": 7.5,
         "freq_no_conv": 0.0,
         "ratio": 75.47,
@@ -100,6 +76,14 @@
       },
       {
         "palabra": "interesante",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "nosotros",
         "freq_conv": 7.5,
         "freq_no_conv": 0.0,
         "ratio": 75.47,
@@ -131,7 +115,47 @@
         "n_no_conv": 0
       },
       {
-        "palabra": "puede",
+        "palabra": "mas",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "vez",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "área",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "puntual",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "dos",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "puedes",
         "freq_conv": 5.7,
         "freq_no_conv": 0.0,
         "ratio": 56.6,
@@ -145,35 +169,11 @@
         "ratio": 56.6,
         "n_conv": 3,
         "n_no_conv": 0
-      },
-      {
-        "palabra": "apoyarte",
-        "freq_conv": 5.7,
-        "freq_no_conv": 0.0,
-        "ratio": 56.6,
-        "n_conv": 3,
-        "n_no_conv": 0
-      },
-      {
-        "palabra": "embargo",
-        "freq_conv": 5.7,
-        "freq_no_conv": 0.0,
-        "ratio": 56.6,
-        "n_conv": 3,
-        "n_no_conv": 0
-      },
-      {
-        "palabra": "área",
-        "freq_conv": 5.7,
-        "freq_no_conv": 0.0,
-        "ratio": 56.6,
-        "n_conv": 3,
-        "n_no_conv": 0
       }
     ],
     "signals_negative": [
       {
-        "palabra": "escribirme",
+        "palabra": "cuentame",
         "freq_conv": 0.0,
         "freq_no_conv": 6.0,
         "ratio": 0.0,
@@ -181,7 +181,7 @@
         "n_no_conv": 3
       },
       {
-        "palabra": "cuentame",
+        "palabra": "escribirme",
         "freq_conv": 0.0,
         "freq_no_conv": 6.0,
         "ratio": 0.0,

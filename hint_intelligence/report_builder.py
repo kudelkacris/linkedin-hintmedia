@@ -15,7 +15,7 @@ def confidence_emoji(level):
     return {'HIGH': '🟢', 'MEDIUM': '🟡', 'LOW': '🔴', 'INSUFFICIENT': '⚫'}.get(level, '⚫')
 
 
-def build(patterns, sectors, objections, alerts=None):
+def build(patterns, sectors, objections, alerts=None, exp_data=None):
     today = str(date.today())
     g = patterns.get('global', {})
     lines = []
@@ -178,6 +178,13 @@ def build(patterns, sectors, objections, alerts=None):
                 f"- **Tipo:** {a['tipo']}  |  **Severidad:** {a.get('severidad', '?')}",
                 '',
             ]
+
+    # Experimentos
+    if exp_data:
+        import experiment_engine as _ee
+        exp_section = _ee.build_experiment_section(exp_data)
+        if exp_section:
+            lines.append(exp_section)
 
     lines += [
         '---',
