@@ -1,0 +1,113 @@
+CONTEXTO COMPLETO DEL PROYECTO — HINT MEDIA / LINKEDIN OUTREACH + DATASET DE INTELIGENCIA COMERCIAL
+
+# QUÉ ES EL PROYECTO BASE
+
+Hint Media es una agencia de comunicación (Florencia Di Rado, CMO/co-fundadora). Tenemos un sistema
+de prospección en LinkedIn: un generador de mensajes de outreach (MSG1, MSG2, seguimientos SEG1/SEG2)
+que usa IA (Claude) para analizar el perfil de LinkedIn de un prospecto y redactar mensajes
+personalizados, con una metodología estricta (HECHOS → INTERPRETACIÓN → TENSIÓN PROFESIONAL →
+HIPÓTESIS CONVERSACIONAL → MSG1 → MSG2). Esto vive en index.html + servidor.py (proxy a la API de
+Claude), corriendo localmente. Tenemos 167 conversaciones reales documentadas a mano en archivos
+markdown (conversaciones/*.md) y un historial.json con 427 registros parciales del sistema.
+
+# FASE RECIÉN COMPLETADA — CONFIDENCE LAYER + CLASIFICACIÓN + SCORING (en el generador)
+
+Ampliamos el generador (index.html) con 3 capas nuevas de razonamiento interno, sin romper nada
+existente:
+- FASE 2 — Confidence Layer: clasifica la señal usada para los mensajes en HIGH/MEDIUM/LOW.
+  Regla: MSG1 solo puede usar señales HIGH, MSG2 puede usar HIGH+MEDIUM, LOW nunca se usa textual.
+- FASE 3 — Profile Classification: clasifica al prospecto (tipo de perfil, seniority, sector, área,
+  poder de decisión, rol de compra, relevancia comercial).
+- FASE 4 — Scoring multidimensional: calidad de señal, profundidad de personalización, probabilidad
+  de conversación, relevancia comercial, riesgo de alucinación, score global, prioridad recomendada
+  (HOT/MEDIUM/LOW).
+
+Esto se mostró en la UI como 3 acordeones colapsables nuevos, sin tocar el formato de mensajes
+existente ni los parsers.
+
+# PROYECTO ACTUAL — HINT INTELLIGENCE DATASET (data pipeline para aprender de conversaciones reales)
+
+El objetivo de fondo: convertir las 167 conversaciones reales de LinkedIn en un dataset estructurado
+para analizar qué funciona, detectar patrones de conversión, y eventualmente mejorar las reglas del
+generador con evidencia real (no intuición).
+
+## Etapa 1 — dataset_builder/ (regex + heurísticas, SIN IA)
+
+Construimos un pipeline en Python que lee los 167 archivos .md y extrae automáticamente 26 campos
+por conversación (sector, cargo, país, variante de mensaje usada, si respondió, si pidió dossier,
+objeción principal, nivel de engagement, resultado final: sin_respuesta/dossier/seguimiento/
+reunión/cliente, etc.) usando SOLO reglas de texto (regex y keywords), sin llamar a ninguna IA.
+
+Resultados: 167 conversaciones procesadas, 0 errores. Tasa de respuesta a MSG1: 61.7%. Tasa de
+dossier enviado: 29.3%. Tasa de reunión agendada: 3.6%. Cliente cerrado: 0%.
+
+Encontramos y corregimos 2 bugs reales en el camino:
+1. Buscábamos palabras clave de "reunión agendada" en TODO el texto del archivo, pero ese texto
+   incluye también nuestros propios mensajes (que siempre proponen una llamada como parte del
+   guion, sea aceptada o no). Esto inflaba falsamente la tasa de reuniones a 29% (absurdo). Lo
+   corregimos para buscar esas señales solo en las respuestas reales del prospecto, nunca en
+   nuestros propios mensajes. Bajó a la cifra real: 3.6%.
+2. Un campo de estado se actualizaba varias veces dentro del mismo documento (ej: "MSG2 enviado" →
+   más tarde "Call agendada") y nuestro parser se quedaba con el primer valor en vez del último.
+   Corregido para quedarse con la actualización más reciente.
+
+De las 167 conversaciones, 137 (82%) quedaron marcadas como "necesitan revisión con IA" porque
+varios campos críticos (sector, tipo de perfil, motivo de éxito/fracaso) simplemente no estaban
+escritos en la mayoría de los archivos fuente — no es un error del extractor, es falta de dato en
+el documento original.
+
+## Etapa 2 — ai_enrichment/ (completar los huecos con IA, con reglas anti-invención)
+
+Construimos un segundo pipeline que SÍ usa IA (Claude haiku) para completar únicamente los campos
+que quedaron vacíos en la etapa 1, con una regla central: "nunca inventar, si no hay evidencia
+suficiente, dejar vacío". Cada campo completado por la IA viene acompañado de: nivel de confianza
+(HIGH/MEDIUM/LOW), evidencia textual citada, y una razón breve.
+
+Hay un sistema de guardrails (reglas de código, no de la IA) que:
+- Si la IA dice "HIGH" pero no da evidencia, el sistema baja la confianza automáticamente.
+- Si la IA inventa una categoría que no existe en nuestra lista válida (ej. escribe en español libre
+  en vez de usar la categoría exacta), el valor se descarta.
+- Solo los valores con confianza HIGH o MEDIUM se aplican al dataset real (enriched_dataset.csv).
+  Los de confianza LOW se guardan aparte (suggested_values.csv) y NUNCA tocan el dataset.
+
+Hicimos una prueba controlada con 20 conversaciones reales (no las 137 completas, todavía):
+0 errores, 52 campos completados con confianza alta o media, 11 quedaron descartados por baja
+confianza. Encontramos y corregimos 3 bugs más en esta etapa (un filtro que pedía "motivo de
+fracaso" incluso en conversaciones que no habían fracasado, un error de expresión regular que
+desplazaba los valores parseados cuando un campo quedaba vacío, y falta de especificar las
+categorías válidas exactas en el prompt, lo que hacía que la IA respondiera en texto libre en vez
+de la categoría esperada).
+
+## Etapa 3 — DONDE ESTAMOS AHORA: auditoría humana antes de escalar
+
+Antes de correr el enriquecimiento sobre las 137 conversaciones completas, decidimos validar la
+calidad con revisión humana. Construimos una muestra aleatoria de 30 filas (10 con confianza HIGH,
+10 MEDIUM, 10 LOW) en un archivo CSV (manual_review_sample.csv) con columnas para que un humano
+revise cada inferencia de la IA y marque si está bien o mal (CORRECTO = SI/NO), más observaciones
+libres.
+
+Definimos una metodología de precisión:
+- Precisión por bucket de confianza (HIGH, MEDIUM, LOW) por separado.
+- "Precisión aplicada" = precisión combinada de HIGH+MEDIUM (porque son los únicos valores que
+  realmente se aplican al dataset; LOW nunca se aplica, así que no es crítico para la decisión de
+  escalar).
+- Regla de decisión: si la precisión aplicada supera 85%, el sistema recomienda automáticamente
+  "RUN_FULL_BATCH = TRUE" (correr el enriquecimiento sobre las 137 conversaciones completas). Si no
+  llega a 85%, recomienda ajustar el prompt/reglas antes de reintentar, no escalar igual.
+
+Ahora mismo estamos en el proceso de completar a mano esas 30 filas (columna CORRECTO), revisando
+si cada inferencia de la IA (sector, tipo de perfil, área, motivo de éxito/fracaso) realmente se
+sostiene con la evidencia citada. Una vez completado, se corre un script (compute_precision.py)
+que calcula la precisión real (no estimada, medida) y decide si conviene escalar el enriquecimiento
+a las 137 conversaciones restantes.
+
+# PRINCIPIOS QUE GUÍAN TODO ESTE TRABAJO
+
+- Nunca inventar datos: si no hay evidencia, el campo queda vacío.
+- Nunca escalar sin medir: no se corre el batch completo de IA sin primero validar con muestra
+  pequeña y revisión humana real.
+- Separación estricta entre "lo que nosotros escribimos" (nuestros mensajes de venta) y "lo que el
+  prospecto realmente dijo" — las señales de interés/objeción/cierre se buscan SOLO en lo que dijo
+  el prospecto, nunca en nuestro propio guion de venta.
+- Todo cambio debe ser retrocompatible: no se rompe el sistema de generación de mensajes existente
+  mientras se construyen estas capas de análisis adicionales.

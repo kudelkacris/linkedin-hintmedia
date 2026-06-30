@@ -756,7 +756,58 @@ IRREPETIBILIDAD: (número del 1 al 10 — pregunta: "¿este mensaje podría envi
 DEBILIDADES_DE_ESTA_SECUENCIA: (1 a 3 debilidades reales y concretas, separadas por " | " — buscar: observaciones genéricas, inferencias excesivas, puentes débiles hacia Hint, ejemplos poco relevantes, riesgo de sonar consultivo o vendedor demasiado pronto)
 CONFIDENCE_SCORE: (número del 1 al 10 — evaluar cantidad y calidad de publicaciones, claridad del rol, información disponible, consistencia del perfil) + justificación breve en la misma línea, separada por " — "
 
+=== CONFIDENCE ===
+CONFIDENCE_LEVEL: (HIGH / MEDIUM / LOW — de la señal principal usada en MSG1/MSG2)
+CONFIDENCE_REASON: (justificación breve)
+SIGNAL_SOURCE: (PUBLICATION / COMMENT / EXPERIENCE / ABOUT / ACTIVITY / CERTIFICATION / CARGO)
+ALLOWED_FOR_MSG1: (YES / NO — YES solo si CONFIDENCE_LEVEL es HIGH)
+
+=== PROFILE CLASSIFICATION ===
+PROFILE_TYPE: (DECISION_MAKER / INFLUENCER / SPECIALIST / JUNIOR / POTENTIAL_PARTNER)
+SENIORITY: (C_LEVEL / DIRECTOR / MANAGER / SPECIALIST)
+INFORMATION_LEVEL: (RICH / MEDIUM / POOR)
+SECTOR: (sector de la empresa)
+AREA: (área/función del prospecto)
+DECISION_POWER: (HIGH / MEDIUM / LOW)
+BUYING_ROLE: (ECONOMIC_BUYER / TECHNICAL_BUYER / INFLUENCER / CHAMPION / USER)
+COMMERCIAL_RELEVANCE: (HIGH / MEDIUM / LOW)
+CLASSIFICATION_REASON: (justificación breve de la clasificación completa)
+
+=== SCORING ===
+SIGNAL_QUALITY: (1-10)
+PERSONALIZATION_DEPTH: (1-10)
+CONVERSATION_PROBABILITY: (1-10)
+COMMERCIAL_RELEVANCE_SCORE: (1-10)
+HALLUCINATION_RISK: (1-10)
+GLOBAL_SCORE: (1-10)
+RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW, según GLOBAL_SCORE)
+
 NOTA: INFERENCE_RISK, IRREPETIBILIDAD, DEBILIDADES_DE_ESTA_SECUENCIA y CONFIDENCE_SCORE son SOLO auditoría interna. NO deben modificar automáticamente los mensajes generados ni la lógica de generación. Su función es evaluar la calidad del análisis antes de usar los mensajes, no reescribirlos.
+
+CAPA DE CONFIANZA (FASE 2) — clasificar la señal principal usada para MSG1/MSG2 antes de redactar:
+HECHO → INTERPRETACION → CONFIDENCE_LEVEL → TENSION → HIPOTESIS
+- HIGH: hecho explícito y observable (publicación, comentario, logro citado textualmente).
+- MEDIUM: inferencia directa anclada en el trabajo o la experiencia.
+- LOW: hipótesis débil o extrapolación sin anclaje claro.
+REGLA OBLIGATORIA: MSG1 solo puede construirse con señal HIGH. MSG2 puede usar HIGH o MEDIUM. Una señal LOW nunca puede aparecer de forma textual en ningún mensaje — si la única señal disponible es LOW, usar TENSION_PROFESIONAL genérica del rol en su lugar y dejarlo asentado en CONFIDENCE_REASON.
+
+CLASIFICACIÓN DEL PERFIL (FASE 3) — antes de redactar, clasificar el prospecto:
+- PROFILE_TYPE: DECISION_MAKER / INFLUENCER / SPECIALIST / JUNIOR / POTENTIAL_PARTNER
+- SENIORITY: C_LEVEL / DIRECTOR / MANAGER / SPECIALIST
+- INFORMATION_LEVEL: RICH (perfil con publicaciones/actividad real) / MEDIUM / POOR (casi sin info más allá del cargo)
+- BUYING_ROLE: ECONOMIC_BUYER / TECHNICAL_BUYER / INFLUENCER / CHAMPION / USER
+- DECISION_POWER: HIGH / MEDIUM / LOW
+Esta clasificación es informativa, no cambia las reglas de redacción de MSG1/MSG2 ni el FILTRO DE PROSPECTOS (APTO/DUDOSO/DESCARTAR) ya definido arriba, que sigue siendo la única regla que decide si se generan o no mensajes.
+
+SCORING MULTIDIMENSIONAL (FASE 4) — evaluar el análisis y el prospecto en estas dimensiones, 1 a 10:
+- SIGNAL_QUALITY: qué tan fuerte y verificable es la señal humana/trabajo usada
+- PERSONALIZATION_DEPTH: qué tan específico es el mensaje a este prospecto puntual
+- CONVERSATION_PROBABILITY: probabilidad de que esto genere respuesta
+- COMMERCIAL_RELEVANCE_SCORE: qué tan relevante es este prospecto para Hint Media como oportunidad comercial
+- HALLUCINATION_RISK: 1 (sin riesgo, todo anclado en hechos) a 10 (alto riesgo de estar inventando)
+GLOBAL_SCORE: promedio ponderado de las anteriores (HALLUCINATION_RISK invertido: a mayor riesgo, más penaliza)
+RECOMMENDED_PRIORITY: GLOBAL_SCORE >= 8 → HOT. Entre 6 y 7.9 → MEDIUM. Menor a 6 → LOW.
+Estos scores son auditoría interna, igual que CONFIDENCE_SCORE/INFERENCE_RISK: NO deben alterar la redacción de los mensajes, solo informar prioridad y calidad al usuario.
 
 ---VARIANTE---
 TITULO: (nombre corto variante A)
@@ -857,6 +908,32 @@ TENSION_PROFESIONAL: (tensión natural del rol — NUNCA una carencia o necesida
 HIPOTESIS_CONVERSACIONAL: (qué conversación interesante podría tener esta persona — NO qué le venderíamos)
 ANGULO: (debe partir de SEÑAL_HUMANA si existe, si no de TENSION_PROFESIONAL)
 
+=== CONFIDENCE ===
+CONFIDENCE_LEVEL: (HIGH / MEDIUM / LOW)
+CONFIDENCE_REASON: ...
+SIGNAL_SOURCE: (PUBLICATION / COMMENT / EXPERIENCE / ABOUT / ACTIVITY / CERTIFICATION / CARGO)
+ALLOWED_FOR_MSG1: (YES / NO)
+
+=== PROFILE CLASSIFICATION ===
+PROFILE_TYPE: (DECISION_MAKER / INFLUENCER / SPECIALIST / JUNIOR / POTENTIAL_PARTNER)
+SENIORITY: (C_LEVEL / DIRECTOR / MANAGER / SPECIALIST)
+INFORMATION_LEVEL: (RICH / MEDIUM / POOR)
+SECTOR: ...
+AREA: ...
+DECISION_POWER: (HIGH / MEDIUM / LOW)
+BUYING_ROLE: (ECONOMIC_BUYER / TECHNICAL_BUYER / INFLUENCER / CHAMPION / USER)
+COMMERCIAL_RELEVANCE: (HIGH / MEDIUM / LOW)
+CLASSIFICATION_REASON: ...
+
+=== SCORING ===
+SIGNAL_QUALITY: (1-10)
+PERSONALIZATION_DEPTH: (1-10)
+CONVERSATION_PROBABILITY: (1-10)
+COMMERCIAL_RELEVANCE_SCORE: (1-10)
+HALLUCINATION_RISK: (1-10)
+GLOBAL_SCORE: (1-10)
+RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW)
+
 ---VARIANTE---
 TITULO: (variante A — observación humana desde SEÑAL_HUMANA)
 TIP: ...
@@ -948,6 +1025,32 @@ function renderVariants(text) {
   const debilidades = getField('DEBILIDADES_DE_ESTA_SECUENCIA');
   const confidenceScore = getField('CONFIDENCE_SCORE');
 
+  // FASE 2 — Confidence layer
+  const confLevel = getField('CONFIDENCE_LEVEL');
+  const confReason = getField('CONFIDENCE_REASON');
+  const signalSource = getField('SIGNAL_SOURCE');
+  const allowedMsg1 = getField('ALLOWED_FOR_MSG1');
+
+  // FASE 3 — Profile classification
+  const profileType = getField('PROFILE_TYPE');
+  const seniority = getField('SENIORITY');
+  const infoLevel = getField('INFORMATION_LEVEL');
+  const sector = getField('SECTOR');
+  const area = getField('AREA');
+  const decisionPower = getField('DECISION_POWER');
+  const buyingRole = getField('BUYING_ROLE');
+  const commercialRelevance = getField('COMMERCIAL_RELEVANCE');
+  const classificationReason = getField('CLASSIFICATION_REASON');
+
+  // FASE 4 — Scoring multidimensional
+  const signalQuality = getField('SIGNAL_QUALITY');
+  const personalizationDepth = getField('PERSONALIZATION_DEPTH');
+  const conversationProbability = getField('CONVERSATION_PROBABILITY');
+  const commercialRelevanceScore = getField('COMMERCIAL_RELEVANCE_SCORE');
+  const hallucinationRisk = getField('HALLUCINATION_RISK');
+  const globalScore = getField('GLOBAL_SCORE');
+  const recommendedPriority = getField('RECOMMENDED_PRIORITY');
+
   if (resumen || hechos || interpretacion || senalHumana || tension || hipotesis || angulo) {
     const ap = document.createElement('div');
     ap.style.cssText = 'background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:11px;padding:13px 15px;font-size:12px;line-height:1.65;display:flex;flex-direction:column;gap:7px;animation:fadeUp .3s ease both';
@@ -973,6 +1076,42 @@ function renderVariants(text) {
       ${confidenceScore ? `<div><span style="font-weight:600;color:var(--dark)">Confianza del análisis: </span>${esc(confidenceScore)}</div>` : ''}
       ${debilidades ? `<div><span style="font-weight:600;color:var(--dark)">Debilidades de esta secuencia: </span>${esc(debilidades)}</div>` : ''}`;
     results.appendChild(auditBox);
+  }
+
+  // FASE 2/3/4 — acordeones colapsables (no afectan generación de mensajes)
+  const priorityColor = { HOT: '#27AE60', MEDIUM: '#E8A23D', LOW: '#999' };
+  if (confLevel || confReason || signalSource || allowedMsg1) {
+    results.appendChild(makeAccordion('Confidence', [
+      confLevel ? ['Nivel de confianza', confLevel] : null,
+      signalSource ? ['Fuente de la señal', signalSource] : null,
+      allowedMsg1 ? ['Permitido para MSG1', allowedMsg1] : null,
+      confReason ? ['Motivo', confReason] : null,
+    ].filter(Boolean)));
+  }
+  if (profileType || seniority || infoLevel || sector || area || decisionPower || buyingRole || commercialRelevance || classificationReason) {
+    results.appendChild(makeAccordion('Profile Classification', [
+      profileType ? ['Tipo de perfil', profileType] : null,
+      seniority ? ['Seniority', seniority] : null,
+      infoLevel ? ['Nivel de información', infoLevel] : null,
+      sector ? ['Sector', sector] : null,
+      area ? ['Área', area] : null,
+      decisionPower ? ['Poder de decisión', decisionPower] : null,
+      buyingRole ? ['Rol de compra', buyingRole] : null,
+      commercialRelevance ? ['Relevancia comercial', commercialRelevance] : null,
+      classificationReason ? ['Motivo', classificationReason] : null,
+    ].filter(Boolean)));
+  }
+  if (signalQuality || personalizationDepth || conversationProbability || commercialRelevanceScore || hallucinationRisk || globalScore || recommendedPriority) {
+    const prioColor = priorityColor[(recommendedPriority||'').toUpperCase()] || '#999';
+    results.appendChild(makeAccordion('Scoring', [
+      signalQuality ? ['Calidad de señal', signalQuality + '/10'] : null,
+      personalizationDepth ? ['Profundidad de personalización', personalizationDepth + '/10'] : null,
+      conversationProbability ? ['Probabilidad de conversación', conversationProbability + '/10'] : null,
+      commercialRelevanceScore ? ['Relevancia comercial', commercialRelevanceScore + '/10'] : null,
+      hallucinationRisk ? ['Riesgo de inventar (hallucination)', hallucinationRisk + '/10'] : null,
+      globalScore ? ['Score global', globalScore + '/10'] : null,
+      recommendedPriority ? ['Prioridad recomendada', `<span style="font-weight:700;color:${prioColor}">${esc(recommendedPriority)}</span>`, true] : null,
+    ].filter(Boolean)));
   }
 
   // Parse fixed blocks: ---MSG3---, ---MSG4---, ---SEG1---, ---SEG2---
@@ -1316,6 +1455,34 @@ function esc(s) {
 }
 function escAttr(s) {
   return String(s||'').replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$/g,'\\$').replace(/"/g,'&quot;').replace(/\r?\n/g,'\\n');
+}
+
+let _accordionSeq = 0;
+function makeAccordion(title, rows) {
+  const id = 'acc-' + (++_accordionSeq);
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.style.animation = 'fadeUp .3s ease both';
+  const rowsHtml = rows.map(([label, value, rawHtml]) =>
+    `<div style="display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:5px 0;border-bottom:1px solid var(--border)">
+      <span style="color:var(--mid)">${esc(label)}</span>
+      <span style="font-weight:600;color:var(--dark);text-align:right">${rawHtml ? value : esc(value)}</span>
+    </div>`
+  ).join('');
+  el.innerHTML = `
+    <div class="card-head" style="cursor:pointer;padding:10px 14px" onclick="toggleAccordion('${id}')">
+      <div style="flex:1;font-size:12px;font-weight:700;color:var(--dark)">${esc(title)}</div>
+      <svg class="hist-chevron" id="${id}-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+    <div id="${id}-body" style="display:none;padding:4px 14px 12px">${rowsHtml}</div>`;
+  return el;
+}
+function toggleAccordion(id) {
+  const body = document.getElementById(id + '-body');
+  const chev = document.getElementById(id + '-chev');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chev.style.transform = open ? '' : 'rotate(180deg)';
 }
 function copyTxt(btn, text) {
   const cleanText = text.replace(/\\n/g,'\n');
