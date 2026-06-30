@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config
 import pattern_engine
 import knowledge_base
+import change_detector
 import report_builder
 
 
@@ -79,23 +80,41 @@ def run_full():
     log_entry['n_insights'] = n_insights
     log_entry['n_sectores'] = len(patterns['por_sector'])
 
-    # ── 4. Knowledge base ─────────────────────────────────────────────────────
+    # ── 4. Change detection (antes de sobreescribir KB) ──────────────────────
+    log('Detectando cambios respecto a corrida anterior...')
+    import json as _json
+    patterns_old = {}
+    if os.path.exists(config.KB_PATTERNS):
+        with open(config.KB_PATTERNS, 'r', encoding='utf-8') as _f:
+            patterns_old = _json.load(_f)
+    alerts = change_detector.run(patterns, patterns_old)
+    change_detector.save_alerts(alerts)
+    if alerts:
+        log(f'  {len(alerts)} alerta(s) detectada(s):')
+        for a in alerts:
+            sev = a.get("severidad", "?")
+            log(f'    [{sev}] {a["titulo"]}')
+    else:
+        log('  Sin cambios relevantes respecto a corrida anterior.')
+    log_entry['n_alertas'] = len(alerts)
+
+    # ── 5. Knowledge base ─────────────────────────────────────────────────────
     log('Actualizando knowledge_base...')
     knowledge_base.save_patterns(patterns)
     sectors    = knowledge_base.build_sector_intelligence(patterns)
     objections = knowledge_base.build_objection_playbook(patterns)
     log(f'  KB actualizada — {len(sectors)} sectores, {len(objections)} objeciones')
 
-    # ── 5. Context injection ──────────────────────────────────────────────────
+    # ── 6. Context injection ──────────────────────────────────────────────────
     log('Generando context_injection.json...')
     knowledge_base.build_context_injection(sectors, patterns)
 
-    # ── 6. Reporte ────────────────────────────────────────────────────────────
+    # ── 7. Reporte ────────────────────────────────────────────────────────────
     log('Generando intelligence_report.md...')
-    report_path = report_builder.build(patterns, sectors, objections)
+    report_path = report_builder.build(patterns, sectors, objections, alerts)
     log(f'  Reporte: {report_path}')
 
-    # ── 7. Log ────────────────────────────────────────────────────────────────
+    # ── 8. Log ────────────────────────────────────────────────────────────────
     elapsed = (datetime.now() - start).total_seconds()
     log_entry['elapsed_s'] = round(elapsed, 2)
     save_engine_log(log_entry)

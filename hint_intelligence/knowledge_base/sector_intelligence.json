@@ -14,7 +14,7 @@
       "Tasarolli"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Agro/Alimentos": {
     "sector": "Agro/Alimentos",
@@ -31,7 +31,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Automotriz": {
     "sector": "Automotriz",
@@ -48,7 +48,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Construcción/Materiales": {
     "sector": "Construcción/Materiales",
@@ -65,7 +65,7 @@
       "Transener"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Consultoría/Legal": {
     "sector": "Consultoría/Legal",
@@ -82,7 +82,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Educación": {
     "sector": "Educación",
@@ -99,7 +99,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Energía": {
     "sector": "Energía",
@@ -116,7 +116,7 @@
       "Transener"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Farmacéutico": {
     "sector": "Farmacéutico",
@@ -133,7 +133,7 @@
       "Destiny Group"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Logística/Transporte": {
     "sector": "Logística/Transporte",
@@ -150,7 +150,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Medios/Comunicación": {
     "sector": "Medios/Comunicación",
@@ -167,7 +167,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Minería": {
     "sector": "Minería",
@@ -184,7 +184,7 @@
       "Transener"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Real Estate": {
     "sector": "Real Estate",
@@ -201,7 +201,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Retail/Consumo": {
     "sector": "Retail/Consumo",
@@ -218,7 +218,7 @@
       "Tasarolli"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Salud/Clínica": {
     "sector": "Salud/Clínica",
@@ -235,7 +235,7 @@
       "Destiny Group"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Seguros/Finanzas": {
     "sector": "Seguros/Finanzas",
@@ -252,7 +252,7 @@
       "Destiny Group"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Tecnología": {
     "sector": "Tecnología",
@@ -269,7 +269,7 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   },
   "Turismo/Hotelería": {
     "sector": "Turismo/Hotelería",
@@ -286,6 +286,6 @@
       "Libra Seguros"
     ],
     "ultima_actualizacion": "2026-06-30",
-    "version": 2
+    "version": 3
   }
 }

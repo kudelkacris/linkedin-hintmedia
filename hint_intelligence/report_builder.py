@@ -15,7 +15,7 @@ def confidence_emoji(level):
     return {'HIGH': '🟢', 'MEDIUM': '🟡', 'LOW': '🔴', 'INSUFFICIENT': '⚫'}.get(level, '⚫')
 
 
-def build(patterns, sectors, objections):
+def build(patterns, sectors, objections, alerts=None):
     today = str(date.today())
     g = patterns.get('global', {})
     lines = []
@@ -158,6 +158,24 @@ def build(patterns, sectors, objections):
                 f"### {tipo_icon} {ins['titulo']}",
                 f"- **Confianza:** {confidence_emoji(ins['confianza'])} {ins['confianza']}",
                 f"- **Acción:** {ins['accion']}",
+                '',
+            ]
+
+    # Alertas de cambio (si las hay)
+    if alerts:
+        lines += [
+            '',
+            '---',
+            '',
+            '## ALERTAS DE CAMBIO',
+            '',
+        ]
+        sev_label = {'ALTA': '[!]', 'MEDIA': '[~]', 'INFO': '[i]'}
+        for a in alerts:
+            icon = sev_label.get(a.get('severidad', 'INFO'), '[?]')
+            lines += [
+                f"### {icon} {a['titulo']}",
+                f"- **Tipo:** {a['tipo']}  |  **Severidad:** {a.get('severidad', '?')}",
                 '',
             ]
 

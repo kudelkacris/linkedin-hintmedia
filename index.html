@@ -978,8 +978,22 @@ B2: ...
 B3: ...
 B4: ...`;
 
+  // ── Contexto histórico del HIE (sin API, lee KB local) ──────────────────
+  let hieContext = '';
   try {
-    const text = await callAPI(prompt, SYSTEM);
+    const hieRes = await fetch('/api/intelligence');
+    if (hieRes.ok) {
+      const hieData = await hieRes.json();
+      hieContext = buildHIEContextBlock(hieData.context, profile);
+    }
+  } catch(_) {
+    // Si el HIE no está disponible, el sistema sigue funcionando normalmente
+  }
+
+  const fullPrompt = hieContext ? `${hieContext}\n\n${prompt}` : prompt;
+
+  try {
+    const text = await callAPI(fullPrompt, SYSTEM);
     state.rawText = text;
     renderVariants(text);
     state.conversationHistory.push({ role: 'system', text: `Perfil analizado: ${profile.substring(0,300)}` });
@@ -988,6 +1002,78 @@ B4: ...`;
   } finally {
     setLoading(false, 'gen');
   }
+}
+
+// ─── HIE CONTEXT BUILDER ─────────────────────────────────────────────────────
+function buildHIEContextBlock(ctx, profileText) {
+  if (!ctx || !ctx.por_sector) return '';
+
+  // Detectar sector del prospecto desde el texto del perfil (heurística rápida)
+  // El sistema completo de detección está en Python; acá hacemos una aproximación
+  const profileLower = profileText.toLowerCase();
+  const sectorMap = {
+    'Energía': ['tgs', 'transener', 'energía', 'ecopetrol', 'petrobras', 'gas', 'oil', 'eléctric'],
+    'Minería': ['minería', 'antofagasta', 'newmont', 'barrick', 'bhp', 'miner'],
+    'Educación': ['universidad', 'educación', 'edutech', 'business school', 'institute'],
+    'Seguros/Finanzas': ['seguros', 'finanzas', 'libra', 'banca', 'fintech', 'crédito'],
+    'Farmacéutico': ['farmacéutico', 'abbott', 'novartis', 'laboratorio', 'pharma', 'salud latam'],
+    'Tecnología': ['software', 'technology', 'tech', 'datos', 'crm', 'erp', 'saas'],
+    'Real Estate': ['inmobil', 'real estate', 'desarrollo inmobiliario'],
+    'Retail/Consumo': ['retail', 'consumo', 'moda', 'tasarolli'],
+    'Turismo/Hotelería': ['hotel', 'turismo', 'hospitalidad', 'resort'],
+    'Agencia/Marketing': ['agencia', 'marketing', 'publicidad', 'comunicación'],
+    'Consultoría/Legal': ['consultor', 'consulting', 'legal', 'abogad'],
+    'Salud/Clínica': ['clínica', 'hospital', 'salud', 'médic'],
+  };
+
+  let detectedSector = null;
+  for (const [sector, keywords] of Object.entries(sectorMap)) {
+    if (keywords.some(k => profileLower.includes(k))) {
+      detectedSector = sector;
+      break;
+    }
+  }
+
+  const sectorData = detectedSector ? ctx.por_sector[detectedSector] : null;
+  const globalData = ctx.metadata || {};
+  const variantes = ctx.variantes || {};
+  const insights = ctx.insights_criticos || [];
+
+  // Solo agregar contexto si hay datos relevantes
+  const lines = ['=== CONTEXTO HISTÓRICO (HIE — basado en datos reales) ==='];
+  lines.push(`Base de datos: ${globalData.n_total || 0} contactos reales. Dossier rate global: ${globalData.dossier_rate_global || 0}%.`);
+
+  if (sectorData && sectorData.n >= 5) {
+    lines.push(`\nSECTOR DETECTADO: ${detectedSector}`);
+    lines.push(`- Dossier rate en este sector: ${sectorData.dossier_pct}% (n=${sectorData.n}, confianza: ${sectorData.confianza})`);
+    if (sectorData.mejor_seniority && sectorData.mejor_seniority !== 'INSUFFICIENT_DATA') {
+      lines.push(`- Mejor seniority en este sector: ${sectorData.mejor_seniority}`);
+    }
+    if (sectorData.mejor_variante && sectorData.mejor_variante !== 'INSUFFICIENT_DATA') {
+      lines.push(`- Variante con más conversión: ${sectorData.mejor_variante}`);
+    }
+    if (sectorData.clientes_hint && sectorData.clientes_hint.length > 0) {
+      lines.push(`- Clientes Hint más relevantes para este sector: ${sectorData.clientes_hint.join(', ')}`);
+    }
+  }
+
+  if (Object.keys(variantes).length >= 2) {
+    const varLines = Object.entries(variantes)
+      .filter(([, v]) => v.n >= 10)
+      .sort((a, b) => b[1].dossier_pct - a[1].dossier_pct)
+      .map(([v, d]) => `Variante ${v}: ${d.dossier_pct}% (n=${d.n})`);
+    if (varLines.length > 0) lines.push(`\nVARIANTES (global): ${varLines.join(' | ')}`);
+  }
+
+  if (insights.length > 0) {
+    lines.push('\nINSIGHTS CRÍTICOS:');
+    insights.slice(0, 3).forEach(i => lines.push(`- ${i.titulo}`));
+  }
+
+  lines.push('\nUsá este contexto solo como referencia para priorizar. No lo menciones en los mensajes.');
+  lines.push('=== FIN CONTEXTO HIE ===');
+
+  return lines.join('\n');
 }
 
 // ─── RENDER VARIANTS ────────────────────────────────────────────────

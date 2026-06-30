@@ -24,6 +24,8 @@ API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
 API_URL = 'https://api.anthropic.com/v1/messages'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HIST_FILE = os.path.join(BASE_DIR, 'historial.json')
+INTELLIGENCE_CONTEXT = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'context_injection.json')
+INTELLIGENCE_ALERTS  = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'alerts.json')
 
 client = httpx.Client(timeout=httpx.Timeout(connect=15.0, read=120.0, write=10.0, pool=5.0))
 
@@ -51,6 +53,31 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(data.encode('utf-8'))
+        elif self.path.startswith('/api/intelligence'):
+            # Sirve context_injection.json y alerts.json al frontend
+            # GET /api/intelligence?sector=X&seniority=Y
+            # devuelve contexto histórico relevante para ese prospecto
+            try:
+                ctx = {}
+                if os.path.exists(INTELLIGENCE_CONTEXT):
+                    with open(INTELLIGENCE_CONTEXT, 'r', encoding='utf-8') as f:
+                        ctx = json.load(f)
+                alerts_data = {}
+                if os.path.exists(INTELLIGENCE_ALERTS):
+                    with open(INTELLIGENCE_ALERTS, 'r', encoding='utf-8') as f:
+                        alerts_data = json.load(f)
+                result = json.dumps({'context': ctx, 'alerts': alerts_data}, ensure_ascii=False)
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(result.encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'context': {}, 'alerts': {}, 'error': str(e)}).encode('utf-8'))
         else:
             self.send_response(404)
             self.end_headers()
