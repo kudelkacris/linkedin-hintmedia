@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "generado": "2026-06-30",
+    "n_total_con_respuesta": 103,
+    "n_convertidos": 53,
+    "n_no_convertidos": 50,
+    "version": 1
+  },
+  "señales_en_respuesta_prospecto": {
+    "n_conv": 53,
+    "n_no_conv": 50,
+    "signals_positive": [
+      {
+        "palabra": "sin",
+        "freq_conv": 13.2,
+        "freq_no_conv": 0.0,
+        "ratio": 132.08,
+        "n_conv": 7,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "marcas",
+        "freq_conv": 11.3,
+        "freq_no_conv": 0.0,
+        "ratio": 113.21,
+        "n_conv": 6,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "contenido",
+        "freq_conv": 11.3,
+        "freq_no_conv": 0.0,
+        "ratio": 113.21,
+        "n_conv": 6,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "correcto",
+        "freq_conv": 11.3,
+        "freq_no_conv": 0.0,
+        "ratio": 113.21,
+        "n_conv": 6,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "eso",
+        "freq_conv": 9.4,
+        "freq_no_conv": 0.0,
+        "ratio": 94.34,
+        "n_conv": 5,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "nosotros",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "mas",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "desde",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "donde",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "vez",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "años",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "interesante",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "mismo",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "entre",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "tardes",
+        "freq_conv": 7.5,
+        "freq_no_conv": 0.0,
+        "ratio": 75.47,
+        "n_conv": 4,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "puede",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "media",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "apoyarte",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "embargo",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      },
+      {
+        "palabra": "área",
+        "freq_conv": 5.7,
+        "freq_no_conv": 0.0,
+        "ratio": 56.6,
+        "n_conv": 3,
+        "n_no_conv": 0
+      }
+    ],
+    "signals_negative": [
+      {
+        "palabra": "escribirme",
+        "freq_conv": 0.0,
+        "freq_no_conv": 6.0,
+        "ratio": 0.0,
+        "n_conv": 0,
+        "n_no_conv": 3
+      },
+      {
+        "palabra": "cuentame",
+        "freq_conv": 0.0,
+        "freq_no_conv": 6.0,
+        "ratio": 0.0,
+        "n_conv": 0,
+        "n_no_conv": 3
+      },
+      {
+        "palabra": "cuál",
+        "freq_conv": 1.9,
+        "freq_no_conv": 8.0,
+        "ratio": 0.23,
+        "n_conv": 1,
+        "n_no_conv": 4
+      },
+      {
+        "palabra": "alegra",
+        "freq_conv": 3.8,
+        "freq_no_conv": 10.0,
+        "ratio": 0.37,
+        "n_conv": 2,
+        "n_no_conv": 5
+      }
+    ]
+  },
+  "longitud_como_predictor": {
+    "conv_avg_chars": 220,
+    "no_conv_avg_chars": 97,
+    "conv_question_pct": 43.4,
+    "no_conv_question_pct": 24.0,
+    "conv_emoji_pct": 7.5,
+    "no_conv_emoji_pct": 16.0,
+    "n_conv": 53,
+    "n_no_conv": 50
+  },
+  "msg1_patterns": {
+    "conv_avg_msg1_chars": 355,
+    "no_conv_avg_msg1_chars": 361,
+    "n_conv": 53,
+    "n_no_conv": 51
+  },
+  "engagement_como_predictor": {
+    "HIGH": {
+      "n": 11,
+      "dossier_pct": 81.8,
+      "dossier_n": 9
+    },
+    "MEDIUM": {
+      "n": 38,
+      "dossier_pct": 71.1,
+      "dossier_n": 27
+    },
+    "LOW": {
+      "n": 54,
+      "dossier_pct": 31.5,
+      "dossier_n": 17
+    }
+  }
+}

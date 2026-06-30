@@ -20,6 +20,7 @@ import config
 import pattern_engine
 import knowledge_base
 import change_detector
+import conversation_engine
 import report_builder
 
 
@@ -104,6 +105,19 @@ def run_full():
     sectors    = knowledge_base.build_sector_intelligence(patterns)
     objections = knowledge_base.build_objection_playbook(patterns)
     log(f'  KB actualizada — {len(sectors)} sectores, {len(objections)} objeciones')
+
+    # ── 5b. Conversation engine ───────────────────────────────────────────────
+    log('Ejecutando conversation_engine...')
+    try:
+        conv_result, conv_path = conversation_engine.run()
+        cm = conv_result['metadata']
+        log(f'  {cm["n_convertidos"]} convertidos vs {cm["n_no_convertidos"]} no convertidos analizados')
+        spos = conv_result['señales_en_respuesta_prospecto']['signals_positive']
+        sneg = conv_result['señales_en_respuesta_prospecto']['signals_negative']
+        log(f'  Señales positivas: {len(spos)} | Señales negativas: {len(sneg)}')
+    except Exception as e:
+        log(f'  conversation_engine omitido: {e}')
+        conv_result = None
 
     # ── 6. Context injection ──────────────────────────────────────────────────
     log('Generando context_injection.json...')
