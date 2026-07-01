@@ -154,15 +154,25 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 msg1 = d.get('msg1', '').strip()
                 profile_raw = d.get('profileRaw', '').strip()
 
-                # Extract cargo and country from profileRaw (best effort)
+                # Extract cargo and country from profileRaw
                 cargo = ''
                 pais = ''
-                for line in profile_raw.split('\n'):
-                    line = line.strip()
-                    if not cargo and re.match(r'^(Director|Gerente|Manager|Head|Chief|VP|Founder|CEO|CMO|CFO|CTO|CIO|CISO|CDO|Jefe|Lead|Líder|Especialista|Analista|Coordinador|Responsable)', line, re.I):
-                        cargo = line[:120]
-                    if not pais and re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)', line, re.I):
-                        m = re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)', line, re.I)
+                lines_clean = [l.strip() for l in profile_raw.split('\n') if l.strip()]
+
+                # Cargo: LinkedIn headline always appears right after the "· 1er / · 2º" connection line
+                for i, line in enumerate(lines_clean):
+                    if re.search(r'·\s*(1er|2º|3º|1st|2nd|3rd)', line) and i + 1 < len(lines_clean):
+                        candidate = lines_clean[i + 1]
+                        # Skip if it looks like a location or generic text
+                        if not re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala)', candidate, re.I):
+                            cargo = candidate[:150]
+                        break
+
+                # Country: scan all lines
+                pais_pattern = r'(Argentina|Colombia|Chile|México|Mexico|Panamá|Panama|Costa Rica|Perú|Peru|Uruguay|España|Espana|Brasil|Brazil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)'
+                for line in lines_clean:
+                    if not pais:
+                        m = re.search(pais_pattern, line, re.I)
                         if m:
                             pais = m.group(1)
 
