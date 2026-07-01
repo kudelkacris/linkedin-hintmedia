@@ -144,6 +144,80 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
 
+        elif self.path == '/api/save-md':
+            try:
+                import re
+                from datetime import date
+                d = json.loads(body)
+                name = d.get('name', '').strip()
+                empresa = d.get('empresa', '').strip()
+                msg1 = d.get('msg1', '').strip()
+                profile_raw = d.get('profileRaw', '').strip()
+
+                # Extract cargo and country from profileRaw (best effort)
+                cargo = ''
+                pais = ''
+                for line in profile_raw.split('\n'):
+                    line = line.strip()
+                    if not cargo and re.match(r'^(Director|Gerente|Manager|Head|Chief|VP|Founder|CEO|CMO|CFO|CTO|CIO|CISO|CDO|Jefe|Lead|Líder|Especialista|Analista|Coordinador|Responsable)', line, re.I):
+                        cargo = line[:120]
+                    if not pais and re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)', line, re.I):
+                        m = re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)', line, re.I)
+                        if m:
+                            pais = m.group(1)
+
+                # Build slug for filename
+                slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+                if not slug:
+                    slug = 'contacto-' + str(int(__import__('time').time()))
+
+                # Determine current month folder
+                month = date.today().strftime('%B').lower()  # julio, agosto, etc.
+                month_map = {'january':'enero','february':'febrero','march':'marzo','april':'abril',
+                             'may':'mayo','june':'junio','july':'julio','august':'agosto',
+                             'september':'septiembre','october':'octubre','november':'noviembre','december':'diciembre'}
+                month_es = month_map.get(month, month)
+                folder = os.path.join(BASE_DIR, 'conversaciones', month_es)
+                os.makedirs(folder, exist_ok=True)
+
+                filepath = os.path.join(folder, slug + '.md')
+                today = date.today().strftime('%d/%m/%y')
+
+                # Only create if doesn't exist yet
+                if not os.path.exists(filepath):
+                    lines_md = [
+                        f'# {name}',
+                        '',
+                        f'**Fecha:** {today}',
+                        f'**Cargo:** {cargo}' if cargo else '**Cargo:**',
+                        f'**Empresa:** {empresa}' if empresa else '**Empresa:**',
+                        f'**Pais:** {pais}' if pais else '**Pais:**',
+                        '**Estado:** MSG1 enviado',
+                        '',
+                        '---',
+                        '',
+                        '## MSG1',
+                    ]
+                    for bubble in msg1.split('\n'):
+                        if bubble.strip():
+                            lines_md.append(f'> {bubble}')
+                        else:
+                            lines_md.append('>')
+                    lines_md += ['', '---', '', '## Notas', '']
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        f.write('\n'.join(lines_md))
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': True, 'file': filepath}).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+
         elif self.path == '/api/sync':
             try:
                 msgs = []

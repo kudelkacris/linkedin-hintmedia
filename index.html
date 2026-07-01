@@ -1471,11 +1471,13 @@ function selectVariant(idx, letter, fullText, msg1Text, msg2Text) {
   const variantTitle = varTitleEl ? varTitleEl.textContent.trim() : `Variante ${idx + 1}`;
   const histId = state._historyId || String(Date.now());
   state._historyId = histId;
+  const _name = histExtractName(state.profile);
+  const _empresa = (document.getElementById('empresa-input')?.value?.trim()) || histExtractEmpresa(msg1Text, state.profile);
   histUpsert({
     id: histId,
     date: new Date().toLocaleDateString('es-AR', { day:'2-digit', month:'2-digit', year:'2-digit' }),
-    name: histExtractName(state.profile),
-    empresa: (document.getElementById('empresa-input')?.value?.trim()) || histExtractEmpresa(msg1Text, state.profile),
+    name: _name,
+    empresa: _empresa,
     variantTitle,
     profileRaw: state.profile || '',
     msg1: msg1Text,
@@ -1483,6 +1485,13 @@ function selectVariant(idx, letter, fullText, msg1Text, msg2Text) {
     extraMsgs: state.extraMsgs || {},
     conversationHistory: [{ role: 'sent', text: msg1Text }]
   });
+
+  // Auto-save .md in conversaciones/julio/
+  fetch('/api/save-md', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: _name, empresa: _empresa, msg1: msg1Text, profileRaw: state.profile || '' })
+  }).catch(() => {});
 
   const thread = document.getElementById('conv-thread');
   thread.style.display = 'flex';
