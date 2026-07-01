@@ -5,7 +5,7 @@
 **Empresa:** (sin datos)
 **Pais:** (sin datos)
 **Sector:** Marketing / Comunicacion Corporativa
-**Estado:** MSG2 enviado 01/07/26
+**Estado:** CERRADA 01/07/26 — tiene todo cubierto internamente. Recontacto oct/26.
 
 ---
 
@@ -29,3 +29,9 @@
 - Tono muy calido y receptivo
 - Entiende el rebranding como trabajo de claridad (audiencia, proposito, sensacion)
 - Clientes por sector: Destiny Group, Libra Seguros
+
+## Respuesta MSG2
+> Ahora mismo, tenemos todo eso bastante controlado, Florencia, muchas gracias!
+
+## Cierre (01/07/26)
+> Janire, que bueno saberlo! Si en algun momento el volumen crece o aparece un proyecto puntual, aca estamos. Buena semana!

@@ -203,8 +203,15 @@
         "stage": 2,
         "date": "01/07/26",
         "note": "MSG2 enviado. Respondio perfectamente al MSG1."
+      },
+      {
+        "stage": 2,
+        "date": "01/07/26",
+        "note": "Tiene todo cubierto internamente. Recontacto oct/26."
       }
-    ]
+    ],
+    "noInterest": true,
+    "followup_date": "01/10/26"
   },
   {
     "id": "1782930474472",
@@ -2623,7 +2630,8 @@
         "note": "SEG1 enviado"
       }
     ],
-    "followup_date": "01/10/26"
+    "followup_date": "01/10/26",
+    "noInterest": true
   },
   {
     "id": "1781828194091",
