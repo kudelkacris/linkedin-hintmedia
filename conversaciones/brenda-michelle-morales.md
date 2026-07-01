@@ -1,6 +1,6 @@
 # Brenda Michelle Morales
 
-**Estado:** Dossier enviado, lo revisará con calma
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26 (MSG1, MSG2, aclaración de contexto y dossier el mismo día)
 **Cargo:** Marketing Specialist Associate
 **Empresa:** Factor K Software (desarrollo de software, partner de Anthropic/Claude)

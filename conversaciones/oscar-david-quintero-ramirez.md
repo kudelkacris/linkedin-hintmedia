@@ -19,4 +19,4 @@ metadata:
 - 17+ años en sector minero-energético, oil & gas, sostenibilidad y transición energética.
 - Miembro Junta Directiva ACGGP (Asociación Colombiana de Geólogos y Geofísicos de la Energía).
 
-**Estado:** Dossier confirmado y enviado por acá, 24/06/26. Cierre: "Estamos al habla en el futuro cercano, cualquier duda a disposición."
+**Estado:** SEG1 enviado 01/07/26

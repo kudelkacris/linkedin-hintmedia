@@ -1,6 +1,6 @@
 # Matthew Hernandez
 
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 15/06/26 (MSG2) — dossier 18/06/26
 **Cargo:** Marketing Coordinator, Nexsys Centroamérica y Caribe
 **País:** Costa Rica (Cartago)

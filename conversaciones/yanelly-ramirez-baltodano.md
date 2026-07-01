@@ -1,6 +1,6 @@
 # Yanelly Ramírez Baltodano
 
-**Estado:** MSG2 enviado (con pregunta)
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 20/06/26
 **Cargo:** Coordinadora de Comunicación Estratégica y Empleabilidad
 **Empresa:** Intensa - Language Institute
@@ -24,4 +24,4 @@
 - Sector educación/empleabilidad institucional. Cliente ejemplo: Destiny Group, Libra Seguros.
 - Coordina employer branding, comunicación interna, RP y programa Alumni; lideró Talent Up (feria de empleo) 2da edición.
 
-**Estado:** MSG2 enviado, esperando respuesta
+**Estado:** SEG1 enviado 01/07/26

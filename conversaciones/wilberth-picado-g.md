@@ -17,4 +17,4 @@ metadata:
 - Aceptó dossier: "Comprendo, podés enviarlo por acá para conocer"
 - Enganche pre-dossier enviado (versión formal): casos de Destiny Group y Tasarolli en retail + cómo aplicaría a Súper Baterías y Gulf.
 
-**Estado:** Dossier confirmado y enviado, 24/06/26. Pendiente SEG1 en 48hs si no responde.
+**Estado:** SEG1 enviado 01/07/26

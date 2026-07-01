@@ -1,6 +1,6 @@
 # Micaela Ravina
 
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26
 **Cargo:** Marketing Manager / Directora de Marketing Hub Andino
 **Empresa:** TotalEnergies (Chile y Perú)

@@ -1,6 +1,6 @@
 # Tatiana Alvarez 🇨🇷
 
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26
 **Cargo:** Líder de Marketing
 **Empresa:** Grupo Biotec

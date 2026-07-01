@@ -1,5 +1,5 @@
 # HINT INTELLIGENCE — Strategy Brief
-**2026-06-30**  |  Base: 427 contactos  |  Dossier global: 25.1%
+**2026-07-01**  |  Base: 427 contactos  |  Dossier global: 25.1%
 
 ## ATACAR ESTA SEMANA
 

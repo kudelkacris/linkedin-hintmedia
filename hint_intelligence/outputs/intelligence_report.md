@@ -1,5 +1,5 @@
 # HINT INTELLIGENCE ENGINE — Reporte
-**Generado:** 2026-06-30  |  **Total contactos:** 427  |  **Versión KB:** 9
+**Generado:** 2026-07-01  |  **Total contactos:** 427  |  **Versión KB:** 10
 
 ---
 

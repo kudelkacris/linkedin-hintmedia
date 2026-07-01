@@ -22,4 +22,4 @@ metadata:
 - Pidió que el dossier vaya a su correo: Susana.Salguero@laudatosimovement.org
 - Dossier enviado por mail, cierre con buena onda ("estamos en contacto").
 
-**Estado:** Dossier enviado por mail.
+**Estado:** SEG1 enviado 01/07/26

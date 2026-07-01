@@ -104,5 +104,17 @@
     "errores": [],
     "n_alertas": 0,
     "elapsed_s": 0.09
+  },
+  {
+    "timestamp": "2026-07-01T12:56:47.945754",
+    "fase": 1,
+    "status": "OK",
+    "n_historial": 427,
+    "n_dataset_md": 167,
+    "n_insights": 8,
+    "n_sectores": 18,
+    "errores": [],
+    "n_alertas": 0,
+    "elapsed_s": 0.77
   }
 ]

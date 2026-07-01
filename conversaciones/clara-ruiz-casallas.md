@@ -1,6 +1,6 @@
 # Clara Ruiz Casallas
 
-**Estado:** Dossier confirmado y enviado (25/06/26)
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26
 **Cargo:** Marketing and Pipeline Advisor
 **Empresa:** SierraCol Energy

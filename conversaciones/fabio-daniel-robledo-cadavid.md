@@ -1,6 +1,6 @@
 # Fabio Daniel Robledo Cadavid
 
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 16/06/26
 **Cargo:** Multi Country General Manager
 **Empresa:** MEDIPAN S.A. (farmacéutica, líder regional)

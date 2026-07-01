@@ -7,4 +7,4 @@ Gerente de Asuntos Corporativos y Comunicaciones Argentina, BHP (minería, cobre
 - Miércoles 11:57: CTA dossier enviado (TGS, Transener como referencia energía/minería).
 - Hoy 11:52: acepta dossier. Aclara que contrataron agencia de media hace 2/3 meses con esa función, pero igual quiere panorama de mercado.
 
-Estado: dossier por enviar. Ya tienen agencia (riesgo bajo conversión), pero abierto a recibir material. Enviar dossier.
+Estado: RECONTACTO 01/10/26. Tiene agencia contratada hace 2-3 meses, pidió igual el material para panorama de mercado. Dossier enviado. Sin SEG1, se marcó para recontactar en octubre.

@@ -1,6 +1,6 @@
 # Victor Peña Lisbona
 
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 19/06/26
 **Cargo:** Marketing Manager and Technical Sales
 **Empresa:** Trefimet S.A. (lanzas térmicas para fundiciones)

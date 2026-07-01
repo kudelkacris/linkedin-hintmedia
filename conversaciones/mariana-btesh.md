@@ -1,6 +1,6 @@
 # Mariana Btesh
 
-**Estado:** MSG2 enviado
+**Estado:** RECONTACTO 01/10/26. SEG1 enviado 01/07/26, respondió con emoji "Gracias" — cierre suave. Recontactar en octubre.
 **Fecha:** 19/06/26
 **Cargo:** Jefe de Marketing
 **Empresa:** Aki KB Minibodegas

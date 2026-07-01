@@ -17,4 +17,4 @@ metadata:
 - Pidió envío por mail: gerencia@kipclin.com
 - Dossier confirmado enviado por mail, 24/06/26.
 
-**Estado:** CERRADA, dossier enviado por mail. Sin pitch directo posterior.
+**Estado:** SEG1 enviado 01/07/26

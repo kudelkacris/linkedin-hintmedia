@@ -4,7 +4,7 @@
 **Cargo:** Marketing (rol individual — múltiples frentes)
 **País:** (no especificado)
 **Sector:** Hospitality / Turismo
-**Estado:** MSG2 enviado, esperando respuesta
+**Estado:** SEG1 enviado 01/07/26 vía LinkedIn directo (mail rebotó, se ofreció enviar el dossier por LinkedIn en su lugar).
 
 ---
 

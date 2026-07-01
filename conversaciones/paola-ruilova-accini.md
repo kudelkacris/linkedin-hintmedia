@@ -1,6 +1,6 @@
 # Paola Ruilova Accini
 
-**Estado:** Dossier enviado, cierre con buena onda (22/06/26)
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)
 **Cargo:** Supervisora de Marketing (Especialista de Marketing)
 **Empresa:** NUCOPSA S.A. (licenciataria Shell Ecuador)

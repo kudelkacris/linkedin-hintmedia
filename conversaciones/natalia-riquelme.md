@@ -1,6 +1,6 @@
 # Natalia Riquelme
 
-**Estado:** Dossier enviado, preguntó por ubicación (Argentina/Chile)
+**Estado:** SEG1 enviado 01/07/26. Respondió "vale, gracias! lo tendré en cuenta" — engagement bajo, sin CTA activo por ahora.
 **Fecha:** 18/06/26 (MSG1, MSG2 y aclaración de país el mismo día)
 **Cargo:** Head of Marketing (desde mayo 2026, 2 meses)
 **Empresa:** REMA TIP TOP Chile (productos de caucho/ingeniería para minería)

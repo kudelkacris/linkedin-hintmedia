@@ -1,6 +1,6 @@
 # Meliné Gejekoushian
 
-**Estado:** No interesada ahora, dejó mail para propuesta a futuro
+**Estado:** RECONTACTO 01/10/26. No buscan proveedor ahora, dejó mail comunicacion@biofarmaweb.com.ar para tenerlo a mano. Dossier enviado por mail. Recontactar octubre.
 **Fecha:** 08/06/26 (MSG1) — MSG2 08/06/26 — respuesta 18/06/26
 **Cargo:** Responsable de Comunicación en Biofarma
 **Empresa:** Biofarma

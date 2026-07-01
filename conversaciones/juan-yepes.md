@@ -1,6 +1,6 @@
 # Juan Yepes
 
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 20/06/26
 **Cargo:** Director de Marketing
 **Empresa:** Colombiana de Comercio / Corbeta / Alkosto S.A
@@ -29,4 +29,4 @@
 - Sector retail (Alkosto/Corbeta). Cliente ejemplo: Destiny Group, Tasarolli.
 - Estratega marketing senior, muy activo y reflexivo en LinkedIn (Kotler, branding, growth, campaña "Stickers Salvavidas" premiada).
 
-**Estado:** Dossier enviado, esperando feedback
+**Estado:** SEG1 enviado 01/07/26

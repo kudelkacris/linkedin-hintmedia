@@ -1,6 +1,6 @@
 # Nicole Vilches Busques
 
-**Estado:** Dossier aceptado, por enviar
+**Estado:** NO INTERESADA 01/07/26. Respondió en SEG1 que no está interesada.
 **Fecha:** 18/06/26 (MSG1, MSG2 y aceptación el mismo día)
 **Cargo:** Marketing Manager
 **Empresa:** active I.T (consultora tech/CRM/transformación digital, fintech)

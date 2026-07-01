@@ -1,6 +1,6 @@
 # Claudia Cardemil
 
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 20/06/26
 **Cargo:** Comunicaciones Corporativas
 **Empresa:** Enap
@@ -26,4 +26,4 @@
 - Sector energía (ENAP). Cliente ejemplo: TGS, Transener.
 - Comunicación interna multi-unidad nacional, narrativa always-on.
 
-**Estado:** Dossier enviado, esperando feedback
+**Estado:** SEG1 enviado 01/07/26

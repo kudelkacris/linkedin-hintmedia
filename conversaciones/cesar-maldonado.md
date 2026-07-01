@@ -1,6 +1,6 @@
 # César Maldonado S.
 
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 18/06/26 (MSG1, MSG2 y dossier el mismo día)
 **Cargo:** Chief Digital Officer (CDO) IT/OT
 **Empresa:** AES Andes

@@ -13,8 +13,8 @@
       "Destiny Group",
       "Tasarolli"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Agro/Alimentos": {
     "sector": "Agro/Alimentos",
@@ -30,8 +30,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Automotriz": {
     "sector": "Automotriz",
@@ -47,8 +47,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Construcción/Materiales": {
     "sector": "Construcción/Materiales",
@@ -64,8 +64,8 @@
       "TGS",
       "Transener"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Consultoría/Legal": {
     "sector": "Consultoría/Legal",
@@ -81,8 +81,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Educación": {
     "sector": "Educación",
@@ -98,8 +98,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Energía": {
     "sector": "Energía",
@@ -115,8 +115,8 @@
       "TGS",
       "Transener"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Farmacéutico": {
     "sector": "Farmacéutico",
@@ -132,8 +132,8 @@
       "Libra Seguros",
       "Destiny Group"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Logística/Transporte": {
     "sector": "Logística/Transporte",
@@ -149,8 +149,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Medios/Comunicación": {
     "sector": "Medios/Comunicación",
@@ -166,8 +166,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Minería": {
     "sector": "Minería",
@@ -183,8 +183,8 @@
       "TGS",
       "Transener"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Real Estate": {
     "sector": "Real Estate",
@@ -200,8 +200,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Retail/Consumo": {
     "sector": "Retail/Consumo",
@@ -217,8 +217,8 @@
       "Destiny Group",
       "Tasarolli"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Salud/Clínica": {
     "sector": "Salud/Clínica",
@@ -234,8 +234,8 @@
       "Libra Seguros",
       "Destiny Group"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Seguros/Finanzas": {
     "sector": "Seguros/Finanzas",
@@ -251,8 +251,8 @@
       "Libra Seguros",
       "Destiny Group"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Tecnología": {
     "sector": "Tecnología",
@@ -268,8 +268,8 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "Turismo/Hotelería": {
     "sector": "Turismo/Hotelería",
@@ -285,7 +285,7 @@
       "Destiny Group",
       "Libra Seguros"
     ],
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   }
 }

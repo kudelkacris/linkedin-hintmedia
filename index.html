@@ -62,6 +62,13 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .prox-row-days.orange{color:#FFA040}
 .prox-row-days.green{color:#27AE60}
 .prox-empty-col{padding:14px 10px;font-size:11px;color:#444;text-align:center;font-style:italic}
+.prox-col-head.col-recontact{background:#1A2A1A;color:#60C080}
+.recontact-picker{background:#1A1A2A;border:1px solid #3A3A5A;border-radius:8px;padding:10px;margin-top:8px;display:none}
+.recontact-picker.open{display:block}
+.recontact-opt{display:inline-block;background:#2A2A4A;color:#A0A0FF;border:none;border-radius:5px;padding:4px 10px;font-size:11px;cursor:pointer;margin:2px}
+.recontact-opt:hover{background:#3A3A6A}
+.recontact-current{font-size:11px;color:#60C080;margin-bottom:6px}
+.recontact-clear{background:#3A1A1A;color:#FF6060;border:none;border-radius:5px;padding:3px 9px;font-size:10px;cursor:pointer;margin-left:6px}
 
 /* CONTAINER */
 .page{max-width:1060px;margin:0 auto;padding:2rem 1.5rem 5rem}
@@ -1901,10 +1908,22 @@ function renderAdvanceBox(en) {
   if (!en.noInterest) {
     h += '<button class="btn-advance" style="background:#888;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
     h += '✕ No interesado</button>';
+    h += '<button class="btn-advance" style="background:#1A2A3A;flex:0" onclick="toggleRecontactPicker(\'' + en.id + '\')">';
+    h += '⏰ Recontactar</button>';
   } else {
     h += '<button class="btn-advance" style="background:#444;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
     h += '↩ Reactivar</button>';
   }
+  h += '</div>';
+  const recontactDate = en.followup_date || '';
+  h += '<div class="recontact-picker" id="recontact-picker-' + en.id + '">';
+  if (recontactDate) {
+    h += '<div class="recontact-current">Programado: ' + recontactDate + '<button class="recontact-clear" onclick="clearRecontact(\'' + en.id + '\')">Cancelar</button></div>';
+  }
+  h += '<span style="font-size:10px;color:#777;display:block;margin-bottom:5px">Recontactar en:</span>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',1)">1 mes</button>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',3)">3 meses</button>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',6)">6 meses</button>';
   h += '</div>';
   if (!en.noInterest) {
     if (cur < 5) {
@@ -1970,6 +1989,30 @@ function histMarkNoInterest(id) {
   en.noInterest = !en.noInterest;
   histPersist();
   renderHistoryList();
+  histRestore(id);
+}
+function toggleRecontactPicker(id) {
+  const picker = document.getElementById('recontact-picker-' + id);
+  if (picker) picker.classList.toggle('open');
+}
+function setRecontact(id, months) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  const d = new Date();
+  d.setMonth(d.getMonth() + months);
+  en.followup_date = d.toLocaleDateString('es-AR', {day:'2-digit', month:'2-digit', year:'numeric'});
+  histPersist();
+  renderProximos();
+  histRestore(id);
+  const picker = document.getElementById('recontact-picker-' + id);
+  if (picker) picker.classList.remove('open');
+}
+function clearRecontact(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  delete en.followup_date;
+  histPersist();
+  renderProximos();
   histRestore(id);
 }
 
@@ -2067,7 +2110,26 @@ function getEmpresaDisplay(en) {
   return '';
 }
 function renderProximos() {
-  const active = [..._histEntries].filter(en => !en.noInterest && (en.stage||1) <= 4);
+  const today = new Date(); today.setHours(0,0,0,0);
+  function parseFollowupDate(str) {
+    if (!str) return null;
+    const [d,m,y] = str.split('/').map(Number);
+    return new Date(y < 100 ? 2000+y : y, m-1, d);
+  }
+  const active = [..._histEntries].filter(en => {
+    if (en.noInterest || (en.stage||1) > 4) return false;
+    if (en.followup_date) {
+      const fd = parseFollowupDate(en.followup_date);
+      if (fd && fd > today) return false;
+    }
+    return true;
+  });
+  const recontactEntries = [..._histEntries].filter(en => {
+    if (en.noInterest) return false;
+    if (!en.followup_date) return false;
+    const fd = parseFollowupDate(en.followup_date);
+    return fd && fd > today;
+  });
   const countEl = document.getElementById('prox-count');
   const body = document.getElementById('proximos-body');
   if (!countEl || !body) return;
@@ -2094,6 +2156,27 @@ function renderProximos() {
     if (x.remaining === 1) return { text: 'Mañana', cls: 'orange' };
     return { text: `en ${x.remaining}d`, cls: 'green' };
   }
+  const recontactRows = recontactEntries.sort((a,b) => {
+    const fa = parseFollowupDate(a.followup_date), fb = parseFollowupDate(b.followup_date);
+    return fa - fb;
+  }).map(en => {
+    const fd = parseFollowupDate(en.followup_date);
+    const diffDays = Math.round((fd - today) / 86400000);
+    const empresa = getEmpresaDisplay(en);
+    let text, cls;
+    if (diffDays <= 0) { text = 'Hoy'; cls = 'orange'; }
+    else if (diffDays === 1) { text = 'Mañana'; cls = 'orange'; }
+    else if (diffDays <= 7) { text = `en ${diffDays}d`; cls = 'orange'; }
+    else { text = en.followup_date; cls = 'green'; }
+    return `<div class="prox-row" onclick="proxCardClick('${en.id}')">
+      <div class="prox-row-info">
+        <div class="prox-row-name">${esc(en.name)}</div>
+        ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+      </div>
+      <div class="prox-row-days ${cls}">${text}</div>
+    </div>`;
+  }).join('') || `<div class="prox-empty-col">Sin pendientes</div>`;
+
   body.innerHTML = cols.map(col => {
     const items = enriched.filter(x => x.action === col.key);
     const rows = items.length === 0
@@ -2116,7 +2199,13 @@ function renderProximos() {
       </div>
       <div class="prox-col-body">${rows}</div>
     </div>`;
-  }).join('');
+  }).join('') + `<div class="prox-col">
+    <div class="prox-col-head col-recontact">
+      <span>⏰ Recontactar</span>
+      <span class="prox-col-count">${recontactEntries.length}</span>
+    </div>
+    <div class="prox-col-body">${recontactRows}</div>
+  </div>`;
 }
 function proxCardClick(id) {
   histRestore(id);
@@ -2317,6 +2406,7 @@ function renderHistStatCards(counts) {
     {val:'email', num: counts.email, lbl:'× mail', color:'#1A5FA8', blue:true},
     {val:'4', num: counts[4], lbl:'Seg. 1', color:'#1A6635'},
     {val:'5', num: counts[5], lbl:'Seg. 2', color:'#555'},
+    {val:'recontact', num: counts.recontact, lbl:'Recontacto', color:'#27AE60'},
     {val:'noint', num: counts.noint, lbl:'No int.', color:'#999'},
   ];
   el.innerHTML = cards.map(c => {
@@ -2331,9 +2421,10 @@ function renderHistStatCards(counts) {
 function renderHistStats() {
   const bar = document.getElementById('hist-stats');
   if (!bar) return;
-  const counts = {1:0,2:0,3:0,4:0,5:0,noint:0,email:0};
+  const counts = {1:0,2:0,3:0,4:0,5:0,noint:0,email:0,recontact:0};
   _histEntries.forEach(e => {
     if (e.noInterest) counts.noint++;
+    else if (e.followup_date) counts.recontact++;
     else { counts[e.stage||1] = (counts[e.stage||1]||0) + 1; if (histHasEmail(e)) counts.email++; }
   });
   const chips = [
@@ -2343,6 +2434,7 @@ function renderHistStats() {
     {val:'email', label:`📧 Mail · ${counts.email}`, blue:true},
     {val:'4', label:`Seg.1 · ${counts[4]}`},
     {val:'5', label:`Seg.2 · ${counts[5]}`},
+    {val:'recontact', label:`⏰ Recontacto · ${counts.recontact}`},
     {val:'noint', label:`No int. · ${counts.noint}`},
   ];
   bar.innerHTML = chips.map(c =>
@@ -2373,8 +2465,9 @@ function renderHistoryList() {
   }
   let filtered = q ? sorted.filter(searchEntry) : sorted;
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
-  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
-  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && (en.stage||1) === parseInt(_histStageFilter));
+  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && !en.followup_date && histHasEmail(en));
+  else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!en.followup_date);
+  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && !en.followup_date && (en.stage||1) === parseInt(_histStageFilter));
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
     return;

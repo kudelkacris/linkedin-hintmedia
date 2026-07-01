@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generado": "2026-06-30",
+    "generado": "2026-07-01",
     "n_historial": 427,
     "n_dataset_md": 167,
-    "version": 9,
+    "version": 10,
     "previous_n": 427
   },
   "global": {
@@ -28,7 +28,7 @@
       "dossier_pct": 23.6,
       "seg_pct": 16.6,
       "avanzado_pct": 2.5,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Agencia/Marketing": {
@@ -40,7 +40,7 @@
       "dossier_pct": 28.0,
       "seg_pct": 12.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Agro/Alimentos": {
@@ -52,7 +52,7 @@
       "dossier_pct": 25.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Automotriz": {
@@ -64,7 +64,7 @@
       "dossier_pct": 0.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Construcción/Materiales": {
@@ -76,7 +76,7 @@
       "dossier_pct": 0.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Consultoría/Legal": {
@@ -88,7 +88,7 @@
       "dossier_pct": 30.0,
       "seg_pct": 10.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Educación": {
@@ -100,7 +100,7 @@
       "dossier_pct": 35.7,
       "seg_pct": 7.1,
       "avanzado_pct": 2.4,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Energía": {
@@ -112,7 +112,7 @@
       "dossier_pct": 26.9,
       "seg_pct": 7.7,
       "avanzado_pct": 3.8,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Farmacéutico": {
@@ -124,7 +124,7 @@
       "dossier_pct": 25.0,
       "seg_pct": 5.0,
       "avanzado_pct": 5.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Logística/Transporte": {
@@ -136,7 +136,7 @@
       "dossier_pct": 0.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Medios/Comunicación": {
@@ -148,7 +148,7 @@
       "dossier_pct": 0.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Minería": {
@@ -160,7 +160,7 @@
       "dossier_pct": 35.7,
       "seg_pct": 14.3,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Real Estate": {
@@ -172,7 +172,7 @@
       "dossier_pct": 37.5,
       "seg_pct": 37.5,
       "avanzado_pct": 12.5,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Retail/Consumo": {
@@ -184,7 +184,7 @@
       "dossier_pct": 12.5,
       "seg_pct": 12.5,
       "avanzado_pct": 6.2,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Salud/Clínica": {
@@ -196,7 +196,7 @@
       "dossier_pct": 33.3,
       "seg_pct": 16.7,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Seguros/Finanzas": {
@@ -208,7 +208,7 @@
       "dossier_pct": 33.3,
       "seg_pct": 22.2,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Tecnología": {
@@ -220,7 +220,7 @@
       "dossier_pct": 25.0,
       "seg_pct": 5.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Turismo/Hotelería": {
@@ -232,7 +232,7 @@
       "dossier_pct": 14.3,
       "seg_pct": 7.1,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -246,7 +246,7 @@
       "dossier_pct": 10.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "DIRECTOR": {
@@ -258,7 +258,7 @@
       "dossier_pct": 27.3,
       "seg_pct": 9.1,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "MANAGER": {
@@ -270,7 +270,7 @@
       "dossier_pct": 20.6,
       "seg_pct": 5.9,
       "avanzado_pct": 2.9,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "OTHER": {
@@ -282,7 +282,7 @@
       "dossier_pct": 25.9,
       "seg_pct": 14.0,
       "avanzado_pct": 2.5,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "SPECIALIST": {
@@ -294,7 +294,7 @@
       "dossier_pct": 25.0,
       "seg_pct": 12.5,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -308,7 +308,7 @@
       "dossier_pct": 28.5,
       "seg_pct": 12.7,
       "avanzado_pct": 2.3,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "C": {
@@ -320,7 +320,7 @@
       "dossier_pct": 19.4,
       "seg_pct": 13.4,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -334,7 +334,7 @@
       "dossier_pct": 31.8,
       "seg_pct": 13.6,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Consultoría/Legal × OTHER": {
@@ -346,7 +346,7 @@
       "dossier_pct": 20.0,
       "seg_pct": 20.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Educación × DIRECTOR": {
@@ -358,7 +358,7 @@
       "dossier_pct": 0.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Educación × MANAGER": {
@@ -370,7 +370,7 @@
       "dossier_pct": 9.1,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Educación × OTHER": {
@@ -382,7 +382,7 @@
       "dossier_pct": 52.2,
       "seg_pct": 13.0,
       "avanzado_pct": 4.3,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Energía × MANAGER": {
@@ -394,7 +394,7 @@
       "dossier_pct": 20.0,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Energía × OTHER": {
@@ -406,7 +406,7 @@
       "dossier_pct": 25.0,
       "seg_pct": 10.0,
       "avanzado_pct": 5.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Farmacéutico × OTHER": {
@@ -418,7 +418,7 @@
       "dossier_pct": 22.2,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Minería × OTHER": {
@@ -430,7 +430,7 @@
       "dossier_pct": 40.0,
       "seg_pct": 10.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Real Estate × OTHER": {
@@ -442,7 +442,7 @@
       "dossier_pct": 28.6,
       "seg_pct": 28.6,
       "avanzado_pct": 14.3,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Retail/Consumo × OTHER": {
@@ -454,7 +454,7 @@
       "dossier_pct": 15.4,
       "seg_pct": 15.4,
       "avanzado_pct": 7.7,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Seguros/Finanzas × OTHER": {
@@ -466,7 +466,7 @@
       "dossier_pct": 42.9,
       "seg_pct": 28.6,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Tecnología × OTHER": {
@@ -478,7 +478,7 @@
       "dossier_pct": 23.5,
       "seg_pct": 5.9,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "Turismo/Hotelería × OTHER": {
@@ -490,7 +490,7 @@
       "dossier_pct": 8.3,
       "seg_pct": 0.0,
       "avanzado_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -503,7 +503,7 @@
       "dossier_pct": 69.2,
       "reunion_pct": 15.4,
       "cliente_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "LOW": {
@@ -514,7 +514,7 @@
       "dossier_pct": 30.4,
       "reunion_pct": 5.4,
       "cliente_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "MEDIUM": {
@@ -525,7 +525,7 @@
       "dossier_pct": 66.7,
       "reunion_pct": 2.0,
       "cliente_pct": 0.0,
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -535,7 +535,7 @@
       "valor": "BAD_TIMING",
       "n": 5,
       "confianza": "INSUFFICIENT",
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "CURIOSITY_ONLY": {
@@ -543,7 +543,7 @@
       "valor": "CURIOSITY_ONLY",
       "n": 5,
       "confianza": "INSUFFICIENT",
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "HAS_AGENCY": {
@@ -551,7 +551,7 @@
       "valor": "HAS_AGENCY",
       "n": 4,
       "confianza": "INSUFFICIENT",
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     },
     "PARTNERSHIP": {
@@ -559,7 +559,7 @@
       "valor": "PARTNERSHIP",
       "n": 10,
       "confianza": "LOW",
-      "fecha": "2026-06-30",
+      "fecha": "2026-07-01",
       "version": 1
     }
   },
@@ -571,7 +571,7 @@
       "confianza": "INSUFFICIENT",
       "n": 8,
       "accion": "Priorizar contactos en Real Estate",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_VARIANTE_WINNER",
@@ -581,7 +581,7 @@
       "n_A": 260,
       "n_C": 67,
       "accion": "Default Variante A. Aumentar casos de Variante C para confirmar (n=67, necesita ≥30 para confianza MEDIUM)",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_CEO_UNDERPERFORMS",
@@ -591,7 +591,7 @@
       "n_ceo": 10,
       "n_director": 11,
       "accion": "Preferir Director/Manager como primer contacto. Escalar a CEO solo si el Director lo sugiere.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_PROMISING_CONSULTORÍA_LEGAL",
@@ -600,7 +600,7 @@
       "confianza": "LOW",
       "n": 10,
       "accion": "Aumentar volumen en Consultoría/Legal para confirmar el patrón. Objetivo: n=30.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_PROMISING_MINERÍA",
@@ -609,7 +609,7 @@
       "confianza": "LOW",
       "n": 14,
       "accion": "Aumentar volumen en Minería para confirmar el patrón. Objetivo: n=30.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_PROMISING_REAL ESTATE",
@@ -618,7 +618,7 @@
       "confianza": "LOW",
       "n": 8,
       "accion": "Aumentar volumen en Real Estate para confirmar el patrón. Objetivo: n=30.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_PROMISING_SALUD_CLÍNICA",
@@ -627,7 +627,7 @@
       "confianza": "LOW",
       "n": 6,
       "accion": "Aumentar volumen en Salud/Clínica para confirmar el patrón. Objetivo: n=30.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_PROMISING_SEGUROS_FINANZAS",
@@ -636,7 +636,7 @@
       "confianza": "LOW",
       "n": 9,
       "accion": "Aumentar volumen en Seguros/Finanzas para confirmar el patrón. Objetivo: n=30.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     }
   ]
 }

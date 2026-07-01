@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generado": "2026-06-30",
+    "generado": "2026-07-01",
     "n_total": 427,
     "dossier_rate_global": 25.1
   },
@@ -233,7 +233,7 @@
       "confianza": "INSUFFICIENT",
       "n": 8,
       "accion": "Priorizar contactos en Real Estate",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_VARIANTE_WINNER",
@@ -243,7 +243,7 @@
       "n_A": 260,
       "n_C": 67,
       "accion": "Default Variante A. Aumentar casos de Variante C para confirmar (n=67, necesita ≥30 para confianza MEDIUM)",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     },
     {
       "id": "INS_CEO_UNDERPERFORMS",
@@ -253,7 +253,7 @@
       "n_ceo": 10,
       "n_director": 11,
       "accion": "Preferir Director/Manager como primer contacto. Escalar a CEO solo si el Director lo sugiere.",
-      "fecha": "2026-06-30"
+      "fecha": "2026-07-01"
     }
   ]
 }

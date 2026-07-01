@@ -11,6 +11,6 @@ metadata:
 **Resumen:**
 - Confirmó cargo → MSG2 enviado
 
-**Estado:** Esperando respuesta al MSG2
+**Estado:** SEG1 enviado 01/07/26
 
 *Nota: detalle de perfil y conversación no disponible en esta sesión.*

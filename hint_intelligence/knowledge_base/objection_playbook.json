@@ -5,8 +5,8 @@
     "confianza": "INSUFFICIENT",
     "respuesta_sugerida": "",
     "recuperable": null,
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "CURIOSITY_ONLY": {
     "objecion": "CURIOSITY_ONLY",
@@ -14,8 +14,8 @@
     "confianza": "INSUFFICIENT",
     "respuesta_sugerida": "",
     "recuperable": null,
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "HAS_AGENCY": {
     "objecion": "HAS_AGENCY",
@@ -23,8 +23,8 @@
     "confianza": "INSUFFICIENT",
     "respuesta_sugerida": "",
     "recuperable": null,
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   },
   "PARTNERSHIP": {
     "objecion": "PARTNERSHIP",
@@ -32,7 +32,7 @@
     "confianza": "LOW",
     "respuesta_sugerida": "",
     "recuperable": null,
-    "ultima_actualizacion": "2026-06-30",
-    "version": 9
+    "ultima_actualizacion": "2026-07-01",
+    "version": 10
   }
 }

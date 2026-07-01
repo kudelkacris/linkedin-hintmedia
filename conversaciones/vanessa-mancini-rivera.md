@@ -1,6 +1,6 @@
 # Vanessa Mancini Rivera
 
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado 01/07/26
 **Fecha:** 19/06/26
 **Cargo:** Jefa de Marketing y Comunicaciones
 **Empresa:** CRL - Clínica de Recuperación de Lesiones
