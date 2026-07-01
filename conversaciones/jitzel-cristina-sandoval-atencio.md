@@ -4,7 +4,7 @@
 **Cargo:** Líder de Imagen / Marketing
 **País:** Panamá
 **Sector:** Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias
-**Estado:** Sin respuesta al MSG3, se mandó SEG1 de reimpulso 23/06/26 con CTA directo (engagement HIGH: elaboró mucho, corrigió datos de 37 a 48 marcas, hizo pregunta directa, dio el mail)
+**Estado:** CERRADA 01/07/26 — tiene equipo in-house, presupuesto bloqueado ahora. Recontacto oct/26.
 
 ---
 
@@ -45,6 +45,14 @@
 
 ## SEG1 / reimpulso (enviado 23/06/26)
 > Jitzel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó dando vueltas lo de las 48 marcas divididas por categorías tan distintas, agro, construcción, autorepuestos, limpieza. Me parece que tiene más sentido conversarlo en una llamada corta que seguir por mensaje. Te parece si coordinamos 15 minutos esta semana y vemos por dónde empezar?
+
+## Respuesta SEG1 (01/07/26)
+> Hola Florencia, gusto saludarte. Me parece curioso que eso te quedé dando vueltas jajajajaja, es de lo más normal, yo tengo un departamento de marketing in house, entre diseñadores, especialistas y Cms, trabajando organizadamente y de manera estrategica, las cosas se dan. Creeme, tengo 1 año y medio aquí liderando, es pesado, pero no imposible. Agradezco que quieras ofrecernos tus servicios, pero siendote honesta en este momento, estoy peleando el presupuesto de las marcas, por otros objetivos que tenemos. Saludos,
+
+## Cierre (01/07/26)
+> Jitzel, gracias por la honestidad — eso dice mucho.
+> Con un equipo armado y 48 marcas en movimiento, tiene sentido que el foco esté en otro lado ahora.
+> Queda en mi radar para cuando el momento cambie. Suerte con la pelea del presupuesto!
 
 ---
 
