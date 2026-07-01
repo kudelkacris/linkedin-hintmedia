@@ -183,6 +183,8 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 filepath = os.path.join(folder, slug + '.md')
                 today = date.today().strftime('%d/%m/%y')
 
+                analysis = d.get('analysis', {})
+
                 # Only create if doesn't exist yet
                 if not os.path.exists(filepath):
                     lines_md = [
@@ -192,12 +194,28 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                         f'**Cargo:** {cargo}' if cargo else '**Cargo:**',
                         f'**Empresa:** {empresa}' if empresa else '**Empresa:**',
                         f'**Pais:** {pais}' if pais else '**Pais:**',
+                        f'**Sector:** {analysis.get("sector", "")}' if analysis.get('sector') else '**Sector:**',
                         '**Estado:** MSG1 enviado',
                         '',
                         '---',
                         '',
-                        '## MSG1',
                     ]
+                    # Analysis section
+                    a_fields = [
+                        ('Señal humana', analysis.get('senalHumana')),
+                        ('Tensión profesional', analysis.get('tension')),
+                        ('Hipótesis', analysis.get('hipotesis')),
+                        ('Ángulo MSG1', analysis.get('angulo')),
+                        ('Confidence', analysis.get('confLevel')),
+                    ]
+                    has_analysis = any(v for _, v in a_fields)
+                    if has_analysis:
+                        lines_md.append('## Análisis')
+                        for label, val in a_fields:
+                            if val:
+                                lines_md.append(f'- **{label}:** {val}')
+                        lines_md += ['', '---', '']
+                    lines_md.append('## MSG1')
                     for bubble in msg1.split('\n'):
                         if bubble.strip():
                             lines_md.append(f'> {bubble}')

@@ -1299,6 +1299,9 @@ function renderVariants(text) {
   const globalScore = getField('GLOBAL_SCORE');
   const recommendedPriority = getField('RECOMMENDED_PRIORITY');
 
+  // Store analysis in state so selectVariant() can include it in the .md
+  state.lastAnalysis = { resumen, hechos, interpretacion, senalHumana, tension, hipotesis, angulo, sector, area, confLevel, confReason, allowedMsg1 };
+
   if (resumen || hechos || interpretacion || senalHumana || tension || hipotesis || angulo) {
     const ap = document.createElement('div');
     ap.style.cssText = 'background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:11px;padding:13px 15px;font-size:12px;line-height:1.65;display:flex;flex-direction:column;gap:7px;animation:fadeUp .3s ease both';
@@ -1490,7 +1493,7 @@ function selectVariant(idx, letter, fullText, msg1Text, msg2Text) {
   fetch('/api/save-md', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name: _name, empresa: _empresa, msg1: msg1Text, profileRaw: state.profile || '' })
+    body: JSON.stringify({ name: _name, empresa: _empresa, msg1: msg1Text, profileRaw: state.profile || '', analysis: state.lastAnalysis || {} })
   }).catch(() => {});
 
   const thread = document.getElementById('conv-thread');
