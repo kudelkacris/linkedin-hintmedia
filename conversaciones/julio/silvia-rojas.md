@@ -5,7 +5,7 @@
 **Empresa:** Independiente
 **Pais:** Costa Rica
 **Sector:** Retail / E-Commerce / Marketplace
-**Estado:** Dossier enviado
+**Estado:** Reunión propuesta por prospecto
 
 ---
 
@@ -51,6 +51,17 @@
 > Perfecto Silvia, te lo mando ahora!
 > [LINK DOSSIER]
 > Buena semana y estamos en contacto en el futuro cercano!
+
+---
+
+## Respuesta MSG3
+> "Gracias, igualmente Florencia. Cuando gustes podemos tener un conversatorio al respecto"
+
+---
+
+## MSG4
+> Con mucho gusto Silvia! Me encantaría.
+> Esta semana o la próxima, lo que mejor te quede. Tenés WhatsApp o preferís que sigamos coordinando por acá?
 
 ---
 
