@@ -5,7 +5,7 @@
 **Empresa:** LEAD University
 **Pais:** Costa Rica
 **Sector:** Educación / Marketing Digital
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -41,6 +41,19 @@
 > En ese contexto, cuál es el frente de comunicación que más presión te está generando ahora?
 > Trabajo en Hint Media con empresas e instituciones de servicios, como Destiny Group y Libra Seguros. Acompañamos la comunicación en etapas de crecimiento: contenido, paid media, identidad. Todo coordinado.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> "🤗😄🤐
+> Si, enviame por acá la oferta de servicios."
+
+---
+
+## MSG3
+> Perfecto Diego, te lo mando ahora!
+> [LINK DOSSIER]
+> Buena semana y estamos en contacto en el futuro cercano!
 
 ---
 
