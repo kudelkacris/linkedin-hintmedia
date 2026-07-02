@@ -60,8 +60,8 @@
 ---
 
 ## MSG4
-> Con mucho gusto Silvia! Me encantaría.
-> Me pasás tu mail? Te mando la invitación por Google Meet. Nosotras estamos en Argentina (UTC-3) y vos en Costa Rica (UTC-6), tres horas de diferencia. Decime qué día y horario te queda mejor y lo armamos.
+> Me copa mucho la idea Silvia!
+> Me pasás tu mail? Te mando un Google Meet. Estamos en Argentina, así que hay 3 horas de diferencia con vos. Decime qué día y a qué hora te viene bien y lo armamos.
 
 ---
 
