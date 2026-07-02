@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** el Salvador
 **Sector:** Legal / Professional Services
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 02/07/26
 
 ---
 

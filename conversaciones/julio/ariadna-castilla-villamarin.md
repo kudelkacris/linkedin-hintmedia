@@ -27,4 +27,19 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Hola Florencia! Gracias por escribir! Me alegra que te haya llegado esa idea, porque era precisamente lo que quería trasladar: que el formato, el contenido y la experiencia del evento respondieran a una misma lógica.
+> Claro, cuéntame cuál es la consulta y veo si puedo ayudarte!
+
+## MSG2 (02/07/26)
+> Buenas Ariadna!
+> Eso que describís, que el formato, el contenido y la experiencia respondan a una misma lógica, es exactamente lo más difícil de sostener cuando una comunidad empieza a crecer.
+> Cómo lo manejás cuando incorporás gente nueva al equipo que no vivió el proceso desde adentro?
+> En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan mantener esa coherencia narrativa mientras escalan. Clientes como Destiny Group y Libra Seguros lo trabajaron con nosotros.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Respuesta positiva y abierta. Usó sus palabras exactas en B1.
+- Sector emprendimiento/ecosistema → Destiny Group y Libra Seguros.
+
+**Estado:** MSG2 enviado — 02/07/26
