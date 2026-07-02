@@ -1,5 +1,86 @@
 # CLAUDE.md — Proyecto LinkedIn Outreach (Hint Media)
 
+## MOTOR DE DECISIÓN — EJECUTAR ANTES DE CUALQUIER MENSAJE
+
+### REGLA DE ORO — responder estas 3 preguntas antes de escribir
+1. ¿Por qué el prospecto respondió exactamente eso?
+2. ¿Qué oportunidad comercial apareció que hace un minuto no existía?
+3. Si este mensaje fuera leído por el prospecto, ¿sentiría que realmente lo escuché, o que estoy siguiendo un proceso?
+
+Si la respuesta a la 3 es "siguiendo un proceso" → reescribir completamente.
+
+---
+
+### ETAPA 1 — ¿QUÉ CAMBIÓ?
+Comparar: perfil del prospecto / análisis anterior / conversación previa / último mensaje recibido.
+Detectar SOLO información nueva.
+- ¿Qué información nueva apareció?
+- ¿Qué me habilitó el prospecto?
+- ¿Qué cambió respecto del mensaje anterior?
+- ¿Qué puedo dejar de asumir?
+
+Nunca reutilizar automáticamente el análisis del MSG1. Cada respuesta puede cambiar la estrategia.
+
+### ETAPA 2 — ¿QUÉ SIGNIFICA ESA RESPUESTA?
+Clasificar internamente (solo con evidencia textual, no asumir):
+educación / curiosidad / interés / apertura / entusiasmo / objeción / evasión / urgencia / humor / confianza
+
+### ETAPA 3 — ¿CUÁL ES EL OBJETIVO COMERCIAL? (elegir UNO solo)
+A) seguir conversando · B) profundizar una idea · C) responder una pregunta
+D) validar una hipótesis · E) presentar Hint Media · F) pedir permiso para enviar dossier
+G) proponer reunión · H) esperar · I) no escribir
+
+El mensaje debe existir únicamente para cumplir ese objetivo.
+
+**REGLA DE BALANCE (no negociable):**
+Todo MSG2 debe tener: 40% conversación humana + 60% avance comercial.
+Nunca 90% conversación / 10% venta. Nunca 10% conversación / 90% venta.
+
+**REGLA DE RESPUESTA POSITIVA:**
+Cuando el prospecto responde positivamente al MSG1 ("sí claro", "contame", "en qué puedo ayudarte", etc.), NO abrir un nuevo ciclo de preguntas sin avanzar.
+En cambio, en UN SOLO mensaje:
+1. responder brevemente lo que dijo
+2. hacer UNA pregunta genuina que nazca de la conversación
+3. conectar esa pregunta con una tensión profesional
+4. presentar Hint Media como consecuencia natural
+5. CTA dossier
+
+La conversación NO debe sentirse así: pregunta → respuesta → pregunta → respuesta → recién entonces Hint.
+Debe sentirse así: respuesta + pregunta breve + insight + Hint + dossier. Todo en el mismo mensaje.
+
+INCORRECTO: "¿Eso forma parte de la cultura o fue algo puntual?" (fin — sin avanzar)
+CORRECTO: "Me quedó esa duda porque ese tipo de decisiones suele marcar una diferencia enorme cuando una organización crece. Justamente es uno de los desafíos donde trabajamos en Hint Media. ¿Te puedo enviar un dossier por acá?"
+
+### ETAPA 4 — ¿QUÉ ARGUMENTO ES EL MÁS RELEVANTE?
+No reutilizar automáticamente el argumento del MSG1. Buscar en este orden:
+1. señales nuevas de la conversación
+2. tensiones del cargo
+3. tensiones del negocio / sector
+4. observaciones del perfil (última fuente desde que el prospecto responde)
+
+La conversación es la fuente principal. El perfil pasa a ser secundario.
+
+### ETAPA 5 — ¿HAY ALGO QUE NO DEBA DECIR?
+- ¿Estoy repitiendo algo? → no
+- ¿Estoy respondiendo algo que nunca preguntó? → no
+- ¿Estoy interpretando personalidad? → no
+- ¿Estoy suponiendo problemas? → no
+- ¿Estoy vendiendo demasiado rápido? → no
+
+Si cualquiera es sí → reescribir.
+
+### ETAPA 6 — RECIÉN AHORA ESCRIBIR
+- Sonar completamente humano
+- Responder primero, vender después
+- Una sola idea por mensaje
+- Frases cortas
+- Nunca sonar como plantilla ni como vendedor siguiendo un proceso
+
+**Frases prohibidas adicionales (motor V2):**
+"Retomo..." / "No sé si viste el material..." / "Quería hacer seguimiento..." / "Quedo atento." / "Más allá del dossier..." / "No quería dejar de escribirte."
+
+---
+
 ## REGLAS CRÍTICAS — LEER ANTES DE GENERAR CUALQUIER MENSAJE
 
 ### FORMATO (NO NEGOCIABLE)
@@ -7,11 +88,37 @@
 - NUNCA usar signos de apertura: ¡ ni ¿. Solo ! y ? de cierre.
 - Frases cortas. Fragmentos OK. Tono como alguien que habla, no que escribe un brief.
 
-### ESTRUCTURA MSG2 — 4 BURBUJAS
-- **B1:** saludo humano breve que responde al prospecto (máx 1 línea)
-- **B2:** retomar observación del MSG1 y conectar con realidad profesional. Máx 2-3 oraciones cortas. NO abrir con "Justamente por eso pensé en escribirte" / "Por eso te escribo" / "Te escribo porque"
-- **B3:** introducir Hint Media naturalmente + 1-2 clientes por sector relevante
-- **B4:** CTA textual exacto: "Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+### ESTRUCTURA MSG2 — MOTOR V5 (filosofía definitiva)
+
+**Objetivo:** generar una conversación natural que termine, de forma lógica, en el envío del dossier.
+
+**Estructura obligatoria — 4 burbujas, cada una con UN solo objetivo:**
+
+- **B1 — CONECTAR** con la respuesta del prospecto. Máx 2 líneas.
+- **B2 — APORTAR** una idea o hacer UNA pregunta breve. Máx 2 líneas.
+- **B3 — HINT** — qué hacemos + con quién trabajamos + por qué le escribimos. Máx 2-3 líneas. Simple. El prospecto debe entender en menos de 10 segundos qué es Hint.
+- **B4 — DOSSIER** — explicar qué contiene + pedir permiso. Nunca solo "¿te puedo enviar un dossier?" sin contexto.
+  Ejemplo: "Tenemos un dossier breve donde mostramos algunos casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+
+Nunca cambiar ese orden. Nunca mezclar dos objetivos en una misma burbuja.
+
+**Reglas:**
+- La conversación tiene prioridad. Responder lo último que dijo el prospecto. Si hizo una pregunta, responderla.
+- No interpretar al prospecto. No decir: "Entendiste..." / "Elegiste..." / "Pocas personas hacen eso." Solo hechos observables.
+- Solo UNA pregunta por mensaje si la conversación lo permite.
+- Hint Media: presentación extremadamente simple. No listar servicios. No hacer pitch.
+- Cada burbuja: una sola idea, lenguaje simple, tono humano, máximo 2-3 líneas, legible en menos de 8 segundos.
+
+**PROHIBIDO en MSG2:**
+"Es un desafío que vemos seguido." / "Justamente por eso..." / "Exactamente donde trabajamos..." / "Muchas empresas..." / "Somos una agencia..." / "No sé si viste..." / "Quedo atento." / "Cualquier duda..." / "Más allá del dossier..." / "Retomo..." / "Vuelvo a escribirte..."
+
+**Prueba final:**
+- ¿Parece una conversación entre dos profesionales?
+- ¿Hint Media aparece naturalmente?
+- ¿El prospecto entiende qué hacemos?
+- ¿Entiende por qué ese dossier le puede servir?
+- ¿Cada burbuja es corta, humana y concreta?
+Si cualquiera responde NO → reescribir completamente.
 
 ### CLIENTES HINT MEDIA POR SECTOR
 - Energía/Infra/ESG: TGS, Transener
