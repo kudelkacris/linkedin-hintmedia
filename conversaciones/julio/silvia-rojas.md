@@ -61,7 +61,7 @@
 
 ## MSG4
 > Con mucho gusto Silvia! Me encantaría.
-> Me pasás tu mail y te mando una invitación por Google Meet? Esta semana o la próxima, lo que mejor te quede.
+> Me pasás tu mail? Te mando la invitación por Google Meet. Nosotras estamos en Argentina (UTC-3) y vos en Costa Rica (UTC-6), tres horas de diferencia. Decime qué día y horario te queda mejor y lo armamos.
 
 ---
 
