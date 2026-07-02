@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keylin Smith × Hint Media — Mapa de Sinergia</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #080d18; color: #fff; overflow: hidden; height: 100vh; }
+
+.slide { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 56px 72px; opacity: 0; transition: opacity 0.35s ease; pointer-events: none; }
+.slide.active { opacity: 1; pointer-events: all; }
+
+/* UI chrome */
+.counter { position: fixed; top: 24px; right: 40px; font-size: 12px; color: rgba(255,255,255,0.3); letter-spacing: 1px; z-index: 10; }
+.nav-arrows { position: fixed; bottom: 28px; right: 40px; display: flex; gap: 10px; z-index: 10; }
+.nav-btn { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.6); padding: 7px 18px; border-radius: 6px; cursor: pointer; font-size: 13px; transition: all 0.2s; }
+.nav-btn:hover { background: rgba(255,255,255,0.14); color: #fff; }
+.dots { position: fixed; bottom: 34px; left: 50%; transform: translateX(-50%); display: flex; gap: 7px; z-index: 10; }
+.dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.2); cursor: pointer; transition: all 0.25s; }
+.dot.active { background: #6ee7b7; transform: scale(1.3); }
+
+/* Typography */
+.eyebrow { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #6ee7b7; margin-bottom: 14px; }
+.h1 { font-size: 50px; font-weight: 700; line-height: 1.08; }
+.h2 { font-size: 38px; font-weight: 700; line-height: 1.15; }
+.sub { font-size: 18px; color: rgba(255,255,255,0.55); line-height: 1.6; margin-top: 16px; }
+
+/* --- SLIDE 1: COVER --- */
+.s1 { background: radial-gradient(ellipse at 30% 50%, #0d2040 0%, #080d18 60%), linear-gradient(135deg, #080d18, #0d1a2e); }
+.logo-row { display: flex; align-items: center; gap: 18px; margin-bottom: 52px; }
+.logo-pill { background: rgba(110,231,183,0.12); border: 1px solid rgba(110,231,183,0.25); color: #6ee7b7; padding: 7px 18px; border-radius: 20px; font-size: 13px; letter-spacing: 1.5px; }
+.x-sep { font-size: 28px; color: rgba(255,255,255,0.2); }
+.logo-pill-w { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); padding: 7px 18px; border-radius: 20px; font-size: 13px; letter-spacing: 1.5px; }
+.badge { display: inline-block; background: rgba(110,231,183,0.1); border: 1px solid rgba(110,231,183,0.2); color: rgba(110,231,183,0.8); padding: 5px 14px; border-radius: 12px; font-size: 12px; margin-top: 24px; }
+
+/* --- SLIDE 2: PERFIL --- */
+.cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; width: 100%; max-width: 960px; margin-top: 36px; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: 14px; padding: 28px 24px; }
+.card-icon { font-size: 26px; margin-bottom: 14px; }
+.card-h { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.card-b { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.65; }
+.meta { margin-top: 24px; font-size: 13px; color: rgba(255,255,255,0.3); text-align: center; }
+
+/* --- SLIDE 3: HINT SERVICIOS --- */
+.grid-hint { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; width: 100%; max-width: 900px; margin-top: 32px; }
+.h-item { display: flex; align-items: flex-start; gap: 14px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 10px; padding: 18px 20px; }
+.h-ico { font-size: 20px; flex-shrink: 0; }
+.h-txt { font-size: 14px; font-weight: 500; }
+.h-sub { font-size: 12px; color: rgba(255,255,255,0.4); margin-top: 3px; }
+
+/* --- SLIDE 4: SINERGIA --- */
+.syn-wrap { display: grid; grid-template-columns: 1fr 48px 1fr; gap: 0; width: 100%; max-width: 1000px; margin-top: 32px; align-items: start; }
+.syn-col { display: flex; flex-direction: column; gap: 10px; }
+.syn-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
+.syn-label.green { color: #6ee7b7; }
+.syn-label.gray { color: rgba(255,255,255,0.35); }
+.syn-item { border-radius: 8px; padding: 13px 16px; font-size: 14px; line-height: 1.4; }
+.syn-item.green { background: rgba(110,231,183,0.08); border: 1px solid rgba(110,231,183,0.18); }
+.syn-item.gray { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: rgba(255,255,255,0.7); }
+.syn-mid { display: flex; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; padding-top: 28px; color: rgba(255,255,255,0.15); font-size: 16px; }
+
+/* --- SLIDE 5: MODELOS --- */
+.models { display: flex; flex-direction: column; gap: 14px; width: 100%; max-width: 820px; margin-top: 32px; }
+.model { display: grid; grid-template-columns: 52px 1fr auto; gap: 20px; align-items: center; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 22px 26px; }
+.m-num { font-size: 34px; font-weight: 700; color: rgba(255,255,255,0.1); }
+.m-title { font-size: 16px; font-weight: 600; margin-bottom: 5px; }
+.m-desc { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.55; }
+.m-tag { font-size: 11px; padding: 5px 13px; border-radius: 12px; white-space: nowrap; font-weight: 500; }
+.t-green { background: rgba(110,231,183,0.12); color: #6ee7b7; border: 1px solid rgba(110,231,183,0.2); }
+.t-yellow { background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.2); }
+.t-purple { background: rgba(167,139,250,0.12); color: #a78bfa; border: 1px solid rgba(167,139,250,0.2); }
+
+/* --- SLIDE 6: VALOR MUTUO --- */
+.two-col { display: grid; grid-template-columns: 1fr 1px 1fr; gap: 0; width: 100%; max-width: 940px; margin-top: 36px; }
+.v-col { padding: 0 40px; }
+.v-col:first-child { padding-left: 0; }
+.v-col:last-child { padding-right: 0; }
+.v-div { background: rgba(255,255,255,0.07); }
+.v-col-h { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #6ee7b7; margin-bottom: 20px; }
+.v-item { font-size: 14px; color: rgba(255,255,255,0.75); padding: 11px 0; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; align-items: flex-start; gap: 10px; }
+.v-item:last-child { border: none; }
+.v-dot { width: 5px; height: 5px; border-radius: 50%; background: #6ee7b7; flex-shrink: 0; margin-top: 7px; }
+
+/* --- SLIDE 7: RESUMEN --- */
+.res-box { width: 100%; max-width: 840px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.09); border-radius: 18px; padding: 44px 48px; margin-top: 32px; }
+.res-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+.res-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #6ee7b7; margin-bottom: 10px; }
+.res-text { font-size: 14px; color: rgba(255,255,255,0.75); line-height: 1.65; }
+
+/* --- SLIDE 8: PRÓXIMOS PASOS --- */
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; width: 100%; max-width: 960px; margin-top: 40px; }
+.step { padding: 28px 28px 28px 0; position: relative; }
+.step:not(:last-child)::after { content: '→'; position: absolute; right: -4px; top: 38px; font-size: 18px; color: rgba(255,255,255,0.15); }
+.step-n { font-size: 36px; font-weight: 700; color: rgba(110,231,183,0.25); margin-bottom: 10px; }
+.step-h { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.step-b { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.55; }
+</style>
+</head>
+<body>
+
+<div class="counter" id="ctr">1 / 8</div>
+<div class="dots" id="dots"></div>
+<div class="nav-arrows">
+  <button class="nav-btn" onclick="go(-1)">← Anterior</button>
+  <button class="nav-btn" onclick="go(1)">Siguiente →</button>
+</div>
+
+<!-- S1: COVER -->
+<div class="slide s1 active">
+  <div style="text-align:center">
+    <div class="logo-row" style="justify-content:center">
+      <span class="logo-pill">Keylin Smith</span>
+      <span class="x-sep">×</span>
+      <span class="logo-pill-w">Hint Media</span>
+    </div>
+    <div class="eyebrow">Exploración de colaboración · Julio 2026</div>
+    <div class="h1">Mapa de Sinergia</div>
+    <div class="sub">Cómo el neuromarketing y la estrategia creativa<br>amplían lo que Hint Media puede ofrecer.</div>
+    <span class="badge">Uso interno + call</span>
+  </div>
+</div>
+
+<!-- S2: PERFIL -->
+<div class="slide">
+  <div class="eyebrow">Perfil</div>
+  <div class="h2" style="text-align:center">Quién es Keylin Smith</div>
+  <div class="cards3">
+    <div class="card">
+      <div class="card-icon">🧠</div>
+      <div class="card-h">Neuromarketing</div>
+      <div class="card-b">Especialista en comportamiento del consumidor y toma de decisiones. Creadora de "Detrás de la Decisión", serie propia en LinkedIn.</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">🎪</div>
+      <div class="card-h">Eventos Corporativos</div>
+      <div class="card-b">Coordinación, logística y marketing de ferias, congresos y experiencias de marca. Representó a Costa Rica en FITUR 2026, Madrid.</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">✍️</div>
+      <div class="card-h">Estrategia + Contenido</div>
+      <div class="card-b">Guiones audiovisual, conceptos de campaña y posicionamiento de marca desde psicología del consumidor. 959 seguidores activos en LinkedIn.</div>
+    </div>
+  </div>
+  <div class="meta">Best of Costa Rica DMC · PuraLuxe Boutique Journeys · OBS Business School</div>
+</div>
+
+<!-- S3: HINT -->
+<div class="slide">
+  <div class="eyebrow">Hint Media</div>
+  <div class="h2" style="text-align:center">Qué hacemos</div>
+  <div class="grid-hint">
+    <div class="h-item"><div class="h-ico">🎨</div><div><div class="h-txt">Identidad & Branding</div><div class="h-sub">Posicionamiento y construcción de marca</div></div></div>
+    <div class="h-item"><div class="h-ico">📱</div><div><div class="h-txt">Contenidos multiplataforma</div><div class="h-sub">Social media, email, blog, LinkedIn</div></div></div>
+    <div class="h-item"><div class="h-ico">🎬</div><div><div class="h-txt">Audiovisual</div><div class="h-sub">Producción y distribución de video</div></div></div>
+    <div class="h-item"><div class="h-ico">🎙️</div><div><div class="h-txt">Vocería Digital / CEO</div><div class="h-sub">Posicionamiento de líderes en LinkedIn</div></div></div>
+    <div class="h-item"><div class="h-ico">📣</div><div><div class="h-txt">Paid Media</div><div class="h-sub">Meta Ads, Google Ads, performance</div></div></div>
+    <div class="h-item"><div class="h-ico">🔍</div><div><div class="h-txt">SEO & Storydoing</div><div class="h-sub">Orgánico y narrativa de marca</div></div></div>
+  </div>
+</div>
+
+<!-- S4: SINERGIA -->
+<div class="slide">
+  <div class="eyebrow">El cruce</div>
+  <div class="h2" style="text-align:center">Dónde se conectan</div>
+  <div class="syn-wrap">
+    <div class="syn-col">
+      <div class="syn-label green">Keylin aporta</div>
+      <div class="syn-item green">Neuromarketing aplicado a contenido</div>
+      <div class="syn-item green">Guiones audiovisual con psicología</div>
+      <div class="syn-item green">Estrategia creativa desde el consumidor</div>
+      <div class="syn-item green">Eventos corporativos en LATAM</div>
+      <div class="syn-item green">Thought leadership en LinkedIn</div>
+    </div>
+    <div class="syn-mid">↔<span style="margin-top:10px">↔</span><span style="margin-top:10px">↔</span><span style="margin-top:10px">↔</span><span style="margin-top:10px">↔</span></div>
+    <div class="syn-col">
+      <div class="syn-label gray">Hint Media tiene</div>
+      <div class="syn-item gray">Branding + estrategia de clientes activos</div>
+      <div class="syn-item gray">Producción audiovisual completa</div>
+      <div class="syn-item gray">Campañas y ejecución omnicanal</div>
+      <div class="syn-item gray">Vertical nueva (eventos) sin cubrir</div>
+      <div class="syn-item gray">Vocería digital / CEO positioning</div>
+    </div>
+  </div>
+</div>
+
+<!-- S5: MODELOS -->
+<div class="slide">
+  <div class="eyebrow">Cómo trabajar</div>
+  <div class="h2" style="text-align:center">3 modelos posibles</div>
+  <div class="models">
+    <div class="model">
+      <div class="m-num">01</div>
+      <div>
+        <div class="m-title">Por proyecto / entregable</div>
+        <div class="m-desc">Hint la convoca cuando un cliente necesita guión, estrategia neuro o concepto de campaña. Cobra por entregable. Sin compromiso fijo. Fácil de arrancar.</div>
+      </div>
+      <span class="m-tag t-green">Bajo riesgo</span>
+    </div>
+    <div class="model">
+      <div class="m-num">02</div>
+      <div>
+        <div class="m-title">Colaboradora estratégica recurrente</div>
+        <div class="m-desc">Retainer mensual. Keylin enriquece las estrategias de contenido de clientes de Hint con capa de neuromarketing. 1 reunión por mes + revisiones asincrónicas.</div>
+      </div>
+      <span class="m-tag t-yellow">Retainer</span>
+    </div>
+    <div class="model">
+      <div class="m-num">03</div>
+      <div>
+        <div class="m-title">Vertical de eventos LATAM</div>
+        <div class="m-desc">Keylin lidera propuestas y ejecución de marketing de eventos para clientes de Hint en la región. Partnership con revenue sharing. Mayor compromiso mutuo.</div>
+      </div>
+      <span class="m-tag t-purple">Partnership</span>
+    </div>
+  </div>
+</div>
+
+<!-- S6: VALOR MUTUO -->
+<div class="slide">
+  <div class="eyebrow">Propuesta de valor</div>
+  <div class="h2" style="text-align:center">Lo que gana cada uno</div>
+  <div class="two-col">
+    <div class="v-col">
+      <div class="v-col-h">Hint Media gana</div>
+      <div class="v-item"><div class="v-dot"></div>Capa de neuromarketing en sus estrategias de contenido</div>
+      <div class="v-item"><div class="v-dot"></div>Scripts audiovisual de mayor profundidad psicológica</div>
+      <div class="v-item"><div class="v-dot"></div>Diferenciación real frente a otras agencias</div>
+      <div class="v-item"><div class="v-dot"></div>Acceso a vertical de eventos corporativos en LATAM</div>
+      <div class="v-item"><div class="v-dot"></div>Cobertura en Costa Rica y Centroamérica</div>
+    </div>
+    <div class="v-div"></div>
+    <div class="v-col" style="padding-left:40px">
+      <div class="v-col-h">Keylin gana</div>
+      <div class="v-item"><div class="v-dot"></div>Acceso a clientes corporativos activos</div>
+      <div class="v-item"><div class="v-dot"></div>Estructura de agencia para escalar sus proyectos</div>
+      <div class="v-item"><div class="v-dot"></div>Producción y paid media que no tiene sola</div>
+      <div class="v-item"><div class="v-dot"></div>Plataforma para aplicar sus conocimientos con impacto</div>
+      <div class="v-item"><div class="v-dot"></div>Ingresos freelance estables y crecientes</div>
+    </div>
+  </div>
+</div>
+
+<!-- S7: RESUMEN -->
+<div class="slide">
+  <div class="eyebrow">Resumen ejecutivo</div>
+  <div class="h2" style="text-align:center">En una página</div>
+  <div class="res-box">
+    <div class="res-grid">
+      <div>
+        <div class="res-label">Quién es</div>
+        <div class="res-text">Keylin Smith. Especialista en neuromarketing, eventos corporativos y estrategia creativa. Costa Rica. Activa en LinkedIn con contenido propio de alta calidad y una comunidad en crecimiento.</div>
+      </div>
+      <div>
+        <div class="res-label">Por qué importa</div>
+        <div class="res-text">Conoció Hint Media por outreach orgánico, leyó el dossier, lo valoró y propuso colaborar. El interés es genuino y viene de ella. No hay que convencerla.</div>
+      </div>
+      <div>
+        <div class="res-label">La oportunidad</div>
+        <div class="res-text">Neuromarketing aplicado a contenido + guiones audiovisual con profundidad psicológica + vertical de eventos. Una capa que Hint no tiene hoy y que es difícil de conseguir en el mercado.</div>
+      </div>
+      <div>
+        <div class="res-label">Próximo paso</div>
+        <div class="res-text">Call para definir modelo 1, 2 o 3. Arrancar con un proyecto piloto por entregable. Evaluar si escala a retainer o partnership. Sin sobrecomplicar.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S8: PRÓXIMOS PASOS -->
+<div class="slide" style="background:radial-gradient(ellipse at 70% 50%, #0d2040 0%, #080d18 60%)">
+  <div class="eyebrow">Próximos pasos</div>
+  <div class="h2" style="text-align:center">Qué definir en la call</div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-n">01</div>
+      <div class="step-h">Elegir modelo</div>
+      <div class="step-b">Por proyecto, retainer o partnership. Arrancar siempre con el más simple.</div>
+    </div>
+    <div class="step">
+      <div class="step-n">02</div>
+      <div class="step-h">Cliente piloto</div>
+      <div class="step-b">¿Cuál cliente de Hint se beneficia más hoy de una capa neuro?</div>
+    </div>
+    <div class="step">
+      <div class="step-n">03</div>
+      <div class="step-h">Primer entregable</div>
+      <div class="step-b">Un guión, una revisión de estrategia o un brief de neuromarketing.</div>
+    </div>
+    <div class="step">
+      <div class="step-n">04</div>
+      <div class="step-h">Términos</div>
+      <div class="step-b">Tarifa por entregable o propuesta de retainer. Definir antes de empezar.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dotsEl = document.getElementById('dots');
+let cur = 0;
+
+slides.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' active' : '');
+  d.onclick = () => goTo(i);
+  dotsEl.appendChild(d);
+});
+
+function goTo(n) {
+  slides[cur].classList.remove('active');
+  dotsEl.children[cur].classList.remove('active');
+  cur = (n + slides.length) % slides.length;
+  slides[cur].classList.add('active');
+  dotsEl.children[cur].classList.add('active');
+  document.getElementById('ctr').textContent = (cur + 1) + ' / ' + slides.length;
+}
+
+function go(d) { goTo(cur + d); }
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') go(1);
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') go(-1);
+});
+</script>
+</body>
+</html>

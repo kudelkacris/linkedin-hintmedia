@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keylin Smith × Hint Media — Propuesta de Valor Mutua</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0a0614; color: #fff; overflow: hidden; height: 100vh; }
+
+.slide { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 56px 72px; opacity: 0; transition: opacity 0.35s ease; pointer-events: none; }
+.slide.active { opacity: 1; pointer-events: all; }
+
+.counter { position: fixed; top: 24px; right: 40px; font-size: 12px; color: rgba(255,255,255,0.3); letter-spacing: 1px; z-index: 10; }
+.nav-arrows { position: fixed; bottom: 28px; right: 40px; display: flex; gap: 10px; z-index: 10; }
+.nav-btn { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.6); padding: 7px 18px; border-radius: 6px; cursor: pointer; font-size: 13px; transition: all 0.2s; }
+.nav-btn:hover { background: rgba(255,255,255,0.14); color: #fff; }
+.dots { position: fixed; bottom: 34px; left: 50%; transform: translateX(-50%); display: flex; gap: 7px; z-index: 10; }
+.dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.2); cursor: pointer; transition: all 0.25s; }
+.dot.active { background: #c4b5fd; transform: scale(1.3); }
+
+.eyebrow { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #c4b5fd; margin-bottom: 14px; }
+.h1 { font-size: 50px; font-weight: 700; line-height: 1.08; }
+.h2 { font-size: 38px; font-weight: 700; line-height: 1.15; }
+.sub { font-size: 18px; color: rgba(255,255,255,0.5); line-height: 1.6; margin-top: 16px; }
+
+/* S1 cover */
+.s1 { background: radial-gradient(ellipse at 40% 40%, #1a0d35 0%, #0a0614 65%); }
+
+/* Gap analysis */
+.gap-wrap { display: grid; grid-template-columns: 1fr 80px 1fr; gap: 0; width: 100%; max-width: 980px; margin-top: 36px; align-items: stretch; }
+.gap-col { display: flex; flex-direction: column; gap: 10px; }
+.gap-head { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+.gap-head.purple { color: #c4b5fd; }
+.gap-head.dim { color: rgba(255,255,255,0.35); }
+.gap-item { border-radius: 8px; padding: 14px 18px; font-size: 14px; line-height: 1.4; }
+.gap-item.want { background: rgba(196,181,253,0.1); border: 1px solid rgba(196,181,253,0.2); }
+.gap-item.have { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: rgba(255,255,255,0.65); }
+.gap-center { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: rgba(255,255,255,0.12); font-size: 20px; }
+
+/* Quote slide */
+.quote-wrap { max-width: 760px; text-align: center; }
+.big-quote { font-size: 28px; font-weight: 600; line-height: 1.4; color: rgba(255,255,255,0.9); }
+.quote-attr { font-size: 14px; color: rgba(255,255,255,0.35); margin-top: 20px; letter-spacing: 0.5px; }
+.highlight { color: #c4b5fd; }
+
+/* What each lacks */
+.lacks-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; width: 100%; max-width: 960px; margin-top: 36px; }
+.lacks-box { border-radius: 14px; padding: 32px; }
+.lacks-box.keylin { background: rgba(196,181,253,0.06); border: 1px solid rgba(196,181,253,0.15); }
+.lacks-box.hint { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); }
+.lacks-h { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+.lacks-sub { font-size: 12px; color: rgba(255,255,255,0.35); margin-bottom: 20px; letter-spacing: 0.5px; }
+.lacks-item { font-size: 14px; color: rgba(255,255,255,0.65); padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.lacks-item:last-child { border: none; }
+.lacks-item span { color: rgba(196,181,253,0.8); font-size: 16px; margin-right: 10px; }
+
+/* Together */
+.together { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; width: 100%; max-width: 960px; margin-top: 36px; }
+.tog-item { background: rgba(196,181,253,0.06); border: 1px solid rgba(196,181,253,0.15); border-radius: 12px; padding: 26px 22px; text-align: center; }
+.tog-ico { font-size: 28px; margin-bottom: 12px; }
+.tog-h { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: #c4b5fd; }
+.tog-b { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.6; }
+
+/* Why now */
+.why-items { display: flex; flex-direction: column; gap: 14px; width: 100%; max-width: 760px; margin-top: 32px; }
+.why-item { display: flex; gap: 20px; align-items: flex-start; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 20px 24px; }
+.why-n { font-size: 28px; font-weight: 700; color: rgba(196,181,253,0.3); flex-shrink: 0; width: 36px; }
+.why-h { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+.why-b { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.55; }
+
+/* CTA slide */
+.cta-box { max-width: 700px; text-align: center; }
+.cta-pill { display: inline-block; background: rgba(196,181,253,0.12); border: 1px solid rgba(196,181,253,0.25); color: #c4b5fd; padding: 8px 20px; border-radius: 20px; font-size: 13px; letter-spacing: 1px; margin-bottom: 32px; }
+.cta-h { font-size: 42px; font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
+.cta-sub { font-size: 17px; color: rgba(255,255,255,0.5); line-height: 1.6; margin-bottom: 36px; }
+.cta-items { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.cta-item { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 12px 20px; font-size: 14px; color: rgba(255,255,255,0.75); }
+</style>
+</head>
+<body>
+
+<div class="counter" id="ctr">1 / 6</div>
+<div class="dots" id="dots"></div>
+<div class="nav-arrows">
+  <button class="nav-btn" onclick="go(-1)">← Anterior</button>
+  <button class="nav-btn" onclick="go(1)">Siguiente →</button>
+</div>
+
+<!-- S1: COVER -->
+<div class="slide s1 active">
+  <div style="text-align:center">
+    <div class="eyebrow">Propuesta de valor mutua · Julio 2026</div>
+    <div class="h1" style="font-size:46px">Lo que Keylin tiene<br>que Hint no tiene.<br><span style="color:rgba(255,255,255,0.3)">Y viceversa.</span></div>
+    <div class="sub">Por qué esta colaboración tiene sentido<br>para los dos lados.</div>
+  </div>
+</div>
+
+<!-- S2: QUOTE -->
+<div class="slide" style="background:radial-gradient(ellipse at 50% 40%, #1a0d35 0%, #0a0614 70%)">
+  <div class="quote-wrap">
+    <div class="eyebrow">Lo que ella dijo</div>
+    <div class="big-quote">"Me gustó mucho el enfoque de Hint Media y la manera en que <span class="highlight">integran estrategia con ejecución</span>."</div>
+    <div class="quote-attr">— Keylin Smith, después de leer el dossier · Junio 2026</div>
+    <div class="sub" style="margin-top:32px;font-size:16px">Esto no es una prospección fría. Ella leyó, valoró y propuso trabajar juntos.<br>El interés es genuino y viene de su lado.</div>
+  </div>
+</div>
+
+<!-- S3: LO QUE FALTA -->
+<div class="slide">
+  <div class="eyebrow">El análisis</div>
+  <div class="h2" style="text-align:center">Lo que le falta a cada uno</div>
+  <div class="lacks-wrap">
+    <div class="lacks-box keylin">
+      <div class="lacks-h">Keylin tiene el conocimiento.</div>
+      <div class="lacks-sub">PERO LE FALTA</div>
+      <div class="lacks-item"><span>→</span>Clientes corporativos activos</div>
+      <div class="lacks-item"><span>→</span>Estructura de agencia para escalar</div>
+      <div class="lacks-item"><span>→</span>Producción audiovisual propia</div>
+      <div class="lacks-item"><span>→</span>Paid media y distribución</div>
+      <div class="lacks-item"><span>→</span>Red de clientes en Argentina/LATAM</div>
+    </div>
+    <div class="lacks-box hint">
+      <div class="lacks-h">Hint tiene la estructura.</div>
+      <div class="lacks-sub">PERO LE FALTA</div>
+      <div class="lacks-item"><span>→</span>Capa de neuromarketing en su oferta</div>
+      <div class="lacks-item"><span>→</span>Scripts con profundidad psicológica</div>
+      <div class="lacks-item"><span>→</span>Estrategia desde el comportamiento del consumidor</div>
+      <div class="lacks-item"><span>→</span>Vertical de eventos corporativos</div>
+      <div class="lacks-item"><span>→</span>Presencia en Centroamérica</div>
+    </div>
+  </div>
+</div>
+
+<!-- S4: JUNTOS -->
+<div class="slide">
+  <div class="eyebrow">La suma</div>
+  <div class="h2" style="text-align:center">Juntos, ¿qué se puede hacer?</div>
+  <div class="together">
+    <div class="tog-item">
+      <div class="tog-ico">🧠</div>
+      <div class="tog-h">Contenido que convierte</div>
+      <div class="tog-b">Estrategia de contenido con neuromarketing integrado. No solo bonito. Diseñado para reducir incertidumbre y generar confianza.</div>
+    </div>
+    <div class="tog-item">
+      <div class="tog-ico">🎬</div>
+      <div class="tog-h">Video con script de verdad</div>
+      <div class="tog-b">Keylin escribe el guión desde psicología del consumidor. Hint produce y distribuye. El resultado: audiovisual que hace algo, no solo se ve bien.</div>
+    </div>
+    <div class="tog-item">
+      <div class="tog-ico">🎪</div>
+      <div class="tog-h">Eventos que posicionan</div>
+      <div class="tog-b">Una vertical nueva para Hint. Keylin conoce ferias, congresos y experiencias de marca en LATAM. Hint tiene los clientes que la necesitan.</div>
+    </div>
+  </div>
+</div>
+
+<!-- S5: POR QUÉ AHORA -->
+<div class="slide">
+  <div class="eyebrow">El momento</div>
+  <div class="h2" style="text-align:center">Por qué tiene sentido ahora</div>
+  <div class="why-items">
+    <div class="why-item">
+      <div class="why-n">01</div>
+      <div>
+        <div class="why-h">El interés ya existe</div>
+        <div class="why-b">No hay que construirlo. Keylin ya leyó el dossier, le gustó el enfoque y propuso colaborar. El costo de arrancar es casi cero.</div>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-n">02</div>
+      <div>
+        <div class="why-h">El neuromarketing diferencia</div>
+        <div class="why-b">Pocas agencias en LATAM lo tienen como capa real dentro de sus estrategias. Keylin lo es por formación, no por moda.</div>
+      </div>
+    </div>
+    <div class="why-item">
+      <div class="why-n">03</div>
+      <div>
+        <div class="why-h">El modelo puede ser flexible</div>
+        <div class="why-b">Se puede arrancar por proyecto, sin compromiso. Si funciona, se escala. Riesgo mínimo para los dos.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S6: CTA -->
+<div class="slide" style="background:radial-gradient(ellipse at 60% 50%, #1a0d35 0%, #0a0614 65%)">
+  <div class="cta-box">
+    <div class="cta-pill">Call agendada</div>
+    <div class="cta-h">Una call para definir cómo empezar.</div>
+    <div class="cta-sub">El objetivo no es venderle a Keylin. Es definir qué proyecto piloto tiene más sentido para los dos, con el menor fricción posible.</div>
+    <div class="cta-items">
+      <div class="cta-item">¿Por proyecto o retainer?</div>
+      <div class="cta-item">¿Cuál cliente primero?</div>
+      <div class="cta-item">¿Primer entregable?</div>
+      <div class="cta-item">¿Términos y tarifa?</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dotsEl = document.getElementById('dots');
+let cur = 0;
+
+slides.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' active' : '');
+  d.onclick = () => goTo(i);
+  dotsEl.appendChild(d);
+});
+
+function goTo(n) {
+  slides[cur].classList.remove('active');
+  dotsEl.children[cur].classList.remove('active');
+  cur = (n + slides.length) % slides.length;
+  slides[cur].classList.add('active');
+  dotsEl.children[cur].classList.add('active');
+  document.getElementById('ctr').textContent = (cur + 1) + ' / ' + slides.length;
+}
+
+function go(d) { goTo(cur + d); }
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') go(1);
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') go(-1);
+});
+</script>
+</body>
+</html>

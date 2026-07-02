@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best of Costa Rica DMC × Hint Media — Propuesta Estratégica</title>
+<style>
+:root {
+  --green: #16a34a;
+  --green-light: #4ade80;
+  --green-pale: #f0fdf4;
+  --green-border: #bbf7d0;
+  --dark: #0a1a0e;
+  --dark2: #0f2d14;
+  --red: #dc2626;
+  --red-pale: #fff7f7;
+  --yellow: #d97706;
+  --yellow-pale: #fffbeb;
+  --blue: #1d4ed8;
+  --purple: #7c3aed;
+  --gray: #64748b;
+  --border: #e2e8f0;
+  --bg: #f1f5f0;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: #111; padding: 40px 20px 80px; }
+.page { max-width: 1020px; margin: 0 auto; }
+
+/* PRINT */
+.print-btn { position: fixed; top: 20px; right: 20px; background: var(--dark); color: #fff; border: none; padding: 9px 20px; border-radius: 8px; font-size: 13px; cursor: pointer; z-index: 100; box-shadow: 0 2px 16px rgba(0,0,0,0.25); }
+@media print { body { padding: 0; background: #fff; } .print-btn { display: none; } .card, .section { break-inside: avoid; } }
+
+/* TYPOGRAPHY */
+.eyebrow { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; font-weight: 700; margin-bottom: 8px; }
+.eyebrow.g { color: var(--green); }
+.eyebrow.r { color: var(--red); }
+.eyebrow.b { color: var(--blue); }
+.eyebrow.p { color: var(--purple); }
+.eyebrow.y { color: var(--yellow); }
+.eyebrow.w { color: rgba(255,255,255,0.5); }
+.section-title { font-size: 22px; font-weight: 700; color: #0f172a; margin-bottom: 20px; }
+.divider { height: 1px; background: var(--border); margin: 28px 0; }
+
+/* CARDS */
+.section { background: #fff; border-radius: 16px; padding: 36px 40px; margin-bottom: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.05); }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+
+/* ===== HERO ===== */
+.hero { background: linear-gradient(135deg, var(--dark) 0%, var(--dark2) 60%, #1a4d20 100%); color: #fff; border-radius: 18px; padding: 52px 56px; margin-bottom: 20px; position: relative; overflow: hidden; }
+.hero::before { content: ''; position: absolute; top: -80px; right: -80px; width: 340px; height: 340px; background: radial-gradient(circle, rgba(74,222,128,0.1) 0%, transparent 65%); border-radius: 50%; }
+.hero::after { content: ''; position: absolute; bottom: -60px; left: 200px; width: 240px; height: 240px; background: radial-gradient(circle, rgba(74,222,128,0.06) 0%, transparent 70%); border-radius: 50%; }
+.hero-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 36px; }
+.hero-badge { display: flex; gap: 10px; flex-wrap: wrap; }
+.badge { display: inline-block; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: 600; letter-spacing: 1px; }
+.badge-g { background: rgba(74,222,128,0.12); border: 1px solid rgba(74,222,128,0.25); color: var(--green-light); }
+.badge-w { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.45); }
+.badge-y { background: rgba(251,191,36,0.12); border: 1px solid rgba(251,191,36,0.2); color: #fbbf24; }
+.hero-date { font-size: 12px; color: rgba(255,255,255,0.3); text-align: right; }
+.hero-title { font-size: 38px; font-weight: 700; line-height: 1.15; margin-bottom: 14px; }
+.hero-title span { color: var(--green-light); }
+.hero-sub { font-size: 16px; color: rgba(255,255,255,0.5); line-height: 1.65; max-width: 680px; margin-bottom: 40px; }
+.hero-stats { display: flex; gap: 0; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 32px; }
+.stat { flex: 1; padding-right: 32px; border-right: 1px solid rgba(255,255,255,0.06); margin-right: 32px; }
+.stat:last-child { border: none; margin: 0; }
+.stat-n { font-size: 28px; font-weight: 700; color: var(--green-light); }
+.stat-l { font-size: 12px; color: rgba(255,255,255,0.38); margin-top: 3px; letter-spacing: 0.3px; }
+
+/* ===== SCORE CARD ===== */
+.score-hero { background: linear-gradient(135deg, #0f172a, #1e1b4b); color: #fff; border-radius: 16px; padding: 36px 40px; margin-bottom: 20px; }
+.score-top { display: grid; grid-template-columns: auto 1fr; gap: 40px; align-items: center; margin-bottom: 32px; }
+.score-circle { width: 110px; height: 110px; border-radius: 50%; background: rgba(74,222,128,0.08); border: 3px solid rgba(74,222,128,0.3); display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0; }
+.score-n { font-size: 32px; font-weight: 700; color: var(--green-light); line-height: 1; }
+.score-total { font-size: 12px; color: rgba(255,255,255,0.35); }
+.score-grade { font-size: 11px; font-weight: 700; color: #fbbf24; letter-spacing: 1px; margin-top: 2px; }
+.score-right h3 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.score-right p { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.65; }
+.score-bars { display: flex; flex-direction: column; gap: 12px; }
+.score-bar { }
+.score-bar-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.score-bar-label { font-size: 13px; color: rgba(255,255,255,0.7); }
+.score-bar-val { font-size: 13px; font-weight: 600; color: var(--green-light); }
+.bar-track { height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--green-light), #22c55e); transition: width 0.8s ease; }
+
+/* ===== HAVE / GAP ITEMS ===== */
+.have-item { background: var(--green-pale); border: 1px solid var(--green-border); border-radius: 10px; padding: 16px 18px; display: flex; gap: 12px; }
+.have-ico { font-size: 18px; flex-shrink: 0; }
+.have-h { font-size: 13px; font-weight: 700; color: #15803d; margin-bottom: 4px; }
+.have-b { font-size: 12px; color: #166534; opacity: 0.8; line-height: 1.55; }
+
+.gap-item { background: var(--red-pale); border: 1px solid #fecaca; border-radius: 10px; padding: 16px 18px; }
+.gap-label { display: inline-block; background: #fee2e2; color: #b91c1c; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; letter-spacing: 0.5px; margin-bottom: 7px; }
+.gap-h { font-size: 13px; font-weight: 700; color: #991b1b; margin-bottom: 5px; }
+.gap-b { font-size: 12px; color: #7f1d1d; opacity: 0.8; line-height: 1.55; }
+
+/* ===== REMOTO SECTION ===== */
+.remote-banner { background: linear-gradient(135deg, #0f172a, #1e3a5f); color: #fff; border-radius: 14px; padding: 32px 36px; margin-bottom: 16px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+.remote-h { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.remote-sub { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.6; }
+.remote-pill { background: rgba(74,222,128,0.15); border: 1px solid rgba(74,222,128,0.25); color: var(--green-light); padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600; text-align: center; white-space: nowrap; }
+
+.remote-item { background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
+.remote-ico { font-size: 22px; margin-bottom: 10px; }
+.remote-h2 { font-size: 14px; font-weight: 600; color: #0f172a; margin-bottom: 5px; }
+.remote-b { font-size: 12px; color: var(--gray); line-height: 1.55; }
+
+/* ===== CASE STUDIES ===== */
+.case-item { border-radius: 12px; padding: 22px 24px; }
+.case-item.destiny { background: linear-gradient(135deg, #0f2d14, #1a4d20); color: #fff; border: 1px solid rgba(74,222,128,0.15); }
+.case-item.spain { background: linear-gradient(135deg, #1a1040, #2d1b6b); color: #fff; border: 1px solid rgba(196,181,253,0.15); }
+.case-item.one { background: linear-gradient(135deg, #1a0a2e, #3b1073); color: #fff; border: 1px solid rgba(167,139,250,0.15); }
+.case-tag { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 10px; text-transform: uppercase; }
+.destiny .case-tag { color: var(--green-light); }
+.spain .case-tag { color: #c4b5fd; }
+.one .case-tag { color: #a78bfa; }
+.case-name { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+.case-what { font-size: 12px; margin-bottom: 14px; line-height: 1.55; }
+.destiny .case-what { color: rgba(255,255,255,0.55); }
+.spain .case-what { color: rgba(255,255,255,0.55); }
+.one .case-what { color: rgba(255,255,255,0.55); }
+.case-results { display: flex; flex-direction: column; gap: 7px; }
+.case-result { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; font-weight: 600; }
+.destiny .case-result { color: var(--green-light); }
+.spain .case-result { color: #c4b5fd; }
+.one .case-result { color: #a78bfa; }
+.case-result::before { content: '→'; opacity: 0.6; flex-shrink: 0; }
+
+/* ===== KEYLIN BRIDGE ===== */
+.keylin-card { background: linear-gradient(135deg, #0a1628, #1a0d35); color: #fff; border-radius: 16px; padding: 36px 40px; margin-bottom: 20px; }
+.keylin-top { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: flex-start; margin-bottom: 28px; }
+.keylin-avatar { width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, #6366f1, #a78bfa); display: flex; align-items: center; justify-content: center; font-size: 28px; flex-shrink: 0; border: 2px solid rgba(196,181,253,0.3); }
+.keylin-name { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+.keylin-role { font-size: 13px; color: rgba(255,255,255,0.45); margin-bottom: 10px; }
+.keylin-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.k-tag { background: rgba(196,181,253,0.12); border: 1px solid rgba(196,181,253,0.2); color: #c4b5fd; padding: 3px 11px; border-radius: 12px; font-size: 11px; }
+.keylin-grid { display: grid; grid-template-columns: 1fr 1px 1fr; gap: 0; }
+.keylin-col { }
+.keylin-col:last-child { padding-left: 32px; }
+.keylin-div { background: rgba(255,255,255,0.07); }
+.kc-h { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #c4b5fd; margin-bottom: 14px; }
+.kc-item { font-size: 13px; color: rgba(255,255,255,0.7); padding: 9px 0; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 10px; }
+.kc-item:last-child { border: none; }
+.kc-dot { width: 5px; height: 5px; border-radius: 50%; background: #c4b5fd; flex-shrink: 0; margin-top: 7px; }
+.keylin-quote { background: rgba(255,255,255,0.04); border-left: 3px solid #c4b5fd; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 24px; font-size: 14px; color: rgba(255,255,255,0.7); font-style: italic; line-height: 1.6; }
+
+/* ===== SERVICIOS ===== */
+.service-item { background: #f8fafc; border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.service-num { font-size: 28px; font-weight: 700; color: #e2e8f0; margin-bottom: 6px; }
+.service-h { font-size: 14px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+.service-b { font-size: 12px; color: var(--gray); line-height: 1.55; margin-bottom: 12px; }
+.service-who { font-size: 11px; color: var(--green); background: var(--green-pale); border: 1px solid var(--green-border); padding: 4px 10px; border-radius: 6px; display: inline-block; font-weight: 600; }
+
+/* ===== QUICK WINS ===== */
+.qw-item { background: var(--yellow-pale); border: 1px solid #fde68a; border-radius: 10px; padding: 16px 18px; }
+.qw-num { font-size: 11px; font-weight: 700; letter-spacing: 1px; color: var(--yellow); margin-bottom: 6px; }
+.qw-h { font-size: 13px; font-weight: 700; color: #78350f; margin-bottom: 4px; }
+.qw-b { font-size: 12px; color: #92400e; opacity: 0.85; line-height: 1.5; }
+
+/* ===== TIMELINE ===== */
+.timeline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 20px; }
+.tl-item { padding: 24px 28px; border-right: 1px solid var(--border); }
+.tl-item:last-child { border: none; }
+.tl-phase { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+.tl-period { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 12px; }
+.tl-items { display: flex; flex-direction: column; gap: 7px; }
+.tl-bullet { font-size: 12px; color: var(--gray); display: flex; gap: 8px; }
+.tl-bullet::before { content: '·'; color: var(--green); font-size: 16px; line-height: 1.1; flex-shrink: 0; }
+
+/* ===== INVESTMENT ===== */
+.inv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 20px; }
+.inv-card { border-radius: 12px; padding: 24px; border: 1px solid var(--border); position: relative; }
+.inv-card.rec { border-color: var(--green); background: var(--green-pale); }
+.inv-rec-badge { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: var(--green); color: #fff; font-size: 10px; font-weight: 700; padding: 3px 12px; border-radius: 10px; letter-spacing: 1px; white-space: nowrap; }
+.inv-name { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 4px; }
+.inv-price { font-size: 26px; font-weight: 700; color: var(--green); margin: 12px 0 4px; }
+.inv-sub { font-size: 12px; color: var(--gray); margin-bottom: 16px; }
+.inv-items { display: flex; flex-direction: column; gap: 8px; }
+.inv-item { font-size: 12px; color: #374151; display: flex; gap: 8px; }
+.inv-item::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+
+/* ===== CTA FOOTER ===== */
+.cta { background: linear-gradient(135deg, var(--dark) 0%, var(--dark2) 60%, #1a4d20 100%); color: #fff; border-radius: 18px; padding: 44px 52px; display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
+.cta-h { font-size: 26px; font-weight: 700; margin-bottom: 10px; }
+.cta-sub { font-size: 15px; color: rgba(255,255,255,0.5); line-height: 1.65; }
+.cta-btn { background: var(--green-light); color: var(--dark); font-weight: 700; font-size: 15px; padding: 14px 32px; border-radius: 10px; text-align: center; white-space: nowrap; }
+.cta-btn-sub { font-size: 11px; color: rgba(255,255,255,0.3); text-align: center; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Imprimir / PDF</button>
+
+<div class="page">
+
+  <!-- ===== HERO ===== -->
+  <div class="hero">
+    <div class="hero-top">
+      <div class="hero-badge">
+        <span class="badge badge-g">Best of Costa Rica DMC</span>
+        <span class="badge badge-w">× Hint Media</span>
+        <span class="badge badge-y">Propuesta estratégica</span>
+      </div>
+      <div class="hero-date">Julio 2026<br>Confidencial</div>
+    </div>
+    <div class="hero-title">El mejor producto de Costa Rica<br><span>sin el motor digital para venderlo.</span></div>
+    <div class="hero-sub">12 años de operación, 70.000 clientes satisfechos, 700+ reseñas de 5 estrellas y certificación CST Elite. La base está. Lo que falta es un motor digital que convierta ese activo en reservas directas, clientes corporativos y una marca que se vende sola.</div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-n">52.4</div><div class="stat-l">Score digital actual / 100</div></div>
+      <div class="stat"><div class="stat-n">0%</div><div class="stat-l">Segmento corporativo capturado online</div></div>
+      <div class="stat"><div class="stat-n">+40%</div><div class="stat-l">Reservas directas posibles (caso Destiny Group)</div></div>
+      <div class="stat"><div class="stat-n">Keylin</div><div class="stat-l">Ya está adentro. Es el puente.</div></div>
+    </div>
+  </div>
+
+  <!-- ===== AUDIT SCORE ===== -->
+  <div class="score-hero">
+    <div class="score-top">
+      <div class="score-circle">
+        <div class="score-n">52</div>
+        <div class="score-total">/100</div>
+        <div class="score-grade">GRADO C</div>
+      </div>
+      <div class="score-right">
+        <h3>Diagnóstico: operación sólida, presencia digital incompleta</h3>
+        <p>Best of Costa Rica DMC tiene los activos de confianza que la mayoría de las agencias nunca va a tener. El problema no es el producto. Es que el motor digital para venderlo no existe: el segmento corporativo no tiene infraestructura online, el blog no genera tráfico, la marca no tiene voz, y el 97% de los visitantes del sitio se va sin convertir.</p>
+      </div>
+    </div>
+    <div class="score-bars">
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">Contenido & Mensajería</span><span class="score-bar-val">58/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:58%"></div></div>
+      </div>
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">Optimización de conversión</span><span class="score-bar-val">52/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:52%"></div></div>
+      </div>
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">SEO & Discoverability</span><span class="score-bar-val">45/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:45%"></div></div>
+      </div>
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">Posicionamiento competitivo</span><span class="score-bar-val">50/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:50%"></div></div>
+      </div>
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">Marca & Confianza</span><span class="score-bar-val">68/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:68%"></div></div>
+      </div>
+      <div class="score-bar">
+        <div class="score-bar-top"><span class="score-bar-label">Crecimiento & Estrategia</span><span class="score-bar-val">40/100</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:40%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LO QUE FUNCIONA ===== -->
+  <div class="section">
+    <div class="eyebrow g">Diagnóstico — lo que funciona</div>
+    <div class="section-title">Base sólida: activos que pocas DMCs tienen</div>
+    <div class="grid-3">
+      <div class="have-item">
+        <div class="have-ico">⭐</div>
+        <div>
+          <div class="have-h">700+ reseñas 5 estrellas</div>
+          <div class="have-b">TripAdvisor + Google. 12 años de operación consistente. Activo de confianza que la competencia no puede copiar.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">🌿</div>
+        <div>
+          <div class="have-h">Certificación CST Elite</div>
+          <div class="have-b">El 95% de los DMCs no la tiene. En el segmento corporativo post-2022, los departamentos de ESG la exigen. Vale mucho más de lo que la están usando.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">🏢</div>
+        <div>
+          <div class="have-h">Segmento corporativo real</div>
+          <div class="have-b">Incentive travel, team building, grupos. Operan ese segmento pero no tienen presencia digital que lo venda. El producto más rentable, el menos visible.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">👤</div>
+        <div>
+          <div class="have-h">Fundador con nombre propio</div>
+          <div class="have-b">Sergio Hidalgo. En el segmento DMC premium, el factor humano es un diferenciador enorme. Está subexplotado: sin presencia digital propia.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">📞</div>
+        <div>
+          <div class="have-h">Contacto omnicanal 24/7</div>
+          <div class="have-b">Teléfono + WhatsApp + email. Decisivo para el comprador latinoamericano y para grupos con emergencias en viaje. Bien configurado.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">📁</div>
+        <div>
+          <div class="have-h">12 años de material</div>
+          <div class="have-b">70.000 clientes = miles de fotos, videos, historias, testimonios. No hace falta filmar nada nuevo. Hace falta producir con lo que ya existe.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== GAPS ===== -->
+  <div class="section">
+    <div class="eyebrow r">Diagnóstico — dónde están perdiendo</div>
+    <div class="section-title">6 gaps que bloquean el crecimiento digital</div>
+    <div class="grid-2">
+      <div class="gap-item">
+        <div class="gap-label">Crítico</div>
+        <div class="gap-h">Sin identidad de marca propia</div>
+        <div class="gap-b">"Tailor-made high-quality experiences" es lo que dice el 90% de los DMCs del mundo. No hay una propuesta que solo Best of CR pueda decir. Sin voz, sin personalidad, sin historia que los diferencie.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-label">Crítico</div>
+        <div class="gap-h">Segmento corporativo invisible online</div>
+        <div class="gap-b">No hay landing page para incentives, no hay caso de éxito de empresa, no hay LinkedIn Ads B2B, no hay RFP corporativo. El producto más rentable no tiene presencia digital. Un Director de RRHH que busca "incentive trip Costa Rica" no los encuentra.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-label">Alto impacto</div>
+        <div class="gap-h">Blog sin estrategia = SEO sin tráfico</div>
+        <div class="gap-b">Sin artículos que rankeen para "luxury travel Costa Rica", "corporate incentive DMC Costa Rica", "team building Costa Rica". La competencia que sí tiene contenido se lleva ese tráfico calificado todos los meses.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-label">Alto impacto</div>
+        <div class="gap-h">Sin motor de reservas directas</div>
+        <div class="gap-b">Los leads llegan de TripAdvisor y plataformas de terceros con comisión de 15-25% por reserva. Sin paid media propio, sin email marketing, sin remarketing. El caso Destiny Group (30%→70% reservas directas) es directamente aplicable.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-label">Medio plazo</div>
+        <div class="gap-h">Sergio Hidalgo sin presencia digital</div>
+        <div class="gap-b">Un fundador con 12 años de expertise en Costa Rica debería generar inbound desde LinkedIn. Hoy no existe. Sin vocería del fundador, la empresa no tiene cara ni autoridad de mercado en el segmento MICE.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-label">Medio plazo</div>
+        <div class="gap-h">CST Elite sin comunicación de valor</div>
+        <div class="gap-b">La certificación de sostenibilidad más alta del turismo costarricense no tiene contenido que la explique. Qué significa operativamente, impacto en comunidades, compensación de carbono. Los compradores corporativos con mandatos ESG la necesitan documentada.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CÓMO TRABAJA HINT (REMOTO) ===== -->
+  <div class="section">
+    <div class="eyebrow b">Cómo trabajamos</div>
+    <div class="section-title">100% remoto. Con el material que ya tienen.</div>
+    <div class="remote-banner">
+      <div>
+        <div class="remote-h">No hay que viajar. No hay que filmar nada nuevo.</div>
+        <div class="remote-sub">12 años de operaciones significan miles de fotos, videos de clientes, testimonios, imágenes de destinos y material sin editar. Hint Media toma ese archivo y lo convierte en marca, contenido y campañas. Keylin coordina localmente lo que hace falta. El resto es producción, estrategia y distribución remota desde Argentina.</div>
+      </div>
+      <div class="remote-pill">Operación<br>100% remota</div>
+    </div>
+    <div class="grid-3">
+      <div class="remote-item">
+        <div class="remote-ico">📂</div>
+        <div class="remote-h2">Material existente del cliente</div>
+        <div class="remote-b">Fotos de tours, videos de clientes, testimonios grabados, imágenes de hoteles. Todo eso existe. Solo necesita producción narrativa encima.</div>
+      </div>
+      <div class="remote-item">
+        <div class="remote-ico">🧠</div>
+        <div class="remote-h2">Keylin como puente local</div>
+        <div class="remote-b">Coordina qué material usar, valida el tono local, revisa mensajería en español CR, y gestiona la relación con Sergio Hidalgo y el equipo.</div>
+      </div>
+      <div class="remote-item">
+        <div class="remote-ico">🚀</div>
+        <div class="remote-h2">Hint produce y distribuye</div>
+        <div class="remote-b">Edición de video, diseño de marca, copy de campañas, paid media, email marketing, SEO. Todo desde Argentina. Cero fricción operativa.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== KEYLIN ===== -->
+  <div class="keylin-card">
+    <div class="eyebrow w">La pieza que hace posible todo esto</div>
+    <div style="font-size:22px;font-weight:700;color:#fff;margin-bottom:24px">Keylin Smith: el puente perfecto entre Hint y Best of Costa Rica DMC</div>
+    <div class="keylin-top">
+      <div class="keylin-avatar">🧠</div>
+      <div>
+        <div class="keylin-name">Keylin Smith</div>
+        <div class="keylin-role">Supervisora de Marketing · Best of Costa Rica DMC · Costa Rica</div>
+        <div class="keylin-tags">
+          <span class="k-tag">Neuromarketing</span>
+          <span class="k-tag">Estrategia creativa</span>
+          <span class="k-tag">Eventos corporativos</span>
+          <span class="k-tag">Guiones audiovisual</span>
+          <span class="k-tag">LinkedIn thought leadership</span>
+        </div>
+      </div>
+    </div>
+    <div class="keylin-grid">
+      <div class="keylin-col">
+        <div class="kc-h">Lo que Keylin aporta al trabajo con Hint</div>
+        <div class="kc-item"><div class="kc-dot"></div>Conoce el negocio desde adentro: qué material existe, qué falta, qué no funciona</div>
+        <div class="kc-item"><div class="kc-dot"></div>Escribe guiones de video con neuromarketing: psicología del consumidor aplicada, no solo copy bonito</div>
+        <div class="kc-item"><div class="kc-dot"></div>Estrategia creativa de campaña desde el comportamiento del viajero</div>
+        <div class="kc-item"><div class="kc-dot"></div>Coordina localmente lo que Hint necesita: material, aprobaciones, tono</div>
+        <div class="kc-item"><div class="kc-dot"></div>Puente de confianza con Sergio Hidalgo y el equipo directivo</div>
+      </div>
+      <div class="keylin-div"></div>
+      <div class="keylin-col">
+        <div class="kc-h">Lo que Hint aporta a lo que Keylin quiere hacer</div>
+        <div class="kc-item"><div class="kc-dot"></div>Producción audiovisual para ejecutar sus guiones y conceptos</div>
+        <div class="kc-item"><div class="kc-dot"></div>Estructura de agencia para escalar sus ideas</div>
+        <div class="kc-item"><div class="kc-dot"></div>Paid media y distribución que sola no tiene</div>
+        <div class="kc-item"><div class="kc-dot"></div>Clientes corporativos activos donde aplicar su expertise</div>
+        <div class="kc-item"><div class="kc-dot"></div>Ingresos freelance estables con proyectos reales</div>
+      </div>
+    </div>
+    <div class="keylin-quote">"Me gustó mucho el enfoque de Hint Media y la manera en que integran estrategia con ejecución." — Keylin Smith, después de leer el dossier · Junio 2026</div>
+  </div>
+
+  <!-- ===== CASOS DE ÉXITO ===== -->
+  <div class="section">
+    <div class="eyebrow p">Por qué Hint Media es la elección correcta</div>
+    <div class="section-title">Ya lo hicimos con empresas como esta</div>
+    <div class="grid-3">
+      <div class="case-item destiny">
+        <div class="case-tag">⭐ Caso más relevante · Turismo</div>
+        <div class="case-name">Destiny Group</div>
+        <div class="case-what">8 marcas de turismo en Fuerteventura. Misma industria, mismo problema: dependencia de OTAs y sin motor digital propio.</div>
+        <div class="case-results">
+          <div class="case-result">30% → 70% reservas directas</div>
+          <div class="case-result">Branding + contenido + paid media integrados</div>
+          <div class="case-result">Reducción de comisión a plataformas terceras</div>
+        </div>
+      </div>
+      <div class="case-item spain">
+        <div class="case-tag">DMC de lujo · Sector idéntico</div>
+        <div class="case-name">Spain Collection</div>
+        <div class="case-what">DMC de lujo en España. Mismo modelo de negocio que Best of Costa Rica DMC. Posicionamiento premium con narrativa de marca.</div>
+        <div class="case-results">
+          <div class="case-result">Identidad de marca premium</div>
+          <div class="case-result">Contenido multiplataforma en inglés y español</div>
+          <div class="case-result">Posicionamiento en segmento luxury travel</div>
+        </div>
+      </div>
+      <div class="case-item one">
+        <div class="case-tag">Entretenimiento · Comunidad</div>
+        <div class="case-name">Grupo One Entertainment</div>
+        <div class="case-what">Marcas de entretenimiento y experiencias. Construcción de audiencia digital desde cero con contenido y paid media.</div>
+        <div class="case-results">
+          <div class="case-result">La Feria: 32.500 seguidores</div>
+          <div class="case-result">La Playa: 77.500 seguidores</div>
+          <div class="case-result">Comunidad activa desde contenido estratégico</div>
+        </div>
+      </div>
+    </div>
+    <div style="background:#f0fdf4;border:1px solid var(--green-border);border-radius:10px;padding:16px 20px;margin-top:16px;font-size:13px;color:#15803d;line-height:1.65;">
+      <strong>La analogía directa:</strong> Destiny Group tenía el mismo problema que Best of Costa Rica DMC: excelente producto turístico, dependencia de plataformas de terceros, sin motor digital propio. El resultado (30% → 70% reservas directas) es el benchmark de lo que podemos hacer acá.
+    </div>
+  </div>
+
+  <!-- ===== QUÉ HACEMOS CONCRETAMENTE ===== -->
+  <div class="section">
+    <div class="eyebrow g">Propuesta de servicios</div>
+    <div class="section-title">Qué haríamos concretamente (todo remoto)</div>
+    <div class="grid-2" style="gap:14px">
+      <div class="service-item">
+        <div class="service-num">01</div>
+        <div class="service-h">Identidad de marca + narrativa</div>
+        <div class="service-b">Darle a Best of CR una voz que solo ellos puedan decir. Línea de posicionamiento, brandbook, guía de tono. Base para todo el contenido posterior. Keylin valida el tono local y la autenticidad costarricense.</div>
+        <div class="service-who">Keylin: valida autenticidad</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">02</div>
+        <div class="service-h">Producción de video con material existente</div>
+        <div class="service-b">12 años de operaciones = material sin explotar. Hint edita, narra y produce desde lo que ya tienen. Keylin escribe los guiones con neuromarketing. Resultado: video de marca sin viajar ni filmar nada nuevo.</div>
+        <div class="service-who">Keylin: guiones neuromarketing</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">03</div>
+        <div class="service-h">Landing page corporativa / MICE</div>
+        <div class="service-b">Una URL dedicada para incentive travel y team building con mensajería B2B específica: ROI del viaje, capacidad de grupos, formulario de RFP, sostenibilidad corporativa. Primera vez que el producto más rentable tiene presencia digital.</div>
+        <div class="service-who">Hint: copy + diseño + SEO</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">04</div>
+        <div class="service-h">Content Hub + SEO orgánico</div>
+        <div class="service-b">12 artículos en 90 días que rankeen para búsquedas de alta intención: ocio familiar, turismo de lujo, incentives corporativos, sostenibilidad ESG. Keylin aporta el conocimiento local. Hint produce, optimiza y publica.</div>
+        <div class="service-who">Keylin: conocimiento local</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">05</div>
+        <div class="service-h">Vocería digital Sergio Hidalgo (LinkedIn)</div>
+        <div class="service-b">El fundador con 12 años de expertise en Costa Rica debe tener voz digital. 2 posts semanales en LinkedIn: perspectiva experta en turismo sostenible, incentives, destino CR. Hint produce, Keylin valida, Sergio publica. En 90 días, el perfil genera inbound MICE.</div>
+        <div class="service-who">Keylin: puente con Sergio</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">06</div>
+        <div class="service-h">Paid Media + Remarketing</div>
+        <div class="service-b">Google Ads + Meta Ads segmentados: ocio (keywords de viaje) y corporativo (HR Directors, Travel Managers en LinkedIn Ads). Píxeles de remarketing para recuperar el 97% de visitantes que hoy se van sin convertir. Todo gestionado remotamente.</div>
+        <div class="service-who">Hint: gestión completa remota</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">07</div>
+        <div class="service-h">Email Marketing + Nurturing</div>
+        <div class="service-b">3 flujos: (a) nurturing para leads de ocio con ciclo largo, (b) seguimiento de RFP corporativo con caso de éxito + Sustainability Report, (c) reactivación de clientes pasados. El motor que convierte leads en reservas directas.</div>
+        <div class="service-who">Hint: diseño y automatización</div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">08</div>
+        <div class="service-h">Sustainability Report para ESG corporativo</div>
+        <div class="service-b">2 páginas descargables: qué significa CST Elite operativamente, proveedores locales, impacto en comunidades, compensación de carbono. Material de apoyo para cerrar contratos con empresas que tienen mandatos ESG. Keylin aporta los datos reales.</div>
+        <div class="service-who">Keylin: datos reales de operación</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== QUICK WINS ===== -->
+  <div class="section">
+    <div class="eyebrow y">Acciones inmediatas</div>
+    <div class="section-title">5 Quick Wins — primeras 4 semanas</div>
+    <div class="grid-3" style="gap:14px">
+      <div class="qw-item">
+        <div class="qw-num">QW 01 · Semana 1</div>
+        <div class="qw-h">LinkedIn Sergio Hidalgo activado</div>
+        <div class="qw-b">Perfil optimizado + primer post de vocería. Keylin coordina con él. Sin costo adicional. Impacto: inbound MICE en 60 días.</div>
+      </div>
+      <div class="qw-item">
+        <div class="qw-num">QW 02 · Semana 1</div>
+        <div class="qw-h">Píxeles de remarketing instalados</div>
+        <div class="qw-b">Meta + Google. Setup de 1 día. Costo mínimo. Empieza a construir audiencias de visitantes no convertidos desde el día 1.</div>
+      </div>
+      <div class="qw-item">
+        <div class="qw-num">QW 03 · Semana 2</div>
+        <div class="qw-h">Hero copy reescrito</div>
+        <div class="qw-b">Nueva propuesta de valor que solo Best of CR puede decir. Keylin escribe con neuromarketing, Hint revisa y publica. Impacto en bounce rate inmediato.</div>
+      </div>
+      <div class="qw-item">
+        <div class="qw-num">QW 04 · Semana 2</div>
+        <div class="qw-h">Google Business Profile optimizado</div>
+        <div class="qw-b">Fotos, respuestas a las 700 reseñas, FAQs cargadas, actualizaciones. Costo casi cero. Mejora ranking local inmediatamente.</div>
+      </div>
+      <div class="qw-item">
+        <div class="qw-num">QW 05 · Semana 3</div>
+        <div class="qw-h">WhatsApp Business con flujo de calificación</div>
+        <div class="qw-b">Bot que califica ocio vs. corporativo y captura datos antes de derivar. Keylin gestiona el flujo. Ningún lead se pierde fuera de horario.</div>
+      </div>
+      <div class="qw-item" style="background:#f0fdf4;border-color:var(--green-border)">
+        <div class="qw-num" style="color:var(--green)">RESULTADO ESPERADO</div>
+        <div class="qw-h" style="color:#15803d">En 30 días</div>
+        <div class="qw-b" style="color:#166534">Presencia en LinkedIn activa, tráfico de remarketing construyéndose, mensajería renovada, y primer pipeline de leads corporativos iniciado.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TIMELINE ===== -->
+  <div class="section">
+    <div class="eyebrow b">Plan de trabajo</div>
+    <div class="section-title">Hoja de ruta — 6 meses</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-phase">Fase 1 · Fundación</div>
+        <div class="tl-period">Mes 1–2</div>
+        <div class="tl-items">
+          <div class="tl-bullet">Identidad de marca + línea de posicionamiento</div>
+          <div class="tl-bullet">Quick wins (LinkedIn, remarketing, WhatsApp)</div>
+          <div class="tl-bullet">Landing page corporativa / MICE</div>
+          <div class="tl-bullet">Primer video con material existente</div>
+          <div class="tl-bullet">Sustainability Report para ESG</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-phase">Fase 2 · Motor</div>
+        <div class="tl-period">Mes 3–4</div>
+        <div class="tl-items">
+          <div class="tl-bullet">Content Hub: 12 artículos SEO activos</div>
+          <div class="tl-bullet">Paid media Google + Meta lanzado</div>
+          <div class="tl-bullet">Email marketing + nurturing automatizado</div>
+          <div class="tl-bullet">LinkedIn Ads B2B corporativo</div>
+          <div class="tl-bullet">Vocería Sergio: 2 posts/semana</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-phase">Fase 3 · Escala</div>
+        <div class="tl-period">Mes 5–6</div>
+        <div class="tl-items">
+          <div class="tl-bullet">Optimización de campañas por datos reales</div>
+          <div class="tl-bullet">Expansión del Content Hub</div>
+          <div class="tl-bullet">Casos de éxito corporativos publicados</div>
+          <div class="tl-bullet">Review del score digital (objetivo: 75+)</div>
+          <div class="tl-bullet">Pipeline MICE consolidado</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== INVERSIÓN ===== -->
+  <div class="section">
+    <div class="eyebrow g">Modelo de inversión</div>
+    <div class="section-title">3 opciones según el punto de arranque</div>
+    <div class="inv-grid">
+      <div class="inv-card">
+        <div class="inv-name">Arranque</div>
+        <div style="font-size:12px;color:var(--gray);margin-top:4px">Para probar la sinergia</div>
+        <div class="inv-price">Proyecto piloto</div>
+        <div class="inv-sub">Por entregable · Sin compromiso fijo</div>
+        <div class="inv-items">
+          <div class="inv-item">Video de marca con material existente</div>
+          <div class="inv-item">Guión neuromarketing (Keylin)</div>
+          <div class="inv-item">Copy nuevo para homepage</div>
+          <div class="inv-item">Entregable único, precio fijo</div>
+        </div>
+      </div>
+      <div class="inv-card rec">
+        <div class="inv-rec-badge">RECOMENDADO</div>
+        <div class="inv-name">Motor Digital</div>
+        <div style="font-size:12px;color:var(--gray);margin-top:4px">Para construir el sistema completo</div>
+        <div class="inv-price">Retainer mensual</div>
+        <div class="inv-sub">3 meses mínimo · Todo integrado</div>
+        <div class="inv-items">
+          <div class="inv-item">Identidad + brandbook + mensajería</div>
+          <div class="inv-item">Content Hub + SEO (4 artículos/mes)</div>
+          <div class="inv-item">Paid Media Google + Meta</div>
+          <div class="inv-item">Vocería Sergio (LinkedIn)</div>
+          <div class="inv-item">Email marketing + nurturing</div>
+          <div class="inv-item">Keylin integrada como colaboradora</div>
+        </div>
+      </div>
+      <div class="inv-card">
+        <div class="inv-name">Partnership MICE</div>
+        <div style="font-size:12px;color:var(--gray);margin-top:4px">Para el segmento corporativo</div>
+        <div class="inv-price">Revenue sharing</div>
+        <div class="inv-sub">Por cierre corporativo · Alineado al resultado</div>
+        <div class="inv-items">
+          <div class="inv-item">Landing + estrategia MICE completa</div>
+          <div class="inv-item">LinkedIn Ads B2B corporativo</div>
+          <div class="inv-item">Sustainability Report para ESG</div>
+          <div class="inv-item">Keylin lidera la vertical de eventos</div>
+          <div class="inv-item">Hint toma % por cierre corporativo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CTA ===== -->
+  <div class="cta">
+    <div>
+      <div class="cta-h">El primer paso es la call con Keylin.</div>
+      <div class="cta-sub">Ella ya leyó el dossier, ya confía en Hint, y ya sabe qué le falta a Best of Costa Rica DMC desde adentro. La call no es para convencer a nadie. Es para definir por dónde empezar y cómo estructurar la colaboración entre Keylin, Hint, y Sergio Hidalgo.</div>
+    </div>
+    <div>
+      <div class="cta-btn">Call con Keylin →</div>
+      <div class="cta-btn-sub">Julio 2026 · Hint Media</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

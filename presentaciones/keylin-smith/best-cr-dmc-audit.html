@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best of Costa Rica DMC — Análisis + Propuesta Hint Media</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; color: #111; min-height: 100vh; padding: 40px 20px; }
+
+.page { width: 100%; max-width: 980px; margin: 0 auto; }
+
+/* ---- HEADER ---- */
+.header { background: #0a1628; color: #fff; border-radius: 18px; padding: 44px 52px; margin-bottom: 24px; position: relative; overflow: hidden; }
+.header::before { content: ''; position: absolute; top: -60px; right: -60px; width: 280px; height: 280px; background: radial-gradient(circle, rgba(34,197,94,0.12) 0%, transparent 70%); border-radius: 50%; }
+.header-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
+.tag { display: inline-block; background: rgba(34,197,94,0.12); border: 1px solid rgba(34,197,94,0.25); color: #4ade80; padding: 5px 14px; border-radius: 20px; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; }
+.tag-date { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.35); }
+.header-title { font-size: 34px; font-weight: 700; line-height: 1.2; margin-bottom: 10px; }
+.header-sub { font-size: 15px; color: rgba(255,255,255,0.45); line-height: 1.6; max-width: 600px; }
+.header-stats { display: flex; gap: 36px; margin-top: 32px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.08); }
+.stat { }
+.stat-n { font-size: 26px; font-weight: 700; color: #4ade80; }
+.stat-l { font-size: 12px; color: rgba(255,255,255,0.4); margin-top: 2px; }
+
+/* ---- SECTION ---- */
+.section { background: #fff; border-radius: 14px; padding: 36px 40px; margin-bottom: 20px; }
+.sec-eyebrow { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; font-weight: 600; margin-bottom: 8px; }
+.sec-eyebrow.green { color: #16a34a; }
+.sec-eyebrow.red { color: #dc2626; }
+.sec-eyebrow.blue { color: #2563eb; }
+.sec-eyebrow.purple { color: #7c3aed; }
+.sec-title { font-size: 22px; font-weight: 700; margin-bottom: 20px; color: #0f172a; }
+.sec-divider { height: 1px; background: #f1f5f9; margin: 28px 0; }
+
+/* ---- GRID LAYOUTS ---- */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+/* ---- WHAT THEY HAVE ---- */
+.have-item { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start; }
+.have-ico { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.have-h { font-size: 14px; font-weight: 600; color: #15803d; margin-bottom: 3px; }
+.have-b { font-size: 13px; color: #166534; opacity: 0.75; line-height: 1.5; }
+
+/* ---- GAPS ---- */
+.gap-item { background: #fff7f7; border: 1px solid #fecaca; border-radius: 10px; padding: 16px 18px; }
+.gap-tag { display: inline-block; background: #fee2e2; color: #b91c1c; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.gap-h { font-size: 14px; font-weight: 600; color: #991b1b; margin-bottom: 5px; }
+.gap-b { font-size: 13px; color: #7f1d1d; opacity: 0.75; line-height: 1.55; }
+
+/* ---- OPPORTUNITY CARDS ---- */
+.opp-item { background: #fefce8; border: 1px solid #fde68a; border-radius: 10px; padding: 16px 18px; }
+.opp-label { font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; color: #a16207; margin-bottom: 6px; }
+.opp-h { font-size: 14px; font-weight: 600; color: #78350f; margin-bottom: 4px; }
+.opp-b { font-size: 13px; color: #92400e; opacity: 0.8; line-height: 1.5; }
+
+/* ---- HINT PROPUESTA ---- */
+.prop-wrap { display: flex; flex-direction: column; gap: 14px; }
+.prop-item { display: grid; grid-template-columns: 48px 1fr auto; gap: 18px; align-items: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px 22px; }
+.prop-n { font-size: 28px; font-weight: 700; color: #e2e8f0; }
+.prop-h { font-size: 15px; font-weight: 600; color: #0f172a; margin-bottom: 4px; }
+.prop-b { font-size: 13px; color: #64748b; line-height: 1.55; }
+.prop-tag { font-size: 11px; padding: 5px 12px; border-radius: 20px; font-weight: 600; white-space: nowrap; }
+.pt-green { background: #dcfce7; color: #15803d; }
+.pt-blue { background: #dbeafe; color: #1d4ed8; }
+.pt-purple { background: #f3e8ff; color: #7c3aed; }
+.pt-orange { background: #ffedd5; color: #c2410c; }
+
+/* ---- KEYLIN BRIDGE ---- */
+.bridge { background: linear-gradient(135deg, #0a1628 0%, #0d2040 100%); color: #fff; border-radius: 14px; padding: 36px 40px; margin-bottom: 20px; }
+.bridge-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+.bridge-sub { font-size: 15px; color: rgba(255,255,255,0.5); margin-bottom: 28px; line-height: 1.6; }
+.bridge-grid { display: grid; grid-template-columns: 1fr 1px 1fr; gap: 0; }
+.bridge-col { padding: 0 28px; }
+.bridge-col:first-child { padding-left: 0; }
+.bridge-col:last-child { padding-right: 0; }
+.bridge-div { background: rgba(255,255,255,0.08); }
+.bridge-col-h { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #4ade80; margin-bottom: 14px; }
+.bridge-item { font-size: 14px; color: rgba(255,255,255,0.7); padding: 9px 0; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; gap: 10px; }
+.bridge-item:last-child { border: none; }
+.bridge-dot { width: 5px; height: 5px; border-radius: 50%; background: #4ade80; flex-shrink: 0; margin-top: 8px; }
+
+/* ---- MOCKUP SECTION ---- */
+.mockup-wrap { background: #f8fafc; border-radius: 12px; padding: 28px; margin-top: 20px; border: 1px solid #e2e8f0; }
+.mockup-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #64748b; margin-bottom: 16px; font-weight: 600; }
+.mock-browser { background: #fff; border-radius: 10px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+.mock-bar { background: #f1f5f9; padding: 10px 16px; display: flex; align-items: center; gap: 8px; }
+.mock-dot { width: 10px; height: 10px; border-radius: 50%; }
+.mock-url { background: #fff; border-radius: 4px; padding: 4px 12px; font-size: 12px; color: #94a3b8; flex: 1; margin-left: 8px; }
+
+/* Current site mockup */
+.mock-current { }
+.mock-hero { background: linear-gradient(135deg, #1a5e2a, #2d8b3d); height: 140px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 18px; font-weight: 600; position: relative; overflow: hidden; }
+.mock-hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+.mock-nav { background: #fff; padding: 10px 16px; display: flex; gap: 12px; border-bottom: 1px solid #f1f5f9; font-size: 11px; color: #64748b; }
+.mock-body { padding: 16px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.mock-card { background: #f8fafc; border-radius: 6px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #94a3b8; border: 1px solid #e2e8f0; }
+
+/* Improved mockup */
+.mock-new-hero { background: linear-gradient(135deg, #0a1628, #0d3060); height: 140px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 0 20px; color: #fff; position: relative; overflow: hidden; }
+.mock-new-hero::after { content: '▶'; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; border: 1px solid rgba(255,255,255,0.3); }
+.mock-new-hero h3 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+.mock-new-hero p { font-size: 11px; color: rgba(255,255,255,0.6); }
+.mock-kpi { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; background: #4ade80; }
+.mock-kpi-item { padding: 8px; text-align: center; font-size: 10px; color: #0a1628; font-weight: 700; border-right: 1px solid rgba(0,0,0,0.1); }
+.mock-kpi-item:last-child { border: none; }
+.mock-new-body { padding: 14px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.mock-new-card { background: #0a1628; border-radius: 6px; height: 60px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; padding: 8px; position: relative; overflow: hidden; }
+.mock-new-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, #1a5e2a44, #0a162888); }
+.mock-new-card span { font-size: 10px; color: #fff; font-weight: 600; position: relative; z-index: 1; }
+.mock-new-card small { font-size: 9px; color: rgba(255,255,255,0.6); position: relative; z-index: 1; }
+
+/* Comparison */
+.compare-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+.compare-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 600; margin-bottom: 10px; }
+.compare-label.red { color: #dc2626; }
+.compare-label.green { color: #16a34a; }
+
+/* ---- CTA FINAL ---- */
+.cta-final { background: #0a1628; color: #fff; border-radius: 14px; padding: 40px 48px; display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
+.cta-h { font-size: 24px; font-weight: 700; margin-bottom: 10px; }
+.cta-sub { font-size: 15px; color: rgba(255,255,255,0.5); line-height: 1.6; }
+.cta-pill { display: inline-block; background: #4ade80; color: #0a1628; font-weight: 700; font-size: 14px; padding: 12px 28px; border-radius: 8px; }
+
+/* ---- PRINT ---- */
+.print-btn { position: fixed; top: 20px; right: 20px; background: #0a1628; color: #fff; border: none; padding: 9px 20px; border-radius: 8px; font-size: 13px; cursor: pointer; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.2); }
+@media print { body { padding: 0; background: #fff; } .print-btn { display: none; } .section, .bridge { break-inside: avoid; } }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Imprimir / PDF</button>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-top">
+      <div class="tag">Análisis de sitio + propuesta</div>
+      <div class="tag tag-date">Julio 2026 · Confidencial</div>
+    </div>
+    <div class="header-title">Best of Costa Rica DMC<br><span style="color:#4ade80">¿Cómo puede crecer con Hint Media?</span></div>
+    <div class="header-sub">Análisis del sitio actual, gaps identificados y propuesta concreta de colaboración. Preparado para la call con Keylin Smith, Supervisora de Marketing.</div>
+    <div class="header-stats">
+      <div class="stat"><div class="stat-n">12+</div><div class="stat-l">años en el mercado</div></div>
+      <div class="stat"><div class="stat-n">70k+</div><div class="stat-l">clientes atendidos</div></div>
+      <div class="stat"><div class="stat-n">700+</div><div class="stat-l">reseñas 5 estrellas</div></div>
+      <div class="stat"><div class="stat-n">0</div><div class="stat-l">videos de marca hoy</div></div>
+    </div>
+  </div>
+
+  <!-- LO QUE TIENEN BIEN -->
+  <div class="section">
+    <div class="sec-eyebrow green">Lo que está funcionando</div>
+    <div class="sec-title">Su base es sólida</div>
+    <div class="grid-2">
+      <div class="have-item">
+        <div class="have-ico">⭐</div>
+        <div>
+          <div class="have-h">Prueba social fuerte</div>
+          <div class="have-b">700+ reseñas de 5 estrellas en TripAdvisor. 70,000 clientes. Eso es un activo enorme que muy pocas DMC tienen.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">🌿</div>
+        <div>
+          <div class="have-h">Certificación CST Elite</div>
+          <div class="have-b">Sostenibilidad turística verificada. En el mercado de lujo actual, esto diferencia. Pocos lo comunican bien.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">📦</div>
+        <div>
+          <div class="have-h">Oferta diversa y clara</div>
+          <div class="have-b">Aventura, lujo, familias, parejas, naturaleza. Cubren bien el espectro. La estructura del catálogo es navegable.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">📞</div>
+        <div>
+          <div class="have-h">Contacto omnicanal</div>
+          <div class="have-b">Teléfono local + internacional, WhatsApp 24/7, email. Fácil llegar a ellos. Bien configurado para conversión.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">🏢</div>
+        <div>
+          <div class="have-h">Segmento corporativo activo</div>
+          <div class="have-b">Incentive travel, team building, grupos corporativos. Este segmento existe pero está subdesarrollado en comunicación.</div>
+        </div>
+      </div>
+      <div class="have-item">
+        <div class="have-ico">🌐</div>
+        <div>
+          <div class="have-h">Bilingüe (EN/ES)</div>
+          <div class="have-b">Captan mercado norteamericano y latinoamericano. Correcta orientación para el turismo receptivo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GAPS -->
+  <div class="section">
+    <div class="sec-eyebrow red">Lo que falta</div>
+    <div class="sec-title">Dónde están perdiendo oportunidades</div>
+    <div class="grid-2">
+      <div class="gap-item">
+        <div class="gap-tag">Crítico</div>
+        <div class="gap-h">Sin identidad de marca propia</div>
+        <div class="gap-b">El sitio vende paquetes, no una marca. "Best of Costa Rica" es un nombre, no una promesa. No hay voz, no hay personalidad, no hay historia que los diferencie de 50 DMCs más.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-tag">Crítico</div>
+        <div class="gap-h">Cero video de marca</div>
+        <div class="gap-b">Una DMC que lleva a turistas a uno de los países más biodiversos del mundo no tiene un video que lo muestre. Las imágenes estáticas no venden lo que Costa Rica ofrece.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-tag">Alto impacto</div>
+        <div class="gap-h">Contenido corporativo invisible</div>
+        <div class="gap-b">Tienen incentive travel y team building, pero no hay contenido específico para captar empresas. La página de grupos corporativos no existe o no convierte.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-tag">Alto impacto</div>
+        <div class="gap-h">Blog sin estrategia</div>
+        <div class="gap-b">El blog existe pero no posiciona. No hay artículos que ranqueen para "luxury travel Costa Rica" o "corporate incentive Costa Rica." Tráfico orgánico desaprovechado.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-tag">Medio plazo</div>
+        <div class="gap-h">LinkedIn y redes sin producción</div>
+        <div class="gap-b">Keylin publica con consistencia, pero el contenido de Best of Costa Rica DMC en LinkedIn (2.589 seguidores) no tiene calidad visual ni narrativa coherente.</div>
+      </div>
+      <div class="gap-item">
+        <div class="gap-tag">Medio plazo</div>
+        <div class="gap-h">PuraLuxe desconectada de la marca</div>
+        <div class="gap-b">Tienen una sub-marca de lujo (PuraLuxe Boutique Journeys) con 111 seguidores. Hay una oportunidad enorme de posicionarla como marca premium separada con identidad propia.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARATIVA VISUAL -->
+  <div class="section">
+    <div class="sec-eyebrow blue">Comparativa visual</div>
+    <div class="sec-title">Sitio actual vs sitio con Hint Media</div>
+    <div class="compare-wrap">
+      <div>
+        <div class="compare-label red">Hoy: transaccional y genérico</div>
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dot" style="background:#ff5f57"></div>
+            <div class="mock-dot" style="background:#febc2e"></div>
+            <div class="mock-dot" style="background:#28c840"></div>
+            <div class="mock-url">bestcostaricadmc.com</div>
+          </div>
+          <div class="mock-hero">🌿 Best of Costa Rica DMC — Book Now</div>
+          <div class="mock-nav">Home · Packages · Hotels · Blog · Contact</div>
+          <div class="mock-body">
+            <div class="mock-card">Paquete 7 días</div>
+            <div class="mock-card">Paquete 9 días</div>
+            <div class="mock-card">Luna de miel</div>
+            <div class="mock-card">Aventura</div>
+            <div class="mock-card">Playa y relax</div>
+            <div class="mock-card">Familias</div>
+          </div>
+        </div>
+        <div style="margin-top:12px;font-size:13px;color:#64748b;line-height:1.6">
+          Sin narrativa. Sin video. Sin diferenciación. Igual que cualquier agencia de viajes online.
+        </div>
+      </div>
+      <div>
+        <div class="compare-label green">Con Hint Media: marca que inspira</div>
+        <div class="mock-browser">
+          <div class="mock-bar">
+            <div class="mock-dot" style="background:#ff5f57"></div>
+            <div class="mock-dot" style="background:#febc2e"></div>
+            <div class="mock-dot" style="background:#28c840"></div>
+            <div class="mock-url">bestcostaricadmc.com</div>
+          </div>
+          <div class="mock-new-hero">
+            <h3>Costa Rica no es un destino. Es una decisión.</h3>
+            <p>12 años · 70,000 experiencias · Una sola promesa</p>
+          </div>
+          <div class="mock-kpi">
+            <div class="mock-kpi-item">700+ ★★★★★</div>
+            <div class="mock-kpi-item">CST Elite</div>
+            <div class="mock-kpi-item">24/7 Support</div>
+          </div>
+          <div class="mock-new-body">
+            <div class="mock-new-card"><span>Lujo</span><small>PuraLuxe →</small></div>
+            <div class="mock-new-card"><span>Corporativo</span><small>Incentives →</small></div>
+            <div class="mock-new-card"><span>Aventura</span><small>Experiencias →</small></div>
+          </div>
+        </div>
+        <div style="margin-top:12px;font-size:13px;color:#166534;line-height:1.6;background:#f0fdf4;border-radius:8px;padding:10px 14px;">
+          Video hero + propuesta emocional + segmentación clara. El visitante sabe en 5 segundos si es para él.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROPUESTA HINT -->
+  <div class="section">
+    <div class="sec-eyebrow purple">Propuesta Hint Media</div>
+    <div class="sec-title">Qué haríamos concretamente</div>
+    <div class="prop-wrap">
+      <div class="prop-item">
+        <div class="prop-n">01</div>
+        <div>
+          <div class="prop-h">Video de marca principal</div>
+          <div class="prop-b">Un video cinematográfico de 90 segundos que posicione a Best of Costa Rica DMC como la DMC premium de referencia. No un catálogo de actividades. Una promesa emocional. Hero de la home page + uso en redes y paid media.</div>
+        </div>
+        <span class="prop-tag pt-orange">Audiovisual</span>
+      </div>
+      <div class="prop-item">
+        <div class="prop-n">02</div>
+        <div>
+          <div class="prop-h">Identidad y narrativa de marca</div>
+          <div class="prop-b">Darle a Best of Costa Rica DMC una voz propia. "Costa Rica no es un destino, es una decisión" es el tipo de línea que diferencia. Un brandbook ligero + guía de tono para todo el contenido posterior.</div>
+        </div>
+        <span class="prop-tag pt-purple">Branding</span>
+      </div>
+      <div class="prop-item">
+        <div class="prop-n">03</div>
+        <div>
+          <div class="prop-h">Página corporativa / incentives</div>
+          <div class="prop-b">Una landing específica para empresas que buscan incentive travel o team building en Costa Rica. Con casos, propuestas, formulario B2B. Ahí está el dinero grande y hoy no está capturado.</div>
+        </div>
+        <span class="prop-tag pt-blue">Contenido B2B</span>
+      </div>
+      <div class="prop-item">
+        <div class="prop-n">04</div>
+        <div>
+          <div class="prop-h">Estrategia de contenido + LinkedIn</div>
+          <div class="prop-b">Plan mensual de contenido para el LinkedIn de Best of Costa Rica DMC (2.589 seguidores dormidos). Contenido editorial con la voz de Keylin pero con producción visual de Hint. Neuromarketing aplicado al copy.</div>
+        </div>
+        <span class="prop-tag pt-green">Social Media</span>
+      </div>
+      <div class="prop-item">
+        <div class="prop-n">05</div>
+        <div>
+          <div class="prop-h">Posicionamiento de PuraLuxe</div>
+          <div class="prop-b">La sub-marca de lujo (111 seguidores hoy) tiene potencial enorme para el segmento premium. Identidad visual diferenciada + contenido emocional + audiencia de agencias de lujo internacionales.</div>
+        </div>
+        <span class="prop-tag pt-purple">Branding</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEYLIN BRIDGE -->
+  <div class="bridge">
+    <div class="sec-eyebrow" style="color:#4ade80;letter-spacing:3px;font-size:10px;text-transform:uppercase;margin-bottom:8px">Por qué Keylin es la clave</div>
+    <div class="bridge-title">El puente perfecto entre Hint y Best of Costa Rica DMC</div>
+    <div class="bridge-sub">Keylin no es solo un contacto. Es la Supervisora de Marketing, conoce cada brecha del negocio y ya confía en Hint. No hay que venderle a Best of Costa Rica DMC desde afuera. Keylin es la puerta desde adentro.</div>
+    <div class="bridge-grid">
+      <div class="bridge-col">
+        <div class="bridge-col-h">Lo que Keylin ya tiene</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Conocimiento del negocio desde adentro</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Confianza con Hint Media (vio el dossier, le gustó)</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Expertise en neuromarketing y estrategia</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Poder de decisión en marketing</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Visión de lo que falta en la empresa</div>
+      </div>
+      <div class="bridge-div"></div>
+      <div class="bridge-col" style="padding-left:40px">
+        <div class="bridge-col-h">Lo que Hint aporta</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Producción audiovisual profesional</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Estrategia omnicanal con ejecución real</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Experiencia en branding de marcas latinas</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Paid media para distribución internacional</div>
+        <div class="bridge-item"><div class="bridge-dot"></div>Estructura de agencia que ella no tiene sola</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CÓMO ARRANCAR -->
+  <div class="section">
+    <div class="sec-eyebrow green">Cómo arrancar</div>
+    <div class="sec-title">Propuesta de primer proyecto</div>
+    <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:28px 32px;">
+      <div style="font-size:16px;font-weight:700;color:#15803d;margin-bottom:12px">Piloto recomendado: Video de marca + guión con neuromarketing</div>
+      <div style="font-size:14px;color:#166534;line-height:1.75">
+        Keylin escribe el guión desde su expertise en neuromarketing (sabe exactamente qué emociones activa Costa Rica en un viajero). Hint produce y edita el video. Best of Costa Rica DMC lo usa como hero en su home + LinkedIn + paid media.
+        <br><br>
+        <strong>Por qué este proyecto:</strong> tiene impacto visible inmediato, involucra a Keylin como autora (no solo gestora), y prueba la sinergia entre su expertise y la ejecución de Hint. Si sale bien, el camino hacia branding completo + retainer es natural.
+      </div>
+    </div>
+    <div class="sec-divider"></div>
+    <div class="grid-3">
+      <div style="background:#f8fafc;border-radius:10px;padding:18px;border:1px solid #e2e8f0;text-align:center">
+        <div style="font-size:22px;margin-bottom:8px">📝</div>
+        <div style="font-size:14px;font-weight:600;color:#0f172a;margin-bottom:4px">Semana 1-2</div>
+        <div style="font-size:12px;color:#64748b">Keylin escribe guión con neuromarketing. Hint revisa y aprueba estrategia.</div>
+      </div>
+      <div style="background:#f8fafc;border-radius:10px;padding:18px;border:1px solid #e2e8f0;text-align:center">
+        <div style="font-size:22px;margin-bottom:8px">🎬</div>
+        <div style="font-size:14px;font-weight:600;color:#0f172a;margin-bottom:4px">Semana 3-4</div>
+        <div style="font-size:12px;color:#64748b">Producción y edición. Hint coordina producción en Costa Rica o con material existente.</div>
+      </div>
+      <div style="background:#f8fafc;border-radius:10px;padding:18px;border:1px solid #e2e8f0;text-align:center">
+        <div style="font-size:22px;margin-bottom:8px">🚀</div>
+        <div style="font-size:14px;font-weight:600;color:#0f172a;margin-bottom:4px">Mes 2</div>
+        <div style="font-size:12px;color:#64748b">Lanzamiento. Paid media. Medición. Evaluación de escalar a retainer.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA FINAL -->
+  <div class="cta-final">
+    <div>
+      <div class="cta-h">El momento es ahora.</div>
+      <div class="cta-sub">Best of Costa Rica DMC tiene 12 años de operaciones, 70,000 clientes y cero narrativa de marca. Keylin sabe lo que falta. Hint sabe cómo construirlo. La call es el primer paso.</div>
+    </div>
+    <div style="text-align:center">
+      <div class="cta-pill">Call con Keylin</div>
+      <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:10px">Julio 2026</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

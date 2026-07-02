@@ -34,3 +34,19 @@
 - **CALL AGENDADA.**
 
 **Estado:** Call agendada (explorar colaboración freelance, no venta directa).
+
+## Sesión 02/07/26 — Preparación para la call
+- Armadas 3 presentaciones de colaboración en `presentaciones/keylin-smith/`:
+  - `a-sinergia.html` — 8 slides, mapa de sinergia Keylin × Hint (para jefe + call)
+  - `b-valor-mutuo.html` — 6 slides, propuesta de valor mutua (más persuasivo)
+  - `c-onepager.html` — 1 página ejecutiva con botón PDF
+- Análisis completo de Best of Costa Rica DMC (su empleadora):
+  - Score digital: 52.4/100 (Grado C) — operación sólida, motor digital incompleto
+  - Gap crítico: segmento corporativo/MICE sin presencia digital
+  - Oportunidad principal: replicar caso Destiny Group (30%→70% reservas directas)
+  - Spain Collection (DMC de lujo) = caso de éxito idéntico al sector
+- Creada propuesta estratégica completa: `best-cr-dmc-propuesta.html`
+  - Incluye audit con scoring, gaps, casos de éxito, 8 servicios remotos, timeline 6 meses, 3 modelos de inversión
+  - Keylin posicionada como puente local (guiones neuromarketing + coordinación Sergio Hidalgo)
+  - PuraLuxe aclarada: sub-marca/empresa relacionada vista en su LinkedIn, no confirmada como parte de Best of CR DMC
+- Nota: en call explorar si Best of CR DMC puede ser cliente de Hint además de la colaboración freelance de Keylin.
