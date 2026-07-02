@@ -5,7 +5,7 @@
 **Empresa:** Lilo Social
 **Pais:** Colombia
 **Sector:** Beauty, Luxury, DTC, E-commerce
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,19 @@
 > Me llamó la atención que en tu post sobre los primeros tres meses en Lilo Social destacaras específicamente lo que aprendiste sobre cómo high-growth brands escalan sus esfuerzos de marketing. La mayoría de los project managers habla de proyectos entregados o clientes satisfechos. Vos pusiste el foco en el "cómo se crece sin romperse".
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> "Hola, si, cuéntame."
+
+---
+
+## MSG2
+> Buenas Edy, te cuento.
+> Manejás cuentas en beauty y luxury al mismo tiempo. Cuando una de esas marcas decide escalar rápido, cuál es el primer frente que se complica?
+> Trabajo en Hint Media con marcas de consumo y retail, como Destiny Group y Tasarolli. Cuando una marca está en modo crecimiento, ayudamos a coordinar la comunicación: contenido, paid media, identidad. Todo en un mismo hilo.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
 
 ---
 
