@@ -61,7 +61,7 @@
 
 ## MSG4
 > Con mucho gusto Silvia! Me encantaría.
-> Esta semana o la próxima, lo que mejor te quede. Tenés WhatsApp o preferís que sigamos coordinando por acá?
+> Me pasás tu mail y te mando una invitación por Google Meet? Esta semana o la próxima, lo que mejor te quede.
 
 ---
 
