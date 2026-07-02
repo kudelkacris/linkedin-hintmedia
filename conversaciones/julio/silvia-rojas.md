@@ -5,7 +5,7 @@
 **Empresa:** Independiente
 **Pais:** Costa Rica
 **Sector:** Retail / E-Commerce / Marketplace
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -39,6 +39,18 @@
 > Cómo hacés para que ese estilo de liderazgo sea legible en contextos tan distintos como North America y Europa al mismo tiempo?
 > Trabajo en Hint Media con líderes de retail y e-commerce, como Destiny Group y Tasarolli, en construir la capa de comunicación ejecutiva: que su voz llegue de forma consistente a equipos, marcas y socios en mercados distintos.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> "Muchas gracias, Florencia. Me parece muy interesante el trabajo que realizan y con gusto me encantaría conocer más sobre su enfoque. Si no es mucha molestia, podés enviarme el dossier por acá. Muchas gracias por pensar en mí y en abrir la conversación, me encanta compartir conocimiento"
+
+---
+
+## MSG3
+> Perfecto Silvia, te lo mando ahora!
+> [LINK DOSSIER]
+> Buena semana y estamos en contacto en el futuro cercano!
 
 ---
 
