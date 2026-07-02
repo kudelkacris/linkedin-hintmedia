@@ -1,6 +1,6 @@
 # Juan Yepes
 
-**Estado:** SEG1 enviado 01/07/26
+**Estado:** Cerrado amable — 02/07/26
 **Fecha:** 20/06/26
 **Cargo:** Director de Marketing
 **Empresa:** Colombiana de Comercio / Corbeta / Alkosto S.A
@@ -25,8 +25,20 @@
 ## Respuesta MSG2 / pidió dossier (20/06/26)
 > Sí, claro
 
+## SEG1 (01/07/26)
+> Buenas Juan!
+> Pensaba en algo que planteabas sobre marketing como amplificador. En retail eso se complica cuando el funnel está partido entre equipos que no ven el mismo número.
+> Quedo atenta si en algún momento quieren explorar eso.
+
+## Respuesta SEG1 (02/07/26)
+> Gracias Florencia
+
+## MSG cierre (02/07/26)
+> Gracias a vos Juan! Si en algún momento quieren explorar algo, por acá estamos.
+
 ## Notas
 - Sector retail (Alkosto/Corbeta). Cliente ejemplo: Destiny Group, Tasarolli.
 - Estratega marketing senior, muy activo y reflexivo en LinkedIn (Kotler, branding, growth, campaña "Stickers Salvavidas" premiada).
+- Cerró con "Gracias Florencia" — tono amable pero sin apertura. Se respondió con cierre limpio.
 
-**Estado:** SEG1 enviado 01/07/26
+**Estado:** Cerrado amable — 02/07/26

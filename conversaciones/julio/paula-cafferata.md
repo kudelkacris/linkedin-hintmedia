@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Hola María Eugenia, cómo estás? si claro, estoy para lo que necesites. Slds.
+
+## MSG2 (02/07/26)
+> Buenas Paula! Soy Florencia, puede que hayas confundido con otro contacto jeje.
+> Esa idea de alinear al equipo antes de adoptar la IA, ¿lo aplicaron también en la comunicación externa o por ahora fue más hacia adentro?
+> En Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre lo interno y lo externo. Clientes como Libra Seguros y Destiny Group.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Confundió el nombre (llamó "María Eugenia"). Se aclaró en B1 con humor.
+- Sector legal/profesional → clientes Libra Seguros y Destiny Group.
