@@ -27,4 +27,19 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Buenos días, Dedicamos más de un año y medio al proyecto y me pareció oportuno también nombrar al equipo que me apoyó. Muchas marcas publican notas de prensa con quienes han hecho el cambio. No creo que sea tan atípico.
+> Sí, puedes enviarme la consulta sin problema.
+
+## MSG2 (02/07/26)
+> Buenas Meritxell!
+> Un año y medio en un proyecto de rebranding es mucho tiempo para sostener esa coherencia entre lo que se está construyendo adentro y lo que todavía no podés mostrar afuera.
+> Cómo manejaron esa etapa? Hubo un momento donde la identidad ya estaba definida pero todavía no podían comunicarla?
+> En Hint Media trabajamos comunicación y contenido con empresas en procesos de transformación de marca, en esa capa entre lo interno y lo externo. Clientes como Destiny Group y Libra Seguros.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Corrigió premisa de MSG1 ("no creo que sea tan atípico") — ángulo giró al dato real: 1.5 años de proceso.
+- Sector manufactura B2B → Destiny Group, Libra Seguros.
+
+**Estado:** MSG2 enviado — 02/07/26

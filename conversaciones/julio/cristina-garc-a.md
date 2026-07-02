@@ -27,4 +27,28 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Buenos dias Florencia. Sí, al final esta red va de personas y temas laborales. Siempre agradezco a quien colabora conmigo en las acciones porque me apoyan para sacarlas adelante.
+> Además también me ayudan a posicionar marca
+> Aunque tambien tengo muchos post donde no salen otras brands, solo IaaS365. Depende del caso y la acción
+
+## MSG2 (02/07/26)
+> Buenas Cristina!
+> Tiene sentido. Lo que describís es una decisión de comunicación activa: cuándo el crédito construye comunidad y cuándo construye solo la marca de IaaS365. No es lo mismo y no se maneja igual.
+> Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?
+> En Hint Media trabajamos comunicación y contenido con empresas tech que necesitan esa claridad narrativa: cuándo hablar con otros y cuándo hablar solos. Clientes como Destiny Group y Libra Seguros.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2 (02/07/26)
+> Florencia: Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?
+> Sinceramente? Mi criterio.
+> La verdad es que me fio de mi instinto y por ahora nos ha ido bien con un buen crecimiento orgánico
+> Gracias por ofrecerme tus servicios pero por ahora seguiremos con lo que nos esta funcionando, que es todo trabajo interno
+
+## Cierre (02/07/26)
+> Tiene todo el sentido, Cristina. Si el instinto funciona y el crecimiento es orgánico, no hay por qué cambiar nada. Suerte con lo que viene para IaaS365!
+
 ## Notas
+- Declinó: trabajan todo internamente, crecimiento orgánico funcionando.
+
+**Estado:** Cerrada — no interesada — 02/07/26

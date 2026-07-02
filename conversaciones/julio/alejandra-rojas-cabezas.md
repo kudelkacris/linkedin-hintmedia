@@ -27,4 +27,18 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Claro, en que te puedo ayudar
+
+## MSG2 (02/07/26)
+> Buenas Alejandra!
+> Con 10 años liderando mercadeo en Variedades El Sol Naciente, imagino que la ejecución digital y el branding van en paralelo con la operativa del día a día.
+> Qué parte te consume más tiempo ahora mismo: el contenido, las campañas o algo más estratégico?
+> En Hint Media trabajamos comunicación y contenido con empresas de retail que necesitan sostener ejecución constante sin perder coherencia de marca. Clientes como Destiny Group y Tasarolli.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Respuesta neutra "claro, en qué te puedo ayudar" → no inventar reciprocidad, ir directo al cuerpo.
+- Sector retail → Destiny Group, Tasarolli.
+
+**Estado:** MSG2 enviado — 02/07/26

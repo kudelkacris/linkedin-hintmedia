@@ -27,4 +27,24 @@
 
 ---
 
+## MSG2 intermedio (miércoles 20:07)
+> Buenas Ara, gracias por responder!
+> Lo que dijiste en esa publicación sobre las sinergias como motor tiene mucho sentido cuando estás coordinando múltiples mercados y alianzas al mismo tiempo. El desafío no es conectar, es mantener la coherencia de la propuesta mientras todo eso escala.
+> Justamente en eso trabajamos en Hint Media. Somos una agencia de comunicación omnicanal: identidad, contenidos, paid media, vocería digital. Acompañamos a empresas como Destiny Group en construir narrativa comercial sostenida sin perder velocidad.
+> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta (02/07/26)
+> Dale
+> Me lo puedes enviar sin problema
+> Siempre estamos abiertos a escuchar
+
+## MSG3 — Dossier enviado (02/07/26)
+> Perfecto Ara, te lo mando ahora!
+> [LINK DOSSIER]
+> Cualquier duda o comentario, por acá estamos.
+
 ## Notas
+- Sector iGaming → Destiny Group como cliente ejemplo.
+- Aceptó dossier con buena disposición.
+
+**Estado:** Dossier enviado — 02/07/26

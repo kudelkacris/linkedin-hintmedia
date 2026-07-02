@@ -28,4 +28,18 @@ Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no 
 - Ángulo giró de "estilo de comunicación" a "coordinación en pico de actividad".
 - No eligió cliente ejemplo específico de Hint aún (sector educación/programas internacionales no tiene match directo en clientes conocidos).
 
-**Estado:** MSG2 pendiente de envío, nuevo ángulo basado en ciclo de admisiones.
+## MSG2 enviado (miércoles 23:22)
+> Tiene sentido, gracias por aclararlo.
+> Igual me queda una pregunta: cuando se abre el ciclo de admisiones y la comunicación se vuelve más intensa, cómo coordinan eso internamente? Producciones, canales, tiempos.
+> Trabajo en Hint Media, ayudamos a organizaciones a coordinar la comunicación en esos momentos de mayor actividad: contenido, paid media, identidad en un mismo hilo.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia.
+
+## Respuesta MSG2 (02/07/26)
+> Hola Florencia!
+> Muchas gracias, la empresa por alguna razón no trabaja con third party providers, todo es in-house por preferencia del CEO.
+> Pero muchas gracias.
+
+## Cierre (02/07/26)
+> Gracias por la claridad Daniela, se entiende perfectamente. Suerte con el próximo ciclo de admisiones!
+
+**Estado:** Cerrada — no trabaja con terceros (decisión del CEO) — 02/07/26

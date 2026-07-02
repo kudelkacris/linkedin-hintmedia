@@ -27,4 +27,18 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Sí, claro
+> Dime como puedo ayudarte
+
+## MSG2 (02/07/26)
+> Buenas Fernando!
+> Esa idea de la versatilidad como ventaja, cómo la aplicás en proyectos concretos? Trabajás para un cliente en particular o vas entre distintos proyectos y marcas?
+> En Hint Media trabajamos comunicación y contenido — contenido, branding, audiovisual, paid media. Clientes como Destiny Group y Libra Seguros.
+> Tenemos un dossier breve con casos concretos. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Perfil freelancer/creativo multifuncional (Colegio Coya). Posible colaborador más que cliente directo.
+- Respuesta neutra "sí claro dime" → ir directo.
+
+**Estado:** MSG2 enviado — 02/07/26

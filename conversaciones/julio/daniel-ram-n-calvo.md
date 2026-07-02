@@ -27,4 +27,19 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Hola Florencia, buenos días. Dime
+
+## MSG2 (02/07/26)
+> Buenas Daniel!
+> Comunicar ciencia en un congreso como IPC tiene un nivel de complejidad específico: el contenido tiene que ser riguroso para el público científico y legible para el mercado al mismo tiempo.
+> Cómo manejás esa traducción? Lo que presentan Mary o Jessica en sala es lo mismo que después sale como contenido de marca?
+> En Hint Media trabajamos comunicación y contenido con empresas del sector salud que necesitan sostener esa coherencia entre el rigor científico y la narrativa comercial. Clientes como Libra Seguros y Destiny Group.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Respuesta neutra "dime" → no inventar reciprocidad, ir directo al cuerpo.
+- Sector biotech/salud → Libra Seguros, Destiny Group.
+- Ángulo: traducción de ciencia a narrativa comercial.
+
+**Estado:** MSG2 enviado — 02/07/26
