@@ -38,8 +38,18 @@
 > En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan mantener esa coherencia narrativa mientras escalan. Clientes como Destiny Group y Libra Seguros lo trabajaron con nosotros.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta MSG2 (02/07/26)
+> Totalmente, creo que el reto está en que esa lógica no dependa solo de las personas que han estado desde el inicio. En nuestro caso intentamos aterrizarla bastante en el brief, en los criterios de contenido y en cómo explicamos el propósito de cada iniciativa al equipo, para que no sea solo una intuición de quien la lidera.
+> Puedes enviarme el dossier por aquí y le echo un vistazo cuando pueda. Gracias!
+
+## MSG3 (02/07/26)
+> Perfecto Ariadna, te lo mando ahora!
+> [LINK DOSSIER]
+> Lo que mencionás del brief y los criterios de contenido es exactamente el tipo de trabajo que mostramos ahí. Cualquier duda estamos en contacto!
+
 ## Notas
 - Respuesta positiva y abierta. Usó sus palabras exactas en B1.
 - Sector emprendimiento/ecosistema → Destiny Group y Libra Seguros.
+- Pidió dossier por LinkedIn (no por mail).
 
-**Estado:** MSG2 enviado — 02/07/26
+**Estado:** Dossier enviado — 02/07/26
