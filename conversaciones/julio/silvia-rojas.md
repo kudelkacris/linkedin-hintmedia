@@ -5,7 +5,7 @@
 **Empresa:** Independiente
 **Pais:** Costa Rica
 **Sector:** Retail / E-Commerce / Marketplace
-**Estado:** Reunión propuesta por prospecto
+**Estado:** Reunión agendada viernes — mail: Silvia.rojas.r85@gmail.com
 
 ---
 
@@ -62,6 +62,19 @@
 ## MSG4
 > Me copa mucho la idea Silvia!
 > Me pasás tu mail? Te mando un Google Meet. Estamos en Argentina, así que hay 3 horas de diferencia con vos. Decime qué día y a qué hora te viene bien y lo armamos.
+
+---
+
+## Respuesta MSG4
+> "Este viernes tengo tiempo, normalmente no agendo reuniones laborales los viernes, solo tengo una a las 10 am hora Costa Rica, no sé qué tal está tu disponibilidad?
+> 🤗😄🤐
+> Mi correo es Silvia.rojas.r85@gmail.com"
+
+---
+
+## MSG5
+> Perfecto Silvia! El viernes me viene bien.
+> Te mando el Google Meet a Silvia.rojas.r85@gmail.com. Te propongo a las 11am de tu lado, que serían las 2pm acá. Te queda cómoda esa hora?
 
 ---
 
