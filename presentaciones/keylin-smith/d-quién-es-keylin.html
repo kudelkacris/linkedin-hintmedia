@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quién es Keylin Smith — Hint Media</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --dark: #0a0a0f;
+    --card: #13131c;
+    --border: #1e1e2e;
+    --accent: #6366f1;
+    --accent2: #8b5cf6;
+    --gold: #f59e0b;
+    --green: #10b981;
+    --red: #ef4444;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --light: #94a3b8;
+  }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .deck { width: 100vw; height: 100vh; position: relative; }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 64px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+
+  .slide.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* NAV */
+  .nav {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 100;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid var(--muted);
+  }
+
+  .dot.active { background: var(--accent); border-color: var(--accent); transform: scale(1.3); }
+
+  .counter {
+    position: fixed;
+    top: 24px;
+    right: 32px;
+    font-size: 13px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hint-logo {
+    position: fixed;
+    top: 22px;
+    left: 32px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* ARROWS */
+  .arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 18px;
+    z-index: 100;
+  }
+  .arrow:hover { background: rgba(99,102,241,0.12); color: var(--text); border-color: var(--accent); }
+  .arrow.left { left: 16px; }
+  .arrow.right { right: 16px; }
+
+  /* ======================== SLIDE STYLES ======================== */
+
+  /* S1 COVER */
+  #s1 {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(99,102,241,0.12) 0%, transparent 60%),
+                var(--dark);
+    text-align: center;
+  }
+
+  .tag-eyebrow {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin-bottom: 20px;
+    border: 1px solid rgba(99,102,241,0.3);
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  #s1 h1 {
+    font-size: clamp(42px, 5vw, 68px);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  #s1 h1 span { color: var(--accent); }
+
+  #s1 .sub {
+    font-size: 17px;
+    color: var(--light);
+    max-width: 520px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+  }
+
+  .pill-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pill {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 13px;
+    color: var(--light);
+  }
+
+  /* S2 PERFIL */
+  #s2 { gap: 32px; }
+
+  .slide-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .slide-h {
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 36px;
+    line-height: 1.1;
+  }
+
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+    max-width: 960px;
+  }
+
+  .pcard {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .pcard-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+
+  .pcard-value {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .pcard-sub {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .pcard.highlight {
+    border-color: rgba(99,102,241,0.4);
+    background: rgba(99,102,241,0.06);
+    grid-column: 1 / -1;
+  }
+
+  .quote-block {
+    background: rgba(99,102,241,0.07);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 12px 12px 0;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--light);
+    line-height: 1.6;
+    max-width: 880px;
+  }
+
+  .quote-block strong { color: var(--text); font-style: normal; }
+
+  /* S3 ARQUETIPO */
+  #s3 { gap: 0; }
+
+  .archetype-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .arch-left { display: flex; flex-direction: column; gap: 20px; }
+
+  .arch-hero {
+    background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(139,92,246,0.08));
+    border: 1px solid rgba(99,102,241,0.3);
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .arch-icon { font-size: 48px; margin-bottom: 12px; }
+
+  .arch-name {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .arch-desc {
+    font-size: 13px;
+    color: var(--light);
+    line-height: 1.5;
+  }
+
+  .voice-grid { display: flex; flex-direction: column; gap: 12px; }
+
+  .voice-bar {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+  }
+
+  .voice-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .voice-track {
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .voice-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transition: width 1s ease;
+  }
+
+  .voice-marker {
+    position: absolute;
+    top: -4px;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 8px rgba(99,102,241,0.6);
+  }
+
+  .voice-note {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .arch-right { display: flex; flex-direction: column; gap: 14px; }
+
+  .theme-pill {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .theme-num {
+    font-size: 22px;
+    font-weight: 800;
+    color: rgba(99,102,241,0.4);
+    line-height: 1;
+    min-width: 28px;
+  }
+
+  .theme-text { font-size: 13px; color: var(--light); line-height: 1.4; }
+  .theme-text strong { color: var(--text); display: block; margin-bottom: 2px; font-size: 14px; }
+
+  /* S4 CONTENIDO */
+  #s4 {}
+
+  .content-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .score-big {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .score-num {
+    font-size: 56px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  .score-num sup { font-size: 24px; }
+
+  .score-info h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .score-info p { font-size: 13px; color: var(--muted); line-height: 1.4; }
+
+  .level-badge {
+    display: inline-block;
+    background: rgba(16,185,129,0.1);
+    border: 1px solid rgba(16,185,129,0.3);
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-top: 8px;
+  }
+
+  .pillar-list {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .pillar-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .pillar-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-top: 5px;
+    flex-shrink: 0;
+  }
+
+  .pillar-text { font-size: 13px; color: var(--light); line-height: 1.4; }
+  .pillar-text strong { color: var(--text); }
+
+  .gap-row {
+    grid-column: 1 / -1;
+  }
+
+  .gap-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .gap-card {
+    background: rgba(245,158,11,0.06);
+    border: 1px solid rgba(245,158,11,0.2);
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  .gap-card h4 { font-size: 13px; font-weight: 600; color: var(--gold); margin-bottom: 4px; }
+  .gap-card p { font-size: 11px; color: var(--muted); line-height: 1.4; }
+
+  /* S5 POR QUÉ */
+  #s5 {}
+
+  .why-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 920px;
+    width: 100%;
+  }
+
+  .timeline-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tl-step {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .tl-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(99,102,241,0.1);
+    border: 1px solid rgba(99,102,241,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+
+  .tl-content h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .tl-content p { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+  .signals-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+  }
+
+  .signal-item {
+    border-bottom: 1px solid var(--border);
+    padding: 14px 0;
+  }
+
+  .signal-item:first-child { padding-top: 0; }
+  .signal-item:last-child { border-bottom: none; padding-bottom: 0; }
+
+  .signal-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
+  .signal-value { font-size: 13px; color: var(--text); line-height: 1.4; }
+  .signal-value em { font-style: italic; color: var(--light); }
+
+  /* S6 LO QUE TRAE */
+  #s6 {}
+
+  .brings-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .brings-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .brings-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brings-icon { font-size: 24px; }
+  .brings-title { font-size: 15px; font-weight: 700; }
+
+  .brings-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+
+  .brings-item-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+  .brings-item-text { font-size: 12px; color: var(--light); line-height: 1.4; }
+  .brings-item-text strong { color: var(--text); display: block; }
+
+  .exclusive-banner {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(139,92,246,0.05));
+    border: 1px solid rgba(99,102,241,0.25);
+    border-radius: 14px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .exclusive-banner .icon { font-size: 24px; }
+  .exclusive-banner p { font-size: 13px; color: var(--light); line-height: 1.5; }
+  .exclusive-banner p strong { color: var(--text); }
+
+  /* S7 MODELOS */
+  #s7 {}
+
+  .models-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .model-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+
+  .model-card.recommended {
+    border-color: rgba(99,102,241,0.5);
+    background: rgba(99,102,241,0.05);
+  }
+
+  .rec-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 4px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .model-step {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .model-name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .model-sub { font-size: 12px; color: var(--muted); margin-top: -10px; }
+
+  .model-desc { font-size: 13px; color: var(--light); line-height: 1.5; }
+
+  .model-best {
+    font-size: 11px;
+    color: var(--muted);
+    background: rgba(255,255,255,0.04);
+    border-radius: 8px;
+    padding: 8px 12px;
+    line-height: 1.4;
+  }
+
+  .model-best strong { color: var(--text); }
+
+  .timeline-hint {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 24px;
+  }
+
+  .tl-chunk {
+    flex: 1;
+    text-align: center;
+  }
+
+  .tl-chunk h4 { font-size: 12px; font-weight: 600; margin-bottom: 3px; }
+  .tl-chunk p { font-size: 11px; color: var(--muted); }
+
+  .tl-arrow {
+    color: var(--muted);
+    font-size: 18px;
+    padding: 0 8px;
+  }
+
+  /* S8 DUAL */
+  #s8 {}
+
+  .dual-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 24px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .dual-main {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .dual-score-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .score-circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(139,92,246,0.15));
+    border: 2px solid rgba(99,102,241,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .score-circle .sn { font-size: 22px; font-weight: 800; color: var(--accent); line-height: 1; }
+  .score-circle .sl { font-size: 9px; color: var(--muted); text-transform: uppercase; }
+
+  .score-desc h3 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .score-desc p { font-size: 13px; color: var(--muted); line-height: 1.4; }
+
+  .audit-bridge {
+    background: rgba(16,185,129,0.06);
+    border: 1px solid rgba(16,185,129,0.2);
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  .audit-bridge h4 { font-size: 13px; font-weight: 600; color: var(--green); margin-bottom: 8px; }
+  .audit-bridge p { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+  .dual-sequence {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .seq-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .seq-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(99,102,241,0.12);
+    border: 1px solid rgba(99,102,241,0.3);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .seq-text { font-size: 12px; color: var(--light); line-height: 1.5; }
+  .seq-text strong { color: var(--text); display: block; margin-bottom: 2px; }
+
+  .dual-side { display: flex; flex-direction: column; gap: 14px; }
+
+  .risk-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .risk-card h4 { font-size: 13px; font-weight: 600; color: var(--gold); display: flex; align-items: center; gap: 6px; }
+  .risk-card p { font-size: 11px; color: var(--muted); line-height: 1.4; }
+
+  /* S9 CÓMO HABLARLE */
+  #s9 {}
+
+  .brief-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .brief-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .brief-num {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(99,102,241,0.2);
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+
+  .brief-card h3 { font-size: 16px; font-weight: 700; line-height: 1.2; }
+  .brief-card p { font-size: 13px; color: var(--light); line-height: 1.6; }
+
+  .do-dont {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .do-card, .dont-card {
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+
+  .do-card {
+    background: rgba(16,185,129,0.06);
+    border: 1px solid rgba(16,185,129,0.2);
+  }
+
+  .dont-card {
+    background: rgba(239,68,68,0.05);
+    border: 1px solid rgba(239,68,68,0.2);
+  }
+
+  .do-card h4 { color: var(--green); margin-bottom: 10px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .dont-card h4 { color: var(--red); margin-bottom: 10px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .do-card ul, .dont-card ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .do-card li, .dont-card li { font-size: 13px; color: var(--light); padding-left: 16px; position: relative; line-height: 1.4; }
+  .do-card li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+  .dont-card li::before { content: "✗"; position: absolute; left: 0; color: var(--red); font-weight: 700; }
+
+  /* S10 PRÓXIMOS PASOS */
+  #s10 {
+    background: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(99,102,241,0.1) 0%, transparent 60%),
+                var(--dark);
+    text-align: center;
+  }
+
+  .steps-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 960px;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .step-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 18px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .step-time {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .step-card h3 { font-size: 15px; font-weight: 700; line-height: 1.2; }
+  .step-card p { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+  .closing-note {
+    max-width: 600px;
+    margin-top: 28px;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .closing-note strong { color: var(--text); }
+
+</style>
+</head>
+<body>
+
+<div class="hint-logo">Hint Media</div>
+<div class="counter" id="counter">1 / 10</div>
+
+<div class="deck">
+
+  <!-- S1 COVER -->
+  <div class="slide active" id="s1">
+    <div class="tag-eyebrow">Briefing para el jefe · 02 Jul 2026</div>
+    <h1>Quién es<br><span>Keylin Smith</span></h1>
+    <p class="sub">Perfil completo antes de la call. Quién es, qué trae, cómo hablarle, y qué oportunidad hay.</p>
+    <div class="pill-row">
+      <div class="pill">🇨🇷 Costa Rica</div>
+      <div class="pill">Supervisora de Marketing</div>
+      <div class="pill">Best of Costa Rica DMC</div>
+      <div class="pill">Colaboración freelance agendada</div>
+    </div>
+  </div>
+
+  <!-- S2 PERFIL -->
+  <div class="slide" id="s2">
+    <div style="text-align:center;margin-bottom:8px;">
+      <div class="slide-title">El perfil</div>
+      <div class="slide-h">Keylin Smith en datos</div>
+    </div>
+    <div class="profile-grid">
+      <div class="pcard">
+        <div class="pcard-label">Cargo actual</div>
+        <div class="pcard-value">Supervisora de Marketing</div>
+        <div class="pcard-sub">Especialista en Eventos Corporativos</div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-label">Empresa</div>
+        <div class="pcard-value">Best of Costa Rica DMC</div>
+        <div class="pcard-sub">También: PuraLuxe Boutique Journeys</div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-label">Experiencia</div>
+        <div class="pcard-value">12+ años</div>
+        <div class="pcard-sub">En el mismo sector / empresa</div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-label">Especialidades</div>
+        <div class="pcard-value">Neuromarketing · Estrategia creativa · Guiones audiovisuales</div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-label">Sector</div>
+        <div class="pcard-value">Turismo de lujo + Eventos MICE</div>
+        <div class="pcard-sub">Costa Rica y Centroamérica</div>
+      </div>
+      <div class="pcard">
+        <div class="pcard-label">Estado con Hint</div>
+        <div class="pcard-value">Call agendada</div>
+        <div class="pcard-sub">Propuesta de colaboración freelance</div>
+      </div>
+      <div class="pcard highlight">
+        <div class="pcard-label">Lo que dijo sobre Hint Media</div>
+        <div class="quote-block">
+          "Me gustó mucho el enfoque de Hint Media y la manera en que <strong>integran estrategia con ejecución</strong>." — y propuso ella misma la colaboración.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S3 ARQUETIPO -->
+  <div class="slide" id="s3">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Análisis de marca personal</div>
+      <div class="slide-h">Su arquetipo y voz profesional</div>
+    </div>
+    <div class="archetype-layout">
+      <div class="arch-left">
+        <div class="arch-hero">
+          <div class="arch-icon">🧭</div>
+          <div class="arch-name">EL GUÍA</div>
+          <div class="arch-desc">No habla desde el credencial. Habla desde la experiencia convertida en enseñanza. Su post viral no fue un logro — fue un insight que los demás pueden usar. Classic Guide.</div>
+        </div>
+        <div class="voice-grid">
+          <div class="voice-bar">
+            <div class="voice-labels"><span>Formal</span><span>Casual</span></div>
+            <div class="voice-track">
+              <div class="voice-fill" style="width:40%"></div>
+              <div class="voice-marker" style="left:40%"></div>
+            </div>
+            <div class="voice-note">Profesional y accesible. Autoridad sin rigidez.</div>
+          </div>
+          <div class="voice-bar">
+            <div class="voice-labels"><span>Serio</span><span>Lúdico</span></div>
+            <div class="voice-track">
+              <div class="voice-fill" style="width:30%"></div>
+              <div class="voice-marker" style="left:30%"></div>
+            </div>
+            <div class="voice-note">Temas de peso, tratados con profundidad. Sin humor forzado.</div>
+          </div>
+          <div class="voice-bar">
+            <div class="voice-labels"><span>Técnico</span><span>Simple</span></div>
+            <div class="voice-track">
+              <div class="voice-fill" style="width:50%"></div>
+              <div class="voice-marker" style="left:50%"></div>
+            </div>
+            <div class="voice-note">Vocabulario especializado expresado en lenguaje directo.</div>
+          </div>
+          <div class="voice-bar">
+            <div class="voice-labels"><span>Reservada</span><span>Audaz</span></div>
+            <div class="voice-track">
+              <div class="voice-fill" style="width:70%"></div>
+              <div class="voice-marker" style="left:70%"></div>
+            </div>
+            <div class="voice-note">Toma la iniciativa. Propuso la colaboración sin que se lo pidan.</div>
+          </div>
+        </div>
+      </div>
+      <div class="arch-right">
+        <div class="theme-pill">
+          <div class="theme-num">01</div>
+          <div class="theme-text"><strong>Comunicación de valor como ventaja competitiva</strong>No el producto, no el precio: la percepción decide. Lo dijo en público.</div>
+        </div>
+        <div class="theme-pill">
+          <div class="theme-num">02</div>
+          <div class="theme-text"><strong>El puente entre estrategia y ejecución</strong>Identificó ese gap en Hint y lo nombró como lo que le gustó. Es donde ella también opera.</div>
+        </div>
+        <div class="theme-pill">
+          <div class="theme-num">03</div>
+          <div class="theme-text"><strong>Diseño de experiencia de lujo como disciplina emocional</strong>No logística. No operación. La experiencia como mensaje.</div>
+        </div>
+        <div class="theme-pill">
+          <div class="theme-num">04</div>
+          <div class="theme-text"><strong>Neuromarketing aplicado a decisiones de compra premium</strong>La psicología del comprador de lujo es su especialidad declarada y practicada.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S4 CONTENIDO -->
+  <div class="slide" id="s4">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Análisis de contenido</div>
+      <div class="slide-h">Qué produce, qué le falta</div>
+    </div>
+    <div class="content-layout">
+      <div class="score-big">
+        <div class="score-num">7.5<sup>/10</sup></div>
+        <div class="score-info">
+          <h3>Calidad de contenido</h3>
+          <p>Piensa en frameworks, no en tareas. Su post no fue motivacional, fue una observación sobre dinámica competitiva.</p>
+          <div class="level-badge">Desarrollando → Establecida</div>
+        </div>
+      </div>
+      <div class="pillar-list">
+        <div style="font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px;">Pilares que ya tiene</div>
+        <div class="pillar-item">
+          <div class="pillar-dot"></div>
+          <div class="pillar-text"><strong>Comunicación de valor y diferenciación competitiva</strong> — su ángulo más fuerte y más citable.</div>
+        </div>
+        <div class="pillar-item">
+          <div class="pillar-dot"></div>
+          <div class="pillar-text"><strong>Experiencias de lujo en MICE</strong> — 12 años de saber tácito que la mayoría no puede falsificar.</div>
+        </div>
+        <div class="pillar-item">
+          <div class="pillar-dot"></div>
+          <div class="pillar-text"><strong>Neuromarketing aplicado</strong> — especialidad académica practicada en campo real.</div>
+        </div>
+        <div class="pillar-item">
+          <div class="pillar-dot"></div>
+          <div class="pillar-text"><strong>Storytelling y guión audiovisual</strong> — transforma experiencias en narrativas.</div>
+        </div>
+      </div>
+      <div class="gap-row">
+        <div style="font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-bottom:12px;">Gaps que Hint cubre</div>
+        <div class="gap-grid">
+          <div class="gap-card">
+            <h4>Amplificación paga</h4>
+            <p>Tiene el contenido. Le falta Meta/Google para llevarlo más allá de su red.</p>
+          </div>
+          <div class="gap-card">
+            <h4>Cadencia editorial</h4>
+            <p>Publica cuando puede, no en calendario estratégico. Hint trae el Content Hub.</p>
+          </div>
+          <div class="gap-card">
+            <h4>Loop de datos</h4>
+            <p>Sin feedback loop real sobre qué funciona. Hint trae analytics y optimización.</p>
+          </div>
+          <div class="gap-card">
+            <h4>Sistema de marca</h4>
+            <p>Instinto creativo fuerte. Le falta sistematización para acumular consistencia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S5 POR QUÉ -->
+  <div class="slide" id="s5">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Cómo llegamos aquí</div>
+      <div class="slide-h">Por qué Keylin eligió hablar con nosotros</div>
+    </div>
+    <div class="why-layout">
+      <div class="timeline-card">
+        <div style="font-size:13px;font-weight:700;margin-bottom:4px;">La cadena de eventos</div>
+        <div class="tl-step">
+          <div class="tl-icon">👀</div>
+          <div class="tl-content">
+            <h4>Florencia contactó a Keylin</h4>
+            <p>MSG1 citando una publicación suya sobre valor percibido vs descuento. Foco en el insight, no en el cargo.</p>
+          </div>
+        </div>
+        <div class="tl-step">
+          <div class="tl-icon">📨</div>
+          <div class="tl-content">
+            <h4>Keylin respondió con interés</h4>
+            <p>Agradeció la atención al contenido. Invitó a continuar la conversación.</p>
+          </div>
+        </div>
+        <div class="tl-step">
+          <div class="tl-icon">📄</div>
+          <div class="tl-content">
+            <h4>Se envió el dossier de Hint</h4>
+            <p>Presentación completa de la agencia, metodología y casos de éxito.</p>
+          </div>
+        </div>
+        <div class="tl-step">
+          <div class="tl-icon">🤝</div>
+          <div class="tl-content">
+            <h4>Keylin propuso colaborar</h4>
+            <p><em>Ella</em> tomó la iniciativa. Neuromarketing + estrategia creativa + guiones. Sin ser reclutada.</p>
+          </div>
+        </div>
+      </div>
+      <div class="signals-card">
+        <div style="font-size:13px;font-weight:700;margin-bottom:16px;">Señales que importan</div>
+        <div class="signal-item">
+          <div class="signal-label">Su tono de respuesta</div>
+          <div class="signal-value">No preguntó precios. No pidió más info. Propuso valor desde el primer mensaje.</div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-label">Lo que eligió destacar de Hint</div>
+          <div class="signal-value"><em>"integran estrategia con ejecución"</em> — eso es lo que le falta a casi todas las agencias. Ella lo identificó.</div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-label">Lo que no hizo</div>
+          <div class="signal-value">No preguntó tarifas. No pidió un brief. Llegó con una propuesta propia.</div>
+        </div>
+        <div class="signal-item">
+          <div class="signal-label">Lectura estratégica</div>
+          <div class="signal-value">Está buscando expandir su alcance más allá de una sola empresa. Keylin invierte en sí misma.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S6 LO QUE TRAE -->
+  <div class="slide" id="s6">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Valor estratégico</div>
+      <div class="slide-h">Lo que Keylin le da a Hint</div>
+    </div>
+    <div class="brings-layout">
+      <div class="brings-card">
+        <div class="brings-header">
+          <div class="brings-icon">🧠</div>
+          <div class="brings-title">Expertise que no se puede contratar</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🎯</div>
+          <div class="brings-item-text"><strong>12 años de intuición MICE</strong>Sabe cómo compra el cliente corporativo de lujo en Centroamérica.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🧬</div>
+          <div class="brings-item-text"><strong>Neuromarketing aplicado</strong>Convierte psicología del comprador en guión ejecutable.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🎬</div>
+          <div class="brings-item-text"><strong>Guiones audiovisuales de lujo</strong>Transforma experiencias intangibles en narrativas que venden.</div>
+        </div>
+      </div>
+      <div class="brings-card">
+        <div class="brings-header">
+          <div class="brings-icon">🌎</div>
+          <div class="brings-title">Acceso de mercado</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">📍</div>
+          <div class="brings-item-text"><strong>Mercado Costa Rica y MICE</strong>Red local que Hint no tiene desde Buenos Aires.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🔑</div>
+          <div class="brings-item-text"><strong>Acceso a Best of CR DMC</strong>Puerta a un cliente con 52.4/100 de score digital y presupuesto real.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🗣️</div>
+          <div class="brings-item-text"><strong>Validación de tono local</strong>Ningún copy de Buenos Aires pasa filtro cultural sin revisión local.</div>
+        </div>
+      </div>
+      <div class="brings-card">
+        <div class="brings-header">
+          <div class="brings-icon">⚡</div>
+          <div class="brings-title">Velocidad de onboarding</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">✅</div>
+          <div class="brings-item-text"><strong>Ya entiende la metodología</strong>Leyó el dossier completo. Sabe cómo trabaja Hint.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🤝</div>
+          <div class="brings-item-text"><strong>Cero fricción de convencimiento</strong>Propuso ella. El costo de adquisición fue cero.</div>
+        </div>
+        <div class="brings-item">
+          <div class="brings-item-icon">🏆</div>
+          <div class="brings-item-text"><strong>Spain Collection como prueba</strong>Hint ya trabajó con DMC de lujo. Onboarding de conocimiento = casi nulo.</div>
+        </div>
+      </div>
+      <div class="exclusive-banner">
+        <div class="icon">💡</div>
+        <p>Lo que ninguno puede hacer solo: replicar el caso Destiny Group (30%→70% reservas directas) dentro del segmento DMC de lujo de Costa Rica. Eso requiere <strong>el framework de Hint + la credibilidad local de Keylin</strong> al mismo tiempo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- S7 MODELOS -->
+  <div class="slide" id="s7">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Estructura de colaboración</div>
+      <div class="slide-h">3 modelos posibles</div>
+    </div>
+    <div class="models-layout">
+      <div class="model-card">
+        <div class="model-step">Opción A · Primeros 60-90 días</div>
+        <div class="model-name">Project Anchor</div>
+        <div class="model-sub">Colaboradora por entregable</div>
+        <div class="model-desc">Keylin produce deliverables específicos: briefs de neuromarketing, guiones audiovisuales, estrategia creativa. Pago por proyecto, sin exclusividad, sin compromiso de retainer.</div>
+        <div class="model-best"><strong>Ideal para:</strong> arrancar, probar el flujo de trabajo, calibrar calidad antes de profundizar.</div>
+      </div>
+      <div class="model-card recommended">
+        <div class="rec-badge">Recomendado empezar aquí</div>
+        <div class="model-step">Opción B · Mes 3 en adelante</div>
+        <div class="model-name">Regional Partner</div>
+        <div class="model-sub">Socia regional CR / MICE</div>
+        <div class="model-desc">Keylin es la referente de Hint para cualquier cliente o brief de Centroamérica. Valida tono, adapta contenido, coordina localmente. Compensación: retainer mensual o revenue share.</div>
+        <div class="model-best"><strong>Ideal para:</strong> cuando el primer proyecto entrega resultados medibles y hay confianza establecida.</div>
+      </div>
+      <div class="model-card">
+        <div class="model-step">Opción C · Mes 5-6</div>
+        <div class="model-name">Dual Mandate</div>
+        <div class="model-sub">Colaboradora + puente comercial</div>
+        <div class="model-desc">Keylin trabaja en proyectos de Hint Y actúa como champion interno para traer Best of CR DMC como cliente. Comisión de finder si la cuenta convierte.</div>
+        <div class="model-best"><strong>Ideal para:</strong> después de que la confianza esté consolidada. No apresurarlo o parece una herramienta de ventas.</div>
+      </div>
+      <div class="timeline-hint">
+        <div class="tl-chunk">
+          <h4>Hoy</h4>
+          <p>Primera call</p>
+        </div>
+        <div class="tl-arrow">→</div>
+        <div class="tl-chunk">
+          <h4>Semana 1</h4>
+          <p>Primer entregable definido</p>
+        </div>
+        <div class="tl-arrow">→</div>
+        <div class="tl-chunk">
+          <h4>Mes 1-2</h4>
+          <p>Project Anchor activo</p>
+        </div>
+        <div class="tl-arrow">→</div>
+        <div class="tl-chunk">
+          <h4>Mes 3</h4>
+          <p>Evaluar Regional Partner</p>
+        </div>
+        <div class="tl-arrow">→</div>
+        <div class="tl-chunk">
+          <h4>Mes 5-6</h4>
+          <p>Abrir Best of CR DMC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S8 DOBLE OPORTUNIDAD -->
+  <div class="slide" id="s8">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">La oportunidad dual</div>
+      <div class="slide-h">Keylin + su empresa como cliente</div>
+    </div>
+    <div class="dual-layout">
+      <div class="dual-main">
+        <div class="dual-score-row">
+          <div class="score-circle">
+            <div class="sn">8.5</div>
+            <div class="sl">valor</div>
+          </div>
+          <div class="score-desc">
+            <h3>Score estratégico global</h3>
+            <p>Una relación → dos flujos de valor. Raro encontrar un colaborador con esta doble palanca.</p>
+          </div>
+        </div>
+        <div class="audit-bridge">
+          <h4>Best of Costa Rica DMC tiene un problema que Hint ya resolvió</h4>
+          <p>Score digital: <strong>52.4/100 (Grado C)</strong>. Gap crítico: cero presencia digital en el segmento corporativo/MICE. Hint replicó exactamente este caso con Destiny Group en Fuerteventura → de 30% a 70% reservas directas. El pitch para Sergio Hidalgo no es "queremos hacer tu social media." Es "tenemos el arquitectura probada para lo que te falta."</p>
+        </div>
+        <div>
+          <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:12px;">Secuencia recomendada</div>
+          <div class="dual-sequence">
+            <div class="seq-item">
+              <div class="seq-num">1</div>
+              <div class="seq-text"><strong>Primero: establecer a Keylin como colaboradora</strong>Dejar que vea la metodología funcionando en clientes reales.</div>
+            </div>
+            <div class="seq-item">
+              <div class="seq-num">2</div>
+              <div class="seq-text"><strong>Después (45-60 días): Keylin propone la conversación con su jefe</strong>Orgánicamente, no como referral vendida desde afuera.</div>
+            </div>
+            <div class="seq-item">
+              <div class="seq-num">3</div>
+              <div class="seq-text"><strong>Keylin como champion interno</strong>Habla el idioma de Sergio Hidalgo. Encuadra la propuesta en lenguaje que resuena desde adentro.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dual-side">
+        <div style="font-size:13px;font-weight:700;margin-bottom:8px;color:var(--gold);">Riesgos a monitorear</div>
+        <div class="risk-card">
+          <h4>⚠️ Conflicto de interés</h4>
+          <p>Si Keylin trabaja para Hint antes de que Best of CR DMC lo sepa, Sergio puede reaccionar mal. Establecer límites de scope en la primera call.</p>
+        </div>
+        <div class="risk-card">
+          <h4>⚠️ Primer entregable ambiguo</h4>
+          <p>Propuso 3 areas (neuro, estrategia, guiones). Definir UNO concreto antes de terminar la call. Con brief, fecha y criterios.</p>
+        </div>
+        <div class="risk-card">
+          <h4>⚠️ Tarifas no acordadas internamente</h4>
+          <p>12 años de experiencia + nivel supervisora. No negociar tarifa en vivo. Venir con rango ya aprobado.</p>
+        </div>
+        <div class="risk-card">
+          <h4>⚠️ Tratarla como ejecutora, no socia</h4>
+          <p>Si solo produce scripts y nunca entra a discusiones de estrategia, se irá en cuanto aparezca mejor oferta. Involucrarla en decisiones reales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S9 CÓMO HABLARLE -->
+  <div class="slide" id="s9">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="slide-title">Briefing para el jefe</div>
+      <div class="slide-h">Cómo hablarle en la call</div>
+    </div>
+    <div class="brief-layout">
+      <div class="brief-card">
+        <div class="brief-num">01</div>
+        <h3>Entrar como par, no como agencia</h3>
+        <p>Ella se auto-seleccionó. Propuso la colaboración por iniciativa propia. Si el jefe abre con modo presentación o pitch, va a sentir que no leyeron la señal. El encuadre correcto: dos personas que piensan en estrategia explorando qué pueden construir juntas.</p>
+      </div>
+      <div class="brief-card">
+        <div class="brief-num">02</div>
+        <h3>Citar lo que ella dijo, textual</h3>
+        <p>Dijo "me gustó cómo integran estrategia con ejecución." Esa frase es una invitación a ir más profundo. El jefe debería preguntarle qué significa eso para ella en su propio trabajo, y luego conectarlo con un ejemplo real de Hint. No rapport genérico: reconocimiento específico.</p>
+      </div>
+      <div class="brief-card">
+        <div class="brief-num">03</div>
+        <h3>Lo comercial va al final, y solo si ella lo lleva ahí</h3>
+        <p>Keylin piensa en valor, no en tarifas. Si la call se mueve hacia un acuerdo, encuadrar alrededor de lo que cada uno aporta y qué problemas se resuelven. Números solo si ella pregunta. El objetivo de esta call es salir con un entregable concreto definido, no con un contrato.</p>
+      </div>
+      <div class="do-dont">
+        <div class="do-card">
+          <h4>Hacer</h4>
+          <ul>
+            <li>Preguntar cómo ve el puente entre neuromarketing y la operación de DMC</li>
+            <li>Mostrar el caso Spain Collection o Destiny Group con datos reales</li>
+            <li>Proponerle un entregable concreto para los próximos 30 días</li>
+            <li>Hablar de lo que podrían hacer juntos que ninguno puede solo</li>
+            <li>Venir con rango de tarifa ya aprobado internamente</li>
+          </ul>
+        </div>
+        <div class="dont-card">
+          <h4>No hacer</h4>
+          <ul>
+            <li>Abrir con presentación de Hint o deck corporativo</li>
+            <li>Preguntar cuánto presupuesto tiene Best of CR DMC</li>
+            <li>Mencionar a Sergio Hidalgo o su empleadora como cliente potencial</li>
+            <li>Tratarla como proveedora de scripts: involucrarla en estrategia</li>
+            <li>Dejar la call sin un primer entregable específico definido</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S10 PRÓXIMOS PASOS -->
+  <div class="slide" id="s10">
+    <div class="slide-title">Próximos pasos</div>
+    <div class="slide-h">Qué pasa después de la call</div>
+    <div class="steps-layout">
+      <div class="step-card">
+        <div class="step-time">Día 0 · En la call</div>
+        <h3>Definir el primer entregable</h3>
+        <p>Un entregable concreto. Con brief, fecha y criterio de éxito. No terminar la call sin esto.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-time">Día 0 · Post-call inmediata</div>
+        <h3>Resumen escrito por LinkedIn</h3>
+        <p>Confirmar modelo acordado, scope del primer proyecto, tarifa, timeline. Una línea que cita algo que ella dijo en la call.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-time">Mes 1 · 30 días</div>
+        <h3>Feedback específico en entregable</h3>
+        <p>Suficiente especificidad para que entienda el estándar de calidad de Hint. Que se sienta invertida, no evaluada.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-time">Mes 2 · 45-60 días</div>
+        <h3>Abrir conversación Best of CR DMC</h3>
+        <p>Solo si la confianza está consolidada. Dejar que ella proponga la conversación con Sergio Hidalgo de forma orgánica.</p>
+      </div>
+    </div>
+    <div class="closing-note">
+      Keylin no es un prospecto que se cayó en el funnel. Es una profesional senior que leyó el dossier, entendió la metodología, y <strong>eligió proponer una alianza</strong>. Eso no pasa seguido. Vale la pena tratarla como lo que es.
+    </div>
+  </div>
+
+</div><!-- .deck -->
+
+<!-- NAVIGATION -->
+<div class="arrow left" onclick="prev()">‹</div>
+<div class="arrow right" onclick="next()">›</div>
+
+<div class="nav" id="nav"></div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let current = 0;
+
+  const nav = document.getElementById('nav');
+  const counter = document.getElementById('counter');
+
+  // Build dots
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => goTo(i);
+    nav.appendChild(d);
+  });
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    nav.children[current].classList.remove('active');
+    current = (n + total) % total;
+    slides[current].classList.add('active');
+    nav.children[current].classList.add('active');
+    counter.textContent = (current + 1) + ' / ' + total;
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next();
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prev();
+  });
+</script>
+</body>
+</html>
