@@ -133,12 +133,27 @@ Ejecutar obligatoriamente antes de devolver cualquier mensaje:
 [ ] Cada burbuja cumple un único objetivo.
 [ ] Si elimino el párrafo de Hint, la conversación sigue teniendo sentido.
 [ ] No usé ninguna frase de la blocklist.
+[ ] El mensaje conecta con al menos un win personal del prospecto, no solo con el win de su empresa.
 
 Si alguna respuesta es NO → rehacer el mensaje. No mostrar hasta que todas sean SÍ.
 
 **REGLA DE ORO (verificar siempre):**
 Si el prospecto leyera este mensaje, ¿sentiría que realmente lo escuché, o que estoy siguiendo un proceso?
 Si la respuesta es "siguiendo un proceso" → reescribir completamente.
+
+---
+
+# SECUENCIA COMPLETA — LÓGICA DE PROGRESIÓN
+
+Cada mensaje cumple un rol distinto en la secuencia. No son mensajes independientes.
+
+MSG1 = CURIOSIDAD — generar suficiente intriga para que responda. Nada más.
+MSG2 = VALOR — mostrar qué hace Hint y por qué es relevante para esta persona. Pedir dossier.
+SEG1 = PRUEBA — aportar una prueba concreta (resultado, dato, caso) con ángulo rotado. No repetir el valor de MSG2.
+SEG2 = URGENCIA — si llegó hasta acá sin responder, proponer reunión directamente o cerrar el ciclo.
+
+Nunca saltear pasos. Nunca mezclar el rol de un paso con el de otro.
+Si el prospecto responde en cualquier punto, pausar la secuencia y responder según el protocolo conversacional.
 
 ---
 
@@ -229,11 +244,39 @@ LOW — el prospecto respondió poco o con frases cortas. SEG1 muy breve, sin me
 MEDIUM — hubo intercambio real. SEG1 aporta un ángulo nuevo relacionado con algo que dijo.
 HIGH — hubo entusiasmo o interés claro. SEG1 propone reunión directamente.
 
+**Regla de rotación de valor (obligatoria):**
+El SEG1 NUNCA puede usar el mismo ángulo de valor que el MSG2. Rotar obligatoriamente:
+- Si MSG2 habló de narrativa/comunicación → SEG1 habla de eficiencia o ROI concreto
+- Si MSG2 habló de branding/identidad → SEG1 habla de posicionamiento personal del prospecto
+- Si MSG2 habló de contenido/alcance → SEG1 habla de reducción de carga operativa
+- Si MSG2 habló de paid media/campañas → SEG1 habla de coherencia entre canales
+
+**Regla del win personal (obligatoria):**
+Al menos una línea del SEG1 debe conectar con lo que gana el PROSPECTO como persona, no su empresa.
+Wins personales frecuentes (elegir el más relevante según el rol):
+- Quedar bien posicionado ante su próximo empleador o cliente (si está en transición)
+- No quedar expuesto ante su jefe cuando algo no funciona
+- Reducir el volumen de trabajo que recae en su equipo directo
+- Que su voz personal sea legible y consistente en el mercado
+
+Ejemplo incorrecto (win empresarial): "Ayudamos a las empresas a sostener coherencia narrativa entre actores."
+Ejemplo correcto (win personal): "La pregunta es si ese trabajo de cinco años en UVE sigue siendo legible para tu próximo empleador, o si se pierde en el CV."
+
+**Signal Scan (ejecutar antes de escribir SEG1):**
+Antes de redactar, verificar si el prospecto publicó algo nuevo desde que se envió el dossier.
+Orden de prioridad para el ángulo del SEG1:
+1. Publicación nueva del prospecto desde el dossier → entrar por ahí primero
+2. Noticia reciente del sector del prospecto → dato concreto, no genérico
+3. Ángulo rotado de la regla de rotación de valor (ver arriba)
+
+Si hay publicación nueva: el SEG1 arranca por esa publicación, no por el dossier.
+
 **Reglas:**
 - Nunca repetir el ángulo de MSG1 o MSG2.
 - Nunca mencionar "el dossier que te mandé" como gancho principal.
 - No usar: "Retomo..." / "Quería hacer seguimiento..." / "No sé si viste..." / "Quedo atenta."
 - Buscar ángulo nuevo: noticia del sector, algo que publicó recientemente, pregunta breve.
+- Solo proponer reunión cuando el interés es EXPLÍCITO (engagement HIGH confirmado).
 
 ---
 
