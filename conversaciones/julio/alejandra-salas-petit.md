@@ -5,7 +5,7 @@
 **Empresa:** Ex-UVE (programa protein transition) — actualmente en transición
 **Pais:** España
 **Sector:** Comunicaciones / Advocacy / Public Affairs
-**Estado:** MSG2 enviado — 02/07/26
+**Estado:** Dossier enviado — 03/07/26
 
 ---
 
@@ -33,7 +33,17 @@
 > En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan sostener coherencia narrativa en ecosistemas de múltiples actores. Clientes como Destiny Group y Libra Seguros.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta MSG2 (03/07/26) — HIGH engagement
+> Hola! Muchas gracias, la verdad es que el tipo de trabajo que comentas me resulta especialmente interesante porque gran parte de mi trayectoria ha estado precisamente vinculada a gestionar comunicación en entornos con múltiples stakeholders y agendas muy distintas. Y además me encantaría ver que enfoque proponéis desde Hint Media.
+> Estaré encantada de echarle un vistazo, puedes compartírmelo directamente por aquí sin problema :)
+
+## MSG3 — dossier (03/07/26)
+> Buenas Alejandra! Qué bueno que conecta, justamente ese es el foco del trabajo que hacemos.
+> Te comparto el dossier: [LINK DOSSIER]
+> Somos un equipo completo integrado a la estructura del cliente: contenido, estrategia, producción y gestión de cuenta en un solo lugar. Cualquier cosa que surja después de verlo, acá estamos.
+
 ## Notas
-- Respuesta neutra "con gusto" → ir directo al cuerpo, no inventar reciprocidad.
+- Respuesta neutra "con gusto" en MSG1 → ir directo al cuerpo.
 - Sector advocacy/public affairs → Destiny Group.
-- En transición profesional post-UVE.
+- En transición profesional post-UVE — win personal SEG1: que su trabajo de 5 años siga siendo legible para su próximo empleador.
+- HIGH engagement confirmado en respuesta MSG2. SEG1 si no responde en 48-72hs.

@@ -37,8 +37,11 @@
 > En Hint Media trabajamos comunicación y contenido — contenido, branding, audiovisual, paid media. Clientes como Destiny Group y Libra Seguros.
 > Tenemos un dossier breve con casos concretos. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta MSG2 (03/07/26)
+> No de momento gracias
+
 ## Notas
-- Perfil freelancer/creativo multifuncional (Colegio Coya). Posible colaborador más que cliente directo.
+- Cerrado. Freelancer individual sin estructura — probable descarte desde el inicio.
 - Respuesta neutra "sí claro dime" → ir directo.
 
-**Estado:** MSG2 enviado — 02/07/26
+**Estado:** Cerrada — no interesado — 03/07/26

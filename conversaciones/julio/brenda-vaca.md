@@ -5,7 +5,7 @@
 **Empresa:** PUSH Accesorios
 **Pais:** Ecuador
 **Sector:** Retail / Moda / Accesorios
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 03/07/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/07/26)
+> Hola Florencia, claro dime qué duda tienes
+
+## MSG2 (03/07/26)
+> Buenas Brenda! Lo de dar la voz al equipo al anunciar una apertura no es lo más común en retail, la mayoría lo centra en la marca o el local.
+> Llegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?
+> En Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas

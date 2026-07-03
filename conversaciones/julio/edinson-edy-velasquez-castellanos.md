@@ -5,7 +5,7 @@
 **Empresa:** Lilo Social
 **Pais:** Colombia
 **Sector:** Beauty, Luxury, DTC, E-commerce
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado — 03/07/26
 
 ---
 
@@ -39,5 +39,23 @@
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
 
 ---
+
+## Respuesta MSG2 (02/07/26)
+> Lo que pasa es que hay que tener en cuenta muchas veces el budget con el que escalan y los canales que se tienen para eso. Ósea pero que necesitas que se haga con esa revisión? A quien te refieres dentro de mi empresa?
+
+## MSG3 — aclaración (02/07/26)
+> Edy, lo del budget y los canales tiene sentido. Es exactamente ahí donde se rompe algo cuando una marca quiere crecer rápido sin tenerlo alineado.
+> No necesitás hacer nada ni llevarlo a nadie. Hint Media trabajamos con marcas en ese momento puntual de escala, y el dossier es un material breve con casos concretos de ese tipo de trabajo.
+> Te lo mando por acá si querés, es solo para que lo tengas de referencia.
+
+## Respuesta MSG3 (03/07/26)
+> Ok, gracias.
+
+## Dossier enviado (03/07/26)
+> Buen fin de semana Edison, estamos en contacto en el futuro cercano!
+
+## SEG1 generado (03/07/26) — pendiente envío semana que viene
+> Buenas Edy! Una reflexión que me quedó de lo que hablamos.
+> Cuando una marca de beauty escala sin tener los canales alineados, normalmente es el account manager el que absorbe el desorden. El cliente no ve la coordinación, ve el resultado.
 
 ## Notas
