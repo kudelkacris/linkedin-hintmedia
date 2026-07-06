@@ -2420,6 +2420,7 @@ function renderHistoryList() {
       <div class="hist-item-meta">
         <span>${en.date}</span>
         ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1,'') || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px"><span style="font-weight:600;color:var(--mid)">Empresa:</span> ${esc(emp)}</span>` : ''; })()}
+        ${en.email ? `<span style="font-size:10px;background:#EAF4FF;color:#1A5DAB;padding:1px 6px;border-radius:10px;font-weight:600">✉ Mail</span>` : ''}
         <span class="hist-item-var">${esc(en.variantTitle)}</span>
       </div>
     </div>`;
@@ -2461,6 +2462,10 @@ function histRestore(id) {
       <span id="empresa-display-${en.id}" style="font-size:12px;font-weight:600;color:var(--dark)">${esc(en.empresa||'—')}</span>
       <button class="hist-del" style="font-size:11px;margin-left:2px" onclick="histEditEmpresa('${en.id}', event)" title="Editar empresa">✏️</button>
     </div>
+    ${en.email ? `<div style="padding:5px 13px;background:var(--light);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px">
+      <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--mid)">Email dossier</span>
+      <a href="mailto:${esc(en.email)}" style="font-size:12px;font-weight:600;color:#1A5DAB;text-decoration:none">${esc(en.email)}</a>
+    </div>` : ''}
     <div style="padding:8px 13px;background:#fff;border-bottom:1px solid var(--border);display:flex;gap:6px;flex-wrap:wrap">
       <button class="copy-btn" onclick="copyContextFor('${en.id}','full',this)" title="Perfil + empresa + conversación + etapa + objetivo, listo para pegar en Claude">📋 Copiar contexto para Claude</button>
       <button class="copy-btn" onclick="copyContextFor('${en.id}','profile',this)" title="Solo el perfil completo">👤 Copiar solo perfil</button>
