@@ -2373,9 +2373,10 @@ function renderHistStats() {
   if (!bar) return;
   const counts = {1:0,2:0,3:0,4:0,5:0,noint:0,email:0,recontact:0};
   _histEntries.forEach(e => {
-    if (e.noInterest) counts.noint++;
-    else if (e.followup_date) counts.recontact++;
-    else { counts[e.stage||1] = (counts[e.stage||1]||0) + 1; if (histHasEmail(e)) counts.email++; }
+    if (e.noInterest) { counts.noint++; return; }
+    if (e.followup_date) counts.recontact++;
+    counts[e.stage||1] = (counts[e.stage||1]||0) + 1;
+    if (histHasEmail(e)) counts.email++;
   });
   const chips = [
     {val:'1', label:`Apertura · ${counts[1]}`},
@@ -2405,7 +2406,8 @@ function renderHistoryList() {
   const parseDate = d => { const p=(d||'').split('/'); return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0; };
   const sorted = _histEntries.map((e,i)=>({e,i})).sort((a,b)=>{ const dd=parseDate(b.e.date)-parseDate(a.e.date); return dd!==0?dd:a.i-b.i; }).map(x=>x.e);
   function searchEntry(en) {
-    if (en.name.toLowerCase().includes(q)) return true;
+    if ((en.name||en.nombre||'').toLowerCase().includes(q)) return true;
+    if ((en.empresa||'').toLowerCase().includes(q)) return true;
     if ((en.variantTitle||'').toLowerCase().includes(q)) return true;
     if ((en.msg1||'').toLowerCase().includes(q)) return true;
     if ((en.msg2||'').toLowerCase().includes(q)) return true;
@@ -2417,7 +2419,7 @@ function renderHistoryList() {
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
   else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && !en.followup_date && histHasEmail(en));
   else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!en.followup_date);
-  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && !en.followup_date && (en.stage||1) === parseInt(_histStageFilter));
+  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && String(en.stage||1) === String(_histStageFilter));
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
     return;
@@ -2429,7 +2431,7 @@ function renderHistoryList() {
     return `
     <div class="hist-item${noint ? ' noint' : ''}" onclick="histRestore('${en.id}')" style="${overdue ? 'border-color:#FFBCB0' : ''}">
       <div class="hist-item-row">
-        <div class="hist-item-name">${esc(en.name)}</div>
+        <div class="hist-item-name">${esc(en.name||en.nombre||'Sin nombre')}</div>
         ${overdue ? `<span class="overdue-badge">⚠ ${days}d</span>` : ''}
         ${noint ? `<span class="stage-pill sp-x">✕ No int.</span>` : `<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
         <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
