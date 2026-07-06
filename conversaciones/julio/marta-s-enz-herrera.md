@@ -5,7 +5,7 @@
 **Empresa:** PHD Media Spain
 **Pais:** España
 **Sector:** Agencias / Medios / Marketing / Tecnología (indirectamente)
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -39,6 +39,17 @@
 > Cuando un evento como Digital Masters sale bien, cómo están aprovechando ese momento para que la organización o la marca detrás también gane visibilidad?
 > Trabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos y organizaciones a capitalizar ese tipo de logros: contenido, amplificación y comunicación de marca. Trabajamos con Destiny Group en eventos y comunicación institucional.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> Puedes enviármelo por aquí sin problema, Florencia. Muchas gracias!
+
+---
+
+## Dossier
+
+Dossier enviado — 06/07/26
 
 ---
 
