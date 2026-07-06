@@ -107,8 +107,9 @@ def _sync_md(filepath):
             norm_target = _norm(name)
             changed = False
             for entry in historial:
-                if _norm(entry.get('name', '')) == norm_target:
-                    cur = entry.get('stage', 1)
+                entry_name = entry.get('name') or entry.get('nombre') or ''
+                if _norm(entry_name) == norm_target:
+                    cur = int(entry.get('stage', 1))
                     sh  = entry.get('stageHistory', [])
                     today = _dt.now().strftime('%d/%m/%y')
 
@@ -118,7 +119,7 @@ def _sync_md(filepath):
                             entry['stageHistory'] = sh
                             changed = True
                     elif stage > cur:
-                        entry['stage'] = stage
+                        entry['stage'] = str(stage)
                         sh.append({'stage': stage, 'date': today})
                         entry['stageHistory'] = sh
                         changed = True
