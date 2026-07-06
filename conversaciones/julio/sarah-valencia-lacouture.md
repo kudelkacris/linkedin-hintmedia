@@ -5,7 +5,7 @@
 **Empresa:** Hyatt Regency Panamá
 **Pais:** Panamá
 **Sector:** Hospitalidad / Turismo
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — Sin interés, equipo interno — 06/07/26
 
 ---
 
@@ -24,6 +24,36 @@
 > Me llamó la atención la publicación que compartiste sobre vender un hotel que no existía aún. Específicamente esto: "A good story earns you the first yes. But it also raises the bar, because now you have to live up to it." No es lo que la mayoría escribe cuando abre un hotel nuevo. La mayoría habla de números, locación, amenities. Vos hablaste de la brecha entre lo que prometes y lo que entregas.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Hola Florencia, como estas? Un gusto saludarte. Es correcto. La narrativa de vender un hotel operando a uno por abrir debe ser 100% diferente. He visto como muchas veces se utiliza hasta la misma presentación de ventas en ambos escenarios y cuando tienes el hotel por abrir lo que tu te estas ganando es la confianza del comprador en una promesa de venta que después debes cumplir pero sobretodo soprender al cliente con el resultado.
+
+---
+
+## MSG2
+> Buenas Sarah! Exacto, y lo que describís al final es lo más exigente: no alcanza con cumplir la promesa, hay que superarla. Una vez que el hotel abre, la narrativa entra en la fase más difícil.
+> Cómo estás manejando esa transición hoy? De la promesa de apertura a comunicar la experiencia real en curso?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas de hospitalidad a sostener coherencia narrativa entre lo que prometen y lo que comunican en cada etapa de operación. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+---
+
+## Respuesta MSG2
+> El dossier sería específicamente para qué? Así te puedo orientar mejor.
+
+---
+
+## MSG3
+> Buenas Sarah! Tiene casos de cómo trabajamos con marcas de hospitalidad en comunicación y narrativa de marca. Para tu contexto lo más relevante es la parte de cómo sostenemos coherencia entre la promesa de apertura y lo que se comunica una vez que el hotel ya está operando. Si te parece relevante, lo mando por acá.
+
+---
+
+## Cierre
+> Gracias! Tenemos un equipo encargado de todas las comunicaciones de la compañia.
+
+**Motivo cierre:** Equipo interno de comunicaciones. Sin interés en agencia externa.
 
 ---
 

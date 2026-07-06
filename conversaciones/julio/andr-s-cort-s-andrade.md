@@ -5,7 +5,7 @@
 **Empresa:** Periodismo Cultural y Artes Escénicas
 **Pais:** Chile
 **Sector:** Medios / Comunicación / Cultura
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 06/07/26
 
 ---
 
@@ -24,6 +24,19 @@
 > Estuve viendo la cobertura de la entrevista con el alcalde Sichel en Radio Agricultura. Lo que me quedó fue que elegiste la presencialidad como valor: "diálogo directo y cercanía con quienes toman decisiones". No es lo que la mayoría destaca cuando cubre política o gestión local. Casi todos van por el titular.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Hola Florencia, qué tal? Cuéntame a ver si te puedo ayudar
+
+---
+
+## MSG2
+> Buenas Andrés! Te cuento.
+> Lo que me interesó de tu trabajo es que tenés una filosofía editorial clara: profundidad, presencialidad, visibilización de lo que los grandes medios no cubren. Cómo sostenés eso a medida que la producción crece?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a comunicadores y medios a construir estrategia de contenido consistente: que escale sin que la identidad editorial se pierda. Trabajamos con Destiny Group en contenido y comunicación.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 

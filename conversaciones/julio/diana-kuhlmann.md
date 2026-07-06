@@ -5,7 +5,7 @@
 **Empresa:** San José Metropolitan Area
 **Pais:** Argentina
 **Sector:** Tecnología / Agencias Creativas / Marketing
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -37,6 +37,11 @@
 > Si la tesis de Irrational es que la mayoría se equivoca antes de crear, cómo hacen para que los clientes que están a punto de cometer ese error los encuentren a ustedes primero?
 > Trabajo en Hint Media, una agencia de comunicación. Acompañamos a fundadores y empresas a comunicar hacia afuera lo que los hace diferentes, antes de que el mercado los meta en la misma bolsa. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> Hola Florencia, claro, pásamelo, en algún momento se nos puede dar una oportunidad
 
 ---
 
