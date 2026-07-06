@@ -363,3 +363,9 @@ Este workflow se ejecuta SIEMPRE cuando el usuario dice "guarda" o equivalente.
 - Stage: siempre string (`"3"` no `3`)
 - Pueden existir múltiples entradas por persona — actualizar TODAS
 - No agregar entradas slug duplicadas
+
+**Cuando el prospecto da un email para enviar el dossier:**
+- Stage → `"3"` (Dossier por mail)
+- Guardar el email en el campo `email` de la entrada en historial.json
+- Agregar nota en el .md: a quién va dirigido el mail y la dirección
+- Ejemplo: Robinson da `fdiaz@gasdelsur.cl` → stage 3, email guardado, nota "Dirigido a Fernando Díaz - Gerente Marketing Gasdelsur"
