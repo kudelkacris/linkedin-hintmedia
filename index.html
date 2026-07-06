@@ -2261,6 +2261,7 @@ function domainToEmpresa(email) {
 }
 function histHasEmail(en) {
   if (en.dossierMail) return true;
+  if (en.email) return true;
   for (const sh of (en.stageHistory||[])) {
     if (/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(sh.note||'')) return true;
   }
@@ -2417,7 +2418,7 @@ function renderHistoryList() {
   }
   let filtered = q ? sorted.filter(searchEntry) : sorted;
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
-  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && !en.followup_date && histHasEmail(en));
+  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
   else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!en.followup_date);
   else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && String(en.stage||1) === String(_histStageFilter));
   if (!filtered.length) {
