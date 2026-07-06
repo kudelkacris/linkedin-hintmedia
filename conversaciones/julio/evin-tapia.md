@@ -5,7 +5,7 @@
 **Empresa:** Pardini & Asociados
 **Pais:** Panamá
 **Sector:** Agencia / Consultoría Creativa
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -37,6 +37,13 @@
 > El post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?
 > Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Dossier
+> Si claro me puedes enviar el dossier; y con gusto lo veo.
+
+Dossier enviado — 06/07/26
 
 ---
 
