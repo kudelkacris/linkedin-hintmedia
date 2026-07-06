@@ -1417,7 +1417,7 @@ function selectVariant(idx, letter, fullText, msg1Text) {
     }
   });
 
-  state.selectedVariant = { idx, letter, msg1: msg1Text, msg2: msg2Text };
+  state.selectedVariant = { idx, letter, msg1: msg1Text, msg2: '' };
   state.conversationHistory.push({ role: 'sent', text: msg1Text });
 
   // Save to history (lightweight — no rawText)
@@ -1952,20 +1952,28 @@ let _histEntries = [];
 let _histStageFilter = '';
 
 async function initHist() {
+  let localData = [];
+  try { localData = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]'); } catch {}
+
   try {
     const res = await fetch('/api/historial');
     const data = await res.json();
     if (Array.isArray(data) && data.length > 0) {
-      _histEntries = data;
-    } else {
-      // migración one-time desde localStorage
-      try {
-        const local = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]');
-        if (local.length > 0) { _histEntries = local; histPersist(); }
-      } catch {}
+      // Use whichever has more entries (local may have unsaved session data)
+      if (localData.length > data.length) {
+        _histEntries = localData;
+        histPersist(); // sync local → server
+      } else {
+        _histEntries = data;
+        // Keep localStorage in sync
+        try { localStorage.setItem('hm_hist_v2', JSON.stringify(data)); } catch {}
+      }
+    } else if (localData.length > 0) {
+      _histEntries = localData;
+      histPersist(); // sync local → server
     }
   } catch {
-    try { _histEntries = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]'); } catch { _histEntries = []; }
+    _histEntries = localData.length > 0 ? localData : [];
   }
   renderHistoryList();
   if (_histEntries.length) {
@@ -2146,12 +2154,22 @@ function proxCardClick(id) {
   toggleProximos();
 }
 function histPersist(entry) {
+  // Always backup to localStorage first
+  try { localStorage.setItem('hm_hist_v2', JSON.stringify(_histEntries)); } catch(e) {}
+
   const payload = entry ? entry : _histEntries;
   fetch('/api/historial', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
-  }).catch(() => {});
+  }).catch(() => {
+    // Show warning toast if server POST fails
+    const t = document.createElement('div');
+    t.textContent = '⚠️ No se guardó en servidor — guardado en local';
+    t.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#FFF3CD;color:#856404;padding:10px 16px;border-radius:8px;font-size:12px;font-weight:600;z-index:9999;border:1px solid #FFEEBA;box-shadow:0 2px 8px rgba(0,0,0,.15)';
+    document.body.appendChild(t);
+    setTimeout(() => t.remove(), 4000);
+  });
 }
 function histExtractName(profile) {
   return (profile || '').trim().split('\n').map(l => l.trim()).find(l => l) || 'Sin nombre';
