@@ -5,7 +5,7 @@
 **Empresa:** Ilustre Municipalidad de La Granja
 **Pais:** Chile
 **Sector:** Gobierno Local / Sector Público / Comunicación Pública
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -38,6 +38,24 @@
 > Lo que me interesó de ese análisis fue cómo comunicás desde adentro. Con los proyectos o clientes con los que trabajás hoy, cómo estás ayudando a las organizaciones a cerrar esa brecha entre lo que dicen y lo que hacen?
 > Trabajo en Hint Media, una agencia de comunicación estratégica. Acompañamos a organizaciones a construir narrativa institucional coherente: PR, contenidos y posicionamiento. Trabajamos con Destiny Group en comunicación y estrategia de contenidos.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> No estoy entendiendo mucho lo que necesitas. Estás ofreciendo los servicios de la consultora?
+
+---
+
+## MSG3 (aclaración)
+> Buenas Fabián! Sí, exacto.
+> Hint Media trabaja con organizaciones que quieren cerrar esa brecha entre lo que hacen y cómo lo comunican. Me interesó tu perfil porque publicás sobre ese problema desde adentro, no como observador.
+> Si te sirve, te mando el dossier. Es breve, tiene casos concretos.
+
+---
+
+## Dossier
+
+Dossier enviado — 06/07/26
 
 ---
 
