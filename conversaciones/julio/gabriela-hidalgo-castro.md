@@ -5,7 +5,7 @@
 **Empresa:** Universidad UDIMA
 **Pais:** Costa Rica
 **Sector:** Retail / Servicios (actualmente); Movilidad/Transporte (Hertz)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 06/07/26
 
 ---
 
@@ -24,6 +24,20 @@
 > Me llamó la atención la reflexión que compartiste sobre la creatividad que "requiere el valor de ser imperfecta". No es lo que la mayoría publica cuando habla de marketing — la mayoría vende optimización y perfeccionismo. Vos estás hablando del riesgo que hay detrás de cada idea que se lanza sin garantías.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Hola Florencia! Gracias por tu mensaje. Claro, contame de qué se trata tu consulta y con gusto vemos si puedo ayudarte.
+> Y sí, exacto! a eso me refiero. Un ejemplo buenísimo de esto es la campaña de Burger King, "La Paco Dialmun de la Fafi", para el Mundial. Jugaron con el vesre para hablar del torneo sin ser patrocinadores oficiales, algo que tenía datos y análisis detrás, pero igual implicaba el riesgo de que la gente no entendiera el código o que la FIFA reaccionara mal (como pasó). Y en vez de retroceder cuando los cuestionaron, convirtieron esa restricción en el contenido más viral de la campaña. Ahí está el punto: jugar fuera de lo seguro.
+
+---
+
+## MSG2
+> Buenas Gabriela! Exacto. Lo que describís del Burger King no es improvisación, es saber cuándo la restricción es el brief. Y encima la FIFA les dio otra vuelta de contenido gratis.
+> Con las marcas con las que trabajás hoy, cómo llegás a esa decisión? En qué momento sabés que el riesgo vale?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener ese nivel de intención creativa a escala: contenido, estrategia y ejecución consistente. Trabajamos con Destiny Group en marketing y estrategia de contenidos.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 

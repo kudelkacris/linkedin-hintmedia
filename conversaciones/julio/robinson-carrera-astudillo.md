@@ -5,7 +5,7 @@
 **Empresa:** Gasdelsur
 **Pais:** Chile
 **Sector:** Energía (GLP)
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado por mail — 06/07/26
 
 ---
 
@@ -37,6 +37,21 @@
 > Si el crecimiento de estos 6 años viene del pilar de atención y servicio, cómo están comunicando ese diferencial hacia afuera, para que el mercado entienda por qué elegir Gasdelsur y no otra opción?
 > Trabajo en Hint Media, una agencia de comunicación. Acompañamos a empresas de energía a construir esa narrativa de diferenciación: contenido, branding y comunicación institucional. Trabajamos con TGS en comunicación y posicionamiento de marca.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> Qué buen trabajo, nosotros tenemos la gerencia de marketing encargada de toda la comunicación y medios, a su vez ya se trabaja con un agencia pero de todas maneras te dejaremos el contacto del gerente del área para que veas directamente con él las necesidades o requerimientos.
+> fdiaz@gasdelsur.cl
+> Fernando Díaz gerente de marketing y comunicación
+
+---
+
+## Dossier por mail
+
+**Email:** fdiaz@gasdelsur.cl
+**Dirigido a:** Fernando Díaz — Gerente de Marketing y Comunicación, Gasdelsur
+Dossier a enviar por mail — 06/07/26
 
 ---
 
