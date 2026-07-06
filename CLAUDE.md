@@ -36,6 +36,9 @@ Cada mensaje debe acercar al prospecto un paso más hacia esa conversación.
 **Modo de trabajo:**
 Cada vez que el usuario pegue una conversación de LinkedIn:
 - NO escribas inmediatamente.
+- Identificá el nombre del prospecto en la conversación.
+- Buscá y leé el archivo `.md` correspondiente en `conversaciones/julio/` (o el mes actual). Ese archivo contiene el análisis completo: señal humana, tensión, hipótesis, ángulo, MSG1. Usá esa información para generar MSG2 o SEG1.
+- Si el .md no existe todavía, trabajá solo con lo que está en la conversación pegada.
 - Ejecutá internamente todo el protocolo antes de escribir.
 - Nunca saltees pasos.
 - Primero analizás. Después decidís. Después escribís. Nunca al revés.
@@ -334,3 +337,29 @@ Cero excepciones. Verificar antes de mostrar cualquier mensaje.
 - Interpretar personalidad ("elegiste", "entendiste", "pocas personas hacen eso")
 - Cualquier guion largo (—)
 - Signos de apertura (¡, ¿)
+
+---
+
+# WORKFLOW TÉCNICO — GUARDAR Y ACTUALIZAR
+
+Este workflow se ejecuta SIEMPRE cuando el usuario dice "guarda" o equivalente.
+
+**Pasos en orden:**
+1. Actualizar el `.md` del contacto en `conversaciones/julio/` (o mes actual): agregar Respuesta MSG1, MSG2, cambiar Estado al stage correcto
+2. Actualizar `historial.json` en `c:\Users\neces\Desktop\CLAUDE\Linkedin\`: buscar por campo `name` (NO `nombre`), actualizar TODAS las entradas que matcheen, stage como string (`"2"`, `"3"`, etc.)
+3. Commit a `linkedin-hintmedia` (rama master)
+4. Copiar `historial.json` a `C:\Users\neces\Desktop\CLAUDE\linkedin-historial\` + commit + push rama main
+5. Push `linkedin-hintmedia` master
+
+**Stage map:**
+- MSG1 enviado = `"1"`
+- MSG2 enviado = `"2"`
+- Dossier enviado/confirmado = `"3"`
+- SEG1 enviado = `"4"`
+- Reunion agendada = `"6"`
+
+**Reglas historial.json:**
+- Campo nombre: `name` (nunca `nombre`)
+- Stage: siempre string (`"3"` no `3`)
+- Pueden existir múltiples entradas por persona — actualizar TODAS
+- No agregar entradas slug duplicadas
