@@ -1,6 +1,6 @@
 # Matthew Hernandez
 
-**Estado:** SEG1 enviado 01/07/26
+**Estado:** Filtro enviado — 06/07/26
 **Fecha:** 15/06/26 (MSG2) — dossier 18/06/26
 **Cargo:** Marketing Coordinator, Nexsys Centroamérica y Caribe
 **País:** Costa Rica (Cartago)
@@ -26,6 +26,17 @@ Destacó que combina "habilidades analíticas con visión creativa."
 **Respuesta Matthew (miércoles 21:38):** "Buenas noches, si claro, si gustas me lo compartes y nosotros lo revisamos"
 
 **Dossier enviado (hoy 18/06, 11:50):** "Buen dia Matt, te lo dejo adjunto por aca"
+
+## Conversación reciente (06/07/26)
+
+**Matthew (viernes 21:29):**
+> Buenas tarde Florencia, me parece bien tomar una reunión de 30 minutos para poder valorar la situación. Dime dos espacios disponible y te confirmo la semana que viene!
+
+**Análisis antes de confirmar reunión:** ICP dudoso — Marketing Coordinator ejecutor, freelance community manager, perfil que hace el trabajo no lo contrata. Riesgo reunión fallida como las anteriores.
+
+**Mensaje filtro enviado (06/07/26):**
+> Buenas Matthew! Antes de coordinar quería aclararte de qué se trata la reunión para no hacerte perder el tiempo.
+> Hint Media es una agencia de comunicación y contenido. Lo que estaríamos viendo juntos es si hay un proyecto donde podamos ayudarte a vos o a tu empresa. Eso aplica para tu lado?
 
 ## Notas
 - Coordinador junior (9 meses en Nexsys, oct 2025)

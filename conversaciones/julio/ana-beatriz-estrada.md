@@ -5,7 +5,7 @@
 **Empresa:** Central de Uniformes
 **Pais:** Panamá
 **Sector:** Uniformes / Marca Empleadora / Servicios Corporativos
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -27,4 +27,22 @@
 
 ---
 
+## Respuesta MSG1 (02/07/26)
+> Hola, si con gusto respondo su consulta
+
+## MSG2 (02/07/26)
+> Buenas Ana Beatriz, gracias por responder.
+> Lo que expuso en el Summit sobre uniformes como herramienta estratégica de RRHH es exactamente un trabajo de posicionamiento de marca. El desafío es que esa narrativa llegue a quienes toman decisiones de compra antes de que la conversación sea solo de precio.
+> Hint Media es una agencia de comunicación omnicanal. Trabajamos en identidad, contenidos, paid media y vocería digital con empresas como Tasarolli y Destiny Group en construcción de marca con propósito.
+> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2 (05/07/26) — HIGH engagement
+> Sí, claro. A este correo: gerencia-ventas@centraldeuniformes.com
+
+## Dossier enviado (06/07/26)
+> Buenas Ana Beatriz! Perfecto, en unos minutos te lo enviamos a gerencia-ventas@centraldeuniformes.com. Cualquier consulta acá estamos.
+
 ## Notas
+- Email dossier: gerencia-ventas@centraldeuniformes.com
+- ICP limpio: Gerente compradora, no proveedora de comunicaciones
+- SEG1 en 48-72hs si no responde

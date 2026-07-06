@@ -54,7 +54,14 @@
 ## Dossier enviado (03/07/26)
 > Buen fin de semana Edison, estamos en contacto en el futuro cercano!
 
-## SEG1 generado (03/07/26) — pendiente envío semana que viene
+## Intercambio fin de semana (04/07/26)
+**Edinson (viernes 22:11):**
+> Listo, feliz finde para ti también. Aquí tienes punto final y en los otros no. 😉🤗😄 Jeje
+
+**Respuesta enviada (06/07/26):**
+> Jaja gracias por el punto y por darle un vistazo al dossier. Cualquier cosa que surja acá estamos.
+
+## SEG1 — pendiente semana que viene (si no retoma)
 > Buenas Edy! Una reflexión que me quedó de lo que hablamos.
 > Cuando una marca de beauty escala sin tener los canales alineados, normalmente es el account manager el que absorbe el desorden. El cliente no ve la coordinación, ve el resultado.
 

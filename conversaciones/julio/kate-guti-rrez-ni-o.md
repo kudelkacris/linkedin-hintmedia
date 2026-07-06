@@ -1,10 +1,10 @@
 # Kate Gutiérrez Niño
 
 **Fecha:** 01/07/26
-**Cargo:** CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn
-**Empresa:** Puente - Servicios Financieros
-**Pais:** Chile
-**Estado:** MSG1 enviado
+**Cargo:** Estrategia de Redes Sociales & Contenido Digital | Comunicación Corporativa | Sector Financiero | Innovación & IA
+**Empresa:** (sector financiero)
+**Pais:** (no especificado)
+**Estado:** MSG2 enviado — 06/07/26
 
 ---
 
@@ -17,4 +17,16 @@
 
 ---
 
+## Respuesta MSG1 (04/07/26)
+> Hola! Gracias por conectar. Antes de agendar algo, cuéntame por acá de qué se trata tu consulta, así veo si es algo en lo que te puedo aportar.
+
+## MSG2 (06/07/26)
+> Buenas Kate!
+> Claro. Hint Media es una agencia de comunicación omnicanal — contenido, paid media, identidad y vocería digital, todo integrado en un solo equipo.
+> Combinar sector financiero, IA y contenido tiene su complejidad particular. Cómo lo comunicás hacia afuera sin que suene a hype?
+> Trabajamos con Libra Seguros y Destiny Group en ese tipo de proyectos.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
 ## Notas
+- Perfil de comunicaciones/contenido — potencial ICP débil (hace el trabajo, no lo contrata)
+- Verificar si es decisora o ejecutora antes de avanzar

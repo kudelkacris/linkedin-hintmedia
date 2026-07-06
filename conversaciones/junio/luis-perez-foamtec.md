@@ -47,3 +47,11 @@ metadata:
 - Insumo: 52 comentarios de LinkedIn de Luis de los últimos 6 meses (patrón: felicita a todos, 0 posts propios) + foto del MD Summit Costa Rica + CV completo (16 años Berkshire Corporation, MBA Thunderbird, Ing. Tec de Monterrey).
 - Decisión clave: se sacó toda cifra de USD de la primera reunión (riesgo de disparar negociación de precio antes de establecer valor). Slide de "resultados esperados" usa lenguaje consultivo + disclaimer, no promesas.
 - Guiones orales completos en `guion-luis-perez-v3.md` y `guion-opciones-AB.md` (apertura, transiciones, objeciones, cuándo usar A vs B, autocrítica).
+
+**Actualización 03/07/26:**
+- Call realizada. Propuesta enviada por mail (dos variantes).
+
+**Actualización 06/07/26:**
+- Luis respondió al seguimiento del jueves: "La reviso."
+- Respuesta enviada: "Perfecto Luis, cualquier consulta acá estamos."
+- En espera. Si no responde en 3-4 días, retomar.

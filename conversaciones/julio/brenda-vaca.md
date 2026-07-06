@@ -5,7 +5,7 @@
 **Empresa:** PUSH Accesorios
 **Pais:** Ecuador
 **Sector:** Retail / Moda / Accesorios
-**Estado:** MSG2 enviado — 03/07/26
+**Estado:** Dossier enviado — 06/07/26
 
 ---
 
@@ -35,5 +35,13 @@
 > Llegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?
 > En Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2 (06/07/26)
+> Claro, puedes enviarme
+> Para revisarlo
+
+## Dossier enviado (06/07/26)
+> Buenas Brenda! Te comparto el dossier: [LINK DOSSIER]
+> Cualquier cosa que surja después de verlo, acá estamos.
 
 ## Notas
