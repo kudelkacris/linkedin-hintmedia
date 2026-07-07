@@ -5,7 +5,7 @@
 **Empresa:** La Maison Française du Verre
 **Pais:** España
 **Sector:** FMCG / Manufactura Premium
-**Estado:** MSG2 enviado — 06/07/26
+**Estado:** Dossier enviado — 07/07/26
 
 ---
 
@@ -39,5 +39,11 @@
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
 
 ---
+
+## Respuesta MSG2
+> Mandamelo por aqui y yo lo muevo internamente
+
+## Dossier
+Enviado por LinkedIn — 07/07/26. Lo mueve él internamente.
 
 ## Notas
