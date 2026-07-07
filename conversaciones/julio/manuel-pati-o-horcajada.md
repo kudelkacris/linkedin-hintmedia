@@ -5,7 +5,7 @@
 **Empresa:** La Maison Française du Verre
 **Pais:** España
 **Sector:** FMCG / Manufactura Premium
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 06/07/26
 
 ---
 
@@ -24,6 +24,19 @@
 > Me llamó la atención la publicación que compartiste hace dos meses sobre el cambio. Especialmente porque no lo planteaste como "mejor oportunidad", sino como alineación. Y después veo que arrancaste en La Maison con una marca que promete productos "hechos para durar, para transmitir de generación en generación". Eso no parece casual.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Hola Florencia, gracias por contactar, dime cuál es tu consulta. Un saludo
+
+---
+
+## MSG2
+> Buenas Manuel! Te cuento.
+> La pregunta que me surgió es cómo estás comunicando la identidad de La Maison en mercados que todavía no la conocen. Una marca con esa promesa ("para durar, para transmitir") necesita una narrativa muy consistente. Cómo la estás construyendo cuando cada mercado tiene su propia lectura?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas premium a construir narrativa de marca consistente en mercados distintos: contenido, identidad y comunicación institucional. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
 
 ---
 
