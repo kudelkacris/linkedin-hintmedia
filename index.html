@@ -2404,8 +2404,8 @@ function renderHistoryList() {
     return;
   }
   const q = (document.getElementById('hist-search')?.value || '').toLowerCase().trim();
-  const parseDate = d => { const p=(d||'').split('/'); return p.length===3?parseInt(p[2])*10000+parseInt(p[1])*100+parseInt(p[0]):0; };
-  const sorted = _histEntries.map((e,i)=>({e,i})).sort((a,b)=>{ const dd=parseDate(b.e.date)-parseDate(a.e.date); return dd!==0?dd:a.i-b.i; }).map(x=>x.e);
+  const parseDate = d => { const p=(d||'').split('/'); if(p.length!==3) return 0; const day=parseInt(p[0]),month=parseInt(p[1]),year=parseInt(p[2])+(parseInt(p[2])<100?2000:0); return year*10000+month*100+day; };
+  const sorted = _histEntries.map((e,i)=>({e,i})).sort((a,b)=>{ const dd=parseDate(b.e.date)-parseDate(a.e.date); return dd!==0?dd:b.i-a.i; }).map(x=>x.e);
   function searchEntry(en) {
     if ((en.name||en.nombre||'').toLowerCase().includes(q)) return true;
     if ((en.empresa||'').toLowerCase().includes(q)) return true;
