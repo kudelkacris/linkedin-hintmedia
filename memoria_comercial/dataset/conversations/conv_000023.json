@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000023",
+  "contact_id": "ctc_000085",
+  "source_file": "conversaciones/julio/daniel-ram-n-calvo.md",
+  "fingerprint": "sha256:fd09e0d03723a33eddc42206d97f53a7af7087fe876106a256f67a2d86339aa4",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/daniel-ram-n-calvo.md",
+    "file_hash": "sha256:fd09e0d03723a33eddc42206d97f53a7af7087fe876106a256f67a2d86339aa4",
+    "file_modified": "2026-07-02T21:53:26.157468+00:00",
+    "file_size": 2960,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Daniel Ramón Calvo",
+    "empresa": "Probi AB",
+    "cargo": "B2B Marketing Manager EMEA @ Probi | Microbiome, Biotics & Health Innovation Expert | Driving Growth from Science to Market | One Health Advocate | Ad",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Daniel, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste los posts sobre IPC 2026. Antes que hablar de tu participación, destacaste a Mary presentando el mecanismo de acción de HEAL9®, a Jessica en oral microbiome research, los posters de Probi. Eso no es lo que la mayoría hace cuando comunica en eventos así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, buenos días. Dime",
+    "msg2_texto": "Buenas Daniel!\nComunicar ciencia en un congreso como IPC tiene un nivel de complejidad específico: el contenido tiene que ser riguroso para el público científico y legible para el mercado al mismo tiempo.\nCómo manejás esa traducción? Lo que presentan Mary o Jessica en sala es lo mismo que después sale como contenido de marca?\nEn Hint Media trabajamos comunicación y contenido con empresas del sector salud que necesitan sostener esa coherencia entre el rigor científico y la narrativa comercial. Clientes como Libra Seguros y Destiny Group.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Sistemáticamente da crédito a sus colegas en eventos y publicaciones (Mary Farrell, Jessica Neilands, Amy Sie-Yik Lau aparecen destacadas en sus posts sobre conferencias). Cuando comparte logros de Probi, enfatiza \"fascinating days\", \"proud to see my colleagues on stage\" — valida el trabajo de terceros antes que el propio.",
+    "hipotesis": "Cómo construir estructura de marketing que permita crecer en volumen de comunicación (eventos, contenido, regional expansion) manteniendo la calidad científica y la coherencia de narrativa que es el activo diferencial de Probi.",
+    "palabras_clave": [
+      "florencia",
+      "dias",
+      "dime"
+    ],
+    "notas": "- Respuesta neutra \"dime\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector biotech/salud → Libra Seguros, Destiny Group.\n- Ángulo: traducción de ciencia a narrativa comercial.\n\nEstado: MSG2 enviado — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daniel Ramón Calvo]\n[EMPRESA: Probi AB]\n[CARGO: B2B Marketing Manager EMEA @ Probi | Microbiome, Biotics & Health Innovation Expert | Driving Growth from Science to Market | One Health Advocate | Ad]\n[SECTOR: Biotech / Health Innovation / Nutrition Science]\n[PAIS: España]\n[SENAL: Sistemáticamente da crédito a sus colegas en eventos y publicaciones (Mary Farrell, Jessica Neilands, Amy Sie-Yik Lau aparecen destacadas en sus posts sobre conferencias). Cuando comparte logros de Probi, enfatiza \"fascinating days\", \"proud to see my colleagues on stage\" — valida el trabajo de terceros antes que el propio.]\n[HIPOTESIS: Cómo construir estructura de marketing que permita crecer en volumen de comunicación (eventos, contenido, regional expansion) manteniendo la calidad científica y la coherencia de narrativa que es el activo diferencial de Probi.]\n\n[MSG1]\nDaniel, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste los posts sobre IPC 2026. Antes que hablar de tu participación, destacaste a Mary presentando el mecanismo de acción de HEAL9®, a Jessica en oral microbiome research, los posters de Probi. Eso no es lo que la mayoría hace cuando comunica en eventos así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, buenos días. Dime\n\n[MSG2]\nBuenas Daniel!\nComunicar ciencia en un congreso como IPC tiene un nivel de complejidad específico: el contenido tiene que ser riguroso para el público científico y legible para el mercado al mismo tiempo.\nCómo manejás esa traducción? Lo que presentan Mary o Jessica en sala es lo mismo que después sale como contenido de marca?\nEn Hint Media trabajamos comunicación y contenido con empresas del sector salud que necesitan sostener esa coherencia entre el rigor científico y la narrativa comercial. Clientes como Libra Seguros y Destiny Group.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Respuesta neutra \"dime\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector biotech/salud → Libra Seguros, Destiny Group.\n- Ángulo: traducción de ciencia a narrativa comercial.\n\nEstado: MSG2 enviado — 02/07/26",
+    "raw_md": "# Daniel Ramón Calvo\n\n**Fecha:** 01/07/26\n**Cargo:** B2B Marketing Manager EMEA @ Probi | Microbiome, Biotics & Health Innovation Expert | Driving Growth from Science to Market | One Health Advocate | Ad\n**Empresa:** Probi AB\n**Pais:** España\n**Sector:** Biotech / Health Innovation / Nutrition Science\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Sistemáticamente da crédito a sus colegas en eventos y publicaciones (Mary Farrell, Jessica Neilands, Amy Sie-Yik Lau aparecen destacadas en sus posts sobre conferencias). Cuando comparte logros de Probi, enfatiza \"fascinating days\", \"proud to see my colleagues on stage\" — valida el trabajo de terceros antes que el propio.\n- **Tensión profesional:** Equilibrar la comunicación de ciencia robusta sin simplificar demasiado vs. hacer que sea accesible y comercialmente relevante para audiencias sin expertise científica. Escalar ejecución de marketing (eventos, campañas, enablement) sin perder la credibilidad basada en investigación que define la marca.\n- **Hipótesis:** Cómo construir estructura de marketing que permita crecer en volumen de comunicación (eventos, contenido, regional expansion) manteniendo la calidad científica y la coherencia de narrativa que es el activo diferencial de Probi.\n- **Ángulo MSG1:** SEÑAL_HUMANA — cómo lidera y da visibilidad al trabajo colaborativo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Daniel, gracias por conectar! 👋\n>\n> Me llamó la atención cómo enfocaste los posts sobre IPC 2026. Antes que hablar de tu participación, destacaste a Mary presentando el mecanismo de acción de HEAL9®, a Jessica en oral microbiome research, los posters de Probi. Eso no es lo que la mayoría hace cuando comunica en eventos así.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Hola Florencia, buenos días. Dime\n\n## MSG2 (02/07/26)\n> Buenas Daniel!\n> Comunicar ciencia en un congreso como IPC tiene un nivel de complejidad específico: el contenido tiene que ser riguroso para el público científico y legible para el mercado al mismo tiempo.\n> Cómo manejás esa traducción? Lo que presentan Mary o Jessica en sala es lo mismo que después sale como contenido de marca?\n> En Hint Media trabajamos comunicación y contenido con empresas del sector salud que necesitan sostener esa coherencia entre el rigor científico y la narrativa comercial. Clientes como Libra Seguros y Destiny Group.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Respuesta neutra \"dime\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector biotech/salud → Libra Seguros, Destiny Group.\n- Ángulo: traducción de ciencia a narrativa comercial.\n\n**Estado:** MSG2 enviado — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

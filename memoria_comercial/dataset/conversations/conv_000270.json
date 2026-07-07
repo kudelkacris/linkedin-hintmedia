@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000270",
+  "contact_id": "ctc_000457",
+  "source_file": "conversaciones/junio/veronica-lara.md",
+  "fingerprint": "sha256:c29d3363a8d33de430a2dba2cec0dc5a70154a2604789beba2ef96899a2d2c53",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/veronica-lara.md",
+    "file_hash": "sha256:c29d3363a8d33de430a2dba2cec0dc5a70154a2604789beba2ef96899a2d2c53",
+    "file_modified": "2026-06-17T23:54:10.351643+00:00",
+    "file_size": 2839,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Veronica Lara",
+    "empresa": "Newmont Argentina (minería, Cerro Negro, Santa Cruz)",
+    "cargo": "Communication Lead/Advisor (Strategic Communications and Public Affairs, Sustainability and Communities)",
+    "pais": "Argentina",
+    "fecha": "08/06/26 (MSG1) — SEG1 17/06/26",
+    "estado_texto": "SEG1 enviado"
+  },
+  "normalized": {
+    "sector": "MINERIA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Verónica, gracias por conectar! 👋\n\nSos Communication Lead en Newmont Argentina, empresa minera con operaciones regionales. Diseñaste e implementaste \"The Future in Your Hands\" llegando a más de 1.200 participantes en Santa Cruz.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Asi es... en qué te puedo ayudar?",
+    "msg2_texto": "Perfecto. En Newmont probablemente lidiás con esto constantemente, un programa de impacto requiere que alguien esté documentando, comunicando lo que pasa en territorio, manteniendo viva la narrativa.\n\nDesde acá vemos que empresas del sector minero necesitan equipo que entienda su contexto. Nosotros nos insertamos como extensión de comunicaciones, trafficker, CM, diseñador y PM, sin que tengas que armar estructura.\n\nAlgunos clientes como TGS usan esto para escalar precisamente lo que vos estás haciendo.\n\nTe lo envío por acá? En todo caso me podrás indicar a quién se lo puedo enviar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Muchas gracias!",
+    "seg1_enviado": true,
+    "seg1_texto": "Verónica, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del 4-4-2 que armaste para explicar comunicación estratégica.\n\nMe hizo pensar que la mayoría de los equipos tiene clara la táctica en el papel, pero pocos terminan con los mismos jugadores en cancha cuando el partido se complica en territorio.\n\nEs justo ahí donde solemos sumar, cuando la estrategia está bien armada pero falta sostener la ejecución todos los días.\n\nSi te resuena, coordinamos 15 minutos y vemos si tiene sentido.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "puedo",
+      "ayudar",
+      "muchas",
+      "dejo",
+      "dossier",
+      "adentro",
+      "encontras",
+      "trabajamos",
+      "equipos"
+    ],
+    "notas": "- Perfil muy activo y articulado: escribe seguido sobre comunicación estratégica (post del 4-4-2/fútbol, post sobre Jack Sparrow/Piratas del Caribe, posts sobre gobiernos-empresas, inversión social, liderazgo participativo).\n- Experiencia previa: Biogen (Public Policy LatAm Sur), Danone (Public Affairs), vocera del Jefe de Gabinete de Argentina (300+ conferencias de prensa).\n- MSG2 original cae en diagnóstico (\"probablemente lidiás con esto constantemente\") — aprendizaje de qué evitar."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Veronica Lara]\n[EMPRESA: Newmont Argentina (minería, Cerro Negro, Santa Cruz)]\n[CARGO: Communication Lead/Advisor (Strategic Communications and Public Affairs, Sustainability and Communities)]\n[PAIS: Argentina]\n\n[MSG1]\nVerónica, gracias por conectar! 👋\n\nSos Communication Lead en Newmont Argentina, empresa minera con operaciones regionales. Diseñaste e implementaste \"The Future in Your Hands\" llegando a más de 1.200 participantes en Santa Cruz.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Asi es... en qué te puedo ayudar?\n\n[MSG2]\nPerfecto. En Newmont probablemente lidiás con esto constantemente, un programa de impacto requiere que alguien esté documentando, comunicando lo que pasa en territorio, manteniendo viva la narrativa.\n\nDesde acá vemos que empresas del sector minero necesitan equipo que entienda su contexto. Nosotros nos insertamos como extensión de comunicaciones, trafficker, CM, diseñador y PM, sin que tengas que armar estructura.\n\nAlgunos clientes como TGS usan esto para escalar precisamente lo que vos estás haciendo.\n\nTe lo envío por acá? En todo caso me podrás indicar a quién se lo puedo enviar.\n\n[RESPUESTA_MSG2]\nMuchas gracias!\n\n[SEG1]\nVerónica, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del 4-4-2 que armaste para explicar comunicación estratégica.\n\nMe hizo pensar que la mayoría de los equipos tiene clara la táctica en el papel, pero pocos terminan con los mismos jugadores en cancha cuando el partido se complica en territorio.\n\nEs justo ahí donde solemos sumar, cuando la estrategia está bien armada pero falta sostener la ejecución todos los días.\n\nSi te resuena, coordinamos 15 minutos y vemos si tiene sentido.\n\n[NOTAS]\n- Perfil muy activo y articulado: escribe seguido sobre comunicación estratégica (post del 4-4-2/fútbol, post sobre Jack Sparrow/Piratas del Caribe, posts sobre gobiernos-empresas, inversión social, liderazgo participativo).\n- Experiencia previa: Biogen (Public Policy LatAm Sur), Danone (Public Affairs), vocera del Jefe de Gabinete de Argentina (300+ conferencias de prensa).\n- MSG2 original cae en diagnóstico (\"probablemente lidiás con esto constantemente\") — aprendizaje de qué evitar.",
+    "raw_md": "# Veronica Lara\n\n**Estado:** SEG1 enviado\n**Fecha:** 08/06/26 (MSG1) — SEG1 17/06/26\n**Cargo:** Communication Lead/Advisor (Strategic Communications and Public Affairs, Sustainability and Communities)\n**Empresa:** Newmont Argentina (minería, Cerro Negro, Santa Cruz)\n**País:** Argentina\n\n## MSG1\n> Verónica, gracias por conectar! 👋\n>\n> Sos Communication Lead en Newmont Argentina, empresa minera con operaciones regionales. Diseñaste e implementaste \"The Future in Your Hands\" llegando a más de 1.200 participantes en Santa Cruz.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia! Asi es... en qué te puedo ayudar?\n\n## MSG2\n> Perfecto. En Newmont probablemente lidiás con esto constantemente, un programa de impacto requiere que alguien esté documentando, comunicando lo que pasa en territorio, manteniendo viva la narrativa.\n>\n> Desde acá vemos que empresas del sector minero necesitan equipo que entienda su contexto. Nosotros nos insertamos como extensión de comunicaciones, trafficker, CM, diseñador y PM, sin que tengas que armar estructura.\n>\n> Algunos clientes como TGS usan esto para escalar precisamente lo que vos estás haciendo.\n>\n> Te lo envío por acá? En todo caso me podrás indicar a quién se lo puedo enviar.\n\n## Respuesta MSG2\n> Si, por favor enviame la información por acá asi puedo analizarla.\n\n## Cierre\n> Acá te dejo el dossier. Adentro encontrás cómo trabajamos, qué equipos insertamos, y los clientes con los que venimos trabajando. La idea es que veas si hay sinergia con lo que necesitás en Newmont. Sin presión. Cualquier duda, me preguntás.\n\n## Respuesta al dossier\n> Muchas gracias!\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Verónica, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del 4-4-2 que armaste para explicar comunicación estratégica.\n>\n> Me hizo pensar que la mayoría de los equipos tiene clara la táctica en el papel, pero pocos terminan con los mismos jugadores en cancha cuando el partido se complica en territorio.\n>\n> Es justo ahí donde solemos sumar, cuando la estrategia está bien armada pero falta sostener la ejecución todos los días.\n>\n> Si te resuena, coordinamos 15 minutos y vemos si tiene sentido.\n\n## Notas\n- Perfil muy activo y articulado: escribe seguido sobre comunicación estratégica (post del 4-4-2/fútbol, post sobre Jack Sparrow/Piratas del Caribe, posts sobre gobiernos-empresas, inversión social, liderazgo participativo).\n- Experiencia previa: Biogen (Public Policy LatAm Sur), Danone (Public Affairs), vocera del Jefe de Gabinete de Argentina (300+ conferencias de prensa).\n- MSG2 original cae en diagnóstico (\"probablemente lidiás con esto constantemente\") — aprendizaje de qué evitar.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000265",
+  "contact_id": "ctc_000148",
+  "source_file": "conversaciones/junio/tatiana-alvarez.md",
+  "fingerprint": "sha256:477cb9f7b73b27c45aa94aa2a3140aaacbd716211ec311e6e70f968f188081a9",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/tatiana-alvarez.md",
+    "file_hash": "sha256:477cb9f7b73b27c45aa94aa2a3140aaacbd716211ec311e6e70f968f188081a9",
+    "file_modified": "2026-07-01T15:55:05.653008+00:00",
+    "file_size": 1317,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Tatiana Alvarez 🇨🇷",
+    "empresa": "Grupo Biotec",
+    "cargo": "Líder de Marketing",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Tatiana, gracias por conectar! Me llamó la atención la publicación que hiciste hace un tiempo sobre los comentarios que reciben en el equipo de marketing. \"¿Que tanto hacen? ¿Por qué durarán tanto?\" Eso que escribiste \"Detrás del telón siempre es hermoso trabajar cada detalle con pasión aunque los demás no lo entiendan\" quedó grabado. No es lo que cualquiera publica cuando está frustrado.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Dígame",
+    "msg2_texto": "Buenas Tatiana, gracias por responder!\n\nLo de \"trabajar cada detalle con pasión aunque los demás no lo entiendan\" se nota en cómo manejás congresos, alianzas y campañas en Biotec con un equipo que probablemente no es gigante. Esa tensión entre lo que se ve y todo el trabajo detrás es real.\n\nEn Hint Media trabajamos comunicación y contenido para empresas del sector salud, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "digame"
+    ],
+    "notas": "- Sector salud/dispositivos médicos (Grupo Biotec) → Libra Seguros y Destiny Group."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Tatiana Alvarez 🇨🇷]\n[EMPRESA: Grupo Biotec]\n[CARGO: Líder de Marketing]\n[SECTOR: Salud / Dispositivos médicos]\n[PAIS: Costa Rica]\n\n[MSG1]\nTatiana, gracias por conectar! Me llamó la atención la publicación que hiciste hace un tiempo sobre los comentarios que reciben en el equipo de marketing. \"¿Que tanto hacen? ¿Por qué durarán tanto?\" Eso que escribiste \"Detrás del telón siempre es hermoso trabajar cada detalle con pasión aunque los demás no lo entiendan\" quedó grabado. No es lo que cualquiera publica cuando está frustrado.\n\n[RESPUESTA_MSG1]\nDígame\n\n[MSG2]\nBuenas Tatiana, gracias por responder!\n\nLo de \"trabajar cada detalle con pasión aunque los demás no lo entiendan\" se nota en cómo manejás congresos, alianzas y campañas en Biotec con un equipo que probablemente no es gigante. Esa tensión entre lo que se ve y todo el trabajo detrás es real.\n\nEn Hint Media trabajamos comunicación y contenido para empresas del sector salud, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector salud/dispositivos médicos (Grupo Biotec) → Libra Seguros y Destiny Group.",
+    "raw_md": "# Tatiana Alvarez 🇨🇷\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26\n**Cargo:** Líder de Marketing\n**Empresa:** Grupo Biotec\n**País:** Costa Rica\n**Sector:** Salud / Dispositivos médicos\n\n## MSG1\n> Tatiana, gracias por conectar! Me llamó la atención la publicación que hiciste hace un tiempo sobre los comentarios que reciben en el equipo de marketing. \"¿Que tanto hacen? ¿Por qué durarán tanto?\" Eso que escribiste \"Detrás del telón siempre es hermoso trabajar cada detalle con pasión aunque los demás no lo entiendan\" quedó grabado. No es lo que cualquiera publica cuando está frustrado.\n\n## Respuesta MSG1\n> Dígame\n\n## MSG2\n> Buenas Tatiana, gracias por responder!\n>\n> Lo de \"trabajar cada detalle con pasión aunque los demás no lo entiendan\" se nota en cómo manejás congresos, alianzas y campañas en Biotec con un equipo que probablemente no es gigante. Esa tensión entre lo que se ve y todo el trabajo detrás es real.\n>\n> En Hint Media trabajamos comunicación y contenido para empresas del sector salud, como Libra Seguros y Destiny Group.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector salud/dispositivos médicos (Grupo Biotec) → Libra Seguros y Destiny Group.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000083",
+  "contact_id": "ctc_000077",
+  "source_file": "conversaciones/julio/paula-cafferata.md",
+  "fingerprint": "sha256:95ae2209e3ad5d81dd936c1e3414dcad6740968ab2d83f7eebd8bfacbcd341fd",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/paula-cafferata.md",
+    "file_hash": "sha256:95ae2209e3ad5d81dd936c1e3414dcad6740968ab2d83f7eebd8bfacbcd341fd",
+    "file_modified": "2026-07-02T14:28:01.210139+00:00",
+    "file_size": 2766,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Paula Cafferata",
+    "empresa": "Buenos Aires y alrededores",
+    "cargo": "Communications Manager at Tavarone Rovelli Salim MianiSenior Strategic Communications & Reputation Leader | Crisis & Issues Management | Financial Ind",
+    "pais": "el Salvador",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado — 02/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Paula, gracias por conectar! 👋\n\nMe llamó la atención cómo planteaste la publicación sobre IA hace poco. No solo hablaste de la tecnología, sino que destacaste la importancia de que el equipo completo entienda sus posibilidades y límites. Es raro ver a alguien priorizar el aprendizaje colectivo antes que el anuncio de la solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola María Eugenia, cómo estás? si claro, estoy para lo que necesites. Slds.",
+    "msg2_texto": "Buenas Paula! Soy Florencia, puede que hayas confundido con otro contacto jeje.\nEsa idea de alinear al equipo antes de adoptar la IA, ¿lo aplicaron también en la comunicación externa o por ahora fue más hacia adentro?\nEn Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre lo interno y lo externo. Clientes como Libra Seguros y Destiny Group.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación hace 2 semanas sobre IA: destacó la importancia de \"entender posibilidades y límites\" para \"generar valor responsable\", y agradeció a los expertos que compartieron conocimiento con todo el equipo. Muestra cómo construye aprendizaje organizacional.",
+    "hipotesis": "Cómo escalar la ejecución de comunicación estratégica sin perder consistencia narrativa. Cómo coordinar múltiples frentes (reputación, marca empleadora, contenido corporativo, iniciativas estratégicas) con equipo limitado o externo.",
+    "palabras_clave": [
+      "maria",
+      "eugenia",
+      "estas",
+      "estoy",
+      "necesites",
+      "slds"
+    ],
+    "notas": "- Confundió el nombre (llamó \"María Eugenia\"). Se aclaró en B1 con humor.\n- Sector legal/profesional → clientes Libra Seguros y Destiny Group."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Paula Cafferata]\n[EMPRESA: Buenos Aires y alrededores]\n[CARGO: Communications Manager at Tavarone Rovelli Salim MianiSenior Strategic Communications & Reputation Leader | Crisis & Issues Management | Financial Ind]\n[SECTOR: Legal / Professional Services]\n[PAIS: el Salvador]\n[SENAL: Publicación hace 2 semanas sobre IA: destacó la importancia de \"entender posibilidades y límites\" para \"generar valor responsable\", y agradeció a los expertos que compartieron conocimiento con todo el equipo. Muestra cómo construye aprendizaje organizacional.]\n[HIPOTESIS: Cómo escalar la ejecución de comunicación estratégica sin perder consistencia narrativa. Cómo coordinar múltiples frentes (reputación, marca empleadora, contenido corporativo, iniciativas estratégicas) con equipo limitado o externo.]\n\n[MSG1]\nPaula, gracias por conectar! 👋\n\nMe llamó la atención cómo planteaste la publicación sobre IA hace poco. No solo hablaste de la tecnología, sino que destacaste la importancia de que el equipo completo entienda sus posibilidades y límites. Es raro ver a alguien priorizar el aprendizaje colectivo antes que el anuncio de la solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola María Eugenia, cómo estás? si claro, estoy para lo que necesites. Slds.\n\n[MSG2]\nBuenas Paula! Soy Florencia, puede que hayas confundido con otro contacto jeje.\nEsa idea de alinear al equipo antes de adoptar la IA, ¿lo aplicaron también en la comunicación externa o por ahora fue más hacia adentro?\nEn Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre lo interno y lo externo. Clientes como Libra Seguros y Destiny Group.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Confundió el nombre (llamó \"María Eugenia\"). Se aclaró en B1 con humor.\n- Sector legal/profesional → clientes Libra Seguros y Destiny Group.",
+    "raw_md": "# Paula Cafferata\n\n**Fecha:** 01/07/26\n**Cargo:** Communications Manager at Tavarone Rovelli Salim MianiSenior Strategic Communications & Reputation Leader | Crisis & Issues Management | Financial Ind\n**Empresa:** Buenos Aires y alrededores\n**Pais:** el Salvador\n**Sector:** Legal / Professional Services\n**Estado:** MSG2 enviado — 02/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación hace 2 semanas sobre IA: destacó la importancia de \"entender posibilidades y límites\" para \"generar valor responsable\", y agradeció a los expertos que compartieron conocimiento con todo el equipo. Muestra cómo construye aprendizaje organizacional.\n- **Tensión profesional:** Equilibrar la construcción de reputación institucional con la necesidad de mantener ejecución visible y consistente en comunicación externa e interna simultáneamente, sin que el liderazgo recaiga en una sola persona.\n- **Hipótesis:** Cómo escalar la ejecución de comunicación estratégica sin perder consistencia narrativa. Cómo coordinar múltiples frentes (reputación, marca empleadora, contenido corporativo, iniciativas estratégicas) con equipo limitado o externo.\n- **Ángulo MSG1:** SEÑAL_HUMANA — la forma en que decidió valorizar el aprendizaje colectivo y la responsabilidad en la aplicación de IA. Revela cómo piensa sobre la construcción de capacidad organizacional.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Paula, gracias por conectar! 👋\n>\n> Me llamó la atención cómo planteaste la publicación sobre IA hace poco. No solo hablaste de la tecnología, sino que destacaste la importancia de que el equipo completo entienda sus posibilidades y límites. Es raro ver a alguien priorizar el aprendizaje colectivo antes que el anuncio de la solución.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Hola María Eugenia, cómo estás? si claro, estoy para lo que necesites. Slds.\n\n## MSG2 (02/07/26)\n> Buenas Paula! Soy Florencia, puede que hayas confundido con otro contacto jeje.\n> Esa idea de alinear al equipo antes de adoptar la IA, ¿lo aplicaron también en la comunicación externa o por ahora fue más hacia adentro?\n> En Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre lo interno y lo externo. Clientes como Libra Seguros y Destiny Group.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Confundió el nombre (llamó \"María Eugenia\"). Se aclaró en B1 con humor.\n- Sector legal/profesional → clientes Libra Seguros y Destiny Group.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

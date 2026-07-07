@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000170",
+  "contact_id": "ctc_000215",
+  "source_file": "conversaciones/junio/guillermo-perez.md",
+  "fingerprint": "sha256:7daea857253ba11a1c0fa56c3ef08e695b6c5ea4925a00edb6baf090697cfa69",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/guillermo-perez.md",
+    "file_hash": "sha256:7daea857253ba11a1c0fa56c3ef08e695b6c5ea4925a00edb6baf090697cfa69",
+    "file_modified": "2026-06-18T18:53:34.649003+00:00",
+    "file_size": 1712,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Guillermo Perez",
+    "empresa": "(no provisto)",
+    "cargo": "(no provisto, falta perfil completo)",
+    "pais": "",
+    "fecha": "18/06/26 (MSG1 y respuesta el mismo día)",
+    "estado_texto": "MSG2 por enviar"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Guillermo, gracias por conectar! Me llamó la atención cómo enfocaste la publicación sobre la reunión comercial. Pusiste el reconocimiento al equipo al frente, y después mencionaste \"generar valor y cumplir expectativas de clientes\". No es el orden que la mayoría usa cuando quiere hablar de resultados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro. Dime en que te ayudo. Saludos",
+    "msg2_texto": "Sostener ese mismo orden, equipo primero y resultado después, en cada reunión y comunicado comercial, implica una disciplina de comunicación que no se sostiene sola, sobre todo cuando el negocio crece.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa misma narrativa de forma consistente. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dime",
+      "ayudo",
+      "saludos"
+    ],
+    "notas": "- HECHO: post sobre reunión comercial, puso reconocimiento al equipo antes de hablar de \"generar valor y cumplir expectativas de clientes\".\n- Falta perfil completo (cargo, empresa, sector) — no se pegó el perfil completo en esta conversación. Si se consigue después, actualizar y ajustar clientes de sector si corresponde.\n- Clientes usados por defecto (Destiny Group + Libra Seguros) por falta de dato de sector."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Guillermo Perez]\n[EMPRESA: (no provisto)]\n[CARGO: (no provisto, falta perfil completo)]\n\n[MSG1]\nGuillermo, gracias por conectar! Me llamó la atención cómo enfocaste la publicación sobre la reunión comercial. Pusiste el reconocimiento al equipo al frente, y después mencionaste \"generar valor y cumplir expectativas de clientes\". No es el orden que la mayoría usa cuando quiere hablar de resultados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro. Dime en que te ayudo. Saludos\n\n[MSG2]\nSostener ese mismo orden, equipo primero y resultado después, en cada reunión y comunicado comercial, implica una disciplina de comunicación que no se sostiene sola, sobre todo cuando el negocio crece.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa misma narrativa de forma consistente. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- HECHO: post sobre reunión comercial, puso reconocimiento al equipo antes de hablar de \"generar valor y cumplir expectativas de clientes\".\n- Falta perfil completo (cargo, empresa, sector) — no se pegó el perfil completo en esta conversación. Si se consigue después, actualizar y ajustar clientes de sector si corresponde.\n- Clientes usados por defecto (Destiny Group + Libra Seguros) por falta de dato de sector.",
+    "raw_md": "# Guillermo Perez\n\n**Estado:** MSG2 por enviar\n**Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)\n**Cargo:** (no provisto, falta perfil completo)\n**Empresa:** (no provisto)\n\n## MSG1\n> Guillermo, gracias por conectar! Me llamó la atención cómo enfocaste la publicación sobre la reunión comercial. Pusiste el reconocimiento al equipo al frente, y después mencionaste \"generar valor y cumplir expectativas de clientes\". No es el orden que la mayoría usa cuando quiere hablar de resultados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Sí, claro. Dime en que te ayudo. Saludos\n\n## MSG2 (sin B1, framework HECHO→COMPLEJIDAD→OPORTUNIDAD→HINT, clientes default por falta de sector)\n> Sostener ese mismo orden, equipo primero y resultado después, en cada reunión y comunicado comercial, implica una disciplina de comunicación que no se sostiene sola, sobre todo cuando el negocio crece.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa misma narrativa de forma consistente. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- HECHO: post sobre reunión comercial, puso reconocimiento al equipo antes de hablar de \"generar valor y cumplir expectativas de clientes\".\n- Falta perfil completo (cargo, empresa, sector) — no se pegó el perfil completo en esta conversación. Si se consigue después, actualizar y ajustar clientes de sector si corresponde.\n- Clientes usados por defecto (Destiny Group + Libra Seguros) por falta de dato de sector.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

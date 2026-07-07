@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000003",
+  "contact_id": "ctc_000090",
+  "source_file": "conversaciones/julio/alejandra-rojas-cabezas.md",
+  "fingerprint": "sha256:421f6e7b1304f60d80ddb462d19a168cea21e8fc8873904dc293cb83e99ffedc",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/alejandra-rojas-cabezas.md",
+    "file_hash": "sha256:421f6e7b1304f60d80ddb462d19a168cea21e8fc8873904dc293cb83e99ffedc",
+    "file_modified": "2026-07-02T21:53:16.323262+00:00",
+    "file_size": 2436,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Alejandra Rojas Cabezas",
+    "empresa": "Variedades El Sol Naciente S.A",
+    "cargo": "Mercadeo y Publicidad en Variedades El Sol Naciente S.A",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Alejandra, gracias por conectar! 👋\n\nMe llamó la atención que llevaras más de 10 años en la misma posición. Eso generalmente significa que hay mucho trabajo acumulado detrás — planes digitales, branding, experiencia del cliente — todo en paralelo. Imagino que gran parte de tu tiempo pasa en coordinar eso sin que la ejecución se quede atrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Claro, en que te puedo ayudar",
+    "msg2_texto": "Buenas Alejandra!\nCon 10 años liderando mercadeo en Variedades El Sol Naciente, imagino que la ejecución digital y el branding van en paralelo con la operativa del día a día.\nQué parte te consume más tiempo ahora mismo: el contenido, las campañas o algo más estratégico?\nEn Hint Media trabajamos comunicación y contenido con empresas de retail que necesitan sostener ejecución constante sin perder coherencia de marca. Clientes como Destiny Group y Tasarolli.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Sin señal identificada — usar tensión profesional",
+    "hipotesis": "Cómo coordinar ejecución de marketing a nivel retail/comercial sin que todo dependa de una sola persona, o cómo sostener la producción de contenido y campañas digitales sin que el equipo se quede atrás.",
+    "palabras_clave": [
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Respuesta neutra \"claro, en qué te puedo ayudar\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector retail → Destiny Group, Tasarolli.\n\nEstado: MSG2 enviado — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Alejandra Rojas Cabezas]\n[EMPRESA: Variedades El Sol Naciente S.A]\n[CARGO: Mercadeo y Publicidad en Variedades El Sol Naciente S.A]\n[SECTOR: Retail / Consumo]\n[PAIS: Costa Rica]\n[SENAL: Sin señal identificada — usar tensión profesional]\n[HIPOTESIS: Cómo coordinar ejecución de marketing a nivel retail/comercial sin que todo dependa de una sola persona, o cómo sostener la producción de contenido y campañas digitales sin que el equipo se quede atrás.]\n\n[MSG1]\nAlejandra, gracias por conectar! 👋\n\nMe llamó la atención que llevaras más de 10 años en la misma posición. Eso generalmente significa que hay mucho trabajo acumulado detrás — planes digitales, branding, experiencia del cliente — todo en paralelo. Imagino que gran parte de tu tiempo pasa en coordinar eso sin que la ejecución se quede atrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nClaro, en que te puedo ayudar\n\n[MSG2]\nBuenas Alejandra!\nCon 10 años liderando mercadeo en Variedades El Sol Naciente, imagino que la ejecución digital y el branding van en paralelo con la operativa del día a día.\nQué parte te consume más tiempo ahora mismo: el contenido, las campañas o algo más estratégico?\nEn Hint Media trabajamos comunicación y contenido con empresas de retail que necesitan sostener ejecución constante sin perder coherencia de marca. Clientes como Destiny Group y Tasarolli.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Respuesta neutra \"claro, en qué te puedo ayudar\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector retail → Destiny Group, Tasarolli.\n\nEstado: MSG2 enviado — 02/07/26",
+    "raw_md": "# Alejandra Rojas Cabezas\n\n**Fecha:** 01/07/26\n**Cargo:** Mercadeo y Publicidad en Variedades El Sol Naciente S.A\n**Empresa:** Variedades El Sol Naciente S.A\n**Pais:** Costa Rica\n**Sector:** Retail / Consumo\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Sin señal identificada — usar tensión profesional\n- **Tensión profesional:** Mantener consistencia de marca y experiencia del cliente mientras escala iniciativas digitales y de consumo en una estructura retail con posibles limitaciones de equipo o recursos.\n- **Hipótesis:** Cómo coordinar ejecución de marketing a nivel retail/comercial sin que todo dependa de una sola persona, o cómo sostener la producción de contenido y campañas digitales sin que el equipo se quede atrás.\n- **Ángulo MSG1:** Tensión profesional del rol — necesidad de escalar ejecución sin perder calidad en una empresa de retail con múltiples frentes (experiencia, digital, branding, consumo).\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Alejandra, gracias por conectar! 👋\n>\n> Me llamó la atención que llevaras más de 10 años en la misma posición. Eso generalmente significa que hay mucho trabajo acumulado detrás — planes digitales, branding, experiencia del cliente — todo en paralelo. Imagino que gran parte de tu tiempo pasa en coordinar eso sin que la ejecución se quede atrás.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Claro, en que te puedo ayudar\n\n## MSG2 (02/07/26)\n> Buenas Alejandra!\n> Con 10 años liderando mercadeo en Variedades El Sol Naciente, imagino que la ejecución digital y el branding van en paralelo con la operativa del día a día.\n> Qué parte te consume más tiempo ahora mismo: el contenido, las campañas o algo más estratégico?\n> En Hint Media trabajamos comunicación y contenido con empresas de retail que necesitan sostener ejecución constante sin perder coherencia de marca. Clientes como Destiny Group y Tasarolli.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Respuesta neutra \"claro, en qué te puedo ayudar\" → no inventar reciprocidad, ir directo al cuerpo.\n- Sector retail → Destiny Group, Tasarolli.\n\n**Estado:** MSG2 enviado — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

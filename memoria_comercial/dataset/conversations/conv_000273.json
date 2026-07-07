@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000273",
+  "contact_id": "ctc_000207",
+  "source_file": "conversaciones/junio/wilberth-picado-g.md",
+  "fingerprint": "sha256:7d4372e4dba77cd0e75efec93720d38b3bce7d68875ed13809afef657f068b61",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/wilberth-picado-g.md",
+    "file_hash": "sha256:7d4372e4dba77cd0e75efec93720d38b3bce7d68875ed13809afef657f068b61",
+    "file_modified": "2026-07-01T15:55:05.601509+00:00",
+    "file_size": 1005,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Wilberth Picado G.",
+    "empresa": "SUPER BATERIAS (marcas Súper Baterías, SBEV, Gulf Oil)",
+    "cargo": "Jefe de Mercadeo (recién ascendido)",
+    "pais": "Costa Rica",
+    "fecha": "",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Wilberth Picado G.]\n[EMPRESA: SUPER BATERIAS (marcas Súper Baterías, SBEV, Gulf Oil)]\n[CARGO: Jefe de Mercadeo (recién ascendido)]\n[PAIS: Costa Rica]",
+    "raw_md": "---\nname: wilberth-picado-g\ndescription: Dossier enviado por LinkedIn, Jefe de Mercadeo Super Baterias/Gulf Costa Rica, 24/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Wilberth Picado G.\n**Cargo:** Jefe de Mercadeo (recién ascendido)\n**Empresa:** SUPER BATERIAS (marcas Súper Baterías, SBEV, Gulf Oil)\n**País:** Costa Rica\n\n**Resumen de conversación:**\n- MSG1: Florencia destacó que en su publicación de ascenso dio protagonismo a la creatividad y talento del equipo en vez de a sus propios logros.\n- Respondió: \"Hola Florencia, que gusto\"\n- MSG2 enviado: conectó liderar branding/campañas de varias marcas a la vez con el cuello de botella en ejecución multicanal. Clientes mencionados: Destiny Group y Tasarolli (retail).\n- Aceptó dossier: \"Comprendo, podés enviarlo por acá para conocer\"\n- Enganche pre-dossier enviado (versión formal): casos de Destiny Group y Tasarolli en retail + cómo aplicaría a Súper Baterías y Gulf.\n\n**Estado:** SEG1 enviado 01/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

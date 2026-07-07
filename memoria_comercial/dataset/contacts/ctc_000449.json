@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000449",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Lucas Marchesini",
+  "empresa": "Fundación Favaloro",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 4,
+  "stage_texto": "",
+  "fecha": "08/06/26",
+  "email": null,
+  "sector_norm": "GOBIERNO",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000209",
+  "historial_slug": "1780943142426"
+}

@@ -1,0 +1,54 @@
+{
+  "total": 276,
+  "respondio_msg1": 157,
+  "dossier_enviado": 128,
+  "call_agendada": 2,
+  "response_rate": 0.5688,
+  "dossier_rate": 0.4638,
+  "call_rate": 0.0072,
+  "dossier_from_response": 0.8153,
+  "call_from_dossier": 0.0156,
+  "by_resultado": {
+    "EN_PROCESO": 185,
+    "SIN_RESPUESTA": 62,
+    "CERRADO_SIN_INTERES": 27,
+    "REUNION": 2
+  },
+  "generated_at": "2026-07-07T18:18:22.281982",
+  "by_month": {
+    "julio": {
+      "total": 104,
+      "respondio_msg1": 50,
+      "dossier_enviado": 26,
+      "call_agendada": 1,
+      "response_rate": 0.4808,
+      "dossier_rate": 0.25,
+      "call_rate": 0.0096,
+      "dossier_from_response": 0.52,
+      "call_from_dossier": 0.0385,
+      "by_resultado": {
+        "EN_PROCESO": 45,
+        "SIN_RESPUESTA": 53,
+        "CERRADO_SIN_INTERES": 5,
+        "REUNION": 1
+      }
+    },
+    "junio": {
+      "total": 172,
+      "respondio_msg1": 107,
+      "dossier_enviado": 102,
+      "call_agendada": 1,
+      "response_rate": 0.6221,
+      "dossier_rate": 0.593,
+      "call_rate": 0.0058,
+      "dossier_from_response": 0.9533,
+      "call_from_dossier": 0.0098,
+      "by_resultado": {
+        "EN_PROCESO": 140,
+        "SIN_RESPUESTA": 9,
+        "CERRADO_SIN_INTERES": 22,
+        "REUNION": 1
+      }
+    }
+  }
+}

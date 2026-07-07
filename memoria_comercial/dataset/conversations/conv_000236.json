@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000236",
+  "contact_id": "ctc_000472",
+  "source_file": "conversaciones/junio/miguel-bocanument-gomez.md",
+  "fingerprint": "sha256:51af239a1de7e8382b37c486d5654bcb56a5f68d50234866fb6cfbb4634fe8b1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/miguel-bocanument-gomez.md",
+    "file_hash": "sha256:51af239a1de7e8382b37c486d5654bcb56a5f68d50234866fb6cfbb4634fe8b1",
+    "file_modified": "2026-07-01T16:05:46.347744+00:00",
+    "file_size": 2435,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Miguel Bocanument Gomez",
+    "empresa": "Kipclin",
+    "cargo": "Gerencia General / CEO / Country Manager",
+    "pais": "Colombia (inferido)",
+    "fecha": "",
+    "estado_texto": "Mail no llegó — REENVIAR dossier a gerencia@kipclin.com. Luego aguardar confirmación para agendar call."
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Miguel, gracias por aceptar! 👋\n\nRevisé tu trayectoria y lo que más me llamó la atención es cómo optimizás estructuras — redujiste FdV 4%, generaste ahorros de millones, mejoraste márgenes operativos. La mentalidad de eficiencia es clara.\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, como estas. Claro que si cuentame",
+    "msg2_texto": "Buenas Miguel, gracias por la buena onda!\nEsa eficiencia que mencioné (FdV, márgenes, ahorros) suele chocar contra equipos de marketing que siguen midiendo por instinto más que por números. Ahí es donde se pierde presupuesto sin que se note.\nEn Hint Media trabajamos justo para meter ese mismo criterio de eficiencia en comunicación y contenido, con marcas como Destiny Group y Libra Seguros.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Envíamelo a gerencia@kipclin.com",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Miguel!\nEse criterio de eficiencia que aplicás en operaciones es exactamente lo que falta en la mayoría de los equipos de comunicación.\nMe gustaría contarte puntualmente qué hicimos con Destiny Group en términos de resultados medibles. Creo que te va a resonar.\nPodemos hacer una charla corta esta semana o la próxima?",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "cuentame",
+      "enviamelo",
+      "gerencia",
+      "kipclin"
+    ],
+    "notas": "- Mail dossier: gerencia@kipclin.com — REENVIAR, no llegó el original\n- CEO Kipclin, perfil operativo fuerte (FdV, márgenes, logística)\n- Emoji 🤐 = puede ser humor, no rechazo\n- Abierto a agendar si revisa el material\n- Sector: eficiencia operativa → clientes Destiny Group, Libra Seguros\n\nEstado: Mail no llegó — REENVIAR dossier a gerencia@kipclin.com. Luego aguardar confirmación para agendar call."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Miguel Bocanument Gomez]\n[EMPRESA: Kipclin]\n[CARGO: Gerencia General / CEO / Country Manager]\n[PAIS: Colombia (inferido)]\n\n[MSG1]\nMiguel, gracias por aceptar! 👋\n\nRevisé tu trayectoria y lo que más me llamó la atención es cómo optimizás estructuras — redujiste FdV 4%, generaste ahorros de millones, mejoraste márgenes operativos. La mentalidad de eficiencia es clara.\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola Florencia, como estas. Claro que si cuentame\n\n[MSG2]\nBuenas Miguel, gracias por la buena onda!\nEsa eficiencia que mencioné (FdV, márgenes, ahorros) suele chocar contra equipos de marketing que siguen midiendo por instinto más que por números. Ahí es donde se pierde presupuesto sin que se note.\nEn Hint Media trabajamos justo para meter ese mismo criterio de eficiencia en comunicación y contenido, con marcas como Destiny Group y Libra Seguros.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nEnvíamelo a gerencia@kipclin.com\n\n[SEG1]\nBuenas Miguel!\nEse criterio de eficiencia que aplicás en operaciones es exactamente lo que falta en la mayoría de los equipos de comunicación.\nMe gustaría contarte puntualmente qué hicimos con Destiny Group en términos de resultados medibles. Creo que te va a resonar.\nPodemos hacer una charla corta esta semana o la próxima?\n\n[NOTAS]\n- Mail dossier: gerencia@kipclin.com — REENVIAR, no llegó el original\n- CEO Kipclin, perfil operativo fuerte (FdV, márgenes, logística)\n- Emoji 🤐 = puede ser humor, no rechazo\n- Abierto a agendar si revisa el material\n- Sector: eficiencia operativa → clientes Destiny Group, Libra Seguros\n\nEstado: Mail no llegó — REENVIAR dossier a gerencia@kipclin.com. Luego aguardar confirmación para agendar call.",
+    "raw_md": "---\nname: miguel-bocanument-gomez\ndescription: SEG1 enviado 01/07/26, mail no llegó, esperando reenvío — CEO Kipclin, sector eficiencia operativa\nmetadata:\n  type: project\n---\n\n**Nombre:** Miguel Bocanument Gomez\n**Cargo:** Gerencia General / CEO / Country Manager\n**Empresa:** Kipclin\n**País:** Colombia (inferido)\n**Mail:** gerencia@kipclin.com\n\n## MSG1\n> Miguel, gracias por aceptar! 👋\n>\n> Revisé tu trayectoria y lo que más me llamó la atención es cómo optimizás estructuras — redujiste FdV 4%, generaste ahorros de millones, mejoraste márgenes operativos. La mentalidad de eficiencia es clara.\n>\n> Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n## Respuesta MSG1 (24/06)\n> Hola Florencia, como estas. Claro que si cuentame\n\n## MSG2\n> Buenas Miguel, gracias por la buena onda!\n> Esa eficiencia que mencioné (FdV, márgenes, ahorros) suele chocar contra equipos de marketing que siguen midiendo por instinto más que por números. Ahí es donde se pierde presupuesto sin que se note.\n> En Hint Media trabajamos justo para meter ese mismo criterio de eficiencia en comunicación y contenido, con marcas como Destiny Group y Libra Seguros.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (24/06)\n> Envíamelo a gerencia@kipclin.com\n\n## Confirmación envío (24/06)\n> Perfecto Miguel, lo dejamos adjuntado por ese medio. Muchas gracias y estamos en contacto\n\n## SEG1 (01/07)\n> Buenas Miguel!\n> Ese criterio de eficiencia que aplicás en operaciones es exactamente lo que falta en la mayoría de los equipos de comunicación.\n> Me gustaría contarte puntualmente qué hicimos con Destiny Group en términos de resultados medibles. Creo que te va a resonar.\n> Podemos hacer una charla corta esta semana o la próxima?\n\n## Respuesta SEG1 (01/07)\n> 🤗 😄 🤐\n> Hola florencia, No me llego nada al correo. Cuando me llegó reviso si vale la pena agenda el espacio\n\n## Notas\n- Mail dossier: gerencia@kipclin.com — REENVIAR, no llegó el original\n- CEO Kipclin, perfil operativo fuerte (FdV, márgenes, logística)\n- Emoji 🤐 = puede ser humor, no rechazo\n- Abierto a agendar si revisa el material\n- Sector: eficiencia operativa → clientes Destiny Group, Libra Seguros\n\n**Estado:** Mail no llegó — REENVIAR dossier a gerencia@kipclin.com. Luego aguardar confirmación para agendar call.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha",
+      "seccion_desconocida: 'Confirmación envío (24/06)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

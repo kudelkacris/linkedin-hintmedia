@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000018",
+  "contact_id": "ctc_000100",
+  "source_file": "conversaciones/julio/catalina-pavia.md",
+  "fingerprint": "sha256:fb21caf64e8d1e51ad26f35ed712f90c61168911fa67acaac84ecd0c49fcaa5f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/catalina-pavia.md",
+    "file_hash": "sha256:fb21caf64e8d1e51ad26f35ed712f90c61168911fa67acaac84ecd0c49fcaa5f",
+    "file_modified": "2026-07-01T19:01:29.065048+00:00",
+    "file_size": 2159,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Catalina Pavia",
+    "empresa": "Cummins Chile",
+    "cargo": "Jefe de Comunicaciones Corporativas y Asuntos Comunitarios",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado + correccion enviada 01/07/26"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Catalina, gracias por conectar!\nMe llamo la atencion que en Mainstream supervisaras +80 proyectos de inversion social en paralelo. No es lo que la mayoria destaca cuando habla de impacto. Pero vos mencionaste la supervision, el cumplimiento presupuestario, los equipos en terreno. Eso dice algo sobre como ves el trabajo de sostenibilidad: no solo como narrativa, sino como ejecucion real.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Si, dime. Como te ayudo",
+    "msg2_texto": "Buenas Catalina, gracias por responder.\nLo que senalaste en Mainstream, cero hallazgos en auditorias, 100% de cumplimiento presupuestario en +80 proyectos, no es solo gestion social, es comunicacion con evidencia. En Cummins esa misma logica aplica hacia afuera: relacionamiento comunitario y comunicaciones corporativas tienen que ir al mismo ritmo.\nEn Hint Media trabajamos con empresas de energia e infraestructura en exactamente eso. Clientes como TGS y Transener nos dan contexto de lo que significa comunicar en sectores con alta sensibilidad territorial.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Es que ya no estoy en Mainstream",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "dime",
+      "ayudo",
+      "estoy",
+      "mainstream"
+    ],
+    "notas": "- ERROR: el MSG2 menciono Mainstream como empresa actual. Ella lleva 10 meses en Cummins Chile\n- Mainstream es experiencia pasada (abr 2022 - ago 2024)\n- Pendiente respuesta a la correccion\n- Clientes por sector: TGS, Transener (energia/ESG)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Catalina Pavia]\n[EMPRESA: Cummins Chile]\n[CARGO: Jefe de Comunicaciones Corporativas y Asuntos Comunitarios]\n[SECTOR: Energia / Infraestructura / ESG]\n[PAIS: Chile]\n\n[MSG1]\nCatalina, gracias por conectar!\nMe llamo la atencion que en Mainstream supervisaras +80 proyectos de inversion social en paralelo. No es lo que la mayoria destaca cuando habla de impacto. Pero vos mencionaste la supervision, el cumplimiento presupuestario, los equipos en terreno. Eso dice algo sobre como ves el trabajo de sostenibilidad: no solo como narrativa, sino como ejecucion real.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia. Si, dime. Como te ayudo\n\n[MSG2]\nBuenas Catalina, gracias por responder.\nLo que senalaste en Mainstream, cero hallazgos en auditorias, 100% de cumplimiento presupuestario en +80 proyectos, no es solo gestion social, es comunicacion con evidencia. En Cummins esa misma logica aplica hacia afuera: relacionamiento comunitario y comunicaciones corporativas tienen que ir al mismo ritmo.\nEn Hint Media trabajamos con empresas de energia e infraestructura en exactamente eso. Clientes como TGS y Transener nos dan contexto de lo que significa comunicar en sectores con alta sensibilidad territorial.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nEs que ya no estoy en Mainstream\n\n[MSG3]\nCatalina, mil disculpas, me confundi al leer! Lo que me quedo de tu trayectoria es esa capacidad de conectar ejecucion con resultados medibles, y eso es exactamente lo que Cummins necesita en comunicaciones hacia afuera. Tiene sentido que veamos juntas como Hint Media puede sumar ahi. Te mando un dossier por aca?\n\n[NOTAS]\n- ERROR: el MSG2 menciono Mainstream como empresa actual. Ella lleva 10 meses en Cummins Chile\n- Mainstream es experiencia pasada (abr 2022 - ago 2024)\n- Pendiente respuesta a la correccion\n- Clientes por sector: TGS, Transener (energia/ESG)",
+    "raw_md": "# Catalina Pavia\n\n**Fecha:** 01/07/26\n**Cargo:** Jefe de Comunicaciones Corporativas y Asuntos Comunitarios\n**Empresa:** Cummins Chile\n**Pais:** Chile\n**Sector:** Energia / Infraestructura / ESG\n**Estado:** MSG2 enviado + correccion enviada 01/07/26\n\n---\n\n## MSG1\n> Catalina, gracias por conectar!\n> Me llamo la atencion que en Mainstream supervisaras +80 proyectos de inversion social en paralelo. No es lo que la mayoria destaca cuando habla de impacto. Pero vos mencionaste la supervision, el cumplimiento presupuestario, los equipos en terreno. Eso dice algo sobre como ves el trabajo de sostenibilidad: no solo como narrativa, sino como ejecucion real.\n> Si estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n## Respuesta MSG1\n> Hola Florencia. Si, dime. Como te ayudo\n\n## MSG2\n> Buenas Catalina, gracias por responder.\n> Lo que senalaste en Mainstream, cero hallazgos en auditorias, 100% de cumplimiento presupuestario en +80 proyectos, no es solo gestion social, es comunicacion con evidencia. En Cummins esa misma logica aplica hacia afuera: relacionamiento comunitario y comunicaciones corporativas tienen que ir al mismo ritmo.\n> En Hint Media trabajamos con empresas de energia e infraestructura en exactamente eso. Clientes como TGS y Transener nos dan contexto de lo que significa comunicar en sectores con alta sensibilidad territorial.\n> Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n## Respuesta MSG2\n> Es que ya no estoy en Mainstream\n\n## Correccion enviada (01/07/26)\n> Catalina, mil disculpas, me confundi al leer! Lo que me quedo de tu trayectoria es esa capacidad de conectar ejecucion con resultados medibles, y eso es exactamente lo que Cummins necesita en comunicaciones hacia afuera. Tiene sentido que veamos juntas como Hint Media puede sumar ahi. Te mando un dossier por aca?\n\n---\n\n## Notas\n- ERROR: el MSG2 menciono Mainstream como empresa actual. Ella lleva 10 meses en Cummins Chile\n- Mainstream es experiencia pasada (abr 2022 - ago 2024)\n- Pendiente respuesta a la correccion\n- Clientes por sector: TGS, Transener (energia/ESG)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000175",
+  "contact_id": "ctc_000383",
+  "source_file": "conversaciones/junio/jill-benavides.md",
+  "fingerprint": "sha256:c7357df1817c16f585faa5cbddd8f312b402cad9606d29e6a0a063e4dc857b39",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jill-benavides.md",
+    "file_hash": "sha256:c7357df1817c16f585faa5cbddd8f312b402cad9606d29e6a0a063e4dc857b39",
+    "file_modified": "2026-06-12T20:13:48.672654+00:00",
+    "file_size": 725,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jill Benavides",
+    "empresa": "INTACO Costa Rica",
+    "cargo": "Jefe de Mercadeo",
+    "pais": "Costa Rica (mercados: CR, Nicaragua, Panamá)",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jill Benavides]\n[EMPRESA: INTACO Costa Rica]\n[CARGO: Jefe de Mercadeo]\n[PAIS: Costa Rica (mercados: CR, Nicaragua, Panamá)]",
+    "raw_md": "---\nname: jill-benavides\ndescription: MSG2 enviado, Jefe de Mercadeo INTACO Costa Rica-Nicaragua-Panamá, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Jill Benavides\n**Cargo:** Jefe de Mercadeo\n**Empresa:** INTACO Costa Rica\n**País:** Costa Rica (mercados: CR, Nicaragua, Panamá)\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que lidera estrategias para tres mercados simultáneos: campañas, lanzamientos, eventos, medición. Variante C.\n- Respondió: \"Sí, claro\"\n- MSG2 enviado — gap: tres mercados en paralelo, estrategia clara pero materializar todo en piezas a tiempo para tres países es otro trabajo aparte. Mención TGS.\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

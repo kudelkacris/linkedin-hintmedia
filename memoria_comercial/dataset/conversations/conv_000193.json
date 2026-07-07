@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000193",
+  "contact_id": "ctc_000423",
+  "source_file": "conversaciones/junio/juliana-mendez-venoil.md",
+  "fingerprint": "sha256:5eb7d2d85da7b4459cdc162fc7eaa49068553626fc07bc496f62346075e084ff",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/juliana-mendez-venoil.md",
+    "file_hash": "sha256:5eb7d2d85da7b4459cdc162fc7eaa49068553626fc07bc496f62346075e084ff",
+    "file_modified": "2026-06-16T17:46:16.594825+00:00",
+    "file_size": 1369,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Juliana Méndez",
+    "empresa": "VENOIL ENERGÍA",
+    "cargo": "Jefe de Capital Humano (RRHH)",
+    "pais": "Argentina (Mendoza)",
+    "fecha": "16/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Es RRHH, no marketing — pedir derivación al área de marketing/comunicación\n- VENOIL: empresa Oil & Gas con operaciones en Mendoza y Santa Cruz\n- Señales de crecimiento: prórroga Cacheuta/Piedras Coloradas, nueva CFO (Mariana Carreau), múltiples búsquedas activas\n- Lic. en Administración UBA\n- 5 años en VENOIL, antes Falabella (Control Interno)\n- Activa en LinkedIn compartiendo contenido de VENOIL y RRHH\n- Participó en BenchClub (grupo de aprendizaje colaborativo entre pares)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juliana Méndez]\n[EMPRESA: VENOIL ENERGÍA]\n[CARGO: Jefe de Capital Humano (RRHH)]\n[PAIS: Argentina (Mendoza)]\n\n[NOTAS]\n- Es RRHH, no marketing — pedir derivación al área de marketing/comunicación\n- VENOIL: empresa Oil & Gas con operaciones en Mendoza y Santa Cruz\n- Señales de crecimiento: prórroga Cacheuta/Piedras Coloradas, nueva CFO (Mariana Carreau), múltiples búsquedas activas\n- Lic. en Administración UBA\n- 5 años en VENOIL, antes Falabella (Control Interno)\n- Activa en LinkedIn compartiendo contenido de VENOIL y RRHH\n- Participó en BenchClub (grupo de aprendizaje colaborativo entre pares)",
+    "raw_md": "# Juliana Méndez\n\n**Estado:** MSG2 enviado\n**Fecha:** 16/06/26\n**Cargo:** Jefe de Capital Humano (RRHH)\n**Empresa:** VENOIL ENERGÍA\n**País:** Argentina (Mendoza)\n\n## Conversación\n\n**MSG1 (Florencia, 8 jun):**\nPreguntó si era Jefe de RRHH en VENOIL ENERGÍA.\n\n**Respuesta Juliana:**\n\"Hola Florencia / Así es\"\n\n**MSG2 enviado:**\n> Juliana, gracias por responder!\n>\n> Vi que VENOIL acaba de confirmar la prórroga de Cacheuta y Piedras Coloradas. Nuevo CFO, búsquedas activas... la empresa está en un momento de crecimiento real. En esas etapas la comunicación de marca suele quedar rezagada respecto al ritmo interno.\n>\n> En Hint trabajamos con empresas de energía e infraestructura en la región. TGS y Transener son parte de nuestros clientes.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Es RRHH, no marketing — pedir derivación al área de marketing/comunicación\n- VENOIL: empresa Oil & Gas con operaciones en Mendoza y Santa Cruz\n- Señales de crecimiento: prórroga Cacheuta/Piedras Coloradas, nueva CFO (Mariana Carreau), múltiples búsquedas activas\n- Lic. en Administración UBA\n- 5 años en VENOIL, antes Falabella (Control Interno)\n- Activa en LinkedIn compartiendo contenido de VENOIL y RRHH\n- Participó en BenchClub (grupo de aprendizaje colaborativo entre pares)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

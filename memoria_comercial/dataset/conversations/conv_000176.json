@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000176",
+  "contact_id": "ctc_000368",
+  "source_file": "conversaciones/junio/jitzel-cristina-sandoval-atencio.md",
+  "fingerprint": "sha256:a2fa0c8b3c50206b255835997b2d715438cd1121e83004da08fd4f4a24b2d545",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jitzel-cristina-sandoval-atencio.md",
+    "file_hash": "sha256:a2fa0c8b3c50206b255835997b2d715438cd1121e83004da08fd4f4a24b2d545",
+    "file_modified": "2026-07-01T17:32:25.353929+00:00",
+    "file_size": 4680,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jitzel Cristina Sandoval Atencio",
+    "empresa": "MATCO Internacional",
+    "cargo": "Líder de Imagen / Marketing",
+    "pais": "Panamá",
+    "fecha": "10/06/26",
+    "estado_texto": "CERRADA 01/07/26 — tiene equipo in-house, presupuesto bloqueado ahora. Recontacto oct/26."
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jitzel, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste sobre invertir en la gente. No es lo primero que alguien destaca cuando habla de 25 años en marketing, normalmente se habla de números o campañas. Pero vos pusiste eso como el centro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, buenas tardes. Un gusto conocerte.\nDime a ver de qué se trata. Si está dentro de mis capacidades ayudarte, con gusto.",
+    "msg2_texto": "Lo que me quedó de lo que escribiste es que alguien que pone a las personas en el centro suele pedirle más al equipo también — y con 37 marcas activas, sostener ese estándar de ejecución en todas al mismo tiempo es el desafío de fondo.\n\nDesde Hint Media trabajamos con equipos de marketing en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin sobrecargar al equipo interno. Hemos trabajado con Destiny Group, Libra Seguros y otros con ese perfil.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Ok, pero no entiendo bien la consulta. Es una consulta o una propuesta de cómo manejar las marcas?\nAhora, Definitivamente es un desafío desde que lo tomé. Incluso, ya no son 37 marcas, tengo que actualizar eso. Son 48.\nSin embargo hay algo, que no vas a ver en frío. Y es el hecho de que nosotros no somos dueños de esas 48 marcas. Somos un Distribuidor Mayorista. Y no todas las marcas conllevan divulgación publicitaria.\nNosotros tenemos las marcas segmentados por divisiones de negocio.\nAhora bien, qué es lo que me quieres proponer? Porque enviar un dossier no es una consulta 😅\nMi correo es j.sandoval@matcointernacional.com",
+    "seg1_enviado": true,
+    "seg1_texto": "Jitzel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó dando vueltas lo de las 48 marcas divididas por categorías tan distintas, agro, construcción, autorepuestos, limpieza. Me parece que tiene más sentido conversarlo en una llamada corta que seguir por mensaje. Te parece si coordinamos 15 minutos esta semana y vemos por dónde empezar?",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "tardes",
+      "gusto",
+      "conocerte",
+      "dime",
+      "trata",
+      "esta",
+      "dentro",
+      "capacidades",
+      "ayudarte",
+      "entiendo"
+    ],
+    "notas": "- Perfil muy informado — entendió el pitch, lo cuestionó directamente (\"no es una consulta\")\n- Dato clave: MATCO es distribuidor mayorista, no dueño de marcas. No todas necesitan publicidad.\n- 48 marcas segmentadas por divisiones — el fit de Hint está en las divisiones con actividad de marca hacia afuera\n- Humor funcionó bien para desactivar la tensión\n- Email confirmado: j.sandoval@matcointernacional.com\n- Sectores MATCO: construcción, jardinería, agro, limpieza, industrias, autorepuestos, protección personal"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jitzel Cristina Sandoval Atencio]\n[EMPRESA: MATCO Internacional]\n[CARGO: Líder de Imagen / Marketing]\n[SECTOR: Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias]\n[PAIS: Panamá]\n\n[MSG1]\nJitzel, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste sobre invertir en la gente. No es lo primero que alguien destaca cuando habla de 25 años en marketing, normalmente se habla de números o campañas. Pero vos pusiste eso como el centro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, buenas tardes. Un gusto conocerte.\nDime a ver de qué se trata. Si está dentro de mis capacidades ayudarte, con gusto.\n\n[MSG2]\nLo que me quedó de lo que escribiste es que alguien que pone a las personas en el centro suele pedirle más al equipo también — y con 37 marcas activas, sostener ese estándar de ejecución en todas al mismo tiempo es el desafío de fondo.\n\nDesde Hint Media trabajamos con equipos de marketing en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin sobrecargar al equipo interno. Hemos trabajado con Destiny Group, Libra Seguros y otros con ese perfil.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nOk, pero no entiendo bien la consulta. Es una consulta o una propuesta de cómo manejar las marcas?\nAhora, Definitivamente es un desafío desde que lo tomé. Incluso, ya no son 37 marcas, tengo que actualizar eso. Son 48.\nSin embargo hay algo, que no vas a ver en frío. Y es el hecho de que nosotros no somos dueños de esas 48 marcas. Somos un Distribuidor Mayorista. Y no todas las marcas conllevan divulgación publicitaria.\nNosotros tenemos las marcas segmentados por divisiones de negocio.\nAhora bien, qué es lo que me quieres proponer? Porque enviar un dossier no es una consulta 😅\nMi correo es j.sandoval@matcointernacional.com\n\n[MSG3]\nSí, \"consulta\" era un eufemismo — lo confieso sin culpa 😅\n\nAhora con lo que me explicás el panorama es claro. 48 marcas en categorías tan distintas como agro, construcción, autorepuestos y limpieza — el desafío no es solo el volumen, es que cada categoría pide una comunicación diferente y todo tiene que salir bien al mismo tiempo.\n\nHint Media trabaja exactamente en eso — sumamos capacidad de ejecución para que tu equipo no tenga que estirar recursos entre categorías que no tienen nada que ver entre sí.\n\nTe mando el dossier a j.sandoval@matcointernacional.com y vemos qué divisiones tienen más urgencia hoy?\n\n[SEG1]\nJitzel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó dando vueltas lo de las 48 marcas divididas por categorías tan distintas, agro, construcción, autorepuestos, limpieza. Me parece que tiene más sentido conversarlo en una llamada corta que seguir por mensaje. Te parece si coordinamos 15 minutos esta semana y vemos por dónde empezar?\n\n[NOTAS]\n- Perfil muy informado — entendió el pitch, lo cuestionó directamente (\"no es una consulta\")\n- Dato clave: MATCO es distribuidor mayorista, no dueño de marcas. No todas necesitan publicidad.\n- 48 marcas segmentadas por divisiones — el fit de Hint está en las divisiones con actividad de marca hacia afuera\n- Humor funcionó bien para desactivar la tensión\n- Email confirmado: j.sandoval@matcointernacional.com\n- Sectores MATCO: construcción, jardinería, agro, limpieza, industrias, autorepuestos, protección personal",
+    "raw_md": "# Jitzel Cristina Sandoval Atencio\n**Fecha:** 10/06/26\n**Empresa:** MATCO Internacional\n**Cargo:** Líder de Imagen / Marketing\n**País:** Panamá\n**Sector:** Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias\n**Estado:** CERRADA 01/07/26 — tiene equipo in-house, presupuesto bloqueado ahora. Recontacto oct/26.\n\n---\n\n## MSG1\n> Jitzel, gracias por conectar! 👋\n>\n> Me llamó la atención algo que escribiste sobre invertir en la gente. No es lo primero que alguien destaca cuando habla de 25 años en marketing, normalmente se habla de números o campañas. Pero vos pusiste eso como el centro.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, buenas tardes. Un gusto conocerte.\n> Dime a ver de qué se trata. Si está dentro de mis capacidades ayudarte, con gusto.\n\n## MSG2\n> Lo que me quedó de lo que escribiste es que alguien que pone a las personas en el centro suele pedirle más al equipo también — y con 37 marcas activas, sostener ese estándar de ejecución en todas al mismo tiempo es el desafío de fondo.\n>\n> Desde Hint Media trabajamos con equipos de marketing en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin sobrecargar al equipo interno. Hemos trabajado con Destiny Group, Libra Seguros y otros con ese perfil.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Ok, pero no entiendo bien la consulta. Es una consulta o una propuesta de cómo manejar las marcas?\n> Ahora, Definitivamente es un desafío desde que lo tomé. Incluso, ya no son 37 marcas, tengo que actualizar eso. Son 48.\n> Sin embargo hay algo, que no vas a ver en frío. Y es el hecho de que nosotros no somos dueños de esas 48 marcas. Somos un Distribuidor Mayorista. Y no todas las marcas conllevan divulgación publicitaria.\n> Nosotros tenemos las marcas segmentados por divisiones de negocio.\n> Ahora bien, qué es lo que me quieres proponer? Porque enviar un dossier no es una consulta 😅\n> Mi correo es j.sandoval@matcointernacional.com\n\n## MSG3 (enviado)\n> Sí, \"consulta\" era un eufemismo — lo confieso sin culpa 😅\n>\n> Ahora con lo que me explicás el panorama es claro. 48 marcas en categorías tan distintas como agro, construcción, autorepuestos y limpieza — el desafío no es solo el volumen, es que cada categoría pide una comunicación diferente y todo tiene que salir bien al mismo tiempo.\n>\n> Hint Media trabaja exactamente en eso — sumamos capacidad de ejecución para que tu equipo no tenga que estirar recursos entre categorías que no tienen nada que ver entre sí.\n>\n> Te mando el dossier a j.sandoval@matcointernacional.com y vemos qué divisiones tienen más urgencia hoy?\n\n## SEG1 / reimpulso (enviado 23/06/26)\n> Jitzel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó dando vueltas lo de las 48 marcas divididas por categorías tan distintas, agro, construcción, autorepuestos, limpieza. Me parece que tiene más sentido conversarlo en una llamada corta que seguir por mensaje. Te parece si coordinamos 15 minutos esta semana y vemos por dónde empezar?\n\n## Respuesta SEG1 (01/07/26)\n> Hola Florencia, gusto saludarte. Me parece curioso que eso te quedé dando vueltas jajajajaja, es de lo más normal, yo tengo un departamento de marketing in house, entre diseñadores, especialistas y Cms, trabajando organizadamente y de manera estrategica, las cosas se dan. Creeme, tengo 1 año y medio aquí liderando, es pesado, pero no imposible. Agradezco que quieras ofrecernos tus servicios, pero siendote honesta en este momento, estoy peleando el presupuesto de las marcas, por otros objetivos que tenemos. Saludos,\n\n## Cierre (01/07/26)\n> Jitzel, gracias por la honestidad — eso dice mucho.\n> Con un equipo armado y 48 marcas en movimiento, tiene sentido que el foco esté en otro lado ahora.\n> Queda en mi radar para cuando el momento cambie. Suerte con la pelea del presupuesto!\n\n---\n\n## Notas\n- Perfil muy informado — entendió el pitch, lo cuestionó directamente (\"no es una consulta\")\n- Dato clave: MATCO es distribuidor mayorista, no dueño de marcas. No todas necesitan publicidad.\n- 48 marcas segmentadas por divisiones — el fit de Hint está en las divisiones con actividad de marca hacia afuera\n- Humor funcionó bien para desactivar la tensión\n- Email confirmado: j.sandoval@matcointernacional.com\n- Sectores MATCO: construcción, jardinería, agro, limpieza, industrias, autorepuestos, protección personal\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

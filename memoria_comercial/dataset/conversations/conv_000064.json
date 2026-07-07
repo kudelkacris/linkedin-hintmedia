@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000064",
+  "contact_id": "ctc_000102",
+  "source_file": "conversaciones/julio/laura-centeno-salas.md",
+  "fingerprint": "sha256:c588c19f63d9d463e1ee0614ac217cd0273e4a60e83b84df5ecaf66056221fa2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/laura-centeno-salas.md",
+    "file_hash": "sha256:c588c19f63d9d463e1ee0614ac217cd0273e4a60e83b84df5ecaf66056221fa2",
+    "file_modified": "2026-07-01T19:00:19.348688+00:00",
+    "file_size": 2969,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Laura Centeno Salas",
+    "empresa": "Casa Chameleon Hotels",
+    "cargo": "CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier confirmado 01/07/26 — enviado por LinkedIn"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Laura, gracias por conectar! 👋\n\nMe llamó la atención algo en tu contenido. Pasás bastante tiempo empoderando candidatos a negociar salario, construir independencia, incluso a saltar de empresa — pero simultáneamente gestionás talento en Casa Chameleon desde el lado opuesto, como empleadora. No es algo que muchas personas hacen públicamente, y menos con tanta claridad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro. En qué puedo ayudarte?",
+    "msg2_texto": "Buenas Laura, gracias por responder.\nLo que me quedó es que esa doble perspectiva, candidato y empleadora al mismo tiempo, es en sí misma un activo de comunicación muy concreto. Casa Chameleon tiene una historia de marca empleadora que muy pocos hoteles saben contar hacia afuera con esa autenticidad.\nEn Hint Media trabajamos con empresas que quieren convertir eso en contenido real, no solo en un posteo de \"somos una gran empresa para trabajar\". Hemos trabajado con Destiny Group y Libra Seguros en ese tipo de narrativas institucionales.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Ok",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó hace 22 horas reflexión sobre construir carrera independiente del empleador, ofreciendo \"Brag Book\" gratuito a seguidores. Patrón consistente: comparte insights sobre transición profesional, negocia salarios, prepara entrevistas — temas que evidencian que entiende el lado del candidato desde experiencia propia, no solo teórica.",
+    "hipotesis": "Expansión de marca personal mientras gestiona rol corporativo. Cómo escalar visibilidad sin que compita con dedicación al rol. Cómo transformar experiencia hotelera en contenido que amplíe alcance más allá de empleabilidad hacia comunicación organizacional o employer branding.",
+    "palabras_clave": [
+      "puedo",
+      "ayudarte"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Laura Centeno Salas]\n[EMPRESA: Casa Chameleon Hotels]\n[CARGO: CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn]\n[SECTOR: Hospitality / HR Services / Personal Brand]\n[PAIS: Costa Rica]\n[SENAL: Publicó hace 22 horas reflexión sobre construir carrera independiente del empleador, ofreciendo \"Brag Book\" gratuito a seguidores. Patrón consistente: comparte insights sobre transición profesional, negocia salarios, prepara entrevistas — temas que evidencian que entiende el lado del candidato desde experiencia propia, no solo teórica.]\n[HIPOTESIS: Expansión de marca personal mientras gestiona rol corporativo. Cómo escalar visibilidad sin que compita con dedicación al rol. Cómo transformar experiencia hotelera en contenido que amplíe alcance más allá de empleabilidad hacia comunicación organizacional o employer branding.]\n\n[MSG1]\nLaura, gracias por conectar! 👋\n\nMe llamó la atención algo en tu contenido. Pasás bastante tiempo empoderando candidatos a negociar salario, construir independencia, incluso a saltar de empresa — pero simultáneamente gestionás talento en Casa Chameleon desde el lado opuesto, como empleadora. No es algo que muchas personas hacen públicamente, y menos con tanta claridad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro. En qué puedo ayudarte?\n\n[MSG2]\nBuenas Laura, gracias por responder.\nLo que me quedó es que esa doble perspectiva, candidato y empleadora al mismo tiempo, es en sí misma un activo de comunicación muy concreto. Casa Chameleon tiene una historia de marca empleadora que muy pocos hoteles saben contar hacia afuera con esa autenticidad.\nEn Hint Media trabajamos con empresas que quieren convertir eso en contenido real, no solo en un posteo de \"somos una gran empresa para trabajar\". Hemos trabajado con Destiny Group y Libra Seguros en ese tipo de narrativas institucionales.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nOk\n\n[MSG3]\nPerfecto Laura, te lo mandamos ahora. Buena semana y estamos en contacto!",
+    "raw_md": "# Laura Centeno Salas\n\n**Fecha:** 01/07/26\n**Cargo:** CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn\n**Empresa:** Casa Chameleon Hotels\n**Pais:** Costa Rica\n**Sector:** Hospitality / HR Services / Personal Brand\n**Estado:** Dossier confirmado 01/07/26 — enviado por LinkedIn\n\n---\n\n## Análisis\n- **Señal humana:** Publicó hace 22 horas reflexión sobre construir carrera independiente del empleador, ofreciendo \"Brag Book\" gratuito a seguidores. Patrón consistente: comparte insights sobre transición profesional, negocia salarios, prepara entrevistas — temas que evidencian que entiende el lado del candidato desde experiencia propia, no solo teórica.\n- **Tensión profesional:** Mantener coherencia entre rol corporativo (gestionar talento desde el lado del empleador) y marca personal (empodera a candidatos a negociar mejor, saltar de empresa, construir independencia) — dos perspectivas que pueden ser tensionantes.\n- **Hipótesis:** Expansión de marca personal mientras gestiona rol corporativo. Cómo escalar visibilidad sin que compita con dedicación al rol. Cómo transformar experiencia hotelera en contenido que amplíe alcance más allá de empleabilidad hacia comunicación organizacional o employer branding.\n- **Ángulo MSG1:** Señal humana — el contenido que elige mostrar (empoderamiento de candidatos, negociación, transición) revela una filosofía profesional específica.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Laura, gracias por conectar! 👋\n>\n> Me llamó la atención algo en tu contenido. Pasás bastante tiempo empoderando candidatos a negociar salario, construir independencia, incluso a saltar de empresa — pero simultáneamente gestionás talento en Casa Chameleon desde el lado opuesto, como empleadora. No es algo que muchas personas hacen públicamente, y menos con tanta claridad.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1 (01/07/26)\n> Sí, claro. En qué puedo ayudarte?\n\n## MSG2 (01/07/26)\n> Buenas Laura, gracias por responder.\n> Lo que me quedó es que esa doble perspectiva, candidato y empleadora al mismo tiempo, es en sí misma un activo de comunicación muy concreto. Casa Chameleon tiene una historia de marca empleadora que muy pocos hoteles saben contar hacia afuera con esa autenticidad.\n> En Hint Media trabajamos con empresas que quieren convertir eso en contenido real, no solo en un posteo de \"somos una gran empresa para trabajar\". Hemos trabajado con Destiny Group y Libra Seguros en ese tipo de narrativas institucionales.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (01/07/26)\n> Ok\n\n## Confirmación dossier (01/07/26)\n> Perfecto Laura, te lo mandamos ahora. Buena semana y estamos en contacto!\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

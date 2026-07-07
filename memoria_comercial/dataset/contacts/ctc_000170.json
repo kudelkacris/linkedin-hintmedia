@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000170",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Catalina Torres Black",
+  "empresa": "Pontificia Universidad Católica de Chile",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 3,
+  "stage_texto": "",
+  "fecha": "18/06/26",
+  "email": null,
+  "sector_norm": "EDUCACION",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000134",
+  "historial_slug": "1781824043209"
+}

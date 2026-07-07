@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000021",
+  "contact_id": "ctc_000058",
+  "source_file": "conversaciones/julio/claudia-bravo-pizarro.md",
+  "fingerprint": "sha256:8c44a9b4a4576283dff7124a46a4173b1be714447050bdca5b21cc582cc31529",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/claudia-bravo-pizarro.md",
+    "file_hash": "sha256:8c44a9b4a4576283dff7124a46a4173b1be714447050bdca5b21cc582cc31529",
+    "file_modified": "2026-07-06T14:26:03.358583+00:00",
+    "file_size": 2128,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Claudia Bravo Pizarro",
+    "empresa": "Scharfstein",
+    "cargo": "👩🏽‍💻 Marketing Manager at Scharfstein | B2B Tech | PR & Communications",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Claudia, gracias por conectar. 👋\n\nMe llamó la atención la publicación de hace poco sobre Vambe y cómo pensás el rol del marketing no como pura generación de leads, sino como facilitador del equilibrio entre automatización y gestión humana. No es algo que muchos plantean así públicamente.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre certificación Vambe donde reflexiona sobre el rol del marketero no como generador de leads aislado, sino como \"evaluador y apoyo al equipo para lograr el mejor equilibrio entre automatización + gestión humana\". Esto revela una creencia: que el marketing debe ser un facilitador de ejecución fluida, no solo un generador de demanda. También destaca su reflexión pública sobre agotamiento digital y saturación de contenidos hace 6 meses.",
+    "hipotesis": "Transición desde \"ejecutora de tácticas\" hacia \"estratega de posicionamiento técnico\". Cómo escalar la narrativa sin perder consistencia cuando se trabaja con múltiples integradores y públicos simultáneamente. El rol de marketing en empresas B2B tech que necesitan educar antes de vender.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Claudia Bravo Pizarro]\n[EMPRESA: Scharfstein]\n[CARGO: 👩🏽‍💻 Marketing Manager at Scharfstein | B2B Tech | PR & Communications]\n[SECTOR: B2B Tech / Seguridad y Comunicaciones]\n[PAIS: Chile]\n[SENAL: La publicación sobre certificación Vambe donde reflexiona sobre el rol del marketero no como generador de leads aislado, sino como \"evaluador y apoyo al equipo para lograr el mejor equilibrio entre automatización + gestión humana\". Esto revela una creencia: que el marketing debe ser un facilitador de ejecución fluida, no solo un generador de demanda. También destaca su reflexión pública sobre agotamiento digital y saturación de contenidos hace 6 meses.]\n[HIPOTESIS: Transición desde \"ejecutora de tácticas\" hacia \"estratega de posicionamiento técnico\". Cómo escalar la narrativa sin perder consistencia cuando se trabaja con múltiples integradores y públicos simultáneamente. El rol de marketing en empresas B2B tech que necesitan educar antes de vender.]\n\n[MSG1]\nClaudia, gracias por conectar. 👋\n\nMe llamó la atención la publicación de hace poco sobre Vambe y cómo pensás el rol del marketing no como pura generación de leads, sino como facilitador del equilibrio entre automatización y gestión humana. No es algo que muchos plantean así públicamente.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Claudia Bravo Pizarro\n\n**Fecha:** 06/07/26\n**Cargo:** 👩🏽‍💻 Marketing Manager at Scharfstein | B2B Tech | PR & Communications\n**Empresa:** Scharfstein\n**Pais:** Chile\n**Sector:** B2B Tech / Seguridad y Comunicaciones\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre certificación Vambe donde reflexiona sobre el rol del marketero no como generador de leads aislado, sino como \"evaluador y apoyo al equipo para lograr el mejor equilibrio entre automatización + gestión humana\". Esto revela una creencia: que el marketing debe ser un facilitador de ejecución fluida, no solo un generador de demanda. También destaca su reflexión pública sobre agotamiento digital y saturación de contenidos hace 6 meses.\n- **Tensión profesional:** Equilibrar la generación de demanda cuantificable (campañas, conversion funnels, Google Ads) con la construcción de narrativa técnica de largo plazo en un sector donde el cliente necesita educación, no solo activación. Al mismo tiempo, coordinar múltiples servicios externos y traducir expertise técnico sin simplificar demasiado.\n- **Hipótesis:** Transición desde \"ejecutora de tácticas\" hacia \"estratega de posicionamiento técnico\". Cómo escalar la narrativa sin perder consistencia cuando se trabaja con múltiples integradores y públicos simultáneamente. El rol de marketing en empresas B2B tech que necesitan educar antes de vender.\n- **Ángulo MSG1:** La publicación sobre certificación Vambe y reflexión sobre el rol del marketing. No desde el cargo, sino desde una creencia profesional que decidió compartir públicamente.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Claudia, gracias por conectar. 👋\n>\n> Me llamó la atención la publicación de hace poco sobre Vambe y cómo pensás el rol del marketing no como pura generación de leads, sino como facilitador del equilibrio entre automatización y gestión humana. No es algo que muchos plantean así públicamente.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

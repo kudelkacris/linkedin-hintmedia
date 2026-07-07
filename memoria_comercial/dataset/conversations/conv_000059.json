@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000059",
+  "contact_id": "ctc_000089",
+  "source_file": "conversaciones/julio/julia-s-nchez.md",
+  "fingerprint": "sha256:297b121b24a067af4e2444de915a8e2b6bcc2a9ea23e215264c5e4d281cf16f8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/julia-s-nchez.md",
+    "file_hash": "sha256:297b121b24a067af4e2444de915a8e2b6bcc2a9ea23e215264c5e4d281cf16f8",
+    "file_modified": "2026-07-02T00:01:40.114243+00:00",
+    "file_size": 2366,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Julia Sánchez",
+    "empresa": "Stoïk",
+    "cargo": "Marketing and Communications Manager @ Stoïk",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Julia, gracias por conectar! 👋\n\nMe llamó mucho la atención la publicación que compartiste sobre trabajar entre España, Italia, Portugal y LATAM — especialmente cuando decís que \"cada cultura te cambia la mirada\" y que lo que funciona perfecto en un lado necesita un giro completo en otro. No es lo que la mayoría cuenta cuando describe qué hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación \"ADÁPTALO\" (6 meses atrás) donde reflexiona sobre trabajar entre España, Italia, Portugal y LATAM: \"cada cultura te cambia la mirada. Lo que en un país funciona perfecto, en otro necesita un giro. A veces basta cambiar un nombre en un visual, otras hay que replantear el mensaje entero, el tono, el ritmo.\" Revela no solo una complejidad operativa sino una filosofía de trabajo: \"esta mezcla de culturas te obliga a soltar tus certezas, a frenar, a escuchar, a mirar más profundo\". Decisión explícita de compartir vulnerabilidad profesional y humildad como aprendizaje.",
+    "hipotesis": "Conversación sobre cómo escalar marketing/comunicación sin que la ejecución local pierda coherencia global. Cómo mantener equipo distribuido alienado en contextos culturales muy distintos. Cómo sostener crecimiento sin que todo pase por una sola persona (ella misma). Posible interés en construcción de procesos y ejecución que acompañe la ambición comercial.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Julia Sánchez]\n[EMPRESA: Stoïk]\n[CARGO: Marketing and Communications Manager @ Stoïk]\n[SECTOR: Ciberseguridad B2B / SaaS]\n[PAIS: España]\n[SENAL: Publicación \"ADÁPTALO\" (6 meses atrás) donde reflexiona sobre trabajar entre España, Italia, Portugal y LATAM: \"cada cultura te cambia la mirada. Lo que en un país funciona perfecto, en otro necesita un giro. A veces basta cambiar un nombre en un visual, otras hay que replantear el mensaje entero, el tono, el ritmo.\" Revela no solo una complejidad operativa sino una filosofía de trabajo: \"esta mezcla de culturas te obliga a soltar tus certezas, a frenar, a escuchar, a mirar más profundo\". Decisión explícita de compartir vulnerabilidad profesional y humildad como aprendizaje.]\n[HIPOTESIS: Conversación sobre cómo escalar marketing/comunicación sin que la ejecución local pierda coherencia global. Cómo mantener equipo distribuido alienado en contextos culturales muy distintos. Cómo sostener crecimiento sin que todo pase por una sola persona (ella misma). Posible interés en construcción de procesos y ejecución que acompañe la ambición comercial.]\n\n[MSG1]\nJulia, gracias por conectar! 👋\n\nMe llamó mucho la atención la publicación que compartiste sobre trabajar entre España, Italia, Portugal y LATAM — especialmente cuando decís que \"cada cultura te cambia la mirada\" y que lo que funciona perfecto en un lado necesita un giro completo en otro. No es lo que la mayoría cuenta cuando describe qué hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Julia Sánchez\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing and Communications Manager @ Stoïk\n**Empresa:** Stoïk\n**Pais:** España\n**Sector:** Ciberseguridad B2B / SaaS\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación \"ADÁPTALO\" (6 meses atrás) donde reflexiona sobre trabajar entre España, Italia, Portugal y LATAM: \"cada cultura te cambia la mirada. Lo que en un país funciona perfecto, en otro necesita un giro. A veces basta cambiar un nombre en un visual, otras hay que replantear el mensaje entero, el tono, el ritmo.\" Revela no solo una complejidad operativa sino una filosofía de trabajo: \"esta mezcla de culturas te obliga a soltar tus certezas, a frenar, a escuchar, a mirar más profundo\". Decisión explícita de compartir vulnerabilidad profesional y humildad como aprendizaje.\n- **Tensión profesional:** Escalar comunicación y marketing en múltiples mercados sin perder consistencia de marca ni ejecución local. Adaptación constante vs. coherencia global. Mantener calidad de mensaje mientras crece la complejidad geográfica y operativa. Coordinar equipos distribuidos que funcionan en tiempo real sin perder conexión humana.\n- **Hipótesis:** Conversación sobre cómo escalar marketing/comunicación sin que la ejecución local pierda coherencia global. Cómo mantener equipo distribuido alienado en contextos culturales muy distintos. Cómo sostener crecimiento sin que todo pase por una sola persona (ella misma). Posible interés en construcción de procesos y ejecución que acompañe la ambición comercial.\n- **Ángulo MSG1:** Partir de la observación sobre adaptación cultural y complejidad operativa de trabajar multi-mercado. Demostrar que se leyó la reflexión específica sobre \"soltar certezas\" y \"evolucionar\" — no solo que se leyó el cargo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Julia, gracias por conectar! 👋\n>\n> Me llamó mucho la atención la publicación que compartiste sobre trabajar entre España, Italia, Portugal y LATAM — especialmente cuando decís que \"cada cultura te cambia la mirada\" y que lo que funciona perfecto en un lado necesita un giro completo en otro. No es lo que la mayoría cuenta cuando describe qué hace.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

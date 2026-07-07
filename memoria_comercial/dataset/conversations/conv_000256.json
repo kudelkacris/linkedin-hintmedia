@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000256",
+  "contact_id": "ctc_000350",
+  "source_file": "conversaciones/junio/roberto-jose-gutierrez-vasquez.md",
+  "fingerprint": "sha256:e3e02c3c7b94b65bd227af60b760d3de69a0e1e561f050b8d0b6fb39e358c31b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/roberto-jose-gutierrez-vasquez.md",
+    "file_hash": "sha256:e3e02c3c7b94b65bd227af60b760d3de69a0e1e561f050b8d0b6fb39e358c31b",
+    "file_modified": "2026-06-23T21:44:31.996600+00:00",
+    "file_size": 2370,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Roberto José Gutiérrez Vásquez",
+    "empresa": "AGE Holding",
+    "cargo": "Gerente General - Seguros",
+    "pais": "Costa Rica",
+    "fecha": "10/06/26",
+    "estado_texto": "Dossier enviado (a roberto.gutierrezv@ageseguros.com), SEG1 enviado 23/06/26"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Roberto, gracias por conectar. Un gusto.\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que en los últimos 9 años construyeras iniciativas de transformación digital desde cero en tres países simultáneamente — eso no es lineal. Además, ahora estás en el rol donde esa experiencia tiene que convertirse en crecimiento de revenue inmediato.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Adelante con la duda",
+    "msg2_texto": "Roberto, un gusto también.\n\nLo que me quedó fue eso — construir transformación digital en tres mercados al mismo tiempo implica que cada equipo local tiene que ejecutar a la misma velocidad. El desafío ahora en AGE es parecido: arrancar con fuerza en un sector nuevo sin esperar a que el equipo interno esté rodado.\n\nDesde Hint Media trabajamos con equipos en esa transición — sumamos capacidad de ejecución en contenido, digital y comunicación para que el arranque no dependa solo de lo interno. Hemos trabajado con Libra Seguros, Destiny Group y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Roberto, como estas? No sé si llegaste a ver el material que te mandamos.\nMe quedó esa idea de los tres mercados al mismo tiempo, cada equipo local exigiendo la misma velocidad de ejecución.\nEso suele marcar la diferencia entre arrancar fuerte en un sector nuevo o quedar atado al ritmo del equipo interno mientras se rueda.\nSi te parece que puede aportar valor en ese arranque, coordinamos 15 minutos y vemos si aplica.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "adelante",
+      "duda"
+    ],
+    "notas": "- Variante C (trabajo) — transformación digital en 3 países, ahora nuevo rol en seguros\n- Anterior: 9 años en Grupo LAFISE (Sales Manager)\n- Pain point: nuevo en AGE Holding hace 4 meses, necesita arrancar rápido en sector seguros\n- Clientes usados: Libra Seguros, Destiny Group (seguros/finanzas — correcto)\n- 1.912 seguidores, +500 contactos — perfil con alcance"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Roberto José Gutiérrez Vásquez]\n[EMPRESA: AGE Holding]\n[CARGO: Gerente General - Seguros]\n[SECTOR: Seguros / Finanzas]\n[PAIS: Costa Rica]\n\n[MSG1]\nRoberto, gracias por conectar. Un gusto.\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que en los últimos 9 años construyeras iniciativas de transformación digital desde cero en tres países simultáneamente — eso no es lineal. Además, ahora estás en el rol donde esa experiencia tiene que convertirse en crecimiento de revenue inmediato.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nAdelante con la duda\n\n[MSG2]\nRoberto, un gusto también.\n\nLo que me quedó fue eso — construir transformación digital en tres mercados al mismo tiempo implica que cada equipo local tiene que ejecutar a la misma velocidad. El desafío ahora en AGE es parecido: arrancar con fuerza en un sector nuevo sin esperar a que el equipo interno esté rodado.\n\nDesde Hint Media trabajamos con equipos en esa transición — sumamos capacidad de ejecución en contenido, digital y comunicación para que el arranque no dependa solo de lo interno. Hemos trabajado con Libra Seguros, Destiny Group y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[SEG1]\nRoberto, como estas? No sé si llegaste a ver el material que te mandamos.\nMe quedó esa idea de los tres mercados al mismo tiempo, cada equipo local exigiendo la misma velocidad de ejecución.\nEso suele marcar la diferencia entre arrancar fuerte en un sector nuevo o quedar atado al ritmo del equipo interno mientras se rueda.\nSi te parece que puede aportar valor en ese arranque, coordinamos 15 minutos y vemos si aplica.\n\n[NOTAS]\n- Variante C (trabajo) — transformación digital en 3 países, ahora nuevo rol en seguros\n- Anterior: 9 años en Grupo LAFISE (Sales Manager)\n- Pain point: nuevo en AGE Holding hace 4 meses, necesita arrancar rápido en sector seguros\n- Clientes usados: Libra Seguros, Destiny Group (seguros/finanzas — correcto)\n- 1.912 seguidores, +500 contactos — perfil con alcance",
+    "raw_md": "# Roberto José Gutiérrez Vásquez\n**Fecha:** 10/06/26\n**Empresa:** AGE Holding\n**Cargo:** Gerente General - Seguros\n**País:** Costa Rica\n**Sector:** Seguros / Finanzas\n**Estado:** Dossier enviado (a roberto.gutierrezv@ageseguros.com), SEG1 enviado 23/06/26\n\n---\n\n## MSG1\n> Roberto, gracias por conectar. Un gusto.\n>\n> Estuve revisando un poco lo que venís haciendo. Me llamó la atención que en los últimos 9 años construyeras iniciativas de transformación digital desde cero en tres países simultáneamente — eso no es lineal. Además, ahora estás en el rol donde esa experiencia tiene que convertirse en crecimiento de revenue inmediato.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Adelante con la duda\n\n## MSG2\n> Roberto, un gusto también.\n>\n> Lo que me quedó fue eso — construir transformación digital en tres mercados al mismo tiempo implica que cada equipo local tiene que ejecutar a la misma velocidad. El desafío ahora en AGE es parecido: arrancar con fuerza en un sector nuevo sin esperar a que el equipo interno esté rodado.\n>\n> Desde Hint Media trabajamos con equipos en esa transición — sumamos capacidad de ejecución en contenido, digital y comunicación para que el arranque no dependa solo de lo interno. Hemos trabajado con Libra Seguros, Destiny Group y otros con ese tipo de exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## SEG1 (enviado 23/06/26, engagement MEDIUM)\n> Roberto, como estas? No sé si llegaste a ver el material que te mandamos.\n> Me quedó esa idea de los tres mercados al mismo tiempo, cada equipo local exigiendo la misma velocidad de ejecución.\n> Eso suele marcar la diferencia entre arrancar fuerte en un sector nuevo o quedar atado al ritmo del equipo interno mientras se rueda.\n> Si te parece que puede aportar valor en ese arranque, coordinamos 15 minutos y vemos si aplica.\n\n## Notas\n- Variante C (trabajo) — transformación digital en 3 países, ahora nuevo rol en seguros\n- Anterior: 9 años en Grupo LAFISE (Sales Manager)\n- Pain point: nuevo en AGE Holding hace 4 meses, necesita arrancar rápido en sector seguros\n- Clientes usados: Libra Seguros, Destiny Group (seguros/finanzas — correcto)\n- 1.912 seguidores, +500 contactos — perfil con alcance\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

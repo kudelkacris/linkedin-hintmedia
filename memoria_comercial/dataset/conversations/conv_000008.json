@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000008",
+  "contact_id": "ctc_000043",
+  "source_file": "conversaciones/julio/andr-s-cort-s-andrade.md",
+  "fingerprint": "sha256:26cebf103c4f4d2654ef64f3132696965af44333ed72306dd7328baa10ad86e9",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/andr-s-cort-s-andrade.md",
+    "file_hash": "sha256:26cebf103c4f4d2654ef64f3132696965af44333ed72306dd7328baa10ad86e9",
+    "file_modified": "2026-07-06T19:52:52.577262+00:00",
+    "file_size": 3072,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Andrés Cortés Andrade",
+    "empresa": "Periodismo Cultural y Artes Escénicas",
+    "cargo": "Periodista Digital | Comunicaciones & Contenidos | Especialización en Periodismo Cultural y Artes Escénicas",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrés, gracias por conectar! 👋\n\nEstuve viendo la cobertura de la entrevista con el alcalde Sichel en Radio Agricultura. Lo que me quedó fue que elegiste la presencialidad como valor: \"diálogo directo y cercanía con quienes toman decisiones\". No es lo que la mayoría destaca cuando cubre política o gestión local. Casi todos van por el titular.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, qué tal? Cuéntame a ver si te puedo ayudar",
+    "msg2_texto": "Buenas Andrés! Te cuento.\nLo que me interesó de tu trabajo es que tenés una filosofía editorial clara: profundidad, presencialidad, visibilización de lo que los grandes medios no cubren. Cómo sostenés eso a medida que la producción crece?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a comunicadores y medios a construir estrategia de contenido consistente: que escale sin que la identidad editorial se pierda. Trabajamos con Destiny Group en contenido y comunicación.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre la entrevista al alcalde Sichel en \"La Mañana de Agricultura\" donde destaca \"diálogo directo y cercanía con quienes toman decisiones en el ámbito público\". Revela que para él la credibilidad nace de la conversación presencial y el acceso directo, no del comunicado. También: comparte regularmente convocatorias y oportunidades del sector cultural sin buscar nada a cambio — señal de que valora la visibilización y la comunidad por encima del beneficio inmediato.",
+    "hipotesis": "Cómo construir una estrategia de contenido que sostenga la credibilidad editorial mientras escala producción. Cómo posicionarse como voz de referencia en cultura sin depender de un solo canal. La transición de productor de contenido a gestor de narrativa editorial.",
+    "palabras_clave": [
+      "florencia",
+      "cuentame",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrés Cortés Andrade]\n[EMPRESA: Periodismo Cultural y Artes Escénicas]\n[CARGO: Periodista Digital | Comunicaciones & Contenidos | Especialización en Periodismo Cultural y Artes Escénicas]\n[SECTOR: Medios / Comunicación / Cultura]\n[PAIS: Chile]\n[SENAL: La publicación sobre la entrevista al alcalde Sichel en \"La Mañana de Agricultura\" donde destaca \"diálogo directo y cercanía con quienes toman decisiones en el ámbito público\". Revela que para él la credibilidad nace de la conversación presencial y el acceso directo, no del comunicado. También: comparte regularmente convocatorias y oportunidades del sector cultural sin buscar nada a cambio — señal de que valora la visibilización y la comunidad por encima del beneficio inmediato.]\n[HIPOTESIS: Cómo construir una estrategia de contenido que sostenga la credibilidad editorial mientras escala producción. Cómo posicionarse como voz de referencia en cultura sin depender de un solo canal. La transición de productor de contenido a gestor de narrativa editorial.]\n\n[MSG1]\nAndrés, gracias por conectar! 👋\n\nEstuve viendo la cobertura de la entrevista con el alcalde Sichel en Radio Agricultura. Lo que me quedó fue que elegiste la presencialidad como valor: \"diálogo directo y cercanía con quienes toman decisiones\". No es lo que la mayoría destaca cuando cubre política o gestión local. Casi todos van por el titular.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, qué tal? Cuéntame a ver si te puedo ayudar\n\n[MSG2]\nBuenas Andrés! Te cuento.\nLo que me interesó de tu trabajo es que tenés una filosofía editorial clara: profundidad, presencialidad, visibilización de lo que los grandes medios no cubren. Cómo sostenés eso a medida que la producción crece?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a comunicadores y medios a construir estrategia de contenido consistente: que escale sin que la identidad editorial se pierda. Trabajamos con Destiny Group en contenido y comunicación.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "raw_md": "# Andrés Cortés Andrade\n\n**Fecha:** 06/07/26\n**Cargo:** Periodista Digital | Comunicaciones & Contenidos | Especialización en Periodismo Cultural y Artes Escénicas\n**Empresa:** Periodismo Cultural y Artes Escénicas\n**Pais:** Chile\n**Sector:** Medios / Comunicación / Cultura\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre la entrevista al alcalde Sichel en \"La Mañana de Agricultura\" donde destaca \"diálogo directo y cercanía con quienes toman decisiones en el ámbito público\". Revela que para él la credibilidad nace de la conversación presencial y el acceso directo, no del comunicado. También: comparte regularmente convocatorias y oportunidades del sector cultural sin buscar nada a cambio — señal de que valora la visibilización y la comunidad por encima del beneficio inmediato.\n- **Tensión profesional:** Equilibrar la visibilización de lo marginal (teatro independiente, artes escénicas que los masivos no cubren) con la operación de un medio que necesita escala y audiencia. Amplificar voces sin perder profundidad editorial.\n- **Hipótesis:** Cómo construir una estrategia de contenido que sostenga la credibilidad editorial mientras escala producción. Cómo posicionarse como voz de referencia en cultura sin depender de un solo canal. La transición de productor de contenido a gestor de narrativa editorial.\n- **Ángulo MSG1:** La forma deliberada en que Andrés comunica — eligiendo la conversación presencial como valor (no el comunicado), compartiendo oportunidades sin esperar retorno (visibilidad como bien común) — revela una filosofía editorial clara que ahora, desde comunicaciones, necesita traducirse en operación constante.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Andrés, gracias por conectar! 👋\n>\n> Estuve viendo la cobertura de la entrevista con el alcalde Sichel en Radio Agricultura. Lo que me quedó fue que elegiste la presencialidad como valor: \"diálogo directo y cercanía con quienes toman decisiones\". No es lo que la mayoría destaca cuando cubre política o gestión local. Casi todos van por el titular.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia, qué tal? Cuéntame a ver si te puedo ayudar\n\n---\n\n## MSG2\n> Buenas Andrés! Te cuento.\n> Lo que me interesó de tu trabajo es que tenés una filosofía editorial clara: profundidad, presencialidad, visibilización de lo que los grandes medios no cubren. Cómo sostenés eso a medida que la producción crece?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a comunicadores y medios a construir estrategia de contenido consistente: que escale sin que la identidad editorial se pierda. Trabajamos con Destiny Group en contenido y comunicación.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

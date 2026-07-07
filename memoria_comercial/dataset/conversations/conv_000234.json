@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000234",
+  "contact_id": "ctc_000420",
+  "source_file": "conversaciones/junio/meline-gejekoushian.md",
+  "fingerprint": "sha256:1df5371e4e435f60ca71217c2f00b5fdab7328e3ef2b2a06c98b7c11b1111ef5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/meline-gejekoushian.md",
+    "file_hash": "sha256:1df5371e4e435f60ca71217c2f00b5fdab7328e3ef2b2a06c98b7c11b1111ef5",
+    "file_modified": "2026-07-01T15:55:15.588462+00:00",
+    "file_size": 1547,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Meliné Gejekoushian",
+    "empresa": "Biofarma",
+    "cargo": "Responsable de Comunicación en Biofarma",
+    "pais": "",
+    "fecha": "08/06/26 (MSG1) — MSG2 08/06/26 — respuesta 18/06/26",
+    "estado_texto": "RECONTACTO 01/10/26. No buscan proveedor ahora, dejó mail comunicacion@biofarmaweb.com.ar para tenerlo a mano. Dossier enviado por mail. Recontactar octubre."
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Meliné, gracias por conectar! Vi que en Addventure coordinabas los Demo Days y generabas espacios de networking entre inversores y startups. Ahora en Biofarma estás a cargo de la comunicación institucional, imagen, redes, contenido, medios. Claramente escalaste el tipo de comunicación que manejás.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cómo estás? Si, es correcto. Decime en qué puedo ayudarte.",
+    "msg2_texto": "Hola Meliné, todo bien por acá. Te cuento. En Hint Media trabajamos comunicación institucional y contenido para empresas que necesitan esa parte tan cuidada como la tuya en Biofarma, hemos trabajado con Libra Seguros y Destiny Group en ese tipo de estructura. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Buen día. Por el momento no estamos buscando un proveedor para tal servicio, pero claro que te comparto mi correo así podes enviarme la propuesta y que la tengamos a mano en caso de necesidad: comunicacion@biofarmaweb.com.ar Saludos!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "correcto",
+      "decime",
+      "puedo",
+      "ayudarte",
+      "buen",
+      "momento",
+      "estamos",
+      "buscando"
+    ],
+    "notas": "- Enviar dossier al mail para que lo tengan a mano. No insistir más, queda en pipeline frío."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Meliné Gejekoushian]\n[EMPRESA: Biofarma]\n[CARGO: Responsable de Comunicación en Biofarma]\n\n[MSG1]\nMeliné, gracias por conectar! Vi que en Addventure coordinabas los Demo Days y generabas espacios de networking entre inversores y startups. Ahora en Biofarma estás a cargo de la comunicación institucional, imagen, redes, contenido, medios. Claramente escalaste el tipo de comunicación que manejás.\n\n[RESPUESTA_MSG1]\nHola Florencia, cómo estás? Si, es correcto. Decime en qué puedo ayudarte.\n\n[MSG2]\nHola Meliné, todo bien por acá. Te cuento. En Hint Media trabajamos comunicación institucional y contenido para empresas que necesitan esa parte tan cuidada como la tuya en Biofarma, hemos trabajado con Libra Seguros y Destiny Group en ese tipo de estructura. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nBuen día. Por el momento no estamos buscando un proveedor para tal servicio, pero claro que te comparto mi correo así podes enviarme la propuesta y que la tengamos a mano en caso de necesidad: comunicacion@biofarmaweb.com.ar Saludos!\n\n[NOTAS]\n- Enviar dossier al mail para que lo tengan a mano. No insistir más, queda en pipeline frío.",
+    "raw_md": "# Meliné Gejekoushian\n\n**Estado:** RECONTACTO 01/10/26. No buscan proveedor ahora, dejó mail comunicacion@biofarmaweb.com.ar para tenerlo a mano. Dossier enviado por mail. Recontactar octubre.\n**Fecha:** 08/06/26 (MSG1) — MSG2 08/06/26 — respuesta 18/06/26\n**Cargo:** Responsable de Comunicación en Biofarma\n**Empresa:** Biofarma\n**Mail:** comunicacion@biofarmaweb.com.ar\n\n## MSG1\n> Meliné, gracias por conectar! Vi que en Addventure coordinabas los Demo Days y generabas espacios de networking entre inversores y startups. Ahora en Biofarma estás a cargo de la comunicación institucional, imagen, redes, contenido, medios. Claramente escalaste el tipo de comunicación que manejás.\n\n## Respuesta MSG1\n> Hola Florencia, cómo estás? Si, es correcto. Decime en qué puedo ayudarte.\n\n## MSG2\n> Hola Meliné, todo bien por acá. Te cuento. En Hint Media trabajamos comunicación institucional y contenido para empresas que necesitan esa parte tan cuidada como la tuya en Biofarma, hemos trabajado con Libra Seguros y Destiny Group en ese tipo de estructura. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (18/06/26)\n> Buen día. Por el momento no estamos buscando un proveedor para tal servicio, pero claro que te comparto mi correo así podes enviarme la propuesta y que la tengamos a mano en caso de necesidad: comunicacion@biofarmaweb.com.ar Saludos!\n\n## Notas\n- Enviar dossier al mail para que lo tengan a mano. No insistir más, queda en pipeline frío.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

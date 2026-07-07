@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000069",
+  "contact_id": "ctc_000005",
+  "source_file": "conversaciones/julio/marc-roca.md",
+  "fingerprint": "sha256:d06bab0df2f6c0278b6ea6ae6288a2f59c1e8750ec2a7b8f9a08756fa0df10a4",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/marc-roca.md",
+    "file_hash": "sha256:d06bab0df2f6c0278b6ea6ae6288a2f59c1e8750ec2a7b8f9a08756fa0df10a4",
+    "file_modified": "2026-07-06T16:05:00.389195+00:00",
+    "file_size": 2784,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Marc Roca",
+    "empresa": "Acuarium Piscinas & Spas",
+    "cargo": "CMO @ Acuarium Piscinas & Spas | Brand Manager @ Purax",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Marc, gracias por conectar. 👋\n\nMe llamó la atención que cada 2-3 semanas publiques una nueva convocatoria en Acuarium. No es lo típico para un CMO, la mayoría no usa LinkedIn para reclutamiento. Pero vos parecés estar haciendo algo distinto: cada puesto que abrís es también una forma de comunicar que la empresa está creciendo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, que tal? Así es, una forma de comunicar que estamos creciendo. Como te puedo ayudar?",
+    "msg2_texto": "Buenas Marc! Justo lo que decís.\nSi las convocatorias son una forma de comunicar que están creciendo, qué otras capas de esa narrativa están construyendo para que ese crecimiento llegue también a clientes, socios o medios?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a marcas en crecimiento a construir esa narrativa de forma consistente en todos los canales: contenido, branding, paid media. Trabajamos con Destiny Group en comunicación y posicionamiento de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Patrón recurrente de publicaciones reclutando activamente. Las últimas 6 publicaciones en 12 meses son convocatorias para distintas áreas. Esto sugiere que Marc está activamente comunicando el crecimiento de la empresa y usando LinkedIn como canal de talent acquisition. La frecuencia (cada 2-4 semanas) indica expansión sostenida.",
+    "hipotesis": "Cómo escalar la comunicación de marca durante una etapa de crecimiento acelerado sin que dependa únicamente de una persona. Cómo convertir el reclutamiento y el crecimiento en una narrativa consistente de marca.",
+    "palabras_clave": [
+      "florencia",
+      "forma",
+      "comunicar",
+      "estamos",
+      "creciendo",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Marc Roca]\n[EMPRESA: Acuarium Piscinas & Spas]\n[CARGO: CMO @ Acuarium Piscinas & Spas | Brand Manager @ Purax]\n[SECTOR: Retail / Distribución / Servicios (piscinas, spas)]\n[PAIS: Costa Rica]\n[SENAL: Patrón recurrente de publicaciones reclutando activamente. Las últimas 6 publicaciones en 12 meses son convocatorias para distintas áreas. Esto sugiere que Marc está activamente comunicando el crecimiento de la empresa y usando LinkedIn como canal de talent acquisition. La frecuencia (cada 2-4 semanas) indica expansión sostenida.]\n[HIPOTESIS: Cómo escalar la comunicación de marca durante una etapa de crecimiento acelerado sin que dependa únicamente de una persona. Cómo convertir el reclutamiento y el crecimiento en una narrativa consistente de marca.]\n\n[MSG1]\nMarc, gracias por conectar. 👋\n\nMe llamó la atención que cada 2-3 semanas publiques una nueva convocatoria en Acuarium. No es lo típico para un CMO, la mayoría no usa LinkedIn para reclutamiento. Pero vos parecés estar haciendo algo distinto: cada puesto que abrís es también una forma de comunicar que la empresa está creciendo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, que tal? Así es, una forma de comunicar que estamos creciendo. Como te puedo ayudar?\n\n[MSG2]\nBuenas Marc! Justo lo que decís.\nSi las convocatorias son una forma de comunicar que están creciendo, qué otras capas de esa narrativa están construyendo para que ese crecimiento llegue también a clientes, socios o medios?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a marcas en crecimiento a construir esa narrativa de forma consistente en todos los canales: contenido, branding, paid media. Trabajamos con Destiny Group en comunicación y posicionamiento de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[MSG3]\ngracias, sí, me lo podes mandar por aquí",
+    "raw_md": "# Marc Roca\n\n**Fecha:** 06/07/26\n**Cargo:** CMO @ Acuarium Piscinas & Spas | Brand Manager @ Purax\n**Empresa:** Acuarium Piscinas & Spas\n**Pais:** Costa Rica\n**Sector:** Retail / Distribución / Servicios (piscinas, spas)\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Patrón recurrente de publicaciones reclutando activamente. Las últimas 6 publicaciones en 12 meses son convocatorias para distintas áreas. Esto sugiere que Marc está activamente comunicando el crecimiento de la empresa y usando LinkedIn como canal de talent acquisition. La frecuencia (cada 2-4 semanas) indica expansión sostenida.\n- **Tensión profesional:** Mantener coherencia de marca y mensajería corporativa mientras la empresa crece rápidamente en múltiples frentes simultáneamente. A mayor expansión, mayor complejidad de coordinar narrativa, equipos y ejecución.\n- **Hipótesis:** Cómo escalar la comunicación de marca durante una etapa de crecimiento acelerado sin que dependa únicamente de una persona. Cómo convertir el reclutamiento y el crecimiento en una narrativa consistente de marca.\n- **Ángulo MSG1:** Patrón recurrente de reclutamiento = comunicación activa de crecimiento de la empresa. Oportunidad de conversación sobre cómo sostener esa narrativa de expansión de forma consistente.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Marc, gracias por conectar. 👋\n>\n> Me llamó la atención que cada 2-3 semanas publiques una nueva convocatoria en Acuarium. No es lo típico para un CMO, la mayoría no usa LinkedIn para reclutamiento. Pero vos parecés estar haciendo algo distinto: cada puesto que abrís es también una forma de comunicar que la empresa está creciendo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia, que tal? Así es, una forma de comunicar que estamos creciendo. Como te puedo ayudar?\n\n---\n\n## MSG2\n> Buenas Marc! Justo lo que decís.\n> Si las convocatorias son una forma de comunicar que están creciendo, qué otras capas de esa narrativa están construyendo para que ese crecimiento llegue también a clientes, socios o medios?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a marcas en crecimiento a construir esa narrativa de forma consistente en todos los canales: contenido, branding, paid media. Trabajamos con Destiny Group en comunicación y posicionamiento de marca.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Dossier\n> gracias, sí, me lo podes mandar por aquí\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

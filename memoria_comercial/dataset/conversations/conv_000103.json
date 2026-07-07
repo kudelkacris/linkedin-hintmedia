@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000103",
+  "contact_id": "ctc_000046",
+  "source_file": "conversaciones/julio/walid-issa-fares.md",
+  "fingerprint": "sha256:f6f40e5ad59ff1c58b54b78a175c9d6de37f11ec4acf2c0b0d3444a17abe0264",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/walid-issa-fares.md",
+    "file_hash": "sha256:f6f40e5ad59ff1c58b54b78a175c9d6de37f11ec4acf2c0b0d3444a17abe0264",
+    "file_modified": "2026-07-06T14:54:17.757680+00:00",
+    "file_size": 1996,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Walid Issa Fares",
+    "empresa": "Colombia",
+    "cargo": "",
+    "pais": "Colombia",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Walid, gracias por conectar! 👋\n\nMe llamó mucho la atención cómo describiste la búsqueda del Líder de Mercadeo. No fue solo un aviso de empleo. Describiste exactamente lo que NO encontrás: alguien que convierta marketing en ventas, que integre canales sin fragmentar. Y eso me quedó: si ese es el vacío, es porque ya sabés que el crecimiento sin ejecución coherente no llega a ningún lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La insistencia pública repetida (7 publicaciones) sobre búsqueda de talento, donde Walid especifica exactamente qué NO busca (\"no solo likes\", \"no talento promedio\", \"jugar en grande\") y el lenguaje emocional-estratégico que usa. Reveló su propia frustración operativa: busca alguien que \"piense como estratega y actúe como ejecutor\" porque claramente eso es lo que le falta en la ejecución cotidiana.",
+    "hipotesis": "¿Cómo mantiene Walid la ejecución ágil mientras delega? ¿Quién convierte su visión de marca en narrativa consistente en cada canal? ¿Cómo evita que el crecimiento termine siendo solo volumen sin coherencia?",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Walid Issa Fares]\n[EMPRESA: Colombia]\n[SECTOR: Perfumería / Consumo]\n[PAIS: Colombia]\n[SENAL: La insistencia pública repetida (7 publicaciones) sobre búsqueda de talento, donde Walid especifica exactamente qué NO busca (\"no solo likes\", \"no talento promedio\", \"jugar en grande\") y el lenguaje emocional-estratégico que usa. Reveló su propia frustración operativa: busca alguien que \"piense como estratega y actúe como ejecutor\" porque claramente eso es lo que le falta en la ejecución cotidiana.]\n[HIPOTESIS: ¿Cómo mantiene Walid la ejecución ágil mientras delega? ¿Quién convierte su visión de marca en narrativa consistente en cada canal? ¿Cómo evita que el crecimiento termine siendo solo volumen sin coherencia?]\n\n[MSG1]\nWalid, gracias por conectar! 👋\n\nMe llamó mucho la atención cómo describiste la búsqueda del Líder de Mercadeo. No fue solo un aviso de empleo. Describiste exactamente lo que NO encontrás: alguien que convierta marketing en ventas, que integre canales sin fragmentar. Y eso me quedó: si ese es el vacío, es porque ya sabés que el crecimiento sin ejecución coherente no llega a ningún lado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Walid Issa Fares\n\n**Fecha:** 06/07/26\n**Cargo:**\n**Empresa:** Colombia\n**Pais:** Colombia\n**Sector:** Perfumería / Consumo\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La insistencia pública repetida (7 publicaciones) sobre búsqueda de talento, donde Walid especifica exactamente qué NO busca (\"no solo likes\", \"no talento promedio\", \"jugar en grande\") y el lenguaje emocional-estratégico que usa. Reveló su propia frustración operativa: busca alguien que \"piense como estratega y actúe como ejecutor\" porque claramente eso es lo que le falta en la ejecución cotidiana.\n- **Tensión profesional:** Escalar volumen sin perder identidad de marca; pasar de operación artesanal-founder-driven a operación sistemática con equipos; sostener coherencia visual y narrativa en canales tan distintos (punto de venta, WhatsApp, pauta, e-commerce) mientras crece geografía.\n- **Hipótesis:** ¿Cómo mantiene Walid la ejecución ágil mientras delega? ¿Quién convierte su visión de marca en narrativa consistente en cada canal? ¿Cómo evita que el crecimiento termine siendo solo volumen sin coherencia?\n- **Ángulo MSG1:** La búsqueda pública repetida de talento es síntoma de que hay un gap de ejecución. No es un problema de visión (Walid la tiene clara), es un problema de traducción de esa visión en contenido, comunicación y operación diaria que sea consistente.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Walid, gracias por conectar! 👋\n>\n> Me llamó mucho la atención cómo describiste la búsqueda del Líder de Mercadeo. No fue solo un aviso de empleo. Describiste exactamente lo que NO encontrás: alguien que convierta marketing en ventas, que integre canales sin fragmentar. Y eso me quedó: si ese es el vacío, es porque ya sabés que el crecimiento sin ejecución coherente no llega a ningún lado.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

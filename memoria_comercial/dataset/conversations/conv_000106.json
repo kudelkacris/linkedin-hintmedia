@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000106",
+  "contact_id": "ctc_000324",
+  "source_file": "conversaciones/junio/alessandro-stifani.md",
+  "fingerprint": "sha256:b818eadb7d2a7532df8c6d5f04a3ee6caa8d38c748a1400cd435801e816e9d5e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/alessandro-stifani.md",
+    "file_hash": "sha256:b818eadb7d2a7532df8c6d5f04a3ee6caa8d38c748a1400cd435801e816e9d5e",
+    "file_modified": "2026-06-12T16:04:10.230707+00:00",
+    "file_size": 792,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Alessandro Stifani",
+    "empresa": "Club Las Lomas",
+    "cargo": "General Manager",
+    "pais": "Jalisco, México",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Alessandro Stifani]\n[EMPRESA: Club Las Lomas]\n[CARGO: General Manager]\n[PAIS: Jalisco, México]",
+    "raw_md": "---\nname: alessandro-stifani\ndescription: MSG2 enviado, General Manager Club Las Lomas Jalisco México, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Alessandro Stifani\n**Cargo:** General Manager\n**Empresa:** Club Las Lomas\n**País:** Jalisco, México\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre el British Butler Institute: reconoció al equipo primero, no anunció el programa ni los números\n- Respondió: \"Buen dia, Florencia, diga\" (sin saludar ni preguntar cómo está)\n- MSG2 enviado — gap: club con experiencia de primer nivel (torneos, capacitaciones, eventos) pero la comunicación del prestigio hacia afuera no siempre está al mismo nivel. Mención Destiny Group.\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

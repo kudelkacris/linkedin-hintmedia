@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000266",
+  "contact_id": "ctc_000133",
+  "source_file": "conversaciones/junio/valentina-nunez.md",
+  "fingerprint": "sha256:9d6bdc07d44691158e99b8b3175d53534e84daa65571fbf95d895d56eed43e90",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/valentina-nunez.md",
+    "file_hash": "sha256:9d6bdc07d44691158e99b8b3175d53534e84daa65571fbf95d895d56eed43e90",
+    "file_modified": "2026-06-20T16:59:54.825943+00:00",
+    "file_size": 1685,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Valentina Nuñez",
+    "empresa": "Knight Therapeutics Argentina",
+    "cargo": "Analista de Marketing",
+    "pais": "Argentina",
+    "fecha": "20/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Valentina, gracias por conectar! 👋\nMe llamó la atención que en los posts sobre los eventos que coordinaron en Knight (Speaker Training, Advisory Board, los Nights), Georgina te mencionara específicamente por la \"impecable organización y gestión\". No es lo habitual que alguien destaque eso en eventos así, normalmente quedás invisible detrás del resultado.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola florencia! Cómo estás? Un gusto saludarte! Que lindo mensaje!! gracias por tomarte el tiempo de escribirme y por tus palabras 😊\nObvio, decime como te puedo ayudar",
+    "msg2_texto": "Hola Valentina, qué lindo leerte así! Gracias a vos por la buena onda 😊\nTe cuento, lo que más me gustó fue esa mención de Georgina sobre tu organización impecable. Porque armar Speaker Trainings, Advisory Boards y los Nights en distintas provincias, todo a la vez y sin que se note el esfuerzo detrás, habla de mucho.\nTe cuento un poco de lo que hacemos: en Hint Media somos una agencia de comunicación, trabajamos justo con empresas de salud y farma en proyectos de contenido y comunicación, como Libra Seguros y Destiny Group.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "gusto",
+      "saludarte",
+      "lindo",
+      "mensaje",
+      "tomarte",
+      "tiempo",
+      "escribirme",
+      "palabras"
+    ],
+    "notas": "- Sector farmacéutico/salud (Knight Therapeutics, hematología/oncología). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Tono cálido, usó emojis y exclamaciones; respuesta igualada en calidez (ameno, no corporativo).\n\nEstado: MSG2 enviado, esperando respuesta"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Valentina Nuñez]\n[EMPRESA: Knight Therapeutics Argentina]\n[CARGO: Analista de Marketing]\n[PAIS: Argentina]\n\n[MSG1]\nValentina, gracias por conectar! 👋\nMe llamó la atención que en los posts sobre los eventos que coordinaron en Knight (Speaker Training, Advisory Board, los Nights), Georgina te mencionara específicamente por la \"impecable organización y gestión\". No es lo habitual que alguien destaque eso en eventos así, normalmente quedás invisible detrás del resultado.\n\n[RESPUESTA_MSG1]\nHola florencia! Cómo estás? Un gusto saludarte! Que lindo mensaje!! gracias por tomarte el tiempo de escribirme y por tus palabras 😊\nObvio, decime como te puedo ayudar\n\n[MSG2]\nHola Valentina, qué lindo leerte así! Gracias a vos por la buena onda 😊\nTe cuento, lo que más me gustó fue esa mención de Georgina sobre tu organización impecable. Porque armar Speaker Trainings, Advisory Boards y los Nights en distintas provincias, todo a la vez y sin que se note el esfuerzo detrás, habla de mucho.\nTe cuento un poco de lo que hacemos: en Hint Media somos una agencia de comunicación, trabajamos justo con empresas de salud y farma en proyectos de contenido y comunicación, como Libra Seguros y Destiny Group.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector farmacéutico/salud (Knight Therapeutics, hematología/oncología). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Tono cálido, usó emojis y exclamaciones; respuesta igualada en calidez (ameno, no corporativo).\n\nEstado: MSG2 enviado, esperando respuesta",
+    "raw_md": "# Valentina Nuñez\n\n**Estado:** MSG2 enviado\n**Fecha:** 20/06/26\n**Cargo:** Analista de Marketing\n**Empresa:** Knight Therapeutics Argentina\n**País:** Argentina\n\n## MSG1\n> Valentina, gracias por conectar! 👋\n> Me llamó la atención que en los posts sobre los eventos que coordinaron en Knight (Speaker Training, Advisory Board, los Nights), Georgina te mencionara específicamente por la \"impecable organización y gestión\". No es lo habitual que alguien destaque eso en eventos así, normalmente quedás invisible detrás del resultado.\n\n## Respuesta MSG1\n> Hola florencia! Cómo estás? Un gusto saludarte! Que lindo mensaje!! gracias por tomarte el tiempo de escribirme y por tus palabras 😊\n> Obvio, decime como te puedo ayudar\n\n## MSG2\n> Hola Valentina, qué lindo leerte así! Gracias a vos por la buena onda 😊\n> Te cuento, lo que más me gustó fue esa mención de Georgina sobre tu organización impecable. Porque armar Speaker Trainings, Advisory Boards y los Nights en distintas provincias, todo a la vez y sin que se note el esfuerzo detrás, habla de mucho.\n> Te cuento un poco de lo que hacemos: en Hint Media somos una agencia de comunicación, trabajamos justo con empresas de salud y farma en proyectos de contenido y comunicación, como Libra Seguros y Destiny Group.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector farmacéutico/salud (Knight Therapeutics, hematología/oncología). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Tono cálido, usó emojis y exclamaciones; respuesta igualada en calidez (ameno, no corporativo).\n\n**Estado:** MSG2 enviado, esperando respuesta\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "conversation_id": "conv_000216",
+  "contact_id": "ctc_000277",
+  "source_file": "conversaciones/junio/marcela-alfaro-ubico.md",
+  "fingerprint": "sha256:09b86b39f2e15e126bc15ed7eb723b1d4948b2b5e32ff4b541123eb3af1f4c4f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/marcela-alfaro-ubico.md",
+    "file_hash": "sha256:09b86b39f2e15e126bc15ed7eb723b1d4948b2b5e32ff4b541123eb3af1f4c4f",
+    "file_modified": "2026-06-23T21:46:32.315882+00:00",
+    "file_size": 998,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Marcela Alfaro Ubico",
+    "empresa": "",
+    "cargo": "",
+    "pais": "",
+    "fecha": "",
+    "estado_texto": ""
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Marcela Alfaro Ubico]",
+    "raw_md": "# Marcela Alfaro Ubico\n\nGerente General CCK Costa Rica (agencia PR/comunicación institucional, reputación, crisis).\n\n- 18/06/26 viernes: MSG2 con rapport sobre publicación viaje RD, crédito a Gilsé en panel de agencias.\n- Lunes: respondió \"Hola, como puedo ayudarte?\"\n- Martes: pitch enviado, TGS + Transener como referencia (sector PR/comunicación institucional).\n- Martes 18:55: confirmó con emojis + \"Sí, claro\" → dossier confirmado.\n\nEstado: dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM, ángulo alianza/complementario por ser agencia PR):\n> Marcela, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que CCK maneja reputación y comunicación institucional a un nivel que después necesita que lo digital y el contenido acompañen a la misma altura, ahí es donde solemos complementar a agencias de PR en vez de competir con ellas. Si te parece, coordinamos 15 minutos y vemos si hay terreno para sumar en algún cliente puntual.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa",
+      "campo_vacio: sector",
+      "campo_vacio: fecha",
+      "campo_vacio: estado"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.25
+  }
+}

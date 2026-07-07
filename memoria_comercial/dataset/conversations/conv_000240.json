@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000240",
+  "contact_id": "ctc_000228",
+  "source_file": "conversaciones/junio/nathaly-bustos-vanegas.md",
+  "fingerprint": "sha256:1f6e8ed5b8d683e8a5700910da8e02ba6207f3b832bb4ad4eed46cf28b397f5a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/nathaly-bustos-vanegas.md",
+    "file_hash": "sha256:1f6e8ed5b8d683e8a5700910da8e02ba6207f3b832bb4ad4eed46cf28b397f5a",
+    "file_modified": "2026-06-18T16:48:44.103299+00:00",
+    "file_size": 2238,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Nathaly Andrea Bustos Vanegas",
+    "empresa": "iké Colombia (incorporación reciente, marzo 2026, antes Directora de Mercadeo en Certicámara S.A.)",
+    "cargo": "Jefe de Marketing",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "18/06/26 (MSG1 y respuesta el mismo día)",
+    "estado_texto": "MSG2 por enviar"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Nathaly, gracias por conectar! Me llamó la atención que hace poco estuvieras en el AISUMMIT2026. Lo que más me gustó fue que en tu post focalizaras en los \"desafíos de los líderes en la implementación\" y no solo en lo que la IA promete. Eso demuestra que mirás el tema desde la ejecución real, no desde la teoría. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Si cuéntame",
+    "msg2_texto": "Hola Nathaly, buena onda!\n\nCuando se habla de los desafíos de implementación de IA y no solo de la promesa, normalmente hay todo un trabajo de sostener esa ejecución real entre distintos equipos y líderes, no solo de comunicar la innovación.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que acompaña la ejecución real de estrategias de marketing y transformación, no solo el discurso. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "cuentame"
+    ],
+    "notas": "- HECHO: post sobre AISUMMIT2026 enfocado en desafíos de implementación de IA, no en la promesa.\n- COMPLEJIDAD: coordinar ejecución real de transformación (IA, GTM, HubSpot) entre equipos/líderes.\n- Experiencia: gestionó eventos 5000+ asistentes, GTM B2B/B2C/B2G, CRM HubSpot end-to-end en Certicámara.\n- Estuvo open to work hace 6 meses, ahora colocada en iké Colombia (4 meses en el cargo).\n- Sector: iké Colombia (asistencia/seguros) → clientes referencia Libra Seguros/Destiny Group."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Nathaly Andrea Bustos Vanegas]\n[EMPRESA: iké Colombia (incorporación reciente, marzo 2026, antes Directora de Mercadeo en Certicámara S.A.)]\n[CARGO: Jefe de Marketing]\n[PAIS: Colombia (Bogotá)]\n\n[MSG1]\nNathaly, gracias por conectar! Me llamó la atención que hace poco estuvieras en el AISUMMIT2026. Lo que más me gustó fue que en tu post focalizaras en los \"desafíos de los líderes en la implementación\" y no solo en lo que la IA promete. Eso demuestra que mirás el tema desde la ejecución real, no desde la teoría. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSi cuéntame\n\n[MSG2]\nHola Nathaly, buena onda!\n\nCuando se habla de los desafíos de implementación de IA y no solo de la promesa, normalmente hay todo un trabajo de sostener esa ejecución real entre distintos equipos y líderes, no solo de comunicar la innovación.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que acompaña la ejecución real de estrategias de marketing y transformación, no solo el discurso. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- HECHO: post sobre AISUMMIT2026 enfocado en desafíos de implementación de IA, no en la promesa.\n- COMPLEJIDAD: coordinar ejecución real de transformación (IA, GTM, HubSpot) entre equipos/líderes.\n- Experiencia: gestionó eventos 5000+ asistentes, GTM B2B/B2C/B2G, CRM HubSpot end-to-end en Certicámara.\n- Estuvo open to work hace 6 meses, ahora colocada en iké Colombia (4 meses en el cargo).\n- Sector: iké Colombia (asistencia/seguros) → clientes referencia Libra Seguros/Destiny Group.",
+    "raw_md": "# Nathaly Andrea Bustos Vanegas\n\n**Estado:** MSG2 por enviar\n**Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)\n**Cargo:** Jefe de Marketing\n**Empresa:** iké Colombia (incorporación reciente, marzo 2026, antes Directora de Mercadeo en Certicámara S.A.)\n**País:** Colombia (Bogotá)\n\n## MSG1\n> Nathaly, gracias por conectar! Me llamó la atención que hace poco estuvieras en el AISUMMIT2026. Lo que más me gustó fue que en tu post focalizaras en los \"desafíos de los líderes en la implementación\" y no solo en lo que la IA promete. Eso demuestra que mirás el tema desde la ejecución real, no desde la teoría. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n⚠ Nota metodológica: este MSG1 usa \"Eso demuestra que mirás...\" que es justo el patrón prohibido por la regla agregada el 18/06/26 (inferencia de rasgo/forma de pensar). Ya fue enviado antes de la regla, queda como aprendizaje, no repetir el patrón en MSG2 ni en próximos MSG1.\n\n## Respuesta MSG1\n> Si cuéntame\n\n## MSG2 (redactado, por enviar — framework HECHO→COMPLEJIDAD→OPORTUNIDAD→HINT)\n> Hola Nathaly, buena onda!\n>\n> Cuando se habla de los desafíos de implementación de IA y no solo de la promesa, normalmente hay todo un trabajo de sostener esa ejecución real entre distintos equipos y líderes, no solo de comunicar la innovación.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que acompaña la ejecución real de estrategias de marketing y transformación, no solo el discurso. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- HECHO: post sobre AISUMMIT2026 enfocado en desafíos de implementación de IA, no en la promesa.\n- COMPLEJIDAD: coordinar ejecución real de transformación (IA, GTM, HubSpot) entre equipos/líderes.\n- Experiencia: gestionó eventos 5000+ asistentes, GTM B2B/B2C/B2G, CRM HubSpot end-to-end en Certicámara.\n- Estuvo open to work hace 6 meses, ahora colocada en iké Colombia (4 meses en el cargo).\n- Sector: iké Colombia (asistencia/seguros) → clientes referencia Libra Seguros/Destiny Group.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000090",
+  "contact_id": "ctc_000034",
+  "source_file": "conversaciones/julio/rodrigo-cede-o.md",
+  "fingerprint": "sha256:ab6ee48118165a1ce52434c967676adea8a283ca353f8f4cf193bb5a37be17b7",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/rodrigo-cede-o.md",
+    "file_hash": "sha256:ab6ee48118165a1ce52434c967676adea8a283ca353f8f4cf193bb5a37be17b7",
+    "file_modified": "2026-07-06T15:08:15.964077+00:00",
+    "file_size": 1802,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Rodrigo Cedeño",
+    "empresa": "Desarrollos Mega",
+    "cargo": "General Manager at Desarrollos Mega",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Rodrigo, gracias por conectar. 👋\n\nMe llamó la atención que hace poco se trasladaran a Torre Sabana por expansión. No es algo menor: cambiar de ubicación, comunicar crecimiento al mercado, mantener la operación funcionando en paralelo. Imagino que ahí suele aparecer un desafío particular en términos de cómo contar esa etapa sin que todo se diluya.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre la mudanza a Torre Sabana por expansión. Antes de eso, celebración explícita del inicio en el puesto (\"Estamos creciendo!!\") y comparte contenido sobre liderazgo/visión del fundador. Elige mostrar la expansión como noticia, no problemas.",
+    "hipotesis": "Cómo comunicar crecimiento sin perder control de narrativa. Cómo pasar de empresa en expansión a empresa consolidada. Construcción de marca en real estate cuando el crecimiento es rápido. Coordinación de múltiples iniciativas simultáneamente.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Rodrigo Cedeño]\n[EMPRESA: Desarrollos Mega]\n[CARGO: General Manager at Desarrollos Mega]\n[SECTOR: Real Estate / Desarrollo Inmobiliario]\n[PAIS: Costa Rica]\n[SENAL: La publicación sobre la mudanza a Torre Sabana por expansión. Antes de eso, celebración explícita del inicio en el puesto (\"Estamos creciendo!!\") y comparte contenido sobre liderazgo/visión del fundador. Elige mostrar la expansión como noticia, no problemas.]\n[HIPOTESIS: Cómo comunicar crecimiento sin perder control de narrativa. Cómo pasar de empresa en expansión a empresa consolidada. Construcción de marca en real estate cuando el crecimiento es rápido. Coordinación de múltiples iniciativas simultáneamente.]\n\n[MSG1]\nRodrigo, gracias por conectar. 👋\n\nMe llamó la atención que hace poco se trasladaran a Torre Sabana por expansión. No es algo menor: cambiar de ubicación, comunicar crecimiento al mercado, mantener la operación funcionando en paralelo. Imagino que ahí suele aparecer un desafío particular en términos de cómo contar esa etapa sin que todo se diluya.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Rodrigo Cedeño\n\n**Fecha:** 06/07/26\n**Cargo:** General Manager at Desarrollos Mega\n**Empresa:** Desarrollos Mega\n**Pais:** Costa Rica\n**Sector:** Real Estate / Desarrollo Inmobiliario\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre la mudanza a Torre Sabana por expansión. Antes de eso, celebración explícita del inicio en el puesto (\"Estamos creciendo!!\") y comparte contenido sobre liderazgo/visión del fundador. Elige mostrar la expansión como noticia, no problemas.\n- **Tensión profesional:** Escalar una operación de real estate (sector altamente competitivo y visual) sin que la velocidad de crecimiento comprometa la consistencia de marca y comunicación interna/externa. Pasar de posición inicial a posición consolidada en el mercado.\n- **Hipótesis:** Cómo comunicar crecimiento sin perder control de narrativa. Cómo pasar de empresa en expansión a empresa consolidada. Construcción de marca en real estate cuando el crecimiento es rápido. Coordinación de múltiples iniciativas simultáneamente.\n- **Ángulo MSG1:** La expansión física (mudanza a Torre Sabana) y el crecimiento declarado. Es concreto, observable, y revela intención estratégica de comunicar crecimiento al mercado.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Rodrigo, gracias por conectar. 👋\n>\n> Me llamó la atención que hace poco se trasladaran a Torre Sabana por expansión. No es algo menor: cambiar de ubicación, comunicar crecimiento al mercado, mantener la operación funcionando en paralelo. Imagino que ahí suele aparecer un desafío particular en términos de cómo contar esa etapa sin que todo se diluya.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

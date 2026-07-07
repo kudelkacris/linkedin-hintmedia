@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000257",
+  "contact_id": "ctc_000473",
+  "source_file": "conversaciones/junio/rocio-tome.md",
+  "fingerprint": "sha256:1179565153c794e3dd082a5ab907504c1a1cce2eae7fbc914f96ee25e638edae",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/rocio-tome.md",
+    "file_hash": "sha256:1179565153c794e3dd082a5ab907504c1a1cce2eae7fbc914f96ee25e638edae",
+    "file_modified": "2026-06-17T23:55:24.921303+00:00",
+    "file_size": 1758,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Rocio Tome",
+    "empresa": "PECOM",
+    "cargo": "Analista de Comunicaciones (abr 2025, 1 año 3 meses)",
+    "pais": "Argentina",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (17/06/26)"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "INTERNAL_TEAM",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "*(enviado previamente — en historial)*",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "La verdad que por el momento nos encargamos del evento con el equipo interno y trabajamos muy de cerca con nuestra agencia como soporte. Pero dale obvio, sí, enviame y reviso en detalle.",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Rocío, cómo andás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste, que el Foro lo manejan con equipo interno y la agencia como soporte.\n\nEsa combinación funciona bien hasta que aparecen dos o tres proyectos de ese tamaño al mismo tiempo, ahí suele verse quién termina sosteniendo la coherencia entre todos.\n\nEs justo el tipo de situación donde solemos sumar como capa adicional, sin tocar lo que ya tienen armado con la agencia. Si te parece útil, lo conversamos 15 minutos y vemos si tiene sentido para tu realidad.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "verdad",
+      "momento",
+      "encargamos",
+      "evento",
+      "equipo",
+      "interno",
+      "trabajamos",
+      "cerca",
+      "nuestra",
+      "agencia"
+    ],
+    "notas": "- Logro destacado: lideró primera edición del Foro de Tratamientos Químicos en Neuquén (80+ profesionales O&G).\n- Post reflexivo: \"un evento técnico también puede ser una herramienta para construir marca.\"\n- Antes: Analista de Talento PECOM (11 meses), HR en MailAmericas (3 años).\n- Tienen equipo interno + agencia de soporte — aclarado antes de aceptar el dossier.\n- PECOM: empresa más atractiva para trabajar en energía Argentina 2 años consecutivos (Randstad)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Rocio Tome]\n[EMPRESA: PECOM]\n[CARGO: Analista de Comunicaciones (abr 2025, 1 año 3 meses)]\n[SECTOR: Oil & Gas / Energía]\n[PAIS: Argentina]\n\n[MSG1]\n*(enviado previamente — en historial)*\n\n[RESPUESTA_MSG1]\nLa verdad que por el momento nos encargamos del evento con el equipo interno y trabajamos muy de cerca con nuestra agencia como soporte. Pero dale obvio, sí, enviame y reviso en detalle.\n\n[SEG1]\nRocío, cómo andás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste, que el Foro lo manejan con equipo interno y la agencia como soporte.\n\nEsa combinación funciona bien hasta que aparecen dos o tres proyectos de ese tamaño al mismo tiempo, ahí suele verse quién termina sosteniendo la coherencia entre todos.\n\nEs justo el tipo de situación donde solemos sumar como capa adicional, sin tocar lo que ya tienen armado con la agencia. Si te parece útil, lo conversamos 15 minutos y vemos si tiene sentido para tu realidad.\n\n[NOTAS]\n- Logro destacado: lideró primera edición del Foro de Tratamientos Químicos en Neuquén (80+ profesionales O&G).\n- Post reflexivo: \"un evento técnico también puede ser una herramienta para construir marca.\"\n- Antes: Analista de Talento PECOM (11 meses), HR en MailAmericas (3 años).\n- Tienen equipo interno + agencia de soporte — aclarado antes de aceptar el dossier.\n- PECOM: empresa más atractiva para trabajar en energía Argentina 2 años consecutivos (Randstad).",
+    "raw_md": "# Rocio Tome\n**Fecha:** 12/06/26\n**Empresa:** PECOM\n**Cargo:** Analista de Comunicaciones (abr 2025, 1 año 3 meses)\n**País:** Argentina\n**Sector:** Oil & Gas / Energía\n**Estado:** SEG1 enviado (17/06/26)\n\n---\n\n## MSG1\n*(enviado previamente — en historial)*\n\n## Respuesta\n> La verdad que por el momento nos encargamos del evento con el equipo interno y trabajamos muy de cerca con nuestra agencia como soporte. Pero dale obvio, sí, enviame y reviso en detalle.\n\n## Cierre\n> Perfecto Rocio, te lo mando ahora! Justamente trabajamos como capa adicional al equipo — no en reemplazo de la agencia. Quedamos en contacto!\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Rocío, cómo andás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste, que el Foro lo manejan con equipo interno y la agencia como soporte.\n>\n> Esa combinación funciona bien hasta que aparecen dos o tres proyectos de ese tamaño al mismo tiempo, ahí suele verse quién termina sosteniendo la coherencia entre todos.\n>\n> Es justo el tipo de situación donde solemos sumar como capa adicional, sin tocar lo que ya tienen armado con la agencia. Si te parece útil, lo conversamos 15 minutos y vemos si tiene sentido para tu realidad.\n\n---\n\n## Notas\n- Logro destacado: lideró primera edición del Foro de Tratamientos Químicos en Neuquén (80+ profesionales O&G).\n- Post reflexivo: \"un evento técnico también puede ser una herramienta para construir marca.\"\n- Antes: Analista de Talento PECOM (11 meses), HR en MailAmericas (3 años).\n- Tienen equipo interno + agencia de soporte — aclarado antes de aceptar el dossier.\n- PECOM: empresa más atractiva para trabajar en energía Argentina 2 años consecutivos (Randstad).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "sin_blockquote: msg1 — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

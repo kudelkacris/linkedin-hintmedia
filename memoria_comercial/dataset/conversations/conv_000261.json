@@ -1,0 +1,79 @@
+{
+  "conversation_id": "conv_000261",
+  "contact_id": "ctc_000459",
+  "source_file": "conversaciones/junio/santiago-cicchetti.md",
+  "fingerprint": "sha256:162be8cd31dbb4c0f914d6ab8d4a553606951dba71a5c538029f612a88562542",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/santiago-cicchetti.md",
+    "file_hash": "sha256:162be8cd31dbb4c0f914d6ab8d4a553606951dba71a5c538029f612a88562542",
+    "file_modified": "2026-07-01T15:55:13.171566+00:00",
+    "file_size": 742,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Santiago Cicchetti",
+    "empresa": "",
+    "cargo": "",
+    "pais": "",
+    "fecha": "",
+    "estado_texto": ""
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Santiago Cicchetti]",
+    "raw_md": "# Santiago Cicchetti\n\nGerente de Asuntos Corporativos y Comunicaciones Argentina, BHP (minería, cobre).\n\n- 08/06/26: MSG2 con rapport sobre narrativa cobre como infraestructura civilizatoria.\n- Martes: respondió que la narrativa es global de BHP, no tienen plan de comunicaciones implementado en Argentina actualmente.\n- Miércoles 11:57: CTA dossier enviado (TGS, Transener como referencia energía/minería).\n- Hoy 11:52: acepta dossier. Aclara que contrataron agencia de media hace 2/3 meses con esa función, pero igual quiere panorama de mercado.\n\nEstado: RECONTACTO 01/10/26. Tiene agencia contratada hace 2-3 meses, pidió igual el material para panorama de mercado. Dossier enviado. Sin SEG1, se marcó para recontactar en octubre.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa",
+      "campo_vacio: sector",
+      "campo_vacio: fecha",
+      "campo_vacio: estado"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.25
+  }
+}

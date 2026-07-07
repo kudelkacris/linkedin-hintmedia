@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000506",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Andrea Catalina Prieto Chapeton",
+  "empresa": "",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 2,
+  "stage_texto": "",
+  "fecha": "04/06/26",
+  "email": null,
+  "sector_norm": "DESCONOCIDO",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000110",
+  "historial_slug": "1780605687132"
+}

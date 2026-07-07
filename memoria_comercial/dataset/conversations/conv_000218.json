@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000218",
+  "contact_id": "ctc_000312",
+  "source_file": "conversaciones/junio/marco-mora.md",
+  "fingerprint": "sha256:e7afad1685598a9bd9eb06380131002c28d297b1cb170c424677d20e1a0174ac",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/marco-mora.md",
+    "file_hash": "sha256:e7afad1685598a9bd9eb06380131002c28d297b1cb170c424677d20e1a0174ac",
+    "file_modified": "2026-06-12T17:01:57.561430+00:00",
+    "file_size": 1064,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Marco Mora",
+    "empresa": "Hacienda AltaGracia (Auberge Resorts Collection)",
+    "cargo": "Compa / Experience Designer - Front Office",
+    "pais": "Pérez Zeledón, Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Marco Mora]\n[EMPRESA: Hacienda AltaGracia (Auberge Resorts Collection)]\n[CARGO: Compa / Experience Designer - Front Office]\n[PAIS: Pérez Zeledón, Costa Rica]",
+    "raw_md": "---\nname: marco-mora\ndescription: MSG2 enviado, Compa Experience Designer Hacienda AltaGracia Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Marco Mora\n**Cargo:** Compa / Experience Designer - Front Office\n**Empresa:** Hacienda AltaGracia (Auberge Resorts Collection)\n**País:** Pérez Zeledón, Costa Rica\n**Fecha:** 12/06/26\n\n**Nota:** Marco es front-line (Compa), no decisor de marketing. El marketing del hotel probablemente se maneja a nivel corporativo/colección.\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre hospitalidad: \"cultivar condiciones para que los huéspedes se sientan más presentes\", no una lista de servicios\n- Respondió: \"Hola Florencia! Muchas gracias por la conexión y el mensaje; un placer conectar... ¿Cómo podría ayudarte?\"\n- MSG2 enviado — gap: Hacienda AltaGracia tiene una filosofía que pocas propiedades logran transmitir en su contenido; normalmente aparecen fotos del paisaje, no la filosofía. Mención Destiny Group.\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

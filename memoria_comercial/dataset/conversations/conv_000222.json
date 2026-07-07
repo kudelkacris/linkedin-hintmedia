@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000222",
+  "contact_id": "ctc_000256",
+  "source_file": "conversaciones/junio/maria-jesus-lopez-martos.md",
+  "fingerprint": "sha256:f355963885ddf27e2d0a8e354faa75ebf8b42b62b755db0fed424c40bb6c49d5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/maria-jesus-lopez-martos.md",
+    "file_hash": "sha256:f355963885ddf27e2d0a8e354faa75ebf8b42b62b755db0fed424c40bb6c49d5",
+    "file_modified": "2026-06-15T20:17:28.792350+00:00",
+    "file_size": 1594,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "María Jesús López Martos",
+    "empresa": "SLS Cancun (Ennismore / Accor)",
+    "cargo": "General Manager, SLS Cancun",
+    "pais": "México (Cancún)",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- 25+ años en hospitalidad de lujo\n- GM SLS Cancun desde abr 2024 (Ennismore)\n- Ex-GM CASA POLANCO (Leading Hotels of the World) — posicionó como mejor boutique hotel CDMX, alianzas Dior/Cartier/Rolex/Clase Azul\n- EAM S&M en Banyan Tree Riviera Maya — logró best results desde apertura durante pandemia, creó nueva estrategia digital\n- Re-compartió búsqueda de Regional Director of Digital Marketing para The Americas (Ennismore) — señal de inversión en digital\n- Sector: hospitalidad de lujo"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: María Jesús López Martos]\n[EMPRESA: SLS Cancun (Ennismore / Accor)]\n[CARGO: General Manager, SLS Cancun]\n[PAIS: México (Cancún)]\n\n[NOTAS]\n- 25+ años en hospitalidad de lujo\n- GM SLS Cancun desde abr 2024 (Ennismore)\n- Ex-GM CASA POLANCO (Leading Hotels of the World) — posicionó como mejor boutique hotel CDMX, alianzas Dior/Cartier/Rolex/Clase Azul\n- EAM S&M en Banyan Tree Riviera Maya — logró best results desde apertura durante pandemia, creó nueva estrategia digital\n- Re-compartió búsqueda de Regional Director of Digital Marketing para The Americas (Ennismore) — señal de inversión en digital\n- Sector: hospitalidad de lujo",
+    "raw_md": "# María Jesús López Martos\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** General Manager, SLS Cancun\n**País:** México (Cancún)\n**Empresa:** SLS Cancun (Ennismore / Accor)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:22):**\nCitó CASA POLANCO como best luxury boutique hotel en México City con partnerships con Dior, Cartier, Rolex. Preguntó si estaba escalando el mismo modelo en SLS Cancun.\n\n**Respuesta María Jesús (domingo 10:35):**\n\"Hola. Si es correcto. Como te puedo ayudar?\"\n\n**MSG2 enviado:**\n> María Jesús, gracias por responder!\n>\n> Lo que lograste en CASA POLANCO me llamó la atención: posicionar un boutique hotel como el mejor de Ciudad de México con alianzas con Dior, Cartier, Rolex no es solo operación, es un trabajo muy fino de narrativa de marca.\n>\n> En Hint acompañamos a hoteles y marcas de hospitalidad de lujo en estrategia de contenido y posicionamiento digital que sostenga esa imagen de forma consistente.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- 25+ años en hospitalidad de lujo\n- GM SLS Cancun desde abr 2024 (Ennismore)\n- Ex-GM CASA POLANCO (Leading Hotels of the World) — posicionó como mejor boutique hotel CDMX, alianzas Dior/Cartier/Rolex/Clase Azul\n- EAM S&M en Banyan Tree Riviera Maya — logró best results desde apertura durante pandemia, creó nueva estrategia digital\n- Re-compartió búsqueda de Regional Director of Digital Marketing para The Americas (Ennismore) — señal de inversión en digital\n- Sector: hospitalidad de lujo\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

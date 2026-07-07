@@ -5,7 +5,7 @@
 **Empresa:** Pardini & Asociados
 **Pais:** Panamá
 **Sector:** Agencia / Consultoría Creativa
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** CERRADA — no interesado (feedback dossier, 07/07/26)
 
 ---
 
@@ -44,6 +44,15 @@
 > Si claro me puedes enviar el dossier; y con gusto lo veo.
 
 Dossier enviado — 06/07/26
+
+---
+
+## Respuesta Dossier (07/07/26)
+> Esta muy bueno honestamente. Pero en el mezcla de los trabajos que realizan a simple vista se percibe que es trabajo que lo hace una sola persona y no una agencia como tal. [...] Seria bueno en cada seccion implementar la persona que lo hizo. [...] Dale mas vida a la sección de team.
+
+## Cierre (07/07/26)
+> Buenas Evin! Muy buena la visión, de verdad. Lo del equipo visible detrás de cada trabajo lo vamos a implementar, tiene todo el sentido.
+> Gracias por el tiempo y los ojos. Si en algún momento surge algo, acá estamos!
 
 ---
 

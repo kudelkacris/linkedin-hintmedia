@@ -1,0 +1,87 @@
+{
+  "conversation_id": "conv_000269",
+  "contact_id": "ctc_000536",
+  "source_file": "conversaciones/junio/vero-gonzalez.md",
+  "fingerprint": "sha256:aa3925b55760e25f7062c3d6fac39c4947768474a5e0ed3e6073448936edacf1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/vero-gonzalez.md",
+    "file_hash": "sha256:aa3925b55760e25f7062c3d6fac39c4947768474a5e0ed3e6073448936edacf1",
+    "file_modified": "2026-07-02T21:54:03.852990+00:00",
+    "file_size": 1373,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Vero González",
+    "empresa": "Swan Cosmetics",
+    "cargo": "",
+    "pais": "México",
+    "fecha": "27/06/26",
+    "estado_texto": "MSG2 enviado, email recibido"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola FLorencia,\nGracias por contactarme.\nTe cuento que el lanzamiento no corre por nuetsra cuenta ya que fabrciamos para las marcas.\nGracias\nSaludos",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "contactarme",
+      "cuento",
+      "lanzamiento",
+      "corre",
+      "nuetsra",
+      "cuenta",
+      "fabrciamos",
+      "marcas",
+      "saludos"
+    ],
+    "notas": "- Email para dossier: vgonzalez@swancosmetics.com.mx\n- Sector cosmética/belleza, 28 años de trayectoria\n- Fabrica para marcas: el lanzamiento no es responsabilidad de Swan sino de sus clientes.\n\nEstado: Cerrada — manufactura B2B, no manejan comunicación de lanzamiento — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Vero González]\n[EMPRESA: Swan Cosmetics]\n[PAIS: México]\n\n[RESPUESTA_MSG2]\nHola FLorencia,\nGracias por contactarme.\nTe cuento que el lanzamiento no corre por nuetsra cuenta ya que fabrciamos para las marcas.\nGracias\nSaludos\n\n[NOTAS]\n- Email para dossier: vgonzalez@swancosmetics.com.mx\n- Sector cosmética/belleza, 28 años de trayectoria\n- Fabrica para marcas: el lanzamiento no es responsabilidad de Swan sino de sus clientes.\n\nEstado: Cerrada — manufactura B2B, no manejan comunicación de lanzamiento — 02/07/26",
+    "raw_md": "# Vero González\n\n**Estado:** MSG2 enviado, email recibido\n**Fecha:** 27/06/26\n**Empresa:** Swan Cosmetics\n**País:** México\n\n## Conversación\n\n**MSG1 (Florencia, viernes 13:14):**\nCitó 28 años coordinando desde fórmula hasta mercado (diseño, empaque, posicionamiento).\n\n**Respuesta Vero (viernes 23:11):**\n\"SI con gusto indicame en que puedo ayudarte. te dejo mi correo vgonzalez@swancosmetics.com.mx\"\n\n**MSG2 enviado (Florencia, hoy):**\nFue directo al cuerpo (no inventó reciprocidad, respuesta tipo \"con gusto\"). Retomó los 28 años armando lanzamientos completos, conectó con comunicación de cada lanzamiento. Presentó Hint Media, clientes Destiny Group y Tasarolli (retail/moda).\n\n## Respuesta MSG2 (02/07/26)\n> Hola FLorencia,\n> Gracias por contactarme.\n> Te cuento que el lanzamiento no corre por nuetsra cuenta ya que fabrciamos para las marcas.\n> Gracias\n> Saludos\n\n## Cierre (02/07/26)\n> Entendido Vero, gracias por la aclaración! Si en algún momento cambia el esquema o quieren trabajar la comunicación del lado de Swan, por acá estamos. Saludos!\n\n## Notas\n- Email para dossier: vgonzalez@swancosmetics.com.mx\n- Sector cosmética/belleza, 28 años de trayectoria\n- Fabrica para marcas: el lanzamiento no es responsabilidad de Swan sino de sus clientes.\n\n**Estado:** Cerrada — manufactura B2B, no manejan comunicación de lanzamiento — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector",
+      "sin_blockquote: conversacion — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.38
+  }
+}

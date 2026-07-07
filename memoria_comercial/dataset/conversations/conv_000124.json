@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000124",
+  "contact_id": "ctc_000115",
+  "source_file": "conversaciones/junio/carlos-a-gomez.md",
+  "fingerprint": "sha256:764868d31ed3aebf6aa244665678c389ead9535f8c69c93fdea43d1a269caec5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carlos-a-gomez.md",
+    "file_hash": "sha256:764868d31ed3aebf6aa244665678c389ead9535f8c69c93fdea43d1a269caec5",
+    "file_modified": "2026-06-25T16:41:54.430051+00:00",
+    "file_size": 1036,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carlos A. Gomez",
+    "empresa": "Grupo Eurobelleza",
+    "cargo": "CEO",
+    "pais": "Miami / Cali, Colombia",
+    "fecha": "25/06/26",
+    "estado_texto": "MSG1 generado y guardado, prospecto marcado como DESCARTADO por baja señal (igual se guarda a pedido del usuario)"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Perfil sin actividad ni publicaciones, ángulo armado a partir de la repetición de \"growth/expansion\" en el headline, no del cargo como punto de partida.\n- 13 años como CEO en Eurobelleza, sin evidencia pública de logros."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carlos A. Gomez]\n[EMPRESA: Grupo Eurobelleza]\n[CARGO: CEO]\n[SECTOR: Belleza]\n[PAIS: Miami / Cali, Colombia]\n\n[NOTAS]\n- Perfil sin actividad ni publicaciones, ángulo armado a partir de la repetición de \"growth/expansion\" en el headline, no del cargo como punto de partida.\n- 13 años como CEO en Eurobelleza, sin evidencia pública de logros.",
+    "raw_md": "# Carlos A. Gomez\n**Fecha:** 25/06/26\n**Cargo:** CEO\n**Empresa:** Grupo Eurobelleza\n**País:** Miami / Cali, Colombia\n**Sector:** Belleza\n**Estado:** MSG1 generado y guardado, prospecto marcado como DESCARTADO por baja señal (igual se guarda a pedido del usuario)\n\n## Motivo descarte original\nSin señal humana identificable, perfil genérico, sin publicaciones recientes, alto riesgo de inferencia excesiva.\n\n## MSG1 generado (igual se envía/guarda)\n> Carlos, gracias por conectar! Me llamó la atención que en tu perfil se repite bastante la idea de crecimiento y expansión internacional, más que el cargo en sí. Imagino que esa mirada de expandir mercados es algo que llevás bastante tiempo trabajando en Eurobelleza. Si es así, tenía una consulta y quería saber si me podrías ayudar.\n\n## Notas\n- Perfil sin actividad ni publicaciones, ángulo armado a partir de la repetición de \"growth/expansion\" en el headline, no del cargo como punto de partida.\n- 13 años como CEO en Eurobelleza, sin evidencia pública de logros.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "seccion_desconocida: 'Motivo descarte original'",
+      "seccion_desconocida: 'MSG1 generado (igual se envía/guarda)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

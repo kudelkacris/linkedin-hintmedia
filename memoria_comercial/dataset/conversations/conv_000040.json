@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000040",
+  "contact_id": "ctc_000015",
+  "source_file": "conversaciones/julio/fabi-n-ignacio-corbal-n-beltr-n.md",
+  "fingerprint": "sha256:916cea706a30932976e314d3cec67dbffccc661870c5c37b6a8d495fe48a7d40",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/fabi-n-ignacio-corbal-n-beltr-n.md",
+    "file_hash": "sha256:916cea706a30932976e314d3cec67dbffccc661870c5c37b6a8d495fe48a7d40",
+    "file_modified": "2026-07-06T17:05:02.637409+00:00",
+    "file_size": 3459,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Fabián Ignacio Corbalán Beltrán",
+    "empresa": "Ilustre Municipalidad de La Granja",
+    "cargo": "Journalist focused on strategic communications, PR & Content curator.",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Fabián, gracias por conectar.\n\nMe llamó la atención el análisis que publicaste sobre disfunción en gobiernos locales. Lo que más me gustó fue que no lo hiciste como observador externo, sino como alguien que está adentro, documentando la contradicción en tiempo real. Eso requiere coherencia profesional que no es común ver.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia\nSobre el trabajo en municipios?",
+    "msg2_texto": "Buenas Fabián! No exactamente, aunque de ahí vengo.\nLo que me interesó de ese análisis fue cómo comunicás desde adentro. Con los proyectos o clientes con los que trabajás hoy, cómo estás ayudando a las organizaciones a cerrar esa brecha entre lo que dicen y lo que hacen?\nTrabajo en Hint Media, una agencia de comunicación estratégica. Acompañamos a organizaciones a construir narrativa institucional coherente: PR, contenidos y posicionamiento. Trabajamos con Destiny Group en comunicación y estrategia de contenidos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "No estoy entendiendo mucho lo que necesitas. Estás ofreciendo los servicios de la consultora?",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó análisis crítico extenso sobre corrupción y disfunción en gobiernos locales. En lugar de evitar estos temas, los documentó públicamente como \"llamado\" a modernizar el Estado. Elige mostrar su pensamiento estratégico, no solo logros. También: logro viral de 2M+ reproducciones que documentó cómo se construye viralización deliberadamente (\"la fórmula de la viralización no depende del azar\").",
+    "hipotesis": "Cómo construir comunicación pública de calidad en contextos políticos adversos. Cómo escalar ejecución de contenido sin perder control editorial ni credibilidad. Estrategia de reposicionamiento territorial antes de mudanza a Punta Arenas.",
+    "palabras_clave": [
+      "florencia",
+      "sobre",
+      "trabajo",
+      "municipios",
+      "estoy",
+      "entendiendo",
+      "mucho",
+      "necesitas",
+      "estas",
+      "ofreciendo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fabián Ignacio Corbalán Beltrán]\n[EMPRESA: Ilustre Municipalidad de La Granja]\n[CARGO: Journalist focused on strategic communications, PR & Content curator.]\n[SECTOR: Gobierno Local / Sector Público / Comunicación Pública]\n[PAIS: Chile]\n[SENAL: Publicó análisis crítico extenso sobre corrupción y disfunción en gobiernos locales. En lugar de evitar estos temas, los documentó públicamente como \"llamado\" a modernizar el Estado. Elige mostrar su pensamiento estratégico, no solo logros. También: logro viral de 2M+ reproducciones que documentó cómo se construye viralización deliberadamente (\"la fórmula de la viralización no depende del azar\").]\n[HIPOTESIS: Cómo construir comunicación pública de calidad en contextos políticos adversos. Cómo escalar ejecución de contenido sin perder control editorial ni credibilidad. Estrategia de reposicionamiento territorial antes de mudanza a Punta Arenas.]\n\n[MSG1]\nFabián, gracias por conectar.\n\nMe llamó la atención el análisis que publicaste sobre disfunción en gobiernos locales. Lo que más me gustó fue que no lo hiciste como observador externo, sino como alguien que está adentro, documentando la contradicción en tiempo real. Eso requiere coherencia profesional que no es común ver.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia\nSobre el trabajo en municipios?\n\n[MSG2]\nBuenas Fabián! No exactamente, aunque de ahí vengo.\nLo que me interesó de ese análisis fue cómo comunicás desde adentro. Con los proyectos o clientes con los que trabajás hoy, cómo estás ayudando a las organizaciones a cerrar esa brecha entre lo que dicen y lo que hacen?\nTrabajo en Hint Media, una agencia de comunicación estratégica. Acompañamos a organizaciones a construir narrativa institucional coherente: PR, contenidos y posicionamiento. Trabajamos con Destiny Group en comunicación y estrategia de contenidos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\nNo estoy entendiendo mucho lo que necesitas. Estás ofreciendo los servicios de la consultora?\n\n[MSG3]\nDossier enviado — 06/07/26",
+    "raw_md": "# Fabián Ignacio Corbalán Beltrán\n\n**Fecha:** 06/07/26\n**Cargo:** Journalist focused on strategic communications, PR & Content curator.\n**Empresa:** Ilustre Municipalidad de La Granja\n**Pais:** Chile\n**Sector:** Gobierno Local / Sector Público / Comunicación Pública\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicó análisis crítico extenso sobre corrupción y disfunción en gobiernos locales. En lugar de evitar estos temas, los documentó públicamente como \"llamado\" a modernizar el Estado. Elige mostrar su pensamiento estratégico, no solo logros. También: logro viral de 2M+ reproducciones que documentó cómo se construye viralización deliberadamente (\"la fórmula de la viralización no depende del azar\").\n- **Tensión profesional:** Equilibrar narrativa institucional con integridad crítica. Comunicar logros municipales sin participar en la opacidad que denuncia. Mantener coherencia profesional mientras navega sistema que (según su propia observación) castiga la excelencia.\n- **Hipótesis:** Cómo construir comunicación pública de calidad en contextos políticos adversos. Cómo escalar ejecución de contenido sin perder control editorial ni credibilidad. Estrategia de reposicionamiento territorial antes de mudanza a Punta Arenas.\n- **Ángulo MSG1:** La publicación crítica sobre corrupción municipal + el contraste con su rol en gobierno local. Es la señal más fuerte: eligió hacer público un análisis mordaz sobre exactamente el tipo de organización donde trabaja. Revela tensión real entre su rol y su pensamiento.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Fabián, gracias por conectar.\n>\n> Me llamó la atención el análisis que publicaste sobre disfunción en gobiernos locales. Lo que más me gustó fue que no lo hiciste como observador externo, sino como alguien que está adentro, documentando la contradicción en tiempo real. Eso requiere coherencia profesional que no es común ver.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia\n> Sobre el trabajo en municipios?\n\n---\n\n## MSG2\n> Buenas Fabián! No exactamente, aunque de ahí vengo.\n> Lo que me interesó de ese análisis fue cómo comunicás desde adentro. Con los proyectos o clientes con los que trabajás hoy, cómo estás ayudando a las organizaciones a cerrar esa brecha entre lo que dicen y lo que hacen?\n> Trabajo en Hint Media, una agencia de comunicación estratégica. Acompañamos a organizaciones a construir narrativa institucional coherente: PR, contenidos y posicionamiento. Trabajamos con Destiny Group en comunicación y estrategia de contenidos.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2\n> No estoy entendiendo mucho lo que necesitas. Estás ofreciendo los servicios de la consultora?\n\n---\n\n## MSG3 (aclaración)\n> Buenas Fabián! Sí, exacto.\n> Hint Media trabaja con organizaciones que quieren cerrar esa brecha entre lo que hacen y cómo lo comunican. Me interesó tu perfil porque publicás sobre ese problema desde adentro, no como observador.\n> Si te sirve, te mando el dossier. Es breve, tiene casos concretos.\n\n---\n\n## Dossier\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "sin_blockquote: msg3 — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

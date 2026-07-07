@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000204",
+  "contact_id": "ctc_000118",
+  "source_file": "conversaciones/junio/laura-zarta.md",
+  "fingerprint": "sha256:c4214c75f8777ddf8ac3a17f010e8d9491e414022a1f1977b71192ec760f7883",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/laura-zarta.md",
+    "file_hash": "sha256:c4214c75f8777ddf8ac3a17f010e8d9491e414022a1f1977b71192ec760f7883",
+    "file_modified": "2026-06-25T16:46:33.726283+00:00",
+    "file_size": 2069,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Laura Zarta",
+    "empresa": "Ecopetrol",
+    "cargo": "Brand Management | Sponsorships, Events and Social Media",
+    "pais": "Colombia",
+    "fecha": "25/06/26",
+    "estado_texto": "CERRADA 25/06/26, política de procura no permite trato directo con proveedores"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Laura, gracias por conectar. Me llamó la atención algo en tus publicaciones. Cada vez que celebras un logro, la campaña \"El corazón que impulsa\", la Carrera Verde, \"Érase una vez la energía\", siempre le das el crédito al equipo por nombre. No es lo que hace todo el mundo cuando quiere mostrar un proyecto. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cuéntame",
+    "msg2_texto": "Hola Laura, gracias! Lo que noté es que además de dar crédito al equipo, manejas bastantes frentes en simultáneo: campañas institucionales, eventos como la Convención de Clientes, ferias como FilBo, redes. Eso implica coordinar mucho contenido y producción al mismo tiempo. En Hint Media trabajamos como equipo externo integrado a áreas de comunicaciones de energía, sumando ejecución en contenido, diseño y eventos sin ampliar estructura interna. Hoy acompañamos a TGS y Transener en ese tipo de necesidad. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Florencia encantada! Sin embargo nosotros no trabajamos directamente con posibles proveedores ya que la empresa tiene una estricta política de procura. Además, al ser una empresa de naturaleza mixta hay que pasar primero el filtro del área de abastecimiento.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "cuentame",
+      "encantada",
+      "embargo",
+      "nosotros",
+      "trabajamos",
+      "directamente",
+      "posibles",
+      "proveedores",
+      "empresa"
+    ],
+    "notas": "- Sector energía, cliente referencia TGS/Transener.\n- Da crédito al equipo por nombre en cada publicación, señal de liderazgo colaborativo.\n- Maneja múltiples frentes: campañas, sponsorships, eventos, social media."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Laura Zarta]\n[EMPRESA: Ecopetrol]\n[CARGO: Brand Management | Sponsorships, Events and Social Media]\n[SECTOR: Energía]\n[PAIS: Colombia]\n\n[MSG1]\nLaura, gracias por conectar. Me llamó la atención algo en tus publicaciones. Cada vez que celebras un logro, la campaña \"El corazón que impulsa\", la Carrera Verde, \"Érase una vez la energía\", siempre le das el crédito al equipo por nombre. No es lo que hace todo el mundo cuando quiere mostrar un proyecto. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, cuéntame\n\n[MSG2]\nHola Laura, gracias! Lo que noté es que además de dar crédito al equipo, manejas bastantes frentes en simultáneo: campañas institucionales, eventos como la Convención de Clientes, ferias como FilBo, redes. Eso implica coordinar mucho contenido y producción al mismo tiempo. En Hint Media trabajamos como equipo externo integrado a áreas de comunicaciones de energía, sumando ejecución en contenido, diseño y eventos sin ampliar estructura interna. Hoy acompañamos a TGS y Transener en ese tipo de necesidad. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nFlorencia encantada! Sin embargo nosotros no trabajamos directamente con posibles proveedores ya que la empresa tiene una estricta política de procura. Además, al ser una empresa de naturaleza mixta hay que pasar primero el filtro del área de abastecimiento.\n\n[NOTAS]\n- Sector energía, cliente referencia TGS/Transener.\n- Da crédito al equipo por nombre en cada publicación, señal de liderazgo colaborativo.\n- Maneja múltiples frentes: campañas, sponsorships, eventos, social media.",
+    "raw_md": "# Laura Zarta\n**Fecha:** 25/06/26\n**Cargo:** Brand Management | Sponsorships, Events and Social Media\n**Empresa:** Ecopetrol\n**País:** Colombia\n**Sector:** Energía\n**Estado:** CERRADA 25/06/26, política de procura no permite trato directo con proveedores\n\n## MSG1\n> Laura, gracias por conectar. Me llamó la atención algo en tus publicaciones. Cada vez que celebras un logro, la campaña \"El corazón que impulsa\", la Carrera Verde, \"Érase una vez la energía\", siempre le das el crédito al equipo por nombre. No es lo que hace todo el mundo cuando quiere mostrar un proyecto. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta\n> Hola Florencia, cuéntame\n\n## MSG2 enviado\n> Hola Laura, gracias! Lo que noté es que además de dar crédito al equipo, manejas bastantes frentes en simultáneo: campañas institucionales, eventos como la Convención de Clientes, ferias como FilBo, redes. Eso implica coordinar mucho contenido y producción al mismo tiempo. En Hint Media trabajamos como equipo externo integrado a áreas de comunicaciones de energía, sumando ejecución en contenido, diseño y eventos sin ampliar estructura interna. Hoy acompañamos a TGS y Transener en ese tipo de necesidad. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta final\n> Florencia encantada! Sin embargo nosotros no trabajamos directamente con posibles proveedores ya que la empresa tiene una estricta política de procura. Además, al ser una empresa de naturaleza mixta hay que pasar primero el filtro del área de abastecimiento.\n\n## Cierre enviado\n> Hola Laura, entiendo perfectamente, gracias por la claridad! Quedo a disposición si en algún momento cambia el escenario o necesitás algo. Mucho éxito con todo!\n\n## Notas\n- Sector energía, cliente referencia TGS/Transener.\n- Da crédito al equipo por nombre en cada publicación, señal de liderazgo colaborativo.\n- Maneja múltiples frentes: campañas, sponsorships, eventos, social media.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

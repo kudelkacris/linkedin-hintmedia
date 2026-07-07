@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_000151",
+  "contact_id": "ctc_000439",
+  "source_file": "conversaciones/junio/elisa-schipani.md",
+  "fingerprint": "sha256:5311230041946941a78e6dcd75ead1fc7785aa33c55c521f379a76e91b69ff43",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/elisa-schipani.md",
+    "file_hash": "sha256:5311230041946941a78e6dcd75ead1fc7785aa33c55c521f379a76e91b69ff43",
+    "file_modified": "2026-06-17T23:53:52.031398+00:00",
+    "file_size": 2654,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Elisa Schipani",
+    "empresa": "ECIPSA (Grupo ECIPSA — real estate, no universidad)",
+    "cargo": "Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad",
+    "pais": "Argentina",
+    "fecha": "08/06/26 (MSG1) — SEG1 17/06/26",
+    "estado_texto": "SEG1 enviado (versión corregida, ver notas)"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Elisa, gracias por conectar! 👋\n\nSos Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad en ECIPSA, una de las universidades empresariales más grandes de Argentina. En los últimos años escalaron fuerte su presencia institucional en medios y vinculación con el sector público.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cómo estás? Si, ese es mi rol actual. Pero ECIPSA no es una universidad",
+    "msg2_texto": "Elisa, leí mal, mil disculpas. Bien y vos qué tal?\n\nIgual te cuento lo que hacemos: en Hint Media nos insertamos como equipo de comunicación dentro de las empresas, diseño, contenido, estrategia, sin que tengan que armar estructura propia. Trabajamos con TGS, Transener, Sullair, entre otras.\n\nSi no es mucha molestia te envío el dossier por acá? En todo caso, me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "👍 Gracias Florencia",
+    "seg1_enviado": true,
+    "seg1_texto": "Elisa, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del segundo Reporte de Sustentabilidad de ECIPSA, hecho en español e inglés para la expansión internacional.\n\nTraducir ese tipo de reporte para que funcione igual de bien en otro idioma y otro mercado no es solo traducción, cambia hasta qué parte de la historia conviene contar primero.\n\nEs justo el tipo de trabajo donde solemos sumar, cuando una empresa real estate empieza a comunicar hacia varios países a la vez.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "actual",
+      "ecipsa",
+      "universidad",
+      "perfecto",
+      "adjunto"
+    ],
+    "notas": "- ECIPSA: Grupo real estate Argentina, 39 años, expansión Argentina/Brasil/Paraguay/USA/Panamá/Israel, 3ra desarrollista de mayor crecimiento del continente (Financial Times).\n- Elisa coautora/responsable del 2do Reporte de Sustentabilidad (ES/EN), trabaja junto a Cecilia Bentolila (otro contacto ya en el historial, misma empresa).\n- Interés ALTO: pidió que se le envíe directamente, \"yo coordino el área\"."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Elisa Schipani]\n[EMPRESA: ECIPSA (Grupo ECIPSA — real estate, no universidad)]\n[CARGO: Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad]\n[PAIS: Argentina]\n\n[MSG1]\nElisa, gracias por conectar! 👋\n\nSos Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad en ECIPSA, una de las universidades empresariales más grandes de Argentina. En los últimos años escalaron fuerte su presencia institucional en medios y vinculación con el sector público.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, cómo estás? Si, ese es mi rol actual. Pero ECIPSA no es una universidad\n\n[MSG2]\nElisa, leí mal, mil disculpas. Bien y vos qué tal?\n\nIgual te cuento lo que hacemos: en Hint Media nos insertamos como equipo de comunicación dentro de las empresas, diseño, contenido, estrategia, sin que tengan que armar estructura propia. Trabajamos con TGS, Transener, Sullair, entre otras.\n\nSi no es mucha molestia te envío el dossier por acá? En todo caso, me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\n👍 Gracias Florencia\n\n[SEG1]\nElisa, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del segundo Reporte de Sustentabilidad de ECIPSA, hecho en español e inglés para la expansión internacional.\n\nTraducir ese tipo de reporte para que funcione igual de bien en otro idioma y otro mercado no es solo traducción, cambia hasta qué parte de la historia conviene contar primero.\n\nEs justo el tipo de trabajo donde solemos sumar, cuando una empresa real estate empieza a comunicar hacia varios países a la vez.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n[NOTAS]\n- ECIPSA: Grupo real estate Argentina, 39 años, expansión Argentina/Brasil/Paraguay/USA/Panamá/Israel, 3ra desarrollista de mayor crecimiento del continente (Financial Times).\n- Elisa coautora/responsable del 2do Reporte de Sustentabilidad (ES/EN), trabaja junto a Cecilia Bentolila (otro contacto ya en el historial, misma empresa).\n- Interés ALTO: pidió que se le envíe directamente, \"yo coordino el área\".",
+    "raw_md": "# Elisa Schipani\n\n**Estado:** SEG1 enviado (versión corregida, ver notas)\n**Fecha:** 08/06/26 (MSG1) — SEG1 17/06/26\n**Cargo:** Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad\n**Empresa:** ECIPSA (Grupo ECIPSA — real estate, no universidad)\n**País:** Argentina\n\n## MSG1\n> Elisa, gracias por conectar! 👋\n>\n> Sos Responsable de Relaciones Institucionales, Comunicación y Sustentabilidad en ECIPSA, una de las universidades empresariales más grandes de Argentina. En los últimos años escalaron fuerte su presencia institucional en medios y vinculación con el sector público.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, cómo estás? Si, ese es mi rol actual. Pero ECIPSA no es una universidad\n\n## MSG2\n> Elisa, leí mal, mil disculpas. Bien y vos qué tal?\n>\n> Igual te cuento lo que hacemos: en Hint Media nos insertamos como equipo de comunicación dentro de las empresas, diseño, contenido, estrategia, sin que tengan que armar estructura propia. Trabajamos con TGS, Transener, Sullair, entre otras.\n>\n> Si no es mucha molestia te envío el dossier por acá? En todo caso, me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Envíamelo, yo coordino el área\n\n## Cierre\n> Perfecto, ya te lo adjunto\n\n## Respuesta al dossier\n> 👍 Gracias Florencia\n\n## SEG1 (enviado 17/06/26, versión final, en 4 burbujas)\nPrimera versión usaba el error \"no es universidad\" como ángulo — se descartó por sonar incómodo. Versión final ancla en algo real y positivo de su actividad:\n\n> Elisa, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo del segundo Reporte de Sustentabilidad de ECIPSA, hecho en español e inglés para la expansión internacional.\n>\n> Traducir ese tipo de reporte para que funcione igual de bien en otro idioma y otro mercado no es solo traducción, cambia hasta qué parte de la historia conviene contar primero.\n>\n> Es justo el tipo de trabajo donde solemos sumar, cuando una empresa real estate empieza a comunicar hacia varios países a la vez.\n>\n> Si te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n## Notas\n- ECIPSA: Grupo real estate Argentina, 39 años, expansión Argentina/Brasil/Paraguay/USA/Panamá/Israel, 3ra desarrollista de mayor crecimiento del continente (Financial Times).\n- Elisa coautora/responsable del 2do Reporte de Sustentabilidad (ES/EN), trabaja junto a Cecilia Bentolila (otro contacto ya en el historial, misma empresa).\n- Interés ALTO: pidió que se le envíe directamente, \"yo coordino el área\".\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

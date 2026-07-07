@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000118",
+  "contact_id": "ctc_000322",
+  "source_file": "conversaciones/junio/beto-cordeiro.md",
+  "fingerprint": "sha256:1efe175c0060ce279e714bba7ff048d50f2019b713d0fca11f1e25e10b46c5b7",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/beto-cordeiro.md",
+    "file_hash": "sha256:1efe175c0060ce279e714bba7ff048d50f2019b713d0fca11f1e25e10b46c5b7",
+    "file_modified": "2026-06-12T17:02:03.081638+00:00",
+    "file_size": 1034,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Beto (Humberto) Cordeiro",
+    "empresa": "UMusic Hospitality & Lifestyle",
+    "cargo": "General Manager",
+    "pais": "São Paulo, Brasil",
+    "fecha": "12/06/26",
+    "estado_texto": "Cerrado — no interesado en este momento"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Beto (Humberto) Cordeiro]\n[EMPRESA: UMusic Hospitality & Lifestyle]\n[CARGO: General Manager]\n[PAIS: São Paulo, Brasil]",
+    "raw_md": "---\nname: beto-cordeiro\ndescription: MSG2 enviado, General Manager UMusic Hospitality São Paulo Brasil, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Beto (Humberto) Cordeiro\n**Cargo:** General Manager\n**Empresa:** UMusic Hospitality & Lifestyle\n**País:** São Paulo, Brasil\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre \"make-believe luxury\": señaló al equipo pequeño como primer síntoma de algo más profundo\n- Respondió: \"Muchas gracias por tus palabras. Me alegra que la publicación haya resonado contigo. Claro, dime en qué puedo ayudarte y veo si está a mi alcance orientarte.\"\n- MSG2 enviado — gap: un hotel con esa claridad de filosofía necesita que su contenido sea tan preciso como la operación. \"Si el lujo no se puede fingir, la comunicación tampoco.\" Mención Destiny Group.\n\n- Respondió: no están evaluando proveedores/agencias, agradeció el contacto\n- Cierre cordial enviado\n\n**Estado:** Cerrado — no interesado en este momento\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

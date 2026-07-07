@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000126",
+  "contact_id": "ctc_000135",
+  "source_file": "conversaciones/junio/carlos-raul-anguizola-typaldos.md",
+  "fingerprint": "sha256:45112f95a9f535169d2e77e6fe90ba29b591b349b999df16a878eeb4dac3b1d0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carlos-raul-anguizola-typaldos.md",
+    "file_hash": "sha256:45112f95a9f535169d2e77e6fe90ba29b591b349b999df16a878eeb4dac3b1d0",
+    "file_modified": "2026-06-22T14:51:24.140413+00:00",
+    "file_size": 1165,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carlos Raúl Anguizola Typaldos",
+    "empresa": "Richa de La Guardia, S.A. (RIGSA) — soluciones energéticas, generación eléctrica, energía solar",
+    "cargo": "Commercial Manager",
+    "pais": "Panamá",
+    "fecha": "",
+    "estado_texto": "MSG2 enviado, esperando respuesta."
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carlos Raúl Anguizola Typaldos]\n[EMPRESA: Richa de La Guardia, S.A. (RIGSA) — soluciones energéticas, generación eléctrica, energía solar]\n[CARGO: Commercial Manager]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: carlos-raul-anguizola-typaldos\ndescription: MSG2 enviado, nuevo Commercial Manager RIGSA (energia) ex Hyundai Petroautos Panama, 22/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Carlos Raúl Anguizola Typaldos\n**Cargo:** Commercial Manager\n**Empresa:** Richa de La Guardia, S.A. (RIGSA) — soluciones energéticas, generación eléctrica, energía solar\n**País:** Panamá\n\n**Resumen de conversación:**\n- MSG1: Florencia observó el posteo de cierre de su etapa en Petroautos (Hyundai), dio crédito al equipo, reflexionó sobre lo importante y cerró con claridad sobre el nuevo capítulo.\n- Respondió: \"Claro con gusto, como te puedo ayudar?\" (sin reciprocidad, fue directo al cuerpo)\n- MSG2 enviado: conecta su transición de marketing digital automotriz (9 años en Hyundai) a comunicación B2B técnica en energía. Mención clientes TGS y Transener.\n\n**Notas:**\n- 14 años en Petroautos/Hyundai Panamá, llevó canal digital a 40%+ de ventas, Digital Marketing and Innovation Manager.\n- Recién incorporado a RIGSA (mayo 2026), empresa panameña líder en soluciones energéticas con 25+ años.\n\n**Estado:** MSG2 enviado, esperando respuesta.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

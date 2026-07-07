@@ -1,0 +1,83 @@
+{
+  "conversation_id": "conv_000215",
+  "contact_id": "ctc_000364",
+  "source_file": "conversaciones/junio/manuel-garcia-villarreal.md",
+  "fingerprint": "sha256:9174222411756a30e3ef6c799ddf812c758c7ce78c83b1d4ec7779f46f4fd372",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/manuel-garcia-villarreal.md",
+    "file_hash": "sha256:9174222411756a30e3ef6c799ddf812c758c7ce78c83b1d4ec7779f46f4fd372",
+    "file_modified": "2026-06-19T15:30:21.644776+00:00",
+    "file_size": 1930,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Manuel García Villarreal",
+    "empresa": "Potenzia (capacitación en IA, 30+ empresas en 2 años, Centroamérica)",
+    "cargo": "Director de Marketing",
+    "pais": "",
+    "fecha": "10/06/26",
+    "estado_texto": "Dossier enviado, sin respuesta — plantillas listas"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Manuel, gracias por conectar! Estuve revisando lo que venís haciendo con Potenzia. Me llamó la atención que hayas capacitado a 30+ empresas en IA en Centroamérica en apenas 2 años. Eso es volumen importante.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, es correcto. A la orden. Saludos!",
+    "msg2_texto": "Escalar a 30+ empresas en 2 años mientras construís el posicionamiento de Potenzia implica mantener ejecución en varios frentes. Trabajamos con Destiny Group, Libra Seguros y otros en esa etapa. ¿Te puedo enviar un dossier por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro / Envíamelo",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "correcto",
+      "orden",
+      "saludos",
+      "enviamelo",
+      "perfecto",
+      "manuel",
+      "mando",
+      "ahora",
+      "quedamos"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Manuel García Villarreal]\n[EMPRESA: Potenzia (capacitación en IA, 30+ empresas en 2 años, Centroamérica)]\n[CARGO: Director de Marketing]\n\n[MSG1]\nManuel, gracias por conectar! Estuve revisando lo que venís haciendo con Potenzia. Me llamó la atención que hayas capacitado a 30+ empresas en IA en Centroamérica en apenas 2 años. Eso es volumen importante.\n\n[RESPUESTA_MSG1]\nHola Florencia, es correcto. A la orden. Saludos!\n\n[MSG2]\nEscalar a 30+ empresas en 2 años mientras construís el posicionamiento de Potenzia implica mantener ejecución en varios frentes. Trabajamos con Destiny Group, Libra Seguros y otros en esa etapa. ¿Te puedo enviar un dossier por acá?\n\n[RESPUESTA_MSG2]\nSí, claro / Envíamelo",
+    "raw_md": "---\nname: manuel-garcia-villarreal\ndescription: Dossier enviado, Director de Marketing Potenzia (IA Centroamérica), plantillas de seguimiento listas, 10/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Manuel García Villarreal\n**Cargo:** Director de Marketing\n**Empresa:** Potenzia (capacitación en IA, 30+ empresas en 2 años, Centroamérica)\n**Fecha:** 10/06/26\n\n## MSG1\n> Manuel, gracias por conectar! Estuve revisando lo que venís haciendo con Potenzia. Me llamó la atención que hayas capacitado a 30+ empresas en IA en Centroamérica en apenas 2 años. Eso es volumen importante.\n\n## Respuesta MSG1\n> Hola Florencia, es correcto. A la orden. Saludos!\n\n## MSG2\n> Escalar a 30+ empresas en 2 años mientras construís el posicionamiento de Potenzia implica mantener ejecución en varios frentes. Trabajamos con Destiny Group, Libra Seguros y otros en esa etapa. ¿Te puedo enviar un dossier por acá?\n\n## Respuesta MSG2\n> Sí, claro / Envíamelo\n\n## Cierre\n> Perfecto Manuel, te lo mando ahora. Y quedamos en contacto, por si en algún momento surge algo concreto.\n\n## Plantillas de seguimiento (19/06/26, sin respuesta aún, ENGAGEMENT_LEVEL: LOW-MEDIUM — respuestas cortas y formales)\n\n**Si no contesta (SEG1):**\n> Manuel, cómo estás?\n> No sé si llegaste a ver el material que te mandé.\n> Me quedé pensando en lo de escalar a 30+ empresas en 2 años, sosteniendo a la vez el posicionamiento de Potenzia.\n> Eso suele marcar la diferencia entre una operación que crece rápido y una que además logra que la marca crezca al mismo ritmo.\n> Cualquier cosa que te genere, quedo atenta.\n\n**Si contesta con interés:**\n> Qué bueno Manuel! Justo en esa etapa es donde más rinde sumar capacidad de ejecución sin perder criterio de marca.\n> Si te parece, coordinamos 15 minutos esta semana y vemos cómo aplicaría a lo que están armando en Potenzia.\n\n**Estado:** Dossier enviado, sin respuesta — plantillas listas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "seccion_desconocida: 'Plantillas de seguimiento (19/06/26, sin respuesta aún, ENGAGEMENT_LEVEL: LOW-MEDIUM — respuestas cortas y formales)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

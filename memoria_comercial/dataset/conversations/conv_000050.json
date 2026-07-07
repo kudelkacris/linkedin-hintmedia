@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000050",
+  "contact_id": "ctc_000028",
+  "source_file": "conversaciones/julio/javiera-del-fierro-manns.md",
+  "fingerprint": "sha256:7d69a2e0617e712682fcfa5ed3ed4ee1a5fa9a400f80c98f15340983dea21059",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/javiera-del-fierro-manns.md",
+    "file_hash": "sha256:7d69a2e0617e712682fcfa5ed3ed4ee1a5fa9a400f80c98f15340983dea21059",
+    "file_modified": "2026-07-06T15:12:56.476362+00:00",
+    "file_size": 1898,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Javiera Del Fierro Manns",
+    "empresa": "Activo Más Inversiones",
+    "cargo": "Jefa de Personas y Comunicaciones Activo Más",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Javiera, gracias por conectar! 👋\n\nMe llamó la atención el post que compartiste cuando subiste a Personas y Comunicaciones. Lo que más me gustó fue que antes de hablar del rol nuevo, le diste crédito específicamente a cada persona del equipo que dejabas. No es lo primero que la mayoría hace cuando anuncia un ascenso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "El post de transición de rol donde agradece explícitamente a 7 personas del equipo anterior, nombrándolas una por una. Muestra que valora públicamente a las personas que trabajaron con ella, incluso en el momento en que se va del equipo que lideraba. Es una decisión deliberada de dar crédito grupal antes de anunciar su propio ascenso.",
+    "hipotesis": "Cómo construir un equipo nuevo sin que todo dependa de ella. Cómo comunicar cambios internos sin que la transición sea caótica. Cómo escalar comunicación estratégica cuando hay múltiples iniciativas simultáneas (educación financiera, cambio cultural, marca empleadora).",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Javiera Del Fierro Manns]\n[EMPRESA: Activo Más Inversiones]\n[CARGO: Jefa de Personas y Comunicaciones Activo Más]\n[SECTOR: Real Estate / Inversiones Inmobiliarias]\n[PAIS: Chile]\n[SENAL: El post de transición de rol donde agradece explícitamente a 7 personas del equipo anterior, nombrándolas una por una. Muestra que valora públicamente a las personas que trabajaron con ella, incluso en el momento en que se va del equipo que lideraba. Es una decisión deliberada de dar crédito grupal antes de anunciar su propio ascenso.]\n[HIPOTESIS: Cómo construir un equipo nuevo sin que todo dependa de ella. Cómo comunicar cambios internos sin que la transición sea caótica. Cómo escalar comunicación estratégica cuando hay múltiples iniciativas simultáneas (educación financiera, cambio cultural, marca empleadora).]\n\n[MSG1]\nJaviera, gracias por conectar! 👋\n\nMe llamó la atención el post que compartiste cuando subiste a Personas y Comunicaciones. Lo que más me gustó fue que antes de hablar del rol nuevo, le diste crédito específicamente a cada persona del equipo que dejabas. No es lo primero que la mayoría hace cuando anuncia un ascenso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Javiera Del Fierro Manns\n\n**Fecha:** 06/07/26\n**Cargo:** Jefa de Personas y Comunicaciones Activo Más\n**Empresa:** Activo Más Inversiones\n**Pais:** Chile\n**Sector:** Real Estate / Inversiones Inmobiliarias\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** El post de transición de rol donde agradece explícitamente a 7 personas del equipo anterior, nombrándolas una por una. Muestra que valora públicamente a las personas que trabajaron con ella, incluso en el momento en que se va del equipo que lideraba. Es una decisión deliberada de dar crédito grupal antes de anunciar su propio ascenso.\n- **Tensión profesional:** Escalar responsabilidad (pasar de comunicaciones puras a gestionar cultura + comunicaciones) sin perder ejecución ni el equipo que construyó. Mantener coherencia de mensaje externo mientras arma desde cero una estructura interna de personas.\n- **Hipótesis:** Cómo construir un equipo nuevo sin que todo dependa de ella. Cómo comunicar cambios internos sin que la transición sea caótica. Cómo escalar comunicación estratégica cuando hay múltiples iniciativas simultáneas (educación financiera, cambio cultural, marca empleadora).\n- **Ángulo MSG1:** Señal humana — el modo en que agradeció al equipo anterior revela algo sobre cómo construye credibilidad: a través de reconocer a otros, no solo de resultados propios.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Javiera, gracias por conectar! 👋\n>\n> Me llamó la atención el post que compartiste cuando subiste a Personas y Comunicaciones. Lo que más me gustó fue que antes de hablar del rol nuevo, le diste crédito específicamente a cada persona del equipo que dejabas. No es lo primero que la mayoría hace cuando anuncia un ascenso.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

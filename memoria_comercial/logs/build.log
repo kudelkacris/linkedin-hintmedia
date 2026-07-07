@@ -1,0 +1,60 @@
+2026-07-07T16:51:01 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T16:51:01 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T16:51:01 [INFO] Crawl completo: 276 archivos en 0.00s — errores: 0
+2026-07-07T16:51:01 [INFO] FULL BUILD — HITO 2 completo. Siguiente: HITO 3 (parser).
+2026-07-07T17:01:24 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:01:24 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:01:24 [INFO] Crawl completo: 276 archivos en 0.00s — errores: 0
+2026-07-07T17:01:24 [INFO] FULL BUILD — HITO 2 completo. Siguiente: HITO 3 (parser).
+2026-07-07T17:12:01 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:12:01 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:12:01 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:12:03 [INFO] FULL BUILD completo en 1.75s — 276 archivos — 0 errores
+2026-07-07T17:12:03 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:14:24 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:14:24 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:14:24 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:14:24 [INFO] FULL BUILD completo en 0.09s — 276 archivos — 0 errores
+2026-07-07T17:14:24 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:15:16 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:15:16 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:15:16 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:15:16 [INFO] FULL BUILD completo en 0.10s — 276 archivos — 0 errores
+2026-07-07T17:15:16 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:17:40 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:17:40 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:17:40 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:17:40 [INFO] FULL BUILD completo en 0.09s — 276 archivos — 0 errores
+2026-07-07T17:17:40 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:18:28 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:18:28 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:18:28 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:18:28 [INFO] FULL BUILD completo en 0.09s — 276 archivos — 0 errores
+2026-07-07T17:18:28 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:19:27 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:19:27 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:19:27 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:19:28 [INFO] FULL BUILD completo en 0.09s — 276 archivos — 0 errores
+2026-07-07T17:19:28 [INFO] FULL BUILD — HITO 3 completo. Siguiente: HITO 4 (normalizer).
+2026-07-07T17:29:38 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:29:38 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:29:38 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:29:38 [INFO] FULL BUILD completo en 0.12s — 276 archivos — 0 errores
+2026-07-07T17:29:38 [INFO] FULL BUILD — HITO 3+4 completo. Siguiente: HITO 5 (dataset).
+2026-07-07T17:43:01 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:43:01 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:43:01 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:45:18 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:45:18 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:45:18 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:45:22 [INFO] FULL BUILD completo en 3.28s — 276 archivos — 0 errores
+2026-07-07T17:45:22 [INFO] FULL BUILD — HITO 3+4+5 completo. Siguiente: HITO 6 (reports).
+2026-07-07T17:47:06 [INFO] Memoria Comercial v1.0.0 — FULL BUILD iniciado
+2026-07-07T17:47:06 [INFO] Fuente: C:\Users\neces\Desktop\CLAUDE\Linkedin\conversaciones
+2026-07-07T17:47:06 [INFO] Crawl: 276 archivos — errores: 0
+2026-07-07T17:47:09 [INFO] FULL BUILD completo en 3.37s — 276 archivos — 0 errores
+2026-07-07T17:47:09 [INFO] FULL BUILD — HITO 3+4+5 completo. Siguiente: HITO 6 (reports).
+2026-07-07T18:02:24 [INFO] Memoria Comercial v1.0.0 — REPORT
+2026-07-07T18:02:24 [INFO] REPORT completo.
+2026-07-07T18:18:22 [INFO] Memoria Comercial v1.0.0 — INTEL
+2026-07-07T18:18:22 [INFO] INTEL completo.

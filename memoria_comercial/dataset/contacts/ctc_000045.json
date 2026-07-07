@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000045",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Sara Herrera Luna",
+  "empresa": "Aubamar Hotels",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 1,
+  "stage_texto": "",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "TURISMO_EVENTOS",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": false,
+  "conversation_id": null,
+  "historial_slug": "1783349651559"
+}

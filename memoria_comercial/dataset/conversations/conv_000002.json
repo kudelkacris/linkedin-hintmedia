@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000002",
+  "contact_id": "ctc_000101",
+  "source_file": "conversaciones/julio/alba-camarero.md",
+  "fingerprint": "sha256:da9466746459c474ecf0645be710360153dc927aebbdc0fb9900a9bec00282e6",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/alba-camarero.md",
+    "file_hash": "sha256:da9466746459c474ecf0645be710360153dc927aebbdc0fb9900a9bec00282e6",
+    "file_modified": "2026-07-01T18:24:14.255038+00:00",
+    "file_size": 2197,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Alba Camarero",
+    "empresa": "Synersight",
+    "cargo": "CEO en Banco Supervielle",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Alba, gracias por conectar! 👋\n\nMe llamó la atención la forma en que comunicás la participación de Synersight en eventos como DiAgroXperience o el Foro de Sostenibilidad. No solo anunciás que estuvieron, sino que destancás el impacto, la colaboración, lo que el equipo hizo. No es lo que la mayoría hace cuando quiere mostrar una solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La forma en que comunica los eventos y iniciativas de Synersight. No solo anuncia logros, sino que destaca: colaboración institucional, participación del equipo, impacto real de las soluciones, sostenibilidad como valor corporativo. Cuando comparte participación en esRadio o DiAgroXperience, el foco está en \"participamos\", no en \"yo participé\". Cuando celebra iniciativas de RSC (almuerzo saludable, reducción de desperdicio), usa el plural y nombra a colaboradores.",
+    "hipotesis": "Cómo escalar comunicación de marca en una empresa tech-industrial sin depender de una sola persona. Cómo coordinar múltiples iniciativas (eventos, redes, medios, contenido sectorial) manteniendo consistencia. Cómo transformar expertise técnico en contenido que resuene en mercados diferentes.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Alba Camarero]\n[EMPRESA: Synersight]\n[CARGO: CEO en Banco Supervielle]\n[SECTOR: Industrial / Automatización / Robótica]\n[PAIS: España]\n[SENAL: La forma en que comunica los eventos y iniciativas de Synersight. No solo anuncia logros, sino que destaca: colaboración institucional, participación del equipo, impacto real de las soluciones, sostenibilidad como valor corporativo. Cuando comparte participación en esRadio o DiAgroXperience, el foco está en \"participamos\", no en \"yo participé\". Cuando celebra iniciativas de RSC (almuerzo saludable, reducción de desperdicio), usa el plural y nombra a colaboradores.]\n[HIPOTESIS: Cómo escalar comunicación de marca en una empresa tech-industrial sin depender de una sola persona. Cómo coordinar múltiples iniciativas (eventos, redes, medios, contenido sectorial) manteniendo consistencia. Cómo transformar expertise técnico en contenido que resuene en mercados diferentes.]\n\n[MSG1]\nAlba, gracias por conectar! 👋\n\nMe llamó la atención la forma en que comunicás la participación de Synersight en eventos como DiAgroXperience o el Foro de Sostenibilidad. No solo anunciás que estuvieron, sino que destancás el impacto, la colaboración, lo que el equipo hizo. No es lo que la mayoría hace cuando quiere mostrar una solución.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Alba Camarero\n\n**Fecha:** 01/07/26\n**Cargo:** CEO en Banco Supervielle\n**Empresa:** Synersight\n**Pais:** España\n**Sector:** Industrial / Automatización / Robótica\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La forma en que comunica los eventos y iniciativas de Synersight. No solo anuncia logros, sino que destaca: colaboración institucional, participación del equipo, impacto real de las soluciones, sostenibilidad como valor corporativo. Cuando comparte participación en esRadio o DiAgroXperience, el foco está en \"participamos\", no en \"yo participé\". Cuando celebra iniciativas de RSC (almuerzo saludable, reducción de desperdicio), usa el plural y nombra a colaboradores.\n- **Tensión profesional:** Transformar la complejidad técnica de soluciones industriales (AGVs, automatización, IA) en narrativa clara y atractiva para públicos distintos (decisores empresariales, profesionales del sector, stakeholders institucionales) sin simplificar demasiado, mientras sostiene esa ejecución consistente.\n- **Hipótesis:** Cómo escalar comunicación de marca en una empresa tech-industrial sin depender de una sola persona. Cómo coordinar múltiples iniciativas (eventos, redes, medios, contenido sectorial) manteniendo consistencia. Cómo transformar expertise técnico en contenido que resuene en mercados diferentes.\n- **Ángulo MSG1:** La forma en que comunica la participación de Synersight en eventos y cómo posiciona las soluciones — elegida conscientemente para mostrar colaboración, impacto real y coherencia de marca. No es un comunicador que solo reporta, sino alguien que construye narrativa estratégica.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Alba, gracias por conectar! 👋\n>\n> Me llamó la atención la forma en que comunicás la participación de Synersight en eventos como DiAgroXperience o el Foro de Sostenibilidad. No solo anunciás que estuvieron, sino que destancás el impacto, la colaboración, lo que el equipo hizo. No es lo que la mayoría hace cuando quiere mostrar una solución.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

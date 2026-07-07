@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000231",
+  "contact_id": "ctc_000385",
+  "source_file": "conversaciones/junio/matthew-hernandez.md",
+  "fingerprint": "sha256:f5acf112fba54fd67aea34a91f3d40f2bc6c174986c2a6d95c7cfb0516468458",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/matthew-hernandez.md",
+    "file_hash": "sha256:f5acf112fba54fd67aea34a91f3d40f2bc6c174986c2a6d95c7cfb0516468458",
+    "file_modified": "2026-07-06T13:06:51.097421+00:00",
+    "file_size": 2527,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Matthew Hernandez",
+    "empresa": "Nexsys Centroamérica y Caribe (distribuidor tech: Adobe, Red Hat, SonicWall, Salesforce)",
+    "cargo": "Marketing Coordinator, Nexsys Centroamérica y Caribe",
+    "pais": "Costa Rica (Cartago)",
+    "fecha": "15/06/26 (MSG2) — dossier 18/06/26",
+    "estado_texto": "Filtro enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Coordinador junior (9 meses en Nexsys, oct 2025)\n- Antes: Team Lead en análisis vial para EEUU, Community Specialist para Blue Buffalo\n- Recibió reconocimiento Adobe Concierge Q2 FY26\n- Participó en Tech Day CR y Banking Summit 2026\n- Probablemente NO es el decision maker para contratar agencia\n- Seguir para ver si redirige a quien corresponde"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Matthew Hernandez]\n[EMPRESA: Nexsys Centroamérica y Caribe (distribuidor tech: Adobe, Red Hat, SonicWall, Salesforce)]\n[CARGO: Marketing Coordinator, Nexsys Centroamérica y Caribe]\n[PAIS: Costa Rica (Cartago)]\n\n[NOTAS]\n- Coordinador junior (9 meses en Nexsys, oct 2025)\n- Antes: Team Lead en análisis vial para EEUU, Community Specialist para Blue Buffalo\n- Recibió reconocimiento Adobe Concierge Q2 FY26\n- Participó en Tech Day CR y Banking Summit 2026\n- Probablemente NO es el decision maker para contratar agencia\n- Seguir para ver si redirige a quien corresponde",
+    "raw_md": "# Matthew Hernandez\n\n**Estado:** Filtro enviado — 06/07/26\n**Fecha:** 15/06/26 (MSG2) — dossier 18/06/26\n**Cargo:** Marketing Coordinator, Nexsys Centroamérica y Caribe\n**País:** Costa Rica (Cartago)\n**Empresa:** Nexsys Centroamérica y Caribe (distribuidor tech: Adobe, Red Hat, SonicWall, Salesforce)\n\n## Conversación\n\n**MSG1 (Florencia, miércoles 14:28):**\nDestacó que combina \"habilidades analíticas con visión creativa.\"\n\n**Respuesta Matthew (sábado 2:15):**\n\"Buenas noches, muchas gracias por tomarte el tiempo de escribir. Si esta dentro de mis posibilidades, ¡podría ayudar con mucho gusto!\"\n\n**MSG2 (redactado):**\n> Matthew, gracias por responder!\n>\n> Vi el reconocimiento de Adobe al equipo de Nexsys. Ese tipo de resultado en un programa tan específico como Concierge no se consigue solo con ejecución, hay estrategia detrás.\n>\n> En Hint acompañamos a equipos de marketing B2B con contenido, posicionamiento y estrategia de marca que sostiene ese tipo de resultados a mediano plazo.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Matthew (miércoles 21:38):** \"Buenas noches, si claro, si gustas me lo compartes y nosotros lo revisamos\"\n\n**Dossier enviado (hoy 18/06, 11:50):** \"Buen dia Matt, te lo dejo adjunto por aca\"\n\n## Conversación reciente (06/07/26)\n\n**Matthew (viernes 21:29):**\n> Buenas tarde Florencia, me parece bien tomar una reunión de 30 minutos para poder valorar la situación. Dime dos espacios disponible y te confirmo la semana que viene!\n\n**Análisis antes de confirmar reunión:** ICP dudoso — Marketing Coordinator ejecutor, freelance community manager, perfil que hace el trabajo no lo contrata. Riesgo reunión fallida como las anteriores.\n\n**Mensaje filtro enviado (06/07/26):**\n> Buenas Matthew! Antes de coordinar quería aclararte de qué se trata la reunión para no hacerte perder el tiempo.\n> Hint Media es una agencia de comunicación y contenido. Lo que estaríamos viendo juntos es si hay un proyecto donde podamos ayudarte a vos o a tu empresa. Eso aplica para tu lado?\n\n## Notas\n- Coordinador junior (9 meses en Nexsys, oct 2025)\n- Antes: Team Lead en análisis vial para EEUU, Community Specialist para Blue Buffalo\n- Recibió reconocimiento Adobe Concierge Q2 FY26\n- Participó en Tech Day CR y Banking Summit 2026\n- Probablemente NO es el decision maker para contratar agencia\n- Seguir para ver si redirige a quien corresponde\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector",
+      "seccion_desconocida: 'Conversación reciente (06/07/26)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

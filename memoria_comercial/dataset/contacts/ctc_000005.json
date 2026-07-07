@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000005",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Marc Roca",
+  "empresa": "Acuarium Piscinas & Spas",
+  "cargo": "CMO @ Acuarium Piscinas & Spas",
+  "pais": "Costa Rica",
+  "sector_raw": "Retail / Servicios",
+  "stage": 3,
+  "stage_texto": "Dossier enviado",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "RETAIL_MODA",
+  "seniority": "DIRECTOR",
+  "tiene_md": true,
+  "conversation_id": "conv_000069",
+  "historial_slug": "marc-roca"
+}

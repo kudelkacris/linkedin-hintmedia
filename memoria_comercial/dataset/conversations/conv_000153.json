@@ -1,0 +1,83 @@
+{
+  "conversation_id": "conv_000153",
+  "contact_id": "ctc_000341",
+  "source_file": "conversaciones/junio/ericka-torres.md",
+  "fingerprint": "sha256:cdb93c5113c2223fd0019857da7e6be8e87d70c6236009c8565b056db2317169",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/ericka-torres.md",
+    "file_hash": "sha256:cdb93c5113c2223fd0019857da7e6be8e87d70c6236009c8565b056db2317169",
+    "file_modified": "2026-06-23T21:46:24.415016+00:00",
+    "file_size": 2529,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ericka Torres",
+    "empresa": "Novogar Costa Rica (desarrollo inmobiliario)",
+    "cargo": "Gerente de Marketing, Novogar Costa Rica",
+    "pais": "Costa Rica (Heredia)",
+    "fecha": "15/06/26",
+    "estado_texto": "Dossier confirmado — respondió \"Sí, claro\""
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Ericka, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n\nVimos un patrón en inmobiliario donde la marca tiene una mirada genuina, como la tuya sobre planificación urbana y sostenibilidad, pero esa mirada no siempre llega traducida a los mensajes que ve el público final. Queda como conocimiento interno y no como diferencial de marca.\n\nSi te parece que tiene sentido, podemos hablar 15 minutos esta semana.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dejo",
+      "adjunto",
+      "aqui",
+      "ericka",
+      "buena",
+      "semana",
+      "estamos",
+      "contacto",
+      "estas",
+      "llegaste"
+    ],
+    "notas": "- 4+ años en Novogar (desde mar 2022)\n- 15+ años de experiencia en marketing\n- Atleta (Oceanman 2025), espiritual, muy auténtica en LinkedIn\n- Organizó ExpoNovo (tercera edición)\n- Maestría reciente (TECH Universidad, 7 meses)\n- Sector: desarrollo inmobiliario Costa Rica"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ericka Torres]\n[EMPRESA: Novogar Costa Rica (desarrollo inmobiliario)]\n[CARGO: Gerente de Marketing, Novogar Costa Rica]\n[PAIS: Costa Rica (Heredia)]\n\n[SEG1]\nEricka, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n\nVimos un patrón en inmobiliario donde la marca tiene una mirada genuina, como la tuya sobre planificación urbana y sostenibilidad, pero esa mirada no siempre llega traducida a los mensajes que ve el público final. Queda como conocimiento interno y no como diferencial de marca.\n\nSi te parece que tiene sentido, podemos hablar 15 minutos esta semana.\n\n[NOTAS]\n- 4+ años en Novogar (desde mar 2022)\n- 15+ años de experiencia en marketing\n- Atleta (Oceanman 2025), espiritual, muy auténtica en LinkedIn\n- Organizó ExpoNovo (tercera edición)\n- Maestría reciente (TECH Universidad, 7 meses)\n- Sector: desarrollo inmobiliario Costa Rica",
+    "raw_md": "# Ericka Torres\n\n**Estado:** Dossier confirmado — respondió \"Sí, claro\"\n**Fecha:** 15/06/26\n**Cargo:** Gerente de Marketing, Novogar Costa Rica\n**País:** Costa Rica (Heredia)\n**Empresa:** Novogar Costa Rica (desarrollo inmobiliario)\n\n## Conversación\n\n**MSG1 (Florencia, sábado 11:43):**\nDestacó que compartió su aprendizaje del Foro de Sostenibilidad en lugar de un logro de campaña, y que enfatizó que \"seguir aprendiendo sobre planificación urbana y movilidad es fundamental.\"\n\n**Respuesta Ericka:**\n\"Claro en que te puedo ayudar?\"\n\n**MSG2 (redactado):**\n> Ericka, gracias por responder!\n>\n> Eso que escribiste del Foro de Sostenibilidad me pareció muy auténtico. En desarrollo inmobiliario no es común ver a alguien de marketing hablando de planificación urbana con esa curiosidad genuina.\n>\n> En Hint trabajamos con empresas del sector inmobiliario en contenido, posicionamiento de marca y estrategia digital. Hemos ayudado a marcas a construir relevancia más allá de la campaña de turno.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Cierre dossier\n> Lo dejo adjunto por aqui Ericka, buena semana y estamos en contacto.\n\n**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):\n> Ericka, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya de seguir aprendiendo sobre planificación urbana y movilidad, esa curiosidad genuina más allá de la campaña de turno es justo lo que más cuesta sostener en desarrollo inmobiliario. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están trabajando hoy en Novogar.\n\n## SEG1 (enviado 17/06/26)\n> Ericka, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n>\n> Vimos un patrón en inmobiliario donde la marca tiene una mirada genuina, como la tuya sobre planificación urbana y sostenibilidad, pero esa mirada no siempre llega traducida a los mensajes que ve el público final. Queda como conocimiento interno y no como diferencial de marca.\n>\n> Si te parece que tiene sentido, podemos hablar 15 minutos esta semana.\n\n## Notas\n- 4+ años en Novogar (desde mar 2022)\n- 15+ años de experiencia en marketing\n- Atleta (Oceanman 2025), espiritual, muy auténtica en LinkedIn\n- Organizó ExpoNovo (tercera edición)\n- Maestría reciente (TECH Universidad, 7 meses)\n- Sector: desarrollo inmobiliario Costa Rica\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

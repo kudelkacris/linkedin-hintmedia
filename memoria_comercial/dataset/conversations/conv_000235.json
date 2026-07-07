@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000235",
+  "contact_id": "ctc_000182",
+  "source_file": "conversaciones/junio/micaela-ravina.md",
+  "fingerprint": "sha256:d28a4c93a4a631a41e6ee8c0c9f9f24bfdc5a114ba3ba67951d5cef875eed8f2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/micaela-ravina.md",
+    "file_hash": "sha256:d28a4c93a4a631a41e6ee8c0c9f9f24bfdc5a114ba3ba67951d5cef875eed8f2",
+    "file_modified": "2026-07-01T15:55:05.626425+00:00",
+    "file_size": 1258,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Micaela Ravina",
+    "empresa": "TotalEnergies (Chile y Perú)",
+    "cargo": "Marketing Manager / Directora de Marketing Hub Andino",
+    "pais": "",
+    "fecha": "18/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Micaela, gracias por conectar! Estuve mirando las campañas que sacaron con TotalEnergies (Le Mans, Lubrifest, Desafío Le Mans) y me llamó la atención que en cada una nombrés a la gente específica que está detrás: Nicole, Constanza, Diana. No es lo habitual cuando una empresa anuncia algo así.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola qué tal. Dime cómo puedo ayudarte",
+    "msg2_texto": "Buenas Micaela, gracias por responder!\n\nLo que más me llamó la atención es que en cada campaña (Le Mans, Lubrifest, Desafío Le Mans) siempre nombrás al equipo detrás. Coordinar contenido, embajadores y eventos en simultáneo en dos países y seguir dando ese crédito puntual no es fácil de sostener.\n\nEn Hint Media trabajamos justo eso: comunicación y contenido para empresas de energía e infraestructura, como TGS y Transener.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dime",
+      "puedo",
+      "ayudarte"
+    ],
+    "notas": "- Sector energía (TotalEnergies) → clientes TGS y Transener, match directo."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Micaela Ravina]\n[EMPRESA: TotalEnergies (Chile y Perú)]\n[CARGO: Marketing Manager / Directora de Marketing Hub Andino]\n[SECTOR: Energía]\n\n[MSG1]\nMicaela, gracias por conectar! Estuve mirando las campañas que sacaron con TotalEnergies (Le Mans, Lubrifest, Desafío Le Mans) y me llamó la atención que en cada una nombrés a la gente específica que está detrás: Nicole, Constanza, Diana. No es lo habitual cuando una empresa anuncia algo así.\n\n[RESPUESTA_MSG1]\nHola qué tal. Dime cómo puedo ayudarte\n\n[MSG2]\nBuenas Micaela, gracias por responder!\n\nLo que más me llamó la atención es que en cada campaña (Le Mans, Lubrifest, Desafío Le Mans) siempre nombrás al equipo detrás. Coordinar contenido, embajadores y eventos en simultáneo en dos países y seguir dando ese crédito puntual no es fácil de sostener.\n\nEn Hint Media trabajamos justo eso: comunicación y contenido para empresas de energía e infraestructura, como TGS y Transener.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector energía (TotalEnergies) → clientes TGS y Transener, match directo.",
+    "raw_md": "# Micaela Ravina\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26\n**Cargo:** Marketing Manager / Directora de Marketing Hub Andino\n**Empresa:** TotalEnergies (Chile y Perú)\n**Sector:** Energía\n\n## MSG1\n> Micaela, gracias por conectar! Estuve mirando las campañas que sacaron con TotalEnergies (Le Mans, Lubrifest, Desafío Le Mans) y me llamó la atención que en cada una nombrés a la gente específica que está detrás: Nicole, Constanza, Diana. No es lo habitual cuando una empresa anuncia algo así.\n\n## Respuesta MSG1\n> Hola qué tal. Dime cómo puedo ayudarte\n\n## MSG2\n> Buenas Micaela, gracias por responder!\n>\n> Lo que más me llamó la atención es que en cada campaña (Le Mans, Lubrifest, Desafío Le Mans) siempre nombrás al equipo detrás. Coordinar contenido, embajadores y eventos en simultáneo en dos países y seguir dando ese crédito puntual no es fácil de sostener.\n>\n> En Hint Media trabajamos justo eso: comunicación y contenido para empresas de energía e infraestructura, como TGS y Transener.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector energía (TotalEnergies) → clientes TGS y Transener, match directo.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

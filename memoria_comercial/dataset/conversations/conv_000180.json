@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000180",
+  "contact_id": "ctc_000242",
+  "source_file": "conversaciones/junio/jose-adrian-brenes.md",
+  "fingerprint": "sha256:03134746a1f836b6b3361fcec1b6b6395082586363bc6aa5ca2af62bf5eb4baa",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-adrian-brenes.md",
+    "file_hash": "sha256:03134746a1f836b6b3361fcec1b6b6395082586363bc6aa5ca2af62bf5eb4baa",
+    "file_modified": "2026-06-18T17:31:53.211582+00:00",
+    "file_size": 2121,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "José Adrián Brenes M.",
+    "empresa": "Grupo Inteca (antes Nestlé)",
+    "cargo": "(ex) Channel Sales Manager / Jefe Comercial",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26 (MSG1, MSG2 y respuesta final el mismo día)",
+    "estado_texto": "No está laborando, ofreció referir contacto"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "José Adrián, gracias por conectar! Me llamó la atención una publicación que vi hace unos meses donde hablabas de \"seguimiento con propósito, ventas con impacto\". Parecía bastante deliberado cómo lo planteabas, no era un eslogan corporativo. Y ahora veo que hace poco pasaste de Nestlé a Inteca. Da la sensación de que fue un cambio con propósito. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas José, gracias por la honestidad. Si conocés a alguien en canal o marketing que le pueda servir, te paso el dossier para que lo compartas, o me decís el contacto y lo veo directo con esa persona.",
+    "msg2_texto": "Buenas José Adrián, el gusto es mío.\n\nGestionar canal tradicional, moderno y distribuidores al mismo tiempo implica que el mensaje de marca llegue igual en cada uno, sobre todo ahora que estás construyendo eso de cero en una estructura nueva.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene un mensaje de marca consistente a través de múltiples canales. Trabajamos con Destiny Group y Tasarolli en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola por el momento no estoy laborando! Para hacerte algún link con alguien",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "jose",
+      "honestidad",
+      "conoces",
+      "alguien",
+      "canal",
+      "marketing",
+      "pueda",
+      "servir",
+      "paso",
+      "dossier"
+    ],
+    "notas": "- Declaró que actualmente no está laborando (a pesar de que el perfil mostraba Jefe Comercial en Inteca desde dic 2025) — verificar estado real, posible salida reciente no actualizada en LinkedIn.\n- Filtro de prospectos: DESCARTAR como prospecto directo (sin capacidad de decisión actual), pero válido como fuente de referidos.\n- Queda a la espera de que pase un contacto o pida el dossier para compartir."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: José Adrián Brenes M.]\n[EMPRESA: Grupo Inteca (antes Nestlé)]\n[CARGO: (ex) Channel Sales Manager / Jefe Comercial]\n[PAIS: Costa Rica]\n\n[MSG1]\nJosé Adrián, gracias por conectar! Me llamó la atención una publicación que vi hace unos meses donde hablabas de \"seguimiento con propósito, ventas con impacto\". Parecía bastante deliberado cómo lo planteabas, no era un eslogan corporativo. Y ahora veo que hace poco pasaste de Nestlé a Inteca. Da la sensación de que fue un cambio con propósito. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenas José, gracias por la honestidad. Si conocés a alguien en canal o marketing que le pueda servir, te paso el dossier para que lo compartas, o me decís el contacto y lo veo directo con esa persona.\n\n[MSG2]\nBuenas José Adrián, el gusto es mío.\n\nGestionar canal tradicional, moderno y distribuidores al mismo tiempo implica que el mensaje de marca llegue igual en cada uno, sobre todo ahora que estás construyendo eso de cero en una estructura nueva.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene un mensaje de marca consistente a través de múltiples canales. Trabajamos con Destiny Group y Tasarolli en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nHola por el momento no estoy laborando! Para hacerte algún link con alguien\n\n[NOTAS]\n- Declaró que actualmente no está laborando (a pesar de que el perfil mostraba Jefe Comercial en Inteca desde dic 2025) — verificar estado real, posible salida reciente no actualizada en LinkedIn.\n- Filtro de prospectos: DESCARTAR como prospecto directo (sin capacidad de decisión actual), pero válido como fuente de referidos.\n- Queda a la espera de que pase un contacto o pida el dossier para compartir.",
+    "raw_md": "# José Adrián Brenes M.\n\n**Estado:** No está laborando, ofreció referir contacto\n**Fecha:** 18/06/26 (MSG1, MSG2 y respuesta final el mismo día)\n**Cargo:** (ex) Channel Sales Manager / Jefe Comercial\n**Empresa:** Grupo Inteca (antes Nestlé)\n**País:** Costa Rica\n\n## MSG1\n> José Adrián, gracias por conectar! Me llamó la atención una publicación que vi hace unos meses donde hablabas de \"seguimiento con propósito, ventas con impacto\". Parecía bastante deliberado cómo lo planteabas, no era un eslogan corporativo. Y ahora veo que hace poco pasaste de Nestlé a Inteca. Da la sensación de que fue un cambio con propósito. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia! Claro a la orden\n\n## MSG2\n> Buenas José Adrián, el gusto es mío.\n>\n> Gestionar canal tradicional, moderno y distribuidores al mismo tiempo implica que el mensaje de marca llegue igual en cada uno, sobre todo ahora que estás construyendo eso de cero en una estructura nueva.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que sostiene un mensaje de marca consistente a través de múltiples canales. Trabajamos con Destiny Group y Tasarolli en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Hola por el momento no estoy laborando! Para hacerte algún link con alguien\n\n## Respuesta enviada\n> Buenas José, gracias por la honestidad. Si conocés a alguien en canal o marketing que le pueda servir, te paso el dossier para que lo compartas, o me decís el contacto y lo veo directo con esa persona.\n\n## Notas\n- Declaró que actualmente no está laborando (a pesar de que el perfil mostraba Jefe Comercial en Inteca desde dic 2025) — verificar estado real, posible salida reciente no actualizada en LinkedIn.\n- Filtro de prospectos: DESCARTAR como prospecto directo (sin capacidad de decisión actual), pero válido como fuente de referidos.\n- Queda a la espera de que pase un contacto o pida el dossier para compartir.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

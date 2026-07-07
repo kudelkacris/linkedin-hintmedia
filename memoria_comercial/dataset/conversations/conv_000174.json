@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000174",
+  "contact_id": "ctc_000297",
+  "source_file": "conversaciones/junio/jana-antonioli.md",
+  "fingerprint": "sha256:42d09e1b51a4d81509fa8912a99b464190fcc9d4b1197927b63f463633c617e9",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jana-antonioli.md",
+    "file_hash": "sha256:42d09e1b51a4d81509fa8912a99b464190fcc9d4b1197927b63f463633c617e9",
+    "file_modified": "2026-06-16T17:46:22.769138+00:00",
+    "file_size": 1462,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jana Antonioli",
+    "empresa": "TROOP (travel & hospitality tech)",
+    "cargo": "Marketing Manager",
+    "pais": "Panamá (remoto)",
+    "fecha": "16/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "LOW",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Perfil multicultural: Italia, EEUU, España, Alemania, Panamá\n- Maneja todo sola: eventos globales, social media, demand gen, partnerships, brand\n- Creció LinkedIn TROOP de 5k a 23k followers\n- 30+ tradeshows y conferencias globales ejecutadas\n- Describe su marketing como \"human\": experiencias que crean conexión, no solo impresiones\n- TROOP: plataforma de planificación de reuniones y viajes corporativos\n- Antes en ReviewPro (hospitality tech, Barcelona)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jana Antonioli]\n[EMPRESA: TROOP (travel & hospitality tech)]\n[CARGO: Marketing Manager]\n[PAIS: Panamá (remoto)]\n\n[NOTAS]\n- Perfil multicultural: Italia, EEUU, España, Alemania, Panamá\n- Maneja todo sola: eventos globales, social media, demand gen, partnerships, brand\n- Creció LinkedIn TROOP de 5k a 23k followers\n- 30+ tradeshows y conferencias globales ejecutadas\n- Describe su marketing como \"human\": experiencias que crean conexión, no solo impresiones\n- TROOP: plataforma de planificación de reuniones y viajes corporativos\n- Antes en ReviewPro (hospitality tech, Barcelona)",
+    "raw_md": "# Jana Antonioli\n\n**Estado:** MSG2 enviado\n**Fecha:** 16/06/26\n**Cargo:** Marketing Manager\n**Empresa:** TROOP (travel & hospitality tech)\n**País:** Panamá (remoto)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 17:57):**\nDestacó que ejecutó 30+ eventos globales mientras crecía el LinkedIn de 5k a 23k followers — coordinación de múltiples frentes intensa.\n\n**Respuesta Jana (lunes 13:37):**\n\"Hola Florencia, sí es correcto 😊\"\n\n**MSG2 enviado:**\n> Jana, gracias!\n>\n> Treinta eventos globales mas crecer el LinkedIn de 5k a 23k, y todo coordinado desde el mismo rol. En ese volumen el contenido y las redes son lo primero que pierde cuidado cuando los eventos absorben todo el tiempo.\n>\n> Somos Hint Media, agencia de comunicación omnicanal. Contenido, redes, estrategia digital y producción para marcas en la región. Trabajamos con clientes como Destiny Group.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Perfil multicultural: Italia, EEUU, España, Alemania, Panamá\n- Maneja todo sola: eventos globales, social media, demand gen, partnerships, brand\n- Creció LinkedIn TROOP de 5k a 23k followers\n- 30+ tradeshows y conferencias globales ejecutadas\n- Describe su marketing como \"human\": experiencias que crean conexión, no solo impresiones\n- TROOP: plataforma de planificación de reuniones y viajes corporativos\n- Antes en ReviewPro (hospitality tech, Barcelona)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000108",
+  "contact_id": "ctc_000217",
+  "source_file": "conversaciones/junio/ana-maria-urrea-g.md",
+  "fingerprint": "sha256:3fc655e9427120e3b2ea56c0344ec53c25a3e4a43327035bacef189d3fda1776",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/ana-maria-urrea-g.md",
+    "file_hash": "sha256:3fc655e9427120e3b2ea56c0344ec53c25a3e4a43327035bacef189d3fda1776",
+    "file_modified": "2026-06-18T23:35:33.833271+00:00",
+    "file_size": 1265,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ana Maria Urrea G",
+    "empresa": "Petrobras",
+    "cargo": "Comunicaciones Corporativas",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "18/06/26",
+    "estado_texto": "aclaración enviada, confundida con el acercamiento"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ana María, gracias por conectar! Me llamó la atención que cierres tu presentación diciendo que estás en búsqueda activa. No suele ser algo que las personas comuniquemos así en LinkedIn — generalmente lo dejamos implícito. Me quedó la impresión de que buscás algo que vaya más allá del título.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "No entiendo tu pregunta… Gracias por conectar pero me confunde un poco tu acercamiento",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "entiendo",
+      "pregunta",
+      "conectar",
+      "confunde",
+      "poco",
+      "acercamiento"
+    ],
+    "notas": "- Su perfil dice \"en búsqueda activa de oportunidades\" (job seeking), el MSG1 generó confusión pareciendo oferta laboral. Aclarar siempre que no es reclutamiento cuando el perfil tiene esa señal.\n- Pendiente su respuesta a la aclaración."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ana Maria Urrea G]\n[EMPRESA: Petrobras]\n[CARGO: Comunicaciones Corporativas]\n[SECTOR: Comunicaciones / en búsqueda activa de empleo]\n[PAIS: Colombia (Bogotá)]\n\n[MSG1]\nAna María, gracias por conectar! Me llamó la atención que cierres tu presentación diciendo que estás en búsqueda activa. No suele ser algo que las personas comuniquemos así en LinkedIn — generalmente lo dejamos implícito. Me quedó la impresión de que buscás algo que vaya más allá del título.\n\n[RESPUESTA_MSG1]\nNo entiendo tu pregunta… Gracias por conectar pero me confunde un poco tu acercamiento\n\n[MSG3]\nPerdón si no fue claro Ana María! No es nada relacionado a una vacante. Soy de Hint Media, una agencia de comunicación, y vi tu perfil en marketing y comunicaciones corporativas. Te escribía por si te interesa conocer lo que hacemos, sin ningún compromiso. Si no es el momento, no hay problema.\n\n[NOTAS]\n- Su perfil dice \"en búsqueda activa de oportunidades\" (job seeking), el MSG1 generó confusión pareciendo oferta laboral. Aclarar siempre que no es reclutamiento cuando el perfil tiene esa señal.\n- Pendiente su respuesta a la aclaración.",
+    "raw_md": "# Ana Maria Urrea G\n\n**Estado:** aclaración enviada, confundida con el acercamiento\n**Fecha:** 18/06/26\n**Cargo:** Comunicaciones Corporativas\n**Empresa:** Petrobras\n**País:** Colombia (Bogotá)\n**Sector:** Comunicaciones / en búsqueda activa de empleo\n\n## MSG1\n> Ana María, gracias por conectar! Me llamó la atención que cierres tu presentación diciendo que estás en búsqueda activa. No suele ser algo que las personas comuniquemos así en LinkedIn — generalmente lo dejamos implícito. Me quedó la impresión de que buscás algo que vaya más allá del título.\n\n## Respuesta MSG1\n> No entiendo tu pregunta… Gracias por conectar pero me confunde un poco tu acercamiento\n\n## Aclaración enviada\n> Perdón si no fue claro Ana María! No es nada relacionado a una vacante. Soy de Hint Media, una agencia de comunicación, y vi tu perfil en marketing y comunicaciones corporativas. Te escribía por si te interesa conocer lo que hacemos, sin ningún compromiso. Si no es el momento, no hay problema.\n\n## Notas\n- Su perfil dice \"en búsqueda activa de oportunidades\" (job seeking), el MSG1 generó confusión pareciendo oferta laboral. Aclarar siempre que no es reclutamiento cuando el perfil tiene esa señal.\n- Pendiente su respuesta a la aclaración.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

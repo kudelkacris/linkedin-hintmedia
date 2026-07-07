@@ -5,7 +5,7 @@
 **Empresa:** Ecuador
 **Pais:** Ecuador
 **Sector:** Marketing & Branding / Servicios Profesionales Creativos
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — 07/07/26
 
 ---
 
@@ -26,5 +26,17 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola florencia. Ese fue justo el mensaje que quise dar. Cuéntame en qué te puedo ayudar.
+
+## MSG2
+> Buenas Margarita! Tiene sentido. Lo que publicás no parece espontáneo, tiene criterio detrás.
+> Cómo hacés para que ese criterio sea lo que te encuentra un cliente nuevo, antes de que llegue al precio o al portfolio?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a directivos y consultores creativos a construir narrativa de marca que los posicione desde lo que piensan, no solo desde lo que muestran. Trabajamos con Destiny Group en posicionamiento y comunicación.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2
+> Claro, compártelo y yo te sigo comentando
 
 ## Notas

@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000080",
+  "contact_id": "ctc_000074",
+  "source_file": "conversaciones/julio/mikel-lancho-azurmendi.md",
+  "fingerprint": "sha256:996805cb6160da24e2c76a678aad4f6bed31062f64107e8e52cd8fe692e33e55",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/mikel-lancho-azurmendi.md",
+    "file_hash": "sha256:996805cb6160da24e2c76a678aad4f6bed31062f64107e8e52cd8fe692e33e55",
+    "file_modified": "2026-07-02T00:18:14.259434+00:00",
+    "file_size": 1779,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Mikel Lancho Azurmendi",
+    "empresa": "Marketing & Communications Manager",
+    "cargo": "Marketing & Communications Manager",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Mikel, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre timing en comunicación. \"The story doesn't have to change; the world simply becomes more ready to hear it.\" No es lo que la mayoría escribe cuando quiere demostrar lo que hace. Parece que pensás bastante en eso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre timing comunicacional (\"One thing I enjoy most about marketing and communication is finding those moments when a story suddenly becomes more relevant...\") revela una creencia editorial clara: la relevancia de un mensaje no es solo contenido, es contexto. Decidió mostrar cómo piensa sobre su propio trabajo, no solo qué hace.",
+    "hipotesis": "Cómo escalar narrativa de marca cuando la propuesta técnica es compleja y requiere contextos distintos por mercado; cómo mantener consistencia de ejecución con equipos distribuidos; cómo amplificar contenido sin que se diluya el posicionamiento.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mikel Lancho Azurmendi]\n[EMPRESA: Marketing & Communications Manager]\n[CARGO: Marketing & Communications Manager]\n[SECTOR: Manufactura industrial / Smart systems / Sostenibilidad]\n[PAIS: España]\n[SENAL: La publicación sobre timing comunicacional (\"One thing I enjoy most about marketing and communication is finding those moments when a story suddenly becomes more relevant...\") revela una creencia editorial clara: la relevancia de un mensaje no es solo contenido, es contexto. Decidió mostrar cómo piensa sobre su propio trabajo, no solo qué hace.]\n[HIPOTESIS: Cómo escalar narrativa de marca cuando la propuesta técnica es compleja y requiere contextos distintos por mercado; cómo mantener consistencia de ejecución con equipos distribuidos; cómo amplificar contenido sin que se diluya el posicionamiento.]\n\n[MSG1]\nMikel, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre timing en comunicación. \"The story doesn't have to change; the world simply becomes more ready to hear it.\" No es lo que la mayoría escribe cuando quiere demostrar lo que hace. Parece que pensás bastante en eso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Mikel Lancho Azurmendi\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing & Communications Manager\n**Empresa:** Marketing & Communications Manager\n**Pais:** España\n**Sector:** Manufactura industrial / Smart systems / Sostenibilidad\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre timing comunicacional (\"One thing I enjoy most about marketing and communication is finding those moments when a story suddenly becomes more relevant...\") revela una creencia editorial clara: la relevancia de un mensaje no es solo contenido, es contexto. Decidió mostrar cómo piensa sobre su propio trabajo, no solo qué hace.\n- **Tensión profesional:** Equilibrar profundidad técnica del producto con accesibilidad narrativa; ejecutar campañas consistentes en mercados con realidades comerciales distintas sin que todo dependa de coordinación centralizada.\n- **Hipótesis:** Cómo escalar narrativa de marca cuando la propuesta técnica es compleja y requiere contextos distintos por mercado; cómo mantener consistencia de ejecución con equipos distribuidos; cómo amplificar contenido sin que se diluya el posicionamiento.\n- **Ángulo MSG1:** La observación sobre timing comunicacional y cómo decide cuándo contar una historia (SEÑAL_HUMANA).\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Mikel, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación que compartiste hace poco sobre timing en comunicación. \"The story doesn't have to change; the world simply becomes more ready to hear it.\" No es lo que la mayoría escribe cuando quiere demostrar lo que hace. Parece que pensás bastante en eso.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

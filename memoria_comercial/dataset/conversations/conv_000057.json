@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000057",
+  "contact_id": "ctc_000086",
+  "source_file": "conversaciones/julio/juan-roca-salamero.md",
+  "fingerprint": "sha256:2b4fe9a25e8e582535615bfe6940d2488aacd2cfcb5fe3421003eaa9205f4879",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/juan-roca-salamero.md",
+    "file_hash": "sha256:2b4fe9a25e8e582535615bfe6940d2488aacd2cfcb5fe3421003eaa9205f4879",
+    "file_modified": "2026-07-02T00:05:59.110148+00:00",
+    "file_size": 2270,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Juan Roca Salamero",
+    "empresa": "Madrid y alrededores",
+    "cargo": "Especialista en Estrategia, Ventas, Marketing y escalar negocios B2B.",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Juan, gracias por conectar! 👋\n\nMe llamó la atención cómo en la despedida de El Corte Inglés reconociste al equipo por nombre, uno a uno. No es lo que normalmente hace la gente cuando cierra una etapa. Y veo que en El Periódico de la Energía sigues haciendo exactamente lo mismo: cuando publicás sobre los foros, siempre les das voz a los speakers, a los organizadores, a los que están atrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó despedida de El Corte Inglés reconociendo explícitamente al equipo, colegas y colaboradores por nombre (\"gracias a Ramón, Sandra, Jaime, Karam...\"). Hizo énfasis en haber construido identidad corporativa y posicionamiento B2B como logro colectivo, no personal. Ahora, en El Periódico de la Energía, publica dando crédito a colaboradores, reconociendo premios y amplificando voces de expertos del sector.",
+    "hipotesis": "Cómo pasar de \"cubrir el sector\" a \"construir el sector\". Cómo una plataforma de comunicación especializada puede hacerse indispensable en una transición energética donde la información, el networking y la influencia son críticos. Cómo escalar ejecución sin que todo dependa de personas clave.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juan Roca Salamero]\n[EMPRESA: Madrid y alrededores]\n[CARGO: Especialista en Estrategia, Ventas, Marketing y escalar negocios B2B.]\n[SECTOR: Energía / Medios de Comunicación Especializado]\n[PAIS: España]\n[SENAL: Publicó despedida de El Corte Inglés reconociendo explícitamente al equipo, colegas y colaboradores por nombre (\"gracias a Ramón, Sandra, Jaime, Karam...\"). Hizo énfasis en haber construido identidad corporativa y posicionamiento B2B como logro colectivo, no personal. Ahora, en El Periódico de la Energía, publica dando crédito a colaboradores, reconociendo premios y amplificando voces de expertos del sector.]\n[HIPOTESIS: Cómo pasar de \"cubrir el sector\" a \"construir el sector\". Cómo una plataforma de comunicación especializada puede hacerse indispensable en una transición energética donde la información, el networking y la influencia son críticos. Cómo escalar ejecución sin que todo dependa de personas clave.]\n\n[MSG1]\nJuan, gracias por conectar! 👋\n\nMe llamó la atención cómo en la despedida de El Corte Inglés reconociste al equipo por nombre, uno a uno. No es lo que normalmente hace la gente cuando cierra una etapa. Y veo que en El Periódico de la Energía sigues haciendo exactamente lo mismo: cuando publicás sobre los foros, siempre les das voz a los speakers, a los organizadores, a los que están atrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Juan Roca Salamero\n\n**Fecha:** 01/07/26\n**Cargo:** Especialista en Estrategia, Ventas, Marketing y escalar negocios B2B.\n**Empresa:** Madrid y alrededores\n**Pais:** España\n**Sector:** Energía / Medios de Comunicación Especializado\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicó despedida de El Corte Inglés reconociendo explícitamente al equipo, colegas y colaboradores por nombre (\"gracias a Ramón, Sandra, Jaime, Karam...\"). Hizo énfasis en haber construido identidad corporativa y posicionamiento B2B como logro colectivo, no personal. Ahora, en El Periódico de la Energía, publica dando crédito a colaboradores, reconociendo premios y amplificando voces de expertos del sector.\n- **Tensión profesional:** Escalar una plataforma de comunicación especializada requiere simultanear tres frentes incompatibles: generar ingresos comerciales sin comprometer la credibilidad editorial, construir alianzas estratégicas sin favoritismo sectorial, y mantener velocidad de crecimiento sin perder la intimidad de la comunidad que ya existe.\n- **Hipótesis:** Cómo pasar de \"cubrir el sector\" a \"construir el sector\". Cómo una plataforma de comunicación especializada puede hacerse indispensable en una transición energética donde la información, el networking y la influencia son críticos. Cómo escalar ejecución sin que todo dependa de personas clave.\n- **Ángulo MSG1:** La forma deliberada en que reconoce equipos y colaboradores, tanto en El Corte Inglés como ahora en El Periódico de la Energía. No es algo que haga al pasar; es un patrón que revela cómo construye credibilidad: a través de terceros, no de discurso propio.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Juan, gracias por conectar! 👋\n>\n> Me llamó la atención cómo en la despedida de El Corte Inglés reconociste al equipo por nombre, uno a uno. No es lo que normalmente hace la gente cuando cierra una etapa. Y veo que en El Periódico de la Energía sigues haciendo exactamente lo mismo: cuando publicás sobre los foros, siempre les das voz a los speakers, a los organizadores, a los que están atrás.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

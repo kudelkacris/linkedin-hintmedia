@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000152",
+  "contact_id": "ctc_000117",
+  "source_file": "conversaciones/junio/elizabeth-bruce.md",
+  "fingerprint": "sha256:70e587a57eee7cb9a069a01a49e3b6978245cc13f600d4a96db656bb62219e4e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/elizabeth-bruce.md",
+    "file_hash": "sha256:70e587a57eee7cb9a069a01a49e3b6978245cc13f600d4a96db656bb62219e4e",
+    "file_modified": "2026-06-26T15:49:23.502360+00:00",
+    "file_size": 1660,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Elizabeth Bruce",
+    "empresa": "Quality Leadership University",
+    "cargo": "Directora de Marketing y Asuntos Corporativos",
+    "pais": "Panamá",
+    "fecha": "26/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Elizabeth, gracias por conectar! Me llamó la atención la publicación que hiciste después del BenchClub Summit sobre la diferencia entre hacer networking y construir relacionamiento real. Dijiste algo que no muchos se atreven a publicar: que \"muchas de las mejores oportunidades profesionales no han llegado por tener muchos contactos, sino por haber construido relaciones reales basadas en confianza, respeto y autenticidad\". Eso dice bastante sobre cómo ves el trabajo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Claro que si, cuentame",
+    "msg2_texto": "Buenas Elizabeth! Justo en eso pensaba cuando leí tu post sobre relacionamiento real versus networking. Lo que describís ahí (que las oportunidades llegan por confianza construida, no por cantidad de contactos) es exactamente lo que pasa también del lado de la comunicación institucional: la marca se construye con consistencia, no con campañas sueltas. En Hint Media trabajamos justamente eso con organizaciones que necesitan fortalecer su presencia y vocería de forma sostenida, hicimos cosas similares con Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "cuentame"
+    ],
+    "notas": "- 25 años en educación superior, profesora universitaria, foco en marketing institucional y CRM.\n- Cliente referencia usado: Libra Seguros / Destiny Group (no hay cliente de educación en la lista, se usó el default)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Elizabeth Bruce]\n[EMPRESA: Quality Leadership University]\n[CARGO: Directora de Marketing y Asuntos Corporativos]\n[SECTOR: Educación superior]\n[PAIS: Panamá]\n\n[MSG1]\nElizabeth, gracias por conectar! Me llamó la atención la publicación que hiciste después del BenchClub Summit sobre la diferencia entre hacer networking y construir relacionamiento real. Dijiste algo que no muchos se atreven a publicar: que \"muchas de las mejores oportunidades profesionales no han llegado por tener muchos contactos, sino por haber construido relaciones reales basadas en confianza, respeto y autenticidad\". Eso dice bastante sobre cómo ves el trabajo.\n\n[RESPUESTA_MSG1]\nHola Florencia! Claro que si, cuentame\n\n[MSG2]\nBuenas Elizabeth! Justo en eso pensaba cuando leí tu post sobre relacionamiento real versus networking. Lo que describís ahí (que las oportunidades llegan por confianza construida, no por cantidad de contactos) es exactamente lo que pasa también del lado de la comunicación institucional: la marca se construye con consistencia, no con campañas sueltas. En Hint Media trabajamos justamente eso con organizaciones que necesitan fortalecer su presencia y vocería de forma sostenida, hicimos cosas similares con Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- 25 años en educación superior, profesora universitaria, foco en marketing institucional y CRM.\n- Cliente referencia usado: Libra Seguros / Destiny Group (no hay cliente de educación en la lista, se usó el default).",
+    "raw_md": "# Elizabeth Bruce\n**Fecha:** 26/06/26\n**Cargo:** Directora de Marketing y Asuntos Corporativos\n**Empresa:** Quality Leadership University\n**País:** Panamá\n**Sector:** Educación superior\n**Estado:** MSG2 enviado\n\n## MSG1\n> Elizabeth, gracias por conectar! Me llamó la atención la publicación que hiciste después del BenchClub Summit sobre la diferencia entre hacer networking y construir relacionamiento real. Dijiste algo que no muchos se atreven a publicar: que \"muchas de las mejores oportunidades profesionales no han llegado por tener muchos contactos, sino por haber construido relaciones reales basadas en confianza, respeto y autenticidad\". Eso dice bastante sobre cómo ves el trabajo.\n\n## Respuesta\n> Hola Florencia! Claro que si, cuentame\n\n## MSG2 enviado\n> Buenas Elizabeth! Justo en eso pensaba cuando leí tu post sobre relacionamiento real versus networking. Lo que describís ahí (que las oportunidades llegan por confianza construida, no por cantidad de contactos) es exactamente lo que pasa también del lado de la comunicación institucional: la marca se construye con consistencia, no con campañas sueltas. En Hint Media trabajamos justamente eso con organizaciones que necesitan fortalecer su presencia y vocería de forma sostenida, hicimos cosas similares con Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- 25 años en educación superior, profesora universitaria, foco en marketing institucional y CRM.\n- Cliente referencia usado: Libra Seguros / Destiny Group (no hay cliente de educación en la lista, se usó el default).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

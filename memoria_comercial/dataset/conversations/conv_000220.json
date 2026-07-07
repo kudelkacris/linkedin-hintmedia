@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000220",
+  "contact_id": "ctc_000300",
+  "source_file": "conversaciones/junio/maria-camila-escobar-castro.md",
+  "fingerprint": "sha256:68008326b45f33669a5d6e71401d2f4ac1248f0461d2956f5885a57abdc04a2c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/maria-camila-escobar-castro.md",
+    "file_hash": "sha256:68008326b45f33669a5d6e71401d2f4ac1248f0461d2956f5885a57abdc04a2c",
+    "file_modified": "2026-06-12T16:55:36.029309+00:00",
+    "file_size": 1044,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Maria Camila Escobar Castro",
+    "empresa": "GeoSer (Akira Travel, Geo Tours, Sakya Travel, Akira BPO)",
+    "cargo": "Directora de Marketing Digital",
+    "pais": "Panamá (trabaja en remoto desde Colombia)",
+    "fecha": "12/06/26",
+    "estado_texto": "Dossier enviado — temperatura media (tiene equipo interno)"
+  },
+  "normalized": {
+    "sector": "TURISMO_EVENTOS",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Maria Camila Escobar Castro]\n[EMPRESA: GeoSer (Akira Travel, Geo Tours, Sakya Travel, Akira BPO)]\n[CARGO: Directora de Marketing Digital]\n[PAIS: Panamá (trabaja en remoto desde Colombia)]",
+    "raw_md": "---\nname: maria-camila-escobar-castro\ndescription: Dossier aceptado (equipo grande), Directora Marketing GeoSer Panamá, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Maria Camila Escobar Castro\n**Cargo:** Directora de Marketing Digital\n**Empresa:** GeoSer (Akira Travel, Geo Tours, Sakya Travel, Akira BPO)\n**País:** Panamá (trabaja en remoto desde Colombia)\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que lidera estrategia multicanal para 4 marcas: B2B mayorista + B2C minorista\n- Respondió: \"Hola Florencia cómo te va? Claro es un reto porque son diferentes públicos y mercados. Cuéntame tu duda\"\n- MSG2 enviado — gap: producción de contenido y diseño para 4 marcas con lógicas distintas corriendo en paralelo. Mención Destiny Group.\n- Respondió: tienen equipo de mercadeo grande, pero aceptó recibir el dossier\n- Dossier enviado con mención de que Hint complementa en picos o proyectos específicos\n\n**Estado:** Dossier enviado — temperatura media (tiene equipo interno)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

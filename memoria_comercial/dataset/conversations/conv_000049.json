@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000049",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/julio/janire-sainz-castro.md",
+  "fingerprint": "sha256:4838ddd5603b3854451f662dcdc141ed30a86998697b2506398f5e3bd97329d3",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/janire-sainz-castro.md",
+    "file_hash": "sha256:4838ddd5603b3854451f662dcdc141ed30a86998697b2506398f5e3bd97329d3",
+    "file_modified": "2026-07-01T19:09:02.490497+00:00",
+    "file_size": 2004,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Janire Sainz Castro",
+    "empresa": "(sin datos)",
+    "cargo": "Marketing Manager / Comunicacion Corporativa",
+    "pais": "(sin datos)",
+    "fecha": "01/07/26",
+    "estado_texto": "CERRADA 01/07/26 — tiene todo cubierto internamente. Recontacto oct/26."
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Janire, gracias por conectar!\nMe llamo la atencion la publicacion que compartiste hace poco sobre rebranding. Lo que mas me gusto fue que lo explicaras como un trabajo de claridad — entender que cambio en tu empresa, a quien le hablas ahora, que queres que sientan. No es lo que la mayoria termina haciendo cuando le cambia el nombre a una marca.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia!! Si, lo entendiste perfectamente. Cuentame, que necesitas?",
+    "msg2_texto": "Buenas Janire, me alegra!\nLo que me quedo es que alguien que entiende el rebranding como trabajo de claridad, no solo como cambio de logo, suele encontrarse con el siguiente problema: sostener esa coherencia en la ejecucion diaria. Contenido, eventos, social media, comunicacion interna, todo tiene que ir en la misma direccion al mismo tiempo.\nEn Hint Media acompanamos equipos de marketing en exactamente eso, sumar capacidad de ejecucion para que la claridad de marca se mantenga en cada punto de contacto. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Ahora mismo, tenemos todo eso bastante controlado, Florencia, muchas gracias!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "entendiste",
+      "perfectamente",
+      "cuentame",
+      "necesitas",
+      "ahora",
+      "mismo",
+      "tenemos",
+      "todo",
+      "bastante"
+    ],
+    "notas": "- Tono muy calido y receptivo\n- Entiende el rebranding como trabajo de claridad (audiencia, proposito, sensacion)\n- Clientes por sector: Destiny Group, Libra Seguros"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Janire Sainz Castro]\n[EMPRESA: (sin datos)]\n[CARGO: Marketing Manager / Comunicacion Corporativa]\n[SECTOR: Marketing / Comunicacion Corporativa]\n[PAIS: (sin datos)]\n\n[MSG1]\nJanire, gracias por conectar!\nMe llamo la atencion la publicacion que compartiste hace poco sobre rebranding. Lo que mas me gusto fue que lo explicaras como un trabajo de claridad — entender que cambio en tu empresa, a quien le hablas ahora, que queres que sientan. No es lo que la mayoria termina haciendo cuando le cambia el nombre a una marca.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia!! Si, lo entendiste perfectamente. Cuentame, que necesitas?\n\n[MSG2]\nBuenas Janire, me alegra!\nLo que me quedo es que alguien que entiende el rebranding como trabajo de claridad, no solo como cambio de logo, suele encontrarse con el siguiente problema: sostener esa coherencia en la ejecucion diaria. Contenido, eventos, social media, comunicacion interna, todo tiene que ir en la misma direccion al mismo tiempo.\nEn Hint Media acompanamos equipos de marketing en exactamente eso, sumar capacidad de ejecucion para que la claridad de marca se mantenga en cada punto de contacto. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nAhora mismo, tenemos todo eso bastante controlado, Florencia, muchas gracias!\n\n[NOTAS]\n- Tono muy calido y receptivo\n- Entiende el rebranding como trabajo de claridad (audiencia, proposito, sensacion)\n- Clientes por sector: Destiny Group, Libra Seguros",
+    "raw_md": "# Janire Sainz Castro\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing Manager / Comunicacion Corporativa\n**Empresa:** (sin datos)\n**Pais:** (sin datos)\n**Sector:** Marketing / Comunicacion Corporativa\n**Estado:** CERRADA 01/07/26 — tiene todo cubierto internamente. Recontacto oct/26.\n\n---\n\n## MSG1\n> Janire, gracias por conectar!\n> Me llamo la atencion la publicacion que compartiste hace poco sobre rebranding. Lo que mas me gusto fue que lo explicaras como un trabajo de claridad — entender que cambio en tu empresa, a quien le hablas ahora, que queres que sientan. No es lo que la mayoria termina haciendo cuando le cambia el nombre a una marca.\n> Si estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n## Respuesta MSG1\n> Hola Florencia!! Si, lo entendiste perfectamente. Cuentame, que necesitas?\n\n## MSG2\n> Buenas Janire, me alegra!\n> Lo que me quedo es que alguien que entiende el rebranding como trabajo de claridad, no solo como cambio de logo, suele encontrarse con el siguiente problema: sostener esa coherencia en la ejecucion diaria. Contenido, eventos, social media, comunicacion interna, todo tiene que ir en la misma direccion al mismo tiempo.\n> En Hint Media acompanamos equipos de marketing en exactamente eso, sumar capacidad de ejecucion para que la claridad de marca se mantenga en cada punto de contacto. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n> Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n---\n\n## Notas\n- Tono muy calido y receptivo\n- Entiende el rebranding como trabajo de claridad (audiencia, proposito, sensacion)\n- Clientes por sector: Destiny Group, Libra Seguros\n\n## Respuesta MSG2\n> Ahora mismo, tenemos todo eso bastante controlado, Florencia, muchas gracias!\n\n## Cierre (01/07/26)\n> Janire, que bueno saberlo! Si en algun momento el volumen crece o aparece un proyecto puntual, aca estamos. Buena semana!\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

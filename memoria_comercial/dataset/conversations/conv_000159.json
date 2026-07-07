@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000159",
+  "contact_id": "ctc_000244",
+  "source_file": "conversaciones/junio/fernando-alfonzo.md",
+  "fingerprint": "sha256:7ec2812bd136ebd082d98b263db40b0e6c8afb6249d10ffea74ace9f2b34bf90",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/fernando-alfonzo.md",
+    "file_hash": "sha256:7ec2812bd136ebd082d98b263db40b0e6c8afb6249d10ffea74ace9f2b34bf90",
+    "file_modified": "2026-06-25T22:43:44.311896+00:00",
+    "file_size": 4248,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Fernando Alfonzo",
+    "empresa": "Abbott",
+    "cargo": "Regional Brand Manager, LATAM",
+    "pais": "",
+    "fecha": "18/06/26 (MSG1-MSG3, dossier enviado), seguimiento 25/06/26",
+    "estado_texto": "CERRADA 25/06/26, ya tienen agencia única para LATAM, redirigido a persona encargada por email"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Fernando, gracias por conectar! Me llamó la atención la forma en que comunicas los logros regionales. No es lo que ves típicamente en pharma: en lugar de destacar números o lanzamientos, das bastante crédito a la colaboración entre equipos y a la educación médica. Parece que hay una intención deliberada ahí. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Me gusta mucho tu manera de contactarme, es muy original, cuidadosa y estratégica. Dime como te puedo ayudar. Que buen ejemplo de cómo hacen ustedes comunicación",
+    "msg2_texto": "Que lindo Fernando, gracias! Tratamos de que cada mensaje tenga ese cuidado.\n\nComunicar logros regionales dando crédito a la colaboración y a la educación médica, en vez de números, exige coordinar mensajes consistentes entre equipos de varios países al mismo tiempo. Esa complejidad operativa suele crecer rápido en pharma regional.\n\nEn Hint Media trabajamos justo eso, comunicación y contenido para marcas que necesitan sostener esa narrativa colaborativa en varios países a la vez. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Te cuento algo. La realidad es que normalmente yo no atiendo nuevos proveedores de servicios y nunca lo hago cuando me llegan por aquí. Pero tu ingenio y manera tan apropiada de conectar conmigo y a la vez plantearme una posibilidad que tus servicios pueden ser útiles para mi negocio en Abbott me llamaron la atención y creo es un reflejo de cómo son como compañía. Contactemos y déjame conocer la empresa que representas.",
+    "seg1_enviado": true,
+    "seg1_texto": "Como estas Fer! Pudiste revisar el dossier? ... Fer: \"Vieras que no lo he visto. Pero este fin de semana le doy un ojo\"\nRespuesta: Dale Fer, sin apuro! Cualquier cosa que te surja después de verlo me avisas y coordinamos.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusta",
+      "mucho",
+      "manera",
+      "contactarme",
+      "original",
+      "cuidadosa",
+      "estrategica",
+      "dime",
+      "puedo"
+    ],
+    "notas": "- Cierre positivo: ya tienen agencia única para LATAM, pero Fernando gestionó introducción por email con la persona encargada. Seguimiento pasa a depender de ese contacto nuevo (revisar correo cuando llegue).\n- Excepción declarada: normalmente no atiende proveedores nuevos por LinkedIn, hizo excepción por el approach.\n- Empresa: Abbott (no Nexsys, corregir si se confundió antes).\n- Hecho: da crédito a colaboración/educación médica en vez de números en logros regionales.\n- Creencia: impacto real se construye con la red, no con el dato suelto.\n- Elogió mucho el approach de prospección, buena señal de rapport.\n- Sector farma → clientes referencia Libra Seguros/Destiny Group."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fernando Alfonzo]\n[EMPRESA: Abbott]\n[CARGO: Regional Brand Manager, LATAM]\n[SECTOR: Pharma]\n\n[MSG1]\nFernando, gracias por conectar! Me llamó la atención la forma en que comunicas los logros regionales. No es lo que ves típicamente en pharma: en lugar de destacar números o lanzamientos, das bastante crédito a la colaboración entre equipos y a la educación médica. Parece que hay una intención deliberada ahí. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia. Me gusta mucho tu manera de contactarme, es muy original, cuidadosa y estratégica. Dime como te puedo ayudar. Que buen ejemplo de cómo hacen ustedes comunicación\n\n[MSG2]\nQue lindo Fernando, gracias! Tratamos de que cada mensaje tenga ese cuidado.\n\nComunicar logros regionales dando crédito a la colaboración y a la educación médica, en vez de números, exige coordinar mensajes consistentes entre equipos de varios países al mismo tiempo. Esa complejidad operativa suele crecer rápido en pharma regional.\n\nEn Hint Media trabajamos justo eso, comunicación y contenido para marcas que necesitan sostener esa narrativa colaborativa en varios países a la vez. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nTe cuento algo. La realidad es que normalmente yo no atiendo nuevos proveedores de servicios y nunca lo hago cuando me llegan por aquí. Pero tu ingenio y manera tan apropiada de conectar conmigo y a la vez plantearme una posibilidad que tus servicios pueden ser útiles para mi negocio en Abbott me llamaron la atención y creo es un reflejo de cómo son como compañía. Contactemos y déjame conocer la empresa que representas.\n\n[MSG3]\nReacción: emoji \"Pura vida\"\n\n[SEG1]\nComo estas Fer! Pudiste revisar el dossier? ... Fer: \"Vieras que no lo he visto. Pero este fin de semana le doy un ojo\"\nRespuesta: Dale Fer, sin apuro! Cualquier cosa que te surja después de verlo me avisas y coordinamos.\n\n[NOTAS]\n- Cierre positivo: ya tienen agencia única para LATAM, pero Fernando gestionó introducción por email con la persona encargada. Seguimiento pasa a depender de ese contacto nuevo (revisar correo cuando llegue).\n- Excepción declarada: normalmente no atiende proveedores nuevos por LinkedIn, hizo excepción por el approach.\n- Empresa: Abbott (no Nexsys, corregir si se confundió antes).\n- Hecho: da crédito a colaboración/educación médica en vez de números en logros regionales.\n- Creencia: impacto real se construye con la red, no con el dato suelto.\n- Elogió mucho el approach de prospección, buena señal de rapport.\n- Sector farma → clientes referencia Libra Seguros/Destiny Group.",
+    "raw_md": "# Fernando Alfonzo\n\n**Estado:** CERRADA 25/06/26, ya tienen agencia única para LATAM, redirigido a persona encargada por email\n**Fecha:** 18/06/26 (MSG1-MSG3, dossier enviado), seguimiento 25/06/26\n**Cargo:** Regional Brand Manager, LATAM\n**Empresa:** Abbott\n**Sector:** Pharma\n\n## MSG1\n> Fernando, gracias por conectar! Me llamó la atención la forma en que comunicas los logros regionales. No es lo que ves típicamente en pharma: en lugar de destacar números o lanzamientos, das bastante crédito a la colaboración entre equipos y a la educación médica. Parece que hay una intención deliberada ahí. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia. Me gusta mucho tu manera de contactarme, es muy original, cuidadosa y estratégica. Dime como te puedo ayudar. Que buen ejemplo de cómo hacen ustedes comunicación\n\n## MSG2 (redactado, por enviar — v2, sin inferencia de valores)\n> Que lindo Fernando, gracias! Tratamos de que cada mensaje tenga ese cuidado.\n>\n> Comunicar logros regionales dando crédito a la colaboración y a la educación médica, en vez de números, exige coordinar mensajes consistentes entre equipos de varios países al mismo tiempo. Esa complejidad operativa suele crecer rápido en pharma regional.\n>\n> En Hint Media trabajamos justo eso, comunicación y contenido para marcas que necesitan sostener esa narrativa colaborativa en varios países a la vez. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (12:54)\n> Te cuento algo. La realidad es que normalmente yo no atiendo nuevos proveedores de servicios y nunca lo hago cuando me llegan por aquí. Pero tu ingenio y manera tan apropiada de conectar conmigo y a la vez plantearme una posibilidad que tus servicios pueden ser útiles para mi negocio en Abbott me llamaron la atención y creo es un reflejo de cómo son como compañía. Contactemos y déjame conocer la empresa que representas.\n\n## MSG3 (redactado, por enviar con dossier adjunto)\n> Que lindo que lo veas así Fernando, gracias por la sinceridad! Te cuento brevemente: somos Hint Media, equipo de comunicación y marketing insertado directamente en la estructura del cliente, trafficker, community manager, diseñador y PM de cuenta, por menos de lo que cuesta contratar una sola persona in-house. Te dejo el dossier para que conozcas mejor cómo trabajamos.\n\n## Dossier enviado (18/06, 15:53)\n> Reacción: emoji \"Pura vida\"\n\n## SEG1 enviado (25/06/26)\n> Pura vida Fernando! Mencionaste que después de revisarlo podríamos coordinar una reunión virtual si te surgen preguntas. Te parece si vemos algunos horarios esta semana o la que viene para conversarlo con más detalle?\n\n## Seguimiento (25/06/26, antes de revisar)\n> Como estas Fer! Pudiste revisar el dossier? ... Fer: \"Vieras que no lo he visto. Pero este fin de semana le doy un ojo\"\n> Respuesta: Dale Fer, sin apuro! Cualquier cosa que te surja después de verlo me avisas y coordinamos.\n\n## Cierre (25/06/26, después de revisar)\n> Fer: Hola. Ya revisé. Te puse un correo. Aquí se usa una sola agencia para todo latam. Y ya le hablé a la persona encargada para que te atienda. Suerte.\n> Respuesta: Fer, mil gracias por la gestion y por darle lugar a esto! Reviso el correo y seguimos por ahi con la persona que me indicaste. Te agradezco mucho la buena onda durante todo esto, exito!\n\n## Notas\n- Cierre positivo: ya tienen agencia única para LATAM, pero Fernando gestionó introducción por email con la persona encargada. Seguimiento pasa a depender de ese contacto nuevo (revisar correo cuando llegue).\n- Excepción declarada: normalmente no atiende proveedores nuevos por LinkedIn, hizo excepción por el approach.\n- Empresa: Abbott (no Nexsys, corregir si se confundió antes).\n- Hecho: da crédito a colaboración/educación médica en vez de números en logros regionales.\n- Creencia: impacto real se construye con la red, no con el dato suelto.\n- Elogió mucho el approach de prospección, buena señal de rapport.\n- Sector farma → clientes referencia Libra Seguros/Destiny Group.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

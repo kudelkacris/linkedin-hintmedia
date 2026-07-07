@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000102",
+  "contact_id": "ctc_000069",
+  "source_file": "conversaciones/julio/vanessa-gomez-penarete.md",
+  "fingerprint": "sha256:bb5239aedfd486a86f0319e39fae228032fc79729289e4ecff2c3c169a93e9f8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/vanessa-gomez-penarete.md",
+    "file_hash": "sha256:bb5239aedfd486a86f0319e39fae228032fc79729289e4ecff2c3c169a93e9f8",
+    "file_modified": "2026-07-06T13:47:15.777124+00:00",
+    "file_size": 2346,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Vanessa Gomez Peñarete",
+    "empresa": "Moinsa",
+    "cargo": "Supply Chain Marketing Manager | Strategic Branding & B2B Growth | Logistics & Industrial Solutions | Multicultural Leadership Across Europe & LATAM",
+    "pais": "España (Madrid)",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Vanessa, gracias por conectar. 👋\n\nMe llamó la atención la publicación que hiciste sobre almacenes textiles. Lo que más me gustó fue que cuestionaras la lógica de \"meter robots porque sí\" y enfatizaras los datos y la inteligencia operativa como lo realmente disruptivo. No suele ser lo primero que la gente destaca cuando habla de transformación digital en logística.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "😉🤗😄\nHoal Florencia, claro como te puedo ayudar?",
+    "msg2_texto": "Buenas Vanessa! La consulta es de mi lado, te cuento.\nMOINSA Consulting tiene menos de un año en el mercado. Cuando una consultora arranca en un sector técnico como la intralogística textil, el reto no es solo el servicio sino que las empresas correctas sepan que existís. Cómo están trabajando esa parte hoy?\nEn Hint Media acompañamos a consultoras y empresas B2B industriales a construir esa visibilidad. Trabajamos con Destiny Group en posicionamiento y comunicación de sus áreas de consultoría.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación propia sobre almacenes textiles donde cuestiona la lógica de \"meter robots porque sí\" y enfatiza los datos y la inteligencia operativa como lo realmente disruptivo.",
+    "hipotesis": "Ella está construyendo la visibilidad de una consultora B2B recién nacida en España y Colombia. Necesita que el mercado correcto la conozca.",
+    "palabras_clave": [
+      "hoal",
+      "florencia",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Vanessa Gomez Peñarete]\n[EMPRESA: Moinsa]\n[CARGO: Supply Chain Marketing Manager | Strategic Branding & B2B Growth | Logistics & Industrial Solutions | Multicultural Leadership Across Europe & LATAM]\n[SECTOR: Logística / Supply Chain / B2B Industrial]\n[PAIS: España (Madrid)]\n[SENAL: Publicación propia sobre almacenes textiles donde cuestiona la lógica de \"meter robots porque sí\" y enfatiza los datos y la inteligencia operativa como lo realmente disruptivo.]\n[HIPOTESIS: Ella está construyendo la visibilidad de una consultora B2B recién nacida en España y Colombia. Necesita que el mercado correcto la conozca.]\n\n[MSG1]\nVanessa, gracias por conectar. 👋\n\nMe llamó la atención la publicación que hiciste sobre almacenes textiles. Lo que más me gustó fue que cuestionaras la lógica de \"meter robots porque sí\" y enfatizaras los datos y la inteligencia operativa como lo realmente disruptivo. No suele ser lo primero que la gente destaca cuando habla de transformación digital en logística.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n😉🤗😄\nHoal Florencia, claro como te puedo ayudar?\n\n[MSG2]\nBuenas Vanessa! La consulta es de mi lado, te cuento.\nMOINSA Consulting tiene menos de un año en el mercado. Cuando una consultora arranca en un sector técnico como la intralogística textil, el reto no es solo el servicio sino que las empresas correctas sepan que existís. Cómo están trabajando esa parte hoy?\nEn Hint Media acompañamos a consultoras y empresas B2B industriales a construir esa visibilidad. Trabajamos con Destiny Group en posicionamiento y comunicación de sus áreas de consultoría.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Vanessa Gomez Peñarete\n\n**Fecha:** 06/07/26\n**Cargo:** Supply Chain Marketing Manager | Strategic Branding & B2B Growth | Logistics & Industrial Solutions | Multicultural Leadership Across Europe & LATAM\n**Empresa:** Moinsa\n**Pais:** España (Madrid)\n**Sector:** Logística / Supply Chain / B2B Industrial\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación propia sobre almacenes textiles donde cuestiona la lógica de \"meter robots porque sí\" y enfatiza los datos y la inteligencia operativa como lo realmente disruptivo.\n- **Tensión profesional:** MOINSA Consulting tiene menos de un año. El reto no es solo el servicio sino que las empresas correctas sepan que existe — en un sector técnico muy específico.\n- **Hipótesis:** Ella está construyendo la visibilidad de una consultora B2B recién nacida en España y Colombia. Necesita que el mercado correcto la conozca.\n- **Ángulo MSG1:** La publicación sobre almacenes textiles y el pensamiento estratégico detrás.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Vanessa, gracias por conectar. 👋\n>\n> Me llamó la atención la publicación que hiciste sobre almacenes textiles. Lo que más me gustó fue que cuestionaras la lógica de \"meter robots porque sí\" y enfatizaras los datos y la inteligencia operativa como lo realmente disruptivo. No suele ser lo primero que la gente destaca cuando habla de transformación digital en logística.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> 😉🤗😄\n> Hoal Florencia, claro como te puedo ayudar?\n\n---\n\n## MSG2\n> Buenas Vanessa! La consulta es de mi lado, te cuento.\n> MOINSA Consulting tiene menos de un año en el mercado. Cuando una consultora arranca en un sector técnico como la intralogística textil, el reto no es solo el servicio sino que las empresas correctas sepan que existís. Cómo están trabajando esa parte hoy?\n> En Hint Media acompañamos a consultoras y empresas B2B industriales a construir esa visibilidad. Trabajamos con Destiny Group en posicionamiento y comunicación de sus áreas de consultoría.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

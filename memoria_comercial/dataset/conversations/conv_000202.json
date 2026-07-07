@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000202",
+  "contact_id": "ctc_000213",
+  "source_file": "conversaciones/junio/kristela-degay.md",
+  "fingerprint": "sha256:f3f2735ed503aabada43ac2c8a1a2e50a452efbeca1c5e897f908d6d450751ff",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/kristela-degay.md",
+    "file_hash": "sha256:f3f2735ed503aabada43ac2c8a1a2e50a452efbeca1c5e897f908d6d450751ff",
+    "file_modified": "2026-06-18T23:35:55.975905+00:00",
+    "file_size": 1565,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Kristela Degay AICI CIC",
+    "empresa": "AICI / tuimagenestrategica.com",
+    "cargo": "VP Marketing AICI Global / Consultora de Imagen Estratégica",
+    "pais": "Panamá",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "VP",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Kristela, gracias por conectar! Me llamó la atención la publicación sobre el vestido blanco. Particularmente porque no era una foto de antes-y-después de lo que suele ser \"transformación\" en redes. Era una historia sobre autoconocimiento atravesando cambios físicos reales, sin esperar el cuerpo perfecto para estar presente. Eso dice bastante sobre cómo vos enseñas, desde la coherencia vivida, no desde la teoría o los estándares.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Me alegra mucho que te guste mi enfoque.",
+    "msg2_texto": "Buenas Kristela, gracias por responder!\n\nEsa forma de contar tu propia evolución sin esperar la versión \"perfecta\" se nota en cómo construís autoridad real con tu audiencia, no solo discurso.\n\nEn Hint Media trabajamos comunicación y contenido con marcas y ejecutivos que buscan ese mismo tipo de coherencia, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "alegra",
+      "mucho",
+      "guste",
+      "enfoque"
+    ],
+    "notas": "- Es consultora de imagen/marca personal, trabaja con empresas en capacitación de presencia ejecutiva. Posible colaboración/referido más que cliente puro de contenido. Monitorear respuesta.\n- Sector consultoría → Destiny Group y Libra Seguros."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Kristela Degay AICI CIC]\n[EMPRESA: AICI / tuimagenestrategica.com]\n[CARGO: VP Marketing AICI Global / Consultora de Imagen Estratégica]\n[SECTOR: Consultoría / Personal branding (perfil similar/colega, no cliente típico)]\n[PAIS: Panamá]\n\n[MSG1]\nKristela, gracias por conectar! Me llamó la atención la publicación sobre el vestido blanco. Particularmente porque no era una foto de antes-y-después de lo que suele ser \"transformación\" en redes. Era una historia sobre autoconocimiento atravesando cambios físicos reales, sin esperar el cuerpo perfecto para estar presente. Eso dice bastante sobre cómo vos enseñas, desde la coherencia vivida, no desde la teoría o los estándares.\n\n[RESPUESTA_MSG1]\nHola Florencia. Me alegra mucho que te guste mi enfoque.\n\n[MSG2]\nBuenas Kristela, gracias por responder!\n\nEsa forma de contar tu propia evolución sin esperar la versión \"perfecta\" se nota en cómo construís autoridad real con tu audiencia, no solo discurso.\n\nEn Hint Media trabajamos comunicación y contenido con marcas y ejecutivos que buscan ese mismo tipo de coherencia, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Es consultora de imagen/marca personal, trabaja con empresas en capacitación de presencia ejecutiva. Posible colaboración/referido más que cliente puro de contenido. Monitorear respuesta.\n- Sector consultoría → Destiny Group y Libra Seguros.",
+    "raw_md": "# Kristela Degay AICI CIC\n\n**Estado:** MSG2 enviado\n**Fecha:** 18/06/26\n**Cargo:** VP Marketing AICI Global / Consultora de Imagen Estratégica\n**Empresa:** AICI / tuimagenestrategica.com\n**País:** Panamá\n**Sector:** Consultoría / Personal branding (perfil similar/colega, no cliente típico)\n\n## MSG1\n> Kristela, gracias por conectar! Me llamó la atención la publicación sobre el vestido blanco. Particularmente porque no era una foto de antes-y-después de lo que suele ser \"transformación\" en redes. Era una historia sobre autoconocimiento atravesando cambios físicos reales, sin esperar el cuerpo perfecto para estar presente. Eso dice bastante sobre cómo vos enseñas, desde la coherencia vivida, no desde la teoría o los estándares.\n\n## Respuesta MSG1\n> Hola Florencia. Me alegra mucho que te guste mi enfoque.\n\n## MSG2\n> Buenas Kristela, gracias por responder!\n>\n> Esa forma de contar tu propia evolución sin esperar la versión \"perfecta\" se nota en cómo construís autoridad real con tu audiencia, no solo discurso.\n>\n> En Hint Media trabajamos comunicación y contenido con marcas y ejecutivos que buscan ese mismo tipo de coherencia, como Destiny Group y Libra Seguros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Es consultora de imagen/marca personal, trabaja con empresas en capacitación de presencia ejecutiva. Posible colaboración/referido más que cliente puro de contenido. Monitorear respuesta.\n- Sector consultoría → Destiny Group y Libra Seguros.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

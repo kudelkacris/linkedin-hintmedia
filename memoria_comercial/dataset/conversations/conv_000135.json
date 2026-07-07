@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000135",
+  "contact_id": "ctc_000432",
+  "source_file": "conversaciones/junio/cecilia-bentolila.md",
+  "fingerprint": "sha256:81e3811fdfd06ef728e6f0447e3e78167c23571dbe367dc071412542b361793c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/cecilia-bentolila.md",
+    "file_hash": "sha256:81e3811fdfd06ef728e6f0447e3e78167c23571dbe367dc071412542b361793c",
+    "file_modified": "2026-06-19T15:27:43.495418+00:00",
+    "file_size": 3247,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Cecilia Bentolila",
+    "empresa": "ECIPSA",
+    "cargo": "Gerente Corporativo de Relaciones Institucionales, Comunicación y Sustentabilidad",
+    "pais": "Argentina (Córdoba)",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG2 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 5,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Cecilia, gracias por conectar! 👋\n\nSos Gerente Corporativo de RI y Comunicación en ECIPSA, y además Presidenta de Circom CBA desde hace poco — estás liderando espacios de capacitación profesional sobre streaming y comunicación audiovisual, con organizaciones como OSDE. Eso no es cualquier cosa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Contame cómo te puedo ayudar?",
+    "msg2_texto": "Hola Cecilia, que bueno que respondiste!\n\nMe quedó esa impresión porque liderar Circom mientras gestionás la comunicación institucional de ECIPSA implica algo que no es tan común: vos no solo comunicás hacia afuera, también estás formando a otros en cómo comunicar. Eso marca una mirada distinta sobre los contenidos.\n\nNosotros desde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar proyectos complejos de forma que lleguen bien, tanto hacia inversores como hacia audiencias más amplias. Hemos trabajado con TGS, Transener y Libra Seguros, entre otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro",
+    "seg1_enviado": true,
+    "seg1_texto": "Cecilia, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n\nLo de liderar Circom mientras manejás la comunicación institucional de ECIPSA, formar a otros en cómo comunicar y comunicar vos misma al mismo tiempo.\n\nEsa doble posición suele cambiar bastante la vara con la que uno mismo termina midiendo lo que su propio equipo produce hacia afuera.\n\nEs justo el tipo de exigencia con la que solemos acompañar a empresas en proyectos complejos. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.",
+    "seg2_enviado": true,
+    "seg2_texto": "Cecilia, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de liderar Circom mientras gestionás la comunicación de ECIPSA, formando a otros en cómo comunicar mientras también comunicás hacia afuera.\nCualquier cosa que te genere, quedo atenta.",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "contame",
+      "puedo",
+      "ayudar",
+      "perfecto",
+      "cecilia",
+      "mando",
+      "ahora",
+      "quedamos",
+      "contacto"
+    ],
+    "notas": "- ECIPSA: real estate / desarrollo inmobiliario Argentina. Expansión a Buenos Aires, ECIPSA Investments, tokenización Raíz.\n- Circom CBA: organización de comunicación en Córdoba, capacitaciones streaming y audiovisual.\n- Ángulo: no solo comunica hacia afuera, también forma a otros en comunicar — mirada distinta.\n- Clientes usados: TGS, Transener, Libra Seguros (fit comunicación institucional Argentina).\n- Trabaja junto a Elisa Schipani (otro contacto, mismo equipo ECIPSA — ver [elisa-schipani.md](elisa-schipani.md))."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Cecilia Bentolila]\n[EMPRESA: ECIPSA]\n[CARGO: Gerente Corporativo de Relaciones Institucionales, Comunicación y Sustentabilidad]\n[SECTOR: Real estate / Comunicación institucional]\n[PAIS: Argentina (Córdoba)]\n\n[MSG1]\nCecilia, gracias por conectar! 👋\n\nSos Gerente Corporativo de RI y Comunicación en ECIPSA, y además Presidenta de Circom CBA desde hace poco — estás liderando espacios de capacitación profesional sobre streaming y comunicación audiovisual, con organizaciones como OSDE. Eso no es cualquier cosa.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nHola, Florencia. Contame cómo te puedo ayudar?\n\n[MSG2]\nHola Cecilia, que bueno que respondiste!\n\nMe quedó esa impresión porque liderar Circom mientras gestionás la comunicación institucional de ECIPSA implica algo que no es tan común: vos no solo comunicás hacia afuera, también estás formando a otros en cómo comunicar. Eso marca una mirada distinta sobre los contenidos.\n\nNosotros desde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar proyectos complejos de forma que lleguen bien, tanto hacia inversores como hacia audiencias más amplias. Hemos trabajado con TGS, Transener y Libra Seguros, entre otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro\n\n[SEG1]\nCecilia, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n\nLo de liderar Circom mientras manejás la comunicación institucional de ECIPSA, formar a otros en cómo comunicar y comunicar vos misma al mismo tiempo.\n\nEsa doble posición suele cambiar bastante la vara con la que uno mismo termina midiendo lo que su propio equipo produce hacia afuera.\n\nEs justo el tipo de exigencia con la que solemos acompañar a empresas en proyectos complejos. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.\n\n[SEG2]\nCecilia, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de liderar Circom mientras gestionás la comunicación de ECIPSA, formando a otros en cómo comunicar mientras también comunicás hacia afuera.\nCualquier cosa que te genere, quedo atenta.\n\n[NOTAS]\n- ECIPSA: real estate / desarrollo inmobiliario Argentina. Expansión a Buenos Aires, ECIPSA Investments, tokenización Raíz.\n- Circom CBA: organización de comunicación en Córdoba, capacitaciones streaming y audiovisual.\n- Ángulo: no solo comunica hacia afuera, también forma a otros en comunicar — mirada distinta.\n- Clientes usados: TGS, Transener, Libra Seguros (fit comunicación institucional Argentina).\n- Trabaja junto a Elisa Schipani (otro contacto, mismo equipo ECIPSA — ver [elisa-schipani.md](elisa-schipani.md)).",
+    "raw_md": "# Cecilia Bentolila\n**Fecha:** 12/06/26\n**Empresa:** ECIPSA\n**Cargo:** Gerente Corporativo de Relaciones Institucionales, Comunicación y Sustentabilidad\n**Otro rol:** Presidenta de Circom CBA\n**País:** Argentina (Córdoba)\n**Sector:** Real estate / Comunicación institucional\n**Estado:** SEG2 enviado (19/06/26)\n\n---\n\n## MSG1\n> Cecilia, gracias por conectar! 👋\n>\n> Sos Gerente Corporativo de RI y Comunicación en ECIPSA, y además Presidenta de Circom CBA desde hace poco — estás liderando espacios de capacitación profesional sobre streaming y comunicación audiovisual, con organizaciones como OSDE. Eso no es cualquier cosa.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Hola, Florencia. Contame cómo te puedo ayudar?\n\n## MSG2\n> Hola Cecilia, que bueno que respondiste!\n>\n> Me quedó esa impresión porque liderar Circom mientras gestionás la comunicación institucional de ECIPSA implica algo que no es tan común: vos no solo comunicás hacia afuera, también estás formando a otros en cómo comunicar. Eso marca una mirada distinta sobre los contenidos.\n>\n> Nosotros desde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar proyectos complejos de forma que lleguen bien, tanto hacia inversores como hacia audiencias más amplias. Hemos trabajado con TGS, Transener y Libra Seguros, entre otros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Sí, claro\n\n## Cierre\n> Perfecto Cecilia, te lo mando ahora. Quedamos en contacto!\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Cecilia, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo.\n>\n> Lo de liderar Circom mientras manejás la comunicación institucional de ECIPSA, formar a otros en cómo comunicar y comunicar vos misma al mismo tiempo.\n>\n> Esa doble posición suele cambiar bastante la vara con la que uno mismo termina midiendo lo que su propio equipo produce hacia afuera.\n>\n> Es justo el tipo de exigencia con la que solemos acompañar a empresas en proyectos complejos. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.\n\n## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: LOW-MEDIUM, respuestas mínimas en todo el hilo)\n> Cecilia, cómo estás?\n> No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en eso de liderar Circom mientras gestionás la comunicación de ECIPSA, formando a otros en cómo comunicar mientras también comunicás hacia afuera.\n> Cualquier cosa que te genere, quedo atenta.\n\n---\n\n## Notas\n- ECIPSA: real estate / desarrollo inmobiliario Argentina. Expansión a Buenos Aires, ECIPSA Investments, tokenización Raíz.\n- Circom CBA: organización de comunicación en Córdoba, capacitaciones streaming y audiovisual.\n- Ángulo: no solo comunica hacia afuera, también forma a otros en comunicar — mirada distinta.\n- Clientes usados: TGS, Transener, Libra Seguros (fit comunicación institucional Argentina).\n- Trabaja junto a Elisa Schipani (otro contacto, mismo equipo ECIPSA — ver [elisa-schipani.md](elisa-schipani.md)).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

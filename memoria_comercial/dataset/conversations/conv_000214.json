@@ -1,0 +1,81 @@
+{
+  "conversation_id": "conv_000214",
+  "contact_id": "ctc_000116",
+  "source_file": "conversaciones/junio/madeleyn-fonseca-suarez.md",
+  "fingerprint": "sha256:9794b40ac05d4cea531a20ba8b5a8974b6677150f40f7158cad5a7a5c12e974a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/madeleyn-fonseca-suarez.md",
+    "file_hash": "sha256:9794b40ac05d4cea531a20ba8b5a8974b6677150f40f7158cad5a7a5c12e974a",
+    "file_modified": "2026-06-25T17:48:02.979210+00:00",
+    "file_size": 2718,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Madeleyn Fonseca Suárez",
+    "empresa": "Hummingbirds",
+    "cargo": "Social Media Content Specialist",
+    "pais": "Costa Rica",
+    "fecha": "25/06/26",
+    "estado_texto": "MSG2 enviado, preguntó objetivo del dossier, ya respondido"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Madeleyn, gracias por conectar. Me llamó la atención la publicación sobre la beca UPEACE y la tesis en marketing inclusivo para adultos mayores. No es lo que la mayoría publica cuando recién entra en un rol de performance y campañas. Parece que para vos el crecimiento técnico y el propósito avanzan en paralelo, no separados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buena pregunta. Más que nada porque me dio la impresión de que tenés una mirada muy interesante sobre comunicación y marketing, y me interesaba mostrarte cómo trabajamos desde Hint Media. Acompañamos equipos de marketing y comunicación sumando capacidad de ejecución en contenido, diseño, community y coordinación, para que las iniciativas estratégicas no queden frenadas por la operación del día a día. No hay ninguna expectativa puntual detrás. Simplemente pensé que podía resultarte interesante conocer el modelo y, eventualmente, tenernos presentes si en algún momento surge una necesidad o una oportunidad de colaboración.",
+    "msg2_texto": "Hola Madeleyn, qué bueno! Lo que se nota en tu perfil es que no solo ejecutás campañas de creadores y performance, sino que también estás construyendo una mirada sobre marketing responsable al mismo tiempo. No es algo tan habitual de ver en perfiles orientados exclusivamente a resultados y performance. En Hint Media trabajamos con equipos de social media y contenido que necesitan sumar capacidad de ejecución sin perder ese criterio estratégico, como hacemos hoy con Destiny Group. Te puedo enviar un dossier breve por acá si no es mucha molestia? O, en todo caso, me podrías indicar a quién tendría sentido enviárselo?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "buena",
+      "pregunta",
+      "nada",
+      "porque",
+      "impresion",
+      "tenes",
+      "mirada",
+      "interesante",
+      "sobre",
+      "comunicacion"
+    ],
+    "notas": "- Perfil junior, no decisor (Social Media Content Specialist recién incorporada), no es lead de venta directa pero mostró apertura genuina.\n- Cliente referencia: Destiny Group (corrección sobre versión con TGS/Transener, que no calzaba con su perfil de contenido/social media).\n- Hizo pregunta poco común (objetivo del dossier antes de aceptar), señal de criterio analítico, consistente con el ángulo del MSG1."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Madeleyn Fonseca Suárez]\n[EMPRESA: Hummingbirds]\n[CARGO: Social Media Content Specialist]\n[PAIS: Costa Rica]\n\n[MSG1]\nMadeleyn, gracias por conectar. Me llamó la atención la publicación sobre la beca UPEACE y la tesis en marketing inclusivo para adultos mayores. No es lo que la mayoría publica cuando recién entra en un rol de performance y campañas. Parece que para vos el crecimiento técnico y el propósito avanzan en paralelo, no separados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuena pregunta. Más que nada porque me dio la impresión de que tenés una mirada muy interesante sobre comunicación y marketing, y me interesaba mostrarte cómo trabajamos desde Hint Media. Acompañamos equipos de marketing y comunicación sumando capacidad de ejecución en contenido, diseño, community y coordinación, para que las iniciativas estratégicas no queden frenadas por la operación del día a día. No hay ninguna expectativa puntual detrás. Simplemente pensé que podía resultarte interesante conocer el modelo y, eventualmente, tenernos presentes si en algún momento surge una necesidad o una oportunidad de colaboración.\n\n[MSG2]\nHola Madeleyn, qué bueno! Lo que se nota en tu perfil es que no solo ejecutás campañas de creadores y performance, sino que también estás construyendo una mirada sobre marketing responsable al mismo tiempo. No es algo tan habitual de ver en perfiles orientados exclusivamente a resultados y performance. En Hint Media trabajamos con equipos de social media y contenido que necesitan sumar capacidad de ejecución sin perder ese criterio estratégico, como hacemos hoy con Destiny Group. Te puedo enviar un dossier breve por acá si no es mucha molestia? O, en todo caso, me podrías indicar a quién tendría sentido enviárselo?\n\n[NOTAS]\n- Perfil junior, no decisor (Social Media Content Specialist recién incorporada), no es lead de venta directa pero mostró apertura genuina.\n- Cliente referencia: Destiny Group (corrección sobre versión con TGS/Transener, que no calzaba con su perfil de contenido/social media).\n- Hizo pregunta poco común (objetivo del dossier antes de aceptar), señal de criterio analítico, consistente con el ángulo del MSG1.",
+    "raw_md": "# Madeleyn Fonseca Suárez\n**Fecha:** 25/06/26\n**Cargo:** Social Media Content Specialist\n**Empresa:** Hummingbirds\n**País:** Costa Rica\n**Estado:** MSG2 enviado, preguntó objetivo del dossier, ya respondido\n\n## MSG1\n> Madeleyn, gracias por conectar. Me llamó la atención la publicación sobre la beca UPEACE y la tesis en marketing inclusivo para adultos mayores. No es lo que la mayoría publica cuando recién entra en un rol de performance y campañas. Parece que para vos el crecimiento técnico y el propósito avanzan en paralelo, no separados. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta\n> Hola! Muchas gracias por tu mensaje y por tus palabras! Me alegra mucho saber que esa fue la percepción que transmitió mi publicación! Claro, con gusto te ayudo. Cuéntame\n\n## MSG2 enviado\n> Hola Madeleyn, qué bueno! Lo que se nota en tu perfil es que no solo ejecutás campañas de creadores y performance, sino que también estás construyendo una mirada sobre marketing responsable al mismo tiempo. No es algo tan habitual de ver en perfiles orientados exclusivamente a resultados y performance. En Hint Media trabajamos con equipos de social media y contenido que necesitan sumar capacidad de ejecución sin perder ese criterio estratégico, como hacemos hoy con Destiny Group. Te puedo enviar un dossier breve por acá si no es mucha molestia? O, en todo caso, me podrías indicar a quién tendría sentido enviárselo?\n\n## Pregunta de Madeleyn\n> Claro! Solo que para entender mejor, con qué objetivo te gustaría que revisara el dossier?\n\n## Respuesta enviada\n> Buena pregunta. Más que nada porque me dio la impresión de que tenés una mirada muy interesante sobre comunicación y marketing, y me interesaba mostrarte cómo trabajamos desde Hint Media. Acompañamos equipos de marketing y comunicación sumando capacidad de ejecución en contenido, diseño, community y coordinación, para que las iniciativas estratégicas no queden frenadas por la operación del día a día. No hay ninguna expectativa puntual detrás. Simplemente pensé que podía resultarte interesante conocer el modelo y, eventualmente, tenernos presentes si en algún momento surge una necesidad o una oportunidad de colaboración.\n\n## Notas\n- Perfil junior, no decisor (Social Media Content Specialist recién incorporada), no es lead de venta directa pero mostró apertura genuina.\n- Cliente referencia: Destiny Group (corrección sobre versión con TGS/Transener, que no calzaba con su perfil de contenido/social media).\n- Hizo pregunta poco común (objetivo del dossier antes de aceptar), señal de criterio analítico, consistente con el ángulo del MSG1.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector",
+      "seccion_desconocida: 'Pregunta de Madeleyn'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000258",
+  "contact_id": "ctc_000342",
+  "source_file": "conversaciones/junio/rodolfo-alabarca.md",
+  "fingerprint": "sha256:49616307f48e448f442a0160322ff187a32dbdd86b8341d17d22d2b041e38bbf",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/rodolfo-alabarca.md",
+    "file_hash": "sha256:49616307f48e448f442a0160322ff187a32dbdd86b8341d17d22d2b041e38bbf",
+    "file_modified": "2026-06-12T16:03:43.607438+00:00",
+    "file_size": 953,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Rodolfo Alabarca",
+    "empresa": "Lina Corporation Inc.",
+    "cargo": "AI Solutions Engineer",
+    "pais": "Panamá",
+    "fecha": "12/06/26",
+    "estado_texto": "Dossier aceptado — pendiente envío del link"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Rodolfo Alabarca]\n[EMPRESA: Lina Corporation Inc.]\n[CARGO: AI Solutions Engineer]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: rodolfo-alabarca\ndescription: Dossier aceptado, AI Solutions Engineer Lina Corporation Inc. Panamá, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Rodolfo Alabarca\n**Cargo:** AI Solutions Engineer\n**Empresa:** Lina Corporation Inc.\n**País:** Panamá\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su portfolio del proyecto Ron Caña y la metodología documentada: \"funcionales y pensadas para generar impacto real\"\n- Respondió: \"Hola Florencia, encantado de conectar. Fue un proyecto inspirado en mi antiguo trabajo, vienen más en camino. Claro que sí, cuéntame\"\n- MSG2 enviado — gap entre lo que un sistema puede hacer y lo que el equipo termina usando; brecha de comunicación del valor hacia adentro. Mención Destiny Group y Libra Seguros.\n- Respondió: \"Claro Florencia, adelante. Con gusto lo reviso.\" — aceptó dossier\n\n**Estado:** Dossier aceptado — pendiente envío del link\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.5
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000082",
+  "contact_id": "ctc_000084",
+  "source_file": "conversaciones/julio/paco-foret.md",
+  "fingerprint": "sha256:f46d4eb96a8476741c345eb20cb2f765e10243024571c0f926c4f5bd7ea20e63",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/paco-foret.md",
+    "file_hash": "sha256:f46d4eb96a8476741c345eb20cb2f765e10243024571c0f926c4f5bd7ea20e63",
+    "file_modified": "2026-07-02T00:06:42.915018+00:00",
+    "file_size": 2053,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Paco Foret",
+    "empresa": "Novicap",
+    "cargo": "Marketing Manager en Novicap",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Paco, gracias por conectar 👋\n\nVi tu publicación de hace poco sobre por qué los equipos de Demand Gen no deberían automatizarlo todo con IA. Me quedó esa frase: \"La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia.\" No es lo que la mayoría de los managers en Fintech están diciendo ahora mismo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de hace 2 semanas donde Paco toma posición explícita contra la tendencia de automatización en Demand Gen. Escribe: \"Creemos firmemente en que las personas siguen siendo imprescindibles. La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia en un mercado saturado de mensajes genéricos.\" Esta es una creencia que decidió mostrar públicamente, no una descripción de responsabilidades.",
+    "hipotesis": "Conversación sobre cómo comunicar autenticidad en contextos de crecimiento acelerado. Cómo convertir la expansión empresarial en una narrativa que no suene solo transaccional. O sobre coordinación de múltiples frentes comunicacionales (reclutamiento, marca, posicionamiento de Fintech).",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Paco Foret]\n[EMPRESA: Novicap]\n[CARGO: Marketing Manager en Novicap]\n[SECTOR: Fintech / Servicios Financieros]\n[PAIS: España]\n[SENAL: Publicación de hace 2 semanas donde Paco toma posición explícita contra la tendencia de automatización en Demand Gen. Escribe: \"Creemos firmemente en que las personas siguen siendo imprescindibles. La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia en un mercado saturado de mensajes genéricos.\" Esta es una creencia que decidió mostrar públicamente, no una descripción de responsabilidades.]\n[HIPOTESIS: Conversación sobre cómo comunicar autenticidad en contextos de crecimiento acelerado. Cómo convertir la expansión empresarial en una narrativa que no suene solo transaccional. O sobre coordinación de múltiples frentes comunicacionales (reclutamiento, marca, posicionamiento de Fintech).]\n\n[MSG1]\nPaco, gracias por conectar 👋\n\nVi tu publicación de hace poco sobre por qué los equipos de Demand Gen no deberían automatizarlo todo con IA. Me quedó esa frase: \"La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia.\" No es lo que la mayoría de los managers en Fintech están diciendo ahora mismo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Paco Foret\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing Manager en Novicap\n**Empresa:** Novicap\n**Pais:** España\n**Sector:** Fintech / Servicios Financieros\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de hace 2 semanas donde Paco toma posición explícita contra la tendencia de automatización en Demand Gen. Escribe: \"Creemos firmemente en que las personas siguen siendo imprescindibles. La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia en un mercado saturado de mensajes genéricos.\" Esta es una creencia que decidió mostrar públicamente, no una descripción de responsabilidades.\n- **Tensión profesional:** Mantener una narrativa coherente sobre talento humano y crecimiento auténtico mientras se lidia con expansión acelerada, múltiples vacantes abiertas simultáneamente y presión por escalar la empresa — sin que el mensaje se vuelva genérico o parezca solo \"ruido de hiring\".\n- **Hipótesis:** Conversación sobre cómo comunicar autenticidad en contextos de crecimiento acelerado. Cómo convertir la expansión empresarial en una narrativa que no suene solo transaccional. O sobre coordinación de múltiples frentes comunicacionales (reclutamiento, marca, posicionamiento de Fintech).\n- **Ángulo MSG1:** La posición explícita de Paco contra la automatización deshumanizada de ventas. No es solo que contrate — es que **cómo** comunica el hiring revela una filosofía sobre cómo ve el trabajo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Paco, gracias por conectar 👋\n>\n> Vi tu publicación de hace poco sobre por qué los equipos de Demand Gen no deberían automatizarlo todo con IA. Me quedó esa frase: \"La intuición, la empatía y la capacidad de construir relaciones reales son lo que marca la diferencia.\" No es lo que la mayoría de los managers en Fintech están diciendo ahora mismo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

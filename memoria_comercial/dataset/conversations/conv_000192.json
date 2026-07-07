@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000192",
+  "contact_id": "ctc_000224",
+  "source_file": "conversaciones/junio/julian-tovar.md",
+  "fingerprint": "sha256:793918206f6c6df139d7f2f637514d3c123d602c6f85d6ec6599ddea5445419a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/julian-tovar.md",
+    "file_hash": "sha256:793918206f6c6df139d7f2f637514d3c123d602c6f85d6ec6599ddea5445419a",
+    "file_modified": "2026-06-18T17:31:38.058696+00:00",
+    "file_size": 1946,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Julián Tovar",
+    "empresa": "Growatt New Energy (inversores solares/almacenamiento). También Youtuber propio: Mr. Solar",
+    "cargo": "Product Marketing Manager - Colombia and Caribbean",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "18/06/26 (MSG1 y respuesta el mismo día)",
+    "estado_texto": "MSG2 por enviar"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Julián, gracias por conectar. Me llamó la atención que además de liderar marketing de Growatt, hayas armado tu propio canal en YouTube con contenido técnico sobre solar y eficiencia energética. No es lo que la mayoría de los PMM hace cuando le va bien en la corporativa. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, dime",
+    "msg2_texto": "Liderar marketing en Growatt y sostener un canal propio de contenido técnico al mismo tiempo significa producir contenido constante en dos frentes, con públicos y formatos distintos.\n\nEn Hint Media trabajamos con marcas de energía que necesitan traducir tecnología compleja en contenido que un público no técnico entienda y comparta, justo lo que vos ya hacés solo con MR.SOLAR. Armamos un dossier pensando en eso, casos de TGS y Transener mostrando cómo se sostiene esa traducción de forma consistente, no solo en una pieza puntual.\n\nTe lo mando si te interesa ver cómo lo armamos?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dime"
+    ],
+    "notas": "- HECHO: PMM en Growatt + canal YouTube propio (Mr. Solar) con contenido técnico solar, charlista en webinars del sector (Ferragro).\n- COMPLEJIDAD: doble frente de contenido (corporativo B2B + canal educativo masivo personal), mismo tema, públicos y formatos distintos.\n- Pivot pedido por el usuario: en vez de CTA genérico, anclar el dossier a algo específico de su mundo (traducir tecnología compleja en contenido, lo que él ya hace solo).\n- Sector: energía solar → clientes referencia TGS/Transener."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Julián Tovar]\n[EMPRESA: Growatt New Energy (inversores solares/almacenamiento). También Youtuber propio: Mr. Solar]\n[CARGO: Product Marketing Manager - Colombia and Caribbean]\n[PAIS: Colombia (Bogotá)]\n\n[MSG1]\nJulián, gracias por conectar. Me llamó la atención que además de liderar marketing de Growatt, hayas armado tu propio canal en YouTube con contenido técnico sobre solar y eficiencia energética. No es lo que la mayoría de los PMM hace cuando le va bien en la corporativa. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, dime\n\n[MSG2]\nLiderar marketing en Growatt y sostener un canal propio de contenido técnico al mismo tiempo significa producir contenido constante en dos frentes, con públicos y formatos distintos.\n\nEn Hint Media trabajamos con marcas de energía que necesitan traducir tecnología compleja en contenido que un público no técnico entienda y comparta, justo lo que vos ya hacés solo con MR.SOLAR. Armamos un dossier pensando en eso, casos de TGS y Transener mostrando cómo se sostiene esa traducción de forma consistente, no solo en una pieza puntual.\n\nTe lo mando si te interesa ver cómo lo armamos?\n\n[NOTAS]\n- HECHO: PMM en Growatt + canal YouTube propio (Mr. Solar) con contenido técnico solar, charlista en webinars del sector (Ferragro).\n- COMPLEJIDAD: doble frente de contenido (corporativo B2B + canal educativo masivo personal), mismo tema, públicos y formatos distintos.\n- Pivot pedido por el usuario: en vez de CTA genérico, anclar el dossier a algo específico de su mundo (traducir tecnología compleja en contenido, lo que él ya hace solo).\n- Sector: energía solar → clientes referencia TGS/Transener.",
+    "raw_md": "# Julián Tovar\n\n**Estado:** MSG2 por enviar\n**Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)\n**Cargo:** Product Marketing Manager - Colombia and Caribbean\n**Empresa:** Growatt New Energy (inversores solares/almacenamiento). También Youtuber propio: Mr. Solar\n**País:** Colombia (Bogotá)\n\n## MSG1\n> Julián, gracias por conectar. Me llamó la atención que además de liderar marketing de Growatt, hayas armado tu propio canal en YouTube con contenido técnico sobre solar y eficiencia energética. No es lo que la mayoría de los PMM hace cuando le va bien en la corporativa. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, dime\n\n## MSG2 (sin B1 — respuesta neutra sin nada que mirroriar; versión final con pivot pedido por el usuario)\n> Liderar marketing en Growatt y sostener un canal propio de contenido técnico al mismo tiempo significa producir contenido constante en dos frentes, con públicos y formatos distintos.\n>\n> En Hint Media trabajamos con marcas de energía que necesitan traducir tecnología compleja en contenido que un público no técnico entienda y comparta, justo lo que vos ya hacés solo con MR.SOLAR. Armamos un dossier pensando en eso, casos de TGS y Transener mostrando cómo se sostiene esa traducción de forma consistente, no solo en una pieza puntual.\n>\n> Te lo mando si te interesa ver cómo lo armamos?\n\n## Notas\n- HECHO: PMM en Growatt + canal YouTube propio (Mr. Solar) con contenido técnico solar, charlista en webinars del sector (Ferragro).\n- COMPLEJIDAD: doble frente de contenido (corporativo B2B + canal educativo masivo personal), mismo tema, públicos y formatos distintos.\n- Pivot pedido por el usuario: en vez de CTA genérico, anclar el dossier a algo específico de su mundo (traducir tecnología compleja en contenido, lo que él ya hace solo).\n- Sector: energía solar → clientes referencia TGS/Transener.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

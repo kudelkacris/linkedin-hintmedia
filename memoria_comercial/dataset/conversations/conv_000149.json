@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000149",
+  "contact_id": "ctc_000294",
+  "source_file": "conversaciones/junio/dulce-rodriguez.md",
+  "fingerprint": "sha256:528b79a27320b03f35f9a01bbdf95c040466bfb26002c9feadc261d562e7b132",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/dulce-rodriguez.md",
+    "file_hash": "sha256:528b79a27320b03f35f9a01bbdf95c040466bfb26002c9feadc261d562e7b132",
+    "file_modified": "2026-06-15T20:00:47.513527+00:00",
+    "file_size": 1209,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Dulce Rodríguez",
+    "empresa": "CORBANA (Corporación Bananera Nacional)",
+    "cargo": "Estratega de Marketing y Comunicación, CORBANA",
+    "pais": "(Costa Rica presumiblemente)",
+    "fecha": "15/06/26",
+    "estado_texto": "Cerrada — ya tienen agencia y estrategia inhouse"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Cerrada amigablemente\n- Tienen agencia para paid media y estrategia inhouse\n- CORBANA: posicionamiento Banano de Costa Rica, ACORBAT, ferias internacionales"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Dulce Rodríguez]\n[EMPRESA: CORBANA (Corporación Bananera Nacional)]\n[CARGO: Estratega de Marketing y Comunicación, CORBANA]\n[PAIS: (Costa Rica presumiblemente)]\n\n[NOTAS]\n- Cerrada amigablemente\n- Tienen agencia para paid media y estrategia inhouse\n- CORBANA: posicionamiento Banano de Costa Rica, ACORBAT, ferias internacionales",
+    "raw_md": "# Dulce Rodríguez\n\n**Estado:** Cerrada — ya tienen agencia y estrategia inhouse\n**Fecha:** 15/06/26\n**Cargo:** Estratega de Marketing y Comunicación, CORBANA\n**País:** (Costa Rica presumiblemente)\n**Empresa:** CORBANA (Corporación Bananera Nacional)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:00):**\nCitó su definición: \"tender puentes entre las ideas, las marcas y las personas.\"\n\n**Respuesta Dulce (viernes 19:55):**\n\"Hola Florencia, un gusto saludarte, muchas gracias por tu mensaje, cuéntame\"\n\n**MSG2 enviado (Florencia, hoy 15:58):**\nExplicó trabajo en CORBANA (Banano de Costa Rica, ACORBAT, ferias internacionales), presentó Hint Media.\n\n**Respuesta Dulce (16:54):**\n\"Hola Florencia, te agradezco, nosotros trabajamos la estrategia inhouse y ya tenemos una agencia para pauta y compra de medios, saludos\"\n\n**Cierre enviado (redactado):**\n> Entendido, gracias por la claridad Dulce. Si en algún momento cambia la situación o necesitan refuerzo en algo específico, con gusto. Mucho éxito con el proyecto de marca!\n\n## Notas\n- Cerrada amigablemente\n- Tienen agencia para paid media y estrategia inhouse\n- CORBANA: posicionamiento Banano de Costa Rica, ACORBAT, ferias internacionales\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

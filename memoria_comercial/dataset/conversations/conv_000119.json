@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000119",
+  "contact_id": "ctc_000529",
+  "source_file": "conversaciones/junio/betzabe-rojas-rojas.md",
+  "fingerprint": "sha256:3b590041e29663298d9ff0a58841feeb126b379d1b401ebc49d626df7f808add",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/betzabe-rojas-rojas.md",
+    "file_hash": "sha256:3b590041e29663298d9ff0a58841feeb126b379d1b401ebc49d626df7f808add",
+    "file_modified": "2026-07-02T13:51:07.121207+00:00",
+    "file_size": 1472,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Betzabe Rojas Rojas",
+    "empresa": "Leterago Centroamérica",
+    "cargo": "Gerente General Leterago CEAM",
+    "pais": "Centroamérica",
+    "fecha": "08/06/26",
+    "estado_texto": "MSG2 enviado — 02/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Betzabe, gracias por conectar! 👋\n\nSos Gerente General en Leterago Centroamérica, empresa farmacéutica con operaciones multipaís. En Megalabs escalaste desde Gerente de Línea hasta Gerente Comercial CEAM en 7+ años, liderando equipos complejos en varios territorios.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas noches Florencia, así es",
+    "msg2_texto": "Buenas Betzabe!\nOperar en varios países a la vez implica que cada mercado termina interpretando la marca a su manera si no hay una narrativa central que sostenga todo.\nEn Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre territorios. Clientes como Libra Seguros y Destiny Group lo trabajaron con nosotros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "noches",
+      "florencia"
+    ],
+    "notas": "- MSG1 original con estructura de perfil (penalizado) — respondió igual.\n- Sector farmacéutico/salud → clientes Libra Seguros, Destiny Group.\n- Respuesta neutra \"así es\" → sin pregunta en B2, ir directo a Hint + dossier."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Betzabe Rojas Rojas]\n[EMPRESA: Leterago Centroamérica]\n[CARGO: Gerente General Leterago CEAM]\n[SECTOR: Farmacéutico / Salud]\n[PAIS: Centroamérica]\n\n[MSG1]\nBetzabe, gracias por conectar! 👋\n\nSos Gerente General en Leterago Centroamérica, empresa farmacéutica con operaciones multipaís. En Megalabs escalaste desde Gerente de Línea hasta Gerente Comercial CEAM en 7+ años, liderando equipos complejos en varios territorios.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nBuenas noches Florencia, así es\n\n[MSG2]\nBuenas Betzabe!\nOperar en varios países a la vez implica que cada mercado termina interpretando la marca a su manera si no hay una narrativa central que sostenga todo.\nEn Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre territorios. Clientes como Libra Seguros y Destiny Group lo trabajaron con nosotros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- MSG1 original con estructura de perfil (penalizado) — respondió igual.\n- Sector farmacéutico/salud → clientes Libra Seguros, Destiny Group.\n- Respuesta neutra \"así es\" → sin pregunta en B2, ir directo a Hint + dossier.",
+    "raw_md": "# Betzabe Rojas Rojas\n\n**Fecha:** 08/06/26\n**Cargo:** Gerente General Leterago CEAM\n**Empresa:** Leterago Centroamérica\n**País:** Centroamérica\n**Sector:** Farmacéutico / Salud\n**Estado:** MSG2 enviado — 02/07/26\n\n---\n\n## MSG1\n> Betzabe, gracias por conectar! 👋\n>\n> Sos Gerente General en Leterago Centroamérica, empresa farmacéutica con operaciones multipaís. En Megalabs escalaste desde Gerente de Línea hasta Gerente Comercial CEAM en 7+ años, liderando equipos complejos en varios territorios.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Buenas noches Florencia, así es\n\n---\n\n## MSG2 (02/07/26)\n> Buenas Betzabe!\n> Operar en varios países a la vez implica que cada mercado termina interpretando la marca a su manera si no hay una narrativa central que sostenga todo.\n> En Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre territorios. Clientes como Libra Seguros y Destiny Group lo trabajaron con nosotros.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- MSG1 original con estructura de perfil (penalizado) — respondió igual.\n- Sector farmacéutico/salud → clientes Libra Seguros, Destiny Group.\n- Respuesta neutra \"así es\" → sin pregunta en B2, ir directo a Hint + dossier.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

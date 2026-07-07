@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000171",
+  "contact_id": "ctc_000313",
+  "source_file": "conversaciones/junio/hilary-mejia.md",
+  "fingerprint": "sha256:b54eef8bde673668b42be51fafc171ac137c8083ded0c5d2272086aceb161531",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/hilary-mejia.md",
+    "file_hash": "sha256:b54eef8bde673668b42be51fafc171ac137c8083ded0c5d2272086aceb161531",
+    "file_modified": "2026-06-12T22:30:24.977645+00:00",
+    "file_size": 902,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Hilary Mejía",
+    "empresa": "Hypernova Labs",
+    "cargo": "Marketing Coordinator",
+    "pais": "Panamá",
+    "fecha": "14/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Hilary Mejía]\n[EMPRESA: Hypernova Labs]\n[CARGO: Marketing Coordinator]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: hilary-mejia\ndescription: MSG2 enviado, Marketing Coordinator Hypernova Labs Panamá, 14/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Hilary Mejía\n**Cargo:** Marketing Coordinator\n**Empresa:** Hypernova Labs\n**País:** Panamá\n**Fecha:** 14/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo cerró el post de Move On 2026: le dio crédito al equipo desde el primer párrafo.\n- Respondió: \"Hola Florencia, muchas gracias! Un placer. Y claro que sí. Cuéntame\"\n- MSG2 enviado — gap: coordinar Move On (Google Cloud, demos, stands) + gestionar toda la comunicación del evento al mismo tiempo. Dos trabajos distintos. Mención Destiny Group.\n\n**Notas:**\n- Move On 2026 con Google Cloud como partner\n- También organiza eventos internos, employee branding, e-commerce\n- Hypernova Labs es empresa de IA/tech Panamá\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

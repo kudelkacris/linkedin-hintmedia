@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000048",
+  "contact_id": "ctc_000081",
+  "source_file": "conversaciones/julio/izan-forca-salas.md",
+  "fingerprint": "sha256:84fd79260ad002368c25885c316c7565c5b66d49347b827a5e1d7e1acc05eb01",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/izan-forca-salas.md",
+    "file_hash": "sha256:84fd79260ad002368c25885c316c7565c5b66d49347b827a5e1d7e1acc05eb01",
+    "file_modified": "2026-07-02T00:10:43.751628+00:00",
+    "file_size": 1965,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Izan Forca Salas",
+    "empresa": "B2B Marketing Manager",
+    "cargo": "B2B Marketing Manager",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Izan, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste la Alimentaria Barcelona — dijiste que el stand no era una exhibición, sino \"la síntesis de años de trabajo\". No es lo que la mayoría escribe cuando anuncia un evento. La mayoría describe lo que pasó. Vos explicaste qué significaba.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre La Alimentaria Barcelona donde Izan compartió el stand de Incapto como \"síntesis de años de trabajo\" y destaca las \"colaboraciones funcionan... como acelerador real\". Reveló cómo arma narrativa de producto sin sonar retórico — apunta a demostrar validación de mercado con casos concretos. Además, comenta sobre impacto de alianzas (FRIOLISA, OTC Group, Hofmann) como palanca de escala, no como tácticas puntuales.",
+    "hipotesis": "Cómo construir credibilidad de marca en una categoría emergente (café especializado como servicio) cuando la mayoría de los decisores aún piensan en café como commodity + cómo orquestar alianzas estratégicas para amplificar reach sin que se vea forzado.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Izan Forca Salas]\n[EMPRESA: B2B Marketing Manager]\n[CARGO: B2B Marketing Manager]\n[SECTOR: SaaS / Startup / Beverage-Tech / HoReCa]\n[PAIS: España]\n[SENAL: Publicación sobre La Alimentaria Barcelona donde Izan compartió el stand de Incapto como \"síntesis de años de trabajo\" y destaca las \"colaboraciones funcionan... como acelerador real\". Reveló cómo arma narrativa de producto sin sonar retórico — apunta a demostrar validación de mercado con casos concretos. Además, comenta sobre impacto de alianzas (FRIOLISA, OTC Group, Hofmann) como palanca de escala, no como tácticas puntuales.]\n[HIPOTESIS: Cómo construir credibilidad de marca en una categoría emergente (café especializado como servicio) cuando la mayoría de los decisores aún piensan en café como commodity + cómo orquestar alianzas estratégicas para amplificar reach sin que se vea forzado.]\n\n[MSG1]\nIzan, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste la Alimentaria Barcelona — dijiste que el stand no era una exhibición, sino \"la síntesis de años de trabajo\". No es lo que la mayoría escribe cuando anuncia un evento. La mayoría describe lo que pasó. Vos explicaste qué significaba.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Izan Forca Salas\n\n**Fecha:** 01/07/26\n**Cargo:** B2B Marketing Manager\n**Empresa:** B2B Marketing Manager\n**Pais:** España\n**Sector:** SaaS / Startup / Beverage-Tech / HoReCa\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre La Alimentaria Barcelona donde Izan compartió el stand de Incapto como \"síntesis de años de trabajo\" y destaca las \"colaboraciones funcionan... como acelerador real\". Reveló cómo arma narrativa de producto sin sonar retórico — apunta a demostrar validación de mercado con casos concretos. Además, comenta sobre impacto de alianzas (FRIOLISA, OTC Group, Hofmann) como palanca de escala, no como tácticas puntuales.\n- **Tensión profesional:** Llevar una propuesta B2B compleja y nueva (CaaS, IoT, sostenibilidad) a múltiples segmentos verticales (hoteles, restauración, oficinas) sin que cada canal requiera reposicionamiento total — es decir, escalar el producto sin fragmentar la narrativa de marca.\n- **Hipótesis:** Cómo construir credibilidad de marca en una categoría emergente (café especializado como servicio) cuando la mayoría de los decisores aún piensan en café como commodity + cómo orquestar alianzas estratégicas para amplificar reach sin que se vea forzado.\n- **Ángulo MSG1:** Señal humana — la forma deliberada en que Izan comunica los logros de Incapto no como hitos aislados, sino como confirmación de un \"punto de inflexión\" validado por el mercado.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Izan, gracias por conectar! 👋\n>\n> Me llamó la atención cómo describiste la Alimentaria Barcelona — dijiste que el stand no era una exhibición, sino \"la síntesis de años de trabajo\". No es lo que la mayoría escribe cuando anuncia un evento. La mayoría describe lo que pasó. Vos explicaste qué significaba.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

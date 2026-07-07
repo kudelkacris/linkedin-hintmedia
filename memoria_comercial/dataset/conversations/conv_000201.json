@@ -1,0 +1,81 @@
+{
+  "conversation_id": "conv_000201",
+  "contact_id": "ctc_000167",
+  "source_file": "conversaciones/junio/keylin-smith.md",
+  "fingerprint": "sha256:c9720f924b66056d8417beb568083792a97535037a169d5ccd91a23264e0ae7b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/keylin-smith.md",
+    "file_hash": "sha256:c9720f924b66056d8417beb568083792a97535037a169d5ccd91a23264e0ae7b",
+    "file_modified": "2026-07-02T03:41:04.026225+00:00",
+    "file_size": 3768,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Keylin Smith",
+    "empresa": "Best of Costa Rica DMC / PuraLuxe Boutique Journeys",
+    "cargo": "Especialista en Eventos Corporativos / Supervisora de Marketing",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado (corregido)"
+  },
+  "normalized": {
+    "sector": "TURISMO_EVENTOS",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Keylin, gracias por conectar! Vi la publicación que compartiste hace poco sobre valor percibido vs descuento. Lo que me llamó la atención fue que no hablaste de herramientas ni de canales, sino de por qué muchas empresas comunican errado desde el inicio. \"No siempre gana quien tiene la mejor propuesta. Muchas veces gana quien comunica mejor su valor.\" Eso es lo opuesto a lo que la mayoría hace.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "¡Hola, Florencia! Muchas gracias por tu mensaje y por leer la publicación con tanta atención. Me alegra saber que conectaste con esa idea, porque justamente creo que muchas veces el problema no está en el producto, sino en cómo comunicamos su valor. Con muchísimo gusto te ayudo. Cuéntame cuál es tu consulta y vemos juntas cómo puedo aportar.",
+    "msg2_texto": "Buenas Keylin!\n\nEsa idea de que no siempre gana la mejor propuesta sino quien comunica mejor su valor aplica directo a lo que hacés: coordinar eventos y experiencias de marca donde cada detalle también comunica algo, no solo la logística.\n\nEn Hint Media trabajamos comunicación y contenido para marcas que necesitan ese mismo posicionamiento, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "- Dossier confirmado (revisado con calma), reacción muy positiva: \"me gustó mucho el enfoque de Hint Media y la manera en que integran estrategia con ejecución\".\n- Propuso colaborar como freelance (estrategia creativa, conceptos, guiones audiovisual, neuromarketing) en vez de ser prospecto cliente.\n- Se le propuso llamada corta para explorar sinergia. Aceptó.\n- CALL AGENDADA.\n\nEstado: Call agendada (explorar colaboración freelance, no venta directa).",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "mensaje",
+      "leer",
+      "publicacion",
+      "tanta",
+      "atencion",
+      "alegra",
+      "saber",
+      "conectaste"
+    ],
+    "notas": "- Sector turismo/eventos corporativos → clientes Destiny Group y Tasarolli (no TGS/Transener, esos son energía y no calzan).\n- El historial.json tenía guardado un MSG2 viejo con placeholder de texto (\"(omitir si respuesta es neutra)\") y clientes incorrectos (TGS/Transener); corregido el 18/06/26.\n- Ver [[feedback-clientes-por-sector-critico]] y [[feedback-msg2-estilo]] (sin \"gracias por la apertura\")."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Keylin Smith]\n[EMPRESA: Best of Costa Rica DMC / PuraLuxe Boutique Journeys]\n[CARGO: Especialista en Eventos Corporativos / Supervisora de Marketing]\n[SECTOR: Turismo / Eventos corporativos]\n[PAIS: Costa Rica]\n\n[MSG1]\nKeylin, gracias por conectar! Vi la publicación que compartiste hace poco sobre valor percibido vs descuento. Lo que me llamó la atención fue que no hablaste de herramientas ni de canales, sino de por qué muchas empresas comunican errado desde el inicio. \"No siempre gana quien tiene la mejor propuesta. Muchas veces gana quien comunica mejor su valor.\" Eso es lo opuesto a lo que la mayoría hace.\n\n[RESPUESTA_MSG1]\n¡Hola, Florencia! Muchas gracias por tu mensaje y por leer la publicación con tanta atención. Me alegra saber que conectaste con esa idea, porque justamente creo que muchas veces el problema no está en el producto, sino en cómo comunicamos su valor. Con muchísimo gusto te ayudo. Cuéntame cuál es tu consulta y vemos juntas cómo puedo aportar.\n\n[MSG2]\nBuenas Keylin!\n\nEsa idea de que no siempre gana la mejor propuesta sino quien comunica mejor su valor aplica directo a lo que hacés: coordinar eventos y experiencias de marca donde cada detalle también comunica algo, no solo la logística.\n\nEn Hint Media trabajamos comunicación y contenido para marcas que necesitan ese mismo posicionamiento, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[SEG1]\n- Dossier confirmado (revisado con calma), reacción muy positiva: \"me gustó mucho el enfoque de Hint Media y la manera en que integran estrategia con ejecución\".\n- Propuso colaborar como freelance (estrategia creativa, conceptos, guiones audiovisual, neuromarketing) en vez de ser prospecto cliente.\n- Se le propuso llamada corta para explorar sinergia. Aceptó.\n- CALL AGENDADA.\n\nEstado: Call agendada (explorar colaboración freelance, no venta directa).\n\n[NOTAS]\n- Sector turismo/eventos corporativos → clientes Destiny Group y Tasarolli (no TGS/Transener, esos son energía y no calzan).\n- El historial.json tenía guardado un MSG2 viejo con placeholder de texto (\"(omitir si respuesta es neutra)\") y clientes incorrectos (TGS/Transener); corregido el 18/06/26.\n- Ver [[feedback-clientes-por-sector-critico]] y [[feedback-msg2-estilo]] (sin \"gracias por la apertura\").",
+    "raw_md": "# Keylin Smith\n\n**Estado:** MSG2 enviado (corregido)\n**Fecha:** 18/06/26\n**Cargo:** Especialista en Eventos Corporativos / Supervisora de Marketing\n**Empresa:** Best of Costa Rica DMC / PuraLuxe Boutique Journeys\n**País:** Costa Rica\n**Sector:** Turismo / Eventos corporativos\n\n## MSG1\n> Keylin, gracias por conectar! Vi la publicación que compartiste hace poco sobre valor percibido vs descuento. Lo que me llamó la atención fue que no hablaste de herramientas ni de canales, sino de por qué muchas empresas comunican errado desde el inicio. \"No siempre gana quien tiene la mejor propuesta. Muchas veces gana quien comunica mejor su valor.\" Eso es lo opuesto a lo que la mayoría hace.\n\n## Respuesta MSG1\n> ¡Hola, Florencia! Muchas gracias por tu mensaje y por leer la publicación con tanta atención. Me alegra saber que conectaste con esa idea, porque justamente creo que muchas veces el problema no está en el producto, sino en cómo comunicamos su valor. Con muchísimo gusto te ayudo. Cuéntame cuál es tu consulta y vemos juntas cómo puedo aportar.\n\n## MSG2 (versión final, corregida)\n> Buenas Keylin!\n>\n> Esa idea de que no siempre gana la mejor propuesta sino quien comunica mejor su valor aplica directo a lo que hacés: coordinar eventos y experiencias de marca donde cada detalle también comunica algo, no solo la logística.\n>\n> En Hint Media trabajamos comunicación y contenido para marcas que necesitan ese mismo posicionamiento, como Destiny Group y Tasarolli.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector turismo/eventos corporativos → clientes Destiny Group y Tasarolli (no TGS/Transener, esos son energía y no calzan).\n- El historial.json tenía guardado un MSG2 viejo con placeholder de texto (\"(omitir si respuesta es neutra)\") y clientes incorrectos (TGS/Transener); corregido el 18/06/26.\n- Ver [[feedback-clientes-por-sector-critico]] y [[feedback-msg2-estilo]] (sin \"gracias por la apertura\").\n\n## Seguimiento 23/06/26\n- Dossier confirmado (revisado con calma), reacción muy positiva: \"me gustó mucho el enfoque de Hint Media y la manera en que integran estrategia con ejecución\".\n- Propuso colaborar como freelance (estrategia creativa, conceptos, guiones audiovisual, neuromarketing) en vez de ser prospecto cliente.\n- Se le propuso llamada corta para explorar sinergia. Aceptó.\n- **CALL AGENDADA.**\n\n**Estado:** Call agendada (explorar colaboración freelance, no venta directa).\n\n## Sesión 02/07/26 — Preparación para la call\n- Armadas 3 presentaciones de colaboración en `presentaciones/keylin-smith/`:\n  - `a-sinergia.html` — 8 slides, mapa de sinergia Keylin × Hint (para jefe + call)\n  - `b-valor-mutuo.html` — 6 slides, propuesta de valor mutua (más persuasivo)\n  - `c-onepager.html` — 1 página ejecutiva con botón PDF\n- Análisis completo de Best of Costa Rica DMC (su empleadora):\n  - Score digital: 52.4/100 (Grado C) — operación sólida, motor digital incompleto\n  - Gap crítico: segmento corporativo/MICE sin presencia digital\n  - Oportunidad principal: replicar caso Destiny Group (30%→70% reservas directas)\n  - Spain Collection (DMC de lujo) = caso de éxito idéntico al sector\n- Creada propuesta estratégica completa: `best-cr-dmc-propuesta.html`\n  - Incluye audit con scoring, gaps, casos de éxito, 8 servicios remotos, timeline 6 meses, 3 modelos de inversión\n  - Keylin posicionada como puente local (guiones neuromarketing + coordinación Sergio Hidalgo)\n  - PuraLuxe aclarada: sub-marca/empresa relacionada vista en su LinkedIn, no confirmada como parte de Best of CR DMC\n- Nota: en call explorar si Best of CR DMC puede ser cliente de Hint además de la colaboración freelance de Keylin.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "sin_blockquote: seg1 — texto extraido sin marcador >",
+      "seccion_desconocida: 'Sesión 02/07/26 — Preparación para la call'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

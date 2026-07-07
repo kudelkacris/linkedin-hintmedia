@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000086",
+  "contact_id": "ctc_000038",
+  "source_file": "conversaciones/julio/pedro-vita.md",
+  "fingerprint": "sha256:29ec0e885f54164f1b8726d88d43f0da478b79bc1dafd1c6030b094ab69c20b7",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/pedro-vita.md",
+    "file_hash": "sha256:29ec0e885f54164f1b8726d88d43f0da478b79bc1dafd1c6030b094ab69c20b7",
+    "file_modified": "2026-07-06T15:03:07.585250+00:00",
+    "file_size": 2346,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Pedro Vita",
+    "empresa": "Federación Panameña de Fútbol (FEPAFUT)",
+    "cargo": "Gerente de Comunicación Interna e Imagen Institucional  en Federación Panameña de Fútbol (FEPAFUT)",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Pedro, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión hace poco sobre la clasificación al Mundial. Lo que más me gustó fue que le dieras todo el crédito al equipo de prensa que armaron para cada partido. No es lo que la mayoría destaca cuando anuncia un logro de esa magnitud.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de hace 2 semanas sobre la clasificación de Panamá al Mundial 2026. En lugar de anunciar logro deportivo, Pedro enfatiza el trabajo colectivo detrás del hito (\"No fue casualidad\"), agradece específicamente al equipo de prensa que armó, reconoce colaboración de medios externos y reflexiona sobre resiliencia personal. Revela creencia: credibilidad institucional nace de orquestación humana, no de resultados aislados.",
+    "hipotesis": "Cómo escalar la ejecución de comunicación institucional sin que toda la credibilidad dependa de una sola persona o equipo reducido. Cómo mantener consistencia narrativa cuando los eventos son simultáneos y en geografías distintas. Cómo documentar y comunicar el trabajo detrás de la escena (que es lo que genera confianza real).",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Pedro Vita]\n[EMPRESA: Federación Panameña de Fútbol (FEPAFUT)]\n[CARGO: Gerente de Comunicación Interna e Imagen Institucional  en Federación Panameña de Fútbol (FEPAFUT)]\n[SECTOR: Deporte / Federación (paralelo: Comunicación Institucional)]\n[PAIS: Panamá]\n[SENAL: Publicación de hace 2 semanas sobre la clasificación de Panamá al Mundial 2026. En lugar de anunciar logro deportivo, Pedro enfatiza el trabajo colectivo detrás del hito (\"No fue casualidad\"), agradece específicamente al equipo de prensa que armó, reconoce colaboración de medios externos y reflexiona sobre resiliencia personal. Revela creencia: credibilidad institucional nace de orquestación humana, no de resultados aislados.]\n[HIPOTESIS: Cómo escalar la ejecución de comunicación institucional sin que toda la credibilidad dependa de una sola persona o equipo reducido. Cómo mantener consistencia narrativa cuando los eventos son simultáneos y en geografías distintas. Cómo documentar y comunicar el trabajo detrás de la escena (que es lo que genera confianza real).]\n\n[MSG1]\nPedro, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión hace poco sobre la clasificación al Mundial. Lo que más me gustó fue que le dieras todo el crédito al equipo de prensa que armaron para cada partido. No es lo que la mayoría destaca cuando anuncia un logro de esa magnitud.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Pedro Vita\n\n**Fecha:** 06/07/26\n**Cargo:** Gerente de Comunicación Interna e Imagen Institucional  en Federación Panameña de Fútbol (FEPAFUT)\n**Empresa:** Federación Panameña de Fútbol (FEPAFUT)\n**Pais:** Panamá\n**Sector:** Deporte / Federación (paralelo: Comunicación Institucional)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de hace 2 semanas sobre la clasificación de Panamá al Mundial 2026. En lugar de anunciar logro deportivo, Pedro enfatiza el trabajo colectivo detrás del hito (\"No fue casualidad\"), agradece específicamente al equipo de prensa que armó, reconoce colaboración de medios externos y reflexiona sobre resiliencia personal. Revela creencia: credibilidad institucional nace de orquestación humana, no de resultados aislados.\n- **Tensión profesional:** Mantener credibilidad de imagen institucional mientras coordina múltiples narrativas simultáneas (éxitos deportivos, desarrollo de categorías menores, fútbol femenino, responsabilidad con menores, relaciones con medios internacionales) sin que la institución quede expuesta si algo falla en cualquiera de estos frentes.\n- **Hipótesis:** Cómo escalar la ejecución de comunicación institucional sin que toda la credibilidad dependa de una sola persona o equipo reducido. Cómo mantener consistencia narrativa cuando los eventos son simultáneos y en geografías distintas. Cómo documentar y comunicar el trabajo detrás de la escena (que es lo que genera confianza real).\n- **Ángulo MSG1:** Publicación reciente sobre Mundial 2026 + reflexión sobre equipo de prensa. Pedro revela que entiende que el logro deportivo es solo la mitad; la otra mitad es \"todo lo que la FPF trabajó\" detrás, lo cual no es siempre visible. Eso es una tensión: resultados visibles vs. trabajo invisible de comunicación que los sostiene.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Pedro, gracias por conectar! 👋\n>\n> Me llamó la atención tu reflexión hace poco sobre la clasificación al Mundial. Lo que más me gustó fue que le dieras todo el crédito al equipo de prensa que armaron para cada partido. No es lo que la mayoría destaca cuando anuncia un logro de esa magnitud.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

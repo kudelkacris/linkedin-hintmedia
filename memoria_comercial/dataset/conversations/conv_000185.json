@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000185",
+  "contact_id": "ctc_000276",
+  "source_file": "conversaciones/junio/jose-molina-dataformas.md",
+  "fingerprint": "sha256:65a830e06d3667d0fc72d592010b6e6b6a16bd0396958583f97675c633687831",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-molina-dataformas.md",
+    "file_hash": "sha256:65a830e06d3667d0fc72d592010b6e6b6a16bd0396958583f97675c633687831",
+    "file_modified": "2026-06-15T20:00:14.185547+00:00",
+    "file_size": 1925,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "José Molina",
+    "empresa": "Dataformas de Costa Rica (distribuidor: Frigidaire, Targus, ViewSonic, Huawei, TP-Link, Russell Hobbs, Black&Decker)",
+    "cargo": "Director Comercial, Dataformas de Costa Rica",
+    "pais": "Costa Rica (Heredia)",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Respuesta muy elaborada y profesional — alto potencial\n- 20+ años en consumo masivo, retail, trade marketing (Coca-Cola, Walmart, etc.)\n- Director Comercial desde ene 2026 (posición nueva en Dataformas)\n- Reclutó Líder de Trademarketing — equipo en construcción\n- Dataformas: distribuidora/mayorista de electrónica y electrodomésticos\n- Participa en Expowalmart, Banking Summit"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: José Molina]\n[EMPRESA: Dataformas de Costa Rica (distribuidor: Frigidaire, Targus, ViewSonic, Huawei, TP-Link, Russell Hobbs, Black&Decker)]\n[CARGO: Director Comercial, Dataformas de Costa Rica]\n[PAIS: Costa Rica (Heredia)]\n\n[NOTAS]\n- Respuesta muy elaborada y profesional — alto potencial\n- 20+ años en consumo masivo, retail, trade marketing (Coca-Cola, Walmart, etc.)\n- Director Comercial desde ene 2026 (posición nueva en Dataformas)\n- Reclutó Líder de Trademarketing — equipo en construcción\n- Dataformas: distribuidora/mayorista de electrónica y electrodomésticos\n- Participa en Expowalmart, Banking Summit",
+    "raw_md": "# José Molina\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Director Comercial, Dataformas de Costa Rica\n**País:** Costa Rica (Heredia)\n**Empresa:** Dataformas de Costa Rica (distribuidor: Frigidaire, Targus, ViewSonic, Huawei, TP-Link, Russell Hobbs, Black&Decker)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:36):**\nCitó la creación de conceptos Mundo Celebración y Mundo Desayuno con crecimientos de doble dígito.\n\n**Respuesta José (sábado 11:37):**\n\"Hola Florencia, un gusto saludarla. Efectivamente, el reto no estuvo únicamente en desarrollar los conceptos, sino en convertirlos en plataformas comerciales sostenibles. El crecimiento de doble dígito fue el resultado de alinear estrategia, ejecución en punto de venta, contenido, comunicación y una lectura constante del mercado para ajustar la propuesta de valor según las necesidades del consumidor. Sin duda, una experiencia muy enriquecedora a nivel comercial.\"\n\n**MSG2 (redactado):**\n> José, gracias por responder.\n>\n> Eso que describís, alinear estrategia con contenido, comunicación y ejecución en punto de venta al mismo tiempo, es donde el marketing externo tiene que poder entrar sin generar fricción.\n>\n> En Hint trabajamos con empresas de consumo masivo y distribución en estrategia de contenido y comunicación de marca que sostiene la ejecución comercial sin que el equipo interno tenga que cargarlo todo.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Respuesta muy elaborada y profesional — alto potencial\n- 20+ años en consumo masivo, retail, trade marketing (Coca-Cola, Walmart, etc.)\n- Director Comercial desde ene 2026 (posición nueva en Dataformas)\n- Reclutó Líder de Trademarketing — equipo en construcción\n- Dataformas: distribuidora/mayorista de electrónica y electrodomésticos\n- Participa en Expowalmart, Banking Summit\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000014",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Acelis Tunon Singh",
+  "empresa": "Grupo VerdeAzul",
+  "cargo": "High-Value Marketing | Digital Strategy",
+  "pais": "Panama",
+  "sector_raw": "Real Estate / Hospitality",
+  "stage": 2,
+  "stage_texto": "MSG2 enviado",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "FARMACEUTICO_SALUD",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000001",
+  "historial_slug": "acelis-tunon-singh"
+}

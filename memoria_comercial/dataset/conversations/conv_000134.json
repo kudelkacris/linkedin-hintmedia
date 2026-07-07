@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000134",
+  "contact_id": "ctc_000170",
+  "source_file": "conversaciones/junio/catalina-torres-black.md",
+  "fingerprint": "sha256:66fae2d0e203d96bfa4edaffdc53e2d36657bdcdac1f3c28fc8e993754c20b3c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/catalina-torres-black.md",
+    "file_hash": "sha256:66fae2d0e203d96bfa4edaffdc53e2d36657bdcdac1f3c28fc8e993754c20b3c",
+    "file_modified": "2026-06-23T16:32:52.804087+00:00",
+    "file_size": 1122,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Catalina Torres Black",
+    "empresa": "Fischer y Cía. (estudio legal/tributario)",
+    "cargo": "Directora de Marketing y Comunicaciones",
+    "pais": "Chile",
+    "fecha": "",
+    "estado_texto": "CERRADA. Respondió 23/06/26: \"No usamos agencia, mil gracias!\". Se cerró cordialmente."
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Catalina Torres Black]\n[EMPRESA: Fischer y Cía. (estudio legal/tributario)]\n[CARGO: Directora de Marketing y Comunicaciones]\n[PAIS: Chile]",
+    "raw_md": "---\nname: catalina-torres-black\ndescription: MSG2 enviado, Directora Marketing y Comunicaciones Fischer y Cia estudio legal Chile, 22/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Catalina Torres Black\n**Cargo:** Directora de Marketing y Comunicaciones\n**Empresa:** Fischer y Cía. (estudio legal/tributario)\n**País:** Chile\n\n**Resumen de conversación:**\n- MSG1: Florencia observó que compartió una reflexión de Cristián Barra sobre voluntad y raíz interior, fuera de lo usual en espacios de marketing corporativo.\n- Respondió: \"Hola Florencia, gracias a ti. Cuéntame!\"\n- MSG2 enviado: conecta esa búsqueda de algo más humano con el desafío de comunicar autoridad técnica (columnas tributarias/legales) sin perder ese lado humano. Mención clientes Destiny Group y Libra Seguros (consultoría).\n\n**Notas:**\n- 8+ años en Fischer y Cía, maneja medios, RSE, RR.HH, relacionamiento con grupos de interés.\n- Contenido de la firma es muy técnico/regulatorio (reforma tributaria, DDJJ, firma electrónica).\n\n**Estado:** CERRADA. Respondió 23/06/26: \"No usamos agencia, mil gracias!\". Se cerró cordialmente.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

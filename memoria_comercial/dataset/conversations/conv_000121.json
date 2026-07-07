@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000121",
+  "contact_id": "ctc_000134",
+  "source_file": "conversaciones/junio/camila-cantelmi.md",
+  "fingerprint": "sha256:8094b6f453f641cd8a3ebe11688de8c96e738a9c0bbe99af90df595a48a22230",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/camila-cantelmi.md",
+    "file_hash": "sha256:8094b6f453f641cd8a3ebe11688de8c96e738a9c0bbe99af90df595a48a22230",
+    "file_modified": "2026-06-20T17:00:04.178305+00:00",
+    "file_size": 1440,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Camila Cantelmi",
+    "empresa": "Novartis Argentina",
+    "cargo": "Cardiovascular Marketing Lead",
+    "pais": "Argentina",
+    "fecha": "20/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por conectar! 👋\nMe llamó la atención la publicación que hiciste sobre la Maestría. Específicamente cuando decís que la transformación digital es humana, estratégica y creativa, no solo tecnología. Eso no es lo que la mayoría dice cuando empieza un postgrado de esa índole.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia!! Si, decime",
+    "msg2_texto": "Buenas Camila!\nEsa idea de que la transformación digital es humana y estratégica, no solo tecnológica, se nota en tu rol. Coordinás campañas digitales con agencias y lanzamientos de marca a la vez, ahí la coherencia entre estrategia y ejecución es justo lo que más cuesta sostener.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con empresas del sector salud y farma en proyectos de contenido y comunicación. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "decime"
+    ],
+    "notas": "- Sector farmacéutico/salud (Novartis, cardiovascular). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Cursando Maestría en Negocios Digitales (UdeSA); coordina campañas digitales con agencias y lanzamientos de marca.\n\nEstado: MSG2 enviado, esperando respuesta"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Camila Cantelmi]\n[EMPRESA: Novartis Argentina]\n[CARGO: Cardiovascular Marketing Lead]\n[PAIS: Argentina]\n\n[MSG1]\nFlorencia, gracias por conectar! 👋\nMe llamó la atención la publicación que hiciste sobre la Maestría. Específicamente cuando decís que la transformación digital es humana, estratégica y creativa, no solo tecnología. Eso no es lo que la mayoría dice cuando empieza un postgrado de esa índole.\n\n[RESPUESTA_MSG1]\nHola Florencia!! Si, decime\n\n[MSG2]\nBuenas Camila!\nEsa idea de que la transformación digital es humana y estratégica, no solo tecnológica, se nota en tu rol. Coordinás campañas digitales con agencias y lanzamientos de marca a la vez, ahí la coherencia entre estrategia y ejecución es justo lo que más cuesta sostener.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con empresas del sector salud y farma en proyectos de contenido y comunicación. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector farmacéutico/salud (Novartis, cardiovascular). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Cursando Maestría en Negocios Digitales (UdeSA); coordina campañas digitales con agencias y lanzamientos de marca.\n\nEstado: MSG2 enviado, esperando respuesta",
+    "raw_md": "# Camila Cantelmi\n\n**Estado:** MSG2 enviado\n**Fecha:** 20/06/26\n**Cargo:** Cardiovascular Marketing Lead\n**Empresa:** Novartis Argentina\n**País:** Argentina\n\n## MSG1\n> Florencia, gracias por conectar! 👋\n> Me llamó la atención la publicación que hiciste sobre la Maestría. Específicamente cuando decís que la transformación digital es humana, estratégica y creativa, no solo tecnología. Eso no es lo que la mayoría dice cuando empieza un postgrado de esa índole.\n\n## Respuesta MSG1\n> Hola Florencia!! Si, decime\n\n## MSG2\n> Buenas Camila!\n> Esa idea de que la transformación digital es humana y estratégica, no solo tecnológica, se nota en tu rol. Coordinás campañas digitales con agencias y lanzamientos de marca a la vez, ahí la coherencia entre estrategia y ejecución es justo lo que más cuesta sostener.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con empresas del sector salud y farma en proyectos de contenido y comunicación. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector farmacéutico/salud (Novartis, cardiovascular). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Cursando Maestría en Negocios Digitales (UdeSA); coordina campañas digitales con agencias y lanzamientos de marca.\n\n**Estado:** MSG2 enviado, esperando respuesta\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000168",
+  "contact_id": "ctc_000181",
+  "source_file": "conversaciones/junio/greg-barton.md",
+  "fingerprint": "sha256:8050be07170c14b771f9052f2d86c47f82f22dd987d6fb135b6f8cb445bd24b7",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/greg-barton.md",
+    "file_hash": "sha256:8050be07170c14b771f9052f2d86c47f82f22dd987d6fb135b6f8cb445bd24b7",
+    "file_modified": "2026-06-23T21:47:01.565324+00:00",
+    "file_size": 2030,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Greg Barton",
+    "empresa": "Independiente / Pilgrimslatam.com",
+    "cargo": "Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)",
+    "pais": "Chile (Santiago)",
+    "fecha": "18/06/26",
+    "estado_texto": "Dossier confirmado, SEG1 enviado 23/06/26 (engagement MEDIUM, ángulo alianza con Pilgrims LatAm)"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Greg, gracias por conectar! Me llamó la atención cómo narraste Exponor. No hablaste de los deals o los contactos que cerraste. Lo que te quedó fue lo humano, los escolares con gorras naranjas, la visita a SQM \"que pone todo en perspectiva\". Eso dice mucho de cómo pensás el mercado.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "hola Florencia... siempre estoy buscando hacer negocios pero esta vez no fui como BNamericas..!!!.pero con mi emprendimiento nuevo pilgrimslatam.com. y estaba networking mas que nada,... pero como te pdo ayudar?",
+    "msg2_texto": "Buenas Greg, gracias por la data!\n\nLo de pasar de BNamericas a lanzar Pilgrims LatAm por cuenta propia, mientras seguís haciendo BD para empresas que entran a la región, son dos frentes corriendo en paralelo. Sostener presencia y contenido en ambos al mismo tiempo no es poca cosa.\n\nEn Hint Media trabajamos comunicación y contenido para empresas y consultoras en expansión regional, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Greg, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de Pilgrims LATAM enfocado en entender el ecosistema antes que cerrar negocio rápido, eso encaja bien con cómo trabajamos nosotros en minería y energía. Si te parece, coordinamos 15 minutos y vemos si hay terreno real para esa alianza entre tu emprendimiento y lo que hacemos con TGS y compañía.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "siempre",
+      "estoy",
+      "buscando",
+      "hacer",
+      "negocios",
+      "esta",
+      "bnamericas",
+      "emprendimiento",
+      "nuevo"
+    ],
+    "notas": "- Antes trabajaba en BNamericas, ahora lanzó proyecto propio Pilgrims LatAm.\n- Sector consultoría/BD → Destiny Group y Libra Seguros."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Greg Barton]\n[EMPRESA: Independiente / Pilgrimslatam.com]\n[CARGO: Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)]\n[SECTOR: Consultoría / BD]\n[PAIS: Chile (Santiago)]\n\n[MSG1]\nGreg, gracias por conectar! Me llamó la atención cómo narraste Exponor. No hablaste de los deals o los contactos que cerraste. Lo que te quedó fue lo humano, los escolares con gorras naranjas, la visita a SQM \"que pone todo en perspectiva\". Eso dice mucho de cómo pensás el mercado.\n\n[RESPUESTA_MSG1]\nhola Florencia... siempre estoy buscando hacer negocios pero esta vez no fui como BNamericas..!!!.pero con mi emprendimiento nuevo pilgrimslatam.com. y estaba networking mas que nada,... pero como te pdo ayudar?\n\n[MSG2]\nBuenas Greg, gracias por la data!\n\nLo de pasar de BNamericas a lanzar Pilgrims LatAm por cuenta propia, mientras seguís haciendo BD para empresas que entran a la región, son dos frentes corriendo en paralelo. Sostener presencia y contenido en ambos al mismo tiempo no es poca cosa.\n\nEn Hint Media trabajamos comunicación y contenido para empresas y consultoras en expansión regional, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[SEG1]\nGreg, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de Pilgrims LATAM enfocado en entender el ecosistema antes que cerrar negocio rápido, eso encaja bien con cómo trabajamos nosotros en minería y energía. Si te parece, coordinamos 15 minutos y vemos si hay terreno real para esa alianza entre tu emprendimiento y lo que hacemos con TGS y compañía.\n\n[NOTAS]\n- Antes trabajaba en BNamericas, ahora lanzó proyecto propio Pilgrims LatAm.\n- Sector consultoría/BD → Destiny Group y Libra Seguros.",
+    "raw_md": "# Greg Barton\n\n**Estado:** Dossier confirmado, SEG1 enviado 23/06/26 (engagement MEDIUM, ángulo alianza con Pilgrims LatAm)\n**Fecha:** 18/06/26\n**Cargo:** Strategic market entry & BD para empresas que expanden a LatAm + fundador Pilgrims LatAm (nuevo emprendimiento)\n**Empresa:** Independiente / Pilgrimslatam.com\n**País:** Chile (Santiago)\n**Sector:** Consultoría / BD\n\n## MSG1\n> Greg, gracias por conectar! Me llamó la atención cómo narraste Exponor. No hablaste de los deals o los contactos que cerraste. Lo que te quedó fue lo humano, los escolares con gorras naranjas, la visita a SQM \"que pone todo en perspectiva\". Eso dice mucho de cómo pensás el mercado.\n\n## Respuesta MSG1\n> hola Florencia... siempre estoy buscando hacer negocios pero esta vez no fui como BNamericas..!!!.pero con mi emprendimiento nuevo pilgrimslatam.com. y estaba networking mas que nada,... pero como te pdo ayudar?\n\n## MSG2\n> Buenas Greg, gracias por la data!\n>\n> Lo de pasar de BNamericas a lanzar Pilgrims LatAm por cuenta propia, mientras seguís haciendo BD para empresas que entran a la región, son dos frentes corriendo en paralelo. Sostener presencia y contenido en ambos al mismo tiempo no es poca cosa.\n>\n> En Hint Media trabajamos comunicación y contenido para empresas y consultoras en expansión regional, como Destiny Group y Libra Seguros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## SEG1 (enviado 23/06/26)\n> Greg, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de Pilgrims LATAM enfocado en entender el ecosistema antes que cerrar negocio rápido, eso encaja bien con cómo trabajamos nosotros en minería y energía. Si te parece, coordinamos 15 minutos y vemos si hay terreno real para esa alianza entre tu emprendimiento y lo que hacemos con TGS y compañía.\n\n## Notas\n- Antes trabajaba en BNamericas, ahora lanzó proyecto propio Pilgrims LatAm.\n- Sector consultoría/BD → Destiny Group y Libra Seguros.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000228",
+  "contact_id": "ctc_000428",
+  "source_file": "conversaciones/junio/mariano-rodriguez.md",
+  "fingerprint": "sha256:a33087ffd8c46ee885a5d06e113e1b62acea0608d05fe20ee16a0ef7fe418a70",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/mariano-rodriguez.md",
+    "file_hash": "sha256:a33087ffd8c46ee885a5d06e113e1b62acea0608d05fe20ee16a0ef7fe418a70",
+    "file_modified": "2026-06-11T21:43:41.274468+00:00",
+    "file_size": 2087,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Mariano Rodriguez",
+    "empresa": "Tienda de Empanadas",
+    "cargo": "Supervisor y Responsable de Comunicación (sept 2025, 10 meses)",
+    "pais": "Argentina (Buenos Aires)",
+    "fecha": "12/06/26",
+    "estado_texto": "MSG2 enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Mariano, gracias por conectar! 👋\n\nSos locutor y coordinador del servicio informativo en CNN Radio Argentina — referencia en radio con 30 años de trayectoria. Además, coordinás la comunicación corporativa en Tienda de Empanadas. El homenaje que escribiste a Marita Monteleone muestra el peso que tenés en la industria.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Florencia, buen día... Un gusto estar en contacto! Decime que dudas tenes a ver si te puedo ayudar. Buena jornadaaaa",
+    "msg2_texto": "Hola Mariano, buenas!\n\nLo que me quedó fue eso que escribiste: \"no hace prensa, hace comunicación. No se fija en el medio, elige al público.\" Es exactamente la diferencia que hace alguien que viene de 30 años de radio y lleva eso a una franquicia en expansión. El criterio de oficio que tiene Tienda de Empanadas gracias a vos no es algo que se consigue fácil.\n\nDesde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar con dirección y sin perder identidad. Hemos trabajado con TGS, Libra Seguros y otros con presencia en Argentina.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "buen",
+      "gusto",
+      "estar",
+      "contacto",
+      "decime",
+      "dudas",
+      "tenes",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Tono muy cálido, argentino, emotivo. Escribe desde el oficio con el alma.\n- Post clave: reflexión sobre \"qué es un comunicador\" — no hace prensa, hace comunicación.\n- Homenaje emotivo a Marita Monteleone (colega fallecida).\n- MSG2 con RAPPORT: arrancó citando sus propias palabras del post (ver feedback-rapport-msg2).\n- Franquicia Tienda de Empanadas en expansión — apertura en Rosario reciente."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mariano Rodriguez]\n[EMPRESA: Tienda de Empanadas]\n[CARGO: Supervisor y Responsable de Comunicación (sept 2025, 10 meses)]\n[SECTOR: Gastronomía / Comunicación corporativa]\n[PAIS: Argentina (Buenos Aires)]\n\n[MSG1]\nMariano, gracias por conectar! 👋\n\nSos locutor y coordinador del servicio informativo en CNN Radio Argentina — referencia en radio con 30 años de trayectoria. Además, coordinás la comunicación corporativa en Tienda de Empanadas. El homenaje que escribiste a Marita Monteleone muestra el peso que tenés en la industria.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nFlorencia, buen día... Un gusto estar en contacto! Decime que dudas tenes a ver si te puedo ayudar. Buena jornadaaaa\n\n[MSG2]\nHola Mariano, buenas!\n\nLo que me quedó fue eso que escribiste: \"no hace prensa, hace comunicación. No se fija en el medio, elige al público.\" Es exactamente la diferencia que hace alguien que viene de 30 años de radio y lleva eso a una franquicia en expansión. El criterio de oficio que tiene Tienda de Empanadas gracias a vos no es algo que se consigue fácil.\n\nDesde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar con dirección y sin perder identidad. Hemos trabajado con TGS, Libra Seguros y otros con presencia en Argentina.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Tono muy cálido, argentino, emotivo. Escribe desde el oficio con el alma.\n- Post clave: reflexión sobre \"qué es un comunicador\" — no hace prensa, hace comunicación.\n- Homenaje emotivo a Marita Monteleone (colega fallecida).\n- MSG2 con RAPPORT: arrancó citando sus propias palabras del post (ver feedback-rapport-msg2).\n- Franquicia Tienda de Empanadas en expansión — apertura en Rosario reciente.",
+    "raw_md": "# Mariano Rodriguez\n**Fecha:** 12/06/26\n**Empresa:** Tienda de Empanadas\n**Cargo:** Supervisor y Responsable de Comunicación (sept 2025, 10 meses)\n**Otro rol:** Locutor y Coordinador CNN Radio Argentina (4.5 años, hasta sept 2025)\n**País:** Argentina (Buenos Aires)\n**Sector:** Gastronomía / Comunicación corporativa\n**Estado:** MSG2 enviado, esperando respuesta\n\n---\n\n## MSG1\n> Mariano, gracias por conectar! 👋\n>\n> Sos locutor y coordinador del servicio informativo en CNN Radio Argentina — referencia en radio con 30 años de trayectoria. Además, coordinás la comunicación corporativa en Tienda de Empanadas. El homenaje que escribiste a Marita Monteleone muestra el peso que tenés en la industria.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Florencia, buen día... Un gusto estar en contacto! Decime que dudas tenes a ver si te puedo ayudar. Buena jornadaaaa\n\n## MSG2 (con técnica de rapport)\n> Hola Mariano, buenas!\n>\n> Lo que me quedó fue eso que escribiste: \"no hace prensa, hace comunicación. No se fija en el medio, elige al público.\" Es exactamente la diferencia que hace alguien que viene de 30 años de radio y lleva eso a una franquicia en expansión. El criterio de oficio que tiene Tienda de Empanadas gracias a vos no es algo que se consigue fácil.\n>\n> Desde Hint Media trabajamos con empresas que tienen esa misma exigencia — comunicar con dirección y sin perder identidad. Hemos trabajado con TGS, Libra Seguros y otros con presencia en Argentina.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Tono muy cálido, argentino, emotivo. Escribe desde el oficio con el alma.\n- Post clave: reflexión sobre \"qué es un comunicador\" — no hace prensa, hace comunicación.\n- Homenaje emotivo a Marita Monteleone (colega fallecida).\n- MSG2 con RAPPORT: arrancó citando sus propias palabras del post (ver feedback-rapport-msg2).\n- Franquicia Tienda de Empanadas en expansión — apertura en Rosario reciente.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

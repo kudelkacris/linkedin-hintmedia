@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000209",
+  "contact_id": "ctc_000449",
+  "source_file": "conversaciones/junio/lucas-marchesini.md",
+  "fingerprint": "sha256:74961296f1c0a4c11784674cc1d4b7125bd7eb99da843e7ebc306a210f46cc00",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/lucas-marchesini.md",
+    "file_hash": "sha256:74961296f1c0a4c11784674cc1d4b7125bd7eb99da843e7ebc306a210f46cc00",
+    "file_modified": "2026-06-19T15:30:49.448699+00:00",
+    "file_size": 1585,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Lucas Marchesini",
+    "empresa": "Fundación Favaloro",
+    "cargo": "Analista de Comunicación",
+    "pais": "Argentina",
+    "fecha": "08/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Lucas, gracias por conectar! Vi que sos Analista de Comunicación en Fundación Favaloro. Desde enero estás piloteando análisis con Power BI y SAP para optimizar decisiones de fundraising.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, ¿cómo estás? Sisi, comentame",
+    "msg2_texto": "Veo que tenés herramientas y datos sólidos, pero eso requiere un equipo atrás. Nosotros metemos el equipo completo dentro de tu estructura, menos burocracia, más velocidad, cuesta menos que contratar full-time. TGS y Transener lo hacen así. Tenemos un dossier que lo explica.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"Dale, mandame a mi Mail y lo analizo en la semana! lmarchesini@ffavaloro.org\"",
+    "seg1_enviado": true,
+    "seg1_texto": "Lucas, cómo estás? No sé si llegaste a verlo en la semana.\nMe quedé pensando en eso de pilotear Power BI y SAP para fundraising, ese tipo de análisis rinde el doble cuando hay un equipo de comunicación que pueda traducirlo en contenido y campañas al mismo ritmo.\nTe parece si coordinamos 15 minutos y vemos cómo encajaría con lo que están armando en Favaloro?",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "estas",
+      "sisi",
+      "comentame",
+      "dale",
+      "mandame",
+      "mail",
+      "analizo",
+      "semana",
+      "lmarchesini",
+      "ffavaloro"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Lucas Marchesini]\n[EMPRESA: Fundación Favaloro]\n[CARGO: Analista de Comunicación]\n[PAIS: Argentina]\n\n[MSG1]\nLucas, gracias por conectar! Vi que sos Analista de Comunicación en Fundación Favaloro. Desde enero estás piloteando análisis con Power BI y SAP para optimizar decisiones de fundraising.\n\n[RESPUESTA_MSG1]\nHola, ¿cómo estás? Sisi, comentame\n\n[MSG2]\nVeo que tenés herramientas y datos sólidos, pero eso requiere un equipo atrás. Nosotros metemos el equipo completo dentro de tu estructura, menos burocracia, más velocidad, cuesta menos que contratar full-time. TGS y Transener lo hacen así. Tenemos un dossier que lo explica.\n\n[RESPUESTA_MSG2]\n\"Dale, mandame a mi Mail y lo analizo en la semana! lmarchesini@ffavaloro.org\"\n\n[SEG1]\nLucas, cómo estás? No sé si llegaste a verlo en la semana.\nMe quedé pensando en eso de pilotear Power BI y SAP para fundraising, ese tipo de análisis rinde el doble cuando hay un equipo de comunicación que pueda traducirlo en contenido y campañas al mismo ritmo.\nTe parece si coordinamos 15 minutos y vemos cómo encajaría con lo que están armando en Favaloro?",
+    "raw_md": "---\nname: lucas-marchesini\ndescription: SEG1 enviado (HIGH), Analista de Comunicación Fundación Favaloro Argentina, 08/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Lucas Marchesini\n**Cargo:** Analista de Comunicación\n**Empresa:** Fundación Favaloro\n**País:** Argentina\n**Fecha:** 08/06/26\n\n## MSG1\n> Lucas, gracias por conectar! Vi que sos Analista de Comunicación en Fundación Favaloro. Desde enero estás piloteando análisis con Power BI y SAP para optimizar decisiones de fundraising.\n\n## Respuesta MSG1\n> Hola, ¿cómo estás? Sisi, comentame\n\n## MSG2\n> Veo que tenés herramientas y datos sólidos, pero eso requiere un equipo atrás. Nosotros metemos el equipo completo dentro de tu estructura, menos burocracia, más velocidad, cuesta menos que contratar full-time. TGS y Transener lo hacen así. Tenemos un dossier que lo explica.\n\n## Respuesta MSG2\n> \"Dale, mandame a mi Mail y lo analizo en la semana! lmarchesini@ffavaloro.org\"\n\n## Cierre\n> Buenísimo! Ya te lo envío, estamos en contacto. Buena semana 👏\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: HIGH — respuesta en 1 minuto, dio el mail sin que se lo pidan dos veces, tono informal y proactivo)\n> Lucas, cómo estás? No sé si llegaste a verlo en la semana.\n> Me quedé pensando en eso de pilotear Power BI y SAP para fundraising, ese tipo de análisis rinde el doble cuando hay un equipo de comunicación que pueda traducirlo en contenido y campañas al mismo ritmo.\n> Te parece si coordinamos 15 minutos y vemos cómo encajaría con lo que están armando en Favaloro?\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

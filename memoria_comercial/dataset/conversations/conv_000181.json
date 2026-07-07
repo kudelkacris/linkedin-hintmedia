@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000181",
+  "contact_id": "ctc_000345",
+  "source_file": "conversaciones/junio/jose-alcazar-moya.md",
+  "fingerprint": "sha256:4d7f65cb224b0e1b9e097580acebe5b5d380f0095b2479ac53a052cff4ec482a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-alcazar-moya.md",
+    "file_hash": "sha256:4d7f65cb224b0e1b9e097580acebe5b5d380f0095b2479ac53a052cff4ec482a",
+    "file_modified": "2026-06-11T21:43:08.493228+00:00",
+    "file_size": 1801,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jose Alcazar Moya",
+    "empresa": "Grupo Cori Motors",
+    "cargo": "Jefe de Marca — Wuling y FOTON Costa Rica (oct 2025, 9 meses)",
+    "pais": "Costa Rica (Cartago)",
+    "fecha": "12/06/26",
+    "estado_texto": "MSG2 enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jose, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en Grupo Cori. Me llamó la atención que en 9 meses hayas pasado de Digital Content Specialist a Jefe de Marca de dos líneas (Wuling y FOTON). Eso es escala rápida y activaciones presenciales al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, claro como te puedo ayudar",
+    "msg2_texto": "Hola Jose, que bueno!\n\nLo que me quedó fue eso — salir de Expo Móvil como Jefe de Marca por primera vez, con dos líneas corriendo al mismo tiempo, ya da una medida del ritmo. Y de ahí para adelante el reto no es solo la activación puntual: es sostener digital, contenido y presencia para Wuling y FOTON en paralelo sin que uno canibalice al otro.\n\nDesde Hint Media trabajamos con marcas en esa exigencia — sumamos capacidad de ejecución en contenido, diseño y digital para que el equipo de marca no tenga que elegir a cuál de las dos líneas darle prioridad. Hemos trabajado con Destiny Group y Tasarolli, entre otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Trayectoria en Grupo Cori: Community Manager (1.5 años) → Digital Content Specialist (9 meses) → Jefe de Marca (9 meses).\n- Primera Expo Móvil como Jefe de Marca (hace 1 mes al momento de contacto).\n- Maneja DOS marcas chinas simultáneas: Wuling y FOTON.\n- Skills: SEM, SEO, BTL, neuromarketing, community management."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jose Alcazar Moya]\n[EMPRESA: Grupo Cori Motors]\n[CARGO: Jefe de Marca — Wuling y FOTON Costa Rica (oct 2025, 9 meses)]\n[SECTOR: Automotriz]\n[PAIS: Costa Rica (Cartago)]\n\n[MSG1]\nJose, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en Grupo Cori. Me llamó la atención que en 9 meses hayas pasado de Digital Content Specialist a Jefe de Marca de dos líneas (Wuling y FOTON). Eso es escala rápida y activaciones presenciales al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, claro como te puedo ayudar\n\n[MSG2]\nHola Jose, que bueno!\n\nLo que me quedó fue eso — salir de Expo Móvil como Jefe de Marca por primera vez, con dos líneas corriendo al mismo tiempo, ya da una medida del ritmo. Y de ahí para adelante el reto no es solo la activación puntual: es sostener digital, contenido y presencia para Wuling y FOTON en paralelo sin que uno canibalice al otro.\n\nDesde Hint Media trabajamos con marcas en esa exigencia — sumamos capacidad de ejecución en contenido, diseño y digital para que el equipo de marca no tenga que elegir a cuál de las dos líneas darle prioridad. Hemos trabajado con Destiny Group y Tasarolli, entre otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Trayectoria en Grupo Cori: Community Manager (1.5 años) → Digital Content Specialist (9 meses) → Jefe de Marca (9 meses).\n- Primera Expo Móvil como Jefe de Marca (hace 1 mes al momento de contacto).\n- Maneja DOS marcas chinas simultáneas: Wuling y FOTON.\n- Skills: SEM, SEO, BTL, neuromarketing, community management.",
+    "raw_md": "# Jose Alcazar Moya\n**Fecha:** 12/06/26\n**Empresa:** Grupo Cori Motors\n**Cargo:** Jefe de Marca — Wuling y FOTON Costa Rica (oct 2025, 9 meses)\n**País:** Costa Rica (Cartago)\n**Sector:** Automotriz\n**Estado:** MSG2 enviado, esperando respuesta\n\n---\n\n## MSG1\n> Jose, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que vienen haciendo en Grupo Cori. Me llamó la atención que en 9 meses hayas pasado de Digital Content Specialist a Jefe de Marca de dos líneas (Wuling y FOTON). Eso es escala rápida y activaciones presenciales al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, claro como te puedo ayudar\n\n## MSG2\n> Hola Jose, que bueno!\n>\n> Lo que me quedó fue eso — salir de Expo Móvil como Jefe de Marca por primera vez, con dos líneas corriendo al mismo tiempo, ya da una medida del ritmo. Y de ahí para adelante el reto no es solo la activación puntual: es sostener digital, contenido y presencia para Wuling y FOTON en paralelo sin que uno canibalice al otro.\n>\n> Desde Hint Media trabajamos con marcas en esa exigencia — sumamos capacidad de ejecución en contenido, diseño y digital para que el equipo de marca no tenga que elegir a cuál de las dos líneas darle prioridad. Hemos trabajado con Destiny Group y Tasarolli, entre otros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Trayectoria en Grupo Cori: Community Manager (1.5 años) → Digital Content Specialist (9 meses) → Jefe de Marca (9 meses).\n- Primera Expo Móvil como Jefe de Marca (hace 1 mes al momento de contacto).\n- Maneja DOS marcas chinas simultáneas: Wuling y FOTON.\n- Skills: SEM, SEO, BTL, neuromarketing, community management.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

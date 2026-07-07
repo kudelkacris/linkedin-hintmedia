@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000063",
+  "contact_id": "ctc_000047",
+  "source_file": "conversaciones/julio/lara-bussi.md",
+  "fingerprint": "sha256:f9fa3de079a11cf42300788edf3b0cd161139d9c05294c04afb460b339c00865",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/lara-bussi.md",
+    "file_hash": "sha256:f9fa3de079a11cf42300788edf3b0cd161139d9c05294c04afb460b339c00865",
+    "file_modified": "2026-07-06T14:54:17.539234+00:00",
+    "file_size": 2217,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Lara Bussi",
+    "empresa": "Dorben Group",
+    "cargo": "Marketing & CRM Manager | Alo Yoga, Carolina Herrera, Tory Burch, Tods, Michael Kors",
+    "pais": "Brasil",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Lara, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste el pasaje de e-commerce a marketing & CRM. Lo que más me gustó fue que le dieras crédito específico a Naiana, Islana y Marina, en vez de armar el típico post sobre \"mi nuevo desafío\". Dice bastante de cómo ves el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de 7 meses donde reflexiona sobre su trayectoria en e-commerce y describe la transición a Marketing & CRM. Explícitamente agradece a colaboradores específicos por nombre y menciona que \"dividir el día a día con parceiras tan especiales, deja todo ainda melhor\". Elige mostrar que el trabajo es colectivo, no individual. También publica constantemente sobre reclutamiento de su equipo (\"Tem vaca no meu time 🚀\").",
+    "hipotesis": "Cómo escalar ejecución sin que la coordinación entre marcas disperse recursos. Cómo construir un equipo que sostenga la estrategia omnichannel sin que todo sea \"mano en la masa\" de ella. Cómo comunicar internamente un cambio de rol (transición de e-commerce a estrategia) de forma que el equipo siga confiando en la dirección.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Lara Bussi]\n[EMPRESA: Dorben Group]\n[CARGO: Marketing & CRM Manager | Alo Yoga, Carolina Herrera, Tory Burch, Tods, Michael Kors]\n[SECTOR: Retail de lujo / Fashion & beauty / E-commerce]\n[PAIS: Brasil]\n[SENAL: Publicación de 7 meses donde reflexiona sobre su trayectoria en e-commerce y describe la transición a Marketing & CRM. Explícitamente agradece a colaboradores específicos por nombre y menciona que \"dividir el día a día con parceiras tan especiales, deja todo ainda melhor\". Elige mostrar que el trabajo es colectivo, no individual. También publica constantemente sobre reclutamiento de su equipo (\"Tem vaca no meu time 🚀\").]\n[HIPOTESIS: Cómo escalar ejecución sin que la coordinación entre marcas disperse recursos. Cómo construir un equipo que sostenga la estrategia omnichannel sin que todo sea \"mano en la masa\" de ella. Cómo comunicar internamente un cambio de rol (transición de e-commerce a estrategia) de forma que el equipo siga confiando en la dirección.]\n\n[MSG1]\nLara, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste el pasaje de e-commerce a marketing & CRM. Lo que más me gustó fue que le dieras crédito específico a Naiana, Islana y Marina, en vez de armar el típico post sobre \"mi nuevo desafío\". Dice bastante de cómo ves el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Lara Bussi\n\n**Fecha:** 06/07/26\n**Cargo:** Marketing & CRM Manager | Alo Yoga, Carolina Herrera, Tory Burch, Tods, Michael Kors\n**Empresa:** Dorben Group\n**Pais:** Brasil\n**Sector:** Retail de lujo / Fashion & beauty / E-commerce\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de 7 meses donde reflexiona sobre su trayectoria en e-commerce y describe la transición a Marketing & CRM. Explícitamente agradece a colaboradores específicos por nombre y menciona que \"dividir el día a día con parceiras tan especiales, deja todo ainda melhor\". Elige mostrar que el trabajo es colectivo, no individual. También publica constantemente sobre reclutamiento de su equipo (\"Tem vaca no meu time 🚀\").\n- **Tensión profesional:** Pasar de la gestión táctica y operativa de e-commerce (donde hay métricas claras: conversión, AOV, crecimiento de ventas) a la gestión estratégica de marketing & CRM (donde hay que coordinar múltiples marcas, alinear narrativa de marca con performance, mantener coherencia entre canales y equipos, sin que todo dependa de ella personalmente).\n- **Hipótesis:** Cómo escalar ejecución sin que la coordinación entre marcas disperse recursos. Cómo construir un equipo que sostenga la estrategia omnichannel sin que todo sea \"mano en la masa\" de ella. Cómo comunicar internamente un cambio de rol (transición de e-commerce a estrategia) de forma que el equipo siga confiando en la dirección.\n- **Ángulo MSG1:** La publicación de transición donde agradece al equipo y describe la escalada de e-commerce a marketing & CRM, mostrando cómo construyó credibilidad y ahora necesita amplificar esa ejecución sin perder el toque personal que la caracteriza.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Lara, gracias por conectar! 👋\n>\n> Me llamó la atención cómo describiste el pasaje de e-commerce a marketing & CRM. Lo que más me gustó fue que le dieras crédito específico a Naiana, Islana y Marina, en vez de armar el típico post sobre \"mi nuevo desafío\". Dice bastante de cómo ves el trabajo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "conversation_id": "conv_000212",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/junio/luis-rodriguez-top-brands.md",
+  "fingerprint": "sha256:50417623d60972e4360bbba4211736e69313004a8353e6d5702f44d040891081",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/luis-rodriguez-top-brands.md",
+    "file_hash": "sha256:50417623d60972e4360bbba4211736e69313004a8353e6d5702f44d040891081",
+    "file_modified": "2026-06-12T16:55:29.314749+00:00",
+    "file_size": 624,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Luis Rodríguez",
+    "empresa": "",
+    "cargo": "",
+    "pais": "Panamá",
+    "fecha": "12/06/26",
+    "estado_texto": "Cerrado — prospecto sin empresa activa"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Luis Rodríguez]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: luis-rodriguez-top-brands\ndescription: Cerrado — ya no está en Top Brands, Open to Work, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Luis Rodríguez\n**Empresa anterior:** Top Brands (Olaplex, Truss, Revlon, Morgan Taylor)\n**País:** Panamá\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que manejaba múltiples marcas de belleza simultáneamente\n- Respondió con su número de WhatsApp (+50760095974) y estaba #OPEN_TO_WORK\n- Informó: \"El tema es que ya no estoy en esa empresa.\"\n- Cierre cordial enviado\n\n**Estado:** Cerrado — prospecto sin empresa activa\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.25
+  }
+}

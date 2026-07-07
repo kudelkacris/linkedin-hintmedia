@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000097",
+  "contact_id": "ctc_000078",
+  "source_file": "conversaciones/julio/stefany-tamy-navarro.md",
+  "fingerprint": "sha256:a9c25f12305d52299eb1ef821446fb98cc850a844ad4a185b13e8e5e0f678805",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/stefany-tamy-navarro.md",
+    "file_hash": "sha256:a9c25f12305d52299eb1ef821446fb98cc850a844ad4a185b13e8e5e0f678805",
+    "file_modified": "2026-07-02T00:14:48.039242+00:00",
+    "file_size": 2425,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Stefany (Tamy) Navarro",
+    "empresa": "ALTAFONTE",
+    "cargo": "Directora de Marketing Cono Sur en ALTAFONTE | Liderazgo de equipos, Trabajo en equipo",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Stefany, gracias por conectar 👋\n\nMe quedó en la cabeza la publicación que compartiste hace poco sobre los 7 años en Altafonte. No es lo que la mayoría diría cuando celebra un aniversario. La mayoría pone números, premios, hitos. Vos pusiste \"las mejores ideas casi siempre nacen del trabajo en equipo\". Eso dice bastante de cómo ves el rol.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de 6 días sobre 7 años en ALTAFONTE — reflexión genuina sobre lo que aprendió (\"el marketing va mucho más allá de campañas y números. Se trata de construir historias, acompañar carreras...\"). Agradecimiento específico a 4 miembros del equipo por nombre. Reconocimiento a terceros en búsqueda laboral (compartió 3 perfiles, dio recomendación pública a José López). Tono emocional consistente: celebra logros del equipo antes que propios, valora la lealtad y el crecimiento conjunto.",
+    "hipotesis": "Conversación sobre cómo construir y sostener equipos de marketing en contextos multipaís / cómo mantener narrativa de marca consistente sin perder adaptabilidad local / desafío de pasar de ejecución operativa puntual a estrategia escalable / transición natural de Manager (lo que era hace 4 años) a Directora Regional — probablemente en fase de consolidar una estructura que no dependa solo de ella.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Stefany (Tamy) Navarro]\n[EMPRESA: ALTAFONTE]\n[CARGO: Directora de Marketing Cono Sur en ALTAFONTE | Liderazgo de equipos, Trabajo en equipo]\n[SECTOR: Música / Entretenimiento (industria discográfica)]\n[PAIS: Chile]\n[SENAL: Publicación de 6 días sobre 7 años en ALTAFONTE — reflexión genuina sobre lo que aprendió (\"el marketing va mucho más allá de campañas y números. Se trata de construir historias, acompañar carreras...\"). Agradecimiento específico a 4 miembros del equipo por nombre. Reconocimiento a terceros en búsqueda laboral (compartió 3 perfiles, dio recomendación pública a José López). Tono emocional consistente: celebra logros del equipo antes que propios, valora la lealtad y el crecimiento conjunto.]\n[HIPOTESIS: Conversación sobre cómo construir y sostener equipos de marketing en contextos multipaís / cómo mantener narrativa de marca consistente sin perder adaptabilidad local / desafío de pasar de ejecución operativa puntual a estrategia escalable / transición natural de Manager (lo que era hace 4 años) a Directora Regional — probablemente en fase de consolidar una estructura que no dependa solo de ella.]\n\n[MSG1]\nStefany, gracias por conectar 👋\n\nMe quedó en la cabeza la publicación que compartiste hace poco sobre los 7 años en Altafonte. No es lo que la mayoría diría cuando celebra un aniversario. La mayoría pone números, premios, hitos. Vos pusiste \"las mejores ideas casi siempre nacen del trabajo en equipo\". Eso dice bastante de cómo ves el rol.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Stefany (Tamy) Navarro\n\n**Fecha:** 01/07/26\n**Cargo:** Directora de Marketing Cono Sur en ALTAFONTE | Liderazgo de equipos, Trabajo en equipo\n**Empresa:** ALTAFONTE\n**Pais:** Chile\n**Sector:** Música / Entretenimiento (industria discográfica)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de 6 días sobre 7 años en ALTAFONTE — reflexión genuina sobre lo que aprendió (\"el marketing va mucho más allá de campañas y números. Se trata de construir historias, acompañar carreras...\"). Agradecimiento específico a 4 miembros del equipo por nombre. Reconocimiento a terceros en búsqueda laboral (compartió 3 perfiles, dio recomendación pública a José López). Tono emocional consistente: celebra logros del equipo antes que propios, valora la lealtad y el crecimiento conjunto.\n- **Tensión profesional:** Mantener consistencia de marca y narrativa en múltiples mercados con dinámicas completamente distintas / coordinar ejecución regional mientras cada país tiene sus propias realidades comerciales y culturales / escalar presencia sin depender únicamente de una sola persona (tensión implícita en cómo agradece al equipo \"por los incendios que apagamos juntos\").\n- **Hipótesis:** Conversación sobre cómo construir y sostener equipos de marketing en contextos multipaís / cómo mantener narrativa de marca consistente sin perder adaptabilidad local / desafío de pasar de ejecución operativa puntual a estrategia escalable / transición natural de Manager (lo que era hace 4 años) a Directora Regional — probablemente en fase de consolidar una estructura que no dependa solo de ella.\n- **Ángulo MSG1:** La publicación sobre 7 años en ALTAFONTE es la señal más clara — no es autopromoción, es reflexión sobre trabajo en equipo como valor central de su rol. Eso define cómo entiende el liderazgo y la ejecución.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Stefany, gracias por conectar 👋\n>\n> Me quedó en la cabeza la publicación que compartiste hace poco sobre los 7 años en Altafonte. No es lo que la mayoría diría cuando celebra un aniversario. La mayoría pone números, premios, hitos. Vos pusiste \"las mejores ideas casi siempre nacen del trabajo en equipo\". Eso dice bastante de cómo ves el rol.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

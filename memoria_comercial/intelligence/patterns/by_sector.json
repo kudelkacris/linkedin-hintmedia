@@ -1,0 +1,308 @@
+{
+  "ALIMENTACION": {
+    "total": 6,
+    "respondio_msg1": 4,
+    "dossier_enviado": 2,
+    "call_agendada": 0,
+    "response_rate": 0.6667,
+    "dossier_rate": 0.3333,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.5,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 4,
+      "SIN_RESPUESTA": 2,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "AMAZON_ECOMMERCE": {
+    "total": 2,
+    "respondio_msg1": 1,
+    "dossier_enviado": 1,
+    "call_agendada": 1,
+    "response_rate": 0.5,
+    "dossier_rate": 0.5,
+    "call_rate": 0.5,
+    "dossier_from_response": 1.0,
+    "call_from_dossier": 1.0,
+    "by_resultado": {
+      "EN_PROCESO": 0,
+      "SIN_RESPUESTA": 1,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 1
+    }
+  },
+  "BELLEZA_LUJO": {
+    "total": 6,
+    "respondio_msg1": 2,
+    "dossier_enviado": 2,
+    "call_agendada": 0,
+    "response_rate": 0.3333,
+    "dossier_rate": 0.3333,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.0,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 2,
+      "SIN_RESPUESTA": 4,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "CONSTRUCCION": {
+    "total": 10,
+    "respondio_msg1": 5,
+    "dossier_enviado": 6,
+    "call_agendada": 0,
+    "response_rate": 0.5,
+    "dossier_rate": 0.6,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.2,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 4,
+      "SIN_RESPUESTA": 3,
+      "CERRADO_SIN_INTERES": 3,
+      "REUNION": 0
+    }
+  },
+  "CONSULTORIA_TECH": {
+    "total": 56,
+    "respondio_msg1": 34,
+    "dossier_enviado": 25,
+    "call_agendada": 0,
+    "response_rate": 0.6071,
+    "dossier_rate": 0.4464,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.7353,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 40,
+      "SIN_RESPUESTA": 10,
+      "CERRADO_SIN_INTERES": 6,
+      "REUNION": 0
+    }
+  },
+  "DESCONOCIDO": {
+    "total": 25,
+    "respondio_msg1": 8,
+    "dossier_enviado": 11,
+    "call_agendada": 0,
+    "response_rate": 0.32,
+    "dossier_rate": 0.44,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.375,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 15,
+      "SIN_RESPUESTA": 5,
+      "CERRADO_SIN_INTERES": 5,
+      "REUNION": 0
+    }
+  },
+  "EDUCACION": {
+    "total": 11,
+    "respondio_msg1": 9,
+    "dossier_enviado": 4,
+    "call_agendada": 0,
+    "response_rate": 0.8182,
+    "dossier_rate": 0.3636,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.4444,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 7,
+      "SIN_RESPUESTA": 2,
+      "CERRADO_SIN_INTERES": 2,
+      "REUNION": 0
+    }
+  },
+  "ENERGIA_INFRA": {
+    "total": 29,
+    "respondio_msg1": 17,
+    "dossier_enviado": 17,
+    "call_agendada": 0,
+    "response_rate": 0.5862,
+    "dossier_rate": 0.5862,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.0,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 19,
+      "SIN_RESPUESTA": 8,
+      "CERRADO_SIN_INTERES": 2,
+      "REUNION": 0
+    }
+  },
+  "FARMACEUTICO_SALUD": {
+    "total": 24,
+    "respondio_msg1": 16,
+    "dossier_enviado": 14,
+    "call_agendada": 0,
+    "response_rate": 0.6667,
+    "dossier_rate": 0.5833,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.875,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 16,
+      "SIN_RESPUESTA": 4,
+      "CERRADO_SIN_INTERES": 4,
+      "REUNION": 0
+    }
+  },
+  "GOBIERNO": {
+    "total": 9,
+    "respondio_msg1": 6,
+    "dossier_enviado": 7,
+    "call_agendada": 0,
+    "response_rate": 0.6667,
+    "dossier_rate": 0.7778,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.1667,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 9,
+      "SIN_RESPUESTA": 0,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "LOGISTICA": {
+    "total": 9,
+    "respondio_msg1": 4,
+    "dossier_enviado": 2,
+    "call_agendada": 0,
+    "response_rate": 0.4444,
+    "dossier_rate": 0.2222,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.5,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 6,
+      "SIN_RESPUESTA": 3,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "MANUFACTURA": {
+    "total": 7,
+    "respondio_msg1": 4,
+    "dossier_enviado": 2,
+    "call_agendada": 1,
+    "response_rate": 0.5714,
+    "dossier_rate": 0.2857,
+    "call_rate": 0.1429,
+    "dossier_from_response": 0.5,
+    "call_from_dossier": 0.5,
+    "by_resultado": {
+      "EN_PROCESO": 4,
+      "SIN_RESPUESTA": 2,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 1
+    }
+  },
+  "MARKETING_BRANDING": {
+    "total": 33,
+    "respondio_msg1": 17,
+    "dossier_enviado": 14,
+    "call_agendada": 0,
+    "response_rate": 0.5152,
+    "dossier_rate": 0.4242,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.8235,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 27,
+      "SIN_RESPUESTA": 3,
+      "CERRADO_SIN_INTERES": 3,
+      "REUNION": 0
+    }
+  },
+  "MINERIA": {
+    "total": 8,
+    "respondio_msg1": 7,
+    "dossier_enviado": 6,
+    "call_agendada": 0,
+    "response_rate": 0.875,
+    "dossier_rate": 0.75,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.8571,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 8,
+      "SIN_RESPUESTA": 0,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "RETAIL_MODA": {
+    "total": 10,
+    "respondio_msg1": 7,
+    "dossier_enviado": 3,
+    "call_agendada": 0,
+    "response_rate": 0.7,
+    "dossier_rate": 0.3,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.4286,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 7,
+      "SIN_RESPUESTA": 3,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  },
+  "SEGUROS_FINANZAS": {
+    "total": 24,
+    "respondio_msg1": 12,
+    "dossier_enviado": 7,
+    "call_agendada": 0,
+    "response_rate": 0.5,
+    "dossier_rate": 0.2917,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.5833,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 12,
+      "SIN_RESPUESTA": 11,
+      "CERRADO_SIN_INTERES": 1,
+      "REUNION": 0
+    }
+  },
+  "TELECOMUNICACIONES": {
+    "total": 2,
+    "respondio_msg1": 2,
+    "dossier_enviado": 2,
+    "call_agendada": 0,
+    "response_rate": 1.0,
+    "dossier_rate": 1.0,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.0,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 1,
+      "SIN_RESPUESTA": 0,
+      "CERRADO_SIN_INTERES": 1,
+      "REUNION": 0
+    }
+  },
+  "TURISMO_EVENTOS": {
+    "total": 5,
+    "respondio_msg1": 2,
+    "dossier_enviado": 3,
+    "call_agendada": 0,
+    "response_rate": 0.4,
+    "dossier_rate": 0.6,
+    "call_rate": 0.0,
+    "dossier_from_response": 1.5,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 4,
+      "SIN_RESPUESTA": 1,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  }
+}

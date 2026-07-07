@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_000107",
+  "contact_id": "ctc_000282",
+  "source_file": "conversaciones/junio/ana-laura-gonzalez-salinas.md",
+  "fingerprint": "sha256:269e01eedc22cd7137cbe853d4c8f4f4e040c07054f0d66b531c50ce6746f7f5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/ana-laura-gonzalez-salinas.md",
+    "file_hash": "sha256:269e01eedc22cd7137cbe853d4c8f4f4e040c07054f0d66b531c50ce6746f7f5",
+    "file_modified": "2026-06-22T14:51:27.401431+00:00",
+    "file_size": 842,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ana Laura González Salinas",
+    "empresa": "(no se guardó perfil completo)",
+    "cargo": "(no se guardó perfil completo)",
+    "pais": "",
+    "fecha": "",
+    "estado_texto": "MSG2 enviado, esperando respuesta. Falta perfil completo de LinkedIn para próximos seguimientos."
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ana Laura González Salinas]\n[EMPRESA: (no se guardó perfil completo)]\n[CARGO: (no se guardó perfil completo)]",
+    "raw_md": "---\nname: ana-laura-gonzalez-salinas\ndescription: MSG2 enviado, liderazgo transformacion organizacional Uranjan de Luna, 22/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Ana Laura González Salinas\n**Cargo:** (no se guardó perfil completo)\n**Empresa:** (no se guardó perfil completo)\n\n**Resumen de conversación:**\n- MSG1: Florencia observó su frase sobre Uraján de Luna, \"la transformación no empieza en los manuales, sino en las personas\".\n- Respondió: \"Sí, claro\" (sin reciprocidad, directo al cuerpo)\n- MSG2 enviado: conecta esa visión de cambio organizacional centrado en personas con la necesidad de coherencia entre comunicación interna y externa. Mención clientes Destiny Group y Libra Seguros (consultoría).\n\n**Estado:** MSG2 enviado, esperando respuesta. Falta perfil completo de LinkedIn para próximos seguimientos.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.5
+  }
+}

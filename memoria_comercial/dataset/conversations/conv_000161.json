@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000161",
+  "contact_id": "ctc_000131",
+  "source_file": "conversaciones/junio/franco-signiorini.md",
+  "fingerprint": "sha256:d8df78de738343a327f035d837f08145ed0c1e226b485bebbfaa1abf2a457d6f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/franco-signiorini.md",
+    "file_hash": "sha256:d8df78de738343a327f035d837f08145ed0c1e226b485bebbfaa1abf2a457d6f",
+    "file_modified": "2026-07-01T15:56:27.631520+00:00",
+    "file_size": 2134,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Franco Signiorini",
+    "empresa": "Knight Therapeutics Argentina (pharma specialty, jornada parcial)",
+    "cargo": "Marketing y Medical",
+    "pais": "Argentina (San Isidro)",
+    "fecha": "19/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Franco, gracias por conectar!\n\nMe llamó la atención cómo enfocaste la publicación sobre tu entrada a Knight. En lugar de hablar del rol o la empresa, le diste crédito a Agustina y Georgina y resaltaste la predisposición del equipo. Eso dice bastante de cómo estás pensando esta etapa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia cómo estás, si decime",
+    "msg2_texto": "Buenas Franco, un gusto.\n\nLo que me quedó rondando es que Medical Affairs + Marketing en pharma suele ser un combo complejo: públicos muy distintos, regulaciones firmes, mensajes que tienen que funcionar en múltiples niveles. Muchas veces el desafío real no es la estrategia, es conseguir que la ejecución sea consistente y no termine dependiendo de una o dos personas del equipo. En Hint Media acompañamos equipos de marketing y comunicación con un complemento de Trafficker, CM, Diseñador y PM integrados. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Franco!\nPensaba en algo que aparece seguido en empresas de specialty pharma con presencia regional. Que comunicar productos técnicos de forma consistente en distintos mercados es un trabajo aparte del trabajo científico y comercial en sí.\nSi lo que te compartí te generó alguna pregunta, con gusto coordinamos 20 minutos y lo vemos.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "decime"
+    ],
+    "notas": "- Pasantía/jornada parcial — 9 meses en Knight Therapeutics (oct 2025)\n- También maneja empresa familiar (auxiliar administrativo)\n- Perfil junior — probablemente no es decision maker\n- Señal usada: cómo atribuyó mérito a jefas en post de inicio de trabajo\n- Sector pharma → clientes Libra Seguros, Destiny Group (comunicación institucional)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Franco Signiorini]\n[EMPRESA: Knight Therapeutics Argentina (pharma specialty, jornada parcial)]\n[CARGO: Marketing y Medical]\n[PAIS: Argentina (San Isidro)]\n\n[MSG1]\nFranco, gracias por conectar!\n\nMe llamó la atención cómo enfocaste la publicación sobre tu entrada a Knight. En lugar de hablar del rol o la empresa, le diste crédito a Agustina y Georgina y resaltaste la predisposición del equipo. Eso dice bastante de cómo estás pensando esta etapa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia cómo estás, si decime\n\n[MSG2]\nBuenas Franco, un gusto.\n\nLo que me quedó rondando es que Medical Affairs + Marketing en pharma suele ser un combo complejo: públicos muy distintos, regulaciones firmes, mensajes que tienen que funcionar en múltiples niveles. Muchas veces el desafío real no es la estrategia, es conseguir que la ejecución sea consistente y no termine dependiendo de una o dos personas del equipo. En Hint Media acompañamos equipos de marketing y comunicación con un complemento de Trafficker, CM, Diseñador y PM integrados. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[SEG1]\nBuenas Franco!\nPensaba en algo que aparece seguido en empresas de specialty pharma con presencia regional. Que comunicar productos técnicos de forma consistente en distintos mercados es un trabajo aparte del trabajo científico y comercial en sí.\nSi lo que te compartí te generó alguna pregunta, con gusto coordinamos 20 minutos y lo vemos.\n\n[NOTAS]\n- Pasantía/jornada parcial — 9 meses en Knight Therapeutics (oct 2025)\n- También maneja empresa familiar (auxiliar administrativo)\n- Perfil junior — probablemente no es decision maker\n- Señal usada: cómo atribuyó mérito a jefas en post de inicio de trabajo\n- Sector pharma → clientes Libra Seguros, Destiny Group (comunicación institucional)",
+    "raw_md": "# Franco Signiorini\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 19/06/26\n**Cargo:** Marketing y Medical\n**Empresa:** Knight Therapeutics Argentina (pharma specialty, jornada parcial)\n**País:** Argentina (San Isidro)\n\n## MSG1\n> Franco, gracias por conectar!\n>\n> Me llamó la atención cómo enfocaste la publicación sobre tu entrada a Knight. En lugar de hablar del rol o la empresa, le diste crédito a Agustina y Georgina y resaltaste la predisposición del equipo. Eso dice bastante de cómo estás pensando esta etapa.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.\n\n## Respuesta MSG1\n> Hola Florencia cómo estás, si decime\n\n## MSG2\n> Buenas Franco, un gusto.\n>\n> Lo que me quedó rondando es que Medical Affairs + Marketing en pharma suele ser un combo complejo: públicos muy distintos, regulaciones firmes, mensajes que tienen que funcionar en múltiples niveles. Muchas veces el desafío real no es la estrategia, es conseguir que la ejecución sea consistente y no termine dependiendo de una o dos personas del equipo. En Hint Media acompañamos equipos de marketing y comunicación con un complemento de Trafficker, CM, Diseñador y PM integrados. Trabajamos con Libra Seguros y Destiny Group en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## SEG1 (01/07/26)\n> Buenas Franco!\n> Pensaba en algo que aparece seguido en empresas de specialty pharma con presencia regional. Que comunicar productos técnicos de forma consistente en distintos mercados es un trabajo aparte del trabajo científico y comercial en sí.\n> Si lo que te compartí te generó alguna pregunta, con gusto coordinamos 20 minutos y lo vemos.\n\n## Notas\n- Pasantía/jornada parcial — 9 meses en Knight Therapeutics (oct 2025)\n- También maneja empresa familiar (auxiliar administrativo)\n- Perfil junior — probablemente no es decision maker\n- Señal usada: cómo atribuyó mérito a jefas en post de inicio de trabajo\n- Sector pharma → clientes Libra Seguros, Destiny Group (comunicación institucional)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

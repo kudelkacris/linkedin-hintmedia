@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000229",
+  "contact_id": "ctc_000206",
+  "source_file": "conversaciones/junio/mario-zambrano.md",
+  "fingerprint": "sha256:4963331fb8aac76972c9f4635e3fd63205b4cd65928f924130a92c40b6f473d2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/mario-zambrano.md",
+    "file_hash": "sha256:4963331fb8aac76972c9f4635e3fd63205b4cd65928f924130a92c40b6f473d2",
+    "file_modified": "2026-07-01T15:55:05.608022+00:00",
+    "file_size": 1499,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Mario Zambrano",
+    "empresa": "Seguros Atlántida Ecuador",
+    "cargo": "Head of Marketing & Estrategia",
+    "pais": "",
+    "fecha": "18/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por conectar! Me llamó la atención la forma en que escribiste sobre la convención en España: \"las mejores estrategias se construyen junto a quienes creen en el mismo propósito\". Es lo opuesto a lo que la mayoría hace cuando arma un plan estratégico. Y ahora estás buscando Analista de Contenido y Diseño, así que imagino que la ejecución de esa visión necesita gente detrás.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Un gusto. En que te puedo ayudar?",
+    "msg2_texto": "Buenas Mario, gracias por responder!\n\nLo que más me quedó de tu perfil es esa idea de construir estrategia junto a quienes comparten el propósito. Veo que además están sumando gente al equipo de Marketing, así que la ejecución de esa visión necesita refuerzo en contenido y comunicación.\n\nEn Hint Media trabajamos justamente eso: comunicación omnicanal, contenido, identidad de marca y paid media para empresas de seguros y finanzas, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Está contratando Analista de Contenido y Diseño Gráfico, buena señal de necesidad real."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mario Zambrano]\n[EMPRESA: Seguros Atlántida Ecuador]\n[CARGO: Head of Marketing & Estrategia]\n[SECTOR: Seguros]\n\n[MSG1]\nFlorencia, gracias por conectar! Me llamó la atención la forma en que escribiste sobre la convención en España: \"las mejores estrategias se construyen junto a quienes creen en el mismo propósito\". Es lo opuesto a lo que la mayoría hace cuando arma un plan estratégico. Y ahora estás buscando Analista de Contenido y Diseño, así que imagino que la ejecución de esa visión necesita gente detrás.\n\n[RESPUESTA_MSG1]\nHola Florencia. Un gusto. En que te puedo ayudar?\n\n[MSG2]\nBuenas Mario, gracias por responder!\n\nLo que más me quedó de tu perfil es esa idea de construir estrategia junto a quienes comparten el propósito. Veo que además están sumando gente al equipo de Marketing, así que la ejecución de esa visión necesita refuerzo en contenido y comunicación.\n\nEn Hint Media trabajamos justamente eso: comunicación omnicanal, contenido, identidad de marca y paid media para empresas de seguros y finanzas, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Está contratando Analista de Contenido y Diseño Gráfico, buena señal de necesidad real.",
+    "raw_md": "# Mario Zambrano\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26\n**Cargo:** Head of Marketing & Estrategia\n**Empresa:** Seguros Atlántida Ecuador\n**Sector:** Seguros\n\n## MSG1 (recibido, generado en otra sesión)\n> Florencia, gracias por conectar! Me llamó la atención la forma en que escribiste sobre la convención en España: \"las mejores estrategias se construyen junto a quienes creen en el mismo propósito\". Es lo opuesto a lo que la mayoría hace cuando arma un plan estratégico. Y ahora estás buscando Analista de Contenido y Diseño, así que imagino que la ejecución de esa visión necesita gente detrás.\n\n## Respuesta MSG1\n> Hola Florencia. Un gusto. En que te puedo ayudar?\n\n## MSG2\n> Buenas Mario, gracias por responder!\n>\n> Lo que más me quedó de tu perfil es esa idea de construir estrategia junto a quienes comparten el propósito. Veo que además están sumando gente al equipo de Marketing, así que la ejecución de esa visión necesita refuerzo en contenido y comunicación.\n>\n> En Hint Media trabajamos justamente eso: comunicación omnicanal, contenido, identidad de marca y paid media para empresas de seguros y finanzas, como Libra Seguros y Destiny Group.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Está contratando Analista de Contenido y Diseño Gráfico, buena señal de necesidad real.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

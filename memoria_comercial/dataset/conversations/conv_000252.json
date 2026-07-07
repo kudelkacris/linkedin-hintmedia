@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000252",
+  "contact_id": "ctc_000119",
+  "source_file": "conversaciones/junio/raul-campesino-ruiz.md",
+  "fingerprint": "sha256:8a8710ab7ffe13107e7fb8092ebbdc208f7aa8f8e06df101f53072cc6eee0c31",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/raul-campesino-ruiz.md",
+    "file_hash": "sha256:8a8710ab7ffe13107e7fb8092ebbdc208f7aa8f8e06df101f53072cc6eee0c31",
+    "file_modified": "2026-06-27T17:13:47.927477+00:00",
+    "file_size": 956,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Raul Campesino Ruiz",
+    "empresa": "",
+    "cargo": "Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis",
+    "pais": "Panamá",
+    "fecha": "27/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Empresa: Coderland by Izertis, staff augmentation IT en LATAM\n- Activo en LinkedIn: MWC Barcelona, misión comercial Puerto Rico, eventos Coderland Nicaragua\n- Rol nuevo desde enero 2026"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Raul Campesino Ruiz]\n[CARGO: Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis]\n[SECTOR: Tech / Software (staff augmentation, IT talent)]\n[PAIS: Panamá]\n\n[NOTAS]\n- Empresa: Coderland by Izertis, staff augmentation IT en LATAM\n- Activo en LinkedIn: MWC Barcelona, misión comercial Puerto Rico, eventos Coderland Nicaragua\n- Rol nuevo desde enero 2026",
+    "raw_md": "# Raul Campesino Ruiz\n\n**Estado:** MSG2 enviado\n**Fecha:** 27/06/26\n**Cargo:** Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis\n**País:** Panamá\n**Sector:** Tech / Software (staff augmentation, IT talent)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 13:34):**\nCitó el post de Coderland Summer Opening Party, foco en \"personas, cercanía y detalles\", conectado con su transición a este rol nuevo.\n\n**Respuesta Raúl (viernes 18:28):**\n\"Sí, claro... Dime\"\n\n**MSG2 enviado (Florencia, hoy):**\nRetomó arranque como Director de Ventas LATAM (venía de Operaciones) + tono del post (foco personas, no números) como vocería propia del nuevo rol. Presentó Hint Media, clientes Destiny Group y Libra Seguros (consultoría/tech).\n\n## Notas\n- Empresa: Coderland by Izertis, staff augmentation IT en LATAM\n- Activo en LinkedIn: MWC Barcelona, misión comercial Puerto Rico, eventos Coderland Nicaragua\n- Rol nuevo desde enero 2026\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa",
+      "sin_blockquote: conversacion — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

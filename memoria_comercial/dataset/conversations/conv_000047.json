@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000047",
+  "contact_id": "ctc_000039",
+  "source_file": "conversaciones/julio/ingrith-mu-oz-herrera.md",
+  "fingerprint": "sha256:0a88718c2e2d4494629cd2d5c6b1d3c213c534a8359aade17185bd5f6d873417",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/ingrith-mu-oz-herrera.md",
+    "file_hash": "sha256:0a88718c2e2d4494629cd2d5c6b1d3c213c534a8359aade17185bd5f6d873417",
+    "file_modified": "2026-07-06T16:04:34.405507+00:00",
+    "file_size": 3149,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Ingrith Muñoz Herrera",
+    "empresa": "EAE Business School",
+    "cargo": "Estratega de Marketing y Comunicación | Gestión de marca, campañas omnicanal y liderazgo de equipos | En transición hacia nuevos sectores creativos y",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ingrith, gracias por conectar 👋\n\nMe llamó la atención lo que escribiste en el evento deportivo: que más allá de la tecnología y los procesos, son las personas quienes hacen posible cada logro. No es lo que la mayoría destaca cuando coordina equipos regionales. Normalmente el foco termina siendo en métricas y entregas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenos días estimada Florencia\nCorrecto.\n¿Cuál es tu consulta?",
+    "msg2_texto": "Buenas Ingrith! Te cuento.\nCuando decís que estás en transición hacia sectores más creativos y humanos, cómo estás trabajando para que esos sectores puedan verte y entender por qué sos la persona correcta para ese espacio?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a profesionales y organizaciones a construir esa visibilidad: posicionamiento ejecutivo, contenidos y comunicación de marca personal. Trabajamos con Destiny Group en comunicación y posicionamiento de sus referentes.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó sobre un evento deportivo corporativo donde destacó que \"más allá de la tecnología, los procesos y los proyectos, son las personas quienes hacen posible cada logro\". También compartió reflexiones críticas de otros profesionales sobre la complejidad real del marketing moderno (no como \"solo anuncios\") y el valor del trabajo estratégico. Ambas señales revelan que valora el liderazgo humano, la construcción de equipos y la complejidad detrás de lo visible.",
+    "hipotesis": "Conversación sobre cómo sostener ejecución de marketing a escala sin que la calidad dependa de más horas de trabajo de su equipo. Cómo un equipo regional puede tener mayor autonomía sin perder coherencia. Cómo transicionar su carrera hacia sectores más humanos sin perder las habilidades de gestión que ha construido.",
+    "palabras_clave": [
+      "dias",
+      "estimada",
+      "florencia",
+      "correcto",
+      "cual",
+      "consulta"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ingrith Muñoz Herrera]\n[EMPRESA: EAE Business School]\n[CARGO: Estratega de Marketing y Comunicación | Gestión de marca, campañas omnicanal y liderazgo de equipos | En transición hacia nuevos sectores creativos y]\n[SECTOR: B2B SaaS / Software Empresarial (SAP)]\n[PAIS: Panamá]\n[SENAL: Publicó sobre un evento deportivo corporativo donde destacó que \"más allá de la tecnología, los procesos y los proyectos, son las personas quienes hacen posible cada logro\". También compartió reflexiones críticas de otros profesionales sobre la complejidad real del marketing moderno (no como \"solo anuncios\") y el valor del trabajo estratégico. Ambas señales revelan que valora el liderazgo humano, la construcción de equipos y la complejidad detrás de lo visible.]\n[HIPOTESIS: Conversación sobre cómo sostener ejecución de marketing a escala sin que la calidad dependa de más horas de trabajo de su equipo. Cómo un equipo regional puede tener mayor autonomía sin perder coherencia. Cómo transicionar su carrera hacia sectores más humanos sin perder las habilidades de gestión que ha construido.]\n\n[MSG1]\nIngrith, gracias por conectar 👋\n\nMe llamó la atención lo que escribiste en el evento deportivo: que más allá de la tecnología y los procesos, son las personas quienes hacen posible cada logro. No es lo que la mayoría destaca cuando coordina equipos regionales. Normalmente el foco termina siendo en métricas y entregas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenos días estimada Florencia\nCorrecto.\n¿Cuál es tu consulta?\n\n[MSG2]\nBuenas Ingrith! Te cuento.\nCuando decís que estás en transición hacia sectores más creativos y humanos, cómo estás trabajando para que esos sectores puedan verte y entender por qué sos la persona correcta para ese espacio?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a profesionales y organizaciones a construir esa visibilidad: posicionamiento ejecutivo, contenidos y comunicación de marca personal. Trabajamos con Destiny Group en comunicación y posicionamiento de sus referentes.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[MSG3]\npor este medio, muchas gracias",
+    "raw_md": "# Ingrith Muñoz Herrera\n\n**Fecha:** 06/07/26\n**Cargo:** Estratega de Marketing y Comunicación | Gestión de marca, campañas omnicanal y liderazgo de equipos | En transición hacia nuevos sectores creativos y \n**Empresa:** EAE Business School\n**Pais:** Panamá\n**Sector:** B2B SaaS / Software Empresarial (SAP)\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicó sobre un evento deportivo corporativo donde destacó que \"más allá de la tecnología, los procesos y los proyectos, son las personas quienes hacen posible cada logro\". También compartió reflexiones críticas de otros profesionales sobre la complejidad real del marketing moderno (no como \"solo anuncios\") y el valor del trabajo estratégico. Ambas señales revelan que valora el liderazgo humano, la construcción de equipos y la complejidad detrás de lo visible.\n- **Tensión profesional:** Escalar ejecución regional sin que todo dependa de coordinación centralizada. Mantener coherencia de marca mientras permite adaptación local. Justificar inversión en estrategia cuando la presión es por resultados inmediatos de campaña.\n- **Hipótesis:** Conversación sobre cómo sostener ejecución de marketing a escala sin que la calidad dependa de más horas de trabajo de su equipo. Cómo un equipo regional puede tener mayor autonomía sin perder coherencia. Cómo transicionar su carrera hacia sectores más humanos sin perder las habilidades de gestión que ha construido.\n- **Ángulo MSG1:** Partir de la señal humana sobre el valor de las personas y el trabajo invisible detrás de los proyectos. Conectar con su reflexión sobre complejidad de marketing moderno vs. expectativas internas de \"solo publicar\".\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Ingrith, gracias por conectar 👋\n>\n> Me llamó la atención lo que escribiste en el evento deportivo: que más allá de la tecnología y los procesos, son las personas quienes hacen posible cada logro. No es lo que la mayoría destaca cuando coordina equipos regionales. Normalmente el foco termina siendo en métricas y entregas.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Buenos días estimada Florencia\n> Correcto.\n> ¿Cuál es tu consulta?\n\n---\n\n## MSG2\n> Buenas Ingrith! Te cuento.\n> Cuando decís que estás en transición hacia sectores más creativos y humanos, cómo estás trabajando para que esos sectores puedan verte y entender por qué sos la persona correcta para ese espacio?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a profesionales y organizaciones a construir esa visibilidad: posicionamiento ejecutivo, contenidos y comunicación de marca personal. Trabajamos con Destiny Group en comunicación y posicionamiento de sus referentes.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Dossier\n> por este medio, muchas gracias\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

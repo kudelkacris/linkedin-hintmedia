@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000104",
+  "contact_id": "ctc_000030",
+  "source_file": "conversaciones/julio/wenzhuo-z.md",
+  "fingerprint": "sha256:495ef447fbba855e69c6430795d4731ed71d666f2490f59cbc252cbb0872fb45",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/wenzhuo-z.md",
+    "file_hash": "sha256:495ef447fbba855e69c6430795d4731ed71d666f2490f59cbc252cbb0872fb45",
+    "file_modified": "2026-07-06T15:12:17.442376+00:00",
+    "file_size": 2180,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Wenzhuo Z.",
+    "empresa": "IME Business School",
+    "cargo": "Simply a renewable marketer & wine lover",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Wenzhuo, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste el post de 8 años en España. No fue solo \"llegué en 2016 con vocabulario limitado\". Fue sobre cómo encontraste tu camino en energía renovable, y cómo eso te dio energía de verdad. La forma en que lo escribiste sugiere algo: para vos, la marca no es lo que dice la empresa, es lo que vive la gente detrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre 8 años en España destacando transformación personal + integración con comunidad local. Luego, inmediatamente después, publicación sobre expansión a Grecia y eventos europeos. La transición entre ambas reveló algo deliberado: está posicionando su rol como bridge cultural y de mercado, no solo como ejecutor de marketing. La reflexión sobre \"energía que me da energía\" en sector renovable sugiere alineación genuina con misión, no solo rol corporativo.",
+    "hipotesis": "Cómo construir narrativa de marca coherente de una empresa tecnológica china en mercados europeos altamente fragmentados y regulados, sin perder velocidad. Cómo escalar de \"presencia en evento\" a \"presencia de marca reconocida\" en territorios nuevos sin quemar presupuesto en marketing masivo.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Wenzhuo Z.]\n[EMPRESA: IME Business School]\n[CARGO: Simply a renewable marketer & wine lover]\n[SECTOR: Energía renovable / Tecnología energética]\n[PAIS: España]\n[SENAL: Publicación sobre 8 años en España destacando transformación personal + integración con comunidad local. Luego, inmediatamente después, publicación sobre expansión a Grecia y eventos europeos. La transición entre ambas reveló algo deliberado: está posicionando su rol como bridge cultural y de mercado, no solo como ejecutor de marketing. La reflexión sobre \"energía que me da energía\" en sector renovable sugiere alineación genuina con misión, no solo rol corporativo.]\n[HIPOTESIS: Cómo construir narrativa de marca coherente de una empresa tecnológica china en mercados europeos altamente fragmentados y regulados, sin perder velocidad. Cómo escalar de \"presencia en evento\" a \"presencia de marca reconocida\" en territorios nuevos sin quemar presupuesto en marketing masivo.]\n\n[MSG1]\nWenzhuo, gracias por conectar! 👋\n\nMe llamó la atención cómo cerraste el post de 8 años en España. No fue solo \"llegué en 2016 con vocabulario limitado\". Fue sobre cómo encontraste tu camino en energía renovable, y cómo eso te dio energía de verdad. La forma en que lo escribiste sugiere algo: para vos, la marca no es lo que dice la empresa, es lo que vive la gente detrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Wenzhuo Z.\n\n**Fecha:** 06/07/26\n**Cargo:** Simply a renewable marketer & wine lover\n**Empresa:** IME Business School\n**Pais:** España\n**Sector:** Energía renovable / Tecnología energética\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre 8 años en España destacando transformación personal + integración con comunidad local. Luego, inmediatamente después, publicación sobre expansión a Grecia y eventos europeos. La transición entre ambas reveló algo deliberado: está posicionando su rol como bridge cultural y de mercado, no solo como ejecutor de marketing. La reflexión sobre \"energía que me da energía\" en sector renovable sugiere alineación genuina con misión, no solo rol corporativo.\n- **Tensión profesional:** Escalar presencia de marca en múltiples mercados simultáneamente (2 regiones, múltiples eventos, nuevas oficinas) sin que toda la ejecución dependa de una sola persona / equipo visible. La tensión: mantener consistencia narrativa global mientras adapta mensajes a realidades locales radicalmente distintas (China → Europa → LatAm).\n- **Hipótesis:** Cómo construir narrativa de marca coherente de una empresa tecnológica china en mercados europeos altamente fragmentados y regulados, sin perder velocidad. Cómo escalar de \"presencia en evento\" a \"presencia de marca reconocida\" en territorios nuevos sin quemar presupuesto en marketing masivo.\n- **Ángulo MSG1:** SEÑAL_HUMANA: la deliberada construcción de su rol como bridge cultural + la reflexión sobre energía renovable como misión personal, no solo trabajo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Wenzhuo, gracias por conectar! 👋\n>\n> Me llamó la atención cómo cerraste el post de 8 años en España. No fue solo \"llegué en 2016 con vocabulario limitado\". Fue sobre cómo encontraste tu camino en energía renovable, y cómo eso te dio energía de verdad. La forma en que lo escribiste sugiere algo: para vos, la marca no es lo que dice la empresa, es lo que vive la gente detrás.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

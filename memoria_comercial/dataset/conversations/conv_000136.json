@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000136",
+  "contact_id": "ctc_000315",
+  "source_file": "conversaciones/junio/cesar-escandon-sanchez.md",
+  "fingerprint": "sha256:9abf97129f112ea083e00bd964fb48f9a7418bec743f47ac3b05c908e797fca8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/cesar-escandon-sanchez.md",
+    "file_hash": "sha256:9abf97129f112ea083e00bd964fb48f9a7418bec743f47ac3b05c908e797fca8",
+    "file_modified": "2026-06-23T21:44:54.398866+00:00",
+    "file_size": 1732,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "César Escandón Sanchez",
+    "empresa": "Distrito Panamera",
+    "cargo": "Gerente General",
+    "pais": "Tulum, Quintana Roo, México",
+    "fecha": "12/06/26",
+    "estado_texto": "Seguimiento liviano enviado (19/06/26) — ya tienen agencia, temperatura baja"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: César Escandón Sanchez]\n[EMPRESA: Distrito Panamera]\n[CARGO: Gerente General]\n[PAIS: Tulum, Quintana Roo, México]",
+    "raw_md": "---\nname: cesar-escandon-sanchez\ndescription: Dossier enviado igual, ya tienen agencia, GM Distrito Panamera Tulum México, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** César Escandón Sanchez\n**Cargo:** Gerente General\n**Empresa:** Distrito Panamera\n**País:** Tulum, Quintana Roo, México\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que puso \"mindfulness\" junto con hotel management en su presentación\n- Respondió: \"Hola Florencia, Claro, dime en lo que te pueda ayudar!! Con mucho gusto\"\n- MSG2 enviado — gap: hotel con propuesta distinta al lujo estándar necesita contenido a la altura. Mención Destiny Group.\n- Respondió: ya trabajan con una empresa de difusión/promoción, y aclaró que el mindfulness es personal/interno, no modelo de negocio\n- Dossier enviado de todas formas, dejando puerta abierta para proyectos puntuales\n- Seguimiento liviano 19/06/26 (sin CTA, ya tiene agencia — no corresponde push de venta):\n> César, cómo estás?\n> Quedó la idea del dossier por si en algún momento surge un proyecto puntual donde haga sentido sumar una mano extra.\n> Sin apuro, cualquier cosa quedo atenta.\n\n**Estado:** Seguimiento liviano enviado (19/06/26) — ya tienen agencia, temperatura baja\n\n**Actualización 23/06/26 — segundo seguimiento:**\n> César, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que el mindfulness todavía vive como práctica personal hacia el staff y no como algo formalizado hacia afuera, me parece que ahí hay algo valioso sin explotar todavía. Si en algún momento te interesa pensar cómo se vería eso convertido en algo concreto, coordinamos 15 minutos esta semana, sin compromiso.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

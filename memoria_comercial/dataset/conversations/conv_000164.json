@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000164",
+  "contact_id": "ctc_000524",
+  "source_file": "conversaciones/junio/gaspar-dalla-valle.md",
+  "fingerprint": "sha256:98fe9ae82e10b08a6b249070c66f103d435f592c02bd8f59f2d92a7242661919",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/gaspar-dalla-valle.md",
+    "file_hash": "sha256:98fe9ae82e10b08a6b249070c66f103d435f592c02bd8f59f2d92a7242661919",
+    "file_modified": "2026-06-25T16:41:49.741148+00:00",
+    "file_size": 1089,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Gaspar Dalla Valle",
+    "empresa": "Tanzi",
+    "cargo": "Marketing en Tanzi",
+    "pais": "",
+    "fecha": "25/06/26",
+    "estado_texto": "Apertura, MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "ALIMENTACION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos responsable de Marketing en Tanzi, es así? Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Si decime",
+    "msg2_texto": "Hola Gaspar, gracias! Te cuento rápido. En Hint Media trabajamos con marcas de consumo que necesitan reforzar su comunicación y presencia digital, ayudando con contenido, branding y paid media, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "decime"
+    ],
+    "notas": "- MSG1 abrió con cargo (penalización de metodología), ya enviado, no se puede corregir.\n- Sin señal de actividad/contenido del prospecto disponible para rapport, MSG2 fue directo al cuerpo.\n- Cliente referencia: Tasarolli (sector retail/consumo)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Gaspar Dalla Valle]\n[EMPRESA: Tanzi]\n[CARGO: Marketing en Tanzi]\n[SECTOR: Consumo/Alimentos]\n\n[MSG1]\nFlorencia, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos responsable de Marketing en Tanzi, es así? Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola, Florencia. Si decime\n\n[MSG2]\nHola Gaspar, gracias! Te cuento rápido. En Hint Media trabajamos con marcas de consumo que necesitan reforzar su comunicación y presencia digital, ayudando con contenido, branding y paid media, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- MSG1 abrió con cargo (penalización de metodología), ya enviado, no se puede corregir.\n- Sin señal de actividad/contenido del prospecto disponible para rapport, MSG2 fue directo al cuerpo.\n- Cliente referencia: Tasarolli (sector retail/consumo).",
+    "raw_md": "# Gaspar Dalla Valle\n**Fecha:** 25/06/26\n**Cargo:** Marketing en Tanzi\n**Empresa:** Tanzi\n**Sector:** Consumo/Alimentos\n**Estado:** Apertura, MSG2 enviado\n\n## MSG1\n> Florencia, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos responsable de Marketing en Tanzi, es así? Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n## Respuesta\n> Hola, Florencia. Si decime\n\n## MSG2 enviado\n> Hola Gaspar, gracias! Te cuento rápido. En Hint Media trabajamos con marcas de consumo que necesitan reforzar su comunicación y presencia digital, ayudando con contenido, branding y paid media, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- MSG1 abrió con cargo (penalización de metodología), ya enviado, no se puede corregir.\n- Sin señal de actividad/contenido del prospecto disponible para rapport, MSG2 fue directo al cuerpo.\n- Cliente referencia: Tasarolli (sector retail/consumo).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

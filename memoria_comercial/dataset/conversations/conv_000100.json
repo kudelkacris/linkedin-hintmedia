@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000100",
+  "contact_id": "ctc_000022",
+  "source_file": "conversaciones/julio/tatiana-guido-n-ez.md",
+  "fingerprint": "sha256:b29b4fd6ff0d4cd2fd66b48cff425b892da53e0e478e320bf33c3a455edaa6a4",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/tatiana-guido-n-ez.md",
+    "file_hash": "sha256:b29b4fd6ff0d4cd2fd66b48cff425b892da53e0e478e320bf33c3a455edaa6a4",
+    "file_modified": "2026-07-06T15:21:14.639531+00:00",
+    "file_size": 2157,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Tatiana Guido Núñez",
+    "empresa": "Walmart Connect México y Centroamérica",
+    "cargo": "Comunicación, marketing, marketing digital, retail media.",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "AMAZON_ECOMMERCE",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Tatiana, gracias por conectar! 👋\n\nMe llamó la atención cómo escribiste sobre el año en Walmart. Especialmente la parte donde dijiste que no sabías si ibas a volver a sentirte así de realizada profesionalmente después de donde venías. Y después mencionaste a tus mentores por nombre. No suele ser lo primero que la gente destaca cuando celebra un logro propio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de aniversario (2 meses atrás) donde celebra 1 año como asociada de Walmart. Tono personal, vulnerable y reflexivo. Reconoce explícitamente a sus mentores por nombre. Dice \"Walmart —mi casa por segunda vez—\" y \"honestamente, no sabía si podría volver a sentirme así de realizada profesionalmente.\" Resalta que \"aquí se trabaja y se goza.\" Es una declaración de pertenencia, crecimiento y realización profesional genuina después de una transición.",
+    "hipotesis": "Cómo amplificar el impacto personal y del equipo en una etapa de expansión sin quedar atrapada en la operativa puntual. Cómo crecer como líder de marketing en una empresa que crece. Cómo documentar y comunicar la estrategia detrás de lo que se está construyendo en la región.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Tatiana Guido Núñez]\n[EMPRESA: Walmart Connect México y Centroamérica]\n[CARGO: Comunicación, marketing, marketing digital, retail media.]\n[SECTOR: Retail / E-commerce / Retail Media]\n[PAIS: Costa Rica]\n[SENAL: Publicación de aniversario (2 meses atrás) donde celebra 1 año como asociada de Walmart. Tono personal, vulnerable y reflexivo. Reconoce explícitamente a sus mentores por nombre. Dice \"Walmart —mi casa por segunda vez—\" y \"honestamente, no sabía si podría volver a sentirme así de realizada profesionalmente.\" Resalta que \"aquí se trabaja y se goza.\" Es una declaración de pertenencia, crecimiento y realización profesional genuina después de una transición.]\n[HIPOTESIS: Cómo amplificar el impacto personal y del equipo en una etapa de expansión sin quedar atrapada en la operativa puntual. Cómo crecer como líder de marketing en una empresa que crece. Cómo documentar y comunicar la estrategia detrás de lo que se está construyendo en la región.]\n\n[MSG1]\nTatiana, gracias por conectar! 👋\n\nMe llamó la atención cómo escribiste sobre el año en Walmart. Especialmente la parte donde dijiste que no sabías si ibas a volver a sentirte así de realizada profesionalmente después de donde venías. Y después mencionaste a tus mentores por nombre. No suele ser lo primero que la gente destaca cuando celebra un logro propio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Tatiana Guido Núñez\n\n**Fecha:** 06/07/26\n**Cargo:** Comunicación, marketing, marketing digital, retail media.\n**Empresa:** Walmart Connect México y Centroamérica\n**Pais:** Costa Rica\n**Sector:** Retail / E-commerce / Retail Media\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de aniversario (2 meses atrás) donde celebra 1 año como asociada de Walmart. Tono personal, vulnerable y reflexivo. Reconoce explícitamente a sus mentores por nombre. Dice \"Walmart —mi casa por segunda vez—\" y \"honestamente, no sabía si podría volver a sentirme así de realizada profesionalmente.\" Resalta que \"aquí se trabaja y se goza.\" Es una declaración de pertenencia, crecimiento y realización profesional genuina después de una transición.\n- **Tensión profesional:** Sostener coherencia estratégica y cultural en una organización en expansión regional que acelera (nuevos productos, nuevos mercados, contrataciones) sin que el equipo o ella misma se fragmente en la ejecución táctica.\n- **Hipótesis:** Cómo amplificar el impacto personal y del equipo en una etapa de expansión sin quedar atrapada en la operativa puntual. Cómo crecer como líder de marketing en una empresa que crece. Cómo documentar y comunicar la estrategia detrás de lo que se está construyendo en la región.\n- **Ángulo MSG1:** SEÑAL_HUMANA válida. La reflexión sobre transición, crecimiento y realización profesional, combinada con el reconocimiento explícito de mentores, revela una persona que valora el acompañamiento, el aprendizaje y la construcción de equipo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Tatiana, gracias por conectar! 👋\n>\n> Me llamó la atención cómo escribiste sobre el año en Walmart. Especialmente la parte donde dijiste que no sabías si ibas a volver a sentirte así de realizada profesionalmente después de donde venías. Y después mencionaste a tus mentores por nombre. No suele ser lo primero que la gente destaca cuando celebra un logro propio.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000221",
+  "contact_id": "ctc_000203",
+  "source_file": "conversaciones/junio/maria-emma-pereira.md",
+  "fingerprint": "sha256:608dac925a4212dc03d463041e761efbfb3ba08093c06558422a52adc1a0eb9d",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/maria-emma-pereira.md",
+    "file_hash": "sha256:608dac925a4212dc03d463041e761efbfb3ba08093c06558422a52adc1a0eb9d",
+    "file_modified": "2026-06-18T23:35:11.227163+00:00",
+    "file_size": 1829,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "María Emma Pereira",
+    "empresa": "Audubon Companies (oil & gas)",
+    "cargo": "Project Admin (antes 9+ años marketing digital/freelance/branding)",
+    "pais": "Colombia (remoto, Houston)",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado, entrada manual"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "María Emma, gracias por conectar! Estuve revisando un poco lo que venís haciendo. Me llamó la atención que hayas saltado de 9+ años en marketing digital y freelance a Project Admin en oil & gas hace apenas 2 meses. Y con números: en Ágape Shoes lograste 120% de crecimiento y 70% aumento en ventas coordinando toda la estrategia digital. Eso dice que sabés ejecutar bajo presión y con múltiples frentes al mismo tiempo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Flor! Si claro en qué te puedo ayudar",
+    "msg2_texto": "Buenas María Emma!\n\nLo que más me llamó la atención es que venís de coordinar marca y contenido para microemprendimientos, y ahora estás en project admin en oil & gas, dos mundos que rara vez se mezclan. Ese salto pide manejar muchos frentes a la vez sin perder el detalle, algo que se nota en los resultados que lograste en Ágape Shoes.\n\nEn Hint Media trabajamos justo con esa lógica: equipo externo de contenido y comunicación que sostiene ejecución sin que dependa de una sola persona. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "flor",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Sector oil & gas → clientes TGS y Transener (energía/infraestructura), corregido tras error inicial (se había puesto Destiny Group/Libra Seguros, no correspondía).\n- Ver [[feedback-clientes-por-sector-critico]]: verificar sector real antes de elegir cliente de ejemplo.\n- Agregada manualmente al historial.json (no generada por flujo normal del programa)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: María Emma Pereira]\n[EMPRESA: Audubon Companies (oil & gas)]\n[CARGO: Project Admin (antes 9+ años marketing digital/freelance/branding)]\n[SECTOR: Oil & Gas]\n[PAIS: Colombia (remoto, Houston)]\n\n[MSG1]\nMaría Emma, gracias por conectar! Estuve revisando un poco lo que venís haciendo. Me llamó la atención que hayas saltado de 9+ años en marketing digital y freelance a Project Admin en oil & gas hace apenas 2 meses. Y con números: en Ágape Shoes lograste 120% de crecimiento y 70% aumento en ventas coordinando toda la estrategia digital. Eso dice que sabés ejecutar bajo presión y con múltiples frentes al mismo tiempo.\n\n[RESPUESTA_MSG1]\nHola Flor! Si claro en qué te puedo ayudar\n\n[MSG2]\nBuenas María Emma!\n\nLo que más me llamó la atención es que venís de coordinar marca y contenido para microemprendimientos, y ahora estás en project admin en oil & gas, dos mundos que rara vez se mezclan. Ese salto pide manejar muchos frentes a la vez sin perder el detalle, algo que se nota en los resultados que lograste en Ágape Shoes.\n\nEn Hint Media trabajamos justo con esa lógica: equipo externo de contenido y comunicación que sostiene ejecución sin que dependa de una sola persona. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector oil & gas → clientes TGS y Transener (energía/infraestructura), corregido tras error inicial (se había puesto Destiny Group/Libra Seguros, no correspondía).\n- Ver [[feedback-clientes-por-sector-critico]]: verificar sector real antes de elegir cliente de ejemplo.\n- Agregada manualmente al historial.json (no generada por flujo normal del programa).",
+    "raw_md": "# María Emma Pereira\n\n**Estado:** MSG2 enviado, entrada manual\n**Fecha:** 18/06/26\n**Cargo:** Project Admin (antes 9+ años marketing digital/freelance/branding)\n**Empresa:** Audubon Companies (oil & gas)\n**País:** Colombia (remoto, Houston)\n**Sector:** Oil & Gas\n\n## MSG1\n> María Emma, gracias por conectar! Estuve revisando un poco lo que venís haciendo. Me llamó la atención que hayas saltado de 9+ años en marketing digital y freelance a Project Admin en oil & gas hace apenas 2 meses. Y con números: en Ágape Shoes lograste 120% de crecimiento y 70% aumento en ventas coordinando toda la estrategia digital. Eso dice que sabés ejecutar bajo presión y con múltiples frentes al mismo tiempo.\n\n## Respuesta MSG1\n> Hola Flor! Si claro en qué te puedo ayudar\n\n## MSG2\n> Buenas María Emma!\n>\n> Lo que más me llamó la atención es que venís de coordinar marca y contenido para microemprendimientos, y ahora estás en project admin en oil & gas, dos mundos que rara vez se mezclan. Ese salto pide manejar muchos frentes a la vez sin perder el detalle, algo que se nota en los resultados que lograste en Ágape Shoes.\n>\n> En Hint Media trabajamos justo con esa lógica: equipo externo de contenido y comunicación que sostiene ejecución sin que dependa de una sola persona. Trabajamos con TGS y Transener en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector oil & gas → clientes TGS y Transener (energía/infraestructura), corregido tras error inicial (se había puesto Destiny Group/Libra Seguros, no correspondía).\n- Ver [[feedback-clientes-por-sector-critico]]: verificar sector real antes de elegir cliente de ejemplo.\n- Agregada manualmente al historial.json (no generada por flujo normal del programa).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

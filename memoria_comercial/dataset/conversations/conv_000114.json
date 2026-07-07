@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000114",
+  "contact_id": "ctc_000307",
+  "source_file": "conversaciones/junio/ariel-salas-sibaja.md",
+  "fingerprint": "sha256:5d61891b50dc8a9c469311be81e0a27c7a03b2adcc5b8226b5ea5aa9833d966b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/ariel-salas-sibaja.md",
+    "file_hash": "sha256:5d61891b50dc8a9c469311be81e0a27c7a03b2adcc5b8226b5ea5aa9833d966b",
+    "file_modified": "2026-06-19T15:27:52.098549+00:00",
+    "file_size": 1383,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ariel Salas Sibaja",
+    "empresa": "CreditForce (software ciclo de vida del crédito, 8 países)",
+    "cargo": "Marketing Lead",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Ariel, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de tener una propuesta técnica sólida en varios mercados, y en lo distinto que es lograr que ese contenido llegue a los decisores sin sonar a manual.\nCualquier cosa que te genere, quedo atenta.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ariel Salas Sibaja]\n[EMPRESA: CreditForce (software ciclo de vida del crédito, 8 países)]\n[CARGO: Marketing Lead]\n[PAIS: Costa Rica]\n\n[SEG1]\nAriel, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de tener una propuesta técnica sólida en varios mercados, y en lo distinto que es lograr que ese contenido llegue a los decisores sin sonar a manual.\nCualquier cosa que te genere, quedo atenta.",
+    "raw_md": "---\nname: ariel-salas-sibaja\ndescription: Dossier aceptado, Marketing Lead CreditForce Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Ariel Salas Sibaja\n**Cargo:** Marketing Lead\n**Empresa:** CreditForce (software ciclo de vida del crédito, 8 países)\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre cobranza y empatía: \"detrás de la métrica existe una persona, y que la empatía no es blanda — es estrategia\"\n- Respondió: \"Hola Florencia, gusto saludarte. Claro, en que te puedo ayudar?\"\n- MSG2 enviado — gap: propuesta técnica sólida en varios mercados, pero traducir eso en contenido que llegue a decisores del sector financiero sin que suene a manual. Mención Libra Seguros.\n- Respondió: \"Me lo puedes enviar por acá\" — aceptó dossier\n- Dossier enviado 12/06/26. Respondió \"Gracias\" (visto, sin más interacción)\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: LOW — respuestas siempre cortas y directas, sin elaboración)\n> Ariel, cómo estás?\n> No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en eso de tener una propuesta técnica sólida en varios mercados, y en lo distinto que es lograr que ese contenido llegue a los decisores sin sonar a manual.\n> Cualquier cosa que te genere, quedo atenta.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

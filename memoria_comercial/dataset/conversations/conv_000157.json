@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000157",
+  "contact_id": "ctc_000331",
+  "source_file": "conversaciones/junio/faviola-crosbie.md",
+  "fingerprint": "sha256:f68aa7d1ca6c209d787ae978380b291080ec8be7f6bfa0f2bbb8fa86003059ba",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/faviola-crosbie.md",
+    "file_hash": "sha256:f68aa7d1ca6c209d787ae978380b291080ec8be7f6bfa0f2bbb8fa86003059ba",
+    "file_modified": "2026-06-12T16:03:49.075098+00:00",
+    "file_size": 869,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Faviola Crosbie",
+    "empresa": "The Buenaventura Golf & Beach Resort",
+    "cargo": "Digital Marketing Manager",
+    "pais": "Panamá",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Faviola Crosbie]\n[EMPRESA: The Buenaventura Golf & Beach Resort]\n[CARGO: Digital Marketing Manager]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: faviola-crosbie\ndescription: MSG2 enviado, Digital Marketing Manager The Buenaventura Golf & Beach Resort Panamá, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Faviola Crosbie\n**Cargo:** Digital Marketing Manager\n**Empresa:** The Buenaventura Golf & Beach Resort\n**País:** Panamá\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que su rol lleva toda la estrategia digital del hotel: SEO, SEM, revenue management, email, análisis de datos y coordinación con múltiples áreas\n- Respondió: \"¡Hola! Gracias por tu mensaje Florencia 😊 Un gusto. Claro, cuéntame, ¿cuál es tu consulta?\"\n- MSG2 enviado — gap: coordina estrategia + revenue + paid media + contenido al mismo tiempo; la ejecución creativa queda corriendo detrás del plan. Mención Destiny Group.\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

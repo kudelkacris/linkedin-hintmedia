@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000217",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Ana Maria Urrea G",
+  "empresa": "Petrobras",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 2,
+  "stage_texto": "",
+  "fecha": "18/06/26",
+  "email": null,
+  "sector_norm": "ENERGIA_INFRA",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000108",
+  "historial_slug": "1781803982114"
+}

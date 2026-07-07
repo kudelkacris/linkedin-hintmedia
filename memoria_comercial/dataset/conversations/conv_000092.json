@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000092",
+  "contact_id": "ctc_000113",
+  "source_file": "conversaciones/julio/santiago-salguero-buitrago.md",
+  "fingerprint": "sha256:080737abdf43486c7aa2cd66ddf8fd355c8b0b16e08c04b807e4220e0bb5ac0c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/santiago-salguero-buitrago.md",
+    "file_hash": "sha256:080737abdf43486c7aa2cd66ddf8fd355c8b0b16e08c04b807e4220e0bb5ac0c",
+    "file_modified": "2026-07-01T19:02:09.855879+00:00",
+    "file_size": 1628,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Santiago Salguero Buitrago",
+    "empresa": "YMCA Colombia",
+    "cargo": "Gestor de Comunicaciones",
+    "pais": "Colombia",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Santiago, gracias por conectar! 👋\n\nMe llamó la atención la forma en que describiste la XV Convención Nacional YMCA: \"estar presente — de verdad presente\". No es lo que escuchas generalmente cuando alguien habla de documentar un evento. Casi siempre es \"cubrimos\", \"capturamos\", \"produjimos\". Vos pusiste la atención en algo distinto: qué se nota cuando un movimiento se reúne con propósito claro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Gracias a ti por escribirme. Claro que si, dime por favor, en que te puedo colaborar?",
+    "msg2_texto": "Buenas Santiago, gracias por responder.\nLo que me quedo es que lo que escribiste sobre la convencion no era solo una cobertura de evento, era una lectura de por que ese encuentro importaba. Esa capacidad de leer el proposito detras de lo que pasa, y contarlo con esa capa, es exactamente lo que mas cuesta replicar cuando el volumen de contenido crece y los tiempos se achican.\nEn Hint Media acompanamos equipos de comunicacion que necesitan sostener esa calidad de narrativa con mas capacidad de ejecucion. Trabajamos con Destiny Group y Libra Seguros en ese tipo de estructuras.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "escribirme",
+      "dime",
+      "favor",
+      "puedo",
+      "colaborar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Santiago Salguero Buitrago]\n[EMPRESA: YMCA Colombia]\n[CARGO: Gestor de Comunicaciones]\n[SECTOR: ONG / Social / Comunicacion Estrategica]\n[PAIS: Colombia]\n\n[MSG1]\nSantiago, gracias por conectar! 👋\n\nMe llamó la atención la forma en que describiste la XV Convención Nacional YMCA: \"estar presente — de verdad presente\". No es lo que escuchas generalmente cuando alguien habla de documentar un evento. Casi siempre es \"cubrimos\", \"capturamos\", \"produjimos\". Vos pusiste la atención en algo distinto: qué se nota cuando un movimiento se reúne con propósito claro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Gracias a ti por escribirme. Claro que si, dime por favor, en que te puedo colaborar?\n\n[MSG2]\nBuenas Santiago, gracias por responder.\nLo que me quedo es que lo que escribiste sobre la convencion no era solo una cobertura de evento, era una lectura de por que ese encuentro importaba. Esa capacidad de leer el proposito detras de lo que pasa, y contarlo con esa capa, es exactamente lo que mas cuesta replicar cuando el volumen de contenido crece y los tiempos se achican.\nEn Hint Media acompanamos equipos de comunicacion que necesitan sostener esa calidad de narrativa con mas capacidad de ejecucion. Trabajamos con Destiny Group y Libra Seguros en ese tipo de estructuras.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "raw_md": "# Santiago Salguero Buitrago\n\n**Fecha:** 01/07/26\n**Cargo:** Gestor de Comunicaciones\n**Empresa:** YMCA Colombia\n**Pais:** Colombia\n**Sector:** ONG / Social / Comunicacion Estrategica\n**Estado:** MSG2 enviado 01/07/26\n\n---\n\n## MSG1\n> Santiago, gracias por conectar! 👋\n>\n> Me llamó la atención la forma en que describiste la XV Convención Nacional YMCA: \"estar presente — de verdad presente\". No es lo que escuchas generalmente cuando alguien habla de documentar un evento. Casi siempre es \"cubrimos\", \"capturamos\", \"produjimos\". Vos pusiste la atención en algo distinto: qué se nota cuando un movimiento se reúne con propósito claro.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia! Gracias a ti por escribirme. Claro que si, dime por favor, en que te puedo colaborar?\n\n## MSG2 (01/07/26)\n> Buenas Santiago, gracias por responder.\n> Lo que me quedo es que lo que escribiste sobre la convencion no era solo una cobertura de evento, era una lectura de por que ese encuentro importaba. Esa capacidad de leer el proposito detras de lo que pasa, y contarlo con esa capa, es exactamente lo que mas cuesta replicar cuando el volumen de contenido crece y los tiempos se achican.\n> En Hint Media acompanamos equipos de comunicacion que necesitan sostener esa calidad de narrativa con mas capacidad de ejecucion. Trabajamos con Destiny Group y Libra Seguros en ese tipo de estructuras.\n> Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

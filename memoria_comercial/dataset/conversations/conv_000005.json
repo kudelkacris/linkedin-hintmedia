@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000005",
+  "contact_id": "ctc_000013",
+  "source_file": "conversaciones/julio/allan-jimenez-monge.md",
+  "fingerprint": "sha256:eba3423aed8b75884d82435734c1720f5e9182fcf0c58d26b007ad904bbc96fd",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/allan-jimenez-monge.md",
+    "file_hash": "sha256:eba3423aed8b75884d82435734c1720f5e9182fcf0c58d26b007ad904bbc96fd",
+    "file_modified": "2026-07-06T16:04:50.262262+00:00",
+    "file_size": 2812,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Allan Jimenez Monge",
+    "empresa": "Universidad Latina de Costa Rica",
+    "cargo": "Advertising • Creative Director • Copywriting • Content • Ideas •",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Allan, gracias por conectar 👋\n\nMe llamó la atención cómo escribiste sobre el liderazgo después del festival Volcán. No es lo que la mayoría hace cuando acaba de ganar un premio grande. La mayoría cuenta el premio. Vos contaste por qué el equipo fue lo que hizo la diferencia. Eso dice bastante sobre cómo pensás la creatividad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola buenos días. Claro en lo que te pueda ayudar.",
+    "msg2_texto": "Buenas Allan! Te cuento.\nDespués de un premio en Volcán, ese momento de visibilidad es corto. Cómo aprovechan ese impulso para que el trabajo llegue a los clientes o mercados que todavía no los conocen?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos creativos y marcas a capitalizar esos momentos de visibilidad: contenido, posicionamiento y comunicación estratégica. Trabajamos con Destiny Group en branding y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de reflexión profunda sobre \"Un despido no define tu talento\" donde comparte vulnerabilidad (síndrome del impostor, miedo) + triunfo (Festival Volcán) tras encontrar lugar mejor en BIT. Luego, múltiples publicaciones de BIT mostrándolo como líder que impulsa potencial del equipo, sin buscar protagonismo. Decisión de compartir esto públicamente revela que valora la honestidad, el crecimiento desde la adversidad y el liderazgo colaborativo como marca personal.",
+    "hipotesis": "Cómo construir cultura creativa en equipos que crecen rápido. Cómo transformar talento disperso en procesos creativos consistentes. Posicionamiento de BIT como agencia diferenciada en Centroamérica. Escalamiento de ejecución sin perder la empatía en liderazgo.",
+    "palabras_clave": [
+      "dias",
+      "pueda",
+      "ayudar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Allan Jimenez Monge]\n[EMPRESA: Universidad Latina de Costa Rica]\n[CARGO: Advertising • Creative Director • Copywriting • Content • Ideas •]\n[SECTOR: Advertising & Marketing / Creative Services]\n[PAIS: Costa Rica]\n[SENAL: Publicación de reflexión profunda sobre \"Un despido no define tu talento\" donde comparte vulnerabilidad (síndrome del impostor, miedo) + triunfo (Festival Volcán) tras encontrar lugar mejor en BIT. Luego, múltiples publicaciones de BIT mostrándolo como líder que impulsa potencial del equipo, sin buscar protagonismo. Decisión de compartir esto públicamente revela que valora la honestidad, el crecimiento desde la adversidad y el liderazgo colaborativo como marca personal.]\n[HIPOTESIS: Cómo construir cultura creativa en equipos que crecen rápido. Cómo transformar talento disperso en procesos creativos consistentes. Posicionamiento de BIT como agencia diferenciada en Centroamérica. Escalamiento de ejecución sin perder la empatía en liderazgo.]\n\n[MSG1]\nAllan, gracias por conectar 👋\n\nMe llamó la atención cómo escribiste sobre el liderazgo después del festival Volcán. No es lo que la mayoría hace cuando acaba de ganar un premio grande. La mayoría cuenta el premio. Vos contaste por qué el equipo fue lo que hizo la diferencia. Eso dice bastante sobre cómo pensás la creatividad.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola buenos días. Claro en lo que te pueda ayudar.\n\n[MSG2]\nBuenas Allan! Te cuento.\nDespués de un premio en Volcán, ese momento de visibilidad es corto. Cómo aprovechan ese impulso para que el trabajo llegue a los clientes o mercados que todavía no los conocen?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos creativos y marcas a capitalizar esos momentos de visibilidad: contenido, posicionamiento y comunicación estratégica. Trabajamos con Destiny Group en branding y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Allan Jimenez Monge\n\n**Fecha:** 06/07/26\n**Cargo:** Advertising • Creative Director • Copywriting • Content • Ideas •\n**Empresa:** Universidad Latina de Costa Rica\n**Pais:** Costa Rica\n**Sector:** Advertising & Marketing / Creative Services\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de reflexión profunda sobre \"Un despido no define tu talento\" donde comparte vulnerabilidad (síndrome del impostor, miedo) + triunfo (Festival Volcán) tras encontrar lugar mejor en BIT. Luego, múltiples publicaciones de BIT mostrándolo como líder que impulsa potencial del equipo, sin buscar protagonismo. Decisión de compartir esto públicamente revela que valora la honestidad, el crecimiento desde la adversidad y el liderazgo colaborativo como marca personal.\n- **Tensión profesional:** Mantener la calidad creativa y la relevancia cultural mientras escala equipos y coordina múltiples marcas/clientes con dinámicas distintas, sin que la ejecución dependa solo de su criterio individual.\n- **Hipótesis:** Cómo construir cultura creativa en equipos que crecen rápido. Cómo transformar talento disperso en procesos creativos consistentes. Posicionamiento de BIT como agencia diferenciada en Centroamérica. Escalamiento de ejecución sin perder la empatía en liderazgo.\n- **Ángulo MSG1:** Desde SEÑAL_HUMANA: su reflexión sobre liderazgo colaborativo + la evidencia de que BIT está en fase de crecimiento activo (reclutando talento, buscando expandir capacidad).\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Allan, gracias por conectar 👋\n>\n> Me llamó la atención cómo escribiste sobre el liderazgo después del festival Volcán. No es lo que la mayoría hace cuando acaba de ganar un premio grande. La mayoría cuenta el premio. Vos contaste por qué el equipo fue lo que hizo la diferencia. Eso dice bastante sobre cómo pensás la creatividad.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola buenos días. Claro en lo que te pueda ayudar.\n\n---\n\n## MSG2\n> Buenas Allan! Te cuento.\n> Después de un premio en Volcán, ese momento de visibilidad es corto. Cómo aprovechan ese impulso para que el trabajo llegue a los clientes o mercados que todavía no los conocen?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos creativos y marcas a capitalizar esos momentos de visibilidad: contenido, posicionamiento y comunicación estratégica. Trabajamos con Destiny Group en branding y comunicación de marca.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

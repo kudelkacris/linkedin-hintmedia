@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000075",
+  "contact_id": "ctc_000066",
+  "source_file": "conversaciones/julio/marta-s-enz-herrera.md",
+  "fingerprint": "sha256:0d35b8fa7d55352418a029b01a2339f0859d8de6b67f7ff8dbae2a554eaa1431",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/marta-s-enz-herrera.md",
+    "file_hash": "sha256:0d35b8fa7d55352418a029b01a2339f0859d8de6b67f7ff8dbae2a554eaa1431",
+    "file_modified": "2026-07-06T19:17:38.856751+00:00",
+    "file_size": 3309,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Marta Sáenz Herrera",
+    "empresa": "PHD Media Spain",
+    "cargo": "Marketing & Communications Manager | Paid Media | Performance Marketing | Growth Marketing | Corporate Marketing | Demand Generation | Content Manager",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Marta, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste después del Digital Masters de Barcelona. Lo que más me gustó fue que le diste crédito al equipo antes de hablar del evento. No es lo primero que la gente destaca cuando comunica algo así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, encantada de saludarte y muchas gracias por tu mensaje.\nLa verdad es que Digital Masters es lo que es gracias al trabajo en equipo que hay detrás. Para mi era importante reflejarlo en un post más personal, porque sacar adelante este evento ha sido un reto para mi por muchas razones.\nDicho esto, encantada de ayudarte con la consulta que tengas. Muchas gracias. Saludos!",
+    "msg2_texto": "Buenas Marta! Que algo cueste \"por muchas razones\" y aun así se haga, y después la primera reacción sea agradecerle al equipo, dice mucho.\nCuando un evento como Digital Masters sale bien, cómo están aprovechando ese momento para que la organización o la marca detrás también gane visibilidad?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos y organizaciones a capitalizar ese tipo de logros: contenido, amplificación y comunicación de marca. Trabajamos con Destiny Group en eventos y comunicación institucional.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Puedes enviármelo por aquí sin problema, Florencia. Muchas gracias!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre Digital Masters by PHD Barcelona (3 semanas atrás) donde destaca el trabajo en equipo: \"Cuando ves la sala llena, solo puedes pensar una cosa: esto es trabajo en equipo de verdad. Y me siento muy afortunada de formar parte de esto y de contar con personas que empujan, suman y hacen que todo esto sea posible.\" — eligió dar crédito al equipo antes de celebrar el evento.",
+    "hipotesis": "Posicionamiento del comunicador en una organización en transición. Cómo construir narrativa de marca en contextos de cambio orgánico (fusión Omnicom-IPG, transformación digital). Escalabilidad de la ejecución editorial.",
+    "palabras_clave": [
+      "florencia",
+      "encantada",
+      "saludarte",
+      "muchas",
+      "mensaje",
+      "verdad",
+      "digital",
+      "masters",
+      "trabajo",
+      "equipo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Marta Sáenz Herrera]\n[EMPRESA: PHD Media Spain]\n[CARGO: Marketing & Communications Manager | Paid Media | Performance Marketing | Growth Marketing | Corporate Marketing | Demand Generation | Content Manager]\n[SECTOR: Agencias / Medios / Marketing / Tecnología (indirectamente)]\n[PAIS: España]\n[SENAL: Publicación sobre Digital Masters by PHD Barcelona (3 semanas atrás) donde destaca el trabajo en equipo: \"Cuando ves la sala llena, solo puedes pensar una cosa: esto es trabajo en equipo de verdad. Y me siento muy afortunada de formar parte de esto y de contar con personas que empujan, suman y hacen que todo esto sea posible.\" — eligió dar crédito al equipo antes de celebrar el evento.]\n[HIPOTESIS: Posicionamiento del comunicador en una organización en transición. Cómo construir narrativa de marca en contextos de cambio orgánico (fusión Omnicom-IPG, transformación digital). Escalabilidad de la ejecución editorial.]\n\n[MSG1]\nMarta, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste después del Digital Masters de Barcelona. Lo que más me gustó fue que le diste crédito al equipo antes de hablar del evento. No es lo primero que la gente destaca cuando comunica algo así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, encantada de saludarte y muchas gracias por tu mensaje.\nLa verdad es que Digital Masters es lo que es gracias al trabajo en equipo que hay detrás. Para mi era importante reflejarlo en un post más personal, porque sacar adelante este evento ha sido un reto para mi por muchas razones.\nDicho esto, encantada de ayudarte con la consulta que tengas. Muchas gracias. Saludos!\n\n[MSG2]\nBuenas Marta! Que algo cueste \"por muchas razones\" y aun así se haga, y después la primera reacción sea agradecerle al equipo, dice mucho.\nCuando un evento como Digital Masters sale bien, cómo están aprovechando ese momento para que la organización o la marca detrás también gane visibilidad?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos y organizaciones a capitalizar ese tipo de logros: contenido, amplificación y comunicación de marca. Trabajamos con Destiny Group en eventos y comunicación institucional.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\nPuedes enviármelo por aquí sin problema, Florencia. Muchas gracias!\n\n[MSG3]\nDossier enviado — 06/07/26",
+    "raw_md": "# Marta Sáenz Herrera\n\n**Fecha:** 06/07/26\n**Cargo:** Marketing & Communications Manager | Paid Media | Performance Marketing | Growth Marketing | Corporate Marketing | Demand Generation | Content Manager\n**Empresa:** PHD Media Spain\n**Pais:** España\n**Sector:** Agencias / Medios / Marketing / Tecnología (indirectamente)\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre Digital Masters by PHD Barcelona (3 semanas atrás) donde destaca el trabajo en equipo: \"Cuando ves la sala llena, solo puedes pensar una cosa: esto es trabajo en equipo de verdad. Y me siento muy afortunada de formar parte de esto y de contar con personas que empujan, suman y hacen que todo esto sea posible.\" — eligió dar crédito al equipo antes de celebrar el evento.\n- **Tensión profesional:** Escalar el impacto de comunicación de marca sin que dependa de personas específicas. Coordinar narrativa consistente entre múltiples canales (eventos, contenido editorial, redes, partnerships) mientras crece la compañía.\n- **Hipótesis:** Posicionamiento del comunicador en una organización en transición. Cómo construir narrativa de marca en contextos de cambio orgánico (fusión Omnicom-IPG, transformación digital). Escalabilidad de la ejecución editorial.\n- **Ángulo MSG1:** La celebración del trabajo en equipo (SEÑAL_HUMANA) como indicador de que entiende que la ejecución compleja no depende de un heroísmo individual, sino de coordinación sostenida.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Marta, gracias por conectar. 👋\n>\n> Me llamó la atención la publicación que compartiste después del Digital Masters de Barcelona. Lo que más me gustó fue que le diste crédito al equipo antes de hablar del evento. No es lo primero que la gente destaca cuando comunica algo así.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia, encantada de saludarte y muchas gracias por tu mensaje.\n> La verdad es que Digital Masters es lo que es gracias al trabajo en equipo que hay detrás. Para mi era importante reflejarlo en un post más personal, porque sacar adelante este evento ha sido un reto para mi por muchas razones.\n> Dicho esto, encantada de ayudarte con la consulta que tengas. Muchas gracias. Saludos!\n\n---\n\n## MSG2\n> Buenas Marta! Que algo cueste \"por muchas razones\" y aun así se haga, y después la primera reacción sea agradecerle al equipo, dice mucho.\n> Cuando un evento como Digital Masters sale bien, cómo están aprovechando ese momento para que la organización o la marca detrás también gane visibilidad?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos y organizaciones a capitalizar ese tipo de logros: contenido, amplificación y comunicación de marca. Trabajamos con Destiny Group en eventos y comunicación institucional.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2\n> Puedes enviármelo por aquí sin problema, Florencia. Muchas gracias!\n\n---\n\n## Dossier\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "sin_blockquote: msg3 — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

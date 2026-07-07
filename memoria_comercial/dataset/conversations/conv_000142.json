@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000142",
+  "contact_id": "ctc_000200",
+  "source_file": "conversaciones/junio/cristina-loaiza.md",
+  "fingerprint": "sha256:d8531cbfe067af48a46a06336ba14fea31883239099e5b4319af0d27d31e1db9",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/cristina-loaiza.md",
+    "file_hash": "sha256:d8531cbfe067af48a46a06336ba14fea31883239099e5b4319af0d27d31e1db9",
+    "file_modified": "2026-06-23T21:47:10.141647+00:00",
+    "file_size": 1941,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Cristina Loaiza",
+    "empresa": "Nutrisnacks (Mafam)",
+    "cargo": "Marketing & Digital Strategy",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "dossier por mandar (aceptó)"
+  },
+  "normalized": {
+    "sector": "ALIMENTACION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "INTERNAL_TEAM",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Cristina, gracias por conectar! Me llamó la atención la publicación sobre Kellogg, especialmente cuando mencionás que querías \"pensar más estratégicamente sobre crecimiento centrado en el cliente\". Eso no es cualquier intención, la mayoría completa un programa y listo. Vos además lo escribís pensando en cómo aplicarlo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Mucho gusto! Claro, en lo que le pueda ayudar, con mucho gusto.",
+    "msg2_texto": "Buenas Cristina, gracias por la disposición!\n\nLo de Kellogg se nota en cómo venís manejando Nutrisnacks: campañas, eventos, contenido educativo y producto, todo en simultáneo desde un equipo chico. Aplicar pensamiento estratégico ahí no es poca cosa.\n\nEn Hint Media trabajamos comunicación y contenido para marcas de consumo, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Si, en Nutrisnacks trabajamos todo in-house, pero si gusta me puede enviar el dossier por acá.",
+    "seg1_enviado": true,
+    "seg1_texto": "Cristina, como estás? No sé si llegaste a ver el material que te mandamos. Entiendo que hoy lo manejan todo in-house, tiene mucho sentido con un equipo chico que ya domina campañas, eventos y contenido a la vez. Si en algún momento puntual necesitan una mano extra para algo específico, con gusto charlamos 15 minutos sin compromiso.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "mucho",
+      "gusto",
+      "pueda",
+      "ayudar",
+      "nutrisnacks",
+      "trabajamos",
+      "todo",
+      "house",
+      "gusta"
+    ],
+    "notas": "- Trabajan todo in-house, igual aceptó ver el dossier. Sector consumo/alimentos → Destiny Group y Tasarolli.\n- Pendiente enviar dossier real."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Cristina Loaiza]\n[EMPRESA: Nutrisnacks (Mafam)]\n[CARGO: Marketing & Digital Strategy]\n[SECTOR: Consumo / alimentos]\n[PAIS: Costa Rica]\n\n[MSG1]\nCristina, gracias por conectar! Me llamó la atención la publicación sobre Kellogg, especialmente cuando mencionás que querías \"pensar más estratégicamente sobre crecimiento centrado en el cliente\". Eso no es cualquier intención, la mayoría completa un programa y listo. Vos además lo escribís pensando en cómo aplicarlo.\n\n[RESPUESTA_MSG1]\nHola Florencia! Mucho gusto! Claro, en lo que le pueda ayudar, con mucho gusto.\n\n[MSG2]\nBuenas Cristina, gracias por la disposición!\n\nLo de Kellogg se nota en cómo venís manejando Nutrisnacks: campañas, eventos, contenido educativo y producto, todo en simultáneo desde un equipo chico. Aplicar pensamiento estratégico ahí no es poca cosa.\n\nEn Hint Media trabajamos comunicación y contenido para marcas de consumo, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSi, en Nutrisnacks trabajamos todo in-house, pero si gusta me puede enviar el dossier por acá.\n\n[SEG1]\nCristina, como estás? No sé si llegaste a ver el material que te mandamos. Entiendo que hoy lo manejan todo in-house, tiene mucho sentido con un equipo chico que ya domina campañas, eventos y contenido a la vez. Si en algún momento puntual necesitan una mano extra para algo específico, con gusto charlamos 15 minutos sin compromiso.\n\n[NOTAS]\n- Trabajan todo in-house, igual aceptó ver el dossier. Sector consumo/alimentos → Destiny Group y Tasarolli.\n- Pendiente enviar dossier real.",
+    "raw_md": "# Cristina Loaiza\n\n**Estado:** dossier por mandar (aceptó)\n**Fecha:** 18/06/26\n**Cargo:** Marketing & Digital Strategy\n**Empresa:** Nutrisnacks (Mafam)\n**País:** Costa Rica\n**Sector:** Consumo / alimentos\n\n## MSG1\n> Cristina, gracias por conectar! Me llamó la atención la publicación sobre Kellogg, especialmente cuando mencionás que querías \"pensar más estratégicamente sobre crecimiento centrado en el cliente\". Eso no es cualquier intención, la mayoría completa un programa y listo. Vos además lo escribís pensando en cómo aplicarlo.\n\n## Respuesta MSG1\n> Hola Florencia! Mucho gusto! Claro, en lo que le pueda ayudar, con mucho gusto.\n\n## MSG2\n> Buenas Cristina, gracias por la disposición!\n>\n> Lo de Kellogg se nota en cómo venís manejando Nutrisnacks: campañas, eventos, contenido educativo y producto, todo en simultáneo desde un equipo chico. Aplicar pensamiento estratégico ahí no es poca cosa.\n>\n> En Hint Media trabajamos comunicación y contenido para marcas de consumo, como Destiny Group y Tasarolli.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Si, en Nutrisnacks trabajamos todo in-house, pero si gusta me puede enviar el dossier por acá.\n\n## Cierre\n> Buenísimo, te lo mando ahora mismo. Cualquier consulta que tengas viéndolo, estoy acá.\n\n## SEG1 (enviado 23/06/26) — bajo compromiso, respeta que trabajan in-house\n> Cristina, como estás? No sé si llegaste a ver el material que te mandamos. Entiendo que hoy lo manejan todo in-house, tiene mucho sentido con un equipo chico que ya domina campañas, eventos y contenido a la vez. Si en algún momento puntual necesitan una mano extra para algo específico, con gusto charlamos 15 minutos sin compromiso.\n\n## Notas\n- Trabajan todo in-house, igual aceptó ver el dossier. Sector consumo/alimentos → Destiny Group y Tasarolli.\n- Pendiente enviar dossier real.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

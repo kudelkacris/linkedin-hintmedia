@@ -1,0 +1,104 @@
+{
+  "CEO": {
+    "total": 21,
+    "respondio_msg1": 12,
+    "dossier_enviado": 10,
+    "call_agendada": 0,
+    "response_rate": 0.5714,
+    "dossier_rate": 0.4762,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.8333,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 10,
+      "SIN_RESPUESTA": 9,
+      "CERRADO_SIN_INTERES": 2,
+      "REUNION": 0
+    }
+  },
+  "DESCONOCIDO": {
+    "total": 77,
+    "respondio_msg1": 41,
+    "dossier_enviado": 35,
+    "call_agendada": 0,
+    "response_rate": 0.5325,
+    "dossier_rate": 0.4545,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.8537,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 48,
+      "SIN_RESPUESTA": 19,
+      "CERRADO_SIN_INTERES": 10,
+      "REUNION": 0
+    }
+  },
+  "DIRECTOR": {
+    "total": 46,
+    "respondio_msg1": 27,
+    "dossier_enviado": 23,
+    "call_agendada": 0,
+    "response_rate": 0.587,
+    "dossier_rate": 0.5,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.8519,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 37,
+      "SIN_RESPUESTA": 6,
+      "CERRADO_SIN_INTERES": 3,
+      "REUNION": 0
+    }
+  },
+  "MANAGER": {
+    "total": 103,
+    "respondio_msg1": 57,
+    "dossier_enviado": 44,
+    "call_agendada": 0,
+    "response_rate": 0.5534,
+    "dossier_rate": 0.4272,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.7719,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 71,
+      "SIN_RESPUESTA": 22,
+      "CERRADO_SIN_INTERES": 10,
+      "REUNION": 0
+    }
+  },
+  "SPECIALIST": {
+    "total": 27,
+    "respondio_msg1": 18,
+    "dossier_enviado": 15,
+    "call_agendada": 2,
+    "response_rate": 0.6667,
+    "dossier_rate": 0.5556,
+    "call_rate": 0.0741,
+    "dossier_from_response": 0.8333,
+    "call_from_dossier": 0.1333,
+    "by_resultado": {
+      "EN_PROCESO": 17,
+      "SIN_RESPUESTA": 6,
+      "CERRADO_SIN_INTERES": 2,
+      "REUNION": 2
+    }
+  },
+  "VP": {
+    "total": 2,
+    "respondio_msg1": 2,
+    "dossier_enviado": 1,
+    "call_agendada": 0,
+    "response_rate": 1.0,
+    "dossier_rate": 0.5,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.5,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 2,
+      "SIN_RESPUESTA": 0,
+      "CERRADO_SIN_INTERES": 0,
+      "REUNION": 0
+    }
+  }
+}

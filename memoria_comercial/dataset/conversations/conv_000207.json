@@ -1,0 +1,86 @@
+{
+  "conversation_id": "conv_000207",
+  "contact_id": "ctc_000495",
+  "source_file": "conversaciones/junio/lilia-sanchez-gonzalez.md",
+  "fingerprint": "sha256:897afe82de74274463e2a9ff29a151dd5101f0417d1e3b767dfcc33be503a768",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/lilia-sanchez-gonzalez.md",
+    "file_hash": "sha256:897afe82de74274463e2a9ff29a151dd5101f0417d1e3b767dfcc33be503a768",
+    "file_modified": "2026-07-02T21:54:14.032589+00:00",
+    "file_size": 1201,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Lilia Sánchez González",
+    "empresa": "",
+    "cargo": "",
+    "pais": "",
+    "fecha": "12/06/26",
+    "estado_texto": "Cerrada — no interesados, todo cubierto internamente — 02/07/26"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Lilia!\nQuedé pensando en el cruce que manejás entre salud y logística. Hay algunas cosas que hicimos con clientes en posiciones similares que te podrían interesar ver en vivo.\nPodemos hacer una charla de 20 minutos esta semana o la próxima, lo que te quede mejor.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "lilia",
+      "entendido",
+      "mucho",
+      "exito",
+      "global",
+      "pharma"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Lilia Sánchez González]\n\n[SEG1]\nBuenas Lilia!\nQuedé pensando en el cruce que manejás entre salud y logística. Hay algunas cosas que hicimos con clientes en posiciones similares que te podrían interesar ver en vivo.\nPodemos hacer una charla de 20 minutos esta semana o la próxima, lo que te quede mejor.",
+    "raw_md": "---\nname: lilia-sanchez-gonzalez\ndescription: MSG2 enviado, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Lilia Sánchez González\n**Fecha:** 12/06/26\n\n**Resumen:**\n- Confirmó cargo → MSG2 enviado\n\n## SEG1 (01/07/26 — miércoles 11:40)\n> Buenas Lilia!\n> Quedé pensando en el cruce que manejás entre salud y logística. Hay algunas cosas que hicimos con clientes en posiciones similares que te podrían interesar ver en vivo.\n> Podemos hacer una charla de 20 minutos esta semana o la próxima, lo que te quede mejor.\n\n## Respuesta SEG1 (02/07/26)\n> Hola Florencia,\n> Muchas gracias por tu mensaje y por el interés en conectar.\n> Te comento que, en este momento, no estamos interesados. En Global Pharma & Logistic ya contamos con nuestras operaciones y procesos logísticos completamente estructurados y cubiertos, por lo que actualmente no estamos buscando nuevas propuestas ni agendando espacios para revisar soluciones externas.\n> Agradecemos mucho tu acercamiento y te deseamos mucho éxito.\n\n## Cierre (02/07/26)\n> Gracias Lilia, entendido. Mucho éxito para Global Pharma!\n\n**Estado:** Cerrada — no interesados, todo cubierto internamente — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.25
+  }
+}

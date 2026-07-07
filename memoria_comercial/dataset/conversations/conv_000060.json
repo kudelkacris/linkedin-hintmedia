@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000060",
+  "contact_id": "ctc_000056",
+  "source_file": "conversaciones/julio/karina-arias-azofeifa-mba.md",
+  "fingerprint": "sha256:e1a65b2d273466f747d3ec1200a996a90b39b92ab91a428795938dd0f3e98bd2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/karina-arias-azofeifa-mba.md",
+    "file_hash": "sha256:e1a65b2d273466f747d3ec1200a996a90b39b92ab91a428795938dd0f3e98bd2",
+    "file_modified": "2026-07-06T14:29:08.518349+00:00",
+    "file_size": 2388,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Karina Arias Azofeifa, MBA",
+    "empresa": "Universidad Latina de Costa Rica",
+    "cargo": "Executive Master in Digital Transformation. | Marketing Expert Driving Innovation in Export Strategies and Business Development. | Scrum Master. | Des",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Karina, gracias por conectar 👋\n\nMe llamó la atención el análisis que hiciste sobre el movimiento Unilever-McCormick. No es lo que la mayoría comenta en el feed cuando pasa algo así. La mayoría postea titulares, vos desglosaste la estructura de negocio detrás. Eso dice bastante de cómo mirás los movimientos del sector.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Compartió activamente contenido sobre sostenibilidad y ESG (Biodiversidad, Día de la Madre Tierra, economía circular, trazabilidad FSC). Además comentó análisis estratégico sofisticado de fusiones (Unilever-McCormick) y reflexionó sobre la evolución del marketing hacia lo \"cognitivo\" (Kotler 7.0). Señal clara: decide mostrar expertise en transformación sectorial y pensamiento estratégico, no solo ejecución táctica.",
+    "hipotesis": "Qué conversaciones interesantes puede tener: cómo posicionar una categoría de commodity con atributos de sostenibilidad en mercados donde eso aún no es prioritario / cómo transformar compliance ambiental en ventaja comercial / cómo construir marca B2B2C en sectores tradicionales / transición de CPG multinacional a liderazgo en empresa regional.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karina Arias Azofeifa, MBA]\n[EMPRESA: Universidad Latina de Costa Rica]\n[CARGO: Executive Master in Digital Transformation. | Marketing Expert Driving Innovation in Export Strategies and Business Development. | Scrum Master. | Des]\n[SECTOR: Export, Forestry, Logistics, Sustainable Supply Chain (Costa Rica/Centroamérica)]\n[PAIS: Costa Rica]\n[SENAL: Compartió activamente contenido sobre sostenibilidad y ESG (Biodiversidad, Día de la Madre Tierra, economía circular, trazabilidad FSC). Además comentó análisis estratégico sofisticado de fusiones (Unilever-McCormick) y reflexionó sobre la evolución del marketing hacia lo \"cognitivo\" (Kotler 7.0). Señal clara: decide mostrar expertise en transformación sectorial y pensamiento estratégico, no solo ejecución táctica.]\n[HIPOTESIS: Qué conversaciones interesantes puede tener: cómo posicionar una categoría de commodity con atributos de sostenibilidad en mercados donde eso aún no es prioritario / cómo transformar compliance ambiental en ventaja comercial / cómo construir marca B2B2C en sectores tradicionales / transición de CPG multinacional a liderazgo en empresa regional.]\n\n[MSG1]\nKarina, gracias por conectar 👋\n\nMe llamó la atención el análisis que hiciste sobre el movimiento Unilever-McCormick. No es lo que la mayoría comenta en el feed cuando pasa algo así. La mayoría postea titulares, vos desglosaste la estructura de negocio detrás. Eso dice bastante de cómo mirás los movimientos del sector.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Karina Arias Azofeifa, MBA\n\n**Fecha:** 06/07/26\n**Cargo:** Executive Master in Digital Transformation. | Marketing Expert Driving Innovation in Export Strategies and Business Development. | Scrum Master. | Des\n**Empresa:** Universidad Latina de Costa Rica\n**Pais:** Costa Rica\n**Sector:** Export, Forestry, Logistics, Sustainable Supply Chain (Costa Rica/Centroamérica)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Compartió activamente contenido sobre sostenibilidad y ESG (Biodiversidad, Día de la Madre Tierra, economía circular, trazabilidad FSC). Además comentó análisis estratégico sofisticado de fusiones (Unilever-McCormick) y reflexionó sobre la evolución del marketing hacia lo \"cognitivo\" (Kotler 7.0). Señal clara: decide mostrar expertise en transformación sectorial y pensamiento estratégico, no solo ejecución táctica.\n- **Tensión profesional:** Comunicar valor diferenciado de productos de madera (durabilidad, sostenibilidad, trazabilidad) a audiencias que evalúan principalmente precio y disponibilidad inmediata. Además, coordinar narrativa consistente entre producción sostenible y demanda comercial real.\n- **Hipótesis:** Qué conversaciones interesantes puede tener: cómo posicionar una categoría de commodity con atributos de sostenibilidad en mercados donde eso aún no es prioritario / cómo transformar compliance ambiental en ventaja comercial / cómo construir marca B2B2C en sectores tradicionales / transición de CPG multinacional a liderazgo en empresa regional.\n- **Ángulo MSG1:** El contenido sobre sostenibilidad/ESG que comparte, combinado con su análisis estratégico sofisticado (Unilever-McCormick), sugiere que ve su rol no como ejecución de campañas puntuales sino como construcción de narrativa estratégica que conecte operaciones responsables con mercado. Eso es el ángulo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Karina, gracias por conectar 👋\n>\n> Me llamó la atención el análisis que hiciste sobre el movimiento Unilever-McCormick. No es lo que la mayoría comenta en el feed cuando pasa algo así. La mayoría postea titulares, vos desglosaste la estructura de negocio detrás. Eso dice bastante de cómo mirás los movimientos del sector.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

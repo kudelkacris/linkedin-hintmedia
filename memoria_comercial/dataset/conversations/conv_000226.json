@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000226",
+  "contact_id": "ctc_000146",
+  "source_file": "conversaciones/junio/mariana-btesh.md",
+  "fingerprint": "sha256:f5cf5aa45c47464f4ec781209ff95355d6929bc5772395d482fdb96c85d72e32",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/mariana-btesh.md",
+    "file_hash": "sha256:f5cf5aa45c47464f4ec781209ff95355d6929bc5772395d482fdb96c85d72e32",
+    "file_modified": "2026-07-01T15:55:30.042014+00:00",
+    "file_size": 1849,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Mariana Btesh",
+    "empresa": "Aki KB Minibodegas",
+    "cargo": "Jefe de Marketing",
+    "pais": "Chile",
+    "fecha": "19/06/26",
+    "estado_texto": "RECONTACTO 01/10/26. SEG1 enviado 01/07/26, respondió con emoji \"Gracias\" — cierre suave. Recontactar en octubre."
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Mariana, gracias por conectar 👋\n\nMe llamó la atención la forma en que presentaste a Lisderlie cuando se sumó al equipo. No solo comunicaste que se había integrado, sino que resaltaste el aprendizaje que ella tuvo visitando las sucursales y le diste crédito explícito por \"ser un eslabón clave\". Es lo opuesto a lo que hace la mayoría de los líderes cuando llega alguien nuevo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "🤗😄🤐 Hola Florencia, como estas?\nCuéntame que necesitas...",
+    "msg2_texto": "Hola Mariana, todo bien por aquí, gracias!\nJusto eso fue lo que me llamó la atención, porque se nota que en Aki KB vos misma bajás esa estrategia a terreno, llevando al equipo a vivir el servicio para que la comunicación hacia el cliente sea genuina y no solo discurso. Esa coherencia entre cultura interna y experiencia de cliente es justo lo que más cuesta sostener cuando la empresa crece.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "cuentame",
+      "necesitas"
+    ],
+    "notas": "- Sector retail/almacenamiento (Aki KB Minibodegas), también consultora de marketing/comunicación estratégica. Cliente ejemplo: Destiny Group, Tasarolli.\n- Muy activa en LinkedIn con contenido sobre liderazgo femenino, salud mental, comunicación corporativa."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mariana Btesh]\n[EMPRESA: Aki KB Minibodegas]\n[CARGO: Jefe de Marketing]\n[PAIS: Chile]\n\n[MSG1]\nMariana, gracias por conectar 👋\n\nMe llamó la atención la forma en que presentaste a Lisderlie cuando se sumó al equipo. No solo comunicaste que se había integrado, sino que resaltaste el aprendizaje que ella tuvo visitando las sucursales y le diste crédito explícito por \"ser un eslabón clave\". Es lo opuesto a lo que hace la mayoría de los líderes cuando llega alguien nuevo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n🤗😄🤐 Hola Florencia, como estas?\nCuéntame que necesitas...\n\n[MSG2]\nHola Mariana, todo bien por aquí, gracias!\nJusto eso fue lo que me llamó la atención, porque se nota que en Aki KB vos misma bajás esa estrategia a terreno, llevando al equipo a vivir el servicio para que la comunicación hacia el cliente sea genuina y no solo discurso. Esa coherencia entre cultura interna y experiencia de cliente es justo lo que más cuesta sostener cuando la empresa crece.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector retail/almacenamiento (Aki KB Minibodegas), también consultora de marketing/comunicación estratégica. Cliente ejemplo: Destiny Group, Tasarolli.\n- Muy activa en LinkedIn con contenido sobre liderazgo femenino, salud mental, comunicación corporativa.",
+    "raw_md": "# Mariana Btesh\n\n**Estado:** RECONTACTO 01/10/26. SEG1 enviado 01/07/26, respondió con emoji \"Gracias\" — cierre suave. Recontactar en octubre.\n**Fecha:** 19/06/26\n**Cargo:** Jefe de Marketing\n**Empresa:** Aki KB Minibodegas\n**País:** Chile\n\n## MSG1\n> Mariana, gracias por conectar 👋\n>\n> Me llamó la atención la forma en que presentaste a Lisderlie cuando se sumó al equipo. No solo comunicaste que se había integrado, sino que resaltaste el aprendizaje que ella tuvo visitando las sucursales y le diste crédito explícito por \"ser un eslabón clave\". Es lo opuesto a lo que hace la mayoría de los líderes cuando llega alguien nuevo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> 🤗😄🤐 Hola Florencia, como estas?\n> Cuéntame que necesitas...\n\n## MSG2\n> Hola Mariana, todo bien por aquí, gracias!\n> Justo eso fue lo que me llamó la atención, porque se nota que en Aki KB vos misma bajás esa estrategia a terreno, llevando al equipo a vivir el servicio para que la comunicación hacia el cliente sea genuina y no solo discurso. Esa coherencia entre cultura interna y experiencia de cliente es justo lo que más cuesta sostener cuando la empresa crece.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector retail/almacenamiento (Aki KB Minibodegas), también consultora de marketing/comunicación estratégica. Cliente ejemplo: Destiny Group, Tasarolli.\n- Muy activa en LinkedIn con contenido sobre liderazgo femenino, salud mental, comunicación corporativa.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

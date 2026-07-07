@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000243",
+  "contact_id": "ctc_000376",
+  "source_file": "conversaciones/junio/nohelia-alfaro-b.md",
+  "fingerprint": "sha256:2b52b291d510b414f4ae88e60d8dd36aa556674595e4a7e72ecab9117ba4cd8a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/nohelia-alfaro-b.md",
+    "file_hash": "sha256:2b52b291d510b414f4ae88e60d8dd36aa556674595e4a7e72ecab9117ba4cd8a",
+    "file_modified": "2026-06-12T20:13:54.587250+00:00",
+    "file_size": 1078,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Nohelia Alfaro B",
+    "empresa": "RED MOTORS - Costa Rica",
+    "cargo": "Gerente de Marketing & Customer Experience BMWG",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Nohelia Alfaro B]\n[EMPRESA: RED MOTORS - Costa Rica]\n[CARGO: Gerente de Marketing & Customer Experience BMWG]\n[PAIS: Costa Rica]",
+    "raw_md": "---\nname: nohelia-alfaro-b\ndescription: MSG2 enviado, Marketing Manager BMW RED MOTORS Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Nohelia Alfaro B\n**Cargo:** Gerente de Marketing & Customer Experience BMWG\n**Empresa:** RED MOTORS - Costa Rica\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó los logros en paralelo: Comité CX, contact center, chatbot multicanal, campaña Mapa Eléctrico (Effie Latam Oro). Variante C.\n- Respondió: \"Hola Florencia, Qué tal\" — señal verde tibia\n- MSG2 enviado — gap: BMW y MINI son dos lenguajes de marca muy distintos, mantener esa diferencia nítida mientras también manejás eventos, lanzamientos y CX es donde el contenido empieza a perder cuidado por urgencia. Mención Destiny Group.\n\n**Notas:**\n- Effie de Plata por BMW XChange (Costa Rica), Effie Latam Oro por Mapa Eléctrico\n- Trabaja muy alineada con agencias — las ve como extensión del equipo, no proveedores\n- Maneja BMW + MINI simultáneamente\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

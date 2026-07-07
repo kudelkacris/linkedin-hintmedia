@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000146",
+  "contact_id": "ctc_000347",
+  "source_file": "conversaciones/junio/daniela-leiton-salazar.md",
+  "fingerprint": "sha256:0bbcd089fab3a04b1084a10448b2de6dce1993da4ce84bdecd9ba0898d1b145c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/daniela-leiton-salazar.md",
+    "file_hash": "sha256:0bbcd089fab3a04b1084a10448b2de6dce1993da4ce84bdecd9ba0898d1b145c",
+    "file_modified": "2026-06-11T21:42:53.285190+00:00",
+    "file_size": 1911,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Daniela Leitón Salazar",
+    "empresa": "Star Cars",
+    "cargo": "Digital Marketing Executive (may 2026, 2 meses)",
+    "pais": "Costa Rica (Alajuela)",
+    "fecha": "12/06/26",
+    "estado_texto": "MSG2 enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia Di Rado\n19:33\n\nHola Daniela, gracias por conectar.\n\nMe llamó la atención la forma en que escribiste sobre el caso de Lincoln Plaza. No fue \"ganamos un Effie\" — fue sobre cómo un equipo decide \"construir con intención y profundidad\". Eso no lo escribe cualquiera que hace marketing.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, muchas gracias por tus palabras. Me alegra que esa reflexión te haya llamado la atención. Claro, con gusto, ¿en qué te puedo ayudar?",
+    "msg2_texto": "Hola Daniela, que bueno!\n\nLo que me quedó fue eso — alguien que entiende el marketing como estrategia sostenida con datos y creatividad, y que dos meses adentro de Star Cars ya tiene que ejecutar contenido, leads y digital al mismo tiempo. Esa tensión entre pensar profundo y producir rápido es exactamente donde la mayoría de los equipos empiezan a perder calidad de ejecución.\n\nDesde Hint Media trabajamos con empresas en esa etapa — sumamos capacidad en contenido y digital para que la estrategia no se diluya en la operación del día a día. Hemos trabajado con Destiny Group, Tasarolli y otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "muchas",
+      "palabras",
+      "alegra",
+      "reflexion",
+      "haya",
+      "llamado",
+      "atencion",
+      "gusto",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Perfil junior — 2 meses en rol. Puede que no decida presupuesto.\n- Antes: Communications Council Intern en Emerson (8 meses), Kantar.\n- Logro: Effie College Costa Rica 2025 — Oro con caso Lincoln Plaza.\n- Skills destacadas: Power BI, Databricks, Microsoft Fabric, data analytics.\n- Si no responde o dice no ser ella, pivot a referido."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daniela Leitón Salazar]\n[EMPRESA: Star Cars]\n[CARGO: Digital Marketing Executive (may 2026, 2 meses)]\n[SECTOR: Automotriz]\n[PAIS: Costa Rica (Alajuela)]\n\n[MSG1]\nFlorencia Di Rado\n19:33\n\nHola Daniela, gracias por conectar.\n\nMe llamó la atención la forma en que escribiste sobre el caso de Lincoln Plaza. No fue \"ganamos un Effie\" — fue sobre cómo un equipo decide \"construir con intención y profundidad\". Eso no lo escribe cualquiera que hace marketing.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, muchas gracias por tus palabras. Me alegra que esa reflexión te haya llamado la atención. Claro, con gusto, ¿en qué te puedo ayudar?\n\n[MSG2]\nHola Daniela, que bueno!\n\nLo que me quedó fue eso — alguien que entiende el marketing como estrategia sostenida con datos y creatividad, y que dos meses adentro de Star Cars ya tiene que ejecutar contenido, leads y digital al mismo tiempo. Esa tensión entre pensar profundo y producir rápido es exactamente donde la mayoría de los equipos empiezan a perder calidad de ejecución.\n\nDesde Hint Media trabajamos con empresas en esa etapa — sumamos capacidad en contenido y digital para que la estrategia no se diluya en la operación del día a día. Hemos trabajado con Destiny Group, Tasarolli y otros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Perfil junior — 2 meses en rol. Puede que no decida presupuesto.\n- Antes: Communications Council Intern en Emerson (8 meses), Kantar.\n- Logro: Effie College Costa Rica 2025 — Oro con caso Lincoln Plaza.\n- Skills destacadas: Power BI, Databricks, Microsoft Fabric, data analytics.\n- Si no responde o dice no ser ella, pivot a referido.",
+    "raw_md": "# Daniela Leitón Salazar\n**Fecha:** 12/06/26\n**Empresa:** Star Cars\n**Cargo:** Digital Marketing Executive (may 2026, 2 meses)\n**País:** Costa Rica (Alajuela)\n**Sector:** Automotriz\n**Estado:** MSG2 enviado, esperando respuesta\n\n---\n\n## MSG1\n> Florencia Di Rado\n> 19:33\n>\n> Hola Daniela, gracias por conectar.\n>\n> Me llamó la atención la forma en que escribiste sobre el caso de Lincoln Plaza. No fue \"ganamos un Effie\" — fue sobre cómo un equipo decide \"construir con intención y profundidad\". Eso no lo escribe cualquiera que hace marketing.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, muchas gracias por tus palabras. Me alegra que esa reflexión te haya llamado la atención. Claro, con gusto, ¿en qué te puedo ayudar?\n\n## MSG2\n> Hola Daniela, que bueno!\n>\n> Lo que me quedó fue eso — alguien que entiende el marketing como estrategia sostenida con datos y creatividad, y que dos meses adentro de Star Cars ya tiene que ejecutar contenido, leads y digital al mismo tiempo. Esa tensión entre pensar profundo y producir rápido es exactamente donde la mayoría de los equipos empiezan a perder calidad de ejecución.\n>\n> Desde Hint Media trabajamos con empresas en esa etapa — sumamos capacidad en contenido y digital para que la estrategia no se diluya en la operación del día a día. Hemos trabajado con Destiny Group, Tasarolli y otros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Perfil junior — 2 meses en rol. Puede que no decida presupuesto.\n- Antes: Communications Council Intern en Emerson (8 meses), Kantar.\n- Logro: Effie College Costa Rica 2025 — Oro con caso Lincoln Plaza.\n- Skills destacadas: Power BI, Databricks, Microsoft Fabric, data analytics.\n- Si no responde o dice no ser ella, pivot a referido.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

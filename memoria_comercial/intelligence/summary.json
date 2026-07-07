@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-07T18:18:22.287528",
+  "global": {
+    "total_conversations": 276,
+    "response_rate": 0.5688,
+    "dossier_rate": 0.4638,
+    "call_rate": 0.0072
+  },
+  "best_performers": {
+    "sector_by_response": "MINERIA",
+    "sector_by_dossier": "GOBIERNO",
+    "seniority_by_response": "SPECIALIST",
+    "variant_by_response": "C"
+  },
+  "funnel_drops": {
+    "MSG1→Respuesta": 119,
+    "Respuesta→Dossier": 29,
+    "Dossier→Call": 126
+  },
+  "biggest_dropoff": "Dossier→Call"
+}

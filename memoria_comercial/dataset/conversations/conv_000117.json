@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000117",
+  "contact_id": "ctc_000243",
+  "source_file": "conversaciones/junio/bernardo-guevara-morales.md",
+  "fingerprint": "sha256:1b2489aebc0d738a7c925894eb4918dd353977197d0ab279506d7bde295426b1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/bernardo-guevara-morales.md",
+    "file_hash": "sha256:1b2489aebc0d738a7c925894eb4918dd353977197d0ab279506d7bde295426b1",
+    "file_modified": "2026-07-01T15:55:05.570171+00:00",
+    "file_size": 1759,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Bernardo Guevara Morales",
+    "empresa": "SkyData Latam (telecom, IT, cyberseguridad, gestión de flotas/IA)",
+    "cargo": "Gerente Comercial",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26 (MSG1, MSG2 y aceptación dossier el mismo día)",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "TELECOMUNICACIONES",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Bernardo, gracias por conectar. Un gusto. Me llamó la atención cómo diseñaste ese desayuno corporativo con DIPO. Particularmente que eligieras darle la voz al cliente en lugar de hacer la presentación tradicional. No es lo que la mayoría hace cuando quiere mostrar una solución. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "buenos días, gusto saludarte... con gusto, dime...",
+    "msg2_texto": "Buenos días Bernardo, el gusto es mío!\n\nApostar a que el cliente hable en vez de armar otra presentación dice que para vos la prueba real pesa más que el discurso de venta. Eso normalmente exige sostener esa narrativa de forma consistente, no solo en un evento puntual.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene la voz del cliente y la marca en el tiempo. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dias",
+      "gusto",
+      "saludarte",
+      "dime"
+    ],
+    "notas": "- Ángulo MSG1: desayuno corporativo con DIPO, dio voz al cliente en vez de presentación tradicional.\n- Interpretación: prioriza prueba real sobre pitch de venta.\n- Sector: tecnología/telecom, clientes referencia Destiny Group/Libra Seguros.\n- 264 contactos, publica seguido (señales activas: liderazgo, IA, funnel, shadow AI)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Bernardo Guevara Morales]\n[EMPRESA: SkyData Latam (telecom, IT, cyberseguridad, gestión de flotas/IA)]\n[CARGO: Gerente Comercial]\n[PAIS: Costa Rica]\n\n[MSG1]\nBernardo, gracias por conectar. Un gusto. Me llamó la atención cómo diseñaste ese desayuno corporativo con DIPO. Particularmente que eligieras darle la voz al cliente en lugar de hacer la presentación tradicional. No es lo que la mayoría hace cuando quiere mostrar una solución. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nbuenos días, gusto saludarte... con gusto, dime...\n\n[MSG2]\nBuenos días Bernardo, el gusto es mío!\n\nApostar a que el cliente hable en vez de armar otra presentación dice que para vos la prueba real pesa más que el discurso de venta. Eso normalmente exige sostener esa narrativa de forma consistente, no solo en un evento puntual.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene la voz del cliente y la marca en el tiempo. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro\n\n[NOTAS]\n- Ángulo MSG1: desayuno corporativo con DIPO, dio voz al cliente en vez de presentación tradicional.\n- Interpretación: prioriza prueba real sobre pitch de venta.\n- Sector: tecnología/telecom, clientes referencia Destiny Group/Libra Seguros.\n- 264 contactos, publica seguido (señales activas: liderazgo, IA, funnel, shadow AI).",
+    "raw_md": "# Bernardo Guevara Morales\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26 (MSG1, MSG2 y aceptación dossier el mismo día)\n**Cargo:** Gerente Comercial\n**Empresa:** SkyData Latam (telecom, IT, cyberseguridad, gestión de flotas/IA)\n**País:** Costa Rica\n\n## MSG1\n> Bernardo, gracias por conectar. Un gusto. Me llamó la atención cómo diseñaste ese desayuno corporativo con DIPO. Particularmente que eligieras darle la voz al cliente en lugar de hacer la presentación tradicional. No es lo que la mayoría hace cuando quiere mostrar una solución. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> buenos días, gusto saludarte... con gusto, dime...\n\n## MSG2 (redactado, por enviar)\n> Buenos días Bernardo, el gusto es mío!\n>\n> Apostar a que el cliente hable en vez de armar otra presentación dice que para vos la prueba real pesa más que el discurso de venta. Eso normalmente exige sostener esa narrativa de forma consistente, no solo en un evento puntual.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que sostiene la voz del cliente y la marca en el tiempo. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (12:48)\n> Sí, claro\n\n## Notas\n- Ángulo MSG1: desayuno corporativo con DIPO, dio voz al cliente en vez de presentación tradicional.\n- Interpretación: prioriza prueba real sobre pitch de venta.\n- Sector: tecnología/telecom, clientes referencia Destiny Group/Libra Seguros.\n- 264 contactos, publica seguido (señales activas: liderazgo, IA, funnel, shadow AI).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

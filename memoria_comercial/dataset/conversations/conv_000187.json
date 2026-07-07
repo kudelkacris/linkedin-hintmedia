@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000187",
+  "contact_id": "ctc_000498",
+  "source_file": "conversaciones/junio/juan-carlos-posada.md",
+  "fingerprint": "sha256:b058b04178842a6d1ab62b03d990ada4d888debe885bdec081d36a96215eb505",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/juan-carlos-posada.md",
+    "file_hash": "sha256:b058b04178842a6d1ab62b03d990ada4d888debe885bdec081d36a96215eb505",
+    "file_modified": "2026-06-18T14:49:26.823264+00:00",
+    "file_size": 2589,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Juan Carlos Posada",
+    "empresa": "BAOBAB",
+    "cargo": "Gerente General | CMO | CCO",
+    "pais": "—",
+    "fecha": "04/06/26 (MSG1) — SEG1 17/06/26 — rechazo 18/06/26",
+    "estado_texto": "Cerrado, no interesado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Juan Carlos, gracias por aceptar mi solicitud de conexión! 👋\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente General en BAOBAB, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Depende de que necesites",
+    "msg2_texto": "Buen dia Juan. La pregunta es: en transformaciones tan complejas como las que estás liderando, quién está sosteniendo la narrativa interna y externa de esos cambios?\n\nDigo porque es lo que vemos constantemente, equipos muy buenos en estrategia y ejecución, pero la comunicación se queda atrás o dispersa.\n\nEn Hint Media ese es nuestro rol específico: ser el equipo de comunicación y marketing insertado dentro de la estructura, trabajando directamente con ejecutivos como vos para que esas transformaciones realmente calen.\n\nTe paso un dossier con cómo lo hacemos? Después me decís si ves sinergia o si es tema para más adelante.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "claro, pasame lo veo",
+    "seg1_enviado": true,
+    "seg1_texto": "Juan Carlos, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de liderar transformaciones tan grandes manejando equipos en Europa, Asia y LATAM al mismo tiempo.\n\nEso suele terminar marcando la diferencia entre una transformación que el equipo entiende y vive, y una que solo se anuncia desde arriba pero no termina de bajar igual en cada región.\n\nEs justo el tipo de situación con la que solemos acompañar a ejecutivos en procesos de cambio así.\n\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "depende",
+      "necesites",
+      "pasame",
+      "estoy",
+      "interesado",
+      "saludos"
+    ],
+    "notas": "- MSG1/MSG2 originales no siguen la metodología nueva (pregunta consultiva directa en MSG2, \"vemos constantemente\" — diagnóstico). Quedó como aprendizaje de qué NO repetir.\n- SEG1 usó ángulo nuevo (multicultural Europa/Asia/LATAM) en vez de repetir el de MSG1/MSG2 (transformación/narrativa), siguiendo la metodología de 6 líneas vigente en ese momento."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juan Carlos Posada]\n[EMPRESA: BAOBAB]\n[CARGO: Gerente General | CMO | CCO]\n[SECTOR: Transformación de negocios, multicultural (Europa, Asia, LATAM)]\n[PAIS: —]\n\n[MSG1]\nJuan Carlos, gracias por aceptar mi solicitud de conexión! 👋\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente General en BAOBAB, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola Florencia. Depende de que necesites\n\n[MSG2]\nBuen dia Juan. La pregunta es: en transformaciones tan complejas como las que estás liderando, quién está sosteniendo la narrativa interna y externa de esos cambios?\n\nDigo porque es lo que vemos constantemente, equipos muy buenos en estrategia y ejecución, pero la comunicación se queda atrás o dispersa.\n\nEn Hint Media ese es nuestro rol específico: ser el equipo de comunicación y marketing insertado dentro de la estructura, trabajando directamente con ejecutivos como vos para que esas transformaciones realmente calen.\n\nTe paso un dossier con cómo lo hacemos? Después me decís si ves sinergia o si es tema para más adelante.\n\n[RESPUESTA_MSG2]\nclaro, pasame lo veo\n\n[SEG1]\nJuan Carlos, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de liderar transformaciones tan grandes manejando equipos en Europa, Asia y LATAM al mismo tiempo.\n\nEso suele terminar marcando la diferencia entre una transformación que el equipo entiende y vive, y una que solo se anuncia desde arriba pero no termina de bajar igual en cada región.\n\nEs justo el tipo de situación con la que solemos acompañar a ejecutivos en procesos de cambio así.\n\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.\n\n[NOTAS]\n- MSG1/MSG2 originales no siguen la metodología nueva (pregunta consultiva directa en MSG2, \"vemos constantemente\" — diagnóstico). Quedó como aprendizaje de qué NO repetir.\n- SEG1 usó ángulo nuevo (multicultural Europa/Asia/LATAM) en vez de repetir el de MSG1/MSG2 (transformación/narrativa), siguiendo la metodología de 6 líneas vigente en ese momento.",
+    "raw_md": "# Juan Carlos Posada\n\n**Estado:** Cerrado, no interesado\n**Fecha:** 04/06/26 (MSG1) — SEG1 17/06/26 — rechazo 18/06/26\n**Cargo:** Gerente General | CMO | CCO\n**Empresa:** BAOBAB\n**País:** —\n**Sector:** Transformación de negocios, multicultural (Europa, Asia, LATAM)\n\n## MSG1\n> Juan Carlos, gracias por aceptar mi solicitud de conexión! 👋\n>\n> Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente General en BAOBAB, es así?\n>\n> Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n## Respuesta MSG1\n> Hola Florencia. Depende de que necesites\n\n## MSG2\n> Buen dia Juan. La pregunta es: en transformaciones tan complejas como las que estás liderando, quién está sosteniendo la narrativa interna y externa de esos cambios?\n>\n> Digo porque es lo que vemos constantemente, equipos muy buenos en estrategia y ejecución, pero la comunicación se queda atrás o dispersa.\n>\n> En Hint Media ese es nuestro rol específico: ser el equipo de comunicación y marketing insertado dentro de la estructura, trabajando directamente con ejecutivos como vos para que esas transformaciones realmente calen.\n>\n> Te paso un dossier con cómo lo hacemos? Después me decís si ves sinergia o si es tema para más adelante.\n\n## Respuesta MSG2\n> claro, pasame lo veo\n\n## Cierre\n> Te lo dejo por aquí Juan, buen fin de semana y estamos en contacto para cualquier inquietud.\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Juan Carlos, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de liderar transformaciones tan grandes manejando equipos en Europa, Asia y LATAM al mismo tiempo.\n>\n> Eso suele terminar marcando la diferencia entre una transformación que el equipo entiende y vive, y una que solo se anuncia desde arriba pero no termina de bajar igual en cada región.\n>\n> Es justo el tipo de situación con la que solemos acompañar a ejecutivos en procesos de cambio así.\n>\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para ustedes.\n\n## Cierre final (18/06/26)\n> Hola Florencia, gracias pero no estoy interesado. Saludos\n\nNo responder más. Cerrado.\n\n## Notas\n- MSG1/MSG2 originales no siguen la metodología nueva (pregunta consultiva directa en MSG2, \"vemos constantemente\" — diagnóstico). Quedó como aprendizaje de qué NO repetir.\n- SEG1 usó ángulo nuevo (multicultural Europa/Asia/LATAM) en vez de repetir el de MSG1/MSG2 (transformación/narrativa), siguiendo la metodología de 6 líneas vigente en ese momento.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

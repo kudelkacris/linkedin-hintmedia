@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000129",
+  "contact_id": "ctc_000323",
+  "source_file": "conversaciones/junio/carolina-araya.md",
+  "fingerprint": "sha256:edb436f5b4f6147c25fd23e4a738c77a6c74c4723eac6417657da662f5547aad",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carolina-araya.md",
+    "file_hash": "sha256:edb436f5b4f6147c25fd23e4a738c77a6c74c4723eac6417657da662f5547aad",
+    "file_modified": "2026-06-12T16:03:55.773687+00:00",
+    "file_size": 1065,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carolina Araya",
+    "empresa": "(Open to Work — salió de QXD hace ~1 mes)",
+    "cargo": "Strategic Marketing & Business Development Executive | Founder Demeter Innovation Lab",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Araya]\n[EMPRESA: (Open to Work — salió de QXD hace ~1 mes)]\n[CARGO: Strategic Marketing & Business Development Executive | Founder Demeter Innovation Lab]\n[PAIS: Costa Rica]",
+    "raw_md": "---\nname: carolina-araya\ndescription: MSG2 enviado, Strategic Marketing & BD Executive Open to Work Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Carolina Araya\n**Cargo:** Strategic Marketing & Business Development Executive | Founder Demeter Innovation Lab\n**Empresa:** (Open to Work — salió de QXD hace ~1 mes)\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Nota importante:** Está buscando trabajo, publicó Open to Work hace ~1 mes. Salió de QXD (software/IoT/agro) donde estuvo 15 años. Tiene emprendimiento propio Cuchara Creativa (gastronomía).\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación del Costa Rica Summit 2026: \"crear espacios adecuados para que surjan conexiones que transforman negocios\"\n- Respondió: \"Buenos Días Florencia, un gusto, claro\"\n- MSG2 enviado igual (decisión del usuario) — gap: combina estrategia de negocio + biz dev + marketing; ejecución de contenido y presencia de marca quedan en segundo plano. Mención Destiny Group.\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

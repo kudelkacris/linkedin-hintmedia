@@ -1,0 +1,85 @@
+{
+  "conversation_id": "conv_000113",
+  "contact_id": "ctc_000387",
+  "source_file": "conversaciones/junio/anika-altamirano-marchini.md",
+  "fingerprint": "sha256:3793ead620dc1e36d61ba08038d9d1120e155ca5af55fe8b167ee943d227a10e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/anika-altamirano-marchini.md",
+    "file_hash": "sha256:3793ead620dc1e36d61ba08038d9d1120e155ca5af55fe8b167ee943d227a10e",
+    "file_modified": "2026-06-19T15:29:19.251475+00:00",
+    "file_size": 2171,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Anika Altamirano Marchini",
+    "empresa": "",
+    "cargo": "Marketing Strategist (La Cuisine International) / Founder Ant Studio Agency",
+    "pais": "",
+    "fecha": "10/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Anika, gracias por conectar! Estuve revisando lo que venís haciendo entre La Cuisine International y Ant Studio. Me llamó la atención que estés liderando migraciones web, análisis de inventario digital, y al mismo tiempo construyendo narrativa de marca, frentes bastante distintos ejecutándose en paralelo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas tardes, ¿qué tal? Claro, con todo gusto.",
+    "msg2_texto": "Los tres frentes, web, inventario, narrativa de marca, son tipos de trabajo muy distintos en velocidad y lógica. Cuando eso cae sobre una misma persona o equipo chico, el cuello de botella no suele ser la estrategia, sino el ancho de banda para ejecutar. Trabajamos con Destiny Group, Tasarolli y otros con ese perfil. ¿Te puedo enviar un dossier por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Claro me lo puedes enviar por este medio; ¿cuál sería tu duda?",
+    "seg1_enviado": true,
+    "seg1_texto": "Anika, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de manejar web, inventario y narrativa de marca al mismo tiempo entre La Cuisine y Ant Studio, donde el cuello de botella termina siendo el ancho de banda, no la estrategia.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que estás armando hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "tardes",
+      "todo",
+      "gusto",
+      "puedes",
+      "enviar",
+      "este",
+      "medio",
+      "cual",
+      "seria",
+      "duda"
+    ],
+    "notas": "- Curiosidad: tomó literal el gancho \"tenía una duda\" del MSG1 y preguntó \"¿cuál sería tu duda?\" — señal de que prestó atención real, aunque expone que ese framing puede generar la pregunta directa.\n\nEstado: SEG1 enviado (19/06/26)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Anika Altamirano Marchini]\n[CARGO: Marketing Strategist (La Cuisine International) / Founder Ant Studio Agency]\n\n[MSG1]\nAnika, gracias por conectar! Estuve revisando lo que venís haciendo entre La Cuisine International y Ant Studio. Me llamó la atención que estés liderando migraciones web, análisis de inventario digital, y al mismo tiempo construyendo narrativa de marca, frentes bastante distintos ejecutándose en paralelo.\n\n[RESPUESTA_MSG1]\nBuenas tardes, ¿qué tal? Claro, con todo gusto.\n\n[MSG2]\nLos tres frentes, web, inventario, narrativa de marca, son tipos de trabajo muy distintos en velocidad y lógica. Cuando eso cae sobre una misma persona o equipo chico, el cuello de botella no suele ser la estrategia, sino el ancho de banda para ejecutar. Trabajamos con Destiny Group, Tasarolli y otros con ese perfil. ¿Te puedo enviar un dossier por acá?\n\n[RESPUESTA_MSG2]\nClaro me lo puedes enviar por este medio; ¿cuál sería tu duda?\n\n[SEG1]\nAnika, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso de manejar web, inventario y narrativa de marca al mismo tiempo entre La Cuisine y Ant Studio, donde el cuello de botella termina siendo el ancho de banda, no la estrategia.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que estás armando hoy.\n\n[NOTAS]\n- Curiosidad: tomó literal el gancho \"tenía una duda\" del MSG1 y preguntó \"¿cuál sería tu duda?\" — señal de que prestó atención real, aunque expone que ese framing puede generar la pregunta directa.\n\nEstado: SEG1 enviado (19/06/26)",
+    "raw_md": "---\nname: anika-altamirano-marchini\ndescription: SEG1 enviado (MEDIUM-alto), Marketing Strategist La Cuisine International / Founder Ant Studio Agency, 10/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Anika Altamirano Marchini\n**Cargo:** Marketing Strategist (La Cuisine International) / Founder Ant Studio Agency\n**Fecha:** 10/06/26\n\n## MSG1\n> Anika, gracias por conectar! Estuve revisando lo que venís haciendo entre La Cuisine International y Ant Studio. Me llamó la atención que estés liderando migraciones web, análisis de inventario digital, y al mismo tiempo construyendo narrativa de marca, frentes bastante distintos ejecutándose en paralelo.\n\n## Respuesta MSG1\n> Buenas tardes, ¿qué tal? Claro, con todo gusto.\n\n## MSG2\n> Los tres frentes, web, inventario, narrativa de marca, son tipos de trabajo muy distintos en velocidad y lógica. Cuando eso cae sobre una misma persona o equipo chico, el cuello de botella no suele ser la estrategia, sino el ancho de banda para ejecutar. Trabajamos con Destiny Group, Tasarolli y otros con ese perfil. ¿Te puedo enviar un dossier por acá?\n\n## Respuesta MSG2\n> Claro me lo puedes enviar por este medio; ¿cuál sería tu duda?\n\n## Cierre\n> La duda era justamente esa, si tiene sentido sumar capacidad de ejecución a lo que ya estás manejando. El dossier lo explica mejor que yo en dos párrafos. Te lo mando acá!\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM-alto — hizo una pregunta propia en vez de solo aceptar, señal de atención real)\n> Anika, cómo estás?\n> No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en eso de manejar web, inventario y narrativa de marca al mismo tiempo entre La Cuisine y Ant Studio, donde el cuello de botella termina siendo el ancho de banda, no la estrategia.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que estás armando hoy.\n\n## Notas\n- Curiosidad: tomó literal el gancho \"tenía una duda\" del MSG1 y preguntó \"¿cuál sería tu duda?\" — señal de que prestó atención real, aunque expone que ese framing puede generar la pregunta directa.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

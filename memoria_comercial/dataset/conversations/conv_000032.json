@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000032",
+  "contact_id": "ctc_000095",
+  "source_file": "conversaciones/julio/diego-jimenez.md",
+  "fingerprint": "sha256:0e42335697a287740ae42a5d2ca11297d6281308215f73cc54d77929cb1a8da8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/diego-jimenez.md",
+    "file_hash": "sha256:0e42335697a287740ae42a5d2ca11297d6281308215f73cc54d77929cb1a8da8",
+    "file_modified": "2026-07-02T01:48:46.310952+00:00",
+    "file_size": 2359,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Diego Jiménez",
+    "empresa": "LEAD University",
+    "cargo": "Jefe de Marketing",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier enviado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Diego, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"🤗😄🤐\nHola, Florencia, un gusto saludarle.\nSi tengo prácticamente 6 meses en Lead University.\nY claro, cuéntame.\"",
+    "msg2_texto": "Buenas Diego! Un placer.\nSeis meses en un cargo nuevo en una institución que está creciendo, eso suele ser un período de mucho diagnóstico y primeras decisiones al mismo tiempo.\nEn ese contexto, cuál es el frente de comunicación que más presión te está generando ahora?\nTrabajo en Hint Media con empresas e instituciones de servicios, como Destiny Group y Libra Seguros. Acompañamos la comunicación en etapas de crecimiento: contenido, paid media, identidad. Todo coordinado.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"🤗😄🤐\nSi, enviame por acá la oferta de servicios.\"",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Asumió como Jefe de Marketing en LEAD University hace 6 meses. Universidad en crecimiento.",
+    "hipotesis": "En los primeros 6 meses de un cargo de marketing en educación, la presión viene de tener que mostrar resultados sin tener capacidad operativa completa adentro. Hint puede acompañar la ejecución: contenido, paid media, identidad.",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "saludarle",
+      "tengo",
+      "practicamente",
+      "meses",
+      "lead",
+      "university",
+      "cuentame",
+      "enviame"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Diego Jiménez]\n[EMPRESA: LEAD University]\n[CARGO: Jefe de Marketing]\n[SECTOR: Educación / Marketing Digital]\n[PAIS: Costa Rica]\n[SENAL: Asumió como Jefe de Marketing en LEAD University hace 6 meses. Universidad en crecimiento.]\n[HIPOTESIS: En los primeros 6 meses de un cargo de marketing en educación, la presión viene de tener que mostrar resultados sin tener capacidad operativa completa adentro. Hint puede acompañar la ejecución: contenido, paid media, identidad.]\n\n[MSG1]\nDiego, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"🤗😄🤐\nHola, Florencia, un gusto saludarle.\nSi tengo prácticamente 6 meses en Lead University.\nY claro, cuéntame.\"\n\n[MSG2]\nBuenas Diego! Un placer.\nSeis meses en un cargo nuevo en una institución que está creciendo, eso suele ser un período de mucho diagnóstico y primeras decisiones al mismo tiempo.\nEn ese contexto, cuál es el frente de comunicación que más presión te está generando ahora?\nTrabajo en Hint Media con empresas e instituciones de servicios, como Destiny Group y Libra Seguros. Acompañamos la comunicación en etapas de crecimiento: contenido, paid media, identidad. Todo coordinado.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\n\"🤗😄🤐\nSi, enviame por acá la oferta de servicios.\"\n\n[MSG3]\nPerfecto Diego, te lo mando ahora!\n[LINK DOSSIER]\nBuena semana y estamos en contacto en el futuro cercano!",
+    "raw_md": "# Diego Jiménez\n\n**Fecha:** 01/07/26\n**Cargo:** Jefe de Marketing\n**Empresa:** LEAD University\n**Pais:** Costa Rica\n**Sector:** Educación / Marketing Digital\n**Estado:** Dossier enviado\n\n---\n\n## Análisis\n- **Señal humana:** Asumió como Jefe de Marketing en LEAD University hace 6 meses. Universidad en crecimiento.\n- **Tensión profesional:** Cargo nuevo en institución educativa en crecimiento = fase de diagnóstico + primeras decisiones simultáneas. Múltiples audiencias (estudiantes, padres, corporativo). Ejecutar sin tener todo definido todavía.\n- **Hipótesis:** En los primeros 6 meses de un cargo de marketing en educación, la presión viene de tener que mostrar resultados sin tener capacidad operativa completa adentro. Hint puede acompañar la ejecución: contenido, paid media, identidad.\n- **Ángulo MSG1:** Cargo nuevo + institución en crecimiento = frentes abiertos al mismo tiempo.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Diego, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"🤗😄🤐\n> Hola, Florencia, un gusto saludarle.\n> Si tengo prácticamente 6 meses en Lead University.\n> Y claro, cuéntame.\"\n\n---\n\n## MSG2\n> Buenas Diego! Un placer.\n> Seis meses en un cargo nuevo en una institución que está creciendo, eso suele ser un período de mucho diagnóstico y primeras decisiones al mismo tiempo.\n> En ese contexto, cuál es el frente de comunicación que más presión te está generando ahora?\n> Trabajo en Hint Media con empresas e instituciones de servicios, como Destiny Group y Libra Seguros. Acompañamos la comunicación en etapas de crecimiento: contenido, paid media, identidad. Todo coordinado.\n> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2\n> \"🤗😄🤐\n> Si, enviame por acá la oferta de servicios.\"\n\n---\n\n## MSG3\n> Perfecto Diego, te lo mando ahora!\n> [LINK DOSSIER]\n> Buena semana y estamos en contacto en el futuro cercano!\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

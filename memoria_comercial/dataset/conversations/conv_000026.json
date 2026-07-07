@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000026",
+  "contact_id": "ctc_000093",
+  "source_file": "conversaciones/julio/daryl-s-araya-herrera.md",
+  "fingerprint": "sha256:11af416090a1781c34d83778cdd2114dc69ac26c4c1282ae11570789c27cbaed",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/daryl-s-araya-herrera.md",
+    "file_hash": "sha256:11af416090a1781c34d83778cdd2114dc69ac26c4c1282ae11570789c27cbaed",
+    "file_modified": "2026-07-01T23:58:08.023954+00:00",
+    "file_size": 2197,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Daryl S. Araya Herrera",
+    "empresa": "",
+    "cargo": "Estratega de Comunicación Corporativa y Mercadeo Institucional | Prensa, Marca & Stakeholders | Fortalezco la cultura y el propósito institucional",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Daryl, gracias por conectar! 👋\n\nMe quedó dando vueltas la reflexión que compartiste sobre tu aniversario en la Bolsa. Especialmente lo de \"no llegamos solos a ninguna parte\". Da la impresión de que para vos el trabajo real está en coordinar, en que otros puedan brillar, no en ocupar el protagonismo. Eso no es lo más común.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de aniversario de 3 años donde reflexiona sobre el éxito, propósito y aprendizajes organizacionales. Expresamente dice: \"mi percepción de éxito está muy lejos de un cargo\" y destaca \"No llegamos solos a ninguna parte\". Elige mostrar vulnerabilidad profesional y reconocimiento a otros, no solo logros. Iniciativa de género (Ring the bell) documentada como actividad de propósito personal, no solo corporativo.",
+    "hipotesis": "Cómo mantener calidad y ejecución en comunicación corporativa cuando la demanda de contenidos, eventos y narrativas crece junto con la visibilidad del sector. Cómo documentar procesos para que la ejecución no sea un cuello de botella personal. Cómo escalar sin perder la coherencia estratégica que hasta ahora ha sido su marca.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daryl S. Araya Herrera]\n[CARGO: Estratega de Comunicación Corporativa y Mercadeo Institucional | Prensa, Marca & Stakeholders | Fortalezco la cultura y el propósito institucional]\n[SECTOR: Servicios Financieros / Mercado de Capitales]\n[PAIS: Costa Rica]\n[SENAL: Publicación de aniversario de 3 años donde reflexiona sobre el éxito, propósito y aprendizajes organizacionales. Expresamente dice: \"mi percepción de éxito está muy lejos de un cargo\" y destaca \"No llegamos solos a ninguna parte\". Elige mostrar vulnerabilidad profesional y reconocimiento a otros, no solo logros. Iniciativa de género (Ring the bell) documentada como actividad de propósito personal, no solo corporativo.]\n[HIPOTESIS: Cómo mantener calidad y ejecución en comunicación corporativa cuando la demanda de contenidos, eventos y narrativas crece junto con la visibilidad del sector. Cómo documentar procesos para que la ejecución no sea un cuello de botella personal. Cómo escalar sin perder la coherencia estratégica que hasta ahora ha sido su marca.]\n\n[MSG1]\nDaryl, gracias por conectar! 👋\n\nMe quedó dando vueltas la reflexión que compartiste sobre tu aniversario en la Bolsa. Especialmente lo de \"no llegamos solos a ninguna parte\". Da la impresión de que para vos el trabajo real está en coordinar, en que otros puedan brillar, no en ocupar el protagonismo. Eso no es lo más común.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Daryl S. Araya Herrera\n\n**Fecha:** 01/07/26\n**Cargo:** Estratega de Comunicación Corporativa y Mercadeo Institucional | Prensa, Marca & Stakeholders | Fortalezco la cultura y el propósito institucional\n**Empresa:**\n**Pais:** Costa Rica\n**Sector:** Servicios Financieros / Mercado de Capitales\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de aniversario de 3 años donde reflexiona sobre el éxito, propósito y aprendizajes organizacionales. Expresamente dice: \"mi percepción de éxito está muy lejos de un cargo\" y destaca \"No llegamos solos a ninguna parte\". Elige mostrar vulnerabilidad profesional y reconocimiento a otros, no solo logros. Iniciativa de género (Ring the bell) documentada como actividad de propósito personal, no solo corporativo.\n- **Tensión profesional:** Ejecutar comunicación consistente y escalable sin que todo termine dependiendo de una sola persona (ella), especialmente cuando los proyectos son de alto impacto y requieren múltiples stakeholders alineados en tiempo real.\n- **Hipótesis:** Cómo mantener calidad y ejecución en comunicación corporativa cuando la demanda de contenidos, eventos y narrativas crece junto con la visibilidad del sector. Cómo documentar procesos para que la ejecución no sea un cuello de botella personal. Cómo escalar sin perder la coherencia estratégica que hasta ahora ha sido su marca.\n- **Ángulo MSG1:** Señal humana explícita. La reflexión sobre propósito, ejecución y la evidencia de que coordina múltiples frentes (Visión Bursátil, Ring the Bell, iniciativas regionales) sugiere una persona que busca escalar su impacto sin quemar capital personal.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Daryl, gracias por conectar! 👋\n>\n> Me quedó dando vueltas la reflexión que compartiste sobre tu aniversario en la Bolsa. Especialmente lo de \"no llegamos solos a ninguna parte\". Da la impresión de que para vos el trabajo real está en coordinar, en que otros puedan brillar, no en ocupar el protagonismo. Eso no es lo más común.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

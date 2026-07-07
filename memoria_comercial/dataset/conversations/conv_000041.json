@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000041",
+  "contact_id": "ctc_000091",
+  "source_file": "conversaciones/julio/fernando-p-rez-reyes.md",
+  "fingerprint": "sha256:abc450e12587c18454b11e7da7982fde1bf0eeb1850ca6d641e63326987da229",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/fernando-p-rez-reyes.md",
+    "file_hash": "sha256:abc450e12587c18454b11e7da7982fde1bf0eeb1850ca6d641e63326987da229",
+    "file_modified": "2026-07-03T15:48:15.886870+00:00",
+    "file_size": 3008,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Fernando Pérez Reyes",
+    "empresa": "Colegio Coya",
+    "cargo": "Content Creator / Designer / Video & Photographer / IA Creator / Comunicaciones",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Fernando, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión sobre la multifuncionalidad creativa. Especialmente donde dijiste que \"ser versátil no es un defecto, es una ventaja competitiva.\" No es lo que la mayoría escribe cuando se defiende a sí misma profesionalmente — la mayoría apela a experiencia o casos. Vos apostaste a una creencia.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro\nDime como puedo ayudarte",
+    "msg2_texto": "Buenas Fernando!\nEsa idea de la versatilidad como ventaja, cómo la aplicás en proyectos concretos? Trabajás para un cliente en particular o vas entre distintos proyectos y marcas?\nEn Hint Media trabajamos comunicación y contenido — contenido, branding, audiovisual, paid media. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "No de momento gracias",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Reflexión publicada sobre multifuncionalidad creativa donde defiende su valor como profesional versátil: \"Porque ser versátil no es un defecto, es una ventaja competitiva.\" Junto con reflexión anterior sobre transformar pasiones en profesión. También reciente participación activa amplificando discusiones sobre IA en creatividad (Carlos Zamorano, Álvaro Araya) — demuestra que sigue pensando en tendencias y ecosistema creativo incluso ya en función administrativa.",
+    "hipotesis": "Transición de freelancer/creativo independiente a rol corporativo con responsabilidad institucional. ¿Cómo escala producción de contenido manteniendo excelencia? ¿Cómo arma equipo o estructura para no saturarse? Potencial interés en cómo otras instituciones/organizaciones resuelven producción audiovisual + comunicación con recursos limitados.",
+    "palabras_clave": [
+      "dime",
+      "puedo",
+      "ayudarte",
+      "momento"
+    ],
+    "notas": "- Cerrado. Freelancer individual sin estructura — probable descarte desde el inicio.\n- Respuesta neutra \"sí claro dime\" → ir directo.\n\nEstado: Cerrada — no interesado — 03/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fernando Pérez Reyes]\n[EMPRESA: Colegio Coya]\n[CARGO: Content Creator / Designer / Video & Photographer / IA Creator / Comunicaciones]\n[SECTOR: Educación (primario) / Creatividad & Comunicación (secundario)]\n[PAIS: Chile]\n[SENAL: Reflexión publicada sobre multifuncionalidad creativa donde defiende su valor como profesional versátil: \"Porque ser versátil no es un defecto, es una ventaja competitiva.\" Junto con reflexión anterior sobre transformar pasiones en profesión. También reciente participación activa amplificando discusiones sobre IA en creatividad (Carlos Zamorano, Álvaro Araya) — demuestra que sigue pensando en tendencias y ecosistema creativo incluso ya en función administrativa.]\n[HIPOTESIS: Transición de freelancer/creativo independiente a rol corporativo con responsabilidad institucional. ¿Cómo escala producción de contenido manteniendo excelencia? ¿Cómo arma equipo o estructura para no saturarse? Potencial interés en cómo otras instituciones/organizaciones resuelven producción audiovisual + comunicación con recursos limitados.]\n\n[MSG1]\nFernando, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión sobre la multifuncionalidad creativa. Especialmente donde dijiste que \"ser versátil no es un defecto, es una ventaja competitiva.\" No es lo que la mayoría escribe cuando se defiende a sí misma profesionalmente — la mayoría apela a experiencia o casos. Vos apostaste a una creencia.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro\nDime como puedo ayudarte\n\n[MSG2]\nBuenas Fernando!\nEsa idea de la versatilidad como ventaja, cómo la aplicás en proyectos concretos? Trabajás para un cliente en particular o vas entre distintos proyectos y marcas?\nEn Hint Media trabajamos comunicación y contenido — contenido, branding, audiovisual, paid media. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nNo de momento gracias\n\n[NOTAS]\n- Cerrado. Freelancer individual sin estructura — probable descarte desde el inicio.\n- Respuesta neutra \"sí claro dime\" → ir directo.\n\nEstado: Cerrada — no interesado — 03/07/26",
+    "raw_md": "# Fernando Pérez Reyes\n\n**Fecha:** 01/07/26\n**Cargo:** Content Creator / Designer / Video & Photographer / IA Creator / Comunicaciones\n**Empresa:** Colegio Coya\n**Pais:** Chile\n**Sector:** Educación (primario) / Creatividad & Comunicación (secundario)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Reflexión publicada sobre multifuncionalidad creativa donde defiende su valor como profesional versátil: \"Porque ser versátil no es un defecto, es una ventaja competitiva.\" Junto con reflexión anterior sobre transformar pasiones en profesión. También reciente participación activa amplificando discusiones sobre IA en creatividad (Carlos Zamorano, Álvaro Araya) — demuestra que sigue pensando en tendencias y ecosistema creativo incluso ya en función administrativa.\n- **Tensión profesional:** Mantener producción audiovisual y contenido de calidad consistente mientras coordina múltiples stakeholders (estudiantes, familias, docentes, administración) sin que todo dependa de una sola persona ni se diluya la identidad visual/narrativa institucional.\n- **Hipótesis:** Transición de freelancer/creativo independiente a rol corporativo con responsabilidad institucional. ¿Cómo escala producción de contenido manteniendo excelencia? ¿Cómo arma equipo o estructura para no saturarse? Potencial interés en cómo otras instituciones/organizaciones resuelven producción audiovisual + comunicación con recursos limitados.\n- **Ángulo MSG1:** Partir de la reflexión sobre multifuncionalidad + reciente incorporación a rol donde necesita ejecutar eso en equipo, no solo individualmente.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Fernando, gracias por conectar! 👋\n>\n> Me llamó la atención tu reflexión sobre la multifuncionalidad creativa. Especialmente donde dijiste que \"ser versátil no es un defecto, es una ventaja competitiva.\" No es lo que la mayoría escribe cuando se defiende a sí misma profesionalmente — la mayoría apela a experiencia o casos. Vos apostaste a una creencia.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Sí, claro\n> Dime como puedo ayudarte\n\n## MSG2 (02/07/26)\n> Buenas Fernando!\n> Esa idea de la versatilidad como ventaja, cómo la aplicás en proyectos concretos? Trabajás para un cliente en particular o vas entre distintos proyectos y marcas?\n> En Hint Media trabajamos comunicación y contenido — contenido, branding, audiovisual, paid media. Clientes como Destiny Group y Libra Seguros.\n> Tenemos un dossier breve con casos concretos. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (03/07/26)\n> No de momento gracias\n\n## Notas\n- Cerrado. Freelancer individual sin estructura — probable descarte desde el inicio.\n- Respuesta neutra \"sí claro dime\" → ir directo.\n\n**Estado:** Cerrada — no interesado — 03/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

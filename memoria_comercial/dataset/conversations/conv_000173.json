@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000173",
+  "contact_id": "ctc_000339",
+  "source_file": "conversaciones/junio/isabel-arrea.md",
+  "fingerprint": "sha256:b4bcbef6d6748888a10f1c2f743298bc3b8249fd07d896a7cae5195e38aed39b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/isabel-arrea.md",
+    "file_hash": "sha256:b4bcbef6d6748888a10f1c2f743298bc3b8249fd07d896a7cae5195e38aed39b",
+    "file_modified": "2026-06-19T15:26:11.152093+00:00",
+    "file_size": 1430,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Isabel Arrea",
+    "empresa": "La Libertad (Fundación)",
+    "cargo": "Brand Manager",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Isabel, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso del informe anual de la Fundación, todo ese impacto real en alianzas y proyectos, y en cómo esos recursos de producción y diseño suelen ser los primeros en ajustarse cuando hay que priorizar.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesita la fundación hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Isabel Arrea]\n[EMPRESA: La Libertad (Fundación)]\n[CARGO: Brand Manager]\n[PAIS: Costa Rica]\n\n[SEG1]\nIsabel, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso del informe anual de la Fundación, todo ese impacto real en alianzas y proyectos, y en cómo esos recursos de producción y diseño suelen ser los primeros en ajustarse cuando hay que priorizar.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesita la fundación hoy.",
+    "raw_md": "---\nname: isabel-arrea\ndescription: Dossier aceptado, Brand Manager La Libertad (Fundación) Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Isabel Arrea\n**Cargo:** Brand Manager\n**Empresa:** La Libertad (Fundación)\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo presentó el informe anual: puso \"alianzas, aprendizajes y proyectos\" al frente, no los números primero\n- Respondió: \"Hola, como estas? Si claro, contame\"\n- MSG2 enviado — gap: fundación con mucho impacto para comunicar (446k visitantes, 186 alianzas) pero recursos de producción de contenido y diseño suelen ser los primeros en ajustarse. Mención Libra Seguros.\n- Respondió: \"si claro, envíamelo y lo reviso\" — aceptó dossier\n- Dossier enviado 19/06/26, sin respuesta aún\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — cordial sin frialdad pero sin elaboración o entusiasmo marcado)\n> Isabel, cómo estás?\n> No sé si llegaste a revisar el material que te compartí.\n> Me quedé pensando en eso del informe anual de la Fundación, todo ese impacto real en alianzas y proyectos, y en cómo esos recursos de producción y diseño suelen ser los primeros en ajustarse cuando hay que priorizar.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesita la fundación hoy.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

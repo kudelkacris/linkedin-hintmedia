@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000224",
+  "contact_id": "ctc_000328",
+  "source_file": "conversaciones/junio/maria-murillo-reyes.md",
+  "fingerprint": "sha256:e562429d49b40a363effa70c1db1d335a4ca9fd1305f1fe51eb8d045ff5398c5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/maria-murillo-reyes.md",
+    "file_hash": "sha256:e562429d49b40a363effa70c1db1d335a4ca9fd1305f1fe51eb8d045ff5398c5",
+    "file_modified": "2026-06-19T15:26:02.033129+00:00",
+    "file_size": 1430,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "María Murillo Reyes",
+    "empresa": "BDO Costa Rica",
+    "cargo": "Head of Communications and Governance",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "María, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso de construir contenido con tanto peso conceptual, gobernanza, cultura, estructura financiera, y que después necesite verse a la altura en formato y diseño.\nCualquier cosa que te genere, quedo atenta.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: María Murillo Reyes]\n[EMPRESA: BDO Costa Rica]\n[CARGO: Head of Communications and Governance]\n[PAIS: Costa Rica]\n\n[SEG1]\nMaría, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso de construir contenido con tanto peso conceptual, gobernanza, cultura, estructura financiera, y que después necesite verse a la altura en formato y diseño.\nCualquier cosa que te genere, quedo atenta.",
+    "raw_md": "---\nname: maria-murillo-reyes\ndescription: MSG2 enviado, Head of Communications and Governance BDO Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** María Murillo Reyes\n**Cargo:** Head of Communications and Governance\n**Empresa:** BDO Costa Rica\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre crecimiento sostenible y estructura financiera: \"no habló de ambición o números — sino de la necesidad de que todo eso tenga una arquitectura que lo sostenga\"\n- Respondió: \"Hola como estas, claro que si\"\n- MSG2 enviado — gap: produce contenido con mucho peso conceptual (gobernanza, cultura, IA, estructura financiera) pero ese nivel queda atado a recursos internos de diseño y formato. Mención Libra Seguros.\n\n- Respondió: \"podria revisarlo gracias\" — aceptó dossier\n- Dossier enviado 19/06/26. Respondió: \"Igualmente\" (cierre mínimo, sin reaccionar al contenido)\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: LOW — respuestas mínimas en todo el hilo, sin elaboración)\n> María, cómo estás?\n> No sé si llegaste a revisar el material que te compartí.\n> Me quedé pensando en eso de construir contenido con tanto peso conceptual, gobernanza, cultura, estructura financiera, y que después necesite verse a la altura en formato y diseño.\n> Cualquier cosa que te genere, quedo atenta.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000206",
+  "contact_id": "ctc_000158",
+  "source_file": "conversaciones/junio/lidia-monge.md",
+  "fingerprint": "sha256:cd4b08a517ca01d2b037a0fe95c81060d9274b7711d0be05269927ddb7ad88e5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/lidia-monge.md",
+    "file_hash": "sha256:cd4b08a517ca01d2b037a0fe95c81060d9274b7711d0be05269927ddb7ad88e5",
+    "file_modified": "2026-06-20T17:02:29.009065+00:00",
+    "file_size": 1989,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Lidia Monge",
+    "empresa": "Accenture",
+    "cargo": "Marketing Manager (Marketing Associate Manager)",
+    "pais": "Costa Rica",
+    "fecha": "20/06/26",
+    "estado_texto": "CERRADA"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Lidia, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste sobre carreras no lineales en la era de IA. No es lo típico que alguien desde marketing en una empresa grande se anima a publicar. Da la impresión de que para vos la adaptabilidad y el aprendizaje constante importan más que la progresión tradicional.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro 🤗😄🤐\nDime en Que te puedo ayudar",
+    "msg2_texto": "Hola Lidia!\nJusto eso fue lo que me llamó la atención, porque se nota en tu rol actual: gestión de contenido a escala con IA, gobernanza y procesos en constante cambio. Esa misma lógica de adaptación que mencionás en lo profesional también la viven las marcas cuando tienen que mantener consistencia de comunicación mientras todo se mueve tan rápido.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de consultoría y tecnología a sostener esa coherencia en contenido, vocería y posicionamiento digital. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola! Si claro solo que en el equipo que trabajo lamentablemente no manejamos proveedores ni agencias.\nFlorencia: Entiendo Lidia, gracias por la claridad! Buen finde y seguimos en contacto.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dime",
+      "puedo",
+      "ayudar",
+      "solo",
+      "equipo",
+      "trabajo",
+      "lamentablemente",
+      "manejamos",
+      "proveedores",
+      "agencias"
+    ],
+    "notas": "- Sector consultoría/tech (Accenture). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Rol: content management a escala con IA, governance, marketing tech (Adobe AEM, Workfront, Monday).\n- Sin dossier, no maneja proveedores/agencias su equipo.\n\nEstado: CERRADA (20/06/26) — no maneja proveedores/agencias"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Lidia Monge]\n[EMPRESA: Accenture]\n[CARGO: Marketing Manager (Marketing Associate Manager)]\n[PAIS: Costa Rica]\n\n[MSG1]\nLidia, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste sobre carreras no lineales en la era de IA. No es lo típico que alguien desde marketing en una empresa grande se anima a publicar. Da la impresión de que para vos la adaptabilidad y el aprendizaje constante importan más que la progresión tradicional.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro 🤗😄🤐\nDime en Que te puedo ayudar\n\n[MSG2]\nHola Lidia!\nJusto eso fue lo que me llamó la atención, porque se nota en tu rol actual: gestión de contenido a escala con IA, gobernanza y procesos en constante cambio. Esa misma lógica de adaptación que mencionás en lo profesional también la viven las marcas cuando tienen que mantener consistencia de comunicación mientras todo se mueve tan rápido.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de consultoría y tecnología a sostener esa coherencia en contenido, vocería y posicionamiento digital. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nHola! Si claro solo que en el equipo que trabajo lamentablemente no manejamos proveedores ni agencias.\nFlorencia: Entiendo Lidia, gracias por la claridad! Buen finde y seguimos en contacto.\n\n[NOTAS]\n- Sector consultoría/tech (Accenture). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Rol: content management a escala con IA, governance, marketing tech (Adobe AEM, Workfront, Monday).\n- Sin dossier, no maneja proveedores/agencias su equipo.\n\nEstado: CERRADA (20/06/26) — no maneja proveedores/agencias",
+    "raw_md": "# Lidia Monge\n\n**Estado:** CERRADA\n**Fecha:** 20/06/26\n**Cargo:** Marketing Manager (Marketing Associate Manager)\n**Empresa:** Accenture\n**País:** Costa Rica\n\n## MSG1\n> Lidia, gracias por conectar. 👋\n>\n> Me llamó la atención la publicación que compartiste sobre carreras no lineales en la era de IA. No es lo típico que alguien desde marketing en una empresa grande se anima a publicar. Da la impresión de que para vos la adaptabilidad y el aprendizaje constante importan más que la progresión tradicional.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Sí, claro 🤗😄🤐\n> Dime en Que te puedo ayudar\n\n## MSG2\n> Hola Lidia!\n> Justo eso fue lo que me llamó la atención, porque se nota en tu rol actual: gestión de contenido a escala con IA, gobernanza y procesos en constante cambio. Esa misma lógica de adaptación que mencionás en lo profesional también la viven las marcas cuando tienen que mantener consistencia de comunicación mientras todo se mueve tan rápido.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de consultoría y tecnología a sostener esa coherencia en contenido, vocería y posicionamiento digital. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 / Cierre (20/06/26)\n> Hola! Si claro solo que en el equipo que trabajo lamentablemente no manejamos proveedores ni agencias.\n\n> Florencia: Entiendo Lidia, gracias por la claridad! Buen finde y seguimos en contacto.\n\n## Notas\n- Sector consultoría/tech (Accenture). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Rol: content management a escala con IA, governance, marketing tech (Adobe AEM, Workfront, Monday).\n- Sin dossier, no maneja proveedores/agencias su equipo.\n\n**Estado:** CERRADA (20/06/26) — no maneja proveedores/agencias\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

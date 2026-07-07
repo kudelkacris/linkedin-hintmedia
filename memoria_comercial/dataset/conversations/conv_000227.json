@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000227",
+  "contact_id": "ctc_000236",
+  "source_file": "conversaciones/junio/mariana-ossandon-vera.md",
+  "fingerprint": "sha256:4713ed09166cf12705c10d1e676d1c8b7cc8ab4d23ab1d0f57dc8ffd99df31bc",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/mariana-ossandon-vera.md",
+    "file_hash": "sha256:4713ed09166cf12705c10d1e676d1c8b7cc8ab4d23ab1d0f57dc8ffd99df31bc",
+    "file_modified": "2026-06-18T17:38:21.244031+00:00",
+    "file_size": 2218,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Mariana Ossandón Vera",
+    "empresa": "Lipigas",
+    "cargo": "Encargada de Comunicaciones Corporativas, Periodista UDP",
+    "pais": "Chile",
+    "fecha": "18/06/26 (MSG1, MSG2 y cierre el mismo día)",
+    "estado_texto": "No es el momento, en cambio laboral, dejó puerta abierta"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Mariana, gracias por conectar. Me llamó la atención cómo celebraste el Great Place To Work el mes pasado. Lo que me quedó fue que en lugar de \"Yo estoy orgullosa\", escribiste \"Este logro es de todos y todas\". No es lo que la mayoría hace cuando anuncia un reconocimiento de ese calibre. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, si cuéntame",
+    "msg2_texto": "Hola Mariana, buena onda contarte!\n\nCuando un reconocimiento como el Great Place to Work se comunica como logro colectivo y no individual, normalmente hay que sostener esa misma coherencia entre comunicación interna y externa al mismo tiempo, con varios equipos y plataformas a la vez.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene esa narrativa de marca empleadora de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "pucha estoy en un cambio laboral, así que por ahora no estoy avanzando en esos temas, más adelante puedo darte más luces, gracias! Saludos.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "cuentame",
+      "pucha",
+      "estoy",
+      "cambio",
+      "laboral",
+      "ahora",
+      "avanzando",
+      "esos",
+      "temas",
+      "adelante"
+    ],
+    "notas": "- HECHO: 1er lugar Great Place to Work 2025, lo comunicó como logro colectivo (\"de todos y todas\"), no individual.\n- COMPLEJIDAD: lidera Employee Advocacy (embajadores de marca), maneja comunicación interna y externa, multiplataforma, 20 años de trayectoria, manejo de crisis.\n- Sector: energía (gas) → clientes referencia TGS/Transener.\n- Perfil con mucha actividad (1622 seguidores, publica seguido, activa en Fundación Proyecto B)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mariana Ossandón Vera]\n[EMPRESA: Lipigas]\n[CARGO: Encargada de Comunicaciones Corporativas, Periodista UDP]\n[PAIS: Chile]\n\n[MSG1]\nMariana, gracias por conectar. Me llamó la atención cómo celebraste el Great Place To Work el mes pasado. Lo que me quedó fue que en lugar de \"Yo estoy orgullosa\", escribiste \"Este logro es de todos y todas\". No es lo que la mayoría hace cuando anuncia un reconocimiento de ese calibre. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, si cuéntame\n\n[MSG2]\nHola Mariana, buena onda contarte!\n\nCuando un reconocimiento como el Great Place to Work se comunica como logro colectivo y no individual, normalmente hay que sostener esa misma coherencia entre comunicación interna y externa al mismo tiempo, con varios equipos y plataformas a la vez.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que sostiene esa narrativa de marca empleadora de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\npucha estoy en un cambio laboral, así que por ahora no estoy avanzando en esos temas, más adelante puedo darte más luces, gracias! Saludos.\n\n[NOTAS]\n- HECHO: 1er lugar Great Place to Work 2025, lo comunicó como logro colectivo (\"de todos y todas\"), no individual.\n- COMPLEJIDAD: lidera Employee Advocacy (embajadores de marca), maneja comunicación interna y externa, multiplataforma, 20 años de trayectoria, manejo de crisis.\n- Sector: energía (gas) → clientes referencia TGS/Transener.\n- Perfil con mucha actividad (1622 seguidores, publica seguido, activa en Fundación Proyecto B).",
+    "raw_md": "# Mariana Ossandón Vera\n\n**Estado:** No es el momento, en cambio laboral, dejó puerta abierta\n**Fecha:** 18/06/26 (MSG1, MSG2 y cierre el mismo día)\n**Cargo:** Encargada de Comunicaciones Corporativas, Periodista UDP\n**Empresa:** Lipigas\n**País:** Chile\n\n## MSG1\n> Mariana, gracias por conectar. Me llamó la atención cómo celebraste el Great Place To Work el mes pasado. Lo que me quedó fue que en lugar de \"Yo estoy orgullosa\", escribiste \"Este logro es de todos y todas\". No es lo que la mayoría hace cuando anuncia un reconocimiento de ese calibre. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, si cuéntame\n\n## MSG2 (redactado, por enviar — framework HECHO→COMPLEJIDAD→OPORTUNIDAD→HINT)\n> Hola Mariana, buena onda contarte!\n>\n> Cuando un reconocimiento como el Great Place to Work se comunica como logro colectivo y no individual, normalmente hay que sostener esa misma coherencia entre comunicación interna y externa al mismo tiempo, con varios equipos y plataformas a la vez.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que sostiene esa narrativa de marca empleadora de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> pucha estoy en un cambio laboral, así que por ahora no estoy avanzando en esos temas, más adelante puedo darte más luces, gracias! Saludos.\n\n## Cierre\n> Buenas Mariana, mucho éxito en ese cambio. Quedo atenta para cuando tengas más claridad, sin apuro. Saludos!\n\nNo insistir. Retomar más adelante si ella misma vuelve a escribir o pasado un tiempo prudente.\n\n## Notas\n- HECHO: 1er lugar Great Place to Work 2025, lo comunicó como logro colectivo (\"de todos y todas\"), no individual.\n- COMPLEJIDAD: lidera Employee Advocacy (embajadores de marca), maneja comunicación interna y externa, multiplataforma, 20 años de trayectoria, manejo de crisis.\n- Sector: energía (gas) → clientes referencia TGS/Transener.\n- Perfil con mucha actividad (1622 seguidores, publica seguido, activa en Fundación Proyecto B).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

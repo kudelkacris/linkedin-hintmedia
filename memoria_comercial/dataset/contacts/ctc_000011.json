@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000011",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Evin Tapia",
+  "empresa": "Pardini & Asociados",
+  "cargo": "Creative Director · Corporate Branding, Marketing and Business Communication",
+  "pais": "Panama",
+  "sector_raw": "Agencia / Consultoria Creativa",
+  "stage": 3,
+  "stage_texto": "MSG2 enviado",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "CONSULTORIA_TECH",
+  "seniority": "DIRECTOR",
+  "tiene_md": true,
+  "conversation_id": "conv_000038",
+  "historial_slug": "evin-tapia"
+}

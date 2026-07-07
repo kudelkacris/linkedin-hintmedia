@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000268",
+  "contact_id": "ctc_000193",
+  "source_file": "conversaciones/junio/vanessa-mancini-rivera.md",
+  "fingerprint": "sha256:c5c6fa0ba0b6b1984c1369d9ed983553917136898e86642fcbc84b2ac4a361a6",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/vanessa-mancini-rivera.md",
+    "file_hash": "sha256:c5c6fa0ba0b6b1984c1369d9ed983553917136898e86642fcbc84b2ac4a361a6",
+    "file_modified": "2026-07-01T15:55:05.614171+00:00",
+    "file_size": 1900,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Vanessa Mancini Rivera",
+    "empresa": "CRL - Clínica de Recuperación de Lesiones",
+    "cargo": "Jefa de Marketing y Comunicaciones",
+    "pais": "Chile",
+    "fecha": "19/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Vanessa, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace unos meses sobre comunicación interna. Lo que más me gustó fue cómo enfocaste el problema — no como un tema de eficiencia, sino de coherencia. Que el equipo que no conoce el propósito no puede defenderlo hacia afuera. Eso es bastante diferente a cómo lo plantea la mayoría.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "🤗😄🤐 Hola Florencia! ¡Muchas gracias por tu mensaje! ❤️ Me alegra mucho que te haya resonado ese post, para mí, la coherencia interna es la base de todo lo que se proyecta hacia afuera. Cuéntame ¿como te puedo ayudar?",
+    "msg2_texto": "Hola Vanessa!\nJusto eso es lo que te toca sostener en CRL: liderar la comunicación interna y la experiencia del colaborador a la par de la estrategia comercial, en una clínica con más de 115 personas y 6 sedes. Esa coherencia entre cultura interna y mensaje hacia afuera es justo el desafío que mencionás.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de salud a sostener esa coherencia en contenido, vocería y branding hacia pacientes y comunidad. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "mensaje",
+      "alegra",
+      "mucho",
+      "haya",
+      "resonado",
+      "post",
+      "coherencia",
+      "interna"
+    ],
+    "notas": "- Sector salud (clínica recuperación de lesiones, 6 sedes, 115+ colaboradores). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Foco fuerte en Employee Experience + Customer Experience integrados, comunicación interna y cultura."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Vanessa Mancini Rivera]\n[EMPRESA: CRL - Clínica de Recuperación de Lesiones]\n[CARGO: Jefa de Marketing y Comunicaciones]\n[PAIS: Chile]\n\n[MSG1]\nVanessa, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace unos meses sobre comunicación interna. Lo que más me gustó fue cómo enfocaste el problema — no como un tema de eficiencia, sino de coherencia. Que el equipo que no conoce el propósito no puede defenderlo hacia afuera. Eso es bastante diferente a cómo lo plantea la mayoría.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n🤗😄🤐 Hola Florencia! ¡Muchas gracias por tu mensaje! ❤️ Me alegra mucho que te haya resonado ese post, para mí, la coherencia interna es la base de todo lo que se proyecta hacia afuera. Cuéntame ¿como te puedo ayudar?\n\n[MSG2]\nHola Vanessa!\nJusto eso es lo que te toca sostener en CRL: liderar la comunicación interna y la experiencia del colaborador a la par de la estrategia comercial, en una clínica con más de 115 personas y 6 sedes. Esa coherencia entre cultura interna y mensaje hacia afuera es justo el desafío que mencionás.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de salud a sostener esa coherencia en contenido, vocería y branding hacia pacientes y comunidad. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector salud (clínica recuperación de lesiones, 6 sedes, 115+ colaboradores). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Foco fuerte en Employee Experience + Customer Experience integrados, comunicación interna y cultura.",
+    "raw_md": "# Vanessa Mancini Rivera\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 19/06/26\n**Cargo:** Jefa de Marketing y Comunicaciones\n**Empresa:** CRL - Clínica de Recuperación de Lesiones\n**País:** Chile\n\n## MSG1\n> Vanessa, gracias por conectar 👋\n>\n> Me llamó la atención la publicación que compartiste hace unos meses sobre comunicación interna. Lo que más me gustó fue cómo enfocaste el problema — no como un tema de eficiencia, sino de coherencia. Que el equipo que no conoce el propósito no puede defenderlo hacia afuera. Eso es bastante diferente a cómo lo plantea la mayoría.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> 🤗😄🤐 Hola Florencia! ¡Muchas gracias por tu mensaje! ❤️ Me alegra mucho que te haya resonado ese post, para mí, la coherencia interna es la base de todo lo que se proyecta hacia afuera. Cuéntame ¿como te puedo ayudar?\n\n## MSG2\n> Hola Vanessa!\n> Justo eso es lo que te toca sostener en CRL: liderar la comunicación interna y la experiencia del colaborador a la par de la estrategia comercial, en una clínica con más de 115 personas y 6 sedes. Esa coherencia entre cultura interna y mensaje hacia afuera es justo el desafío que mencionás.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de salud a sostener esa coherencia en contenido, vocería y branding hacia pacientes y comunidad. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector salud (clínica recuperación de lesiones, 6 sedes, 115+ colaboradores). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Foco fuerte en Employee Experience + Customer Experience integrados, comunicación interna y cultura.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000073",
+  "contact_id": "ctc_000032",
+  "source_file": "conversaciones/julio/maricarmen-arias-cis.md",
+  "fingerprint": "sha256:e795eab558117036e732cbb86ebb63d424350c181887cd3ea8a5cf0c0224a0fd",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/maricarmen-arias-cis.md",
+    "file_hash": "sha256:e795eab558117036e732cbb86ebb63d424350c181887cd3ea8a5cf0c0224a0fd",
+    "file_modified": "2026-07-06T15:11:58.812004+00:00",
+    "file_size": 2136,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Maricarmen Arias, CIS",
+    "empresa": "Business Development Manager",
+    "cargo": "Business Development Manager",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Maricarmen, gracias por conectar 👋\n\nVi tu reflexión de hace unos meses donde escribiste \"Costa Rica no se vende. Se posiciona.\" Lo que más me gustó fue que lo dijiste justo al identificar que el mercado ya no es cantidad, es calidad — y la competencia global se juega exactamente ahí. No es lo que la mayoría prioriza cuando arma su estrategia comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación hace 4 meses donde diagnostica el mercado turístico costarricense: \"Ya no recibimos la misma cantidad de visitantes que antes, pero sí estamos recibiendo mayor calidad.\" Luego plantea: \"¿Qué hace realmente diferente mi producto?\" y cierra con \"Costa Rica no se vende. Se posiciona.\" — decisión consciente de mostrar pensamiento estratégico, no operativo. Elige mostrar análisis de mercado y posicionamiento, no hechos de gestión diaria.",
+    "hipotesis": "Conversación sobre escalabilidad de narrativa — cómo sostener un mensaje de diferenciación estratégica cuando la ejecución pasa por decenas de operadores, agencias y canales con distintos niveles de expertise y disciplina. O bien: cómo documentar y comunicar experiencias premium de forma consistente en mercados globales sin que pierdan autenticidad en el proceso.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Maricarmen Arias, CIS]\n[EMPRESA: Business Development Manager]\n[CARGO: Business Development Manager]\n[SECTOR: Turismo / Hospitalidad / Experiencias]\n[PAIS: Costa Rica]\n[SENAL: Publicación hace 4 meses donde diagnostica el mercado turístico costarricense: \"Ya no recibimos la misma cantidad de visitantes que antes, pero sí estamos recibiendo mayor calidad.\" Luego plantea: \"¿Qué hace realmente diferente mi producto?\" y cierra con \"Costa Rica no se vende. Se posiciona.\" — decisión consciente de mostrar pensamiento estratégico, no operativo. Elige mostrar análisis de mercado y posicionamiento, no hechos de gestión diaria.]\n[HIPOTESIS: Conversación sobre escalabilidad de narrativa — cómo sostener un mensaje de diferenciación estratégica cuando la ejecución pasa por decenas de operadores, agencias y canales con distintos niveles de expertise y disciplina. O bien: cómo documentar y comunicar experiencias premium de forma consistente en mercados globales sin que pierdan autenticidad en el proceso.]\n\n[MSG1]\nMaricarmen, gracias por conectar 👋\n\nVi tu reflexión de hace unos meses donde escribiste \"Costa Rica no se vende. Se posiciona.\" Lo que más me gustó fue que lo dijiste justo al identificar que el mercado ya no es cantidad, es calidad — y la competencia global se juega exactamente ahí. No es lo que la mayoría prioriza cuando arma su estrategia comercial.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Maricarmen Arias, CIS\n\n**Fecha:** 06/07/26\n**Cargo:** Business Development Manager\n**Empresa:** Business Development Manager\n**Pais:** Costa Rica\n**Sector:** Turismo / Hospitalidad / Experiencias\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación hace 4 meses donde diagnostica el mercado turístico costarricense: \"Ya no recibimos la misma cantidad de visitantes que antes, pero sí estamos recibiendo mayor calidad.\" Luego plantea: \"¿Qué hace realmente diferente mi producto?\" y cierra con \"Costa Rica no se vende. Se posiciona.\" — decisión consciente de mostrar pensamiento estratégico, no operativo. Elige mostrar análisis de mercado y posicionamiento, no hechos de gestión diaria.\n- **Tensión profesional:** Mantener consistencia en el posicionamiento de marca y narrativa de valor entre múltiples empresas turísticas, partners internacionales y canales de venta simultáneamente, sin que cada uno interprete el mensaje a su conveniencia o lo reduzca a precio.\n- **Hipótesis:** Conversación sobre escalabilidad de narrativa — cómo sostener un mensaje de diferenciación estratégica cuando la ejecución pasa por decenas de operadores, agencias y canales con distintos niveles de expertise y disciplina. O bien: cómo documentar y comunicar experiencias premium de forma consistente en mercados globales sin que pierdan autenticidad en el proceso.\n- **Ángulo MSG1:** Publicación sobre posicionamiento vs. competencia global + reflexión sobre diferenciación. La señal es explícita y muestra pensamiento estratégico consciente.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Maricarmen, gracias por conectar 👋\n>\n> Vi tu reflexión de hace unos meses donde escribiste \"Costa Rica no se vende. Se posiciona.\" Lo que más me gustó fue que lo dijiste justo al identificar que el mercado ya no es cantidad, es calidad — y la competencia global se juega exactamente ahí. No es lo que la mayoría prioriza cuando arma su estrategia comercial.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

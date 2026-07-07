@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000154",
+  "contact_id": "ctc_000259",
+  "source_file": "conversaciones/junio/evanny-monge-cordoba.md",
+  "fingerprint": "sha256:200edb2b6f8c3cd2a49ee605364f303bd8b9517dfde3f1050b6ccc0cbe723cf1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/evanny-monge-cordoba.md",
+    "file_hash": "sha256:200edb2b6f8c3cd2a49ee605364f303bd8b9517dfde3f1050b6ccc0cbe723cf1",
+    "file_modified": "2026-06-23T21:45:58.466074+00:00",
+    "file_size": 2141,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Evanny Monge Córdoba",
+    "empresa": "Texas Tech University - Costa Rica (TTU-CR)",
+    "cargo": "Marketing Lead, Texas Tech University - Costa Rica",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "Dossier confirmado — respondió \"Claro, adelante!\""
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Evanny, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya sobre la diferencia entre contar historias y lograr que el público se identifique, eso es justo lo que más cuesta sostener consistente en el día a día. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Marketing Lead TTU-CR, 11 meses en el rol (2.5 años total en TTU-CR)\n- Lic. Comunicación de Mercadeo, Summa Cum Laude\n- MC en eventos: HR Summit, Future Leaders Summit, Hackathon\n- Post storytelling: \"contar historias no es solo hablar de una marca o un producto, es lograr que el público se identifique y conecte\"\n- TTU-CR publicó búsqueda de Paid Media Specialist (señal de presupuesto externo)\n- Sector: educación superior"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Evanny Monge Córdoba]\n[EMPRESA: Texas Tech University - Costa Rica (TTU-CR)]\n[CARGO: Marketing Lead, Texas Tech University - Costa Rica]\n[PAIS: Costa Rica]\n\n[SEG1]\nEvanny, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya sobre la diferencia entre contar historias y lograr que el público se identifique, eso es justo lo que más cuesta sostener consistente en el día a día. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.\n\n[NOTAS]\n- Marketing Lead TTU-CR, 11 meses en el rol (2.5 años total en TTU-CR)\n- Lic. Comunicación de Mercadeo, Summa Cum Laude\n- MC en eventos: HR Summit, Future Leaders Summit, Hackathon\n- Post storytelling: \"contar historias no es solo hablar de una marca o un producto, es lograr que el público se identifique y conecte\"\n- TTU-CR publicó búsqueda de Paid Media Specialist (señal de presupuesto externo)\n- Sector: educación superior",
+    "raw_md": "# Evanny Monge Córdoba\n\n**Estado:** Dossier confirmado — respondió \"Claro, adelante!\"\n**Fecha:** 15/06/26\n**Cargo:** Marketing Lead, Texas Tech University - Costa Rica\n**País:** Costa Rica\n**Empresa:** Texas Tech University - Costa Rica (TTU-CR)\n\n## Conversación\n\n**MSG1 (Florencia):**\nCitó su post de storytelling: la diferencia entre contar historias y lograr que el público se identifique.\n\n**Respuesta Evanny:**\n\"Hola Florencia! Cómo estás? Claro con gusto.\"\n\n**MSG2 enviado:**\n> Evanny, gracias por responder!\n>\n> Lo que describiste en el post de storytelling me pareció muy preciso: \"contar historias no es solo hablar de una marca o un producto, es lograr que el público se identifique y conecte.\" Eso es exactamente el estándar que cuesta más sostener en el día a día.\n>\n> En Hint trabajamos con instituciones y marcas en contenido estratégico, storytelling y posicionamiento digital que mantienen ese nivel de conexión de forma consistente.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Evanny:**\n\"Claro, adelante!\"\n\n**Respuesta enviada:**\n> Perfecto Evanny, te lo mando por acá ahora mismo!\n>\n> Y si preferís que te lo envíe también por mail, decime a qué dirección.\n\n## SEG1 (enviado 23/06/26, engagement MEDIUM)\n> Evanny, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea tuya sobre la diferencia entre contar historias y lograr que el público se identifique, eso es justo lo que más cuesta sostener consistente en el día a día. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.\n\n## Notas\n- Marketing Lead TTU-CR, 11 meses en el rol (2.5 años total en TTU-CR)\n- Lic. Comunicación de Mercadeo, Summa Cum Laude\n- MC en eventos: HR Summit, Future Leaders Summit, Hackathon\n- Post storytelling: \"contar historias no es solo hablar de una marca o un producto, es lograr que el público se identifique y conecte\"\n- TTU-CR publicó búsqueda de Paid Media Specialist (señal de presupuesto externo)\n- Sector: educación superior\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

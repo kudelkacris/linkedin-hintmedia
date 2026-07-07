@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000493",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Natalie Ajamil",
+  "empresa": "",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 1,
+  "stage_texto": "",
+  "fecha": "05/06/26",
+  "email": null,
+  "sector_norm": "DESCONOCIDO",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": false,
+  "conversation_id": null,
+  "historial_slug": "1780665390097"
+}

@@ -1,0 +1,79 @@
+{
+  "conversation_id": "conv_000199",
+  "contact_id": "ctc_000177",
+  "source_file": "conversaciones/junio/karla-zuniga-chacon.md",
+  "fingerprint": "sha256:22a5a01b14406b9fd6be7c5e6d02386c52f92dd33d2c93bedcbd4dd2e82d7b1c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/karla-zuniga-chacon.md",
+    "file_hash": "sha256:22a5a01b14406b9fd6be7c5e6d02386c52f92dd33d2c93bedcbd4dd2e82d7b1c",
+    "file_modified": "2026-07-01T15:55:05.631432+00:00",
+    "file_size": 1823,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Karla Zúñiga Chacón",
+    "empresa": "Forta Tech (equipos y software para sector automotriz)",
+    "cargo": "Jefe Desarrollo de Nuevos Mercados y Marketing",
+    "pais": "Costa Rica (remoto, expansión América/Europa/Asia)",
+    "fecha": "19/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Karla, gracias por conectar. Me llamó la atención la publicación que compartiste desde São Paulo hace poco. No fue un anuncio de logros ni de objetivos, fue sobre estar ahí, abriendo conversaciones y conectando soluciones. Eso dice algo diferente sobre cómo estás viendo esta etapa.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenos días Florencia, es un gusto saludarla, claro, dime cuál es tu consulta.",
+    "msg2_texto": "Buenos días Karla, gracias!\nJusto eso fue lo que me llamó la atención, porque abrir mercados nuevos en América, Europa y Asia para soluciones de equipos y software automotriz implica sostener una narrativa de marca consistente en culturas y mercados muy distintos al mismo tiempo.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología en expansión a mantener esa consistencia en contenido y posicionamiento. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dias",
+      "florencia",
+      "gusto",
+      "saludarla",
+      "dime",
+      "cual",
+      "consulta"
+    ],
+    "notas": "- Sector tech/automotriz (equipos y software). Cliente ejemplo: Destiny Group, Libra Seguros.\n- 25+ años de experiencia en marketing, recién asumió el rol en Forta Tech (enero 2026), expansión activa a São Paulo.\n- Tono formal (usó \"saludarla\"), respondió en tuteo/usted mixto.\n\nEstado: SEG1 enviado 01/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karla Zúñiga Chacón]\n[EMPRESA: Forta Tech (equipos y software para sector automotriz)]\n[CARGO: Jefe Desarrollo de Nuevos Mercados y Marketing]\n[PAIS: Costa Rica (remoto, expansión América/Europa/Asia)]\n\n[MSG1]\nKarla, gracias por conectar. Me llamó la atención la publicación que compartiste desde São Paulo hace poco. No fue un anuncio de logros ni de objetivos, fue sobre estar ahí, abriendo conversaciones y conectando soluciones. Eso dice algo diferente sobre cómo estás viendo esta etapa.\n\n[RESPUESTA_MSG1]\nBuenos días Florencia, es un gusto saludarla, claro, dime cuál es tu consulta.\n\n[MSG2]\nBuenos días Karla, gracias!\nJusto eso fue lo que me llamó la atención, porque abrir mercados nuevos en América, Europa y Asia para soluciones de equipos y software automotriz implica sostener una narrativa de marca consistente en culturas y mercados muy distintos al mismo tiempo.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología en expansión a mantener esa consistencia en contenido y posicionamiento. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector tech/automotriz (equipos y software). Cliente ejemplo: Destiny Group, Libra Seguros.\n- 25+ años de experiencia en marketing, recién asumió el rol en Forta Tech (enero 2026), expansión activa a São Paulo.\n- Tono formal (usó \"saludarla\"), respondió en tuteo/usted mixto.\n\nEstado: SEG1 enviado 01/07/26",
+    "raw_md": "---\nname: karla-zuniga-chacon\ndescription: MSG2 enviado, Jefe Desarrollo de Nuevos Mercados y Marketing Forta Tech, Costa Rica, 19/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Karla Zúñiga Chacón\n**Cargo:** Jefe Desarrollo de Nuevos Mercados y Marketing\n**Empresa:** Forta Tech (equipos y software para sector automotriz)\n**País:** Costa Rica (remoto, expansión América/Europa/Asia)\n**Fecha:** 19/06/26\n\n## MSG1\n> Karla, gracias por conectar. Me llamó la atención la publicación que compartiste desde São Paulo hace poco. No fue un anuncio de logros ni de objetivos, fue sobre estar ahí, abriendo conversaciones y conectando soluciones. Eso dice algo diferente sobre cómo estás viendo esta etapa.\n\n## Respuesta MSG1\n> Buenos días Florencia, es un gusto saludarla, claro, dime cuál es tu consulta.\n\n## MSG2\n> Buenos días Karla, gracias!\n> Justo eso fue lo que me llamó la atención, porque abrir mercados nuevos en América, Europa y Asia para soluciones de equipos y software automotriz implica sostener una narrativa de marca consistente en culturas y mercados muy distintos al mismo tiempo.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología en expansión a mantener esa consistencia en contenido y posicionamiento. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector tech/automotriz (equipos y software). Cliente ejemplo: Destiny Group, Libra Seguros.\n- 25+ años de experiencia en marketing, recién asumió el rol en Forta Tech (enero 2026), expansión activa a São Paulo.\n- Tono formal (usó \"saludarla\"), respondió en tuteo/usted mixto.\n\n**Estado:** SEG1 enviado 01/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

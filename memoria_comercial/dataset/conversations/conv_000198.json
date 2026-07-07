@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_000198",
+  "contact_id": "ctc_000280",
+  "source_file": "conversaciones/junio/karla-molina-vasquez.md",
+  "fingerprint": "sha256:07ba49613a21264554c8cdd4c9694ba96b6a4ef2a851b907c1f516cb7b90f8ad",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/karla-molina-vasquez.md",
+    "file_hash": "sha256:07ba49613a21264554c8cdd4c9694ba96b6a4ef2a851b907c1f516cb7b90f8ad",
+    "file_modified": "2026-06-12T16:04:13.612338+00:00",
+    "file_size": 467,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Karla Molina Vásquez",
+    "empresa": "GARNIER.AGENCY",
+    "cargo": "",
+    "pais": "",
+    "fecha": "12/06/26",
+    "estado_texto": "Esperando respuesta al MSG1"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karla Molina Vásquez]\n[EMPRESA: GARNIER.AGENCY]",
+    "raw_md": "---\nname: karla-molina-vasquez\ndescription: MSG1 enviado, entrada manual al historial, GARNIER.AGENCY, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Karla Molina Vásquez\n**Empresa:** GARNIER.AGENCY\n**Fecha:** 12/06/26\n\n**Resumen:**\n- Entrada agregada manualmente al historial (id: 1781300000001)\n- MSG1 enviado — variante \"Expansión regional — tres frentes\"\n- MSG2 ya preparado y listo para enviar cuando responda\n\n**Estado:** Esperando respuesta al MSG1\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.38
+  }
+}

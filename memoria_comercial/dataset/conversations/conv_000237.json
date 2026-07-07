@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000237",
+  "contact_id": "ctc_000263",
+  "source_file": "conversaciones/junio/milena-urena.md",
+  "fingerprint": "sha256:7734d3cbc1b2aea444cca12dc3a71eb34221e3b2bcd17cae8d26460656081cac",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/milena-urena.md",
+    "file_hash": "sha256:7734d3cbc1b2aea444cca12dc3a71eb34221e3b2bcd17cae8d26460656081cac",
+    "file_modified": "2026-06-15T19:59:15.222961+00:00",
+    "file_size": 1385,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Milena Ureña",
+    "empresa": "McCann San José (agencia publicitaria)",
+    "cargo": "Directora Marketing Digital, McCann San José",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Directora en McCann (agencia) — posicionado como complementario\n- Triatleta, mamá de Cami, muy activa en LinkedIn\n- Jurado Effie Awards Costa Rica\n- Antes: Country Manager en Moovmedia Group (3 años)\n- Restructurando área digital desde oct 2025 (9 meses)\n- Clientes McCann: retail, banca, telecomunicaciones, KFC CR, Gollo"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Milena Ureña]\n[EMPRESA: McCann San José (agencia publicitaria)]\n[CARGO: Directora Marketing Digital, McCann San José]\n[PAIS: Costa Rica]\n\n[NOTAS]\n- Directora en McCann (agencia) — posicionado como complementario\n- Triatleta, mamá de Cami, muy activa en LinkedIn\n- Jurado Effie Awards Costa Rica\n- Antes: Country Manager en Moovmedia Group (3 años)\n- Restructurando área digital desde oct 2025 (9 meses)\n- Clientes McCann: retail, banca, telecomunicaciones, KFC CR, Gollo",
+    "raw_md": "# Milena Ureña\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Directora Marketing Digital, McCann San José\n**País:** Costa Rica\n**Empresa:** McCann San José (agencia publicitaria)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 19:16):**\nCitó su post sobre disciplina, triatlón y \"la constancia es la que te hace cruzar la meta.\" Destacó que lo sostiene en su rol.\n\n**Respuesta Milena (22:39):**\n\"Sí, claro\"\n\n**MSG2 (redactado):**\n> Milena, gracias por responder.\n>\n> Lo que escribiste sobre \"no negociar con la mente\" me llegó, especialmente sabiendo que lo sostenés restructurando un área digital desde cero y siendo mamá y triatleta al mismo tiempo.\n>\n> En Hint trabajamos con marcas en retail, banca y consumo masivo con estrategias de comunicación que generan posicionamiento medible. Trabajamos de manera complementaria con agencias que necesitan refuerzo creativo o de contenido en cuentas específicas.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Directora en McCann (agencia) — posicionado como complementario\n- Triatleta, mamá de Cami, muy activa en LinkedIn\n- Jurado Effie Awards Costa Rica\n- Antes: Country Manager en Moovmedia Group (3 años)\n- Restructurando área digital desde oct 2025 (9 meses)\n- Clientes McCann: retail, banca, telecomunicaciones, KFC CR, Gollo\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

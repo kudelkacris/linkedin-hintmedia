@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000143",
+  "contact_id": "ctc_000233",
+  "source_file": "conversaciones/junio/cristine-jimenez.md",
+  "fingerprint": "sha256:792ef3e66793ba3f9e4fb6c72ca827132c4a51f7c935bc75dd3ecf1b043e2fde",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/cristine-jimenez.md",
+    "file_hash": "sha256:792ef3e66793ba3f9e4fb6c72ca827132c4a51f7c935bc75dd3ecf1b043e2fde",
+    "file_modified": "2026-07-01T15:56:34.543990+00:00",
+    "file_size": 1873,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Cristine Jimenez",
+    "empresa": "Abbott (EP Costa Rica — manufactura dispositivos médicos cardíacos)",
+    "cargo": "Senior Communications Specialist",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Cristine, gracias por conectar!\n\nMe llamó la atención la publicación que compartiste hace poco sobre liderazgo de equipos. Dijiste que los resultados son reflejo de la capacidad del líder para convocar, articular y guiar asertivamente. No es lo que casi nadie publica cuando habla de equipos de alto rendimiento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "Hola Cristine, gracias por responder.\n\nMe quedó esa impresión porque trabajás en un contexto donde eso que describís — convocar y articular equipos — tiene que replicarse no solo en tu equipo directo, sino hacia 3.000 colaboradores en múltiples plantas, divisiones, con distintos públicos internos. En empresas como Abbott, muchas veces ese trabajo de orquestación termina dependiendo completamente de una o dos personas. En Hint Media complementamos capacidad de comunicación y ejecución. Trabajamos con TGS, Transener, Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "(mensaje enviado — contenido no disponible post-compactación)",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- 10 años en Abbott Costa Rica (jul 2016 - presente)\n- Especialista en comunicaciones corporativas, RSE, iniciativas OPEx/Shingo\n- Maneja comunicación interna para ~3.000 colaboradores en 3 plantas\n- Publicaciones frecuentes, muy comprometida con propósito de Abbott (misión cardiaca)\n- Señal usada: post sobre liderazgo de equipos (resultados = capacidad del líder)\n- Sector medtech/corporativo → clientes TGS, Transener, Libra Seguros"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Cristine Jimenez]\n[EMPRESA: Abbott (EP Costa Rica — manufactura dispositivos médicos cardíacos)]\n[CARGO: Senior Communications Specialist]\n[PAIS: Costa Rica]\n\n[MSG1]\nCristine, gracias por conectar!\n\nMe llamó la atención la publicación que compartiste hace poco sobre liderazgo de equipos. Dijiste que los resultados son reflejo de la capacidad del líder para convocar, articular y guiar asertivamente. No es lo que casi nadie publica cuando habla de equipos de alto rendimiento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[MSG2]\nHola Cristine, gracias por responder.\n\nMe quedó esa impresión porque trabajás en un contexto donde eso que describís — convocar y articular equipos — tiene que replicarse no solo en tu equipo directo, sino hacia 3.000 colaboradores en múltiples plantas, divisiones, con distintos públicos internos. En empresas como Abbott, muchas veces ese trabajo de orquestación termina dependiendo completamente de una o dos personas. En Hint Media complementamos capacidad de comunicación y ejecución. Trabajamos con TGS, Transener, Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[SEG1]\n(mensaje enviado — contenido no disponible post-compactación)\n\n[NOTAS]\n- 10 años en Abbott Costa Rica (jul 2016 - presente)\n- Especialista en comunicaciones corporativas, RSE, iniciativas OPEx/Shingo\n- Maneja comunicación interna para ~3.000 colaboradores en 3 plantas\n- Publicaciones frecuentes, muy comprometida con propósito de Abbott (misión cardiaca)\n- Señal usada: post sobre liderazgo de equipos (resultados = capacidad del líder)\n- Sector medtech/corporativo → clientes TGS, Transener, Libra Seguros",
+    "raw_md": "# Cristine Jimenez\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26\n**Cargo:** Senior Communications Specialist\n**Empresa:** Abbott (EP Costa Rica — manufactura dispositivos médicos cardíacos)\n**País:** Costa Rica\n\n## MSG1\n> Cristine, gracias por conectar!\n>\n> Me llamó la atención la publicación que compartiste hace poco sobre liderazgo de equipos. Dijiste que los resultados son reflejo de la capacidad del líder para convocar, articular y guiar asertivamente. No es lo que casi nadie publica cuando habla de equipos de alto rendimiento.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## MSG2\n> Hola Cristine, gracias por responder.\n>\n> Me quedó esa impresión porque trabajás en un contexto donde eso que describís — convocar y articular equipos — tiene que replicarse no solo en tu equipo directo, sino hacia 3.000 colaboradores en múltiples plantas, divisiones, con distintos públicos internos. En empresas como Abbott, muchas veces ese trabajo de orquestación termina dependiendo completamente de una o dos personas. En Hint Media complementamos capacidad de comunicación y ejecución. Trabajamos con TGS, Transener, Libra Seguros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## SEG1 (01/07/26)\n> (mensaje enviado — contenido no disponible post-compactación)\n\n## Notas\n- 10 años en Abbott Costa Rica (jul 2016 - presente)\n- Especialista en comunicaciones corporativas, RSE, iniciativas OPEx/Shingo\n- Maneja comunicación interna para ~3.000 colaboradores en 3 plantas\n- Publicaciones frecuentes, muy comprometida con propósito de Abbott (misión cardiaca)\n- Señal usada: post sobre liderazgo de equipos (resultados = capacidad del líder)\n- Sector medtech/corporativo → clientes TGS, Transener, Libra Seguros\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000262",
+  "contact_id": "ctc_000169",
+  "source_file": "conversaciones/junio/steven-alfaro.md",
+  "fingerprint": "sha256:50481684c43fed17c29f10b361c26556daa6ff0b41e9fb36afdf38b47a79acd4",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/steven-alfaro.md",
+    "file_hash": "sha256:50481684c43fed17c29f10b361c26556daa6ff0b41e9fb36afdf38b47a79acd4",
+    "file_modified": "2026-06-18T23:36:06.280524+00:00",
+    "file_size": 1343,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Steven Alfaro",
+    "empresa": "Golabs Tech",
+    "cargo": "Chief Marketing Officer / AI Marketing Orchestrator",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Steven, gracias por conectar! Me llamó la atención que repostieras ese artículo sobre el burnout de marketing moderno (un rol, ocho brazos). La razón es que contrasta bastante con tu actividad reciente: todo lo que compartís es sobre arquitectura de AI, data governance, ROI. Casi como si estuvieras navegando dos mundos.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, claro dime!",
+    "msg2_texto": "Buenas Steven, gracias por la apertura!\n\nEsa tensión entre construir arquitectura de AI y data governance mientras el resto del marketing se quema con un solo rol cargando demasiado, es justo el tipo de brecha que se nota cuando una empresa escala más rápido en tecnología que en ejecución de contenido y comunicación.\n\nEn Hint Media trabajamos justo esa parte: comunicación y contenido como equipo externo, sin que dependa de una sola persona. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "dime"
+    ],
+    "notas": "- CMO en empresa de AI/tech (Golabs Tech), confirmado sector tech → Destiny Group y Libra Seguros."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Steven Alfaro]\n[EMPRESA: Golabs Tech]\n[CARGO: Chief Marketing Officer / AI Marketing Orchestrator]\n[SECTOR: Tech / AI]\n[PAIS: Costa Rica]\n\n[MSG1]\nSteven, gracias por conectar! Me llamó la atención que repostieras ese artículo sobre el burnout de marketing moderno (un rol, ocho brazos). La razón es que contrasta bastante con tu actividad reciente: todo lo que compartís es sobre arquitectura de AI, data governance, ROI. Casi como si estuvieras navegando dos mundos.\n\n[RESPUESTA_MSG1]\nHola Florencia, claro dime!\n\n[MSG2]\nBuenas Steven, gracias por la apertura!\n\nEsa tensión entre construir arquitectura de AI y data governance mientras el resto del marketing se quema con un solo rol cargando demasiado, es justo el tipo de brecha que se nota cuando una empresa escala más rápido en tecnología que en ejecución de contenido y comunicación.\n\nEn Hint Media trabajamos justo esa parte: comunicación y contenido como equipo externo, sin que dependa de una sola persona. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- CMO en empresa de AI/tech (Golabs Tech), confirmado sector tech → Destiny Group y Libra Seguros.",
+    "raw_md": "# Steven Alfaro\n\n**Estado:** MSG2 enviado\n**Fecha:** 18/06/26\n**Cargo:** Chief Marketing Officer / AI Marketing Orchestrator\n**Empresa:** Golabs Tech\n**País:** Costa Rica\n**Sector:** Tech / AI\n\n## MSG1\n> Steven, gracias por conectar! Me llamó la atención que repostieras ese artículo sobre el burnout de marketing moderno (un rol, ocho brazos). La razón es que contrasta bastante con tu actividad reciente: todo lo que compartís es sobre arquitectura de AI, data governance, ROI. Casi como si estuvieras navegando dos mundos.\n\n## Respuesta MSG1\n> Hola Florencia, claro dime!\n\n## MSG2\n> Buenas Steven, gracias por la apertura!\n>\n> Esa tensión entre construir arquitectura de AI y data governance mientras el resto del marketing se quema con un solo rol cargando demasiado, es justo el tipo de brecha que se nota cuando una empresa escala más rápido en tecnología que en ejecución de contenido y comunicación.\n>\n> En Hint Media trabajamos justo esa parte: comunicación y contenido como equipo externo, sin que dependa de una sola persona. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- CMO en empresa de AI/tech (Golabs Tech), confirmado sector tech → Destiny Group y Libra Seguros.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

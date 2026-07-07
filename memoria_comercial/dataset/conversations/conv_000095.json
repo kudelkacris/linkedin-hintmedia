@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000095",
+  "contact_id": "ctc_000057",
+  "source_file": "conversaciones/julio/sebasti-n-est-vez.md",
+  "fingerprint": "sha256:0377d12fd19a55be9e32e7300f0d98bebc632ebea1b835137ae1fc54f7c7baee",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/sebasti-n-est-vez.md",
+    "file_hash": "sha256:0377d12fd19a55be9e32e7300f0d98bebc632ebea1b835137ae1fc54f7c7baee",
+    "file_modified": "2026-07-06T16:05:32.127617+00:00",
+    "file_size": 2910,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Sebastián Estévez",
+    "empresa": "SEGUROS UNIDOS",
+    "cargo": "Jefe de marketing en SEGUROS UNIDOS | Máster en Marketing, Publicidad y RSC| Asesor de Comunicación e Imagen.",
+    "pais": "Ecuador",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Sebastián, gracias por conectar! 👋\n\nMe llamó la atención cómo compartiste el SaludFestival. Lo que más destaca en tu post es que le diste crédito explícitamente a Treehouse, Inhaus, los gerentes de Negocio. Eso no es lo que la mayoría hace cuando anuncia un reconocimiento internacional. Generalmente es \"ganamos\", punto. Vos enfatizaste el trabajo en equipo detrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola!\nSí, claro. Cuál es tu consulta?",
+    "msg2_texto": "Buenas Sebastián! Te cuento.\nUn reconocimiento internacional como el del SaludFestival es un momento de visibilidad corto. Cómo están trabajando para que ese logro llegue más allá de LinkedIn, a los clientes y socios que todavía no saben que SEGUROS UNIDOS estuvo ahí?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a empresas de seguros a capitalizar ese tipo de momentos: contenido, paid media y posicionamiento de marca. Trabajamos con Libra Seguros en comunicación y estrategia de contenidos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre SaludFestival donde destaca explícitamente que \"detrás de cada idea hay estrategia, trabajo en equipo, compromiso\" y agradece nominativamente a equipos internos y agencias (Treehouse, Inhaus). También su reflexión sobre liderazgo como \"conectar, inspirar y avanzar juntos\" en la Escuela de Liderazgo, donde valuó el ejercicio de alineación de equipos (\"rememos en la misma dirección\").",
+    "hipotesis": "Conversación sobre cómo escalar ejecución creativa sin perder dirección estratégica. O cómo mantener equipos alineados cuando los ciclos de campañas se aceleran. O cómo el reconocimiento internacional (SaludFestival) puede convertirse en palanca interna para posicionarse mejor hacia arriba.",
+    "palabras_clave": [
+      "cual",
+      "consulta"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Sebastián Estévez]\n[EMPRESA: SEGUROS UNIDOS]\n[CARGO: Jefe de marketing en SEGUROS UNIDOS | Máster en Marketing, Publicidad y RSC| Asesor de Comunicación e Imagen.]\n[SECTOR: Seguros / Seguros]\n[PAIS: Ecuador]\n[SENAL: La publicación sobre SaludFestival donde destaca explícitamente que \"detrás de cada idea hay estrategia, trabajo en equipo, compromiso\" y agradece nominativamente a equipos internos y agencias (Treehouse, Inhaus). También su reflexión sobre liderazgo como \"conectar, inspirar y avanzar juntos\" en la Escuela de Liderazgo, donde valuó el ejercicio de alineación de equipos (\"rememos en la misma dirección\").]\n[HIPOTESIS: Conversación sobre cómo escalar ejecución creativa sin perder dirección estratégica. O cómo mantener equipos alineados cuando los ciclos de campañas se aceleran. O cómo el reconocimiento internacional (SaludFestival) puede convertirse en palanca interna para posicionarse mejor hacia arriba.]\n\n[MSG1]\nSebastián, gracias por conectar! 👋\n\nMe llamó la atención cómo compartiste el SaludFestival. Lo que más destaca en tu post es que le diste crédito explícitamente a Treehouse, Inhaus, los gerentes de Negocio. Eso no es lo que la mayoría hace cuando anuncia un reconocimiento internacional. Generalmente es \"ganamos\", punto. Vos enfatizaste el trabajo en equipo detrás.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola!\nSí, claro. Cuál es tu consulta?\n\n[MSG2]\nBuenas Sebastián! Te cuento.\nUn reconocimiento internacional como el del SaludFestival es un momento de visibilidad corto. Cómo están trabajando para que ese logro llegue más allá de LinkedIn, a los clientes y socios que todavía no saben que SEGUROS UNIDOS estuvo ahí?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a empresas de seguros a capitalizar ese tipo de momentos: contenido, paid media y posicionamiento de marca. Trabajamos con Libra Seguros en comunicación y estrategia de contenidos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Sebastián Estévez\n\n**Fecha:** 06/07/26\n**Cargo:** Jefe de marketing en SEGUROS UNIDOS | Máster en Marketing, Publicidad y RSC| Asesor de Comunicación e Imagen.\n**Empresa:** SEGUROS UNIDOS\n**Pais:** Ecuador\n**Sector:** Seguros / Seguros\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre SaludFestival donde destaca explícitamente que \"detrás de cada idea hay estrategia, trabajo en equipo, compromiso\" y agradece nominativamente a equipos internos y agencias (Treehouse, Inhaus). También su reflexión sobre liderazgo como \"conectar, inspirar y avanzar juntos\" en la Escuela de Liderazgo, donde valuó el ejercicio de alineación de equipos (\"rememos en la misma dirección\").\n- **Tensión profesional:** Mantener coherencia en la narrativa de marca (140 años, propósito social, confianza) mientras ejecuta múltiples campañas en paralelo, coordina creativos externos, gestiona tiempos de producción y se asegura de que cada pieza refleje la estrategia sin que todo dependa de su validación personal.\n- **Hipótesis:** Conversación sobre cómo escalar ejecución creativa sin perder dirección estratégica. O cómo mantener equipos alineados cuando los ciclos de campañas se aceleran. O cómo el reconocimiento internacional (SaludFestival) puede convertirse en palanca interna para posicionarse mejor hacia arriba.\n- **Ángulo MSG1:** Partir de la publicación del SaludFestival + cómo comunicó el reconocimiento (dando crédito al equipo, enfatizando trabajo colaborativo).\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Sebastián, gracias por conectar! 👋\n>\n> Me llamó la atención cómo compartiste el SaludFestival. Lo que más destaca en tu post es que le diste crédito explícitamente a Treehouse, Inhaus, los gerentes de Negocio. Eso no es lo que la mayoría hace cuando anuncia un reconocimiento internacional. Generalmente es \"ganamos\", punto. Vos enfatizaste el trabajo en equipo detrás.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola!\n> Sí, claro. Cuál es tu consulta?\n\n---\n\n## MSG2\n> Buenas Sebastián! Te cuento.\n> Un reconocimiento internacional como el del SaludFestival es un momento de visibilidad corto. Cómo están trabajando para que ese logro llegue más allá de LinkedIn, a los clientes y socios que todavía no saben que SEGUROS UNIDOS estuvo ahí?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a empresas de seguros a capitalizar ese tipo de momentos: contenido, paid media y posicionamiento de marca. Trabajamos con Libra Seguros en comunicación y estrategia de contenidos.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

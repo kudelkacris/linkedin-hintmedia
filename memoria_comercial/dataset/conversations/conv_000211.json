@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000211",
+  "contact_id": "ctc_000275",
+  "source_file": "conversaciones/junio/luis-perez-foamtec.md",
+  "fingerprint": "sha256:58a78b025e3aa7e6bb24b19726c77f84e3661690591d3e56deb82607bf03f8c7",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/luis-perez-foamtec.md",
+    "file_hash": "sha256:58a78b025e3aa7e6bb24b19726c77f84e3661690591d3e56deb82607bf03f8c7",
+    "file_modified": "2026-07-06T13:06:59.693182+00:00",
+    "file_size": 4011,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Luis Perez",
+    "empresa": "Foamtec International WCC",
+    "cargo": "Contamination Surface Investigation Specialist / Responsable Comercial LATAM & Caribe",
+    "pais": "Costa Rica (mexicano)",
+    "fecha": "14/06/26",
+    "estado_texto": "Call agendada, miércoles 16hs ARG, Teams, lperez@foamtecusa.com, máx 30 min"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 6,
+    "resultado_final": "REUNION",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": true,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Luis Perez]\n[EMPRESA: Foamtec International WCC]\n[CARGO: Contamination Surface Investigation Specialist / Responsable Comercial LATAM & Caribe]\n[PAIS: Costa Rica (mexicano)]",
+    "raw_md": "---\nname: luis-perez-foamtec\ndescription: Call agendada (primera del proyecto), miércoles 16hs ARG vía Teams, Responsable Comercial LATAM&Caribe Foamtec International, 20/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Luis Perez\n**Cargo:** Contamination Surface Investigation Specialist / Responsable Comercial LATAM & Caribe\n**Empresa:** Foamtec International WCC\n**País:** Costa Rica (mexicano)\n**Fecha:** 14/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo describió su propuesta: arrancó con el problema, explicó el método científico, cerró con impacto financiero.\n- Respondió: \"En lo que pueda ayudarte, con gusto\"\n- Aclaró que ya no trabaja en Interborders y que es responsable comercial LATAM & Caribe en Foamtec\n- MSG2 enviado — gap: LATAM y Caribe en paralelo, coherencia de marca en cada mercado. Mención TGS.\n- Respondió: \"Mándamelo y lo reviso. Gracias\"\n- Dossier enviado\n- Preguntó \"Como me ubicaste?\" — curiosidad genuina, señal de interés real\n- SEG1 enviado 19/06/26, ENGAGEMENT_LEVEL: HIGH (respuestas rápidas en todo el hilo, contexto propio sin pedirlo, curiosidad sobre cómo lo encontraron):\n> Luis, cómo estás? No sé si llegaste a revisar el material.\n> Me quedó pensando en eso de LATAM y Caribe, cada mercado con su propio ritmo, y la marca necesitando sonar igual en todos al mismo tiempo.\n> Te parece si coordinamos 15 minutos esta semana y vemos cómo aplicaría a la operación de Foamtec en la región?\n- Luis preguntó zona horaria. Florencia: UTC-3. Luis: Costa Rica, Mountain time, 3 horas de diferencia.\n- Luis propuso: miércoles próximo 16hs hora Argentina, invite a lperez@foamtecusa.com, presentación máximo 30 min.\n- Florencia confirmó, invite enviada. **PRIMERA CALL AGENDADA DEL PROYECTO (20/06/26).**\n\n**Notas:**\n- Sector: medical device y pharma cleanrooms\n- Usa microscopía óptica, SEM-EDS, UV tracers\n- Mercados: Costa Rica, México, Brasil, Puerto Rico, República Dominicana\n- Mexicano viviendo en Costa Rica por ecosistema med device\n\n**Estado:** Call agendada, miércoles 16hs ARG, Teams, lperez@foamtecusa.com, máx 30 min\n\n**Actualización 22/06/26:**\n- Florencia confirmó invite por Google Calendar.\n- Luis preguntó \"La puedes grabar?\". Florencia confirmó que sí, así le queda para compartir con quien necesite del lado de Foamtec.\n\n**Actualización 23/06/26 — decks para la call del miércoles:**\n- Se construyeron 3 decks alternativos en `presentaciones/`, todos client-facing (sin info interna de Hint visible):\n  - `luis-perez-foamtec-v3.html` — versión base, estructura \"Luis primero, Hint después\", 12 slides.\n  - `luis-perez-foamtec-OPCION-A-executive.html` — Executive Strategy Deck, 9 slides, fondo negro, minimalista (McKinsey/Apple), para si Luis se muestra estratégico/visión.\n  - `luis-perez-foamtec-OPCION-B-blueprint.html` — Growth Blueprint, 13 slides, color, mockups de posts reales, calendario editorial, cronograma 90 días, para si Luis pregunta \"cómo sería el día a día\" (más probable dado su perfil ingeniería/calidad/ventas técnicas).\n- Insumo: 52 comentarios de LinkedIn de Luis de los últimos 6 meses (patrón: felicita a todos, 0 posts propios) + foto del MD Summit Costa Rica + CV completo (16 años Berkshire Corporation, MBA Thunderbird, Ing. Tec de Monterrey).\n- Decisión clave: se sacó toda cifra de USD de la primera reunión (riesgo de disparar negociación de precio antes de establecer valor). Slide de \"resultados esperados\" usa lenguaje consultivo + disclaimer, no promesas.\n- Guiones orales completos en `guion-luis-perez-v3.md` y `guion-opciones-AB.md` (apertura, transiciones, objeciones, cuándo usar A vs B, autocrítica).\n\n**Actualización 03/07/26:**\n- Call realizada. Propuesta enviada por mail (dos variantes).\n\n**Actualización 06/07/26:**\n- Luis respondió al seguimiento del jueves: \"La reviso.\"\n- Respuesta enviada: \"Perfecto Luis, cualquier consulta acá estamos.\"\n- En espera. Si no responde en 3-4 días, retomar.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

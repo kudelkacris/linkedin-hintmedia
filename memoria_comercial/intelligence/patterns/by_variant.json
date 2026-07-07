@@ -1,0 +1,53 @@
+{
+  "A": {
+    "total": 188,
+    "respondio_msg1": 137,
+    "dossier_enviado": 83,
+    "call_agendada": 1,
+    "response_rate": 0.7287,
+    "dossier_rate": 0.4415,
+    "call_rate": 0.0053,
+    "dossier_from_response": 0.6058,
+    "call_from_dossier": 0.012,
+    "by_resultado": {
+      "EN_PROCESO": 121,
+      "SIN_RESPUESTA": 50,
+      "CERRADO_SIN_INTERES": 16,
+      "REUNION": 1
+    }
+  },
+  "C": {
+    "total": 11,
+    "respondio_msg1": 9,
+    "dossier_enviado": 6,
+    "call_agendada": 0,
+    "response_rate": 0.8182,
+    "dossier_rate": 0.5455,
+    "call_rate": 0.0,
+    "dossier_from_response": 0.6667,
+    "call_from_dossier": 0.0,
+    "by_resultado": {
+      "EN_PROCESO": 8,
+      "SIN_RESPUESTA": 2,
+      "CERRADO_SIN_INTERES": 1,
+      "REUNION": 0
+    }
+  },
+  "DESCONOCIDA": {
+    "total": 77,
+    "respondio_msg1": 11,
+    "dossier_enviado": 39,
+    "call_agendada": 1,
+    "response_rate": 0.1429,
+    "dossier_rate": 0.5065,
+    "call_rate": 0.013,
+    "dossier_from_response": 3.5455,
+    "call_from_dossier": 0.0256,
+    "by_resultado": {
+      "EN_PROCESO": 56,
+      "SIN_RESPUESTA": 10,
+      "CERRADO_SIN_INTERES": 10,
+      "REUNION": 1
+    }
+  }
+}

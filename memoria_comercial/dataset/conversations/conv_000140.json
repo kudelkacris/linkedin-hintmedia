@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000140",
+  "contact_id": "ctc_000137",
+  "source_file": "conversaciones/junio/claudia-cardemil.md",
+  "fingerprint": "sha256:561797f71dc2da1ca1104bc9544156f6c2f21c706449c0ecdcac125ec783f19e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/claudia-cardemil.md",
+    "file_hash": "sha256:561797f71dc2da1ca1104bc9544156f6c2f21c706449c0ecdcac125ec783f19e",
+    "file_modified": "2026-07-03T17:25:34.786554+00:00",
+    "file_size": 2490,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Claudia Cardemil",
+    "empresa": "Enap",
+    "cargo": "Comunicaciones Corporativas",
+    "pais": "Chile",
+    "fecha": "20/06/26",
+    "estado_texto": "Cerrada — contrato vigente con otra agencia, internos sin proveedores — 03/07/26"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Claudia, gracias por conectar! 👋\nMe llamó la atención la reflexión que publicaste hace poco sobre respeto como competencia clave profesional, particularmente cómo lo conectaste con liderazgos que escuchan y culturas organizacionales más sanas. No es lo que la mayoría de comunicadores publica cuando habla de estrategia corporativa.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Cómo estás? Primero que todo, gracias por leer la publicación. Cuéntame que necesitas para ver si puedo apoyarte y cómo podría apoyarte.",
+    "msg2_texto": "Hola Claudia, muy bien gracias, el gusto es mío!\nEsa coherencia entre lo que baja de gerencia y cómo llega a cada unidad es justo donde más se complica la comunicación interna en ENAP.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro, mándamelo, no hay problema. Acá lo reviso y veo si pudiera aplicar o no con nuestras necesidades, o ver si quizás pudiera aplicar para otra área. Muchas gracias!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "primero",
+      "todo",
+      "leer",
+      "publicacion",
+      "cuentame",
+      "necesitas",
+      "puedo",
+      "apoyarte"
+    ],
+    "notas": "- Sector energía (ENAP). Cliente ejemplo: TGS, Transener.\n- Cerrada: contrato vigente con otra agencia (externos) + internos sin proveedores.\n- Recomendó inscribirse en registro de proveedores ENAP para próxima licitación."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Claudia Cardemil]\n[EMPRESA: Enap]\n[CARGO: Comunicaciones Corporativas]\n[PAIS: Chile]\n\n[MSG1]\nClaudia, gracias por conectar! 👋\nMe llamó la atención la reflexión que publicaste hace poco sobre respeto como competencia clave profesional, particularmente cómo lo conectaste con liderazgos que escuchan y culturas organizacionales más sanas. No es lo que la mayoría de comunicadores publica cuando habla de estrategia corporativa.\n\n[RESPUESTA_MSG1]\nHola Florencia! Cómo estás? Primero que todo, gracias por leer la publicación. Cuéntame que necesitas para ver si puedo apoyarte y cómo podría apoyarte.\n\n[MSG2]\nHola Claudia, muy bien gracias, el gusto es mío!\nEsa coherencia entre lo que baja de gerencia y cómo llega a cada unidad es justo donde más se complica la comunicación interna en ENAP.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro, mándamelo, no hay problema. Acá lo reviso y veo si pudiera aplicar o no con nuestras necesidades, o ver si quizás pudiera aplicar para otra área. Muchas gracias!\n\n[NOTAS]\n- Sector energía (ENAP). Cliente ejemplo: TGS, Transener.\n- Cerrada: contrato vigente con otra agencia (externos) + internos sin proveedores.\n- Recomendó inscribirse en registro de proveedores ENAP para próxima licitación.",
+    "raw_md": "# Claudia Cardemil\n\n**Estado:** Cerrada — contrato vigente con otra agencia, internos sin proveedores — 03/07/26\n**Fecha:** 20/06/26\n**Cargo:** Comunicaciones Corporativas\n**Empresa:** Enap\n**País:** Chile\n\n## MSG1\n> Claudia, gracias por conectar! 👋\n> Me llamó la atención la reflexión que publicaste hace poco sobre respeto como competencia clave profesional, particularmente cómo lo conectaste con liderazgos que escuchan y culturas organizacionales más sanas. No es lo que la mayoría de comunicadores publica cuando habla de estrategia corporativa.\n\n## Respuesta MSG1\n> Hola Florencia! Cómo estás? Primero que todo, gracias por leer la publicación. Cuéntame que necesitas para ver si puedo apoyarte y cómo podría apoyarte.\n\n## MSG2\n> Hola Claudia, muy bien gracias, el gusto es mío!\n> Esa coherencia entre lo que baja de gerencia y cómo llega a cada unidad es justo donde más se complica la comunicación interna en ENAP.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Sí, claro, mándamelo, no hay problema. Acá lo reviso y veo si pudiera aplicar o no con nuestras necesidades, o ver si quizás pudiera aplicar para otra área. Muchas gracias!\n\n## Respuesta SEG1 (03/07/26)\n> Hola Florencia. Mira, en este momento ya tenemos un contrato vigente con una agencia de comunicaciones para los temas externos, ya que los internos no se trabajan con proveedores. Por ahora, te recomiendo que puedan inscribirse en el registro de proveedores de Enap (que aparece en la página web), de esta manera, cuando se licite nuevamente el servicio, el área de compras los incorporará automáticamente en el proceso.\n\n## Cierre (03/07/26)\n> Buenas Claudia, muchas gracias por la claridad y por tomarte el tiempo de explicarlo.\n> Anotamos lo del registro de proveedores de ENAP, es una muy buena referencia para cuando se abra la próxima licitación.\n> Quedo atenta y ojalá coincidamos en algún momento. Mucho éxito!\n\n## Notas\n- Sector energía (ENAP). Cliente ejemplo: TGS, Transener.\n- Cerrada: contrato vigente con otra agencia (externos) + internos sin proveedores.\n- Recomendó inscribirse en registro de proveedores ENAP para próxima licitación.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

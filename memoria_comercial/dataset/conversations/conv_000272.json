@@ -1,0 +1,81 @@
+{
+  "conversation_id": "conv_000272",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/junio/viviana-fernandez-marin.md",
+  "fingerprint": "sha256:28b59056e8e2bf18d9d9c603df0609f5776e68a402f404d73efb60f34563c2a8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/viviana-fernandez-marin.md",
+    "file_hash": "sha256:28b59056e8e2bf18d9d9c603df0609f5776e68a402f404d73efb60f34563c2a8",
+    "file_modified": "2026-06-10T22:45:33.588236+00:00",
+    "file_size": 1904,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Viviana Fernández Marín",
+    "empresa": "Consultora/creadora de contenido independiente",
+    "cargo": "",
+    "pais": "(no especificado)",
+    "fecha": "10/06/26",
+    "estado_texto": "Dossier enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Viviana, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste en tu descripción — que produces personalmente todo el contenido sin intermediarios entre la estrategia y la ejecución. Entiendo que es un principio, no un detalle.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, muchas gracias por tu mensaje y por tomarte el tiempo de leer mi perfil.\nSí, efectivamente. Para mí es importante que exista coherencia entre la estrategia y la ejecución, por eso procuro involucrarme personalmente en todo el proceso de creación de contenido.\nCon mucho gusto, contame en qué puedo ayudarte y conversamos. 😊",
+    "msg2_texto": "Lo que me quedó fue eso — que sostener esa coherencia entre estrategia y ejecución es una decisión con un costo real. Cuando todo pasa por una sola persona el estándar se mantiene, pero el volumen tiene techo.\n\nDesde Hint Media trabajamos con esa misma lógica — sumamos capacidad de ejecución sin romper la coherencia del proceso. Hemos trabajado con Destiny Group, Tasarolli y otros que tenían esa misma exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro. Puede ser por acá si gustas.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "mensaje",
+      "tomarte",
+      "tiempo",
+      "leer",
+      "perfil",
+      "efectivamente",
+      "importante",
+      "exista"
+    ],
+    "notas": "- Variante A (persona) — principio de coherencia estrategia/ejecución como identidad profesional\n- Clientes usados: Destiny Group, Tasarolli (sector comunicación/contenido)\n- Respuesta rápida y cálida, conversación fluida"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Viviana Fernández Marín]\n[EMPRESA: Consultora/creadora de contenido independiente]\n[SECTOR: Comunicación / Contenido]\n[PAIS: (no especificado)]\n\n[MSG1]\nViviana, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste en tu descripción — que produces personalmente todo el contenido sin intermediarios entre la estrategia y la ejecución. Entiendo que es un principio, no un detalle.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, muchas gracias por tu mensaje y por tomarte el tiempo de leer mi perfil.\nSí, efectivamente. Para mí es importante que exista coherencia entre la estrategia y la ejecución, por eso procuro involucrarme personalmente en todo el proceso de creación de contenido.\nCon mucho gusto, contame en qué puedo ayudarte y conversamos. 😊\n\n[MSG2]\nLo que me quedó fue eso — que sostener esa coherencia entre estrategia y ejecución es una decisión con un costo real. Cuando todo pasa por una sola persona el estándar se mantiene, pero el volumen tiene techo.\n\nDesde Hint Media trabajamos con esa misma lógica — sumamos capacidad de ejecución sin romper la coherencia del proceso. Hemos trabajado con Destiny Group, Tasarolli y otros que tenían esa misma exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro. Puede ser por acá si gustas.\n\n[MSG3]\nPerfecto, te lo mando ahora.\n[link dossier]\nCualquier duda que te surja, acá estoy.\n\n[NOTAS]\n- Variante A (persona) — principio de coherencia estrategia/ejecución como identidad profesional\n- Clientes usados: Destiny Group, Tasarolli (sector comunicación/contenido)\n- Respuesta rápida y cálida, conversación fluida",
+    "raw_md": "# Viviana Fernández Marín\n**Fecha:** 10/06/26\n**Empresa:** Consultora/creadora de contenido independiente\n**País:** (no especificado)\n**Sector:** Comunicación / Contenido\n**Estado:** Dossier enviado\n\n---\n\n## MSG1\n> Viviana, gracias por conectar! 👋\n>\n> Me llamó la atención algo que escribiste en tu descripción — que produces personalmente todo el contenido sin intermediarios entre la estrategia y la ejecución. Entiendo que es un principio, no un detalle.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, muchas gracias por tu mensaje y por tomarte el tiempo de leer mi perfil.\n> Sí, efectivamente. Para mí es importante que exista coherencia entre la estrategia y la ejecución, por eso procuro involucrarme personalmente en todo el proceso de creación de contenido.\n> Con mucho gusto, contame en qué puedo ayudarte y conversamos. 😊\n\n## MSG2\n> Lo que me quedó fue eso — que sostener esa coherencia entre estrategia y ejecución es una decisión con un costo real. Cuando todo pasa por una sola persona el estándar se mantiene, pero el volumen tiene techo.\n>\n> Desde Hint Media trabajamos con esa misma lógica — sumamos capacidad de ejecución sin romper la coherencia del proceso. Hemos trabajado con Destiny Group, Tasarolli y otros que tenían esa misma exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Sí, claro. Puede ser por acá si gustas.\n\n## MSG3\n> Perfecto, te lo mando ahora.\n> [link dossier]\n> Cualquier duda que te surja, acá estoy.\n\n---\n\n## Notas\n- Variante A (persona) — principio de coherencia estrategia/ejecución como identidad profesional\n- Clientes usados: Destiny Group, Tasarolli (sector comunicación/contenido)\n- Respuesta rápida y cálida, conversación fluida\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000031",
+  "contact_id": "ctc_000095",
+  "source_file": "conversaciones/julio/diego-jim-nez.md",
+  "fingerprint": "sha256:8858ad109c3d128b77929acd59cd6ef2433e889df98a1adac3cdce87596203eb",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/diego-jim-nez.md",
+    "file_hash": "sha256:8858ad109c3d128b77929acd59cd6ef2433e889df98a1adac3cdce87596203eb",
+    "file_modified": "2026-07-01T23:57:50.200397+00:00",
+    "file_size": 2118,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Diego Jiménez",
+    "empresa": "LEAD University",
+    "cargo": "Máster en Marketing Digital 📈 Lic. Comunicación de Mercadeo 🧠 Publicista 💻",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Diego, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Énfasis recurrente en formación y certificación. Publicó sobre obtención del máster hace 11 meses destacando \"sacrificio, logro y visión para seguir aprendiendo\" y la necesidad constante de \"actualización y adaptación al cambio\". Patrón claro: valida su profesionalismo a través de credenciales más que por resultados ejecutados.",
+    "hipotesis": "Conversación sobre cómo escalar ejecución de marketing digital en organizaciones donde el equipo es pequeño o donde la complejidad operativa requiere más que teoría. Posible transición desde \"especialista técnico\" hacia \"líder de marketing con impacto medible\".",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Diego Jiménez]\n[EMPRESA: LEAD University]\n[CARGO: Máster en Marketing Digital 📈 Lic. Comunicación de Mercadeo 🧠 Publicista 💻]\n[SECTOR: Educación (LEAD University, función principal actual) / Seguros (Grupo INS, 3+ años) / Retail automotriz (Red Motors, pasado)]\n[PAIS: Costa Rica]\n[SENAL: Énfasis recurrente en formación y certificación. Publicó sobre obtención del máster hace 11 meses destacando \"sacrificio, logro y visión para seguir aprendiendo\" y la necesidad constante de \"actualización y adaptación al cambio\". Patrón claro: valida su profesionalismo a través de credenciales más que por resultados ejecutados.]\n[HIPOTESIS: Conversación sobre cómo escalar ejecución de marketing digital en organizaciones donde el equipo es pequeño o donde la complejidad operativa requiere más que teoría. Posible transición desde \"especialista técnico\" hacia \"líder de marketing con impacto medible\".]\n\n[MSG1]\nDiego, gracias por conectar! 👋\n\nEstuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "raw_md": "# Diego Jiménez\n\n**Fecha:** 01/07/26\n**Cargo:** Máster en Marketing Digital 📈 Lic. Comunicación de Mercadeo 🧠 Publicista 💻\n**Empresa:** LEAD University\n**Pais:** Costa Rica\n**Sector:** Educación (LEAD University, función principal actual) / Seguros (Grupo INS, 3+ años) / Retail automotriz (Red Motors, pasado)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Énfasis recurrente en formación y certificación. Publicó sobre obtención del máster hace 11 meses destacando \"sacrificio, logro y visión para seguir aprendiendo\" y la necesidad constante de \"actualización y adaptación al cambio\". Patrón claro: valida su profesionalismo a través de credenciales más que por resultados ejecutados.\n- **Tensión profesional:** Existe tensión entre profundidad técnica (formación constante) y amplitud de ejecución (coordinar estrategia en dos contextos muy distintos — educación y seguros). El riesgo profesional es quedar atrapado en validación de conocimiento en lugar de demostración de impacto.\n- **Hipótesis:** Conversación sobre cómo escalar ejecución de marketing digital en organizaciones donde el equipo es pequeño o donde la complejidad operativa requiere más que teoría. Posible transición desde \"especialista técnico\" hacia \"líder de marketing con impacto medible\".\n- **Ángulo MSG1:** La dedicación a formación continua revela alguien que se toma el oficio en serio, pero también es observable que sus publicaciones no documentan campañas ejecutadas, resultados visibles o liderazgo de iniciativas complejas. El ángulo natural es entender qué se mueve entre la certifcación y la ejecución real.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Diego, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que vienen haciendo en LEAD University. Me llamó la atención que hace poco asumiste como Jefe de Marketing ahí. Imagino que en una universidad que está creciendo, eso abre bastantes frentes al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

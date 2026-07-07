@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000128",
+  "contact_id": "ctc_000152",
+  "source_file": "conversaciones/junio/carmen-helena-villabona-ayala.md",
+  "fingerprint": "sha256:8a939e60663de8e88a9c46d03bee89864ed77ae920fe8429ad8525dc518450b3",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carmen-helena-villabona-ayala.md",
+    "file_hash": "sha256:8a939e60663de8e88a9c46d03bee89864ed77ae920fe8429ad8525dc518450b3",
+    "file_modified": "2026-07-01T17:32:47.219354+00:00",
+    "file_size": 1978,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carmen Helena Villabona Ayala",
+    "empresa": "Grupo Espumas Santafé S.A.S (2 meses)",
+    "cargo": "Director de Marca",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carmen, gracias por conectar 👋\n\nMe llamó la atención el cierre que hiciste de tu etapa en Diaco. Lo que más me gustó fue que el énfasis no estuvo en logros propios sino en agradecer al equipo y remarcar que \"los mejores resultados nacen cuando se trabaja con propósito y con personas extraordinarias\". No es lo que típicamente ves cuando alguien se va de una compañía.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Si, es correcto",
+    "msg2_texto": "Buenas Carmen, gracias por responder.\nLo que dijiste en ese cierre de Diaco, que los mejores resultados nacen con propósito y personas extraordinarias, cobra otra dimensión ahora que arrancás un rol de Directora de Marca desde cero. Dos meses adentro, con posicionamiento, arquitectura de precios, branding y canales todo en paralelo, el desafío real suele ser ejecutar con consistencia antes de que el equipo propio esté rodado.\nEn Hint Media sumamos capacidad de ejecución en contenido, diseño y digital para exactamente ese momento de arranque. Trabajamos con Destiny Group y Tasarolli en estructuras similares de marca y retail.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "correcto"
+    ],
+    "notas": "- Exdiaco (siderúrgica, 21 meses, fuerte perfil ESG/sostenibilidad)\n- Arrancó en Espumas Santafé hace 2 meses — rol nuevo, Director de Marca\n- Marketing 360, posicionamiento, arquitectura de precios, retail\n- Señal: post de cierre Diaco con énfasis en personas y propósito (no en logros propios)\n- Sector retail/consumo → clientes Destiny Group, Tasarolli"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carmen Helena Villabona Ayala]\n[EMPRESA: Grupo Espumas Santafé S.A.S (2 meses)]\n[CARGO: Director de Marca]\n[SECTOR: Retail / consumo masivo (espumas, colchones)]\n[PAIS: Colombia (Bogotá)]\n\n[MSG1]\nCarmen, gracias por conectar 👋\n\nMe llamó la atención el cierre que hiciste de tu etapa en Diaco. Lo que más me gustó fue que el énfasis no estuvo en logros propios sino en agradecer al equipo y remarcar que \"los mejores resultados nacen cuando se trabaja con propósito y con personas extraordinarias\". No es lo que típicamente ves cuando alguien se va de una compañía.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Si, es correcto\n\n[MSG2]\nBuenas Carmen, gracias por responder.\nLo que dijiste en ese cierre de Diaco, que los mejores resultados nacen con propósito y personas extraordinarias, cobra otra dimensión ahora que arrancás un rol de Directora de Marca desde cero. Dos meses adentro, con posicionamiento, arquitectura de precios, branding y canales todo en paralelo, el desafío real suele ser ejecutar con consistencia antes de que el equipo propio esté rodado.\nEn Hint Media sumamos capacidad de ejecución en contenido, diseño y digital para exactamente ese momento de arranque. Trabajamos con Destiny Group y Tasarolli en estructuras similares de marca y retail.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Exdiaco (siderúrgica, 21 meses, fuerte perfil ESG/sostenibilidad)\n- Arrancó en Espumas Santafé hace 2 meses — rol nuevo, Director de Marca\n- Marketing 360, posicionamiento, arquitectura de precios, retail\n- Señal: post de cierre Diaco con énfasis en personas y propósito (no en logros propios)\n- Sector retail/consumo → clientes Destiny Group, Tasarolli",
+    "raw_md": "# Carmen Helena Villabona Ayala\n\n**Fecha:** 01/07/26\n**Cargo:** Director de Marca\n**Empresa:** Grupo Espumas Santafé S.A.S (2 meses)\n**País:** Colombia (Bogotá)\n**Sector:** Retail / consumo masivo (espumas, colchones)\n**Estado:** MSG2 enviado 01/07/26\n\n---\n\n## MSG1\n> Carmen, gracias por conectar 👋\n>\n> Me llamó la atención el cierre que hiciste de tu etapa en Diaco. Lo que más me gustó fue que el énfasis no estuvo en logros propios sino en agradecer al equipo y remarcar que \"los mejores resultados nacen cuando se trabaja con propósito y con personas extraordinarias\". No es lo que típicamente ves cuando alguien se va de una compañía.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podás ayudar.\n\n## Respuesta MSG1 (lunes 30/06)\n> Hola Florencia! Si, es correcto\n\n## MSG2 (01/07/26)\n> Buenas Carmen, gracias por responder.\n> Lo que dijiste en ese cierre de Diaco, que los mejores resultados nacen con propósito y personas extraordinarias, cobra otra dimensión ahora que arrancás un rol de Directora de Marca desde cero. Dos meses adentro, con posicionamiento, arquitectura de precios, branding y canales todo en paralelo, el desafío real suele ser ejecutar con consistencia antes de que el equipo propio esté rodado.\n> En Hint Media sumamos capacidad de ejecución en contenido, diseño y digital para exactamente ese momento de arranque. Trabajamos con Destiny Group y Tasarolli en estructuras similares de marca y retail.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Exdiaco (siderúrgica, 21 meses, fuerte perfil ESG/sostenibilidad)\n- Arrancó en Espumas Santafé hace 2 meses — rol nuevo, Director de Marca\n- Marketing 360, posicionamiento, arquitectura de precios, retail\n- Señal: post de cierre Diaco con énfasis en personas y propósito (no en logros propios)\n- Sector retail/consumo → clientes Destiny Group, Tasarolli\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

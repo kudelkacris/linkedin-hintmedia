@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000250",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/junio/patricio-garcia.md",
+  "fingerprint": "sha256:7966a615d619989382279b0ec6e1a325b03522572cc8a75a9735d48ba7975cf3",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/patricio-garcia.md",
+    "file_hash": "sha256:7966a615d619989382279b0ec6e1a325b03522572cc8a75a9735d48ba7975cf3",
+    "file_modified": "2026-06-10T22:47:06.425475+00:00",
+    "file_size": 2461,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Patricio García",
+    "empresa": "Consultor Freelance (ex agencia propia)",
+    "cargo": "Consultor / Estratega de Marketing",
+    "pais": "(no especificado)",
+    "fecha": "10/06/26",
+    "estado_texto": "No es prospecto — es consultor freelance. Pivot a colaboración/referidos."
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Patricio, gracias por conectar! 👋\n\nMe llamó la atención cómo abordaste la publicación sobre Nike — no fue \"mira esta campaña\", sino \"mira cómo una idea creativa mueve bolsa\". La forma en que conectaste el storytelling con valor empresarial real, ese es el pensamiento que pocas personas publican.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas, Florencia, muchas gracias. ¿Contame?",
+    "msg2_texto": "Lo que me quedó de esa publicación fue exactamente eso — que la creatividad sin anclaje en negocio es difícil de defender internamente. Cuando alguien sí logra conectar los dos, el siguiente desafío suele ser ejecutar esa narrativa con consistencia día a día, no solo en la gran campaña.\n\nDesde Hint Media trabajamos con esa lógica — sumamos capacidad de ejecución integrada a estrategias que ya tienen criterio creativo. Hemos trabajado con TGS, Libra Seguros y otros que necesitaban sostener ese estándar en la operación diaria.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola, claro, pásame, sería para que los conozcas? Son Agencia?",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "contame",
+      "pasame",
+      "seria",
+      "conozcas",
+      "agencia"
+    ],
+    "notas": "- Pensamiento estratégico claro — conecta creatividad con valor de negocio\n- No es prospecto para Hint Media como cliente\n- Potencial: referidos o colaboración si tiene clientes que necesiten ejecución\n- Pivot correcto: de pitch a colaboración, sin forzar"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Patricio García]\n[EMPRESA: Consultor Freelance (ex agencia propia)]\n[CARGO: Consultor / Estratega de Marketing]\n[SECTOR: Consultoría / Agencia]\n[PAIS: (no especificado)]\n\n[MSG1]\nPatricio, gracias por conectar! 👋\n\nMe llamó la atención cómo abordaste la publicación sobre Nike — no fue \"mira esta campaña\", sino \"mira cómo una idea creativa mueve bolsa\". La forma en que conectaste el storytelling con valor empresarial real, ese es el pensamiento que pocas personas publican.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenas, Florencia, muchas gracias. ¿Contame?\n\n[MSG2]\nLo que me quedó de esa publicación fue exactamente eso — que la creatividad sin anclaje en negocio es difícil de defender internamente. Cuando alguien sí logra conectar los dos, el siguiente desafío suele ser ejecutar esa narrativa con consistencia día a día, no solo en la gran campaña.\n\nDesde Hint Media trabajamos con esa lógica — sumamos capacidad de ejecución integrada a estrategias que ya tienen criterio creativo. Hemos trabajado con TGS, Libra Seguros y otros que necesitaban sostener ese estándar en la operación diaria.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nHola, claro, pásame, sería para que los conozcas? Son Agencia?\n\n[MSG3]\nSi, te lo mando! Somos un equipo externo que se integra al área de marketing — no una agencia tradicional. La diferencia es que trabajamos como parte del equipo, no desde afuera con briefs y presentaciones.\nCualquier duda me avisás!\n\n[RESPUESTA_MSG3]\nGracias. Igual no soy Cliente. Más bien he tenido agencia y trabajo como Consultor Freelance.\n\n[MSG4]\nAh, entendido — perdón por el enfoque entonces.\nIgual me alegra que lo hayas revisado. Si en algún momento tenés un cliente que necesite capacidad de ejecución y querés recomendar alguien, acá estamos. A veces tiene más sentido colaborar que competir.\n\n[NOTAS]\n- Pensamiento estratégico claro — conecta creatividad con valor de negocio\n- No es prospecto para Hint Media como cliente\n- Potencial: referidos o colaboración si tiene clientes que necesiten ejecución\n- Pivot correcto: de pitch a colaboración, sin forzar",
+    "raw_md": "# Patricio García\n**Fecha:** 10/06/26\n**Empresa:** Consultor Freelance (ex agencia propia)\n**Cargo:** Consultor / Estratega de Marketing\n**País:** (no especificado)\n**Sector:** Consultoría / Agencia\n**Estado:** No es prospecto — es consultor freelance. Pivot a colaboración/referidos.\n\n---\n\n## MSG1\n> Patricio, gracias por conectar! 👋\n>\n> Me llamó la atención cómo abordaste la publicación sobre Nike — no fue \"mira esta campaña\", sino \"mira cómo una idea creativa mueve bolsa\". La forma en que conectaste el storytelling con valor empresarial real, ese es el pensamiento que pocas personas publican.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Buenas, Florencia, muchas gracias. ¿Contame?\n\n## MSG2\n> Lo que me quedó de esa publicación fue exactamente eso — que la creatividad sin anclaje en negocio es difícil de defender internamente. Cuando alguien sí logra conectar los dos, el siguiente desafío suele ser ejecutar esa narrativa con consistencia día a día, no solo en la gran campaña.\n>\n> Desde Hint Media trabajamos con esa lógica — sumamos capacidad de ejecución integrada a estrategias que ya tienen criterio creativo. Hemos trabajado con TGS, Libra Seguros y otros que necesitaban sostener ese estándar en la operación diaria.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Hola, claro, pásame, sería para que los conozcas? Son Agencia?\n\n## MSG3\n> Si, te lo mando! Somos un equipo externo que se integra al área de marketing — no una agencia tradicional. La diferencia es que trabajamos como parte del equipo, no desde afuera con briefs y presentaciones.\n> Cualquier duda me avisás!\n\n## Respuesta MSG3\n> Gracias. Igual no soy Cliente. Más bien he tenido agencia y trabajo como Consultor Freelance.\n\n## MSG4\n> Ah, entendido — perdón por el enfoque entonces.\n> Igual me alegra que lo hayas revisado. Si en algún momento tenés un cliente que necesite capacidad de ejecución y querés recomendar alguien, acá estamos. A veces tiene más sentido colaborar que competir.\n\n---\n\n## Notas\n- Pensamiento estratégico claro — conecta creatividad con valor de negocio\n- No es prospecto para Hint Media como cliente\n- Potencial: referidos o colaboración si tiene clientes que necesiten ejecución\n- Pivot correcto: de pitch a colaboración, sin forzar\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

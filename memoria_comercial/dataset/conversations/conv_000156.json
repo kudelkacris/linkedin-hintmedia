@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000156",
+  "contact_id": "ctc_000272",
+  "source_file": "conversaciones/junio/fabiola-urbina-oporta.md",
+  "fingerprint": "sha256:84310fe70b904ab6b4133affe279f16974f35727422472c1e3e2d7ec4d3ed50c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/fabiola-urbina-oporta.md",
+    "file_hash": "sha256:84310fe70b904ab6b4133affe279f16974f35727422472c1e3e2d7ec4d3ed50c",
+    "file_modified": "2026-06-15T19:59:21.721418+00:00",
+    "file_size": 1229,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Fabiola Urbina Oporta",
+    "empresa": "Grupo Forco S.A.",
+    "cargo": "Coordinador de Marketing y Publicidad, Grupo Forco",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Serie \"Verdades Incómodas del Marketing\" — muy alineada con el mensaje de Hint\n- 15+ años en mercadeo y publicidad\n- Experiencia en trade marketing, Grupo Forco y Mundo Mágico\n- Publica contenido estratégico y conceptual, no solo promocional"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fabiola Urbina Oporta]\n[EMPRESA: Grupo Forco S.A.]\n[CARGO: Coordinador de Marketing y Publicidad, Grupo Forco]\n[PAIS: Costa Rica]\n\n[NOTAS]\n- Serie \"Verdades Incómodas del Marketing\" — muy alineada con el mensaje de Hint\n- 15+ años en mercadeo y publicidad\n- Experiencia en trade marketing, Grupo Forco y Mundo Mágico\n- Publica contenido estratégico y conceptual, no solo promocional",
+    "raw_md": "# Fabiola Urbina Oporta\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Coordinador de Marketing y Publicidad, Grupo Forco\n**País:** Costa Rica\n**Empresa:** Grupo Forco S.A.\n\n## Conversación\n\n**MSG1 (Florencia, viernes 19:00):**\nCitó su experiencia liderando equipos multidisciplinarios en Mundo Mágico durante temporadas de alta demanda y superando metas comerciales.\n\n**Respuesta Fabiola (23:08):**\n\"Hola, Florencia. En qué puedo ayudarte.\"\n\n**MSG2 (redactado):**\n> Fabiola, gracias por responder.\n>\n> Me quedé pensando en eso que escribiste: \"publicar en redes no es hacer marketing.\" Pocas personas en el área lo dicen tan claro, y cuando lo dicen así, es porque lo vivieron.\n>\n> En Hint acompañamos marcas que necesitan pasar de la ejecución reactiva a una estrategia de comunicación que realmente sostenga resultados comerciales.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Serie \"Verdades Incómodas del Marketing\" — muy alineada con el mensaje de Hint\n- 15+ años en mercadeo y publicidad\n- Experiencia en trade marketing, Grupo Forco y Mundo Mágico\n- Publica contenido estratégico y conceptual, no solo promocional\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

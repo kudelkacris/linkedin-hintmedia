@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000035",
+  "contact_id": "ctc_000097",
+  "source_file": "conversaciones/julio/elizabeth-cabrera.md",
+  "fingerprint": "sha256:0bcd614be69983ee7074428dc88befba173c52b94ac03b2400de6f3899be8b9f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/elizabeth-cabrera.md",
+    "file_hash": "sha256:0bcd614be69983ee7074428dc88befba173c52b94ac03b2400de6f3899be8b9f",
+    "file_modified": "2026-07-01T19:00:47.152067+00:00",
+    "file_size": 1740,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Elizabeth Cabrera",
+    "empresa": "Lundin Gold Ecuador / Women in Mining Ecuador",
+    "cargo": "Gerente de Comunicaciones",
+    "pais": "Ecuador",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier confirmado 01/07/26 — enviado por LinkedIn"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Elizabeth, gracias por conectar.\nMe llamo la atencion que hace poco te certificaras en Storytelling y Persuasion con Datos, y ahora te registraras en un programa de mentoring. No es lo que hace la mayoria cuando ya esta establecido en un rol. Da la sensacion de que buscar herramientas nuevas para elevar algo en tu trabajo comunicacional.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia como estas que gusto! Claro cuentame!!",
+    "msg2_texto": "Buenas Elizabeth, muy bien gracias, que bueno que respondiste!\nLo que me quedo es que la certificacion en storytelling con datos no es algo que alguien busca cuando ya tiene todo resuelto. En mineria, comunicar impacto social y ambiental a comunidades, inversores y gobierno al mismo tiempo es un trabajo enorme, y cada publico pide algo distinto.\nEn Hint Media trabajamos con empresas de energia e infraestructura en eso, como TGS y Transener.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Si claro puedes enviarme para de acuerdo a la informacion hacerle llegar a la persona indicada",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "gusto",
+      "cuentame",
+      "puedes",
+      "enviarme",
+      "acuerdo",
+      "informacion",
+      "hacerle",
+      "llegar"
+    ],
+    "notas": "- Tono muy calido desde el primer mensaje\n- Va a derivar el dossier internamente — no es ella la decisora directa\n- Clientes por sector: TGS, Transener"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Elizabeth Cabrera]\n[EMPRESA: Lundin Gold Ecuador / Women in Mining Ecuador]\n[CARGO: Gerente de Comunicaciones]\n[SECTOR: Mineria / Energia / ESG]\n[PAIS: Ecuador]\n\n[MSG1]\nElizabeth, gracias por conectar.\nMe llamo la atencion que hace poco te certificaras en Storytelling y Persuasion con Datos, y ahora te registraras en un programa de mentoring. No es lo que hace la mayoria cuando ya esta establecido en un rol. Da la sensacion de que buscar herramientas nuevas para elevar algo en tu trabajo comunicacional.\nSi estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia como estas que gusto! Claro cuentame!!\n\n[MSG2]\nBuenas Elizabeth, muy bien gracias, que bueno que respondiste!\nLo que me quedo es que la certificacion en storytelling con datos no es algo que alguien busca cuando ya tiene todo resuelto. En mineria, comunicar impacto social y ambiental a comunidades, inversores y gobierno al mismo tiempo es un trabajo enorme, y cada publico pide algo distinto.\nEn Hint Media trabajamos con empresas de energia e infraestructura en eso, como TGS y Transener.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSi claro puedes enviarme para de acuerdo a la informacion hacerle llegar a la persona indicada\n\n[MSG3]\nPerfecto Elizabeth, te lo mandamos ahora. Buena semana y estamos en contacto!\n\n[NOTAS]\n- Tono muy calido desde el primer mensaje\n- Va a derivar el dossier internamente — no es ella la decisora directa\n- Clientes por sector: TGS, Transener",
+    "raw_md": "# Elizabeth Cabrera\n\n**Fecha:** 01/07/26\n**Cargo:** Gerente de Comunicaciones\n**Empresa:** Lundin Gold Ecuador / Women in Mining Ecuador\n**Pais:** Ecuador\n**Sector:** Mineria / Energia / ESG\n**Estado:** Dossier confirmado 01/07/26 — enviado por LinkedIn\n\n---\n\n## MSG1\n> Elizabeth, gracias por conectar.\n> Me llamo la atencion que hace poco te certificaras en Storytelling y Persuasion con Datos, y ahora te registraras en un programa de mentoring. No es lo que hace la mayoria cuando ya esta establecido en un rol. Da la sensacion de que buscar herramientas nuevas para elevar algo en tu trabajo comunicacional.\n> Si estoy entendiendo bien lo que lei, tenia una consulta y queria saber si me podias ayudar.\n\n## Respuesta MSG1\n> Hola Florencia como estas que gusto! Claro cuentame!!\n\n## MSG2\n> Buenas Elizabeth, muy bien gracias, que bueno que respondiste!\n> Lo que me quedo es que la certificacion en storytelling con datos no es algo que alguien busca cuando ya tiene todo resuelto. En mineria, comunicar impacto social y ambiental a comunidades, inversores y gobierno al mismo tiempo es un trabajo enorme, y cada publico pide algo distinto.\n> En Hint Media trabajamos con empresas de energia e infraestructura en eso, como TGS y Transener.\n> Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n## Respuesta MSG2\n> Si claro puedes enviarme para de acuerdo a la informacion hacerle llegar a la persona indicada\n\n## Confirmacion dossier\n> Perfecto Elizabeth, te lo mandamos ahora. Buena semana y estamos en contacto!\n\n---\n\n## Notas\n- Tono muy calido desde el primer mensaje\n- Va a derivar el dossier internamente — no es ella la decisora directa\n- Clientes por sector: TGS, Transener\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

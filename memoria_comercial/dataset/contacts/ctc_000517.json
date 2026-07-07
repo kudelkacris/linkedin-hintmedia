@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000517",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Josue Medina",
+  "empresa": "Colegio de Abogados y Abogadas de Costa Rica",
+  "cargo": "Director de Comunicaciones y Mercadeo",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 2,
+  "stage_texto": "",
+  "fecha": "15/06/26",
+  "email": null,
+  "sector_norm": "EDUCACION",
+  "seniority": "DIRECTOR",
+  "tiene_md": false,
+  "conversation_id": null,
+  "historial_slug": "1750025000001"
+}

@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000200",
+  "contact_id": "ctc_000229",
+  "source_file": "conversaciones/junio/katherine-sofia-ortiz-rodriguez.md",
+  "fingerprint": "sha256:657ed2e76af3dfa2d808b3b5c7fdeb8662e122dfc79e341c038be0b28a7da514",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/katherine-sofia-ortiz-rodriguez.md",
+    "file_hash": "sha256:657ed2e76af3dfa2d808b3b5c7fdeb8662e122dfc79e341c038be0b28a7da514",
+    "file_modified": "2026-06-19T13:59:50.200451+00:00",
+    "file_size": 1782,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Katherine Sofía Ortiz Rodríguez",
+    "empresa": "Quarzo Tecnología",
+    "cargo": "Business Manager (Revenue Growth, GTM & Commercial Strategy LATAM)",
+    "pais": "Costa Rica",
+    "fecha": "19/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Katherine, gracias por conectar! 👋\n\nMe quedó dando vueltas la reflexión que compartiste hace poco sobre la desalineación organizacional. Particularmente eso de que erosiona EBITDA silenciosamente pero nadie lo ve como línea separada. Tiene lógica — cuando marketing, ventas y operaciones tiran en direcciones distintas, el costo aparece disfrazado en ciclos más largos, retrabajo, equipos ocupados sin avanzar.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, Encantada de conectar.\nLo comprendiste perfecto! Con todo gusto a tu disposición con tu consulta.\nFeliz noche!",
+    "msg2_texto": "Hola Katherine!\nJusto en eso pensaba cuando leí tu reflexión, porque vos misma liderás la narrativa comercial y la presencia digital en Quarzo, además de alinear marketing y ventas. Esa coherencia entre estrategia comercial y comunicación es justo donde más se pierde alineamiento cuando crece el negocio.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología y fintech a sostener esa narrativa de marca y vocería de forma consistente. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "encantada",
+      "conectar",
+      "comprendiste",
+      "perfecto",
+      "todo",
+      "gusto",
+      "disposicion",
+      "consulta",
+      "feliz"
+    ],
+    "notas": "- Sector fintech/tech (Quarzo Tecnología). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Lidera estrategia GTM, posicionamiento de marca y presencia digital, +500 clientes Centroamérica."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Katherine Sofía Ortiz Rodríguez]\n[EMPRESA: Quarzo Tecnología]\n[CARGO: Business Manager (Revenue Growth, GTM & Commercial Strategy LATAM)]\n[PAIS: Costa Rica]\n\n[MSG1]\nKatherine, gracias por conectar! 👋\n\nMe quedó dando vueltas la reflexión que compartiste hace poco sobre la desalineación organizacional. Particularmente eso de que erosiona EBITDA silenciosamente pero nadie lo ve como línea separada. Tiene lógica — cuando marketing, ventas y operaciones tiran en direcciones distintas, el costo aparece disfrazado en ciclos más largos, retrabajo, equipos ocupados sin avanzar.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, Encantada de conectar.\nLo comprendiste perfecto! Con todo gusto a tu disposición con tu consulta.\nFeliz noche!\n\n[MSG2]\nHola Katherine!\nJusto en eso pensaba cuando leí tu reflexión, porque vos misma liderás la narrativa comercial y la presencia digital en Quarzo, además de alinear marketing y ventas. Esa coherencia entre estrategia comercial y comunicación es justo donde más se pierde alineamiento cuando crece el negocio.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología y fintech a sostener esa narrativa de marca y vocería de forma consistente. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector fintech/tech (Quarzo Tecnología). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Lidera estrategia GTM, posicionamiento de marca y presencia digital, +500 clientes Centroamérica.",
+    "raw_md": "# Katherine Sofía Ortiz Rodríguez\n\n**Estado:** MSG2 enviado\n**Fecha:** 19/06/26\n**Cargo:** Business Manager (Revenue Growth, GTM & Commercial Strategy LATAM)\n**Empresa:** Quarzo Tecnología\n**País:** Costa Rica\n\n## MSG1\n> Katherine, gracias por conectar! 👋\n>\n> Me quedó dando vueltas la reflexión que compartiste hace poco sobre la desalineación organizacional. Particularmente eso de que erosiona EBITDA silenciosamente pero nadie lo ve como línea separada. Tiene lógica — cuando marketing, ventas y operaciones tiran en direcciones distintas, el costo aparece disfrazado en ciclos más largos, retrabajo, equipos ocupados sin avanzar.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, Encantada de conectar.\n> Lo comprendiste perfecto! Con todo gusto a tu disposición con tu consulta.\n> Feliz noche!\n\n## MSG2\n> Hola Katherine!\n> Justo en eso pensaba cuando leí tu reflexión, porque vos misma liderás la narrativa comercial y la presencia digital en Quarzo, además de alinear marketing y ventas. Esa coherencia entre estrategia comercial y comunicación es justo donde más se pierde alineamiento cuando crece el negocio.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de tecnología y fintech a sostener esa narrativa de marca y vocería de forma consistente. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector fintech/tech (Quarzo Tecnología). Cliente ejemplo: Destiny Group, Libra Seguros.\n- Lidera estrategia GTM, posicionamiento de marca y presencia digital, +500 clientes Centroamérica.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

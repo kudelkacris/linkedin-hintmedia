@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000066",
+  "contact_id": "ctc_000067",
+  "source_file": "conversaciones/julio/laura-tomas-palau.md",
+  "fingerprint": "sha256:d0644941a3e2fe9397d5bd5633dc0f4a0286e9b0cbfcfa524d2fa0b977c447f5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/laura-tomas-palau.md",
+    "file_hash": "sha256:d0644941a3e2fe9397d5bd5633dc0f4a0286e9b0cbfcfa524d2fa0b977c447f5",
+    "file_modified": "2026-07-06T13:47:52.271202+00:00",
+    "file_size": 2533,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Laura Tomas Palau",
+    "empresa": "teknics",
+    "cargo": "B2B Marketing Manager | Conectando marketing y ventas para impulsar el crecimiento del negocio",
+    "pais": "España (Barcelona)",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Laura, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre los 3 eventos simultáneos en Bilbao, Madrid y Barcelona. Pero más que el logro en sí, lo que me quedó fue que en el post le dieras crédito específico a Daniel, al equipo comercial, al almacén, a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "😉🤗😄\nHola Florencia, claro! Qué duda tienes?",
+    "msg2_texto": "Buenas Laura! Te cuento.\nTeknics tiene un perfil de cliente muy específico: ingenieros y responsables técnicos de producción. Cómo están llegando a ellos desde marketing, antes de que empiece una conversación comercial?\nTrabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a empresas industriales a construir esa visibilidad: contenido técnico, LinkedIn, generación de leads. Trabajamos con Destiny Group en comunicación y posicionamiento comercial.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Post sobre 3 eventos simultáneos en Bilbao, Madrid y Barcelona — le dio crédito específico a Daniel, al equipo comercial, al almacén y a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".",
+    "hipotesis": "Está construyendo el área de marketing de Teknics desde cero (11 meses). Si mejora el pipeline desde marketing, cumple su propio headline \"conectando marketing y ventas para impulsar el crecimiento del negocio\".",
+    "palabras_clave": [
+      "florencia",
+      "duda",
+      "tienes"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Laura Tomas Palau]\n[EMPRESA: teknics]\n[CARGO: B2B Marketing Manager | Conectando marketing y ventas para impulsar el crecimiento del negocio]\n[SECTOR: B2B Industrial / Automatización]\n[PAIS: España (Barcelona)]\n[SENAL: Post sobre 3 eventos simultáneos en Bilbao, Madrid y Barcelona — le dio crédito específico a Daniel, al equipo comercial, al almacén y a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".]\n[HIPOTESIS: Está construyendo el área de marketing de Teknics desde cero (11 meses). Si mejora el pipeline desde marketing, cumple su propio headline \"conectando marketing y ventas para impulsar el crecimiento del negocio\".]\n\n[MSG1]\nLaura, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre los 3 eventos simultáneos en Bilbao, Madrid y Barcelona. Pero más que el logro en sí, lo que me quedó fue que en el post le dieras crédito específico a Daniel, al equipo comercial, al almacén, a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n😉🤗😄\nHola Florencia, claro! Qué duda tienes?\n\n[MSG2]\nBuenas Laura! Te cuento.\nTeknics tiene un perfil de cliente muy específico: ingenieros y responsables técnicos de producción. Cómo están llegando a ellos desde marketing, antes de que empiece una conversación comercial?\nTrabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a empresas industriales a construir esa visibilidad: contenido técnico, LinkedIn, generación de leads. Trabajamos con Destiny Group en comunicación y posicionamiento comercial.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Laura Tomas Palau\n\n**Fecha:** 06/07/26\n**Cargo:** B2B Marketing Manager | Conectando marketing y ventas para impulsar el crecimiento del negocio\n**Empresa:** teknics\n**Pais:** España (Barcelona)\n**Sector:** B2B Industrial / Automatización\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Post sobre 3 eventos simultáneos en Bilbao, Madrid y Barcelona — le dio crédito específico a Daniel, al equipo comercial, al almacén y a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".\n- **Tensión profesional:** En Teknics es prácticamente el área de marketing sola, comunicando soluciones de ingeniería complejas a audiencias altamente técnicas (ingenieros, directores de producción). El reto: llegar al decision maker técnico antes de que empiece el proceso de decisión.\n- **Hipótesis:** Está construyendo el área de marketing de Teknics desde cero (11 meses). Si mejora el pipeline desde marketing, cumple su propio headline \"conectando marketing y ventas para impulsar el crecimiento del negocio\".\n- **ICP:** ALTO — B2B Marketing Manager, decision maker para proveedores, perfil limpio.\n- **Ángulo MSG1:** Post de los 3 eventos y el crédito genuino al equipo operativo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Laura, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación sobre los 3 eventos simultáneos en Bilbao, Madrid y Barcelona. Pero más que el logro en sí, lo que me quedó fue que en el post le dieras crédito específico a Daniel, al equipo comercial, al almacén, a los chóferes. No es lo que la mayoría escribe cuando celebra que \"salió todo bien\".\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> 😉🤗😄\n> Hola Florencia, claro! Qué duda tienes?\n\n---\n\n## MSG2\n> Buenas Laura! Te cuento.\n> Teknics tiene un perfil de cliente muy específico: ingenieros y responsables técnicos de producción. Cómo están llegando a ellos desde marketing, antes de que empiece una conversación comercial?\n> Trabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a empresas industriales a construir esa visibilidad: contenido técnico, LinkedIn, generación de leads. Trabajamos con Destiny Group en comunicación y posicionamiento comercial.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

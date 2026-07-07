@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000096",
+  "contact_id": "ctc_000075",
+  "source_file": "conversaciones/julio/silvia-rojas.md",
+  "fingerprint": "sha256:5ccdff93b2a7eb42f6d4425eb25fd91fdc1d484a7117ad34bab4eb16e98e0d17",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/silvia-rojas.md",
+    "file_hash": "sha256:5ccdff93b2a7eb42f6d4425eb25fd91fdc1d484a7117ad34bab4eb16e98e0d17",
+    "file_modified": "2026-07-02T01:18:08.389383+00:00",
+    "file_size": 4322,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Silvia Rojas",
+    "empresa": "Independiente",
+    "cargo": "Retail Media & E-commerce Expert | Ex-Amazon | Driving Marketplace Growth Across North America & Europe",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "Reunión agendada viernes — mail: Silvia.rojas.r85@gmail.com"
+  },
+  "normalized": {
+    "sector": "AMAZON_ECOMMERCE",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 6,
+    "resultado_final": "REUNION",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Silvia, gracias por conectar! 👋\n\nMe llamó la atención que en los últimos días compartas tanto contenido sobre liderazgo humanista bajo presión — Susan Chen, Mike Leber, Tatiana Rodríguez. No es lo que la mayoría de los que están en marketplace/retail comparten. Me quedó esa impresión de que para vos el \"cómo se lidera\" pesa tanto como el resultado que se logra.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"Buenas tardes doña Florencia, un gusto saludarla. Si así es como pienso\nPero yo llevo años liderando equipos\nNo solo soy de marketing\"",
+    "msg2_texto": "Buenas Silvia, tiene sentido. Lo que compartís sobre liderazgo bajo presión no parecía contenido de marketing, sonaba a algo en lo que creés.\nCómo hacés para que ese estilo de liderazgo sea legible en contextos tan distintos como North America y Europa al mismo tiempo?\nTrabajo en Hint Media con líderes de retail y e-commerce, como Destiny Group y Tasarolli, en construir la capa de comunicación ejecutiva: que su voz llegue de forma consistente a equipos, marcas y socios en mercados distintos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"Muchas gracias, Florencia. Me parece muy interesante el trabajo que realizan y con gusto me encantaría conocer más sobre su enfoque. Si no es mucha molestia, podés enviarme el dossier por acá. Muchas gracias por pensar en mí y en abrir la conversación, me encanta compartir conocimiento\"",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": true,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Silvia comparte masivamente contenido de liderazgo y cultura organizacional (Susan Chen sobre autoconocimiento, Mike Leber sobre liderazgo bajo presión, Tatiana Rodríguez sobre liderazgo humanista). Elige mostrar reflexiones sobre kindness, trust, human connection en ambientes de alto rendimiento. No publica sobre sus logros personales directamente, sino que amplifica narrativas de otros sobre liderazgo intencional. Esto revela qué considera importante mostrar: cómo se lidera, no qué se logra.",
+    "hipotesis": "Cómo sostener ejecución de marketing de alto rendimiento sin que todo dependa de heroísmo individual. Cómo escalar creatividad/estrategia sin perder consistencia en ambientes de cambio constante (nuevas plataformas, nuevos eventos, nuevas competencias retail).",
+    "palabras_clave": [
+      "tardes",
+      "dona",
+      "florencia",
+      "gusto",
+      "saludarla",
+      "pienso",
+      "llevo",
+      "anos",
+      "liderando",
+      "equipos"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Silvia Rojas]\n[EMPRESA: Independiente]\n[CARGO: Retail Media & E-commerce Expert | Ex-Amazon | Driving Marketplace Growth Across North America & Europe]\n[SECTOR: Retail / E-Commerce / Marketplace]\n[PAIS: Costa Rica]\n[SENAL: Silvia comparte masivamente contenido de liderazgo y cultura organizacional (Susan Chen sobre autoconocimiento, Mike Leber sobre liderazgo bajo presión, Tatiana Rodríguez sobre liderazgo humanista). Elige mostrar reflexiones sobre kindness, trust, human connection en ambientes de alto rendimiento. No publica sobre sus logros personales directamente, sino que amplifica narrativas de otros sobre liderazgo intencional. Esto revela qué considera importante mostrar: cómo se lidera, no qué se logra.]\n[HIPOTESIS: Cómo sostener ejecución de marketing de alto rendimiento sin que todo dependa de heroísmo individual. Cómo escalar creatividad/estrategia sin perder consistencia en ambientes de cambio constante (nuevas plataformas, nuevos eventos, nuevas competencias retail).]\n\n[MSG1]\nSilvia, gracias por conectar! 👋\n\nMe llamó la atención que en los últimos días compartas tanto contenido sobre liderazgo humanista bajo presión — Susan Chen, Mike Leber, Tatiana Rodríguez. No es lo que la mayoría de los que están en marketplace/retail comparten. Me quedó esa impresión de que para vos el \"cómo se lidera\" pesa tanto como el resultado que se logra.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"Buenas tardes doña Florencia, un gusto saludarla. Si así es como pienso\nPero yo llevo años liderando equipos\nNo solo soy de marketing\"\n\n[MSG2]\nBuenas Silvia, tiene sentido. Lo que compartís sobre liderazgo bajo presión no parecía contenido de marketing, sonaba a algo en lo que creés.\nCómo hacés para que ese estilo de liderazgo sea legible en contextos tan distintos como North America y Europa al mismo tiempo?\nTrabajo en Hint Media con líderes de retail y e-commerce, como Destiny Group y Tasarolli, en construir la capa de comunicación ejecutiva: que su voz llegue de forma consistente a equipos, marcas y socios en mercados distintos.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\n\"Muchas gracias, Florencia. Me parece muy interesante el trabajo que realizan y con gusto me encantaría conocer más sobre su enfoque. Si no es mucha molestia, podés enviarme el dossier por acá. Muchas gracias por pensar en mí y en abrir la conversación, me encanta compartir conocimiento\"\n\n[MSG3]\nPerfecto Silvia, te lo mando ahora!\n[LINK DOSSIER]\nBuena semana y estamos en contacto en el futuro cercano!\n\n[RESPUESTA_MSG3]\n\"Gracias, igualmente Florencia. Cuando gustes podemos tener un conversatorio al respecto\"\n\n[MSG4]\nMe copa mucho la idea Silvia!\nMe pasás tu mail? Te mando un Google Meet. Estamos en Argentina, así que hay 3 horas de diferencia con vos. Decime qué día y a qué hora te viene bien y lo armamos.\n\n[RESPUESTA_MSG4]\n\"Este viernes tengo tiempo, normalmente no agendo reuniones laborales los viernes, solo tengo una a las 10 am hora Costa Rica, no sé qué tal está tu disponibilidad?\n🤗😄🤐\nMi correo es Silvia.rojas.r85@gmail.com\"\n\n[MSG5]\nPerfecto Silvia! El viernes me viene bien.\nTe mando el Google Meet a Silvia.rojas.r85@gmail.com. Te propongo a las 11am de tu lado, que serían las 2pm acá. Te queda cómoda esa hora?",
+    "raw_md": "# Silvia Rojas\n\n**Fecha:** 01/07/26\n**Cargo:** Retail Media & E-commerce Expert | Ex-Amazon | Driving Marketplace Growth Across North America & Europe\n**Empresa:** Independiente\n**Pais:** Costa Rica\n**Sector:** Retail / E-Commerce / Marketplace\n**Estado:** Reunión agendada viernes — mail: Silvia.rojas.r85@gmail.com\n\n---\n\n## Análisis\n- **Señal humana:** Silvia comparte masivamente contenido de liderazgo y cultura organizacional (Susan Chen sobre autoconocimiento, Mike Leber sobre liderazgo bajo presión, Tatiana Rodríguez sobre liderazgo humanista). Elige mostrar reflexiones sobre kindness, trust, human connection en ambientes de alto rendimiento. No publica sobre sus logros personales directamente, sino que amplifica narrativas de otros sobre liderazgo intencional. Esto revela qué considera importante mostrar: cómo se lidera, no qué se logra.\n- **Tensión profesional:** Equilibrar velocidad de ejecución (Prime Day, eventos retail sincrónicos, presión de conversión) con construcción de equipos y cultura que sostengan esa intensidad sin burnout. Traducir complejidad de marketplace (múltiples plataformas, múltiples retailers, intent del consumidor dinámico) en decisiones creativas coherentes bajo deadlines ajustados.\n- **Hipótesis:** Cómo sostener ejecución de marketing de alto rendimiento sin que todo dependa de heroísmo individual. Cómo escalar creatividad/estrategia sin perder consistencia en ambientes de cambio constante (nuevas plataformas, nuevos eventos, nuevas competencias retail).\n- **Ángulo MSG1:** SEÑAL_HUMANA. Lo que Silvia elige mostrar al mundo es cómo se lidera en ambientes de presión, no sus logros comerciales.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Silvia, gracias por conectar! 👋\n>\n> Me llamó la atención que en los últimos días compartas tanto contenido sobre liderazgo humanista bajo presión — Susan Chen, Mike Leber, Tatiana Rodríguez. No es lo que la mayoría de los que están en marketplace/retail comparten. Me quedó esa impresión de que para vos el \"cómo se lidera\" pesa tanto como el resultado que se logra.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"Buenas tardes doña Florencia, un gusto saludarla. Si así es como pienso\n> Pero yo llevo años liderando equipos\n> No solo soy de marketing\"\n\n---\n\n## MSG2\n> Buenas Silvia, tiene sentido. Lo que compartís sobre liderazgo bajo presión no parecía contenido de marketing, sonaba a algo en lo que creés.\n> Cómo hacés para que ese estilo de liderazgo sea legible en contextos tan distintos como North America y Europa al mismo tiempo?\n> Trabajo en Hint Media con líderes de retail y e-commerce, como Destiny Group y Tasarolli, en construir la capa de comunicación ejecutiva: que su voz llegue de forma consistente a equipos, marcas y socios en mercados distintos.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2\n> \"Muchas gracias, Florencia. Me parece muy interesante el trabajo que realizan y con gusto me encantaría conocer más sobre su enfoque. Si no es mucha molestia, podés enviarme el dossier por acá. Muchas gracias por pensar en mí y en abrir la conversación, me encanta compartir conocimiento\"\n\n---\n\n## MSG3\n> Perfecto Silvia, te lo mando ahora!\n> [LINK DOSSIER]\n> Buena semana y estamos en contacto en el futuro cercano!\n\n---\n\n## Respuesta MSG3\n> \"Gracias, igualmente Florencia. Cuando gustes podemos tener un conversatorio al respecto\"\n\n---\n\n## MSG4\n> Me copa mucho la idea Silvia!\n> Me pasás tu mail? Te mando un Google Meet. Estamos en Argentina, así que hay 3 horas de diferencia con vos. Decime qué día y a qué hora te viene bien y lo armamos.\n\n---\n\n## Respuesta MSG4\n> \"Este viernes tengo tiempo, normalmente no agendo reuniones laborales los viernes, solo tengo una a las 10 am hora Costa Rica, no sé qué tal está tu disponibilidad?\n> 🤗😄🤐\n> Mi correo es Silvia.rojas.r85@gmail.com\"\n\n---\n\n## MSG5\n> Perfecto Silvia! El viernes me viene bien.\n> Te mando el Google Meet a Silvia.rojas.r85@gmail.com. Te propongo a las 11am de tu lado, que serían las 2pm acá. Te queda cómoda esa hora?\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

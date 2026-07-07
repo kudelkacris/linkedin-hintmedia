@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000111",
+  "contact_id": "ctc_000194",
+  "source_file": "conversaciones/junio/andrea-martinez-luna.md",
+  "fingerprint": "sha256:2f1ef87559c7c106e13dc34f5e8215aef78aebda94d36229e76c7fce19a19edc",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/andrea-martinez-luna.md",
+    "file_hash": "sha256:2f1ef87559c7c106e13dc34f5e8215aef78aebda94d36229e76c7fce19a19edc",
+    "file_modified": "2026-06-19T13:59:03.820839+00:00",
+    "file_size": 1711,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Andrea Martínez Luna",
+    "empresa": "ABASTIBLE S.A.",
+    "cargo": "Jefe de Marketing Digital",
+    "pais": "Chile",
+    "fecha": "19/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrea, gracias por conectar! 👋\n\nMe llamó la atención que hace poco publicaras la entrada al diplomado de Comunicación Política en UAI. No es lo usual ver a alguien en tu posición invertir tiempo en eso mientras lidera estrategia digital en una empresa como Abastible. Da la impresión de que estás buscando entender algo más profundo sobre cómo funciona la comunicación cuando hay contextos regulatorios o de reputación de por medio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Así es 🤗😄🤐\nCuéntame qué consulta tienes",
+    "msg2_texto": "Hola Andrea!\n\nLo que te comentaba tiene que ver con eso justo: cuando una marca como Abastible maneja temas regulatorios y de reputación, la comunicación digital ya no es solo campaña y conversión, también es manejo de narrativa pública. Por eso me llamó la atención que estés metiéndote de lleno en comunicación política y asuntos públicos.\n\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a integrar esa parte reputacional con la estrategia digital, contenido y vocería. Trabajamos con TGS y Transener en proyectos así.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "cuentame",
+      "consulta",
+      "tienes"
+    ],
+    "notas": "- Sector energía (Abastible, gas licuado). Cliente ejemplo: TGS, Transener.\n- Cursando diplomado en Comunicación Política y Asuntos Públicos en UAI mientras lidera marketing digital."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Martínez Luna]\n[EMPRESA: ABASTIBLE S.A.]\n[CARGO: Jefe de Marketing Digital]\n[PAIS: Chile]\n\n[MSG1]\nAndrea, gracias por conectar! 👋\n\nMe llamó la atención que hace poco publicaras la entrada al diplomado de Comunicación Política en UAI. No es lo usual ver a alguien en tu posición invertir tiempo en eso mientras lidera estrategia digital en una empresa como Abastible. Da la impresión de que estás buscando entender algo más profundo sobre cómo funciona la comunicación cuando hay contextos regulatorios o de reputación de por medio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Así es 🤗😄🤐\nCuéntame qué consulta tienes\n\n[MSG2]\nHola Andrea!\n\nLo que te comentaba tiene que ver con eso justo: cuando una marca como Abastible maneja temas regulatorios y de reputación, la comunicación digital ya no es solo campaña y conversión, también es manejo de narrativa pública. Por eso me llamó la atención que estés metiéndote de lleno en comunicación política y asuntos públicos.\n\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a integrar esa parte reputacional con la estrategia digital, contenido y vocería. Trabajamos con TGS y Transener en proyectos así.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector energía (Abastible, gas licuado). Cliente ejemplo: TGS, Transener.\n- Cursando diplomado en Comunicación Política y Asuntos Públicos en UAI mientras lidera marketing digital.",
+    "raw_md": "# Andrea Martínez Luna\n\n**Estado:** MSG2 enviado\n**Fecha:** 19/06/26\n**Cargo:** Jefe de Marketing Digital\n**Empresa:** ABASTIBLE S.A.\n**País:** Chile\n\n## MSG1\n> Andrea, gracias por conectar! 👋\n>\n> Me llamó la atención que hace poco publicaras la entrada al diplomado de Comunicación Política en UAI. No es lo usual ver a alguien en tu posición invertir tiempo en eso mientras lidera estrategia digital en una empresa como Abastible. Da la impresión de que estás buscando entender algo más profundo sobre cómo funciona la comunicación cuando hay contextos regulatorios o de reputación de por medio.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia! Así es 🤗😄🤐\n> Cuéntame qué consulta tienes\n\n## MSG2\n> Hola Andrea!\n>\n> Lo que te comentaba tiene que ver con eso justo: cuando una marca como Abastible maneja temas regulatorios y de reputación, la comunicación digital ya no es solo campaña y conversión, también es manejo de narrativa pública. Por eso me llamó la atención que estés metiéndote de lleno en comunicación política y asuntos públicos.\n>\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a integrar esa parte reputacional con la estrategia digital, contenido y vocería. Trabajamos con TGS y Transener en proyectos así.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector energía (Abastible, gas licuado). Cliente ejemplo: TGS, Transener.\n- Cursando diplomado en Comunicación Política y Asuntos Públicos en UAI mientras lidera marketing digital.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

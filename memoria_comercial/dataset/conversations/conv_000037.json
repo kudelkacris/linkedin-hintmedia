@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000037",
+  "contact_id": "ctc_000109",
+  "source_file": "conversaciones/julio/esterlin-varela-palacios.md",
+  "fingerprint": "sha256:4cefdf48baa2e434305a9deec87340b1d1834851a5330290b8b57c6190051a7b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/esterlin-varela-palacios.md",
+    "file_hash": "sha256:4cefdf48baa2e434305a9deec87340b1d1834851a5330290b8b57c6190051a7b",
+    "file_modified": "2026-07-01T19:01:50.447545+00:00",
+    "file_size": 1357,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Esterlin Varela Palacios",
+    "empresa": "Bingo Multicolor",
+    "cargo": "Coordinador de Marketing",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Esterlin, gracias por conectar! 👋\n\nEstuve revisando un poco tu perfil y vi que hace poco arrancaste en Bingo Multicolor como coordinador de marketing. Imagino que una etapa así, reorganizando campañas y activaciones en retail, abre varios frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Si esta en mis posibilidades con gusto",
+    "msg2_texto": "Buenas Esterlin, gracias por responder.\nDos meses adentro en Bingo Multicolor, coordinando campanas, activaciones, eventos y contenido digital al mismo tiempo, en retail de entretenimiento que tiene su propio ritmo. El desafio no es que falten ideas, es que todo tiene que salir bien en paralelo y el equipo interno siempre esta al limite de capacidad.\nEn Hint Media sumamos ejecucion en contenido, diseno y digital para exactamente eso. Trabajamos con Destiny Group y Tasarolli en estructuras similares de retail y marca.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "esta",
+      "posibilidades",
+      "gusto"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Esterlin Varela Palacios]\n[EMPRESA: Bingo Multicolor]\n[CARGO: Coordinador de Marketing]\n[SECTOR: Retail / Entretenimiento]\n[PAIS: Costa Rica]\n\n[MSG1]\nEsterlin, gracias por conectar! 👋\n\nEstuve revisando un poco tu perfil y vi que hace poco arrancaste en Bingo Multicolor como coordinador de marketing. Imagino que una etapa así, reorganizando campañas y activaciones en retail, abre varios frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, Florencia. Si esta en mis posibilidades con gusto\n\n[MSG2]\nBuenas Esterlin, gracias por responder.\nDos meses adentro en Bingo Multicolor, coordinando campanas, activaciones, eventos y contenido digital al mismo tiempo, en retail de entretenimiento que tiene su propio ritmo. El desafio no es que falten ideas, es que todo tiene que salir bien en paralelo y el equipo interno siempre esta al limite de capacidad.\nEn Hint Media sumamos ejecucion en contenido, diseno y digital para exactamente eso. Trabajamos con Destiny Group y Tasarolli en estructuras similares de retail y marca.\nTe puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?",
+    "raw_md": "# Esterlin Varela Palacios\n\n**Fecha:** 01/07/26\n**Cargo:** Coordinador de Marketing\n**Empresa:** Bingo Multicolor\n**Pais:** Costa Rica\n**Sector:** Retail / Entretenimiento\n**Estado:** MSG2 enviado 01/07/26\n\n---\n\n## MSG1\n> Esterlin, gracias por conectar! 👋\n>\n> Estuve revisando un poco tu perfil y vi que hace poco arrancaste en Bingo Multicolor como coordinador de marketing. Imagino que una etapa así, reorganizando campañas y activaciones en retail, abre varios frentes al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, Florencia. Si esta en mis posibilidades con gusto\n\n## MSG2 (01/07/26)\n> Buenas Esterlin, gracias por responder.\n> Dos meses adentro en Bingo Multicolor, coordinando campanas, activaciones, eventos y contenido digital al mismo tiempo, en retail de entretenimiento que tiene su propio ritmo. El desafio no es que falten ideas, es que todo tiene que salir bien en paralelo y el equipo interno siempre esta al limite de capacidad.\n> En Hint Media sumamos ejecucion en contenido, diseno y digital para exactamente eso. Trabajamos con Destiny Group y Tasarolli en estructuras similares de retail y marca.\n> Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

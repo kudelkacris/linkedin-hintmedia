@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000112",
+  "contact_id": "ctc_000302",
+  "source_file": "conversaciones/junio/andrea-ramirez.md",
+  "fingerprint": "sha256:f0220e2a694899a06b3635b15f7afc3a4c1d66be19c538db0c9f3923d73e49cf",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/andrea-ramirez.md",
+    "file_hash": "sha256:f0220e2a694899a06b3635b15f7afc3a4c1d66be19c538db0c9f3923d73e49cf",
+    "file_modified": "2026-06-12T22:30:05.947697+00:00",
+    "file_size": 899,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Andrea Ramírez",
+    "empresa": "Grupo Cori Motors",
+    "cargo": "Marketing Brand Manager",
+    "pais": "Costa Rica",
+    "fecha": "14/06/26",
+    "estado_texto": "Esperando respuesta al MSG2"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Ramírez]\n[EMPRESA: Grupo Cori Motors]\n[CARGO: Marketing Brand Manager]\n[PAIS: Costa Rica]",
+    "raw_md": "---\nname: andrea-ramirez\ndescription: MSG2 enviado, Brand Manager Grupo Cori Motors Costa Rica, 14/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Andrea Ramírez\n**Cargo:** Marketing Brand Manager\n**Empresa:** Grupo Cori Motors\n**País:** Costa Rica\n**Fecha:** 14/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo cerraste el post de Expo Móvil: no destacaste tu rol sino el trabajo conjunto del equipo.\n- Respondió: \"Hola Florencia, mucho gusto. Dime\"\n- MSG2 enviado — gap: varias marcas con identidades distintas (BAIC, etc.) + lanzamientos frecuentes + Expo Móvil. En ese ritmo la producción pierde cuidado por urgencia. Mención Destiny Group.\n\n**Notas:**\n- 4 veces en Expo Móvil, superaron meta\n- Representó Costa Rica en BAIC Convention 2023 Beijing\n- Alianza con Lifemiles anunciada\n- MBA, perfil muy completo\n\n**Estado:** Esperando respuesta al MSG2\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

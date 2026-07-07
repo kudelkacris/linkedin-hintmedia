@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000013",
+  "contact_id": "ctc_000096",
+  "source_file": "conversaciones/julio/ara-arac-valso-valso.md",
+  "fingerprint": "sha256:25faf266c528a9e0190a160fcec38251361908cd4d8c2c1a327943e9990a9ad0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/ara-arac-valso-valso.md",
+    "file_hash": "sha256:25faf266c528a9e0190a160fcec38251361908cd4d8c2c1a327943e9990a9ad0",
+    "file_modified": "2026-07-02T21:53:41.335505+00:00",
+    "file_size": 3144,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Ara (Arac Valso) Valso",
+    "empresa": "Costa Rica",
+    "cargo": "CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ara, gracias por conectar! 👋\n\nMe llamó mucho la atención la publicación que compartiste sobre SIGMA São Paulo. Específicamente cuando dijiste que \"las conexiones son el motor que nos impulsa hacia el éxito\" y que creer en las sinergias significa llegar más lejos juntos. No es lo que la mayoría de los directivos comerciales publica cuando hablan de un evento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Dale\nMe lo puedes enviar sin problema\nSiempre estamos abiertos a escuchar",
+    "msg2_texto": "Buenas Ara, gracias por responder!\nLo que dijiste en esa publicación sobre las sinergias como motor tiene mucho sentido cuando estás coordinando múltiples mercados y alianzas al mismo tiempo. El desafío no es conectar, es mantener la coherencia de la propuesta mientras todo eso escala.\nJustamente en eso trabajamos en Hint Media. Somos una agencia de comunicación omnicanal: identidad, contenidos, paid media, vocería digital. Acompañamos a empresas como Destiny Group en construir narrativa comercial sostenida sin perder velocidad.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre Sigma São Paulo 2026: \"Las conexiones son el motor que nos impulsa hacia el éxito. Siempre se crece cuando estás rodeado de las personas correctas: aquellas que te inspiran, te retan y te motivan a seguir avanzando. Creer en las sinergias es entender que juntos llegamos más lejos… y mejor.\" (Credibilidad a través de la red, no del discurso individual).",
+    "hipotesis": "Cómo mantener la velocidad comercial mientras crece en mercados nuevos / cómo comunicar la propuesta de valor internamente cuando hay alianzas y lanzamientos simultáneos / construcción de narrativa comercial coherente en múltiples territorios.",
+    "palabras_clave": [
+      "dale",
+      "puedes",
+      "enviar",
+      "problema",
+      "siempre",
+      "estamos",
+      "abiertos",
+      "escuchar"
+    ],
+    "notas": "- Sector iGaming → Destiny Group como cliente ejemplo.\n- Aceptó dossier con buena disposición.\n\nEstado: Dossier enviado — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ara (Arac Valso) Valso]\n[EMPRESA: Costa Rica]\n[CARGO: CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn]\n[SECTOR: iGaming / Gaming / Entertainment]\n[PAIS: Costa Rica]\n[SENAL: Publicación sobre Sigma São Paulo 2026: \"Las conexiones son el motor que nos impulsa hacia el éxito. Siempre se crece cuando estás rodeado de las personas correctas: aquellas que te inspiran, te retan y te motivan a seguir avanzando. Creer en las sinergias es entender que juntos llegamos más lejos… y mejor.\" (Credibilidad a través de la red, no del discurso individual).]\n[HIPOTESIS: Cómo mantener la velocidad comercial mientras crece en mercados nuevos / cómo comunicar la propuesta de valor internamente cuando hay alianzas y lanzamientos simultáneos / construcción de narrativa comercial coherente en múltiples territorios.]\n\n[MSG1]\nAra, gracias por conectar! 👋\n\nMe llamó mucho la atención la publicación que compartiste sobre SIGMA São Paulo. Específicamente cuando dijiste que \"las conexiones son el motor que nos impulsa hacia el éxito\" y que creer en las sinergias significa llegar más lejos juntos. No es lo que la mayoría de los directivos comerciales publica cuando hablan de un evento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nDale\nMe lo puedes enviar sin problema\nSiempre estamos abiertos a escuchar\n\n[MSG2]\nBuenas Ara, gracias por responder!\nLo que dijiste en esa publicación sobre las sinergias como motor tiene mucho sentido cuando estás coordinando múltiples mercados y alianzas al mismo tiempo. El desafío no es conectar, es mantener la coherencia de la propuesta mientras todo eso escala.\nJustamente en eso trabajamos en Hint Media. Somos una agencia de comunicación omnicanal: identidad, contenidos, paid media, vocería digital. Acompañamos a empresas como Destiny Group en construir narrativa comercial sostenida sin perder velocidad.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[MSG3]\nPerfecto Ara, te lo mando ahora!\n[LINK DOSSIER]\nCualquier duda o comentario, por acá estamos.\n\n[NOTAS]\n- Sector iGaming → Destiny Group como cliente ejemplo.\n- Aceptó dossier con buena disposición.\n\nEstado: Dossier enviado — 02/07/26",
+    "raw_md": "# Ara (Arac Valso) Valso\n\n**Fecha:** 01/07/26\n**Cargo:** CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn\n**Empresa:** Costa Rica\n**Pais:** Costa Rica\n**Sector:** iGaming / Gaming / Entertainment\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre Sigma São Paulo 2026: \"Las conexiones son el motor que nos impulsa hacia el éxito. Siempre se crece cuando estás rodeado de las personas correctas: aquellas que te inspiran, te retan y te motivan a seguir avanzando. Creer en las sinergias es entender que juntos llegamos más lejos… y mejor.\" (Credibilidad a través de la red, no del discurso individual).\n- **Tensión profesional:** Escalar relaciones comerciales sin burocratizar / mantener consistencia en ejecución mientras coordina múltiples mercados y equipos / transformar conexiones de networking en deals concretos sin perder momentum.\n- **Hipótesis:** Cómo mantener la velocidad comercial mientras crece en mercados nuevos / cómo comunicar la propuesta de valor internamente cuando hay alianzas y lanzamientos simultáneos / construcción de narrativa comercial coherente en múltiples territorios.\n- **Ángulo MSG1:** La publicación sobre sinergia y conexiones como motor de éxito — revela que entiende que el trabajo comercial es colectivo, pero la ejecución debe ser escalable. Ahí está la tensión: crecimiento visible + ejecución sostenida.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Ara, gracias por conectar! 👋\n>\n> Me llamó mucho la atención la publicación que compartiste sobre SIGMA São Paulo. Específicamente cuando dijiste que \"las conexiones son el motor que nos impulsa hacia el éxito\" y que creer en las sinergias significa llegar más lejos juntos. No es lo que la mayoría de los directivos comerciales publica cuando hablan de un evento.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## MSG2 intermedio (miércoles 20:07)\n> Buenas Ara, gracias por responder!\n> Lo que dijiste en esa publicación sobre las sinergias como motor tiene mucho sentido cuando estás coordinando múltiples mercados y alianzas al mismo tiempo. El desafío no es conectar, es mantener la coherencia de la propuesta mientras todo eso escala.\n> Justamente en eso trabajamos en Hint Media. Somos una agencia de comunicación omnicanal: identidad, contenidos, paid media, vocería digital. Acompañamos a empresas como Destiny Group en construir narrativa comercial sostenida sin perder velocidad.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta (02/07/26)\n> Dale\n> Me lo puedes enviar sin problema\n> Siempre estamos abiertos a escuchar\n\n## MSG3 — Dossier enviado (02/07/26)\n> Perfecto Ara, te lo mando ahora!\n> [LINK DOSSIER]\n> Cualquier duda o comentario, por acá estamos.\n\n## Notas\n- Sector iGaming → Destiny Group como cliente ejemplo.\n- Aceptó dossier con buena disposición.\n\n**Estado:** Dossier enviado — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

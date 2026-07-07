@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000274",
+  "contact_id": "ctc_000208",
+  "source_file": "conversaciones/junio/yanelly-ramirez-baltodano.md",
+  "fingerprint": "sha256:b95f59a46e79d9d0a1dde908b680f17bfa64027ca1285c8d7fcbfe51928b2d2a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/yanelly-ramirez-baltodano.md",
+    "file_hash": "sha256:b95f59a46e79d9d0a1dde908b680f17bfa64027ca1285c8d7fcbfe51928b2d2a",
+    "file_modified": "2026-07-01T15:55:05.595927+00:00",
+    "file_size": 1892,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Yanelly Ramírez Baltodano",
+    "empresa": "Intensa - Language Institute",
+    "cargo": "Coordinadora de Comunicación Estratégica y Empleabilidad",
+    "pais": "Costa Rica",
+    "fecha": "20/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Yanelly, gracias por conectar! 👋\nMe quedó la reflexión que compartiste sobre la segunda edición de Talent Up. Lo que me llamó la atención no fue solo el evento en sí, sino cómo describiste el proceso: algo que empezó como una idea y se convirtió en iniciativa, y cómo eso te obligó a descubrir áreas de liderazgo que no sabías que tenías.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia! Muchas gracias por tomarse el tiempo de leerlo con tanto detalle! De hecho fue una experiencia que me retó bastante y me dejó muchos aprendizajes sobre liderazgo y ejecución.\nFeliz de conversar. Cuéntame, ¿cuál era tu consulta?",
+    "msg2_texto": "Hola Yanelly, todo bien!\nJusto eso me quedó dando vueltas. Coordinar employer branding, comunicación interna, RP y el programa Alumni a la vez ya es mucho, y encima liderar Talent Up de cero hasta segunda edición. Esas áreas de liderazgo que decís que apenas estás descubriendo, salieron más por necesidad del momento o ya las venías presintiendo antes del evento?\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a organizaciones con esos mismos frentes a la vez, contenido, vocería y posicionamiento institucional. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "tomarse",
+      "tiempo",
+      "leerlo",
+      "tanto",
+      "detalle",
+      "hecho",
+      "experiencia",
+      "reto"
+    ],
+    "notas": "- Sector educación/empleabilidad institucional. Cliente ejemplo: Destiny Group, Libra Seguros.\n- Coordina employer branding, comunicación interna, RP y programa Alumni; lideró Talent Up (feria de empleo) 2da edición.\n\nEstado: SEG1 enviado 01/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Yanelly Ramírez Baltodano]\n[EMPRESA: Intensa - Language Institute]\n[CARGO: Coordinadora de Comunicación Estratégica y Empleabilidad]\n[PAIS: Costa Rica]\n\n[MSG1]\nYanelly, gracias por conectar! 👋\nMe quedó la reflexión que compartiste sobre la segunda edición de Talent Up. Lo que me llamó la atención no fue solo el evento en sí, sino cómo describiste el proceso: algo que empezó como una idea y se convirtió en iniciativa, y cómo eso te obligó a descubrir áreas de liderazgo que no sabías que tenías.\n\n[RESPUESTA_MSG1]\nHola, Florencia! Muchas gracias por tomarse el tiempo de leerlo con tanto detalle! De hecho fue una experiencia que me retó bastante y me dejó muchos aprendizajes sobre liderazgo y ejecución.\nFeliz de conversar. Cuéntame, ¿cuál era tu consulta?\n\n[MSG2]\nHola Yanelly, todo bien!\nJusto eso me quedó dando vueltas. Coordinar employer branding, comunicación interna, RP y el programa Alumni a la vez ya es mucho, y encima liderar Talent Up de cero hasta segunda edición. Esas áreas de liderazgo que decís que apenas estás descubriendo, salieron más por necesidad del momento o ya las venías presintiendo antes del evento?\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a organizaciones con esos mismos frentes a la vez, contenido, vocería y posicionamiento institucional. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector educación/empleabilidad institucional. Cliente ejemplo: Destiny Group, Libra Seguros.\n- Coordina employer branding, comunicación interna, RP y programa Alumni; lideró Talent Up (feria de empleo) 2da edición.\n\nEstado: SEG1 enviado 01/07/26",
+    "raw_md": "# Yanelly Ramírez Baltodano\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 20/06/26\n**Cargo:** Coordinadora de Comunicación Estratégica y Empleabilidad\n**Empresa:** Intensa - Language Institute\n**País:** Costa Rica\n\n## MSG1\n> Yanelly, gracias por conectar! 👋\n> Me quedó la reflexión que compartiste sobre la segunda edición de Talent Up. Lo que me llamó la atención no fue solo el evento en sí, sino cómo describiste el proceso: algo que empezó como una idea y se convirtió en iniciativa, y cómo eso te obligó a descubrir áreas de liderazgo que no sabías que tenías.\n\n## Respuesta MSG1\n> Hola, Florencia! Muchas gracias por tomarse el tiempo de leerlo con tanto detalle! De hecho fue una experiencia que me retó bastante y me dejó muchos aprendizajes sobre liderazgo y ejecución.\n> Feliz de conversar. Cuéntame, ¿cuál era tu consulta?\n\n## MSG2\n> Hola Yanelly, todo bien!\n> Justo eso me quedó dando vueltas. Coordinar employer branding, comunicación interna, RP y el programa Alumni a la vez ya es mucho, y encima liderar Talent Up de cero hasta segunda edición. Esas áreas de liderazgo que decís que apenas estás descubriendo, salieron más por necesidad del momento o ya las venías presintiendo antes del evento?\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a organizaciones con esos mismos frentes a la vez, contenido, vocería y posicionamiento institucional. Trabajamos con Destiny Group y Libra Seguros en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector educación/empleabilidad institucional. Cliente ejemplo: Destiny Group, Libra Seguros.\n- Coordina employer branding, comunicación interna, RP y programa Alumni; lideró Talent Up (feria de empleo) 2da edición.\n\n**Estado:** SEG1 enviado 01/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

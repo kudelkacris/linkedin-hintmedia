@@ -1,0 +1,86 @@
+{
+  "conversation_id": "conv_000260",
+  "contact_id": "ctc_000421",
+  "source_file": "conversaciones/junio/romina-suarez.md",
+  "fingerprint": "sha256:ea1ee00fa10a88bb02372c912a06dfabde3111428fe846a8c94bac6eaf0495c0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/romina-suarez.md",
+    "file_hash": "sha256:ea1ee00fa10a88bb02372c912a06dfabde3111428fe846a8c94bac6eaf0495c0",
+    "file_modified": "2026-06-25T16:41:19.349362+00:00",
+    "file_size": 2723,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Romina Suárez",
+    "empresa": "(no especificada en la conversación)",
+    "cargo": "",
+    "pais": "Argentina",
+    "fecha": "12/06/26",
+    "estado_texto": "CERRADA 25/06/26, no le interesa"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Dale, cuando puedas por favor me lo enviás. Muchas gracias!",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola Florencia, espero que te encuentres muy bien. Por el momento no estamos interesados. Gracias por escribirme. Slds. Romina",
+    "seg1_enviado": true,
+    "seg1_texto": "Romina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dale",
+      "cuando",
+      "puedas",
+      "favor",
+      "envias",
+      "muchas",
+      "florencia",
+      "espero",
+      "encuentres",
+      "bien"
+    ],
+    "notas": "- Perfil completo no disponible — conversación corta.\n- Contexto del MSG2: rol en organización grande, múltiples iniciativas simultáneas.\n- Empresa: ARSAT S.A. (Responsable de Capacitación y Comunicación, 16 años en el rol). Sector: estatal/satelital.\n- Rechazo educado, sin objeción específica. Cerrado."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Romina Suárez]\n[EMPRESA: (no especificada en la conversación)]\n[SECTOR: (no especificado)]\n[PAIS: Argentina]\n\n[RESPUESTA_MSG1]\nDale, cuando puedas por favor me lo enviás. Muchas gracias!\n\n[RESPUESTA_MSG2]\nHola Florencia, espero que te encuentres muy bien. Por el momento no estamos interesados. Gracias por escribirme. Slds. Romina\n\n[SEG1]\nRomina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.\n\n[NOTAS]\n- Perfil completo no disponible — conversación corta.\n- Contexto del MSG2: rol en organización grande, múltiples iniciativas simultáneas.\n- Empresa: ARSAT S.A. (Responsable de Capacitación y Comunicación, 16 años en el rol). Sector: estatal/satelital.\n- Rechazo educado, sin objeción específica. Cerrado.",
+    "raw_md": "# Romina Suárez\n**Fecha:** 12/06/26\n**Empresa:** (no especificada en la conversación)\n**País:** Argentina\n**Sector:** (no especificado)\n**Estado:** CERRADA 25/06/26, no le interesa\n\n---\n\n## MSG2 enviado por Florencia\n> Gracias, Romina.\n> Me dio la impresión de que tu rol está bastante atravesado por algo que suele pasar en organizaciones grandes: hacer que muchas iniciativas avancen al mismo tiempo sin perder alineación ni consistencia en la comunicación.\n>\n> En Hint Media trabajamos como un equipo externo integrado a áreas de comunicación y marketing. No reemplazamos equipos internos; sumamos capacidad de ejecución a través de diseño, contenido, community management y coordinación de proyectos.\n>\n> Hoy acompañamos empresas como TGS, Transener y Libra Seguros, ayudando justamente a sostener ese tipo de iniciativas sin necesidad de ampliar estructura.\n>\n> ¿Te puedo enviar un dossier breve por acá? O, en todo caso, ¿me podrías indicar a quién tendría sentido enviárselo?\n\n## Respuesta\n> Dale, cuando puedas por favor me lo enviás. Muchas gracias!\n\n## Cierre\n> Perfecto Romina, te lo mando ahora. Quedamos en contacto!\n\n## SEG1 (enviado 23/06/26)\n> Romina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.\n\n---\n\n## Follow-up (martes)\n> Romina, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de sostener el cronograma anual, la revista institucional, la intranet y los eventos todos alineados al mismo tiempo, sin que ninguno pierda consistencia. Eso suele ser lo que más desgasta cuando son tantos frentes en simultáneo. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.\n\n## Respuesta final (25/06/26)\n> Hola Florencia, espero que te encuentres muy bien. Por el momento no estamos interesados. Gracias por escribirme. Slds. Romina\n\n## Cierre enviado\n> Hola Romina, todo bien por acá, gracias! Entendido, igual quedo a disposición si más adelante surge algo. Mucho éxito con todo!\n\n## Notas\n- Perfil completo no disponible — conversación corta.\n- Contexto del MSG2: rol en organización grande, múltiples iniciativas simultáneas.\n- Empresa: ARSAT S.A. (Responsable de Capacitación y Comunicación, 16 años en el rol). Sector: estatal/satelital.\n- Rechazo educado, sin objeción específica. Cerrado.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "sector",
+      "seniority",
+      "msg1_texto"
+    ],
+    "parse_warnings": [
+      "seccion_desconocida: 'MSG2 enviado por Florencia'",
+      "seccion_desconocida: 'Follow-up (martes)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.5
+  }
+}

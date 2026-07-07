@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000144",
+  "contact_id": "ctc_000317",
+  "source_file": "conversaciones/junio/daniel-mendoza-lopez.md",
+  "fingerprint": "sha256:4b54d57f49aae4d917fcdfe97dabc88b548f84bcd60af4d3f61ba527672a911e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/daniel-mendoza-lopez.md",
+    "file_hash": "sha256:4b54d57f49aae4d917fcdfe97dabc88b548f84bcd60af4d3f61ba527672a911e",
+    "file_modified": "2026-06-23T21:46:17.214306+00:00",
+    "file_size": 2108,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Daniel Mendoza López",
+    "empresa": "Loymark (agencia digital/marketing)",
+    "cargo": "Marketing Automation Specialist, Loymark",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "Dossier confirmado — respondió \"Si claro esta bien\""
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Daniel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que la infraestructura técnica que armás necesita material estratégico de calidad para que los flujos tengan sentido, sin eso la automatización corre en el aire. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Trabaja en Loymark (agencia) — posicionado como complementario\n- Especialista técnico: GA4, GTM, CRM, Zapier, WordPress, Meta Ads\n- 4+ años en Loymark\n- Certificaciones: HubSpot Marketing, HubSpot Sales, Meta Digital Marketing Associate\n- Loymark tiene AURA GEO (herramienta de presencia en AI/GEO)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daniel Mendoza López]\n[EMPRESA: Loymark (agencia digital/marketing)]\n[CARGO: Marketing Automation Specialist, Loymark]\n[PAIS: Costa Rica]\n\n[SEG1]\nDaniel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que la infraestructura técnica que armás necesita material estratégico de calidad para que los flujos tengan sentido, sin eso la automatización corre en el aire. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.\n\n[NOTAS]\n- Trabaja en Loymark (agencia) — posicionado como complementario\n- Especialista técnico: GA4, GTM, CRM, Zapier, WordPress, Meta Ads\n- 4+ años en Loymark\n- Certificaciones: HubSpot Marketing, HubSpot Sales, Meta Digital Marketing Associate\n- Loymark tiene AURA GEO (herramienta de presencia en AI/GEO)",
+    "raw_md": "# Daniel Mendoza López\n\n**Estado:** Dossier confirmado — respondió \"Si claro esta bien\"\n**Fecha:** 15/06/26\n**Cargo:** Marketing Automation Specialist, Loymark\n**País:** Costa Rica\n**Empresa:** Loymark (agencia digital/marketing)\n\n## Conversación\n\n**MSG1 (Florencia, miércoles 12:34):**\nDestacó su equilibrio entre construir infraestructura técnica y generar resultados que el equipo puede usar hoy.\n\n**Respuesta Daniel (sábado 10:38):**\n\"Hola buenos días un gusto\"\n\n**Confirmación posterior:**\n\"Y claro correcto, así tal cual\"\n\n**MSG2 (redactado):**\n> Daniel, gracias por confirmar.\n>\n> Vi que compartiste algo de Loymark sobre presencia en entornos de IA: \"no basta con existir, la diferencia está en si la IA te menciona o te elige.\" Eso aplica igual para el contenido y la marca. La infraestructura técnica necesita material estratégico de calidad para que los flujos tengan sentido.\n>\n> En Hint trabajamos con equipos de marketing en estrategia de contenido y posicionamiento de marca que alimenta y da sentido a esa infraestructura.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Daniel:**\n\"Si claro esta bien\"\n\n**Respuesta enviada:**\n> Perfecto Daniel, te lo mando por acá ahora mismo!\n>\n> Y si preferís que te lo envíe también por mail, decime a qué dirección.\n\n## SEG1 (enviado 23/06/26, engagement MEDIUM)\n> Daniel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que la infraestructura técnica que armás necesita material estratégico de calidad para que los flujos tengan sentido, sin eso la automatización corre en el aire. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás trabajando hoy.\n\n## Notas\n- Trabaja en Loymark (agencia) — posicionado como complementario\n- Especialista técnico: GA4, GTM, CRM, Zapier, WordPress, Meta Ads\n- 4+ años en Loymark\n- Certificaciones: HubSpot Marketing, HubSpot Sales, Meta Digital Marketing Associate\n- Loymark tiene AURA GEO (herramienta de presencia en AI/GEO)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

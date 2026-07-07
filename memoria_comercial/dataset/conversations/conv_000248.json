@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000248",
+  "contact_id": "ctc_000127",
+  "source_file": "conversaciones/junio/paola-gaspard.md",
+  "fingerprint": "sha256:22d28ef23d83d730f8881c8155ae6739ec72b999b2bd0ef1476ef60494226fde",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/paola-gaspard.md",
+    "file_hash": "sha256:22d28ef23d83d730f8881c8155ae6739ec72b999b2bd0ef1476ef60494226fde",
+    "file_modified": "2026-06-23T16:33:02.915647+00:00",
+    "file_size": 903,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Paola Gaspard M.",
+    "empresa": "Clínicas Dentales Corró Maduro (antes Sortis Hotel, Spa & Casino)",
+    "cargo": "Jefe de Mercadeo",
+    "pais": "Panamá",
+    "fecha": "23/06/26",
+    "estado_texto": "Activa, conversación en curso (sin pitch de Hint todavía)"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia observó su post sobre \"Finanzas decide la campaña, Operaciones cambia el mensaje, Ventas pide algo rápido\" como observación directa y vivida.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Confirmó que lo vivió, le pidió que cuente la consulta.",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "No se entró directo al pitch de Hint. Se siguió la charla: comentario sobre el post + pregunta abierta sobre si en Clínicas Corró Maduro le tocó poner orden en ese tipo de caos o ya venía resuelto.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "confirmo",
+      "vivio",
+      "pidio",
+      "cuente",
+      "consulta"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Paola Gaspard M.]\n[EMPRESA: Clínicas Dentales Corró Maduro (antes Sortis Hotel, Spa & Casino)]\n[CARGO: Jefe de Mercadeo]\n[SECTOR: Salud/dental (ex-hospitality)]\n[PAIS: Panamá]\n\n[MSG1]\nFlorencia observó su post sobre \"Finanzas decide la campaña, Operaciones cambia el mensaje, Ventas pide algo rápido\" como observación directa y vivida.\n\n[RESPUESTA_MSG1]\nConfirmó que lo vivió, le pidió que cuente la consulta.\n\n[SEG1]\nNo se entró directo al pitch de Hint. Se siguió la charla: comentario sobre el post + pregunta abierta sobre si en Clínicas Corró Maduro le tocó poner orden en ese tipo de caos o ya venía resuelto.",
+    "raw_md": "# Paola Gaspard M.\n\n**Estado:** Activa, conversación en curso (sin pitch de Hint todavía)\n**Fecha:** 23/06/26\n**Cargo:** Jefe de Mercadeo\n**Empresa:** Clínicas Dentales Corró Maduro (antes Sortis Hotel, Spa & Casino)\n**País:** Panamá\n**Sector:** Salud/dental (ex-hospitality)\n\n## MSG1\n> Florencia observó su post sobre \"Finanzas decide la campaña, Operaciones cambia el mensaje, Ventas pide algo rápido\" como observación directa y vivida.\n\n## Respuesta\n> Confirmó que lo vivió, le pidió que cuente la consulta.\n\n## Seguimiento 23/06/26\n> No se entró directo al pitch de Hint. Se siguió la charla: comentario sobre el post + pregunta abierta sobre si en Clínicas Corró Maduro le tocó poner orden en ese tipo de caos o ya venía resuelto.\n\n**Nota:** Instrucción explícita del usuario: no vender Hint de entrada, entrar por la charla primero.\n\n**Estado:** Esperando respuesta de Paola.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

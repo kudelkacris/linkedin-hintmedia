@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000191",
+  "contact_id": "ctc_000349",
+  "source_file": "conversaciones/junio/julian-fernando-sanchez-cardona.md",
+  "fingerprint": "sha256:c8e7cfb3ae261b0462ca673e0e62169c3304b0db3c0467e5c98f4e432f4efc72",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/julian-fernando-sanchez-cardona.md",
+    "file_hash": "sha256:c8e7cfb3ae261b0462ca673e0e62169c3304b0db3c0467e5c98f4e432f4efc72",
+    "file_modified": "2026-06-10T22:54:38.559360+00:00",
+    "file_size": 2157,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Julian Fernando Sanchez Cardona",
+    "empresa": "El Éxito Betancur y Asociados S.A. (marcas: Pretty Woman, Boccelli)",
+    "cargo": "Jefe Ecommerce y Marketing Digital",
+    "pais": "Costa Rica",
+    "fecha": "10/06/26",
+    "estado_texto": "Rechazó — no están viendo nuevos proveedores en este momento"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Julian, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo enfocaste la publicación sobre Prertty Woman. Lo que más destacaste no fue el alcance ni el número de influencers, sino la idea de que \"cuando los creadores viven la experiencia, se genera confianza y conexión\". Eso dice bastante de cómo priorizás el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas tardes Florencia un gusto. Cómo puedo ayudarte",
+    "msg2_texto": "Buenas tardes Julian, que bueno!\n\nLo que me quedó de esa publicación fue la distinción que hacés — la confianza no viene del alcance, sino de que el creador realmente viva la experiencia. Eso implica un nivel de coordinación y producción que no se improvisa, especialmente cuando se maneja más de una marca en paralelo.\n\nDesde Hint Media trabajamos con equipos como el tuyo — sumamos capacidad de ejecución en contenido y digital para sostener ese estándar sin que una marca frene a la otra. Hemos trabajado con Destiny Group, Tasarolli y otros con esa misma exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Muchas gracias. En este momento no estamos viendo nuevos proveedores.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "tardes",
+      "florencia",
+      "gusto",
+      "puedo",
+      "ayudarte",
+      "muchas",
+      "este",
+      "momento",
+      "estamos",
+      "viendo"
+    ],
+    "notas": "- Variante A (persona) — cómo prioriza autenticidad sobre métricas de vanidad\n- Publicación clave: activación influencers Pretty Woman, destacó \"experiencia genera confianza\"\n- También maneja Boccelli — múltiples marcas en paralelo es el pain point\n- Clientes usados: Destiny Group, Tasarolli (retail/moda — correcto)\n- Anterior en AVON Costa Rica (2 años como Jefe Digital y Paid Media)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Julian Fernando Sanchez Cardona]\n[EMPRESA: El Éxito Betancur y Asociados S.A. (marcas: Pretty Woman, Boccelli)]\n[CARGO: Jefe Ecommerce y Marketing Digital]\n[SECTOR: Retail / Moda / Consumo masivo]\n[PAIS: Costa Rica]\n\n[MSG1]\nJulian, gracias por conectar. Un gusto.\n\nMe llamó la atención cómo enfocaste la publicación sobre Prertty Woman. Lo que más destacaste no fue el alcance ni el número de influencers, sino la idea de que \"cuando los creadores viven la experiencia, se genera confianza y conexión\". Eso dice bastante de cómo priorizás el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenas tardes Florencia un gusto. Cómo puedo ayudarte\n\n[MSG2]\nBuenas tardes Julian, que bueno!\n\nLo que me quedó de esa publicación fue la distinción que hacés — la confianza no viene del alcance, sino de que el creador realmente viva la experiencia. Eso implica un nivel de coordinación y producción que no se improvisa, especialmente cuando se maneja más de una marca en paralelo.\n\nDesde Hint Media trabajamos con equipos como el tuyo — sumamos capacidad de ejecución en contenido y digital para sostener ese estándar sin que una marca frene a la otra. Hemos trabajado con Destiny Group, Tasarolli y otros con esa misma exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nMuchas gracias. En este momento no estamos viendo nuevos proveedores.\n\n[MSG3]\nEntendido Julian, sin problema. Cuando estén evaluando, acá estamos.\n\n[NOTAS]\n- Variante A (persona) — cómo prioriza autenticidad sobre métricas de vanidad\n- Publicación clave: activación influencers Pretty Woman, destacó \"experiencia genera confianza\"\n- También maneja Boccelli — múltiples marcas en paralelo es el pain point\n- Clientes usados: Destiny Group, Tasarolli (retail/moda — correcto)\n- Anterior en AVON Costa Rica (2 años como Jefe Digital y Paid Media)",
+    "raw_md": "# Julian Fernando Sanchez Cardona\n**Fecha:** 10/06/26\n**Empresa:** El Éxito Betancur y Asociados S.A. (marcas: Pretty Woman, Boccelli)\n**Cargo:** Jefe Ecommerce y Marketing Digital\n**País:** Costa Rica\n**Sector:** Retail / Moda / Consumo masivo\n**Estado:** Rechazó — no están viendo nuevos proveedores en este momento\n\n---\n\n## MSG1\n> Julian, gracias por conectar. Un gusto.\n>\n> Me llamó la atención cómo enfocaste la publicación sobre Prertty Woman. Lo que más destacaste no fue el alcance ni el número de influencers, sino la idea de que \"cuando los creadores viven la experiencia, se genera confianza y conexión\". Eso dice bastante de cómo priorizás el trabajo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Buenas tardes Florencia un gusto. Cómo puedo ayudarte\n\n## MSG2\n> Buenas tardes Julian, que bueno!\n>\n> Lo que me quedó de esa publicación fue la distinción que hacés — la confianza no viene del alcance, sino de que el creador realmente viva la experiencia. Eso implica un nivel de coordinación y producción que no se improvisa, especialmente cuando se maneja más de una marca en paralelo.\n>\n> Desde Hint Media trabajamos con equipos como el tuyo — sumamos capacidad de ejecución en contenido y digital para sostener ese estándar sin que una marca frene a la otra. Hemos trabajado con Destiny Group, Tasarolli y otros con esa misma exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Muchas gracias. En este momento no estamos viendo nuevos proveedores.\n\n## MSG3\n> Entendido Julian, sin problema. Cuando estén evaluando, acá estamos.\n\n---\n\n## Notas\n- Variante A (persona) — cómo prioriza autenticidad sobre métricas de vanidad\n- Publicación clave: activación influencers Pretty Woman, destacó \"experiencia genera confianza\"\n- También maneja Boccelli — múltiples marcas en paralelo es el pain point\n- Clientes usados: Destiny Group, Tasarolli (retail/moda — correcto)\n- Anterior en AVON Costa Rica (2 años como Jefe Digital y Paid Media)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

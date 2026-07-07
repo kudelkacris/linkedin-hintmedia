@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000120",
+  "contact_id": "ctc_000227",
+  "source_file": "conversaciones/junio/brenda-michelle-morales.md",
+  "fingerprint": "sha256:f6d81df62449abb489db758db8cbe5624c8e6c5e66971d058c1ffffc40294738",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/brenda-michelle-morales.md",
+    "file_hash": "sha256:f6d81df62449abb489db758db8cbe5624c8e6c5e66971d058c1ffffc40294738",
+    "file_modified": "2026-07-01T15:55:05.581217+00:00",
+    "file_size": 3267,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Brenda Michelle Morales",
+    "empresa": "Factor K Software (desarrollo de software, partner de Anthropic/Claude)",
+    "cargo": "Marketing Specialist Associate",
+    "pais": "Costa Rica (Heredia, remoto)",
+    "fecha": "18/06/26 (MSG1, MSG2, aclaración de contexto y dossier el mismo día)",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Brenda, gracias por conectar! Me llamó la atención la forma en que leíste el artículo sobre bugs de software. Lo que más me gustó fue que no solo lo compartiste, sino que agregaste tu propia reflexión sobre cómo los problemas reales casi nunca están donde finalmente se ven. Eso es poco común en marketing. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, ¿cómo estás? Muchas gracias por tu mensaje y por tomarte el tiempo de leer y comentar sobre mi reflexión. Me alegra que te haya resultado interesante. Y claro, con gusto. Contame un poco más sobre tu consulta y veo de qué manera puedo ayudarte.",
+    "msg2_texto": "Hola Brenda, muy bien gracias, un gusto también.\n\nTraducir algo tan técnico como la calidad de software en una reflexión que cualquiera puede entender, y sostener eso en español e inglés en cada pieza, es un trabajo que exige mantener esa claridad de forma constante en cada publicación.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa claridad de marca de forma consistente en múltiples plataformas. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "muchas",
+      "mensaje",
+      "tomarte",
+      "tiempo",
+      "leer",
+      "comentar",
+      "sobre",
+      "reflexion"
+    ],
+    "notas": "- HECHO: comentó un artículo de Factor K sobre bugs de software con reflexión propia sobre dónde están los problemas reales.\n- COMPLEJIDAD: traduce contenido técnico (calidad de software, IA empresarial — partner Anthropic/Claude) en comunicación clara, bilingüe (ES/EN), multiplataforma.\n- Pidió contexto/timing antes de aceptar dossier — perfil cauteloso, no apurar.\n- No responder más por ahora, queda en seguimiento pasivo. Si no contesta en 3-5 días, evaluar follow-up suave (no es prioridad alta, ya dijo que lo revisa \"cuando tenga oportunidad\")."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Brenda Michelle Morales]\n[EMPRESA: Factor K Software (desarrollo de software, partner de Anthropic/Claude)]\n[CARGO: Marketing Specialist Associate]\n[PAIS: Costa Rica (Heredia, remoto)]\n\n[MSG1]\nBrenda, gracias por conectar! Me llamó la atención la forma en que leíste el artículo sobre bugs de software. Lo que más me gustó fue que no solo lo compartiste, sino que agregaste tu propia reflexión sobre cómo los problemas reales casi nunca están donde finalmente se ven. Eso es poco común en marketing. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, ¿cómo estás? Muchas gracias por tu mensaje y por tomarte el tiempo de leer y comentar sobre mi reflexión. Me alegra que te haya resultado interesante. Y claro, con gusto. Contame un poco más sobre tu consulta y veo de qué manera puedo ayudarte.\n\n[MSG2]\nHola Brenda, muy bien gracias, un gusto también.\n\nTraducir algo tan técnico como la calidad de software en una reflexión que cualquiera puede entender, y sostener eso en español e inglés en cada pieza, es un trabajo que exige mantener esa claridad de forma constante en cada publicación.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa claridad de marca de forma consistente en múltiples plataformas. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- HECHO: comentó un artículo de Factor K sobre bugs de software con reflexión propia sobre dónde están los problemas reales.\n- COMPLEJIDAD: traduce contenido técnico (calidad de software, IA empresarial — partner Anthropic/Claude) en comunicación clara, bilingüe (ES/EN), multiplataforma.\n- Pidió contexto/timing antes de aceptar dossier — perfil cauteloso, no apurar.\n- No responder más por ahora, queda en seguimiento pasivo. Si no contesta en 3-5 días, evaluar follow-up suave (no es prioridad alta, ya dijo que lo revisa \"cuando tenga oportunidad\").",
+    "raw_md": "# Brenda Michelle Morales\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26 (MSG1, MSG2, aclaración de contexto y dossier el mismo día)\n**Cargo:** Marketing Specialist Associate\n**Empresa:** Factor K Software (desarrollo de software, partner de Anthropic/Claude)\n**País:** Costa Rica (Heredia, remoto)\n\n## MSG1\n> Brenda, gracias por conectar! Me llamó la atención la forma en que leíste el artículo sobre bugs de software. Lo que más me gustó fue que no solo lo compartiste, sino que agregaste tu propia reflexión sobre cómo los problemas reales casi nunca están donde finalmente se ven. Eso es poco común en marketing. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, ¿cómo estás? Muchas gracias por tu mensaje y por tomarte el tiempo de leer y comentar sobre mi reflexión. Me alegra que te haya resultado interesante. Y claro, con gusto. Contame un poco más sobre tu consulta y veo de qué manera puedo ayudarte.\n\n## MSG2 (framework HECHO→COMPLEJIDAD→OPORTUNIDAD→HINT)\n> Hola Brenda, muy bien gracias, un gusto también.\n>\n> Traducir algo tan técnico como la calidad de software en una reflexión que cualquiera puede entender, y sostener eso en español e inglés en cada pieza, es un trabajo que exige mantener esa claridad de forma constante en cada publicación.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa claridad de marca de forma consistente en múltiples plataformas. Trabajamos con Destiny Group y Libra Seguros en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Pidió contexto antes del dossier\n> Gracias por la información y por pensar en mí. Con gusto puedo revisar la propuesta. Antes de que me envíes el dossier, ¿podrías contarme un poco más sobre lo que necesitás y para cuándo lo estarías requiriendo? Me ayudaría a entender mejor el contexto y los tiempos.\n\n## Respuesta a la aclaración\n> Buenas Brenda, con gusto te cuento. No es una necesidad puntual con fecha límite de nuestro lado, sino que estamos evaluando con distintas empresas si nuestro modelo de equipo de contenido insertado les puede servir como apoyo permanente, sin apuro de tiempos. Te paso el dossier para que lo veas con calma y me decís si tiene sentido seguir la charla.\n\n## Cierre\n> Esta bien. → se envió el dossier (MSG3).\n> \"Muchas gracias, Florencia. Recibido. Lo revisaré con calma cuando tenga oportunidad. Te agradezco el contacto y la información. Que tengas un excelente día.\"\n\n## Notas\n- HECHO: comentó un artículo de Factor K sobre bugs de software con reflexión propia sobre dónde están los problemas reales.\n- COMPLEJIDAD: traduce contenido técnico (calidad de software, IA empresarial — partner Anthropic/Claude) en comunicación clara, bilingüe (ES/EN), multiplataforma.\n- Pidió contexto/timing antes de aceptar dossier — perfil cauteloso, no apurar.\n- No responder más por ahora, queda en seguimiento pasivo. Si no contesta en 3-5 días, evaluar follow-up suave (no es prioridad alta, ya dijo que lo revisa \"cuando tenga oportunidad\").\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector",
+      "seccion_desconocida: 'Pidió contexto antes del dossier'",
+      "seccion_desconocida: 'Respuesta a la aclaración'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

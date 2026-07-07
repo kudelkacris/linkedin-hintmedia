@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000183",
+  "contact_id": "ctc_000225",
+  "source_file": "conversaciones/junio/jose-luis-pascual.md",
+  "fingerprint": "sha256:37862e9f722478223693607ff7a9299607f380cd8f7d6b59c538c5578109051a",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-luis-pascual.md",
+    "file_hash": "sha256:37862e9f722478223693607ff7a9299607f380cd8f7d6b59c538c5578109051a",
+    "file_modified": "2026-06-18T18:46:22.650296+00:00",
+    "file_size": 2155,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jose Luis Pascual",
+    "empresa": "Bravent (consultora, partner Microsoft, AI/transformación digital)",
+    "cargo": "LATAM Director",
+    "pais": "Panamá",
+    "fecha": "18/06/26 (MSG1 y respuesta el mismo día)",
+    "estado_texto": "MSG2 por enviar (variante senior)"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jose Luis, gracias por conectar! Me llamó la atención la publicación sobre el fracaso de IA en LATAM. No es lo habitual: la mayoría publica casos de éxito. Vos estás nombrando el problema que nadie quiere hablar en las juntas directivas. El que ya gastaron y no ven nada. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Gracias por tomarte el tiempo de leer mi artículo y conectar. En efecto y como bien dices: cientos de miles de dólares gastados en IA y cero ROI en sus records (salvo contadas excepciones). Cómo te puedo ayudar?",
+    "msg2_texto": "Buenas Jose Luis, gracias, queda clarísimo con esos números.\n\nSostener ese mismo nivel de contenido, extenso y con datos, mientras lideras la operación comercial de Bravent en LATAM, es un trabajo aparte del trabajo comercial en sí, sobre todo cuando ese contenido es lo que te posiciona frente a las juntas que evitan hablar del fracaso. Lo digo porque en Hint Media venimos acompañando justo ese tipo de comunicación a empresas de consultoría y tech, como Destiny Group y Libra Seguros, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "tomarte",
+      "tiempo",
+      "leer",
+      "articulo",
+      "conectar",
+      "efecto",
+      "bien",
+      "dices",
+      "cientos"
+    ],
+    "notas": "- HECHO: publica contenido extenso con datos (95% proyectos IA fallan en Argentina, 23% ve ROI real) nombrando el fracaso de IA en LATAM, algo que las juntas evitan.\n- COMPLEJIDAD: sostiene ese nivel de thought leadership (largo, con data, posicionamiento personal) en paralelo a liderar la operación comercial de Bravent en LATAM.\n- 25+ años de experiencia, perfil muy sofisticado en comunicación propia (el mismo hace lo que Hint vendería) — variante senior aplicada.\n- Sector: consultoría/tech → clientes referencia Destiny Group/Libra Seguros."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jose Luis Pascual]\n[EMPRESA: Bravent (consultora, partner Microsoft, AI/transformación digital)]\n[CARGO: LATAM Director]\n[PAIS: Panamá]\n\n[MSG1]\nJose Luis, gracias por conectar! Me llamó la atención la publicación sobre el fracaso de IA en LATAM. No es lo habitual: la mayoría publica casos de éxito. Vos estás nombrando el problema que nadie quiere hablar en las juntas directivas. El que ya gastaron y no ven nada. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Gracias por tomarte el tiempo de leer mi artículo y conectar. En efecto y como bien dices: cientos de miles de dólares gastados en IA y cero ROI en sus records (salvo contadas excepciones). Cómo te puedo ayudar?\n\n[MSG2]\nBuenas Jose Luis, gracias, queda clarísimo con esos números.\n\nSostener ese mismo nivel de contenido, extenso y con datos, mientras lideras la operación comercial de Bravent en LATAM, es un trabajo aparte del trabajo comercial en sí, sobre todo cuando ese contenido es lo que te posiciona frente a las juntas que evitan hablar del fracaso. Lo digo porque en Hint Media venimos acompañando justo ese tipo de comunicación a empresas de consultoría y tech, como Destiny Group y Libra Seguros, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.\n\n[NOTAS]\n- HECHO: publica contenido extenso con datos (95% proyectos IA fallan en Argentina, 23% ve ROI real) nombrando el fracaso de IA en LATAM, algo que las juntas evitan.\n- COMPLEJIDAD: sostiene ese nivel de thought leadership (largo, con data, posicionamiento personal) en paralelo a liderar la operación comercial de Bravent en LATAM.\n- 25+ años de experiencia, perfil muy sofisticado en comunicación propia (el mismo hace lo que Hint vendería) — variante senior aplicada.\n- Sector: consultoría/tech → clientes referencia Destiny Group/Libra Seguros.",
+    "raw_md": "# Jose Luis Pascual\n\n**Estado:** MSG2 por enviar (variante senior)\n**Fecha:** 18/06/26 (MSG1 y respuesta el mismo día)\n**Cargo:** LATAM Director\n**Empresa:** Bravent (consultora, partner Microsoft, AI/transformación digital)\n**País:** Panamá\n\n## MSG1\n> Jose Luis, gracias por conectar! Me llamó la atención la publicación sobre el fracaso de IA en LATAM. No es lo habitual: la mayoría publica casos de éxito. Vos estás nombrando el problema que nadie quiere hablar en las juntas directivas. El que ya gastaron y no ven nada. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia! Gracias por tomarte el tiempo de leer mi artículo y conectar. En efecto y como bien dices: cientos de miles de dólares gastados en IA y cero ROI en sus records (salvo contadas excepciones). Cómo te puedo ayudar?\n\n## MSG2 (variante senior — Hint y dossier fusionados, camuflado)\n> Buenas Jose Luis, gracias, queda clarísimo con esos números.\n>\n> Sostener ese mismo nivel de contenido, extenso y con datos, mientras lideras la operación comercial de Bravent en LATAM, es un trabajo aparte del trabajo comercial en sí, sobre todo cuando ese contenido es lo que te posiciona frente a las juntas que evitan hablar del fracaso. Lo digo porque en Hint Media venimos acompañando justo ese tipo de comunicación a empresas de consultoría y tech, como Destiny Group y Libra Seguros, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.\n\n## Notas\n- HECHO: publica contenido extenso con datos (95% proyectos IA fallan en Argentina, 23% ve ROI real) nombrando el fracaso de IA en LATAM, algo que las juntas evitan.\n- COMPLEJIDAD: sostiene ese nivel de thought leadership (largo, con data, posicionamiento personal) en paralelo a liderar la operación comercial de Bravent en LATAM.\n- 25+ años de experiencia, perfil muy sofisticado en comunicación propia (el mismo hace lo que Hint vendería) — variante senior aplicada.\n- Sector: consultoría/tech → clientes referencia Destiny Group/Libra Seguros.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

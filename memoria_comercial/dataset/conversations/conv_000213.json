@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000213",
+  "contact_id": "ctc_000261",
+  "source_file": "conversaciones/junio/luris-elizabeth-aguilar.md",
+  "fingerprint": "sha256:95d4e88935a37f927b72179fd7e498619cbf1520642f60f68228901c7a05b93b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/luris-elizabeth-aguilar.md",
+    "file_hash": "sha256:95d4e88935a37f927b72179fd7e498619cbf1520642f60f68228901c7a05b93b",
+    "file_modified": "2026-06-15T19:59:54.288040+00:00",
+    "file_size": 1366,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Luris Elizabeth Aguilar, MBA",
+    "empresa": "Logística Panamá S.A.",
+    "cargo": "Gerente de Ventas, Logística Panamá S.A.",
+    "pais": "Panamá",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Gerente de Ventas (no marketing) — posible redirigir a quien maneja marketing en Logística Panamá\n- MBA, liderazgo con foco humano/emocional\n- 2.912 seguidores, activa\n- Compartió contenido sobre \"venta provocativa\" y \"creación de demanda vs captura de demanda\""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Luris Elizabeth Aguilar, MBA]\n[EMPRESA: Logística Panamá S.A.]\n[CARGO: Gerente de Ventas, Logística Panamá S.A.]\n[PAIS: Panamá]\n\n[NOTAS]\n- Gerente de Ventas (no marketing) — posible redirigir a quien maneja marketing en Logística Panamá\n- MBA, liderazgo con foco humano/emocional\n- 2.912 seguidores, activa\n- Compartió contenido sobre \"venta provocativa\" y \"creación de demanda vs captura de demanda\"",
+    "raw_md": "# Luris Elizabeth Aguilar, MBA\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Gerente de Ventas, Logística Panamá S.A.\n**País:** Panamá\n**Empresa:** Logística Panamá S.A.\n\n## Conversación\n\n**MSG1 (Florencia, viernes 19:19):**\nDestacó que su feed es sobre inteligencia emocional, empatía y liderazgo consciente, inusual en alguien que lidera un equipo comercial.\n\n**Respuesta Luris (sábado 9:14):**\n\"Hola Florencia, un gusto. Claro que sí, déjame saber tu consulta por favor.\"\n\n**MSG2 (redactado):**\n> Luris, gracias por responder!\n>\n> Vi que compartiste algo sobre venta provocativa y creación de demanda. Justamente ese es el puente que muchos equipos comerciales están buscando y que el marketing tiene que sostener desde la comunicación y el contenido.\n>\n> En Hint acompañamos a empresas con estrategia de marca y contenido que genera demanda real, no solo visibilidad. Hemos trabajado con empresas en sectores como logística y servicios B2B.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Gerente de Ventas (no marketing) — posible redirigir a quien maneja marketing en Logística Panamá\n- MBA, liderazgo con foco humano/emocional\n- 2.912 seguidores, activa\n- Compartió contenido sobre \"venta provocativa\" y \"creación de demanda vs captura de demanda\"\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

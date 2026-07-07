@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000177",
+  "contact_id": "ctc_000379",
+  "source_file": "conversaciones/junio/johnathan-torres-bermudez.md",
+  "fingerprint": "sha256:231ab18c7a77a7368e793f69c7b326f5d8b71aa3e7d1f7bbe0ad71b9dae4ef5d",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/johnathan-torres-bermudez.md",
+    "file_hash": "sha256:231ab18c7a77a7368e793f69c7b326f5d8b71aa3e7d1f7bbe0ad71b9dae4ef5d",
+    "file_modified": "2026-06-10T22:46:46.929385+00:00",
+    "file_size": 2030,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Johnathan Andres Torres Bermúdez",
+    "empresa": "Tec (detalle no disponible)",
+    "cargo": "Líder de Marketing (16 personas, presupuesto $1M USD)",
+    "pais": "(no especificado)",
+    "fecha": "10/06/26",
+    "estado_texto": "Rechazó — no interesado en este momento"
+  },
+  "normalized": {
+    "sector": "TELECOMUNICACIONES",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "INTERNAL_TEAM",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia Di Rado, 14:33\nJohnathan, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo en Tec. Me llamó la atención el contexto: 16 personas en marketing, presupuesto de $1M USD anual, gestión simultánea de brand, retail, digital y e-commerce. Eso no es simplemente \"liderazgo de equipo\" — es gobernar múltiples velocidades al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola! Buen día. Coméntame",
+    "msg2_texto": "Lo que me quedó fue eso — gobernar brand, retail, digital y e-commerce en simultáneo implica que cada frente tiene su propio ritmo de ejecución. El desafío no es la estrategia, es mantener la velocidad en todos sin que uno frene a los demás.\n\nDesde Hint Media trabajamos con equipos que tienen esa exigencia — sumamos capacidad de ejecución integrada para sostener el volumen en los frentes que más lo necesitan. Hemos trabajado con TGS, Transener y otros con ese nivel de operación.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "En este momento. No es necesario. Muchas gracias.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "buen",
+      "comentame",
+      "este",
+      "momento",
+      "necesario",
+      "muchas"
+    ],
+    "notas": "- Rechazo suave y educado — no es el momento\n- Equipo interno grande ($1M presupuesto, 16 personas) — posiblemente tienen cobertura suficiente\n- Clientes usados: TGS, Transener — error de sesión anterior (perfil deportes/retail, debería haber sido Destiny Group/Tasarolli). Corregido en metodología v3 con mapeo de sectores.\n- No volver a contactar salvo cambio de contexto"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Johnathan Andres Torres Bermúdez]\n[EMPRESA: Tec (detalle no disponible)]\n[CARGO: Líder de Marketing (16 personas, presupuesto $1M USD)]\n[SECTOR: (no especificado — perfil con operación grande)]\n[PAIS: (no especificado)]\n\n[MSG1]\nFlorencia Di Rado, 14:33\nJohnathan, gracias por conectar. 👋\n\nEstuve revisando un poco lo que venís haciendo en Tec. Me llamó la atención el contexto: 16 personas en marketing, presupuesto de $1M USD anual, gestión simultánea de brand, retail, digital y e-commerce. Eso no es simplemente \"liderazgo de equipo\" — es gobernar múltiples velocidades al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola! Buen día. Coméntame\n\n[MSG2]\nLo que me quedó fue eso — gobernar brand, retail, digital y e-commerce en simultáneo implica que cada frente tiene su propio ritmo de ejecución. El desafío no es la estrategia, es mantener la velocidad en todos sin que uno frene a los demás.\n\nDesde Hint Media trabajamos con equipos que tienen esa exigencia — sumamos capacidad de ejecución integrada para sostener el volumen en los frentes que más lo necesitan. Hemos trabajado con TGS, Transener y otros con ese nivel de operación.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nEn este momento. No es necesario. Muchas gracias.\n\n[MSG3]\nEntendido Johnathan, sin problema. Si en algún momento cambia el contexto, acá estamos.\n\n[NOTAS]\n- Rechazo suave y educado — no es el momento\n- Equipo interno grande ($1M presupuesto, 16 personas) — posiblemente tienen cobertura suficiente\n- Clientes usados: TGS, Transener — error de sesión anterior (perfil deportes/retail, debería haber sido Destiny Group/Tasarolli). Corregido en metodología v3 con mapeo de sectores.\n- No volver a contactar salvo cambio de contexto",
+    "raw_md": "# Johnathan Andres Torres Bermúdez\n**Fecha:** 10/06/26\n**Empresa:** Tec (detalle no disponible)\n**Cargo:** Líder de Marketing (16 personas, presupuesto $1M USD)\n**País:** (no especificado)\n**Sector:** (no especificado — perfil con operación grande)\n**Estado:** Rechazó — no interesado en este momento\n\n---\n\n## MSG1\n> Florencia Di Rado, 14:33\n> Johnathan, gracias por conectar. 👋\n>\n> Estuve revisando un poco lo que venís haciendo en Tec. Me llamó la atención el contexto: 16 personas en marketing, presupuesto de $1M USD anual, gestión simultánea de brand, retail, digital y e-commerce. Eso no es simplemente \"liderazgo de equipo\" — es gobernar múltiples velocidades al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola! Buen día. Coméntame\n\n## MSG2\n> Lo que me quedó fue eso — gobernar brand, retail, digital y e-commerce en simultáneo implica que cada frente tiene su propio ritmo de ejecución. El desafío no es la estrategia, es mantener la velocidad en todos sin que uno frene a los demás.\n>\n> Desde Hint Media trabajamos con equipos que tienen esa exigencia — sumamos capacidad de ejecución integrada para sostener el volumen en los frentes que más lo necesitan. Hemos trabajado con TGS, Transener y otros con ese nivel de operación.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> En este momento. No es necesario. Muchas gracias.\n\n## MSG3\n> Entendido Johnathan, sin problema. Si en algún momento cambia el contexto, acá estamos.\n\n---\n\n## Notas\n- Rechazo suave y educado — no es el momento\n- Equipo interno grande ($1M presupuesto, 16 personas) — posiblemente tienen cobertura suficiente\n- Clientes usados: TGS, Transener — error de sesión anterior (perfil deportes/retail, debería haber sido Destiny Group/Tasarolli). Corregido en metodología v3 con mapeo de sectores.\n- No volver a contactar salvo cambio de contexto\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

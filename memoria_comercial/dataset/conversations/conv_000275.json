@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000275",
+  "contact_id": "ctc_000126",
+  "source_file": "conversaciones/junio/yescenia-navarro.md",
+  "fingerprint": "sha256:a896e13746a165aae6deb3035105b014cdb2ceb9551131efa9f7256ee6c8a43f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/yescenia-navarro.md",
+    "file_hash": "sha256:a896e13746a165aae6deb3035105b014cdb2ceb9551131efa9f7256ee6c8a43f",
+    "file_modified": "2026-07-01T15:56:14.746336+00:00",
+    "file_size": 2187,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Yescenia Navarro",
+    "empresa": "Be:Brave Inc. (Panamá) — comunidades digitales Super Mamás, Buenos Sabores; aceleradora JUMP; agencia de contenido y experiencias",
+    "cargo": "CEO, Be:Brave Inc.",
+    "pais": "Panamá",
+    "fecha": "22/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26. Dossier enviado por mail (ynavarro@bbravegroup.com). Mencionó interés en una llamada."
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Yescenia, gracias por conectar!\n\nMe llamó la atención cómo cerraste la reflexión sobre JUMP. Lo que más me gustó fue que en un espacio donde podrías haber hablado del crecimiento, la audiencia o el impacto numérico, le dieras el crédito principal al equipo de Be:Brave que \"hace posible este proyecto\". No suele ser lo primero que alguien destaca cuando celebra una iniciativa así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. muchas gracias. Claro cuentame como te puedo ayudar saludos",
+    "msg2_texto": "Buenas Yescenia, gracias.\n\nLo interesante de eso es que cuando un proyecto crece tanto en escala — 1.500 emprendedores, 200k personas, alianzas con TVN, BAC, mentorías simultáneas — normalmente aparece un desafío que suele pasar invisible: sostener la ejecución de contenido y experiencias consistentes sin que todo termine dependiendo del criterio y el tiempo de la fundadora.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "ynavarro@bbravegroup.com",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Yescenia!\nYa te mandamos el material por mail. Cuando tengas la chance de revisarlo, cerramos esa llamada que mencionaste. Esta semana o la próxima, lo que te quede mejor.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "cuentame",
+      "puedo",
+      "ayudar",
+      "saludos",
+      "ynavarro",
+      "bbravegroup"
+    ],
+    "notas": "- Fundadora Be:Brave (2024, ex CEO Topline Panamá 15 años)\n- Comunidades propias: Super Mamás, Buenos Sabores, JUMP (aceleradora emprendedores)\n- Ex CFO Union Bank, MBA USMA\n- Board member Voces Vitales, Asociación Directoras de Panamá\n- Reconocida por Estrategia & Negocios como mujer desafiante del futuro\n- Alta presencia pública, publicaciones frecuentes\n- Sector: contenido/comunidades/experiencias → clientes TGS, Transener, Destiny Group"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Yescenia Navarro]\n[EMPRESA: Be:Brave Inc. (Panamá) — comunidades digitales Super Mamás, Buenos Sabores; aceleradora JUMP; agencia de contenido y experiencias]\n[CARGO: CEO, Be:Brave Inc.]\n[PAIS: Panamá]\n\n[MSG1]\nYescenia, gracias por conectar!\n\nMe llamó la atención cómo cerraste la reflexión sobre JUMP. Lo que más me gustó fue que en un espacio donde podrías haber hablado del crecimiento, la audiencia o el impacto numérico, le dieras el crédito principal al equipo de Be:Brave que \"hace posible este proyecto\". No suele ser lo primero que alguien destaca cuando celebra una iniciativa así.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia. muchas gracias. Claro cuentame como te puedo ayudar saludos\n\n[MSG2]\nBuenas Yescenia, gracias.\n\nLo interesante de eso es que cuando un proyecto crece tanto en escala — 1.500 emprendedores, 200k personas, alianzas con TVN, BAC, mentorías simultáneas — normalmente aparece un desafío que suele pasar invisible: sostener la ejecución de contenido y experiencias consistentes sin que todo termine dependiendo del criterio y el tiempo de la fundadora.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nynavarro@bbravegroup.com\n\n[SEG1]\nBuenas Yescenia!\nYa te mandamos el material por mail. Cuando tengas la chance de revisarlo, cerramos esa llamada que mencionaste. Esta semana o la próxima, lo que te quede mejor.\n\n[NOTAS]\n- Fundadora Be:Brave (2024, ex CEO Topline Panamá 15 años)\n- Comunidades propias: Super Mamás, Buenos Sabores, JUMP (aceleradora emprendedores)\n- Ex CFO Union Bank, MBA USMA\n- Board member Voces Vitales, Asociación Directoras de Panamá\n- Reconocida por Estrategia & Negocios como mujer desafiante del futuro\n- Alta presencia pública, publicaciones frecuentes\n- Sector: contenido/comunidades/experiencias → clientes TGS, Transener, Destiny Group",
+    "raw_md": "# Yescenia Navarro\n\n**Estado:** SEG1 enviado 01/07/26. Dossier enviado por mail (ynavarro@bbravegroup.com). Mencionó interés en una llamada.\n**Fecha:** 22/06/26\n**Cargo:** CEO, Be:Brave Inc.\n**Empresa:** Be:Brave Inc. (Panamá) — comunidades digitales Super Mamás, Buenos Sabores; aceleradora JUMP; agencia de contenido y experiencias\n**País:** Panamá\n\n## MSG1\n> Yescenia, gracias por conectar!\n>\n> Me llamó la atención cómo cerraste la reflexión sobre JUMP. Lo que más me gustó fue que en un espacio donde podrías haber hablado del crecimiento, la audiencia o el impacto numérico, le dieras el crédito principal al equipo de Be:Brave que \"hace posible este proyecto\". No suele ser lo primero que alguien destaca cuando celebra una iniciativa así.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia. muchas gracias. Claro cuentame como te puedo ayudar saludos\n\n## MSG2\n> Buenas Yescenia, gracias.\n>\n> Lo interesante de eso es que cuando un proyecto crece tanto en escala — 1.500 emprendedores, 200k personas, alianzas con TVN, BAC, mentorías simultáneas — normalmente aparece un desafío que suele pasar invisible: sostener la ejecución de contenido y experiencias consistentes sin que todo termine dependiendo del criterio y el tiempo de la fundadora.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> ynavarro@bbravegroup.com\n\n## SEG1 (01/07/26)\n> Buenas Yescenia!\n> Ya te mandamos el material por mail. Cuando tengas la chance de revisarlo, cerramos esa llamada que mencionaste. Esta semana o la próxima, lo que te quede mejor.\n\n## Notas\n- Fundadora Be:Brave (2024, ex CEO Topline Panamá 15 años)\n- Comunidades propias: Super Mamás, Buenos Sabores, JUMP (aceleradora emprendedores)\n- Ex CFO Union Bank, MBA USMA\n- Board member Voces Vitales, Asociación Directoras de Panamá\n- Reconocida por Estrategia & Negocios como mujer desafiante del futuro\n- Alta presencia pública, publicaciones frecuentes\n- Sector: contenido/comunidades/experiencias → clientes TGS, Transener, Destiny Group\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000081",
+  "contact_id": "ctc_000029",
+  "source_file": "conversaciones/julio/nibia-pati-o.md",
+  "fingerprint": "sha256:9060de763dc81aebe6fa4abbe7e86593c3aea0a1c1923060f2e7e37906ead163",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/nibia-pati-o.md",
+    "file_hash": "sha256:9060de763dc81aebe6fa4abbe7e86593c3aea0a1c1923060f2e7e37906ead163",
+    "file_modified": "2026-07-06T15:12:34.623197+00:00",
+    "file_size": 2325,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Nibia Patiño",
+    "empresa": "Commercial & Marketing",
+    "cargo": "Commercial & Marketing",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ALIMENTACION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Nibia, gracias por conectar. 👋\n\nMe llamó la atención la forma en que documentás los viajes a Italia — no solo para mostrar el producto, sino reflexionando sobre cómo transmitir emociones a través de una botella. Eso es raro. La mayoría de los que gestiona portafolios premium habla de números o distribución. Vos hablás del proceso y la autenticidad. Imagino que eso también define cómo trabajás con el equipo y los distribuidores.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La forma en que Nibia elige publicar: no solo anuncia campañas o números, sino que comparte el \"por qué\" — viajes a productores destacando sostenibilidad y autenticidad, reflexión sobre cómo transmitir emociones a través de una botella, agradecimiento a equipos. Participa como jurado en Effie Awards mostrando que valora la efectividad y la innovación, no solo la ejecución. El Festival de Vinos (evento producido por ella) lo describe como \"un reto, pero también una gran pasión\" — revela que ve la complejidad operativa como oportunidad, no como carga.",
+    "hipotesis": "Cómo sostener la narrativa de autenticidad y storytelling de marcas premium a medida que crece la cobertura comercial. Cómo ejecutar consistentemente en varios frentes sin que cada iniciativa dependa de su coordinación puntual. Posicionamiento personal como líder en marketing estratégico dentro de la industria de bebidas premium.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Nibia Patiño]\n[EMPRESA: Commercial & Marketing]\n[CARGO: Commercial & Marketing]\n[SECTOR: Bebidas Premium / Licores / Retail]\n[PAIS: Panamá]\n[SENAL: La forma en que Nibia elige publicar: no solo anuncia campañas o números, sino que comparte el \"por qué\" — viajes a productores destacando sostenibilidad y autenticidad, reflexión sobre cómo transmitir emociones a través de una botella, agradecimiento a equipos. Participa como jurado en Effie Awards mostrando que valora la efectividad y la innovación, no solo la ejecución. El Festival de Vinos (evento producido por ella) lo describe como \"un reto, pero también una gran pasión\" — revela que ve la complejidad operativa como oportunidad, no como carga.]\n[HIPOTESIS: Cómo sostener la narrativa de autenticidad y storytelling de marcas premium a medida que crece la cobertura comercial. Cómo ejecutar consistentemente en varios frentes sin que cada iniciativa dependa de su coordinación puntual. Posicionamiento personal como líder en marketing estratégico dentro de la industria de bebidas premium.]\n\n[MSG1]\nNibia, gracias por conectar. 👋\n\nMe llamó la atención la forma en que documentás los viajes a Italia — no solo para mostrar el producto, sino reflexionando sobre cómo transmitir emociones a través de una botella. Eso es raro. La mayoría de los que gestiona portafolios premium habla de números o distribución. Vos hablás del proceso y la autenticidad. Imagino que eso también define cómo trabajás con el equipo y los distribuidores.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Nibia Patiño\n\n**Fecha:** 06/07/26\n**Cargo:** Commercial & Marketing\n**Empresa:** Commercial & Marketing\n**Pais:** Panamá\n**Sector:** Bebidas Premium / Licores / Retail\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La forma en que Nibia elige publicar: no solo anuncia campañas o números, sino que comparte el \"por qué\" — viajes a productores destacando sostenibilidad y autenticidad, reflexión sobre cómo transmitir emociones a través de una botella, agradecimiento a equipos. Participa como jurado en Effie Awards mostrando que valora la efectividad y la innovación, no solo la ejecución. El Festival de Vinos (evento producido por ella) lo describe como \"un reto, pero también una gran pasión\" — revela que ve la complejidad operativa como oportunidad, no como carga.\n- **Tensión profesional:** Mantener la narrativa premium y la autenticidad del producto mientras escala ejecución comercial en múltiples puntos de venta, canales y públicos (retail tradicional, horeca, eventos, distribuidores), sin que la marca termine siendo \"genérica\" en el punto de contacto.\n- **Hipótesis:** Cómo sostener la narrativa de autenticidad y storytelling de marcas premium a medida que crece la cobertura comercial. Cómo ejecutar consistentemente en varios frentes sin que cada iniciativa dependa de su coordinación puntual. Posicionamiento personal como líder en marketing estratégico dentro de la industria de bebidas premium.\n- **Ángulo MSG1:** Señal humana — el énfasis deliberado en storytelling, autenticidad y experiencias (viajes a productores, Festival de Vinos, reflexiones sobre \"cómo transmitir emociones\") como diferenciador de marca.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Nibia, gracias por conectar. 👋\n>\n> Me llamó la atención la forma en que documentás los viajes a Italia — no solo para mostrar el producto, sino reflexionando sobre cómo transmitir emociones a través de una botella. Eso es raro. La mayoría de los que gestiona portafolios premium habla de números o distribución. Vos hablás del proceso y la autenticidad. Imagino que eso también define cómo trabajás con el equipo y los distribuidores.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

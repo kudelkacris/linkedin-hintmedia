@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000001",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Sebastian Estevez",
+  "empresa": "SEGUROS UNIDOS",
+  "cargo": "Jefe de marketing en SEGUROS UNIDOS",
+  "pais": "Ecuador",
+  "sector_raw": "Seguros",
+  "stage": 2,
+  "stage_texto": "MSG2 enviado",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "SEGUROS_FINANZAS",
+  "seniority": "MANAGER",
+  "tiene_md": true,
+  "conversation_id": "conv_000095",
+  "historial_slug": "sebastian-estevez"
+}

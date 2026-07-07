@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000150",
+  "contact_id": "ctc_000343",
+  "source_file": "conversaciones/junio/dyana-diaz.md",
+  "fingerprint": "sha256:abc54445b99082d5f6a1360c70b1f4e28000eb40bc032922057d3a326c9ad2eb",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/dyana-diaz.md",
+    "file_hash": "sha256:abc54445b99082d5f6a1360c70b1f4e28000eb40bc032922057d3a326c9ad2eb",
+    "file_modified": "2026-07-01T15:55:36.549117+00:00",
+    "file_size": 1798,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Dyana Díaz",
+    "empresa": "Playa Blanca (hospitality/turismo)",
+    "cargo": "Marketing (rol individual — múltiples frentes)",
+    "pais": "(no especificado)",
+    "fecha": "10/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26 vía LinkedIn directo (mail rebotó, se ofreció enviar el dossier por LinkedIn en su lugar)."
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Dyana, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Playa Blanca. Me llamó la atención que lidera estrategia de marketing regional, campañas digitales (ads, redes, automatización), coordinación de eventos, relaciones públicas y gestión comercial — todo desde un rol individual. Eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, un gusto saludarte! Cuál es su duda??",
+    "msg2_texto": "Hola Dyana, un gusto también!\n\nLo que me quedó fue eso — cuando una sola persona lleva estrategia, campañas, eventos y relaciones públicas al mismo tiempo, el cuello de botella no está en la visión sino en poder ejecutar todo en paralelo sin perder calidad en ninguno.\n\nDesde Hint Media trabajamos con equipos en esa situación — sumamos capacidad de ejecución en contenido, digital y diseño para que los frentes no compitan entre sí. Hemos trabajado con Destiny Group, Tasarolli y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "saludarte",
+      "cual",
+      "duda"
+    ],
+    "notas": "- Variante C (trabajo) — múltiples frentes desde rol individual\n- Primera conversación generada leyendo solo historial.json sin perfil completo pegado\n- Clientes usados: Destiny Group, Tasarolli (hospitality/consumo — aproximación válida)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Dyana Díaz]\n[EMPRESA: Playa Blanca (hospitality/turismo)]\n[CARGO: Marketing (rol individual — múltiples frentes)]\n[SECTOR: Hospitality / Turismo]\n[PAIS: (no especificado)]\n\n[MSG1]\nDyana, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Playa Blanca. Me llamó la atención que lidera estrategia de marketing regional, campañas digitales (ads, redes, automatización), coordinación de eventos, relaciones públicas y gestión comercial — todo desde un rol individual. Eso abre bastantes frentes al mismo tiempo.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, un gusto saludarte! Cuál es su duda??\n\n[MSG2]\nHola Dyana, un gusto también!\n\nLo que me quedó fue eso — cuando una sola persona lleva estrategia, campañas, eventos y relaciones públicas al mismo tiempo, el cuello de botella no está en la visión sino en poder ejecutar todo en paralelo sin perder calidad en ninguno.\n\nDesde Hint Media trabajamos con equipos en esa situación — sumamos capacidad de ejecución en contenido, digital y diseño para que los frentes no compitan entre sí. Hemos trabajado con Destiny Group, Tasarolli y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Variante C (trabajo) — múltiples frentes desde rol individual\n- Primera conversación generada leyendo solo historial.json sin perfil completo pegado\n- Clientes usados: Destiny Group, Tasarolli (hospitality/consumo — aproximación válida)",
+    "raw_md": "# Dyana Díaz\n**Fecha:** 10/06/26\n**Empresa:** Playa Blanca (hospitality/turismo)\n**Cargo:** Marketing (rol individual — múltiples frentes)\n**País:** (no especificado)\n**Sector:** Hospitality / Turismo\n**Estado:** SEG1 enviado 01/07/26 vía LinkedIn directo (mail rebotó, se ofreció enviar el dossier por LinkedIn en su lugar).\n\n---\n\n## MSG1\n> Dyana, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que venís haciendo en Playa Blanca. Me llamó la atención que lidera estrategia de marketing regional, campañas digitales (ads, redes, automatización), coordinación de eventos, relaciones públicas y gestión comercial — todo desde un rol individual. Eso abre bastantes frentes al mismo tiempo.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, un gusto saludarte! Cuál es su duda??\n\n## MSG2\n> Hola Dyana, un gusto también!\n>\n> Lo que me quedó fue eso — cuando una sola persona lleva estrategia, campañas, eventos y relaciones públicas al mismo tiempo, el cuello de botella no está en la visión sino en poder ejecutar todo en paralelo sin perder calidad en ninguno.\n>\n> Desde Hint Media trabajamos con equipos en esa situación — sumamos capacidad de ejecución en contenido, digital y diseño para que los frentes no compitan entre sí. Hemos trabajado con Destiny Group, Tasarolli y otros con ese tipo de exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Variante C (trabajo) — múltiples frentes desde rol individual\n- Primera conversación generada leyendo solo historial.json sin perfil completo pegado\n- Clientes usados: Destiny Group, Tasarolli (hospitality/consumo — aproximación válida)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

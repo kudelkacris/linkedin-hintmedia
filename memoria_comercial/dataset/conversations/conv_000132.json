@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000132",
+  "contact_id": "ctc_000122",
+  "source_file": "conversaciones/junio/carolina-rodriguez.md",
+  "fingerprint": "sha256:b815c3ba8c05e8492a341813703797b17b43f82a82139cdeb245641ce477c9f1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carolina-rodriguez.md",
+    "file_hash": "sha256:b815c3ba8c05e8492a341813703797b17b43f82a82139cdeb245641ce477c9f1",
+    "file_modified": "2026-06-25T23:08:00.256230+00:00",
+    "file_size": 1449,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carolina Rodriguez",
+    "empresa": "Smart Industrial (canal Siemens)",
+    "cargo": "Channel Marketing Specialist",
+    "pais": "Costa Rica",
+    "fecha": "25/06/26",
+    "estado_texto": "Apertura, MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carolina, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco: \"Cuando trabajas con personas que aman lo que hacen, todo fluye diferente.\" No es lo que la mayoría escribe en LinkedIn cuando quiere verse profesional. Eso dice algo de cómo realmente ves el trabajo. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Florencia, un gusto saludarte! Claro, cuéntame en qué te puedo ayudar",
+    "msg2_texto": "Hola Carolina, gracias! Se nota que además de coordinar canales, estás metida de lleno en eventos como la Gira Conectar y las expoferias con partners, manejando marca y contenido para varios frentes al mismo tiempo. En Hint Media trabajamos con áreas de marketing que necesitan sumar capacidad de ejecución en contenido y producción de eventos sin ampliar el equipo interno, como hacemos con TGS y Transener. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "saludarte",
+      "cuentame",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Sector industrial/eléctrico (canal Siemens), cliente referencia TGS/Transener.\n- Maneja Gira Conectar, expoferias, capacitaciones técnicas, coordinación de canales y presupuesto."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Rodriguez]\n[EMPRESA: Smart Industrial (canal Siemens)]\n[CARGO: Channel Marketing Specialist]\n[SECTOR: Industrial/Eléctrico]\n[PAIS: Costa Rica]\n\n[MSG1]\nCarolina, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco: \"Cuando trabajas con personas que aman lo que hacen, todo fluye diferente.\" No es lo que la mayoría escribe en LinkedIn cuando quiere verse profesional. Eso dice algo de cómo realmente ves el trabajo. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nFlorencia, un gusto saludarte! Claro, cuéntame en qué te puedo ayudar\n\n[MSG2]\nHola Carolina, gracias! Se nota que además de coordinar canales, estás metida de lleno en eventos como la Gira Conectar y las expoferias con partners, manejando marca y contenido para varios frentes al mismo tiempo. En Hint Media trabajamos con áreas de marketing que necesitan sumar capacidad de ejecución en contenido y producción de eventos sin ampliar el equipo interno, como hacemos con TGS y Transener. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector industrial/eléctrico (canal Siemens), cliente referencia TGS/Transener.\n- Maneja Gira Conectar, expoferias, capacitaciones técnicas, coordinación de canales y presupuesto.",
+    "raw_md": "# Carolina Rodriguez\n**Fecha:** 25/06/26\n**Cargo:** Channel Marketing Specialist\n**Empresa:** Smart Industrial (canal Siemens)\n**País:** Costa Rica\n**Sector:** Industrial/Eléctrico\n**Estado:** Apertura, MSG2 enviado\n\n## MSG1\n> Carolina, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco: \"Cuando trabajas con personas que aman lo que hacen, todo fluye diferente.\" No es lo que la mayoría escribe en LinkedIn cuando quiere verse profesional. Eso dice algo de cómo realmente ves el trabajo. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta\n> Florencia, un gusto saludarte! Claro, cuéntame en qué te puedo ayudar\n\n## MSG2 enviado\n> Hola Carolina, gracias! Se nota que además de coordinar canales, estás metida de lleno en eventos como la Gira Conectar y las expoferias con partners, manejando marca y contenido para varios frentes al mismo tiempo. En Hint Media trabajamos con áreas de marketing que necesitan sumar capacidad de ejecución en contenido y producción de eventos sin ampliar el equipo interno, como hacemos con TGS y Transener. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector industrial/eléctrico (canal Siemens), cliente referencia TGS/Transener.\n- Maneja Gira Conectar, expoferias, capacitaciones técnicas, coordinación de canales y presupuesto.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

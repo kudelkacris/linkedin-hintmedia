@@ -1,0 +1,81 @@
+{
+  "conversation_id": "conv_000105",
+  "contact_id": "ctc_000360",
+  "source_file": "conversaciones/junio/alberto-castro-velzaquez.md",
+  "fingerprint": "sha256:9c334c25cd37a380019a39a83a25e9dca30567f60a8369f7b1228179491ad7c0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/alberto-castro-velzaquez.md",
+    "file_hash": "sha256:9c334c25cd37a380019a39a83a25e9dca30567f60a8369f7b1228179491ad7c0",
+    "file_modified": "2026-06-25T23:38:34.028867+00:00",
+    "file_size": 1974,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Alberto Castro Velzaquez",
+    "empresa": "Uraján de Luna",
+    "cargo": "",
+    "pais": "",
+    "fecha": "10/06/26 (MSG1), 25/06/26 (MSG2)",
+    "estado_texto": "Dossier enviado para reenviar, ya no trabaja en Uraján de Luna"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Alberto, gracias por conectar. Me llamó la atención cómo planteaste la estandarización en Uraján de Luna. Lo que más me gustó fue que le diste importancia a algo que muchos ven como lo opuesto: que estandarizar no mata la personalidad sino que la protege. Eso es difícil de comunicar bien. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Ah, gracias por avisarme Alberto! Me indicarías a quién le podría escribir ahora en Uraján de Luna, o ya no tenés contacto con el equipo?",
+    "msg2_texto": "Buenas Alberto, gracias por confirmar! Esa idea de que estandarizar protege la personalidad de la marca en vez de matarla es clave justo en gastronomía, donde cada punto de venta puede perder consistencia si no hay estructura detrás. En Hint Media trabajamos con marcas de foodservice y retail que necesitan sostener esa identidad mientras escalan, ayudando con contenido y comunicación, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "avisarme",
+      "alberto",
+      "indicarias",
+      "quien",
+      "podria",
+      "escribir",
+      "ahora",
+      "urajan",
+      "luna",
+      "tenes"
+    ],
+    "notas": "- Cliente referencia corregido a Tasarolli (foodservice/retail). Versión anterior en el programa usaba TGS/Transener (energía), no calzaba con el sector.\n- MSG2 anterior tenía guion largo, corregido en esta versión."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Alberto Castro Velzaquez]\n[EMPRESA: Uraján de Luna]\n[SECTOR: Foodservice/Retail (gastronomía)]\n\n[MSG1]\nAlberto, gracias por conectar. Me llamó la atención cómo planteaste la estandarización en Uraján de Luna. Lo que más me gustó fue que le diste importancia a algo que muchos ven como lo opuesto: que estandarizar no mata la personalidad sino que la protege. Eso es difícil de comunicar bien. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nAh, gracias por avisarme Alberto! Me indicarías a quién le podría escribir ahora en Uraján de Luna, o ya no tenés contacto con el equipo?\n\n[MSG2]\nBuenas Alberto, gracias por confirmar! Esa idea de que estandarizar protege la personalidad de la marca en vez de matarla es clave justo en gastronomía, donde cada punto de venta puede perder consistencia si no hay estructura detrás. En Hint Media trabajamos con marcas de foodservice y retail que necesitan sostener esa identidad mientras escalan, ayudando con contenido y comunicación, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[MSG3]\nDale Alberto, no hay drama! Te paso el dossier, quiza te sirva a ti tambien o se lo podes reenviar a quien este a cargo ahora. Gracias por la buena onda durante toda la charla!\n\n[NOTAS]\n- Cliente referencia corregido a Tasarolli (foodservice/retail). Versión anterior en el programa usaba TGS/Transener (energía), no calzaba con el sector.\n- MSG2 anterior tenía guion largo, corregido en esta versión.",
+    "raw_md": "# Alberto Castro Velzaquez\n**Fecha:** 10/06/26 (MSG1), 25/06/26 (MSG2)\n**Empresa:** Uraján de Luna\n**Sector:** Foodservice/Retail (gastronomía)\n**Estado:** Dossier enviado para reenviar, ya no trabaja en Uraján de Luna\n\n## MSG1\n> Alberto, gracias por conectar. Me llamó la atención cómo planteaste la estandarización en Uraján de Luna. Lo que más me gustó fue que le diste importancia a algo que muchos ven como lo opuesto: que estandarizar no mata la personalidad sino que la protege. Eso es difícil de comunicar bien. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta\n> Hola Florencia, buenas tardes, es correcto llevamos la estandarización al primer paso.\n\n## MSG2 enviado\n> Buenas Alberto, gracias por confirmar! Esa idea de que estandarizar protege la personalidad de la marca en vez de matarla es clave justo en gastronomía, donde cada punto de venta puede perder consistencia si no hay estructura detrás. En Hint Media trabajamos con marcas de foodservice y retail que necesitan sostener esa identidad mientras escalan, ayudando con contenido y comunicación, como hacemos con Tasarolli. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Aviso de salida\n> Hola Florencia, sí claro solo comentarte que ya no estoy en la propiedad\n\n## Respuesta\n> Ah, gracias por avisarme Alberto! Me indicarías a quién le podría escribir ahora en Uraján de Luna, o ya no tenés contacto con el equipo?\n\n## MSG3 (dossier enviado igual)\n> Dale Alberto, no hay drama! Te paso el dossier, quiza te sirva a ti tambien o se lo podes reenviar a quien este a cargo ahora. Gracias por la buena onda durante toda la charla!\n\n## Notas\n- Cliente referencia corregido a Tasarolli (foodservice/retail). Versión anterior en el programa usaba TGS/Transener (energía), no calzaba con el sector.\n- MSG2 anterior tenía guion largo, corregido en esta versión.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

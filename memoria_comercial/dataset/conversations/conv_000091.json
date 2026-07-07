@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000091",
+  "contact_id": "ctc_000023",
+  "source_file": "conversaciones/julio/rosario-barquero.md",
+  "fingerprint": "sha256:dbfde8877ec7e19cfea4c91f73322b23e34f540ed092b6a3577b015baab4f141",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/rosario-barquero.md",
+    "file_hash": "sha256:dbfde8877ec7e19cfea4c91f73322b23e34f540ed092b6a3577b015baab4f141",
+    "file_modified": "2026-07-06T15:18:10.647209+00:00",
+    "file_size": 1453,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Rosario Barquero",
+    "empresa": "Grupo B.L.",
+    "cargo": "Digital Marketing | Social Media | Marketing | SEM| Digital Campaigns",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Rosario, gracias por conectar! 👋\n\nEstuve revisando tu perfil y vi que llevas varios años coordinando redes sociales, SEM y campañas digitales en Grupo B.L. Eso suele ser un rol que termina siendo bastante amplio para una sola persona.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Sin señal identificada — usar tensión profesional.",
+    "hipotesis": "Cómo sostener la ejecución digital en una organización donde probablemente no existe un equipo marketing completo; si existe oportunidad de amplificar capacidad sin crecer headcount; cómo mantener ritmo de producción en redes + SEM + campañas simultáneamente.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Rosario Barquero]\n[EMPRESA: Grupo B.L.]\n[CARGO: Digital Marketing | Social Media | Marketing | SEM| Digital Campaigns]\n[SECTOR: Tecnología / Retail (asumido por contexto Grupo B.L., no confirmado explícitamente)]\n[PAIS: Costa Rica]\n[SENAL: Sin señal identificada — usar tensión profesional.]\n[HIPOTESIS: Cómo sostener la ejecución digital en una organización donde probablemente no existe un equipo marketing completo; si existe oportunidad de amplificar capacidad sin crecer headcount; cómo mantener ritmo de producción en redes + SEM + campañas simultáneamente.]\n\n[MSG1]\nRosario, gracias por conectar! 👋\n\nEstuve revisando tu perfil y vi que llevas varios años coordinando redes sociales, SEM y campañas digitales en Grupo B.L. Eso suele ser un rol que termina siendo bastante amplio para una sola persona.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Rosario Barquero\n\n**Fecha:** 06/07/26\n**Cargo:** Digital Marketing | Social Media | Marketing | SEM| Digital Campaigns\n**Empresa:** Grupo B.L.\n**Pais:** Costa Rica\n**Sector:** Tecnología / Retail (asumido por contexto Grupo B.L., no confirmado explícitamente)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Sin señal identificada — usar tensión profesional.\n- **Tensión profesional:** Mantener volumen de ejecución (redes, SEM, campañas) sin que la calidad decaiga; coordinar múltiples frentes digitales desde un rol individual o pequeño equipo; escalar producción de contenido sin que todo dependa de una sola persona.\n- **Hipótesis:** Cómo sostener la ejecución digital en una organización donde probablemente no existe un equipo marketing completo; si existe oportunidad de amplificar capacidad sin crecer headcount; cómo mantener ritmo de producción en redes + SEM + campañas simultáneamente.\n- **Ángulo MSG1:** Tensión profesional del rol (ausencia de señal humana explícita).\n- **Confidence:** LOW\n\n---\n\n## MSG1\n> Rosario, gracias por conectar! 👋\n>\n> Estuve revisando tu perfil y vi que llevas varios años coordinando redes sociales, SEM y campañas digitales en Grupo B.L. Eso suele ser un rol que termina siendo bastante amplio para una sola persona.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

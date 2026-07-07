@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000131",
+  "contact_id": "ctc_000139",
+  "source_file": "conversaciones/junio/carolina-mendoza.md",
+  "fingerprint": "sha256:73154cd26910f5bb27d7dce04b3c644a0f9c02ec6e4b56189104fdfe20f265e1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carolina-mendoza.md",
+    "file_hash": "sha256:73154cd26910f5bb27d7dce04b3c644a0f9c02ec6e4b56189104fdfe20f265e1",
+    "file_modified": "2026-06-20T16:59:31.415143+00:00",
+    "file_size": 1451,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carolina Mendoza",
+    "empresa": "Grupo Motta Internacional (Regional Manager Jr DTC)",
+    "cargo": "Open Innovation / Growth Marketing / Brand Partnerships Manager",
+    "pais": "Panamá",
+    "fecha": "20/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carolina, gracias por conectar 👋\nMe llamó la atención cómo comunicás Startup Weekend Panamá. No es lo que la mayoría hace cuando quiere mostrar una iniciativa propia. Vos en cambio nombrás mentores por nombre, les das crédito al equipo, compartís la historia completa. Dice algo sobre cómo entendés que funciona el liderazgo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, claro, cuentame",
+    "msg2_texto": "Buenas Carolina, todo bien!\nEsa forma de dar crédito a mentores y equipo en Startup Weekend dice algo de cómo entendés el liderazgo. En Grupo Motta coordinás DTC en cinco países a la vez, ahí la consistencia de marca y mensaje entre mercados es justo donde más se complica todo.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con marcas de retail como Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "cuentame"
+    ],
+    "notas": "- Sector retail (Tiendas iShop, Grupo Motta DTC en 5 países: SV, CR, PA, CO, EC). Cliente ejemplo: Destiny Group, Tasarolli.\n- Activa en ecosistema emprendimiento Panamá (Startup Weekend, co-organizadora).\n\nEstado: MSG2 enviado, esperando respuesta"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Mendoza]\n[EMPRESA: Grupo Motta Internacional (Regional Manager Jr DTC)]\n[CARGO: Open Innovation / Growth Marketing / Brand Partnerships Manager]\n[PAIS: Panamá]\n\n[MSG1]\nCarolina, gracias por conectar 👋\nMe llamó la atención cómo comunicás Startup Weekend Panamá. No es lo que la mayoría hace cuando quiere mostrar una iniciativa propia. Vos en cambio nombrás mentores por nombre, les das crédito al equipo, compartís la historia completa. Dice algo sobre cómo entendés que funciona el liderazgo.\n\n[RESPUESTA_MSG1]\nHola Florencia, claro, cuentame\n\n[MSG2]\nBuenas Carolina, todo bien!\nEsa forma de dar crédito a mentores y equipo en Startup Weekend dice algo de cómo entendés el liderazgo. En Grupo Motta coordinás DTC en cinco países a la vez, ahí la consistencia de marca y mensaje entre mercados es justo donde más se complica todo.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con marcas de retail como Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector retail (Tiendas iShop, Grupo Motta DTC en 5 países: SV, CR, PA, CO, EC). Cliente ejemplo: Destiny Group, Tasarolli.\n- Activa en ecosistema emprendimiento Panamá (Startup Weekend, co-organizadora).\n\nEstado: MSG2 enviado, esperando respuesta",
+    "raw_md": "# Carolina Mendoza\n\n**Estado:** MSG2 enviado\n**Fecha:** 20/06/26\n**Cargo:** Open Innovation / Growth Marketing / Brand Partnerships Manager\n**Empresa:** Grupo Motta Internacional (Regional Manager Jr DTC)\n**País:** Panamá\n\n## MSG1\n> Carolina, gracias por conectar 👋\n> Me llamó la atención cómo comunicás Startup Weekend Panamá. No es lo que la mayoría hace cuando quiere mostrar una iniciativa propia. Vos en cambio nombrás mentores por nombre, les das crédito al equipo, compartís la historia completa. Dice algo sobre cómo entendés que funciona el liderazgo.\n\n## Respuesta MSG1\n> Hola Florencia, claro, cuentame\n\n## MSG2\n> Buenas Carolina, todo bien!\n> Esa forma de dar crédito a mentores y equipo en Startup Weekend dice algo de cómo entendés el liderazgo. En Grupo Motta coordinás DTC en cinco países a la vez, ahí la consistencia de marca y mensaje entre mercados es justo donde más se complica todo.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Trabajamos con marcas de retail como Destiny Group y Tasarolli en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector retail (Tiendas iShop, Grupo Motta DTC en 5 países: SV, CR, PA, CO, EC). Cliente ejemplo: Destiny Group, Tasarolli.\n- Activa en ecosistema emprendimiento Panamá (Startup Weekend, co-organizadora).\n\n**Estado:** MSG2 enviado, esperando respuesta\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

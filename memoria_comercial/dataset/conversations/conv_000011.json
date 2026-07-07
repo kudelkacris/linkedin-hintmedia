@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000011",
+  "contact_id": "ctc_000541",
+  "source_file": "conversaciones/julio/andrea-robles.md",
+  "fingerprint": "sha256:fb4ca02824a275f219ab10e7f762f54ac3426f6e736b67f3ea465086fe488508",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/andrea-robles.md",
+    "file_hash": "sha256:fb4ca02824a275f219ab10e7f762f54ac3426f6e736b67f3ea465086fe488508",
+    "file_modified": "2026-07-07T14:56:20.178621+00:00",
+    "file_size": 2674,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Andrea Robles",
+    "empresa": "CONFECCIONES SHIC S.A (Johnny Cotton, Chessking, JCX)",
+    "cargo": "Gerente de Mercadeo. Especialista en Transformación Digital, Omnicanalidad, Medios Masivos, IA y Automatización de flujos.",
+    "pais": "Panamá",
+    "fecha": "07/07/26",
+    "estado_texto": "MSG2 enviado — 07/07/26"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrea, gracias por conectar.\n\n😉🤗😄\n\nMe llamó la atención la publicación sobre Fulo y Johnny Cotton. No es lo típico decir \"nos quedamos cortos con la visión inicial\" cuando una campaña funciona. La mayoría anuncia el éxito y listo. Vos fuiste más allá.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia!\nGracias 😉🤗😄\nCuéntame claro",
+    "msg2_texto": "Buenas Andrea! Te cuento.\nLo que me llamó la atención de esa publicación es la brecha que describís: la campaña funcionó, pero vos sabías que había más. Cómo hacés para que ese estándar interno sea lo que un cliente nuevo te elige, y no solo el resultado que ya vio?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a agencias y directores creativos a construir narrativa de marca que haga legible hacia afuera el criterio que tienen adentro, no solo los resultados. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de hace 1 semana sobre la campaña con Fulo y Johnny Cotton donde admite \"nos quedamos cortos con esa visión inicial\" después de que la campaña funcionó. Rarísimo reconocer eso públicamente. Eligieron a Fulo antes de que se convirtiera en ícono nacional — revela olfato estratégico y honestidad sobre los límites de la visión propia.",
+    "hipotesis": "Cómo escalar comunicación de marca diferenciada en múltiples frentes (marcas, canales, campañas) sin que la identidad de cada una se diluya o dependa de momentos puntuales de éxito.",
+    "palabras_clave": [
+      "florencia",
+      "cuentame"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Robles]\n[EMPRESA: CONFECCIONES SHIC S.A (Johnny Cotton, Chessking, JCX)]\n[CARGO: Gerente de Mercadeo. Especialista en Transformación Digital, Omnicanalidad, Medios Masivos, IA y Automatización de flujos.]\n[SECTOR: Retail / Moda]\n[PAIS: Panamá]\n[SENAL: Publicación de hace 1 semana sobre la campaña con Fulo y Johnny Cotton donde admite \"nos quedamos cortos con esa visión inicial\" después de que la campaña funcionó. Rarísimo reconocer eso públicamente. Eligieron a Fulo antes de que se convirtiera en ícono nacional — revela olfato estratégico y honestidad sobre los límites de la visión propia.]\n[HIPOTESIS: Cómo escalar comunicación de marca diferenciada en múltiples frentes (marcas, canales, campañas) sin que la identidad de cada una se diluya o dependa de momentos puntuales de éxito.]\n\n[MSG1]\nAndrea, gracias por conectar.\n\n😉🤗😄\n\nMe llamó la atención la publicación sobre Fulo y Johnny Cotton. No es lo típico decir \"nos quedamos cortos con la visión inicial\" cuando una campaña funciona. La mayoría anuncia el éxito y listo. Vos fuiste más allá.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia!\nGracias 😉🤗😄\nCuéntame claro\n\n[MSG2]\nBuenas Andrea! Te cuento.\nLo que me llamó la atención de esa publicación es la brecha que describís: la campaña funcionó, pero vos sabías que había más. Cómo hacés para que ese estándar interno sea lo que un cliente nuevo te elige, y no solo el resultado que ya vio?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a agencias y directores creativos a construir narrativa de marca que haga legible hacia afuera el criterio que tienen adentro, no solo los resultados. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "raw_md": "# Andrea Robles\n\n**Fecha:** 07/07/26\n**Cargo:** Gerente de Mercadeo. Especialista en Transformación Digital, Omnicanalidad, Medios Masivos, IA y Automatización de flujos.\n**Empresa:** CONFECCIONES SHIC S.A (Johnny Cotton, Chessking, JCX)\n**Pais:** Panamá\n**Sector:** Retail / Moda\n**Estado:** MSG2 enviado — 07/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de hace 1 semana sobre la campaña con Fulo y Johnny Cotton donde admite \"nos quedamos cortos con esa visión inicial\" después de que la campaña funcionó. Rarísimo reconocer eso públicamente. Eligieron a Fulo antes de que se convirtiera en ícono nacional — revela olfato estratégico y honestidad sobre los límites de la visión propia.\n- **Tensión profesional:** Gestiona múltiples marcas bajo CONFECCIONES SHIC con identidades distintas (Johnny Cotton = storytelling emocional/CSR; Chessking = movimiento urbano; JCX). Construir narrativa diferenciada para cada una sin que se mezclen, con recursos internos de una sola empresa.\n- **Hipótesis:** Cómo escalar comunicación de marca diferenciada en múltiples frentes (marcas, canales, campañas) sin que la identidad de cada una se diluya o dependa de momentos puntuales de éxito.\n- **Ángulo MSG1:** Señal humana — admitir que la visión quedó corta en una campaña exitosa. Diferenciador claro frente a la mayoría que solo anuncia resultados.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Andrea, gracias por conectar.\n>\n> 😉🤗😄\n>\n> Me llamó la atención la publicación sobre Fulo y Johnny Cotton. No es lo típico decir \"nos quedamos cortos con la visión inicial\" cuando una campaña funciona. La mayoría anuncia el éxito y listo. Vos fuiste más allá.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia!\n> Gracias 😉🤗😄\n> Cuéntame claro\n\n---\n\n## MSG2\n> Buenas Andrea! Te cuento.\n> Lo que me llamó la atención de esa publicación es la brecha que describís: la campaña funcionó, pero vos sabías que había más. Cómo hacés para que ese estándar interno sea lo que un cliente nuevo te elige, y no solo el resultado que ya vio?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a agencias y directores creativos a construir narrativa de marca que haga legible hacia afuera el criterio que tienen adentro, no solo los resultados. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

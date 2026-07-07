@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000067",
+  "contact_id": "ctc_000033",
+  "source_file": "conversaciones/julio/macarena-friz-guerra.md",
+  "fingerprint": "sha256:a34112e1966708842a1f6a187d60b31dd5c7cb9559f77957efcdf8ff0aa1ce9b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/macarena-friz-guerra.md",
+    "file_hash": "sha256:a34112e1966708842a1f6a187d60b31dd5c7cb9559f77957efcdf8ff0aa1ce9b",
+    "file_modified": "2026-07-06T15:09:28.728587+00:00",
+    "file_size": 2419,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Macarena Friz Guerra",
+    "empresa": "Comunicaciones Externas e Internas",
+    "cargo": "Consultora en Comunicaciones Externas e Internas | Impulso estrategias que fortalecen marcas, reputación y relaciones.",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ALIMENTACION",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Macarena, gracias por conectar! 👋\n\nMe llamó la atención tu publicación sobre el Mes del Orgullo. Especialmente ese párrafo donde decís que cuando una empresa logra alinear lo que hace con lo que dice, dejar de sentirse como marketing y pasa a ser identidad. Eso que escribiste sobre detectar rápidamente lo falso, es exactamente lo que pasa con comunicación corporativa en general.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre Mes del Orgullo (hace 5 días) donde reflexiona sobre coherencia marca-valores. Argumento central: las audiencias detectan rápidamente cuando una marca comunica sobre inclusión solo por tendencia, sin sustento real. Plantea que cuando una empresa alinea lo que hace con lo que dice, la comunicación deja de ser marketing y pasa a ser identidad genuina. Publicación reciente sobre finalización del Magisterio agradeciendo explícitamente al equipo docente y compañeros.",
+    "hipotesis": "Cómo escalar producción de contenido y narrativa sin perder autenticidad y consistencia. Cómo gestionar comunicación cuando la especialidad (derecho complejo) requiere traducción constante. Cómo armar cadencia sostenible de contenido sectorial cuando cada área tiene lógicas distintas.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Macarena Friz Guerra]\n[EMPRESA: Comunicaciones Externas e Internas]\n[CARGO: Consultora en Comunicaciones Externas e Internas | Impulso estrategias que fortalecen marcas, reputación y relaciones.]\n[SECTOR: Legal / Servicios Profesionales (con foco en exportaciones, agronegocios, ambiental)]\n[PAIS: Chile]\n[SENAL: Publicación sobre Mes del Orgullo (hace 5 días) donde reflexiona sobre coherencia marca-valores. Argumento central: las audiencias detectan rápidamente cuando una marca comunica sobre inclusión solo por tendencia, sin sustento real. Plantea que cuando una empresa alinea lo que hace con lo que dice, la comunicación deja de ser marketing y pasa a ser identidad genuina. Publicación reciente sobre finalización del Magisterio agradeciendo explícitamente al equipo docente y compañeros.]\n[HIPOTESIS: Cómo escalar producción de contenido y narrativa sin perder autenticidad y consistencia. Cómo gestionar comunicación cuando la especialidad (derecho complejo) requiere traducción constante. Cómo armar cadencia sostenible de contenido sectorial cuando cada área tiene lógicas distintas.]\n\n[MSG1]\nMacarena, gracias por conectar! 👋\n\nMe llamó la atención tu publicación sobre el Mes del Orgullo. Especialmente ese párrafo donde decís que cuando una empresa logra alinear lo que hace con lo que dice, dejar de sentirse como marketing y pasa a ser identidad. Eso que escribiste sobre detectar rápidamente lo falso, es exactamente lo que pasa con comunicación corporativa en general.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Macarena Friz Guerra\n\n**Fecha:** 06/07/26\n**Cargo:** Consultora en Comunicaciones Externas e Internas | Impulso estrategias que fortalecen marcas, reputación y relaciones.\n**Empresa:** Comunicaciones Externas e Internas\n**Pais:** Chile\n**Sector:** Legal / Servicios Profesionales (con foco en exportaciones, agronegocios, ambiental)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre Mes del Orgullo (hace 5 días) donde reflexiona sobre coherencia marca-valores. Argumento central: las audiencias detectan rápidamente cuando una marca comunica sobre inclusión solo por tendencia, sin sustento real. Plantea que cuando una empresa alinea lo que hace con lo que dice, la comunicación deja de ser marketing y pasa a ser identidad genuina. Publicación reciente sobre finalización del Magisterio agradeciendo explícitamente al equipo docente y compañeros.\n- **Tensión profesional:** Mantener coherencia narrativa entre múltiples áreas legales, especialidades y audiencias (exportadores, empresas agrícolas, clientes corporativos) sin que los mensajes suenen genéricos, y sin permitir que la comunicación quede desalineada con la realidad operativa de los clientes.\n- **Hipótesis:** Cómo escalar producción de contenido y narrativa sin perder autenticidad y consistencia. Cómo gestionar comunicación cuando la especialidad (derecho complejo) requiere traducción constante. Cómo armar cadencia sostenible de contenido sectorial cuando cada área tiene lógicas distintas.\n- **Ángulo MSG1:** La reflexión sobre coherencia marca-valores publicada hace 5 días. Detectó un problema real en comunicación corporativa (fake activism) y construyó una posición clara: la credibilidad nace de alinear lo que se dice con lo que se hace. Eso mismo aplica al trabajo que Macarena hace en Araya.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Macarena, gracias por conectar! 👋\n>\n> Me llamó la atención tu publicación sobre el Mes del Orgullo. Especialmente ese párrafo donde decís que cuando una empresa logra alinear lo que hace con lo que dice, dejar de sentirse como marketing y pasa a ser identidad. Eso que escribiste sobre detectar rápidamente lo falso, es exactamente lo que pasa con comunicación corporativa en general.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

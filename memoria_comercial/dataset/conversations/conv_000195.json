@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000195",
+  "contact_id": "ctc_000247",
+  "source_file": "conversaciones/junio/karina-herrera.md",
+  "fingerprint": "sha256:9572b3ecb9dcd901b683d8b457b0c243033bc0870f8c582b7b1ea23d8743df9b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/karina-herrera.md",
+    "file_hash": "sha256:9572b3ecb9dcd901b683d8b457b0c243033bc0870f8c582b7b1ea23d8743df9b",
+    "file_modified": "2026-06-15T20:17:44.713827+00:00",
+    "file_size": 1554,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Karina Herrera",
+    "empresa": "Dataformas de Costa Rica",
+    "cargo": "Marketing Coordinator",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Marketing Coordinator desde may 2026 (2 meses), antes Ejecutiva Desarrollo Comercial en Dataformas\n- Dataformas: empresa B2B, sector retail/distribución/tecnología Costa Rica\n- Organizó Reset Comercial 2026 (evento networking B2B)\n- Contacto en común: José Molina (Director Comercial Dataformas) — ya en pipeline\n- Si acepta dossier puede redirigir a José Molina o ser influencer interna\n- 92 contactos"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karina Herrera]\n[EMPRESA: Dataformas de Costa Rica]\n[CARGO: Marketing Coordinator]\n[PAIS: Costa Rica]\n\n[NOTAS]\n- Marketing Coordinator desde may 2026 (2 meses), antes Ejecutiva Desarrollo Comercial en Dataformas\n- Dataformas: empresa B2B, sector retail/distribución/tecnología Costa Rica\n- Organizó Reset Comercial 2026 (evento networking B2B)\n- Contacto en común: José Molina (Director Comercial Dataformas) — ya en pipeline\n- Si acepta dossier puede redirigir a José Molina o ser influencer interna\n- 92 contactos",
+    "raw_md": "# Karina Herrera\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Marketing Coordinator\n**País:** Costa Rica\n**Empresa:** Dataformas de Costa Rica\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:34):**\nCitó su publicación sobre Reset Comercial: destacó que puso el trabajo detrás primero, no el resultado visual ni el número de asistentes.\n\n**Respuesta Karina (domingo 16:44):**\n\"Un gusto Florencia! 👋🏻 Así es, todo resultado se da gracias al trabajo en equipo detrás de él y lo que se aprende brinda oportunidades de crecimiento y mejora. ¿Cuénteme en qué puedo ayudarte?\"\n\n**MSG2 enviado:**\n> Karina, gracias por responder!\n>\n> Eso que decís refleja bien cómo se construye una marca en B2B: no en el evento en sí, sino en lo que queda después, los aprendizajes, las relaciones, la narrativa que sostiene todo eso.\n>\n> En Hint trabajamos con empresas B2B en estrategia de contenido, marca y digital para que lo que pasa internamente se traduzca en posicionamiento visible hacia afuera.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Marketing Coordinator desde may 2026 (2 meses), antes Ejecutiva Desarrollo Comercial en Dataformas\n- Dataformas: empresa B2B, sector retail/distribución/tecnología Costa Rica\n- Organizó Reset Comercial 2026 (evento networking B2B)\n- Contacto en común: José Molina (Director Comercial Dataformas) — ya en pipeline\n- Si acepta dossier puede redirigir a José Molina o ser influencer interna\n- 92 contactos\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

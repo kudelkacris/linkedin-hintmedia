@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000251",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Guille Tejada",
+  "empresa": "Panamá",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 4,
+  "stage_texto": "",
+  "fecha": "12/06/26",
+  "email": null,
+  "sector_norm": "DESCONOCIDO",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000169",
+  "historial_slug": "1781303211532"
+}

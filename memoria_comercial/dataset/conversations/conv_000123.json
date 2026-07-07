@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000123",
+  "contact_id": "ctc_000128",
+  "source_file": "conversaciones/junio/carla-bertossi.md",
+  "fingerprint": "sha256:739477eea9ec5c76f13a408794d323b18c58ff3946ad23160dd47275e9c571d0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carla-bertossi.md",
+    "file_hash": "sha256:739477eea9ec5c76f13a408794d323b18c58ff3946ad23160dd47275e9c571d0",
+    "file_modified": "2026-06-26T15:49:29.671648+00:00",
+    "file_size": 1656,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carla Bertossi",
+    "empresa": "Novartis",
+    "cargo": "Marketing Associate",
+    "pais": "Argentina",
+    "fecha": "23/06/26 - 26/06/26",
+    "estado_texto": "Dossier enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carla, gracias por conectar. Estuve revisando un poco lo que venís haciendo en Novartis. Me llamó la atención que en los últimos meses estés compartiendo constantemente contenido sobre IA, optimización de datos y omnicanalidad, no son posts de la empresa, son aprendizajes que estás recolectando. Eso sugiere que hay algo importante pasando en tu rol.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Si, decime.",
+    "msg2_texto": "Hola Carla, como estas? Me quedé pensando en esa frase que compartiste del evento de Yoizen, \"enamorate primero del cliente, la tecnología vendrá después\". Después de ir a un AI Marketing Summit con semejante agenda, volver con esa conclusión dice bastante de cómo pensás el tema, casi todos vuelven hablando de herramientas y vos volviste hablando de gente. Justo por eso te quería contar, en Hint Media trabajamos comunicación pensando primero en esa conexión humana y después en la tecnología que la potencia, algo que vimos también en proyectos de Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "decime"
+    ],
+    "notas": "- Marketing Associate en Novartis, foco en omnichannel marketing y customer engagement.\n- Cliente referencia usado: Libra Seguros / Destiny Group (sector farma/salud, default)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carla Bertossi]\n[EMPRESA: Novartis]\n[CARGO: Marketing Associate]\n[SECTOR: Farmacéutico/Salud]\n[PAIS: Argentina]\n\n[MSG1]\nCarla, gracias por conectar. Estuve revisando un poco lo que venís haciendo en Novartis. Me llamó la atención que en los últimos meses estés compartiendo constantemente contenido sobre IA, optimización de datos y omnicanalidad, no son posts de la empresa, son aprendizajes que estás recolectando. Eso sugiere que hay algo importante pasando en tu rol.\n\n[RESPUESTA_MSG1]\nHola Florencia. Si, decime.\n\n[MSG2]\nHola Carla, como estas? Me quedé pensando en esa frase que compartiste del evento de Yoizen, \"enamorate primero del cliente, la tecnología vendrá después\". Después de ir a un AI Marketing Summit con semejante agenda, volver con esa conclusión dice bastante de cómo pensás el tema, casi todos vuelven hablando de herramientas y vos volviste hablando de gente. Justo por eso te quería contar, en Hint Media trabajamos comunicación pensando primero en esa conexión humana y después en la tecnología que la potencia, algo que vimos también en proyectos de Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[MSG3]\nSi claro podés enviármelo!\n\n[NOTAS]\n- Marketing Associate en Novartis, foco en omnichannel marketing y customer engagement.\n- Cliente referencia usado: Libra Seguros / Destiny Group (sector farma/salud, default).",
+    "raw_md": "# Carla Bertossi\n**Fecha:** 23/06/26 - 26/06/26\n**Cargo:** Marketing Associate\n**Empresa:** Novartis\n**País:** Argentina\n**Sector:** Farmacéutico/Salud\n**Estado:** Dossier enviado, esperando respuesta\n\n## MSG1\n> Carla, gracias por conectar. Estuve revisando un poco lo que venís haciendo en Novartis. Me llamó la atención que en los últimos meses estés compartiendo constantemente contenido sobre IA, optimización de datos y omnicanalidad, no son posts de la empresa, son aprendizajes que estás recolectando. Eso sugiere que hay algo importante pasando en tu rol.\n\n## Respuesta\n> Hola Florencia. Si, decime.\n\n## MSG2 enviado\n> Hola Carla, como estas? Me quedé pensando en esa frase que compartiste del evento de Yoizen, \"enamorate primero del cliente, la tecnología vendrá después\". Después de ir a un AI Marketing Summit con semejante agenda, volver con esa conclusión dice bastante de cómo pensás el tema, casi todos vuelven hablando de herramientas y vos volviste hablando de gente. Justo por eso te quería contar, en Hint Media trabajamos comunicación pensando primero en esa conexión humana y después en la tecnología que la potencia, algo que vimos también en proyectos de Libra Seguros y Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Confirmación dossier\n> Si claro podés enviármelo!\n\nDossier mandado por LinkedIn. Pendiente follow up 48hs si no contesta.\n\n## Notas\n- Marketing Associate en Novartis, foco en omnichannel marketing y customer engagement.\n- Cliente referencia usado: Libra Seguros / Destiny Group (sector farma/salud, default).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

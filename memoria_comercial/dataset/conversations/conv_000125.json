@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv_000125",
+  "contact_id": "ctc_000414",
+  "source_file": "conversaciones/junio/carlos-alberto-vargas-serrato.md",
+  "fingerprint": "sha256:3519f1c4bec9e618b20c6f1c2d63f7e17e957afcd6dbfdf696ad749c6e34e67c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carlos-alberto-vargas-serrato.md",
+    "file_hash": "sha256:3519f1c4bec9e618b20c6f1c2d63f7e17e957afcd6dbfdf696ad749c6e34e67c",
+    "file_modified": "2026-06-11T21:44:08.988164+00:00",
+    "file_size": 1941,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carlos Alberto Vargas Serrato",
+    "empresa": "Bio-Crop SAS",
+    "cargo": "Gerente General (abr 2024, 2 años) — antes Gerente Comercial 20 años",
+    "pais": "Colombia",
+    "fecha": "12/06/26",
+    "estado_texto": "MSG2 enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "ALIMENTACION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia Di Rado\n18:20\n\nCarlos, gracias por conectar! 👋\n\nVi que sos Gerente General en Bio-Crop S.A.S — empresa colombiana productora de bioinsumos y fertilizantes con fórmulas 100% naturales. Llevás 22 años en la empresa impulsando expansión nacional e internacional manteniendo alianzas con clientes de alto perfil.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro",
+    "msg2_texto": "Hola Carlos, que bueno!\n\nLo que me quedó fue eso — 22 años construyendo relaciones comerciales y ahora como Gerente General el reto cambia: ya no es solo vender el producto, es posicionar Bio-Crop como marca ante distribuidores, aliados y nuevos mercados internacionales. Una empresa con fórmulas únicas y dos décadas de trayectoria necesita que eso se vea afuera con la misma fuerza que se vive adentro.\n\nDesde Hint Media trabajamos con empresas en esa etapa de expansión — sumamos capacidad en contenido, diseño y comunicación de marca para que el crecimiento no frene por falta de ejecución. Hemos trabajado con empresas con presencia regional en distintos sectores.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Bio-Crop: bioinsumos, fertilizantes, coadyuvantes, extractos vegetales. Fórmulas 100% naturales.\n- 22.5 años en la empresa: Gerente Comercial (20 años) → Gerente General (2 años).\n- Busca expansión nacional e internacional. Foco en agro sostenible.\n- Ningún cliente Hint Media es de agroindustria — se usó referencia genérica de presencia regional."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carlos Alberto Vargas Serrato]\n[EMPRESA: Bio-Crop SAS]\n[CARGO: Gerente General (abr 2024, 2 años) — antes Gerente Comercial 20 años]\n[SECTOR: Agroindustria / Biotecnología agrícola]\n[PAIS: Colombia]\n\n[MSG1]\nFlorencia Di Rado\n18:20\n\nCarlos, gracias por conectar! 👋\n\nVi que sos Gerente General en Bio-Crop S.A.S — empresa colombiana productora de bioinsumos y fertilizantes con fórmulas 100% naturales. Llevás 22 años en la empresa impulsando expansión nacional e internacional manteniendo alianzas con clientes de alto perfil.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro\n\n[MSG2]\nHola Carlos, que bueno!\n\nLo que me quedó fue eso — 22 años construyendo relaciones comerciales y ahora como Gerente General el reto cambia: ya no es solo vender el producto, es posicionar Bio-Crop como marca ante distribuidores, aliados y nuevos mercados internacionales. Una empresa con fórmulas únicas y dos décadas de trayectoria necesita que eso se vea afuera con la misma fuerza que se vive adentro.\n\nDesde Hint Media trabajamos con empresas en esa etapa de expansión — sumamos capacidad en contenido, diseño y comunicación de marca para que el crecimiento no frene por falta de ejecución. Hemos trabajado con empresas con presencia regional en distintos sectores.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Bio-Crop: bioinsumos, fertilizantes, coadyuvantes, extractos vegetales. Fórmulas 100% naturales.\n- 22.5 años en la empresa: Gerente Comercial (20 años) → Gerente General (2 años).\n- Busca expansión nacional e internacional. Foco en agro sostenible.\n- Ningún cliente Hint Media es de agroindustria — se usó referencia genérica de presencia regional.",
+    "raw_md": "# Carlos Alberto Vargas Serrato\n**Fecha:** 12/06/26\n**Empresa:** Bio-Crop SAS\n**Cargo:** Gerente General (abr 2024, 2 años) — antes Gerente Comercial 20 años\n**País:** Colombia\n**Sector:** Agroindustria / Biotecnología agrícola\n**Estado:** MSG2 enviado, esperando respuesta\n\n---\n\n## MSG1\n> Florencia Di Rado\n> 18:20\n>\n> Carlos, gracias por conectar! 👋\n>\n> Vi que sos Gerente General en Bio-Crop S.A.S — empresa colombiana productora de bioinsumos y fertilizantes con fórmulas 100% naturales. Llevás 22 años en la empresa impulsando expansión nacional e internacional manteniendo alianzas con clientes de alto perfil.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Sí, claro\n\n## MSG2\n> Hola Carlos, que bueno!\n>\n> Lo que me quedó fue eso — 22 años construyendo relaciones comerciales y ahora como Gerente General el reto cambia: ya no es solo vender el producto, es posicionar Bio-Crop como marca ante distribuidores, aliados y nuevos mercados internacionales. Una empresa con fórmulas únicas y dos décadas de trayectoria necesita que eso se vea afuera con la misma fuerza que se vive adentro.\n>\n> Desde Hint Media trabajamos con empresas en esa etapa de expansión — sumamos capacidad en contenido, diseño y comunicación de marca para que el crecimiento no frene por falta de ejecución. Hemos trabajado con empresas con presencia regional en distintos sectores.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Bio-Crop: bioinsumos, fertilizantes, coadyuvantes, extractos vegetales. Fórmulas 100% naturales.\n- 22.5 años en la empresa: Gerente Comercial (20 años) → Gerente General (2 años).\n- Busca expansión nacional e internacional. Foco en agro sostenible.\n- Ningún cliente Hint Media es de agroindustria — se usó referencia genérica de presencia regional.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

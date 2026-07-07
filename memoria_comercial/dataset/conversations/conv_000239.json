@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000239",
+  "contact_id": "ctc_000240",
+  "source_file": "conversaciones/junio/natalia-riquelme.md",
+  "fingerprint": "sha256:c3b7f8991b759fc72cdf16621e1fa3dada705ce34958c9fbcdfa6bf738fe263e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/natalia-riquelme.md",
+    "file_hash": "sha256:c3b7f8991b759fc72cdf16621e1fa3dada705ce34958c9fbcdfa6bf738fe263e",
+    "file_modified": "2026-07-01T15:55:23.905320+00:00",
+    "file_size": 2591,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Natalia Riquelme",
+    "empresa": "REMA TIP TOP Chile (productos de caucho/ingeniería para minería)",
+    "cargo": "Head of Marketing (desde mayo 2026, 2 meses)",
+    "pais": "Chile (Santiago)",
+    "fecha": "18/06/26 (MSG1, MSG2 y aclaración de país el mismo día)",
+    "estado_texto": "SEG1 enviado 01/07/26. Respondió \"vale, gracias! lo tendré en cuenta\" — engagement bajo, sin CTA activo por ahora."
+  },
+  "normalized": {
+    "sector": "MINERIA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Natalia, gracias por conectar. Me llamó la atención la publicación que hiciste hace unos meses sobre Marketing vs Comunicaciones Corporativas. No era un resumen de definiciones, sino una reflexión sobre cómo esas funciones necesitan trabajar integradas pero manteniendo sus identidades. La mayoría de los profesionales no llega a esa distinción. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenas Natalia, sí, trabajamos en Hint Media de forma remota con clientes en distintos países de LATAM, no hace falta estar en el mismo país. De hecho varios de nuestros clientes están en Argentina y Chile a la vez. Te comparto el dossier para que veas cómo lo armamos, igual te paso el contacto directo si preferís verlo por mail.",
+    "msg2_texto": "Sostener esa distinción entre marketing y comunicación corporativa en la práctica diaria implica coordinar dos funciones que se cruzan todo el tiempo, sobre todo cuando hay que posicionar marca y cuidar la reputación al mismo tiempo en eventos grandes del sector como EXPONOR.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa coordinación entre marca y reputación de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Soy yo, pero veo que estas en argentina. Yo estoy en chile",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "natalia",
+      "trabajamos",
+      "hint",
+      "media",
+      "forma",
+      "remota",
+      "clientes",
+      "distintos",
+      "paises",
+      "latam"
+    ],
+    "notas": "- HECHO: post propio distinguiendo marketing de comunicación corporativa (4 meses).\n- COMPLEJIDAD: arranca como Head of Marketing hace solo 2 meses en REMA TIP TOP, sector minero/industrial con fuerte presencia en ferias (EXPONOR 2026, EXPOMIN 2027).\n- Antes: Interim Marketing Lead en Ausenco (cobertura de maternidad, reportaba a CMO en Canadá), Corporate Communications Analyst en Zurich Insurance.\n- Sector: minería/industria pesada → clientes referencia TGS/Transener."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Natalia Riquelme]\n[EMPRESA: REMA TIP TOP Chile (productos de caucho/ingeniería para minería)]\n[CARGO: Head of Marketing (desde mayo 2026, 2 meses)]\n[PAIS: Chile (Santiago)]\n\n[MSG1]\nNatalia, gracias por conectar. Me llamó la atención la publicación que hiciste hace unos meses sobre Marketing vs Comunicaciones Corporativas. No era un resumen de definiciones, sino una reflexión sobre cómo esas funciones necesitan trabajar integradas pero manteniendo sus identidades. La mayoría de los profesionales no llega a esa distinción. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenas Natalia, sí, trabajamos en Hint Media de forma remota con clientes en distintos países de LATAM, no hace falta estar en el mismo país. De hecho varios de nuestros clientes están en Argentina y Chile a la vez. Te comparto el dossier para que veas cómo lo armamos, igual te paso el contacto directo si preferís verlo por mail.\n\n[MSG2]\nSostener esa distinción entre marketing y comunicación corporativa en la práctica diaria implica coordinar dos funciones que se cruzan todo el tiempo, sobre todo cuando hay que posicionar marca y cuidar la reputación al mismo tiempo en eventos grandes del sector como EXPONOR.\n\nEn Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa coordinación entre marca y reputación de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSoy yo, pero veo que estas en argentina. Yo estoy en chile\n\n[NOTAS]\n- HECHO: post propio distinguiendo marketing de comunicación corporativa (4 meses).\n- COMPLEJIDAD: arranca como Head of Marketing hace solo 2 meses en REMA TIP TOP, sector minero/industrial con fuerte presencia en ferias (EXPONOR 2026, EXPOMIN 2027).\n- Antes: Interim Marketing Lead en Ausenco (cobertura de maternidad, reportaba a CMO en Canadá), Corporate Communications Analyst en Zurich Insurance.\n- Sector: minería/industria pesada → clientes referencia TGS/Transener.",
+    "raw_md": "# Natalia Riquelme\n\n**Estado:** SEG1 enviado 01/07/26. Respondió \"vale, gracias! lo tendré en cuenta\" — engagement bajo, sin CTA activo por ahora.\n**Fecha:** 18/06/26 (MSG1, MSG2 y aclaración de país el mismo día)\n**Cargo:** Head of Marketing (desde mayo 2026, 2 meses)\n**Empresa:** REMA TIP TOP Chile (productos de caucho/ingeniería para minería)\n**País:** Chile (Santiago)\n\n## MSG1\n> Natalia, gracias por conectar. Me llamó la atención la publicación que hiciste hace unos meses sobre Marketing vs Comunicaciones Corporativas. No era un resumen de definiciones, sino una reflexión sobre cómo esas funciones necesitan trabajar integradas pero manteniendo sus identidades. La mayoría de los profesionales no llega a esa distinción. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola. Si, dime. En qué te ayudo\n\n## MSG2 (redactado, por enviar — sin B1 porque no hay nada que mirroriar, framework HECHO→COMPLEJIDAD→OPORTUNIDAD→HINT)\n> Sostener esa distinción entre marketing y comunicación corporativa en la práctica diaria implica coordinar dos funciones que se cruzan todo el tiempo, sobre todo cuando hay que posicionar marca y cuidar la reputación al mismo tiempo en eventos grandes del sector como EXPONOR.\n>\n> En Hint Media trabajamos justo eso, contenido y comunicación que ayuda a sostener esa coordinación entre marca y reputación de forma consistente. Trabajamos con TGS y Transener en estructuras similares.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (preguntó por ubicación)\n> Soy yo, pero veo que estas en argentina. Yo estoy en chile\n\n## Respuesta enviada\n> Buenas Natalia, sí, trabajamos en Hint Media de forma remota con clientes en distintos países de LATAM, no hace falta estar en el mismo país. De hecho varios de nuestros clientes están en Argentina y Chile a la vez. Te comparto el dossier para que veas cómo lo armamos, igual te paso el contacto directo si preferís verlo por mail.\n\n## Notas\n- HECHO: post propio distinguiendo marketing de comunicación corporativa (4 meses).\n- COMPLEJIDAD: arranca como Head of Marketing hace solo 2 meses en REMA TIP TOP, sector minero/industrial con fuerte presencia en ferias (EXPONOR 2026, EXPOMIN 2027).\n- Antes: Interim Marketing Lead en Ausenco (cobertura de maternidad, reportaba a CMO en Canadá), Corporate Communications Analyst en Zurich Insurance.\n- Sector: minería/industria pesada → clientes referencia TGS/Transener.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

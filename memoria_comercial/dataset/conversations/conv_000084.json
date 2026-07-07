@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000084",
+  "contact_id": "ctc_000094",
+  "source_file": "conversaciones/julio/pedro-andr-s-miranda-borie.md",
+  "fingerprint": "sha256:304e593bdab008c4f5c749d6c83ba95423fd4cd92035d1d3e9fc578ee2165d46",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/pedro-andr-s-miranda-borie.md",
+    "file_hash": "sha256:304e593bdab008c4f5c749d6c83ba95423fd4cd92035d1d3e9fc578ee2165d46",
+    "file_modified": "2026-07-01T23:57:50.352383+00:00",
+    "file_size": 1871,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Pedro Andrés Miranda Borie",
+    "empresa": "ProntoPaga",
+    "cargo": "Marketing / Digital / Comunicación Digital / Transformación Digital / Comunicaciones",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Pedro Andrés, gracias por conectar! 👋\n\nMe llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Cada publicación sobre expansiones/logros incluye explícitamente el crédito al equipo (\"tremendo logro del equipo\", \"increíble equipo local e internacional\", \"staff de altísimo nivel\"). En publicaciones sobre contratación, destaca el acompañamiento que da a nuevos miembros. Esto revela que valora visibilizar el trabajo colectivo por encima de auto-promoción.",
+    "hipotesis": "Construcción de equipos escalables / ejecución distribuida sin pérdida de control / cómo comunicar internamente durante expansión / balance entre crecimiento y sostenibilidad operativa del equipo.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Pedro Andrés Miranda Borie]\n[EMPRESA: ProntoPaga]\n[CARGO: Marketing / Digital / Comunicación Digital / Transformación Digital / Comunicaciones]\n[SECTOR: Fintech / Pagos Digitales]\n[PAIS: Chile]\n[SENAL: Cada publicación sobre expansiones/logros incluye explícitamente el crédito al equipo (\"tremendo logro del equipo\", \"increíble equipo local e internacional\", \"staff de altísimo nivel\"). En publicaciones sobre contratación, destaca el acompañamiento que da a nuevos miembros. Esto revela que valora visibilizar el trabajo colectivo por encima de auto-promoción.]\n[HIPOTESIS: Construcción de equipos escalables / ejecución distribuida sin pérdida de control / cómo comunicar internamente durante expansión / balance entre crecimiento y sostenibilidad operativa del equipo.]\n\n[MSG1]\nPedro Andrés, gracias por conectar! 👋\n\nMe llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Pedro Andrés Miranda Borie\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing / Digital / Comunicación Digital / Transformación Digital / Comunicaciones\n**Empresa:** ProntoPaga\n**Pais:** Chile\n**Sector:** Fintech / Pagos Digitales\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Cada publicación sobre expansiones/logros incluye explícitamente el crédito al equipo (\"tremendo logro del equipo\", \"increíble equipo local e internacional\", \"staff de altísimo nivel\"). En publicaciones sobre contratación, destaca el acompañamiento que da a nuevos miembros. Esto revela que valora visibilizar el trabajo colectivo por encima de auto-promoción.\n- **Tensión profesional:** Crecer en múltiples mercados y formatos simultáneamente requiere mantener consistencia de marca y mensaje mientras adapta a realidades locales distintas — sin que todo termine dependiendo del liderazgo directo.\n- **Hipótesis:** Construcción de equipos escalables / ejecución distribuida sin pérdida de control / cómo comunicar internamente durante expansión / balance entre crecimiento y sostenibilidad operativa del equipo.\n- **Ángulo MSG1:** La forma deliberada en que da crédito al equipo en cada hito público (integración Yape, expansión Argentina, eventos) sugiere una creencia sobre credibilidad construida colectivamente, no en el individuo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Pedro Andrés, gracias por conectar! 👋\n>\n> Me llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

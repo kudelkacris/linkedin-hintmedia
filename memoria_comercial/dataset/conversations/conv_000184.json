@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000184",
+  "contact_id": "ctc_000246",
+  "source_file": "conversaciones/junio/jose-manuel-alfaro-molina.md",
+  "fingerprint": "sha256:79c7e0e8211097d9a6d9e733929b03fae95db8b0363cf900cf6ff62b8ca00cf8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-manuel-alfaro-molina.md",
+    "file_hash": "sha256:79c7e0e8211097d9a6d9e733929b03fae95db8b0363cf900cf6ff62b8ca00cf8",
+    "file_modified": "2026-06-18T15:11:02.155923+00:00",
+    "file_size": 1577,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jose Manuel Alfaro Molina",
+    "empresa": "Tortillas Ilusión",
+    "cargo": "Gerente comercial",
+    "pais": "",
+    "fecha": "miércoles (MSG1) — respuesta miércoles 22:49",
+    "estado_texto": "MSG2 por enviar"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jose Manuel, gracias por conectar! Me llamó la atención la forma en que cerraste la etapa anterior. La mayoría de la gente publica \"cambié de empresa\", vos diste crédito al equipo y al aprendizaje. Después vi que comenzaste a documentar los lanzamientos de Tortillas Ilusión de una forma bastante deliberada, no es casualidad. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar. Y muchos éxitos en este nuevo camino.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, muchas gracias. Cómo te puedo ayudar",
+    "msg2_texto": "Todo bien Jose Manuel, gracias por la buena onda!\n\nEstás construyendo presencia de marca para Tortillas Ilusión, no solo vendiendo producto. Eso normalmente exige sostener consistencia en cómo se ve y se cuenta cada lanzamiento, algo que un equipo comercial no siempre tiene el tiempo de cubrir.\n\nEn Hint Media trabajamos justamente eso, contenido y comunicación para marcas de consumo. Trabajamos con Tasarolli y Destiny Group en estructuras parecidas.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "muchas",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": "- Ángulo MSG1: cómo cerró etapa anterior dando crédito al equipo + documentación deliberada de lanzamientos.\n- Sector: retail/consumo (tortillas), clientes referencia Tasarolli/Destiny Group."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jose Manuel Alfaro Molina]\n[EMPRESA: Tortillas Ilusión]\n[CARGO: Gerente comercial]\n\n[MSG1]\nJose Manuel, gracias por conectar! Me llamó la atención la forma en que cerraste la etapa anterior. La mayoría de la gente publica \"cambié de empresa\", vos diste crédito al equipo y al aprendizaje. Después vi que comenzaste a documentar los lanzamientos de Tortillas Ilusión de una forma bastante deliberada, no es casualidad. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar. Y muchos éxitos en este nuevo camino.\n\n[RESPUESTA_MSG1]\nHola, muchas gracias. Cómo te puedo ayudar\n\n[MSG2]\nTodo bien Jose Manuel, gracias por la buena onda!\n\nEstás construyendo presencia de marca para Tortillas Ilusión, no solo vendiendo producto. Eso normalmente exige sostener consistencia en cómo se ve y se cuenta cada lanzamiento, algo que un equipo comercial no siempre tiene el tiempo de cubrir.\n\nEn Hint Media trabajamos justamente eso, contenido y comunicación para marcas de consumo. Trabajamos con Tasarolli y Destiny Group en estructuras parecidas.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Ángulo MSG1: cómo cerró etapa anterior dando crédito al equipo + documentación deliberada de lanzamientos.\n- Sector: retail/consumo (tortillas), clientes referencia Tasarolli/Destiny Group.",
+    "raw_md": "# Jose Manuel Alfaro Molina\n\n**Estado:** MSG2 por enviar\n**Fecha:** miércoles (MSG1) — respuesta miércoles 22:49\n**Cargo:** Gerente comercial\n**Empresa:** Tortillas Ilusión\n\n## MSG1\n> Jose Manuel, gracias por conectar! Me llamó la atención la forma en que cerraste la etapa anterior. La mayoría de la gente publica \"cambié de empresa\", vos diste crédito al equipo y al aprendizaje. Después vi que comenzaste a documentar los lanzamientos de Tortillas Ilusión de una forma bastante deliberada, no es casualidad. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar. Y muchos éxitos en este nuevo camino.\n\n## Respuesta MSG1\n> Hola, muchas gracias. Cómo te puedo ayudar\n\n## MSG2 (redactado, por enviar — v2 con etapa de interpretación)\n> Todo bien Jose Manuel, gracias por la buena onda!\n>\n> Estás construyendo presencia de marca para Tortillas Ilusión, no solo vendiendo producto. Eso normalmente exige sostener consistencia en cómo se ve y se cuenta cada lanzamiento, algo que un equipo comercial no siempre tiene el tiempo de cubrir.\n>\n> En Hint Media trabajamos justamente eso, contenido y comunicación para marcas de consumo. Trabajamos con Tasarolli y Destiny Group en estructuras parecidas.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Ángulo MSG1: cómo cerró etapa anterior dando crédito al equipo + documentación deliberada de lanzamientos.\n- Sector: retail/consumo (tortillas), clientes referencia Tasarolli/Destiny Group.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

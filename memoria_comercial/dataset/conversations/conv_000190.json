@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000190",
+  "contact_id": "ctc_000425",
+  "source_file": "conversaciones/junio/julia-figueroa.md",
+  "fingerprint": "sha256:346d44432729100bf565dd4d4d10ac7e1a81b20660d0f1feef003952f00ab5e6",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/julia-figueroa.md",
+    "file_hash": "sha256:346d44432729100bf565dd4d4d10ac7e1a81b20660d0f1feef003952f00ab5e6",
+    "file_modified": "2026-06-19T15:31:25.526822+00:00",
+    "file_size": 1604,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Julia Figueroa",
+    "empresa": "Edenor (energía, transformación SAP HANA)",
+    "cargo": "Líder de Comunicación, experta en gestión del cambio",
+    "pais": "",
+    "fecha": "08/06/26",
+    "estado_texto": "Dossier enviado, sin respuesta aún post-dossier"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Julia, gracias por conectar! Sos Líder de Comunicación en Edenor, empresa de energía en plena transformación con SAP HANA. Además estás liderando edenorcerca y relanzaste el programa de reconocimiento. Bastante volumen de proyectos simultáneos.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cómo estás? Sí es correcto. No fue todo en simultáneo jaja pero si. Avísame en qué te puedo ayudar?",
+    "msg2_texto": "Transformación digital, plataformas colaborativas, reconocimiento, cada uno es un proyecto. En Hint Media nos insertamos como equipo de comunicación dentro de las empresas. Trabajamos con TGS, Transener, Sullair. ¿Te puedo enviar un dossier por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"Dale!! Pásame así vemos tus trabajos. Tenemos contrato con una agencia actualmente pero así los podemos tener en cuenta a futuro o si surge algo ad hoc. Gracias!!\"",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "correcto",
+      "todo",
+      "simultaneo",
+      "jaja",
+      "avisame",
+      "puedo",
+      "ayudar",
+      "dale"
+    ],
+    "notas": "- Engagement pre-dossier alto (exclamaciones, proactiva, dio contexto), pero ya tiene agencia contratada — posicionar cualquier seguimiento futuro como alianza/ad hoc, no como pitch de reemplazo.\n\nEstado: Dossier enviado, sin respuesta aún post-dossier"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Julia Figueroa]\n[EMPRESA: Edenor (energía, transformación SAP HANA)]\n[CARGO: Líder de Comunicación, experta en gestión del cambio]\n\n[MSG1]\nJulia, gracias por conectar! Sos Líder de Comunicación en Edenor, empresa de energía en plena transformación con SAP HANA. Además estás liderando edenorcerca y relanzaste el programa de reconocimiento. Bastante volumen de proyectos simultáneos.\n\n[RESPUESTA_MSG1]\nHola Florencia, cómo estás? Sí es correcto. No fue todo en simultáneo jaja pero si. Avísame en qué te puedo ayudar?\n\n[MSG2]\nTransformación digital, plataformas colaborativas, reconocimiento, cada uno es un proyecto. En Hint Media nos insertamos como equipo de comunicación dentro de las empresas. Trabajamos con TGS, Transener, Sullair. ¿Te puedo enviar un dossier por acá?\n\n[RESPUESTA_MSG2]\n\"Dale!! Pásame así vemos tus trabajos. Tenemos contrato con una agencia actualmente pero así los podemos tener en cuenta a futuro o si surge algo ad hoc. Gracias!!\"\n\n[NOTAS]\n- Engagement pre-dossier alto (exclamaciones, proactiva, dio contexto), pero ya tiene agencia contratada — posicionar cualquier seguimiento futuro como alianza/ad hoc, no como pitch de reemplazo.\n\nEstado: Dossier enviado, sin respuesta aún post-dossier",
+    "raw_md": "---\nname: julia-figueroa\ndescription: Dossier enviado, Líder de Comunicación Edenor, ya tiene agencia pero abierta a futuro/ad hoc, 08/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Julia Figueroa\n**Cargo:** Líder de Comunicación, experta en gestión del cambio\n**Empresa:** Edenor (energía, transformación SAP HANA)\n**Fecha:** 08/06/26\n\n## MSG1\n> Julia, gracias por conectar! Sos Líder de Comunicación en Edenor, empresa de energía en plena transformación con SAP HANA. Además estás liderando edenorcerca y relanzaste el programa de reconocimiento. Bastante volumen de proyectos simultáneos.\n\n## Respuesta MSG1\n> Hola Florencia, cómo estás? Sí es correcto. No fue todo en simultáneo jaja pero si. Avísame en qué te puedo ayudar?\n\n## MSG2\n> Transformación digital, plataformas colaborativas, reconocimiento, cada uno es un proyecto. En Hint Media nos insertamos como equipo de comunicación dentro de las empresas. Trabajamos con TGS, Transener, Sullair. ¿Te puedo enviar un dossier por acá?\n\n## Respuesta MSG2 (objeción + apertura a futuro)\n> \"Dale!! Pásame así vemos tus trabajos. Tenemos contrato con una agencia actualmente pero así los podemos tener en cuenta a futuro o si surge algo ad hoc. Gracias!!\"\n\n## Cierre\n> Buen día Julia, te lo dejo por aquí. Buena semana y cualquier consulta nos dicen.\n\n## Notas\n- Engagement pre-dossier alto (exclamaciones, proactiva, dio contexto), pero ya tiene agencia contratada — posicionar cualquier seguimiento futuro como alianza/ad hoc, no como pitch de reemplazo.\n\n**Estado:** Dossier enviado, sin respuesta aún post-dossier\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000217",
+  "contact_id": "ctc_000398",
+  "source_file": "conversaciones/junio/marcela-granados.md",
+  "fingerprint": "sha256:764e4126c38fa3c1eba842f3e95287b9db5fb43b3f7cefe540f64fcdc4d505a1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/marcela-granados.md",
+    "file_hash": "sha256:764e4126c38fa3c1eba842f3e95287b9db5fb43b3f7cefe540f64fcdc4d505a1",
+    "file_modified": "2026-06-19T15:27:16.059884+00:00",
+    "file_size": 1802,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Marcela Granados",
+    "empresa": "",
+    "cargo": "Trade Marketing Manager CAM&CAR",
+    "pais": "",
+    "fecha": "14/06/26",
+    "estado_texto": "SEG2 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 5,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": true,
+    "seg2_texto": "Marcela, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso del caso Bless Truck, cómo construiste el análisis desde la lógica de negocio y no como un caso de éxito más.\nCuando la comunicación parte de ahí, la exigencia sobre quien ejecuta también cambia.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para CAM&CAR.",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Marcela Granados]\n[CARGO: Trade Marketing Manager CAM&CAR]\n\n[SEG2]\nMarcela, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso del caso Bless Truck, cómo construiste el análisis desde la lógica de negocio y no como un caso de éxito más.\nCuando la comunicación parte de ahí, la exigencia sobre quien ejecuta también cambia.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para CAM&CAR.",
+    "raw_md": "---\nname: marcela-granados\ndescription: Dossier enviado, Trade Marketing Manager CAM&CAR, 14/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Marcela Granados\n**Cargo:** Trade Marketing Manager CAM&CAR\n**Fecha:** 14/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo escribió sobre Bless Truck: no describió un caso sino que hizo análisis con disponibilidad mecánica como métrica y TCO como framework.\n- Respondió: \"Hola Florencia adelante\"\n- MSG2 enviado — gap: comunicación construida desde lógica de negocio exige equipo que entienda qué comunica y por qué. Mención TGS, Transener, Libra Seguros.\n- Respondió: \"Enviame el dossier acá\"\n- Dossier enviado\n- SEG1 enviado 17/06/26:\n\n> Marcela, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Trade marketing es una posición rara, estás todo el día entre lo que pasa en el punto de venta y lo que la marca quiere decir hacia afuera.\n>\n> Me llamó la atención por una razón puntual, no es un rol que se entienda fácil desde afuera.\n>\n> Si te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n**Estado:** SEG2 enviado (19/06/26)\n\n## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: MEDIUM-bajo, nota: el mensaje de envío del dossier no confirma explícitamente que se haya mandado, revisar)\n> Marcela, cómo estás?\n> No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en eso del caso Bless Truck, cómo construiste el análisis desde la lógica de negocio y no como un caso de éxito más.\n> Cuando la comunicación parte de ahí, la exigencia sobre quien ejecuta también cambia.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para CAM&CAR.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000147",
+  "contact_id": "ctc_000500",
+  "source_file": "conversaciones/junio/david-spaggiari.md",
+  "fingerprint": "sha256:be190435932311328cf1601e6e1b73b4e88983cd3557ba3f4189fb63bb4932a2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/david-spaggiari.md",
+    "file_hash": "sha256:be190435932311328cf1601e6e1b73b4e88983cd3557ba3f4189fb63bb4932a2",
+    "file_modified": "2026-06-18T23:34:24.824302+00:00",
+    "file_size": 2512,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "David Spaggiari",
+    "empresa": "Olnatura",
+    "cargo": "CEO | Director General",
+    "pais": "",
+    "fecha": "01/06/26 (MSG1) — SEG1 17/06/26 — cierre 18/06/26",
+    "estado_texto": "CERRADO — declinó, otras prioridades en la empresa"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "David, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamo la atención tu perfil. Según veo, sos CEO de en Olnatura, es así?\n\nSi es correcto y me lo permitís, tenia una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, cuéntame",
+    "msg2_texto": "Gracias David.\n\nEstuve viendo tu recorrido y me llamó la atención tu enfoque en crecimiento, liderazgo y construcción de equipos.\n\nPor eso pensé en escribirte.\n\nEn Hint Media trabajamos con compañías como TGS, Transener y Libra Seguros ayudándolas a potenciar su posicionamiento digital.\n\nCreo que podría haber algunas ideas interesantes para Olnatura.\n\nTe puedo enviar un dossier o, en todo caso, indicarme a quién debería enviárselo?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "👍 (sin texto)",
+    "seg1_enviado": true,
+    "seg1_texto": "David, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de construir Olnatura sobre manufactura sostenible de suplementos, no es un posicionamiento que se explica solo.\n\nEsa parte suele ser la que más cuesta sostener hacia afuera con la misma claridad con la que se piensa hacia adentro.\n\nEs justo el tipo de situación con la que solemos acompañar a compañías en ese rubro.\n\nSi te interesa explorarlo, coordinamos una llamada breve.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "cuentame",
+      "texto",
+      "david",
+      "florencia",
+      "este",
+      "momento",
+      "tenemos",
+      "otras",
+      "prioridades",
+      "emoresa"
+    ],
+    "notas": "- MSG2 original viola la regla \"PROHIBIDO comenzar con: Por eso pensé en escribirte\" — quedó como ejemplo de qué evitar en mensajes futuros.\n- Interés bajo (solo 👍), CTA de SEG1 elegido más suave a propósito (\"coordinamos una llamada breve\" en vez de proponer 15min directo).\n- Cerrado definitivamente, no insistir más."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: David Spaggiari]\n[EMPRESA: Olnatura]\n[CARGO: CEO | Director General]\n[SECTOR: Sustainable Product Manufacturing — suplementos dietarios y productos de salud]\n\n[MSG1]\nDavid, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamo la atención tu perfil. Según veo, sos CEO de en Olnatura, es así?\n\nSi es correcto y me lo permitís, tenia una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola, cuéntame\n\n[MSG2]\nGracias David.\n\nEstuve viendo tu recorrido y me llamó la atención tu enfoque en crecimiento, liderazgo y construcción de equipos.\n\nPor eso pensé en escribirte.\n\nEn Hint Media trabajamos con compañías como TGS, Transener y Libra Seguros ayudándolas a potenciar su posicionamiento digital.\n\nCreo que podría haber algunas ideas interesantes para Olnatura.\n\nTe puedo enviar un dossier o, en todo caso, indicarme a quién debería enviárselo?\n\n[RESPUESTA_MSG2]\n👍 (sin texto)\n\n[SEG1]\nDavid, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de construir Olnatura sobre manufactura sostenible de suplementos, no es un posicionamiento que se explica solo.\n\nEsa parte suele ser la que más cuesta sostener hacia afuera con la misma claridad con la que se piensa hacia adentro.\n\nEs justo el tipo de situación con la que solemos acompañar a compañías en ese rubro.\n\nSi te interesa explorarlo, coordinamos una llamada breve.\n\n[NOTAS]\n- MSG2 original viola la regla \"PROHIBIDO comenzar con: Por eso pensé en escribirte\" — quedó como ejemplo de qué evitar en mensajes futuros.\n- Interés bajo (solo 👍), CTA de SEG1 elegido más suave a propósito (\"coordinamos una llamada breve\" en vez de proponer 15min directo).\n- Cerrado definitivamente, no insistir más.",
+    "raw_md": "# David Spaggiari\n\n**Estado:** CERRADO — declinó, otras prioridades en la empresa\n**Fecha:** 01/06/26 (MSG1) — SEG1 17/06/26 — cierre 18/06/26\n**Cargo:** CEO | Director General\n**Empresa:** Olnatura\n**Sector:** Sustainable Product Manufacturing — suplementos dietarios y productos de salud\n\n## MSG1\n> David, gracias por aceptar mi solicitud de conexión!\n>\n> Estaba revisando LinkedIn y me llamo la atención tu perfil. Según veo, sos CEO de en Olnatura, es así?\n>\n> Si es correcto y me lo permitís, tenia una duda y quería saber si me podrías ayudar?\n\n## Respuesta MSG1\n> Hola, cuéntame\n\n## MSG2\n> Gracias David.\n>\n> Estuve viendo tu recorrido y me llamó la atención tu enfoque en crecimiento, liderazgo y construcción de equipos.\n>\n> Por eso pensé en escribirte.\n>\n> En Hint Media trabajamos con compañías como TGS, Transener y Libra Seguros ayudándolas a potenciar su posicionamiento digital.\n>\n> Creo que podría haber algunas ideas interesantes para Olnatura.\n>\n> Te puedo enviar un dossier o, en todo caso, indicarme a quién debería enviárselo?\n\n## Respuesta MSG2\n> Mándame el dossier por acá lo veo\n\n## Cierre\n> En el documento vas a ver ejemplos de empresas de diferentes rubros con las que ya estamos implementando este formato de manera muy exitosa. Cualquier consulta, estoy acá.\n\n## Respuesta al dossier\n> 👍 (sin texto)\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> David, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de construir Olnatura sobre manufactura sostenible de suplementos, no es un posicionamiento que se explica solo.\n>\n> Esa parte suele ser la que más cuesta sostener hacia afuera con la misma claridad con la que se piensa hacia adentro.\n>\n> Es justo el tipo de situación con la que solemos acompañar a compañías en ese rubro.\n>\n> Si te interesa explorarlo, coordinamos una llamada breve.\n\n## Cierre final (18/06/26)\n> David: \"gracias Florencia, en este momento tenemos otras prioridades en la emoresa\"\n> Respuesta: \"Entiendo David, gracias por la sinceridad. Quedo atenta si en algún momento vuelve a ser prioridad. Éxitos con Olnatura!\"\n\n## Notas\n- MSG2 original viola la regla \"PROHIBIDO comenzar con: Por eso pensé en escribirte\" — quedó como ejemplo de qué evitar en mensajes futuros.\n- Interés bajo (solo 👍), CTA de SEG1 elegido más suave a propósito (\"coordinamos una llamada breve\" en vez de proponer 15min directo).\n- Cerrado definitivamente, no insistir más.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

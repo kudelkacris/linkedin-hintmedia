@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000203",
+  "contact_id": "ctc_000254",
+  "source_file": "conversaciones/junio/laura-rojas-salas.md",
+  "fingerprint": "sha256:6de2e4d8539b550a0ea49c55e731d6678698fcbca9d4e8ed5fabde52f2359ab5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/laura-rojas-salas.md",
+    "file_hash": "sha256:6de2e4d8539b550a0ea49c55e731d6678698fcbca9d4e8ed5fabde52f2359ab5",
+    "file_modified": "2026-06-24T20:13:59.994503+00:00",
+    "file_size": 2946,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Laura Rojas Salas CR",
+    "empresa": "Aceros Carazo Reimers (materiales de construcción/acero)",
+    "cargo": "Jefe de Mercadeo, Aceros Carazo Reimers",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "CERRADA 24/06/26 — ya trabaja con otra agencia"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "HAS_AGENCY",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Laura, espero que andes bien. No sé si llegaste a ver el material que te envié, pero me quedé pensando en algo después de mandártelo.\n\nEse comentario tuyo sobre lo que RRHH pide para perfiles senior (diseño, redes, SEO, email, eventos, todo junto) me parece que describe algo más grande que un problema de carga de trabajo.\n\nEs casi un síntoma de cómo se diseñan los roles de marketing en muchas empresas, y de cuánto termina dependiendo de una sola persona algo que debería sostenerse en equipo.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.\nLaura, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que en Aceros Carazo te toca cubrir estrategia y ejecución al mismo tiempo, justo lo que vos misma describiste como el problema de fondo en esos perfiles senior. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Viene de Essity (TENA, FMCG, Centroamérica)\n- Está explorando también consultoría independiente para pymes\n- Publicó encuesta: \"¿contrataría un senior de marketing a medio tiempo?\" — 85% sí\n- Comparte contenido sobre marketing estratégico vs ejecución\n- 5.772 seguidores, activa en LinkedIn\n- Respondió 24/06/26 al segundo SEG1: \"Hola Florencia, gracias, pero ya trabajamos con una agencia.\" Cierre cordial enviado, sin pitch posterior."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Laura Rojas Salas CR]\n[EMPRESA: Aceros Carazo Reimers (materiales de construcción/acero)]\n[CARGO: Jefe de Mercadeo, Aceros Carazo Reimers]\n[PAIS: Costa Rica]\n\n[SEG1]\nLaura, espero que andes bien. No sé si llegaste a ver el material que te envié, pero me quedé pensando en algo después de mandártelo.\n\nEse comentario tuyo sobre lo que RRHH pide para perfiles senior (diseño, redes, SEO, email, eventos, todo junto) me parece que describe algo más grande que un problema de carga de trabajo.\n\nEs casi un síntoma de cómo se diseñan los roles de marketing en muchas empresas, y de cuánto termina dependiendo de una sola persona algo que debería sostenerse en equipo.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.\nLaura, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que en Aceros Carazo te toca cubrir estrategia y ejecución al mismo tiempo, justo lo que vos misma describiste como el problema de fondo en esos perfiles senior. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.\n\n[NOTAS]\n- Viene de Essity (TENA, FMCG, Centroamérica)\n- Está explorando también consultoría independiente para pymes\n- Publicó encuesta: \"¿contrataría un senior de marketing a medio tiempo?\" — 85% sí\n- Comparte contenido sobre marketing estratégico vs ejecución\n- 5.772 seguidores, activa en LinkedIn\n- Respondió 24/06/26 al segundo SEG1: \"Hola Florencia, gracias, pero ya trabajamos con una agencia.\" Cierre cordial enviado, sin pitch posterior.",
+    "raw_md": "# Laura Rojas Salas CR\n\n**Estado:** CERRADA 24/06/26 — ya trabaja con otra agencia\n**Fecha:** 15/06/26\n**Cargo:** Jefe de Mercadeo, Aceros Carazo Reimers\n**País:** Costa Rica\n**Empresa:** Aceros Carazo Reimers (materiales de construcción/acero)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 19:24):**\nDestacó comentario de Laura sobre RRHH que pide diseño + redes + SEO + email + eventos en una sola persona. \"Exactamente lo que mata las estrategias reales.\" Observó que entiende la diferencia entre ejecutor y líder.\n\n**Respuesta Laura:**\n\"Hola! Claro, cuál es tu consulta?\"\n\n**MSG2 enviado:**\n> Hola Laura, gracias por responder!\n>\n> Lo interesante es que ese comentario lo escribiste desde adentro. En Aceros Carazo sos vos la que tiene que cubrir estrategia y ejecución al mismo tiempo, exactamente el problema que describiste.\n>\n> Desde Hint Media trabajamos con equipos de mercadeo en esa brecha: sumamos capacidad de ejecución en contenido y digital para que la persona que lidera pueda enfocarse en la estrategia. Hemos trabajado con TGS y Transener en ese tipo de estructura.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Laura:**\n\"Sí, claro\"\n\n**Respuesta enviada:**\n> Perfecto Laura, te lo mando por acá ahora mismo!\n>\n> Y si preferís que te lo envíe también por mail, decime a qué dirección.\n\n## SEG1 (enviado 17/06/26)\n> Laura, espero que andes bien. No sé si llegaste a ver el material que te envié, pero me quedé pensando en algo después de mandártelo.\n>\n> Ese comentario tuyo sobre lo que RRHH pide para perfiles senior (diseño, redes, SEO, email, eventos, todo junto) me parece que describe algo más grande que un problema de carga de trabajo.\n>\n> Es casi un síntoma de cómo se diseñan los roles de marketing en muchas empresas, y de cuánto termina dependiendo de una sola persona algo que debería sostenerse en equipo.\n>\n> Si te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):\n> Laura, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de que en Aceros Carazo te toca cubrir estrategia y ejecución al mismo tiempo, justo lo que vos misma describiste como el problema de fondo en esos perfiles senior. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que estás manejando hoy.\n\n## Notas\n- Viene de Essity (TENA, FMCG, Centroamérica)\n- Está explorando también consultoría independiente para pymes\n- Publicó encuesta: \"¿contrataría un senior de marketing a medio tiempo?\" — 85% sí\n- Comparte contenido sobre marketing estratégico vs ejecución\n- 5.772 seguidores, activa en LinkedIn\n- Respondió 24/06/26 al segundo SEG1: \"Hola Florencia, gracias, pero ya trabajamos con una agencia.\" Cierre cordial enviado, sin pitch posterior.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

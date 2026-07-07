@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "dataset_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07.347228+00:00",
+  "build_mode": "full",
+  "build_duration_seconds": 0.72,
+  "totals": {
+    "total_conversations": 276,
+    "clean": 137,
+    "with_warnings": 139,
+    "with_errors": 0,
+    "errors_fatal": 0
+  },
+  "by_folder": {
+    "julio": 104,
+    "junio": 172
+  },
+  "by_stage": {
+    "1": 73,
+    "2": 79,
+    "3": 53,
+    "4": 65,
+    "5": 4,
+    "6": 2
+  },
+  "by_resultado": {
+    "EN_PROCESO": 185,
+    "SIN_RESPUESTA": 62,
+    "CERRADO_SIN_INTERES": 27,
+    "REUNION": 2
+  },
+  "field_coverage": {
+    "nombre": 1.0,
+    "empresa": 0.942,
+    "cargo": 0.938,
+    "pais": 0.899,
+    "sector": 0.909,
+    "seniority": 0.721,
+    "stage": 1.0,
+    "msg1_texto": 0.757,
+    "senal_humana": 0.33,
+    "engagement": 0.583,
+    "variante": 0.721
+  },
+  "incremental": {}
+}

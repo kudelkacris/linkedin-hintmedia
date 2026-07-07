@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000004",
+  "contact_id": "ctc_000105",
+  "source_file": "conversaciones/julio/alejandra-salas-petit.md",
+  "fingerprint": "sha256:46301b8636ac3b50c024240d59b85b7a20d82f9b98b10919bf8cf2dd0fb1e4f2",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/alejandra-salas-petit.md",
+    "file_hash": "sha256:46301b8636ac3b50c024240d59b85b7a20d82f9b98b10919bf8cf2dd0fb1e4f2",
+    "file_modified": "2026-07-03T15:48:14.872615+00:00",
+    "file_size": 3504,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Alejandra Salas Petit",
+    "empresa": "Ex-UVE (programa protein transition) — actualmente en transición",
+    "cargo": "International Communications & Advocacy Specialist | Media Relations | Public Affairs",
+    "pais": "España",
+    "fecha": "02/07/26",
+    "estado_texto": "Dossier enviado — 03/07/26"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Alejandra, gracias por conectar 👋\n\nLeí tu publicación de cierre en UVE y me quedó esa impresión de que gran parte de los 5 años fueron dedicados a armar que diferentes actores (administraciones, retailers, agricultores, sociedad civil) hablaran el mismo lenguaje sobre transición proteica. No es lo que la mayoría hace cuando cierra una etapa — suelen armar un resumen de logros puntuales, vos pusiste el acento en el equipo y el movimiento construido.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, si claro si puedo ayudarte lo haré con gusto",
+    "msg2_texto": "Buenas Alejandra!\nAlinear el lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre un mismo tema es uno de los trabajos de comunicación más difíciles que existen — cada actor tiene incentivos completamente distintos.\nCómo lo encarabas cuando el mensaje que funcionaba para una administración no conectaba con los agricultores?\nEn Hint Media trabajamos comunicación y contenido con organizaciones que necesitan sostener coherencia narrativa en ecosistemas de múltiples actores. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola! Muchas gracias, la verdad es que el tipo de trabajo que comentas me resulta especialmente interesante porque gran parte de mi trayectoria ha estado precisamente vinculada a gestionar comunicación en entornos con múltiples stakeholders y agendas muy distintas. Y además me encantaría ver que enfoque proponéis desde Hint Media.\nEstaré encantada de echarle un vistazo, puedes compartírmelo directamente por aquí sin problema :)",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Post de cierre en UVE: 5 años alineando lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre transición proteica. Puso el acento en el movimiento construido y el equipo, no en logros puntuales.",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "puedo",
+      "ayudarte",
+      "hare",
+      "gusto",
+      "muchas",
+      "verdad",
+      "tipo",
+      "trabajo",
+      "comentas"
+    ],
+    "notas": "- Respuesta neutra \"con gusto\" en MSG1 → ir directo al cuerpo.\n- Sector advocacy/public affairs → Destiny Group.\n- En transición profesional post-UVE — win personal SEG1: que su trabajo de 5 años siga siendo legible para su próximo empleador.\n- HIGH engagement confirmado en respuesta MSG2. SEG1 si no responde en 48-72hs."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Alejandra Salas Petit]\n[EMPRESA: Ex-UVE (programa protein transition) — actualmente en transición]\n[CARGO: International Communications & Advocacy Specialist | Media Relations | Public Affairs]\n[SECTOR: Comunicaciones / Advocacy / Public Affairs]\n[PAIS: España]\n[SENAL: Post de cierre en UVE: 5 años alineando lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre transición proteica. Puso el acento en el movimiento construido y el equipo, no en logros puntuales.]\n\n[MSG1]\nAlejandra, gracias por conectar 👋\n\nLeí tu publicación de cierre en UVE y me quedó esa impresión de que gran parte de los 5 años fueron dedicados a armar que diferentes actores (administraciones, retailers, agricultores, sociedad civil) hablaran el mismo lenguaje sobre transición proteica. No es lo que la mayoría hace cuando cierra una etapa — suelen armar un resumen de logros puntuales, vos pusiste el acento en el equipo y el movimiento construido.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, si claro si puedo ayudarte lo haré con gusto\n\n[MSG2]\nBuenas Alejandra!\nAlinear el lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre un mismo tema es uno de los trabajos de comunicación más difíciles que existen — cada actor tiene incentivos completamente distintos.\nCómo lo encarabas cuando el mensaje que funcionaba para una administración no conectaba con los agricultores?\nEn Hint Media trabajamos comunicación y contenido con organizaciones que necesitan sostener coherencia narrativa en ecosistemas de múltiples actores. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nHola! Muchas gracias, la verdad es que el tipo de trabajo que comentas me resulta especialmente interesante porque gran parte de mi trayectoria ha estado precisamente vinculada a gestionar comunicación en entornos con múltiples stakeholders y agendas muy distintas. Y además me encantaría ver que enfoque proponéis desde Hint Media.\nEstaré encantada de echarle un vistazo, puedes compartírmelo directamente por aquí sin problema :)\n\n[MSG3]\nBuenas Alejandra! Qué bueno que conecta, justamente ese es el foco del trabajo que hacemos.\nTe comparto el dossier: [LINK DOSSIER]\nSomos un equipo completo integrado a la estructura del cliente: contenido, estrategia, producción y gestión de cuenta en un solo lugar. Cualquier cosa que surja después de verlo, acá estamos.\n\n[NOTAS]\n- Respuesta neutra \"con gusto\" en MSG1 → ir directo al cuerpo.\n- Sector advocacy/public affairs → Destiny Group.\n- En transición profesional post-UVE — win personal SEG1: que su trabajo de 5 años siga siendo legible para su próximo empleador.\n- HIGH engagement confirmado en respuesta MSG2. SEG1 si no responde en 48-72hs.",
+    "raw_md": "# Alejandra Salas Petit\n\n**Fecha:** 02/07/26\n**Cargo:** International Communications & Advocacy Specialist | Media Relations | Public Affairs\n**Empresa:** Ex-UVE (programa protein transition) — actualmente en transición\n**Pais:** España\n**Sector:** Comunicaciones / Advocacy / Public Affairs\n**Estado:** Dossier enviado — 03/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Post de cierre en UVE: 5 años alineando lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre transición proteica. Puso el acento en el movimiento construido y el equipo, no en logros puntuales.\n- **Tensión profesional:** Mantener narrativa coherente en ecosistemas de múltiples actores con incentivos completamente distintos.\n- **Ángulo MSG1:** 5 años construyendo lenguaje común entre actores dispares — es trabajo de comunicación estratégica multiactor.\n\n---\n\n## MSG1\n> Alejandra, gracias por conectar 👋\n>\n> Leí tu publicación de cierre en UVE y me quedó esa impresión de que gran parte de los 5 años fueron dedicados a armar que diferentes actores (administraciones, retailers, agricultores, sociedad civil) hablaran el mismo lenguaje sobre transición proteica. No es lo que la mayoría hace cuando cierra una etapa — suelen armar un resumen de logros puntuales, vos pusiste el acento en el equipo y el movimiento construido.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1 (02/07/26)\n> Hola Florencia, si claro si puedo ayudarte lo haré con gusto\n\n## MSG2 (02/07/26)\n> Buenas Alejandra!\n> Alinear el lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre un mismo tema es uno de los trabajos de comunicación más difíciles que existen — cada actor tiene incentivos completamente distintos.\n> Cómo lo encarabas cuando el mensaje que funcionaba para una administración no conectaba con los agricultores?\n> En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan sostener coherencia narrativa en ecosistemas de múltiples actores. Clientes como Destiny Group y Libra Seguros.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (03/07/26) — HIGH engagement\n> Hola! Muchas gracias, la verdad es que el tipo de trabajo que comentas me resulta especialmente interesante porque gran parte de mi trayectoria ha estado precisamente vinculada a gestionar comunicación en entornos con múltiples stakeholders y agendas muy distintas. Y además me encantaría ver que enfoque proponéis desde Hint Media.\n> Estaré encantada de echarle un vistazo, puedes compartírmelo directamente por aquí sin problema :)\n\n## MSG3 — dossier (03/07/26)\n> Buenas Alejandra! Qué bueno que conecta, justamente ese es el foco del trabajo que hacemos.\n> Te comparto el dossier: [LINK DOSSIER]\n> Somos un equipo completo integrado a la estructura del cliente: contenido, estrategia, producción y gestión de cuenta en un solo lugar. Cualquier cosa que surja después de verlo, acá estamos.\n\n## Notas\n- Respuesta neutra \"con gusto\" en MSG1 → ir directo al cuerpo.\n- Sector advocacy/public affairs → Destiny Group.\n- En transición profesional post-UVE — win personal SEG1: que su trabajo de 5 años siga siendo legible para su próximo empleador.\n- HIGH engagement confirmado en respuesta MSG2. SEG1 si no responde en 48-72hs.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000088",
+  "contact_id": "ctc_000003",
+  "source_file": "conversaciones/julio/ricardo-vargas-burgos.md",
+  "fingerprint": "sha256:613aed386d3ccac3ebda1d961aea4b407217c5e4c8bdb2f2a6f2c170cc4b96c0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/ricardo-vargas-burgos.md",
+    "file_hash": "sha256:613aed386d3ccac3ebda1d961aea4b407217c5e4c8bdb2f2a6f2c170cc4b96c0",
+    "file_modified": "2026-07-06T14:33:28.458810+00:00",
+    "file_size": 3480,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Ricardo Vargas Burgos",
+    "empresa": "Área metropolitana de Santiago",
+    "cargo": "MBA / Comunicaciones Corporativas / Sostenibilidad / Asuntos Corporativos.",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ricardo, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre por qué se desmotivan los equipos de comunicación corporativa. No porque diagnosticara un problema, sino porque la formulaste desde el lugar de \"el verdadero reto para quienes asumimos la dirección\". Eso es diferente. La mayoría de los que escriben sobre esto señalan carencias; vos señalaste que el desafío es transformar eso en palancas de valor desde el liderazgo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia. Un gusto estar en contacto.\nGracias por tu análisis también. El foco que indicas es correcto. Cuéntame tu duda",
+    "msg2_texto": "Buenas Ricardo! Justo eso quería explorar.\nCuando planteás que el reto es transformar la desmotivación en palancas de valor desde el liderazgo, cómo hacés para que esa visión sea legible hacia afuera, para las organizaciones con las que trabajás o con las que querés trabajar?\nTrabajo en Hint Media, una agencia de comunicación corporativa. Acompañamos a líderes y organizaciones a construir esa capa de visibilidad externa: vocería, contenidos y posicionamiento en medios digitales. Trabajamos con Destiny Group en comunicación institucional y posicionamiento de sus áreas de liderazgo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre desmotivación en equipos de comunicación. Ricardo no describió un problema ajeno, sino que reflexionó públicamente sobre \"el verdadero reto para quienes asumimos la dirección\", posicionándose como líder que enfrenta tensión entre lo estratégico y lo operativo. Propone soluciones concretas: pedagogía interna y automatización. Muestra que entiende que el desgaste viene de no ser valorado internamente. Esta señal es especialmente relevante porque revela cómo piensa sobre liderazgo: no como diagnóstico de debilidad, sino como gestión de complejidad.",
+    "hipotesis": "Cómo escalar comunicación corporativa sin que la operación diaria consuma a los equipos. Cómo estructurar la función de comunicaciones para que sea sostenible y estratégica simultáneamente. El rol de la automatización y las alianzas externas en liberar capacidad de pensamiento estratégico.",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "estar",
+      "contacto",
+      "analisis",
+      "tambien",
+      "foco",
+      "indicas",
+      "correcto",
+      "cuentame"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ricardo Vargas Burgos]\n[EMPRESA: Área metropolitana de Santiago]\n[CARGO: MBA / Comunicaciones Corporativas / Sostenibilidad / Asuntos Corporativos.]\n[SECTOR: Servicios Financieros / Fintech (Servipag es plataforma de pagos)]\n[PAIS: Chile]\n[SENAL: La publicación sobre desmotivación en equipos de comunicación. Ricardo no describió un problema ajeno, sino que reflexionó públicamente sobre \"el verdadero reto para quienes asumimos la dirección\", posicionándose como líder que enfrenta tensión entre lo estratégico y lo operativo. Propone soluciones concretas: pedagogía interna y automatización. Muestra que entiende que el desgaste viene de no ser valorado internamente. Esta señal es especialmente relevante porque revela cómo piensa sobre liderazgo: no como diagnóstico de debilidad, sino como gestión de complejidad.]\n[HIPOTESIS: Cómo escalar comunicación corporativa sin que la operación diaria consuma a los equipos. Cómo estructurar la función de comunicaciones para que sea sostenible y estratégica simultáneamente. El rol de la automatización y las alianzas externas en liberar capacidad de pensamiento estratégico.]\n\n[MSG1]\nRicardo, gracias por conectar. 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre por qué se desmotivan los equipos de comunicación corporativa. No porque diagnosticara un problema, sino porque la formulaste desde el lugar de \"el verdadero reto para quienes asumimos la dirección\". Eso es diferente. La mayoría de los que escriben sobre esto señalan carencias; vos señalaste que el desafío es transformar eso en palancas de valor desde el liderazgo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia. Un gusto estar en contacto.\nGracias por tu análisis también. El foco que indicas es correcto. Cuéntame tu duda\n\n[MSG2]\nBuenas Ricardo! Justo eso quería explorar.\nCuando planteás que el reto es transformar la desmotivación en palancas de valor desde el liderazgo, cómo hacés para que esa visión sea legible hacia afuera, para las organizaciones con las que trabajás o con las que querés trabajar?\nTrabajo en Hint Media, una agencia de comunicación corporativa. Acompañamos a líderes y organizaciones a construir esa capa de visibilidad externa: vocería, contenidos y posicionamiento en medios digitales. Trabajamos con Destiny Group en comunicación institucional y posicionamiento de sus áreas de liderazgo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Ricardo Vargas Burgos\n\n**Fecha:** 06/07/26\n**Cargo:** MBA / Comunicaciones Corporativas / Sostenibilidad / Asuntos Corporativos.\n**Empresa:** Área metropolitana de Santiago\n**Pais:** Chile\n**Sector:** Servicios Financieros / Fintech (Servipag es plataforma de pagos)\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre desmotivación en equipos de comunicación. Ricardo no describió un problema ajeno, sino que reflexionó públicamente sobre \"el verdadero reto para quienes asumimos la dirección\", posicionándose como líder que enfrenta tensión entre lo estratégico y lo operativo. Propone soluciones concretas: pedagogía interna y automatización. Muestra que entiende que el desgaste viene de no ser valorado internamente. Esta señal es especialmente relevante porque revela cómo piensa sobre liderazgo: no como diagnóstico de debilidad, sino como gestión de complejidad.\n- **Tensión profesional:** Equilibrar la construcción de narrativa corporativa coherente (lo que debe comunicarse) con la sostenibilidad operativa de los equipos que la ejecutan (quién lo hace y por cuánto tiempo). Aparecer estratégico ante directivos mientras mantiene capacidad de ejecución táctica sin que todo dependa de una sola persona o se queme el equipo.\n- **Hipótesis:** Cómo escalar comunicación corporativa sin que la operación diaria consuma a los equipos. Cómo estructurar la función de comunicaciones para que sea sostenible y estratégica simultáneamente. El rol de la automatización y las alianzas externas en liberar capacidad de pensamiento estratégico.\n- **Ángulo MSG1:** La reflexión pública sobre desmotivación en equipos de comunicación corporativa, donde plantea que \"el verdadero reto es transformar estos desafíos en palancas de valor\" desde el liderazgo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Ricardo, gracias por conectar. 👋\n>\n> Me llamó la atención la publicación que compartiste hace poco sobre por qué se desmotivan los equipos de comunicación corporativa. No porque diagnosticara un problema, sino porque la formulaste desde el lugar de \"el verdadero reto para quienes asumimos la dirección\". Eso es diferente. La mayoría de los que escriben sobre esto señalan carencias; vos señalaste que el desafío es transformar eso en palancas de valor desde el liderazgo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia. Un gusto estar en contacto.\n> Gracias por tu análisis también. El foco que indicas es correcto. Cuéntame tu duda\n\n---\n\n## MSG2\n> Buenas Ricardo! Justo eso quería explorar.\n> Cuando planteás que el reto es transformar la desmotivación en palancas de valor desde el liderazgo, cómo hacés para que esa visión sea legible hacia afuera, para las organizaciones con las que trabajás o con las que querés trabajar?\n> Trabajo en Hint Media, una agencia de comunicación corporativa. Acompañamos a líderes y organizaciones a construir esa capa de visibilidad externa: vocería, contenidos y posicionamiento en medios digitales. Trabajamos con Destiny Group en comunicación institucional y posicionamiento de sus áreas de liderazgo.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

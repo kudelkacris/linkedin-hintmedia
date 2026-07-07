@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000015",
+  "contact_id": "ctc_000076",
+  "source_file": "conversaciones/julio/brenda-vaca.md",
+  "fingerprint": "sha256:74d33ef0fb86bb8ac39528ddbab7fdac2b81cd0756c152a3df618e30319d8fdf",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/brenda-vaca.md",
+    "file_hash": "sha256:74d33ef0fb86bb8ac39528ddbab7fdac2b81cd0756c152a3df618e30319d8fdf",
+    "file_modified": "2026-07-06T13:05:55.459634+00:00",
+    "file_size": 2829,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Brenda Vaca",
+    "empresa": "PUSH Accesorios",
+    "cargo": "Creación y posicionamiento de Marcas / Branding / Lanzamiento de Productos / Fortalecimiento de PDV / Estrategias Comerciales y Ventas B2B y B2C",
+    "pais": "Ecuador",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Brenda, gracias por conectar! 👋\n\nMe llamó la atención cómo comunicaste la apertura de la tienda 16 en Cuenca. Podría haber sido un anuncio sobre la expansión, pero elegiste dar la voz al equipo que lo hizo posible. \"Nada de esto sería posible sin el extraordinario equipo\" — eso no es lo que la mayoría publica cuando quiere mostrar un logro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, claro dime qué duda tienes",
+    "msg2_texto": "Buenas Brenda! Lo de dar la voz al equipo al anunciar una apertura no es lo más común en retail, la mayoría lo centra en la marca o el local.\nLlegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?\nEn Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Claro, puedes enviarme\nPara revisarlo",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre inauguración de tienda 16 en Cuenca donde reconoce explícitamente al equipo: \"Nada de esto sería posible sin el extraordinario equipo que dio vida a este proyecto. Queremos expresar nuestro más profundo agradecimiento por meses de arduo trabajo\". Patrón repetido en otras publicaciones (agradecimiento al equipo, énfasis en experiencia más que en venta).",
+    "hipotesis": "Escalamiento de marca retail + construcción de equipos de marketing + sostenibilidad de comunicación en contextos de crecimiento acelerado (múltiples mercados, múltiples formatos).",
+    "palabras_clave": [
+      "florencia",
+      "dime",
+      "duda",
+      "tienes",
+      "puedes",
+      "enviarme",
+      "revisarlo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Brenda Vaca]\n[EMPRESA: PUSH Accesorios]\n[CARGO: Creación y posicionamiento de Marcas / Branding / Lanzamiento de Productos / Fortalecimiento de PDV / Estrategias Comerciales y Ventas B2B y B2C]\n[SECTOR: Retail / Moda / Accesorios]\n[PAIS: Ecuador]\n[SENAL: Publicación sobre inauguración de tienda 16 en Cuenca donde reconoce explícitamente al equipo: \"Nada de esto sería posible sin el extraordinario equipo que dio vida a este proyecto. Queremos expresar nuestro más profundo agradecimiento por meses de arduo trabajo\". Patrón repetido en otras publicaciones (agradecimiento al equipo, énfasis en experiencia más que en venta).]\n[HIPOTESIS: Escalamiento de marca retail + construcción de equipos de marketing + sostenibilidad de comunicación en contextos de crecimiento acelerado (múltiples mercados, múltiples formatos).]\n\n[MSG1]\nBrenda, gracias por conectar! 👋\n\nMe llamó la atención cómo comunicaste la apertura de la tienda 16 en Cuenca. Podría haber sido un anuncio sobre la expansión, pero elegiste dar la voz al equipo que lo hizo posible. \"Nada de esto sería posible sin el extraordinario equipo\" — eso no es lo que la mayoría publica cuando quiere mostrar un logro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, claro dime qué duda tienes\n\n[MSG2]\nBuenas Brenda! Lo de dar la voz al equipo al anunciar una apertura no es lo más común en retail, la mayoría lo centra en la marca o el local.\nLlegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?\nEn Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nClaro, puedes enviarme\nPara revisarlo\n\n[MSG3]\nBuenas Brenda! Te comparto el dossier: [LINK DOSSIER]\nCualquier cosa que surja después de verlo, acá estamos.",
+    "raw_md": "# Brenda Vaca\n\n**Fecha:** 01/07/26\n**Cargo:** Creación y posicionamiento de Marcas / Branding / Lanzamiento de Productos / Fortalecimiento de PDV / Estrategias Comerciales y Ventas B2B y B2C\n**Empresa:** PUSH Accesorios\n**Pais:** Ecuador\n**Sector:** Retail / Moda / Accesorios\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre inauguración de tienda 16 en Cuenca donde reconoce explícitamente al equipo: \"Nada de esto sería posible sin el extraordinario equipo que dio vida a este proyecto. Queremos expresar nuestro más profundo agradecimiento por meses de arduo trabajo\". Patrón repetido en otras publicaciones (agradecimiento al equipo, énfasis en experiencia más que en venta).\n- **Tensión profesional:** Coordinar múltiples iniciativas simultáneamente (nuevas aperturas, líneas de producto, comunicación digital, equipo) sin que la ejecución se centralice en una sola persona ni pierda calidad narrativa.\n- **Hipótesis:** Escalamiento de marca retail + construcción de equipos de marketing + sostenibilidad de comunicación en contextos de crecimiento acelerado (múltiples mercados, múltiples formatos).\n- **Ángulo MSG1:** La forma deliberada en que reconoce al equipo detrás de los lanzamientos (no la inauguración en sí, sino cómo elige destacar a quienes ejecutan).\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Brenda, gracias por conectar! 👋\n>\n> Me llamó la atención cómo comunicaste la apertura de la tienda 16 en Cuenca. Podría haber sido un anuncio sobre la expansión, pero elegiste dar la voz al equipo que lo hizo posible. \"Nada de esto sería posible sin el extraordinario equipo\" — eso no es lo que la mayoría publica cuando quiere mostrar un logro.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (03/07/26)\n> Hola Florencia, claro dime qué duda tienes\n\n## MSG2 (03/07/26)\n> Buenas Brenda! Lo de dar la voz al equipo al anunciar una apertura no es lo más común en retail, la mayoría lo centra en la marca o el local.\n> Llegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?\n> En Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (06/07/26)\n> Claro, puedes enviarme\n> Para revisarlo\n\n## Dossier enviado (06/07/26)\n> Buenas Brenda! Te comparto el dossier: [LINK DOSSIER]\n> Cualquier cosa que surja después de verlo, acá estamos.\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

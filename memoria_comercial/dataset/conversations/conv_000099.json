@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000099",
+  "contact_id": "ctc_000065",
+  "source_file": "conversaciones/julio/susana-sordo.md",
+  "fingerprint": "sha256:66af9688ffb8d5c4e69eea7342af3076e9718aa69cbac707e8d06f962cdcc375",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/susana-sordo.md",
+    "file_hash": "sha256:66af9688ffb8d5c4e69eea7342af3076e9718aa69cbac707e8d06f962cdcc375",
+    "file_modified": "2026-07-06T14:19:12.733008+00:00",
+    "file_size": 2454,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Susana Sordo",
+    "empresa": "España",
+    "cargo": "Marketing & Communications Manager | Corporate communications | Digital Marketing I Institutional Relations I B2B - Tech sectors | Growth & Internatio",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Susana, gracias por conectar. 👋\n\nMe llamó la atención la reflexión que compartiste sobre tu primer año en A2SECURE, especialmente cómo describiste el ritmo: eventos, estrategia, entrevistas, stands, delegaciones internacionales, KPIs. Lo que más me quedó fue que lo planteabas como algo que \"voló\", pero con consciencia clara de todo lo que había adentro. No es lo que la mayoría visibiliza cuando habla de un primer año exitoso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación de retrospectiva sobre su primer año en A2SECURE donde destaca no solo resultados comerciales y eventos (RiskbladeConnect, Money20/20, ONE Conference) sino también el aspecto humano: \"Cada persona con la que compartí un café, una conversación, un proyecto\", la adhesión al Pacto Mundial de la ONU, la promoción de talento femenino interno, y cómo la certificación HappyAtWork validó \"que somos un lugar feliz para trabajar. Después de un año, puedo decirlo.\"",
+    "hipotesis": "Cómo sostener la construcción de marca y narrativa estratégica durante fases de transformación empresarial sin que la ejecución se convierta en un cuello de botella. O: cómo amplificar storytelling sectorial (ciberseguridad, sostenibilidad, talento femenino) sin dispersarse en demasiados frentes.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Susana Sordo]\n[EMPRESA: España]\n[CARGO: Marketing & Communications Manager | Corporate communications | Digital Marketing I Institutional Relations I B2B - Tech sectors | Growth & Internatio]\n[SECTOR: Ciberseguridad / Tech B2B]\n[PAIS: España]\n[SENAL: Publicación de retrospectiva sobre su primer año en A2SECURE donde destaca no solo resultados comerciales y eventos (RiskbladeConnect, Money20/20, ONE Conference) sino también el aspecto humano: \"Cada persona con la que compartí un café, una conversación, un proyecto\", la adhesión al Pacto Mundial de la ONU, la promoción de talento femenino interno, y cómo la certificación HappyAtWork validó \"que somos un lugar feliz para trabajar. Después de un año, puedo decirlo.\"]\n[HIPOTESIS: Cómo sostener la construcción de marca y narrativa estratégica durante fases de transformación empresarial sin que la ejecución se convierta en un cuello de botella. O: cómo amplificar storytelling sectorial (ciberseguridad, sostenibilidad, talento femenino) sin dispersarse en demasiados frentes.]\n\n[MSG1]\nSusana, gracias por conectar. 👋\n\nMe llamó la atención la reflexión que compartiste sobre tu primer año en A2SECURE, especialmente cómo describiste el ritmo: eventos, estrategia, entrevistas, stands, delegaciones internacionales, KPIs. Lo que más me quedó fue que lo planteabas como algo que \"voló\", pero con consciencia clara de todo lo que había adentro. No es lo que la mayoría visibiliza cuando habla de un primer año exitoso.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Susana Sordo\n\n**Fecha:** 06/07/26\n**Cargo:** Marketing & Communications Manager | Corporate communications | Digital Marketing I Institutional Relations I B2B - Tech sectors | Growth & Internatio\n**Empresa:** España\n**Pais:** España\n**Sector:** Ciberseguridad / Tech B2B\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación de retrospectiva sobre su primer año en A2SECURE donde destaca no solo resultados comerciales y eventos (RiskbladeConnect, Money20/20, ONE Conference) sino también el aspecto humano: \"Cada persona con la que compartí un café, una conversación, un proyecto\", la adhesión al Pacto Mundial de la ONU, la promoción de talento femenino interno, y cómo la certificación HappyAtWork validó \"que somos un lugar feliz para trabajar. Después de un año, puedo decirlo.\"\n- **Tensión profesional:** Mantener coherencia narrativa y ejecución de marca mientras la empresa atraviesa transformación organizacional significativa (cambio de imagen, nuevas alianzas estratégicas, expansión internacional, integración de sostenibilidad) sin que todo dependa de su liderazgo personal, coordinando múltiples iniciativas simultáneamente.\n- **Hipótesis:** Cómo sostener la construcción de marca y narrativa estratégica durante fases de transformación empresarial sin que la ejecución se convierta en un cuello de botella. O: cómo amplificar storytelling sectorial (ciberseguridad, sostenibilidad, talento femenino) sin dispersarse en demasiados frentes.\n- **Ángulo MSG1:** La publicación de retrospectiva del primer año donde refleja consciencia sobre la complejidad del trabajo (\"entre eventos, estrategia, entrevistas, stands, delegaciones internacionales, KPIs... el año voló\") pero también sobre el aspecto humano de construir comunidad, no solo campaigns.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Susana, gracias por conectar. 👋\n>\n> Me llamó la atención la reflexión que compartiste sobre tu primer año en A2SECURE, especialmente cómo describiste el ritmo: eventos, estrategia, entrevistas, stands, delegaciones internacionales, KPIs. Lo que más me quedó fue que lo planteabas como algo que \"voló\", pero con consciencia clara de todo lo que había adentro. No es lo que la mayoría visibiliza cuando habla de un primer año exitoso.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

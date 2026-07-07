@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000065",
+  "contact_id": "ctc_000026",
+  "source_file": "conversaciones/julio/laura-chac-n-mu-oz.md",
+  "fingerprint": "sha256:60c76bafbd6e34beeb3d725da972b68d7f7dde529ed34e1ff1386aaf24f8a1b8",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/laura-chac-n-mu-oz.md",
+    "file_hash": "sha256:60c76bafbd6e34beeb3d725da972b68d7f7dde529ed34e1ff1386aaf24f8a1b8",
+    "file_modified": "2026-07-06T16:05:09.044832+00:00",
+    "file_size": 3558,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Laura Chacón Muñoz",
+    "empresa": "Regional Marketing Manager",
+    "cargo": "Regional Marketing Manager",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Laura, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión en el FT Women in Business Summit sobre quién toma las decisiones. La mayoría de los que trabajan en marketing no lo dicen públicamente, y vos sí. Imagino que eso viene de pasar el día pensando en cómo la próxima generación aprende a colaborar y pensar, pero viéndote con poco espacio en la mesa donde eso se define.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Me alegra que mi reflexión te hiciera reflexionar, valga la redundancia. Creo que aunque no se diga en alto, está bien claro el perfil de quien habitualmente toma las decisiones. ¿Qué consulta tenías?",
+    "msg2_texto": "Buenas Laura! Me quedé con eso que decís: \"aunque no se diga en alto, está bien claro\". Esa claridad es la parte incómoda.\nEn marketing B2B regional, cómo estás comunicando el impacto de lo que hacés hacia quienes finalmente toman las decisiones sobre el área?\nTrabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a equipos de marketing a construir esa narrativa de impacto: contenido, posicionamiento y comunicación de resultados. Trabajamos con Destiny Group en comunicación y estrategia de sus áreas comerciales.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación en FT Women in Business Summit donde reflexiona sobre representación femenina en toma de decisiones. No solo asistió, sino que compartió aprendizajes específicos (AI adoption, learning like a lobster, investing for change) y mencionó el impacto de escuchar a Nazanin Zaghari-Ratcliffe. Reveló preocupación genuina sobre quién toma decisiones en espacios de influencia, conectándolo con su trabajo en educación.",
+    "hipotesis": "Conversación sobre cómo escalar ejecución de marketing sin perder coherencia de marca cuando hay múltiples equipos, mercados y públicos. También potencial reflexión sobre cómo mantenerse posicionada en un rol de influencia estratégica dentro de una estructura matricial compleja.",
+    "palabras_clave": [
+      "florencia",
+      "alegra",
+      "reflexion",
+      "hiciera",
+      "reflexionar",
+      "valga",
+      "redundancia",
+      "creo",
+      "aunque",
+      "diga"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Laura Chacón Muñoz]\n[EMPRESA: Regional Marketing Manager]\n[CARGO: Regional Marketing Manager]\n[SECTOR: Educación / EdTech / Publishing]\n[PAIS: España]\n[SENAL: Publicación en FT Women in Business Summit donde reflexiona sobre representación femenina en toma de decisiones. No solo asistió, sino que compartió aprendizajes específicos (AI adoption, learning like a lobster, investing for change) y mencionó el impacto de escuchar a Nazanin Zaghari-Ratcliffe. Reveló preocupación genuina sobre quién toma decisiones en espacios de influencia, conectándolo con su trabajo en educación.]\n[HIPOTESIS: Conversación sobre cómo escalar ejecución de marketing sin perder coherencia de marca cuando hay múltiples equipos, mercados y públicos. También potencial reflexión sobre cómo mantenerse posicionada en un rol de influencia estratégica dentro de una estructura matricial compleja.]\n\n[MSG1]\nLaura, gracias por conectar! 👋\n\nMe llamó la atención tu reflexión en el FT Women in Business Summit sobre quién toma las decisiones. La mayoría de los que trabajan en marketing no lo dicen públicamente, y vos sí. Imagino que eso viene de pasar el día pensando en cómo la próxima generación aprende a colaborar y pensar, pero viéndote con poco espacio en la mesa donde eso se define.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, Florencia. Me alegra que mi reflexión te hiciera reflexionar, valga la redundancia. Creo que aunque no se diga en alto, está bien claro el perfil de quien habitualmente toma las decisiones. ¿Qué consulta tenías?\n\n[MSG2]\nBuenas Laura! Me quedé con eso que decís: \"aunque no se diga en alto, está bien claro\". Esa claridad es la parte incómoda.\nEn marketing B2B regional, cómo estás comunicando el impacto de lo que hacés hacia quienes finalmente toman las decisiones sobre el área?\nTrabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a equipos de marketing a construir esa narrativa de impacto: contenido, posicionamiento y comunicación de resultados. Trabajamos con Destiny Group en comunicación y estrategia de sus áreas comerciales.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[MSG3]\nSí, claro, mándamelo. Ahora mismo no estamos buscando agencia, pero nunca se sabe cuándo puede ser.",
+    "raw_md": "# Laura Chacón Muñoz\n\n**Fecha:** 06/07/26\n**Cargo:** Regional Marketing Manager\n**Empresa:** Regional Marketing Manager\n**Pais:** España\n**Sector:** Educación / EdTech / Publishing\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación en FT Women in Business Summit donde reflexiona sobre representación femenina en toma de decisiones. No solo asistió, sino que compartió aprendizajes específicos (AI adoption, learning like a lobster, investing for change) y mencionó el impacto de escuchar a Nazanin Zaghari-Ratcliffe. Reveló preocupación genuina sobre quién toma decisiones en espacios de influencia, conectándolo con su trabajo en educación.\n- **Tensión profesional:** Gestionar transformación digital en un entorno tradicionalmente offline mientras coordina múltiples públicos con necesidades distintas, sin que la ejecución dependa de una sola persona ni se pierda consistencia en el posicionamiento a través de diversos canales y mercados.\n- **Hipótesis:** Conversación sobre cómo escalar ejecución de marketing sin perder coherencia de marca cuando hay múltiples equipos, mercados y públicos. También potencial reflexión sobre cómo mantenerse posicionada en un rol de influencia estratégica dentro de una estructura matricial compleja.\n- **Ángulo MSG1:** Reflexión publicada sobre representación y toma de decisiones en contextos de liderazgo. Ese detalle reveló que para Laura no es solo ejecutar marketing, sino también pensarse a sí misma dentro de sistemas de poder e influencia — lo que conecta con la complejidad de su rol actual coordinando múltiples stakeholders.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Laura, gracias por conectar! 👋\n>\n> Me llamó la atención tu reflexión en el FT Women in Business Summit sobre quién toma las decisiones. La mayoría de los que trabajan en marketing no lo dicen públicamente, y vos sí. Imagino que eso viene de pasar el día pensando en cómo la próxima generación aprende a colaborar y pensar, pero viéndote con poco espacio en la mesa donde eso se define.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola, Florencia. Me alegra que mi reflexión te hiciera reflexionar, valga la redundancia. Creo que aunque no se diga en alto, está bien claro el perfil de quien habitualmente toma las decisiones. ¿Qué consulta tenías?\n\n---\n\n## MSG2\n> Buenas Laura! Me quedé con eso que decís: \"aunque no se diga en alto, está bien claro\". Esa claridad es la parte incómoda.\n> En marketing B2B regional, cómo estás comunicando el impacto de lo que hacés hacia quienes finalmente toman las decisiones sobre el área?\n> Trabajo en Hint Media, una agencia de comunicación B2B. Acompañamos a equipos de marketing a construir esa narrativa de impacto: contenido, posicionamiento y comunicación de resultados. Trabajamos con Destiny Group en comunicación y estrategia de sus áreas comerciales.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Dossier\n> Sí, claro, mándamelo. Ahora mismo no estamos buscando agencia, pero nunca se sabe cuándo puede ser.\n\nRespuesta envío: \"Perfecto Laura, te lo mando ahora! Y sí, nunca se sabe. Por lo menos cuando llegue el momento, ya tenés contexto de qué hacemos.\"\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

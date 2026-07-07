@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000027",
+  "contact_id": "ctc_000049",
+  "source_file": "conversaciones/julio/dashka-dash-vaz.md",
+  "fingerprint": "sha256:b342f38e208675b2df68fd793783395c8e2fabc204596892d06c0a0a27d9093f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/dashka-dash-vaz.md",
+    "file_hash": "sha256:b342f38e208675b2df68fd793783395c8e2fabc204596892d06c0a0a27d9093f",
+    "file_modified": "2026-07-06T14:47:37.205857+00:00",
+    "file_size": 2079,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Dashka (Dash) Vaz",
+    "empresa": "Grupo Panama Car Rental",
+    "cargo": "Full Stack Marketer | Branding | Storytelling | E-Commerce | Locución",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Dashka, gracias por conectar! 👋\n\nMe llamó la atención que en lugar de solo compartir campañas puntuales, documentes iniciativas con propósito: alianzas culturales, sostenibilidad, reconocimientos. No es lo que la mayoría de los marketers destaca cuando está liderando un equipo. Da la impresión de que para vos la marca se construye desde narrativas que duran, no desde posts aislados.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Documentación deliberada de iniciativas de impacto: participación en jornada de sostenibilidad (Día de la Tierra con Fundación Moviendo Vidas), posicionamiento como sponsor de culturales (Festival de Cine, segundo año consecutivo), celebración de reconocimientos internacionales. Muestra que para ella no es solo \"hacer marketing\", sino construcción de narrativa corporativa con propósito.",
+    "hipotesis": "Cómo escalar la ejecución de marketing sin quemar al equipo interno. Cómo pasar de \"hacer campañas puntuales\" a \"construcción sostenible de narrativa corporativa\". Cómo transformar una empresa operativa (rent-a-car) en marca con posicionamiento estratégico.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Dashka (Dash) Vaz]\n[EMPRESA: Grupo Panama Car Rental]\n[CARGO: Full Stack Marketer | Branding | Storytelling | E-Commerce | Locución]\n[SECTOR: Retail / Transporte / Servicios (movilidad empresarial)]\n[PAIS: Panamá]\n[SENAL: Documentación deliberada de iniciativas de impacto: participación en jornada de sostenibilidad (Día de la Tierra con Fundación Moviendo Vidas), posicionamiento como sponsor de culturales (Festival de Cine, segundo año consecutivo), celebración de reconocimientos internacionales. Muestra que para ella no es solo \"hacer marketing\", sino construcción de narrativa corporativa con propósito.]\n[HIPOTESIS: Cómo escalar la ejecución de marketing sin quemar al equipo interno. Cómo pasar de \"hacer campañas puntuales\" a \"construcción sostenible de narrativa corporativa\". Cómo transformar una empresa operativa (rent-a-car) en marca con posicionamiento estratégico.]\n\n[MSG1]\nDashka, gracias por conectar! 👋\n\nMe llamó la atención que en lugar de solo compartir campañas puntuales, documentes iniciativas con propósito: alianzas culturales, sostenibilidad, reconocimientos. No es lo que la mayoría de los marketers destaca cuando está liderando un equipo. Da la impresión de que para vos la marca se construye desde narrativas que duran, no desde posts aislados.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Dashka (Dash) Vaz\n\n**Fecha:** 06/07/26\n**Cargo:** Full Stack Marketer | Branding | Storytelling | E-Commerce | Locución\n**Empresa:** Grupo Panama Car Rental\n**Pais:** Panamá\n**Sector:** Retail / Transporte / Servicios (movilidad empresarial)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Documentación deliberada de iniciativas de impacto: participación en jornada de sostenibilidad (Día de la Tierra con Fundación Moviendo Vidas), posicionamiento como sponsor de culturales (Festival de Cine, segundo año consecutivo), celebración de reconocimientos internacionales. Muestra que para ella no es solo \"hacer marketing\", sino construcción de narrativa corporativa con propósito.\n- **Tensión profesional:** Equilibrar crecimiento de marca y visibilidad corporativa con ejecución operativa de una empresa en expansión (18 sucursales + nueva apertura en Casco Viejo). Mantener consistencia en múltiples canales, equipos y mercados sin que todo dependa de una persona.\n- **Hipótesis:** Cómo escalar la ejecución de marketing sin quemar al equipo interno. Cómo pasar de \"hacer campañas puntuales\" a \"construcción sostenible de narrativa corporativa\". Cómo transformar una empresa operativa (rent-a-car) en marca con posicionamiento estratégico.\n- **Ángulo MSG1:** Iniciativas de impacto corporativo (sostenibilidad, cultura, posicionamiento sectorial) documentadas en su actividad reciente + rol de liderazgo de equipo que requiere coordinación constante.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Dashka, gracias por conectar! 👋\n>\n> Me llamó la atención que en lugar de solo compartir campañas puntuales, documentes iniciativas con propósito: alianzas culturales, sostenibilidad, reconocimientos. No es lo que la mayoría de los marketers destaca cuando está liderando un equipo. Da la impresión de que para vos la marca se construye desde narrativas que duran, no desde posts aislados.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

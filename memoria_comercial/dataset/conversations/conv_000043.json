@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000043",
+  "contact_id": "ctc_000063",
+  "source_file": "conversaciones/julio/hern-n-g-mez-castro.md",
+  "fingerprint": "sha256:2cd8f741a3c4f4797dfc9a81efef683cea888977c0506ab6f7209c5f97a63415",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/hern-n-g-mez-castro.md",
+    "file_hash": "sha256:2cd8f741a3c4f4797dfc9a81efef683cea888977c0506ab6f7209c5f97a63415",
+    "file_modified": "2026-07-06T14:19:54.197054+00:00",
+    "file_size": 2080,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Hernán Gómez Castro",
+    "empresa": "Gerente de Marca",
+    "cargo": "Gerente de Marca",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Hernán, gracias por conectar! 👋\n\nMe llamó mucho la atención cómo escribís sobre las activaciones de marca. En la de Carolina Herrera decís \"crear un momento memorable para nuestrxs consumidores, conectando desde la emoción\", y en la de Invictus hablas de \"una experiencia de marca para los consumidores\". No es lo que la mayoría destaca cuando anuncia un lanzamiento. Normalmente van directo a fechas y productos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publica detalladamente sobre cada activación de marca (no solo los resultados, sino la intención detrás: \"captura la esencia festiva\", \"crear un momento memorable\", \"conectar desde la emoción\"). Destaca el esfuerzo creativo y emocional, no solo la métrica. En la convención PUIG compartida hace 2 meses, da crédito explícito al equipo de Mercorica y sus reconocimientos.",
+    "hipotesis": "Cómo escalar ejecución de marca consistente sin que todo pase por una sola persona. Cómo mantener calidad visual y narrativa cuando coordinás múltiples mercados. Posicionamiento personal como Gerente de Marca en un contexto regional competitivo.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Hernán Gómez Castro]\n[EMPRESA: Gerente de Marca]\n[CARGO: Gerente de Marca]\n[SECTOR: Belleza, Lujo, Distribución]\n[PAIS: Costa Rica]\n[SENAL: Publica detalladamente sobre cada activación de marca (no solo los resultados, sino la intención detrás: \"captura la esencia festiva\", \"crear un momento memorable\", \"conectar desde la emoción\"). Destaca el esfuerzo creativo y emocional, no solo la métrica. En la convención PUIG compartida hace 2 meses, da crédito explícito al equipo de Mercorica y sus reconocimientos.]\n[HIPOTESIS: Cómo escalar ejecución de marca consistente sin que todo pase por una sola persona. Cómo mantener calidad visual y narrativa cuando coordinás múltiples mercados. Posicionamiento personal como Gerente de Marca en un contexto regional competitivo.]\n\n[MSG1]\nHernán, gracias por conectar! 👋\n\nMe llamó mucho la atención cómo escribís sobre las activaciones de marca. En la de Carolina Herrera decís \"crear un momento memorable para nuestrxs consumidores, conectando desde la emoción\", y en la de Invictus hablas de \"una experiencia de marca para los consumidores\". No es lo que la mayoría destaca cuando anuncia un lanzamiento. Normalmente van directo a fechas y productos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Hernán Gómez Castro\n\n**Fecha:** 06/07/26\n**Cargo:** Gerente de Marca\n**Empresa:** Gerente de Marca\n**Pais:** Costa Rica\n**Sector:** Belleza, Lujo, Distribución\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publica detalladamente sobre cada activación de marca (no solo los resultados, sino la intención detrás: \"captura la esencia festiva\", \"crear un momento memorable\", \"conectar desde la emoción\"). Destaca el esfuerzo creativo y emocional, no solo la métrica. En la convención PUIG compartida hace 2 meses, da crédito explícito al equipo de Mercorica y sus reconocimientos.\n- **Tensión profesional:** Mantener coherencia de marca global mientras adapta mensajes, activos visuales y experiencias a realidades de mercado muy distintas (Costa Rica, Uruguay, región LATAM). Simultáneamente, generar ejecuciones visibles y reconocibles sin que cada una dependa de un único creativo o coordinador.\n- **Hipótesis:** Cómo escalar ejecución de marca consistente sin que todo pase por una sola persona. Cómo mantener calidad visual y narrativa cuando coordinás múltiples mercados. Posicionamiento personal como Gerente de Marca en un contexto regional competitivo.\n- **Ángulo MSG1:** La forma deliberada en que comunica las activaciones (enfatizando intención creativa y conexión emocional, no solo lanzamiento). Esto revela que entiende que el valor de una activación no es el evento en sí, sino la narrativa que lo sostiene.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Hernán, gracias por conectar! 👋\n>\n> Me llamó mucho la atención cómo escribís sobre las activaciones de marca. En la de Carolina Herrera decís \"crear un momento memorable para nuestrxs consumidores, conectando desde la emoción\", y en la de Invictus hablas de \"una experiencia de marca para los consumidores\". No es lo que la mayoría destaca cuando anuncia un lanzamiento. Normalmente van directo a fechas y productos.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

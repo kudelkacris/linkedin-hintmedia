@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000264",
+  "contact_id": "ctc_000293",
+  "source_file": "conversaciones/junio/tatiana-alfaro.md",
+  "fingerprint": "sha256:5038622dbb6e3fb996b554b762e4bc564d25528ebd33c684b970c40cf897c49e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/tatiana-alfaro.md",
+    "file_hash": "sha256:5038622dbb6e3fb996b554b762e4bc564d25528ebd33c684b970c40cf897c49e",
+    "file_modified": "2026-06-23T21:45:16.823760+00:00",
+    "file_size": 2015,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Tatiana Alfaro",
+    "empresa": "",
+    "cargo": "Soluciones de Marketing Sostenible",
+    "pais": "(no especificado)",
+    "fecha": "15/06/26",
+    "estado_texto": "Aclaración enviada — pendiente respuesta"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Tatiana, como estás? No sé si llegaste a compartir el material con quien toma esas decisiones. Sé que para vos es simplemente pasar el dato, pero muchas veces esa primera mirada interna termina siendo la que abre o cierra la puerta, así que valoro mucho que lo hagas. Sin apuro, cualquier novedad quedo atenta. Y si en algún momento tiene sentido que hable directo con esa persona, encantada de hacerlo.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Se confundió con el mensaje — fue honesta y directa\n- No tiene poder de decisión pero ofreció compartir internamente\n- Dossier enviado por esta vía para que ella lo distribuya"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Tatiana Alfaro]\n[CARGO: Soluciones de Marketing Sostenible]\n[PAIS: (no especificado)]\n\n[SEG1]\nTatiana, como estás? No sé si llegaste a compartir el material con quien toma esas decisiones. Sé que para vos es simplemente pasar el dato, pero muchas veces esa primera mirada interna termina siendo la que abre o cierra la puerta, así que valoro mucho que lo hagas. Sin apuro, cualquier novedad quedo atenta. Y si en algún momento tiene sentido que hable directo con esa persona, encantada de hacerlo.\n\n[NOTAS]\n- Se confundió con el mensaje — fue honesta y directa\n- No tiene poder de decisión pero ofreció compartir internamente\n- Dossier enviado por esta vía para que ella lo distribuya",
+    "raw_md": "# Tatiana Alfaro\n\n**Estado:** Aclaración enviada — pendiente respuesta\n**Fecha:** 15/06/26\n**Cargo:** Soluciones de Marketing Sostenible\n**País:** (no especificado)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 19:19):**\nCitó su enfoque en soluciones de marketing sostenibles y el desafío de balancear propósito con engagement medible.\n\n**Respuesta Tatiana (sábado 20:40):**\n\"Hola, Florencia. Un gusto. Dime más sobre tu duda.\"\n\n**MSG2 enviado (Florencia, hoy 16:08):**\nExplicó el trabajo de Hint Media, mencionó TGS y Libra Seguros, preguntó por dossier.\n\n**Respuesta Tatiana (16:37):**\n\"No entiendo muy bien tu mensaje y la intención del mismo. ¿Es para ofrecer tus servicios?\"\n\n**Aclaración enviada (redactada):**\n> Sí, exacto, te estoy ofreciendo mis servicios jajá. Perdón si no fui clara desde el principio.\n>\n> Soy Florencia, de Hint Media. Vi tu perfil y me pareció que lo que hacés tiene mucho sentido con lo que nosotros trabajamos. Si algún día te sirve, con gusto te cuento más.\n\n**Respuesta Tatiana (17:07):**\n\"En mi trabajo no tengo poder de decisión para adquisición de servicios, pero si deseas dejarlo y que yo lo comparta, claro, con gusto puedes enviarme por esta vía tu carta de servicios.\"\n\n**Respuesta enviada (Florencia):**\n> Tatiana, muchas gracias! Te lo mando ahora.\n\n*(Se adjunta dossier)*\n\n## SEG1 (enviado 23/06/26) — sin CTA de llamada, ella no decide\n> Tatiana, como estás? No sé si llegaste a compartir el material con quien toma esas decisiones. Sé que para vos es simplemente pasar el dato, pero muchas veces esa primera mirada interna termina siendo la que abre o cierra la puerta, así que valoro mucho que lo hagas. Sin apuro, cualquier novedad quedo atenta. Y si en algún momento tiene sentido que hable directo con esa persona, encantada de hacerlo.\n\n## Notas\n- Se confundió con el mensaje — fue honesta y directa\n- No tiene poder de decisión pero ofreció compartir internamente\n- Dossier enviado por esta vía para que ella lo distribuya\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.5
+  }
+}

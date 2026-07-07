@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000012",
+  "contact_id": "ctc_000070",
+  "source_file": "conversaciones/julio/andrea-trejo.md",
+  "fingerprint": "sha256:110694893f95f36e4fc8ffe6cabb6a3f799e40e45a904644223d69e866c031ed",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/andrea-trejo.md",
+    "file_hash": "sha256:110694893f95f36e4fc8ffe6cabb6a3f799e40e45a904644223d69e866c031ed",
+    "file_modified": "2026-07-02T21:54:53.815692+00:00",
+    "file_size": 1787,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Andrea Trejo",
+    "empresa": "Panama Convention Center",
+    "cargo": "Marketing & PR Panama Convention Center Managed by Legends Global",
+    "pais": "Panamá",
+    "fecha": "02/07/26",
+    "estado_texto": "En conversación — sin pitch directo aún"
+  },
+  "normalized": {
+    "sector": "TURISMO_EVENTOS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrea, gracias por conectar! 👋\n\nMe llamó la atención la reflexión que compartiste sobre experiencias vs. contenido. Particularmente esto: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" No es lo que normalmente se ve cuando alguien comunica sobre eventos, donde suele primar el reporte de números.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia 👋🏻",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Andrea! Qué bueno que respondiste.\nCuriosidad genuina: esa idea de diseñar para la emoción más que para el contenido, cómo la aplicás en el Panama Convention Center? Un venue de ese tamaño tiene presión de reportar números, imagino que a veces eso choca con esa filosofía.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Reflexión compartida sobre experiencias vs contenido: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" Foco en el impacto emocional, no en métricas o reportes.",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia"
+    ],
+    "notas": "- Estrategia: entrar por la charla, no por el pitch. Esperar respuesta antes de mencionar Hint.\n- Sector turismo/eventos → Destiny Group, Tasarolli si llega el momento del dossier."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Trejo]\n[EMPRESA: Panama Convention Center]\n[CARGO: Marketing & PR Panama Convention Center Managed by Legends Global]\n[SECTOR: Turismo / Eventos / MICE]\n[PAIS: Panamá]\n[SENAL: Reflexión compartida sobre experiencias vs contenido: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" Foco en el impacto emocional, no en métricas o reportes.]\n\n[MSG1]\nAndrea, gracias por conectar! 👋\n\nMe llamó la atención la reflexión que compartiste sobre experiencias vs. contenido. Particularmente esto: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" No es lo que normalmente se ve cuando alguien comunica sobre eventos, donde suele primar el reporte de números.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia 👋🏻\n\n[SEG1]\nBuenas Andrea! Qué bueno que respondiste.\nCuriosidad genuina: esa idea de diseñar para la emoción más que para el contenido, cómo la aplicás en el Panama Convention Center? Un venue de ese tamaño tiene presión de reportar números, imagino que a veces eso choca con esa filosofía.\n\n[NOTAS]\n- Estrategia: entrar por la charla, no por el pitch. Esperar respuesta antes de mencionar Hint.\n- Sector turismo/eventos → Destiny Group, Tasarolli si llega el momento del dossier.",
+    "raw_md": "# Andrea Trejo\n\n**Fecha:** 02/07/26\n**Cargo:** Marketing & PR Panama Convention Center Managed by Legends Global\n**Empresa:** Panama Convention Center\n**Pais:** Panamá\n**Sector:** Turismo / Eventos / MICE\n**Estado:** En conversación — sin pitch directo aún\n\n---\n\n## Análisis\n- **Señal humana:** Reflexión compartida sobre experiencias vs contenido: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" Foco en el impacto emocional, no en métricas o reportes.\n- **Tensión profesional:** Diseñar para la emoción en un venue de escala (Convention Center) que tiene presión de reportar números y justificar ROI.\n- **Ángulo:** Entrar por la conversación, no por el pitch (caso Paola Gaspard).\n\n---\n\n## MSG1 (18/06/26)\n> Andrea, gracias por conectar! 👋\n>\n> Me llamó la atención la reflexión que compartiste sobre experiencias vs. contenido. Particularmente esto: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cómo se sintieron.\" No es lo que normalmente se ve cuando alguien comunica sobre eventos, donde suele primar el reporte de números.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1 (02/07/26)\n> Hola Florencia 👋🏻\n\n## Seguimiento conversacional (02/07/26)\n> Buenas Andrea! Qué bueno que respondiste.\n> Curiosidad genuina: esa idea de diseñar para la emoción más que para el contenido, cómo la aplicás en el Panama Convention Center? Un venue de ese tamaño tiene presión de reportar números, imagino que a veces eso choca con esa filosofía.\n\n## Notas\n- Estrategia: entrar por la charla, no por el pitch. Esperar respuesta antes de mencionar Hint.\n- Sector turismo/eventos → Destiny Group, Tasarolli si llega el momento del dossier.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

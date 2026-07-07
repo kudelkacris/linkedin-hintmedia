@@ -1,0 +1,83 @@
+{
+  "conversation_id": "conv_000163",
+  "contact_id": "ctc_000196",
+  "source_file": "conversaciones/junio/gabriela-romero.md",
+  "fingerprint": "sha256:95a900301bda24feb279545d4623987c04a1c2090dc2bde3e148cd477d835f16",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/gabriela-romero.md",
+    "file_hash": "sha256:95a900301bda24feb279545d4623987c04a1c2090dc2bde3e148cd477d835f16",
+    "file_modified": "2026-06-20T17:01:17.995481+00:00",
+    "file_size": 2259,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Gabriela Romero C.",
+    "empresa": "",
+    "cargo": "Marketing Digital & E-commerce Leader",
+    "pais": "",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "RETAIL_MODA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Gabriela, gracias por conectar! Me llamó mucho la atención la publicación que hiciste sobre la \"rueda de la vida\" de Meyer. Específicamente cuando preguntás si tu vida hoy está en coherencia con lo que decís que es importante. Casi nadie publica eso. La mayoría solo publica lo que está funcionando.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola!",
+    "msg2_texto": "Buenas Gabriela, gracias por responder!\n\nLo de la rueda de la vida de Meyer se nota distinto en LinkedIn, donde casi todo es vidriera. Preguntarte eso en público dice algo de cómo construís marca también desde lo personal.\n\nEn Hint Media trabajamos comunicación y contenido para marcas de retail y moda, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "A veces uno comparte temas de resultados, crecimientos, campañas, etc. otras veces temas de crecimiento personal que se lo traslada a lo profesional, en mi caso, he trabajado con coachs lo que me llevó a dicha reflexión, a modo de compartir una buena práctica. Un abrazo!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "veces",
+      "comparte",
+      "temas",
+      "resultados",
+      "crecimientos",
+      "campanas",
+      "otras",
+      "crecimiento",
+      "personal",
+      "traslada"
+    ],
+    "notas": "- Sector retail/fashion → Destiny Group y Tasarolli.\n- Jefe de Marketing en Grupo Semaan (franquicia MANGO Ecuador), aperturas recientes MANGO Village Samborondón y RB en Centro Histórico Quito.\n- Hubo charla genuina previa, por eso Hint se metió como mención casual en vez de pitch directo.\n\nEstado: MSG3 enviado (mención casual de Hint), esperando respuesta"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Gabriela Romero C.]\n[CARGO: Marketing Digital & E-commerce Leader]\n[SECTOR: Retail & Fashion]\n\n[MSG1]\nGabriela, gracias por conectar! Me llamó mucho la atención la publicación que hiciste sobre la \"rueda de la vida\" de Meyer. Específicamente cuando preguntás si tu vida hoy está en coherencia con lo que decís que es importante. Casi nadie publica eso. La mayoría solo publica lo que está funcionando.\n\n[RESPUESTA_MSG1]\nHola!\n\n[MSG2]\nBuenas Gabriela, gracias por responder!\n\nLo de la rueda de la vida de Meyer se nota distinto en LinkedIn, donde casi todo es vidriera. Preguntarte eso en público dice algo de cómo construís marca también desde lo personal.\n\nEn Hint Media trabajamos comunicación y contenido para marcas de retail y moda, como Destiny Group y Tasarolli.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nA veces uno comparte temas de resultados, crecimientos, campañas, etc. otras veces temas de crecimiento personal que se lo traslada a lo profesional, en mi caso, he trabajado con coachs lo que me llevó a dicha reflexión, a modo de compartir una buena práctica. Un abrazo!\n\n[MSG3]\nQué lindo que compartas esa práctica, Gabriela!\nEsa idea de coherencia me quedó resonando, porque en Grupo Semaan estás manejando MANGO, la apertura en Samborondón y RB casi en paralelo. Sostener esa misma coherencia en cada apertura, con ritmos distintos, no es poca cosa.\nDe hecho ahí calza algo de lo que hacemos en Hint Media, comunicación para marcas de retail como Destiny Group y Tasarolli. Si te sirve te paso un dossier corto, sin compromiso, y vos ves si tiene sentido para lo que estás armando.\n\n[NOTAS]\n- Sector retail/fashion → Destiny Group y Tasarolli.\n- Jefe de Marketing en Grupo Semaan (franquicia MANGO Ecuador), aperturas recientes MANGO Village Samborondón y RB en Centro Histórico Quito.\n- Hubo charla genuina previa, por eso Hint se metió como mención casual en vez de pitch directo.\n\nEstado: MSG3 enviado (mención casual de Hint), esperando respuesta",
+    "raw_md": "# Gabriela Romero C.\n\n**Estado:** MSG2 enviado\n**Fecha:** 18/06/26\n**Cargo:** Marketing Digital & E-commerce Leader\n**Sector:** Retail & Fashion\n\n## MSG1\n> Gabriela, gracias por conectar! Me llamó mucho la atención la publicación que hiciste sobre la \"rueda de la vida\" de Meyer. Específicamente cuando preguntás si tu vida hoy está en coherencia con lo que decís que es importante. Casi nadie publica eso. La mayoría solo publica lo que está funcionando.\n\n## Respuesta MSG1\n> Hola!\n\n## MSG2\n> Buenas Gabriela, gracias por responder!\n>\n> Lo de la rueda de la vida de Meyer se nota distinto en LinkedIn, donde casi todo es vidriera. Preguntarte eso en público dice algo de cómo construís marca también desde lo personal.\n>\n> En Hint Media trabajamos comunicación y contenido para marcas de retail y moda, como Destiny Group y Tasarolli.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (20/06/26)\n> A veces uno comparte temas de resultados, crecimientos, campañas, etc. otras veces temas de crecimiento personal que se lo traslada a lo profesional, en mi caso, he trabajado con coachs lo que me llevó a dicha reflexión, a modo de compartir una buena práctica. Un abrazo!\n\n## MSG3 (20/06/26, Hint mencionado casual por la charla previa genuina, sin venta dura)\n> Qué lindo que compartas esa práctica, Gabriela!\n> Esa idea de coherencia me quedó resonando, porque en Grupo Semaan estás manejando MANGO, la apertura en Samborondón y RB casi en paralelo. Sostener esa misma coherencia en cada apertura, con ritmos distintos, no es poca cosa.\n> De hecho ahí calza algo de lo que hacemos en Hint Media, comunicación para marcas de retail como Destiny Group y Tasarolli. Si te sirve te paso un dossier corto, sin compromiso, y vos ves si tiene sentido para lo que estás armando.\n\n## Notas\n- Sector retail/fashion → Destiny Group y Tasarolli.\n- Jefe de Marketing en Grupo Semaan (franquicia MANGO Ecuador), aperturas recientes MANGO Village Samborondón y RB en Centro Histórico Quito.\n- Hubo charla genuina previa, por eso Hint se metió como mención casual en vez de pitch directo.\n\n**Estado:** MSG3 enviado (mención casual de Hint), esperando respuesta\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000121",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Claudia Zazzali",
+  "empresa": "Antofagasta Minerals",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 3,
+  "stage_texto": "",
+  "fecha": "22/06/26",
+  "email": null,
+  "sector_norm": "ENERGIA_INFRA",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000141",
+  "historial_slug": "1782139100292"
+}

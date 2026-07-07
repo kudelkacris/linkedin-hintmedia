@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000197",
+  "contact_id": "ctc_000168",
+  "source_file": "conversaciones/junio/karla-lagunas-lufin.md",
+  "fingerprint": "sha256:48bb298683dc594d72204622d15e9132deb743605566f7d0fe548cb5ecba9f09",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/karla-lagunas-lufin.md",
+    "file_hash": "sha256:48bb298683dc594d72204622d15e9132deb743605566f7d0fe548cb5ecba9f09",
+    "file_modified": "2026-07-01T15:55:05.646475+00:00",
+    "file_size": 1627,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Karla Lagunas Lufin",
+    "empresa": "HCA Minería",
+    "cargo": "Head of Marketing & Customer Success",
+    "pais": "Chile",
+    "fecha": "19/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "MINERIA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Karla, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste sobre el cambio de marca. No fue un anuncio visual nomás — hablaste del proceso detrás, de coherencia, de equipos, de respeto por la historia. Eso no es lo que la mayoría publica cuando hace un refresh.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "🤗😄🤐 Hola Florencia\nque gusto, cuéntame",
+    "msg2_texto": "Hola Karla!\nJusto eso fue lo que me llamó la atención, porque se nota en tu rol: llevás el posicionamiento de marca y a la vez la relación con clientes técnicos en una industria donde la confianza se construye en terreno. Sostener esa coherencia entre marca renovada y la cercanía real con el cliente minero no es fácil.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía e infraestructura industrial a sostener esa coherencia de marca en contenido, branding y campañas. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "cuentame"
+    ],
+    "notas": "- Sector minería (drenaje, ventilación, agua industrial). Cliente ejemplo: TGS, Transener (más cercano disponible, no calza perfecto).\n- Lideró rebrand reciente de HCA Minería, fuerte presencia en eventos (Exponor 2026, The Wall 4)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karla Lagunas Lufin]\n[EMPRESA: HCA Minería]\n[CARGO: Head of Marketing & Customer Success]\n[PAIS: Chile]\n\n[MSG1]\nKarla, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste sobre el cambio de marca. No fue un anuncio visual nomás — hablaste del proceso detrás, de coherencia, de equipos, de respeto por la historia. Eso no es lo que la mayoría publica cuando hace un refresh.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n🤗😄🤐 Hola Florencia\nque gusto, cuéntame\n\n[MSG2]\nHola Karla!\nJusto eso fue lo que me llamó la atención, porque se nota en tu rol: llevás el posicionamiento de marca y a la vez la relación con clientes técnicos en una industria donde la confianza se construye en terreno. Sostener esa coherencia entre marca renovada y la cercanía real con el cliente minero no es fácil.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía e infraestructura industrial a sostener esa coherencia de marca en contenido, branding y campañas. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector minería (drenaje, ventilación, agua industrial). Cliente ejemplo: TGS, Transener (más cercano disponible, no calza perfecto).\n- Lideró rebrand reciente de HCA Minería, fuerte presencia en eventos (Exponor 2026, The Wall 4).",
+    "raw_md": "# Karla Lagunas Lufin\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 19/06/26\n**Cargo:** Head of Marketing & Customer Success\n**Empresa:** HCA Minería\n**País:** Chile\n\n## MSG1\n> Karla, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación que compartiste sobre el cambio de marca. No fue un anuncio visual nomás — hablaste del proceso detrás, de coherencia, de equipos, de respeto por la historia. Eso no es lo que la mayoría publica cuando hace un refresh.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> 🤗😄🤐 Hola Florencia\n> que gusto, cuéntame\n\n## MSG2\n> Hola Karla!\n> Justo eso fue lo que me llamó la atención, porque se nota en tu rol: llevás el posicionamiento de marca y a la vez la relación con clientes técnicos en una industria donde la confianza se construye en terreno. Sostener esa coherencia entre marca renovada y la cercanía real con el cliente minero no es fácil.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía e infraestructura industrial a sostener esa coherencia de marca en contenido, branding y campañas. Trabajamos con TGS y Transener en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector minería (drenaje, ventilación, agua industrial). Cliente ejemplo: TGS, Transener (más cercano disponible, no calza perfecto).\n- Lideró rebrand reciente de HCA Minería, fuerte presencia en eventos (Exponor 2026, The Wall 4).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

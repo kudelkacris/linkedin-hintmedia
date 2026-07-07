@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000072",
+  "contact_id": "ctc_000111",
+  "source_file": "conversaciones/julio/mariana-campos-p-rez.md",
+  "fingerprint": "sha256:6c707d5d3a7e2d3705a7cfdf9a49ed18e15261a886aabd5ae580605f3ea3d273",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/mariana-campos-p-rez.md",
+    "file_hash": "sha256:6c707d5d3a7e2d3705a7cfdf9a49ed18e15261a886aabd5ae580605f3ea3d273",
+    "file_modified": "2026-07-01T17:57:39.072663+00:00",
+    "file_size": 645,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Mariana Campos Pérez",
+    "empresa": "Subdirectora de Comunicaciones y Marketing",
+    "cargo": "CEO en Banco Supervielle",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Mariana, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre Yesenia. No pusiste el foco en \"inclusión es importante\" sino en una persona concreta haciendo su trabajo. Y después amplificaste eso en el post de la fundación. Eso es una decisión de cómo comunicar que la mayoría no hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Mariana Campos Pérez]\n[EMPRESA: Subdirectora de Comunicaciones y Marketing]\n[CARGO: CEO en Banco Supervielle]\n[PAIS: Chile]\n\n[MSG1]\nMariana, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre Yesenia. No pusiste el foco en \"inclusión es importante\" sino en una persona concreta haciendo su trabajo. Y después amplificaste eso en el post de la fundación. Eso es una decisión de cómo comunicar que la mayoría no hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Mariana Campos Pérez\n\n**Fecha:** 01/07/26\n**Cargo:** CEO en Banco Supervielle\n**Empresa:** Subdirectora de Comunicaciones y Marketing\n**Pais:** Chile\n**Estado:** MSG1 enviado\n\n---\n\n## MSG1\n> Mariana, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación sobre Yesenia. No pusiste el foco en \"inclusión es importante\" sino en una persona concreta haciendo su trabajo. Y después amplificaste eso en el post de la fundación. Eso es una decisión de cómo comunicar que la mayoría no hace.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

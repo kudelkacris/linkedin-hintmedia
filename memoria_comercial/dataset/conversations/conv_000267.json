@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000267",
+  "contact_id": "ctc_000299",
+  "source_file": "conversaciones/junio/valeria-perez-gonzalez.md",
+  "fingerprint": "sha256:e7c6e16daa6b8b9f382bc0971d7e3010e189ff214d3c1f79769a73e94cdd4937",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/valeria-perez-gonzalez.md",
+    "file_hash": "sha256:e7c6e16daa6b8b9f382bc0971d7e3010e189ff214d3c1f79769a73e94cdd4937",
+    "file_modified": "2026-06-12T16:55:47.842257+00:00",
+    "file_size": 929,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Valeria Pérez González",
+    "empresa": "Bingo Loco",
+    "cargo": "Performance Media Buyer",
+    "pais": "(no especificado)",
+    "fecha": "12/06/26",
+    "estado_texto": "Dossier enviado — temperatura baja (manejo interno)"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Valeria Pérez González]\n[EMPRESA: Bingo Loco]\n[CARGO: Performance Media Buyer]\n[PAIS: (no especificado)]",
+    "raw_md": "---\nname: valeria-perez-gonzalez\ndescription: Dossier enviado (respuesta tibia), Performance Media Buyer Bingo Loco, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Valeria Pérez González\n**Cargo:** Performance Media Buyer\n**Empresa:** Bingo Loco\n**País:** (no especificado)\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó que maneja dos regiones de EE.UU. en paralelo: Meta, Google, TikTok, Pinterest + testing de creatives\n- Respondió: \"Hola Florencia, claro en qué te puedo ayudar\"\n- MSG2 enviado — gap: testing a ese ritmo necesita volumen de piezas constante, ahí aparece el cuello de botella. Mención Tasarolli.\n- Respondió: manejan marketing internamente y tienen herramientas propias, pero aceptó recibir propuesta\n- Dossier enviado con mención de que Hint entra en picos o proyectos específicos\n\n**Estado:** Dossier enviado — temperatura baja (manejo interno)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

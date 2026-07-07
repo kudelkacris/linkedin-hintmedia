@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000145",
+  "contact_id": "ctc_000370",
+  "source_file": "conversaciones/junio/daniel-samaniego.md",
+  "fingerprint": "sha256:8cc7cf56b06cf724fe6d02630971160f5ffc83c25902d8f19c06f88543e7df64",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/daniel-samaniego.md",
+    "file_hash": "sha256:8cc7cf56b06cf724fe6d02630971160f5ffc83c25902d8f19c06f88543e7df64",
+    "file_modified": "2026-06-19T15:27:30.793078+00:00",
+    "file_size": 2928,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Daniel Samaniego",
+    "empresa": "Petromotors S.A.",
+    "cargo": "Coordinador de Marketing (feb 2026, 5 meses)",
+    "pais": "Panamá",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG2 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 5,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Daniel, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que pasaste de gerenciar una sucursal a coordinar marketing en Petromotors en corto tiempo. En Todo a Dollar lograste aumentar conversión con exhibiciones visuales y mejoraste operación. Parece que ahora estás en la parte estratégica.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Claro que sí, cómo te puedo ayudar?",
+    "msg2_texto": "Hola Daniel, qué bueno que respondiste!\n\nLo que me quedó fue eso — cuando alguien con tu background en retail y visual merchandising entra a coordinar marketing en automotriz, el reto no es la visión. Es sostener ejecución en digital, ATL/BTL y activaciones de showroom al mismo tiempo, sin que todo dependa de una sola persona, especialmente en los primeros meses cuando todavía se están armando los procesos.\n\nDesde Hint Media trabajamos con equipos en esa etapa — sumamos capacidad de ejecución en contenido, digital y diseño para que nada frene la estrategia. Hemos trabajado con Destiny Group, Tasarolli y otros en ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Adelante. Mándeme el dossier para checarlo.",
+    "seg1_enviado": true,
+    "seg1_texto": "Daniel, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de armar el área de marketing de Petromotors casi desde cero, viniendo de retail.\n\nEsos primeros meses suelen marcar si la estructura queda lista para escalar o si todo sigue dependiendo de una sola persona aunque el equipo crezca después.\n\nEs una etapa donde solemos acompañar bastante a equipos que están en eso mismo. Si te hace sentido, podemos hablar 15 minutos esta semana.",
+    "seg2_enviado": true,
+    "seg2_texto": "Daniel, cómo estás?\nNo sé si llegaste a checar el material.\nMe quedé pensando en eso de pasar de retail a coordinar marketing en automotriz, sosteniendo digital, ATL/BTL y activaciones de showroom al mismo tiempo en los primeros meses.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para Petromotors.",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "puedo",
+      "ayudar",
+      "adelante",
+      "mandeme",
+      "dossier",
+      "checarlo",
+      "perfecto",
+      "daniel",
+      "mando"
+    ],
+    "notas": "- Antes: Gerente de Sucursal en Todo a Dollar Oficial (7 meses).\n- Skills: ATL/BTL/TTL, visual merchandising, retail marketing, digital marketing, social media.\n- 5 meses en Petromotors — aún armando procesos.\n- Universidad Latina de Panamá."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daniel Samaniego]\n[EMPRESA: Petromotors S.A.]\n[CARGO: Coordinador de Marketing (feb 2026, 5 meses)]\n[SECTOR: Automotriz]\n[PAIS: Panamá]\n\n[MSG1]\nDaniel, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo. Me llamó la atención que pasaste de gerenciar una sucursal a coordinar marketing en Petromotors en corto tiempo. En Todo a Dollar lograste aumentar conversión con exhibiciones visuales y mejoraste operación. Parece que ahora estás en la parte estratégica.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, Florencia. Claro que sí, cómo te puedo ayudar?\n\n[MSG2]\nHola Daniel, qué bueno que respondiste!\n\nLo que me quedó fue eso — cuando alguien con tu background en retail y visual merchandising entra a coordinar marketing en automotriz, el reto no es la visión. Es sostener ejecución en digital, ATL/BTL y activaciones de showroom al mismo tiempo, sin que todo dependa de una sola persona, especialmente en los primeros meses cuando todavía se están armando los procesos.\n\nDesde Hint Media trabajamos con equipos en esa etapa — sumamos capacidad de ejecución en contenido, digital y diseño para que nada frene la estrategia. Hemos trabajado con Destiny Group, Tasarolli y otros en ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nAdelante. Mándeme el dossier para checarlo.\n\n[SEG1]\nDaniel, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de armar el área de marketing de Petromotors casi desde cero, viniendo de retail.\n\nEsos primeros meses suelen marcar si la estructura queda lista para escalar o si todo sigue dependiendo de una sola persona aunque el equipo crezca después.\n\nEs una etapa donde solemos acompañar bastante a equipos que están en eso mismo. Si te hace sentido, podemos hablar 15 minutos esta semana.\n\n[SEG2]\nDaniel, cómo estás?\nNo sé si llegaste a checar el material.\nMe quedé pensando en eso de pasar de retail a coordinar marketing en automotriz, sosteniendo digital, ATL/BTL y activaciones de showroom al mismo tiempo en los primeros meses.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para Petromotors.\n\n[NOTAS]\n- Antes: Gerente de Sucursal en Todo a Dollar Oficial (7 meses).\n- Skills: ATL/BTL/TTL, visual merchandising, retail marketing, digital marketing, social media.\n- 5 meses en Petromotors — aún armando procesos.\n- Universidad Latina de Panamá.",
+    "raw_md": "# Daniel Samaniego\n**Fecha:** 12/06/26\n**Empresa:** Petromotors S.A.\n**Cargo:** Coordinador de Marketing (feb 2026, 5 meses)\n**País:** Panamá\n**Sector:** Automotriz\n**Estado:** SEG2 enviado (19/06/26)\n\n---\n\n## MSG1\n> Daniel, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que venís haciendo. Me llamó la atención que pasaste de gerenciar una sucursal a coordinar marketing en Petromotors en corto tiempo. En Todo a Dollar lograste aumentar conversión con exhibiciones visuales y mejoraste operación. Parece que ahora estás en la parte estratégica.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, Florencia. Claro que sí, cómo te puedo ayudar?\n\n## MSG2\n> Hola Daniel, qué bueno que respondiste!\n>\n> Lo que me quedó fue eso — cuando alguien con tu background en retail y visual merchandising entra a coordinar marketing en automotriz, el reto no es la visión. Es sostener ejecución en digital, ATL/BTL y activaciones de showroom al mismo tiempo, sin que todo dependa de una sola persona, especialmente en los primeros meses cuando todavía se están armando los procesos.\n>\n> Desde Hint Media trabajamos con equipos en esa etapa — sumamos capacidad de ejecución en contenido, digital y diseño para que nada frene la estrategia. Hemos trabajado con Destiny Group, Tasarolli y otros en ese tipo de exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Adelante. Mándeme el dossier para checarlo.\n\n## Cierre\n> Perfecto Daniel, te lo mando ahora. Quedamos en contacto!\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Daniel, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de armar el área de marketing de Petromotors casi desde cero, viniendo de retail.\n>\n> Esos primeros meses suelen marcar si la estructura queda lista para escalar o si todo sigue dependiendo de una sola persona aunque el equipo crezca después.\n>\n> Es una etapa donde solemos acompañar bastante a equipos que están en eso mismo. Si te hace sentido, podemos hablar 15 minutos esta semana.\n\n---\n\n## SEG2 (19/06/26 — sin respuesta al SEG1, ENGAGEMENT_LEVEL: MEDIUM-bajo, directo sin elaboración)\n> Daniel, cómo estás?\n> No sé si llegaste a checar el material.\n> Me quedé pensando en eso de pasar de retail a coordinar marketing en automotriz, sosteniendo digital, ATL/BTL y activaciones de showroom al mismo tiempo en los primeros meses.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para Petromotors.\n\n## Notas\n- Antes: Gerente de Sucursal en Todo a Dollar Oficial (7 meses).\n- Skills: ATL/BTL/TTL, visual merchandising, retail marketing, digital marketing, social media.\n- 5 meses en Petromotors — aún armando procesos.\n- Universidad Latina de Panamá.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

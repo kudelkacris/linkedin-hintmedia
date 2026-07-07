@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000022",
+  "contact_id": "ctc_000080",
+  "source_file": "conversaciones/julio/cristina-garc-a.md",
+  "fingerprint": "sha256:86eb027406020c88b027bf7bba77623630f059e86e79ca56ed4f07bfb84b4c87",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/cristina-garc-a.md",
+    "file_hash": "sha256:86eb027406020c88b027bf7bba77623630f059e86e79ca56ed4f07bfb84b4c87",
+    "file_modified": "2026-07-02T21:53:03.156772+00:00",
+    "file_size": 4024,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Cristina García",
+    "empresa": "IaaS365",
+    "cargo": "Marketing & Communication Manager at IaaS365",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Cristina, gracias por conectar. 👋\n\nMe llamó la atención que en cada evento que documentás, le das crédito específico a las personas que lo hicieron posible — no solo al evento mismo. En el Tech365 de Barcelona incluso mencionás a tus \"homónimos marketinianos\" por nombre. No es lo que suele pasar cuando se comunica un logro corporativo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenos dias Florencia. Sí, al final esta red va de personas y temas laborales. Siempre agradezco a quien colabora conmigo en las acciones porque me apoyan para sacarlas adelante.\nAdemás también me ayudan a posicionar marca\nAunque tambien tengo muchos post donde no salen otras brands, solo IaaS365. Depende del caso y la acción",
+    "msg2_texto": "Buenas Cristina!\nTiene sentido. Lo que describís es una decisión de comunicación activa: cuándo el crédito construye comunidad y cuándo construye solo la marca de IaaS365. No es lo mismo y no se maneja igual.\nCómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\nEn Hint Media trabajamos comunicación y contenido con empresas tech que necesitan esa claridad narrativa: cuándo hablar con otros y cuándo hablar solos. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Florencia: Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\nSinceramente? Mi criterio.\nLa verdad es que me fio de mi instinto y por ahora nos ha ido bien con un buen crecimiento orgánico\nGracias por ofrecerme tus servicios pero por ahora seguiremos con lo que nos esta funcionando, que es todo trabajo interno",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "Cristina elige mostrar gratitud explícita al equipo en casi todas sus publicaciones (\"Mil gracias a todo el equipo365\", \"Especial mención\", \"Gracias a mis compañeros\"). También destaca el valor de las alianzas y celebra logros colectivos antes que individuales. Esto revela una creencia sobre cómo funciona realmente la ejecución: no como proyecto aislado sino como resultado de coordinación y reconocimiento constante.",
+    "hipotesis": "cómo escalar la ejecución de marketing/comunicación sin que aumente la dependencia operativa de una sola persona; cómo sostener campañas multi-partner sin que aparezca la fragmentación; cómo transformar el volumen de iniciativas (4 eventos en 3 semanas + contenido + patrocinios + gestión medios) en algo que no queme al equipo.",
+    "palabras_clave": [
+      "dias",
+      "florencia",
+      "final",
+      "esta",
+      "personas",
+      "temas",
+      "laborales",
+      "siempre",
+      "agradezco",
+      "quien"
+    ],
+    "notas": "- Declinó: trabajan todo internamente, crecimiento orgánico funcionando.\n\nEstado: Cerrada — no interesada — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Cristina García]\n[EMPRESA: IaaS365]\n[CARGO: Marketing & Communication Manager at IaaS365]\n[SECTOR: Tecnología / Infraestructura IT / Cloud Services]\n[PAIS: España]\n[SENAL: Cristina elige mostrar gratitud explícita al equipo en casi todas sus publicaciones (\"Mil gracias a todo el equipo365\", \"Especial mención\", \"Gracias a mis compañeros\"). También destaca el valor de las alianzas y celebra logros colectivos antes que individuales. Esto revela una creencia sobre cómo funciona realmente la ejecución: no como proyecto aislado sino como resultado de coordinación y reconocimiento constante.]\n[HIPOTESIS: cómo escalar la ejecución de marketing/comunicación sin que aumente la dependencia operativa de una sola persona; cómo sostener campañas multi-partner sin que aparezca la fragmentación; cómo transformar el volumen de iniciativas (4 eventos en 3 semanas + contenido + patrocinios + gestión medios) en algo que no queme al equipo.]\n\n[MSG1]\nCristina, gracias por conectar. 👋\n\nMe llamó la atención que en cada evento que documentás, le das crédito específico a las personas que lo hicieron posible — no solo al evento mismo. En el Tech365 de Barcelona incluso mencionás a tus \"homónimos marketinianos\" por nombre. No es lo que suele pasar cuando se comunica un logro corporativo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenos dias Florencia. Sí, al final esta red va de personas y temas laborales. Siempre agradezco a quien colabora conmigo en las acciones porque me apoyan para sacarlas adelante.\nAdemás también me ayudan a posicionar marca\nAunque tambien tengo muchos post donde no salen otras brands, solo IaaS365. Depende del caso y la acción\n\n[MSG2]\nBuenas Cristina!\nTiene sentido. Lo que describís es una decisión de comunicación activa: cuándo el crédito construye comunidad y cuándo construye solo la marca de IaaS365. No es lo mismo y no se maneja igual.\nCómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\nEn Hint Media trabajamos comunicación y contenido con empresas tech que necesitan esa claridad narrativa: cuándo hablar con otros y cuándo hablar solos. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nFlorencia: Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\nSinceramente? Mi criterio.\nLa verdad es que me fio de mi instinto y por ahora nos ha ido bien con un buen crecimiento orgánico\nGracias por ofrecerme tus servicios pero por ahora seguiremos con lo que nos esta funcionando, que es todo trabajo interno\n\n[NOTAS]\n- Declinó: trabajan todo internamente, crecimiento orgánico funcionando.\n\nEstado: Cerrada — no interesada — 02/07/26",
+    "raw_md": "# Cristina García\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing & Communication Manager at IaaS365\n**Empresa:** IaaS365\n**Pais:** España\n**Sector:** Tecnología / Infraestructura IT / Cloud Services\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Cristina elige mostrar gratitud explícita al equipo en casi todas sus publicaciones (\"Mil gracias a todo el equipo365\", \"Especial mención\", \"Gracias a mis compañeros\"). También destaca el valor de las alianzas y celebra logros colectivos antes que individuales. Esto revela una creencia sobre cómo funciona realmente la ejecución: no como proyecto aislado sino como resultado de coordinación y reconocimiento constante.\n- **Tensión profesional:** mantener la consistencia de la narrativa de marca (transformación digital, innovación, tecnología accesible) mientras ejecuta eventos regionales, campañas con múltiples partners con calendarios distintos, y genera contenido constante — todo sin que la calidad de ejecución dependa exclusivamente de ella.\n- **Hipótesis:** cómo escalar la ejecución de marketing/comunicación sin que aumente la dependencia operativa de una sola persona; cómo sostener campañas multi-partner sin que aparezca la fragmentación; cómo transformar el volumen de iniciativas (4 eventos en 3 semanas + contenido + patrocinios + gestión medios) en algo que no queme al equipo.\n- **Ángulo MSG1:** Señal humana — la forma en que Cristina construye credibilidad: no hablando de sí misma sino dando crédito y visibilidad a quiénes hizo posible cada iniciativa. Esto es observable, concreto y revela una filosofía de trabajo distinta.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Cristina, gracias por conectar. 👋\n>\n> Me llamó la atención que en cada evento que documentás, le das crédito específico a las personas que lo hicieron posible — no solo al evento mismo. En el Tech365 de Barcelona incluso mencionás a tus \"homónimos marketinianos\" por nombre. No es lo que suele pasar cuando se comunica un logro corporativo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Buenos dias Florencia. Sí, al final esta red va de personas y temas laborales. Siempre agradezco a quien colabora conmigo en las acciones porque me apoyan para sacarlas adelante.\n> Además también me ayudan a posicionar marca\n> Aunque tambien tengo muchos post donde no salen otras brands, solo IaaS365. Depende del caso y la acción\n\n## MSG2 (02/07/26)\n> Buenas Cristina!\n> Tiene sentido. Lo que describís es una decisión de comunicación activa: cuándo el crédito construye comunidad y cuándo construye solo la marca de IaaS365. No es lo mismo y no se maneja igual.\n> Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\n> En Hint Media trabajamos comunicación y contenido con empresas tech que necesitan esa claridad narrativa: cuándo hablar con otros y cuándo hablar solos. Clientes como Destiny Group y Libra Seguros.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (02/07/26)\n> Florencia: Cómo definís esa línea? En qué momento decidís que una acción necesita solo la voz de IaaS365, sin partners?\n> Sinceramente? Mi criterio.\n> La verdad es que me fio de mi instinto y por ahora nos ha ido bien con un buen crecimiento orgánico\n> Gracias por ofrecerme tus servicios pero por ahora seguiremos con lo que nos esta funcionando, que es todo trabajo interno\n\n## Cierre (02/07/26)\n> Tiene todo el sentido, Cristina. Si el instinto funciona y el crecimiento es orgánico, no hay por qué cambiar nada. Suerte con lo que viene para IaaS365!\n\n## Notas\n- Declinó: trabajan todo internamente, crecimiento orgánico funcionando.\n\n**Estado:** Cerrada — no interesada — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

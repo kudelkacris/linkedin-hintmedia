@@ -1,0 +1,81 @@
+{
+  "conversation_id": "conv_000167",
+  "contact_id": "ctc_000380",
+  "source_file": "conversaciones/junio/giovanna-troncoso.md",
+  "fingerprint": "sha256:d8ea962df88a19aafe960953b1c5dd4bba3d5e6c5c9799249012f64d20a804cf",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/giovanna-troncoso.md",
+    "file_hash": "sha256:d8ea962df88a19aafe960953b1c5dd4bba3d5e6c5c9799249012f64d20a804cf",
+    "file_modified": "2026-06-20T17:00:52.289326+00:00",
+    "file_size": 2578,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Giovanna Troncoso",
+    "empresa": "(no especificado)",
+    "cargo": "(no especificado — perfil de comunicación/estrategia)",
+    "pais": "(no especificado)",
+    "fecha": "10/06/26",
+    "estado_texto": "Dossier enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Respondió con calor — preguntó cómo estaba Florencia, fue cordial.",
+    "msg2_texto": "Hola Giovanna, muy bien gracias! Un gusto también.\n\nLo que me quedó de esa frase fue la lógica de fondo — si todo es una situación por resolver, el desafío real es cuántas podés resolver en paralelo sin que la velocidad de una frene a las demás.\n\nDesde Hint Media trabajamos con equipos de comunicación en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener múltiples frentes al mismo tiempo. Hemos trabajado con TGS, Libra Seguros y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "mandame el dossier lo miro y te comento a ver por donde pudieras mandarlo !!",
+    "seg1_enviado": true,
+    "seg1_texto": "Giovanna, cómo estás? No sé si llegaste a ver el material que te compartí.\nMe quedé pensando en lo de las \"Situaciones Por Resolver\", esa lógica de resolver varios frentes en paralelo sin que uno frene a los demás es justo donde más rinde tener capacidad de ejecución extra.\nTe parece si coordinamos 15 minutos esta semana y lo vemos en detalle?",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "respondio",
+      "calor",
+      "pregunto",
+      "estaba",
+      "florencia",
+      "cordial",
+      "mandame",
+      "dossier",
+      "miro",
+      "comento"
+    ],
+    "notas": "- Esta conversación disparó el cambio de 3 burbujas a 4 burbujas en MSG2\n- La respuesta cálida de Giovanna mostró que se necesitaba un B1 de saludo antes del pitch\n- Lección: cuando el prospecto saluda o pregunta cómo estás, ignorarlo y entrar al pitch suena raro\n- Clientes usados: TGS, Libra Seguros (comunicación/corporativo — correcto)"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Giovanna Troncoso]\n[EMPRESA: (no especificado)]\n[CARGO: (no especificado — perfil de comunicación/estrategia)]\n[SECTOR: Comunicación / ESG / Corporativo]\n[PAIS: (no especificado)]\n\n[RESPUESTA_MSG1]\nRespondió con calor — preguntó cómo estaba Florencia, fue cordial.\n\n[MSG2]\nHola Giovanna, muy bien gracias! Un gusto también.\n\nLo que me quedó de esa frase fue la lógica de fondo — si todo es una situación por resolver, el desafío real es cuántas podés resolver en paralelo sin que la velocidad de una frene a las demás.\n\nDesde Hint Media trabajamos con equipos de comunicación en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener múltiples frentes al mismo tiempo. Hemos trabajado con TGS, Libra Seguros y otros con ese tipo de exigencia.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nmandame el dossier lo miro y te comento a ver por donde pudieras mandarlo !!\n\n[MSG3]\nPerfecto Giovanna, te lo mando ahora!\n[link dossier]\nCualquier duda me avisás.\n\n[SEG1]\nGiovanna, cómo estás? No sé si llegaste a ver el material que te compartí.\nMe quedé pensando en lo de las \"Situaciones Por Resolver\", esa lógica de resolver varios frentes en paralelo sin que uno frene a los demás es justo donde más rinde tener capacidad de ejecución extra.\nTe parece si coordinamos 15 minutos esta semana y lo vemos en detalle?\n\n[NOTAS]\n- Esta conversación disparó el cambio de 3 burbujas a 4 burbujas en MSG2\n- La respuesta cálida de Giovanna mostró que se necesitaba un B1 de saludo antes del pitch\n- Lección: cuando el prospecto saluda o pregunta cómo estás, ignorarlo y entrar al pitch suena raro\n- Clientes usados: TGS, Libra Seguros (comunicación/corporativo — correcto)",
+    "raw_md": "# Giovanna Troncoso\n**Fecha:** 10/06/26\n**Empresa:** (no especificado)\n**Cargo:** (no especificado — perfil de comunicación/estrategia)\n**País:** (no especificado)\n**Sector:** Comunicación / ESG / Corporativo\n**Estado:** Dossier enviado\n\n---\n\n## Respuesta MSG1 (recibida)\n> Respondió con calor — preguntó cómo estaba Florencia, fue cordial.\n\n## MSG2 (primera vez con 4 burbujas + B1 saludo humano)\n> Hola Giovanna, muy bien gracias! Un gusto también.\n>\n> Lo que me quedó de esa frase fue la lógica de fondo — si todo es una situación por resolver, el desafío real es cuántas podés resolver en paralelo sin que la velocidad de una frene a las demás.\n>\n> Desde Hint Media trabajamos con equipos de comunicación en exactamente eso — sumamos capacidad de ejecución en contenido, digital y diseño para sostener múltiples frentes al mismo tiempo. Hemos trabajado con TGS, Libra Seguros y otros con ese tipo de exigencia.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> mandame el dossier lo miro y te comento a ver por donde pudieras mandarlo !!\n\n## MSG3\n> Perfecto Giovanna, te lo mando ahora!\n> [link dossier]\n> Cualquier duda me avisás.\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: HIGH — pidió el dossier con entusiasmo y exclamaciones, prometió comentar feedback)\n> Giovanna, cómo estás? No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en lo de las \"Situaciones Por Resolver\", esa lógica de resolver varios frentes en paralelo sin que uno frene a los demás es justo donde más rinde tener capacidad de ejecución extra.\n> Te parece si coordinamos 15 minutos esta semana y lo vemos en detalle?\n\n## Respuesta SEG1 (20/06/26)\n> Saludos Florencia, te abordo de querer profundizar. Mil gracias.\n\n## Coordinación de call (20/06/26)\n> Giovanna propuso Teams call el miércoles próximo, pidió que Florencia explique cómo lo haría y el costo del proyecto. Preguntó dónde está ubicada Florencia.\n> Florencia confirmó miércoles por Teams, ubicación Argentina, trabajo remoto LATAM sin problema de zona horaria.\n\n**Estado:** Call agendada para el miércoles próximo (Teams)\n\n---\n\n## Notas\n- Esta conversación disparó el cambio de 3 burbujas a 4 burbujas en MSG2\n- La respuesta cálida de Giovanna mostró que se necesitaba un B1 de saludo antes del pitch\n- Lección: cuando el prospecto saluda o pregunta cómo estás, ignorarlo y entrar al pitch suena raro\n- Clientes usados: TGS, Libra Seguros (comunicación/corporativo — correcto)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

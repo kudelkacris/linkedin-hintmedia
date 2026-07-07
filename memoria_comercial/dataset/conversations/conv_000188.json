@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000188",
+  "contact_id": "ctc_000532",
+  "source_file": "conversaciones/junio/juan-puyo.md",
+  "fingerprint": "sha256:0cbc37d8840dc0dcdd1c64a12e3ae57d815705167c71ccf28a3e70f88a78f26b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/juan-puyo.md",
+    "file_hash": "sha256:0cbc37d8840dc0dcdd1c64a12e3ae57d815705167c71ccf28a3e70f88a78f26b",
+    "file_modified": "2026-06-19T15:28:41.504234+00:00",
+    "file_size": 2001,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Juan Puyo",
+    "empresa": "Odellā Colombia",
+    "cargo": "Group CEO / VP Comercial Latam / Country Manager / Managing Director",
+    "pais": "",
+    "fecha": "08/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Juan, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Group CEO en Odellā Colombia y VP Comercial Latam, es así?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Gracias, Florencia. (Visto, sin más interacción)",
+    "msg2_texto": "Juan, gracias! Mi duda era esta: tenés casi 10 mil seguidores construidos en años de carrera en Roche, Merz y Coca Cola, pero Odellā Colombia recién está arrancando su presencia digital. ¿Estás pensando activar tu marca personal para posicionar la empresa, o todavía no llegaron a eso?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "No hemos llegado a eso",
+    "seg1_enviado": true,
+    "seg1_texto": "Juan, no sé si llegaste a ver el material que te mandé.\nMe quedó pensando en eso de la marca personal, los casi 10 mil seguidores construidos en Roche, Merz y Coca Cola, y Odellā todavía sin activar esa presencia.\nCuando una marca recién arranca digitalmente, suele pesar más tener ese respaldo de carrera detrás que partir de cero.\nCualquier cosa que te genere, quedo atenta.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "visto",
+      "interaccion",
+      "hemos",
+      "llegado",
+      "aqui",
+      "dejo",
+      "juan",
+      "estamos",
+      "contacto"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juan Puyo]\n[EMPRESA: Odellā Colombia]\n[CARGO: Group CEO / VP Comercial Latam / Country Manager / Managing Director]\n\n[MSG1]\nJuan, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Group CEO en Odellā Colombia y VP Comercial Latam, es así?\n\n[RESPUESTA_MSG1]\nGracias, Florencia. (Visto, sin más interacción)\n\n[MSG2]\nJuan, gracias! Mi duda era esta: tenés casi 10 mil seguidores construidos en años de carrera en Roche, Merz y Coca Cola, pero Odellā Colombia recién está arrancando su presencia digital. ¿Estás pensando activar tu marca personal para posicionar la empresa, o todavía no llegaron a eso?\n\n[RESPUESTA_MSG2]\nNo hemos llegado a eso\n\n[MSG3]\nEntendido. Cuando lleguen a eso, ahí es donde nosotros podemos ayudar. En Hint Media trabajamos como equipo externo integrado a marketing y comunicación, trafficker, CM, diseñador y PM, por menos que un empleado in-house. ¿Te puedo enviar un dossier breve por acá?\n\n[SEG1]\nJuan, no sé si llegaste a ver el material que te mandé.\nMe quedó pensando en eso de la marca personal, los casi 10 mil seguidores construidos en Roche, Merz y Coca Cola, y Odellā todavía sin activar esa presencia.\nCuando una marca recién arranca digitalmente, suele pesar más tener ese respaldo de carrera detrás que partir de cero.\nCualquier cosa que te genere, quedo atenta.",
+    "raw_md": "---\nname: juan-puyo\ndescription: SEG1 enviado (LOW), Group CEO Odellā Colombia / VP Comercial Latam, 08/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Juan Puyo\n**Cargo:** Group CEO / VP Comercial Latam / Country Manager / Managing Director\n**Empresa:** Odellā Colombia\n**Fecha:** 08/06/26\n\n## MSG1\n> Juan, gracias por aceptar mi solicitud de conexión! Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Group CEO en Odellā Colombia y VP Comercial Latam, es así?\n\n## Respuesta MSG1\n> Hola, Florencia. Si así es / Cómo te puedo ayudar?\n\n## MSG2\n> Juan, gracias! Mi duda era esta: tenés casi 10 mil seguidores construidos en años de carrera en Roche, Merz y Coca Cola, pero Odellā Colombia recién está arrancando su presencia digital. ¿Estás pensando activar tu marca personal para posicionar la empresa, o todavía no llegaron a eso?\n\n## Respuesta MSG2\n> No hemos llegado a eso\n\n## MSG3 (presentación Hint + dossier)\n> Entendido. Cuando lleguen a eso, ahí es donde nosotros podemos ayudar. En Hint Media trabajamos como equipo externo integrado a marketing y comunicación, trafficker, CM, diseñador y PM, por menos que un empleado in-house. ¿Te puedo enviar un dossier breve por acá?\n\n## Respuesta\n> Sí, claro / Muchas gracias\n\n## Cierre dossier\n> Aqui lo dejo Juan, estamos en contacto para el futuro o cualquier duda. Buena semana!\n\n## Respuesta\n> Gracias, Florencia. (Visto, sin más interacción)\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: LOW — todas las respuestas mínimas, sin elaboración en ningún punto del hilo)\n> Juan, no sé si llegaste a ver el material que te mandé.\n> Me quedó pensando en eso de la marca personal, los casi 10 mil seguidores construidos en Roche, Merz y Coca Cola, y Odellā todavía sin activar esa presencia.\n> Cuando una marca recién arranca digitalmente, suele pesar más tener ese respaldo de carrera detrás que partir de cero.\n> Cualquier cosa que te genere, quedo atenta.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

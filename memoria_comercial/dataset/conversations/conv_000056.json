@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000056",
+  "contact_id": "ctc_000044",
+  "source_file": "conversaciones/julio/juan-pablo-polastrelli.md",
+  "fingerprint": "sha256:47919f72ce4f3103b290ecd39f629536b1d560f73428693eeca881d11af1c69f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/juan-pablo-polastrelli.md",
+    "file_hash": "sha256:47919f72ce4f3103b290ecd39f629536b1d560f73428693eeca881d11af1c69f",
+    "file_modified": "2026-07-06T14:54:31.570607+00:00",
+    "file_size": 1556,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Juan pablo Polastrelli",
+    "empresa": "Namron Hospitality",
+    "cargo": "Luxury Hospitality Executive | Opening Expert | Operational Optimization | Multi-Property Growth",
+    "pais": "México",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Juan Pablo, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Namron. Lo que me llamó la atención fue la forma en que describís el desafío de mantener estándares unificados mientras escalás con marcas distintas. Eso suele abrir varios frentes al mismo tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Sin señal identificada — usar tensión profesional.",
+    "hipotesis": "Cómo mantener voz y presencia consistente en el mercado de lujo hotelero mientras gestiona expansión; cómo comunicar internamente transformaciones operativas sin que todo pase por una persona; cómo construir narrativa de marca a través de propiedades múltiples con identidades propias.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juan pablo Polastrelli]\n[EMPRESA: Namron Hospitality]\n[CARGO: Luxury Hospitality Executive | Opening Expert | Operational Optimization | Multi-Property Growth]\n[SECTOR: Hospitalidad de lujo / Turismo]\n[PAIS: México]\n[SENAL: Sin señal identificada — usar tensión profesional.]\n[HIPOTESIS: Cómo mantener voz y presencia consistente en el mercado de lujo hotelero mientras gestiona expansión; cómo comunicar internamente transformaciones operativas sin que todo pase por una persona; cómo construir narrativa de marca a través de propiedades múltiples con identidades propias.]\n\n[MSG1]\nJuan Pablo, gracias por conectar! 👋\n\nEstuve revisando un poco lo que venís haciendo en Namron. Lo que me llamó la atención fue la forma en que describís el desafío de mantener estándares unificados mientras escalás con marcas distintas. Eso suele abrir varios frentes al mismo tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Juan pablo Polastrelli\n\n**Fecha:** 06/07/26\n**Cargo:** Luxury Hospitality Executive | Opening Expert | Operational Optimization | Multi-Property Growth\n**Empresa:** Namron Hospitality\n**Pais:** México\n**Sector:** Hospitalidad de lujo / Turismo\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Sin señal identificada — usar tensión profesional.\n- **Tensión profesional:** Sostener estándares unificados de calidad y cultura en múltiples propiedades con marcas distintas, equipos nuevos y ritmo de expansión constante. La tensión no es crecer (ya lo hace), sino crecer sin perder coherencia ni quemar al equipo operativo.\n- **Hipótesis:** Cómo mantener voz y presencia consistente en el mercado de lujo hotelero mientras gestiona expansión; cómo comunicar internamente transformaciones operativas sin que todo pase por una persona; cómo construir narrativa de marca a través de propiedades múltiples con identidades propias.\n- **Ángulo MSG1:** Tensión profesional — escalamiento sin pérdida de coherencia operativa y comunicacional.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Juan Pablo, gracias por conectar! 👋\n>\n> Estuve revisando un poco lo que venís haciendo en Namron. Lo que me llamó la atención fue la forma en que describís el desafío de mantener estándares unificados mientras escalás con marcas distintas. Eso suele abrir varios frentes al mismo tiempo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

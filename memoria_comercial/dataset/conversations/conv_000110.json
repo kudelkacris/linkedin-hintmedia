@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000110",
+  "contact_id": "ctc_000506",
+  "source_file": "conversaciones/junio/andrea-catalina-prieto-chapeton.md",
+  "fingerprint": "sha256:20cde94ec74f5d534f575f7726d9ba880eb7a8c6219e71f76be8a99fbcea922b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/andrea-catalina-prieto-chapeton.md",
+    "file_hash": "sha256:20cde94ec74f5d534f575f7726d9ba880eb7a8c6219e71f76be8a99fbcea922b",
+    "file_modified": "2026-06-19T13:59:15.173346+00:00",
+    "file_size": 1559,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Andrea Catalina Prieto Chapeton",
+    "empresa": "PERCOS S.A (Avène, Ducray, Aderma)",
+    "cargo": "Gerente de Marca",
+    "pais": "Colombia",
+    "fecha": "19/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrea, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente de Marca en PERCOS S.A, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola buen día, dime ..",
+    "msg2_texto": "Hola Andrea, buen día!\nJusto viendo tu trabajo en PERCOS, llevando marcas como Avène, Ducray y Aderma, se nota que el reto pasa por sostener el lineamiento de marca mientras el canal comercial empuja con promociones y ejecución constante. Ese balance entre identidad de marca y ritmo comercial es justo donde más se complica la comunicación.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail y consumo a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "buen",
+      "dime"
+    ],
+    "notas": "- Sector retail/dermocosmético. Cliente ejemplo: Destiny Group, Tasarolli.\n- MSG1 original sin señal real (genérico \"según veo sos Gerente de Marca\"). MSG2 sí ancló en señal real del perfil (marcas que maneja).\n- Formato pedido por usuaria: burbujas separadas por salto de línea simple, sin línea en blanco entre ellas (copy-paste directo)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Catalina Prieto Chapeton]\n[EMPRESA: PERCOS S.A (Avène, Ducray, Aderma)]\n[CARGO: Gerente de Marca]\n[PAIS: Colombia]\n\n[MSG1]\nAndrea, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente de Marca en PERCOS S.A, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola buen día, dime ..\n\n[MSG2]\nHola Andrea, buen día!\nJusto viendo tu trabajo en PERCOS, llevando marcas como Avène, Ducray y Aderma, se nota que el reto pasa por sostener el lineamiento de marca mientras el canal comercial empuja con promociones y ejecución constante. Ese balance entre identidad de marca y ritmo comercial es justo donde más se complica la comunicación.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail y consumo a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector retail/dermocosmético. Cliente ejemplo: Destiny Group, Tasarolli.\n- MSG1 original sin señal real (genérico \"según veo sos Gerente de Marca\"). MSG2 sí ancló en señal real del perfil (marcas que maneja).\n- Formato pedido por usuaria: burbujas separadas por salto de línea simple, sin línea en blanco entre ellas (copy-paste directo).",
+    "raw_md": "# Andrea Catalina Prieto Chapeton\n\n**Estado:** MSG2 enviado\n**Fecha:** 19/06/26\n**Cargo:** Gerente de Marca\n**Empresa:** PERCOS S.A (Avène, Ducray, Aderma)\n**País:** Colombia\n\n## MSG1\n> Andrea, gracias por aceptar mi solicitud de conexión!\n>\n> Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Gerente de Marca en PERCOS S.A, es así?\n>\n> Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n## Respuesta MSG1\n> Hola buen día, dime ..\n\n## MSG2\n> Hola Andrea, buen día!\n> Justo viendo tu trabajo en PERCOS, llevando marcas como Avène, Ducray y Aderma, se nota que el reto pasa por sostener el lineamiento de marca mientras el canal comercial empuja con promociones y ejecución constante. Ese balance entre identidad de marca y ritmo comercial es justo donde más se complica la comunicación.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail y consumo a mantener esa coherencia en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector retail/dermocosmético. Cliente ejemplo: Destiny Group, Tasarolli.\n- MSG1 original sin señal real (genérico \"según veo sos Gerente de Marca\"). MSG2 sí ancló en señal real del perfil (marcas que maneja).\n- Formato pedido por usuaria: burbujas separadas por salto de línea simple, sin línea en blanco entre ellas (copy-paste directo).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

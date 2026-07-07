@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000263",
+  "contact_id": "ctc_000125",
+  "source_file": "conversaciones/junio/susana-salguero-silva.md",
+  "fingerprint": "sha256:4538427995a5940632d4cedd36518a6d00fb600945626f190e6ca61c132c9087",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/susana-salguero-silva.md",
+    "file_hash": "sha256:4538427995a5940632d4cedd36518a6d00fb600945626f190e6ca61c132c9087",
+    "file_modified": "2026-07-01T15:55:05.676146+00:00",
+    "file_size": 1254,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Susana Salguero Silva",
+    "empresa": "Movimiento Laudato Si'",
+    "cargo": "Director of Global Communications",
+    "pais": "Panamá",
+    "fecha": "",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Susana Salguero Silva]\n[EMPRESA: Movimiento Laudato Si']\n[CARGO: Director of Global Communications]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: susana-salguero-silva\ndescription: MSG2 enviado con rapport, Director Global Communications Movimiento Laudato Si Panama, 22/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Susana Salguero Silva\n**Cargo:** Director of Global Communications\n**Empresa:** Movimiento Laudato Si'\n**País:** Panamá\n\n**Resumen de conversación:**\n- MSG1: Florencia observó que asumió el rol hace poco, hipótesis sobre sincronizar comunicación en múltiples mercados con equipos dispersos.\n- Respondió confirmando con contexto propio: \"Sí, es una matriz de un equipo global y varios equipos dispersos en diferentes partes del mundo\"\n- MSG2 enviado con rapport (retomó sus propias palabras): coherencia de marca con equipos dispersos globalmente. Mención clientes TGS y Transener (ESG/sostenibilidad).\n\n**Notas:**\n- 9+ años en World Organization of the Scout Movement (WOSM) antes de Laudato Si', experiencia en comunicación de crisis y gestión de voluntarios.\n- Rol actual desde enero 2025, foco en cambio climático y crisis ecológica.\n\n- Pidió que el dossier vaya a su correo: Susana.Salguero@laudatosimovement.org\n- Dossier enviado por mail, cierre con buena onda (\"estamos en contacto\").\n\n**Estado:** SEG1 enviado 01/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

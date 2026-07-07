@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000017",
+  "contact_id": "ctc_000110",
+  "source_file": "conversaciones/julio/carolina-agurto-escudero.md",
+  "fingerprint": "sha256:8010b01ad29120b076fd1a8aee4552e5a934d569c1d00f9786098d966060272b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/carolina-agurto-escudero.md",
+    "file_hash": "sha256:8010b01ad29120b076fd1a8aee4552e5a934d569c1d00f9786098d966060272b",
+    "file_modified": "2026-07-02T01:36:53.829309+00:00",
+    "file_size": 2267,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Carolina Agurto Escudero",
+    "empresa": "",
+    "cargo": "Lider en Experiencia de Cliente, Fidelización y Customer Success",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carolina, gracias por conectar 👋\n\nMe llamó la atención que compartieras esa reflexión sobre Customer Success de Erica. Especialmente la parte sobre ser traductor, mediador, priorizador — estar en el medio de todo. Parecía que resonaba bastante con vos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"🤗😄🤐\nSí, claro\"",
+    "msg2_texto": "Buenas Carolina!\nLo de \"estar en el medio de todo\" suena a que no es solo una descripción del rol, es la tensión cotidiana.\nCuando el volumen crece o los canales se multiplican, cuál es el primer frente que se complica?\nTrabajo en Hint Media con empresas de servicios que están escalando su operación de cliente, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene ese crecimiento: contenido, automatización de mensajes, identidad de marca hacia el cliente.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Compartió reflexión de Erica sobre Customer Success — \"ser traductor, mediador, priorizador, estar en el medio de todo.\" No es contenido técnico, es identificación con la tensión cotidiana del rol.",
+    "hipotesis": "En empresas de servicios que escalan, el equipo de CX absorbe la presión de múltiples canales sin que la comunicación de marca sea consistente en todos ellos. Hint puede acompañar esa capa.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Agurto Escudero]\n[CARGO: Lider en Experiencia de Cliente, Fidelización y Customer Success]\n[SECTOR: Customer Experience / Servicios / Transformación Digital]\n[PAIS: Chile]\n[SENAL: Compartió reflexión de Erica sobre Customer Success — \"ser traductor, mediador, priorizador, estar en el medio de todo.\" No es contenido técnico, es identificación con la tensión cotidiana del rol.]\n[HIPOTESIS: En empresas de servicios que escalan, el equipo de CX absorbe la presión de múltiples canales sin que la comunicación de marca sea consistente en todos ellos. Hint puede acompañar esa capa.]\n\n[MSG1]\nCarolina, gracias por conectar 👋\n\nMe llamó la atención que compartieras esa reflexión sobre Customer Success de Erica. Especialmente la parte sobre ser traductor, mediador, priorizador — estar en el medio de todo. Parecía que resonaba bastante con vos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"🤗😄🤐\nSí, claro\"\n\n[MSG2]\nBuenas Carolina!\nLo de \"estar en el medio de todo\" suena a que no es solo una descripción del rol, es la tensión cotidiana.\nCuando el volumen crece o los canales se multiplican, cuál es el primer frente que se complica?\nTrabajo en Hint Media con empresas de servicios que están escalando su operación de cliente, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene ese crecimiento: contenido, automatización de mensajes, identidad de marca hacia el cliente.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Carolina Agurto Escudero\n\n**Fecha:** 01/07/26\n**Cargo:** Lider en Experiencia de Cliente, Fidelización y Customer Success\n**Empresa:** \n**Pais:** Chile\n**Sector:** Customer Experience / Servicios / Transformación Digital\n**Estado:** MSG2 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Compartió reflexión de Erica sobre Customer Success — \"ser traductor, mediador, priorizador, estar en el medio de todo.\" No es contenido técnico, es identificación con la tensión cotidiana del rol.\n- **Tensión profesional:** 13 años en CX multicanal, automatización, mejora de NPS. Estar en el medio de todo: coordinar hacia afuera (clientes) y hacia adentro (producto, comercial, operaciones) al mismo tiempo. Cuando el volumen crece o los canales se multiplican, la coherencia de comunicación se fragmenta.\n- **Hipótesis:** En empresas de servicios que escalan, el equipo de CX absorbe la presión de múltiples canales sin que la comunicación de marca sea consistente en todos ellos. Hint puede acompañar esa capa.\n- **Ángulo MSG1:** SEÑAL_HUMANA. Compartió reflexión que resuena con su tensión cotidiana en el rol.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> Carolina, gracias por conectar 👋\n>\n> Me llamó la atención que compartieras esa reflexión sobre Customer Success de Erica. Especialmente la parte sobre ser traductor, mediador, priorizador — estar en el medio de todo. Parecía que resonaba bastante con vos.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"🤗😄🤐\n> Sí, claro\"\n\n---\n\n## MSG2\n> Buenas Carolina!\n> Lo de \"estar en el medio de todo\" suena a que no es solo una descripción del rol, es la tensión cotidiana.\n> Cuando el volumen crece o los canales se multiplican, cuál es el primer frente que se complica?\n> Trabajo en Hint Media con empresas de servicios que están escalando su operación de cliente, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene ese crecimiento: contenido, automatización de mensajes, identidad de marca hacia el cliente.\n> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "seniority"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

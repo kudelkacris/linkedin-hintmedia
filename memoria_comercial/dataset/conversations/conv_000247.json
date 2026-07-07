@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000247",
+  "contact_id": "ctc_000373",
+  "source_file": "conversaciones/junio/pamela-cambronero.md",
+  "fingerprint": "sha256:3621617ace1e6d96ad4c68cd1a68fc855bda0bf4b2e288f261c928b1bf187e5c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/pamela-cambronero.md",
+    "file_hash": "sha256:3621617ace1e6d96ad4c68cd1a68fc855bda0bf4b2e288f261c928b1bf187e5c",
+    "file_modified": "2026-06-19T15:26:25.935934+00:00",
+    "file_size": 3192,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Pamela Cambronero",
+    "empresa": "CINDE — Experts in FDI",
+    "cargo": "Especialista de Mercadeo y Comunicación (jul 2022, 4 años)",
+    "pais": "Costa Rica (San José)",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Pamela, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste en tu bio. No hablás de campañas o eventos — hablás de usar tu trabajo como \"plataforma para forjar un mundo cargado de oportunidades\". Eso es bastante distinto a cómo la mayoría describe lo que hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, claro, para mi la comunicación y las relaciones públicas mediante campañas, videos, eventos, son tácticas que se convierten en un vehículo para educar, transformar e impactar. Quedo atenta a su consulta, si está en mis posibilidades con gusto le apoyo.",
+    "msg2_texto": "Hola Pamela, gracias por la respuesta!\n\n\"Un vehículo para educar, transformar e impactar\" — es exactamente esa diferencia la que se ve en el tipo de eventos que produce CINDE. Un Life Sciences Forum o una Multilingual Job Fair para 400 multinacionales no es logística: es narrativa en vivo. Y sostener eso mientras corre el contenido de redes, web, comunicados y video, con el equipo de una organización sin fines de lucro, es una exigencia que pocas personas administran tan ampliamente.\n\nDesde Hint Media trabajamos con equipos que tienen esa brecha entre la visión y la capacidad de ejecución — sumamos producción de contenido, diseño y digital para que nada de lo que se construye se pierda por falta de brazos. Hemos trabajado con TGS, Libra Seguros y otros con comunicación institucional de alto perfil.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Si gusta me lo comparte por acá o al correo pcambronero@cinde.org",
+    "seg1_enviado": true,
+    "seg1_texto": "Pamela, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso que decías, de la comunicación como vehículo para educar, transformar e impactar, y en todo lo que implica sostener esa narrativa en vivo en cada evento de CINDE mientras corre el resto del contenido.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitan hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "comunicacion",
+      "relaciones",
+      "publicas",
+      "mediante",
+      "campanas",
+      "videos",
+      "eventos",
+      "tacticas",
+      "convierten"
+    ],
+    "notas": "- CINDE: agencia de atracción de inversión extranjera para Costa Rica. Produce eventos para 400+ multinacionales.\n- Eventos clave: HR Forum 2023, Multilingual Job Fair 2024, Life Sciences Forum 2025.\n- Antes: Fundación Omar Dengo (8 años) — educación/tecnología. 570+ capacitados en marketing digital.\n- MSG2 con RAPPORT: arrancó citando sus propias palabras \"vehículo para educar, transformar e impactar\".\n- Perfil muy completo: diseño, video, animación autodidacta + periodismo + RRPP + fundraising."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Pamela Cambronero]\n[EMPRESA: CINDE — Experts in FDI]\n[CARGO: Especialista de Mercadeo y Comunicación (jul 2022, 4 años)]\n[SECTOR: Atracción de inversión / ONG / Comunicación institucional]\n[PAIS: Costa Rica (San José)]\n\n[MSG1]\nPamela, gracias por conectar! 👋\n\nMe llamó la atención algo que escribiste en tu bio. No hablás de campañas o eventos — hablás de usar tu trabajo como \"plataforma para forjar un mundo cargado de oportunidades\". Eso es bastante distinto a cómo la mayoría describe lo que hace.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, claro, para mi la comunicación y las relaciones públicas mediante campañas, videos, eventos, son tácticas que se convierten en un vehículo para educar, transformar e impactar. Quedo atenta a su consulta, si está en mis posibilidades con gusto le apoyo.\n\n[MSG2]\nHola Pamela, gracias por la respuesta!\n\n\"Un vehículo para educar, transformar e impactar\" — es exactamente esa diferencia la que se ve en el tipo de eventos que produce CINDE. Un Life Sciences Forum o una Multilingual Job Fair para 400 multinacionales no es logística: es narrativa en vivo. Y sostener eso mientras corre el contenido de redes, web, comunicados y video, con el equipo de una organización sin fines de lucro, es una exigencia que pocas personas administran tan ampliamente.\n\nDesde Hint Media trabajamos con equipos que tienen esa brecha entre la visión y la capacidad de ejecución — sumamos producción de contenido, diseño y digital para que nada de lo que se construye se pierda por falta de brazos. Hemos trabajado con TGS, Libra Seguros y otros con comunicación institucional de alto perfil.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSi gusta me lo comparte por acá o al correo pcambronero@cinde.org\n\n[SEG1]\nPamela, cómo estás?\nNo sé si llegaste a ver el material que te compartí.\nMe quedé pensando en eso que decías, de la comunicación como vehículo para educar, transformar e impactar, y en todo lo que implica sostener esa narrativa en vivo en cada evento de CINDE mientras corre el resto del contenido.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitan hoy.\n\n[NOTAS]\n- CINDE: agencia de atracción de inversión extranjera para Costa Rica. Produce eventos para 400+ multinacionales.\n- Eventos clave: HR Forum 2023, Multilingual Job Fair 2024, Life Sciences Forum 2025.\n- Antes: Fundación Omar Dengo (8 años) — educación/tecnología. 570+ capacitados en marketing digital.\n- MSG2 con RAPPORT: arrancó citando sus propias palabras \"vehículo para educar, transformar e impactar\".\n- Perfil muy completo: diseño, video, animación autodidacta + periodismo + RRPP + fundraising.",
+    "raw_md": "# Pamela Cambronero\n**Fecha:** 12/06/26\n**Empresa:** CINDE — Experts in FDI\n**Cargo:** Especialista de Mercadeo y Comunicación (jul 2022, 4 años)\n**País:** Costa Rica (San José)\n**Sector:** Atracción de inversión / ONG / Comunicación institucional\n**Estado:** SEG1 enviado (19/06/26)\n\n---\n\n## MSG1\n> Pamela, gracias por conectar! 👋\n>\n> Me llamó la atención algo que escribiste en tu bio. No hablás de campañas o eventos — hablás de usar tu trabajo como \"plataforma para forjar un mundo cargado de oportunidades\". Eso es bastante distinto a cómo la mayoría describe lo que hace.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia, claro, para mi la comunicación y las relaciones públicas mediante campañas, videos, eventos, son tácticas que se convierten en un vehículo para educar, transformar e impactar. Quedo atenta a su consulta, si está en mis posibilidades con gusto le apoyo.\n\n## MSG2 (con técnica de rapport)\n> Hola Pamela, gracias por la respuesta!\n>\n> \"Un vehículo para educar, transformar e impactar\" — es exactamente esa diferencia la que se ve en el tipo de eventos que produce CINDE. Un Life Sciences Forum o una Multilingual Job Fair para 400 multinacionales no es logística: es narrativa en vivo. Y sostener eso mientras corre el contenido de redes, web, comunicados y video, con el equipo de una organización sin fines de lucro, es una exigencia que pocas personas administran tan ampliamente.\n>\n> Desde Hint Media trabajamos con equipos que tienen esa brecha entre la visión y la capacidad de ejecución — sumamos producción de contenido, diseño y digital para que nada de lo que se construye se pierda por falta de brazos. Hemos trabajado con TGS, Libra Seguros y otros con comunicación institucional de alto perfil.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Si gusta me lo comparte por acá o al correo pcambronero@cinde.org\n\n## Cierre\n> Dossier enviado 12/06/26 por ambos canales.\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — elaboración propia notable en MSG1, sin entusiasmo explícito)\n> Pamela, cómo estás?\n> No sé si llegaste a ver el material que te compartí.\n> Me quedé pensando en eso que decías, de la comunicación como vehículo para educar, transformar e impactar, y en todo lo que implica sostener esa narrativa en vivo en cada evento de CINDE mientras corre el resto del contenido.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitan hoy.\n\n---\n\n## Notas\n- CINDE: agencia de atracción de inversión extranjera para Costa Rica. Produce eventos para 400+ multinacionales.\n- Eventos clave: HR Forum 2023, Multilingual Job Fair 2024, Life Sciences Forum 2025.\n- Antes: Fundación Omar Dengo (8 años) — educación/tecnología. 570+ capacitados en marketing digital.\n- MSG2 con RAPPORT: arrancó citando sus propias palabras \"vehículo para educar, transformar e impactar\".\n- Perfil muy completo: diseño, video, animación autodidacta + periodismo + RRPP + fundraising.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

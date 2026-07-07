@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000109",
+  "contact_id": "ctc_000295",
+  "source_file": "conversaciones/junio/anabel-arroyo-navarro.md",
+  "fingerprint": "sha256:1667fdb538a96c6db0aecda8aca201d4659e49bbcead37dd5c770c23f8463045",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/anabel-arroyo-navarro.md",
+    "file_hash": "sha256:1667fdb538a96c6db0aecda8aca201d4659e49bbcead37dd5c770c23f8463045",
+    "file_modified": "2026-06-23T21:46:46.888829+00:00",
+    "file_size": 1944,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Anabel Arroyo Navarro",
+    "empresa": "Private Legal Services (Marketing & Communications manager, freelance desde oct 2025)",
+    "cargo": "Marketing & Communications Strategist / Project Manager",
+    "pais": "Panamá",
+    "fecha": "15/06/26",
+    "estado_texto": "Dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM)"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Anabel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya sobre diseñar experiencias estratégicas que fortalezcan marcas y generen resultados medibles, va más allá de organizar el evento en sí. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si hay terreno para trabajar juntas en algún proyecto puntual.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Activa en sostenibilidad/economía circular en Panamá (Cámara de Reciclaje, Fundación SEED)\n- Antes: Encargada de Regulaciones Internacionales en Private Legal Services (4 años)\n- Actualmente freelance en marketing y comunicaciones\n- Lideró Panamá Circular Experience\n- Participó en foro internacional sobre mercado de carbono"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Anabel Arroyo Navarro]\n[EMPRESA: Private Legal Services (Marketing & Communications manager, freelance desde oct 2025)]\n[CARGO: Marketing & Communications Strategist / Project Manager]\n[PAIS: Panamá]\n\n[SEG1]\nAnabel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya sobre diseñar experiencias estratégicas que fortalezcan marcas y generen resultados medibles, va más allá de organizar el evento en sí. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si hay terreno para trabajar juntas en algún proyecto puntual.\n\n[NOTAS]\n- Activa en sostenibilidad/economía circular en Panamá (Cámara de Reciclaje, Fundación SEED)\n- Antes: Encargada de Regulaciones Internacionales en Private Legal Services (4 años)\n- Actualmente freelance en marketing y comunicaciones\n- Lideró Panamá Circular Experience\n- Participó en foro internacional sobre mercado de carbono",
+    "raw_md": "# Anabel Arroyo Navarro\n\n**Estado:** Dossier enviado, SEG1 enviado 23/06/26 (engagement MEDIUM)\n**Fecha:** 15/06/26\n**Cargo:** Marketing & Communications Strategist / Project Manager\n**País:** Panamá\n**Empresa:** Private Legal Services (Marketing & Communications manager, freelance desde oct 2025)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 17:58):**\nCitó cómo cerró su reflexión sobre el Panamá Circular Experience: \"detrás hay mucho más que logística.\"\n\n**Respuesta Anabel (sábado 1:00):**\n\"Hola! Que tal?\"\n\n**Respuesta posterior:**\n\"Sí claro cuéntame\"\n\n**MSG2 (redactado):**\n> Anabel, gracias por responder!\n>\n> Lo que escribiste sobre el Panamá Circular Experience me pareció muy honesto: \"más allá de la organización de eventos, mi enfoque está en diseñar experiencias estratégicas que fortalezcan marcas y generen resultados medibles.\" Eso es exactamente el tipo de visión con la que trabajamos.\n>\n> En Hint acompañamos a marcas y organizaciones con estrategia de contenido, comunicación y posicionamiento que conecta propósito con impacto real.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## SEG1 (enviado 23/06/26)\n> Anabel, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya sobre diseñar experiencias estratégicas que fortalezcan marcas y generen resultados medibles, va más allá de organizar el evento en sí. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si hay terreno para trabajar juntas en algún proyecto puntual.\n\n## Notas\n- Activa en sostenibilidad/economía circular en Panamá (Cámara de Reciclaje, Fundación SEED)\n- Antes: Encargada de Regulaciones Internacionales en Private Legal Services (4 años)\n- Actualmente freelance en marketing y comunicaciones\n- Lideró Panamá Circular Experience\n- Participó en foro internacional sobre mercado de carbono\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

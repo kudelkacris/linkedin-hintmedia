@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000014",
+  "contact_id": "ctc_000079",
+  "source_file": "conversaciones/julio/ariadna-castilla-villamarin.md",
+  "fingerprint": "sha256:2b0a6c640300ebc52abdde449d228632d37ac51c738aaff2595e7406dc314b40",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/ariadna-castilla-villamarin.md",
+    "file_hash": "sha256:2b0a6c640300ebc52abdde449d228632d37ac51c738aaff2595e7406dc314b40",
+    "file_modified": "2026-07-02T17:21:27.262128+00:00",
+    "file_size": 3977,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Ariadna Castilla Villamarin",
+    "empresa": "Netmentora Catalunya",
+    "cargo": "Marketing & Communication Manager en Netmentora Catalunya",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ariadna, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste el proceso de Impact Night. No hablaste de asistentes ni de votos. Hablaste del proceso conceptual: que lo que hacen y lo que cuentan sean la misma cosa. Eso no es lo que la mayoría escribe cuando anuncia un evento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Gracias por escribir! Me alegra que te haya llegado esa idea, porque era precisamente lo que quería trasladar: que el formato, el contenido y la experiencia del evento respondieran a una misma lógica.\nClaro, cuéntame cuál es la consulta y veo si puedo ayudarte!",
+    "msg2_texto": "Buenas Ariadna!\nEso que describís, que el formato, el contenido y la experiencia respondan a una misma lógica, es exactamente lo más difícil de sostener cuando una comunidad empieza a crecer.\nCómo lo manejás cuando incorporás gente nueva al equipo que no vivió el proceso desde adentro?\nEn Hint Media trabajamos comunicación y contenido con organizaciones que necesitan mantener esa coherencia narrativa mientras escalan. Clientes como Destiny Group y Libra Seguros lo trabajaron con nosotros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Totalmente, creo que el reto está en que esa lógica no dependa solo de las personas que han estado desde el inicio. En nuestro caso intentamos aterrizarla bastante en el brief, en los criterios de contenido y en cómo explicamos el propósito de cada iniciativa al equipo, para que no sea solo una intuición de quien la lidera.\nPuedes enviarme el dossier por aquí y le echo un vistazo cuando pueda. Gracias!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación sobre Impact Night revela cómo piensa Ariadna sobre el trabajo. No describe eventos o métricas. Describe filosofía: la decisión consciente de conectar, la idea de que cooperar no es parecerse sino escucharse (Sennett), que toda acción cobra sentido ante los demás (Arendt). Eligió mostrar el proceso conceptual detrás de una iniciativa, no el resultado. Y agradeció a su equipo de forma específica (\"mi partner in crime María Martínez Pinilla\").",
+    "hipotesis": "Cómo comunicar complejidad (lo que es una red real) sin simplificar demasiado. Cómo construir narrativa de marca en un ecosistema que rechaza la jerarquía. Cómo hacer que crecimiento y autenticidad caminen juntos.",
+    "palabras_clave": [
+      "florencia",
+      "escribir",
+      "alegra",
+      "haya",
+      "llegado",
+      "idea",
+      "porque",
+      "precisamente",
+      "queria",
+      "trasladar"
+    ],
+    "notas": "- Respuesta positiva y abierta. Usó sus palabras exactas en B1.\n- Sector emprendimiento/ecosistema → Destiny Group y Libra Seguros.\n- Pidió dossier por LinkedIn (no por mail).\n\nEstado: Dossier enviado — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ariadna Castilla Villamarin]\n[EMPRESA: Netmentora Catalunya]\n[CARGO: Marketing & Communication Manager en Netmentora Catalunya]\n[SECTOR: Emprendimiento / Ecosistema empresarial (no es energía, corrección: sector de desarrollo de negocios y networking)]\n[PAIS: España]\n[SENAL: La publicación sobre Impact Night revela cómo piensa Ariadna sobre el trabajo. No describe eventos o métricas. Describe filosofía: la decisión consciente de conectar, la idea de que cooperar no es parecerse sino escucharse (Sennett), que toda acción cobra sentido ante los demás (Arendt). Eligió mostrar el proceso conceptual detrás de una iniciativa, no el resultado. Y agradeció a su equipo de forma específica (\"mi partner in crime María Martínez Pinilla\").]\n[HIPOTESIS: Cómo comunicar complejidad (lo que es una red real) sin simplificar demasiado. Cómo construir narrativa de marca en un ecosistema que rechaza la jerarquía. Cómo hacer que crecimiento y autenticidad caminen juntos.]\n\n[MSG1]\nAriadna, gracias por conectar! 👋\n\nMe llamó la atención cómo describiste el proceso de Impact Night. No hablaste de asistentes ni de votos. Hablaste del proceso conceptual: que lo que hacen y lo que cuentan sean la misma cosa. Eso no es lo que la mayoría escribe cuando anuncia un evento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia! Gracias por escribir! Me alegra que te haya llegado esa idea, porque era precisamente lo que quería trasladar: que el formato, el contenido y la experiencia del evento respondieran a una misma lógica.\nClaro, cuéntame cuál es la consulta y veo si puedo ayudarte!\n\n[MSG2]\nBuenas Ariadna!\nEso que describís, que el formato, el contenido y la experiencia respondan a una misma lógica, es exactamente lo más difícil de sostener cuando una comunidad empieza a crecer.\nCómo lo manejás cuando incorporás gente nueva al equipo que no vivió el proceso desde adentro?\nEn Hint Media trabajamos comunicación y contenido con organizaciones que necesitan mantener esa coherencia narrativa mientras escalan. Clientes como Destiny Group y Libra Seguros lo trabajaron con nosotros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nTotalmente, creo que el reto está en que esa lógica no dependa solo de las personas que han estado desde el inicio. En nuestro caso intentamos aterrizarla bastante en el brief, en los criterios de contenido y en cómo explicamos el propósito de cada iniciativa al equipo, para que no sea solo una intuición de quien la lidera.\nPuedes enviarme el dossier por aquí y le echo un vistazo cuando pueda. Gracias!\n\n[MSG3]\nPerfecto Ariadna, te lo mando ahora!\n[LINK DOSSIER]\nLo que mencionás del brief y los criterios de contenido es exactamente el tipo de trabajo que mostramos ahí. Cualquier duda estamos en contacto!\n\n[NOTAS]\n- Respuesta positiva y abierta. Usó sus palabras exactas en B1.\n- Sector emprendimiento/ecosistema → Destiny Group y Libra Seguros.\n- Pidió dossier por LinkedIn (no por mail).\n\nEstado: Dossier enviado — 02/07/26",
+    "raw_md": "# Ariadna Castilla Villamarin\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing & Communication Manager en Netmentora Catalunya\n**Empresa:** Netmentora Catalunya\n**Pais:** España\n**Sector:** Emprendimiento / Ecosistema empresarial (no es energía, corrección: sector de desarrollo de negocios y networking)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre Impact Night revela cómo piensa Ariadna sobre el trabajo. No describe eventos o métricas. Describe filosofía: la decisión consciente de conectar, la idea de que cooperar no es parecerse sino escucharse (Sennett), que toda acción cobra sentido ante los demás (Arendt). Eligió mostrar el proceso conceptual detrás de una iniciativa, no el resultado. Y agradeció a su equipo de forma específica (\"mi partner in crime María Martínez Pinilla\").\n- **Tensión profesional:** Crecer una comunidad sin burocratizarla. Escalar un mensaje sobre conexión genuina sin que se vuelva marketing genérico. Mantener la coherencia emocional entre lo que se hace y lo que se cuenta mientras más personas se suman.\n- **Hipótesis:** Cómo comunicar complejidad (lo que es una red real) sin simplificar demasiado. Cómo construir narrativa de marca en un ecosistema que rechaza la jerarquía. Cómo hacer que crecimiento y autenticidad caminen juntos.\n- **Ángulo MSG1:** La publicación de Impact Night — específicamente cómo ella describe el proceso creativo como \"conceptual antes que estético\" y la obsesión por que \"lo que hacemos y lo que contamos sean la misma cosa\".\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Ariadna, gracias por conectar! 👋\n>\n> Me llamó la atención cómo describiste el proceso de Impact Night. No hablaste de asistentes ni de votos. Hablaste del proceso conceptual: que lo que hacen y lo que cuentan sean la misma cosa. Eso no es lo que la mayoría escribe cuando anuncia un evento.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Hola Florencia! Gracias por escribir! Me alegra que te haya llegado esa idea, porque era precisamente lo que quería trasladar: que el formato, el contenido y la experiencia del evento respondieran a una misma lógica.\n> Claro, cuéntame cuál es la consulta y veo si puedo ayudarte!\n\n## MSG2 (02/07/26)\n> Buenas Ariadna!\n> Eso que describís, que el formato, el contenido y la experiencia respondan a una misma lógica, es exactamente lo más difícil de sostener cuando una comunidad empieza a crecer.\n> Cómo lo manejás cuando incorporás gente nueva al equipo que no vivió el proceso desde adentro?\n> En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan mantener esa coherencia narrativa mientras escalan. Clientes como Destiny Group y Libra Seguros lo trabajaron con nosotros.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (02/07/26)\n> Totalmente, creo que el reto está en que esa lógica no dependa solo de las personas que han estado desde el inicio. En nuestro caso intentamos aterrizarla bastante en el brief, en los criterios de contenido y en cómo explicamos el propósito de cada iniciativa al equipo, para que no sea solo una intuición de quien la lidera.\n> Puedes enviarme el dossier por aquí y le echo un vistazo cuando pueda. Gracias!\n\n## MSG3 (02/07/26)\n> Perfecto Ariadna, te lo mando ahora!\n> [LINK DOSSIER]\n> Lo que mencionás del brief y los criterios de contenido es exactamente el tipo de trabajo que mostramos ahí. Cualquier duda estamos en contacto!\n\n## Notas\n- Respuesta positiva y abierta. Usó sus palabras exactas en B1.\n- Sector emprendimiento/ecosistema → Destiny Group y Libra Seguros.\n- Pidió dossier por LinkedIn (no por mail).\n\n**Estado:** Dossier enviado — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

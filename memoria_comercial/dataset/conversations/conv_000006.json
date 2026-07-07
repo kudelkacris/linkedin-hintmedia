@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000006",
+  "contact_id": "ctc_000104",
+  "source_file": "conversaciones/julio/ana-beatriz-estrada.md",
+  "fingerprint": "sha256:de321ca0640f95b40d1e0e0c321ba84de0e4190d899c4c3b5387a3c3e153bee0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/ana-beatriz-estrada.md",
+    "file_hash": "sha256:de321ca0640f95b40d1e0e0c321ba84de0e4190d899c4c3b5387a3c3e153bee0",
+    "file_modified": "2026-07-06T13:06:34.596731+00:00",
+    "file_size": 3125,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Ana Beatriz Estrada",
+    "empresa": "Central de Uniformes",
+    "cargo": "Gerente en Central de Uniformes | Más que vestimenta, una experiencia que fortalece tu marca y conecta con tu gente.",
+    "pais": "Panamá",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ana Beatriz, gracias por conectar. 👋\n\nMe llamó la atención que en abril hayas compartido tu experiencia en el Employee Experience Summit hablando de uniformes como herramienta estratégica de RRHH. No es lo que típicamente ves en empresas de este sector — la mayoría sigue posicionándose como proveedores.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, si con gusto respondo su consulta",
+    "msg2_texto": "Buenas Ana Beatriz, gracias por responder.\nLo que expuso en el Summit sobre uniformes como herramienta estratégica de RRHH es exactamente un trabajo de posicionamiento de marca. El desafío es que esa narrativa llegue a quienes toman decisiones de compra antes de que la conversación sea solo de precio.\nHint Media es una agencia de comunicación omnicanal. Trabajamos en identidad, contenidos, paid media y vocería digital con empresas como Tasarolli y Destiny Group en construcción de marca con propósito.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro. A este correo: gerencia-ventas@centraldeuniformes.com",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó presentación en Employee Experience Summit 2026 sobre \"Uniformes como herramienta estratégica de RRHH para potenciar desempeño y crecimiento\". Decisión estratégica de posicionar el producto no como ropa sino como herramienta de cultura y marca empleadora. Refleja intención de escalar marca más allá de transacción.",
+    "hipotesis": "Cómo escalar el posicionamiento de marca en un mercado donde los competidores siguen vendiéndose como proveedores de uniformes. O: cómo comunicar internamente (a equipos de ventas) y externamente (a clientes corporativos) que esto es diferente.",
+    "palabras_clave": [
+      "gusto",
+      "respondo",
+      "consulta",
+      "este",
+      "correo",
+      "gerencia",
+      "ventas",
+      "centraldeuniformes"
+    ],
+    "notas": "- Email dossier: gerencia-ventas@centraldeuniformes.com\n- ICP limpio: Gerente compradora, no proveedora de comunicaciones\n- SEG1 en 48-72hs si no responde"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ana Beatriz Estrada]\n[EMPRESA: Central de Uniformes]\n[CARGO: Gerente en Central de Uniformes | Más que vestimenta, una experiencia que fortalece tu marca y conecta con tu gente.]\n[SECTOR: Uniformes / Marca Empleadora / Servicios Corporativos]\n[PAIS: Panamá]\n[SENAL: Publicó presentación en Employee Experience Summit 2026 sobre \"Uniformes como herramienta estratégica de RRHH para potenciar desempeño y crecimiento\". Decisión estratégica de posicionar el producto no como ropa sino como herramienta de cultura y marca empleadora. Refleja intención de escalar marca más allá de transacción.]\n[HIPOTESIS: Cómo escalar el posicionamiento de marca en un mercado donde los competidores siguen vendiéndose como proveedores de uniformes. O: cómo comunicar internamente (a equipos de ventas) y externamente (a clientes corporativos) que esto es diferente.]\n\n[MSG1]\nAna Beatriz, gracias por conectar. 👋\n\nMe llamó la atención que en abril hayas compartido tu experiencia en el Employee Experience Summit hablando de uniformes como herramienta estratégica de RRHH. No es lo que típicamente ves en empresas de este sector — la mayoría sigue posicionándose como proveedores.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, si con gusto respondo su consulta\n\n[MSG2]\nBuenas Ana Beatriz, gracias por responder.\nLo que expuso en el Summit sobre uniformes como herramienta estratégica de RRHH es exactamente un trabajo de posicionamiento de marca. El desafío es que esa narrativa llegue a quienes toman decisiones de compra antes de que la conversación sea solo de precio.\nHint Media es una agencia de comunicación omnicanal. Trabajamos en identidad, contenidos, paid media y vocería digital con empresas como Tasarolli y Destiny Group en construcción de marca con propósito.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro. A este correo: gerencia-ventas@centraldeuniformes.com\n\n[MSG3]\nBuenas Ana Beatriz! Perfecto, en unos minutos te lo enviamos a gerencia-ventas@centraldeuniformes.com. Cualquier consulta acá estamos.\n\n[NOTAS]\n- Email dossier: gerencia-ventas@centraldeuniformes.com\n- ICP limpio: Gerente compradora, no proveedora de comunicaciones\n- SEG1 en 48-72hs si no responde",
+    "raw_md": "# Ana Beatriz Estrada\n\n**Fecha:** 01/07/26\n**Cargo:** Gerente en Central de Uniformes | Más que vestimenta, una experiencia que fortalece tu marca y conecta con tu gente.\n**Empresa:** Central de Uniformes\n**Pais:** Panamá\n**Sector:** Uniformes / Marca Empleadora / Servicios Corporativos\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicó presentación en Employee Experience Summit 2026 sobre \"Uniformes como herramienta estratégica de RRHH para potenciar desempeño y crecimiento\". Decisión estratégica de posicionar el producto no como ropa sino como herramienta de cultura y marca empleadora. Refleja intención de escalar marca más allá de transacción.\n- **Tensión profesional:** Llevar una empresa de uniformes desde modelo transaccional (venta de ropa) hacia posicionamiento estratégico de marca empleadora (venta de experiencia/identidad) requiere comunicar valor diferente a audiencias que históricamente compraban por precio/utilidad.\n- **Hipótesis:** Cómo escalar el posicionamiento de marca en un mercado donde los competidores siguen vendiéndose como proveedores de uniformes. O: cómo comunicar internamente (a equipos de ventas) y externamente (a clientes corporativos) que esto es diferente.\n- **Ángulo MSG1:** Publicación en Employee Experience Summit — señal de que la empresa está construyendo narrativa de marca más sofisticada que la mayoría de competidores.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Ana Beatriz, gracias por conectar. 👋\n>\n> Me llamó la atención que en abril hayas compartido tu experiencia en el Employee Experience Summit hablando de uniformes como herramienta estratégica de RRHH. No es lo que típicamente ves en empresas de este sector — la mayoría sigue posicionándose como proveedores.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Hola, si con gusto respondo su consulta\n\n## MSG2 (02/07/26)\n> Buenas Ana Beatriz, gracias por responder.\n> Lo que expuso en el Summit sobre uniformes como herramienta estratégica de RRHH es exactamente un trabajo de posicionamiento de marca. El desafío es que esa narrativa llegue a quienes toman decisiones de compra antes de que la conversación sea solo de precio.\n> Hint Media es una agencia de comunicación omnicanal. Trabajamos en identidad, contenidos, paid media y vocería digital con empresas como Tasarolli y Destiny Group en construcción de marca con propósito.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 (05/07/26) — HIGH engagement\n> Sí, claro. A este correo: gerencia-ventas@centraldeuniformes.com\n\n## Dossier enviado (06/07/26)\n> Buenas Ana Beatriz! Perfecto, en unos minutos te lo enviamos a gerencia-ventas@centraldeuniformes.com. Cualquier consulta acá estamos.\n\n## Notas\n- Email dossier: gerencia-ventas@centraldeuniformes.com\n- ICP limpio: Gerente compradora, no proveedora de comunicaciones\n- SEG1 en 48-72hs si no responde\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

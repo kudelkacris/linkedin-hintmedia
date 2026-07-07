@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000068",
+  "contact_id": "ctc_000042",
+  "source_file": "conversaciones/julio/manuel-pati-o-horcajada.md",
+  "fingerprint": "sha256:3948b5ae3433214bcecf7755c88b87f22f992670377f2892673be26b5487fb7d",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/manuel-pati-o-horcajada.md",
+    "file_hash": "sha256:3948b5ae3433214bcecf7755c88b87f22f992670377f2892673be26b5487fb7d",
+    "file_modified": "2026-07-07T14:59:12.808986+00:00",
+    "file_size": 3353,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Manuel Patiño Horcajada",
+    "empresa": "La Maison Française du Verre",
+    "cargo": "CMO | Marketing Director | Marketing Manager | FMCG | Brand Management | Brand Strategy | Brand Building | Marketing and Communication | International",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "Dossier enviado — 07/07/26"
+  },
+  "normalized": {
+    "sector": "MANUFACTURA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Manuel, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace dos meses sobre el cambio. Especialmente porque no lo planteaste como \"mejor oportunidad\", sino como alineación. Y después veo que arrancaste en La Maison con una marca que promete productos \"hechos para durar, para transmitir de generación en generación\". Eso no parece casual.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, gracias por contactar, dime cuál es tu consulta. Un saludo",
+    "msg2_texto": "Buenas Manuel! Te cuento.\nLa pregunta que me surgió es cómo estás comunicando la identidad de La Maison en mercados que todavía no la conocen. Una marca con esa promesa (\"para durar, para transmitir\") necesita una narrativa muy consistente. Cómo la estás construyendo cuando cada mercado tiene su propia lectura?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas premium a construir narrativa de marca consistente en mercados distintos: contenido, identidad y comunicación institucional. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Mandamelo por aqui y yo lo muevo internamente",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación de hace 2 meses donde cuenta su salida de Mahou. No como anuncio corporativo, sino como reflexión personal sobre la tensión entre valores personales (radicalmente contra el alcohol) y trabajo (incentivar consumo de cerveza durante 7 años). Decidió hacerlo público, no privado. Enmarcó el cambio como \"necesitaba alineación\", no \"mejor oportunidad\".",
+    "hipotesis": "Construcción de marca en transición — cómo comunicar cambio estratégico (de cerveza a categoría Premium durable) a mercados que no conocen la marca igual. Cómo mantener narrativa coherente cuando cada mercado necesita \"aproximación adaptada\". Cómo ejecutar campaña global siendo nuevo en la empresa en un rol regional.",
+    "palabras_clave": [
+      "florencia",
+      "contactar",
+      "dime",
+      "cual",
+      "consulta",
+      "saludo",
+      "mandamelo",
+      "aqui",
+      "muevo",
+      "internamente"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Manuel Patiño Horcajada]\n[EMPRESA: La Maison Française du Verre]\n[CARGO: CMO | Marketing Director | Marketing Manager | FMCG | Brand Management | Brand Strategy | Brand Building | Marketing and Communication | International]\n[SECTOR: FMCG / Manufactura Premium]\n[PAIS: España]\n[SENAL: La publicación de hace 2 meses donde cuenta su salida de Mahou. No como anuncio corporativo, sino como reflexión personal sobre la tensión entre valores personales (radicalmente contra el alcohol) y trabajo (incentivar consumo de cerveza durante 7 años). Decidió hacerlo público, no privado. Enmarcó el cambio como \"necesitaba alineación\", no \"mejor oportunidad\".]\n[HIPOTESIS: Construcción de marca en transición — cómo comunicar cambio estratégico (de cerveza a categoría Premium durable) a mercados que no conocen la marca igual. Cómo mantener narrativa coherente cuando cada mercado necesita \"aproximación adaptada\". Cómo ejecutar campaña global siendo nuevo en la empresa en un rol regional.]\n\n[MSG1]\nManuel, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace dos meses sobre el cambio. Especialmente porque no lo planteaste como \"mejor oportunidad\", sino como alineación. Y después veo que arrancaste en La Maison con una marca que promete productos \"hechos para durar, para transmitir de generación en generación\". Eso no parece casual.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, gracias por contactar, dime cuál es tu consulta. Un saludo\n\n[MSG2]\nBuenas Manuel! Te cuento.\nLa pregunta que me surgió es cómo estás comunicando la identidad de La Maison en mercados que todavía no la conocen. Una marca con esa promesa (\"para durar, para transmitir\") necesita una narrativa muy consistente. Cómo la estás construyendo cuando cada mercado tiene su propia lectura?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas premium a construir narrativa de marca consistente en mercados distintos: contenido, identidad y comunicación institucional. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\nMandamelo por aqui y yo lo muevo internamente\n\n[MSG3]\nEnviado por LinkedIn — 07/07/26. Lo mueve él internamente.",
+    "raw_md": "# Manuel Patiño Horcajada\n\n**Fecha:** 06/07/26\n**Cargo:** CMO | Marketing Director | Marketing Manager | FMCG | Brand Management | Brand Strategy | Brand Building | Marketing and Communication | International\n**Empresa:** La Maison Française du Verre\n**Pais:** España\n**Sector:** FMCG / Manufactura Premium\n**Estado:** Dossier enviado — 07/07/26\n\n---\n\n## Análisis\n- **Señal humana:** La publicación de hace 2 meses donde cuenta su salida de Mahou. No como anuncio corporativo, sino como reflexión personal sobre la tensión entre valores personales (radicalmente contra el alcohol) y trabajo (incentivar consumo de cerveza durante 7 años). Decidió hacerlo público, no privado. Enmarcó el cambio como \"necesitaba alineación\", no \"mejor oportunidad\".\n- **Tensión profesional:** Escalar marca global en mercados fragmentados (hábitos de consumo, perfiles de consumidor, regulaciones distintas) sin perder identidad central de marca. Coordinar ejecución local sin control jerárquico directo sobre equipos regionales/distribuidores.\n- **Hipótesis:** Construcción de marca en transición — cómo comunicar cambio estratégico (de cerveza a categoría Premium durable) a mercados que no conocen la marca igual. Cómo mantener narrativa coherente cuando cada mercado necesita \"aproximación adaptada\". Cómo ejecutar campaña global siendo nuevo en la empresa en un rol regional.\n- **Ángulo MSG1:** Su reflexión sobre alineación valores-trabajo + su nueva posición en marca que promete \"productos hechos para durar, para transmitir de generación en generación\" crea una conversación natural sobre cómo comunicar esa transición y diferenciación sin que cada mercado haga su propia versión descontrolada.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Manuel, gracias por conectar 👋\n>\n> Me llamó la atención la publicación que compartiste hace dos meses sobre el cambio. Especialmente porque no lo planteaste como \"mejor oportunidad\", sino como alineación. Y después veo que arrancaste en La Maison con una marca que promete productos \"hechos para durar, para transmitir de generación en generación\". Eso no parece casual.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia, gracias por contactar, dime cuál es tu consulta. Un saludo\n\n---\n\n## MSG2\n> Buenas Manuel! Te cuento.\n> La pregunta que me surgió es cómo estás comunicando la identidad de La Maison en mercados que todavía no la conocen. Una marca con esa promesa (\"para durar, para transmitir\") necesita una narrativa muy consistente. Cómo la estás construyendo cuando cada mercado tiene su propia lectura?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas premium a construir narrativa de marca consistente en mercados distintos: contenido, identidad y comunicación institucional. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2\n> Mandamelo por aqui y yo lo muevo internamente\n\n## Dossier\nEnviado por LinkedIn — 07/07/26. Lo mueve él internamente.\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "sin_blockquote: msg3 — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

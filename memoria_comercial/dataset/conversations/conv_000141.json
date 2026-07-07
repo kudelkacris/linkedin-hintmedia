@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000141",
+  "contact_id": "ctc_000121",
+  "source_file": "conversaciones/junio/claudia-zazzali.md",
+  "fingerprint": "sha256:d78c68cdf96729c5beb5efed7c90979b950ddfc64dbbef5c80dce5c6976e3b43",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/claudia-zazzali.md",
+    "file_hash": "sha256:d78c68cdf96729c5beb5efed7c90979b950ddfc64dbbef5c80dce5c6976e3b43",
+    "file_modified": "2026-06-26T15:49:10.899767+00:00",
+    "file_size": 1443,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Claudia Zazzali",
+    "empresa": "Antofagasta Minerals",
+    "cargo": "Sub Gerenta Comunicaciones Antofagasta Minerals Norte",
+    "pais": "Chile",
+    "fecha": "25/06/26",
+    "estado_texto": "Dossier enviado, esperando respuesta"
+  },
+  "normalized": {
+    "sector": "MINERIA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia citó que Claudia compartió y dio crédito público a su hijo en medio de contenido corporativo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "claro, por supuesto... aquí estoy",
+    "msg2_texto": "Buenas Claudia, gracias por la buena onda! Lo que te quería consultar es justamente por lo que vi en tu actividad, manejas comunicación de proyectos grandes como Exponor y la transición de Zaldívar, y se nota que el equipo está siempre produciendo contenido en distintos formatos. En Hint Media trabajamos con áreas de comunicaciones que tienen ese ritmo, ayudando con producción audiovisual y storytelling, como hacemos con Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "supuesto",
+      "aqui",
+      "estoy"
+    ],
+    "notas": "- Sub Gerenta de Comunicaciones Zona Norte, maneja proyectos institucionales grandes (Exponor, transición hídrica Zaldívar).\n- Cliente referencia usado: Destiny Group (no hay cliente minería en la lista, se usó el más cercano a corporate storytelling)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Claudia Zazzali]\n[EMPRESA: Antofagasta Minerals]\n[CARGO: Sub Gerenta Comunicaciones Antofagasta Minerals Norte]\n[SECTOR: Minería]\n[PAIS: Chile]\n\n[MSG1]\nFlorencia citó que Claudia compartió y dio crédito público a su hijo en medio de contenido corporativo.\n\n[RESPUESTA_MSG1]\nclaro, por supuesto... aquí estoy\n\n[MSG2]\nBuenas Claudia, gracias por la buena onda! Lo que te quería consultar es justamente por lo que vi en tu actividad, manejas comunicación de proyectos grandes como Exponor y la transición de Zaldívar, y se nota que el equipo está siempre produciendo contenido en distintos formatos. En Hint Media trabajamos con áreas de comunicaciones que tienen ese ritmo, ayudando con producción audiovisual y storytelling, como hacemos con Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[MSG3]\nclaro, puedes enviarme material por acá o a czazzali@aminerals.cl\n\n[NOTAS]\n- Sub Gerenta de Comunicaciones Zona Norte, maneja proyectos institucionales grandes (Exponor, transición hídrica Zaldívar).\n- Cliente referencia usado: Destiny Group (no hay cliente minería en la lista, se usó el más cercano a corporate storytelling).",
+    "raw_md": "# Claudia Zazzali\n**Fecha:** 25/06/26\n**Cargo:** Sub Gerenta Comunicaciones Antofagasta Minerals Norte\n**Empresa:** Antofagasta Minerals\n**País:** Chile\n**Sector:** Minería\n**Estado:** Dossier enviado, esperando respuesta\n\n## MSG1 (envío previo, no registrado completo)\n> Florencia citó que Claudia compartió y dio crédito público a su hijo en medio de contenido corporativo.\n\n## Respuesta\n> claro, por supuesto... aquí estoy\n\n## MSG2 enviado\n> Buenas Claudia, gracias por la buena onda! Lo que te quería consultar es justamente por lo que vi en tu actividad, manejas comunicación de proyectos grandes como Exponor y la transición de Zaldívar, y se nota que el equipo está siempre produciendo contenido en distintos formatos. En Hint Media trabajamos con áreas de comunicaciones que tienen ese ritmo, ayudando con producción audiovisual y storytelling, como hacemos con Destiny Group. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Confirmación dossier\n> claro, puedes enviarme material por acá o a czazzali@aminerals.cl\n\nDossier mandado por LinkedIn. Pendiente follow up 48hs si no contesta.\n\n## Notas\n- Sub Gerenta de Comunicaciones Zona Norte, maneja proyectos institucionales grandes (Exponor, transición hídrica Zaldívar).\n- Cliente referencia usado: Destiny Group (no hay cliente minería en la lista, se usó el más cercano a corporate storytelling).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

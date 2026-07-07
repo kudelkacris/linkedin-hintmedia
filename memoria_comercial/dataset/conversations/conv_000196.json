@@ -1,0 +1,85 @@
+{
+  "conversation_id": "conv_000196",
+  "contact_id": "ctc_000405",
+  "source_file": "conversaciones/junio/karla-castillo.md",
+  "fingerprint": "sha256:92c024a83d617188fecb5da7b6808a0c5bd9e9cae614f9d3e2823721a6dc0f6c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/karla-castillo.md",
+    "file_hash": "sha256:92c024a83d617188fecb5da7b6808a0c5bd9e9cae614f9d3e2823721a6dc0f6c",
+    "file_modified": "2026-06-20T17:01:41.151860+00:00",
+    "file_size": 2854,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Karla Castillo",
+    "empresa": "Libertario Coffee Roasters (café premium regional)",
+    "cargo": "Brand & Growth Strategist",
+    "pais": "Costa Rica",
+    "fecha": "09/06/26",
+    "estado_texto": "CERRADA (20/06/26) — equipo inhouse, queda en el radar a futuro"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Karla, gracias por conectar! Vi que sos Brand & Growth Strategist en Libertario Coffee Roasters. En 11 meses lideraste la coordinación de 4 áreas diferentes (operaciones, administración, marketing, audiovisual) para impulsar expansión simultáneamente.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, si un trabajo en conjunto con las áreas que mencionas en Costa Rica! Contame 😬",
+    "msg2_texto": "Coordinar marketing, operaciones, administración y audiovisual al mismo tiempo suele requerir bastante alineación. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"Podés enviármelo a mí al correo businessdeveloper@libertariocoffee.com. Para conversarlo con el equipo, no te prometo nada! Mil gracias por el contacto!!\"",
+    "seg1_enviado": true,
+    "seg1_texto": "Karla, cómo estás?\nNo sé si llegaste a comentarlo con el equipo.\nMe quedó pensando en lo de coordinar marketing, operaciones, administración y audiovisual al mismo tiempo en la expansión de Libertario.\nSi te sirve, puedo armar algo más concreto pensado en lo que están necesitando hoy, y si hace sentido lo conversamos con quien corresponda del equipo.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "trabajo",
+      "conjunto",
+      "areas",
+      "mencionas",
+      "costa",
+      "rica",
+      "contame",
+      "podes",
+      "enviarmelo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karla Castillo]\n[EMPRESA: Libertario Coffee Roasters (café premium regional)]\n[CARGO: Brand & Growth Strategist]\n[PAIS: Costa Rica]\n\n[MSG1]\nKarla, gracias por conectar! Vi que sos Brand & Growth Strategist en Libertario Coffee Roasters. En 11 meses lideraste la coordinación de 4 áreas diferentes (operaciones, administración, marketing, audiovisual) para impulsar expansión simultáneamente.\n\n[RESPUESTA_MSG1]\nHola Florencia, si un trabajo en conjunto con las áreas que mencionas en Costa Rica! Contame 😬\n\n[MSG2]\nCoordinar marketing, operaciones, administración y audiovisual al mismo tiempo suele requerir bastante alineación. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?\n\n[RESPUESTA_MSG2]\n\"Podés enviármelo a mí al correo businessdeveloper@libertariocoffee.com. Para conversarlo con el equipo, no te prometo nada! Mil gracias por el contacto!!\"\n\n[MSG3]\nSí Karla, exacto. Es un servicio, no un software. Muchas de las empresas con las que trabajamos también tienen equipos internos. Nuestro rol no suele ser reemplazarlos, sino darles más capacidad de ejecución.\n\n[SEG1]\nKarla, cómo estás?\nNo sé si llegaste a comentarlo con el equipo.\nMe quedó pensando en lo de coordinar marketing, operaciones, administración y audiovisual al mismo tiempo en la expansión de Libertario.\nSi te sirve, puedo armar algo más concreto pensado en lo que están necesitando hoy, y si hace sentido lo conversamos con quien corresponda del equipo.",
+    "raw_md": "---\nname: karla-castillo\ndescription: CERRADA, Brand & Growth Strategist Libertario Coffee Roasters Costa Rica, equipo inhouse, queda en el radar a futuro, 20/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Karla Castillo\n**Cargo:** Brand & Growth Strategist\n**Empresa:** Libertario Coffee Roasters (café premium regional)\n**País:** Costa Rica\n**Fecha:** 09/06/26\n\n## MSG1\n> Karla, gracias por conectar! Vi que sos Brand & Growth Strategist en Libertario Coffee Roasters. En 11 meses lideraste la coordinación de 4 áreas diferentes (operaciones, administración, marketing, audiovisual) para impulsar expansión simultáneamente.\n\n## Respuesta MSG1\n> Hola Florencia, si un trabajo en conjunto con las áreas que mencionas en Costa Rica! Contame 😬\n\n## MSG2 (atención: usó \"Por eso pensé en escribirte\" dos veces — frase prohibida del blocklist, ya enviado)\n> Coordinar marketing, operaciones, administración y audiovisual al mismo tiempo suele requerir bastante alineación. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?\n\n## Respuesta MSG2 (objeción)\n> \"Disculpa, es que no comprendí bien, estas ofreciéndonos tu servicio de agencia? El tema es que todo lo tenemos inhouse, en caso de que sea un software me podrías indicar para consultarle al equipo de IT\"\n\n## Manejo de objeción\n> Sí Karla, exacto. Es un servicio, no un software. Muchas de las empresas con las que trabajamos también tienen equipos internos. Nuestro rol no suele ser reemplazarlos, sino darles más capacidad de ejecución.\n\n## Respuesta final\n> \"Podés enviármelo a mí al correo businessdeveloper@libertariocoffee.com. Para conversarlo con el equipo, no te prometo nada! Mil gracias por el contacto!!\"\n\n## Cierre\n> A vos por el tiempo! Buena semana y estamos en contacto cualquier novedad.\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: HIGH — pese a la objeción inicial, dio el mail proactivamente y cerró con doble exclamación; \"no te prometo nada\" es honestidad, no frialdad. Ajustado porque ella no decide sola)\n> Karla, cómo estás?\n> No sé si llegaste a comentarlo con el equipo.\n> Me quedó pensando en lo de coordinar marketing, operaciones, administración y audiovisual al mismo tiempo en la expansión de Libertario.\n> Si te sirve, puedo armar algo más concreto pensado en lo que están necesitando hoy, y si hace sentido lo conversamos con quien corresponda del equipo.\n\n## Cierre definitivo (20/06/26)\n> Hola Florencia, muchas gracias, como te comentaba anteriormente ya las áreas están cubiertas por un equipo interno, de momento no vamos a tomar tu propuesta lo tenemos en el radar! Mil gracias\n\n> Florencia: Muchas gracias por la respuesta Karla, buen fin de semana y estamos en contacto para el futuro cualquier cosa!\n\n**Estado:** CERRADA (20/06/26) — equipo inhouse, queda en el radar a futuro\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "sector"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "seccion_desconocida: 'Cierre definitivo (20/06/26)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

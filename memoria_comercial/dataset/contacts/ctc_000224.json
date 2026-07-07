@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000224",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Julián Tovar",
+  "empresa": "Growatt New Energy",
+  "cargo": "",
+  "pais": "",
+  "sector_raw": "",
+  "stage": 2,
+  "stage_texto": "",
+  "fecha": "18/06/26",
+  "email": null,
+  "sector_norm": "DESCONOCIDO",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000192",
+  "historial_slug": "1781801720560"
+}

@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000254",
+  "contact_id": "ctc_000150",
+  "source_file": "conversaciones/junio/ricardo-antonio-castillo-moya.md",
+  "fingerprint": "sha256:2897c8e096aa025739f9dec721eafe6fb23d619e45528bb561ba59eba8262447",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/ricardo-antonio-castillo-moya.md",
+    "file_hash": "sha256:2897c8e096aa025739f9dec721eafe6fb23d619e45528bb561ba59eba8262447",
+    "file_modified": "2026-06-22T14:51:32.675187+00:00",
+    "file_size": 1197,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ricardo Antonio Castillo Moya",
+    "empresa": "Transportes y Gruas Vecchiola S.A. (V T&G)",
+    "cargo": "Gerente Corporativo de Estrategia, Marketing y Desarrollo Organizacional",
+    "pais": "Chile",
+    "fecha": "",
+    "estado_texto": "MSG2 enviado, esperando respuesta."
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ricardo Antonio Castillo Moya]\n[EMPRESA: Transportes y Gruas Vecchiola S.A. (V T&G)]\n[CARGO: Gerente Corporativo de Estrategia, Marketing y Desarrollo Organizacional]\n[PAIS: Chile]",
+    "raw_md": "---\nname: ricardo-antonio-castillo-moya\ndescription: MSG2 enviado, Gerente Corporativo Estrategia Marketing y DO V T&G mineria Chile, 22/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Ricardo Antonio Castillo Moya\n**Cargo:** Gerente Corporativo de Estrategia, Marketing y Desarrollo Organizacional\n**Empresa:** Transportes y Gruas Vecchiola S.A. (V T&G)\n**País:** Chile\n\n**Resumen de conversación:**\n- MSG1: Florencia observó su reflexión post módulo de MBA sobre \"la estrategia como capacidad, no como documento\", ajustar continuamente sin perder el rumbo.\n- Respondió: \"Hola Florencia, que tal, un gusto. Quedo atento a tu consulta\"\n- MSG2 enviado: conecta esa visión de estrategia adaptable con la comunicación coherente que V T&G ya construye hacia BHP y Codelco (cultura, seguridad, innovación). Mención clientes TGS y Transener (energía/infra).\n\n**Notas:**\n- V T&G: proveedor de tecnología y servicios para gran minería del cobre (grúas inteligentes, V Smart Crane, V Smart Fleet), clientes BHP y Codelco.\n- Perfil con fuerte foco en cultura organizacional, gestión del cambio y experiencia cliente (banca, retail, minería).\n\n**Estado:** MSG2 enviado, esperando respuesta.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

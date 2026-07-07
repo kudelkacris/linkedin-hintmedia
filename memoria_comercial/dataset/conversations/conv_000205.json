@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_000205",
+  "contact_id": "ctc_000283",
+  "source_file": "conversaciones/junio/leidy-sandi-jimenez.md",
+  "fingerprint": "sha256:d40967c3738ec81098ff92829b8389e3459d12218eed846ac4855de5abd07ea5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/leidy-sandi-jimenez.md",
+    "file_hash": "sha256:d40967c3738ec81098ff92829b8389e3459d12218eed846ac4855de5abd07ea5",
+    "file_modified": "2026-06-23T21:46:08.211363+00:00",
+    "file_size": 2368,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Leidy Sandi Jimenez",
+    "empresa": "Congero Technology Group (AI, ERP, CRM, Billing, RPA — LATAM)",
+    "cargo": "Marketing Lead, Congero Technology Group",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "Dossier confirmado — respondió \"Sí, claro\""
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "Leidy, espero que andes bien. Me quedó dando vueltas algo después de mandarte el material.\n\nEsa frase tuya, \"el crecimiento no sucede por casualidad, sino por convicción\".\n\nMe llamó la atención por una razón puntual, no es lo típico que alguien en comercial lo diga así.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.\nLeidy, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya de que el crecimiento no sucede por casualidad sino por convicción, y que la comunicación tiene que estar a la altura de eso cuando una empresa crece tan rápido como Congero. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo hoy.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)\n- Leidy maneja toda la comunicación/marketing de Congero\n- Está en una etapa de crecimiento acelerado"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Leidy Sandi Jimenez]\n[EMPRESA: Congero Technology Group (AI, ERP, CRM, Billing, RPA — LATAM)]\n[CARGO: Marketing Lead, Congero Technology Group]\n[PAIS: Costa Rica]\n\n[SEG1]\nLeidy, espero que andes bien. Me quedó dando vueltas algo después de mandarte el material.\n\nEsa frase tuya, \"el crecimiento no sucede por casualidad, sino por convicción\".\n\nMe llamó la atención por una razón puntual, no es lo típico que alguien en comercial lo diga así.\n\nSi te parece que tiene sentido, podemos conversarlo 15 minutos.\nLeidy, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya de que el crecimiento no sucede por casualidad sino por convicción, y que la comunicación tiene que estar a la altura de eso cuando una empresa crece tan rápido como Congero. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo hoy.\n\n[NOTAS]\n- Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)\n- Leidy maneja toda la comunicación/marketing de Congero\n- Está en una etapa de crecimiento acelerado",
+    "raw_md": "# Leidy Sandi Jimenez\n\n**Estado:** Dossier confirmado — respondió \"Sí, claro\"\n**Fecha:** 15/06/26\n**Cargo:** Marketing Lead, Congero Technology Group\n**País:** Costa Rica\n**Empresa:** Congero Technology Group (AI, ERP, CRM, Billing, RPA — LATAM)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:31):**\nCitó cómo posicionó a Congero en London Tech Week, destacando a Celio y Alexander como puntos de entrada en lugar de solo listar servicios.\n\n**Respuesta Leidy (22:30):**\n\"Hola Florencia, espero se encuentre bien, claro dejame saber tu consulta\"\n\n**MSG2 (redactado):**\n> Leidy, gracias por responder.\n>\n> Me quedé pensando en eso que escribiste: \"el crecimiento no sucede por casualidad, sino por convicción.\" Cuando una empresa crece tan rápido como Congero, la comunicación tiene que estar a la altura de esa convicción.\n>\n> En Hint acompañamos a empresas B2B de tecnología para que sus mensajes lleguen al nivel C-suite con la claridad que merece lo que hacen.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Leidy (16/06/26):**\n\"Sí, claro\"\n\n**Respuesta enviada:**\n> Perfecto Leidy, te lo mando por acá ahora mismo!\n>\n> Y si preferís que te lo envíe también por mail, decime a qué dirección.\n\n## SEG1 (enviado 17/06/26)\n> Leidy, espero que andes bien. Me quedó dando vueltas algo después de mandarte el material.\n>\n> Esa frase tuya, \"el crecimiento no sucede por casualidad, sino por convicción\".\n>\n> Me llamó la atención por una razón puntual, no es lo típico que alguien en comercial lo diga así.\n>\n> Si te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n**Estado actualizado:** SEG1 enviado (17/06/26), segundo SEG1 enviado 23/06/26 (engagement MEDIUM):\n> Leidy, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa frase tuya de que el crecimiento no sucede por casualidad sino por convicción, y que la comunicación tiene que estar a la altura de eso cuando una empresa crece tan rápido como Congero. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo hoy.\n\n## Notas\n- Congero en expansión (Brasil, London Tech Week, partnership con Stratus Toronto)\n- Leidy maneja toda la comunicación/marketing de Congero\n- Está en una etapa de crecimiento acelerado\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

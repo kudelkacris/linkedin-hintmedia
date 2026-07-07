@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000033",
+  "contact_id": "ctc_000072",
+  "source_file": "conversaciones/julio/edinson-edy-velasquez-castellanos.md",
+  "fingerprint": "sha256:00f201d94a84f5cb5a28586e179e75fe3e4fdbddfe5ef1546615bcc59fc751da",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/edinson-edy-velasquez-castellanos.md",
+    "file_hash": "sha256:00f201d94a84f5cb5a28586e179e75fe3e4fdbddfe5ef1546615bcc59fc751da",
+    "file_modified": "2026-07-06T13:07:29.475615+00:00",
+    "file_size": 4123,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Edinson (Edy) Velasquez Castellanos",
+    "empresa": "Lilo Social",
+    "cargo": "Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive",
+    "pais": "Colombia",
+    "fecha": "01/07/26",
+    "estado_texto": "Dossier enviado — 03/07/26"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NO_BUDGET",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Edy, gracias por conectar. 👋\n\nMe llamó la atención que en tu post sobre los primeros tres meses en Lilo Social destacaras específicamente lo que aprendiste sobre cómo high-growth brands escalan sus esfuerzos de marketing. La mayoría de los project managers habla de proyectos entregados o clientes satisfechos. Vos pusiste el foco en el \"cómo se crece sin romperse\".\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"Hola, si, cuéntame.\"",
+    "msg2_texto": "Buenas Edy, te cuento.\nManejás cuentas en beauty y luxury al mismo tiempo. Cuando una de esas marcas decide escalar rápido, cuál es el primer frente que se complica?\nTrabajo en Hint Media con marcas de consumo y retail, como Destiny Group y Tasarolli. Cuando una marca está en modo crecimiento, ayudamos a coordinar la comunicación: contenido, paid media, identidad. Todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Lo que pasa es que hay que tener en cuenta muchas veces el budget con el que escalan y los canales que se tienen para eso. Ósea pero que necesitas que se haga con esa revisión? A quien te refieres dentro de mi empresa?",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Edy! Una reflexión que me quedó de lo que hablamos.\nCuando una marca de beauty escala sin tener los canales alineados, normalmente es el account manager el que absorbe el desorden. El cliente no ve la coordinación, ve el resultado.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Post de 2 semanas donde agradece a Lilo Social por la oportunidad y explícitamente menciona el aprendizaje sobre \"cómo high-growth brands escalan sus esfuerzos de marketing y generan revenue\". Revela una mentalidad de aprendizaje activo y curiosidad por el crecimiento de negocio, no solo ejecución.",
+    "hipotesis": "Transición reciente a agencia (Lilo Social) + mentalidad explícita de aprendizaje sobre escalamiento = probablemente está descubriendo cómo se estructura el trabajo cuando coordinas múltiples clientes al mismo tiempo. Conversación interesante: cómo mantener ejecución de calidad cuando el volumen crece, cómo delegar sin perder control, cómo documentar procesos.",
+    "palabras_clave": [
+      "cuentame",
+      "pasa",
+      "tener",
+      "cuenta",
+      "muchas",
+      "veces",
+      "budget",
+      "escalan",
+      "canales",
+      "tienen"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Edinson (Edy) Velasquez Castellanos]\n[EMPRESA: Lilo Social]\n[CARGO: Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive]\n[SECTOR: Beauty, Luxury, DTC, E-commerce]\n[PAIS: Colombia]\n[SENAL: Post de 2 semanas donde agradece a Lilo Social por la oportunidad y explícitamente menciona el aprendizaje sobre \"cómo high-growth brands escalan sus esfuerzos de marketing y generan revenue\". Revela una mentalidad de aprendizaje activo y curiosidad por el crecimiento de negocio, no solo ejecución.]\n[HIPOTESIS: Transición reciente a agencia (Lilo Social) + mentalidad explícita de aprendizaje sobre escalamiento = probablemente está descubriendo cómo se estructura el trabajo cuando coordinas múltiples clientes al mismo tiempo. Conversación interesante: cómo mantener ejecución de calidad cuando el volumen crece, cómo delegar sin perder control, cómo documentar procesos.]\n\n[MSG1]\nEdy, gracias por conectar. 👋\n\nMe llamó la atención que en tu post sobre los primeros tres meses en Lilo Social destacaras específicamente lo que aprendiste sobre cómo high-growth brands escalan sus esfuerzos de marketing. La mayoría de los project managers habla de proyectos entregados o clientes satisfechos. Vos pusiste el foco en el \"cómo se crece sin romperse\".\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"Hola, si, cuéntame.\"\n\n[MSG2]\nBuenas Edy, te cuento.\nManejás cuentas en beauty y luxury al mismo tiempo. Cuando una de esas marcas decide escalar rápido, cuál es el primer frente que se complica?\nTrabajo en Hint Media con marcas de consumo y retail, como Destiny Group y Tasarolli. Cuando una marca está en modo crecimiento, ayudamos a coordinar la comunicación: contenido, paid media, identidad. Todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\nLo que pasa es que hay que tener en cuenta muchas veces el budget con el que escalan y los canales que se tienen para eso. Ósea pero que necesitas que se haga con esa revisión? A quien te refieres dentro de mi empresa?\n\n[MSG3]\nBuen fin de semana Edison, estamos en contacto en el futuro cercano!\n\n[RESPUESTA_MSG3]\nOk, gracias.\n\n[SEG1]\nBuenas Edy! Una reflexión que me quedó de lo que hablamos.\nCuando una marca de beauty escala sin tener los canales alineados, normalmente es el account manager el que absorbe el desorden. El cliente no ve la coordinación, ve el resultado.",
+    "raw_md": "# Edinson (Edy) Velasquez Castellanos\n\n**Fecha:** 01/07/26\n**Cargo:** Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive\n**Empresa:** Lilo Social\n**Pais:** Colombia\n**Sector:** Beauty, Luxury, DTC, E-commerce\n**Estado:** Dossier enviado — 03/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Post de 2 semanas donde agradece a Lilo Social por la oportunidad y explícitamente menciona el aprendizaje sobre \"cómo high-growth brands escalan sus esfuerzos de marketing y generan revenue\". Revela una mentalidad de aprendizaje activo y curiosidad por el crecimiento de negocio, no solo ejecución.\n- **Tensión profesional:** Escalar iniciativas de marketing (múltiples marcas, múltiples canales, múltiples equipos) sin que la calidad ni la consistencia de marca se desmoronen, y sin que el conocimiento sobre los resultados reales quede centralizado en una sola persona.\n- **Hipótesis:** Transición reciente a agencia (Lilo Social) + mentalidad explícita de aprendizaje sobre escalamiento = probablemente está descubriendo cómo se estructura el trabajo cuando coordinas múltiples clientes al mismo tiempo. Conversación interesante: cómo mantener ejecución de calidad cuando el volumen crece, cómo delegar sin perder control, cómo documentar procesos.\n- **Ángulo MSG1:** Partir de la señal humana (post de agradecimiento + aprendizaje sobre escalamiento de marcas).\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Edy, gracias por conectar. 👋\n>\n> Me llamó la atención que en tu post sobre los primeros tres meses en Lilo Social destacaras específicamente lo que aprendiste sobre cómo high-growth brands escalan sus esfuerzos de marketing. La mayoría de los project managers habla de proyectos entregados o clientes satisfechos. Vos pusiste el foco en el \"cómo se crece sin romperse\".\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"Hola, si, cuéntame.\"\n\n---\n\n## MSG2\n> Buenas Edy, te cuento.\n> Manejás cuentas en beauty y luxury al mismo tiempo. Cuando una de esas marcas decide escalar rápido, cuál es el primer frente que se complica?\n> Trabajo en Hint Media con marcas de consumo y retail, como Destiny Group y Tasarolli. Cuando una marca está en modo crecimiento, ayudamos a coordinar la comunicación: contenido, paid media, identidad. Todo en un mismo hilo.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Respuesta MSG2 (02/07/26)\n> Lo que pasa es que hay que tener en cuenta muchas veces el budget con el que escalan y los canales que se tienen para eso. Ósea pero que necesitas que se haga con esa revisión? A quien te refieres dentro de mi empresa?\n\n## MSG3 — aclaración (02/07/26)\n> Edy, lo del budget y los canales tiene sentido. Es exactamente ahí donde se rompe algo cuando una marca quiere crecer rápido sin tenerlo alineado.\n> No necesitás hacer nada ni llevarlo a nadie. Hint Media trabajamos con marcas en ese momento puntual de escala, y el dossier es un material breve con casos concretos de ese tipo de trabajo.\n> Te lo mando por acá si querés, es solo para que lo tengas de referencia.\n\n## Respuesta MSG3 (03/07/26)\n> Ok, gracias.\n\n## Dossier enviado (03/07/26)\n> Buen fin de semana Edison, estamos en contacto en el futuro cercano!\n\n## Intercambio fin de semana (04/07/26)\n**Edinson (viernes 22:11):**\n> Listo, feliz finde para ti también. Aquí tienes punto final y en los otros no. 😉🤗😄 Jeje\n\n**Respuesta enviada (06/07/26):**\n> Jaja gracias por el punto y por darle un vistazo al dossier. Cualquier cosa que surja acá estamos.\n\n## SEG1 — pendiente semana que viene (si no retoma)\n> Buenas Edy! Una reflexión que me quedó de lo que hablamos.\n> Cuando una marca de beauty escala sin tener los canales alineados, normalmente es el account manager el que absorbe el desorden. El cliente no ve la coordinación, ve el resultado.\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "seccion_desconocida: 'Intercambio fin de semana (04/07/26)'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

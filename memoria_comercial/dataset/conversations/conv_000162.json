@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000162",
+  "contact_id": "ctc_000407",
+  "source_file": "conversaciones/junio/gabriela-lancara.md",
+  "fingerprint": "sha256:11e9d49e1f17246612a8481c87ba3c7f19738e9870155d9c05e8212ef92729ad",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/gabriela-lancara.md",
+    "file_hash": "sha256:11e9d49e1f17246612a8481c87ba3c7f19738e9870155d9c05e8212ef92729ad",
+    "file_modified": "2026-06-19T15:31:13.830240+00:00",
+    "file_size": 1524,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Gabriela Láncara",
+    "empresa": "Tairo Group (belleza premium)",
+    "cargo": "Brand Manager",
+    "pais": "",
+    "fecha": "09/06/26",
+    "estado_texto": "Seguimiento liviano enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Gabriela, gracias por conectar! Vi que sos Brand Manager en Tairo Group, posicionan marcas de belleza premium en mercados competitivos. Destacás por haber diseñado un modelo de negocio nuevo para Ecuador desde cero durante tu paso por L'Oréal.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola! Si, dime",
+    "msg2_texto": "Armar un modelo comercial nuevo desde cero requiere un equipo que ejecute rápido mientras vos definís la dirección estratégica. Trabajamos con TGS, Transener y Libra Seguros con ese modelo. ¿Te puedo enviar un dossier breve por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"Hola! En el rol en el que estoy ahora no creo que pueda ayudarlos mucho, pero si me parece interesante conocer mas de ustedes. Puedes enviarme el dossier por aca\"",
+    "seg1_enviado": true,
+    "seg1_texto": "Cualquier cosa que te genere, quedo atenta. Sin apuro, cuando quieras retomamos.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "dime",
+      "estoy",
+      "ahora",
+      "creo",
+      "pueda",
+      "ayudarlos",
+      "mucho",
+      "parece",
+      "interesante",
+      "conocer"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Gabriela Láncara]\n[EMPRESA: Tairo Group (belleza premium)]\n[CARGO: Brand Manager]\n\n[MSG1]\nGabriela, gracias por conectar! Vi que sos Brand Manager en Tairo Group, posicionan marcas de belleza premium en mercados competitivos. Destacás por haber diseñado un modelo de negocio nuevo para Ecuador desde cero durante tu paso por L'Oréal.\n\n[RESPUESTA_MSG1]\nHola! Si, dime\n\n[MSG2]\nArmar un modelo comercial nuevo desde cero requiere un equipo que ejecute rápido mientras vos definís la dirección estratégica. Trabajamos con TGS, Transener y Libra Seguros con ese modelo. ¿Te puedo enviar un dossier breve por acá?\n\n[RESPUESTA_MSG2]\n\"Hola! En el rol en el que estoy ahora no creo que pueda ayudarlos mucho, pero si me parece interesante conocer mas de ustedes. Puedes enviarme el dossier por aca\"\n\n[SEG1]\nCualquier cosa que te genere, quedo atenta. Sin apuro, cuando quieras retomamos.",
+    "raw_md": "---\nname: gabriela-lancara\ndescription: Seguimiento sin CTA (rol no calza), Brand Manager Tairo Group, ex L'Oréal Ecuador, 09/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Gabriela Láncara\n**Cargo:** Brand Manager\n**Empresa:** Tairo Group (belleza premium)\n**Fecha:** 09/06/26\n\n## MSG1\n> Gabriela, gracias por conectar! Vi que sos Brand Manager en Tairo Group, posicionan marcas de belleza premium en mercados competitivos. Destacás por haber diseñado un modelo de negocio nuevo para Ecuador desde cero durante tu paso por L'Oréal.\n\n## Respuesta MSG1\n> Hola! Si, dime\n\n## MSG2\n> Armar un modelo comercial nuevo desde cero requiere un equipo que ejecute rápido mientras vos definís la dirección estratégica. Trabajamos con TGS, Transener y Libra Seguros con ese modelo. ¿Te puedo enviar un dossier breve por acá?\n\n## Respuesta MSG2 (con reserva explícita)\n> \"Hola! En el rol en el que estoy ahora no creo que pueda ayudarlos mucho, pero si me parece interesante conocer mas de ustedes. Puedes enviarme el dossier por aca\"\n\n## Cierre\n> ¡Perfecto Gabriela! Te lo comparto por acá. Sin ningún apuro, queda para cuando lo veas útil. Buena semana!\n\n## Seguimiento (19/06/26, ENGAGEMENT_LEVEL: MEDIUM-bajo — curiosidad genuina pero con reserva explícita de que su rol no calza; sin CTA de llamada por ese motivo, sin pedirle derivación tampoco porque sonaba a \"saltearla\")\n> Cualquier cosa que te genere, quedo atenta. Sin apuro, cuando quieras retomamos.\n\n**Estado:** Seguimiento liviano enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

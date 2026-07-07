@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000010",
+  "contact_id": "ctc_000019",
+  "source_file": "conversaciones/julio/andrea-borja-campos.md",
+  "fingerprint": "sha256:5445e568bb5005f322a5a451810c9e73c14df0030d850ed0f47d3343f63bbaca",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/andrea-borja-campos.md",
+    "file_hash": "sha256:5445e568bb5005f322a5a451810c9e73c14df0030d850ed0f47d3343f63bbaca",
+    "file_modified": "2026-07-06T15:23:54.156257+00:00",
+    "file_size": 2075,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Andrea Borja Campos",
+    "empresa": "Isaba",
+    "cargo": "Marketing & Comunicación",
+    "pais": "España",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Andrea, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste sobre la campaña de Nivea. La parte donde decís que \"observa lo que ya existe y lo conecta\" es exactamente lo opuesto a lo que la mayoría intenta hacer. Eso revela mucho sobre cómo pensás la marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre caso Nivea (2 meses atrás) donde comenta la idea \"simple pero potente\" y critica que \"la mayoría de las marcas siente que tienen que explicar demasiado\". Señal clara: valora la observación profunda sobre lo que existe y la simplificación creativa por encima de la explicación forzada. También: búsqueda activa de operador de dron (contenido visual/producción) y destacar en el proyecto del parque acuático la \"escucha activa\" que generó participación ciudadana.",
+    "hipotesis": "Cómo mantener consistencia de marca mientras la empresa crece (cambio reciente a Isaba después de Capdell); cómo transformar insights en contenido que resuene en varios públicos simultáneamente (ciudadanos, profesionales, comercial); cómo acelerar producción de contenido/narrativa sin que se diluya la calidad observacional que ella valora.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Andrea Borja Campos]\n[EMPRESA: Isaba]\n[CARGO: Marketing & Comunicación]\n[SECTOR: Real Estate / Diseño de Espacios / Construcción]\n[PAIS: España]\n[SENAL: Publicación sobre caso Nivea (2 meses atrás) donde comenta la idea \"simple pero potente\" y critica que \"la mayoría de las marcas siente que tienen que explicar demasiado\". Señal clara: valora la observación profunda sobre lo que existe y la simplificación creativa por encima de la explicación forzada. También: búsqueda activa de operador de dron (contenido visual/producción) y destacar en el proyecto del parque acuático la \"escucha activa\" que generó participación ciudadana.]\n[HIPOTESIS: Cómo mantener consistencia de marca mientras la empresa crece (cambio reciente a Isaba después de Capdell); cómo transformar insights en contenido que resuene en varios públicos simultáneamente (ciudadanos, profesionales, comercial); cómo acelerar producción de contenido/narrativa sin que se diluya la calidad observacional que ella valora.]\n\n[MSG1]\nAndrea, gracias por conectar! 👋\n\nMe llamó la atención el comentario que hiciste sobre la campaña de Nivea. La parte donde decís que \"observa lo que ya existe y lo conecta\" es exactamente lo opuesto a lo que la mayoría intenta hacer. Eso revela mucho sobre cómo pensás la marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Andrea Borja Campos\n\n**Fecha:** 06/07/26\n**Cargo:** Marketing & Comunicación\n**Empresa:** Isaba\n**Pais:** España\n**Sector:** Real Estate / Diseño de Espacios / Construcción\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre caso Nivea (2 meses atrás) donde comenta la idea \"simple pero potente\" y critica que \"la mayoría de las marcas siente que tienen que explicar demasiado\". Señal clara: valora la observación profunda sobre lo que existe y la simplificación creativa por encima de la explicación forzada. También: búsqueda activa de operador de dron (contenido visual/producción) y destacar en el proyecto del parque acuático la \"escucha activa\" que generó participación ciudadana.\n- **Tensión profesional:** Escalar la presencia de marca y la generación de oportunidades comerciales sin que la ejecución dependa únicamente de ella misma ni que se pierda la coherencia narrativa entre mercados/públicos distintos.\n- **Hipótesis:** Cómo mantener consistencia de marca mientras la empresa crece (cambio reciente a Isaba después de Capdell); cómo transformar insights en contenido que resuene en varios públicos simultáneamente (ciudadanos, profesionales, comercial); cómo acelerar producción de contenido/narrativa sin que se diluya la calidad observacional que ella valora.\n- **Ángulo MSG1:** La filosofía creativa que revela en su comentario sobre Nivea (observación > explicación) y la búsqueda actual de producción de contenido (operador de dron) como señal de que está en fase de escalamiento operativo de la narrativa.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Andrea, gracias por conectar! 👋\n>\n> Me llamó la atención el comentario que hiciste sobre la campaña de Nivea. La parte donde decís que \"observa lo que ya existe y lo conecta\" es exactamente lo opuesto a lo que la mayoría intenta hacer. Eso revela mucho sobre cómo pensás la marca.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

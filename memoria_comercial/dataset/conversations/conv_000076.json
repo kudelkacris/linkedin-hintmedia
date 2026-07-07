@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000076",
+  "contact_id": "ctc_000088",
+  "source_file": "conversaciones/julio/martin-orlando.md",
+  "fingerprint": "sha256:d173f06dd52d21441a0f235a8a10d4860c49290ee03c72e37efb139d1095dfdc",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/martin-orlando.md",
+    "file_hash": "sha256:d173f06dd52d21441a0f235a8a10d4860c49290ee03c72e37efb139d1095dfdc",
+    "file_modified": "2026-07-02T00:01:57.196146+00:00",
+    "file_size": 2017,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Martin Orlando",
+    "empresa": "Costa Rica",
+    "cargo": "Marketing Manager @ Innovia Healthcare",
+    "pais": "Costa Rica",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "Martin, gracias por conectar! 👋\n\nMe llamó la atención cómo presentaste el award de Best Digital Campaign. En vez de hacerlo solo sobre el logro, le diste bastante crédito al equipo de Novonesis y a la partnership. No es lo que la mayoría hace cuando quiere destacar un premio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "En la mayoría de sus publicaciones da crédito explícito a partners, equipos y aliados (\"Agradecemos especialmente la visita de...\", \"Gracias a los médicos que nos acompañaron...\", \"A special thanks to the entire Novonesis team...\"). En particular, en el post sobre el award de Best Digital Campaign, destaca tanto el logro como el agradecimiento al equipo y a la alianza. Esto revela que articula sus logros a través de la relación con terceros, no como mérito individual.",
+    "hipotesis": "Cómo construir y ejecutar campañas de educación médica que conecten ciencia con alcance de mercado / cómo mantener consistencia de messaging farmacéutico en múltiples países sin que todo dependa de una sola persona / cómo acelerar la producción de contenido especializado sin perder credibilidad.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Martin Orlando]\n[EMPRESA: Costa Rica]\n[CARGO: Marketing Manager @ Innovia Healthcare]\n[SECTOR: Farmacéutica / Healthcare (Distribución)]\n[PAIS: Costa Rica]\n[SENAL: En la mayoría de sus publicaciones da crédito explícito a partners, equipos y aliados (\"Agradecemos especialmente la visita de...\", \"Gracias a los médicos que nos acompañaron...\", \"A special thanks to the entire Novonesis team...\"). En particular, en el post sobre el award de Best Digital Campaign, destaca tanto el logro como el agradecimiento al equipo y a la alianza. Esto revela que articula sus logros a través de la relación con terceros, no como mérito individual.]\n[HIPOTESIS: Cómo construir y ejecutar campañas de educación médica que conecten ciencia con alcance de mercado / cómo mantener consistencia de messaging farmacéutico en múltiples países sin que todo dependa de una sola persona / cómo acelerar la producción de contenido especializado sin perder credibilidad.]\n\n[MSG1]\nMartin, gracias por conectar! 👋\n\nMe llamó la atención cómo presentaste el award de Best Digital Campaign. En vez de hacerlo solo sobre el logro, le diste bastante crédito al equipo de Novonesis y a la partnership. No es lo que la mayoría hace cuando quiere destacar un premio.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Martin Orlando\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing Manager @ Innovia Healthcare\n**Empresa:** Costa Rica\n**Pais:** Costa Rica\n**Sector:** Farmacéutica / Healthcare (Distribución)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** En la mayoría de sus publicaciones da crédito explícito a partners, equipos y aliados (\"Agradecemos especialmente la visita de...\", \"Gracias a los médicos que nos acompañaron...\", \"A special thanks to the entire Novonesis team...\"). En particular, en el post sobre el award de Best Digital Campaign, destaca tanto el logro como el agradecimiento al equipo y a la alianza. Esto revela que articula sus logros a través de la relación con terceros, no como mérito individual.\n- **Tensión profesional:** Escalar la visibilidad de marca en múltiples mercados sin perder el rigor científico ni la credibilidad con audiencias médicas exigentes, mientras se coordina con partners estratégicos que tienen sus propias prioridades.\n- **Hipótesis:** Cómo construir y ejecutar campañas de educación médica que conecten ciencia con alcance de mercado / cómo mantener consistencia de messaging farmacéutico en múltiples países sin que todo dependa de una sola persona / cómo acelerar la producción de contenido especializado sin perder credibilidad.\n- **Ángulo MSG1:** La forma deliberada en que articula los logros desde las relaciones y colaboraciones, no desde el ego individual — sugiere que entiende que en salud la credibilidad viene de la alianza, no del discurso propio.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Martin, gracias por conectar! 👋\n>\n> Me llamó la atención cómo presentaste el award de Best Digital Campaign. En vez de hacerlo solo sobre el logro, le diste bastante crédito al equipo de Novonesis y a la partnership. No es lo que la mayoría hace cuando quiere destacar un premio.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

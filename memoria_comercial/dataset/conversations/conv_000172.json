@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000172",
+  "contact_id": "ctc_000530",
+  "source_file": "conversaciones/junio/ildefonso-vazquez.md",
+  "fingerprint": "sha256:8235a55a3b28895d04a7b5c197ceb0aad5268e626721d12c07b989fb16241a3b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/ildefonso-vazquez.md",
+    "file_hash": "sha256:8235a55a3b28895d04a7b5c197ceb0aad5268e626721d12c07b989fb16241a3b",
+    "file_modified": "2026-06-17T23:54:30.136067+00:00",
+    "file_size": 2952,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Ildefonso Vázquez",
+    "empresa": "IVG Group (Debbiom | VaGO | Smartligner | IVG | Novogen)",
+    "cargo": "CEO VaGO International Manufacturing, CEO DEBBIOM, COO Smartligner — Consejo IVG Group",
+    "pais": "México (Monterrey, Nuevo León)",
+    "fecha": "08/06/26 (MSG1) — SEG1 17/06/26",
+    "estado_texto": "SEG1 enviado"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Ildefonso, gracias por conectar! 👋\n\nVi que sos CEO de DEBBIOM y VaGO International Manufacturing, empresas de innovación en biotecnología y manufactura con presencia en conferencias internacionales como las Jornadas GHEP-ISFG 2026 con QIAGEN.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia - si, es correcto",
+    "msg2_texto": "Ildefonso, gracias. Lo que quería preguntarte es cómo están comunicando hacia afuera lo que hacen DEBBIOM y VaGO, biotecnología e innovación en manufactura son áreas donde la narrativa técnica muchas veces no llega a quien toma decisiones.\n\nEn Hint Media trabajamos con empresas que tienen ese mismo desafío: construimos narrativa y presencia digital insertándonos como equipo interno, diseño, contenido, estrategia, sin que tengas que armar estructura propia.\n\nTe envío el dossier por acá? En todo caso me indicás a quién se lo puedo mandar.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Si quieres mandamelo por aqui para revisarlo",
+    "seg1_enviado": true,
+    "seg1_texto": "Ildefonso, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste sobre la tecnología para identificar restos de personas desaparecidas.\n\nEse tipo de trabajo tiene un peso humano enorme detrás, pero hacia afuera suele quedar contado solo en términos técnicos, sin que se note del todo lo que realmente representa.\n\nEs justo ahí donde solemos ayudar, cuando hay algo con tanto impacto real que merece llegar mejor a quien toma decisiones.\n\nSi te parece que puede aportar valor, lo vemos 15 minutos.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "correcto",
+      "quieres",
+      "mandamelo",
+      "aqui",
+      "revisarlo",
+      "presion",
+      "revisalo",
+      "cuando",
+      "puedas"
+    ],
+    "notas": "- IVG Group: manufactura de dispositivos médicos (sector dental), bioequivalencia farmacéutica (COFEPRIS), distribución/equipamiento forense y de identificación humana (búsqueda de personas desaparecidas), laboratorio de identificación (paternidades, VPH, Covid-19).\n- Participación activa en Jornadas GHEP-ISFG 2026 junto a QIAGEN (genética forense).\n- Comentario propio de Ildefonso sobre un colega: \"la espera por ver de regreso a un familiar... puede durar años... Estoy convencido que en la suma de esfuerzos del Estado y la iniciativa privada podemos avanzar.\" — anclaje real usado en SEG1 en vez de la observación genérica de MSG1/MSG2.\n- No hubo respuesta después del dossier (interés MEDIO, aceptó rápido pero sin seguimiento de su parte)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Ildefonso Vázquez]\n[EMPRESA: IVG Group (Debbiom | VaGO | Smartligner | IVG | Novogen)]\n[CARGO: CEO VaGO International Manufacturing, CEO DEBBIOM, COO Smartligner — Consejo IVG Group]\n[SECTOR: Biotecnología / Manufactura de dispositivos médicos / Genética forense]\n[PAIS: México (Monterrey, Nuevo León)]\n\n[MSG1]\nIldefonso, gracias por conectar! 👋\n\nVi que sos CEO de DEBBIOM y VaGO International Manufacturing, empresas de innovación en biotecnología y manufactura con presencia en conferencias internacionales como las Jornadas GHEP-ISFG 2026 con QIAGEN.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia - si, es correcto\n\n[MSG2]\nIldefonso, gracias. Lo que quería preguntarte es cómo están comunicando hacia afuera lo que hacen DEBBIOM y VaGO, biotecnología e innovación en manufactura son áreas donde la narrativa técnica muchas veces no llega a quien toma decisiones.\n\nEn Hint Media trabajamos con empresas que tienen ese mismo desafío: construimos narrativa y presencia digital insertándonos como equipo interno, diseño, contenido, estrategia, sin que tengas que armar estructura propia.\n\nTe envío el dossier por acá? En todo caso me indicás a quién se lo puedo mandar.\n\n[RESPUESTA_MSG2]\nSi quieres mandamelo por aqui para revisarlo\n\n[SEG1]\nIldefonso, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste sobre la tecnología para identificar restos de personas desaparecidas.\n\nEse tipo de trabajo tiene un peso humano enorme detrás, pero hacia afuera suele quedar contado solo en términos técnicos, sin que se note del todo lo que realmente representa.\n\nEs justo ahí donde solemos ayudar, cuando hay algo con tanto impacto real que merece llegar mejor a quien toma decisiones.\n\nSi te parece que puede aportar valor, lo vemos 15 minutos.\n\n[NOTAS]\n- IVG Group: manufactura de dispositivos médicos (sector dental), bioequivalencia farmacéutica (COFEPRIS), distribución/equipamiento forense y de identificación humana (búsqueda de personas desaparecidas), laboratorio de identificación (paternidades, VPH, Covid-19).\n- Participación activa en Jornadas GHEP-ISFG 2026 junto a QIAGEN (genética forense).\n- Comentario propio de Ildefonso sobre un colega: \"la espera por ver de regreso a un familiar... puede durar años... Estoy convencido que en la suma de esfuerzos del Estado y la iniciativa privada podemos avanzar.\" — anclaje real usado en SEG1 en vez de la observación genérica de MSG1/MSG2.\n- No hubo respuesta después del dossier (interés MEDIO, aceptó rápido pero sin seguimiento de su parte).",
+    "raw_md": "# Ildefonso Vázquez\n\n**Estado:** SEG1 enviado\n**Fecha:** 08/06/26 (MSG1) — SEG1 17/06/26\n**Cargo:** CEO VaGO International Manufacturing, CEO DEBBIOM, COO Smartligner — Consejo IVG Group\n**Empresa:** IVG Group (Debbiom | VaGO | Smartligner | IVG | Novogen)\n**País:** México (Monterrey, Nuevo León)\n**Sector:** Biotecnología / Manufactura de dispositivos médicos / Genética forense\n\n## MSG1\n> Ildefonso, gracias por conectar! 👋\n>\n> Vi que sos CEO de DEBBIOM y VaGO International Manufacturing, empresas de innovación en biotecnología y manufactura con presencia en conferencias internacionales como las Jornadas GHEP-ISFG 2026 con QIAGEN.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar.\n\n## Respuesta MSG1\n> Hola Florencia - si, es correcto\n\n## MSG2\n> Ildefonso, gracias. Lo que quería preguntarte es cómo están comunicando hacia afuera lo que hacen DEBBIOM y VaGO, biotecnología e innovación en manufactura son áreas donde la narrativa técnica muchas veces no llega a quien toma decisiones.\n>\n> En Hint Media trabajamos con empresas que tienen ese mismo desafío: construimos narrativa y presencia digital insertándonos como equipo interno, diseño, contenido, estrategia, sin que tengas que armar estructura propia.\n>\n> Te envío el dossier por acá? En todo caso me indicás a quién se lo puedo mandar.\n\n## Respuesta MSG2\n> Si quieres mandamelo por aqui para revisarlo\n\n## Cierre\n> Sin presión. Revisalo cuando puedas y me contás si ves algo donde podamos aportar. Buena semana!\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Ildefonso, cómo estás? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo que comentaste sobre la tecnología para identificar restos de personas desaparecidas.\n>\n> Ese tipo de trabajo tiene un peso humano enorme detrás, pero hacia afuera suele quedar contado solo en términos técnicos, sin que se note del todo lo que realmente representa.\n>\n> Es justo ahí donde solemos ayudar, cuando hay algo con tanto impacto real que merece llegar mejor a quien toma decisiones.\n>\n> Si te parece que puede aportar valor, lo vemos 15 minutos.\n\n## Notas\n- IVG Group: manufactura de dispositivos médicos (sector dental), bioequivalencia farmacéutica (COFEPRIS), distribución/equipamiento forense y de identificación humana (búsqueda de personas desaparecidas), laboratorio de identificación (paternidades, VPH, Covid-19).\n- Participación activa en Jornadas GHEP-ISFG 2026 junto a QIAGEN (genética forense).\n- Comentario propio de Ildefonso sobre un colega: \"la espera por ver de regreso a un familiar... puede durar años... Estoy convencido que en la suma de esfuerzos del Estado y la iniciativa privada podemos avanzar.\" — anclaje real usado en SEG1 en vez de la observación genérica de MSG1/MSG2.\n- No hubo respuesta después del dossier (interés MEDIO, aceptó rápido pero sin seguimiento de su parte).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

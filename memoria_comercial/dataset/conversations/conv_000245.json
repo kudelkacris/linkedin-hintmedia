@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000245",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/junio/otto-mena.md",
+  "fingerprint": "sha256:5f35f740702f6da2b7aeec2d8994c9edff9a7e925ab9d421b4227d44bed7275d",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/otto-mena.md",
+    "file_hash": "sha256:5f35f740702f6da2b7aeec2d8994c9edff9a7e925ab9d421b4227d44bed7275d",
+    "file_modified": "2026-06-17T23:53:34.154958+00:00",
+    "file_size": 2300,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Otto Mena W 🇨🇷",
+    "empresa": "ATG",
+    "cargo": "Director General",
+    "pais": "Costa Rica",
+    "fecha": "04/06/26 (MSG1) — SEG1 17/06/26",
+    "estado_texto": "SEG1 enviado"
+  },
+  "normalized": {
+    "sector": "LOGISTICA",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Otto, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Director General en ATG liderando transformación operacional, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, Florencia. Con gusto",
+    "msg2_texto": "Perfecto. Vi que acaban de cerrar un hito importante con la certificación de la nueva planta en tiempo récord. Eso es significativo, especialmente en manufactura.\n\nTrabajo en Hint Media, un equipo que se inserta dentro de empresas para construir comunicación estratégica durante fases de crecimiento y transformación. Trabajamos como equipo completo (estrategia, contenido, diseño, gestión).\n\nHemos trabajado con TGS, Transener, Sullair, Libra Seguros en procesos similares donde necesitaban narrativa consistente sobre transformación, capacidad y crecimiento.\n\nTe lo envío por acá? Es un dossier que muestra cómo trabajamos. Recién después podés indicarme si hay sinergia o si preferís que lo contacte a alguien más.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Gracias",
+    "seg1_enviado": true,
+    "seg1_texto": "Otto, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de certificar la nueva planta en tiempo récord.\n\nEse tipo de logro suele quedar bien conocido adentro de la operación, pero rara vez se traduce con la misma fuerza hacia afuera, a clientes o al mercado.\n\nEs justo el tipo de situación donde solemos ayudar a que esos hitos no se queden solo en el equipo que los vivió.\n\nSi te hace sentido, podemos hablar 15 minutos esta semana.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "gusto",
+      "dossier",
+      "corto",
+      "trabajamos",
+      "estructura",
+      "equipo",
+      "insertamos",
+      "casos",
+      "transener"
+    ],
+    "notas": "- Interés MEDIO: cordial, sin preguntas extra, pero respondió en cada paso."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Otto Mena W 🇨🇷]\n[EMPRESA: ATG]\n[CARGO: Director General]\n[SECTOR: Industria alimentaria / Manufactura / Supply Chain — transformación operacional]\n[PAIS: Costa Rica]\n\n[MSG1]\nOtto, gracias por aceptar mi solicitud de conexión!\n\nEstaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Director General en ATG liderando transformación operacional, es así?\n\nSi es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n[RESPUESTA_MSG1]\nHola, Florencia. Con gusto\n\n[MSG2]\nPerfecto. Vi que acaban de cerrar un hito importante con la certificación de la nueva planta en tiempo récord. Eso es significativo, especialmente en manufactura.\n\nTrabajo en Hint Media, un equipo que se inserta dentro de empresas para construir comunicación estratégica durante fases de crecimiento y transformación. Trabajamos como equipo completo (estrategia, contenido, diseño, gestión).\n\nHemos trabajado con TGS, Transener, Sullair, Libra Seguros en procesos similares donde necesitaban narrativa consistente sobre transformación, capacidad y crecimiento.\n\nTe lo envío por acá? Es un dossier que muestra cómo trabajamos. Recién después podés indicarme si hay sinergia o si preferís que lo contacte a alguien más.\n\n[RESPUESTA_MSG2]\nGracias\n\n[SEG1]\nOtto, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de certificar la nueva planta en tiempo récord.\n\nEse tipo de logro suele quedar bien conocido adentro de la operación, pero rara vez se traduce con la misma fuerza hacia afuera, a clientes o al mercado.\n\nEs justo el tipo de situación donde solemos ayudar a que esos hitos no se queden solo en el equipo que los vivió.\n\nSi te hace sentido, podemos hablar 15 minutos esta semana.\n\n[NOTAS]\n- Interés MEDIO: cordial, sin preguntas extra, pero respondió en cada paso.",
+    "raw_md": "# Otto Mena W 🇨🇷\n\n**Estado:** SEG1 enviado\n**Fecha:** 04/06/26 (MSG1) — SEG1 17/06/26\n**Cargo:** Director General\n**Empresa:** ATG\n**País:** Costa Rica\n**Sector:** Industria alimentaria / Manufactura / Supply Chain — transformación operacional\n\n## MSG1\n> Otto, gracias por aceptar mi solicitud de conexión!\n>\n> Estaba revisando LinkedIn y me llamó la atención tu perfil. Según veo, sos Director General en ATG liderando transformación operacional, es así?\n>\n> Si es correcto y me lo permitís, tenía una duda y quería saber si me podrías ayudar?\n\n## Respuesta MSG1\n> Hola, Florencia. Con gusto\n\n## MSG2\n> Perfecto. Vi que acaban de cerrar un hito importante con la certificación de la nueva planta en tiempo récord. Eso es significativo, especialmente en manufactura.\n>\n> Trabajo en Hint Media, un equipo que se inserta dentro de empresas para construir comunicación estratégica durante fases de crecimiento y transformación. Trabajamos como equipo completo (estrategia, contenido, diseño, gestión).\n>\n> Hemos trabajado con TGS, Transener, Sullair, Libra Seguros en procesos similares donde necesitaban narrativa consistente sobre transformación, capacidad y crecimiento.\n>\n> Te lo envío por acá? Es un dossier que muestra cómo trabajamos. Recién después podés indicarme si hay sinergia o si preferís que lo contacte a alguien más.\n\n## Respuesta MSG2\n> Adelante\n\n## Cierre\n> Es un dossier corto con cómo trabajamos, la estructura del equipo que insertamos y casos como los de TGS y Transener.\n> (respuesta: \"Ok\")\n> Aca te dejo el Dossier Otto, cualquier consulta estoy a disposicion.\n\n## Respuesta al dossier\n> Gracias\n\n## SEG1 (enviado 17/06/26, en 4 burbujas)\n> Otto, cómo va todo? No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de certificar la nueva planta en tiempo récord.\n>\n> Ese tipo de logro suele quedar bien conocido adentro de la operación, pero rara vez se traduce con la misma fuerza hacia afuera, a clientes o al mercado.\n>\n> Es justo el tipo de situación donde solemos ayudar a que esos hitos no se queden solo en el equipo que los vivió.\n>\n> Si te hace sentido, podemos hablar 15 minutos esta semana.\n\n## Notas\n- Interés MEDIO: cordial, sin preguntas extra, pero respondió en cada paso.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000137",
+  "contact_id": "ctc_000214",
+  "source_file": "conversaciones/junio/cesar-maldonado.md",
+  "fingerprint": "sha256:3b08dcb09a89021b9e978e34ff384e6ffee2ff0471486d70c9e94f6cb9eb7b4f",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/cesar-maldonado.md",
+    "file_hash": "sha256:3b08dcb09a89021b9e978e34ff384e6ffee2ff0471486d70c9e94f6cb9eb7b4f",
+    "file_modified": "2026-07-01T15:55:05.684666+00:00",
+    "file_size": 2355,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "César Maldonado S.",
+    "empresa": "AES Andes",
+    "cargo": "Chief Digital Officer (CDO) IT/OT",
+    "pais": "Chile",
+    "fecha": "18/06/26 (MSG1, MSG2 y dossier el mismo día)",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "César, gracias por conectar. Me llamó la atención cómo comunicás los espacios que venís coordinando. No es lo típico: en lugar de destacar tu rol como expositor o coordinador, le das la voz al diálogo, a los otros expositores, a la necesidad sectorial. Y ese \"en ciberseguridad no se compite, se colabora\" parece bastante deliberado. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola, gusto de saludarte, ahora soy yo el confundido y si entendí bien valoras lo publicado y es un elogio??? Si es así, gracias y bueno quedo atento a tu consulta.",
+    "msg2_texto": "Buenas César, sí, era genuino, no muchos comunican estos espacios así.\n\nSostener ese mensaje de \"no se compite, se colabora\" en cada evento sectorial, coordinando con ANCI, otras energéticas y gobierno al mismo tiempo, sin que se diluya en el ruido de cada feria, es un trabajo de comunicación constante, no solo de un comunicado puntual. Lo digo porque en Hint Media venimos justo de acompañar ese tipo de comunicación sectorial con empresas como TGS y Transener, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Ok, gracias.",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "gusto",
+      "saludarte",
+      "ahora",
+      "confundido",
+      "entendi",
+      "bien",
+      "valoras",
+      "publicado",
+      "elogio",
+      "bueno"
+    ],
+    "notas": "- HECHO: comunica eventos sectoriales (Ciberpatagonia, Energía 360, PatagoniaCiber) dándole la voz al diálogo colectivo, no al protagonismo propio. Frase repetida: \"en ciberseguridad no se compite, se colabora\".\n- Perfil con tag #OPEN_TO_WORK aunque sigue activo como CDO en AES Andes desde marzo 2025 — marcado DUDOSO en el filtro de prospectos, no DESCARTAR, porque sigue en el cargo y respondió con interés genuino.\n- Caso que disparó la nueva variante de MSG2 \"senior/ejecutivo\" (Hint+dossier fusionado, sin CTA textual fijo) — ver memoria feedback-msg2-variante-senior.\n- Sector: energía/ciberseguridad industrial → clientes referencia TGS/Transener."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: César Maldonado S.]\n[EMPRESA: AES Andes]\n[CARGO: Chief Digital Officer (CDO) IT/OT]\n[PAIS: Chile]\n\n[MSG1]\nCésar, gracias por conectar. Me llamó la atención cómo comunicás los espacios que venís coordinando. No es lo típico: en lugar de destacar tu rol como expositor o coordinador, le das la voz al diálogo, a los otros expositores, a la necesidad sectorial. Y ese \"en ciberseguridad no se compite, se colabora\" parece bastante deliberado. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola, gusto de saludarte, ahora soy yo el confundido y si entendí bien valoras lo publicado y es un elogio??? Si es así, gracias y bueno quedo atento a tu consulta.\n\n[MSG2]\nBuenas César, sí, era genuino, no muchos comunican estos espacios así.\n\nSostener ese mensaje de \"no se compite, se colabora\" en cada evento sectorial, coordinando con ANCI, otras energéticas y gobierno al mismo tiempo, sin que se diluya en el ruido de cada feria, es un trabajo de comunicación constante, no solo de un comunicado puntual. Lo digo porque en Hint Media venimos justo de acompañar ese tipo de comunicación sectorial con empresas como TGS y Transener, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.\n\n[RESPUESTA_MSG2]\nOk, gracias.\n\n[MSG3]\nBuenas César, te lo dejo por acá. Cualquier duda, quedo atenta.\n\n[NOTAS]\n- HECHO: comunica eventos sectoriales (Ciberpatagonia, Energía 360, PatagoniaCiber) dándole la voz al diálogo colectivo, no al protagonismo propio. Frase repetida: \"en ciberseguridad no se compite, se colabora\".\n- Perfil con tag #OPEN_TO_WORK aunque sigue activo como CDO en AES Andes desde marzo 2025 — marcado DUDOSO en el filtro de prospectos, no DESCARTAR, porque sigue en el cargo y respondió con interés genuino.\n- Caso que disparó la nueva variante de MSG2 \"senior/ejecutivo\" (Hint+dossier fusionado, sin CTA textual fijo) — ver memoria feedback-msg2-variante-senior.\n- Sector: energía/ciberseguridad industrial → clientes referencia TGS/Transener.",
+    "raw_md": "# César Maldonado S.\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26 (MSG1, MSG2 y dossier el mismo día)\n**Cargo:** Chief Digital Officer (CDO) IT/OT\n**Empresa:** AES Andes\n**País:** Chile\n\n## MSG1\n> César, gracias por conectar. Me llamó la atención cómo comunicás los espacios que venís coordinando. No es lo típico: en lugar de destacar tu rol como expositor o coordinador, le das la voz al diálogo, a los otros expositores, a la necesidad sectorial. Y ese \"en ciberseguridad no se compite, se colabora\" parece bastante deliberado. Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Hola, gusto de saludarte, ahora soy yo el confundido y si entendí bien valoras lo publicado y es un elogio??? Si es así, gracias y bueno quedo atento a tu consulta.\n\n## MSG2 (variante senior — Hint y dossier fusionados, camuflado)\n> Buenas César, sí, era genuino, no muchos comunican estos espacios así.\n>\n> Sostener ese mensaje de \"no se compite, se colabora\" en cada evento sectorial, coordinando con ANCI, otras energéticas y gobierno al mismo tiempo, sin que se diluya en el ruido de cada feria, es un trabajo de comunicación constante, no solo de un comunicado puntual. Lo digo porque en Hint Media venimos justo de acompañar ese tipo de comunicación sectorial con empresas como TGS y Transener, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso.\n\n## Respuesta MSG2\n> Ok, gracias.\n\n## Dossier enviado (MSG3)\n> Buenas César, te lo dejo por acá. Cualquier duda, quedo atenta.\n\n## Notas\n- HECHO: comunica eventos sectoriales (Ciberpatagonia, Energía 360, PatagoniaCiber) dándole la voz al diálogo colectivo, no al protagonismo propio. Frase repetida: \"en ciberseguridad no se compite, se colabora\".\n- Perfil con tag #OPEN_TO_WORK aunque sigue activo como CDO en AES Andes desde marzo 2025 — marcado DUDOSO en el filtro de prospectos, no DESCARTAR, porque sigue en el cargo y respondió con interés genuino.\n- Caso que disparó la nueva variante de MSG2 \"senior/ejecutivo\" (Hint+dossier fusionado, sin CTA textual fijo) — ver memoria feedback-msg2-variante-senior.\n- Sector: energía/ciberseguridad industrial → clientes referencia TGS/Transener.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

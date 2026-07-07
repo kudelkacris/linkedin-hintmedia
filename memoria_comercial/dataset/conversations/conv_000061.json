@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000061",
+  "contact_id": "ctc_000027",
+  "source_file": "conversaciones/julio/karina-ortiz.md",
+  "fingerprint": "sha256:55150c279b1bb3e7268a5f325f53e949a212a0e96578f333f34b6a572b9f4b46",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/karina-ortiz.md",
+    "file_hash": "sha256:55150c279b1bb3e7268a5f325f53e949a212a0e96578f333f34b6a572b9f4b46",
+    "file_modified": "2026-07-06T15:17:15.187320+00:00",
+    "file_size": 1934,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Karina Ortiz",
+    "empresa": "Mercorica",
+    "cargo": "",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "BELLEZA_LUJO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Karina, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación del reconocimiento a las Beauty Advisors. No es lo que ves en la mayoría de los gerentes de marca: en vez de solo destacar resultados, le diste visibilidad al equipo como parte de la narrativa. Eso dice algo sobre cómo pensás la construcción de marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación más reciente (3 días) donde reconoce a dos Beauty Advisors por desempeño y enfatiza que \"invertir en las personas es invertir en el crecimiento de la marca\". Muestra una decisión deliberada de dar visibilidad al equipo como parte de la narrativa de marca, no solo a resultados comerciales.",
+    "hipotesis": "Cómo escalar la ejecución de marca sin que todo dependa de su gestión directa; cómo amplificar voz de marca en múltiples puntos de venta manteniendo un mensaje coherente; cómo transformar capacitación y reconocimiento en contenido que trabaje por la marca sin necesidad de generación manual constante.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Karina Ortiz]\n[EMPRESA: Mercorica]\n[SECTOR: Belleza / Consumo Masivo (retail-driven)]\n[PAIS: Costa Rica]\n[SENAL: La publicación más reciente (3 días) donde reconoce a dos Beauty Advisors por desempeño y enfatiza que \"invertir en las personas es invertir en el crecimiento de la marca\". Muestra una decisión deliberada de dar visibilidad al equipo como parte de la narrativa de marca, no solo a resultados comerciales.]\n[HIPOTESIS: Cómo escalar la ejecución de marca sin que todo dependa de su gestión directa; cómo amplificar voz de marca en múltiples puntos de venta manteniendo un mensaje coherente; cómo transformar capacitación y reconocimiento en contenido que trabaje por la marca sin necesidad de generación manual constante.]\n\n[MSG1]\nKarina, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación del reconocimiento a las Beauty Advisors. No es lo que ves en la mayoría de los gerentes de marca: en vez de solo destacar resultados, le diste visibilidad al equipo como parte de la narrativa. Eso dice algo sobre cómo pensás la construcción de marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Karina Ortiz\n\n**Fecha:** 06/07/26\n**Cargo:**\n**Empresa:** Mercorica\n**Pais:** Costa Rica\n**Sector:** Belleza / Consumo Masivo (retail-driven)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación más reciente (3 días) donde reconoce a dos Beauty Advisors por desempeño y enfatiza que \"invertir en las personas es invertir en el crecimiento de la marca\". Muestra una decisión deliberada de dar visibilidad al equipo como parte de la narrativa de marca, no solo a resultados comerciales.\n- **Tensión profesional:** Mantener coherencia de mensaje y ejecución de marca mientras coordina simultáneamente múltiples equipos (internos, retail, influencers, medios), realidades comerciales distintas por punto de venta, y lanzamientos paralelos sin que la comunicación pierda claridad ni consistencia.\n- **Hipótesis:** Cómo escalar la ejecución de marca sin que todo dependa de su gestión directa; cómo amplificar voz de marca en múltiples puntos de venta manteniendo un mensaje coherente; cómo transformar capacitación y reconocimiento en contenido que trabaje por la marca sin necesidad de generación manual constante.\n- **Ángulo MSG1:** La observación sobre el reconocimiento a Beauty Advisors y su visión de que \"invertir en personas = invertir en marca\" — revela una sofisticación en la construcción de narrativa interna que suele quedar invisible.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Karina, gracias por conectar! 👋\n>\n> Me llamó la atención cómo enfocaste la publicación del reconocimiento a las Beauty Advisors. No es lo que ves en la mayoría de los gerentes de marca: en vez de solo destacar resultados, le diste visibilidad al equipo como parte de la narrativa. Eso dice algo sobre cómo pensás la construcción de marca.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

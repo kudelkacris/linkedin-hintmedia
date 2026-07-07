@@ -1,0 +1,87 @@
+{
+  "conversation_id": "conv_000024",
+  "contact_id": "ctc_000073",
+  "source_file": "conversaciones/julio/daniela-perera.md",
+  "fingerprint": "sha256:6aff4a3a760656293ee3556554513a81720621f5b5ef6805d04e50a0e59788d0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/daniela-perera.md",
+    "file_hash": "sha256:6aff4a3a760656293ee3556554513a81720621f5b5ef6805d04e50a0e59788d0",
+    "file_modified": "2026-07-02T21:53:48.422514+00:00",
+    "file_size": 2619,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Daniela Perera",
+    "empresa": "Sage Corps (programa de pasantías/experiencias internacionales para estudiantes)",
+    "cargo": "Communications & Marketing",
+    "pais": "(no especificado)",
+    "fecha": "",
+    "estado_texto": "Cerrada — no trabaja con terceros (decisión del CEO) — 02/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "INTERNAL_TEAM",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "Tiene sentido, gracias por aclararlo.\nIgual me queda una pregunta: cuando se abre el ciclo de admisiones y la comunicación se vuelve más intensa, cómo coordinan eso internamente? Producciones, canales, tiempos.\nTrabajo en Hint Media, ayudamos a organizaciones a coordinar la comunicación en esos momentos de mayor actividad: contenido, paid media, identidad en un mismo hilo.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia.",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola Florencia!\nMuchas gracias, la empresa por alguna razón no trabaja con third party providers, todo es in-house por preferencia del CEO.\nPero muchas gracias.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "muchas",
+      "empresa",
+      "alguna",
+      "razon",
+      "trabaja",
+      "third",
+      "party",
+      "providers",
+      "todo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Daniela Perera]\n[EMPRESA: Sage Corps (programa de pasantías/experiencias internacionales para estudiantes)]\n[CARGO: Communications & Marketing]\n[PAIS: (no especificado)]\n\n[MSG2]\nTiene sentido, gracias por aclararlo.\nIgual me queda una pregunta: cuando se abre el ciclo de admisiones y la comunicación se vuelve más intensa, cómo coordinan eso internamente? Producciones, canales, tiempos.\nTrabajo en Hint Media, ayudamos a organizaciones a coordinar la comunicación en esos momentos de mayor actividad: contenido, paid media, identidad en un mismo hilo.\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia.\n\n[RESPUESTA_MSG2]\nHola Florencia!\nMuchas gracias, la empresa por alguna razón no trabaja con third party providers, todo es in-house por preferencia del CEO.\nPero muchas gracias.",
+    "raw_md": "---\nname: daniela-perera\ndescription: MSG2 pendiente, Communications & Marketing Sage Corps, aclaró que sin CTA por ciclo de admisiones cerrado, 01/07/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Daniela Perera\n**Cargo:** Communications & Marketing\n**Empresa:** Sage Corps (programa de pasantías/experiencias internacionales para estudiantes)\n**País:** (no especificado)\n\n**Resumen de conversación:**\n- MSG1: Florencia observó que sus posts sobre Sage Corps no tienen CTA, sino foco en lo que el equipo hace que no se ve (viajes, orientación en persona). Interpretó como decisión de comunicación consciente.\n- Respondió: aclaró que no hay CTA porque no hay ciclo de admisiones abierto actualmente. Cuando el admissions cycle abre, sí usan CTAs variados. La premisa del MSG1 era incorrecta.\n\n**Mensaje pendiente de enviar (MSG2):**\nTiene sentido, gracias por aclararlo.\n\nIgual me queda una pregunta: cuando se abre el ciclo de admisiones y la comunicación se vuelve más intensa, cómo coordinan eso internamente? Producciones, canales, tiempos.\n\nTrabajo en Hint Media, ayudamos a organizaciones a coordinar la comunicación en esos momentos de mayor actividad: contenido, paid media, identidad en un mismo hilo.\n\nTenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia.\n\n**Notas:**\n- Sage Corps tiene ciclos de admisiones. Fuera del ciclo: comunicación institucional. Dentro del ciclo: CTAs activos.\n- Ángulo giró de \"estilo de comunicación\" a \"coordinación en pico de actividad\".\n- No eligió cliente ejemplo específico de Hint aún (sector educación/programas internacionales no tiene match directo en clientes conocidos).\n\n## MSG2 enviado (miércoles 23:22)\n> Tiene sentido, gracias por aclararlo.\n> Igual me queda una pregunta: cuando se abre el ciclo de admisiones y la comunicación se vuelve más intensa, cómo coordinan eso internamente? Producciones, canales, tiempos.\n> Trabajo en Hint Media, ayudamos a organizaciones a coordinar la comunicación en esos momentos de mayor actividad: contenido, paid media, identidad en un mismo hilo.\n> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia.\n\n## Respuesta MSG2 (02/07/26)\n> Hola Florencia!\n> Muchas gracias, la empresa por alguna razón no trabaja con third party providers, todo es in-house por preferencia del CEO.\n> Pero muchas gracias.\n\n## Cierre (02/07/26)\n> Gracias por la claridad Daniela, se entiende perfectamente. Suerte con el próximo ciclo de admisiones!\n\n**Estado:** Cerrada — no trabaja con terceros (decisión del CEO) — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000246",
+  "contact_id": "ctc_000290",
+  "source_file": "conversaciones/junio/pablo-blanco.md",
+  "fingerprint": "sha256:c7f9eeaca5a74f9e8fb1ec98bfbe658890366ec30100ae710b96ce13af22d857",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/pablo-blanco.md",
+    "file_hash": "sha256:c7f9eeaca5a74f9e8fb1ec98bfbe658890366ec30100ae710b96ce13af22d857",
+    "file_modified": "2026-06-16T17:46:46.918716+00:00",
+    "file_size": 2036,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Pablo Blanco",
+    "empresa": "El Arroyo & Company Six / Verona - Marketing & Web Solutions",
+    "cargo": "Digital Marketing Specialist / Marketing Team Leader",
+    "pais": "Costa Rica",
+    "fecha": "15/06/26",
+    "estado_texto": "Pivot a colaboración — preguntó \"cuál sería el fin del dossier\", respondido con ángulo alianza"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "SPECIALIST",
+    "tipo_decisor": "SPECIALIST",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Especialista performance/e-commerce, no decision-maker de compra\n- Asociado a Verona - Marketing & Web Solutions (agencia o proyecto propio)\n- Trabaja para múltiples empresas en El Arroyo & Company Six\n- Post relevante: \"estrategia de email marketing que muchas compañías subestiman\"\n- 119 contactos — red pequeña\n- Posicionado como complementario (performance vs. contenido/marca)\n- El dossier probablemente redirige a quien toma decisiones"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Pablo Blanco]\n[EMPRESA: El Arroyo & Company Six / Verona - Marketing & Web Solutions]\n[CARGO: Digital Marketing Specialist / Marketing Team Leader]\n[PAIS: Costa Rica]\n\n[NOTAS]\n- Especialista performance/e-commerce, no decision-maker de compra\n- Asociado a Verona - Marketing & Web Solutions (agencia o proyecto propio)\n- Trabaja para múltiples empresas en El Arroyo & Company Six\n- Post relevante: \"estrategia de email marketing que muchas compañías subestiman\"\n- 119 contactos — red pequeña\n- Posicionado como complementario (performance vs. contenido/marca)\n- El dossier probablemente redirige a quien toma decisiones",
+    "raw_md": "# Pablo Blanco\n\n**Estado:** Pivot a colaboración — preguntó \"cuál sería el fin del dossier\", respondido con ángulo alianza\n**Fecha:** 15/06/26\n**Cargo:** Digital Marketing Specialist / Marketing Team Leader\n**País:** Costa Rica\n**Empresa:** El Arroyo & Company Six / Verona - Marketing & Web Solutions\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:01):**\nDestacó el amplio espectro de plataformas que maneja: Shopify, Klaviyo, Mailchimp, Attentive, Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads para múltiples empresas.\n\n**Respuesta Pablo (sábado 19:21):**\n\"Hola Florencia, un gusto! Claro, si está dentro de mi alcance con gusto te ayudo.\"\n\n**MSG2 enviado:**\n> Pablo, gracias por responder!\n>\n> Eso que escribiste sobre el email marketing que muchas empresas subestiman me resonó. Hay una diferencia entre saber que algo funciona y que la dirección le dé el presupuesto y la prioridad que merece.\n>\n> En Hint trabajamos estrategia de contenido y posicionamiento de marca, el lado que complementa lo que vos ejecutás en performance y plataformas.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Respuesta Pablo:**\n\"Hola Florencia. Eso que escribí fue un post que compartí de mi empresa de Agencia de Marketing Digital. Cuál sería el fin del dossier?\"\n\n**Respuesta enviada (pivot a colaboración):**\n> Pablo, la idea era ver si había algo en lo que pudiéramos sumar, ya sea con algún cliente tuyo o explorando si tiene sentido trabajar juntos en algo.\n>\n> Vale la pena que lo veas?\n\n## Notas\n- Especialista performance/e-commerce, no decision-maker de compra\n- Asociado a Verona - Marketing & Web Solutions (agencia o proyecto propio)\n- Trabaja para múltiples empresas en El Arroyo & Company Six\n- Post relevante: \"estrategia de email marketing que muchas compañías subestiman\"\n- 119 contactos — red pequeña\n- Posicionado como complementario (performance vs. contenido/marca)\n- El dossier probablemente redirige a quien toma decisiones\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

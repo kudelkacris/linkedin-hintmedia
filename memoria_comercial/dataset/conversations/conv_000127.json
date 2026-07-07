@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000127",
+  "contact_id": "ctc_000362",
+  "source_file": "conversaciones/junio/carlos-wong-arias.md",
+  "fingerprint": "sha256:23d4c0e0e53d8d861664ff6c3223cba28f5df54872b89d1ec2afc26d9d274c4e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carlos-wong-arias.md",
+    "file_hash": "sha256:23d4c0e0e53d8d861664ff6c3223cba28f5df54872b89d1ec2afc26d9d274c4e",
+    "file_modified": "2026-06-23T21:47:38.005889+00:00",
+    "file_size": 1958,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carlos Wong Arias",
+    "empresa": "CODE Costa Rica",
+    "cargo": "",
+    "pais": "",
+    "fecha": "23/06/26",
+    "estado_texto": "Dossier enviado (a cawong@code-cr.com), SEG1 enviado 23/06/26 (engagement MEDIUM)"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Carlos, gracias por conectar. Me llamó la atención la complejidad de lo que implica posicionar una marca en MERCO ESG, Great Place To Work y al mismo tiempo liderar una certificación OECD con 34 empresas operando. Imagino que eso abre múltiples frentes de comunicación al mismo tiempo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia! Sí, ha sido complejo jaja. Contame en que te puedo ayudar",
+    "msg2_texto": "Me imagino, pero lo sacaron adelante la verdad mis felicitaciones. Lo que me quedó fue eso, que manejar OECD + MERCO ESG + Great Place to Work en simultáneo no es solo complejidad operativa. Es sostener narrativas distintas coherentes hacia audiencias muy distintas, todo al mismo tiempo. Desde Hint Media trabajamos con equipos de comunicación que tienen esa exigencia, sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin resignar criterio. Hemos trabajado con TGS, Transener y otros en proyectos con ese nivel de complejidad institucional. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Claro, podes enviarme el dossier a cawong@code-cr.com",
+    "seg1_enviado": true,
+    "seg1_texto": "Carlos, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó pensando en eso de sostener MERCO ESG, Great Place to Work y la certificación OECD al mismo tiempo, cada uno con su propia narrativa hacia audiencias distintas. Eso suele ser lo que más desgasta, no la complejidad de cada frente por separado sino sostenerlos todos juntos sin perder criterio. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo ahora.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "sido",
+      "complejo",
+      "jaja",
+      "contame",
+      "puedo",
+      "ayudar",
+      "podes",
+      "enviarme",
+      "dossier"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carlos Wong Arias]\n[EMPRESA: CODE Costa Rica]\n[SECTOR: institucional (MERCO ESG, Great Place to Work, certificación OECD con 34 empresas)]\n\n[MSG1]\nCarlos, gracias por conectar. Me llamó la atención la complejidad de lo que implica posicionar una marca en MERCO ESG, Great Place To Work y al mismo tiempo liderar una certificación OECD con 34 empresas operando. Imagino que eso abre múltiples frentes de comunicación al mismo tiempo.\n\n[RESPUESTA_MSG1]\nHola Florencia! Sí, ha sido complejo jaja. Contame en que te puedo ayudar\n\n[MSG2]\nMe imagino, pero lo sacaron adelante la verdad mis felicitaciones. Lo que me quedó fue eso, que manejar OECD + MERCO ESG + Great Place to Work en simultáneo no es solo complejidad operativa. Es sostener narrativas distintas coherentes hacia audiencias muy distintas, todo al mismo tiempo. Desde Hint Media trabajamos con equipos de comunicación que tienen esa exigencia, sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin resignar criterio. Hemos trabajado con TGS, Transener y otros en proyectos con ese nivel de complejidad institucional. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nClaro, podes enviarme el dossier a cawong@code-cr.com\n\n[SEG1]\nCarlos, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó pensando en eso de sostener MERCO ESG, Great Place to Work y la certificación OECD al mismo tiempo, cada uno con su propia narrativa hacia audiencias distintas. Eso suele ser lo que más desgasta, no la complejidad de cada frente por separado sino sostenerlos todos juntos sin perder criterio. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo ahora.",
+    "raw_md": "# Carlos Wong Arias\n\n**Estado:** Dossier enviado (a cawong@code-cr.com), SEG1 enviado 23/06/26 (engagement MEDIUM)\n**Fecha:** 23/06/26\n**Empresa:** CODE Costa Rica\n**Sector:** institucional (MERCO ESG, Great Place to Work, certificación OECD con 34 empresas)\n\n## MSG1\n> Carlos, gracias por conectar. Me llamó la atención la complejidad de lo que implica posicionar una marca en MERCO ESG, Great Place To Work y al mismo tiempo liderar una certificación OECD con 34 empresas operando. Imagino que eso abre múltiples frentes de comunicación al mismo tiempo.\n\n## Respuesta MSG1\n> Hola Florencia! Sí, ha sido complejo jaja. Contame en que te puedo ayudar\n\n## MSG2\n> Me imagino, pero lo sacaron adelante la verdad mis felicitaciones. Lo que me quedó fue eso, que manejar OECD + MERCO ESG + Great Place to Work en simultáneo no es solo complejidad operativa. Es sostener narrativas distintas coherentes hacia audiencias muy distintas, todo al mismo tiempo. Desde Hint Media trabajamos con equipos de comunicación que tienen esa exigencia, sumamos capacidad de ejecución en contenido, digital y diseño para sostener el volumen sin resignar criterio. Hemos trabajado con TGS, Transener y otros en proyectos con ese nivel de complejidad institucional. Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2\n> Claro, podes enviarme el dossier a cawong@code-cr.com\n\n## SEG1 (enviado 23/06/26)\n> Carlos, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó pensando en eso de sostener MERCO ESG, Great Place to Work y la certificación OECD al mismo tiempo, cada uno con su propia narrativa hacia audiencias distintas. Eso suele ser lo que más desgasta, no la complejidad de cada frente por separado sino sostenerlos todos juntos sin perder criterio. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a lo que están viviendo ahora.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "cargo",
+      "sector",
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

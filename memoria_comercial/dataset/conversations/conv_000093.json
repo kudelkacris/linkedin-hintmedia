@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000093",
+  "contact_id": "ctc_000082",
+  "source_file": "conversaciones/julio/sara-l-pez-n-ez.md",
+  "fingerprint": "sha256:a9d81174f7f0423d902b29fa47271fba885ebf368836d599dd8f00be42cf952d",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/sara-l-pez-n-ez.md",
+    "file_hash": "sha256:a9d81174f7f0423d902b29fa47271fba885ebf368836d599dd8f00be42cf952d",
+    "file_modified": "2026-07-02T00:10:43.593858+00:00",
+    "file_size": 2389,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Sara López Núñez",
+    "empresa": "Miraltabank",
+    "cargo": "Marketing Manager en Miraltabank",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Sara, gracias por conectar 👋\n\nEstuve revisando un poco lo que venís haciendo en Miraltabank. Me llamó la atención que sistemáticamente amplificás voces de gestores y comentarios de mercado en distintos formatos: posts propios, amplificaciones de RankiaPro, tertulias con Susana Criado. La consistencia de esa narrativa en múltiples frentes no es casual.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "En las últimas 6 publicaciones que comparte o amplifica (fondos liderando rankings, nominaciones a premios, análisis trimestrales, perspectivas de mercado), Sara **sistematicamente da crédito a equipos internos antes que al resultado mismo**. Ejemplo: \"Comenzar el año liderando el ranking...es un reconocimiento al trabajo constante del equipo de gestión. Más allá del dato puntual, pone en valor un proceso basado en asignación de activos, selección de fondos y control del riesgo.\" La observación que repite: enfatiza que el resultado emerge del *proceso*, no del anuncio. Cuando amplifica intervenciones de gestores (Claudia Casco, Víctor Mir), destaca sus perspectivas y voces, no solo la acción de Miraltabank. **No vende resultados, explica de dónde vienen.**",
+    "hipotesis": "Cómo escalar narrativa de marca sin perder consistencia en múltiples canales. Cómo comunicar gestión activa y expertise técnico en un entorno donde muchos competidores usan el mismo lenguaje. Cómo sostener presencia editorial constante sin que dependa de un solo canal o persona.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Sara López Núñez]\n[EMPRESA: Miraltabank]\n[CARGO: Marketing Manager en Miraltabank]\n[SECTOR: Servicios Financieros / Asset Management]\n[PAIS: España]\n[SENAL: En las últimas 6 publicaciones que comparte o amplifica (fondos liderando rankings, nominaciones a premios, análisis trimestrales, perspectivas de mercado), Sara **sistematicamente da crédito a equipos internos antes que al resultado mismo**. Ejemplo: \"Comenzar el año liderando el ranking...es un reconocimiento al trabajo constante del equipo de gestión. Más allá del dato puntual, pone en valor un proceso basado en asignación de activos, selección de fondos y control del riesgo.\" La observación que repite: enfatiza que el resultado emerge del *proceso*, no del anuncio. Cuando amplifica intervenciones de gestores (Claudia Casco, Víctor Mir), destaca sus perspectivas y voces, no solo la acción de Miraltabank. **No vende resultados, explica de dónde vienen.**]\n[HIPOTESIS: Cómo escalar narrativa de marca sin perder consistencia en múltiples canales. Cómo comunicar gestión activa y expertise técnico en un entorno donde muchos competidores usan el mismo lenguaje. Cómo sostener presencia editorial constante sin que dependa de un solo canal o persona.]\n\n[MSG1]\nSara, gracias por conectar 👋\n\nEstuve revisando un poco lo que venís haciendo en Miraltabank. Me llamó la atención que sistemáticamente amplificás voces de gestores y comentarios de mercado en distintos formatos: posts propios, amplificaciones de RankiaPro, tertulias con Susana Criado. La consistencia de esa narrativa en múltiples frentes no es casual.\n\nSi es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.",
+    "raw_md": "# Sara López Núñez\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing Manager en Miraltabank\n**Empresa:** Miraltabank\n**Pais:** España\n**Sector:** Servicios Financieros / Asset Management\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** En las últimas 6 publicaciones que comparte o amplifica (fondos liderando rankings, nominaciones a premios, análisis trimestrales, perspectivas de mercado), Sara **sistematicamente da crédito a equipos internos antes que al resultado mismo**. Ejemplo: \"Comenzar el año liderando el ranking...es un reconocimiento al trabajo constante del equipo de gestión. Más allá del dato puntual, pone en valor un proceso basado en asignación de activos, selección de fondos y control del riesgo.\" La observación que repite: enfatiza que el resultado emerge del *proceso*, no del anuncio. Cuando amplifica intervenciones de gestores (Claudia Casco, Víctor Mir), destaca sus perspectivas y voces, no solo la acción de Miraltabank. **No vende resultados, explica de dónde vienen.**\n- **Tensión profesional:** Mantener credibilidad sectorial y diferenciación de marca mientras adapta mensajes a audiencias distintas (inversores con perfil conservador vs. agresivo, asesores que necesitan formación, mercado general) sin simplificar demasiado la complejidad técnica que es justamente lo que genera confianza.\n- **Hipótesis:** Cómo escalar narrativa de marca sin perder consistencia en múltiples canales. Cómo comunicar gestión activa y expertise técnico en un entorno donde muchos competidores usan el mismo lenguaje. Cómo sostener presencia editorial constante sin que dependa de un solo canal o persona.\n- **Ángulo MSG1:** La forma en que Sara comunica resultados revela una creencia sobre credibilidad: nace de mostrar el trabajo detrás, no del anuncio. Es una señal humana clara y repetida.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Sara, gracias por conectar 👋\n>\n> Estuve revisando un poco lo que venís haciendo en Miraltabank. Me llamó la atención que sistemáticamente amplificás voces de gestores y comentarios de mercado en distintos formatos: posts propios, amplificaciones de RankiaPro, tertulias con Susana Criado. La consistencia de esa narrativa en múltiples frentes no es casual.\n>\n> Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

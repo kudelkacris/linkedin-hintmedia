@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000094",
+  "contact_id": "ctc_000059",
+  "source_file": "conversaciones/julio/sarah-valencia-lacouture.md",
+  "fingerprint": "sha256:1ada500f6c00b9f134c0efb64e40be5fc1548c364f3697a76757b901f4752208",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/sarah-valencia-lacouture.md",
+    "file_hash": "sha256:1ada500f6c00b9f134c0efb64e40be5fc1548c364f3697a76757b901f4752208",
+    "file_modified": "2026-07-06T19:52:42.627398+00:00",
+    "file_size": 4075,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Sarah Valencia Lacouture",
+    "empresa": "Hyatt Regency Panamá",
+    "cargo": "Sales & Marketing | Managment | Revenue |  Strategy | Data Analysis | B2B | Hospitality | Tourism",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "CERRADA — Sin interés, equipo interno — 06/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Sarah, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste sobre vender un hotel que no existía aún. Específicamente esto: \"A good story earns you the first yes. But it also raises the bar, because now you have to live up to it.\" No es lo que la mayoría escribe cuando abre un hotel nuevo. La mayoría habla de números, locación, amenities. Vos hablaste de la brecha entre lo que prometes y lo que entregas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, como estas? Un gusto saludarte. Es correcto. La narrativa de vender un hotel operando a uno por abrir debe ser 100% diferente. He visto como muchas veces se utiliza hasta la misma presentación de ventas en ambos escenarios y cuando tienes el hotel por abrir lo que tu te estas ganando es la confianza del comprador en una promesa de venta que después debes cumplir pero sobretodo soprender al cliente con el resultado.",
+    "msg2_texto": "Buenas Sarah! Exacto, y lo que describís al final es lo más exigente: no alcanza con cumplir la promesa, hay que superarla. Una vez que el hotel abre, la narrativa entra en la fase más difícil.\nCómo estás manejando esa transición hoy? De la promesa de apertura a comunicar la experiencia real en curso?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas de hospitalidad a sostener coherencia narrativa entre lo que prometen y lo que comunican en cada etapa de operación. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "El dossier sería específicamente para qué? Así te puedo orientar mejor.",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre vender un hotel que no existía aún: \"People would ask me what the rooms looked like and I had nothing to show them... I understood what we're actually selling. It was never just the room. It was the trust that we would deliver what we promised.\" Reveló una creencia específica: que la marca se construye en la brecha entre lo que prometes y lo que entregas, y que esa brecha es donde se define la reputación.",
+    "hipotesis": "Cómo construir narrativa de marca creíble en fase de inauguración y consolidación / Cómo comunicar transformación de un activo nuevo sin que suene a construcción aún en curso / Cómo escalar la comercialización sin comprometer la promesa que se hizo en la apertura.",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "gusto",
+      "saludarte",
+      "correcto",
+      "narrativa",
+      "vender",
+      "hotel",
+      "operando",
+      "abrir"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Sarah Valencia Lacouture]\n[EMPRESA: Hyatt Regency Panamá]\n[CARGO: Sales & Marketing | Managment | Revenue |  Strategy | Data Analysis | B2B | Hospitality | Tourism]\n[SECTOR: Hospitalidad / Turismo]\n[PAIS: Panamá]\n[SENAL: Publicación sobre vender un hotel que no existía aún: \"People would ask me what the rooms looked like and I had nothing to show them... I understood what we're actually selling. It was never just the room. It was the trust that we would deliver what we promised.\" Reveló una creencia específica: que la marca se construye en la brecha entre lo que prometes y lo que entregas, y que esa brecha es donde se define la reputación.]\n[HIPOTESIS: Cómo construir narrativa de marca creíble en fase de inauguración y consolidación / Cómo comunicar transformación de un activo nuevo sin que suene a construcción aún en curso / Cómo escalar la comercialización sin comprometer la promesa que se hizo en la apertura.]\n\n[MSG1]\nSarah, gracias por conectar! 👋\n\nMe llamó la atención la publicación que compartiste sobre vender un hotel que no existía aún. Específicamente esto: \"A good story earns you the first yes. But it also raises the bar, because now you have to live up to it.\" No es lo que la mayoría escribe cuando abre un hotel nuevo. La mayoría habla de números, locación, amenities. Vos hablaste de la brecha entre lo que prometes y lo que entregas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia, como estas? Un gusto saludarte. Es correcto. La narrativa de vender un hotel operando a uno por abrir debe ser 100% diferente. He visto como muchas veces se utiliza hasta la misma presentación de ventas en ambos escenarios y cuando tienes el hotel por abrir lo que tu te estas ganando es la confianza del comprador en una promesa de venta que después debes cumplir pero sobretodo soprender al cliente con el resultado.\n\n[MSG2]\nBuenas Sarah! Exacto, y lo que describís al final es lo más exigente: no alcanza con cumplir la promesa, hay que superarla. Una vez que el hotel abre, la narrativa entra en la fase más difícil.\nCómo estás manejando esa transición hoy? De la promesa de apertura a comunicar la experiencia real en curso?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas de hospitalidad a sostener coherencia narrativa entre lo que prometen y lo que comunican en cada etapa de operación. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nEl dossier sería específicamente para qué? Así te puedo orientar mejor.\n\n[MSG3]\nBuenas Sarah! Tiene casos de cómo trabajamos con marcas de hospitalidad en comunicación y narrativa de marca. Para tu contexto lo más relevante es la parte de cómo sostenemos coherencia entre la promesa de apertura y lo que se comunica una vez que el hotel ya está operando. Si te parece relevante, lo mando por acá.",
+    "raw_md": "# Sarah Valencia Lacouture\n\n**Fecha:** 06/07/26\n**Cargo:** Sales & Marketing | Managment | Revenue |  Strategy | Data Analysis | B2B | Hospitality | Tourism\n**Empresa:** Hyatt Regency Panamá\n**Pais:** Panamá\n**Sector:** Hospitalidad / Turismo\n**Estado:** CERRADA — Sin interés, equipo interno — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre vender un hotel que no existía aún: \"People would ask me what the rooms looked like and I had nothing to show them... I understood what we're actually selling. It was never just the room. It was the trust that we would deliver what we promised.\" Reveló una creencia específica: que la marca se construye en la brecha entre lo que prometes y lo que entregas, y que esa brecha es donde se define la reputación.\n- **Tensión profesional:** Consolidar una marca nueva mientras se construye la experiencia real simultáneamente, mantener consistencia en el discurso entre audiencias distintas (institucionales, comerciales, clientes reales) cuando el hotel sigue en fase de estabilización operativa.\n- **Hipótesis:** Cómo construir narrativa de marca creíble en fase de inauguración y consolidación / Cómo comunicar transformación de un activo nuevo sin que suene a construcción aún en curso / Cómo escalar la comercialización sin comprometer la promesa que se hizo en la apertura.\n- **Ángulo MSG1:** La publicación sobre \"vender lo que no existe aún\" — demuestra que Sarah piensa la marca desde el lugar de la credibilidad, no del discurso. Eso es el gancho.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Sarah, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación que compartiste sobre vender un hotel que no existía aún. Específicamente esto: \"A good story earns you the first yes. But it also raises the bar, because now you have to live up to it.\" No es lo que la mayoría escribe cuando abre un hotel nuevo. La mayoría habla de números, locación, amenities. Vos hablaste de la brecha entre lo que prometes y lo que entregas.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia, como estas? Un gusto saludarte. Es correcto. La narrativa de vender un hotel operando a uno por abrir debe ser 100% diferente. He visto como muchas veces se utiliza hasta la misma presentación de ventas en ambos escenarios y cuando tienes el hotel por abrir lo que tu te estas ganando es la confianza del comprador en una promesa de venta que después debes cumplir pero sobretodo soprender al cliente con el resultado.\n\n---\n\n## MSG2\n> Buenas Sarah! Exacto, y lo que describís al final es lo más exigente: no alcanza con cumplir la promesa, hay que superarla. Una vez que el hotel abre, la narrativa entra en la fase más difícil.\n> Cómo estás manejando esa transición hoy? De la promesa de apertura a comunicar la experiencia real en curso?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas de hospitalidad a sostener coherencia narrativa entre lo que prometen y lo que comunican en cada etapa de operación. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Respuesta MSG2\n> El dossier sería específicamente para qué? Así te puedo orientar mejor.\n\n---\n\n## MSG3\n> Buenas Sarah! Tiene casos de cómo trabajamos con marcas de hospitalidad en comunicación y narrativa de marca. Para tu contexto lo más relevante es la parte de cómo sostenemos coherencia entre la promesa de apertura y lo que se comunica una vez que el hotel ya está operando. Si te parece relevante, lo mando por acá.\n\n---\n\n## Cierre\n> Gracias! Tenemos un equipo encargado de todas las comunicaciones de la compañia.\n\n**Motivo cierre:** Equipo interno de comunicaciones. Sin interés en agencia externa.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000178",
+  "contact_id": "ctc_000205",
+  "source_file": "conversaciones/junio/johnny-garbanzo-g.md",
+  "fingerprint": "sha256:bec60ebc8aba032538cb8180b2f00d6d5c5663d28e633f6610ff744938596b70",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/johnny-garbanzo-g.md",
+    "file_hash": "sha256:bec60ebc8aba032538cb8180b2f00d6d5c5663d28e633f6610ff744938596b70",
+    "file_modified": "2026-06-18T23:34:48.566029+00:00",
+    "file_size": 1458,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Johnny Garbanzo G",
+    "empresa": "CINDE - Experts in FDI",
+    "cargo": "Digital Marketing Strategist & Project Manager (Demand & Lead Gen, Martech)",
+    "pais": "",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por conectar! Me llamó la atención la publicación que hiciste hace poco sobre el Zero-Click Era. No fue solo un análisis de datos, fue tu lectura de la brecha: \"la velocidad a la que adoptan cambios las empresas versus la velocidad del mercado es clave\". Eso es lo que la mayoría pasa por alto.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Un gusto saludarte Florencia!",
+    "msg2_texto": "Buenas Johnny, gracias por la apertura!\n\nLo que comentás del Zero-Click Era pega justo en el problema real: la brecha entre la velocidad de adopción y la velocidad del mercado. En CINDE eso se traduce en contenido y comunicación que tienen que sostener ese ritmo para seguir generando demanda de calidad.\n\nEn Hint Media trabajamos comunicación omnicanal, contenido y paid media para organizaciones con ese mismo desafío, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "gusto",
+      "saludarte",
+      "florencia"
+    ],
+    "notas": "- También ofrece servicios freelance similares (martech, demand gen) — potencial referido/colega más que cliente puro, monitorear respuesta.\n- Sector institucional/tech → clientes Destiny Group y Libra Seguros (consultoría/tech)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Johnny Garbanzo G]\n[EMPRESA: CINDE - Experts in FDI]\n[CARGO: Digital Marketing Strategist & Project Manager (Demand & Lead Gen, Martech)]\n[SECTOR: Institucional / Martech / Consultoría]\n\n[MSG1]\nFlorencia, gracias por conectar! Me llamó la atención la publicación que hiciste hace poco sobre el Zero-Click Era. No fue solo un análisis de datos, fue tu lectura de la brecha: \"la velocidad a la que adoptan cambios las empresas versus la velocidad del mercado es clave\". Eso es lo que la mayoría pasa por alto.\n\n[RESPUESTA_MSG1]\nUn gusto saludarte Florencia!\n\n[MSG2]\nBuenas Johnny, gracias por la apertura!\n\nLo que comentás del Zero-Click Era pega justo en el problema real: la brecha entre la velocidad de adopción y la velocidad del mercado. En CINDE eso se traduce en contenido y comunicación que tienen que sostener ese ritmo para seguir generando demanda de calidad.\n\nEn Hint Media trabajamos comunicación omnicanal, contenido y paid media para organizaciones con ese mismo desafío, como Destiny Group y Libra Seguros.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- También ofrece servicios freelance similares (martech, demand gen) — potencial referido/colega más que cliente puro, monitorear respuesta.\n- Sector institucional/tech → clientes Destiny Group y Libra Seguros (consultoría/tech).",
+    "raw_md": "# Johnny Garbanzo G\n\n**Estado:** MSG2 enviado\n**Fecha:** 18/06/26\n**Cargo:** Digital Marketing Strategist & Project Manager (Demand & Lead Gen, Martech)\n**Empresa:** CINDE - Experts in FDI\n**Sector:** Institucional / Martech / Consultoría\n\n## MSG1\n> Florencia, gracias por conectar! Me llamó la atención la publicación que hiciste hace poco sobre el Zero-Click Era. No fue solo un análisis de datos, fue tu lectura de la brecha: \"la velocidad a la que adoptan cambios las empresas versus la velocidad del mercado es clave\". Eso es lo que la mayoría pasa por alto.\n\n## Respuesta MSG1\n> Un gusto saludarte Florencia!\n\n## MSG2\n> Buenas Johnny, gracias por la apertura!\n>\n> Lo que comentás del Zero-Click Era pega justo en el problema real: la brecha entre la velocidad de adopción y la velocidad del mercado. En CINDE eso se traduce en contenido y comunicación que tienen que sostener ese ritmo para seguir generando demanda de calidad.\n>\n> En Hint Media trabajamos comunicación omnicanal, contenido y paid media para organizaciones con ese mismo desafío, como Destiny Group y Libra Seguros.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- También ofrece servicios freelance similares (martech, demand gen) — potencial referido/colega más que cliente puro, monitorear respuesta.\n- Sector institucional/tech → clientes Destiny Group y Libra Seguros (consultoría/tech).\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

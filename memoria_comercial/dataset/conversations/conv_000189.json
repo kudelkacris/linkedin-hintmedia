@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_000189",
+  "contact_id": "ctc_000190",
+  "source_file": "conversaciones/junio/juan-yepes.md",
+  "fingerprint": "sha256:6f658fdcb8c30fb56ce184dc4b646d1d8b2643cd0dca97efed64f6164ac005af",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/juan-yepes.md",
+    "file_hash": "sha256:6f658fdcb8c30fb56ce184dc4b646d1d8b2643cd0dca97efed64f6164ac005af",
+    "file_modified": "2026-07-02T13:51:26.891515+00:00",
+    "file_size": 2227,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Juan Yepes",
+    "empresa": "Colombiana de Comercio / Corbeta / Alkosto S.A",
+    "cargo": "Director de Marketing",
+    "pais": "Colombia",
+    "fecha": "20/06/26",
+    "estado_texto": "Cerrado amable — 02/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 4,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Juan, gracias por conectar. 👋\n\nMe llamó la atención tu última publicación sobre Kotler y la pregunta incómoda del equipo de marketing. No es lo que la mayoría comparte cuando quiere mostrar expertise. Lo que más me gustó fue que plantees que el problema rara vez es el marketing — que muchas veces es el amplificador de algo que ya no funciona.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "🤗😄🤐 Sí, claro",
+    "msg2_texto": "Hola Juan!\nJusto esa idea de que el marketing amplifica lo que ya existe, no lo que falta, conecta directo con tu rol en Alkosto: posicionar marca y generar demanda real, no solo ruido. Esa coherencia entre estrategia y ejecución es justo donde más se pierde foco en retail.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a sostener esa narrativa de posicionamiento en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Sí, claro",
+    "seg1_enviado": true,
+    "seg1_texto": "Buenas Juan!\nPensaba en algo que planteabas sobre marketing como amplificador. En retail eso se complica cuando el funnel está partido entre equipos que no ven el mismo número.\nQuedo atenta si en algún momento quieren explorar eso.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "juan",
+      "algun",
+      "momento",
+      "quieren",
+      "explorar",
+      "algo",
+      "estamos"
+    ],
+    "notas": "- Sector retail (Alkosto/Corbeta). Cliente ejemplo: Destiny Group, Tasarolli.\n- Estratega marketing senior, muy activo y reflexivo en LinkedIn (Kotler, branding, growth, campaña \"Stickers Salvavidas\" premiada).\n- Cerró con \"Gracias Florencia\" — tono amable pero sin apertura. Se respondió con cierre limpio.\n\nEstado: Cerrado amable — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Juan Yepes]\n[EMPRESA: Colombiana de Comercio / Corbeta / Alkosto S.A]\n[CARGO: Director de Marketing]\n[PAIS: Colombia]\n\n[MSG1]\nJuan, gracias por conectar. 👋\n\nMe llamó la atención tu última publicación sobre Kotler y la pregunta incómoda del equipo de marketing. No es lo que la mayoría comparte cuando quiere mostrar expertise. Lo que más me gustó fue que plantees que el problema rara vez es el marketing — que muchas veces es el amplificador de algo que ya no funciona.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n🤗😄🤐 Sí, claro\n\n[MSG2]\nHola Juan!\nJusto esa idea de que el marketing amplifica lo que ya existe, no lo que falta, conecta directo con tu rol en Alkosto: posicionar marca y generar demanda real, no solo ruido. Esa coherencia entre estrategia y ejecución es justo donde más se pierde foco en retail.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a sostener esa narrativa de posicionamiento en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nSí, claro\n\n[SEG1]\nBuenas Juan!\nPensaba en algo que planteabas sobre marketing como amplificador. En retail eso se complica cuando el funnel está partido entre equipos que no ven el mismo número.\nQuedo atenta si en algún momento quieren explorar eso.\n\n[NOTAS]\n- Sector retail (Alkosto/Corbeta). Cliente ejemplo: Destiny Group, Tasarolli.\n- Estratega marketing senior, muy activo y reflexivo en LinkedIn (Kotler, branding, growth, campaña \"Stickers Salvavidas\" premiada).\n- Cerró con \"Gracias Florencia\" — tono amable pero sin apertura. Se respondió con cierre limpio.\n\nEstado: Cerrado amable — 02/07/26",
+    "raw_md": "# Juan Yepes\n\n**Estado:** Cerrado amable — 02/07/26\n**Fecha:** 20/06/26\n**Cargo:** Director de Marketing\n**Empresa:** Colombiana de Comercio / Corbeta / Alkosto S.A\n**País:** Colombia\n\n## MSG1\n> Juan, gracias por conectar. 👋\n>\n> Me llamó la atención tu última publicación sobre Kotler y la pregunta incómoda del equipo de marketing. No es lo que la mayoría comparte cuando quiere mostrar expertise. Lo que más me gustó fue que plantees que el problema rara vez es el marketing — que muchas veces es el amplificador de algo que ya no funciona.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> 🤗😄🤐 Sí, claro\n\n## MSG2\n> Hola Juan!\n> Justo esa idea de que el marketing amplifica lo que ya existe, no lo que falta, conecta directo con tu rol en Alkosto: posicionar marca y generar demanda real, no solo ruido. Esa coherencia entre estrategia y ejecución es justo donde más se pierde foco en retail.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a marcas de retail a sostener esa narrativa de posicionamiento en contenido, branding y campañas. Trabajamos con Destiny Group y Tasarolli en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta MSG2 / pidió dossier (20/06/26)\n> Sí, claro\n\n## SEG1 (01/07/26)\n> Buenas Juan!\n> Pensaba en algo que planteabas sobre marketing como amplificador. En retail eso se complica cuando el funnel está partido entre equipos que no ven el mismo número.\n> Quedo atenta si en algún momento quieren explorar eso.\n\n## Respuesta SEG1 (02/07/26)\n> Gracias Florencia\n\n## MSG cierre (02/07/26)\n> Gracias a vos Juan! Si en algún momento quieren explorar algo, por acá estamos.\n\n## Notas\n- Sector retail (Alkosto/Corbeta). Cliente ejemplo: Destiny Group, Tasarolli.\n- Estratega marketing senior, muy activo y reflexivo en LinkedIn (Kotler, branding, growth, campaña \"Stickers Salvavidas\" premiada).\n- Cerró con \"Gracias Florencia\" — tono amable pero sin apertura. Se respondió con cierre limpio.\n\n**Estado:** Cerrado amable — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

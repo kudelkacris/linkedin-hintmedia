@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_000130",
+  "contact_id": "ctc_000406",
+  "source_file": "conversaciones/junio/carolina-cabrera.md",
+  "fingerprint": "sha256:84d3734f9e56bd51918ba1a0b06f6d9d0787ddb44fa359396a1af775c3dfc7d1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carolina-cabrera.md",
+    "file_hash": "sha256:84d3734f9e56bd51918ba1a0b06f6d9d0787ddb44fa359396a1af775c3dfc7d1",
+    "file_modified": "2026-06-11T21:43:53.875500+00:00",
+    "file_size": 1364,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carolina Cabrera",
+    "empresa": "Rock&Feller's",
+    "cargo": "Responsable de Comunicación y Marketing (feb 2025, 1.5 años) — 6 sucursales",
+    "pais": "Argentina (Rosario)",
+    "fecha": "12/06/26",
+    "estado_texto": "Aclaración enviada, pendiente respuesta"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "INTERNAL_TEAM",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Carolina, gracias por aceptar la conexión! 👋\n\nVi la cantidad de piezas que salen de Rock&Feller's entre redes, campañas y coberturas de eventos en sucursales. Coordinar todo eso sin equipo de producción in-house debe ser desafiante.\n\n¿Cómo lo vienen resolviendo en la operativa diaria?",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cómo estás? Gracias por tu interés, pero por el momento no estamos buscando este tipo de servicio de producción in-house. Nos mantenemos en contacto!",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "interes",
+      "momento",
+      "estamos",
+      "buscando",
+      "este",
+      "tipo",
+      "servicio",
+      "produccion"
+    ],
+    "notas": "- Rechazó creyendo que éramos producción in-house. Malentendido — enviamos aclaración.\n- En ese momento tenía job posting activo buscando Content Creator in-house (Instagram y TikTok).\n- Pendiente: si responde positivo a la aclaración, avanzar a dossier."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Cabrera]\n[EMPRESA: Rock&Feller's]\n[CARGO: Responsable de Comunicación y Marketing (feb 2025, 1.5 años) — 6 sucursales]\n[SECTOR: Gastronomía / Entretenimiento]\n[PAIS: Argentina (Rosario)]\n\n[MSG1]\nCarolina, gracias por aceptar la conexión! 👋\n\nVi la cantidad de piezas que salen de Rock&Feller's entre redes, campañas y coberturas de eventos en sucursales. Coordinar todo eso sin equipo de producción in-house debe ser desafiante.\n\n¿Cómo lo vienen resolviendo en la operativa diaria?\n\n[RESPUESTA_MSG1]\nHola Florencia, cómo estás? Gracias por tu interés, pero por el momento no estamos buscando este tipo de servicio de producción in-house. Nos mantenemos en contacto!\n\n[MSG3]\nHola Carolina! Justo para aclarar — no somos producción in-house, somos agencia externa. Trabajamos junto al equipo de cada marca, no en reemplazo de él.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Rechazó creyendo que éramos producción in-house. Malentendido — enviamos aclaración.\n- En ese momento tenía job posting activo buscando Content Creator in-house (Instagram y TikTok).\n- Pendiente: si responde positivo a la aclaración, avanzar a dossier.",
+    "raw_md": "# Carolina Cabrera\n**Fecha:** 12/06/26\n**Empresa:** Rock&Feller's\n**Cargo:** Responsable de Comunicación y Marketing (feb 2025, 1.5 años) — 6 sucursales\n**País:** Argentina (Rosario)\n**Sector:** Gastronomía / Entretenimiento\n**Estado:** Aclaración enviada, pendiente respuesta\n\n---\n\n## MSG1\n> Carolina, gracias por aceptar la conexión! 👋\n>\n> Vi la cantidad de piezas que salen de Rock&Feller's entre redes, campañas y coberturas de eventos en sucursales. Coordinar todo eso sin equipo de producción in-house debe ser desafiante.\n>\n> ¿Cómo lo vienen resolviendo en la operativa diaria?\n\n## Respuesta MSG1\n> Hola Florencia, cómo estás? Gracias por tu interés, pero por el momento no estamos buscando este tipo de servicio de producción in-house. Nos mantenemos en contacto!\n\n## Aclaración enviada\n> Hola Carolina! Justo para aclarar — no somos producción in-house, somos agencia externa. Trabajamos junto al equipo de cada marca, no en reemplazo de él.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n---\n\n## Notas\n- Rechazó creyendo que éramos producción in-house. Malentendido — enviamos aclaración.\n- En ese momento tenía job posting activo buscando Content Creator in-house (Instagram y TikTok).\n- Pendiente: si responde positivo a la aclaración, avanzar a dossier.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

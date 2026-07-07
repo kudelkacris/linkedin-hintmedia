@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000208",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/junio/lisandra-chaves-leiva.md",
+  "fingerprint": "sha256:14e72df3759c9e300aafb0e1f7d041c6db170eddc3b0172fbb31b2882a835d23",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/lisandra-chaves-leiva.md",
+    "file_hash": "sha256:14e72df3759c9e300aafb0e1f7d041c6db170eddc3b0172fbb31b2882a835d23",
+    "file_modified": "2026-06-15T20:00:39.918669+00:00",
+    "file_size": 1616,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Lisandra (Lis) Chaves Leiva",
+    "empresa": "Sistema de Banca para el Desarrollo — SBD (institución financiera pública)",
+    "cargo": "Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)",
+    "pais": "Costa Rica (Cartago)",
+    "fecha": "15/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Posición NUEVA en SBD (desde abr 2026, solo 3 meses)\n- Muy alto potencial: ella misma publicó que necesitan \"apoyo en marketing digital, monitoreo y producción audiovisual\"\n- 15+ años en comunicación corporativa, software, servicios financieros\n- Public Speaker\n- SBD: institución financiera pública de Costa Rica (emprendimientos, mipymes)\n- Antes: varias empresas en sector financiero y tecnología"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Lisandra (Lis) Chaves Leiva]\n[EMPRESA: Sistema de Banca para el Desarrollo — SBD (institución financiera pública)]\n[CARGO: Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)]\n[PAIS: Costa Rica (Cartago)]\n\n[NOTAS]\n- Posición NUEVA en SBD (desde abr 2026, solo 3 meses)\n- Muy alto potencial: ella misma publicó que necesitan \"apoyo en marketing digital, monitoreo y producción audiovisual\"\n- 15+ años en comunicación corporativa, software, servicios financieros\n- Public Speaker\n- SBD: institución financiera pública de Costa Rica (emprendimientos, mipymes)\n- Antes: varias empresas en sector financiero y tecnología",
+    "raw_md": "# Lisandra (Lis) Chaves Leiva\n\n**Estado:** MSG2 enviado\n**Fecha:** 15/06/26\n**Cargo:** Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)\n**País:** Costa Rica (Cartago)\n**Empresa:** Sistema de Banca para el Desarrollo — SBD (institución financiera pública)\n\n## Conversación\n\n**MSG1 (Florencia, viernes 18:04):**\nDestacó que crearon una posición nueva específicamente para desarrollar comunicación institucional.\n\n**Respuesta Lisandra (sábado 18:23):**\n\"Es así, mucho que hacer… muy interesante todo\"\n\n**MSG2 (redactado):**\n> Lisandra, gracias por responder!\n>\n> Vi que escribiste algo que me pareció muy directo: \"necesitamos apoyo en marketing digital, monitoreo de medios y producción audiovisual.\" Eso es exactamente lo que una posición nueva enfrenta cuando el scope es grande y el equipo interno todavía se está construyendo.\n>\n> En Hint trabajamos con organizaciones financieras e institucionales en contenido, estrategia digital y producción. Podemos ser ese apoyo externo mientras la estructura interna crece.\n>\n> ¿Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Posición NUEVA en SBD (desde abr 2026, solo 3 meses)\n- Muy alto potencial: ella misma publicó que necesitan \"apoyo en marketing digital, monitoreo y producción audiovisual\"\n- 15+ años en comunicación corporativa, software, servicios financieros\n- Public Speaker\n- SBD: institución financiera pública de Costa Rica (emprendimientos, mipymes)\n- Antes: varias empresas en sector financiero y tecnología\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

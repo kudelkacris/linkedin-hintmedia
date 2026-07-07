@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000244",
+  "contact_id": "ctc_000129",
+  "source_file": "conversaciones/junio/oscar-david-quintero-ramirez.md",
+  "fingerprint": "sha256:0bc7fb28dbc9d0767ef8bd8205251b73b3bf18d85d0ed101e2643b5576352a0e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/oscar-david-quintero-ramirez.md",
+    "file_hash": "sha256:0bc7fb28dbc9d0767ef8bd8205251b73b3bf18d85d0ed101e2643b5576352a0e",
+    "file_modified": "2026-07-01T15:55:05.667063+00:00",
+    "file_size": 1119,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Oscar David Quintero Ramírez",
+    "empresa": "Datalog DCO",
+    "cargo": "Líder Comercial y Desarrollo de Negocios / Sales & Marketing Manager",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Oscar David Quintero Ramírez]\n[EMPRESA: Datalog DCO]\n[CARGO: Líder Comercial y Desarrollo de Negocios / Sales & Marketing Manager]\n[PAIS: Colombia (Bogotá)]",
+    "raw_md": "---\nname: oscar-david-quintero-ramirez\ndescription: CERRADA 24/06/26, dossier enviado por LinkedIn, Lider Comercial Datalog DCO sector minero-energetico Colombia\nmetadata:\n  type: project\n---\n\n**Nombre:** Oscar David Quintero Ramírez\n**Cargo:** Líder Comercial y Desarrollo de Negocios / Sales & Marketing Manager\n**Empresa:** Datalog DCO\n**País:** Colombia (Bogotá)\n\n**Resumen de conversación:**\n- MSG1: Florencia observó que amplifica logros de otros profesionales del sector en vez de armar el discurso desde sí mismo.\n- Respondió: \"Hola Florencia. Un gusto saludarte\" (breve, directo al cuerpo)\n- MSG2 enviado: conecta su alta exposición (junta directiva ACGGP, eventos, relacionamiento público-privado) con la ausencia de voz propia sobre transición energética y desarrollo de negocio. Mención clientes TGS y Transener (energía/infra).\n\n**Notas:**\n- 17+ años en sector minero-energético, oil & gas, sostenibilidad y transición energética.\n- Miembro Junta Directiva ACGGP (Asociación Colombiana de Geólogos y Geofísicos de la Energía).\n\n**Estado:** SEG1 enviado 01/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

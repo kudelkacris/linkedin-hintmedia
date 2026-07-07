@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000139",
+  "contact_id": "ctc_000221",
+  "source_file": "conversaciones/junio/clara-ruiz-casallas.md",
+  "fingerprint": "sha256:3980a2eed11b1c8da5e5fe9366f1629fc0ffb60a238648daeb5ddddb4aecce02",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/clara-ruiz-casallas.md",
+    "file_hash": "sha256:3980a2eed11b1c8da5e5fe9366f1629fc0ffb60a238648daeb5ddddb4aecce02",
+    "file_modified": "2026-07-01T15:55:05.588788+00:00",
+    "file_size": 1907,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Clara Ruiz Casallas",
+    "empresa": "SierraCol Energy",
+    "cargo": "Marketing and Pipeline Advisor",
+    "pais": "Colombia",
+    "fecha": "18/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por conectar. Me llamó la atención la publicación que compartiste hace poco. No es lo que la mayoría publica en LinkedIn cuando está en un rol de Marketing and Pipeline en un sector como energía, donde la presión suele ser bastante. Lo que más me gustó fue que le dieras crédito a tu jefe por liderar \"desde el alma\". Eso suena a que para vos el liderazgo tiene más capas que solo resultados.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia cómo estás? Totalmente de acuerdo el liderazgo y mas entre mujeres deberia venir cargado de mas empatia",
+    "msg2_texto": "Clara, qué difícil eso que viviste, me alegra que ya estén mejor.\n\nEsa frase de liderar desde el alma se nota en cómo encarás las cosas, incluso en un sector con la presión de energía como el de SierraCol.\n\nEn Hint Media trabajamos comunicación y contenido con empresas del sector, como TGS y Transener.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Enviamelo si y miro a quien lo podrias enviar",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "totalmente",
+      "acuerdo",
+      "liderazgo",
+      "entre",
+      "mujeres",
+      "deberia",
+      "venir",
+      "cargado"
+    ],
+    "notas": "- Sector energía → clientes TGS y Transener.\n- Manejar con cuidado en próximos mensajes, situación personal delicada (esposo enfermo)."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Clara Ruiz Casallas]\n[EMPRESA: SierraCol Energy]\n[CARGO: Marketing and Pipeline Advisor]\n[SECTOR: Energía]\n[PAIS: Colombia]\n\n[MSG1]\nFlorencia, gracias por conectar. Me llamó la atención la publicación que compartiste hace poco. No es lo que la mayoría publica en LinkedIn cuando está en un rol de Marketing and Pipeline en un sector como energía, donde la presión suele ser bastante. Lo que más me gustó fue que le dieras crédito a tu jefe por liderar \"desde el alma\". Eso suena a que para vos el liderazgo tiene más capas que solo resultados.\n\n[RESPUESTA_MSG1]\nHola Florencia cómo estás? Totalmente de acuerdo el liderazgo y mas entre mujeres deberia venir cargado de mas empatia\n\n[MSG2]\nClara, qué difícil eso que viviste, me alegra que ya estén mejor.\n\nEsa frase de liderar desde el alma se nota en cómo encarás las cosas, incluso en un sector con la presión de energía como el de SierraCol.\n\nEn Hint Media trabajamos comunicación y contenido con empresas del sector, como TGS y Transener.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nEnviamelo si y miro a quien lo podrias enviar\n\n[MSG3]\nGenial Clara, te lo mando ahora! Cualquier cosa que te surja al revisarlo me avisas, y vemos a quien mas le puede servir.\n\n[NOTAS]\n- Sector energía → clientes TGS y Transener.\n- Manejar con cuidado en próximos mensajes, situación personal delicada (esposo enfermo).",
+    "raw_md": "# Clara Ruiz Casallas\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 18/06/26\n**Cargo:** Marketing and Pipeline Advisor\n**Empresa:** SierraCol Energy\n**País:** Colombia\n**Sector:** Energía\n\n## MSG1\n> Florencia, gracias por conectar. Me llamó la atención la publicación que compartiste hace poco. No es lo que la mayoría publica en LinkedIn cuando está en un rol de Marketing and Pipeline en un sector como energía, donde la presión suele ser bastante. Lo que más me gustó fue que le dieras crédito a tu jefe por liderar \"desde el alma\". Eso suena a que para vos el liderazgo tiene más capas que solo resultados.\n\n## Respuesta MSG1\n> Hola Florencia cómo estás? Totalmente de acuerdo el liderazgo y mas entre mujeres deberia venir cargado de mas empatia\n\n## Contexto sensible\n> Post original de Clara: relató el derrame cerebral de su esposo (39 años) hace dos semanas, agradeció a su jefa Erika León López por \"liderarme desde el alma\". Tema personal delicado, requiere tono empático antes de pivotar a negocio.\n\n## MSG2 (versión final usada)\n> Clara, qué difícil eso que viviste, me alegra que ya estén mejor.\n>\n> Esa frase de liderar desde el alma se nota en cómo encarás las cosas, incluso en un sector con la presión de energía como el de SierraCol.\n>\n> En Hint Media trabajamos comunicación y contenido con empresas del sector, como TGS y Transener.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Aceptación dossier (25/06/26)\n> Enviamelo si y miro a quien lo podrias enviar\n\n## Dossier enviado\n> Genial Clara, te lo mando ahora! Cualquier cosa que te surja al revisarlo me avisas, y vemos a quien mas le puede servir.\n\n## Notas\n- Sector energía → clientes TGS y Transener.\n- Manejar con cuidado en próximos mensajes, situación personal delicada (esposo enfermo).\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "seccion_desconocida: 'Contexto sensible'"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

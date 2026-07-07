@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000186",
+  "contact_id": "ctc_000153",
+  "source_file": "conversaciones/junio/jose-pablo-caceres-aguirre.md",
+  "fingerprint": "sha256:23b6aa4e22838669c3cbfc1298b3298420d405c7f4097eba927eea1a46ece863",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-pablo-caceres-aguirre.md",
+    "file_hash": "sha256:23b6aa4e22838669c3cbfc1298b3298420d405c7f4097eba927eea1a46ece863",
+    "file_modified": "2026-06-20T17:01:57.006596+00:00",
+    "file_size": 2027,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "José Pablo Cáceres Aguirre",
+    "empresa": "Lipigas",
+    "cargo": "Subgerente de Marketing",
+    "pais": "Chile",
+    "fecha": "19/06/26",
+    "estado_texto": "CERRADO (20/06/26) — no buscan partners por ahora, queda abierto a futuro"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 3,
+    "resultado_final": "CERRADO_SIN_INTERES",
+    "objecion_principal": "PARTNERSHIP",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "C"
+  },
+  "conversation": {
+    "msg1_texto": "José Pablo, gracias por conectar! 👋\nMe llamó la atención cómo comunicas los logros en Lipigas. Cuando compartiste los Effie, cuando hablaste del Great Place to Work, cuando lanzaron BioGNL, en todos esos momentos le diste espacio al equipo antes que a ti. No es lo que la mayoría hace cuando anuncia un reconocimiento de esa magnitud.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia, cómo estás! Gracias por tu mensaje! Cómo te puedo apoyar?",
+    "msg2_texto": "Hola José Pablo, muy bien gracias, el gusto es mío!\nEsa forma de comunicar logros dándole crédito al equipo, en los Effie, en el Great Place to Work, en el lanzamiento de BioGNL, es justo lo que sostiene una marca cuando hay tantos frentes a la vez: innovación, sustentabilidad, cultura interna.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Hola Florencia, cómo estás! Gracias por tu mensaje! Por ahora no estamos en búsqueda de nuevos partners. Sigamos en contacto de todas formas! Saludos! José Pablo\nFlorencia: Muchas gracias por el espacio Jose, buen fin de semana y estamos en contacto para el futuro!",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "estas",
+      "mensaje",
+      "puedo",
+      "apoyar",
+      "ahora",
+      "estamos",
+      "busqueda",
+      "nuevos",
+      "partners"
+    ],
+    "notas": "- Sector energía (gas licuado, BioGNL). Cliente ejemplo: TGS, Transener.\n- 4+ años en Lipigas, 3 Effie consecutivos, primer lugar Great Place to Work Chile 2025, liderazgo activo en LinkedIn dando crédito al equipo constantemente."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: José Pablo Cáceres Aguirre]\n[EMPRESA: Lipigas]\n[CARGO: Subgerente de Marketing]\n[PAIS: Chile]\n\n[MSG1]\nJosé Pablo, gracias por conectar! 👋\nMe llamó la atención cómo comunicas los logros en Lipigas. Cuando compartiste los Effie, cuando hablaste del Great Place to Work, cuando lanzaron BioGNL, en todos esos momentos le diste espacio al equipo antes que a ti. No es lo que la mayoría hace cuando anuncia un reconocimiento de esa magnitud.\n\n[RESPUESTA_MSG1]\nHola Florencia, cómo estás! Gracias por tu mensaje! Cómo te puedo apoyar?\n\n[MSG2]\nHola José Pablo, muy bien gracias, el gusto es mío!\nEsa forma de comunicar logros dándole crédito al equipo, en los Effie, en el Great Place to Work, en el lanzamiento de BioGNL, es justo lo que sostiene una marca cuando hay tantos frentes a la vez: innovación, sustentabilidad, cultura interna.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nHola Florencia, cómo estás! Gracias por tu mensaje! Por ahora no estamos en búsqueda de nuevos partners. Sigamos en contacto de todas formas! Saludos! José Pablo\nFlorencia: Muchas gracias por el espacio Jose, buen fin de semana y estamos en contacto para el futuro!\n\n[NOTAS]\n- Sector energía (gas licuado, BioGNL). Cliente ejemplo: TGS, Transener.\n- 4+ años en Lipigas, 3 Effie consecutivos, primer lugar Great Place to Work Chile 2025, liderazgo activo en LinkedIn dando crédito al equipo constantemente.",
+    "raw_md": "---\nname: jose-pablo-caceres-aguirre\ndescription: CERRADO, Subgerente de Marketing Lipigas Chile, no buscan partners por ahora, 20/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** José Pablo Cáceres Aguirre\n**Cargo:** Subgerente de Marketing\n**Empresa:** Lipigas\n**País:** Chile\n**Fecha:** 19/06/26\n\n## MSG1\n> José Pablo, gracias por conectar! 👋\n> Me llamó la atención cómo comunicas los logros en Lipigas. Cuando compartiste los Effie, cuando hablaste del Great Place to Work, cuando lanzaron BioGNL, en todos esos momentos le diste espacio al equipo antes que a ti. No es lo que la mayoría hace cuando anuncia un reconocimiento de esa magnitud.\n\n## Respuesta MSG1\n> Hola Florencia, cómo estás! Gracias por tu mensaje! Cómo te puedo apoyar?\n\n## MSG2\n> Hola José Pablo, muy bien gracias, el gusto es mío!\n> Esa forma de comunicar logros dándole crédito al equipo, en los Effie, en el Great Place to Work, en el lanzamiento de BioGNL, es justo lo que sostiene una marca cuando hay tantos frentes a la vez: innovación, sustentabilidad, cultura interna.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas de energía a sostener esa consistencia en contenido y vocería. Trabajamos con TGS y Transener en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector energía (gas licuado, BioGNL). Cliente ejemplo: TGS, Transener.\n- 4+ años en Lipigas, 3 Effie consecutivos, primer lugar Great Place to Work Chile 2025, liderazgo activo en LinkedIn dando crédito al equipo constantemente.\n\n## Respuesta MSG2 / Cierre (20/06/26)\n> Hola Florencia, cómo estás! Gracias por tu mensaje! Por ahora no estamos en búsqueda de nuevos partners. Sigamos en contacto de todas formas! Saludos! José Pablo\n\n> Florencia: Muchas gracias por el espacio Jose, buen fin de semana y estamos en contacto para el futuro!\n\n**Estado:** CERRADO (20/06/26) — no buscan partners por ahora, queda abierto a futuro\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

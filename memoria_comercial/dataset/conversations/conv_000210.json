@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000210",
+  "contact_id": "ctc_000241",
+  "source_file": "conversaciones/junio/luis-alejandro-meneses.md",
+  "fingerprint": "sha256:b892e20ff3b9eed79e111e4a1bbd288187a756c37a0232af17a23643c5d92554",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:07Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:07Z",
+  "source": {
+    "file_path": "conversaciones/junio/luis-alejandro-meneses.md",
+    "file_hash": "sha256:b892e20ff3b9eed79e111e4a1bbd288187a756c37a0232af17a23643c5d92554",
+    "file_modified": "2026-06-18T23:34:58.984797+00:00",
+    "file_size": 1558,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Luis Alejandro Meneses",
+    "empresa": "Sociedad de Seguros de Vida del Magisterio Nacional",
+    "cargo": "Líder de Comunicación y Relaciones Públicas",
+    "pais": "Costa Rica",
+    "fecha": "18/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Florencia, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco sobre innovación. Lo que más resonó fue el énfasis en que la innovación no es solo generar ideas, sino convertirlas en acciones que generen valor. No es lo que la mayoría destaca cuando habla de innovación. Y mirando lo que venís haciendo en la Sociedad de Seguros — el podcast, los eventos, la visibilidad en medios — veo que eso es exactamente lo que estás haciendo: ejecutando iniciativas concretas que funcionan.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola. Claro, dígame.",
+    "msg2_texto": "Buenas Luis Alejandro, gracias por responder!\n\nLo de convertir ideas en acciones que generen valor se nota en lo que vienen haciendo con el podcast y los espacios en medios. Llevar esa estrategia de comunicación con esa consistencia, sosteniendo contenido, RP y digital al mismo tiempo, no es poca cosa.\n\nEn Hint Media trabajamos justo eso, comunicación y contenido para instituciones de seguros, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "digame"
+    ],
+    "notas": "- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Lidera podcast \"La Socie Podcast\" y RP institucional, perfil con mucha producción de contenido propia."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Luis Alejandro Meneses]\n[EMPRESA: Sociedad de Seguros de Vida del Magisterio Nacional]\n[CARGO: Líder de Comunicación y Relaciones Públicas]\n[SECTOR: Seguros]\n[PAIS: Costa Rica]\n\n[MSG1]\nFlorencia, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco sobre innovación. Lo que más resonó fue el énfasis en que la innovación no es solo generar ideas, sino convertirlas en acciones que generen valor. No es lo que la mayoría destaca cuando habla de innovación. Y mirando lo que venís haciendo en la Sociedad de Seguros — el podcast, los eventos, la visibilidad en medios — veo que eso es exactamente lo que estás haciendo: ejecutando iniciativas concretas que funcionan.\n\n[RESPUESTA_MSG1]\nHola. Claro, dígame.\n\n[MSG2]\nBuenas Luis Alejandro, gracias por responder!\n\nLo de convertir ideas en acciones que generen valor se nota en lo que vienen haciendo con el podcast y los espacios en medios. Llevar esa estrategia de comunicación con esa consistencia, sosteniendo contenido, RP y digital al mismo tiempo, no es poca cosa.\n\nEn Hint Media trabajamos justo eso, comunicación y contenido para instituciones de seguros, como Libra Seguros y Destiny Group.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Lidera podcast \"La Socie Podcast\" y RP institucional, perfil con mucha producción de contenido propia.",
+    "raw_md": "# Luis Alejandro Meneses\n\n**Estado:** MSG2 enviado\n**Fecha:** 18/06/26\n**Cargo:** Líder de Comunicación y Relaciones Públicas\n**Empresa:** Sociedad de Seguros de Vida del Magisterio Nacional\n**País:** Costa Rica\n**Sector:** Seguros\n\n## MSG1\n> Florencia, gracias por conectar! Me llamó la atención la publicación que compartiste hace poco sobre innovación. Lo que más resonó fue el énfasis en que la innovación no es solo generar ideas, sino convertirlas en acciones que generen valor. No es lo que la mayoría destaca cuando habla de innovación. Y mirando lo que venís haciendo en la Sociedad de Seguros — el podcast, los eventos, la visibilidad en medios — veo que eso es exactamente lo que estás haciendo: ejecutando iniciativas concretas que funcionan.\n\n## Respuesta MSG1\n> Hola. Claro, dígame.\n\n## MSG2\n> Buenas Luis Alejandro, gracias por responder!\n>\n> Lo de convertir ideas en acciones que generen valor se nota en lo que vienen haciendo con el podcast y los espacios en medios. Llevar esa estrategia de comunicación con esa consistencia, sosteniendo contenido, RP y digital al mismo tiempo, no es poca cosa.\n>\n> En Hint Media trabajamos justo eso, comunicación y contenido para instituciones de seguros, como Libra Seguros y Destiny Group.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector seguros → clientes Libra Seguros y Destiny Group.\n- Lidera podcast \"La Socie Podcast\" y RP institucional, perfil con mucha producción de contenido propia.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

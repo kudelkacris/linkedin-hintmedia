@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000034",
+  "contact_id": "ctc_UNKNOWN",
+  "source_file": "conversaciones/julio/edinson-velasquez-castellanos.md",
+  "fingerprint": "sha256:7eedac51f9aa777971aa0de478c507c19fc274b9aab26c87fe0fc1afbcd02add",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/edinson-velasquez-castellanos.md",
+    "file_hash": "sha256:7eedac51f9aa777971aa0de478c507c19fc274b9aab26c87fe0fc1afbcd02add",
+    "file_modified": "2026-07-02T02:23:31.236779+00:00",
+    "file_size": 1899,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Edinson Velasquez Castellanos",
+    "empresa": "Lilo Social (agencia)",
+    "cargo": "Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive",
+    "pais": "(no especificado)",
+    "fecha": "",
+    "estado_texto": "MSG3 pendiente de envío, aclarando confusión sobre el dossier."
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Edinson Velasquez Castellanos]\n[EMPRESA: Lilo Social (agencia)]\n[CARGO: Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive]\n[PAIS: (no especificado)]",
+    "raw_md": "---\nname: edinson-velasquez-castellanos\ndescription: MSG2 enviado + respuesta recibida, Digital Marketing PM Lilo Social, beauty/luxury/skincare, 01/07/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Edinson Velasquez Castellanos\n**Cargo:** Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive\n**Empresa:** Lilo Social (agencia)\n**País:** (no especificado)\n\n**Resumen de conversación:**\n- MSG1: Florencia observó post sobre los primeros tres meses en Lilo Social, destacando que el foco fue \"cómo se crece sin romperse\" en lugar de proyectos entregados.\n- Respondió: \"Hola, si, cuéntame.\"\n- MSG2 enviado: pregunta cuál es el primer frente que se complica cuando una marca en beauty/luxury decide escalar rápido. Mención Hint Media + clientes Destiny Group y Tasarolli. CTA dossier.\n- Respondió: explicó que budget y canales son lo primero que se complica. Pero se confundió: preguntó \"qué necesitás que se haga con esa revisión\" y \"a quién te referís dentro de mi empresa\". Cree que le pedimos algo o que buscamos a alguien específico en Lilo Social.\n\n**Mensaje pendiente de enviar (respuesta a su confusión):**\nBuenas Edy, lo del budget y los canales tiene sentido. Es exactamente ahí donde se rompe algo cuando una marca quiere crecer rápido sin tenerlo alineado.\n\nNo necesitás hacer nada ni llevarlo a nadie. Hint Media trabajamos con marcas en ese momento puntual de escala, y el dossier es un material breve con casos concretos de ese tipo de trabajo.\n\nTe lo mando por acá si querés, es solo para que lo tengas de referencia.\n\n**Notas:**\n- Trabaja en agencia (Lilo Social), no en marca directamente.\n- Respondió la pregunta del MSG2 sin darse cuenta: budget y canales.\n- Confusión resuelta en MSG3: aclarar que el dossier es para él, sin obligación.\n\n**Estado:** MSG3 pendiente de envío, aclarando confusión sobre el dossier.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector",
+      "campo_vacio: fecha"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

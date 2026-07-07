@@ -1,0 +1,76 @@
+{
+  "conversation_id": "conv_000085",
+  "contact_id": "ctc_000094",
+  "source_file": "conversaciones/julio/pedro-andres-miranda-borie.md",
+  "fingerprint": "sha256:8e990ebb76284dbbd8fa80cd898c724523404ea98ab875c9b9dee65aae7c9e4c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/pedro-andres-miranda-borie.md",
+    "file_hash": "sha256:8e990ebb76284dbbd8fa80cd898c724523404ea98ab875c9b9dee65aae7c9e4c",
+    "file_modified": "2026-07-02T01:32:24.559552+00:00",
+    "file_size": 2611,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Pedro Andrés Miranda Borie",
+    "empresa": "ProntoPaga",
+    "cargo": "Marketing Manager",
+    "pais": "Chile",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Pedro Andrés, gracias por conectar! 👋\n\nMe llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"Hola Florencia\nMucho gusto\nComo estás? Mucho gusto, gracias por tu invitacion a conectar\n🤗😄🤐\nClaro que si, cuéntame cómo te ayudo\"",
+    "msg2_texto": "Buenas Pedro Andrés!\nLa manera en que comunicás los hitos con el equipo adelante dice algo de cómo entendés la comunicación de marca.\nCuando una empresa está expandiéndose a nuevos mercados, como pasó con Argentina, cómo hacés para que el mensaje no se fragmente en cada plaza?\nTrabajo en Hint Media con empresas en proceso de expansión, como Destiny Group y Libra Seguros. Ayudamos a construir la comunicación que sostiene ese crecimiento: contenido, identidad, paid media, todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "En cada publicación sobre hitos de ProntoPaga (integración Yape, expansión Argentina, eventos internacionales como SBC Lisboa) nombra explícitamente a los equipos. No construye narrativa personal sino colectiva. Revela que entiende que los resultados visibles vienen de ejecución invisible.",
+    "hipotesis": "Cuando una empresa fintech está en expansión acelerada (6 eventos internacionales en un año, nuevo país cada pocos meses), el equipo de marketing interno se estira. La comunicación de marca puede fragmentarse por país o canal. Ahí es donde Hint puede entrar como capa de ejecución adicional.",
+    "palabras_clave": [
+      "florencia",
+      "mucho",
+      "gusto",
+      "estas",
+      "invitacion",
+      "conectar",
+      "cuentame",
+      "ayudo"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Pedro Andrés Miranda Borie]\n[EMPRESA: ProntoPaga]\n[CARGO: Marketing Manager]\n[SECTOR: Fintech / Pagos / iGaming]\n[PAIS: Chile]\n[SENAL: En cada publicación sobre hitos de ProntoPaga (integración Yape, expansión Argentina, eventos internacionales como SBC Lisboa) nombra explícitamente a los equipos. No construye narrativa personal sino colectiva. Revela que entiende que los resultados visibles vienen de ejecución invisible.]\n[HIPOTESIS: Cuando una empresa fintech está en expansión acelerada (6 eventos internacionales en un año, nuevo país cada pocos meses), el equipo de marketing interno se estira. La comunicación de marca puede fragmentarse por país o canal. Ahí es donde Hint puede entrar como capa de ejecución adicional.]\n\n[MSG1]\nPedro Andrés, gracias por conectar! 👋\n\nMe llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"Hola Florencia\nMucho gusto\nComo estás? Mucho gusto, gracias por tu invitacion a conectar\n🤗😄🤐\nClaro que si, cuéntame cómo te ayudo\"\n\n[MSG2]\nBuenas Pedro Andrés!\nLa manera en que comunicás los hitos con el equipo adelante dice algo de cómo entendés la comunicación de marca.\nCuando una empresa está expandiéndose a nuevos mercados, como pasó con Argentina, cómo hacés para que el mensaje no se fragmente en cada plaza?\nTrabajo en Hint Media con empresas en proceso de expansión, como Destiny Group y Libra Seguros. Ayudamos a construir la comunicación que sostiene ese crecimiento: contenido, identidad, paid media, todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Pedro Andrés Miranda Borie\n\n**Fecha:** 01/07/26\n**Cargo:** Marketing Manager\n**Empresa:** ProntoPaga\n**Pais:** Chile\n**Sector:** Fintech / Pagos / iGaming\n**Estado:** MSG2 enviado\n\n---\n\n## Análisis\n- **Señal humana:** En cada publicación sobre hitos de ProntoPaga (integración Yape, expansión Argentina, eventos internacionales como SBC Lisboa) nombra explícitamente a los equipos. No construye narrativa personal sino colectiva. Revela que entiende que los resultados visibles vienen de ejecución invisible.\n- **Tensión profesional:** Marketing Manager con equipo de 5 personas, operando en múltiples países (Chile, Perú, Argentina) y expandiéndose a Europa. Supervisa agencias colaboradoras en distintos países. Sostener coherencia de marca y ejecución cuando el volumen y los mercados se multiplican.\n- **Hipótesis:** Cuando una empresa fintech está en expansión acelerada (6 eventos internacionales en un año, nuevo país cada pocos meses), el equipo de marketing interno se estira. La comunicación de marca puede fragmentarse por país o canal. Ahí es donde Hint puede entrar como capa de ejecución adicional.\n- **Ángulo MSG1:** SEÑAL_HUMANA. La forma en que Pedro comunica los hitos pone al equipo adelante.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Pedro Andrés, gracias por conectar! 👋\n>\n> Me llamó la atención cómo en cada logro que publicas — la integración de Yape, la expansión a Argentina, los eventos internacionales — le das bastante protagonismo al equipo en vez de armar la historia de otro modo. No es lo que la mayoría hace cuando está comunicando hitos.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"Hola Florencia\n> Mucho gusto\n> Como estás? Mucho gusto, gracias por tu invitacion a conectar\n> 🤗😄🤐\n> Claro que si, cuéntame cómo te ayudo\"\n\n---\n\n## MSG2\n> Buenas Pedro Andrés!\n> La manera en que comunicás los hitos con el equipo adelante dice algo de cómo entendés la comunicación de marca.\n> Cuando una empresa está expandiéndose a nuevos mercados, como pasó con Argentina, cómo hacés para que el mensaje no se fragmente en cada plaza?\n> Trabajo en Hint Media con empresas en proceso de expansión, como Destiny Group y Libra Seguros. Ayudamos a construir la comunicación que sostiene ese crecimiento: contenido, identidad, paid media, todo en un mismo hilo.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

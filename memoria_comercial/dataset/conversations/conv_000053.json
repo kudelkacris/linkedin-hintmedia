@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000053",
+  "contact_id": "ctc_000108",
+  "source_file": "conversaciones/julio/jorge-escribano-mart-n.md",
+  "fingerprint": "sha256:0003ba37c2c9d9b16e1518b4d9ed239f71bea0189f5c6f0b597b914b32724616",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/jorge-escribano-mart-n.md",
+    "file_hash": "sha256:0003ba37c2c9d9b16e1518b4d9ed239f71bea0189f5c6f0b597b914b32724616",
+    "file_modified": "2026-07-01T18:03:20.186259+00:00",
+    "file_size": 654,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Jorge Escribano Martín",
+    "empresa": "Business Director",
+    "cargo": "CEO en Banco Supervielle",
+    "pais": "Panamá",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jorge, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre Dekel Holdings. Pero no fue tanto por el artículo en sí, sino por cómo lo presentaste: \"años de trabajo, planificación y apuesta firme por su potencial\". Eso no es lo que la mayoría destaca cuando habla de desarrollo inmobiliario.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jorge Escribano Martín]\n[EMPRESA: Business Director]\n[CARGO: CEO en Banco Supervielle]\n[PAIS: Panamá]\n\n[MSG1]\nJorge, gracias por conectar 👋\n\nMe llamó la atención la publicación que compartiste hace poco sobre Dekel Holdings. Pero no fue tanto por el artículo en sí, sino por cómo lo presentaste: \"años de trabajo, planificación y apuesta firme por su potencial\". Eso no es lo que la mayoría destaca cuando habla de desarrollo inmobiliario.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Jorge Escribano Martín\n\n**Fecha:** 01/07/26\n**Cargo:** CEO en Banco Supervielle\n**Empresa:** Business Director\n**Pais:** Panamá\n**Estado:** MSG1 enviado\n\n---\n\n## MSG1\n> Jorge, gracias por conectar 👋\n>\n> Me llamó la atención la publicación que compartiste hace poco sobre Dekel Holdings. Pero no fue tanto por el artículo en sí, sino por cómo lo presentaste: \"años de trabajo, planificación y apuesta firme por su potencial\". Eso no es lo que la mayoría destaca cuando habla de desarrollo inmobiliario.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

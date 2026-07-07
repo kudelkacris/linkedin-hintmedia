@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000039",
+  "contact_id": "ctc_000092",
+  "source_file": "conversaciones/julio/eynar-samudio-horna.md",
+  "fingerprint": "sha256:7ab2e90cddce3d2baa40111fa487b64be09197835875c7f059b6fa18f5c7b05b",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/eynar-samudio-horna.md",
+    "file_hash": "sha256:7ab2e90cddce3d2baa40111fa487b64be09197835875c7f059b6fa18f5c7b05b",
+    "file_modified": "2026-07-02T01:36:07.322905+00:00",
+    "file_size": 2345,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Eynar Samudio Horna",
+    "empresa": "Strategy & Execution",
+    "cargo": "CEO",
+    "pais": "Panamá",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "GOBIERNO",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Eynar, gracias por conectar! 👋\n\nMe llamó la atención cómo planteaste la reflexión en INCAE — \"entre el privilegio de un legado y el desafío de la trascendencia\". Es de esas frases que resume el dilema real que viven las empresas familiares, no solo el discurso de consultoría que suele armarse.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "\"🤗😄🤐\nSí con gusto Florencia.\"",
+    "msg2_texto": "Buenas Eynar!\nMe quedé pensando en esa frase de INCAE porque resume bien la tensión que define el trabajo de profesionalización en empresas familiares.\nCuando una empresa está en ese proceso de cambio, cómo trabajás la comunicación hacia afuera de lo que está pasando adentro?\nTrabajo en Hint Media con empresas en procesos de transformación, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene esos cambios: identidad, contenido, vocería ejecutiva, todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó reflexión titulada \"Empresas Familiares: entre el privilegio de un legado y el desafío de la trascendencia\". No es contenido de venta, es reflexión genuina sobre el dilema real. También compartió experiencia en INCAE con estudiantes de Executive MBA.",
+    "hipotesis": "Eynar trabaja la estrategia y ejecución interna. Hint puede acompañar la comunicación externa de esas transformaciones: cómo la empresa comunica su nueva etapa al mercado, stakeholders, industria.",
+    "palabras_clave": [
+      "gusto",
+      "florencia"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Eynar Samudio Horna]\n[EMPRESA: Strategy & Execution]\n[CARGO: CEO]\n[SECTOR: Consultoría / Empresas Familiares / Gobierno Corporativo]\n[PAIS: Panamá]\n[SENAL: Publicó reflexión titulada \"Empresas Familiares: entre el privilegio de un legado y el desafío de la trascendencia\". No es contenido de venta, es reflexión genuina sobre el dilema real. También compartió experiencia en INCAE con estudiantes de Executive MBA.]\n[HIPOTESIS: Eynar trabaja la estrategia y ejecución interna. Hint puede acompañar la comunicación externa de esas transformaciones: cómo la empresa comunica su nueva etapa al mercado, stakeholders, industria.]\n\n[MSG1]\nEynar, gracias por conectar! 👋\n\nMe llamó la atención cómo planteaste la reflexión en INCAE — \"entre el privilegio de un legado y el desafío de la trascendencia\". Es de esas frases que resume el dilema real que viven las empresas familiares, no solo el discurso de consultoría que suele armarse.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\n\"🤗😄🤐\nSí con gusto Florencia.\"\n\n[MSG2]\nBuenas Eynar!\nMe quedé pensando en esa frase de INCAE porque resume bien la tensión que define el trabajo de profesionalización en empresas familiares.\nCuando una empresa está en ese proceso de cambio, cómo trabajás la comunicación hacia afuera de lo que está pasando adentro?\nTrabajo en Hint Media con empresas en procesos de transformación, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene esos cambios: identidad, contenido, vocería ejecutiva, todo en un mismo hilo.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Eynar Samudio Horna\n\n**Fecha:** 01/07/26\n**Cargo:** CEO\n**Empresa:** Strategy & Execution\n**Pais:** Panamá\n**Sector:** Consultoría / Empresas Familiares / Gobierno Corporativo\n**Estado:** MSG2 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicó reflexión titulada \"Empresas Familiares: entre el privilegio de un legado y el desafío de la trascendencia\". No es contenido de venta, es reflexión genuina sobre el dilema real. También compartió experiencia en INCAE con estudiantes de Executive MBA.\n- **Tensión profesional:** Fundó S&E en 2016 para acompañar empresas familiares en momentos clave. Red de 30+ consultores. El desafío: cuando una empresa familiar se transforma internamente, la comunicación hacia afuera de ese cambio suele quedar sin trabajar.\n- **Hipótesis:** Eynar trabaja la estrategia y ejecución interna. Hint puede acompañar la comunicación externa de esas transformaciones: cómo la empresa comunica su nueva etapa al mercado, stakeholders, industria.\n- **Ángulo MSG1:** SEÑAL_HUMANA. La frase del artículo de INCAE resume el dilema real de empresas familiares.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Eynar, gracias por conectar! 👋\n>\n> Me llamó la atención cómo planteaste la reflexión en INCAE — \"entre el privilegio de un legado y el desafío de la trascendencia\". Es de esas frases que resume el dilema real que viven las empresas familiares, no solo el discurso de consultoría que suele armarse.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> \"🤗😄🤐\n> Sí con gusto Florencia.\"\n\n---\n\n## MSG2\n> Buenas Eynar!\n> Me quedé pensando en esa frase de INCAE porque resume bien la tensión que define el trabajo de profesionalización en empresas familiares.\n> Cuando una empresa está en ese proceso de cambio, cómo trabajás la comunicación hacia afuera de lo que está pasando adentro?\n> Trabajo en Hint Media con empresas en procesos de transformación, como Destiny Group y Libra Seguros. Acompañamos la comunicación que sostiene esos cambios: identidad, contenido, vocería ejecutiva, todo en un mismo hilo.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

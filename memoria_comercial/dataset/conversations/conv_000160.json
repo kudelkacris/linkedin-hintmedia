@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000160",
+  "contact_id": "ctc_000187",
+  "source_file": "conversaciones/junio/fiorella-mora.md",
+  "fingerprint": "sha256:170529e6ae8436491d891786798e37b92f120d528b14da4e665c2f4c6d5509f5",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/fiorella-mora.md",
+    "file_hash": "sha256:170529e6ae8436491d891786798e37b92f120d528b14da4e665c2f4c6d5509f5",
+    "file_modified": "2026-06-19T13:59:38.112679+00:00",
+    "file_size": 1820,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Fiorella Mora",
+    "empresa": "Footprints Mental Health Counseling",
+    "cargo": "Marketing Manager (Marketing Operations Manager)",
+    "pais": "Costa Rica",
+    "fecha": "19/06/26",
+    "estado_texto": "MSG2 enviado"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Fiorella, gracias por conectar! 👋\n\nMe llamó la atención que hayas publicado cada certificación obtenida en los últimos meses — OKR, Kanban, Scrum, Design Thinking. No es lo que hace la mayoría cuando está aprendiendo nuevas metodologías. La mayoría las usa internamente y listo. Vos decidiste compartirlas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Sí, claro",
+    "msg2_texto": "Hola Fiorella!\nJusto eso fue lo que me llamó la atención, porque se nota que en tu nuevo rol en Footprints estás aplicando esas mismas metodologías (OKR, Scrum, Kanban) para traducir procesos clínicos y científicos en marketing operativo claro. Esa capacidad de traducir lo técnico a algo accionable es justo lo que más cuesta en comunicación de salud.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas del sector salud a bajar esa complejidad a contenido, vocería y posicionamiento digital. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- Sector salud/farmacéutico (mental health). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Dental surgeon + public health specialist transicionando a Marketing Manager, certificaciones agile (OKR/Scrum/Kanban/Design Thinking).\n- Acá la usuaria confirmó formato definitivo: burbujas en líneas separadas sin línea en blanco entre ellas, listo para copiar/pegar."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fiorella Mora]\n[EMPRESA: Footprints Mental Health Counseling]\n[CARGO: Marketing Manager (Marketing Operations Manager)]\n[PAIS: Costa Rica]\n\n[MSG1]\nFiorella, gracias por conectar! 👋\n\nMe llamó la atención que hayas publicado cada certificación obtenida en los últimos meses — OKR, Kanban, Scrum, Design Thinking. No es lo que hace la mayoría cuando está aprendiendo nuevas metodologías. La mayoría las usa internamente y listo. Vos decidiste compartirlas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro\n\n[MSG2]\nHola Fiorella!\nJusto eso fue lo que me llamó la atención, porque se nota que en tu nuevo rol en Footprints estás aplicando esas mismas metodologías (OKR, Scrum, Kanban) para traducir procesos clínicos y científicos en marketing operativo claro. Esa capacidad de traducir lo técnico a algo accionable es justo lo que más cuesta en comunicación de salud.\nTrabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas del sector salud a bajar esa complejidad a contenido, vocería y posicionamiento digital. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Sector salud/farmacéutico (mental health). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Dental surgeon + public health specialist transicionando a Marketing Manager, certificaciones agile (OKR/Scrum/Kanban/Design Thinking).\n- Acá la usuaria confirmó formato definitivo: burbujas en líneas separadas sin línea en blanco entre ellas, listo para copiar/pegar.",
+    "raw_md": "# Fiorella Mora\n\n**Estado:** MSG2 enviado\n**Fecha:** 19/06/26\n**Cargo:** Marketing Manager (Marketing Operations Manager)\n**Empresa:** Footprints Mental Health Counseling\n**País:** Costa Rica\n\n## MSG1\n> Fiorella, gracias por conectar! 👋\n>\n> Me llamó la atención que hayas publicado cada certificación obtenida en los últimos meses — OKR, Kanban, Scrum, Design Thinking. No es lo que hace la mayoría cuando está aprendiendo nuevas metodologías. La mayoría las usa internamente y listo. Vos decidiste compartirlas.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n## Respuesta MSG1\n> Sí, claro\n\n## MSG2 (formato burbujas en salto de línea simple, sin espacio)\n> Hola Fiorella!\n> Justo eso fue lo que me llamó la atención, porque se nota que en tu nuevo rol en Footprints estás aplicando esas mismas metodologías (OKR, Scrum, Kanban) para traducir procesos clínicos y científicos en marketing operativo claro. Esa capacidad de traducir lo técnico a algo accionable es justo lo que más cuesta en comunicación de salud.\n> Trabajo en Hint Media, agencia de comunicación omnicanal. Ayudamos a empresas del sector salud a bajar esa complejidad a contenido, vocería y posicionamiento digital. Trabajamos con Libra Seguros y Destiny Group en proyectos similares.\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Sector salud/farmacéutico (mental health). Cliente ejemplo: Libra Seguros, Destiny Group.\n- Dental surgeon + public health specialist transicionando a Marketing Manager, certificaciones agile (OKR/Scrum/Kanban/Design Thinking).\n- Acá la usuaria confirmó formato definitivo: burbujas en líneas separadas sin línea en blanco entre ellas, listo para copiar/pegar.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

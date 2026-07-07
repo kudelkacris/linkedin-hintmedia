@@ -1,0 +1,80 @@
+{
+  "conversation_id": "conv_000078",
+  "contact_id": "ctc_000087",
+  "source_file": "conversaciones/julio/meritxell-riera-collell.md",
+  "fingerprint": "sha256:43ef88a99af5e0ce4969b72cd3bf51eb0de27471344c69541a6628959d1fd679",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/meritxell-riera-collell.md",
+    "file_hash": "sha256:43ef88a99af5e0ce4969b72cd3bf51eb0de27471344c69541a6628959d1fd679",
+    "file_modified": "2026-07-02T21:53:11.370638+00:00",
+    "file_size": 3610,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Meritxell Riera Collell",
+    "empresa": "INDCAR",
+    "cargo": "Comunicación Corporativa | B2B | Marketing Digital",
+    "pais": "España",
+    "fecha": "01/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "HIGH",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Meritxell, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre el rediseño de identidad de INDCAR. Lo que más me gustó fue que le dieras tanto crédito al equipo en medio de la transformación, especialmente nombrando a Jaime y Marcos. Eso no es lo típico cuando se anuncia un cambio de marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Buenos días, Dedicamos más de un año y medio al proyecto y me pareció oportuno también nombrar al equipo que me apoyó. Muchas marcas publican notas de prensa con quienes han hecho el cambio. No creo que sea tan atípico.\nSí, puedes enviarme la consulta sin problema.",
+    "msg2_texto": "Buenas Meritxell!\nUn año y medio en un proyecto de rebranding es mucho tiempo para sostener esa coherencia entre lo que se está construyendo adentro y lo que todavía no podés mostrar afuera.\nCómo manejaron esa etapa? Hubo un momento donde la identidad ya estaba definida pero todavía no podían comunicarla?\nEn Hint Media trabajamos comunicación y contenido con empresas en procesos de transformación de marca, en esa capa entre lo interno y lo externo. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicó sobre rediseño de identidad corporativa 9 meses atrás nombrando explícitamente la transformación detrás (\"nuevo logotipo es el símbolo de la transformación\"). Destacó al equipo con agradecimiento específico a Jaime y Marcos y a todo INDCAR. Compartió contenido sobre convención comercial anual enfatizando lema \"Together, We Wing\" y actividades de conexión de equipo. Mostró iniciativa en eventos corporativos (Busworld press conference, bookmark contest multicultural).",
+    "hipotesis": "Cómo sostener ejecución de comunicación constante en contexto de crecimiento acelerado sin que todo dependa de equipo marketing pequeño. Coordinación de narrativa corporativa entre múltiples mercados/idiomas/públicos simultáneamente. Transformación cultural comunicada de forma consistente durante escalamiento operativo.",
+    "palabras_clave": [
+      "dias",
+      "dedicamos",
+      "medio",
+      "proyecto",
+      "parecio",
+      "oportuno",
+      "tambien",
+      "nombrar",
+      "equipo",
+      "apoyo"
+    ],
+    "notas": "- Corrigió premisa de MSG1 (\"no creo que sea tan atípico\") — ángulo giró al dato real: 1.5 años de proceso.\n- Sector manufactura B2B → Destiny Group, Libra Seguros.\n\nEstado: MSG2 enviado — 02/07/26"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Meritxell Riera Collell]\n[EMPRESA: INDCAR]\n[CARGO: Comunicación Corporativa | B2B | Marketing Digital]\n[SECTOR: Manufacturing (Automotive/Transport — carrossery/minibus)]\n[PAIS: España]\n[SENAL: Publicó sobre rediseño de identidad corporativa 9 meses atrás nombrando explícitamente la transformación detrás (\"nuevo logotipo es el símbolo de la transformación\"). Destacó al equipo con agradecimiento específico a Jaime y Marcos y a todo INDCAR. Compartió contenido sobre convención comercial anual enfatizando lema \"Together, We Wing\" y actividades de conexión de equipo. Mostró iniciativa en eventos corporativos (Busworld press conference, bookmark contest multicultural).]\n[HIPOTESIS: Cómo sostener ejecución de comunicación constante en contexto de crecimiento acelerado sin que todo dependa de equipo marketing pequeño. Coordinación de narrativa corporativa entre múltiples mercados/idiomas/públicos simultáneamente. Transformación cultural comunicada de forma consistente durante escalamiento operativo.]\n\n[MSG1]\nMeritxell, gracias por conectar! 👋\n\nMe llamó la atención la publicación sobre el rediseño de identidad de INDCAR. Lo que más me gustó fue que le dieras tanto crédito al equipo en medio de la transformación, especialmente nombrando a Jaime y Marcos. Eso no es lo típico cuando se anuncia un cambio de marca.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nBuenos días, Dedicamos más de un año y medio al proyecto y me pareció oportuno también nombrar al equipo que me apoyó. Muchas marcas publican notas de prensa con quienes han hecho el cambio. No creo que sea tan atípico.\nSí, puedes enviarme la consulta sin problema.\n\n[MSG2]\nBuenas Meritxell!\nUn año y medio en un proyecto de rebranding es mucho tiempo para sostener esa coherencia entre lo que se está construyendo adentro y lo que todavía no podés mostrar afuera.\nCómo manejaron esa etapa? Hubo un momento donde la identidad ya estaba definida pero todavía no podían comunicarla?\nEn Hint Media trabajamos comunicación y contenido con empresas en procesos de transformación de marca, en esa capa entre lo interno y lo externo. Clientes como Destiny Group y Libra Seguros.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[NOTAS]\n- Corrigió premisa de MSG1 (\"no creo que sea tan atípico\") — ángulo giró al dato real: 1.5 años de proceso.\n- Sector manufactura B2B → Destiny Group, Libra Seguros.\n\nEstado: MSG2 enviado — 02/07/26",
+    "raw_md": "# Meritxell Riera Collell\n\n**Fecha:** 01/07/26\n**Cargo:** Comunicación Corporativa | B2B | Marketing Digital\n**Empresa:** INDCAR\n**Pais:** España\n**Sector:** Manufacturing (Automotive/Transport — carrossery/minibus)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicó sobre rediseño de identidad corporativa 9 meses atrás nombrando explícitamente la transformación detrás (\"nuevo logotipo es el símbolo de la transformación\"). Destacó al equipo con agradecimiento específico a Jaime y Marcos y a todo INDCAR. Compartió contenido sobre convención comercial anual enfatizando lema \"Together, We Wing\" y actividades de conexión de equipo. Mostró iniciativa en eventos corporativos (Busworld press conference, bookmark contest multicultural).\n- **Tensión profesional:** Comunicar crecimiento sin que consistencia de mensaje se fragmente entre 4+ sedes geograficamente dispersas (Arbúcies, Francia, Italia, Romania). Ejecutar rebranding corporativo mientras mantiene operación de comunicación continua. Alinear narrativa interna (transformación cultural, nuevos sistemas) con narrativa externa (expansion, sostenibilidad, liderazgo sectorial). Escalar producción (46% YoY) sin que comunicación interna/externa quede atrás.\n- **Hipótesis:** Cómo sostener ejecución de comunicación constante en contexto de crecimiento acelerado sin que todo dependa de equipo marketing pequeño. Coordinación de narrativa corporativa entre múltiples mercados/idiomas/públicos simultáneamente. Transformación cultural comunicada de forma consistente durante escalamiento operativo.\n- **Ángulo MSG1:** Rebranding corporativo ejecutado 9 meses atrás + crecimiento acelerado visible (46% 2025) + nombró transformación cultural explícitamente → tensión es sostener consistencia comunicacional en contexto de expansión agresiva.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Meritxell, gracias por conectar! 👋\n>\n> Me llamó la atención la publicación sobre el rediseño de identidad de INDCAR. Lo que más me gustó fue que le dieras tanto crédito al equipo en medio de la transformación, especialmente nombrando a Jaime y Marcos. Eso no es lo típico cuando se anuncia un cambio de marca.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1 (02/07/26)\n> Buenos días, Dedicamos más de un año y medio al proyecto y me pareció oportuno también nombrar al equipo que me apoyó. Muchas marcas publican notas de prensa con quienes han hecho el cambio. No creo que sea tan atípico.\n> Sí, puedes enviarme la consulta sin problema.\n\n## MSG2 (02/07/26)\n> Buenas Meritxell!\n> Un año y medio en un proyecto de rebranding es mucho tiempo para sostener esa coherencia entre lo que se está construyendo adentro y lo que todavía no podés mostrar afuera.\n> Cómo manejaron esa etapa? Hubo un momento donde la identidad ya estaba definida pero todavía no podían comunicarla?\n> En Hint Media trabajamos comunicación y contenido con empresas en procesos de transformación de marca, en esa capa entre lo interno y lo externo. Clientes como Destiny Group y Libra Seguros.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- Corrigió premisa de MSG1 (\"no creo que sea tan atípico\") — ángulo giró al dato real: 1.5 años de proceso.\n- Sector manufactura B2B → Destiny Group, Libra Seguros.\n\n**Estado:** MSG2 enviado — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

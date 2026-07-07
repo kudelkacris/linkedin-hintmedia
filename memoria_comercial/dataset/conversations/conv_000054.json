@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_000054",
+  "contact_id": "ctc_000035",
+  "source_file": "conversaciones/julio/jorge-rubilar-m-ndez.md",
+  "fingerprint": "sha256:7d45e3ea744f7be967854974b83bd7d602ca3907f56837bc5fde78f32457d991",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/jorge-rubilar-m-ndez.md",
+    "file_hash": "sha256:7d45e3ea744f7be967854974b83bd7d602ca3907f56837bc5fde78f32457d991",
+    "file_modified": "2026-07-06T15:07:31.588892+00:00",
+    "file_size": 2163,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Jorge Rubilar Méndez",
+    "empresa": "Chile",
+    "cargo": "Marketing & Communications | Industria Inmobiliaria y Energía | Estrategia Comercial, RSE y Gestión de Stakeholders",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "CONSTRUCCION",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Jorge, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación sobre la jornada de alineación estratégica. No es lo común: la mayoría comunica el resultado, pero vos destacaste el proceso de \"alinear visión, compartir aprendizajes y ordenar estratégicamente\". Eso revela algo importante sobre cómo ves tu trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Publicación sobre jornada de trabajo donde revisó resultados 2025 y proyectó prioridades comunicacionales para 2026. Enfatizó que \"las comunicaciones también se construyen en equipo\" y destacó la importancia de \"alinear visión, compartir aprendizajes y ordenar estratégicamente los desafíos\". Señal clara de reflexión sobre coordinación multifuncional y necesidad de alineación en comunicaciones.",
+    "hipotesis": "Cómo construir un sistema de comunicaciones que escale sin requerer alineaciones manuales periódicas. Cómo amplificar ejecución de marketing digital y campañas integradas sin aumentar carga operativa del equipo. Posicionamiento del rol de comunicaciones como activo estratégico del negocio, no como soporte táctico.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jorge Rubilar Méndez]\n[EMPRESA: Chile]\n[CARGO: Marketing & Communications | Industria Inmobiliaria y Energía | Estrategia Comercial, RSE y Gestión de Stakeholders]\n[SECTOR: Real Estate / Inmobiliaria]\n[PAIS: Chile]\n[SENAL: Publicación sobre jornada de trabajo donde revisó resultados 2025 y proyectó prioridades comunicacionales para 2026. Enfatizó que \"las comunicaciones también se construyen en equipo\" y destacó la importancia de \"alinear visión, compartir aprendizajes y ordenar estratégicamente los desafíos\". Señal clara de reflexión sobre coordinación multifuncional y necesidad de alineación en comunicaciones.]\n[HIPOTESIS: Cómo construir un sistema de comunicaciones que escale sin requerer alineaciones manuales periódicas. Cómo amplificar ejecución de marketing digital y campañas integradas sin aumentar carga operativa del equipo. Posicionamiento del rol de comunicaciones como activo estratégico del negocio, no como soporte táctico.]\n\n[MSG1]\nJorge, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación sobre la jornada de alineación estratégica. No es lo común: la mayoría comunica el resultado, pero vos destacaste el proceso de \"alinear visión, compartir aprendizajes y ordenar estratégicamente\". Eso revela algo importante sobre cómo ves tu trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Jorge Rubilar Méndez\n\n**Fecha:** 06/07/26\n**Cargo:** Marketing & Communications | Industria Inmobiliaria y Energía | Estrategia Comercial, RSE y Gestión de Stakeholders\n**Empresa:** Chile\n**Pais:** Chile\n**Sector:** Real Estate / Inmobiliaria\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Publicación sobre jornada de trabajo donde revisó resultados 2025 y proyectó prioridades comunicacionales para 2026. Enfatizó que \"las comunicaciones también se construyen en equipo\" y destacó la importancia de \"alinear visión, compartir aprendizajes y ordenar estratégicamente los desafíos\". Señal clara de reflexión sobre coordinación multifuncional y necesidad de alineación en comunicaciones.\n- **Tensión profesional:** Mantener narrativa y ejecución consistentes de marca mientras coordina múltiples frentes (comunicación interna, relaciones con comunidad, asuntos públicos, marketing digital, stakeholders) y escala campañas sin que todo dependa de coordinación manual constante.\n- **Hipótesis:** Cómo construir un sistema de comunicaciones que escale sin requerer alineaciones manuales periódicas. Cómo amplificar ejecución de marketing digital y campañas integradas sin aumentar carga operativa del equipo. Posicionamiento del rol de comunicaciones como activo estratégico del negocio, no como soporte táctico.\n- **Ángulo MSG1:** Jornada de alineación estratégica comunicacional — refleja la tensión de coordinar múltiples actores y prioridades simultáneamente. Anclado en decisión consciente de comunicar públicamente sobre planificación estratégica, no operativa.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Jorge, gracias por conectar! 👋\n>\n> Me llamó la atención cómo enfocaste la publicación sobre la jornada de alineación estratégica. No es lo común: la mayoría comunica el resultado, pero vos destacaste el proceso de \"alinear visión, compartir aprendizajes y ordenar estratégicamente\". Eso revela algo importante sobre cómo ves tu trabajo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

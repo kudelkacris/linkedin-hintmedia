@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000055",
+  "contact_id": "ctc_000024",
+  "source_file": "conversaciones/julio/jos-miguel-galera.md",
+  "fingerprint": "sha256:a7eeb24f029f65f99366a3b40406eda5ba0d2053541592eb47e57680ff667c36",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/jos-miguel-galera.md",
+    "file_hash": "sha256:a7eeb24f029f65f99366a3b40406eda5ba0d2053541592eb47e57680ff667c36",
+    "file_modified": "2026-07-06T15:17:51.340987+00:00",
+    "file_size": 2050,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "José Miguel Galera",
+    "empresa": "CEO de SYSTRA Subterra",
+    "cargo": "CEO de SYSTRA Subterra",
+    "pais": "Chile",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "CEO",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "José Miguel, gracias por conectar! 👋\n\nVi que estuviste coordinando el Summit sobre Riesgos Geológicos en Santiago y el II ELAT 2026 en Lima. Lo interesante fue que no solo participaste, sino que impulsaste que fuera visible en la red. No suele ser lo primero que hace un CEO de operaciones técnicas cuando tiene 40 años de trayectoria ya consolidada.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Promoción sistemática de eventos técnicos internacionales (ITA Executive Council, Summit Riesgos Geológicos, II ELAT 2026, TUNNEL MINING, Master en Geotecnia). No son logros puntuales suyos, sino iniciativas colectivas del sector que amplifica y en las que participa como figura visible. Revela una posición de liderazgo de pensamiento en comunidades profesionales, no solo operativa.",
+    "hipotesis": "Cómo sostener narrativa de liderazgo técnico en un contexto de expansión operativa / Cómo comunicar expertise y proyectos de forma consistente a audiencias fragmentadas (académica, corporativa, regional) / Escalabilidad de presencia de pensamiento sin que dependa exclusivamente de su participación personal en eventos.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: José Miguel Galera]\n[EMPRESA: CEO de SYSTRA Subterra]\n[CARGO: CEO de SYSTRA Subterra]\n[SECTOR: Infraestructura / Ingeniería / Energía (obras subterráneas)]\n[PAIS: Chile]\n[SENAL: Promoción sistemática de eventos técnicos internacionales (ITA Executive Council, Summit Riesgos Geológicos, II ELAT 2026, TUNNEL MINING, Master en Geotecnia). No son logros puntuales suyos, sino iniciativas colectivas del sector que amplifica y en las que participa como figura visible. Revela una posición de liderazgo de pensamiento en comunidades profesionales, no solo operativa.]\n[HIPOTESIS: Cómo sostener narrativa de liderazgo técnico en un contexto de expansión operativa / Cómo comunicar expertise y proyectos de forma consistente a audiencias fragmentadas (académica, corporativa, regional) / Escalabilidad de presencia de pensamiento sin que dependa exclusivamente de su participación personal en eventos.]\n\n[MSG1]\nJosé Miguel, gracias por conectar! 👋\n\nVi que estuviste coordinando el Summit sobre Riesgos Geológicos en Santiago y el II ELAT 2026 en Lima. Lo interesante fue que no solo participaste, sino que impulsaste que fuera visible en la red. No suele ser lo primero que hace un CEO de operaciones técnicas cuando tiene 40 años de trayectoria ya consolidada.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# José Miguel Galera\n\n**Fecha:** 06/07/26\n**Cargo:** CEO de SYSTRA Subterra\n**Empresa:** CEO de SYSTRA Subterra\n**Pais:** Chile\n**Sector:** Infraestructura / Ingeniería / Energía (obras subterráneas)\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** Promoción sistemática de eventos técnicos internacionales (ITA Executive Council, Summit Riesgos Geológicos, II ELAT 2026, TUNNEL MINING, Master en Geotecnia). No son logros puntuales suyos, sino iniciativas colectivas del sector que amplifica y en las que participa como figura visible. Revela una posición de liderazgo de pensamiento en comunidades profesionales, no solo operativa.\n- **Tensión profesional:** Equilibrar escala operativa multinacional con legitimidad técnica y académica en un sector donde la credibilidad proviene tanto de la ejecución de proyectos como de la contribución al conocimiento de la industria. Mantener presencia visible mientras gestiona crecimiento en múltiples geografías.\n- **Hipótesis:** Cómo sostener narrativa de liderazgo técnico en un contexto de expansión operativa / Cómo comunicar expertise y proyectos de forma consistente a audiencias fragmentadas (académica, corporativa, regional) / Escalabilidad de presencia de pensamiento sin que dependa exclusivamente de su participación personal en eventos.\n- **Ángulo MSG1:** Partida desde SEÑAL_HUMANA: su patrón de amplificación de iniciativas técnicas y su posición visible en la comunidad profesional internacional.\n- **Confidence:** MEDIUM\n\n---\n\n## MSG1\n> José Miguel, gracias por conectar! 👋\n>\n> Vi que estuviste coordinando el Summit sobre Riesgos Geológicos en Santiago y el II ELAT 2026 en Lima. Lo interesante fue que no solo participaste, sino que impulsaste que fuera visible en la red. No suele ser lo primero que hace un CEO de operaciones técnicas cuando tiene 40 años de trayectoria ya consolidada.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

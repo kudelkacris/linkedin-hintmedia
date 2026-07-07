@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000008",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06.775474+00:00",
+  "nombre": "Jonathan Josafat Rivas Carvajal",
+  "empresa": "Prumisa",
+  "cargo": "Marketing Fraccional | Manufactura & B2B",
+  "pais": "Costa Rica",
+  "sector_raw": "Manufactura / B2B",
+  "stage": 2,
+  "stage_texto": "MSG2 enviado",
+  "fecha": "06/07/26",
+  "email": null,
+  "sector_norm": "MANUFACTURA",
+  "seniority": "DESCONOCIDO",
+  "tiene_md": true,
+  "conversation_id": "conv_000052",
+  "historial_slug": "jonathan-josafat-rivas-carvajal"
+}

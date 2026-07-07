@@ -1,0 +1,82 @@
+{
+  "conversation_id": "conv_000122",
+  "contact_id": "ctc_000437",
+  "source_file": "conversaciones/junio/candela-pedraza.md",
+  "fingerprint": "sha256:1610a2341c59ad65192624fadcaefdf99ff9d8a1b2efb8963cae42427a3c4447",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/candela-pedraza.md",
+    "file_hash": "sha256:1610a2341c59ad65192624fadcaefdf99ff9d8a1b2efb8963cae42427a3c4447",
+    "file_modified": "2026-06-19T15:29:04.923453+00:00",
+    "file_size": 1774,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Candela Pedraza",
+    "empresa": "Porta Hnos (500+ empleados)",
+    "cargo": "Responsable de Comunicación Institucional y Brand Experience",
+    "pais": "Argentina",
+    "fecha": "08/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "MARKETING_BRANDING",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Candela, gracias por conectar! Sos Responsable de Comunicación Institucional en Porta Hnos, empresa de más de 500 empleados. Viniendo de agencias con estrategias multi-industria y ahora enfocada en sostenibilidad, es una posición con mucha complejidad comunicacional.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola! Si decime",
+    "msg2_texto": "Siendo de agencias entendés lo que es ejecutar estrategia bajo presión. En Porta, con la escala que tiene, lo que suele faltar no es presupuesto sino equipo que ejecute sin que vos tengas que supervisar cada pieza. En Hint trabajamos insertados en el cliente, Trafficker, CM, Diseñador y PM. Lo hicimos con TGS, Transener, Libra Seguros. ¿Te puedo enviar un dossier por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Podes enviarlo a mi mail cpedraza@porta.com.ar",
+    "seg1_enviado": true,
+    "seg1_texto": "Candela, cómo estás?\nNo sé si llegaste a ver el material que mandamos al mail.\nMe quedé pensando en eso de ejecutar bajo presión, viniendo de agencia, y ahora con la escala de Porta sumando comunicación institucional, sostenibilidad y brand experience al mismo tiempo.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitás hoy en Porta.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "decime",
+      "podes",
+      "enviarlo",
+      "mail",
+      "cpedraza",
+      "porta",
+      "amable",
+      "estamos",
+      "adjuntando",
+      "buena"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Candela Pedraza]\n[EMPRESA: Porta Hnos (500+ empleados)]\n[CARGO: Responsable de Comunicación Institucional y Brand Experience]\n[PAIS: Argentina]\n\n[MSG1]\nCandela, gracias por conectar! Sos Responsable de Comunicación Institucional en Porta Hnos, empresa de más de 500 empleados. Viniendo de agencias con estrategias multi-industria y ahora enfocada en sostenibilidad, es una posición con mucha complejidad comunicacional.\n\n[RESPUESTA_MSG1]\nHola! Si decime\n\n[MSG2]\nSiendo de agencias entendés lo que es ejecutar estrategia bajo presión. En Porta, con la escala que tiene, lo que suele faltar no es presupuesto sino equipo que ejecute sin que vos tengas que supervisar cada pieza. En Hint trabajamos insertados en el cliente, Trafficker, CM, Diseñador y PM. Lo hicimos con TGS, Transener, Libra Seguros. ¿Te puedo enviar un dossier por acá?\n\n[RESPUESTA_MSG2]\nPodes enviarlo a mi mail cpedraza@porta.com.ar\n\n[SEG1]\nCandela, cómo estás?\nNo sé si llegaste a ver el material que mandamos al mail.\nMe quedé pensando en eso de ejecutar bajo presión, viniendo de agencia, y ahora con la escala de Porta sumando comunicación institucional, sostenibilidad y brand experience al mismo tiempo.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitás hoy en Porta.",
+    "raw_md": "---\nname: candela-pedraza\ndescription: SEG1 enviado (MEDIUM), Responsable Comunicación Institucional Porta Hnos, Argentina, 08/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Candela Pedraza\n**Cargo:** Responsable de Comunicación Institucional y Brand Experience\n**Empresa:** Porta Hnos (500+ empleados)\n**País:** Argentina\n**Fecha:** 08/06/26\n\n## MSG1\n> Candela, gracias por conectar! Sos Responsable de Comunicación Institucional en Porta Hnos, empresa de más de 500 empleados. Viniendo de agencias con estrategias multi-industria y ahora enfocada en sostenibilidad, es una posición con mucha complejidad comunicacional.\n\n## Respuesta MSG1\n> Hola! Si decime\n\n## MSG2\n> Siendo de agencias entendés lo que es ejecutar estrategia bajo presión. En Porta, con la escala que tiene, lo que suele faltar no es presupuesto sino equipo que ejecute sin que vos tengas que supervisar cada pieza. En Hint trabajamos insertados en el cliente, Trafficker, CM, Diseñador y PM. Lo hicimos con TGS, Transener, Libra Seguros. ¿Te puedo enviar un dossier por acá?\n\n## Respuesta MSG2\n> Podes enviarlo a mi mail cpedraza@porta.com.ar\n\n## Cierre\n> Muy amable, ya lo estamos adjuntando a ese mail. Buena semana!\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — dio el mail directo sin pedirlo dos veces, sin elaboración ni entusiasmo)\n> Candela, cómo estás?\n> No sé si llegaste a ver el material que mandamos al mail.\n> Me quedé pensando en eso de ejecutar bajo presión, viniendo de agencia, y ahora con la escala de Porta sumando comunicación institucional, sostenibilidad y brand experience al mismo tiempo.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos qué tendría sentido para lo que necesitás hoy en Porta.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

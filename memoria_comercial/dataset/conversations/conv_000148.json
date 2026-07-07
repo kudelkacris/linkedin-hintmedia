@@ -1,0 +1,88 @@
+{
+  "conversation_id": "conv_000148",
+  "contact_id": "ctc_000372",
+  "source_file": "conversaciones/junio/diana-abad.md",
+  "fingerprint": "sha256:597c331f7c7192b5b04ff38d3e003aea85bcc0f8439fbb6fa107b090b2d93f2c",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/diana-abad.md",
+    "file_hash": "sha256:597c331f7c7192b5b04ff38d3e003aea85bcc0f8439fbb6fa107b090b2d93f2c",
+    "file_modified": "2026-06-19T15:28:52.979618+00:00",
+    "file_size": 1736,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Diana Abad",
+    "empresa": "",
+    "cargo": "",
+    "pais": "Panamá",
+    "fecha": "10/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Diana, gracias por conectar. Me llamó la atención la reflexión que compartiste sobre Panamá como punto de encuentro para eventos regionales. \"Todavía hay mucho por hacer para consolidar ese posicionamiento\" no suena a frustración, suena a que ves exactamente dónde está el trabajo pendiente.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Muchas gracias Florenica",
+    "msg2_texto": "La infraestructura ya está, la oportunidad es real, pero la narrativa que la consolida todavía se está construyendo. Eso requiere consistencia en todos los canales. Trabajamos con Destiny Group, Libra Seguros y otros en ese tipo de proyectos. ¿Te puedo enviar un dossier por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Si claro! Enviamelo y lo reviso",
+    "seg1_enviado": true,
+    "seg1_texto": "Diana, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso que escribiste sobre Panamá, la infraestructura ya está pero la narrativa que la consolida todavía se está construyendo.\nEso suele requerir consistencia en todos los canales al mismo tiempo, no solo en el discurso puntual.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para lo que estás armando.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "muchas",
+      "florenica",
+      "enviamelo",
+      "reviso",
+      "perfecto",
+      "diana",
+      "mando",
+      "ahora",
+      "estamos",
+      "contacto"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Diana Abad]\n[PAIS: Panamá]\n\n[MSG1]\nDiana, gracias por conectar. Me llamó la atención la reflexión que compartiste sobre Panamá como punto de encuentro para eventos regionales. \"Todavía hay mucho por hacer para consolidar ese posicionamiento\" no suena a frustración, suena a que ves exactamente dónde está el trabajo pendiente.\n\n[RESPUESTA_MSG1]\nMuchas gracias Florenica\n\n[MSG2]\nLa infraestructura ya está, la oportunidad es real, pero la narrativa que la consolida todavía se está construyendo. Eso requiere consistencia en todos los canales. Trabajamos con Destiny Group, Libra Seguros y otros en ese tipo de proyectos. ¿Te puedo enviar un dossier por acá?\n\n[RESPUESTA_MSG2]\nSi claro! Enviamelo y lo reviso\n\n[SEG1]\nDiana, cómo estás?\nNo sé si llegaste a revisar el material que te compartí.\nMe quedé pensando en eso que escribiste sobre Panamá, la infraestructura ya está pero la narrativa que la consolida todavía se está construyendo.\nEso suele requerir consistencia en todos los canales al mismo tiempo, no solo en el discurso puntual.\nSi te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para lo que estás armando.",
+    "raw_md": "---\nname: diana-abad\ndescription: SEG1 enviado (MEDIUM), marketing experiencial Panamá, 10/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Diana Abad\n**Cargo/foco:** Marketing experiencial — conectar marcas con personas\n**País:** Panamá\n**Fecha:** 10/06/26\n\n## MSG1\n> Diana, gracias por conectar. Me llamó la atención la reflexión que compartiste sobre Panamá como punto de encuentro para eventos regionales. \"Todavía hay mucho por hacer para consolidar ese posicionamiento\" no suena a frustración, suena a que ves exactamente dónde está el trabajo pendiente.\n\n## Respuesta MSG1\n> Hola Florencia, claro que si / un placer\n\n## MSG2\n> La infraestructura ya está, la oportunidad es real, pero la narrativa que la consolida todavía se está construyendo. Eso requiere consistencia en todos los canales. Trabajamos con Destiny Group, Libra Seguros y otros en ese tipo de proyectos. ¿Te puedo enviar un dossier por acá?\n\n## Respuesta MSG2\n> Si claro! Enviamelo y lo reviso\n\n## Cierre\n> Perfecto Diana, te lo mando por acá ahora. Estamos en contacto para el futuro.\n\n## Respuesta\n> Muchas gracias Florenica\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: MEDIUM — cordial con algo de entusiasmo en la aceptación, sin elaboración ni preguntas)\n> Diana, cómo estás?\n> No sé si llegaste a revisar el material que te compartí.\n> Me quedé pensando en eso que escribiste sobre Panamá, la infraestructura ya está pero la narrativa que la consolida todavía se está construyendo.\n> Eso suele requerir consistencia en todos los canales al mismo tiempo, no solo en el discurso puntual.\n> Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica para lo que estás armando.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: empresa",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.5
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_000155",
+  "contact_id": "ctc_000340",
+  "source_file": "conversaciones/junio/fabio-daniel-robledo-cadavid.md",
+  "fingerprint": "sha256:7ca09809cbcdef1d7aa407af992943c2648f7e4351093723418939e2b6745804",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/fabio-daniel-robledo-cadavid.md",
+    "file_hash": "sha256:7ca09809cbcdef1d7aa407af992943c2648f7e4351093723418939e2b6745804",
+    "file_modified": "2026-07-01T15:55:05.569171+00:00",
+    "file_size": 1476,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Fabio Daniel Robledo Cadavid",
+    "empresa": "MEDIPAN S.A. (farmacéutica, líder regional)",
+    "cargo": "Multi Country General Manager",
+    "pais": "Panamá",
+    "fecha": "16/06/26",
+    "estado_texto": "SEG1 enviado 01/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": "- MBA + Master en Coaching + Project Management\n- 15+ años en consultoría, liderazgo y desarrollo de equipos\n- Comparte contenido sobre resiliencia, storytelling, sostenibilidad, equipos\n- Comentó \"Marketing que inspira!\" en video viral Val d'Europe/Shakira\n- MEDIPAN: empresa farmacéutica panameña líder regional\n- Conectado con Claudio, María Inés y 2 más en común"
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Fabio Daniel Robledo Cadavid]\n[EMPRESA: MEDIPAN S.A. (farmacéutica, líder regional)]\n[CARGO: Multi Country General Manager]\n[PAIS: Panamá]\n\n[NOTAS]\n- MBA + Master en Coaching + Project Management\n- 15+ años en consultoría, liderazgo y desarrollo de equipos\n- Comparte contenido sobre resiliencia, storytelling, sostenibilidad, equipos\n- Comentó \"Marketing que inspira!\" en video viral Val d'Europe/Shakira\n- MEDIPAN: empresa farmacéutica panameña líder regional\n- Conectado con Claudio, María Inés y 2 más en común",
+    "raw_md": "# Fabio Daniel Robledo Cadavid\n\n**Estado:** SEG1 enviado 01/07/26\n**Fecha:** 16/06/26\n**Cargo:** Multi Country General Manager\n**Empresa:** MEDIPAN S.A. (farmacéutica, líder regional)\n**País:** Panamá\n\n## Conversación\n\n**MSG1 (Florencia):**\nDestacó que compartió reflexión sobre resiliencia (\"Never give up!\") citando a Mandela — no habló de un logro sino de qué aprendiste del proceso. Raro en alguien en posición GM.\n\n**Respuesta Fabio:**\n\"Con gusto\"\n\n**MSG2 enviado:**\n> Con gusto, Fabio.\n>\n> Vi que comentaste \"Marketing que inspira!\" en ese video del centro comercial con Shakira. Ese tipo de contenido, que corre y genera conversación sin parecer publicidad, es exactamente el gap que vemos en la industria farmacéutica. MEDIPAN tiene presencia regional y marca para trabajar, pero ese nivel de storytelling rara vez se ejecuta.\n>\n> En Hint trabajamos contenido, estrategia digital y producción para empresas en la región.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Notas\n- MBA + Master en Coaching + Project Management\n- 15+ años en consultoría, liderazgo y desarrollo de equipos\n- Comparte contenido sobre resiliencia, storytelling, sostenibilidad, equipos\n- Comentó \"Marketing que inspira!\" en video viral Val d'Europe/Shakira\n- MEDIPAN: empresa farmacéutica panameña líder regional\n- Conectado con Claudio, María Inés y 2 más en común\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

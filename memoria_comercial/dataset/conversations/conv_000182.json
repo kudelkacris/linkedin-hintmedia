@@ -1,0 +1,85 @@
+{
+  "conversation_id": "conv_000182",
+  "contact_id": "ctc_000124",
+  "source_file": "conversaciones/junio/jose-carlos-restrepo.md",
+  "fingerprint": "sha256:d6b889a9383fbf7dd7b598cfd2499fbc9a8b50182ab6f7fc6335d223463b2ce1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/jose-carlos-restrepo.md",
+    "file_hash": "sha256:d6b889a9383fbf7dd7b598cfd2499fbc9a8b50182ab6f7fc6335d223463b2ce1",
+    "file_modified": "2026-07-02T21:53:57.869889+00:00",
+    "file_size": 1745,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Jose Carlos Restrepo",
+    "empresa": "",
+    "cargo": "",
+    "pais": "",
+    "fecha": "",
+    "estado_texto": "MSG3 enviado — esperando respuesta — 02/07/26"
+  },
+  "normalized": {
+    "sector": "DESCONOCIDO",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Gracias por conectar. Observación: dio crédito al equipo antes que a números en el post de los 15 años de CORE TECH.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "Jaja no te voy a vender nada todavía, tranqui.\nLo que me llamó la atención fue eso de dar el crédito al equipo en vez de a los números, no es lo más común en un post de aniversario.\nContame, cómo armaste ese equipo en estos 15 años?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "los empleados top aseguran resultados top",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "empleados",
+      "aseguran",
+      "resultados"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Jose Carlos Restrepo]\n\n[MSG1]\nGracias por conectar. Observación: dio crédito al equipo antes que a números en el post de los 15 años de CORE TECH.\n\n[MSG2]\nJaja no te voy a vender nada todavía, tranqui.\nLo que me llamó la atención fue eso de dar el crédito al equipo en vez de a los números, no es lo más común en un post de aniversario.\nContame, cómo armaste ese equipo en estos 15 años?\n\n[RESPUESTA_MSG2]\nlos empleados top aseguran resultados top\n\n[MSG3]\nBuenas Jose Carlos!\nExacto. Y si el equipo es lo que garantiza los resultados, esa es la narrativa más sólida que pueden tener con clientes y socios.\nEso lo comunicás así también externamente, o quedó más del lado de la cultura interna?\nY sí, llegó el momento que sospechaba: trabajo en Hint Media, agencia de comunicación y contenido con empresas B2B del sector industria y energía. Clientes como TGS y Transener.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "raw_md": "# Jose Carlos Restrepo\n\nGerente General, CORE TECH (Colombia), sector minería (aceros de perforación para minería subterránea).\n\n## Estado\nActivo, sin pitch directo. Bromeó que en LinkedIn toda consulta significa que le van a ofrecer algo y que es mal momento. Pivot: sin ofrecer nada todavía, seguir la charla por el ángulo de equipo/liderazgo (post 15 años CORE TECH dando crédito al equipo en vez de números).\n\n## MSG1 (Florencia)\nGracias por conectar. Observación: dio crédito al equipo antes que a números en el post de los 15 años de CORE TECH.\n\n## Respuesta Jose Carlos\n\"si dime, claro que en linkedin una consulta casi siempre significa que me van a ofrecer algo jaja, y es mal momento.\"\n\n## MSG2 enviado (pivot sin pitch)\nJaja no te voy a vender nada todavía, tranqui.\nLo que me llamó la atención fue eso de dar el crédito al equipo en vez de a los números, no es lo más común en un post de aniversario.\nContame, cómo armaste ese equipo en estos 15 años?\n\n## Respuesta MSG2 (02/07/26)\n> los empleados top aseguran resultados top\n\n## MSG3 (02/07/26)\n> Buenas Jose Carlos!\n> Exacto. Y si el equipo es lo que garantiza los resultados, esa es la narrativa más sólida que pueden tener con clientes y socios.\n> Eso lo comunicás así también externamente, o quedó más del lado de la cultura interna?\n> Y sí, llegó el momento que sospechaba: trabajo en Hint Media, agencia de comunicación y contenido con empresas B2B del sector industria y energía. Clientes como TGS y Transener.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n**Estado:** MSG3 enviado — esperando respuesta — 02/07/26\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "empresa",
+      "cargo",
+      "sector",
+      "seniority",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "campo_vacio: empresa",
+      "campo_vacio: sector",
+      "campo_vacio: fecha",
+      "seccion_desconocida: 'Estado'",
+      "sin_blockquote: msg1 — texto extraido sin marcador >",
+      "seccion_desconocida: 'Respuesta Jose Carlos'",
+      "sin_blockquote: msg2 — texto extraido sin marcador >"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.38
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_000133",
+  "contact_id": "ctc_000161",
+  "source_file": "conversaciones/junio/carolina-solano.md",
+  "fingerprint": "sha256:28d63d35904da0b3b7563f9cea85bdc517c86fbdd30bf54a3052baa91b6325c1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/carolina-solano.md",
+    "file_hash": "sha256:28d63d35904da0b3b7563f9cea85bdc517c86fbdd30bf54a3052baa91b6325c1",
+    "file_modified": "2026-06-19T00:32:35.315721+00:00",
+    "file_size": 1769,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Carolina Solano Echeverri",
+    "empresa": "Asociación Colombiana de Minería (ACM)",
+    "cargo": "Directora de Comunicaciones",
+    "pais": "Colombia (Bogotá)",
+    "fecha": "18/06/26",
+    "estado_texto": "activa, confundida porque MSG2 original se salteó la presentación de Hint Media, aclarado"
+  },
+  "normalized": {
+    "sector": "MINERIA",
+    "seniority": "DIRECTOR",
+    "tipo_decisor": "DECISION_MAKER",
+    "stage": 3,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "Carolina, gracias por conectar! Estuve revisando un poco lo que venís haciendo en ACM. Imagino que coordinar comunicación para minería desde una asociación debe abrir varios frentes al mismo tiempo: empresas con narrativas distintas, comunidades locales, reguladores, medios que ya vienen con perspectivas armadas sobre el sector.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia dime",
+    "msg2_texto": "Buenas Carolina, gracias por responder!\n\nLo que más se nota en tu trayectoria es esa capacidad de moverte entre sectores (turismo, minería, gobierno) sin perder esa lógica de conectar a la gente correcta. En ACM eso significa sostener narrativa coherente entre empresas, comunidades y medios al mismo tiempo.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Un dossier de qué?",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "florencia",
+      "dime",
+      "dossier"
+    ],
+    "notas": "- BUG detectado: el MSG2 original omitió B3 (presentación de Hint Media + clientes), generando confusión idéntica a la de Ana Maria Urrea. Revisar siempre que las 4 burbujas estén completas antes de enviar.\n- Sector minería → TGS y Transener."
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Carolina Solano Echeverri]\n[EMPRESA: Asociación Colombiana de Minería (ACM)]\n[CARGO: Directora de Comunicaciones]\n[SECTOR: Minería]\n[PAIS: Colombia (Bogotá)]\n\n[MSG1]\nCarolina, gracias por conectar! Estuve revisando un poco lo que venís haciendo en ACM. Imagino que coordinar comunicación para minería desde una asociación debe abrir varios frentes al mismo tiempo: empresas con narrativas distintas, comunidades locales, reguladores, medios que ya vienen con perspectivas armadas sobre el sector.\n\n[RESPUESTA_MSG1]\nHola Florencia dime\n\n[MSG2]\nBuenas Carolina, gracias por responder!\n\nLo que más se nota en tu trayectoria es esa capacidad de moverte entre sectores (turismo, minería, gobierno) sin perder esa lógica de conectar a la gente correcta. En ACM eso significa sostener narrativa coherente entre empresas, comunidades y medios al mismo tiempo.\n\nTe puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n[RESPUESTA_MSG2]\nUn dossier de qué?\n\n[MSG3]\nPerdón Carolina, no fui clara! Soy de Hint Media, una agencia de comunicación y contenido. Trabajamos con empresas de minería y energía, como TGS y Transener. El dossier muestra casos y cómo trabajamos, te lo mando si te interesa?\n\n[NOTAS]\n- BUG detectado: el MSG2 original omitió B3 (presentación de Hint Media + clientes), generando confusión idéntica a la de Ana Maria Urrea. Revisar siempre que las 4 burbujas estén completas antes de enviar.\n- Sector minería → TGS y Transener.",
+    "raw_md": "# Carolina Solano Echeverri\n\n**Estado:** activa, confundida porque MSG2 original se salteó la presentación de Hint Media, aclarado\n**Fecha:** 18/06/26\n**Cargo:** Directora de Comunicaciones\n**Empresa:** Asociación Colombiana de Minería (ACM)\n**País:** Colombia (Bogotá)\n**Sector:** Minería\n\n## MSG1\n> Carolina, gracias por conectar! Estuve revisando un poco lo que venís haciendo en ACM. Imagino que coordinar comunicación para minería desde una asociación debe abrir varios frentes al mismo tiempo: empresas con narrativas distintas, comunidades locales, reguladores, medios que ya vienen con perspectivas armadas sobre el sector.\n\n## Respuesta MSG1\n> Hola Florencia dime\n\n## MSG2 (versión 1, con bug: se salteó B3, nunca mencionó Hint Media)\n> Buenas Carolina, gracias por responder!\n>\n> Lo que más se nota en tu trayectoria es esa capacidad de moverte entre sectores (turismo, minería, gobierno) sin perder esa lógica de conectar a la gente correcta. En ACM eso significa sostener narrativa coherente entre empresas, comunidades y medios al mismo tiempo.\n>\n> Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?\n\n## Respuesta a MSG2\n> Un dossier de qué?\n\n## Aclaración enviada (corrige el bug)\n> Perdón Carolina, no fui clara! Soy de Hint Media, una agencia de comunicación y contenido. Trabajamos con empresas de minería y energía, como TGS y Transener. El dossier muestra casos y cómo trabajamos, te lo mando si te interesa?\n\n## Notas\n- BUG detectado: el MSG2 original omitió B3 (presentación de Hint Media + clientes), generando confusión idéntica a la de Ana Maria Urrea. Revisar siempre que las 4 burbujas estén completas antes de enviar.\n- Sector minería → TGS y Transener.\n"
+  },
+  "quality": {
+    "campos_vacios": [],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 1.0
+  }
+}

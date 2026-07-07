@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000138",
+  "contact_id": "ctc_000327",
+  "source_file": "conversaciones/junio/christel-rivera-scafidi.md",
+  "fingerprint": "sha256:c02715a7fbf8d8e26d00c7dd636022785a857921f9878645019c5e009b92cd7e",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/christel-rivera-scafidi.md",
+    "file_hash": "sha256:c02715a7fbf8d8e26d00c7dd636022785a857921f9878645019c5e009b92cd7e",
+    "file_modified": "2026-06-17T23:56:38.105706+00:00",
+    "file_size": 1605,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Christel Rivera Scafidi",
+    "empresa": "EduTech de Centroamérica",
+    "cargo": "Marketing & Design Lead",
+    "pais": "Costa Rica",
+    "fecha": "12/06/26",
+    "estado_texto": "SEG1 enviado (17/06/26)"
+  },
+  "normalized": {
+    "sector": "CONSULTORIA_TECH",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Christel Rivera Scafidi]\n[EMPRESA: EduTech de Centroamérica]\n[CARGO: Marketing & Design Lead]\n[PAIS: Costa Rica]",
+    "raw_md": "---\nname: christel-rivera-scafidi\ndescription: MSG2 enviado, Digital Campaign Specialist EduTech de Centroamérica Costa Rica, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Christel Rivera Scafidi\n**Cargo:** Marketing & Design Lead\n**Empresa:** EduTech de Centroamérica\n**País:** Costa Rica\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó su publicación sobre usar el mundo real para darle sentido al título: \"el CTR y la conversión importan más que la validación del papel\"\n- Respondió: \"Hola Florencia, gusto en conectar! Adelante, dime\"\n- MSG2 enviado — gap: coordinar con agencias externas implica que el equipo interno termina gastando más energía en revisar y corregir que en avanzar con la estrategia. Mención Libra Seguros y Destiny Group.\n- Respondió: \"Claro que sí, compárteme el dossier\" + feedback espontáneo no pedido: avisó que el texto de prospección sonaba a IA por los guiones largos (—). Florencia agradeció el feedback con buena onda.\n- Dossier enviado, respondió \"Graciasss, lo estaré viendo!\"\n- SEG1 enviado 17/06/26 (ancla en el feedback espontáneo, no en el ángulo de MSG1/MSG2):\n\n> Christel, espero que andes bien. No sé si llegaste a ver el material, pero me quedó pensando en algo después de mandártelo. Lo de avisarme de los guiones largos sin que te lo pidiera.\n>\n> Me llamó la atención por una razón puntual, poca gente se toma el tiempo de decir algo así en lugar de solo seguir de largo.\n>\n> Si te parece que tiene sentido, podemos conversarlo 15 minutos.\n\n**Estado:** SEG1 enviado (17/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority",
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.62
+  }
+}

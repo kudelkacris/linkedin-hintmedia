@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_000116",
+  "contact_id": "ctc_000521",
+  "source_file": "conversaciones/junio/bernardo-diaz.md",
+  "fingerprint": "sha256:1687eae8d61bafbd04b21c15d12d5e9e89b487ce640d0937b2f970e0abba72a3",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/bernardo-diaz.md",
+    "file_hash": "sha256:1687eae8d61bafbd04b21c15d12d5e9e89b487ce640d0937b2f970e0abba72a3",
+    "file_modified": "2026-06-23T21:45:34.495483+00:00",
+    "file_size": 1535,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Bernardo Diaz",
+    "empresa": "Gulf Oil International Group",
+    "cargo": "Regional Marketing Manager",
+    "pais": "Panamá",
+    "fecha": "12/06/26",
+    "estado_texto": "Dossier enviado (a Bdiaz@gulfoilpanama.com), SEG1 enviado 23/06/26 (engagement MEDIUM):"
+  },
+  "normalized": {
+    "sector": "ENERGIA_INFRA",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "DESCONOCIDA"
+  },
+  "conversation": {
+    "msg1_texto": "",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": true,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": true,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Bernardo Diaz]\n[EMPRESA: Gulf Oil International Group]\n[CARGO: Regional Marketing Manager]\n[PAIS: Panamá]",
+    "raw_md": "---\nname: bernardo-diaz\ndescription: MSG2 enviado, Regional Marketing Manager Gulf Oil International Group Panamá, 12/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Bernardo Diaz\n**Cargo:** Regional Marketing Manager\n**Empresa:** Gulf Oil International Group\n**País:** Panamá\n**Fecha:** 12/06/26\n\n**Resumen de conversación:**\n- MSG1 enviado — Florencia observó cómo anunció la oportunidad en Gulf: habló de \"legado\" y \"unirse\", no solo publicó el rol. Señal de que arma equipos desde la convicción.\n- Respondió: \"Hola Florencia. Buenas tardes. Cuéntame ¿cómo te puedo ayudar?\"\n- MSG2 enviado — gap: 8 países en paralelo, cada mercado con su ritmo. En ese volumen mantener coherencia de marca y calidad de ejecución es donde el contenido empieza a ceder. Mención TGS.\n\n**Notas:**\n- 15+ años en marketing y operaciones comerciales LATAM y Caribe\n- Enfocado en crecimiento de marca, market share y expansión regional\n- Énfasis en P&L y EBITDA — perfil comercial fuerte\n\n**Estado:** Dossier enviado (a Bdiaz@gulfoilpanama.com), SEG1 enviado 23/06/26 (engagement MEDIUM):\n> Bernardo, como estás? No sé si llegaste a ver el material que te mandamos. Me quedó esa idea de manejar 8 países en paralelo, cada uno con su propio ritmo, y lo que cuesta sostener coherencia de marca y calidad de ejecución al mismo tiempo en todos. Eso suele ser lo que más cede primero cuando el volumen crece. Si te parece que puede aportar valor, coordinamos 15 minutos y vemos si aplica a la operación de Gulf en la región.\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "msg1_texto",
+      "resp_msg1"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.75
+  }
+}

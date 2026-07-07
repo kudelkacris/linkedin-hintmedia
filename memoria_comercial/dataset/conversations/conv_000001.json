@@ -1,0 +1,75 @@
+{
+  "conversation_id": "conv_000001",
+  "contact_id": "ctc_000031",
+  "source_file": "conversaciones/julio/acelis-tu-n-singh.md",
+  "fingerprint": "sha256:39e8e148ea1f873eac589c9d4d4585cf92646b40f20522c7730cbb99a77c36c4",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/acelis-tu-n-singh.md",
+    "file_hash": "sha256:39e8e148ea1f873eac589c9d4d4585cf92646b40f20522c7730cbb99a77c36c4",
+    "file_modified": "2026-07-06T16:04:55.037971+00:00",
+    "file_size": 2870,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Acelis Tuñón Singh",
+    "empresa": "Grupo VerdeAzul",
+    "cargo": "High-Value Marketing | Digital Strategy | Brand Positioning | Customer Experience",
+    "pais": "Panamá",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG2 enviado — 06/07/26"
+  },
+  "normalized": {
+    "sector": "FARMACEUTICO_SALUD",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 2,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "MEDIUM",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Acelis, gracias por conectar! 👋\n\nMe llamó la atención la secuencia de tus últimas publicaciones. No fue casual que pasaras de herramientas de marketing genéricas a invertir tiempo en Claude y compartir cómo integrarlo en equipo. Eso sugiere que estás explorando cómo escalar sin que todo termine dependiendo de ejecución manual constante.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "Hola Florencia buen día,\nSi, claro! cuéntame como te puedo ayudar.",
+    "msg2_texto": "Buenas Acelis! La consulta es de mi lado, te cuento.\nCuando integrás IA para escalar el trabajo de marketing, cómo te asegurás de que lo que sale sigue sosteniendo el posicionamiento de marca, y no solo aumenta el volumen?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos de marketing a sostener brand positioning consistente mientras escalan: estrategia, contenido y comunicación de marca. Trabajamos con Destiny Group en posicionamiento y estrategia digital.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "Sus publicaciones (últimas 4) revelan que está en transición hacia IA/automatización como herramienta estratégica. Completó curso de Claude, comparte guías sobre cómo usar IA en marketing, enfatiza que \"la diferencia en el beneficio de la IA está en la estrategia: no se trata de hacerle preguntas, se trata de saber exactamente qué pedirle\". No es solo consumir tendencias — está experimentando y enseñando.",
+    "hipotesis": "Transición de \"ejecutor de tácticas\" a \"estratega de automatización y escalabilidad\". Está buscando cómo hacer que el trabajo de marketing sea sostenible sin quemar el equipo. La pregunta real es: ¿cómo mantener ejecución consistente cuando crecés en complejidad?",
+    "palabras_clave": [
+      "florencia",
+      "buen",
+      "cuentame",
+      "puedo",
+      "ayudar"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Acelis Tuñón Singh]\n[EMPRESA: Grupo VerdeAzul]\n[CARGO: High-Value Marketing | Digital Strategy | Brand Positioning | Customer Experience]\n[SECTOR: Real Estate / Hospitality (Grupo VerdeAzul es inmobiliario + servicios)]\n[PAIS: Panamá]\n[SENAL: Sus publicaciones (últimas 4) revelan que está en transición hacia IA/automatización como herramienta estratégica. Completó curso de Claude, comparte guías sobre cómo usar IA en marketing, enfatiza que \"la diferencia en el beneficio de la IA está en la estrategia: no se trata de hacerle preguntas, se trata de saber exactamente qué pedirle\". No es solo consumir tendencias — está experimentando y enseñando.]\n[HIPOTESIS: Transición de \"ejecutor de tácticas\" a \"estratega de automatización y escalabilidad\". Está buscando cómo hacer que el trabajo de marketing sea sostenible sin quemar el equipo. La pregunta real es: ¿cómo mantener ejecución consistente cuando crecés en complejidad?]\n\n[MSG1]\nAcelis, gracias por conectar! 👋\n\nMe llamó la atención la secuencia de tus últimas publicaciones. No fue casual que pasaras de herramientas de marketing genéricas a invertir tiempo en Claude y compartir cómo integrarlo en equipo. Eso sugiere que estás explorando cómo escalar sin que todo termine dependiendo de ejecución manual constante.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nHola Florencia buen día,\nSi, claro! cuéntame como te puedo ayudar.\n\n[MSG2]\nBuenas Acelis! La consulta es de mi lado, te cuento.\nCuando integrás IA para escalar el trabajo de marketing, cómo te asegurás de que lo que sale sigue sosteniendo el posicionamiento de marca, y no solo aumenta el volumen?\nTrabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos de marketing a sostener brand positioning consistente mientras escalan: estrategia, contenido y comunicación de marca. Trabajamos con Destiny Group en posicionamiento y estrategia digital.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
+    "raw_md": "# Acelis Tuñón Singh\n\n**Fecha:** 06/07/26\n**Cargo:** High-Value Marketing | Digital Strategy | Brand Positioning | Customer Experience\n**Empresa:** Grupo VerdeAzul\n**Pais:** Panamá\n**Sector:** Real Estate / Hospitality (Grupo VerdeAzul es inmobiliario + servicios)\n**Estado:** MSG2 enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** Sus publicaciones (últimas 4) revelan que está en transición hacia IA/automatización como herramienta estratégica. Completó curso de Claude, comparte guías sobre cómo usar IA en marketing, enfatiza que \"la diferencia en el beneficio de la IA está en la estrategia: no se trata de hacerle preguntas, se trata de saber exactamente qué pedirle\". No es solo consumir tendencias — está experimentando y enseñando.\n- **Tensión profesional:** Escalar ejecución (múltiples negocios, múltiples mercados, múltiples públicos) sin perder consistencia de marca ni que todo termine dependiendo de su capacidad personal de coordinación.\n- **Hipótesis:** Transición de \"ejecutor de tácticas\" a \"estratega de automatización y escalabilidad\". Está buscando cómo hacer que el trabajo de marketing sea sostenible sin quemar el equipo. La pregunta real es: ¿cómo mantener ejecución consistente cuando crecés en complejidad?\n- **Ángulo MSG1:** Su movimiento hacia IA como herramienta de escala. No es casual que haya pasado de publicar sobre herramientas de marketing genéricas a enfocarse en Claude/automatización. Eso indica que está sintiendo la fricción de coordinación.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Acelis, gracias por conectar! 👋\n>\n> Me llamó la atención la secuencia de tus últimas publicaciones. No fue casual que pasaras de herramientas de marketing genéricas a invertir tiempo en Claude y compartir cómo integrarlo en equipo. Eso sugiere que estás explorando cómo escalar sin que todo termine dependiendo de ejecución manual constante.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Hola Florencia buen día,\n> Si, claro! cuéntame como te puedo ayudar.\n\n---\n\n## MSG2\n> Buenas Acelis! La consulta es de mi lado, te cuento.\n> Cuando integrás IA para escalar el trabajo de marketing, cómo te asegurás de que lo que sale sigue sosteniendo el posicionamiento de marca, y no solo aumenta el volumen?\n> Trabajo en Hint Media, una agencia de comunicación. Acompañamos a equipos de marketing a sostener brand positioning consistente mientras escalan: estrategia, contenido y comunicación de marca. Trabajamos con Destiny Group en posicionamiento y estrategia digital.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

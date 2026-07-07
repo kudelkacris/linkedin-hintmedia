@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_000077",
+  "contact_id": "ctc_000062",
+  "source_file": "conversaciones/julio/melissa-alvarez-barquero.md",
+  "fingerprint": "sha256:178cf73b3d4b0d9bcf08d51508c1b77b6507931cac411d7cc9a3b7f96421d5e6",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/julio/melissa-alvarez-barquero.md",
+    "file_hash": "sha256:178cf73b3d4b0d9bcf08d51508c1b77b6507931cac411d7cc9a3b7f96421d5e6",
+    "file_modified": "2026-07-06T14:20:22.375064+00:00",
+    "file_size": 2056,
+    "month_folder": "julio"
+  },
+  "metadata": {
+    "nombre": "Melissa Alvarez Barquero",
+    "empresa": "Fundación MarViva",
+    "cargo": "Gerente de Comunicaciones en Fundación MarViva",
+    "pais": "Costa Rica",
+    "fecha": "06/07/26",
+    "estado_texto": "MSG1 enviado"
+  },
+  "normalized": {
+    "sector": "EDUCACION",
+    "seniority": "MANAGER",
+    "tipo_decisor": "INFLUENCER",
+    "stage": 1,
+    "resultado_final": "SIN_RESPUESTA",
+    "objecion_principal": "NONE",
+    "engagement_level": "DESCONOCIDO",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Melissa, gracias por conectar.\n\nVi que interactuaste con la reflexión de Natalia Lugo sobre comunicaciones estratégica, y eso dice mucho. Porque la mayoría de los comunicadores operan en urgencia. Vos probablemente ves todos los días la diferencia entre \"apagar incendios\" y construir narrativa que aguante en el tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "respondio_msg1": false,
+    "respuesta_msg1_texto": "",
+    "msg2_texto": "",
+    "dossier_enviado": false,
+    "respondio_dossier": false,
+    "respuesta_dossier_texto": "",
+    "seg1_enviado": false,
+    "seg1_texto": "",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": false
+  },
+  "signals": {
+    "señal_humana": "La publicación que compartió de Natalia Lugo sobre comunicaciones estratégica — donde se posiciona el rol de comunicación no como \"apagar incendios\" sino como construcción de narrativa, reputación y estrategia. Melissa interactuó con esa reflexión, lo que revela que entiende que su rol trasciende ejecución táctica.",
+    "hipotesis": "Cómo escalar narrativa de causa (no lucro) manteniendo consistencia y credibilidad. Cómo construir comunicación sostenida para agendas complejas sin que dependa de una sola persona. Cómo mantener voz propia en contextos donde los stakeholders son múltiples y los mensajes deben adaptarse.",
+    "palabras_clave": [],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Melissa Alvarez Barquero]\n[EMPRESA: Fundación MarViva]\n[CARGO: Gerente de Comunicaciones en Fundación MarViva]\n[SECTOR: Educación / Conservación / NGO / Sostenibilidad]\n[PAIS: Costa Rica]\n[SENAL: La publicación que compartió de Natalia Lugo sobre comunicaciones estratégica — donde se posiciona el rol de comunicación no como \"apagar incendios\" sino como construcción de narrativa, reputación y estrategia. Melissa interactuó con esa reflexión, lo que revela que entiende que su rol trasciende ejecución táctica.]\n[HIPOTESIS: Cómo escalar narrativa de causa (no lucro) manteniendo consistencia y credibilidad. Cómo construir comunicación sostenida para agendas complejas sin que dependa de una sola persona. Cómo mantener voz propia en contextos donde los stakeholders son múltiples y los mensajes deben adaptarse.]\n\n[MSG1]\nMelissa, gracias por conectar.\n\nVi que interactuaste con la reflexión de Natalia Lugo sobre comunicaciones estratégica, y eso dice mucho. Porque la mayoría de los comunicadores operan en urgencia. Vos probablemente ves todos los días la diferencia entre \"apagar incendios\" y construir narrativa que aguante en el tiempo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.",
+    "raw_md": "# Melissa Alvarez Barquero\n\n**Fecha:** 06/07/26\n**Cargo:** Gerente de Comunicaciones en Fundación MarViva\n**Empresa:** Fundación MarViva\n**Pais:** Costa Rica\n**Sector:** Educación / Conservación / NGO / Sostenibilidad\n**Estado:** MSG1 enviado\n\n---\n\n## Análisis\n- **Señal humana:** La publicación que compartió de Natalia Lugo sobre comunicaciones estratégica — donde se posiciona el rol de comunicación no como \"apagar incendios\" sino como construcción de narrativa, reputación y estrategia. Melissa interactuó con esa reflexión, lo que revela que entiende que su rol trasciende ejecución táctica.\n- **Tensión profesional:** Comunicar urgencia y complejidad científica (océano, clima, biodiversidad) sin simplificar demasiado, manteniendo credibilidad ante audiencias técnicas y generando engagement en públicos menos especializados. Hacer visible una causa que requiere abstracción (conservación marina) a través de narrativas concretas y emocionales.\n- **Hipótesis:** Cómo escalar narrativa de causa (no lucro) manteniendo consistencia y credibilidad. Cómo construir comunicación sostenida para agendas complejas sin que dependa de una sola persona. Cómo mantener voz propia en contextos donde los stakeholders son múltiples y los mensajes deben adaptarse.\n- **Ángulo MSG1:** La interacción con la reflexión de Natalia Lugo sobre comunicaciones estratégica — indica que Melissa ya reconoce que el trabajo de comunicación trasciende lo operativo y que busca o valida pensamiento estratégico en su rol.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Melissa, gracias por conectar.\n>\n> Vi que interactuaste con la reflexión de Natalia Lugo sobre comunicaciones estratégica, y eso dice mucho. Porque la mayoría de los comunicadores operan en urgencia. Vos probablemente ves todos los días la diferencia entre \"apagar incendios\" y construir narrativa que aguante en el tiempo.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Notas\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "resp_msg1"
+    ],
+    "parse_warnings": [],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}

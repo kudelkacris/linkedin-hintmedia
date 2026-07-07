@@ -1,0 +1,84 @@
+{
+  "conversation_id": "conv_000158",
+  "contact_id": "ctc_000396",
+  "source_file": "conversaciones/junio/federico-rivera-h.md",
+  "fingerprint": "sha256:650b0d18f7a75937ed3b3a7bd3f9aa41091a3b65ecb96460854c6647476ecec1",
+  "created_at": "2026-07-07T20:47:06.775474+00:00",
+  "updated_at": "2026-07-07T20:47:06Z",
+  "schema_version": "1.0.0",
+  "parser_version": "1.0.0",
+  "build_date": "2026-07-07T20:47:06Z",
+  "source": {
+    "file_path": "conversaciones/junio/federico-rivera-h.md",
+    "file_hash": "sha256:650b0d18f7a75937ed3b3a7bd3f9aa41091a3b65ecb96460854c6647476ecec1",
+    "file_modified": "2026-06-19T15:28:15.460960+00:00",
+    "file_size": 1932,
+    "month_folder": "junio"
+  },
+  "metadata": {
+    "nombre": "Federico Rivera H.",
+    "empresa": "Lulubit (Scaling Fintech, SaaS & FMCG brands LATAM/US/EU)",
+    "cargo": "CMGO",
+    "pais": "",
+    "fecha": "09/06/26",
+    "estado_texto": "SEG1 enviado (19/06/26)"
+  },
+  "normalized": {
+    "sector": "SEGUROS_FINANZAS",
+    "seniority": "DESCONOCIDO",
+    "tipo_decisor": "DESCONOCIDO",
+    "stage": 4,
+    "resultado_final": "EN_PROCESO",
+    "objecion_principal": "NONE",
+    "engagement_level": "LOW",
+    "variante_msg1": "A"
+  },
+  "conversation": {
+    "msg1_texto": "Federico, gracias por conectar! Me llamó la atención cómo te presentás — ese \"puedo alinear con el CEO el lunes y estar en HubSpot el martes.\" No es algo que la mayoría destaca cuando habla de sí mismo.",
+    "respondio_msg1": true,
+    "respuesta_msg1_texto": "🤗😄🤐 👍",
+    "msg2_texto": "Me llamó la atención esa combinación entre estrategia y ejecución que describís. En Hint Media trabajamos como equipo externo integrado, Trafficker, CM, Diseñador y PM de cuenta. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?",
+    "dossier_enviado": true,
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "\"para trabajar para nosotros dices? Puedes enviármelo a mí si quieres, ahora mismo no estamos buscando agencia, pero me sirve por si tenemos alguna estrategia específica para activar, caso que necesitemos apoyo externo\"",
+    "seg1_enviado": true,
+    "seg1_texto": "Federico, no sé si llegaste a ver el material que te mandé.\nMe quedó pensando en esa combinación que describís entre estrategia y ejecución, eso de poder alinear con el CEO un día y estar metido en HubSpot al otro.\nEsa mezcla suele ser justo lo que termina marcando si una iniciativa puntual se ejecuta rápido o se queda esperando que alguien tenga tiempo.\nCualquier cosa que te genere o si en algún momento aparece algo puntual, quedo atento.",
+    "seg2_enviado": false,
+    "seg2_texto": "",
+    "call_agendada": false,
+    "cliente_cerrado": true
+  },
+  "signals": {
+    "señal_humana": "",
+    "hipotesis": "",
+    "palabras_clave": [
+      "trabajar",
+      "nosotros",
+      "dices",
+      "puedes",
+      "enviarmelo",
+      "quieres",
+      "ahora",
+      "mismo",
+      "estamos",
+      "buscando"
+    ],
+    "notas": ""
+  },
+  "text": {
+    "conversation_text": "[NOMBRE: Federico Rivera H.]\n[EMPRESA: Lulubit (Scaling Fintech, SaaS & FMCG brands LATAM/US/EU)]\n[CARGO: CMGO]\n\n[MSG1]\nFederico, gracias por conectar! Me llamó la atención cómo te presentás — ese \"puedo alinear con el CEO el lunes y estar en HubSpot el martes.\" No es algo que la mayoría destaca cuando habla de sí mismo.\n\n[RESPUESTA_MSG1]\n🤗😄🤐 👍\n\n[MSG2]\nMe llamó la atención esa combinación entre estrategia y ejecución que describís. En Hint Media trabajamos como equipo externo integrado, Trafficker, CM, Diseñador y PM de cuenta. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?\n\n[RESPUESTA_MSG2]\n\"para trabajar para nosotros dices? Puedes enviármelo a mí si quieres, ahora mismo no estamos buscando agencia, pero me sirve por si tenemos alguna estrategia específica para activar, caso que necesitemos apoyo externo\"\n\n[SEG1]\nFederico, no sé si llegaste a ver el material que te mandé.\nMe quedó pensando en esa combinación que describís entre estrategia y ejecución, eso de poder alinear con el CEO un día y estar metido en HubSpot al otro.\nEsa mezcla suele ser justo lo que termina marcando si una iniciativa puntual se ejecuta rápido o se queda esperando que alguien tenga tiempo.\nCualquier cosa que te genere o si en algún momento aparece algo puntual, quedo atento.",
+    "raw_md": "---\nname: federico-rivera-h\ndescription: SEG1 enviado (LOW), CMGO Lulubit, fintech/SaaS/FMCG LATAM-US-EU, 09/06/26\nmetadata:\n  type: project\n---\n\n**Nombre:** Federico Rivera H.\n**Cargo:** CMGO\n**Empresa:** Lulubit (Scaling Fintech, SaaS & FMCG brands LATAM/US/EU)\n**Fecha:** 09/06/26\n\n## MSG1\n> Federico, gracias por conectar! Me llamó la atención cómo te presentás — ese \"puedo alinear con el CEO el lunes y estar en HubSpot el martes.\" No es algo que la mayoría destaca cuando habla de sí mismo.\n\n## Respuesta MSG1\n> Gracias Florencia, claro, cuéntame en qué te puedo ayudar.\n\n## MSG2\n> Me llamó la atención esa combinación entre estrategia y ejecución que describís. En Hint Media trabajamos como equipo externo integrado, Trafficker, CM, Diseñador y PM de cuenta. Trabajamos con TGS, Transener y Libra Seguros. ¿Te puedo enviar un dossier breve por acá?\n\n## Respuesta MSG2\n> \"para trabajar para nosotros dices? Puedes enviármelo a mí si quieres, ahora mismo no estamos buscando agencia, pero me sirve por si tenemos alguna estrategia específica para activar, caso que necesitemos apoyo externo\"\n\n## Cierre dossier\n> \"Perfecto, Federico, gracias. Te lo comparto por acá entonces para que tengas contexto de cómo trabajamos. Y totalmente lógico...\"\n\n## Respuesta\n> 🤗😄🤐 👍\n\n## SEG1 (19/06/26, ENGAGEMENT_LEVEL: LOW — dijo explícito que no buscan agencia, reacción al dossier fue solo un emoji)\n> Federico, no sé si llegaste a ver el material que te mandé.\n> Me quedó pensando en esa combinación que describís entre estrategia y ejecución, eso de poder alinear con el CEO un día y estar metido en HubSpot al otro.\n> Esa mezcla suele ser justo lo que termina marcando si una iniciativa puntual se ejecuta rápido o se queda esperando que alguien tenga tiempo.\n> Cualquier cosa que te genere o si en algún momento aparece algo puntual, quedo atento.\n\n**Estado:** SEG1 enviado (19/06/26)\n"
+  },
+  "quality": {
+    "campos_vacios": [
+      "seniority"
+    ],
+    "parse_warnings": [
+      "formato_frontmatter: archivo con YAML frontmatter en carpeta conversaciones",
+      "sin_titulo_h1: nombre no encontrado en encabezado H1",
+      "campo_vacio: sector"
+    ],
+    "parse_errors": [],
+    "confidence_score": 0.88
+  }
+}
