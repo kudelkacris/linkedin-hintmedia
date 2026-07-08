@@ -5,7 +5,7 @@
 **Empresa:** Gerente de Marca
 **Pais:** Costa Rica
 **Sector:** Belleza, Lujo, Distribución
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — no interesado (08/07/26)
 
 ---
 
@@ -27,4 +27,28 @@
 
 ---
 
+## Respuesta MSG1
+> Hola. Claro. Cuénteme.
+
+---
+
+## MSG2
+> Buenas Hernán! Le cuento.
+> Lo que me quedó de tus publicaciones es que no comunicás el resultado de la activación, comunicás la intención detrás. Eso es más difícil de sostener cuando escalás. Cómo hacés para que esa narrativa se sostenga igual cuando la ejecución la llevan distintos equipos o mercados?
+> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a gerentes de marca a construir comunicación consistente que sostenga la narrativa en cada punto de contacto, sin que dependa de una sola persona. Trabajamos con Destiny Group en posicionamiento y comunicación de marca.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo enviar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> Por ahora no tengo interés gracias. Los resultados son de uso interno no público.
+
+---
+
+## Cierre (08/07/26)
+> Buenas Hernán! Entendido, sin problema. Gracias por el tiempo y por responder igual. Quedo por acá si en algún momento cambia el contexto. Un saludo!
+
+---
+
 ## Notas
+- Interpretó la pregunta sobre "sostener la narrativa" como pedido de resultados internos. Defensivo en ese punto.
