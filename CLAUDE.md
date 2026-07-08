@@ -426,3 +426,58 @@ Este workflow se ejecuta SIEMPRE cuando el usuario dice "guarda" o equivalente.
 - Guardar el email en el campo `email` de la entrada en historial.json
 - Agregar nota en el .md: a quién va dirigido el mail y la dirección
 - Ejemplo: Robinson da `fdiaz@gasdelsur.cl` → stage 3, email guardado, nota "Dirigido a Fernando Díaz - Gerente Marketing Gasdelsur"
+
+---
+
+# INTELIGENCIA HIE (actualizado 2026-07-01, n=427)
+
+Datos reales de conversiones. Usar para priorizar sectores, seniority y variante.
+
+**Tasa global de dossier: 25.1%**
+
+## Por sector (solo sectores con confianza MEDIUM o más, o n≥10)
+
+| Sector | Dossier % | n | Confianza |
+|--------|-----------|---|-----------|
+| Educación | 35.7% | 42 | MEDIUM — priorizar |
+| Consultoría/Legal | 30.0% | 10 | LOW |
+| Agencia/Marketing | 28.0% | 25 | LOW |
+| Energía | 26.9% | 26 | LOW |
+| Tecnología | 25.0% | 20 | LOW |
+| Farmacéutico | 25.0% | 20 | LOW |
+| **Retail/Consumo** | **12.5%** | **16** | **LOW — evitar como prioridad** |
+| **Turismo/Hotelería** | **14.3%** | **14** | **LOW — bajo rendimiento** |
+
+Sectores con n<10: datos insuficientes, no tomar como referencia.
+
+## Por seniority
+
+| Seniority | Dossier % | n |
+|-----------|-----------|---|
+| DIRECTOR | 27.3% | 11 |
+| OTHER | 25.9% | 363 |
+| SPECIALIST | 25.0% | 8 |
+| MANAGER | 20.6% | 34 |
+| **CEO** | **10.0%** | **10** |
+
+**Regla derivada:** Preferir Director o Manager como primer contacto. CEO en frío convierte a la mitad. Solo escalar a CEO si el Director lo sugiere.
+
+## Por variante de MSG1
+
+| Variante | Dossier % | n |
+|----------|-----------|---|
+| A | 28.5% | 260 |
+| C | 19.4% | 67 |
+
+**Regla derivada:** Siempre Variante A por defecto. Variante C tiene 9 puntos menos de conversión con n suficiente para confiar.
+
+## Insights críticos
+
+1. **Educación es el mejor sector con datos confiables (n=42, 35.7%)** — cuando aparezca un prospecto de educación, priorizar.
+2. **CEO en frío rinde mal (10%)** — no abrir con CEO si hay alternativa. El primer contacto en una empresa nueva debería ser Director/Manager.
+3. **Variante A gana claramente** — ya está implementado como default, mantener.
+4. **Retail y Turismo rinden por debajo del promedio** — no son sectores prioritarios para outreach nuevo.
+
+---
+
+*Esta sección se actualiza automáticamente al correr `python hint_intelligence/engine.py`*

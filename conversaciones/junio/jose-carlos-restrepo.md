@@ -3,7 +3,7 @@
 Gerente General, CORE TECH (Colombia), sector minería (aceros de perforación para minería subterránea).
 
 ## Estado
-Activo, sin pitch directo. Bromeó que en LinkedIn toda consulta significa que le van a ofrecer algo y que es mal momento. Pivot: sin ofrecer nada todavía, seguir la charla por el ángulo de equipo/liderazgo (post 15 años CORE TECH dando crédito al equipo en vez de números).
+RECONTACTO 01/10/26 — Dijo "es mal momento" desde el principio. Dossier enviado por la conversación pero sin interés activo. No insistir hasta octubre.
 
 ## MSG1 (Florencia)
 Gracias por conectar. Observación: dio crédito al equipo antes que a números en el post de los 15 años de CORE TECH.

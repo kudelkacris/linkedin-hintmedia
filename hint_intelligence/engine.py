@@ -176,7 +176,141 @@ def run_full():
         print(f'  {icon} {titulo}')
 
     print()
+
+    # ── 9. Actualizar CLAUDE.md con inteligencia HIE ──────────────────────────
+    update_claude_md_hie()
+
     return True
+
+
+def update_claude_md_hie(context_path=None, claude_md_path=None):
+    """Actualiza la sección INTELIGENCIA HIE en CLAUDE.md con datos frescos de context_injection.json."""
+    if context_path is None:
+        context_path = config.OUT_CONTEXT
+    if claude_md_path is None:
+        claude_md_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'CLAUDE.md')
+
+    if not os.path.exists(context_path) or not os.path.exists(claude_md_path):
+        log('update_claude_md_hie: archivo no encontrado, omitiendo')
+        return
+
+    with open(context_path, 'r', encoding='utf-8') as f:
+        ctx = json.load(f)
+
+    meta = ctx.get('metadata', {})
+    fecha = meta.get('generado', 'desconocida')
+    n_total = meta.get('n_total', 0)
+    dr_global = meta.get('dossier_rate_global', 0)
+
+    sectores = ctx.get('por_sector', {})
+    variantes = ctx.get('variantes', {})
+    seniorities = ctx.get('seniorities', {})
+
+    # Construir filas de sectores con datos suficientes (n>=10)
+    filas_sector = []
+    for nombre, d in sorted(sectores.items(), key=lambda x: x[1].get('dossier_pct', 0), reverse=True):
+        n = d.get('n', 0)
+        if n < 10:
+            continue
+        pct = d.get('dossier_pct', 0)
+        conf = d.get('confianza', '?')
+        nota = ''
+        if pct <= 15:
+            nota = ' — bajo rendimiento'
+        elif conf == 'MEDIUM' and pct >= 30:
+            nota = ' — priorizar'
+        filas_sector.append(f'| {nombre} | {pct}% | {n} | {conf}{nota} |')
+
+    tabla_sector = '\n'.join(filas_sector) if filas_sector else '| (sin datos suficientes) | — | — | — |'
+
+    # Seniorities
+    filas_sen = []
+    for nombre, d in sorted(seniorities.items(), key=lambda x: x[1].get('dossier_pct', 0), reverse=True):
+        n = d.get('n', 0)
+        pct = d.get('dossier_pct', 0)
+        filas_sen.append(f'| {nombre} | {pct}% | {n} |')
+    tabla_sen = '\n'.join(filas_sen)
+
+    # Variantes
+    filas_var = []
+    for nombre, d in sorted(variantes.items(), key=lambda x: x[1].get('dossier_pct', 0), reverse=True):
+        n = d.get('n', 0)
+        pct = d.get('dossier_pct', 0)
+        filas_var.append(f'| {nombre} | {pct}% | {n} |')
+    tabla_var = '\n'.join(filas_var)
+
+    # CEO vs Director para insight
+    ceo_pct = seniorities.get('CEO', {}).get('dossier_pct', '?')
+    dir_pct = seniorities.get('DIRECTOR', {}).get('dossier_pct', '?')
+    var_a = variantes.get('A', {}).get('dossier_pct', '?')
+    var_c = variantes.get('C', {}).get('dossier_pct', '?')
+
+    nueva_seccion = f"""---
+
+# INTELIGENCIA HIE (actualizado {fecha}, n={n_total})
+
+Datos reales de conversiones. Usar para priorizar sectores, seniority y variante.
+
+**Tasa global de dossier: {dr_global}%**
+
+## Por sector (solo sectores con n>=10)
+
+| Sector | Dossier % | n | Confianza |
+|--------|-----------|---|-----------|
+{tabla_sector}
+
+Sectores con n<10: datos insuficientes, no tomar como referencia.
+
+## Por seniority
+
+| Seniority | Dossier % | n |
+|-----------|-----------|---|
+{tabla_sen}
+
+**Regla derivada:** Preferir Director o Manager como primer contacto. CEO en frío convierte a {ceo_pct}% vs Director {dir_pct}%. Solo escalar a CEO si el Director lo sugiere.
+
+## Por variante de MSG1
+
+| Variante | Dossier % | n |
+|----------|-----------|---|
+{tabla_var}
+
+**Regla derivada:** Siempre Variante A por defecto. Variante A tiene {var_a}% vs C {var_c}%.
+
+## Insights críticos
+
+1. **CEO en frio rinde mal ({ceo_pct}%)** — primer contacto en empresa nueva: preferir Director/Manager.
+2. **Variante A gana claramente** — ya es default, mantener.
+3. **Sectores con dossier_pct bajo 15% no son prioridad de outreach nuevo.**
+
+---
+
+*Esta seccion se actualiza automaticamente al correr `python hint_intelligence/engine.py`*"""
+
+    with open(claude_md_path, 'r', encoding='utf-8') as f:
+        contenido = f.read()
+
+    MARCA_INICIO = '# INTELIGENCIA HIE'
+    MARCA_SEPARADOR = '\n---\n\n# INTELIGENCIA HIE'
+
+    if MARCA_INICIO in contenido:
+        # Reemplazar desde el separador previo hasta el final
+        idx = contenido.find(MARCA_SEPARADOR)
+        if idx == -1:
+            idx = contenido.find('\n# INTELIGENCIA HIE')
+        if idx != -1:
+            contenido = contenido[:idx] + '\n' + nueva_seccion
+        else:
+            # fallback: desde el encabezado
+            idx = contenido.find('# INTELIGENCIA HIE')
+            contenido = contenido[:idx] + nueva_seccion[4:]  # skip leading ---\n
+    else:
+        contenido = contenido.rstrip() + '\n\n' + nueva_seccion
+
+    with open(claude_md_path, 'w', encoding='utf-8') as f:
+        f.write(contenido)
+
+    log(f'CLAUDE.md actualizado con inteligencia HIE (n={n_total}, {fecha})')
 
 
 def run_context_only():
@@ -191,6 +325,7 @@ def run_context_only():
         sectors = json.load(f)
     knowledge_base.build_context_injection(sectors, patterns)
     log(f'context_injection.json actualizado → {config.OUT_CONTEXT}')
+    update_claude_md_hie()
     return True
 
 
