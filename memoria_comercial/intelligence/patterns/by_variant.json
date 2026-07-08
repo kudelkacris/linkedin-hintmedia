@@ -1,18 +1,18 @@
 {
   "A": {
     "total": 188,
-    "respondio_msg1": 137,
-    "dossier_enviado": 83,
+    "respondio_msg1": 141,
+    "dossier_enviado": 86,
     "call_agendada": 1,
-    "response_rate": 0.7287,
-    "dossier_rate": 0.4415,
+    "response_rate": 0.75,
+    "dossier_rate": 0.4574,
     "call_rate": 0.0053,
-    "dossier_from_response": 0.6058,
-    "call_from_dossier": 0.012,
+    "dossier_from_response": 0.6099,
+    "call_from_dossier": 0.0116,
     "by_resultado": {
-      "EN_PROCESO": 121,
-      "SIN_RESPUESTA": 50,
-      "CERRADO_SIN_INTERES": 16,
+      "EN_PROCESO": 123,
+      "SIN_RESPUESTA": 46,
+      "CERRADO_SIN_INTERES": 18,
       "REUNION": 1
     }
   },

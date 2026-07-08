@@ -1,17 +1,17 @@
 {
   "DESCONOCIDO": {
-    "total": 115,
+    "total": 111,
     "respondio_msg1": 0,
     "dossier_enviado": 26,
     "call_agendada": 1,
     "response_rate": 0.0,
-    "dossier_rate": 0.2261,
-    "call_rate": 0.0087,
+    "dossier_rate": 0.2342,
+    "call_rate": 0.009,
     "dossier_from_response": 0.0,
     "call_from_dossier": 0.0385,
     "by_resultado": {
       "EN_PROCESO": 44,
-      "SIN_RESPUESTA": 62,
+      "SIN_RESPUESTA": 58,
       "CERRADO_SIN_INTERES": 8,
       "REUNION": 1
     }
@@ -34,34 +34,34 @@
     }
   },
   "LOW": {
-    "total": 89,
-    "respondio_msg1": 88,
-    "dossier_enviado": 54,
+    "total": 91,
+    "respondio_msg1": 90,
+    "dossier_enviado": 55,
     "call_agendada": 0,
-    "response_rate": 0.9888,
-    "dossier_rate": 0.6067,
+    "response_rate": 0.989,
+    "dossier_rate": 0.6044,
     "call_rate": 0.0,
-    "dossier_from_response": 0.6136,
+    "dossier_from_response": 0.6111,
     "call_from_dossier": 0.0,
     "by_resultado": {
       "EN_PROCESO": 80,
       "SIN_RESPUESTA": 0,
-      "CERRADO_SIN_INTERES": 9,
+      "CERRADO_SIN_INTERES": 11,
       "REUNION": 0
     }
   },
   "MEDIUM": {
-    "total": 56,
-    "respondio_msg1": 53,
-    "dossier_enviado": 38,
+    "total": 58,
+    "respondio_msg1": 55,
+    "dossier_enviado": 40,
     "call_agendada": 1,
-    "response_rate": 0.9464,
-    "dossier_rate": 0.6786,
-    "call_rate": 0.0179,
-    "dossier_from_response": 0.717,
-    "call_from_dossier": 0.0263,
+    "response_rate": 0.9483,
+    "dossier_rate": 0.6897,
+    "call_rate": 0.0172,
+    "dossier_from_response": 0.7273,
+    "call_from_dossier": 0.025,
     "by_resultado": {
-      "EN_PROCESO": 48,
+      "EN_PROCESO": 50,
       "SIN_RESPUESTA": 0,
       "CERRADO_SIN_INTERES": 7,
       "REUNION": 1

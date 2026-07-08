@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "parser_version": "1.0.0",
   "dataset_version": "1.0.0",
-  "build_date": "2026-07-07T20:47:07.347228+00:00",
+  "build_date": "2026-07-08T17:03:13.377485+00:00",
   "build_mode": "full",
-  "build_duration_seconds": 0.72,
+  "build_duration_seconds": 2.34,
   "totals": {
     "total_conversations": 276,
     "clean": 137,
@@ -17,17 +17,17 @@
     "junio": 172
   },
   "by_stage": {
-    "1": 73,
-    "2": 79,
-    "3": 53,
+    "1": 69,
+    "2": 80,
+    "3": 56,
     "4": 65,
     "5": 4,
     "6": 2
   },
   "by_resultado": {
-    "EN_PROCESO": 185,
-    "SIN_RESPUESTA": 62,
-    "CERRADO_SIN_INTERES": 27,
+    "EN_PROCESO": 187,
+    "SIN_RESPUESTA": 58,
+    "CERRADO_SIN_INTERES": 29,
     "REUNION": 2
   },
   "field_coverage": {
@@ -40,7 +40,7 @@
     "stage": 1.0,
     "msg1_texto": 0.757,
     "senal_humana": 0.33,
-    "engagement": 0.583,
+    "engagement": 0.598,
     "variante": 0.721
   },
   "incremental": {}

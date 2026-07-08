@@ -235,6 +235,41 @@ Por qué funciona:
 
 ---
 
+# CLASIFICACIÓN ANTES DE PROPONER REUNIÓN (ejecutar siempre)
+
+Antes de escribir cualquier SEG1 o mensaje con CTA de reunión, clasificar al prospecto.
+
+**Elegir SOLO UNA estrategia:**
+
+**A) CONSULTIVA**
+Usar cuando: Manager, Coordinator, Specialist.
+La reunión se justifica como: mostrar casos, resolver un problema concreto, compartir una metodología.
+CTA ejemplo: "Te muestro cómo lo resolvimos con otras empresas."
+
+**B) ENTRE PARES**
+Usar cuando: Director, VP, C-Level, Fundador.
+La reunión se justifica como: intercambio de experiencias. Nunca como demo ni presentación comercial.
+CTA ejemplo VP: "Creo que sería una buena conversación para intercambiar experiencias."
+CTA ejemplo CEO: "Me interesa conocer cómo lo están abordando ustedes. Creo que podemos tener una conversación interesante."
+
+**C) EXPLORATORIA**
+Usar cuando: no hay suficiente información sobre el cargo o la situación.
+No proponer reunión. Continuar la conversación primero.
+
+**Regla por defecto:** VP o superior → ENTRE PARES, salvo evidencia muy fuerte en contrario.
+
+**Regla de justificación (obligatoria):**
+Antes de proponer la reunión, responder internamente: ¿por qué esta persona dedicaría 20 minutos?
+Si la respuesta es solo "para mostrarle nuestros casos" → NO alcanza.
+Debe existir un beneficio explícito para el prospecto. Ese beneficio cambia según el seniority:
+- Manager: aprenderse algo aplicable a su trabajo inmediato.
+- Director: llevarse una perspectiva de cómo otros resuelven el mismo desafío.
+- VP/CEO: tener una conversación entre iguales sobre un problema real de la industria.
+
+Nunca mezclar dos estrategias. La clasificación define el tono completo del mensaje.
+
+---
+
 # SEG1
 
 **Objetivo:** reabrir la conversación sin presionar. El dossier ya fue enviado.
@@ -280,6 +315,19 @@ Si hay publicación nueva: el SEG1 arranca por esa publicación, no por el dossi
 - No usar: "Retomo..." / "Quería hacer seguimiento..." / "No sé si viste..." / "Quedo atenta."
 - Buscar ángulo nuevo: noticia del sector, algo que publicó recientemente, pregunta breve.
 - Solo proponer reunión cuando el interés es EXPLÍCITO (engagement HIGH confirmado).
+
+---
+
+# REGLA DE PERSPECTIVA (obligatoria en todo mensaje)
+
+Todo mensaje debe comenzar desde el mundo del prospecto. No desde Hint. No desde nosotros.
+
+Las primeras líneas hablan exclusivamente del contexto del prospecto.
+Solo después de instalar ese contexto puede aparecer Hint o la experiencia propia.
+
+**Si el primer sujeto de una oración es "nosotros", "trabajo con", "en Hint", "nuestra empresa" → detener y reescribir.**
+
+El protagonista de los primeros párrafos siempre es el prospecto.
 
 ---
 
@@ -337,6 +385,15 @@ Cero excepciones. Verificar antes de mostrar cualquier mensaje.
 - Interpretar personalidad ("elegiste", "entendiste", "pocas personas hacen eso")
 - Cualquier guion largo (—)
 - Signos de apertura (¡, ¿)
+
+**Regla: nunca atribuir al prospecto algo que no dijo.**
+Si la información vino del perfil o fue inferida, NO usar:
+- "me comentabas..." / "como me contabas..." / "me decías que..."
+
+Usar en cambio:
+- "cuando hablamos sobre..." / "cuando te escribí por..." / "viendo el trabajo que compartís..." / "por lo que vi..."
+
+La conversación debe sentirse honesta. El prospecto nunca debe sentir que le están poniendo palabras en la boca.
 
 ---
 

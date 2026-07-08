@@ -1,6 +1,6 @@
 # Reinaldo Bareyns
 
-**Estado:** activa, esperando respuesta a MSG3
+**Estado:** SEG1 enviado — 08/07/26
 **Fecha:** 18/06/26 MSG1, 20/06/26 MSG2 enviado + pregunta ubicación
 **Cargo:** Vice President Sales & Marketing
 **Empresa:** RELIANZ Mining Solutions (distribuidor Caterpillar, minería superficie/subterránea)
@@ -35,6 +35,13 @@
 
 ## MSG3 (enviado)
 > Buenas Reinaldo! Estamos en Argentina, full remoto con clientes en toda LatAm. Contame qué es lo que más te gustaría resolver en comunicación o marketing y te cuento cómo encajamos.
+
+## SEG1 (enviado 08/07/26)
+> Buenas Reinaldo!
+> Me quedó pendiente la conversación que habíamos empezado cuando me preguntabas dónde estábamos basados.
+> Justamente porque ustedes operan en distintos mercados de LATAM, me quedó dando vueltas cómo cambia la comunicación entre ventas, clientes y operación cuando el equipo deja de estar en un solo país.
+> Es un tema sobre el que venimos trabajando bastante y creo que podría salir una conversación interesante para intercambiar experiencias, más que una presentación comercial.
+> Si te parece, coordinamos 20 minutos la semana que viene.
 
 ## Notas
 - HECHO: publicó un ensayo ("La solución al problema más difícil no está en el libro de cálculo") sobre transición de problemas técnicos a humanos, apoyado en filosofía (Sokolowski, Harari), enfocado en comunicación y feedback.

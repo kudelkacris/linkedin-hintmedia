@@ -2,17 +2,17 @@
   "conversation_id": "conv_000038",
   "contact_id": "ctc_000011",
   "source_file": "conversaciones/julio/evin-tapia.md",
-  "fingerprint": "sha256:72becaec542d9b026ec0177cb624c14355ffcc3296abddfa5fb85aa6d83cb503",
-  "created_at": "2026-07-07T20:47:06.775474+00:00",
-  "updated_at": "2026-07-07T20:47:06Z",
+  "fingerprint": "sha256:5511ebd12f1b749f79e2817b991939f4ca57adee16ac4bda404d490cf7f7bec3",
+  "created_at": "2026-07-08T17:03:12.756448+00:00",
+  "updated_at": "2026-07-08T17:03:12Z",
   "schema_version": "1.0.0",
   "parser_version": "1.0.0",
-  "build_date": "2026-07-07T20:47:06Z",
+  "build_date": "2026-07-08T17:03:12Z",
   "source": {
     "file_path": "conversaciones/julio/evin-tapia.md",
-    "file_hash": "sha256:72becaec542d9b026ec0177cb624c14355ffcc3296abddfa5fb85aa6d83cb503",
-    "file_modified": "2026-07-06T16:23:43.871623+00:00",
-    "file_size": 2985,
+    "file_hash": "sha256:5511ebd12f1b749f79e2817b991939f4ca57adee16ac4bda404d490cf7f7bec3",
+    "file_modified": "2026-07-07T21:00:12.315350+00:00",
+    "file_size": 3592,
     "month_folder": "julio"
   },
   "metadata": {
@@ -21,14 +21,14 @@
     "cargo": "Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici",
     "pais": "Panamá",
     "fecha": "06/07/26",
-    "estado_texto": "Dossier enviado — 06/07/26"
+    "estado_texto": "CERRADA — no interesado (feedback dossier, 07/07/26)"
   },
   "normalized": {
     "sector": "CONSULTORIA_TECH",
     "seniority": "DIRECTOR",
     "tipo_decisor": "DECISION_MAKER",
     "stage": 3,
-    "resultado_final": "EN_PROCESO",
+    "resultado_final": "CERRADO_SIN_INTERES",
     "objecion_principal": "NONE",
     "engagement_level": "LOW",
     "variante_msg1": "A"
@@ -39,26 +39,35 @@
     "respuesta_msg1_texto": "Sí, claro. Coméntame!!!",
     "msg2_texto": "Buenas Evin! Te cuento.\nEl post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.",
     "dossier_enviado": true,
-    "respondio_dossier": false,
-    "respuesta_dossier_texto": "",
+    "respondio_dossier": true,
+    "respuesta_dossier_texto": "Esta muy bueno honestamente. Pero en el mezcla de los trabajos que realizan a simple vista se percibe que es trabajo que lo hace una sola persona y no una agencia como tal. [...] Seria bueno en cada seccion implementar la persona que lo hizo. [...] Dale mas vida a la sección de team.",
     "seg1_enviado": false,
     "seg1_texto": "",
     "seg2_enviado": false,
     "seg2_texto": "",
     "call_agendada": false,
-    "cliente_cerrado": false
+    "cliente_cerrado": true
   },
   "signals": {
     "señal_humana": "La publicación sobre \"¿Contrataste a un CM o a una agencia de una sola persona?\" donde explica que el error más caro es saturar al Community Manager con tareas de diseño y edición. Revela una opinión clara: los equipos mal estructurados generan resultados visuales bonitos pero comunidades fantasma. No es un post genérico, es una postura profesional.",
     "hipotesis": "La conversación interesante no es \"¿necesitás una agencia?\" sino \"¿cómo sostenés la ejecución sin que el contenido educativo te consuma todo?\". O: \"¿cómo escalas el modelo de trabajo cuando la educación requiere consistencia y la ejecución requiere velocidad?\".",
     "palabras_clave": [
-      "comentame"
+      "comentame",
+      "esta",
+      "bueno",
+      "honestamente",
+      "mezcla",
+      "trabajos",
+      "realizan",
+      "simple",
+      "vista",
+      "percibe"
     ],
     "notas": ""
   },
   "text": {
-    "conversation_text": "[NOMBRE: Evin Tapia]\n[EMPRESA: Pardini & Asociados]\n[CARGO: Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici]\n[SECTOR: Agencia / Consultoría Creativa]\n[PAIS: Panamá]\n[SENAL: La publicación sobre \"¿Contrataste a un CM o a una agencia de una sola persona?\" donde explica que el error más caro es saturar al Community Manager con tareas de diseño y edición. Revela una opinión clara: los equipos mal estructurados generan resultados visuales bonitos pero comunidades fantasma. No es un post genérico, es una postura profesional.]\n[HIPOTESIS: La conversación interesante no es \"¿necesitás una agencia?\" sino \"¿cómo sostenés la ejecución sin que el contenido educativo te consuma todo?\". O: \"¿cómo escalas el modelo de trabajo cuando la educación requiere consistencia y la ejecución requiere velocidad?\".]\n\n[MSG1]\nEvin, gracias por conectar! 👋\n\nMe llamó la atención tu post sobre el \"CM todólogo\". Específicamente esto: \"Un CM efectivo necesita estrategia, diseño y copy, pero cuando lo saturás de carpintería del contenido, la conversación real con el cliente desaparece.\" No es lo que la mayoría dice cuando contratan equipos internos. La mayoría termina pidiendo que una persona haga todo eso a la vez.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro. Coméntame!!!\n\n[MSG2]\nBuenas Evin! Te cuento.\nEl post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[MSG3]\nSi claro me puedes enviar el dossier; y con gusto lo veo.",
-    "raw_md": "# Evin Tapia\n\n**Fecha:** 06/07/26\n**Cargo:** Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici\n**Empresa:** Pardini & Asociados\n**Pais:** Panamá\n**Sector:** Agencia / Consultoría Creativa\n**Estado:** Dossier enviado — 06/07/26\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre \"¿Contrataste a un CM o a una agencia de una sola persona?\" donde explica que el error más caro es saturar al Community Manager con tareas de diseño y edición. Revela una opinión clara: los equipos mal estructurados generan resultados visuales bonitos pero comunidades fantasma. No es un post genérico, es una postura profesional.\n- **Tensión profesional:** Crear contenido de calidad (que posiciona, educa, genera autoridad) mientras mantiene capacidad de ejecución de proyectos concretos para clientes. Ambas cosas compiten por tiempo y recursos cognitivos.\n- **Hipótesis:** La conversación interesante no es \"¿necesitás una agencia?\" sino \"¿cómo sostenés la ejecución sin que el contenido educativo te consuma todo?\". O: \"¿cómo escalas el modelo de trabajo cuando la educación requiere consistencia y la ejecución requiere velocidad?\".\n- **Ángulo MSG1:** La postura sobre equipos mal estructurados. Es algo que Evin decidió publicar, enseñar y repetir. Demuestra que ve un problema recurrente en el mercado (saturación de roles) que impacta directamente en su propio modelo de trabajo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Evin, gracias por conectar! 👋\n>\n> Me llamó la atención tu post sobre el \"CM todólogo\". Específicamente esto: \"Un CM efectivo necesita estrategia, diseño y copy, pero cuando lo saturás de carpintería del contenido, la conversación real con el cliente desaparece.\" No es lo que la mayoría dice cuando contratan equipos internos. La mayoría termina pidiendo que una persona haga todo eso a la vez.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Sí, claro. Coméntame!!!\n\n---\n\n## MSG2\n> Buenas Evin! Te cuento.\n> El post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Dossier\n> Si claro me puedes enviar el dossier; y con gusto lo veo.\n\nDossier enviado — 06/07/26\n\n---\n\n## Notas\n"
+    "conversation_text": "[NOMBRE: Evin Tapia]\n[EMPRESA: Pardini & Asociados]\n[CARGO: Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici]\n[SECTOR: Agencia / Consultoría Creativa]\n[PAIS: Panamá]\n[SENAL: La publicación sobre \"¿Contrataste a un CM o a una agencia de una sola persona?\" donde explica que el error más caro es saturar al Community Manager con tareas de diseño y edición. Revela una opinión clara: los equipos mal estructurados generan resultados visuales bonitos pero comunidades fantasma. No es un post genérico, es una postura profesional.]\n[HIPOTESIS: La conversación interesante no es \"¿necesitás una agencia?\" sino \"¿cómo sostenés la ejecución sin que el contenido educativo te consuma todo?\". O: \"¿cómo escalas el modelo de trabajo cuando la educación requiere consistencia y la ejecución requiere velocidad?\".]\n\n[MSG1]\nEvin, gracias por conectar! 👋\n\nMe llamó la atención tu post sobre el \"CM todólogo\". Específicamente esto: \"Un CM efectivo necesita estrategia, diseño y copy, pero cuando lo saturás de carpintería del contenido, la conversación real con el cliente desaparece.\" No es lo que la mayoría dice cuando contratan equipos internos. La mayoría termina pidiendo que una persona haga todo eso a la vez.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n[RESPUESTA_MSG1]\nSí, claro. Coméntame!!!\n\n[MSG2]\nBuenas Evin! Te cuento.\nEl post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?\nTrabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.\nTenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n[RESPUESTA_MSG2]\nEsta muy bueno honestamente. Pero en el mezcla de los trabajos que realizan a simple vista se percibe que es trabajo que lo hace una sola persona y no una agencia como tal. [...] Seria bueno en cada seccion implementar la persona que lo hizo. [...] Dale mas vida a la sección de team.\n\n[MSG3]\nSi claro me puedes enviar el dossier; y con gusto lo veo.",
+    "raw_md": "# Evin Tapia\n\n**Fecha:** 06/07/26\n**Cargo:** Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici\n**Empresa:** Pardini & Asociados\n**Pais:** Panamá\n**Sector:** Agencia / Consultoría Creativa\n**Estado:** CERRADA — no interesado (feedback dossier, 07/07/26)\n\n---\n\n## Análisis\n- **Señal humana:** La publicación sobre \"¿Contrataste a un CM o a una agencia de una sola persona?\" donde explica que el error más caro es saturar al Community Manager con tareas de diseño y edición. Revela una opinión clara: los equipos mal estructurados generan resultados visuales bonitos pero comunidades fantasma. No es un post genérico, es una postura profesional.\n- **Tensión profesional:** Crear contenido de calidad (que posiciona, educa, genera autoridad) mientras mantiene capacidad de ejecución de proyectos concretos para clientes. Ambas cosas compiten por tiempo y recursos cognitivos.\n- **Hipótesis:** La conversación interesante no es \"¿necesitás una agencia?\" sino \"¿cómo sostenés la ejecución sin que el contenido educativo te consuma todo?\". O: \"¿cómo escalas el modelo de trabajo cuando la educación requiere consistencia y la ejecución requiere velocidad?\".\n- **Ángulo MSG1:** La postura sobre equipos mal estructurados. Es algo que Evin decidió publicar, enseñar y repetir. Demuestra que ve un problema recurrente en el mercado (saturación de roles) que impacta directamente en su propio modelo de trabajo.\n- **Confidence:** HIGH\n\n---\n\n## MSG1\n> Evin, gracias por conectar! 👋\n>\n> Me llamó la atención tu post sobre el \"CM todólogo\". Específicamente esto: \"Un CM efectivo necesita estrategia, diseño y copy, pero cuando lo saturás de carpintería del contenido, la conversación real con el cliente desaparece.\" No es lo que la mayoría dice cuando contratan equipos internos. La mayoría termina pidiendo que una persona haga todo eso a la vez.\n>\n> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.\n\n---\n\n## Respuesta MSG1\n> Sí, claro. Coméntame!!!\n\n---\n\n## MSG2\n> Buenas Evin! Te cuento.\n> El post sobre el CM todólogo lo planteás como alguien que conoce ese problema de cerca. Cuando una marca con la que trabajás necesita escalar sin caer en ese modelo, cómo encarás esa conversación con el cliente?\n> Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a marcas que quieren sostener estrategia, contenido y branding con equipo externo, sin saturar a quien ya tienen adentro. Trabajamos con Destiny Group en branding y comunicación corporativa.\n> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.\n\n---\n\n## Dossier\n> Si claro me puedes enviar el dossier; y con gusto lo veo.\n\nDossier enviado — 06/07/26\n\n---\n\n## Respuesta Dossier (07/07/26)\n> Esta muy bueno honestamente. Pero en el mezcla de los trabajos que realizan a simple vista se percibe que es trabajo que lo hace una sola persona y no una agencia como tal. [...] Seria bueno en cada seccion implementar la persona que lo hizo. [...] Dale mas vida a la sección de team.\n\n## Cierre (07/07/26)\n> Buenas Evin! Muy buena la visión, de verdad. Lo del equipo visible detrás de cada trabajo lo vamos a implementar, tiene todo el sentido.\n> Gracias por el tiempo y los ojos. Si en algún momento surge algo, acá estamos!\n\n---\n\n## Notas\n"
   },
   "quality": {
     "campos_vacios": [],

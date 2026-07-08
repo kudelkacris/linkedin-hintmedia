@@ -5,7 +5,7 @@
 **Empresa:** Regional Marketing Manager
 **Pais:** España
 **Sector:** Educación / EdTech / Publishing
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** RECONTACTO 01/10/26 — Dijo "ahora mismo no estamos buscando agencia". Dossier enviado 06/07/26.
 
 ---
 

@@ -1,0 +1,20 @@
+{
+  "contact_id": "ctc_000542",
+  "schema_version": "1.0.0",
+  "created_at": "2026-07-08T17:03:12.756448+00:00",
+  "updated_at": "2026-07-08T17:03:12.756448+00:00",
+  "nombre": "Argerie Ramirez",
+  "empresa": "Walmart Connect México y Centroamérica",
+  "cargo": "Job Marketing Specialist",
+  "pais": "Costa Rica",
+  "sector_raw": "Retail / E-commerce / Retail Media",
+  "stage": 3,
+  "stage_texto": "Dossier por mail",
+  "fecha": "08/07/26",
+  "email": "Argerie.Ramirez@walmart.com",
+  "sector_norm": "AMAZON_ECOMMERCE",
+  "seniority": "SPECIALIST",
+  "tiene_md": false,
+  "conversation_id": null,
+  "historial_slug": "argerie-ramirez"
+}

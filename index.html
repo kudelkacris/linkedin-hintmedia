@@ -2420,7 +2420,16 @@ function renderHistoryList() {
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
   else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
   else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!en.followup_date);
-  else if (_histStageFilter) filtered = filtered.filter(en => !en.noInterest && String(en.stage||1) === String(_histStageFilter));
+  else if (_histStageFilter) filtered = filtered.filter(en => {
+    if (en.noInterest) return false;
+    if (en.followup_date) {
+      const p = en.followup_date.split('/').map(Number);
+      const fd = new Date(p[2] < 100 ? 2000+p[2] : p[2], p[1]-1, p[0]);
+      const td = new Date(); td.setHours(0,0,0,0);
+      if (fd > td) return false;
+    }
+    return String(en.stage||1) === String(_histStageFilter);
+  });
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
     return;

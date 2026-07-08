@@ -1,6 +1,6 @@
 # Coverage Report
 
-_Generado: 2026-07-07 18:02_
+_Generado: 2026-07-08 14:03_
 
 ---
 
@@ -9,9 +9,9 @@ _Generado: 2026-07-07 18:02_
 | Metrica | Valor |
 |---------|-------|
 | Conversaciones procesadas | 276 |
-| Contactos (historial.json) | 541 |
-| Contactos con .md vinculado | 281 (51.9%) |
-| Contactos solo en historial | 260 |
+| Contactos (historial.json) | 542 |
+| Contactos con .md vinculado | 281 (51.8%) |
+| Contactos solo en historial | 261 |
 | Errores de parse | 0 |
 
 ---
@@ -23,7 +23,7 @@ _Ordenado por cobertura ascendente — mas huecos arriba_
 | Campo | Cobertura | Llenos | Huecos |
 |-------|-----------|--------|--------|
 | senal_humana | 33.0% | 91 | 185 |
-| engagement | 58.3% | 161 | 115 |
+| engagement | 59.8% | 165 | 111 |
 | seniority | 72.1% | 199 | 77 |
 | variante | 72.1% | 199 | 77 |
 | msg1_texto | 75.7% | 209 | 67 |
@@ -49,9 +49,9 @@ _Ordenado por cobertura ascendente — mas huecos arriba_
 
 | Stage | Conversaciones | % |
 |-------|---------------|---|
-| 1 | 73 | 26.4% |
-| 2 | 79 | 28.6% |
-| 3 | 53 | 19.2% |
+| 1 | 69 | 25.0% |
+| 2 | 80 | 29.0% |
+| 3 | 56 | 20.3% |
 | 4 | 65 | 23.6% |
 | 5 | 4 | 1.4% |
 | 6 | 2 | 0.7% |
@@ -62,7 +62,7 @@ _Ordenado por cobertura ascendente — mas huecos arriba_
 
 | Resultado | Conversaciones | % |
 |-----------|---------------|---|
-| EN_PROCESO | 185 | 67.0% |
-| SIN_RESPUESTA | 62 | 22.5% |
-| CERRADO_SIN_INTERES | 27 | 9.8% |
+| EN_PROCESO | 187 | 67.8% |
+| SIN_RESPUESTA | 58 | 21.0% |
+| CERRADO_SIN_INTERES | 29 | 10.5% |
 | REUNION | 2 | 0.7% |

@@ -1,5 +1,5 @@
 {
-  "total": 541,
+  "total": 542,
   "records": [
     {
       "contact_id": "ctc_000001",
@@ -27,7 +27,7 @@
       "sector_norm": "ENERGIA_INFRA",
       "seniority": "MANAGER",
       "stage": 3,
-      "stage_texto": "MSG2 enviado",
+      "stage_texto": "Dossier por mail",
       "tiene_md": true,
       "conversation_id": "conv_000089",
       "fecha": "06/07/26",
@@ -171,7 +171,7 @@
       "sector_norm": "CONSULTORIA_TECH",
       "seniority": "DIRECTOR",
       "stage": 3,
-      "stage_texto": "MSG2 enviado",
+      "stage_texto": "CERRADA",
       "tiene_md": true,
       "conversation_id": "conv_000038",
       "fecha": "06/07/26",
@@ -283,7 +283,7 @@
       "sector_norm": "ENERGIA_INFRA",
       "seniority": "DESCONOCIDO",
       "stage": 3,
-      "stage_texto": "",
+      "stage_texto": "Dossier por mail",
       "tiene_md": true,
       "conversation_id": "conv_000089",
       "fecha": "06/07/26",
@@ -346,8 +346,8 @@
       "pais": "",
       "sector_norm": "AMAZON_ECOMMERCE",
       "seniority": "DESCONOCIDO",
-      "stage": 1,
-      "stage_texto": "",
+      "stage": 3,
+      "stage_texto": "Referido a Argerie Ramirez (Walmart)",
       "tiene_md": true,
       "conversation_id": "conv_000100",
       "fecha": "06/07/26",
@@ -602,8 +602,8 @@
       "pais": "",
       "sector_norm": "DESCONOCIDO",
       "seniority": "DESCONOCIDO",
-      "stage": 1,
-      "stage_texto": "",
+      "stage": 2,
+      "stage_texto": "MSG2 enviado",
       "tiene_md": true,
       "conversation_id": "conv_000086",
       "fecha": "06/07/26",
@@ -955,7 +955,7 @@
       "sector_norm": "CONSULTORIA_TECH",
       "seniority": "DESCONOCIDO",
       "stage": 3,
-      "stage_texto": "",
+      "stage_texto": "CERRADA",
       "tiene_md": true,
       "conversation_id": "conv_000038",
       "fecha": "06/07/26",
@@ -8656,6 +8656,22 @@
       "conversation_id": "conv_000011",
       "fecha": "07/07/26",
       "email": null
+    },
+    {
+      "contact_id": "ctc_000542",
+      "historial_slug": "argerie-ramirez",
+      "nombre": "Argerie Ramirez",
+      "empresa": "Walmart Connect México y Centroamérica",
+      "cargo": "Job Marketing Specialist",
+      "pais": "Costa Rica",
+      "sector_norm": "AMAZON_ECOMMERCE",
+      "seniority": "SPECIALIST",
+      "stage": 3,
+      "stage_texto": "Dossier por mail",
+      "tiene_md": false,
+      "conversation_id": null,
+      "fecha": "08/07/26",
+      "email": "Argerie.Ramirez@walmart.com"
     }
   ]
 }

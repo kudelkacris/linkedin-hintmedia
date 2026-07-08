@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "last_id": 541,
+  "last_id": 542,
   "entries": {
     "sebastian-estevez": {
       "ctc_id": "ctc_000001"
@@ -1624,6 +1624,9 @@
     },
     "1783350100200": {
       "ctc_id": "ctc_000541"
+    },
+    "argerie-ramirez": {
+      "ctc_id": "ctc_000542"
     }
   }
 }

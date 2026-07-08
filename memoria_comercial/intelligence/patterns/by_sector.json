@@ -18,17 +18,17 @@
   },
   "AMAZON_ECOMMERCE": {
     "total": 2,
-    "respondio_msg1": 1,
-    "dossier_enviado": 1,
+    "respondio_msg1": 2,
+    "dossier_enviado": 2,
     "call_agendada": 1,
-    "response_rate": 0.5,
-    "dossier_rate": 0.5,
+    "response_rate": 1.0,
+    "dossier_rate": 1.0,
     "call_rate": 0.5,
     "dossier_from_response": 1.0,
-    "call_from_dossier": 1.0,
+    "call_from_dossier": 0.5,
     "by_resultado": {
-      "EN_PROCESO": 0,
-      "SIN_RESPUESTA": 1,
+      "EN_PROCESO": 1,
+      "SIN_RESPUESTA": 0,
       "CERRADO_SIN_INTERES": 0,
       "REUNION": 1
     }
@@ -78,9 +78,9 @@
     "dossier_from_response": 0.7353,
     "call_from_dossier": 0.0,
     "by_resultado": {
-      "EN_PROCESO": 40,
+      "EN_PROCESO": 39,
       "SIN_RESPUESTA": 10,
-      "CERRADO_SIN_INTERES": 6,
+      "CERRADO_SIN_INTERES": 7,
       "REUNION": 0
     }
   },
@@ -137,17 +137,17 @@
   },
   "FARMACEUTICO_SALUD": {
     "total": 24,
-    "respondio_msg1": 16,
+    "respondio_msg1": 17,
     "dossier_enviado": 14,
     "call_agendada": 0,
-    "response_rate": 0.6667,
+    "response_rate": 0.7083,
     "dossier_rate": 0.5833,
     "call_rate": 0.0,
-    "dossier_from_response": 0.875,
+    "dossier_from_response": 0.8235,
     "call_from_dossier": 0.0,
     "by_resultado": {
-      "EN_PROCESO": 16,
-      "SIN_RESPUESTA": 4,
+      "EN_PROCESO": 17,
+      "SIN_RESPUESTA": 3,
       "CERRADO_SIN_INTERES": 4,
       "REUNION": 0
     }
@@ -171,18 +171,18 @@
   },
   "LOGISTICA": {
     "total": 9,
-    "respondio_msg1": 4,
-    "dossier_enviado": 2,
+    "respondio_msg1": 5,
+    "dossier_enviado": 3,
     "call_agendada": 0,
-    "response_rate": 0.4444,
-    "dossier_rate": 0.2222,
+    "response_rate": 0.5556,
+    "dossier_rate": 0.3333,
     "call_rate": 0.0,
-    "dossier_from_response": 0.5,
+    "dossier_from_response": 0.6,
     "call_from_dossier": 0.0,
     "by_resultado": {
       "EN_PROCESO": 6,
-      "SIN_RESPUESTA": 3,
-      "CERRADO_SIN_INTERES": 0,
+      "SIN_RESPUESTA": 2,
+      "CERRADO_SIN_INTERES": 1,
       "REUNION": 0
     }
   },
@@ -205,17 +205,17 @@
   },
   "MARKETING_BRANDING": {
     "total": 33,
-    "respondio_msg1": 17,
-    "dossier_enviado": 14,
+    "respondio_msg1": 18,
+    "dossier_enviado": 15,
     "call_agendada": 0,
-    "response_rate": 0.5152,
-    "dossier_rate": 0.4242,
+    "response_rate": 0.5455,
+    "dossier_rate": 0.4545,
     "call_rate": 0.0,
-    "dossier_from_response": 0.8235,
+    "dossier_from_response": 0.8333,
     "call_from_dossier": 0.0,
     "by_resultado": {
-      "EN_PROCESO": 27,
-      "SIN_RESPUESTA": 3,
+      "EN_PROCESO": 28,
+      "SIN_RESPUESTA": 2,
       "CERRADO_SIN_INTERES": 3,
       "REUNION": 0
     }
