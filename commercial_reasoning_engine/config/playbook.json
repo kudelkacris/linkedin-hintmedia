@@ -1,0 +1,61 @@
+{
+  "sequence": {
+    "MSG1": {
+      "objective": "generar curiosidad suficiente para que responda",
+      "no_mention_hint": true,
+      "no_open_with_title": true,
+      "no_summarize_profile": true,
+      "signal_priority": ["publicacion_reciente", "actividad", "logros", "experiencia", "cargo"]
+    },
+    "MSG2": {
+      "objective": "conversación natural que termina en envío de dossier",
+      "bubble_count": 4,
+      "bubble_objectives": {
+        "B1": "conectar con la respuesta del prospecto — máx 2 líneas",
+        "B2": "aportar una idea o hacer UNA pregunta — máx 2 líneas",
+        "B3": "presentar Hint Media — qué hacemos + con quién + por qué — máx 3 líneas",
+        "B4": "explicar qué contiene el dossier + pedir permiso"
+      },
+      "max_questions_per_message": 1,
+      "hint_in_b3_only": true,
+      "dossier_fixed_phrase": "Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?",
+      "conversation_weight": 0.4,
+      "commercial_weight": 0.6
+    },
+    "SEG1": {
+      "objective": "reabrir conversación sin presionar — el dossier ya fue enviado",
+      "send_after_days_min": 2,
+      "send_after_days_max": 3,
+      "require_angle_rotation": true,
+      "require_personal_win": true,
+      "never_open_with_dossier": true,
+      "signal_scan_priority": ["publicacion_nueva", "noticia_sector", "angulo_rotado"],
+      "engagement_rules": {
+        "LOW": "muy breve, sin mención al dossier",
+        "MEDIUM": "aporta ángulo nuevo relacionado con algo que dijo",
+        "HIGH": "propone reunión directamente"
+      }
+    },
+    "SEG2": {
+      "objective": "proponer reunión directamente o cerrar el ciclo",
+      "propose_meeting": true
+    }
+  },
+  "format": {
+    "greeting_template": "Buenas {name}!",
+    "no_long_dash": true,
+    "no_opening_exclamation": true,
+    "no_opening_question": true,
+    "bubble_separator": "\n",
+    "max_seconds_per_bubble": 8
+  },
+  "perspective_rule": {
+    "description": "Todo mensaje comienza desde el mundo del prospecto, nunca desde Hint",
+    "forbidden_first_subjects": ["nosotros", "trabajo con", "en Hint", "nuestra empresa", "Hint Media"]
+  },
+  "attribution_rule": {
+    "description": "Nunca atribuir al prospecto algo que no dijo en la conversación",
+    "forbidden_if_inferred": ["me comentabas", "como me contabas", "me decías que"],
+    "allowed_if_inferred": ["cuando te escribí por", "por lo que vi", "viendo el trabajo que compartís"]
+  }
+}

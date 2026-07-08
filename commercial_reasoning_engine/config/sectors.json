@@ -1,0 +1,86 @@
+{
+  "Energía": {
+    "hint_clients": ["TGS", "Transener"],
+    "dossier_pct": 26.9,
+    "confidence": "LOW",
+    "n": 26,
+    "priority": "normal"
+  },
+  "Farmacéutico": {
+    "hint_clients": ["Libra Seguros", "Destiny Group"],
+    "dossier_pct": 25.0,
+    "confidence": "LOW",
+    "n": 20,
+    "priority": "normal"
+  },
+  "Educación": {
+    "hint_clients": ["Destiny Group", "Libra Seguros"],
+    "dossier_pct": 35.7,
+    "confidence": "MEDIUM",
+    "n": 42,
+    "priority": "high"
+  },
+  "Consultoría/Legal": {
+    "hint_clients": ["Destiny Group", "Libra Seguros"],
+    "dossier_pct": 30.0,
+    "confidence": "LOW",
+    "n": 10,
+    "priority": "normal"
+  },
+  "Agencia/Marketing": {
+    "hint_clients": ["Destiny Group", "Tasarolli"],
+    "dossier_pct": 28.0,
+    "confidence": "LOW",
+    "n": 25,
+    "priority": "normal"
+  },
+  "Tecnología": {
+    "hint_clients": ["Destiny Group", "Libra Seguros"],
+    "dossier_pct": 25.0,
+    "confidence": "LOW",
+    "n": 20,
+    "priority": "normal"
+  },
+  "Seguros/Finanzas": {
+    "hint_clients": ["Libra Seguros", "Destiny Group"],
+    "dossier_pct": 33.3,
+    "confidence": "INSUFFICIENT",
+    "n": 9,
+    "priority": "normal"
+  },
+  "Retail/Consumo": {
+    "hint_clients": ["Destiny Group", "Tasarolli"],
+    "dossier_pct": 12.5,
+    "confidence": "LOW",
+    "n": 16,
+    "priority": "low"
+  },
+  "Turismo/Hotelería": {
+    "hint_clients": ["Destiny Group", "Tasarolli"],
+    "dossier_pct": 14.3,
+    "confidence": "LOW",
+    "n": 14,
+    "priority": "low"
+  },
+  "Minería": {
+    "hint_clients": ["TGS", "Transener"],
+    "dossier_pct": 35.7,
+    "confidence": "LOW",
+    "n": 14,
+    "priority": "normal"
+  },
+  "Salud/Clínica": {
+    "hint_clients": ["Libra Seguros", "Destiny Group"],
+    "dossier_pct": 33.3,
+    "confidence": "INSUFFICIENT",
+    "n": 6,
+    "priority": "normal"
+  },
+  "default": {
+    "hint_clients": ["Destiny Group", "Libra Seguros"],
+    "dossier_pct": 25.1,
+    "confidence": "UNKNOWN",
+    "n": 0,
+    "priority": "normal"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "narrativa/comunicacion": {
+    "rotate_to": "eficiencia o ROI concreto",
+    "description": "Si MSG2 habló de narrativa o comunicación, SEG1 habla de resultados medibles"
+  },
+  "branding/identidad": {
+    "rotate_to": "posicionamiento personal del prospecto",
+    "description": "Si MSG2 habló de branding de empresa, SEG1 habla de visibilidad personal del prospecto"
+  },
+  "contenido/alcance": {
+    "rotate_to": "reducción de carga operativa",
+    "description": "Si MSG2 habló de contenido o alcance, SEG1 habla de cuánto trabajo le saca al equipo"
+  },
+  "paid media/campañas": {
+    "rotate_to": "coherencia entre canales",
+    "description": "Si MSG2 habló de paid media, SEG1 habla de consistencia narrativa omnicanal"
+  },
+  "vocería/CEO branding": {
+    "rotate_to": "legibilidad profesional fuera de la empresa actual",
+    "description": "Si MSG2 habló de vocería, SEG1 habla de lo que ese trabajo le deja al prospecto como persona"
+  },
+  "default": {
+    "rotate_to": "win personal del prospecto",
+    "description": "Sin ángulo identificado en MSG2, rotar hacia beneficio personal"
+  }
+}

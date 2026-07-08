@@ -1,0 +1,47 @@
+{
+  "forbidden_phrases": [
+    "Gracias por la apertura",
+    "por la apertura",
+    "con apertura",
+    "me abre la posibilidad",
+    "Por eso pensé en escribirte",
+    "Por eso te escribo",
+    "Te escribo porque",
+    "Es un desafío que vemos seguido",
+    "Justamente por eso",
+    "Exactamente donde trabajamos",
+    "Muchas empresas",
+    "Somos una agencia",
+    "No sé si viste",
+    "Quedo atento",
+    "Quedo atenta",
+    "Cualquier duda",
+    "Más allá del dossier",
+    "Retomo",
+    "Vuelvo a escribirte",
+    "No quería dejar de escribirte",
+    "Quería hacer seguimiento",
+    "No sé si viste el material"
+  ],
+  "forbidden_patterns": [
+    "Vi que sos",
+    "Veo que sos",
+    "Como responsable de",
+    "Como gerente de"
+  ],
+  "forbidden_attributions": [
+    "me comentabas",
+    "como me contabas",
+    "me decías que"
+  ],
+  "forbidden_personality_claims": [
+    "elegiste",
+    "entendiste",
+    "pocas personas hacen eso"
+  ],
+  "forbidden_formatting": [
+    "—",
+    "¡",
+    "¿"
+  ]
+}

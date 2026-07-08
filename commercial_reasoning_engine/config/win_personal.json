@@ -1,0 +1,26 @@
+{
+  "CEO": [
+    "tener una conversación entre iguales sobre un problema real de la industria",
+    "que su visión personal sea legible más allá de la empresa que dirige"
+  ],
+  "DIRECTOR": [
+    "que su voz personal sea legible y consistente en el mercado",
+    "llevarse una perspectiva de cómo otros directores resuelven el mismo desafío",
+    "quedar bien posicionado ante su próximo movimiento profesional"
+  ],
+  "MANAGER": [
+    "reducir el volumen de trabajo que recae en su equipo directo",
+    "no quedar expuesto ante su jefe cuando algo no funciona",
+    "aprenderse algo aplicable a su trabajo inmediato"
+  ],
+  "SPECIALIST": [
+    "aprenderse algo aplicable a su trabajo inmediato",
+    "reducir el volumen de trabajo que recae en su equipo directo",
+    "quedar bien posicionado ante su próximo empleador"
+  ],
+  "OTHER": [
+    "quedar bien posicionado ante su próximo empleador o cliente",
+    "reducir el volumen de trabajo que recae en su equipo directo",
+    "que su expertise acumulado sea legible fuera de su empresa actual"
+  ]
+}

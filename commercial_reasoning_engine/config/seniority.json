@@ -1,0 +1,42 @@
+{
+  "CEO": {
+    "strategy": "ENTRE_PARES",
+    "meeting_justification": "conversación entre iguales sobre un problema real de la industria",
+    "cta_example": "Me interesa conocer cómo lo están abordando ustedes. Creo que podemos tener una conversación interesante.",
+    "dossier_pct": 10.0,
+    "n": 10,
+    "note": "Bajo rendimiento en frío. Solo contactar si Director lo sugiere o hay señal fuerte."
+  },
+  "DIRECTOR": {
+    "strategy": "ENTRE_PARES",
+    "meeting_justification": "perspectiva de cómo otros resuelven el mismo desafío",
+    "cta_example": "Creo que sería una buena conversación para intercambiar experiencias.",
+    "dossier_pct": 27.3,
+    "n": 11,
+    "note": "Mejor seniority para primer contacto."
+  },
+  "MANAGER": {
+    "strategy": "CONSULTIVA",
+    "meeting_justification": "mostrar casos concretos y compartir una metodología aplicable",
+    "cta_example": "Te muestro cómo lo resolvimos con otras empresas.",
+    "dossier_pct": 20.6,
+    "n": 34,
+    "note": "Reunión como aprendizaje aplicable inmediato."
+  },
+  "SPECIALIST": {
+    "strategy": "CONSULTIVA",
+    "meeting_justification": "resolver un problema concreto con metodología probada",
+    "cta_example": "Te muestro cómo lo resolvimos con otras empresas.",
+    "dossier_pct": 25.0,
+    "n": 8,
+    "note": "Datos insuficientes para confianza alta."
+  },
+  "OTHER": {
+    "strategy": "EXPLORATORIO",
+    "meeting_justification": null,
+    "cta_example": null,
+    "dossier_pct": 25.9,
+    "n": 363,
+    "note": "Clasificar mejor antes de proponer reunión."
+  }
+}
