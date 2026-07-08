@@ -5,7 +5,7 @@
 **Empresa:** Federación Panameña de Fútbol (FEPAFUT)
 **Pais:** Panamá
 **Sector:** Institucional / Deportes
-**Estado:** MSG2 enviado — 07/07/26
+**Estado:** Dossier enviado — 08/07/26
 
 ---
 
@@ -40,6 +40,11 @@
 > Lo que describiste del equipo de prensa me generó una pregunta: con FEPAFUT en este momento histórico, cómo sostenés la profundidad de la narrativa cuando los logros llegan más rápido de lo que se pueden documentar bien?
 > Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a organizaciones en construir la capa de comunicación que va entre los eventos, la que sostiene la imagen cuando no hay partido. Trabajamos con Destiny Group en comunicación corporativa.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> Buen día, Florencia. Como estás? Claro, puedes enviarlo por aquí sin problemas.
 
 ---
 
