@@ -5,7 +5,7 @@
 **Empresa:** Chile
 **Pais:** Chile
 **Sector:** Minería
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,20 @@
 > Me llamó la atención la reflexión que compartiste sobre el año en Candelaria. Lo que más me gustó fue que le dieras tanto crédito a la comunidad colaborativa detrás, en vez de solo celebrar el logro puntual. No suele ser lo primero que nombra la gente cuando habla de un rol de comunicación.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> "Hola Florencia 👋 cómo estás? Cuéntame"
+> Fecha: 09/07/26 — ~2hs después
+
+---
+
+## MSG2
+> Buenas Valeska! Bien por acá.
+> Eso que describís en la publicación de Candelaria, comunicar cambio a perfiles que lo viven muy distinto según su rol, me parece uno de los desafíos más difíciles de sostener. Como gestionás la coherencia del mensaje cuando Change Management toca al mismo tiempo a operaciones, management y comunidades?
+> Trabajo en Hint Media con empresas de infraestructura como TGS y Transener, ayudando a construir la capa de comunicación corporativa: mensajes consistentes para audiencias complejas sin que eso dependa solo del equipo interno de comms.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 

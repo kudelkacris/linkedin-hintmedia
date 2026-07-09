@@ -5,7 +5,7 @@
 **Empresa:** Chile
 **Pais:** Chile
 **Sector:** Minería (Energía/Infraestructura)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,20 @@
 > Me llamó la atención la forma en que escribiste sobre la campaña de Arena Cavancha. No empezaste por el premio Eikon, sino por la alianza entre municipalidad, compañía y comunidad. Eso dice algo sobre cómo ves el trabajo que estás haciendo.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> "😉 🤗 😄 Hola Florencia, gusto en saludarte! Cuéntame en qué puedo ayudarte."
+> Fecha: 09/07/26 — ~1hs después
+
+---
+
+## MSG2
+> Buenas Matias! Todo bien, gracias.
+> Cuando una iniciativa como la de Arena Cavancha funciona, cómo lográs que esa historia llegue más lejos que el propio ecosistema de Collahuasi?
+> Trabajo en Hint Media con empresas de infraestructura y energía como TGS y Transener, ayudando a construir la capa de comunicación institucional: que las iniciativas de relacionamiento con comunidades tengan el alcance que merecen y no queden solo dentro del círculo corporativo.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 

@@ -5,7 +5,7 @@
 **Empresa:** España
 **Pais:** España
 **Sector:** Liderazgo/Talento/Equidad + CPG/Retail (como contexto operativo actual)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,20 @@
 > Me llamó la atención la publicación sobre la charla con Antonio Gómez De la Vega. No fue lo típico de "agradecimiento corporativo." Dijiste literalmente que leer abre puertas pero conversar las cruza. Eso me quedó. Porque si hay algo que vemos poco en marcas que crecen en múltiples mercados es precisamente eso: mantener conversación real sin que termine siendo solo contenido o presentación.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> "Gracias z 😉 🤗 😄 Florencia. En qué puedo serte de ayuda?"
+> Fecha: 09/07/26 — ~24 min después
+
+---
+
+## MSG2
+> Buenas Roser! Acá te cuento.
+> Cómo gestionás la consistencia de tu narrativa cuando operás en mercados culturalmente tan distintos al mismo tiempo, España, Países Bajos, USA? Lo que resuena en uno no siempre traduce igual en el otro.
+> Trabajo en Hint Media con directivos y equipos de consultoría como Destiny Group, ayudando a construir la capa de comunicación estratégica: que la voz del liderazgo sea reconocible y consistente en múltiples mercados, sin depender de presencia directa en cada uno.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 
