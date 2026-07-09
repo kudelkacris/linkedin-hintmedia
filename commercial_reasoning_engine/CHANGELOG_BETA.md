@@ -38,7 +38,7 @@ Este archivo registra cada cambio introducido al CRE durante y después de la Be
 
 **Dataset:** `beta_dataset/` (10 conversaciones, congeladas)  
 **Versión CRE:** v1.0 (commit 4aadf20)  
-**Fecha inicio:** —  
+**Fecha inicio:** 2026-07-09  
 **Fecha cierre:** —
 
 ### Resultados
@@ -47,7 +47,7 @@ Este archivo registra cada cambio introducido al CRE durante y después de la Be
 |------|------|-----------|-------------|----------------------|-------------|
 | 001 | MSG2 LOW | — | — | — | — |
 | 002 | MSG2 MEDIUM | — | — | — | — |
-| 003 | MSG2 HIGH | — | — | — | — |
+| 003 | MSG2 HIGH | FALSE POSITIVE parcial | Analyzer | 4 min | Engagement LOW (deberia ser HIGH). Silvia corrige el encuadre = respuesta assertiva. Analyzer no detecta engagement en respuestas correctivas. Strategy EXPLORATORIA en lugar de ENTRE_PARES. |
 | 004 | SEG1 LOW | — | — | — | — |
 | 005 | SEG1 MEDIUM | — | — | — | — |
 | 006 | SEG1 HIGH | — | — | — | — |
