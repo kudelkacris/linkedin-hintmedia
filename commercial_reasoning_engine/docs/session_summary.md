@@ -1,28 +1,37 @@
 # Session Summary — CRE Beta
 
 **Fecha:** 2026-07-09
-**Estado:** SPRINT BETA 3 — CONTEXTOS EXPORTADOS
+**Estado:** SPRINT BETA 1 COMPLETADO
 
 ---
 
-## SPRINT BETA 3
-
-Arquitectura: LLM-agnostica. Sin API obligatoria.
-Adapters disponibles: ContextOnly, OpenAICompatible, Claude (opcional).
+## SPRINT BETA 1
 
 Casos analizados: 15
-Contextos exportados: 15
-Bloqueados: 0
 
-Output: sprint_beta3_output/ (15 archivos .txt)
+PASS: 11
+EXPECTED FAIL: 0
+FALSE POSITIVE: 0
+FALSE NEGATIVE: 4
 
-Proximos pasos:
-- Pegar cada .txt en cualquier LLM (Claude Code / ChatGPT / Ollama)
-- Evaluar con rubrica manual (/10 por criterio x 8 criterios)
-- Identificar patron de fallos (Prompt / Context Builder / Strategy Builder)
+Errores por modulo:
+Analyzer: 0
+Evidence: 0
+Classifier: 4
+Strategy: 0
+Context: 0
+LLM: 0
+Reviewer: 0
+
+Tiempo promedio hasta identificar modulo raiz: 0.0s
+
+Recomendacion para Sprint Beta 2:
+Corregir modulo Classifier (4 errores) antes de SEG1.
 
 ---
 
-Sprint Beta 1 (MSG2 decision): 15/15 PASS
-Sprint Beta 2 (SEG1 decision): 6/8 PASS + 2 EXPECTED FAIL
-Sprint Beta 3 (LLM context):   15/15 contextos exportados
+### Detalle casos no-PASS
+- [Pedro Andrés Miranda Borie] FALSE NEGATIVE | Modulo: Classifier | Motor dijo NONE en lugar de MSG2
+- [Laura Tomas Palau] FALSE NEGATIVE | Modulo: Classifier | Motor dijo NONE en lugar de MSG2
+- [Maria Belen Benitez] FALSE NEGATIVE | Modulo: Classifier | Motor dijo NONE en lugar de MSG2
+- [Sebastián Estévez] FALSE NEGATIVE | Modulo: Classifier | Motor dijo NONE en lugar de MSG2

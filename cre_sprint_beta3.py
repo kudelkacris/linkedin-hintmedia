@@ -52,7 +52,9 @@ def sec(text, name):
     nxt = re.search(r'^##\s+', text[start:], re.MULTILINE)
     end = start + nxt.start() if nxt else len(text)
     raw = text[start:end].strip()
-    return '\n'.join(l[1:].strip() if l.strip().startswith('>') else l for l in raw.splitlines()).strip()
+    lines = [l[1:].strip() if l.strip().startswith('>') else l for l in raw.splitlines()]
+    lines = [l for l in lines if l.strip() not in ('---', '***', '___')]
+    return '\n'.join(lines).strip()
 
 # ── Runner ────────────────────────────────────────────────────────────────────
 
@@ -63,7 +65,7 @@ def run_case(p, adapter):
 
     seniority = meta(text, 'Seniority')
     sector    = meta(text, 'Sector')
-    name_m    = re.search(r'^# Benchmark.*?-- (.+)$', text, re.MULTILINE)
+    name_m    = re.search(r'—\s*([^—\n]+)\s*$', text, re.MULTILINE)
     name      = name_m.group(1).strip() if name_m else p.stem
 
     msg1  = sec(orig, 'MSG1')

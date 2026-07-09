@@ -75,7 +75,7 @@ def run_case(p):
     seniority = meta(text, 'Seniority')
     sector    = meta(text, 'Sector')
     engagement = meta(text, 'Engagement')
-    name_m = re.search(r'^# Benchmark.*?-- (.+)$', text, re.MULTILINE)
+    name_m = re.search(r'—\s*([^—\n]+)\s*$', text, re.MULTILINE)
     name = name_m.group(1).strip() if name_m else p.stem
 
     # Build conversation: MSG1 + RespMSG1 + MSG2 (+ RespMSG2 if exists)

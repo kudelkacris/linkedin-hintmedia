@@ -17,7 +17,17 @@ _HINT_SIGNALS = re.compile(
     r'|trabajamos con'
     r'|Libra Seguros|Destiny Group|TGS|Transener|Tasarolli'
     r'|por acá si no es mucha molestia'
-    r'|indicarías a quién',
+    r'|indicarías a quién'
+    r'|ten[íi]a una consulta'
+    r'|quer[íi]a saber si me pod[íi]as'
+    r'|quer[íi]a consultarte'
+    r'|quer[íi]a preguntarte',
+    re.IGNORECASE,
+)
+
+# Signals that a block was written by the prospect (override hint detection)
+_PROSPECT_SIGNALS = re.compile(
+    r'^(?:Hola|Buenas|Buenos\s+d[íi]as)\s+Florencia',
     re.IGNORECASE,
 )
 
@@ -96,15 +106,18 @@ def _label_speakers(blocks: List[str], prospect_name: str) -> List[Message]:
     Assign 'hint' or 'prospect' to each block.
 
     Strategy:
-    1. Explicit signal match → 'hint'
-    2. Emoji-only block → 'prospect'
-    3. First block with no signals → 'hint' (MSG1 is always from Hint)
-    4. Alternating fallback using previous speaker
+    1. Explicit prospect signal (addresses Florencia) → 'prospect'
+    2. Explicit hint signal match → 'hint'
+    3. Emoji-only block → 'prospect'
+    4. First block with no signals → 'hint' (MSG1 is always from Hint)
+    5. Alternating fallback using previous speaker
     """
     messages: List[Message] = []
 
     for i, block in enumerate(blocks):
-        if _is_hint_block(block):
+        if _PROSPECT_SIGNALS.match(block.strip()):
+            speaker = "prospect"
+        elif _is_hint_block(block):
             speaker = "hint"
         elif _EMOJI_ONLY.match(block):
             speaker = "prospect"
