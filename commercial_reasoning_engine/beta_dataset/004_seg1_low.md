@@ -1,14 +1,14 @@
-# Caso 006 — Edge Case / Objeción
+# Caso 004 — SEG1 / Engagement LOW
 
-**Tipo:** Edge  
-**Engagement esperado:** —  
+**Tipo:** SEG1  
+**Engagement esperado:** LOW  
 **Sector:** —  
 **Seniority:** —
 
 ## Conversación
 
 <!-- Pegar conversación real de LinkedIn aquí -->
-<!-- El prospecto respondió con una objeción directa o cerró la conversación. -->
+<!-- El dossier fue enviado. No hubo respuesta. Poco intercambio previo. -->
 
 ---
 
@@ -21,4 +21,4 @@
 
 ## Criterio humano
 
-<!-- ¿Qué hubiera escrito Florencia? ¿O hubiera elegido no escribir? -->
+<!-- ¿Qué hubiera escrito Florencia? -->

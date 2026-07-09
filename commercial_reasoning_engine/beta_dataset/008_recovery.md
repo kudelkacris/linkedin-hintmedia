@@ -1,4 +1,4 @@
-# Caso 009 — Edge Case / Recovery
+# Caso 008 — Recovery
 
 **Tipo:** Edge  
 **Engagement esperado:** —  

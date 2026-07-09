@@ -1,14 +1,14 @@
-# Caso 003 — SEG1 / Engagement LOW
+# Caso 009 — Edge Case / Respuesta Rara
 
-**Tipo:** SEG1  
-**Engagement esperado:** LOW  
+**Tipo:** Edge  
+**Engagement esperado:** —  
 **Sector:** —  
 **Seniority:** —
 
 ## Conversación
 
 <!-- Pegar conversación real de LinkedIn aquí -->
-<!-- El dossier fue enviado. No hubo respuesta. Poco intercambio previo. -->
+<!-- El prospecto respondió con una objeción directa, mensaje ambiguo, o cerró la conversación. -->
 
 ---
 

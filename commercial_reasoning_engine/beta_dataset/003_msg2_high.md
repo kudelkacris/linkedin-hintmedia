@@ -1,4 +1,4 @@
-# Caso 007 — MSG2 / Engagement HIGH
+# Caso 003 — MSG2 / Engagement HIGH
 
 **Tipo:** MSG2  
 **Engagement esperado:** HIGH  

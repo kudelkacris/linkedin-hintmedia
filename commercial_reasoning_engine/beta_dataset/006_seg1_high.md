@@ -1,4 +1,4 @@
-# Caso 004 — SEG1 / Engagement HIGH
+# Caso 006 — SEG1 / Engagement HIGH
 
 **Tipo:** SEG1  
 **Engagement esperado:** HIGH  
@@ -21,4 +21,4 @@
 
 ## Criterio humano
 
-<!-- ¿Qué hubiera escrito Florencia? -->
+<!-- ¿Qué hubiera escrito Florencia? ¿O hubiera elegido no escribir? -->
