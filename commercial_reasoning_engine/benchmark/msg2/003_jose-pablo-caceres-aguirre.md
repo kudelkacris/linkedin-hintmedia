@@ -1,4 +1,4 @@
-# Benchmark — MSG2 — jose-pablo-caceres-aguirre
+# Benchmark — MSG2 — José Pablo Cáceres Aguirre
 
 **Fuente:** conversaciones/junio/jose-pablo-caceres-aguirre.md
 **Categoria:** MSG2

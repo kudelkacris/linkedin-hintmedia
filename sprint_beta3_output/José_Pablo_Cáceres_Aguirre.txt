@@ -47,3 +47,57 @@ VOCABULARIO PROHIBIDO (corporate speak que destruye la naturalidad):
 - "apalancar" / "tracción" / "sinergia"
 - "propuesta de valor"
 - Cualquier combinación de "líder" + abstracción de management
+
+
+---
+
+PROSPECTO: José Pablo Cáceres Aguirre
+TONO: conversacional y curioso — aportar valor, no presionar
+OBJETIVO: Presentar Hint y conseguir permiso para enviar dossier
+MODO: NORMAL
+
+APERTURA OBLIGATORIA:
+  Hola Florencia, cómo estás!
+
+ESTRUCTURA DE BURBUJAS:
+  B1: Conectar con la respuesta del prospecto. Máx 2 líneas. Citar sus palabras exactas.
+  B2: Aportar UNA idea o hacer UNA pregunta específica a su realidad. Máx 2 líneas.
+  B3: Presentar Hint en una oración: qué hacemos + con quién trabajamos + por qué le escribimos.
+  B4: Explicar qué contiene el dossier + pedir permiso con la frase fija del CTA.
+
+PERMITIDO MENCIONAR:
+  - apertura desde: 'Hola Florencia, cómo estás!'
+  - Hint Media — agencia omnicanal (cliente de referencia: Destiny Group)
+  - dossier — explicar qué contiene antes del CTA, nunca solo pedir permiso
+  - win personal del prospecto: reducir el volumen de trabajo que recae en su equipo directo
+
+PROHIBIDO MENCIONAR:
+  - abrir con el cargo o empresa del prospecto
+  - resumir el perfil del prospecto
+  - proponer reunión
+
+CITAS EXACTAS (podés usar estas palabras verbatim):
+  "Hola Florencia, cómo estás!"
+  "Gracias por tu mensaje!"
+  "Cómo te puedo apoyar?"
+
+NO PRESENTAR COMO HECHOS (son inferencias, nunca hechos confirmados):
+  "Prospecto en sector: Otro"
+  "Seniority: MANAGER"
+
+CLIENTE DE REFERENCIA: Destiny Group
+
+WIN PERSONAL DEL PROSPECTO:
+  reducir el volumen de trabajo que recae en su equipo directo
+
+CTA:
+  Te puedo enviar un dossier breve por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+FORMATO:
+  Saludo obligatorio: Buenas José!
+  Sin guion largo (—). Usar punto o coma.
+  Sin ¡ ni ¿. Solo ! y ? de cierre.
+  Separador entre burbujas: salto simple (no línea en blanco).
+  Máx 2 líneas por burbuja.
+
+Escribí el mensaje ahora. Solo el texto del mensaje. Sin etiquetas. Sin explicaciones.

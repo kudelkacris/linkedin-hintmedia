@@ -29,6 +29,11 @@ from ..schemas.strategy import StrategyDecision, ConversationMode
 from ..schemas.context import LLMContext, FormatRules
 
 
+def _first_name(full_name: str) -> str:
+    """Extract first name only for greetings. 'Pedro Andrés Miranda' → 'Pedro'."""
+    return full_name.strip().split()[0] if full_name.strip() else full_name
+
+
 def build(
     analysis: AnalysisResult,
     inventory: EvidenceInventory,
@@ -59,7 +64,7 @@ def build(
         conversation_mode=decision.conversation_mode.value,
         bubbles=decision.bubbles,
         format_rules=FormatRules(
-            greeting=f"Buenas {prospect_name}!" if prospect_name else "Buenas!",
+            greeting=f"Buenas {_first_name(prospect_name)}!" if prospect_name else "Buenas!",
         ),
     )
 
