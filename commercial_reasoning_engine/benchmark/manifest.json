@@ -1,0 +1,290 @@
+[
+  {
+    "file": "seg2/001_margarita-jaramillo.md",
+    "name": "Margarita Jaramillo",
+    "category": "SEG2",
+    "seniority": "DIRECTOR",
+    "sector": "Marketing",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg2/002_zayhani-rodriguez.md",
+    "name": "Zayhani Rodríguez",
+    "category": "SEG2",
+    "seniority": "MANAGER",
+    "sector": "Otro",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg2/003_fabi-n-ignacio-corbal-n-beltr-n.md",
+    "name": "Fabián Ignacio Corbalán Beltrán",
+    "category": "SEG2",
+    "seniority": "OTHER",
+    "sector": "Marketing",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "recovery/001_elizabeth-cabrera.md",
+    "name": "Elizabeth Cabrera",
+    "category": "RECOVERY",
+    "seniority": "MANAGER",
+    "sector": "Energia",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "recovery/002_mariana-ossandon-vera.md",
+    "name": "Mariana Ossandón Vera",
+    "category": "RECOVERY",
+    "seniority": "OTHER",
+    "sector": "Otro",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "edge/001_claudia-cardemil.md",
+    "name": "Claudia Cardemil",
+    "category": "EDGE",
+    "seniority": "OTHER",
+    "sector": "Otro",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "edge/002_cesar-maldonado.md",
+    "name": "César Maldonado S.",
+    "category": "EDGE",
+    "seniority": "OTHER",
+    "sector": "Otro",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "wait/001_janire-sainz-castro.md",
+    "name": "Janire Sainz Castro",
+    "category": "WAIT",
+    "seniority": "MANAGER",
+    "sector": "Marketing",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "wait/002_sarah-valencia-lacouture.md",
+    "name": "Sarah Valencia Lacouture",
+    "category": "WAIT",
+    "seniority": "OTHER",
+    "sector": "Turismo",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/001_andr-s-cort-s-andrade.md",
+    "name": "Andrés Cortés Andrade",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Marketing",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/002_pedro-andres-miranda-borie.md",
+    "name": "Pedro Andrés Miranda Borie",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Tech",
+    "engagement": "HIGH",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/003_jose-pablo-caceres-aguirre.md",
+    "name": "jose-pablo-caceres-aguirre",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Otro",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/004_richard-sandi-campos.md",
+    "name": "Richard Sandi Campos",
+    "category": "MSG2",
+    "seniority": "DIRECTOR",
+    "sector": "Salud",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/005_catalina-pavia.md",
+    "name": "Catalina Pavia",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Energia",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/006_huanda-aguilar.md",
+    "name": "Huanda Aguilar",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Retail",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/007_laura-tomas-palau.md",
+    "name": "Laura Tomas Palau",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Otro",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/008_maria-belen-benitez.md",
+    "name": "Maria Belen Benitez",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Educacion",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/009_sebasti-n-est-vez.md",
+    "name": "Sebastián Estévez",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Finanzas",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "msg2/010_gabriela-hidalgo-castro.md",
+    "name": "Gabriela Hidalgo Castro",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Retail",
+    "engagement": "HIGH",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "msg2/011_carolina-mendoza.md",
+    "name": "Carolina Mendoza",
+    "category": "MSG2",
+    "seniority": "MANAGER",
+    "sector": "Otro",
+    "engagement": "HIGH",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "msg2/012_daniela-leiton-salazar.md",
+    "name": "Daniela Leitón Salazar",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Otro",
+    "engagement": "HIGH",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "msg2/013_david-spaggiari.md",
+    "name": "David Spaggiari",
+    "category": "MSG2",
+    "seniority": "CEO",
+    "sector": "Salud",
+    "engagement": "HIGH",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "msg2/014_ana-maria-urrea-g.md",
+    "name": "Ana Maria Urrea G",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Marketing",
+    "engagement": "MEDIUM",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "msg2/015_carolina-cabrera.md",
+    "name": "Carolina Cabrera",
+    "category": "MSG2",
+    "seniority": "OTHER",
+    "sector": "Energia",
+    "engagement": "MEDIUM",
+    "complexity": "MEDIUM"
+  },
+  {
+    "file": "seg1/001_ingrith-mu-oz-herrera.md",
+    "name": "Ingrith Muñoz Herrera",
+    "category": "SEG1",
+    "seniority": "OTHER",
+    "sector": "Tech",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/002_robinson-carrera-astudillo.md",
+    "name": "Robinson Carrera Astudillo",
+    "category": "SEG1",
+    "seniority": "MANAGER",
+    "sector": "Energia",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/003_clara-ruiz-casallas.md",
+    "name": "Clara Ruiz Casallas",
+    "category": "SEG1",
+    "seniority": "OTHER",
+    "sector": "Energia",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/004_elisa-schipani.md",
+    "name": "Elisa Schipani",
+    "category": "SEG1",
+    "seniority": "OTHER",
+    "sector": "Otro",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/005_juan-puyo.md",
+    "name": "juan-puyo",
+    "category": "SEG1",
+    "seniority": "CEO",
+    "sector": "Otro",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/006_paula-quijada.md",
+    "name": "Paula Quijada",
+    "category": "SEG1",
+    "seniority": "DIRECTOR",
+    "sector": "Otro",
+    "engagement": "MEDIUM",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/007_diana-kuhlmann.md",
+    "name": "Diana Kuhlmann",
+    "category": "SEG1",
+    "seniority": "CEO",
+    "sector": "Tech",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  },
+  {
+    "file": "seg1/008_pedro-vita.md",
+    "name": "Pedro Vita",
+    "category": "SEG1",
+    "seniority": "MANAGER",
+    "sector": "Otro",
+    "engagement": "LOW",
+    "complexity": "HIGH"
+  }
+]
