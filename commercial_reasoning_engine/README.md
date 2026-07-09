@@ -36,11 +36,13 @@ if result.approved:
 
 ## Documentos constitucionales
 
-| Documento | Rol |
-|-----------|-----|
-| `ARCHITECTURE_LOCK.md` | Cómo está construido el CRE |
-| `docs/beta_protocol.md` | Cómo se valida el CRE |
-| `CHANGELOG_BETA.md` | Qué cambió, por qué, con qué evidencia |
+| Documento | Pregunta que responde |
+|-----------|----------------------|
+| `README.md` | ¿Qué es el CRE? |
+| `ARCHITECTURE_LOCK.md` | ¿Cómo está construido? |
+| `docs/beta_protocol.md` | ¿Cómo sabemos si funciona bien? |
+| `docs/DESIGN_DECISIONS.md` | ¿Por qué está construido así? |
+| `CHANGELOG_BETA.md` | ¿Cómo fue mejorando? |
 
 ## KPIs
 
