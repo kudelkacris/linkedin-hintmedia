@@ -4,6 +4,18 @@
 
 ---
 
+| | |
+|-|-|
+| **Versión** | v1.0 |
+| **Estado** | Stable |
+| **Tests** | 317 |
+| **Arquitectura** | Congelada |
+| **Motor** | Determinístico |
+| **LLM** | Claude (swappable) |
+| **Última Beta** | Pendiente |
+
+---
+
 ## Qué es
 
 Motor de razonamiento comercial para outreach de LinkedIn (Hint Media).
@@ -40,8 +52,9 @@ if result.approved:
 |-----------|----------------------|
 | `README.md` | ¿Qué es el CRE? |
 | `ARCHITECTURE_LOCK.md` | ¿Cómo está construido? |
+| `docs/ENGINE_PHILOSOPHY.md` | ¿Para qué existe? ¿Qué principios lo gobiernan? |
+| `docs/DESIGN_DECISIONS.md` | ¿Por qué cada decisión es como es? |
 | `docs/beta_protocol.md` | ¿Cómo sabemos si funciona bien? |
-| `docs/DESIGN_DECISIONS.md` | ¿Por qué está construido así? |
 | `CHANGELOG_BETA.md` | ¿Cómo fue mejorando? |
 
 ## KPIs
@@ -53,8 +66,6 @@ if result.approved:
 | Impacto del fix | +n/10 | El motor está aprendiendo |
 | Distancia del fix | 1 módulo | Integridad de la arquitectura |
 
-Si la distancia del fix sube consistentemente por encima de 1, el diseño está degradándose.
-
 ## Tests
 
 317 tests — HITO 1 al 9.
@@ -62,6 +73,16 @@ Si la distancia del fix sube consistentemente por encima de 1, el diseño está 
 ```
 pytest commercial_reasoning_engine/tests/
 ```
+
+## Roadmap
+
+| Versión | Foco |
+|---------|------|
+| **v1.0** | Pipeline completo, arquitectura congelada ← *actual* |
+| **v1.1** | Mejoras al Analyzer y Strategy Builder basadas en Beta |
+| **v1.2** | Mejores prompts y rotación de ángulos |
+| **v2.0** | Multi-idioma (español / inglés) |
+| **v3.0** | Razonamiento probabilístico sobre historial de conversiones |
 
 ## Versión
 
