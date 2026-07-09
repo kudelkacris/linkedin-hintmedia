@@ -402,6 +402,44 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({'ok': False, 'msg': str(e)}).encode('utf-8'))
 
+        elif self.path == '/api/cre':
+            try:
+                import sys as _sys
+                _sys.path.insert(0, BASE_DIR)
+                from commercial_reasoning_engine.analyzer.parser import parse as _cre_parse
+                from commercial_reasoning_engine.run import run as _cre_run
+                from commercial_reasoning_engine.llm.context_only_adapter import ContextOnlyAdapter as _CREAdapter
+
+                d = json.loads(body)
+                conv_text      = d.get('conversation', '')
+                prospect_name  = d.get('prospect_name', '') or None
+                sector         = d.get('sector', '')
+                seniority      = d.get('seniority', '')
+                stage          = d.get('stage', '1')
+
+                prospect_data = {'stage': stage, 'sector': sector, 'cargo_seniority': seniority}
+                conversation  = _cre_parse(conv_text, prospect_name=prospect_name)
+                adapter       = _CREAdapter()
+                result        = _cre_run(conversation, adapter=adapter, prospect_data=prospect_data)
+
+                if result.blocked:
+                    resp = {'blocked': True, 'block_reason': result.block_reason, 'prompt': None}
+                else:
+                    prompt = adapter.build_prompt(result.context)
+                    resp = {'blocked': False, 'block_reason': None, 'prompt': prompt}
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(resp, ensure_ascii=False).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+
         else:
             self.send_response(404)
             self.end_headers()
