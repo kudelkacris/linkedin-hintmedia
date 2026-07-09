@@ -5,7 +5,7 @@
 **Empresa:** YMCA Colombia
 **Pais:** Colombia
 **Sector:** ONG / Social / Comunicacion Estrategica
-**Estado:** MSG2 enviado 01/07/26
+**Estado:** Dossier enviado 08/07/26
 
 ---
 
@@ -24,6 +24,16 @@
 > Lo que me quedo es que lo que escribiste sobre la convencion no era solo una cobertura de evento, era una lectura de por que ese encuentro importaba. Esa capacidad de leer el proposito detras de lo que pasa, y contarlo con esa capa, es exactamente lo que mas cuesta replicar cuando el volumen de contenido crece y los tiempos se achican.
 > En Hint Media acompanamos equipos de comunicacion que necesitan sostener esa calidad de narrativa con mas capacidad de ejecucion. Trabajamos con Destiny Group y Libra Seguros en ese tipo de estructuras.
 > Te puedo enviar un dossier por aca si no es mucha molestia, o me indicarias a quien se lo puedo mandar?
+
+## Respuesta MSG2 (08/07/26)
+> 😉🤗😄
+> Hola, Florencia. Siento responderte hasta ahora. Ando saliendo de una incapacidad medica.
+> Por acá está bien. Me interesa saber con más claridad en qué te soy útil.
+
+## MSG3 / Dossier (08/07/26)
+> Buenas Santiago! Sin apuro, ojalá la recuperación vaya bien.
+> Para que quede claro: no te pedí ayuda para mí. Vine a ver si lo que hacemos desde Hint Media te puede servir a vos. Acompañamos profesionales y equipos de comunicación que quieren mantener esa calidad narrativa cuando el volumen crece y los tiempos se achican.
+> Ya que dijiste que por acá está bien, te mando el dossier.
 
 ---
 

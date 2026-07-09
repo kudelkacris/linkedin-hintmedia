@@ -21,9 +21,9 @@
 Dossier mandado por LinkedIn. Respondió con 4 emojis positivos (😉🤗😄👍) el 29/06.
 
 ## SEG1 enviado (08/07/26)
-> Buenas Carla!
-> Esa lectura que trajiste del Summit, que la relación va antes que la herramienta, no es lo más común en equipos de marketing de empresas grandes. Me quedé pensando si ese enfoque que tenés también está siendo legible afuera de Novartis, en tu perfil profesional.
-> Creo que vale una charla de 20 minutos. Te queda algún momento esta semana?
+> Buenas Carla! Esa frase del evento de Yoizen me quedó dando vueltas.
+> Implementar omnicanalidad con foco humano es una cosa en la estrategia. La parte difícil suele ser sostenerlo cuando hay campañas corriendo, herramientas nuevas que integrar y resultados que reportar.
+> Si eso resuena con algo de lo que estás viendo en Novartis, con gusto lo conversamos.
 
 ## Notas
 - Marketing Associate en Novartis, foco en omnichannel marketing y customer engagement.
