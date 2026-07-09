@@ -1496,48 +1496,15 @@ async function handleReply(stepNum) {
 
   state.conversationHistory.push({ role: 'received', text: replyText });
 
-  try {
-    // ── Intentar CRE pipeline primero ──────────────────────────────────────
-    const sentMsgs = state.conversationHistory.filter(m => m.role === 'sent' || m.role === 'suggested');
-    const msg1Text = sentMsgs.length > 0 ? sentMsgs[0].text : '';
-    const isMSG2   = sentMsgs.length <= 1; // solo hay MSG1 enviado
+  const historyText = state.conversationHistory.map(m => {
+    if(m.role==='system') return `[CONTEXTO: ${m.text}]`;
+    if(m.role==='sent') return `FLORENCIA ENVIÓ:\n${m.text}`;
+    if(m.role==='received') return `PROSPECT RESPONDIÓ:\n${m.text}`;
+    if(m.role==='suggested') return `FLORENCIA ENVIÓ:\n${m.text}`;
+    return '';
+  }).join('\n\n---\n\n');
 
-    let text;
-
-    if (isMSG2 && msg1Text) {
-      try {
-        const creRes = await fetch('/api/cre', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            conversation: msg1Text + '\n\n' + replyText,
-            prospect_name: histExtractName(state.profile) || '',
-            sector:    state.lastAnalysis?.sector    || '',
-            seniority: state.lastAnalysis?.seniority || '',
-            stage: '1'
-          })
-        });
-        if (creRes.ok) {
-          const creData = await creRes.json();
-          if (!creData.blocked && creData.prompt) {
-            const creMsg = await callAPI(creData.prompt, '');
-            renderCREResponse(stepNum, replyText, creMsg);
-            return;
-          }
-        }
-      } catch(_) { /* CRE falló — caer al flujo original */ }
-    }
-
-    // ── Flujo original (SEG1, SEG2, o CRE bloqueado) ──────────────────────
-    const historyText = state.conversationHistory.map(m => {
-      if(m.role==='system') return `[CONTEXTO: ${m.text}]`;
-      if(m.role==='sent') return `FLORENCIA ENVIÓ:\n${m.text}`;
-      if(m.role==='received') return `PROSPECT RESPONDIÓ:\n${m.text}`;
-      if(m.role==='suggested') return `FLORENCIA ENVIÓ:\n${m.text}`;
-      return '';
-    }).join('\n\n---\n\n');
-
-    const prompt = `CONVERSACIÓN EN CURSO:
+  const prompt = `CONVERSACIÓN EN CURSO:
 ${historyText}
 
 La persona acaba de responder: "${replyText}"
@@ -1560,7 +1527,8 @@ ENGAGEMENT_LEVEL: (LOW / MEDIUM / HIGH / N-A si todavía no aplica — + justifi
 ANALISIS: (1 línea explicando por qué este mensaje en función de lo que respondieron)
 SIGUIENTE: (qué se espera que pase después - "call agendada", "pide más info", "no interesado", etc.)`;
 
-    text = await callAPI(prompt, SYSTEM);
+  try {
+    const text = await callAPI(prompt, SYSTEM);
     renderReplyResponse(stepNum, replyText, text);
   } catch(e) {
     btn.disabled = false;
