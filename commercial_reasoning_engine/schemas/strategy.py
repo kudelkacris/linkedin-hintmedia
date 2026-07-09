@@ -1,5 +1,13 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from enum import Enum
+
+
+class ConversationMode(str, Enum):
+    NORMAL      = "NORMAL"       # standard flow
+    RECUPERACION = "RECUPERACION"  # prospect showed HIGH engagement but went cold
+    # RECUPERACION was previously in StrategyType. It is a conversation state,
+    # not a relational strategy. Only strategy_builder.py may set this.
 
 
 @dataclass
@@ -29,6 +37,7 @@ class StrategyDecision:
     rotation_applied: bool
     previous_angle: Optional[str]         # angle used in MSG2
     new_angle: Optional[str]              # rotated angle for SEG1
+    conversation_mode: ConversationMode = ConversationMode.NORMAL
     bubbles: List[Bubble] = field(default_factory=list)
     meeting_justification: Optional[str] = None  # mandatory if propose_meeting=True
     blocked: bool = False

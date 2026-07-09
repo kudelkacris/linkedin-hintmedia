@@ -42,6 +42,8 @@ class AnalysisResult:
     last_prospect_message: str
     dossier_sent: bool
     days_since_dossier: Optional[int]
+    days_since_seg1: Optional[int]   # None until dataset/reader extracts SEG1 date
+    days_since_seg2: Optional[int]   # None until dataset/reader extracts SEG2 date
     responded_to_dossier: bool
     open_question: Optional[str]          # question left unanswered by prospect
     prospect_exact_words: List[str]       # verbatim phrases from prospect

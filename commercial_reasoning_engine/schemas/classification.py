@@ -13,8 +13,9 @@ class Action(str, Enum):
 class StrategyType(str, Enum):
     CONSULTIVA   = "CONSULTIVA"    # Manager / Coordinator / Specialist
     ENTRE_PARES  = "ENTRE_PARES"  # Director / VP / C-Level / Founder
-    EXPLORATORIA = "EXPLORATORIA" # insufficient info — no meeting proposal
-    RECUPERACION = "RECUPERACION" # prospect went cold after high engagement
+    EXPLORATORIA = "EXPLORATORIA" # insufficient info — continue conversation first
+    # Note: RECUPERACION was here. Moved to ConversationMode in schemas/strategy.py
+    # because it describes conversation state, not a relational strategy.
 
 
 @dataclass

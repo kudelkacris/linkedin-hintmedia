@@ -32,7 +32,7 @@
     "note": "Datos insuficientes para confianza alta."
   },
   "OTHER": {
-    "strategy": "EXPLORATORIO",
+    "strategy": "EXPLORATORIA",
     "meeting_justification": null,
     "cta_example": null,
     "dossier_pct": 25.9,

@@ -31,6 +31,8 @@ def _make_analysis(**overrides) -> AnalysisResult:
         last_prospect_message="",
         dossier_sent=False,
         days_since_dossier=None,
+        days_since_seg1=None,
+        days_since_seg2=None,
         responded_to_dossier=False,
         open_question=None,
         prospect_exact_words=[],

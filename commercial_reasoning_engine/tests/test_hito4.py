@@ -32,6 +32,8 @@ def _analysis(**kw) -> AnalysisResult:
         last_prospect_message="",
         dossier_sent=False,
         days_since_dossier=None,
+        days_since_seg1=None,
+        days_since_seg2=None,
         responded_to_dossier=False,
         open_question=None,
         prospect_exact_words=[],
@@ -233,72 +235,60 @@ def test_S01_none_action_returns_exploratoria():
     assert "[S01]" in result.reason
 
 
-def test_S02_seg1_high_engagement_no_dossier_response_returns_recuperacion():
-    """S02: SEG1 + engagement=HIGH + responded_to_dossier=False → RECUPERACION."""
-    analysis = _analysis(
-        engagement=Engagement.HIGH,
-        responded_to_dossier=False,
-        seniority=Seniority.MANAGER,
-    )
+def test_S02_ceo_returns_entre_pares():
+    """S02: seniority=CEO → ENTRE_PARES (RECUPERACION removed from strategy_classifier)."""
+    analysis = _analysis(seniority=Seniority.CEO)
     result = classify_strategy(analysis, _action_classification(Action.SEG1))
-    assert result.strategy == StrategyType.RECUPERACION
+    assert result.strategy == StrategyType.ENTRE_PARES
     assert "[S02]" in result.reason
 
 
-def test_S03_ceo_returns_entre_pares():
-    """S03: seniority=CEO → ENTRE_PARES."""
-    analysis = _analysis(seniority=Seniority.CEO)
+def test_S03_director_returns_entre_pares():
+    """S03: seniority=DIRECTOR → ENTRE_PARES."""
+    analysis = _analysis(seniority=Seniority.DIRECTOR)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
     assert result.strategy == StrategyType.ENTRE_PARES
     assert "[S03]" in result.reason
 
 
-def test_S04_director_returns_entre_pares():
-    """S04: seniority=DIRECTOR → ENTRE_PARES."""
-    analysis = _analysis(seniority=Seniority.DIRECTOR)
+def test_S04_manager_returns_consultiva():
+    """S04: seniority=MANAGER → CONSULTIVA."""
+    analysis = _analysis(seniority=Seniority.MANAGER)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
-    assert result.strategy == StrategyType.ENTRE_PARES
+    assert result.strategy == StrategyType.CONSULTIVA
     assert "[S04]" in result.reason
 
 
-def test_S05_manager_returns_consultiva():
-    """S05: seniority=MANAGER → CONSULTIVA."""
-    analysis = _analysis(seniority=Seniority.MANAGER)
+def test_S05_specialist_returns_consultiva():
+    """S05: seniority=SPECIALIST → CONSULTIVA."""
+    analysis = _analysis(seniority=Seniority.SPECIALIST)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
     assert result.strategy == StrategyType.CONSULTIVA
     assert "[S05]" in result.reason
 
 
-def test_S06_specialist_returns_consultiva():
-    """S06: seniority=SPECIALIST → CONSULTIVA."""
-    analysis = _analysis(seniority=Seniority.SPECIALIST)
+def test_S06_other_high_engagement_returns_consultiva():
+    """S06: seniority=OTHER + engagement=HIGH → CONSULTIVA."""
+    analysis = _analysis(seniority=Seniority.OTHER, engagement=Engagement.HIGH)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
     assert result.strategy == StrategyType.CONSULTIVA
     assert "[S06]" in result.reason
 
 
-def test_S07_other_high_engagement_returns_consultiva():
-    """S07: seniority=OTHER + engagement=HIGH → CONSULTIVA."""
-    analysis = _analysis(seniority=Seniority.OTHER, engagement=Engagement.HIGH)
-    result = classify_strategy(analysis, _action_classification(Action.MSG2))
-    assert result.strategy == StrategyType.CONSULTIVA
-    assert "[S07]" in result.reason
-
-
-def test_S08_other_medium_engagement_returns_exploratoria():
-    """S08: seniority=OTHER + engagement=MEDIUM → EXPLORATORIA."""
+def test_S07_other_medium_engagement_returns_exploratoria():
+    """S07: seniority=OTHER + engagement=MEDIUM → EXPLORATORIA."""
     analysis = _analysis(seniority=Seniority.OTHER, engagement=Engagement.MEDIUM)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
     assert result.strategy == StrategyType.EXPLORATORIA
-    assert "[S08]" in result.reason
+    assert "[S07]" in result.reason
 
 
-def test_S08_other_low_engagement_returns_exploratoria():
-    """S08: seniority=OTHER + engagement=LOW → EXPLORATORIA."""
+def test_S07_other_low_engagement_returns_exploratoria():
+    """S07: seniority=OTHER + engagement=LOW → EXPLORATORIA."""
     analysis = _analysis(seniority=Seniority.OTHER, engagement=Engagement.LOW)
     result = classify_strategy(analysis, _action_classification(Action.MSG2))
     assert result.strategy == StrategyType.EXPLORATORIA
-    assert "[S08]" in result.reason
+    assert "[S07]" in result.reason
 
 
 def test_strategy_rule_id_always_in_reason():
@@ -336,7 +326,7 @@ def test_integration_director_with_response():
     assert action_cl.action == Action.MSG2
     assert strategy_cl.strategy == StrategyType.ENTRE_PARES
     assert "[A04]" in action_cl.reason
-    assert "[S04]" in strategy_cl.reason
+    assert "[S03]" in strategy_cl.reason
 
 
 def test_integration_manager_seg1_ready():
@@ -358,7 +348,9 @@ def test_integration_manager_seg1_ready():
 
 
 def test_integration_high_engagement_gone_cold():
-    """HIGH engagement prospect didn't respond to dossier → SEG1 + RECUPERACION."""
+    """HIGH engagement Manager didn't respond to dossier → SEG1 + CONSULTIVA.
+    Note: RECUPERACION is now a ConversationMode decided by strategy_builder,
+    not a StrategyType. The relational strategy stays CONSULTIVA for a Manager."""
     analysis = _analysis(
         stage=Stage.DOSSIER_SENT,
         seniority=Seniority.MANAGER,
@@ -372,7 +364,7 @@ def test_integration_high_engagement_gone_cold():
     strategy_cl = classify_strategy(analysis, action_cl)
 
     assert action_cl.action == Action.SEG1
-    assert strategy_cl.strategy == StrategyType.RECUPERACION
+    assert strategy_cl.strategy == StrategyType.CONSULTIVA
 
 
 def test_integration_blocked_produces_none_and_exploratoria():
