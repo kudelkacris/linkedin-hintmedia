@@ -1,13 +1,25 @@
 # -*- coding: utf-8 -*-
 """
-cre_sprint_beta3.py — Sprint Beta 3: LLM Quality
-Corre el pipeline completo (CRE + Claude) sobre los 15 casos MSG2.
-Compara mensajes generados vs mensajes reales de Florencia.
-Clasifica: PASS / MINOR DIFFERENCE / FALSE POSITIVE / FALSE NEGATIVE
+cre_sprint_beta3.py — Sprint Beta 3: Context Export
 
-Requiere: ANTHROPIC_API_KEY en el entorno.
-    Windows: $env:ANTHROPIC_API_KEY = "sk-ant-..."
-    Linux:   export ANTHROPIC_API_KEY="sk-ant-..."
+Corre el pipeline completo (sin API) sobre los 15 casos MSG2.
+Exporta el LLMContext de cada caso como prompt .txt listo para pegar en cualquier LLM.
+
+Sin dependencias de pago. Sin ANTHROPIC_API_KEY.
+
+Uso:
+    python cre_sprint_beta3.py
+
+Output:
+    sprint_beta3_output/<nombre>.txt   — prompt completo por caso
+    sprint_beta3_output/README.txt     — instrucciones para evaluación manual
+
+Flujo:
+    1. Correr este script
+    2. Abrir cada .txt en sprint_beta3_output/
+    3. Pegarlo en Claude Code / ChatGPT / Ollama / el LLM que usés
+    4. Copiar la respuesta de vuelta
+    5. (futuro) Correr el Reviewer sobre el resultado
 """
 import sys, io, os, re, time
 from pathlib import Path
@@ -21,35 +33,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from commercial_reasoning_engine.analyzer.parser import parse
 from commercial_reasoning_engine.run import run
+from commercial_reasoning_engine.llm.context_only_adapter import ContextOnlyAdapter
 
-BASE     = Path(__file__).parent
-MSG2_DIR = BASE / "commercial_reasoning_engine" / "benchmark" / "msg2"
-
-# ── Blocklist ─────────────────────────────────────────────────────────────────
-
-BLOCKLIST = [
-    "gracias por la apertura", "por la apertura", "con apertura",
-    "por eso pensé en escribirte", "por eso te escribo", "te escribo porque",
-    "es un desafío que vemos seguido",
-    "justamente por eso", "exactamente donde trabajamos",
-    "muchas empresas",
-    "somos una agencia",
-    "no sé si viste",
-    "quedo atento", "quedo atenta",
-    "cualquier duda",
-    "más allá del dossier",
-    "retomo", "vuelvo a escribirte",
-    "no quería dejar de escribirte",
-    "quería hacer seguimiento",
-    "vi que sos", "veo que sos", "como responsable de", "como gerente de",
-]
-
-REQUIRED_ELEMENTS = [
-    ("Buenas", "apertura con 'Buenas'"),
-    ("Hint", "menciona Hint Media"),
-    ("dossier", "menciona el dossier"),
-    ("?", "incluye al menos una pregunta"),
-]
+BASE        = Path(__file__).parent
+MSG2_DIR    = BASE / "commercial_reasoning_engine" / "benchmark" / "msg2"
+OUTPUT_DIR  = BASE / "sprint_beta3_output"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -66,58 +54,7 @@ def sec(text, name):
     raw = text[start:end].strip()
     return '\n'.join(l[1:].strip() if l.strip().startswith('>') else l for l in raw.splitlines()).strip()
 
-def check_blocklist(msg):
-    hits = [phrase for phrase in BLOCKLIST if phrase.lower() in msg.lower()]
-    return hits
-
-def check_required(msg):
-    missing = [label for pattern, label in REQUIRED_ELEMENTS if pattern.lower() not in msg.lower()]
-    return missing
-
-def count_questions(msg):
-    return msg.count('?')
-
-def has_em_dash(msg):
-    return '—' in msg or ' - ' in msg[:20]
-
-def first_subject(msg):
-    first_line = msg.split('\n')[0].strip()[:80]
-    if any(x in first_line.lower() for x in ['trabajo en hint', 'en hint', 'somos', 'nosotros']):
-        return 'HINT_FIRST'
-    return 'OK'
-
-def classify_quality(blocklist_hits, missing_required, q_count, em_dash, first_subj, reviewer_approved):
-    issues = []
-
-    if not reviewer_approved:
-        return 'FALSE POSITIVE', ['Reviewer rechazo el mensaje']
-
-    if blocklist_hits:
-        return 'FALSE POSITIVE', [f'Blocklist: {", ".join(blocklist_hits[:2])}']
-
-    if first_subj == 'HINT_FIRST':
-        issues.append('Perspectiva: arranca desde Hint, no desde el prospecto')
-
-    if missing_required:
-        issues.append(f'Faltan: {", ".join(missing_required)}')
-
-    if q_count == 0:
-        issues.append('Sin pregunta final')
-    elif q_count > 2:
-        issues.append(f'Demasiadas preguntas ({q_count})')
-
-    if em_dash:
-        issues.append('Usa guion largo (—) — prohibido en formato')
-
-    if issues:
-        # Minor vs major
-        if len(issues) <= 1 and not missing_required:
-            return 'MINOR DIFFERENCE', issues
-        return 'FALSE POSITIVE', issues
-
-    return 'PASS', []
-
-# ── LLM Runner ────────────────────────────────────────────────────────────────
+# ── Runner ────────────────────────────────────────────────────────────────────
 
 def run_case(p, adapter):
     t0 = time.time()
@@ -143,184 +80,149 @@ def run_case(p, adapter):
     result = run(conversation, adapter=adapter, prospect_data=prospect_data)
     elapsed = round(time.time() - t0, 1)
 
-    generated = result.final_message or result.draft or ''
-    reviewer_approved = result.review.approved if result.review else False
-    reviewer_score    = result.review.score if result.review else 0
-    violations = [v.rule for v in result.review.violations] if result.review else []
-
-    blocklist_hits = check_blocklist(generated)
-    missing        = check_required(generated)
-    q_count        = count_questions(generated)
-    em_dash        = has_em_dash(generated)
-    first_subj     = first_subject(generated)
-
-    category, issues = classify_quality(blocklist_hits, missing, q_count, em_dash, first_subj, reviewer_approved)
-
     return {
         'name': name,
         'seniority': seniority,
         'sector': sector,
         'motor_strategy': result.strategy_cl.strategy.value if result.strategy_cl else '?',
         'motor_engagement': result.analysis.engagement.value if result.analysis.engagement else '?',
-        'reviewer_approved': reviewer_approved,
-        'reviewer_score': reviewer_score,
-        'violations': violations,
-        'generated': generated,
+        'context_exported': result.context is not None,
         'florencia': florencia_msg2,
-        'q_count': q_count,
-        'blocklist_hits': blocklist_hits,
-        'missing_required': missing,
-        'issues': issues,
-        'category': category,
+        'blocked': result.blocked,
+        'block_reason': result.block_reason,
         'time_s': elapsed,
     }
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
-    if not api_key:
-        print()
-        print("ERROR: ANTHROPIC_API_KEY no encontrada.")
-        print()
-        print("Configurar antes de correr:")
-        print('  Windows PowerShell: $env:ANTHROPIC_API_KEY = "sk-ant-..."')
-        print('  Bash:               export ANTHROPIC_API_KEY="sk-ant-..."')
-        print()
-        sys.exit(1)
-
-    try:
-        from commercial_reasoning_engine.llm.claude_adapter import ClaudeAdapter
-        adapter = ClaudeAdapter(api_key=api_key)
-    except ImportError as e:
-        print(f"ERROR importando ClaudeAdapter: {e}")
-        sys.exit(1)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    adapter = ContextOnlyAdapter(output_dir=OUTPUT_DIR)
 
     cases = sorted(MSG2_DIR.glob('*.md'))
-    print(f"\nSprint Beta 3 — LLM Quality — {len(cases)} casos MSG2\n")
+    print(f"\nSprint Beta 3 — Context Export — {len(cases)} casos MSG2\n")
+    print(f"  Output: {OUTPUT_DIR}\n")
 
     results = []
     for i, p in enumerate(cases, 1):
-        print(f"  [{i:02d}/{len(cases)}] Corriendo: {p.stem[:40]}", end=' ', flush=True)
+        print(f"  [{i:02d}/{len(cases)}] {p.stem[:40]}", end=' ', flush=True)
         r = run_case(p, adapter)
         if r is None:
             print("SKIP")
             continue
         results.append(r)
-        print(f"-> {r['category']}  ({r['time_s']}s)")
+        status = "OK" if r['context_exported'] and not r['blocked'] else "BLOCKED"
+        print(f"-> {status}  ({r['time_s']}s)")
 
-    if not results:
-        print("Sin resultados.")
-        return
-
-    # ── Table ──────────────────────────────────────────────────────────────────
+    # ── Tabla ─────────────────────────────────────────────────────────────────
 
     print()
-    print("=" * 100)
-    print(f"{'#':<4}{'Nombre':<26}{'Senior':<10}{'Strategy':<14}{'Rev':<6}{'Qs':<5}{'Categoria':<20}{'Issues'}")
-    print("-" * 100)
+    print("=" * 90)
+    print(f"{'#':<4}{'Nombre':<30}{'Senior':<12}{'Engagement':<12}{'Strategy':<16}{'Contexto'}")
+    print("-" * 90)
     for i, r in enumerate(results, 1):
-        rev = 'OK' if r['reviewer_approved'] else 'FAIL'
-        issues_str = '; '.join(r['issues'])[:45] if r['issues'] else '-'
-        print(f"{i:<4}{r['name'][:26]:<26}{r['seniority']:<10}{r['motor_strategy']:<14}"
-              f"{rev:<6}{r['q_count']:<5}{r['category']:<20}{issues_str}")
-    print("=" * 100)
+        ctx = "exportado" if r['context_exported'] and not r['blocked'] else f"BLOCKED: {r['block_reason'] or ''}"
+        print(f"{i:<4}{r['name'][:30]:<30}{r['seniority']:<12}{r['motor_engagement']:<12}"
+              f"{r['motor_strategy']:<16}{ctx}")
+    print("=" * 90)
 
-    # ── Messages preview ───────────────────────────────────────────────────────
+    exported = sum(1 for r in results if r['context_exported'] and not r['blocked'])
+    blocked  = sum(1 for r in results if r['blocked'])
 
-    print("\n--- MENSAJES NO-PASS ---")
-    for r in results:
-        if r['category'] == 'PASS':
-            continue
-        print(f"\n[{r['name']}] -> {r['category']}")
-        print(f"  Problemas: {r['issues']}")
-        print(f"  GENERADO:\n{r['generated'][:400]}")
-        print(f"  FLORENCIA:\n{r['florencia'][:300]}")
-        print()
+    # ── README para evaluación manual ─────────────────────────────────────────
 
-    # ── Summary ───────────────────────────────────────────────────────────────
+    readme = f"""Sprint Beta 3 — Evaluacion manual de calidad LLM
+=================================================
 
-    cat_counts = defaultdict(int)
-    issue_types = defaultdict(int)
-    for r in results:
-        cat_counts[r['category']] += 1
-        for issue in r['issues']:
-            first_word = issue.split(':')[0].strip()
-            issue_types[first_word] += 1
+Fecha: {time.strftime('%Y-%m-%d')}
+Casos: {len(results)}
+Exportados: {exported}
+Bloqueados: {blocked}
 
-    passes = cat_counts['PASS']
-    total  = len(results)
-    top_issues = sorted(issue_types.items(), key=lambda x: -x[1])[:3]
+Como evaluar
+------------
 
-    if passes == total:
-        rec_target = "Ninguno. Listo para produccion."
-    elif issue_types.get('Perspectiva', 0) + issue_types.get('Blocklist', 0) > 2:
-        rec_target = "Context Builder — el prompt esta enviando mal el punto de partida al LLM."
-    elif issue_types.get('Faltan', 0) > 2:
-        rec_target = "Context Builder — elementos obligatorios no estan llegando al prompt."
-    elif issue_types.get('Reviewer', 0) > 0:
-        rec_target = "Reviewer — esta rechazando mensajes correctos (falso positivo de la barrera)."
-    else:
-        rec_target = "Prompt — ajustes finos de tono, estructura o vocabulario."
+1. Abrir cada archivo .txt en esta carpeta.
+2. Copiar TODO el contenido (template + contexto) y pegarlo en el LLM que estes usando:
+   - Claude Code: pegar directo en el chat
+   - ChatGPT: pegar en una nueva conversacion
+   - Ollama: ollama run <modelo> < <archivo>.txt
+3. Copiar la respuesta del LLM.
+4. Evaluar con la rubrica:
 
-    # session_summary.md
+Rubrica (puntuacion /10 por criterio):
+  - Apertura (B1): conecta con la respuesta del prospecto?
+  - Rapport: usa palabras del prospecto, iguala tono emocional?
+  - Naturalidad: suena humano o parece un template?
+  - Fluidez: las burbujas transicionan sin saltos?
+  - Curiosidad: da ganas de seguir leyendo?
+  - Personalizacion: podria ser para cualquier otro prospecto?
+  - Pregunta final: es especifica o generica?
+  - Parece Florencia?: nivel de proximidad al estilo real
+
+Total: /80
+
+Casos en esta carpeta:
+"""
+    for i, r in enumerate(results, 1):
+        status = "OK" if not r['blocked'] else f"BLOQUEADO ({r['block_reason']})"
+        readme += f"  {i:02d}. {r['name']} [{r['seniority']} / {r['sector']}] — {status}\n"
+
+    (OUTPUT_DIR / "README.txt").write_text(readme, encoding='utf-8')
+
+    # ── session_summary.md ────────────────────────────────────────────────────
+
     summary = f"""# Session Summary — CRE Beta
 
-**Fecha:** 2026-07-09
-**Estado:** SPRINT BETA 3 COMPLETADO
+**Fecha:** {time.strftime('%Y-%m-%d')}
+**Estado:** SPRINT BETA 3 — CONTEXTOS EXPORTADOS
 
 ---
 
-## SPRINT BETA 3 — LLM Quality
+## SPRINT BETA 3
 
-Casos analizados: {total} (MSG2)
+Arquitectura: LLM-agnostica. Sin API obligatoria.
+Adapters disponibles: ContextOnly, OpenAICompatible, Claude (opcional).
 
-PASS: {cat_counts['PASS']}
-MINOR DIFFERENCE: {cat_counts['MINOR DIFFERENCE']}
-FALSE POSITIVE: {cat_counts['FALSE POSITIVE']}
-FALSE NEGATIVE: {cat_counts['FALSE NEGATIVE']}
+Casos analizados: {len(results)}
+Contextos exportados: {exported}
+Bloqueados: {blocked}
 
-Hallazgos principales:
-{chr(10).join(f'- {k}: {v} casos' for k, v in top_issues) if top_issues else '- Sin patrones criticos'}
+Output: sprint_beta3_output/ ({exported} archivos .txt)
 
-Recomendacion:
-Cambios necesarios en: {rec_target}
+Proximos pasos:
+- Pegar cada .txt en cualquier LLM (Claude Code / ChatGPT / Ollama)
+- Evaluar con rubrica manual (/10 por criterio x 8 criterios)
+- Identificar patron de fallos (Prompt / Context Builder / Strategy Builder)
 
 ---
 
 Sprint Beta 1 (MSG2 decision): 15/15 PASS
 Sprint Beta 2 (SEG1 decision): 6/8 PASS + 2 EXPECTED FAIL
-Sprint Beta 3 (LLM quality):   {passes}/{total} PASS
-
-Proximos pasos:
-- Aplicar correcciones al modulo identificado
-- Re-correr Sprint Beta 3 para validar mejora
-- Comandos: python cre_sprint_beta3.py (requiere ANTHROPIC_API_KEY)
+Sprint Beta 3 (LLM context):   {exported}/{len(results)} contextos exportados
 """
     (BASE / "commercial_reasoning_engine" / "docs" / "session_summary.md").write_text(summary, encoding='utf-8')
 
-    # Print final box
+    # ── Resumen final ─────────────────────────────────────────────────────────
+
     print()
-    print("=" * 60)
-    print("  SPRINT BETA 3 — LLM QUALITY")
-    print("=" * 60)
-    print(f"  Casos analizados    : {total}")
+    print("=" * 55)
+    print("  SPRINT BETA 3 — CONTEXT EXPORT")
+    print("=" * 55)
+    print(f"  Casos analizados    : {len(results)}")
+    print(f"  Contextos exportados: {exported}")
+    print(f"  Bloqueados          : {blocked}")
     print()
-    print(f"  PASS                : {cat_counts['PASS']}")
-    print(f"  MINOR DIFFERENCE    : {cat_counts['MINOR DIFFERENCE']}")
-    print(f"  FALSE POSITIVE      : {cat_counts['FALSE POSITIVE']}")
-    print(f"  FALSE NEGATIVE      : {cat_counts['FALSE NEGATIVE']}")
+    print(f"  Archivos en: {OUTPUT_DIR}")
+    print(f"  Instrucciones en: {OUTPUT_DIR / 'README.txt'}")
     print()
-    print("  Hallazgos principales:")
-    if top_issues:
-        for k, v in top_issues:
-            print(f"    {k}: {v} casos")
-    else:
-        print("    Sin patrones criticos.")
-    print()
-    print(f"  Corregir en: {rec_target}")
-    print("=" * 60)
-    print(f"\n  Session summary: commercial_reasoning_engine/docs/session_summary.md")
+    print("  Proximos pasos:")
+    print("  1. Pegar cada .txt en Claude Code / ChatGPT / Ollama")
+    print("  2. Evaluar con rubrica manual")
+    print("  3. Identificar patron de fallos -> modulo a corregir")
+    print("=" * 55)
+    print(f"\n  session_summary.md actualizado.")
+
 
 if __name__ == '__main__':
     main()
