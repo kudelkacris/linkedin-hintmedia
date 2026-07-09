@@ -21,18 +21,18 @@ Este archivo registra cada cambio introducido al CRE durante y después de la Be
 
 ### Resultados
 
-| Caso | Tipo | Categoría | Módulo raíz | Diagnóstico |
-|------|------|-----------|-------------|-------------|
-| 001 | MSG2 LOW | — | — | — |
-| 002 | MSG2 MEDIUM | — | — | — |
-| 003 | MSG2 HIGH | — | — | — |
-| 004 | SEG1 LOW | — | — | — |
-| 005 | SEG1 MEDIUM | — | — | — |
-| 006 | SEG1 HIGH | — | — | — |
-| 007 | SEG2 | — | — | — |
-| 008 | Recovery | — | — | — |
-| 009 | Edge | — | — | — |
-| 010 | Complex | — | — | — |
+| Caso | Tipo | Categoría | Módulo raíz | Tiempo identificación | Diagnóstico |
+|------|------|-----------|-------------|----------------------|-------------|
+| 001 | MSG2 LOW | — | — | — | — |
+| 002 | MSG2 MEDIUM | — | — | — | — |
+| 003 | MSG2 HIGH | — | — | — | — |
+| 004 | SEG1 LOW | — | — | — | — |
+| 005 | SEG1 MEDIUM | — | — | — | — |
+| 006 | SEG1 HIGH | — | — | — | — |
+| 007 | SEG2 | — | — | — | — |
+| 008 | Recovery | — | — | — | — |
+| 009 | Edge | — | — | — | — |
+| 010 | Complex | — | — | — | — |
 
 ### Resumen
 
@@ -66,6 +66,7 @@ Este archivo registra cada cambio introducido al CRE durante y después de la Be
 **Caso origen:** 006  
 **Categoría:** FALSE POSITIVE  
 **Módulo raíz:** Context Builder  
+**Tiempo hasta identificar módulo raíz:** 4 min  
 **Problema:** El Reviewer rechazó un draft correcto porque allowed_claims estaba vacío.  
 **Fix:** Se agregó X en context_builder/builder.py línea Y.  
 **Benchmark después del fix:** 9/10 PASS  
