@@ -23,6 +23,8 @@ class LLMContext:
     engagement: str
     objective: str
     message_type: str                   # "MSG2" | "SEG1" | "SEG2"
+    opening_angle: Optional[str]        # exact text or rotated angle to open with
+    tone: str                           # derived from engagement + strategy + conv_mode
 
     allowed_topics: List[str]           # topics the LLM may reference
     forbidden_topics: List[str]         # topics the LLM must not mention
@@ -32,6 +34,7 @@ class LLMContext:
     cta: CTADecision
     personal_win: Optional[str]
     reference_client: Optional[str]
+    conversation_mode: str              # "NORMAL" | "RECUPERACION"
 
     bubbles: List[Bubble]
     format_rules: FormatRules
