@@ -5,7 +5,7 @@
 **Empresa:** Grupo Espumas Santafé S.A.S (2 meses)
 **País:** Colombia (Bogotá)
 **Sector:** Retail / consumo masivo (espumas, colchones)
-**Estado:** MSG2 enviado 01/07/26
+**Estado:** Dossier enviado — 09/07/26
 
 ---
 
@@ -24,6 +24,10 @@
 > Lo que dijiste en ese cierre de Diaco, que los mejores resultados nacen con propósito y personas extraordinarias, cobra otra dimensión ahora que arrancás un rol de Directora de Marca desde cero. Dos meses adentro, con posicionamiento, arquitectura de precios, branding y canales todo en paralelo, el desafío real suele ser ejecutar con consistencia antes de que el equipo propio esté rodado.
 > En Hint Media sumamos capacidad de ejecución en contenido, diseño y digital para exactamente ese momento de arranque. Trabajamos con Destiny Group y Tasarolli en estructuras similares de marca y retail.
 > Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2
+> 😉 🤗 😄
+> Sí Florencia, envíamelo por acá, por favor
 
 ---
 

@@ -5,7 +5,7 @@
 **Empresa:** Hospitalidad y Servicios.
 **Pais:** Panamá
 **Sector:** Hospitalidad / Servicios
-**Estado:** MSG2 enviado — 08/07/26
+**Estado:** Dossier enviado — 09/07/26
 
 ---
 
@@ -38,6 +38,12 @@
 > Cómo hacés para que esa narrativa sea consistente en todas las propiedades de GVA, cuando cada una tiene su propia dinámica?
 > Trabajo en Hint Media, una agencia de comunicación omnicanal. Acompañamos a equipos de marketing en hospitalidad a construir comunicación de marca que sostenga la cultura en cada propiedad, sin que dependa de una sola persona. Trabajamos con Destiny Group y Tasarolli.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo enviar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2
+> 😉 🤗 😄
+> Sí, claro
 
 ---
 
