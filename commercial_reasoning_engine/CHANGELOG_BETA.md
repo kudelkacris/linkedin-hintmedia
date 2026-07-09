@@ -12,6 +12,28 @@ Este archivo registra cada cambio introducido al CRE durante y después de la Be
 
 ---
 
+## KPIs del sistema
+
+| KPI | Target | Descripción |
+|-----|--------|-------------|
+| **Tiempo hasta módulo raíz** | < 10 min | Tiempo desde que aparece un FAIL hasta identificar el módulo responsable. Mide observabilidad. |
+| **Precisión del módulo raíz** | 100% | El módulo identificado era realmente el responsable. Encontrar rápido el módulo equivocado no sirve. |
+| **Impacto del fix** | +n/10 benchmark | Cada cambio debe mejorar el score. Si no mejora, se revierte. |
+| **Distancia del fix** | 1 módulo | Cuántos módulos hubo que modificar para resolver un error. Distancia > 1 indica degradación del diseño. |
+
+**Distancia del fix — señal de alerta:**
+- Distancia = 1 → el diseño está sano.
+- Distancia = 2 → revisar si la causa fue mal diagnosticada.
+- Distancia ≥ 3 → señal de que el diseño empieza a degradarse. Antes de aplicar el fix, analizar si corresponde una revisión de arquitectura.
+
+**Evolución histórica (completar por sprint):**
+
+| Sprint | Tiempo diagnóstico promedio | Distancia promedio | Benchmark |
+|--------|----------------------------|-------------------|-----------|
+| Beta v1.0 | — | — | — / 10 |
+
+---
+
 ## Beta v1.0 — Benchmark inicial
 
 **Dataset:** `beta_dataset/` (10 conversaciones, congeladas)  
