@@ -43,8 +43,14 @@
 > [LINK DOSSIER]
 > Cualquier duda o comentario, por acá estamos.
 
+## SEG1 (10/07/26)
+> Buenas Ara!
+> No se si tuviste oportunidad de echarle un vistazo al dossier. Si algo te genera curiosidad o queres que lo conversemos, podemos hacer una llamada corta de 20 minutos cuando te venga bien.
+
+---
+
 ## Notas
 - Sector iGaming → Destiny Group como cliente ejemplo.
 - Aceptó dossier con buena disposición.
 
-**Estado:** Dossier enviado — 02/07/26
+**Estado:** SEG1 enviado — 10/07/26

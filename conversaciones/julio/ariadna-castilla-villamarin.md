@@ -5,7 +5,7 @@
 **Empresa:** Netmentora Catalunya
 **Pais:** España
 **Sector:** Emprendimiento / Ecosistema empresarial (no es energía, corrección: sector de desarrollo de negocios y networking)
-**Estado:** MSG1 enviado
+**Estado:** SEG1 enviado — 10/07/26
 
 ---
 
@@ -46,6 +46,12 @@
 > Perfecto Ariadna, te lo mando ahora!
 > [LINK DOSSIER]
 > Lo que mencionás del brief y los criterios de contenido es exactamente el tipo de trabajo que mostramos ahí. Cualquier duda estamos en contacto!
+
+## SEG1 (10/07/26)
+> Buenas Ariadna!
+> No sé si tuviste oportunidad de darle un vistazo al dossier. Si algo te genera curiosidad o querés que lo conversemos, podemos hacer una llamada corta de 20 minutos cuando te venga bien.
+
+---
 
 ## Notas
 - Respuesta positiva y abierta. Usó sus palabras exactas en B1.

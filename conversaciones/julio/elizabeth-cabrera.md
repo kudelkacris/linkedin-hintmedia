@@ -5,7 +5,7 @@
 **Empresa:** Lundin Gold Ecuador / Women in Mining Ecuador
 **Pais:** Ecuador
 **Sector:** Mineria / Energia / ESG
-**Estado:** Dossier confirmado 01/07/26 — enviado por LinkedIn
+**Estado:** SEG1 enviado — 10/07/26
 
 ---
 
@@ -28,6 +28,12 @@
 
 ## Confirmacion dossier
 > Perfecto Elizabeth, te lo mandamos ahora. Buena semana y estamos en contacto!
+
+---
+
+## SEG1 (10/07/26)
+> Buenas Elizabeth!
+> No se si tuviste oportunidad de revisarlo o a quien se lo hiciste llegar. Si tiene sentido que lo conversemos con alguien del equipo, podemos hacer una llamada corta de 20 minutos cuando les venga bien.
 
 ---
 

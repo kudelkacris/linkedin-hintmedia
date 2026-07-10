@@ -5,7 +5,7 @@
 **Empresa:** LEAD University
 **Pais:** Costa Rica
 **Sector:** Educación / Marketing Digital
-**Estado:** Dossier enviado
+**Estado:** SEG1 enviado — 10/07/26
 
 ---
 
@@ -54,6 +54,14 @@
 > Perfecto Diego, te lo mando ahora!
 > [LINK DOSSIER]
 > Buena semana y estamos en contacto en el futuro cercano!
+
+---
+
+## SEG1 (10/07/26)
+Ya enviado por Florencia:
+> Buenas Diego!
+> Los primeros 12 meses en un cargo nuevo son los que mas definen como te van a ver despues. La presion no es solo ejecutar, es mostrar que las decisiones fueron las correctas.
+> Si te parece, podemos hacer una call de 20 minutos. Te muestro casos concretos y ves si aplica a lo que tenes en frente.
 
 ---
 

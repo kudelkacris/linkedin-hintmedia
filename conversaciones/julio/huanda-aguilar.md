@@ -5,7 +5,7 @@
 **Empresa:** (FMCG)
 **Pais:** (sin datos)
 **Sector:** FMCG / Retail / Marca
-**Estado:** Dossier confirmado 01/07/26 — enviado por LinkedIn
+**Estado:** SEG1 enviado — 10/07/26
 
 ---
 
@@ -28,6 +28,12 @@
 
 ## Confirmacion dossier
 > Perfecto Huanda, te lo mandamos ahora. Buena semana y estamos en contacto!
+
+---
+
+## SEG1 (10/07/26)
+> Buenas Huanda!
+> No se si tuviste oportunidad de echarle un vistazo al dossier. Si algo te genera curiosidad o queres que lo conversemos, podemos hacer una llamada corta de 20 minutos cuando te venga bien.
 
 ---
 

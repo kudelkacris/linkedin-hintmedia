@@ -5,7 +5,7 @@
 **Empresa:** ProntoPaga
 **Pais:** Chile
 **Sector:** Fintech / Pagos / iGaming
-**Estado:** MSG2 enviado
+**Estado:** SEG1 enviado — 10/07/26
 
 ---
 
@@ -42,6 +42,18 @@
 > Cuando una empresa está expandiéndose a nuevos mercados, como pasó con Argentina, cómo hacés para que el mensaje no se fragmente en cada plaza?
 > Trabajo en Hint Media con empresas en proceso de expansión, como Destiny Group y Libra Seguros. Ayudamos a construir la comunicación que sostiene ese crecimiento: contenido, identidad, paid media, todo en un mismo hilo.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
+
+---
+
+## Respuesta MSG2 (02/07/26)
+> "Florencia / Hola buen día / Claro que si / Me puedes mandar ese documento por aquí"
+
+## Dossier enviado (02/07/26)
+> "Buen dia Pedro, genial, te lo dejo adjunto por aca / Buena semana y estamos en contacto en el futuro cercano"
+
+## SEG1 (10/07/26)
+> Buenas Pedro!
+> No sé si tuviste oportunidad de echarle un vistazo al dossier. Si algo te genera curiosidad o querés que lo conversemos, podemos hacer una llamada corta de 20 minutos cuando te venga bien.
 
 ---
 
