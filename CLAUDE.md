@@ -38,6 +38,11 @@ Cada vez que el usuario pegue una conversación de LinkedIn:
 - NO escribas inmediatamente.
 - Identificá el nombre del prospecto en la conversación.
 - Buscá y leé el archivo `.md` correspondiente en `conversaciones/julio/` (o el mes actual). Ese archivo contiene el análisis completo: señal humana, tensión, hipótesis, ángulo, MSG1. Usá esa información para generar MSG2 o SEG1.
+- Después de leer el `.md`, identificar el sector del prospecto y leer el archivo de inteligencia sectorial correspondiente:
+  - Sector = Educación → leer `LISTAS NAVIGATOR/CONECTADOS/EDUCA/CLAUDE.md`
+  - Sector = Energía / Minería / Gas / Combustibles → leer `LISTAS NAVIGATOR/CONECTADOS/TOIA/CLAUDE.md`
+  - Usar esa inteligencia para elegir el B3 correcto y el cliente Hint a mencionar.
+- Leer `hint_intelligence/outputs/context_injection.json` y cruzar sector + seniority del prospecto para obtener: tasa de conversión esperada, mejor seniority para ese sector, y cliente Hint recomendado por datos. Usar ese dato para calibrar el tono y la elección de cliente en el mensaje.
 - Si el .md no existe todavía, trabajá solo con lo que está en la conversación pegada.
 - Ejecutá internamente todo el protocolo antes de escribir.
 - Nunca saltees pasos.
