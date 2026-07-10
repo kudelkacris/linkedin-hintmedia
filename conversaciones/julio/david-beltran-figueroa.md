@@ -5,7 +5,7 @@
 **Empresa:** Altamira International School
 **Pais:** Colombia
 **Sector:** Educación
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
