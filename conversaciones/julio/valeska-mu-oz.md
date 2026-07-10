@@ -41,4 +41,12 @@
 
 ---
 
+## Respuesta MSG2
+> "😉🤗😄 dale envíamelo y lo reviso"
+> Fecha: 10/07/26
+
+**Estado:** Dossier enviado — stage 3
+
+---
+
 ## Notas
