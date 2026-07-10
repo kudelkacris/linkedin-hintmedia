@@ -5,7 +5,7 @@
 **Empresa:** Perú
 **Pais:** Perú
 **Sector:** Educación / Formación Continua
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado — stage 3
 
 ---
 
@@ -39,6 +39,14 @@
 > Cómo hacés para que cada lanzamiento nuevo tenga eso mismo, sin que dependa solo de que alguien en el equipo lo piense bien ese día?
 > Trabajo en Hint Media con organizaciones donde el problema central es diferenciarse en mercados saturados: energía, seguros, consultoría. El desafío que resolvemos siempre es el mismo: cómo construir la capa de comunicación que separa tu oferta del ruido cuando todos dicen lo mismo.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo mando por acá, y si querés lo revisamos juntos en una llamada de 20 minutos.
+
+---
+
+## Respuesta MSG2
+> "😉🤗😄 que tal Florencia, claro enviame el brochure para revisarlo"
+> Fecha: 10/07/26
+
+**Estado:** Dossier enviado — stage 3
 
 ---
 
