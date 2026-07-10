@@ -229,6 +229,23 @@ textarea.reply-input::placeholder{color:#bbb;font-style:italic}
 .stage-line{height:2px;flex:1;background:#E0DDD7;margin-bottom:16px}
 .stage-line.done{background:var(--orange)}
 
+/* WEEK SECTIONS */
+.week-section{margin-bottom:5px}
+.week-header{display:flex;align-items:center;gap:8px;padding:7px 11px;background:var(--dark2);border-radius:8px;cursor:pointer;user-select:none;transition:background .15s}
+.week-header:hover{background:#222}
+.week-label{font-size:11.5px;font-weight:600;color:#ccc;flex:1}
+.week-count{font-size:10px;font-weight:700;background:#333;color:#aaa;padding:1px 7px;border-radius:20px;flex-shrink:0}
+.week-chevron{font-size:13px;color:#555;transition:transform .2s;flex-shrink:0}
+.week-body{display:flex;flex-direction:column;gap:4px;padding:6px 0 2px}
+/* STAGE SUB-SECTIONS */
+.stage-group{margin-bottom:2px}
+.stage-group-header{display:flex;align-items:center;gap:7px;padding:5px 9px 5px 14px;background:#F5F3EF;border-radius:6px;cursor:pointer;user-select:none;transition:background .12s;border-left:3px solid var(--border)}
+.stage-group-header:hover{background:#EDEAE4}
+.stage-group-label{font-size:11px;font-weight:600;color:var(--mid);flex:1}
+.stage-group-count{font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;background:rgba(0,0,0,.07);color:var(--mid);flex-shrink:0}
+.stage-group-chev{font-size:12px;color:#bbb;transition:transform .2s;flex-shrink:0}
+.stage-group-body{display:flex;flex-direction:column;gap:5px;padding:5px 0 2px 0}
+
 /* ADVANCE BOX */
 .advance-box{padding:10px 14px;border-bottom:1px solid var(--border);background:white;display:flex;flex-direction:column;gap:7px}
 .advance-note{width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;line-height:1.5;border:1.5px solid var(--border);border-radius:7px;outline:none;resize:none;min-height:52px;color:var(--dark);background:var(--light)}
@@ -1988,6 +2005,7 @@ function clearRecontact(id) {
 
 let _histEntries = [];
 let _histStageFilter = '';
+let _weekState = {}; // { 'YY-MM-W': true/false }
 
 async function initHist() {
   let localData = [];
@@ -2384,6 +2402,78 @@ function filterHistChip(val) {
   _histStageFilter = (_histStageFilter === val) ? '' : val;
   renderHistoryList();
 }
+
+// ─── WEEK HELPERS ────────────────────────────────────────────────────
+function getWeekKey(dateStr) {
+  const p = (dateStr||'').split('/');
+  if (p.length < 3) return 'unknown';
+  const day = parseInt(p[0]);
+  const wk = day <= 7 ? 1 : day <= 14 ? 2 : day <= 21 ? 3 : 4;
+  return `${p[2]}-${p[1]}-${wk}`;
+}
+function getWeekLabel(weekKey) {
+  if (weekKey === 'unknown') return 'Sin fecha';
+  const [yr, mo, wk] = weekKey.split('-');
+  const months = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  const moName = months[parseInt(mo)-1] || mo;
+  const ranges = {'1':'1–7','2':'8–14','3':'15–21','4':'22–31'};
+  const yearFull = parseInt(yr) < 100 ? 2000+parseInt(yr) : parseInt(yr);
+  return `Semana ${wk} · ${ranges[wk] || '?'} ${moName} ${yearFull}`;
+}
+function currentWeekKey() {
+  const now = new Date();
+  const day = now.getDate();
+  const mo = String(now.getMonth()+1).padStart(2,'0');
+  const yr = String(now.getFullYear()).slice(-2);
+  const wk = day <= 7 ? 1 : day <= 14 ? 2 : day <= 21 ? 3 : 4;
+  return `${yr}-${mo}-${wk}`;
+}
+function toggleWeek(key) {
+  _weekState[key] = !_weekState[key];
+  renderHistoryList();
+}
+function toggleStageGroup(sectionKey, e) {
+  e.stopPropagation();
+  _weekState[sectionKey] = !_weekState[sectionKey];
+  renderHistoryList();
+}
+function getStageGroupKey(weekKey, stageKey) {
+  return `${weekKey}||${stageKey}`;
+}
+function getStageSectionLabel(stageKey) {
+  const map = {
+    '1':'MSG1 enviado','2':'MSG2 enviado','3':'Dossier enviado',
+    '4':'SEG1 enviado','5':'Seguimiento 2','6':'Reunión agendada','noint':'No interesados'
+  };
+  return map[String(stageKey)] || `Stage ${stageKey}`;
+}
+function getStageSectionColor(stageKey) {
+  const map = {
+    '1':'#FF5C35','2':'#1A5FA8','3':'#6B21A8',
+    '4':'#27AE60','5':'#888','6':'#E8A23D','noint':'#999'
+  };
+  return map[String(stageKey)] || '#888';
+}
+function renderHistItem(en) {
+  const days = daysAgo(getLastActivityDate(en));
+  const overdue = !en.noInterest && days >= 7;
+  const noint = !!en.noInterest;
+  return `<div class="hist-item${noint?' noint':''}" onclick="histRestore('${en.id}')" style="${overdue?'border-color:#FFBCB0':''}">
+    <div class="hist-item-row">
+      <div class="hist-item-name">${esc(en.name||en.nombre||'Sin nombre')}</div>
+      ${overdue?`<span class="overdue-badge">⚠ ${days}d`:''}
+      ${noint?`<span class="stage-pill sp-x">✕ No int.</span>`:`<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
+      <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
+      <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
+    </div>
+    <div class="hist-item-meta">
+      <span>${en.date}</span>
+      ${(()=>{ const emailFb=extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp=en.empresa||histExtractEmpresa(en.msg1,'')||(emailFb?domainToEmpresa(emailFb):''); return emp?`<span style="color:#888;font-size:10.5px"><span style="font-weight:600;color:var(--mid)">Empresa:</span> ${esc(emp)}</span>`:''; })()}
+      ${en.email?`<span style="font-size:10px;background:#EAF4FF;color:#1A5DAB;padding:1px 6px;border-radius:10px;font-weight:600" title="${esc(en.email)}${en.emailNota?' · '+esc(en.emailNota):''}">✉ ${esc(en.email)}${en.emailNota?' · '+esc(en.emailNota):''}</span>`:''}
+      <span class="hist-item-var">${esc(en.variantTitle)}</span>
+    </div>
+  </div>`;
+}
 function renderHistStatCards(counts) {
   const el = document.getElementById('hist-statcards');
   if (!el) return;
@@ -2472,24 +2562,75 @@ function renderHistoryList() {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
     return;
   }
-  list.innerHTML = filtered.map(en => {
-    const days = daysAgo(getLastActivityDate(en));
-    const overdue = !en.noInterest && days >= 7;
-    const noint = !!en.noInterest;
-    return `
-    <div class="hist-item${noint ? ' noint' : ''}" onclick="histRestore('${en.id}')" style="${overdue ? 'border-color:#FFBCB0' : ''}">
-      <div class="hist-item-row">
-        <div class="hist-item-name">${esc(en.name||en.nombre||'Sin nombre')}</div>
-        ${overdue ? `<span class="overdue-badge">⚠ ${days}d</span>` : ''}
-        ${noint ? `<span class="stage-pill sp-x">✕ No int.</span>` : `<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
-        <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
-        <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
+
+  // ── Group by week ──────────────────────────────────────────────────
+  const byWeek = {};
+  const weekOrder = [];
+  filtered.forEach(en => {
+    const wk = getWeekKey(en.date);
+    if (!byWeek[wk]) { byWeek[wk] = []; weekOrder.push(wk); }
+    byWeek[wk].push(en);
+  });
+
+  // Sort weeks newest first
+  const parseWk = k => { if(k==='unknown') return 0; const [y,m,w]=k.split('-').map(Number); const yr=y<100?2000+y:y; return yr*10000+m*100+w; };
+  weekOrder.sort((a,b) => parseWk(b) - parseWk(a));
+
+  // Default: current week open; first week open if nothing current
+  const curWk = currentWeekKey();
+  const hasAnyOpen = weekOrder.some(wk => _weekState[wk] === true);
+  weekOrder.forEach((wk, i) => {
+    if (_weekState[wk] === undefined) {
+      _weekState[wk] = (wk === curWk) || (!hasAnyOpen && i === 0);
+    }
+  });
+
+  // If search or filter active, expand all
+  const hasFilter = q || _histStageFilter;
+
+  list.innerHTML = weekOrder.map(wk => {
+    const entries = byWeek[wk];
+    const isOpen = hasFilter ? true : !!_weekState[wk];
+    const label = getWeekLabel(wk);
+    const chevronStyle = isOpen ? 'transform:rotate(180deg)' : '';
+
+    // Group entries by stage within this week
+    const byStage = {};
+    const stageOrder = [];
+    entries.forEach(en => {
+      const sk = en.noInterest ? 'noint' : String(en.stage||1);
+      if (!byStage[sk]) { byStage[sk] = []; stageOrder.push(sk); }
+      byStage[sk].push(en);
+    });
+    // Sort stages: noint last, rest ascending
+    const stageRank = s => s==='noint' ? 99 : parseInt(s)||0;
+    stageOrder.sort((a,b) => stageRank(a) - stageRank(b));
+
+    const stageGroupsHtml = stageOrder.map(sk => {
+      const sgKey = getStageGroupKey(wk, sk);
+      if (_weekState[sgKey] === undefined) _weekState[sgKey] = true; // default open
+      const sgOpen = !!_weekState[sgKey];
+      const color = getStageSectionColor(sk);
+      const sgLabel = getStageSectionLabel(sk);
+      const sgItems = byStage[sk].map(en => renderHistItem(en)).join('');
+      return `<div class="stage-group">
+        <div class="stage-group-header" style="border-left-color:${color}" onclick="toggleStageGroup('${sgKey}',event)">
+          <span class="stage-group-label" style="color:${color}">${sgLabel}</span>
+          <span class="stage-group-count">${byStage[sk].length}</span>
+          <span class="stage-group-chev" style="${sgOpen?'transform:rotate(180deg)':''}">▾</span>
+        </div>
+        <div class="stage-group-body" style="display:${sgOpen?'flex':'none'}">${sgItems}</div>
+      </div>`;
+    }).join('');
+
+    return `<div class="week-section">
+      <div class="week-header" onclick="toggleWeek('${wk}')">
+        <span class="week-label">${label}</span>
+        <span class="week-count">${entries.length}</span>
+        <span class="week-chevron" style="${chevronStyle}">▾</span>
       </div>
-      <div class="hist-item-meta">
-        <span>${en.date}</span>
-        ${(() => { const emailFb = extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp = en.empresa || histExtractEmpresa(en.msg1,'') || (emailFb ? domainToEmpresa(emailFb) : ''); return emp ? `<span style="color:#888;font-size:10.5px"><span style="font-weight:600;color:var(--mid)">Empresa:</span> ${esc(emp)}</span>` : ''; })()}
-        ${en.email ? `<span style="font-size:10px;background:#EAF4FF;color:#1A5DAB;padding:1px 6px;border-radius:10px;font-weight:600" title="${esc(en.email)}${en.emailNota ? ' · ' + esc(en.emailNota) : ''}">✉ ${esc(en.email)}${en.emailNota ? ' · ' + esc(en.emailNota) : ''}</span>` : ''}
-        <span class="hist-item-var">${esc(en.variantTitle)}</span>
+      <div class="week-body" style="display:${isOpen?'flex':'none'}">
+        ${stageGroupsHtml}
       </div>
     </div>`;
   }).join('');
