@@ -1,6 +1,7 @@
 # CREATIVOS 1.0 — Lista de Contactos
 
-Lista vacía. Completar desde Sales Navigator con los filtros de CLAUDE.md.
+Segmento: empresas sin departamento de marketing estructurado.
+Dos perfiles: CEO que maneja marketing él mismo (A) / Coordinador solitario (B).
 
 ---
 
@@ -8,12 +9,14 @@ Lista vacía. Completar desde Sales Navigator con los filtros de CLAUDE.md.
 
 ```
 ### Nombre Apellido
+- **Perfil:** A (CEO sin equipo) / B (Coordinador solitario)
 - **Cargo:** [cargo actual]
 - **Empresa:** [empresa]
 - **Sector:** [sector]
 - **País:** [país]
-- **Señal:** [qué publicó o hizo que lo pone en este segmento]
-- **Variante:** JOVEN / SENIOR
+- **Empleados empresa:** [rango]
+- **Señal:** [qué indica que no tienen equipo de marketing / qué publicó]
+- **Variante tono:** JOVEN / SENIOR
 - **Estado:** pendiente MSG
 ```
 
@@ -21,4 +24,4 @@ Lista vacía. Completar desde Sales Navigator con los filtros de CLAUDE.md.
 
 ## Contactos
 
-(vacío — pendiente de armar)
+(vacío — pendiente de armar desde Sales Navigator)

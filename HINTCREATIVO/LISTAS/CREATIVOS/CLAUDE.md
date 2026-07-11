@@ -1,99 +1,114 @@
-# CREATIVOS — Estrategia de Prospección Segmento Founders / Sub-40
+# CREATIVOS — Estrategia de Prospección "Departamento de Marketing Externo"
 
 ---
 
 ## Quiénes son
 
-Founders, Co-Founders y CEOs de empresa propia en crecimiento.
-Sub-40 o con mentalidad builder — el cargo no siempre lo dice, pero las señales sí.
+Dos perfiles complementarios dentro del mismo segmento:
 
-**Señales de que pertenece a este segmento:**
-- Empresa fundada hace menos de 8 años
-- Múltiples cambios de rol en menos de 3 años
-- Sector no tradicional (EdTech, SaaS, Gaming, Creator Economy, FinTech, D2C)
-- Posts sobre lanzamientos, pivotes, crecimiento, equipos, problemas de escala
+**PERFIL A — CEO/Founder que maneja marketing él mismo**
+- Empresa 10-80 empleados
+- No hay equipo de marketing visible en LinkedIn
+- El CEO o Founder postea contenido de la empresa desde su perfil personal
+- Señal fuerte: cargo único en la empresa sin área de marketing
+
+**PERFIL B — Coordinador / Analista de Marketing solitario**
+- Cargo: Coordinador, Analista, Responsable o Manager de Marketing
+- Empresa 20-150 empleados
+- Búsqueda en LinkedIn de la empresa no muestra otros roles de marketing
+- Es la única persona de marketing en la organización
 
 ---
 
-## Filtros Sales Navigator — CREATIVOS 1.0
+## Filtros Sales Navigator
 
-### Cargo (keywords)
+### Para PERFIL A (CEO sin equipo de marketing)
+
+**Cargo (keywords):**
+- CEO
 - Founder
 - Co-Founder
-- CEO (empresa <200 empleados)
-- CMO (startup / scaleup)
-- CTO
-- Head of Growth
-- Head of Marketing
+- Gerente General
+- Director General
 
-### Empresa
-- Tamaño: 2 a 200 empleados
-- Antigüedad en LinkedIn: menos de 8 años (campo "años en LinkedIn" o inferido por fecha de fundación)
+**Empresa:**
+- Tamaño: 11 a 100 empleados
+- Antigüedad: cualquiera
 
-### Sectores
-- Technology
-- Internet
-- E-learning / Education Technology
-- Entertainment
-- Media Production
-- Financial Services (FinTech, no banca tradicional)
-- Food & Beverages (D2C / marcas propias)
-- Marketing & Advertising (agencias boutique, no las grandes)
+**Sectores:**
+- Professional Services
+- Wholesale
+- Industrial Machinery
+- Health, Wellness and Fitness
+- Hospital & Health Care (clínicas privadas, no hospitales públicos)
+- Real Estate
+- Construction
+- Food and Beverages (distribuidoras, no retail masivo)
+- Legal Services
+- Accounting
 
-### Geografías
-- Argentina
-- Chile
-- Colombia
-- Panamá
-- México (sub-representado — priorizar para crecer cobertura)
+**Geografías:** Argentina, Chile, Colombia, Panamá, México
 
-### Filtro de calidad
-- Publicó en los últimos 30 días (aplicar siempre para primer filtro)
-- Si la lista queda corta: remover ese filtro para completar volumen
+**Filtro de calidad:**
+- Publicó en los últimos 60 días (señal de que está activo y manejando presencia él mismo)
 
-### Excluir
-- Empresas de más de 500 empleados
+---
+
+### Para PERFIL B (Coordinador solitario)
+
+**Cargo (keywords):**
+- Coordinador de Marketing
+- Analista de Marketing
+- Responsable de Marketing
+- Marketing Manager
+- Marketing Coordinator
+- Jefe de Marketing
+
+**Empresa:**
+- Tamaño: 20 a 200 empleados
+
+**Sectores:** mismos que Perfil A
+
+**Geografías:** Argentina, Chile, Colombia, Panamá, México
+
+**Verificación manual obligatoria:**
+Antes de agregar a la lista, buscar la empresa en LinkedIn y confirmar que no tiene más de 1-2 personas en marketing.
+Si tiene equipo estructurado de 3+, descartar.
+
+---
+
+## Excluir
+
+- Empresas con equipo de marketing de 3 o más personas visible en LinkedIn
+- Empresas +500 empleados
+- Agencias o consultoras de marketing
+- Sectores: Turismo/Hotelería, Retail masivo, Gobierno/ONGs
 - Consultores independientes sin equipo propio
-- Influencers o creadores de contenido sin negocio detrás
-- Sectores de bajo rendimiento demostrado: Turismo/Hotelería, Retail masivo
 
 ---
 
 ## Tamaño objetivo
 
-- CREATIVOS 1.0: 20 a 30 personas
+- CREATIVOS 1.0: 20 a 40 personas (mezcla de Perfil A y B)
 - Máximo 2 personas por empresa
-- Verificar perfil antes de MSG (job-change alert: confirmar cargo actual)
+- Verificar cargo actual antes de escribir
 
 ---
 
-## Ángulo de entrada (MSG)
+## Ángulo de entrada por perfil
 
-Entrar por algo que construyeron:
-- Un producto o funcionalidad que lanzaron
-- Un milestone de crecimiento que publicaron
-- Un problema que describieron en un post
-- Una ronda de funding, un pivote, una expansión
+**Perfil A — CEO:**
+Entrar por el costo invisible de manejar marketing sin equipo.
+No mencionar el perfil directamente. Hablar de la situación.
+
+**Perfil B — Coordinador:**
+Entrar por el cuello de botella del one-man-team.
+Validar su trabajo. Ofrecer el equipo que falta detrás.
 
 **No entrar por:**
-- Cargo (nunca abrir con "vi que sos fundador de")
-- Empresa (nunca "vi que trabajás en")
-- Perfil genérico
-
----
-
-## Credential recomendado por sector
-
-| Sector del prospecto | Citar |
-|---------------------|-------|
-| Tech / SaaS / FinTech | Destiny Group |
-| EdTech | Destiny Group (ángulo: diferenciación en mercado saturado) |
-| Creator Economy / Media | Destiny Group |
-| D2C / Retail no tradicional | Destiny Group, Tasarolli |
-| Consultoría boutique | Destiny Group, Libra Seguros |
-
-Si ninguno calza: usar Destiny Group por defecto. Es el más versátil para este segmento.
-Nunca citar TGS o Transener para founders de tech, edtech o creator economy.
+- Cargo ("vi que sos CEO de")
+- Empresa ("vi que trabajás en")
+- Perfil genérico sin señal concreta
 
 ---
 
