@@ -5,7 +5,7 @@
 **Empresa:** Perú
 **Pais:** Perú
 **Sector:** Educación
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — 11/07/26 | Reunión tentativa post 18/07
 
 ---
 
@@ -24,6 +24,27 @@
 > Vi la publicación sobre la renovación de marca de la Autónoma hace poco. Lo que más me llamó la atención fue que le dieras tanto crédito a tu equipo justo cuando estaban en el medio del cambio. No es lo que la mayoría hace cuando celebra un proyecto así.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 (10/07/26)
+> "Hola, Florecia. En realidad el trabajo en equipo es la base de todo. El esfuerzo conjunto trae resultados. Reconocer su esfuerzo es importante."
+
+## MSG2 (10/07/26)
+> Buenas Rafael!
+> Claro, y cuando el resultado viene del equipo, el desafío siguiente es cómo eso se hace visible hacia afuera sin que se pierda en el camino.
+> En una universidad donde todas dicen lo mismo, cómo lográs que la narrativa de marca refleje eso que realmente pasa adentro?
+> Trabajo en Hint Media con organizaciones donde la diferenciación es el problema central: energía, seguros, consultoría. El reto siempre es el mismo: construir la comunicación que separa a una institución del ruido cuando los mensajes de todos se parecen.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo mando por acá, y si querés lo revisamos juntos en una llamada de 20 minutos.
+
+---
+
+## Respuesta MSG2 (11/07/26)
+> Claro, puedes compartírmelo para darle una revisada. Si deseas una reu como tal, pasado el 18 de julio ando un poco más libre
+
+## Dossier + confirmación reunión (11/07/26)
+> Buenas Rafael, ahora te lo mando!
+> Leelo con calma y si algo te genera curiosidad o querés profundizar, con gusto lo conversamos en una llamada para después del 18.
 
 ---
 

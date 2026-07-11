@@ -53,4 +53,22 @@
 - Sector iGaming → Destiny Group como cliente ejemplo.
 - Aceptó dossier con buena disposición.
 
-**Estado:** SEG1 enviado — 10/07/26
+## Respuesta SEG1 (11/07/26)
+> Hola Florencia 😉🤗😄
+> Si. Lo vimos. En nuestro giro de negocio no lo vemos aplicable. Cuál es la idea que tienes tú??
+
+## Seguimiento 1 — respuesta a objeción (11/07/26)
+> Buenas Ara, tiene sentido.
+> El iGaming tiene un desafío particular: la comunicación queda sepultada por el producto. Lo que hacen los operadores, los mercados que abren, las alianzas que cierran, no tiene narrativa propia.
+> Trabajo con empresas del sector en dos cosas concretas: construir la voz pública del liderazgo (el CEO visible antes de llegar a una reunión) y armar el storytelling de expansión cuando entran a mercados nuevos o cierran deals relevantes.
+> Dime si te resuena esa dirección y lo conversamos.
+
+---
+
+## Notas
+- Sector iGaming → Destiny Group como cliente ejemplo.
+- Aceptó dossier con buena disposición.
+- SEG1 generó respuesta: "no lo vemos aplicable" + pregunta abierta — apertura real.
+- Seguimiento 1 rotó ángulo: vocería CEO + storytelling de expansión, sin repetir dossier.
+
+**Estado:** Seguimiento 1 enviado — 11/07/26
