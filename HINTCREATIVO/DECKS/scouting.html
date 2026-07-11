@@ -1,0 +1,537 @@
+<!doctype html>
+<title>LATAM Startup Radar — Julio 2026</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root {
+  --bg:       #060606;
+  --sur:      #0E0E0E;
+  --sur2:     #161616;
+  --brd:      rgba(255,255,255,0.07);
+  --acc:      #FF4500;
+  --acc-dim:  rgba(255,69,0,0.13);
+  --fg:       #EAEAEA;
+  --fg2:      rgba(234,234,234,0.52);
+  --fg3:      rgba(234,234,234,0.22);
+  --t1:       #FF4500;
+  --t2:       #E8A020;
+  --t3:       #555;
+  --green:    #22C55E;
+  --r:        6px;
+}
+@media (prefers-color-scheme:light){ :root{ --bg:#F2EEE5; --sur:#FFFFFF; --sur2:#EAE5DC; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.2); --t3:#999; } }
+:root[data-theme="dark"]  { --bg:#060606; --sur:#0E0E0E; --sur2:#161616; --brd:rgba(255,255,255,0.07); --fg:#EAEAEA; --fg2:rgba(234,234,234,0.52); --fg3:rgba(234,234,234,0.22); --t3:#555; }
+:root[data-theme="light"] { --bg:#F2EEE5; --sur:#FFFFFF; --sur2:#EAE5DC; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.2); --t3:#999; }
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:15px; line-height:1.6; overflow-x:hidden; }
+
+.wrap { max-width:1080px; margin:0 auto; padding:0 28px; }
+
+/* ─── HEADER ─────────────────────────────────────────────── */
+header {
+  border-bottom:1px solid var(--brd);
+  padding:18px 28px;
+  display:flex; align-items:center; justify-content:space-between;
+  flex-wrap:wrap; gap:12px;
+}
+.hdr-brand { font-size:0.72rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--fg3); }
+.hdr-brand span { color:var(--acc); }
+.hdr-nav { display:flex; gap:8px; flex-wrap:wrap; }
+.hdr-nav a {
+  color:var(--fg2); font-size:0.75rem; font-weight:600; letter-spacing:0.08em;
+  text-transform:uppercase; text-decoration:none; padding:6px 14px;
+  border:1px solid var(--brd); border-radius:100px;
+  transition:all 0.2s;
+}
+.hdr-nav a:hover { border-color:var(--acc); color:var(--acc); }
+.hdr-nav a.active { background:var(--acc); border-color:var(--acc); color:#fff; }
+
+/* ─── HERO ───────────────────────────────────────────────── */
+.radar-hero { padding:72px 0 60px; }
+.radar-hero .eyebrow {
+  font-size:0.72rem; font-weight:700; letter-spacing:0.22em;
+  text-transform:uppercase; color:var(--acc);
+  margin-bottom:20px; display:flex; align-items:center; gap:10px;
+}
+.radar-hero .eyebrow::before { content:''; width:24px; height:2px; background:var(--acc); }
+.radar-hero h1 {
+  font-size:clamp(2.4rem,6vw,5.5rem);
+  font-weight:900; letter-spacing:-0.04em; line-height:0.95;
+  margin-bottom:20px;
+}
+.radar-hero h1 em { font-style:normal; color:var(--acc); }
+.radar-hero .sub { color:var(--fg2); font-size:1rem; max-width:560px; line-height:1.65; margin-bottom:40px; }
+
+/* ─── STATS BAR ──────────────────────────────────────────── */
+.stats-bar {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px; background:var(--brd);
+  border:1px solid var(--brd); border-radius:var(--r);
+  overflow:hidden; margin-bottom:72px;
+}
+.stat-cell { background:var(--sur); padding:22px 24px; }
+.stat-cell .sn { font-size:1.9rem; font-weight:900; letter-spacing:-0.04em; color:var(--fg); font-variant-numeric:tabular-nums; }
+.stat-cell .sn .acc-n { color:var(--acc); }
+.stat-cell .sl { font-size:0.68rem; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--fg2); margin-top:3px; }
+
+/* ─── TIER HEADER ────────────────────────────────────────── */
+.tier-header {
+  display:flex; align-items:center; gap:16px;
+  margin-bottom:20px;
+}
+.tier-badge {
+  font-size:0.68rem; font-weight:800; letter-spacing:0.18em;
+  text-transform:uppercase; padding:5px 12px; border-radius:100px;
+}
+.tier-badge.t1 { background:var(--acc-dim); color:var(--acc); border:1px solid rgba(255,69,0,0.35); }
+.tier-badge.t2 { background:rgba(232,160,32,0.12); color:var(--t2); border:1px solid rgba(232,160,32,0.3); }
+.tier-badge.t3 { background:rgba(85,85,85,0.15); color:var(--t3); border:1px solid rgba(85,85,85,0.25); }
+.tier-header h2 { font-size:1.25rem; font-weight:800; letter-spacing:-0.02em; }
+.tier-count { margin-left:auto; font-size:0.78rem; color:var(--fg3); font-weight:600; }
+
+/* ─── COMPANY CARDS ──────────────────────────────────────── */
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; margin-bottom:56px; }
+.company-card {
+  background:var(--sur); border:1px solid var(--brd);
+  border-radius:var(--r); padding:28px;
+  display:flex; flex-direction:column; gap:16px;
+  transition:border-color 0.2s, transform 0.2s;
+  cursor:default;
+}
+.company-card:hover { border-color:var(--acc); transform:translateY(-2px); }
+.card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+.card-flag { font-size:1.5rem; }
+.card-amount {
+  font-size:0.72rem; font-weight:800; letter-spacing:0.1em;
+  padding:4px 10px; border-radius:100px;
+  font-variant-numeric:tabular-nums;
+}
+.amount-t1 { background:var(--acc-dim); color:var(--acc); }
+.amount-t2 { background:rgba(232,160,32,0.12); color:var(--t2); }
+.amount-t3 { background:rgba(85,85,85,0.12); color:var(--t3); }
+.card-name { font-size:1.25rem; font-weight:900; letter-spacing:-0.03em; line-height:1; }
+.card-sector { font-size:0.72rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--fg3); margin-top:3px; }
+.card-round-row { display:flex; gap:8px; flex-wrap:wrap; }
+.chip {
+  font-size:0.68rem; font-weight:700; letter-spacing:0.08em;
+  text-transform:uppercase; padding:3px 9px; border-radius:4px;
+  background:var(--sur2); color:var(--fg2);
+}
+.card-why { font-size:0.85rem; color:var(--fg2); line-height:1.55; }
+.card-attack {
+  background:var(--sur2); border-radius:4px;
+  padding:12px 14px; font-size:0.8rem; color:var(--fg2); line-height:1.5;
+}
+.card-attack strong { color:var(--fg); font-weight:700; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; display:block; margin-bottom:4px; }
+.card-contact {
+  display:flex; align-items:center; gap:8px;
+  font-size:0.72rem; font-weight:600; letter-spacing:0.06em;
+  text-transform:uppercase; color:var(--fg3); padding-top:8px;
+  border-top:1px solid var(--brd);
+}
+.contact-dot { width:6px; height:6px; border-radius:50%; background:var(--green); }
+
+/* ─── WATCH LIST ─────────────────────────────────────────── */
+.watchlist { background:var(--sur); border:1px solid var(--brd); border-radius:var(--r); overflow:hidden; margin-bottom:72px; }
+.watchlist-row {
+  display:grid; grid-template-columns:2fr 1fr 1fr 1fr;
+  padding:14px 24px; align-items:center;
+  border-bottom:1px solid var(--brd);
+  transition:background 0.15s;
+}
+.watchlist-row:last-child { border-bottom:none; }
+.watchlist-row:hover { background:var(--sur2); }
+.watchlist-row.header {
+  background:var(--sur2);
+  font-size:0.68rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--fg3);
+}
+@media (max-width:600px) { .watchlist-row { grid-template-columns:1fr 1fr; } .watchlist-row .col-why, .watchlist-row .col-contact { display:none; } }
+.wl-name { font-weight:700; font-size:0.9rem; }
+.wl-sector { font-size:0.78rem; color:var(--fg2); }
+.wl-amount { font-size:0.82rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.wl-label { font-size:0.7rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--fg3); }
+
+/* ─── INSIGHT BOX ────────────────────────────────────────── */
+.insight {
+  background:var(--acc-dim); border:1px solid rgba(255,69,0,0.3);
+  border-radius:var(--r); padding:36px 40px;
+  margin:0 0 72px;
+}
+.insight .ins-label { font-size:0.68rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--acc); margin-bottom:16px; }
+.insight .ins-body { font-size:1.1rem; line-height:1.65; color:var(--fg); max-width:720px; }
+.insight .ins-body strong { color:var(--acc); }
+
+/* ─── HOW WE ATTACK ──────────────────────────────────────── */
+.attack-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-bottom:72px; }
+.attack-card { background:var(--sur); border:1px solid var(--brd); border-radius:var(--r); padding:28px; }
+.attack-card .ac-step { font-size:0.68rem; font-weight:800; letter-spacing:0.2em; text-transform:uppercase; color:var(--acc); margin-bottom:12px; }
+.attack-card h3 { font-size:1rem; font-weight:800; letter-spacing:-0.02em; margin-bottom:8px; }
+.attack-card p { font-size:0.83rem; color:var(--fg2); line-height:1.55; }
+
+/* ─── FOOTER ─────────────────────────────────────────────── */
+footer { border-top:1px solid var(--brd); padding:24px 28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; color:var(--fg3); font-size:0.75rem; letter-spacing:0.06em; }
+footer a { color:var(--acc); text-decoration:none; font-weight:700; }
+
+/* ─── REVEAL ─────────────────────────────────────────────── */
+.reveal { opacity:0; transform:translateY(22px); transition:opacity 0.5s ease, transform 0.5s ease; }
+.reveal.show { opacity:1; transform:none; }
+@media (prefers-reduced-motion:reduce) { .reveal { opacity:1; transform:none; } }
+</style>
+
+<header>
+  <span class="hdr-brand"><span>HINT</span> MEDIA — LATAM RADAR</span>
+  <nav class="hdr-nav">
+    <a href="deck.html">Quiénes somos</a>
+    <a href="scouting.html" class="active">Radar LATAM</a>
+    <a href="plan20dias.html">Plan 20 días</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="radar-hero">
+    <p class="eyebrow">Inteligencia de mercado</p>
+    <h1>LATAM STARTUP<br><em>RADAR</em></h1>
+    <p class="sub">Las startups que más capital levantaron en LATAM en julio 2026. Quiénes son, por qué las queremos como clientes, y cómo las atacamos.</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-bar reveal">
+    <div class="stat-cell">
+      <div class="sn">$<span class="acc-n">500M</span>+</div>
+      <div class="sl">Levantado en julio 2026</div>
+    </div>
+    <div class="stat-cell">
+      <div class="sn">20+</div>
+      <div class="sl">Empresas identificadas</div>
+    </div>
+    <div class="stat-cell">
+      <div class="sn"><span class="acc-n">5</span></div>
+      <div class="sl">Targets prioritarios</div>
+    </div>
+    <div class="stat-cell">
+      <div class="sn">25<span class="acc-n">%</span></div>
+      <div class="sl">Tasa conversión esperada (HIE)</div>
+    </div>
+    <div class="stat-cell">
+      <div class="sn"><span class="acc-n">20</span></div>
+      <div class="sl">Días para primer cliente</div>
+    </div>
+  </div>
+
+  <!-- INSIGHT -->
+  <div class="insight reveal">
+    <div class="ins-label">La oportunidad</div>
+    <div class="ins-body">
+      Cuando una startup levanta capital, tiene <strong>3 a 6 meses para demostrar tracción</strong> ante sus inversores.
+      El primer gasto en comunicación y marca es <strong>inmediatamente después del funding</strong>.
+      No tienen equipo de comms maduro. No tienen tiempo para RFPs largos.
+      La decisión de contratar una agencia se toma <strong>en días, no en meses</strong>.
+    </div>
+  </div>
+
+  <!-- TIER 1 -->
+  <div class="tier-header reveal">
+    <span class="tier-badge t1">Tier 1</span>
+    <h2>Prioritarios — Atacar esta semana</h2>
+    <span class="tier-count">5 empresas</span>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="company-card reveal">
+      <div class="card-top">
+        <span class="card-flag">🇨🇴</span>
+        <span class="card-amount amount-t1">$86M</span>
+      </div>
+      <div>
+        <div class="card-name">Addi</div>
+        <div class="card-sector">FinTech · BNPL · Colombia</div>
+      </div>
+      <div class="card-round-row">
+        <span class="chip">Series D</span>
+        <span class="chip">Citius + BTG Pactual</span>
+        <span class="chip">Julio 2026</span>
+      </div>
+      <div class="card-why">Acaban de levantar $86M para escalar en LATAM. Necesitan narrativa de marca B2C y B2B, posicionamiento ejecutivo, y presencia regional consistente. Hoy tienen 1-2 personas de marketing para cubrir toda la región.</div>
+      <div class="card-attack">
+        <strong>Cómo atacamos</strong>
+        Entrar por el VP de Marketing o Director de Growth. Ángulo: con este capital, la narrativa tiene que escalar junto con el negocio. Hint construye eso.
+      </div>
+      <div class="card-contact"><span class="contact-dot"></span>Director / VP Marketing — VARIANTE SENIOR</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top">
+        <span class="card-flag">🇨🇴</span>
+        <span class="card-amount amount-t1">$42M</span>
+      </div>
+      <div>
+        <div class="card-name">Telepatia AI</div>
+        <div class="card-sector">HealthTech · AI para médicos · Colombia</div>
+      </div>
+      <div class="card-round-row">
+        <span class="chip">Series A</span>
+        <span class="chip">a16z + Shyam Sankar</span>
+        <span class="chip">Julio 2026</span>
+      </div>
+      <div class="card-why">Con a16z adentro, van a necesitar credibilidad institucional y presencia de thought leadership. Los founders tienen que ser voces en el sector salud. El producto es técnico — la comunicación no puede serlo.</div>
+      <div class="card-attack">
+        <strong>Cómo atacamos</strong>
+        Entrar directo por el Co-Founder/CEO. Ángulo: a16z invirtió en tu tecnología; nosotros construimos la capa que hace que el mundo lo entienda. VARIANTE JOVEN.
+      </div>
+      <div class="card-contact"><span class="contact-dot"></span>Co-Founder / CEO — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top">
+        <span class="card-flag">🇦🇷</span>
+        <span class="card-amount amount-t1">$66M</span>
+      </div>
+      <div>
+        <div class="card-name">Humand</div>
+        <div class="card-sector">HR Tech · People Analytics · Argentina</div>
+      </div>
+      <div class="card-round-row">
+        <span class="chip">Series A</span>
+        <span class="chip">Marcos Galperin investor</span>
+        <span class="chip">2026</span>
+      </div>
+      <div class="card-why">Galperin invirtió — eso es una señal de fuego. Van a querer construir autoridad en el espacio HR tech de LATAM. Necesitan que su voz sea reconocible. El employer brand es crítico en este segmento.</div>
+      <div class="card-attack">
+        <strong>Cómo atacamos</strong>
+        Entrar por el CEO/Founder. Ángulo: con Galperin adentro, todos van a mirar. La pregunta es si la narrativa está lista para ese nivel de escrutinio. VARIANTE JOVEN.
+      </div>
+      <div class="card-contact"><span class="contact-dot"></span>Founder / CEO — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top">
+        <span class="card-flag">🇦🇷</span>
+        <span class="card-amount amount-t1">$55M</span>
+      </div>
+      <div>
+        <div class="card-name">Pomelo</div>
+        <div class="card-sector">FinTech Infra · Card Platform · Argentina</div>
+      </div>
+      <div class="card-round-row">
+        <span class="chip">Series C</span>
+        <span class="chip">Kaszek + Insight Partners</span>
+        <span class="chip">2026</span>
+      </div>
+      <div class="card-why">Infraestructura de tarjetas para fintechs. El cliente de Pomelo es otra empresa — necesitan thought leadership B2B serio. Kaszek y Insight les exigen visibilidad regional. Sin comms sólida, la ronda no se convierte en clientes.</div>
+      <div class="card-attack">
+        <strong>Cómo atacamos</strong>
+        VP Marketing o Director de Comunicaciones. Ángulo: el cliente B2B necesita más que un buen producto; necesita confiar en la empresa detrás. VARIANTE SENIOR.
+      </div>
+      <div class="card-contact"><span class="contact-dot"></span>VP Marketing — VARIANTE SENIOR</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top">
+        <span class="card-flag">🇨🇱</span>
+        <span class="card-amount amount-t1">$5.2M</span>
+      </div>
+      <div>
+        <div class="card-name">Blanco Financiero</div>
+        <div class="card-sector">FinTech · Digital Factoring · Chile</div>
+      </div>
+      <div class="card-round-row">
+        <span class="chip">Seed</span>
+        <span class="chip">Krealo</span>
+        <span class="chip">Julio 2026</span>
+      </div>
+      <div class="card-why">Fundada en 2024. Seed de Krealo (brazo de Credicorp). Necesitan construir marca desde cero en el mercado chileno. Son el momento ideal: justo después del primer capital, antes de que tengan una agencia establecida.</div>
+      <div class="card-attack">
+        <strong>Cómo atacamos</strong>
+        Directo al Founder/CEO. Son chilenos — Hint conoce el mercado. Ángulo: con Krealo adentro, el estándar sube. La comunicación tiene que estar a ese nivel. VARIANTE JOVEN.
+      </div>
+      <div class="card-contact"><span class="contact-dot"></span>Founder / CEO — VARIANTE JOVEN</div>
+    </div>
+
+  </div>
+
+  <!-- TIER 2 -->
+  <div class="tier-header reveal">
+    <span class="tier-badge t2">Tier 2</span>
+    <h2>Secundarios — Semana 2</h2>
+    <span class="tier-count">7 empresas</span>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇦🇷</span><span class="card-amount amount-t2">$195M</span></div>
+      <div><div class="card-name">Ualá</div><div class="card-sector">FinTech · Neobank · Argentina</div></div>
+      <div class="card-round-row"><span class="chip">Growth Round</span><span class="chip">Allianz X</span></div>
+      <div class="card-why">Ya son conocidos pero el rebrand y la expansión regional necesitan comunicación cohesionada. Equipo grande — punto de entrada más difícil.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>Director de Comunicaciones o Head of Brand. Ángulo: con una expansión regional, la narrativa no puede variar por país.</div>
+      <div class="card-contact"><span class="contact-dot"></span>Director Comunicaciones — VARIANTE SENIOR</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇧🇷</span><span class="card-amount amount-t2">$30M</span></div>
+      <div><div class="card-name">Jota</div><div class="card-sector">FinTech B2B · Brasil</div></div>
+      <div class="card-round-row"><span class="chip">Series A</span><span class="chip">Haun Ventures</span></div>
+      <div class="card-why">Acaban de cerrar a $185M de valuación. Necesitan credibilidad en el mercado B2B. Brasil es más difícil de operar para Hint pero el potencial es alto.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>CEO/Founder. Ángulo: con esta valuación, el nombre tiene que sonar en el mercado correcto.</div>
+      <div class="card-contact"><span class="contact-dot"></span>CEO/Co-Founder — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🌎</span><span class="card-amount amount-t2">$32M</span></div>
+      <div><div class="card-name">Trace Finance</div><div class="card-sector">FinTech · Cross-border · LATAM</div></div>
+      <div class="card-round-row"><span class="chip">Series A/B</span><span class="chip">Julio 2026</span></div>
+      <div class="card-why">Pagos transfronterizos y stablecoins — territorio complejo que necesita comunicación que simplifique. Producto técnico = audiencia difícil = necesitan traductores narrativos.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>Co-Founder/CMO. Ángulo: el problema de los pagos cross-border no es técnico, es de confianza. La narrativa construye esa confianza.</div>
+      <div class="card-contact"><span class="contact-dot"></span>Co-Founder / CMO — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇲🇽</span><span class="card-amount amount-t2">$6.3M</span></div>
+      <div><div class="card-name">Trinio</div><div class="card-sector">RetailTech · Omnicanal · México</div></div>
+      <div class="card-round-row"><span class="chip">Seed</span><span class="chip">Hi Ventures + Activant</span></div>
+      <div class="card-why">Software para retailers que gestionan e-commerce y físico desde una sola plataforma. Seed stage = momento ideal. No tienen todavía el músculo de comms. Activant y Latitud como inversores — estándar alto.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>Founder/CEO. Ángulo: con Activant y Hi Ventures, el mercado US también va a mirar. La narrativa tiene que funcionar en ambas direcciones.</div>
+      <div class="card-contact"><span class="contact-dot"></span>Founder / CEO — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇧🇷</span><span class="card-amount amount-t2">$20M</span></div>
+      <div><div class="card-name">2TM / Mercado Bitcoin</div><div class="card-sector">Crypto · Web3 · Brasil</div></div>
+      <div class="card-round-row"><span class="chip">Series C</span><span class="chip">Tether</span></div>
+      <div class="card-why">Tether como lead investor — el mensaje de adopción cripto masiva necesita narrativa que le hable a la empresa y al consumidor al mismo tiempo.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>Director de Comunicaciones o CMO. Brasil es mercado difícil pero Mercado Bitcoin es referente regional.</div>
+      <div class="card-contact"><span class="contact-dot"></span>CMO / Director Comms — VARIANTE SENIOR</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇨🇴</span><span class="card-amount amount-t2">N/D</span></div>
+      <div><div class="card-name">Uncover</div><div class="card-sector">HR Analytics · Colombia / LATAM</div></div>
+      <div class="card-round-row"><span class="chip">Seed/A</span><span class="chip">Creciendo</span></div>
+      <div class="card-why">Analytics de empleados para empresas medianas. B2B puro — necesitan pensamiento de liderazgo (thought leadership) para educar al mercado. El producto vende solo si la empresa detrás genera confianza.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>Co-Founder. Ángulo: en HR analytics, la marca es la credibilidad. Sin narrativa sólida, el producto no entra.</div>
+      <div class="card-contact"><span class="contact-dot"></span>Co-Founder — VARIANTE JOVEN</div>
+    </div>
+
+    <div class="company-card reveal">
+      <div class="card-top"><span class="card-flag">🇧🇷</span><span class="card-amount amount-t2">N/D</span></div>
+      <div><div class="card-name">Telepatia</div><div class="card-sector">HealthTech · AI Médico · Brasil</div></div>
+      <div class="card-round-row"><span class="chip">Series A</span><span class="chip">a16z</span></div>
+      <div class="card-why">HealthTech: AI assistant para médicos con a16z detrás. Necesitan comunicación institucional seria para ganar confianza del sistema de salud.</div>
+      <div class="card-attack"><strong>Cómo atacamos</strong>CEO o Head of Comms. Ángulo: los médicos confían en credibilidad, no en performance marketing.</div>
+      <div class="card-contact"><span class="contact-dot"></span>CEO / Head Comms — VARIANTE JOVEN</div>
+    </div>
+
+  </div>
+
+  <!-- TIER 3 -->
+  <div class="tier-header reveal">
+    <span class="tier-badge t3">Watchlist</span>
+    <h2>En el radar — monitorear</h2>
+    <span class="tier-count">8 empresas</span>
+  </div>
+
+  <div class="watchlist reveal">
+    <div class="watchlist-row header">
+      <span>Empresa / País</span>
+      <span>Sector</span>
+      <span>Capital</span>
+      <span class="col-contact">Prioridad</span>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Banco Plata 🇲🇽</div><div class="wl-sector">México</div></div>
+      <div><div class="wl-label">FinTech / Neobank</div></div>
+      <div><div class="wl-amount">Series B</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Tapi 🇦🇷</div><div class="wl-sector">Argentina</div></div>
+      <div><div class="wl-label">FinTech / Pagos</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Belo 🇦🇷</div><div class="wl-sector">Argentina</div></div>
+      <div><div class="wl-label">Crypto / Wallet</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Enter 🌎</div><div class="wl-sector">LATAM</div></div>
+      <div><div class="wl-label">FinTech AI</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Inspira 🇧🇷</div><div class="wl-sector">Brasil</div></div>
+      <div><div class="wl-label">EdTech / Educación</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Memed 🇧🇷</div><div class="wl-sector">Brasil</div></div>
+      <div><div class="wl-label">HealthTech</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">Pitz 🌎</div><div class="wl-sector">LATAM</div></div>
+      <div><div class="wl-label">Mobility / AI</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+    <div class="watchlist-row">
+      <div><div class="wl-name">El Dorado 🌎</div><div class="wl-sector">LATAM</div></div>
+      <div><div class="wl-label">Crypto Exchange</div></div>
+      <div><div class="wl-amount">Undisclosed</div></div>
+      <div class="col-contact"><span class="chip">Monitorear</span></div>
+    </div>
+  </div>
+
+  <!-- HOW WE ATTACK -->
+  <div class="tier-header reveal">
+    <h2>Cómo atacamos — el proceso</h2>
+  </div>
+  <div class="attack-grid reveal">
+    <div class="attack-card">
+      <div class="ac-step">Paso 01</div>
+      <h3>LinkedIn Connect</h3>
+      <p>Conectamos sin MSG. Dejamos que vean el perfil. Creamos presencia antes de hablar.</p>
+    </div>
+    <div class="attack-card">
+      <div class="ac-step">Paso 02</div>
+      <h3>MSG Creativo</h3>
+      <p>Quiénes somos → empresa con ese problema → qué hicimos → qué logramos. 4 líneas. Sin rodeos.</p>
+    </div>
+    <div class="attack-card">
+      <div class="ac-step">Paso 03</div>
+      <h3>Dossier</h3>
+      <p>Si hay interés, enviamos el dossier con casos concretos del sector más cercano al prospecto.</p>
+    </div>
+    <div class="attack-card">
+      <div class="ac-step">Paso 04</div>
+      <h3>15 minutos</h3>
+      <p>No vendemos en el primer call. Entendemos el problema real. Eso nos diferencia de cualquier agencia.</p>
+    </div>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer>
+  <span>HINT MEDIA CREATIVO — LATAM RADAR 2026</span>
+  <div style="display:flex;gap:20px;">
+    <a href="deck.html">Quiénes somos</a>
+    <a href="plan20dias.html">Plan 20 días →</a>
+  </div>
+</footer>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target); } });
+}, { threshold:0.08 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>

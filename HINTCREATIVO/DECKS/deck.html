@@ -1,0 +1,553 @@
+<!doctype html>
+<title>Hint Media Creativo — Who We Are</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+/* ─── TOKENS ─────────────────────────────────────────────── */
+:root {
+  --bg:        #090909;
+  --sur:       #111111;
+  --sur2:      #191919;
+  --brd:       rgba(255,255,255,0.07);
+  --acc:       #FF4500;
+  --acc-dim:   rgba(255,69,0,0.14);
+  --fg:        #EAEAEA;
+  --fg2:       rgba(234,234,234,0.52);
+  --fg3:       rgba(234,234,234,0.22);
+  --r:         6px;
+}
+@media (prefers-color-scheme:light){ :root { --bg:#F4F0E8; --sur:#FFFFFF; --sur2:#EDE8DF; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.18); } }
+:root[data-theme="dark"]  { --bg:#090909; --sur:#111111; --sur2:#191919; --brd:rgba(255,255,255,0.07); --fg:#EAEAEA; --fg2:rgba(234,234,234,0.52); --fg3:rgba(234,234,234,0.22); }
+:root[data-theme="light"] { --bg:#F4F0E8; --sur:#FFFFFF; --sur2:#EDE8DF; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.18); }
+
+/* ─── RESET ──────────────────────────────────────────────── */
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ─── LAYOUT ─────────────────────────────────────────────── */
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 32px; }
+section { padding: 100px 0; }
+section + section { border-top: 1px solid var(--brd); }
+
+/* ─── NAV ────────────────────────────────────────────────── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(9,9,9,0.85);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--brd);
+  padding: 0 32px;
+  height: 58px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+@media (prefers-color-scheme:light) { nav { background: rgba(244,240,232,0.88); } }
+:root[data-theme="light"] nav { background: rgba(244,240,232,0.88); }
+.nav-logo {
+  font-weight: 900; font-size: 1rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--fg);
+  text-decoration: none;
+}
+.nav-logo span { color: var(--acc); }
+.nav-links { display: flex; gap: 28px; list-style: none; }
+.nav-links a { color: var(--fg2); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+.nav-links a:hover { color: var(--fg); }
+
+/* ─── HERO ───────────────────────────────────────────────── */
+.hero {
+  min-height: 100vh;
+  display: flex; align-items: center;
+  padding-top: 58px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -200px; right: -200px;
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(255,69,0,0.09) 0%, transparent 65%);
+  pointer-events: none;
+}
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  color: var(--acc); font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.hero-eyebrow::before { content: ''; width: 28px; height: 2px; background: var(--acc); }
+.hero h1 {
+  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  margin-bottom: 28px;
+  text-wrap: balance;
+}
+.hero h1 em { font-style: normal; color: var(--acc); }
+.hero-sub {
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  color: var(--fg2);
+  max-width: 520px;
+  margin-bottom: 48px;
+  line-height: 1.65;
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 52px; }
+.badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--sur); border: 1px solid var(--brd);
+  color: var(--fg2); font-size: 0.78rem; font-weight: 600;
+  padding: 6px 14px; border-radius: 100px;
+  letter-spacing: 0.04em;
+}
+.badge.hot { background: var(--acc-dim); border-color: rgba(255,69,0,0.35); color: var(--acc); }
+.hero-cta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--acc); color: #fff;
+  padding: 14px 32px; border-radius: var(--r);
+  font-weight: 700; font-size: 0.9rem; letter-spacing: 0.06em; text-transform: uppercase;
+  text-decoration: none; display: inline-block;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,69,0,0.35); }
+.btn-ghost {
+  color: var(--fg2); font-weight: 600; font-size: 0.9rem;
+  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+  transition: color 0.2s;
+}
+.btn-ghost:hover { color: var(--fg); }
+.hero-stat-row {
+  display: grid; grid-template-columns: repeat(3, auto);
+  gap: 0;
+  border: 1px solid var(--brd); border-radius: var(--r);
+  overflow: hidden;
+  width: fit-content;
+  margin-top: 64px;
+}
+.hero-stat {
+  padding: 20px 32px;
+  border-right: 1px solid var(--brd);
+}
+.hero-stat:last-child { border-right: none; }
+.hero-stat .n {
+  font-size: 2rem; font-weight: 900; letter-spacing: -0.04em;
+  color: var(--fg); line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.hero-stat .n span { color: var(--acc); }
+.hero-stat .l { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg2); margin-top: 4px; }
+
+/* ─── LABEL ──────────────────────────────────────────────── */
+.sec-eyebrow {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--acc);
+  margin-bottom: 18px; display: flex; align-items: center; gap: 10px;
+}
+.sec-eyebrow::after { content: ''; flex: 1; max-width: 40px; height: 1px; background: var(--acc); }
+
+/* ─── PROBLEM SECTION ────────────────────────────────────── */
+.problem-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  margin-top: 48px;
+}
+@media (max-width:640px) { .problem-grid { grid-template-columns: 1fr; } }
+.prob-cell {
+  background: var(--sur);
+  padding: 36px;
+  border: 1px solid var(--brd);
+}
+.prob-cell:first-child { border-radius: var(--r) 0 0 0; }
+.prob-cell:nth-child(2) { border-radius: 0 var(--r) 0 0; }
+.prob-cell:nth-child(3) { border-radius: 0 0 0 var(--r); }
+.prob-cell:last-child  { border-radius: 0 0 var(--r) 0; background: var(--acc-dim); border-color: rgba(255,69,0,0.25); }
+.prob-cell .icon { font-size: 1.5rem; margin-bottom: 16px; }
+.prob-cell h3 { font-size: 1.05rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; }
+.prob-cell p { color: var(--fg2); font-size: 0.9rem; line-height: 1.6; }
+.prob-cell:last-child h3, .prob-cell:last-child p { color: var(--fg); }
+
+/* ─── WHO WE ARE ─────────────────────────────────────────── */
+.who-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 48px;
+}
+@media (max-width:700px) { .who-grid { grid-template-columns: 1fr; } }
+.who-big {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 900; letter-spacing: -0.04em; line-height: 1.05;
+  text-wrap: balance;
+}
+.who-big .acc { color: var(--acc); }
+.who-list { list-style: none; margin-top: 32px; display: flex; flex-direction: column; gap: 12px; }
+.who-list li {
+  display: flex; align-items: flex-start; gap: 12px;
+  font-size: 0.92rem; color: var(--fg2);
+}
+.who-list li::before {
+  content: '';
+  flex-shrink: 0;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--acc); margin-top: 8px;
+}
+.services-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  margin-top: 0;
+}
+.svc {
+  background: var(--sur); border: 1px solid var(--brd);
+  padding: 18px 20px; border-radius: var(--r);
+}
+.svc .svc-n { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--acc); margin-bottom: 4px; }
+.svc .svc-t { font-size: 0.88rem; font-weight: 600; color: var(--fg); }
+
+/* ─── CLIENTS ────────────────────────────────────────────── */
+.clients-intro {
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  font-weight: 800; letter-spacing: -0.03em;
+  max-width: 640px;
+  margin-bottom: 48px;
+  line-height: 1.2;
+}
+.clients-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2px;
+  margin-bottom: 56px;
+}
+.client-tile {
+  background: var(--sur); border: 1px solid var(--brd);
+  padding: 28px 24px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.client-tile .ct-sector {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--fg3);
+}
+.client-tile .ct-name {
+  font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; color: var(--fg);
+}
+.client-tile .ct-country {
+  font-size: 0.78rem; color: var(--fg2);
+}
+
+/* ─── RESULTS ────────────────────────────────────────────── */
+.results-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px; margin-top: 48px;
+}
+.result-card {
+  background: var(--sur); border: 1px solid var(--brd);
+  padding: 36px; border-radius: var(--r);
+  position: relative; overflow: hidden;
+}
+.result-card::before {
+  content: ''; position: absolute; top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: var(--acc);
+}
+.result-card .rc-metric {
+  font-size: 2.6rem; font-weight: 900; letter-spacing: -0.04em;
+  color: var(--acc); line-height: 1; margin-bottom: 12px;
+}
+.result-card .rc-desc {
+  font-size: 0.9rem; color: var(--fg2); line-height: 1.6;
+  margin-bottom: 20px;
+}
+.result-card .rc-client {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--fg3);
+}
+
+/* ─── WHY NOW ────────────────────────────────────────────── */
+.why-block {
+  background: var(--sur); border: 1px solid var(--brd);
+  border-radius: var(--r); padding: 64px;
+  margin-top: 48px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+  align-items: center;
+}
+@media (max-width:700px) { .why-block { grid-template-columns: 1fr; padding: 36px; } }
+.why-big {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 900; letter-spacing: -0.04em; line-height: 1.1;
+  text-wrap: balance;
+}
+.why-big .acc { color: var(--acc); }
+.why-points { display: flex; flex-direction: column; gap: 24px; }
+.why-pt { display: flex; gap: 18px; align-items: flex-start; }
+.why-pt-num {
+  flex-shrink: 0; width: 32px; height: 32px;
+  background: var(--acc-dim); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.75rem; font-weight: 900; color: var(--acc);
+}
+.why-pt-txt h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
+.why-pt-txt p  { font-size: 0.85rem; color: var(--fg2); line-height: 1.55; }
+
+/* ─── CTA ────────────────────────────────────────────────── */
+.cta-sec {
+  text-align: center; padding: 120px 0;
+}
+.cta-sec h2 {
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  font-weight: 900; letter-spacing: -0.04em;
+  margin-bottom: 24px; line-height: 1;
+}
+.cta-sec h2 em { font-style: normal; color: var(--acc); }
+.cta-sec p { color: var(--fg2); font-size: 1.05rem; max-width: 440px; margin: 0 auto 40px; }
+.cta-inline { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* ─── FOOTER ─────────────────────────────────────────────── */
+footer {
+  border-top: 1px solid var(--brd);
+  padding: 28px 32px;
+  display: flex; justify-content: space-between; align-items: center;
+  color: var(--fg3); font-size: 0.78rem; letter-spacing: 0.06em;
+  flex-wrap: wrap; gap: 12px;
+}
+footer strong { color: var(--acc); font-weight: 800; }
+
+/* ─── SCROLL REVEAL ──────────────────────────────────────── */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.55s ease, transform 0.55s ease; }
+.reveal.show { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider { width: 48px; height: 3px; background: var(--acc); margin: 0 0 28px; }
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 900; letter-spacing: -0.04em; line-height: 1.1;
+  margin-bottom: 16px;
+}
+.section-sub { font-size: 1rem; color: var(--fg2); max-width: 520px; line-height: 1.65; }
+</style>
+
+<nav>
+  <a class="nav-logo" href="#"><span>HINT</span> MEDIA</a>
+  <ul class="nav-links">
+    <li><a href="#quienes">Quiénes somos</a></li>
+    <li><a href="#clientes">Clientes</a></li>
+    <li><a href="#resultados">Resultados</a></li>
+    <li><a href="#hablamos">Hablamos</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-eyebrow">Hint Media Creativo</p>
+    <h1>Comunicación<br>que <em>construye.</em></h1>
+    <p class="hero-sub">Somos jóvenes. Pero laburamos con empresas de puta madre. Y tenemos casi 20 personas detrás para resolver todo lo que necesitás.</p>
+    <div class="hero-badges">
+      <span class="badge hot">🔥 Segmento Startups LATAM</span>
+      <span class="badge">Omnicanal</span>
+      <span class="badge">Estrategia + Ejecución</span>
+      <span class="badge">Equipo Senior</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#hablamos" class="btn-primary">Hablamos →</a>
+      <a href="scouting.html" class="btn-ghost">Ver radar LATAM ↗</a>
+    </div>
+    <div class="hero-stat-row reveal">
+      <div class="hero-stat">
+        <div class="n">+20<span>k</span></div>
+        <div class="l">Seguidores orgánicos generados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="n">3<span>x</span></div>
+        <div class="l">Cobertura en medios especializados</div>
+      </div>
+      <div class="hero-stat">
+        <div class="n">5</div>
+        <div class="l">Clientes activos en LATAM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEMA -->
+<section id="problema">
+  <div class="wrap">
+    <p class="sec-eyebrow">El problema del mercado</p>
+    <h2 class="section-title reveal">Las agencias tradicionales<br>tienen un problema serio.</h2>
+    <p class="section-sub reveal">O tienen experiencia y cero velocidad. O tienen velocidad y cero estrategia. Nosotros resolvemos los dos.</p>
+    <div class="problem-grid reveal">
+      <div class="prob-cell">
+        <div class="icon">🐢</div>
+        <h3>Agencias grandes</h3>
+        <p>Mucha burocracia. Muchos aprobadores. Procesos de 3 semanas para un posteo. No van a la velocidad de una startup que acaba de levantar capital.</p>
+      </div>
+      <div class="prob-cell">
+        <div class="icon">🎲</div>
+        <h3>Freelancers y agencias pequeñas</h3>
+        <p>Velocidad OK, pero no tienen el músculo para cubrir todos los frentes al mismo tiempo. Un buen copy no alcanza si la estrategia falla.</p>
+      </div>
+      <div class="prob-cell">
+        <div class="icon">💰</div>
+        <h3>El cliente queda atrapado</h3>
+        <p>O paga de más por lentitud. O paga menos y pierde coherencia. El trabajo termina siendo parcheado, sin sistema, sin narrativa real.</p>
+      </div>
+      <div class="prob-cell">
+        <div class="icon">⚡</div>
+        <h3>Lo que necesitás es esto</h3>
+        <p>Estrategia senior, velocidad de startup, equipo completo. Y que desde el día uno entiendan tu negocio y no pierdan tiempo en egos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUIÉNES SOMOS -->
+<section id="quienes">
+  <div class="wrap">
+    <p class="sec-eyebrow">Quiénes somos</p>
+    <div class="who-grid">
+      <div>
+        <p class="who-big reveal">Somos Hint Media.<br><span class="acc">Agencia omnicanal</span> con casi 20 personas detrás.</p>
+        <ul class="who-list reveal">
+          <li>No improvisamos. Tenemos sistema y metodología probada.</li>
+          <li>Llegamos con estrategia y nos quedamos con ejecución.</li>
+          <li>Trabajamos con empresas que necesitan crecer y necesitan que eso se vea.</li>
+          <li>Nos importa el resultado, no los informes de fin de mes.</li>
+        </ul>
+      </div>
+      <div class="services-grid reveal">
+        <div class="svc"><div class="svc-n">01</div><div class="svc-t">Identidad & Branding</div></div>
+        <div class="svc"><div class="svc-n">02</div><div class="svc-t">Contenido Multiplataforma</div></div>
+        <div class="svc"><div class="svc-n">03</div><div class="svc-t">Paid Media Meta / Google</div></div>
+        <div class="svc"><div class="svc-n">04</div><div class="svc-t">Audiovisual & Storydoing</div></div>
+        <div class="svc"><div class="svc-n">05</div><div class="svc-t">Vocería Digital / CEO</div></div>
+        <div class="svc"><div class="svc-n">06</div><div class="svc-t">SEO & Posicionamiento</div></div>
+        <div class="svc"><div class="svc-n">07</div><div class="svc-t">Social Media Management</div></div>
+        <div class="svc"><div class="svc-n">08</div><div class="svc-t">Email Marketing</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section id="clientes">
+  <div class="wrap">
+    <p class="sec-eyebrow">Con quién laburamos</p>
+    <p class="clients-intro reveal">Empresas que ya probaron que saben hacer las cosas. Elegimos trabajar con las mejores.</p>
+    <div class="clients-grid reveal">
+      <div class="client-tile">
+        <div class="ct-sector">Energía / Infra</div>
+        <div class="ct-name">TGS</div>
+        <div class="ct-country">Transportadora de Gas del Sur — Argentina</div>
+      </div>
+      <div class="client-tile">
+        <div class="ct-sector">Energía / Infra</div>
+        <div class="ct-name">Transener</div>
+        <div class="ct-country">Transporte de Energía Eléctrica — Argentina</div>
+      </div>
+      <div class="client-tile">
+        <div class="ct-sector">Seguros / Finanzas</div>
+        <div class="ct-name">Libra Seguros</div>
+        <div class="ct-country">Aseguradora — Argentina</div>
+      </div>
+      <div class="client-tile">
+        <div class="ct-sector">Retail / Scaleup</div>
+        <div class="ct-name">Destiny Group</div>
+        <div class="ct-country">Holding retail — LATAM</div>
+      </div>
+      <div class="client-tile">
+        <div class="ct-sector">Retail / Moda</div>
+        <div class="ct-name">Tasarolli</div>
+        <div class="ct-country">Tiendas de calzado — Argentina</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section id="resultados">
+  <div class="wrap">
+    <p class="sec-eyebrow">Resultados concretos</p>
+    <h2 class="section-title reveal">No hablamos de "mejoras".<br>Hablamos de números.</h2>
+    <div class="results-grid">
+      <div class="result-card reveal">
+        <div class="rc-metric">3x</div>
+        <div class="rc-desc">Triplicamos la cobertura en medios especializados del área de sostenibilidad en 6 meses, sin pauta pagada.</div>
+        <div class="rc-client">TGS — Energía · Argentina</div>
+      </div>
+      <div class="result-card reveal">
+        <div class="rc-metric">3.2k</div>
+        <div class="rc-desc">Seguidores orgánicos y cobertura consistente en medios del sector en 8 meses. Desde cero.</div>
+        <div class="rc-client">Destiny Group — Retail · LATAM</div>
+      </div>
+      <div class="result-card reveal">
+        <div class="rc-metric">0→∞</div>
+        <div class="rc-desc">Construimos presencia digital desde cero en un mercado donde nadie comunicaba distinto. Ahora son referentes.</div>
+        <div class="rc-client">Libra Seguros — Seguros · Argentina</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ AHORA -->
+<section>
+  <div class="wrap">
+    <div class="why-block reveal">
+      <div>
+        <p class="sec-eyebrow">Por qué ahora</p>
+        <p class="why-big">Las startups que <em class="acc">acaban de levantar capital</em> necesitan una agencia seria. Hoy.</p>
+      </div>
+      <div class="why-points">
+        <div class="why-pt">
+          <div class="why-pt-num">1</div>
+          <div class="why-pt-txt">
+            <h4>La ventana es corta</h4>
+            <p>Después de una ronda, hay 3 a 6 meses para demostrar tracción. Los inversores miran. La narrativa importa.</p>
+          </div>
+        </div>
+        <div class="why-pt">
+          <div class="why-pt-num">2</div>
+          <div class="why-pt-txt">
+            <h4>No tienen equipo de comms maduro</h4>
+            <p>Las startups en Serie A y B rara vez tienen más de 1 o 2 personas de marketing. Necesitan músculo externo.</p>
+          </div>
+        </div>
+        <div class="why-pt">
+          <div class="why-pt-num">3</div>
+          <div class="why-pt-txt">
+            <h4>La decisión es ágil</h4>
+            <p>Sin procurement de 90 días. Sin aprobaciones de 5 niveles. Un founder decide en una semana si confía en vos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="hablamos" class="cta-sec">
+  <div class="wrap">
+    <h2 class="reveal">15 minutos.<br><em>Eso es todo.</em></h2>
+    <p class="reveal">Si algo de lo que ves acá conecta con lo que necesitás, hablamos. Sin presentación de 40 slides. Sin promesas vacías.</p>
+    <div class="cta-inline reveal">
+      <a href="plan20dias.html" class="btn-primary">Ver plan 20 días →</a>
+      <a href="scouting.html" class="btn-ghost">Radar LATAM ↗</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>HINT MEDIA CREATIVO — <strong>2026</strong></span>
+  <span>Comunicación que construye.</span>
+  <a href="plan20dias.html" style="color:var(--acc); font-weight:700; text-decoration:none;">Plan 20 días →</a>
+</footer>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); obs.unobserve(e.target); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>

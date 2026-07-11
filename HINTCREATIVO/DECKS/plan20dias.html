@@ -1,0 +1,436 @@
+<!doctype html>
+<title>Plan 20 Días — Primer Cliente HINTCREATIVO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root {
+  --bg:       #070707;
+  --sur:      #101010;
+  --sur2:     #181818;
+  --brd:      rgba(255,255,255,0.07);
+  --acc:      #FF4500;
+  --acc-dim:  rgba(255,69,0,0.13);
+  --fg:       #EAEAEA;
+  --fg2:      rgba(234,234,234,0.52);
+  --fg3:      rgba(234,234,234,0.22);
+  --green:    #22C55E;
+  --green-dim:rgba(34,197,94,0.12);
+  --yellow:   #FACC15;
+  --yellow-dim:rgba(250,204,21,0.12);
+  --r:        7px;
+}
+@media (prefers-color-scheme:light){ :root{ --bg:#F0ECE2; --sur:#FFFFFF; --sur2:#E8E2D8; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.2); } }
+:root[data-theme="dark"]  { --bg:#070707; --sur:#101010; --sur2:#181818; --brd:rgba(255,255,255,0.07); --fg:#EAEAEA; --fg2:rgba(234,234,234,0.52); --fg3:rgba(234,234,234,0.22); }
+:root[data-theme="light"] { --bg:#F0ECE2; --sur:#FFFFFF; --sur2:#E8E2D8; --brd:rgba(0,0,0,0.08); --fg:#0A0A0A; --fg2:rgba(10,10,10,0.52); --fg3:rgba(10,10,10,0.2); }
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:15px; line-height:1.6; overflow-x:hidden; }
+.wrap { max-width:1040px; margin:0 auto; padding:0 28px; }
+
+/* ─── HEADER ─────────────────────────────────────────────── */
+header { border-bottom:1px solid var(--brd); padding:18px 28px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+.hdr-brand { font-size:0.72rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--fg3); }
+.hdr-brand span { color:var(--acc); }
+.hdr-nav { display:flex; gap:8px; flex-wrap:wrap; }
+.hdr-nav a { color:var(--fg2); font-size:0.75rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; padding:6px 14px; border:1px solid var(--brd); border-radius:100px; transition:all 0.2s; }
+.hdr-nav a:hover { border-color:var(--acc); color:var(--acc); }
+.hdr-nav a.active { background:var(--acc); border-color:var(--acc); color:#fff; }
+
+/* ─── HERO ───────────────────────────────────────────────── */
+.plan-hero { padding:72px 0 52px; }
+.eyebrow { font-size:0.72rem; font-weight:700; letter-spacing:0.22em; text-transform:uppercase; color:var(--acc); margin-bottom:20px; display:flex; align-items:center; gap:10px; }
+.eyebrow::before { content:''; width:24px; height:2px; background:var(--acc); }
+.plan-hero h1 { font-size:clamp(2.4rem,7vw,6rem); font-weight:900; letter-spacing:-0.04em; line-height:0.92; margin-bottom:22px; }
+.plan-hero h1 em { font-style:normal; color:var(--acc); }
+.plan-hero .sub { color:var(--fg2); font-size:1rem; max-width:540px; line-height:1.65; margin-bottom:40px; }
+
+/* ─── FUNNEL ─────────────────────────────────────────────── */
+.funnel { display:flex; align-items:stretch; gap:0; margin-bottom:72px; overflow-x:auto; }
+.funnel-step {
+  flex:1; min-width:120px;
+  background:var(--sur); border:1px solid var(--brd);
+  padding:24px 16px; text-align:center;
+  position:relative; display:flex; flex-direction:column; align-items:center; gap:8px;
+  transition:background 0.2s;
+}
+.funnel-step:not(:last-child)::after {
+  content:'→';
+  position:absolute; right:-12px; top:50%; transform:translateY(-50%);
+  color:var(--acc); font-weight:900; font-size:1rem; z-index:1;
+}
+.funnel-step:first-child { border-radius:var(--r) 0 0 var(--r); }
+.funnel-step:last-child  { border-radius:0 var(--r) var(--r) 0; background:var(--acc-dim); border-color:rgba(255,69,0,0.3); }
+.funnel-num { font-size:2rem; font-weight:900; letter-spacing:-0.04em; color:var(--fg); font-variant-numeric:tabular-nums; }
+.funnel-step:last-child .funnel-num { color:var(--acc); }
+.funnel-label { font-size:0.68rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--fg2); line-height:1.3; }
+.funnel-pct { font-size:0.72rem; color:var(--fg3); font-weight:600; }
+
+/* ─── PHASE BLOCK ────────────────────────────────────────── */
+.phase { margin-bottom:48px; }
+.phase-header {
+  display:flex; align-items:center; gap:18px;
+  padding:20px 28px; margin-bottom:2px;
+  background:var(--sur2); border:1px solid var(--brd); border-radius:var(--r) var(--r) 0 0;
+}
+.phase-num {
+  width:42px; height:42px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-size:0.8rem; font-weight:900; flex-shrink:0;
+}
+.ph1 .phase-num { background:var(--acc-dim); color:var(--acc); }
+.ph2 .phase-num { background:rgba(250,204,21,0.12); color:var(--yellow); }
+.ph3 .phase-num { background:var(--green-dim); color:var(--green); }
+.ph4 .phase-num { background:var(--acc-dim); color:var(--acc); border:1px solid var(--acc); }
+.phase-info {}
+.phase-title { font-size:1rem; font-weight:800; letter-spacing:-0.02em; }
+.phase-range { font-size:0.75rem; color:var(--fg2); font-weight:600; letter-spacing:0.06em; margin-top:2px; }
+.phase-goal { margin-left:auto; font-size:0.78rem; color:var(--fg2); text-align:right; max-width:220px; }
+.phase-goal strong { color:var(--fg); display:block; font-weight:700; }
+
+.days-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:2px; }
+@media (max-width:700px) { .days-grid { grid-template-columns:1fr 1fr; } }
+.day-cell {
+  background:var(--sur); border:1px solid var(--brd);
+  padding:20px 18px; min-height:120px;
+  display:flex; flex-direction:column; gap:8px;
+}
+.day-cell:last-child { border-radius:0 0 var(--r) 0; }
+.day-cell:nth-child(5n) { border-radius:0 0 var(--r) 0; }
+.day-n {
+  font-size:0.68rem; font-weight:800; letter-spacing:0.18em;
+  text-transform:uppercase; color:var(--fg3);
+}
+.ph1 .day-n { color:rgba(255,69,0,0.6); }
+.ph2 .day-n { color:rgba(250,204,21,0.6); }
+.ph3 .day-n { color:rgba(34,197,94,0.6); }
+.ph4 .day-n { color:rgba(255,69,0,0.8); }
+.day-action { font-size:0.85rem; font-weight:700; color:var(--fg); line-height:1.3; }
+.day-detail { font-size:0.78rem; color:var(--fg2); line-height:1.5; }
+.day-metric { font-size:0.72rem; color:var(--acc); font-weight:700; margin-top:auto; }
+
+/* ─── MSG TEMPLATE ───────────────────────────────────────── */
+.msg-section { margin:72px 0; }
+.msg-section h2 { font-size:clamp(1.5rem,3vw,2.2rem); font-weight:900; letter-spacing:-0.04em; margin-bottom:8px; }
+.msg-section .ms-sub { color:var(--fg2); margin-bottom:36px; }
+.msg-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+@media (max-width:700px) { .msg-grid { grid-template-columns:1fr; } }
+.msg-variant { background:var(--sur); border:1px solid var(--brd); border-radius:var(--r); overflow:hidden; }
+.mv-header { padding:16px 24px; background:var(--sur2); border-bottom:1px solid var(--brd); display:flex; align-items:center; gap:10px; }
+.mv-tag { font-size:0.68rem; font-weight:800; letter-spacing:0.16em; text-transform:uppercase; padding:4px 10px; border-radius:100px; }
+.mv-tag.senior { background:rgba(255,69,0,0.15); color:var(--acc); }
+.mv-tag.joven  { background:var(--green-dim); color:var(--green); }
+.mv-header h3 { font-size:0.85rem; font-weight:700; }
+.msg-body { padding:24px; font-family:system-ui; }
+.msg-bubble {
+  background:var(--sur2); border:1px solid var(--brd);
+  border-radius:8px; padding:14px 18px;
+  font-size:0.85rem; line-height:1.65; color:var(--fg2);
+  margin-bottom:8px;
+  position:relative;
+}
+.msg-bubble::before {
+  content:attr(data-label);
+  display:block; font-size:0.62rem; font-weight:800; letter-spacing:0.16em;
+  text-transform:uppercase; color:var(--fg3); margin-bottom:6px;
+}
+.msg-bubble.b1::before { color:var(--acc); }
+.msg-bubble strong { color:var(--fg); }
+
+/* ─── METRICS ────────────────────────────────────────────── */
+.metrics-section { margin:72px 0; }
+.metrics-section h2 { font-size:clamp(1.5rem,3vw,2.2rem); font-weight:900; letter-spacing:-0.04em; margin-bottom:8px; }
+.metrics-section .ms-sub { color:var(--fg2); margin-bottom:36px; }
+.hie-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-bottom:36px; }
+.hie-card { background:var(--sur); border:1px solid var(--brd); border-radius:var(--r); padding:28px 24px; }
+.hie-num { font-size:2.2rem; font-weight:900; letter-spacing:-0.04em; font-variant-numeric:tabular-nums; }
+.hie-num.acc { color:var(--acc); }
+.hie-num.grn { color:var(--green); }
+.hie-num.ylw { color:var(--yellow); }
+.hie-label { font-size:0.72rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--fg2); margin-top:4px; }
+.hie-note { font-size:0.78rem; color:var(--fg3); margin-top:8px; line-height:1.45; }
+.hie-warn { background:var(--yellow-dim); border:1px solid rgba(250,204,21,0.25); border-radius:var(--r); padding:18px 22px; font-size:0.85rem; color:var(--fg2); }
+.hie-warn strong { color:var(--yellow); }
+
+/* ─── CHECKLIST ──────────────────────────────────────────── */
+.checklist-section { margin:72px 0; }
+.checklist-section h2 { font-size:clamp(1.5rem,3vw,2.2rem); font-weight:900; letter-spacing:-0.04em; margin-bottom:36px; }
+.check-cols { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+@media (max-width:640px) { .check-cols { grid-template-columns:1fr; } }
+.check-group { background:var(--sur); border:1px solid var(--brd); border-radius:var(--r); overflow:hidden; }
+.check-group-header { padding:14px 22px; background:var(--sur2); border-bottom:1px solid var(--brd); font-size:0.75rem; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:var(--fg2); }
+.check-item { padding:13px 22px; border-bottom:1px solid var(--brd); display:flex; gap:12px; align-items:flex-start; font-size:0.85rem; }
+.check-item:last-child { border-bottom:none; }
+.check-item::before { content:''; flex-shrink:0; width:16px; height:16px; border:1.5px solid var(--brd); border-radius:3px; margin-top:2px; }
+.check-item.done::before { background:var(--green); border-color:var(--green); content:'✓'; font-size:0.7rem; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:900; }
+
+/* ─── BLOCKLIST REMINDER ─────────────────────────────────── */
+.blocklist { background:rgba(255,69,0,0.07); border:1px solid rgba(255,69,0,0.2); border-radius:var(--r); padding:32px; margin:72px 0; }
+.blocklist h3 { font-size:1rem; font-weight:800; letter-spacing:-0.02em; margin-bottom:16px; color:var(--acc); }
+.bl-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:6px; }
+.bl-item { background:rgba(255,69,0,0.08); border:1px solid rgba(255,69,0,0.15); border-radius:4px; padding:6px 12px; font-size:0.78rem; color:var(--fg2); font-family:monospace; }
+
+/* ─── FOOTER ─────────────────────────────────────────────── */
+footer { border-top:1px solid var(--brd); padding:24px 28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; color:var(--fg3); font-size:0.75rem; letter-spacing:0.06em; }
+footer a { color:var(--acc); text-decoration:none; font-weight:700; }
+
+/* ─── REVEAL ─────────────────────────────────────────────── */
+.reveal { opacity:0; transform:translateY(20px); transition:opacity 0.5s ease, transform 0.5s ease; }
+.reveal.show { opacity:1; transform:none; }
+@media (prefers-reduced-motion:reduce) { .reveal { opacity:1; transform:none; } }
+</style>
+
+<header>
+  <span class="hdr-brand"><span>HINT</span> MEDIA — PLAN</span>
+  <nav class="hdr-nav">
+    <a href="deck.html">Quiénes somos</a>
+    <a href="scouting.html">Radar LATAM</a>
+    <a href="plan20dias.html" class="active">Plan 20 días</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="plan-hero">
+    <p class="eyebrow">Estrategia de adquisición</p>
+    <h1>20 DÍAS.<br><em>UN CLIENTE.</em></h1>
+    <p class="sub">El plan concreto para conseguir nuestro primer cliente del segmento startup LATAM. Basado en datos reales del HIE (n=427 contactos, 25.1% tasa de conversión a dossier).</p>
+  </div>
+
+  <!-- FUNNEL -->
+  <div class="funnel reveal">
+    <div class="funnel-step">
+      <div class="funnel-num">25</div>
+      <div class="funnel-label">Conectados</div>
+      <div class="funnel-pct">100%</div>
+    </div>
+    <div class="funnel-step">
+      <div class="funnel-num">20</div>
+      <div class="funnel-label">MSG enviados</div>
+      <div class="funnel-pct">80%</div>
+    </div>
+    <div class="funnel-step">
+      <div class="funnel-num">5–6</div>
+      <div class="funnel-label">Respuestas</div>
+      <div class="funnel-pct">~25%</div>
+    </div>
+    <div class="funnel-step">
+      <div class="funnel-num">3</div>
+      <div class="funnel-label">Dossiers</div>
+      <div class="funnel-pct">15%</div>
+    </div>
+    <div class="funnel-step">
+      <div class="funnel-num">1–2</div>
+      <div class="funnel-label">Calls</div>
+      <div class="funnel-pct">8%</div>
+    </div>
+    <div class="funnel-step">
+      <div class="funnel-num">1</div>
+      <div class="funnel-label">Cliente</div>
+      <div class="funnel-pct">🎯</div>
+    </div>
+  </div>
+
+  <!-- FASE 1 -->
+  <div class="phase ph1 reveal">
+    <div class="phase-header">
+      <div class="phase-num">1</div>
+      <div class="phase-info">
+        <div class="phase-title">Setup y Targeting</div>
+        <div class="phase-range">Días 1 – 5</div>
+      </div>
+      <div class="phase-goal"><strong>Objetivo</strong>Lista armada, 25 conexiones enviadas</div>
+    </div>
+    <div class="days-grid">
+      <div class="day-cell"><div class="day-n">Día 1</div><div class="day-action">Armar lista CREATIVOS 1.0</div><div class="day-detail">Sales Navigator: filtros Founder/CEO, empresa <200 emp, Julio 2026 funded. Empezar con Tier 1 del radar.</div></div>
+      <div class="day-cell"><div class="day-n">Día 2</div><div class="day-action">Verificar perfiles</div><div class="day-detail">Confirmar cargo actual, publicaciones recientes (30 días), señal humana. Identificar variante JOVEN vs SENIOR.</div></div>
+      <div class="day-cell"><div class="day-n">Día 3</div><div class="day-action">Conectar — bloque 1</div><div class="day-detail">Enviar 10 conexiones. Sin MSG todavía. Solo conectar y dejar que vean el perfil.</div><div class="day-metric">10 conexiones</div></div>
+      <div class="day-cell"><div class="day-n">Día 4</div><div class="day-action">Conectar — bloque 2</div><div class="day-detail">15 conexiones adicionales. Monitorear quién aceptó del bloque anterior.</div><div class="day-metric">25 conexiones totales</div></div>
+      <div class="day-cell"><div class="day-n">Día 5</div><div class="day-action">Prep mensajes</div><div class="day-detail">Personalizar bloque de texto para los 20 targets prioritarios. Elegir credential correcto por sector. Escribir y revisar contra blocklist.</div></div>
+    </div>
+  </div>
+
+  <!-- FASE 2 -->
+  <div class="phase ph2 reveal">
+    <div class="phase-header">
+      <div class="phase-num">2</div>
+      <div class="phase-info">
+        <div class="phase-title">Primer contacto — MSG Creativo</div>
+        <div class="phase-range">Días 6 – 10</div>
+      </div>
+      <div class="phase-goal"><strong>Objetivo</strong>20 MSG enviados, 3+ respuestas</div>
+    </div>
+    <div class="days-grid">
+      <div class="day-cell"><div class="day-n">Día 6</div><div class="day-action">MSG bloque 1</div><div class="day-detail">Enviar a los 5 targets Tier 1. Máximo 5 por día para mantener calidad y personalización.</div><div class="day-metric">5 MSG enviados</div></div>
+      <div class="day-cell"><div class="day-n">Día 7</div><div class="day-action">MSG bloque 2</div><div class="day-detail">5 targets del Tier 2. Monitorear respuestas del día anterior y responder si hay algo.</div><div class="day-metric">10 MSG totales</div></div>
+      <div class="day-cell"><div class="day-n">Día 8</div><div class="day-action">Responder + MSG</div><div class="day-detail">Responder a cualquier reply siguiendo protocolo conversacional. Enviar 5 MSG más al Tier 2 restante.</div><div class="day-metric">15 MSG totales</div></div>
+      <div class="day-cell"><div class="day-n">Día 9</div><div class="day-action">Completar 20 MSG</div><div class="day-detail">Últimos 5 MSG. Empezar a documentar respuestas en historial.json. Identificar HIGH engagement.</div><div class="day-metric">20 MSG totales</div></div>
+      <div class="day-cell"><div class="day-n">Día 10</div><div class="day-action">Dossier a interesados</div><div class="day-detail">Si hay respuesta positiva y pidieron más info, enviar dossier con contexto (sector, qué contiene). No solo el link.</div><div class="day-metric">1–3 dossiers</div></div>
+    </div>
+  </div>
+
+  <!-- FASE 3 -->
+  <div class="phase ph3 reveal">
+    <div class="phase-header">
+      <div class="phase-num">3</div>
+      <div class="phase-info">
+        <div class="phase-title">Follow-up y dossiers</div>
+        <div class="phase-range">Días 11 – 15</div>
+      </div>
+      <div class="phase-goal"><strong>Objetivo</strong>3 dossiers enviados, 1 call tentativa</div>
+    </div>
+    <div class="days-grid">
+      <div class="day-cell"><div class="day-n">Día 11</div><div class="day-action">Responder conversaciones activas</div><div class="day-detail">Prioridad total a quien respondió. Protocolo conversacional: leer último MSG, responder lo que dijo, avanzar hacia dossier.</div></div>
+      <div class="day-cell"><div class="day-n">Día 12</div><div class="day-action">SEG1 no respondieron</div><div class="day-detail">Para quienes no respondieron el MSG inicial. Ángulo rotado: si MSG habló de presencia → SEG1 habla de ROI concreto. No repetir el ángulo.</div><div class="day-metric">10 SEG1</div></div>
+      <div class="day-cell"><div class="day-n">Día 13</div><div class="day-action">Buscar nuevas señales</div><div class="day-detail">Signal scan: ¿publicaron algo desde el MSG? Si sí, el SEG1 arranca por ahí, no por el dossier.</div></div>
+      <div class="day-cell"><div class="day-n">Día 14</div><div class="day-action">Push dossier</div><div class="day-detail">Para quien respondió positivo pero no pidió el dossier todavía: B4 — qué contiene + pedir permiso.</div><div class="day-metric">3 dossiers totales</div></div>
+      <div class="day-cell"><div class="day-n">Día 15</div><div class="day-action">Identificar call ready</div><div class="day-detail">Clasificar por engagement: HIGH = proponer call. MEDIUM = otro SEG. LOW = cerrar el ciclo por ahora.</div></div>
+    </div>
+  </div>
+
+  <!-- FASE 4 -->
+  <div class="phase ph4 reveal">
+    <div class="phase-header">
+      <div class="phase-num">4</div>
+      <div class="phase-info">
+        <div class="phase-title">Reuniones y cierre</div>
+        <div class="phase-range">Días 16 – 20</div>
+      </div>
+      <div class="phase-goal"><strong>Objetivo</strong>1 call agendada = primer cliente</div>
+    </div>
+    <div class="days-grid">
+      <div class="day-cell"><div class="day-n">Día 16</div><div class="day-action">Proponer reunión — HIGH</div><div class="day-detail">Solo para los que mostraron interés explícito. CTA: "15 minutos por acá o zoom." Pedir mail para Google Meet. Nunca WhatsApp.</div></div>
+      <div class="day-cell"><div class="day-n">Día 17</div><div class="day-action">SEG2 para MEDIUM</div><div class="day-detail">Urgencia sin presión. Rotar ángulo nuevamente. Proponer reunión como intercambio, no como presentación.</div></div>
+      <div class="day-cell"><div class="day-n">Día 18</div><div class="day-action">Preparar el call</div><div class="day-detail">Para el prospecto que confirmó: investigar empresa post-funding, preparar 3 preguntas de diagnóstico, no una presentación de 40 slides.</div></div>
+      <div class="day-cell"><div class="day-n">Día 19</div><div class="day-action">Hacer el call</div><div class="day-detail">Objetivo: entender el problema real. No vender todavía. Escuchar el 70% del tiempo. Al final: "¿Tiene sentido que te prepare algo concreto?"</div><div class="day-metric">1 call 🎯</div></div>
+      <div class="day-cell"><div class="day-n">Día 20</div><div class="day-action">Propuesta o cierre</div><div class="day-detail">Si el call fue bien: enviar propuesta concreta en 48hs. Si el call fue neutral: SEG con ángulo de propuesta de valor específico. Si fue negativo: agradecer y cerrar el ciclo.</div></div>
+    </div>
+  </div>
+
+  <!-- MSG TEMPLATE -->
+  <div class="msg-section reveal">
+    <h2>El mensaje que usamos</h2>
+    <p class="ms-sub">Estructura fija, tono variable. 4 bloques en menos de 8 segundos cada uno.</p>
+    <div class="msg-grid">
+
+      <div class="msg-variant">
+        <div class="mv-header">
+          <span class="mv-tag senior">Senior</span>
+          <h3>Para Directors / VP / C-Level</h3>
+        </div>
+        <div class="msg-body">
+          <div class="msg-bubble b1" data-label="Bloque 1 — Quiénes somos">Somos Hint Media, hacemos comunicación estratégica para empresas que <strong>acaban de escalar</strong> y necesitan que eso se vea.</div>
+          <div class="msg-bubble" data-label="Bloque 2 — El problema">Trabajamos con empresas que tenían <strong>presencia desorganizada o nula</strong> mientras crecían en la región.</div>
+          <div class="msg-bubble" data-label="Bloque 3 — Lo que hicimos">Construimos la narrativa, los contenidos y la distribución en medios del sector.</div>
+          <div class="msg-bubble" data-label="Bloque 4 — Resultado + CTA">Con <strong>TGS</strong> duplicamos la cobertura en medios especializados sin pauta en un ciclo. Si tiene sentido conversar, 15 minutos.</div>
+        </div>
+      </div>
+
+      <div class="msg-variant">
+        <div class="mv-header">
+          <span class="mv-tag joven">Joven</span>
+          <h3>Para Founders / Co-Founders / CEOs startup</h3>
+        </div>
+        <div class="msg-body">
+          <div class="msg-bubble b1" data-label="Bloque 1 — Quiénes somos">Somos Hint Media. Hacemos comunicación para <strong>empresas que están construyendo algo real</strong> y necesitan que eso se note.</div>
+          <div class="msg-bubble" data-label="Bloque 2 — El problema">Laburamos con empresas que tenían <strong>presencia digital desorganizada o inexistente</strong> mientras escalaban.</div>
+          <div class="msg-bubble" data-label="Bloque 3 — Lo que hicimos">Armamos la narrativa, los contenidos y la distribución desde cero.</div>
+          <div class="msg-bubble" data-label="Bloque 4 — Resultado + CTA">Con <strong>Destiny Group</strong> logramos 3k seguidores orgánicos y cobertura en medios del sector en 8 meses. Si conecta, 15 minutos.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- METRICS -->
+  <div class="metrics-section reveal">
+    <h2>Los números que nos respaldan</h2>
+    <p class="ms-sub">Datos reales del HIE — 427 conversaciones, seguimiento desde junio 2026.</p>
+    <div class="hie-grid">
+      <div class="hie-card">
+        <div class="hie-num acc">25.1%</div>
+        <div class="hie-label">Tasa global de dossier</div>
+        <div class="hie-note">De cada 100 personas que reciben MSG1, 25 terminan pidiendo el dossier.</div>
+      </div>
+      <div class="hie-card">
+        <div class="hie-num grn">35.7%</div>
+        <div class="hie-label">Educación / Mejor sector</div>
+        <div class="hie-note">El sector con mayor conversión comprobada (n=42, confianza MEDIUM).</div>
+      </div>
+      <div class="hie-card">
+        <div class="hie-num ylw">27.3%</div>
+        <div class="hie-label">Director — mejor seniority</div>
+        <div class="hie-note">Director convierte 2.7x más que CEO en frío. Preferir Director/Founder como primer contacto.</div>
+      </div>
+      <div class="hie-card">
+        <div class="hie-num acc">10%</div>
+        <div class="hie-label">CEO en frío</div>
+        <div class="hie-note">La mitad de conversión que Director. Evitar CEO como primer contacto salvo evidencia fuerte.</div>
+      </div>
+    </div>
+    <div class="hie-warn">
+      <strong>Regla derivada para este plan:</strong> En el segmento startup, el Founder/CEO de empresa propia (no corporativo) convierte diferente al CEO de una empresa grande. El Founder de una startup de 20 personas es más parecido a un Director en velocidad de decisión. Aplicar variante JOVEN y esperar conversión ~20-27%.
+    </div>
+  </div>
+
+  <!-- BLOCKLIST REMINDER -->
+  <div class="blocklist reveal">
+    <h3>Frases prohibidas — verificar antes de cada MSG</h3>
+    <div class="bl-grid">
+      <div class="bl-item">"Gracias por la apertura"</div>
+      <div class="bl-item">"Por eso te escribo"</div>
+      <div class="bl-item">"Somos una agencia..."</div>
+      <div class="bl-item">"No sé si viste..."</div>
+      <div class="bl-item">"Quedo atento/a"</div>
+      <div class="bl-item">"Retomo..."</div>
+      <div class="bl-item">"Justamente por eso..."</div>
+      <div class="bl-item">"Es un desafío que vemos..."</div>
+      <div class="bl-item">"Muchas empresas..."</div>
+      <div class="bl-item">"Quería hacer seguimiento"</div>
+      <div class="bl-item">— guión largo</div>
+      <div class="bl-item">¡ ¿ apertura</div>
+    </div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="checklist-section reveal">
+    <h2>Checklist de ejecución</h2>
+    <div class="check-cols">
+      <div class="check-group">
+        <div class="check-group-header">Antes de enviar cada MSG</div>
+        <div class="check-item">Leí el perfil del prospecto esta semana (no el mes pasado)</div>
+        <div class="check-item">Identifiqué variante JOVEN o SENIOR correctamente</div>
+        <div class="check-item">Elegí el cliente ejemplo del sector correcto</div>
+        <div class="check-item">El mensaje conecta con algo concreto que hicieron o publicaron</div>
+        <div class="check-item">Verifiqué contra la blocklist completa</div>
+        <div class="check-item">El CTA es claro y asume que la conversación tiene sentido</div>
+      </div>
+      <div class="check-group">
+        <div class="check-group-header">Al terminar cada día</div>
+        <div class="check-item">Actualicé historial.json con stages correctos</div>
+        <div class="check-item">Respondí todos los mensajes pendientes</div>
+        <div class="check-item">Documenté el engagement de cada contacto (LOW/MEDIUM/HIGH)</div>
+        <div class="check-item">Revisé si algún prospecto publicó algo nuevo</div>
+        <div class="check-item">Actualicé el .md del contacto en conversaciones/</div>
+        <div class="check-item">Hice commit al finalizar si hay cambios</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span>HINT MEDIA CREATIVO — PLAN 20 DÍAS</span>
+  <div style="display:flex;gap:20px;">
+    <a href="deck.html">Quiénes somos</a>
+    <a href="scouting.html">Radar LATAM</a>
+  </div>
+</footer>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target); } });
+}, { threshold:0.06 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
