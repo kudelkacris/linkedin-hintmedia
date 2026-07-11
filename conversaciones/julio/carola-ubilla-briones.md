@@ -5,7 +5,7 @@
 **Empresa:** Educación
 **Pais:** Chile
 **Sector:** Educación (institutos técnicos, educación superior, EdTech, servicios educativos)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 10/07/26
 
 ---
 
@@ -24,6 +24,18 @@
 > Me llamó la atención la forma en que venís canalizando convocatorias educativas. No es algo que cualquiera haga de forma sistemática en LinkedIn — normalmente los perfiles comerciales se enfocan en su propia propuesta. Vos estás construyendo algo distinto, una posición de facilitadora.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 (10/07/26)
+> "Hola Florencia un gusto, yo estoy vinculada a educación y por ello comparto diversas convocatorias. En que te puedo ayudar"
+
+## MSG2 (10/07/26)
+> Buenas Carola!
+> Tiene sentido, cuando uno está adentro del sector termina siendo un nodo natural de conexión para todo lo que pasa en él.
+> En ese mundo donde todos hablan de "innovación educativa" y los mensajes empiezan a sonar igual, cómo se construye diferenciación real desde la comunicación?
+> Trabajo en Hint Media con organizaciones donde el problema central es ese: cómo separarse del ruido cuando todos dicen lo mismo. Lo trabajamos en energía, seguros, consultoría — el desafío de fondo siempre es el mismo.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo mando por acá, y si querés lo revisamos juntos en una llamada de 20 minutos.
 
 ---
 

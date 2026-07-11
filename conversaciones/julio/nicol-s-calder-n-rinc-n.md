@@ -5,7 +5,7 @@
 **Empresa:** UNICERVANTES
 **Pais:** Colombia
 **Sector:** Educación superior / EdTech
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 10/07/26
 
 ---
 
@@ -24,6 +24,18 @@
 > Me llamó la atención la publicación que hiciste en el aniversario de los 7 años. Lo que más me gustó fue que le dieras crédito al equipo en vez de solo celebrar números. No es lo que la mayoría hace cuando muestra ese tipo de crecimiento.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 (10/07/26)
+> "Hola Florencia. Gracias, ¿cuéntame?"
+
+## MSG2 (10/07/26)
+> Buenas Nicolás!
+> Lo que me llamó la atención no fue solo el dato de los 7 años, sino que elegiste contarlo desde el equipo. Eso dice algo de cómo pensás la comunicación institucional.
+> En un mercado donde todas las universidades compiten por los mismos estudiantes con mensajes parecidos, cómo construís diferenciación real desde la comunicación?
+> Trabajo en Hint Media con organizaciones donde ese es el problema central: separarse del ruido cuando todos dicen lo mismo. Lo trabajamos en energía, seguros, consultoría — el desafío de fondo siempre es el mismo.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo mando por acá, y si querés lo revisamos juntos en una llamada de 20 minutos.
 
 ---
 
