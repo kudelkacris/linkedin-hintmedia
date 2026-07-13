@@ -5,7 +5,7 @@
 **Empresa:** Costa Rica Wedding & events Place
 **Pais:** Costa Rica
 **Sector:** Turismo / Eventos
-**Estado:** MSG2 enviado — 13/07/26
+**Estado:** Dossier enviado por mail (trestrepo@crweddingplace.com) — 13/07/26
 
 ---
 
@@ -36,6 +36,17 @@
 > En Hint Media trabajamos con marcas de turismo y eventos en construir la comunicación y presencia digital que sostiene esa confianza antes de que el cliente llegue al evento, como con Destiny Group y Tasarolli.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta MSG2 (hoy)
+> Detalló su diferencial: el cliente nunca coordina con proveedores distintos, la agencia es el único punto de contacto y responsable de todo (mobiliario, decoración, fotografía, música, flores). Tienen proveedores de respaldo por área para sostener el mismo nivel de calidad ante imprevistos. Busca dar tranquilidad especialmente a clientes que están fuera del país.
+> Aceptó el dossier con entusiasmo. Mail: trestrepo@crweddingplace.com
+
+## MSG3 — Dossier enviado (13/07/26)
+> Perfecto Tania, gracias por explicarlo así de claro!
+> Ese enfoque de ser el único punto de contacto para el cliente es justo lo que genera confianza cuando coordina todo a distancia.
+> Te mando el dossier ahora a trestrepo@crweddingplace.com.
+> Si te surge algo mientras lo revisás, escribime por acá.
+
 ---
 
 ## Notas
+- Respuesta redactada con ayuda de IA (se le coló el prompt: "Lo redactaría así, con un tono natural y profesional" quedó pegado antes del mensaje real). No afecta el contenido, la decisión y el mail son de ella.
