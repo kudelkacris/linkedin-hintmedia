@@ -71,4 +71,15 @@
 - SEG1 generó respuesta: "no lo vemos aplicable" + pregunta abierta — apertura real.
 - Seguimiento 1 rotó ángulo: vocería CEO + storytelling de expansión, sin repetir dossier.
 
-**Estado:** Seguimiento 1 enviado — 11/07/26
+## Respuesta final Ara (13/07/26)
+> Ortiz es Ortiz. En este momento estamos enfocados en un tipo de crecimiento diferente: más orgánico que exponencial. Solo alrededor del 5% de la población mundial de jugadores juega bingo. Es una vertical con audiencia pequeña pero menos competencia. Si estuviéramos buscando crecer bajo el enfoque que ustedes apoyan, consideraríamos una herramienta como la suya. Hoy nuestra estrategia es distinta. Como Ortiz, hoy no tenemos en nuestro radar una herramienta como la suya. Si en algún momento llegáramos a necesitar una solución de ese tipo, serías la primera persona a la que contactaría.
+
+## Cierre (13/07/26)
+> Buenas Ara!
+> Tiene mucho sentido lo que compartís. El 5% no lo sabía, y dice bastante de cómo piensan la estrategia: no correr detrás de volumen sino dominar una vertical donde hay menos ruido y más fidelidad.
+> Se nota que hay una visión muy clara de hacia dónde va Ortiz, y eso ya es bastante raro de ver.
+> Quedo por acá. Si en algún momento el contexto cambia, con gusto retomamos. Fue un intercambio muy valioso para mí también. Suerte con todo lo que viene!
+
+---
+
+**Estado:** CERRADO — no fit actual. Estrategia orgánica, no buscan agencia. Puerta abierta para futuro. 13/07/26

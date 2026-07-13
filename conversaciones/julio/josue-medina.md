@@ -50,6 +50,12 @@ Enviado 13/07/26 por LinkedIn.
 
 ---
 
+## Confirmación dossier recibido (13/07/26)
+> Muchas gracias, confirmo de recibido, en un momento lo estaremos viendo.
+
+---
+
 ## Notas
 - Tiene #OPEN_TO_WORK — contexto a considerar si responde al dossier
 - Respondió con demora (~1 mes), pero con apertura total
+- Confirmó recepción del dossier 13/07/26 — hacer SEG1 en 48-72hs
