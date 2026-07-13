@@ -5,7 +5,7 @@
 **Empresa:** Costa Rica
 **Pais:** Costa Rica
 **Sector:** Farmacéutica
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 13/07/26
 
 ---
 
@@ -24,6 +24,16 @@
 > Me llamó la atención que hayas completado tres certificaciones McKinsey seguidas hace un par de años, justo cuando asumís el rol de Cluster Business Lead. No es lo que la mayoría hace si solo está cómoda en su posición. Generalmente habla de alguien que está pensando cómo escalar.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+## Respuesta MSG1 (jueves)
+> 😉🤗😄
+> Hola, claro quedo a la orden.
+
+## MSG2 (13/07/26)
+> Buenas Alejandra, gracias.
+> Coordinando la estrategia comercial entre Costa Rica, Nicaragua y Panamá al mismo tiempo, qué es lo que más te cuesta sostener igual en los tres mercados?
+> En Hint Media trabajamos con empresas del sector salud y farmacéutico en construir la comunicación que sostiene esa coherencia entre mercados distintos, como hicimos con Libra Seguros y Destiny Group.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 

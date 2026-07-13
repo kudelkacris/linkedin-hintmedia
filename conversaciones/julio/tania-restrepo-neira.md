@@ -5,7 +5,7 @@
 **Empresa:** Costa Rica Wedding & events Place
 **Pais:** Costa Rica
 **Sector:** Turismo / Eventos
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 13/07/26
 
 ---
 
@@ -24,6 +24,17 @@
 > Me llamó la atención la publicación que compartiste hace un tiempo sobre cómo "escuchar y plasmar todo por escrito es la única manera". No es lo que la mayoría de las agencias destaca cuando vende bodas o eventos, pero vos pusiste eso en el centro. Dice mucho sobre cómo manejás realmente el trabajo.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+## Respuesta MSG1 (domingo)
+> 😉🤗😄
+> Sí, claro
+
+## MSG2 (13/07/26)
+> Buenas Tania!
+> Dale, va la consulta.
+> Cuando coordinás bodas con proveedores distintos y clientes que muchas veces ni están en el país, cómo hacés para que la experiencia se sienta igual de cuidada en cada caso?
+> En Hint Media trabajamos con marcas de turismo y eventos en construir la comunicación y presencia digital que sostiene esa confianza antes de que el cliente llegue al evento, como con Destiny Group y Tasarolli.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 
