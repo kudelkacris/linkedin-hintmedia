@@ -1,6 +1,6 @@
 # Yescenia Navarro
 
-**Estado:** SEG1 enviado 01/07/26. Dossier enviado por mail (ynavarro@bbravegroup.com). Mencionó interés en una llamada.
+**Estado:** Reunión realizada (confirmado 13/07/26). SEG1 enviado 01/07/26, dossier por mail (ynavarro@bbravegroup.com), llamada concretada.
 **Fecha:** 22/06/26
 **Cargo:** CEO, Be:Brave Inc.
 **Empresa:** Be:Brave Inc. (Panamá) — comunidades digitales Super Mamás, Buenos Sabores; aceleradora JUMP; agencia de contenido y experiencias

@@ -4,7 +4,7 @@
 **Cargo:** (no especificado — perfil de comunicación/estrategia)
 **País:** (no especificado)
 **Sector:** Comunicación / ESG / Corporativo
-**Estado:** Dossier enviado
+**Estado:** Reunión agendada/realizada vía Teams (confirmado 13/07/26)
 
 ---
 
@@ -40,7 +40,7 @@
 > Giovanna propuso Teams call el miércoles próximo, pidió que Florencia explique cómo lo haría y el costo del proyecto. Preguntó dónde está ubicada Florencia.
 > Florencia confirmó miércoles por Teams, ubicación Argentina, trabajo remoto LATAM sin problema de zona horaria.
 
-**Estado:** Call agendada para el miércoles próximo (Teams)
+**Estado:** Reunión agendada/realizada vía Teams (confirmado 13/07/26, call era para semana del 20/06)
 
 ---
 
