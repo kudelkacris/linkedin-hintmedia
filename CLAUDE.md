@@ -208,6 +208,19 @@ Nunca cambiar ese orden. Nunca mezclar dos objetivos en una misma burbuja.
 - Rapport: citar palabras exactas del prospecto o contenido que publicó. Igualar tono emocional.
 - Balance: 40% conversación humana + 60% avance comercial.
 
+**B2 — INSIGHTS POR SECTOR (usar en lugar de pregunta genérica cuando hay sector claro):**
+El insight va primero. Demuestra expertise antes de mencionar Hint. El prospecto conecta el insight con su situación sin que se lo digamos. Si querés agregar una pregunta después del insight, puede ir al final de B2, pero es opcional.
+
+- **Energía / ESG / Infra:** "Lo que estamos viendo en el sector es que las empresas que más traccionan no son las que más invierten en pauta, sino las que tienen narrativa ejecutiva consolidada antes de empujar paid media. Sin esa capa, la pauta amplifica ruido."
+- **Educación** (sector prioritario, 35.7% conversión): "En las instituciones que acompañamos, el mayor problema no es captación sino retención narrativa: el alumno llega por una promesa y percibe otra en las primeras semanas. La comunicación interna no está alineada con la externa."
+- **Consultoría / Tech / Legal:** "En consultoría, el mayor activo es la credibilidad del equipo, no el portfolio. Pero la mayoría comunica proyectos, no criterio. El prospecto que contrata no compra el servicio, compra la perspectiva."
+- **Farmacéutico / Salud:** "En salud, la comunicación se centra en el producto o el servicio, rara vez en el criterio del equipo. Las instituciones que más captan no son las que más invierten en pauta, sino las que tienen voz reconocible antes de necesitar captar."
+- **Seguros / Finanzas:** "En seguros, nadie se diferencia por el producto porque el producto es casi idéntico. Se diferencia por la presencia del equipo en el mercado. Las empresas que más retienen son las que tienen voz propia antes de necesitar captar."
+- **Retail / Moda / D2C:** "Lo que sostiene el crecimiento en retail no es la inversión en pauta. Es la capa de comunicación consistente alrededor del producto, y pocas marcas la tienen armada antes de escalar."
+- **iGaming / Entretenimiento:** "En iGaming, la comunicación queda sepultada por el producto. Lo que hacen los operadores, los mercados que abren, las alianzas que cierran, no tiene narrativa propia. La voz del liderazgo queda invisible."
+
+Adaptar el insight según lo que dijo el prospecto en su respuesta. Nunca pegar el insight textual si el prospecto ya tocó ese tema — reformular o saltearlo y ir directo a B3.
+
 **Clientes por sector (verificar sector antes de elegir):**
 - Energía/Infra/ESG: TGS, Transener
 - Seguros/Finanzas: Libra Seguros, Destiny Group
