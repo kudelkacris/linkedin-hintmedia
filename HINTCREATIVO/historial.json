@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "name": "Alberto García Martínez de Artola",
+    "cargo": "Co-Founder y CMO",
+    "empresa": "IngeVital / Ingecom Sistemas",
+    "sector": "Salud/Tech",
+    "pais": "España",
+    "perfil": "A",
+    "variante": "SENIOR",
+    "lista": "CREATIVOS proptech",
+    "stage": "1",
+    "conectado": "2026-07-14",
+    "msg1_fecha": "2026-07-14"
+  },
+  {
+    "name": "Francy Ferro",
+    "cargo": "Head of Media / Marketing Director",
+    "empresa": "Tiresia Soluciones Tecnológicas",
+    "sector": "Tecnología/SaaS",
+    "pais": "Colombia",
+    "perfil": "B",
+    "variante": "SENIOR",
+    "lista": "CREATIVOS proptech",
+    "stage": "1",
+    "conectado": "2026-07-14",
+    "msg1_fecha": "2026-07-14"
+  },
+  {
+    "name": "Juan López Ibáñez",
+    "cargo": "COO & Co-Founder",
+    "empresa": "Nuela AI",
+    "sector": "Educación/EdTech",
+    "pais": "España",
+    "perfil": "A",
+    "variante": "JOVEN",
+    "lista": "CREATIVOS proptech",
+    "stage": "1",
+    "conectado": "2026-07-14",
+    "msg1_fecha": "2026-07-14"
+  }
+]
