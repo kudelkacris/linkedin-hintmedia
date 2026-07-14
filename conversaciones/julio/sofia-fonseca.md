@@ -5,7 +5,7 @@
 **Empresa:** Laboratorio Raven
 **Pais:** Costa Rica
 **Sector:** Pharma/Dermocosmetics
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,21 @@
 > Me llamó la atención la publicación sobre Deskan-C. No es lo que la mayoría comparte cuando presenta una marca: enfatizaste "saber a quién le hablamos, entender cada público, construir experiencias cercanas". Eso es más reflexión que pitch, y menos común en pharma.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 — 14/07/2026
+"Hola Florencia, mucho gusto! Si claro con gusto, cuál sería tu pregunta?"
+
+---
+
+## MSG2 — 14/07/2026
+
+Buenas Sofia!
+Lo que publicaste sobre Deskan-C me quedó dando vueltas: pocas marcas en pharma comunican desde el "a quién le hablamos" antes de comunicar desde el producto.
+En salud y dermocosmética, la mayoría invierte en pauta antes de tener la narrativa de marca ordenada. Lo que construiste en Raven con Deskan-C va en sentido contrario, y eso es lo difícil de sostener cuando el volumen de lanzamientos sube.
+Trabajo en Hint Media, agencia de comunicación omnicanal. Acompañamos marcas de salud como Libra Seguros en construir presencia de marca consistente a través de todos los canales, sin que cada lanzamiento empiece desde cero.
+Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
 
