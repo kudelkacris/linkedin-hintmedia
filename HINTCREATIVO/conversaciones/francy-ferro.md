@@ -29,5 +29,6 @@ En Hint Media trabajamos como el equipo externo de marketing para empresas que n
 Con Destiny Group construimos presencia digital desde cero: cobertura en medios del sector y presencia consistente en todos los canales en ocho meses.
 Como lo estás manejando hoy, con todo lo que implica Tiresia?
 
-**Estado:** MSG1 enviado
-**Stage:** 1
+**Estado:** CERRADO — bloqueó
+**Stage:** noInterest
+**Nota:** Bloqueó tras MSG1 el 14/07/2026. Posible causa: mensaje tocó directo su capacidad de ejecución, puede haberse sentido cuestionada.

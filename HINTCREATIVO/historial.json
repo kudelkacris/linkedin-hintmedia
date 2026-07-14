@@ -21,9 +21,10 @@
     "perfil": "B",
     "variante": "SENIOR",
     "lista": "CREATIVOS proptech",
-    "stage": "1",
+    "stage": "noInterest",
     "conectado": "2026-07-14",
-    "msg1_fecha": "2026-07-14"
+    "msg1_fecha": "2026-07-14",
+    "nota": "Bloqueó tras MSG1. Posible causa: mensaje tocó demasiado directo su capacidad de ejecución."
   },
   {
     "name": "Juan López Ibáñez",
