@@ -157,5 +157,46 @@
     "stage": "1",
     "conectado": "2026-07-14",
     "msg1_fecha": "2026-07-14"
+  },
+  {
+    "name": "Ximena Ruget",
+    "cargo": "Co-Founder & President",
+    "empresa": "Glya",
+    "sector": "HealthTech",
+    "pais": "Colombia",
+    "perfil": "A",
+    "variante": "SENIOR",
+    "lista": "CREATIVOS proptech",
+    "stage": "1",
+    "conectado": "2026-07-15",
+    "msg1_fecha": "2026-07-15"
+  },
+  {
+    "name": "Mavy Catherine Gutiérrez",
+    "cargo": "Managing Director",
+    "empresa": "Scala Learning Latam",
+    "sector": "Educación",
+    "pais": "Colombia",
+    "perfil": "A",
+    "variante": "SENIOR",
+    "lista": "CREATIVOS proptech",
+    "stage": "noInterest",
+    "conectado": "2026-07-15",
+    "msg1_fecha": "2026-07-15",
+    "nota": "Respondió amigable. In-house por modelo de operación intencional. Cerrada con gracia."
+  },
+  {
+    "name": "Pasquale Scaldaferri",
+    "cargo": "Co-Founder",
+    "empresa": "StockerAI",
+    "sector": "Tech/SaaS",
+    "pais": "España",
+    "perfil": "A",
+    "variante": "JOVEN",
+    "lista": "CREATIVOS proptech",
+    "stage": "1",
+    "conectado": "2026-07-15",
+    "msg1_fecha": "2026-07-15",
+    "nota": "Ha visto tu perfil. Señal cálida."
   }
 ]
