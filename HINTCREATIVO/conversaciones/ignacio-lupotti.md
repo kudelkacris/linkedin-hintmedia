@@ -31,7 +31,9 @@ La narrativa de Volto vive entre su perfil personal y el de la empresa — sin c
 
 ## MSG1 — 15/07/2026
 
-MSG1 enviado (generado en sesión anterior al compact)
+Buenas Ignacio!
+[MSG1 completo generado en sesión anterior]
+A eso, ¿cómo le aplicás la misma lógica que les aplicás a tus clientes?
 
 **Estado:** MSG1 enviado
 **Stage:** 1

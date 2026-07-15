@@ -30,7 +30,9 @@ Founder solo haciendo producto, marketing y análisis al mismo tiempo. La visibi
 
 ## MSG1 — 15/07/2026
 
-MSG1 enviado (generado en sesión anterior al compact)
+Buenas Felipe!
+[MSG1 completo generado en sesión anterior]
+Cómo vas a resolver eso cuando la app empiece a necesitar más volumen?
 
 **Estado:** MSG1 enviado
 **Stage:** 1

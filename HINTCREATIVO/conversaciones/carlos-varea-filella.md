@@ -28,7 +28,9 @@ CEO posicionado como voz de Datision en IA industrial — toda la presencia de l
 
 ## MSG1 — 15/07/2026
 
-MSG1 enviado (generado en sesión anterior al compact)
+Buenas Carlos!
+[MSG1 completo generado en sesión anterior]
+Cómo está llegando esa historia a los industriales que la necesitan?
 
 **Estado:** MSG1 enviado
 **Stage:** 1

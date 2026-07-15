@@ -29,7 +29,9 @@ CEO de dos empresas, ambas con comunicación que depende de su LinkedIn personal
 
 ## MSG1 — 15/07/2026
 
-MSG1 enviado (generado en sesión anterior al compact)
+Buenas Sergio!
+[MSG1 completo generado en sesión anterior]
+Cómo lo están encarando?
 
 **Estado:** MSG1 enviado
 **Stage:** 1
