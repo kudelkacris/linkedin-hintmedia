@@ -5,7 +5,7 @@
 **Empresa:** Laboratorio Raven
 **Pais:** Costa Rica
 **Sector:** Pharma/Dermocosmetics
-**Estado:** MSG2 enviado
+**Estado:** Dossier por mail — stage 3
 
 ---
 
@@ -39,6 +39,15 @@ Lo que publicaste sobre Deskan-C me quedó dando vueltas: pocas marcas en pharma
 En salud y dermocosmética, la mayoría invierte en pauta antes de tener la narrativa de marca ordenada. Lo que construiste en Raven con Deskan-C va en sentido contrario, y eso es lo difícil de sostener cuando el volumen de lanzamientos sube.
 Trabajo en Hint Media, agencia de comunicación omnicanal. Acompañamos marcas de salud como Libra Seguros en construir presencia de marca consistente a través de todos los canales, sin que cada lanzamiento empiece desde cero.
 Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+---
+
+## Respuesta MSG2 — 14/07/2026
+"Claro Flo, lo ideal sería que me lo mandaras copiando también al Jefe de Marketing. Si bien no estamos en busca de una nueva agencia, siempre me interesa estar al tanto de nuevas propuestas por si en un futuro calzamos. jdelfierro@activomas.cl iosorio@activomas.cl"
+
+**Emails dossier:**
+- jdelfierro@activomas.cl — Jefe de Marketing
+- iosorio@activomas.cl
 
 ---
 
