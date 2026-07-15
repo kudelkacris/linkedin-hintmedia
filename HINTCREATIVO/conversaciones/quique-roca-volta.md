@@ -38,3 +38,23 @@ Como lo estás conectando con el pipeline de Bookline?
 
 **Estado:** MSG1 enviado
 **Stage:** 1
+
+---
+
+## Respuesta MSG1 — 15/07/2026
+
+"Hola Florencia, encantado 😉🤗😄 De momento simplemente son conversaciones interesantes para la gente del sector"
+
+Engagement: LOW-MEDIUM. Honesto y abierto, confirma que el podcast no está conectado con pipeline. No rechaza.
+
+---
+
+## MSG2 — 15/07/2026
+
+Buenas Quique, con eso ya me lo dijiste todo, ja. Si fuera un canal de ventas ya no sonaría igual.
+Igual hay algo interesante ahí: los directores de operaciones que van a contratar una solución como Bookline, antes de decidir, buscan exactamente eso. Alguien del sector que hable sin vender. GastroConnect ya lo es, aunque no lo estés usando así.
+En Hint Media trabajamos con empresas de tech para que esa voz del liderazgo sea visible y consistente fuera del producto. La idea es que cuando alguien llegue a la demo de Bookline, ya sepa quién sos y qué pensás sobre el sector. Eso cambia mucho la conversación.
+Tenemos un dossier breve con casos de ese tipo de trabajo. Te lo mando por acá si no es mucha molestia, o me decís a quién se lo puedo hacer llegar.
+
+**Estado:** MSG2 enviado
+**Stage:** 2
