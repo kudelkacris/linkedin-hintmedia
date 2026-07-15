@@ -5,7 +5,7 @@
 **Empresa:** Activo Más Inversiones
 **Pais:** Chile
 **Sector:** Real Estate / Inversiones Inmobiliarias
-**Estado:** MSG1 enviado
+**Estado:** Dossier por mail — stage 3
 
 ---
 
@@ -24,6 +24,18 @@
 > Me llamó la atención el post que compartiste cuando subiste a Personas y Comunicaciones. Lo que más me gustó fue que antes de hablar del rol nuevo, le diste crédito específicamente a cada persona del equipo que dejabas. No es lo primero que la mayoría hace cuando anuncia un ascenso.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 — 14/07/2026
+"Claro Flo, lo ideal sería que me lo mandaras copiando también al Jefe de Marketing. Si bien no estamos en busca de una nueva agencia, siempre me interesa estar al tanto de nuevas propuestas por si en un futuro calzamos. jdelfierro@activomas.cl iosorio@activamos.cl"
+
+**Emails dossier:**
+- jdelfierro@activomas.cl — Javiera Del Fierro (Jefa Personas y Comunicaciones)
+- iosorio@activomas.cl
+
+## Cierre — 14/07/2026
+"Buenas Javiera, perfecto gracias por la sinceridad. Lo mandamos por ese medio y cualquier duda estamos a disposicion"
 
 ---
 
