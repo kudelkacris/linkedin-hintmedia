@@ -171,6 +171,17 @@ Francisco Peralta Cortés figura actualmente en "Cámara Franco Chilena para el 
 
 ---
 
+## Log de outreach por sesión
+
+| Fecha | Fuente | Contactos | Detalle |
+|-------|--------|-----------|---------|
+| 09/07/26 | TOIA 1.0/1.2 | 10 | MSG2: Ángel Guarín, Matias Aylwin, Valeska Muñoz, Roser Pujol |
+| 15/07/26 | HINTCREATIVO | 9 | Quique, Javier, Benjamin, Miguel, Marce, Juanlu, Ignacio, Josue, Maria Fernanda |
+| 16/07/26 | General | 17 | Marcos Valera, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José Ignacio Ruiz, Geraldine Valencia, Alejandro Quintans (MSG2), Tania Barquet, María Celeste Viejo, Karim Casado, Julián Vargas, Romina Borzutzky, Rodrigo Burillo, Mirna Guillén, Viviana Vásconez, Lorena Miguel |
+| 16/07/26 | EDUCA 1.0 | 2 | Esteban Aragón Correa (#23), Mauricio Vial Gallardo (#42) |
+
+---
+
 ## EDUCA 1.0 — Educación (48 personas) — armada 09/07/26
 
 **Sector:** Educación superior, Ed-tech, Institutos técnicos, Escuelas de negocio
@@ -239,7 +250,15 @@ Francisco Peralta Cortés figura actualmente en "Cámara Franco Chilena para el 
 | 47 | Felipe Tocancipa | Director Comercial y Mercadeo | U. de La Sabana | Colombia |
 | 48 | Silvana De los Heros Salazar | Gerente Asuntos Corporativos | inLearning | Perú |
 
+### MSG1 enviados (16/07/26)
+
+| # | Nombre | Empresa | País | Estado |
+|---|--------|---------|------|--------|
+| 23 | Esteban Aragón Correa | Universitaria Agustiniana | Colombia | MSG1 enviado 16/07/26 |
+| 42 | Mauricio Vial Gallardo | U. Autónoma de Chile | Chile | MSG1 enviado 16/07/26 |
+
 ### Próximo paso EDUCA 1.0
-- Enviar invitaciones (pendiente — mañana 10/07/26)
+- Esperar aceptaciones restantes → MSG1 al aceptar
+- 2/48 contactados (Esteban Aragón #23, Mauricio Vial #42)
 - Al aceptar → generar MSG1 con señal humana (publicación reciente)
 - Ángulo entrada: diferenciación en mercado educativo comoditizado
