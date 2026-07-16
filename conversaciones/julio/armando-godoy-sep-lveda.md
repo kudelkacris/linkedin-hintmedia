@@ -5,7 +5,7 @@
 **Empresa:** Universidad Adolfo Ibáñez
 **Pais:** Chile
 **Sector:** Educación Superior (actualmente) / Retail (anterior)
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -26,5 +26,18 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> "Hola Florencia, si claro... cuéntame"
+
+## MSG2
+> Buenas Armando! Con gusto.
+> Lo que documentaste sobre el ERP en Falabella era específico: pusiste en palabras que el equipo de gestión del cambio era lo que hacía que la transformación fuera real. El eje era la comunicación, no la tecnología.
+> En instituciones educativas como la UAI, lo que vemos es que el problema no suele ser la captación sino la retención narrativa: el alumno llega por una promesa y en las primeras semanas percibe algo distinto. La comunicación interna y la externa no están alineadas.
+> Trabajo en Hint Media con organizaciones en sectores donde la diferenciación es difícil, como TGS, Transener o Libra Seguros. El problema que resolvemos siempre es el mismo: cómo construir la narrativa que separa a una organización del ruido cuando todos dicen lo mismo. En educación el desafío es idéntico.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta MSG2
+> "si dale... envíalo por acá"
 
 ## Notas

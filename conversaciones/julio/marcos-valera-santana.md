@@ -5,7 +5,7 @@
 **Empresa:** HealthMate
 **Pais:** España
 **Sector:** Salud / HealthTech
-**Estado:** MSG1 enviado
+**Estado:** No interesado
 
 ---
 
