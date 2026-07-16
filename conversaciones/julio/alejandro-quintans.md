@@ -5,7 +5,7 @@
 **Empresa:** Ovianta
 **Pais:** España
 **Sector:** Salud / HealthTech
-**Estado:** MSG2 enviado
+**Estado:** No interesado
 
 ---
 
@@ -37,6 +37,11 @@
 > Hace unos años trabajamos con una empresa de diagnóstico médico que necesitaba llegar a directores de hospitales privados. El problema no era el producto sino que el decisor no entendía qué los diferenciaba. Construimos la narrativa y el material de posicionamiento. El ciclo de ventas bajó y las reuniones llegaban más calificadas. Ese cliente es bajo NDA así que no está en el dossier, pero la lógica es la misma.
 > En Hint Media hacemos eso: construir la capa de comunicación que hace que el decisor entienda la propuesta antes de la primera reunión.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo en otros sectores. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+---
+
+## Respuesta MSG2
+> "Gracias Florencia, ahora mismo no estoy interesado"
 
 ---
 
