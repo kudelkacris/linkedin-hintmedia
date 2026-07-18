@@ -55,3 +55,8 @@ metadata:
 - Luis respondió al seguimiento del jueves: "La reviso."
 - Respuesta enviada: "Perfecto Luis, cualquier consulta acá estamos."
 - En espera. Si no responde en 3-4 días, retomar.
+
+**Actualización 18/07/26:**
+- Luis: "voy a poner en pausa este proyecto. Yo me estaría comunicando."
+- Respuesta enviada: "Perfecto Luis, cuando retomes estamos. Buen proyecto!"
+- Estado: proyecto pausado por el cliente, contacto abierto a futuro.
