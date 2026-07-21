@@ -5,7 +5,7 @@
 **Empresa:** Chile
 **Pais:** Chile
 **Sector:** Minería
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** No interesada — 21/07/26
 
 ---
 
@@ -45,7 +45,7 @@
 > "😉🤗😄 dale envíamelo y lo reviso"
 > Fecha: 10/07/26
 
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** No interesada — 21/07/26
 
 ---
 
