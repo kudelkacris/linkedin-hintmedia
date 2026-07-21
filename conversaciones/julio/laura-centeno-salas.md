@@ -42,4 +42,8 @@
 
 ---
 
+## Respuesta SEG1 (21/07/26)
+> Respondió que no tienen presupuesto para employer branding en este momento.
+
 ## Notas
+- **Recontactar oct/26** — no tienen presupuesto ahora, puerta abierta.

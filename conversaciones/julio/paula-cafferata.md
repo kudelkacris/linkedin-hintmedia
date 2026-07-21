@@ -36,6 +36,10 @@
 > En Hint Media trabajamos comunicación y contenido para organizaciones que necesitan esa coherencia entre lo interno y lo externo. Clientes como Libra Seguros y Destiny Group.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta SEG1 (21/07/26)
+> Respondió que no necesitan asesoría externa.
+
 ## Notas
 - Confundió el nombre (llamó "María Eugenia"). Se aclaró en B1 con humor.
 - Sector legal/profesional → clientes Libra Seguros y Destiny Group.
+- **Recontactar oct/26** — trabajan 100% in-house, puerta abierta.
