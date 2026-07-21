@@ -1,11 +1,11 @@
-# Brenda Vaca
+﻿# Brenda Vaca
 
 **Fecha:** 01/07/26
 **Cargo:** Creación y posicionamiento de Marcas / Branding / Lanzamiento de Productos / Fortalecimiento de PDV / Estrategias Comerciales y Ventas B2B y B2C
 **Empresa:** PUSH Accesorios
 **Pais:** Ecuador
 **Sector:** Retail / Moda / Accesorios
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

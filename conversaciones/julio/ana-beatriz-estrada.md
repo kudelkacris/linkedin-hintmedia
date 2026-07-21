@@ -1,11 +1,11 @@
-# Ana Beatriz Estrada
+﻿# Ana Beatriz Estrada
 
 **Fecha:** 01/07/26
 **Cargo:** Gerente en Central de Uniformes | Más que vestimenta, una experiencia que fortalece tu marca y conecta con tu gente.
 **Empresa:** Central de Uniformes
 **Pais:** Panamá
 **Sector:** Uniformes / Marca Empleadora / Servicios Corporativos
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

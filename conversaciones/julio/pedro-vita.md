@@ -1,11 +1,11 @@
-# Pedro Vita
+﻿# Pedro Vita
 
 **Fecha:** 07/07/26
 **Cargo:** Gerente de Comunicación Interna e Imagen Institucional
 **Empresa:** Federación Panameña de Fútbol (FEPAFUT)
 **Pais:** Panamá
 **Sector:** Institucional / Deportes
-**Estado:** Dossier enviado — 08/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

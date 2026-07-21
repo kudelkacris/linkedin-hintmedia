@@ -1,11 +1,11 @@
-# Laura Centeno Salas
+﻿# Laura Centeno Salas
 
 **Fecha:** 01/07/26
 **Cargo:** CEO & Co-Founder en Franuí & Rapanuí Fusionamos tradición e innovación | Conquistando el mundo, un bocado a la vez | Inn
 **Empresa:** Casa Chameleon Hotels
 **Pais:** Costa Rica
 **Sector:** Hospitality / HR Services / Personal Brand
-**Estado:** Dossier confirmado 01/07/26 — enviado por LinkedIn
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

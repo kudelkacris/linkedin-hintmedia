@@ -1,11 +1,11 @@
-# Edinson (Edy) Velasquez Castellanos
+﻿# Edinson (Edy) Velasquez Castellanos
 
 **Fecha:** 01/07/26
 **Cargo:** Digital Marketing Project & Account Manager / Beauty, Luxury & Skincare Marketing Executive
 **Empresa:** Lilo Social
 **Pais:** Colombia
 **Sector:** Beauty, Luxury, DTC, E-commerce
-**Estado:** Dossier enviado — 03/07/26
+**Estado:** SEG2 enviado — 21/07/26
 
 ---
 

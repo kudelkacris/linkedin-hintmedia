@@ -1,11 +1,11 @@
-# Marc Roca
+﻿# Marc Roca
 
 **Fecha:** 06/07/26
 **Cargo:** CMO @ Acuarium Piscinas & Spas | Brand Manager @ Purax
 **Empresa:** Acuarium Piscinas & Spas
 **Pais:** Costa Rica
 **Sector:** Retail / Distribución / Servicios (piscinas, spas)
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

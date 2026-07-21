@@ -1,11 +1,11 @@
-# Idis Luque
+﻿# Idis Luque
 
 **Fecha:** 06/07/26
 **Cargo:** Directora de Ventas, Marketing y Comunicaciones | Liderazgo Ejecutivo | Estrategia Comercial y Crecimiento de Portafolios Multipropiedad en Hospitalid
 **Empresa:** Hospitalidad y Servicios.
 **Pais:** Panamá
 **Sector:** Hospitalidad / Servicios
-**Estado:** Dossier enviado — 09/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

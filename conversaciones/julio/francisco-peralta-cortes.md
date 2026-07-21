@@ -1,11 +1,11 @@
-# Francisco Peralta Cortés
+﻿# Francisco Peralta Cortés
 
 **Fecha:** 10/07/26
 **Cargo:** Chief Public Affairs & Communications Officer
 **Empresa:** EDF Power Solutions Chile / Cámara Franco-Chilena (verificar)
 **Pais:** Chile
 **Sector:** Energía
-**Estado:** Dossier enviado (stage 3)
+**Estado:** Dossier enviado — recontactar oct/26
 
 ---
 

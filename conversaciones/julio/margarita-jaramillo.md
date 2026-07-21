@@ -1,11 +1,11 @@
-# Margarita Jaramillo
+﻿# Margarita Jaramillo
 
 **Fecha:** 06/07/26
 **Cargo:** Creative Director & CMO | Estrategia de marca, branding y marketing digital para negocios y empresarios que quieren crecer con identidad · +15 años de
 **Empresa:** Ecuador
 **Pais:** Ecuador
 **Sector:** Marketing & Branding / Servicios Profesionales Creativos
-**Estado:** Dossier enviado — 07/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

@@ -1,11 +1,11 @@
-# Fabián Ignacio Corbalán Beltrán
+﻿# Fabián Ignacio Corbalán Beltrán
 
 **Fecha:** 06/07/26
 **Cargo:** Journalist focused on strategic communications, PR & Content curator.
 **Empresa:** Ilustre Municipalidad de La Granja
 **Pais:** Chile
 **Sector:** Gobierno Local / Sector Público / Comunicación Pública
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

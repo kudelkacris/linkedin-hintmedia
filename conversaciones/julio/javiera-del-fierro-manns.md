@@ -1,11 +1,11 @@
-# Javiera Del Fierro Manns
+﻿# Javiera Del Fierro Manns
 
 **Fecha:** 06/07/26
 **Cargo:** Jefa de Personas y Comunicaciones Activo Más
 **Empresa:** Activo Más Inversiones
 **Pais:** Chile
 **Sector:** Real Estate / Inversiones Inmobiliarias
-**Estado:** Dossier por mail — stage 3
+**Estado:** Dossier enviado — recontactar oct/26
 
 ---
 

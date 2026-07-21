@@ -1,11 +1,11 @@
-# Francisco Peralta Cortés
+﻿# Francisco Peralta Cortés
 
 **Fecha:** 10/07/26
 **Cargo:** Chief Public Affairs & Communications Officer
 **Empresa:**
 **Pais:** Chile
 **Sector:** Energía
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — recontactar oct/26
 
 ---
 

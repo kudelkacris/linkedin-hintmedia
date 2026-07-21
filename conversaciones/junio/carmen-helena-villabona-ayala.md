@@ -1,11 +1,11 @@
-# Carmen Helena Villabona Ayala
+﻿# Carmen Helena Villabona Ayala
 
 **Fecha:** 01/07/26
 **Cargo:** Director de Marca
 **Empresa:** Grupo Espumas Santafé S.A.S (2 meses)
 **País:** Colombia (Bogotá)
 **Sector:** Retail / consumo masivo (espumas, colchones)
-**Estado:** Dossier enviado — 09/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

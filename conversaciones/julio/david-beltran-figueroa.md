@@ -1,11 +1,11 @@
-# David Beltrán Figueroa
+﻿# David Beltrán Figueroa
 
 **Fecha:** 10/07/26
 **Cargo:** Director de Comunicaciones y Mercadeo
 **Empresa:** Altamira International School
 **Pais:** Colombia
 **Sector:** Educación
-**Estado:** Dossier enviado (stage 3)
+**Estado:** Dossier enviado — 21/07/26
 
 ---
 

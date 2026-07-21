@@ -1,11 +1,11 @@
-# Paula Cafferata
+﻿# Paula Cafferata
 
 **Fecha:** 01/07/26
 **Cargo:** Communications Manager at Tavarone Rovelli Salim MianiSenior Strategic Communications & Reputation Leader | Crisis & Issues Management | Financial Ind
 **Empresa:** Buenos Aires y alrededores
 **Pais:** el Salvador
 **Sector:** Legal / Professional Services
-**Estado:** MSG2 enviado — 02/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

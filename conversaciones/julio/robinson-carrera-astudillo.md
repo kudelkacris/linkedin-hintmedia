@@ -1,11 +1,11 @@
-# Robinson Carrera Astudillo
+﻿# Robinson Carrera Astudillo
 
 **Fecha:** 06/07/26
 **Cargo:** Gerente comercial en Gasdelsur
 **Empresa:** Gasdelsur
 **Pais:** Chile
 **Sector:** Energía (GLP)
-**Estado:** Dossier enviado por mail — 06/07/26
+**Estado:** Dossier enviado — recontactar
 
 ---
 

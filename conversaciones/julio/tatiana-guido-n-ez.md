@@ -1,11 +1,11 @@
-# Tatiana Guido Núñez
+﻿# Tatiana Guido Núñez
 
 **Fecha:** 06/07/26
 **Cargo:** Comunicación, marketing, marketing digital, retail media.
 **Empresa:** Walmart Connect México y Centroamérica
 **Pais:** Costa Rica
 **Sector:** Retail / E-commerce / Retail Media
-**Estado:** Referido a Argerie Ramirez (Walmart) — 08/07/26
+**Estado:** Dossier enviado — recontactar
 
 ---
 

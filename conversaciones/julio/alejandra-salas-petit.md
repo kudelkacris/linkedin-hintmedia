@@ -1,11 +1,11 @@
-# Alejandra Salas Petit
+﻿# Alejandra Salas Petit
 
 **Fecha:** 02/07/26
 **Cargo:** International Communications & Advocacy Specialist | Media Relations | Public Affairs
 **Empresa:** Ex-UVE (programa protein transition) — actualmente en transición
 **Pais:** España
 **Sector:** Comunicaciones / Advocacy / Public Affairs
-**Estado:** Dossier enviado — 03/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

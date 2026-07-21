@@ -1,11 +1,11 @@
-# David Beltrán Figueroa
+﻿# David Beltrán Figueroa
 
 **Fecha:** 10/07/26
 **Cargo:** Director de Comunicaciones y Mercadeo
 **Empresa:** Director de Comunicaciones y Mercadeo
 **Pais:** Colombia
 **Sector:** Educación (Institución Internacional)
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — 21/07/26
 
 ---
 

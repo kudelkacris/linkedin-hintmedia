@@ -1,11 +1,11 @@
-# Armando Godoy Sepúlveda
+﻿# Armando Godoy Sepúlveda
 
 **Fecha:** 10/07/26
 **Cargo:** Aportando creatividad a las Comunicaciones Internas
 **Empresa:** Universidad Adolfo Ibáñez
 **Pais:** Chile
 **Sector:** Educación Superior (actualmente) / Retail (anterior)
-**Estado:** Dossier enviado
+**Estado:** Dossier enviado — follow up semana 28/07
 
 ---
 

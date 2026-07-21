@@ -1,4 +1,4 @@
----
+﻿---
 name: edinson-velasquez-castellanos
 description: MSG2 enviado + respuesta recibida, Digital Marketing PM Lilo Social, beauty/luxury/skincare, 01/07/26
 metadata:
@@ -28,4 +28,4 @@ Te lo mando por acá si querés, es solo para que lo tengas de referencia.
 - Respondió la pregunta del MSG2 sin darse cuenta: budget y canales.
 - Confusión resuelta en MSG3: aclarar que el dossier es para él, sin obligación.
 
-**Estado:** MSG3 pendiente de envío, aclarando confusión sobre el dossier.
+**Estado:** SEG2 enviado — 21/07/26

@@ -1,11 +1,11 @@
-# Rafael Cedano
+﻿# Rafael Cedano
 
 **Fecha:** 10/07/26
 **Cargo:** Marketing | Marketing Educativo | Comercial | Estrategia | Branding | Posicionamiento
 **Empresa:** Perú
 **Pais:** Perú
 **Sector:** Educación
-**Estado:** Dossier enviado — 11/07/26 | Reunión tentativa post 18/07
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

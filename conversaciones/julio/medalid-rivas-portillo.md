@@ -1,11 +1,11 @@
-# Medalid Rivas Portillo
+﻿# Medalid Rivas Portillo
 
 **Fecha:** 10/07/26
 **Cargo:** Rubro Educativo| Liderazgo | Comercial | Imagen | E-commerce| B2B-B2C | Ventas
 **Empresa:** Perú
 **Pais:** Perú
 **Sector:** Educación / Formación Continua
-**Estado:** Dossier enviado — stage 3
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 
@@ -46,7 +46,7 @@
 > "😉🤗😄 que tal Florencia, claro enviame el brochure para revisarlo"
 > Fecha: 10/07/26
 
-**Estado:** Dossier enviado — stage 3
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

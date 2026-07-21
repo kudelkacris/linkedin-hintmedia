@@ -1,11 +1,11 @@
-# Manuel Patiño Horcajada
+﻿# Manuel Patiño Horcajada
 
 **Fecha:** 06/07/26
 **Cargo:** CMO | Marketing Director | Marketing Manager | FMCG | Brand Management | Brand Strategy | Brand Building | Marketing and Communication | International
 **Empresa:** La Maison Française du Verre
 **Pais:** España
 **Sector:** FMCG / Manufactura Premium
-**Estado:** Dossier enviado — 07/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

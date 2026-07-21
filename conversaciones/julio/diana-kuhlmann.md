@@ -1,11 +1,11 @@
-# Diana Kuhlmann
+﻿# Diana Kuhlmann
 
 **Fecha:** 06/07/26
 **Cargo:** Founder & CEO
 **Empresa:** San José Metropolitan Area
 **Pais:** Argentina
 **Sector:** Tecnología / Agencias Creativas / Marketing
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

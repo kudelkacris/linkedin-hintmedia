@@ -1,11 +1,11 @@
-# Tania Restrepo Neira
+﻿# Tania Restrepo Neira
 
 **Fecha:** 09/07/26
 **Cargo:**
 **Empresa:** Costa Rica Wedding & events Place
 **Pais:** Costa Rica
 **Sector:** Turismo / Eventos
-**Estado:** Dossier enviado por mail (trestrepo@crweddingplace.com) — 13/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

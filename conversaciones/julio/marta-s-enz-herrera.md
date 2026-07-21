@@ -1,11 +1,11 @@
-# Marta Sáenz Herrera
+﻿# Marta Sáenz Herrera
 
 **Fecha:** 06/07/26
 **Cargo:** Marketing & Communications Manager | Paid Media | Performance Marketing | Growth Marketing | Corporate Marketing | Demand Generation | Content Manager
 **Empresa:** PHD Media Spain
 **Pais:** España
 **Sector:** Agencias / Medios / Marketing / Tecnología (indirectamente)
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 

@@ -1,11 +1,11 @@
-# Ingrith Muñoz Herrera
+﻿# Ingrith Muñoz Herrera
 
 **Fecha:** 06/07/26
 **Cargo:** Estratega de Marketing y Comunicación | Gestión de marca, campañas omnicanal y liderazgo de equipos | En transición hacia nuevos sectores creativos y 
 **Empresa:** EAE Business School
 **Pais:** Panamá
 **Sector:** B2B SaaS / Software Empresarial (SAP)
-**Estado:** Dossier enviado — 06/07/26
+**Estado:** SEG1 enviado — 21/07/26
 
 ---
 
