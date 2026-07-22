@@ -42,8 +42,13 @@
 > Te comparto el dossier: [LINK DOSSIER]
 > Somos un equipo completo integrado a la estructura del cliente: contenido, estrategia, producción y gestión de cuenta en un solo lugar. Cualquier cosa que surja después de verlo, acá estamos.
 
+## Respuesta SEG1 (22/07/26) — REUNION AGENDADA
+Respondió queriendo coordinar reunión la próxima semana.
+
+**Estado: stage 6 — Reunion agendada**
+
 ## Notas
 - Respuesta neutra "con gusto" en MSG1 → ir directo al cuerpo.
 - Sector advocacy/public affairs → Destiny Group.
 - En transición profesional post-UVE — win personal SEG1: que su trabajo de 5 años siga siendo legible para su próximo empleador.
-- HIGH engagement confirmado en respuesta MSG2. SEG1 si no responde en 48-72hs.
+- HIGH engagement confirmado en respuesta MSG2. Reunión concretada tras SEG1 22/07.

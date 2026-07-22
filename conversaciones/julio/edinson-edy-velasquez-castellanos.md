@@ -5,7 +5,7 @@
 **Empresa:** Lilo Social
 **Pais:** Colombia
 **Sector:** Beauty, Luxury, DTC, E-commerce
-**Estado:** SEG2 enviado — 21/07/26
+**Estado:** CERRADO — 22/07/26. Sin conversión. SEG2 enviado sin respuesta.
 
 ---
 
