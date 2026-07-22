@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 21/07/26 (tarde)
+## Última sesión: 21/07/26 (noche)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -64,7 +64,26 @@ Esperar aceptaciones de TOIA 1.3 → MSG1 al aceptar. Antonio Grgicevic (#4) ya 
 
 ---
 
+## Nueva lista creada hoy (21/07/26 noche)
+
+### LUXURY 1.0
+- **68 contactos** guardados en Navigator — invitaciones pendientes de enviar
+- Sectores: medicina estética, pilates/wellness boutique, coaching premium, cirugía plástica, imagen personal, beauty
+- Geografía: Miami, México (CDMX/Guadalajara/Cancún), Colombia (Bogotá/Medellín), Panamá
+- Archivo: `LISTAS NAVIGATOR/CONECTADOS/LUXURY/`
+- Prioridad alta (#1–34): fundadores LATAM y Miami con negocio propio
+- Prioridad media (#35–58): founders USA con fit parcial
+- Prioridad baja (#59–68): empleados o fit débil que se colaron
+
+### Próximo paso LUXURY
+- Enviar invitaciones en Navigator
+- Cuando acepten → leer publicaciones → MSG1 según CLAUDE.md de LUXURY
+- Ángulo: "la dueña/profesional ES la marca — su expertise es invisible para quien no tiene referido"
+
+---
+
 ## Stats generales al cierre
 - Total historial: 648 contactos
 - Sesión 21/07 tarde: 7 nuevos MSG1, 2 recontactos oct/26
+- Sesión 21/07 noche: lista LUXURY 1.0 armada (68 contactos, sector luxury/alto ticket)
 
