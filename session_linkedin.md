@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 21/07/26 (noche)
+## Última sesión: 22/07/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -15,43 +15,41 @@
 | Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 (energía, no salud) | SEG1 en 48-72hs si no responde |
 | Esteban Aragón Correa | 1 - MSG1 enviado | MSG1 16/07 | Esperar respuesta |
 | Mauricio Vial Gallardo | 1 - MSG1 enviado | MSG1 16/07 | Esperar respuesta |
+| Alejandra Salas Petit | 6 - Reunion agendada | Respondio SEG1 22/07 queriendo reunion | Coordinar fecha/Google Meet |
+| Jenny Carolina López | 2 - MSG2 enviado | MSG2 22/07 | Esperar respuesta |
+| Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 (inbound) | Esperar respuesta |
 
-### Nuevos MSG1 enviados hoy (21/07/26)
+### LUXURY 1.0 — MSG1 enviados 22/07/26
 
-| Nombre | Empresa | País | Ángulo MSG1 |
-|--------|---------|------|-------------|
-| Arisdelssy Martinez | MC Logística | Costa Rica | Coherencia de marca regional (CR/ES/GT) |
-| Gabriel Utgés | Inkema | España | Mensaje técnico en mercados internacionales distintos |
-| Antonio Grgicevic | WICO Combustibles | Argentina | Diferenciación de marca en sector commoditizado |
-| Verónica Arévalo Montesdeoca | SAIA Importadora Andina | Ecuador | Marketing como solucionador de todo (5 divisiones) — EN BÚSQUEDA EMPLEO |
-| Israel Contreras Mora | SPIN GRUPO | México | Aqua Forum — decisión de construir comunidad B2B propia |
-| Dafna Brilovich Zimerman | Chocolatería Entrelagos | Chile | Marca artesanal en góndola masiva vs Nestlé |
-| Kivony Poyser C. | Novitec Consultores | Costa Rica | Evento anual como diferenciación en SAP Gold Partners |
+| # | Nombre | Empresa | País | Idioma |
+|---|--------|---------|------|--------|
+| 18 | Bernardo Quijano Nieto | Clinica Oftalmocenter | Colombia | ES |
+| 33 | Gabriel Uribe | The Global Chamber | Mexico | ES |
+| 34 | Juan Carlos Garcia Villalaz | PDC Training | Panama | ES |
+| 41 | John Graham Harper | Lumaflex Body Pro | USA | EN |
+| 45 | Kim Zoller | ID360 | USA | EN |
+| 47 | Jose Miguez | Wall Breaker Mexico | Mexico | ES |
+| 51 | Erin Atkinson | Prism Wellness | USA | EN |
+| 60 | Lina Vanegas Matiz | Betterfly | Mexico | ES |
+| 61 | Adalberto Maldonado Romero | enlace | Mexico | ES |
+| 65 | Christopher Pena | Sequel Brands | USA | EN |
 
 ### Cerrados / Recontacto
 
 | Nombre | Estado |
 |--------|--------|
+| Edinson Velasquez Castellanos | Cerrado 22/07 — sin conversion |
 | Laura Centeno Salas | Recontactar oct/26 — sin presupuesto ahora |
 | Paula Cafferata | Recontactar oct/26 — trabajan in-house |
 
 ### Batch pendiente de respuesta (MSG1 enviado 16/07)
 Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José Ignacio Ruiz, Geraldine Valencia, Tania Barquet, María Celeste Viejo, Karim Casado, Julián Vargas, Romina Borzutzky, Rodrigo Burillo, Mirna Guillén, Viviana Vásconez
 
-### HINTCREATIVO — análisis y pendientes
-- **Problema detectado:** MSG1 directo (pitch completo) genera "visto" sin respuesta. ~28/30 clavan el visto.
-- **Solución propuesta:** MSG1 debe solo nombrar el dolor y parar. Pitch completo pasa a MSG2.
-- **Pendiente:** Ajustar plantilla HINTCREATIVO para próxima lista.
-- **Pendiente:** SEG1 batch para los ~28 sin respuesta (ángulo rotado, sin repetir pitch).
-- Quique Roca (MSG2), Benjamin Parotte (MSG2 CTA) — pendiente respuesta.
+### MSG1 enviados 21/07/26 (pendiente respuesta)
+Arisdelssy Martinez, Gabriel Utgés, Antonio Grgicevic, Verónica Arévalo Montesdeoca, Israel Contreras Mora, Dafna Brilovich Zimerman, Kivony Poyser C.
 
-### EDUCA 1.0 — análisis y pendientes
-- **Problema detectado:** Baja aceptación similar a HINTCREATIVO. Calibrar MSG1 para próxima generación.
-- **Pendientes de contactar (23/48):**
-  #4 Nadia Martínez, #5 Iván Cordero, #7 Daniel Castañeda, #9 Sara Ferrada, #10 Brenda Paz, #12 Jhoan Vega, #13 Lorena Bravo, #15 Karina García, #17 Mery Candia, #20 Enrique Castillo, #22 Harvey Bolaños, #24 David B., #25 Alejandra Paz, #26 Karla San Martín, #27 Carolina Quinteros, #31 Marianela Cisternas, #34 Kevin Arnedo, #35 Verónica Assandri, #36 Jose Fabricio Gómez, #40 Kenny Rivas, #41 Boris Hernández, #43 M. de los Ángeles Avilés, #45 Luis Rueda Vivas
-
-### TOIA — pendiente MSG1
-Esperar aceptaciones de TOIA 1.3 → MSG1 al aceptar. Antonio Grgicevic (#4) ya contactado hoy.
+### LUXURY 1.0 — pendiente de aceptación
+Contactos #1-17, #19-29, #31-32, #35-40, #42-44, #46, #48-50, #52-58, #62-64, #66-68 — invitaciones enviadas, esperar aceptación para MSG1.
 
 ---
 
@@ -60,30 +58,24 @@ Esperar aceptaciones de TOIA 1.3 → MSG1 al aceptar. Antonio Grgicevic (#4) ya 
 - stage 5 = "Seg. 2" en el programa (seguimiento 2)
 - Campos historial: `name`, `date`, `stage` (int)
 - Ximena Ruget: preguntó casos en salud → respondimos con energía (TGS/Transener), aceptó dossier igual
-- Esteban Aragón Correa: ya tenía .md y entrada desde 16/07 — no duplicar
+- Libra Seguros NO es cliente de salud — nunca mencionar para sector salud/psicología/medicina
+- Sin clientes Hint en salud — presentar solo por metodología cuando es sector salud
 
 ---
 
-## Nueva lista creada hoy (21/07/26 noche)
+## LUXURY — estrategia MSG1 validada 22/07
 
-### LUXURY 1.0
-- **68 contactos** guardados en Navigator — invitaciones pendientes de enviar
-- Sectores: medicina estética, pilates/wellness boutique, coaching premium, cirugía plástica, imagen personal, beauty
-- Geografía: Miami, México (CDMX/Guadalajara/Cancún), Colombia (Bogotá/Medellín), Panamá
-- Archivo: `LISTAS NAVIGATOR/CONECTADOS/LUXURY/`
-- Prioridad alta (#1–34): fundadores LATAM y Miami con negocio propio
-- Prioridad media (#35–58): founders USA con fit parcial
-- Prioridad baja (#59–68): empleados o fit débil que se colaron
+**Fórmula aprobada:**
+- Ultra-corto (3 líneas)
+- Observación específica de la trayectoria del founder
+- Cierre: "Me generó una pregunta leyendo tu perfil"
+- Inglés para contactos USA, español para LATAM
 
-### Próximo paso LUXURY
-- Enviar invitaciones en Navigator
-- Cuando acepten → leer publicaciones → MSG1 según CLAUDE.md de LUXURY
-- Ángulo: "la dueña/profesional ES la marca — su expertise es invisible para quien no tiene referido"
+**Clientes USA procesados (inglés):** #6 Brent Anderson, #7 Jeff Epstein, #10 Cesar Quintero, #11 Ivette Mayo, #14 Christine Fisher, #19 Kim Mittelstadt, #20 Dr Don Buford, #27 Cristina Hernández, #31 Michelle Lores, #35 Steve Adams, #36 Richard Tyler, #37 Michael Buffington, #38 Samuel Guzmán, #40 Tom Cobin — pendientes de aceptación
 
 ---
 
-## Stats generales al cierre
-- Total historial: 648 contactos
-- Sesión 21/07 tarde: 7 nuevos MSG1, 2 recontactos oct/26
-- Sesión 21/07 noche: lista LUXURY 1.0 armada (68 contactos, sector luxury/alto ticket)
-
+## Stats generales al cierre 22/07
+- Total historial: 660 contactos (+12 sesión 22/07)
+- Sesión 22/07: 10 MSG1 LUXURY + 2 MSG2 + 1 reunion cerrada (Alejandra) + 1 cerrado (Edinson)
+- LUXURY 1.0: 10/68 contactados (todos por aceptación de invitación)
