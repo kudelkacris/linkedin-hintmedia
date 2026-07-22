@@ -48,6 +48,7 @@ header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-item
 .prox-col-head.col-dossier{background:#002040;color:#60A8FF}
 .prox-col-head.col-seg{background:#1A1040;color:#A080FF}
 .prox-col-head.col-other{background:#1A1A1A;color:#888}
+.prox-col-head.col-reunion{background:#0D2A0D;color:#5CE05C}
 .prox-col-count{font-weight:800;font-size:13px;margin-left:auto}
 .prox-col-body{background:#161616;border:1px solid #2A2A2A;border-top:none;border-radius:0 0 7px 7px;max-height:260px;overflow-y:auto}
 .prox-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid #1F1F1F;cursor:pointer;transition:background .12s}
@@ -2126,6 +2127,7 @@ function renderProximos() {
     const fd = parseFollowupDate(en.followup_date);
     return fd && fd > today;
   });
+  const reunionEntries = [..._histEntries].filter(en => !en.noInterest && parseInt(en.stage) === 6);
   const countEl = document.getElementById('prox-count');
   const body = document.getElementById('proximos-body');
   if (!countEl || !body) return;
@@ -2196,6 +2198,26 @@ function renderProximos() {
       <div class="prox-col-body">${rows}</div>
     </div>`;
   }).join('') + `<div class="prox-col">
+    <div class="prox-col-head col-reunion">
+      <span>🤝 Reuniones</span>
+      <span class="prox-col-count">${reunionEntries.length}</span>
+    </div>
+    <div class="prox-col-body">${
+      reunionEntries.length === 0
+        ? '<div class="prox-empty-col">Sin reuniones aún</div>'
+        : reunionEntries.map(en => {
+            const empresa = getEmpresaDisplay(en);
+            return `<div class="prox-row" onclick="proxCardClick('${en.id}')">
+              <div class="prox-row-info">
+                <div class="prox-row-name">${esc(en.name||en.nombre||'')}</div>
+                ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+              </div>
+              <div class="prox-row-days green">Reunion</div>
+            </div>`;
+          }).join('')
+    }</div>
+  </div>
+  <div class="prox-col">
     <div class="prox-col-head col-recontact">
       <span>⏰ Recontactar</span>
       <span class="prox-col-count">${recontactEntries.length}</span>
