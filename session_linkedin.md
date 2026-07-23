@@ -4,20 +4,24 @@
 
 ---
 
-## Última sesión: 22/07/26
+## Última sesión: 23/07/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
-| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | Esperar respuesta |
-| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 en 48-72hs si no responde |
-| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 (energía, no salud) | SEG1 en 48-72hs si no responde |
+| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 si no responde |
+| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 si no responde |
+| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 | SEG1 si no responde |
 | Esteban Aragón Correa | 1 - MSG1 enviado | MSG1 16/07 | Esperar respuesta |
 | Mauricio Vial Gallardo | 1 - MSG1 enviado | MSG1 16/07 | Esperar respuesta |
-| Alejandra Salas Petit | 6 - Reunion agendada | Respondio SEG1 22/07 queriendo reunion | Coordinar fecha/Google Meet |
-| Jenny Carolina López | 2 - MSG2 enviado | MSG2 22/07 | Esperar respuesta |
+| Alejandra Salas Petit | 6 - Reunion agendada | Respondio SEG1 22/07 | Coordinar fecha/Google Meet |
+| Jenny Carolina López | 3 - Dossier enviado | Dossier 23/07 (por LinkedIn) | SEG1 en 48-72hs |
 | Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 (inbound) | Esperar respuesta |
+| Claudia Hoyos Bastidas | 3 - Dossier por mail | Dossier 23/07 — claudia.hoyos@enex.cl | SEG1 en 48-72hs |
+| Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 (LinkedIn) | SEG1 en 48-72hs |
+| Zu Camargo | 2 - MSG2 enviado | MSG2 23/07 | Esperar respuesta |
+| Michelle LaTigresa Lores | 2 - MSG2 enviado | MSG2 23/07 (inglés) | Esperar respuesta |
 
 ### LUXURY 1.0 — MSG1 enviados 22/07/26
 
@@ -75,7 +79,13 @@ Contactos #1-17, #19-29, #31-32, #35-40, #42-44, #46, #48-50, #52-58, #62-64, #6
 
 ---
 
-## Stats generales al cierre 22/07
+## Stats generales al cierre 23/07
+- Total historial: 678 contactos
+- Sesión 23/07: 5 MSG2 (Claudia Hoyos, Claudia Arango, Gabriel Murillo, Michelle Lores, Zu Camargo) + 2 dossiers confirmados (Jenny Carolina, Claudia Hoyos) + 2 cierres (Francisca Oróstica, Gabriel Murillo)
+- Nueva lista creada: ARGENTINA ENERGÍA 1.0 — 147 contactos guardados en MINERIA 2.0/contactos.md
+- trimProfile() implementado en index.html — ahorro ~12% tokens por llamada API
+
+## Al cierre 22/07
 - Total historial: 660 contactos (+12 sesión 22/07)
 - Sesión 22/07: 10 MSG1 LUXURY + 2 MSG2 + 1 reunion cerrada (Alejandra) + 1 cerrado (Edinson)
 - LUXURY 1.0: 10/68 contactados (todos por aceptación de invitación)

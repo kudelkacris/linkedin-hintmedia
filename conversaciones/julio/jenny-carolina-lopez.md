@@ -26,7 +26,13 @@
 ## MSG2 (22/07/26)
 Enviado sin mencionar Libra Seguros (no es cliente salud). B3 enfocado en metodología: voz propia del profesional como diferenciador en salud mental.
 
-**Estado:** MSG2 enviado — 22/07/26
+**Estado:** Dossier enviado
+
+## Respuesta MSG2 (23/07/26)
+> "Si por acá está bien, muchas gracias"
+
+## Dossier (23/07/26)
+> Buenas Jenny! Te lo mando ahora mismo.
 
 ## Notas
 - No usar Libra Seguros — no son clientes de salud mental.
