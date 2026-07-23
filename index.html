@@ -906,6 +906,81 @@ async function syncJefe() {
   }
 }
 
+// ─── TRIM PROFILE (strip LinkedIn UI noise before sending to API) ────
+function trimProfile(raw) {
+  if (!raw) return raw;
+
+  const SKIP_LINE = [
+    /^Ver en Sales Navigator$/i,
+    /^Enviar mensaje$/i,
+    /^Ver imagen$/i,
+    /^Mostrar todo$/i,
+    /^Mostrar todos los elementos destacados$/i,
+    /^Solicitar servicios$/i,
+    /^Sales Insights$/i,
+    /^Señales clave$/i,
+    /^Publicaciones$/,
+    /^Comentarios$/,
+    /^Vídeos$/,
+    /^Imágenes$/,
+    /^Documentos$/,
+    /^Logotipo de /i,
+    /seguidores? en común/i,
+    /contactos? en común/i,
+    /^Seguido por .+ (que conoces|más que conoces)/i,
+    /^\d+\s+reacciones?$/i,
+    /^\d+\s+comentarios?$/i,
+    /^[·•]\s*\d+\s*(reacciones?|comentarios?)$/i,
+    /^\d+\s*[·•]\s*\d+\s*comentarios?$/i,
+    /^\d+\s*[·•]\s*\d+$/,
+    /^Ver perfil de /i,
+    /^[·•]\s*(1er|2º|3º|1st|2nd|3rd)$/i,
+  ];
+
+  const lines = raw.split('\n');
+  const result = [];
+  let skipBlock = false;
+  const seenLong = new Set();
+
+  for (let i = 0; i < lines.length; i++) {
+    const t = lines[i].trim();
+
+    // "Otros perfiles seguidos" — skip block until major section
+    if (/^Otros perfiles seguidos junto con/i.test(t)) {
+      skipBlock = true;
+      continue;
+    }
+    if (skipBlock) {
+      if (/^(Actividad|Experiencia|Formación|Educación|Destacado|Intereses)$/i.test(t)) {
+        skipBlock = false;
+        result.push(lines[i]);
+      }
+      continue;
+    }
+
+    if (t && SKIP_LINE.some(p => p.test(t))) continue;
+
+    // Deduplicate long lines (duplicate posts in activity section)
+    if (t.length >= 70) {
+      const key = t.substring(0, 80);
+      if (seenLong.has(key)) continue;
+      seenLong.add(key);
+    }
+
+    result.push(lines[i]);
+  }
+
+  // Collapse multiple blank lines to one
+  const out = [];
+  let blanks = 0;
+  for (const line of result) {
+    if (line.trim() === '') { if (++blanks <= 1) out.push(line); }
+    else { blanks = 0; out.push(line); }
+  }
+
+  return out.join('\n').trim();
+}
+
 // ─── GENERATE OPENERS ───────────────────────────────────────────────
 async function generateOpeners() {
   const profile = document.getElementById('profile-input').value.trim();
@@ -926,7 +1001,7 @@ async function generateOpeners() {
   document.getElementById('conv-thread').innerHTML = '';
 
   const prompt = `PERFIL A ANALIZAR:
-${profile}
+${trimProfile(profile)}
 
 IDIOMA: ${idioma === 'es' ? 'Español' : 'English'}
 TONO: ${tono}

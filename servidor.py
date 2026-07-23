@@ -181,7 +181,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             except FileNotFoundError:
                 data = '[]'
             self.send_response(200)
-            self.send_header('Content-Type', 'application/json')
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(data.encode('utf-8'))
@@ -200,16 +200,16 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                         alerts_data = json.load(f)
                 result = json.dumps({'context': ctx, 'alerts': alerts_data}, ensure_ascii=False)
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(result.encode('utf-8'))
             except Exception as e:
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'context': {}, 'alerts': {}, 'error': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'context': {}, 'alerts': {}, 'error': str(e)}, ensure_ascii=False).encode('utf-8'))
         else:
             self.send_response(404)
             self.end_headers()
@@ -237,15 +237,15 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                 result = response.json()
                 text = result['content'][0]['text']
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'text': text}).encode('utf-8'))
+                self.wfile.write(json.dumps({'text': text}, ensure_ascii=False).encode('utf-8'))
             except Exception as e:
                 self.send_response(500)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
 
         elif self.path == '/api/historial':
             try:
@@ -266,15 +266,15 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     with open(HIST_FILE, 'w', encoding='utf-8') as f:
                         json.dump(merged, f, ensure_ascii=False, indent=2)
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(b'{"ok":true}')
             except Exception as e:
                 self.send_response(500)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
 
         elif self.path == '/api/save-md':
             try:
@@ -368,15 +368,15 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                         f.write('\n'.join(lines_md))
 
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'ok': True, 'file': filepath}).encode('utf-8'))
+                self.wfile.write(json.dumps({'ok': True, 'file': filepath}, ensure_ascii=False).encode('utf-8'))
             except Exception as e:
                 self.send_response(500)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
 
         elif self.path == '/api/sync':
             try:
@@ -391,16 +391,16 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     if r.returncode != 0 and cmd[3] != 'commit':
                         raise Exception(msgs[-1])
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'ok': True, 'msg': ' | '.join(msgs)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'ok': True, 'msg': ' | '.join(msgs)}, ensure_ascii=False).encode('utf-8'))
             except Exception as e:
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'ok': False, 'msg': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'ok': False, 'msg': str(e)}, ensure_ascii=False).encode('utf-8'))
 
         elif self.path == '/api/cre':
             try:
@@ -429,16 +429,16 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     resp = {'blocked': False, 'block_reason': None, 'prompt': prompt}
 
                 self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(resp, ensure_ascii=False).encode('utf-8'))
             except Exception as e:
                 self.send_response(500)
-                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
 
         else:
             self.send_response(404)
