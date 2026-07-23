@@ -5,7 +5,7 @@
 **Empresa:** ADILISA (Aditivos y Alimentos)
 **Pais:** Ecuador
 **Sector:** Agroindustria / B2B Industrial
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado
 
 ---
 
