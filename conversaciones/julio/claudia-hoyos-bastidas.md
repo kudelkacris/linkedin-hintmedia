@@ -5,7 +5,7 @@
 **Empresa:** Universidad Finis Terrae
 **Pais:** Chile
 **Sector:** Energía
-**Estado:** MSG2 enviado
+**Estado:** Dossier por mail
 
 ---
 
@@ -36,4 +36,11 @@
 > En Hint Media trabajamos con empresas del sector, como TGS y Transener, en construir esa capa de comunicación que da coherencia a todos esos frentes al mismo tiempo.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
+## Respuesta MSG2 (23/07/26)
+> "Mándamelo a mi correo claudia.hoyos@enex.cl"
+
+## Dossier (23/07/26)
+> Perfecto Claudia! Te lo mando ahora mismo.
+
 ## Notas
+- Email dossier: claudia.hoyos@enex.cl (Claudia Hoyos, Enex)
