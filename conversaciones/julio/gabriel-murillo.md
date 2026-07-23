@@ -5,7 +5,7 @@
 **Empresa:** INCAE Business School
 **Pais:** Costa Rica
 **Sector:** FMCG / Alimentos (secundario: Agro/Lácteo)
-**Estado:** MSG2 enviado
+**Estado:** Cerrado
 
 ---
 
@@ -39,3 +39,4 @@
 - Rol operativo (Diversification, Strategic Partnerships, External Manufacturing) — NO es decisor de comms
 - Ángulo: pedirle que conecte con el área de marketing/comms de Dos Pinos
 - "en qué te puedo ayudar" → perfil conector
+- CERRADO 23/07/26 — "Ya tenemos toda la estructura para manejar la comunicación interna y externa."

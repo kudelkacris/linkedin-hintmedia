@@ -5,7 +5,7 @@
 **Empresa:** En voz alta®️
 **Pais:** Colombia
 **Sector:** Formación corporativa / Comunicación / Desarrollo de talento
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (23/07/26)
+> "Hola, querida. Con mucho gusto, cuéntame tu consulta"
+
+## MSG2 (23/07/26)
+> Qué bueno. Va entonces.
+> Lo que vemos con referentes como vos es que el mayor cuello de botella no está en el contenido sino en el sistema que lo hace llegar de forma consistente, sin que dependa de que estés en el evento, en el post o en la formación puntual. El método existe, pero la presencia digital suele quedar atada a la energía del momento.
+> Trabajo en Hint Media con referentes en comunicación y formación en construir esa capa: que la voz llegue de forma consistente sin que todo dependa de tu energía diaria.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas
