@@ -5,7 +5,7 @@
 **Empresa:** Chencho Garcia
 **Pais:** México
 **Sector:** Consultoría / Desarrollo de Liderazgo / Educación empresarial
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (24/07/26)
+> "Hola Florencia, muchas gracias por darte el tiempo de leerme y observar mi contenido. Con todo gusto vemos tu consulta. cuéntame!!"
+
+## MSG2 (24/07/26)
+> Buenas Chencho!
+> De la industria musical a transformar empresas familiares, eso no es un recorrido común. Y lo que publicás sobre la tensión entre el apellido y el cargo, entre el amor de familia y la disciplina de negocio, se nota que viene de haber visto eso muy de cerca.
+> Mi consulta era sobre eso: cómo hacés para que alguien que lleva décadas tomando decisiones de palabra en su empresa esté dispuesto a escuchar una perspectiva distinta?
+> Te pregunto porque trabajo con referentes que tienen ese tipo de metodología y me interesa entender cómo la comunican.
 
 ## Notas
