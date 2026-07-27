@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 23/07/26
+## Última sesión: 27/07/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -22,6 +22,7 @@
 | Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 (LinkedIn) | SEG1 en 48-72hs |
 | Zu Camargo | 2 - MSG2 enviado | MSG2 23/07 | Esperar respuesta |
 | Michelle LaTigresa Lores | 2 - MSG2 enviado | MSG2 23/07 (inglés) | Esperar respuesta |
+| Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 (sin pitch, marca personal) | Esperar respuesta |
 
 ### LUXURY 1.0 — MSG1 enviados 22/07/26
 

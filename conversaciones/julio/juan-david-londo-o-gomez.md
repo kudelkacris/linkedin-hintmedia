@@ -5,7 +5,7 @@
 **Empresa:** Equipo
 **Pais:** Colombia
 **Sector:** Educación / Formación Corporativa / Desarrollo Empresarial
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 27/07/26
 
 ---
 
@@ -27,4 +27,14 @@
 
 ---
 
+## Respuesta MSG1 (27/07/26)
+> Hola Florencia, buenas tardes, sí, el mensaje va en la línea como lo estás planeando
+
+## MSG2 (27/07/26)
+> Lo que planteás dice algo, la mayoría cobra por el evento y se desentiende de lo que pasa después.
+> Cómo resolvés el hueco entre lo que se vive en la sala y lo que cambia dos semanas después?
+> Te pregunto porque trabajo con referentes que tienen ese tipo de metodología y me interesa entender cómo lo piensan.
+
 ## Notas
+- Marca personal fuerte — metodología sin pitch aplicada
+- Esperar que pregunte "y vos qué hacés?" para entrar con Hint
