@@ -5,7 +5,7 @@
 **Empresa:** PUSH Accesorios
 **Pais:** Ecuador
 **Sector:** Retail / Moda / Accesorios
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** Recontacto futuro — respondió 27/07/26, eligió otra agencia por ahora
 
 ---
 
@@ -44,4 +44,11 @@
 > Buenas Brenda! Te comparto el dossier: [LINK DOSSIER]
 > Cualquier cosa que surja después de verlo, acá estamos.
 
+## Respuesta post-dossier (27/07/26)
+> Hola Florencia muchas gracias. Si la revisé. Justamente estaba trabajando en incorporar una agencia para lograr objetivos y coherencia de marca. Cuando requiera algo adicional me contacto.
+
+## Respuesta Hint (27/07/26)
+> Buenas Brenda! Coherencia de marca en expansión es exactamente lo que hacemos. Cuando quieras revisarlo juntas, avisame y coordinamos.
+
 ## Notas
+- Eligió otra agencia por ahora. Puerta abierta para recontacto futuro.

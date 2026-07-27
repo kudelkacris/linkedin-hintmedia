@@ -1,0 +1,7 @@
+name = "linkedin-tracker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "LINKEDIN_KV"
+id = "d803339c8f2e465f8f5dc3a67f1baeec"

@@ -5,7 +5,7 @@
 **Empresa:** Ex-UVE (programa protein transition) — actualmente en transición
 **Pais:** España
 **Sector:** Comunicaciones / Advocacy / Public Affairs
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** Reunion confirmada — martes 29/07/26 15h CEST | email: alejandra.salas.petit@gmail.com
 
 ---
 
@@ -45,7 +45,13 @@
 ## Respuesta SEG1 (22/07/26) — REUNION AGENDADA
 Respondió queriendo coordinar reunión la próxima semana.
 
-**Estado: stage 6 — Reunion agendada**
+## Confirmacion reunion (27/07/26)
+> Hola Floren! Si te parece el martes a las 15h CEST te iría bien? Mil gracias. alejandra.salas.petit@gmail.com
+
+**Email:** alejandra.salas.petit@gmail.com
+**Reunion:** martes 29/07/26 — 15h CEST — Google Meet
+
+**Estado: stage 6 — Reunion confirmada**
 
 ## Notas
 - Respuesta neutra "con gusto" en MSG1 → ir directo al cuerpo.

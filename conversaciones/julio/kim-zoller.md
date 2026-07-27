@@ -24,3 +24,10 @@ Kim, thanks for connecting!
 Something in your profile gave me a question.
 
 **Estado:** MSG1 enviado — 22/07/26
+
+---
+
+## Respuesta MSG1 (24/07/26)
+"Not interested in outsourcing that right now. Thanks so much for checking in."
+
+**Cierre graceful enviado. CERRADA — not interested right now.**
