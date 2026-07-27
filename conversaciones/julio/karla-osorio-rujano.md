@@ -5,7 +5,7 @@
 **Empresa:** Panamá
 **Pais:** Panamá
 **Sector:** Turismo / Destino (Sector público-privado)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 27/07/26
 
 ---
 
@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1 (27/07/26)
+> Hola Florencia, gracias. Esa era el propósito, enfocarlo en como será el impacto de esto, no a corto plazo, sino a mediano y largo plazo. Este proyecto se espera sea un gran impacto para Panamá.
+> Cuéntame, ¿cómo puedo ayudarte?
+
+## MSG2 (27/07/26)
+> Justamente esa mirada fue la que me llamó la atención.
+> Muchas veces la estrategia está clara; lo difícil es ejecutarla de forma consistente cuando aparecen campañas, eventos, contenidos y prioridades distintas al mismo tiempo.
+> En Hint Media ayudamos justamente con esa parte.
+> Si te interesa, te comparto un dossier breve con algunos casos.
+
 ## Notas
+- Proyecto de impacto nacional para Panamá — visión largo plazo
+- MSG2 breve estilo "vender sin vender"

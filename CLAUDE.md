@@ -198,6 +198,12 @@ B4 — DOSSIER: explicar qué contiene + pedir permiso. Nunca solo "¿te puedo e
 
 Nunca cambiar ese orden. Nunca mezclar dos objetivos en una misma burbuja.
 
+**REGLA DE LONGITUD — CRÍTICA (aprendizaje Zu Camargo / 27/07/26):**
+El MSG2 completo no debe superar 6-8 líneas totales. Si el mensaje se ve largo antes de enviarlo, está mal.
+Cada burbuja: máx 2 líneas. Sin excepciones.
+Cuando el prospecto abrió la puerta ("cuéntame", "cómo puedo ayudarte", respuesta entusiasta) → NO aprovechar para meter más texto. Hacer lo contrario: ser más breve, generar más curiosidad.
+El objetivo no es explicar todo — es que quieran saber más.
+
 **Reglas de construcción:**
 - La conversación tiene prioridad. Responder lo último que dijo el prospecto.
 - Si el prospecto hizo una pregunta, responderla antes de avanzar.
