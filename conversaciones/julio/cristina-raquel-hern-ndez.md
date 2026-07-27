@@ -5,7 +5,7 @@
 **Empresa:** FUNDACER
 **Pais:** Espana
 **Sector:** Educación / Desarrollo Personal / Servicios Comunitarios
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,13 @@
 > Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (27/07/26)
+> Florencia. Buenas tardes. Que tipo de ayuda buscas...
+
+## MSG2 (27/07/26)
+> Buenas Cristina! Jaja al revés, te escribí yo a vos.
+> Viendo lo que construís con FUNDACER, los seminarios, el contenido, los encuentros, y me generó una pregunta: cómo hacés para que la marca crezca sin que todo dependa de tu presencia?
+> Trabajo en Hint Media justamente en ese tipo de desafío con consultoras. Pero me interesaba saber cómo lo estás abordando vos.
 
 ## Notas

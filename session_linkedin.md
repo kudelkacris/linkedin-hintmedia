@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 27/07/26
+## Última sesión: 27/07/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -34,9 +34,9 @@
 | Juan David Londoño Gomez | Colombia |
 | Paulo A. Escobar MD FACS | Colombia |
 | Claudia Merino | México |
-| Cristina Raquel Hernández | USA |
+| Cristina Raquel Hernández | USA | → MSG2 enviado 27/07 |
 | Lilibeth Carrasco Marcano | México |
-| Richard Tyler | USA |
+| Richard Tyler | USA | → MSG2 enviado 27/07 (inglés) |
 
 ### LUXURY 1.0 — MSG1 enviados 22/07/26
 
@@ -105,7 +105,7 @@ Contactos restantes de la lista — invitaciones enviadas, esperar aceptación p
 
 ## Stats al cierre 27/07/26
 - Total historial: 703 contactos
-- Sesión 27/07: ~25 MSG1 nuevos (LUXURY + MINERIA 2.0 + sin lista) + 2 MSG2 (Juan David, Karla) + Alejandra reunion confirmada 29/07 + Brenda recontacto futuro
+- Sesión 27/07: ~25 MSG1 nuevos (LUXURY + MINERIA 2.0 + sin lista) + 4 MSG2 (Juan David, Karla, Cristina Raquel, Richard Tyler) + Alejandra reunion confirmada 29/07 + Brenda recontacto futuro
 - casos-exito.md creado con 4 reuniones cerradas
 - CLAUDE.md actualizado: regla de longitud MSG2 (máx 6-8 líneas)
 - Próxima sesión: SEG1 para Armando/Ximena/Jenny/Claudia Hoyos/Claudia Arango (todos pasaron 48-72hs)

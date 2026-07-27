@@ -5,7 +5,7 @@
 **Empresa:** Charlotte
 **Pais:**
 **Sector:** Entrenamiento empresarial, desarrollo de liderazgo, consultoría de ventas, producción audiovisual
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (27/07/26)
+> Sure 😉🤗😄
+
+## MSG2 (27/07/26) — inglés
+> Hi Richard!
+> What you did in Newport is a masterclass in narrative distribution. That's exactly the kind of system we build.
+> We're Hint Media, a communication agency that works with executives to create consistent, scalable narratives across every channel: content, branding, paid media, executive voice.
+> You have audiences in Fortune 1000 boardrooms, Broadway theaters, and film festivals. We make sure the same voice reaches all of them.
+> We have a brief dossier with concrete cases. Can I send it here?
 
 ## Notas
