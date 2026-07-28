@@ -5,7 +5,7 @@
 **Empresa:** Charlotte
 **Pais:**
 **Sector:** Entrenamiento empresarial, desarrollo de liderazgo, consultoría de ventas, producción audiovisual
-**Estado:** MSG2 enviado
+**Estado:** Cerrado — no interesado. Detectó estructura de outreach, no siguió conversación.
 
 ---
 

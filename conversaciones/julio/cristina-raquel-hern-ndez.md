@@ -5,7 +5,7 @@
 **Empresa:** FUNDACER
 **Pais:** Espana
 **Sector:** Educación / Desarrollo Personal / Servicios Comunitarios
-**Estado:** MSG2 enviado
+**Estado:** Cerrada — sin presupuesto, no hace voluntariado. Puerta abierta para el futuro.
 
 ---
 
