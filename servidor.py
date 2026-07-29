@@ -367,6 +367,24 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     with open(filepath, 'w', encoding='utf-8') as f:
                         f.write('\n'.join(lines_md))
 
+                # Always ensure contact exists in historial.json
+                try:
+                    with open(HIST_FILE, 'r', encoding='utf-8') as f:
+                        historial = json.load(f)
+                    name_lower = name.lower()
+                    exists = any(name_lower in e.get('name', '').lower() for e in historial)
+                    if not exists:
+                        historial.append({
+                            'name': name,
+                            'stage': 1,
+                            'date': today,
+                            'empresa': empresa,
+                        })
+                        with open(HIST_FILE, 'w', encoding='utf-8') as f:
+                            json.dump(historial, f, ensure_ascii=False, indent=2)
+                except Exception:
+                    pass
+
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
