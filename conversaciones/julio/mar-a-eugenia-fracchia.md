@@ -5,7 +5,7 @@
 **Empresa:** Inflex S.A.
 **Pais:** Argentina
 **Sector:** Energía / Gases especiales / GNC / Transición energética
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado por WhatsApp (tel: 1164521943)
 
 ---
 
@@ -36,4 +36,8 @@
 > Trabajo en Hint Media con empresas de infraestructura energética como TGS y Transener en construir esa capa, comunicación ejecutiva que posiciona antes de que la decisión se tome.
 > Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo están abordando ustedes, creo que podríamos tener una conversación interesante.
 
+## Respuesta MSG2
+> Hola Florencia, sí a disposición cuando quieras, mi teléfono es 1164521943
+
 ## Notas
+- Dossier enviado por WhatsApp (no por LinkedIn). Tel: 1164521943
