@@ -983,10 +983,10 @@
     "empresa": "Move Nutrition",
     "sector": "Salud / Bienestar / Nutrición",
     "pais": "Colombia",
-    "stage": 2,
-    "estado": "MSG2 enviado",
-    "fecha": "23/07/26",
-    "date": "23/07/26"
+    "stage": 3,
+    "estado": "Dossier enviado",
+    "fecha": "29/07/26",
+    "date": "29/07/26"
   },
   {
     "id": "alejandro-quintans",
@@ -28417,7 +28417,7 @@
   {
     "id": "julio-martinez-reyes",
     "name": "Julio Martínez Reyes",
-    "stage": 1,
+    "stage": 2,
     "date": "29/07/26"
   },
   {

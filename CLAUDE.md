@@ -240,7 +240,7 @@ Agencia de comunicación omnicanal. Hace: identidad y branding, contenidos multi
 En B3: no listar servicios. Elegir UNO relevante para el prospecto.
 
 **Cierre dossier (frase fija, siempre igual):**
-"Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+"Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante."
 
 **EJEMPLO CANÓNICO — caso Silvia Rojas:**
 Contexto: respondió "Buenas tardes doña Florencia, un gusto. Si así es como pienso. Pero yo llevo años liderando equipos. No solo soy de marketing."

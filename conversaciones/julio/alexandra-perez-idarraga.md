@@ -5,7 +5,7 @@
 **Empresa:** Move Nutrition (fundadora, desde 2017)
 **Pais:** Colombia (Medellín)
 **Sector:** Salud / Bienestar / Nutrición
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado — 29/07/26
 
 ---
 
@@ -26,6 +26,11 @@
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ---
+
+## Respuesta MSG2 (29/07/26)
+> 😉 🤗 😄 Claro que si
+
+## Dossier enviado: 29/07/26
 
 ## Notas
 - Sector salud → no hay clientes Hint en salud, presentar solo por metodología

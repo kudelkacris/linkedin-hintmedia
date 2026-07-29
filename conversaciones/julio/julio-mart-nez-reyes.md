@@ -5,7 +5,7 @@
 **Empresa:** Peibo Fintech
 **Pais:** México
 **Sector:** Fintech / Servicios Financieros
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 29/07/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (29/07/26)
+> "Hola Florencia, gracias por escribir. Si claro, dime que duda tienes"
+
+## MSG2 (29/07/26)
+> Buenas Julio! Era sobre algo que me llamó la atención en tu trabajo.
+> En fintech, las marcas que más traccionan no son las que más invierten en pauta, son las que tienen narrativa propia antes de escalar. Como hacés para mantener eso consistente cuando los equipos y los canales crecen al mismo tiempo?
+> Trabajo en Hint Media con empresas de servicios financieros como Libra Seguros y Destiny Group, construyendo comunicación ejecutiva y posicionamiento de marca. El foco: que la voz del equipo sea legible en todos los canales.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
