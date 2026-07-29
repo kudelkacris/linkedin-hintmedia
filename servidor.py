@@ -259,10 +259,14 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     # upsert por id — incoming puede ser array completo o entry única
                     if isinstance(incoming, dict):
                         incoming = [incoming]
-                    index = {e['id']: e for e in existing}
+                    index = {e['id']: e for e in existing if 'id' in e}
+                    no_id = [e for e in existing if 'id' not in e]
                     for entry in incoming:
-                        index[entry['id']] = entry
-                    merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True)
+                        if 'id' in entry:
+                            index[entry['id']] = entry
+                        else:
+                            no_id.append(entry)
+                    merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True) + no_id
                     with open(HIST_FILE, 'w', encoding='utf-8') as f:
                         json.dump(merged, f, ensure_ascii=False, indent=2)
                 self.send_response(200)
