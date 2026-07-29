@@ -1161,6 +1161,11 @@
         "stage": 1,
         "date": "27/07/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "29/07/26",
+        "note": "Cerrada"
       }
     ]
   },
@@ -1251,7 +1256,7 @@
         "text": "Beto, gracias por conectar! 👋\n\nMe llamó la atención tu publicación de hace poco sobre volver a los escenarios. No fue la parte de las conferencias la que me quedó rondando, sino el detalle de que durante esos meses acompañaste a \"cientos de líderes\" en sesiones de coaching mientras te recuperabas. Eso dice bastante de cómo diseñaste el trabajo.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -1275,7 +1280,7 @@
         "text": "María Eugenia, gracias por conectar. 👋\n\nMe llamó la atención la actividad que venís mostrando en mesas de trabajo con ENARGAS, petroleras y terminales. Particularmente cómo le estás dando visibilidad al tema de transición energética desde la Cámara. No es lo que la mayoría de los presidentes de cámaras industriales mostran públicamente — la mayoría apunta a comunicación interna.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -1570,6 +1575,11 @@
         "stage": 1,
         "date": "27/07/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "29/07/26",
+        "note": "Cerrada"
       }
     ]
   },
@@ -1684,7 +1694,7 @@
         "text": "Ignacio, gracias por conectar. 👋\n\nMe quedó en la cabeza la publicación sobre las despedidas de 4º Medio — específicamente donde decís que el cariño sincero \"no puede fabricarse\" y que las publicaciones virales no lo son por la estrategia sino por el significado. No suele ser lo primero que alguien en tu posición destaca, normalmente la gente enfatiza los números. A vos parece importarte otra cosa.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -3941,7 +3951,7 @@
         "text": "Jonathan, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n esa reflexiÃ³n que compartiste hace poco: \"muy mÃ­os a mi tiempo y con gran esfuerzo\". Porque toda tu posiciÃ³n pÃºblica va en la misma direcciÃ³n: que el marketing tiene que dejar de ser improvisaciÃ³n y convertirse en orden y direcciÃ³n. Y no suena a discurso genÃ©rico, suena a algo que viviste en la cancha.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": "2",
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -28337,5 +28347,25 @@
     "cargo": "Gerente de Proyectos",
     "empresa": "GPower S.A.",
     "pais": "Argentina"
+  },
+  {
+    "name": "Román Gómez",
+    "stage": 1,
+    "date": "29/07/26"
+  },
+  {
+    "name": "Sonia Pérez-Castro",
+    "stage": 2,
+    "date": "29/07/26"
+  },
+  {
+    "name": "Matías Varone",
+    "stage": 2,
+    "date": "29/07/26"
+  },
+  {
+    "name": "Christopher Carvajal",
+    "stage": 2,
+    "date": "29/07/26"
   }
 ]

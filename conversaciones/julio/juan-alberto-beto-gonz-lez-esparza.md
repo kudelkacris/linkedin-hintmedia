@@ -5,7 +5,7 @@
 **Empresa:** Irradiate More
 **Pais:** México
 **Sector:** Servicios profesionales / Coaching ejecutivo / Desarrollo organizacional
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 29/07/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola Florencia! Dime cómo te puedo ayudar
+
+## MSG2 (29/07/26)
+> Buenas Beto! Directo.
+> Lo que tenés armado en Irradiate More tiene criterio. Lo que suele faltar en ese tipo de trabajo es que ese criterio sea legible para quien todavía no te conoce.
+> En Hint Media trabajamos con fundadores en construir esa capa. Tenemos casos concretos.
+> Me interesa conversar, creo que podríamos tener un buen intercambio.
 
 ## Notas

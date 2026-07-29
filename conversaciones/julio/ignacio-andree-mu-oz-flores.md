@@ -5,7 +5,7 @@
 **Empresa:** Comunicación Estratégica
 **Pais:** Chile
 **Sector:** Educación (sector HIGH dossier rate 35.7%)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 29/07/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Gracias por tu mensaje, cuéntame en qué te puedo ayudar
+
+## MSG2 (29/07/26)
+> Buenas Ignacio! El detalle que pusiste sobre el cariño que "no puede fabricarse" dice mucho de cómo pensás la comunicación.
+> El desafío que aparece en colegios es que los frentes se multiplican, deportivo, académico, pastoral, y sostener esa autenticidad en todos al mismo tiempo es lo que se complica primero. Cómo lo estás manejando en San Pedro Nolasco?
+> Trabajo en Hint Media con organizaciones que necesitan sostener narrativa auténtica en múltiples frentes al mismo tiempo: contenido, identidad, comunicación institucional. El foco está en que la coherencia no dependa de una sola persona.
+> Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo estás resolviendo vos, creo que podríamos tener una conversación interesante.
 
 ## Notas
