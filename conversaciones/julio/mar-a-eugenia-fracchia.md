@@ -5,7 +5,7 @@
 **Empresa:** Inflex S.A.
 **Pais:** Argentina
 **Sector:** Energía / Gases especiales / GNC / Transición energética
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola Florencia, a disposición para lo que necesites.
+
+## MSG2 (29/07/26)
+> Buenas María Eugenia! Lo que veo en tu actividad en ENARGAS y la Cámara va más allá de presidir. Estás posicionando un sector que históricamente comunica hacia adentro.
+> Lo que estamos viendo es que los actores que más influyen en la agenda regulatoria no son los más grandes, son los que tienen narrativa consolidada antes de que lleguen las decisiones. Cómo estás trabajando eso desde la Cámara?
+> Trabajo en Hint Media con empresas de infraestructura energética como TGS y Transener en construir esa capa, comunicación ejecutiva que posiciona antes de que la decisión se tome.
+> Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo están abordando ustedes, creo que podríamos tener una conversación interesante.
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** México
 **Pais:** México
 **Sector:** Educación / Desarrollo profesional / Consultoría
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Buenos días Florencia, sí claro como te puedo ayudar?
+
+## MSG2 (29/07/26)
+> Buenas Claudia! Lo que escribís sobre la historia detrás de la presencia no es lo que suele decir alguien que vende metodología. Es un criterio de trabajo.
+> Lo que vemos en consultoría ejecutiva es que el reto no es demostrar resultados, es que la metodología tenga una narrativa propia que llegue antes de que el cliente llegue a la primera sesión. Cómo estás construyendo eso para Authentique?
+> Trabajo en Hint Media con consultoras y empresas de servicios profesionales como Destiny Group en construir esa capa, la que hace que tu modelo sea legible antes de que dependas de un testimonio para explicarlo.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas

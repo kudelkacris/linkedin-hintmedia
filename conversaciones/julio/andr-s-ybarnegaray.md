@@ -5,7 +5,7 @@
 **Empresa:** Integra Capital
 **Pais:** Bolivia
 **Sector:** Minería
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola Florencia, gracias por tu mensaje. Así es, creo que uno tiene que tener cierta claridad y objetivos y certezas hacia donde debe ir su carrera profesional. Adelante con tu consulta
+
+## MSG2 (29/07/26)
+> Buenas Andrés! Eso de la claridad como condición previa al movimiento es exactamente lo que leí en tu publicación.
+> Lo que vemos en minería es que los proyectos que más atraen capital no son los que tienen mejores yacimientos, son los que tienen narrativa de confianza consolidada. Cómo estás trabajando ese ángulo desde Integra?
+> Trabajo en Hint Media con empresas de infraestructura regional como TGS en construir esa capa de comunicación: la narrativa que posiciona a la empresa antes de que el inversor llegue a la mesa.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas

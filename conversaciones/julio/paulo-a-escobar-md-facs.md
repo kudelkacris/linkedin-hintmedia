@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Educación Médica / Cirugía Plástica
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Sí, claro
+
+## MSG2 (29/07/26)
+> Buenas Paulo! Esa distinción entre técnica y criterio es el núcleo de tu propuesta. Es la parte más difícil de comunicar, justamente porque no es visual.
+> Lo que vemos en educación especializada es que los que más crecen no son los que más publican, son los que tienen una narrativa que hace legible ese criterio antes de que el alumno tome la decisión. Cómo estás construyendo eso para Facialis Academy?
+> Trabajo en Hint Media con profesionales de alta especialización en construir esa capa: la comunicación que hace que tu criterio quirúrgico llegue al alumno correcto, antes de la inscripción.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas
