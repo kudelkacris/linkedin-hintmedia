@@ -1544,7 +1544,7 @@
         "text": "Paulo, gracias por conectar! 👋\n\nMe llamó la atención la frase que publicaste sobre Bogotá Live Surgery: \"ver una técnica en internet es fácil. Desarrollar el criterio para saber cuándo y por qué aplicarla, es el verdadero reto.\" No es lo que la mayoría destaca cuando anuncia un evento. La mayoría vende \"acceso a expertos\" o \"transmisión en 4K\". Vos pusiste primero el razonamiento.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -28349,8 +28349,9 @@
     "pais": "Argentina"
   },
   {
+    "id": "roman-gomez",
     "name": "Román Gómez",
-    "stage": 1,
+    "stage": 2,
     "date": "29/07/26"
   },
   {
@@ -28380,7 +28381,7 @@
   {
     "id": "adrian-luque-paez",
     "name": "Adrián Luque Páez",
-    "stage": 1,
+    "stage": 2,
     "date": "29/07/26"
   },
   {
@@ -28428,7 +28429,8 @@
   {
     "id": "paul-puissegur",
     "name": "Paul Puissegur",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": 3,
+    "date": "29/07/26",
+    "whatsapp": "+34632872433"
   }
 ]

@@ -4,108 +4,109 @@
 
 ---
 
-## Última sesión: 27/07/26 (cierre)
+## Última sesión: 29/07/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
-| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 si no responde |
-| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 — ya pasaron 6 días |
-| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 | SEG1 — ya pasaron 6 días |
-| Esteban Aragón Correa | 1 - MSG1 enviado | MSG1 16/07 | 11 días sin respuesta — evaluar SEG2 o cierre |
-| Mauricio Vial Gallardo | 1 - MSG1 enviado | MSG1 16/07 | 11 días sin respuesta — evaluar SEG2 o cierre |
-| Alejandra Salas Petit | 6 - Reunion confirmada | Reunion 29/07/26 15h CEST | Preparar reunión — alejandra.salas.petit@gmail.com |
-| Jenny Carolina López | 3 - Dossier enviado | Dossier 23/07 | SEG1 — ya pasaron 4 días |
-| Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 | Esperar respuesta |
-| Claudia Hoyos Bastidas | 3 - Dossier por mail | Dossier 23/07 — claudia.hoyos@enex.cl | SEG1 — ya pasaron 4 días |
-| Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 | SEG1 — ya pasaron 4 días |
+| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 urgente — 8 días |
+| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — 8 días |
+| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — 8 días |
+| Jenny Carolina López | 3 - Dossier enviado | Dossier 23/07 | SEG1 — 6 días |
+| Claudia Hoyos Bastidas | 3 - Dossier por mail | Dossier 23/07 — claudia.hoyos@enex.cl | SEG1 — 6 días |
+| Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 | SEG1 — 6 días |
+| Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 | Esperar / SEG1 pronto |
 | Zu Camargo | 2 - MSG2 enviado | MSG2 23/07 | Esperar respuesta |
 | Michelle LaTigresa Lores | 2 - MSG2 enviado | MSG2 23/07 (inglés) | Esperar respuesta |
-| Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 (sin pitch, marca personal) | Esperar respuesta |
+| Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
 | Karla Osorio Rujano | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
-| Brenda Vaca | Recontacto futuro | 27/07 — eligió otra agencia por ahora | Recontactar oct/26 |
+| Marco Castillo Alucema | 2 - MSG2 enviado | MSG2 28/07 | Esperar respuesta |
+| Christopher Carvajal | 2 - MSG2 enviado | MSG2 29/07 — conversación activa ("Lo que te quede mas cómodo") | Retomar |
+| Andrés Ybarnegaray | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| CLAUDIA MERINO | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Ignacio Andree Muñoz Flores | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Juan Alberto González Esparza | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Sonia Pérez-Castro | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Omar Díaz Reyes | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Román Gómez | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
+| Adrián Luque Páez | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
 
-### LUXURY 1.0 — MSG1 enviados 27/07/26 (nuevas aceptaciones)
+### Stage 3 — dossier enviado (pendiente seguimiento)
 
-| Nombre | País |
-|--------|------|
-| Juan Sebastian Montejo | Colombia |
-| Juan David Londoño Gomez | Colombia |
-| Paulo A. Escobar MD FACS | Colombia |
-| Claudia Merino | México |
-| Cristina Raquel Hernández | USA | → MSG2 enviado 27/07 |
-| Lilibeth Carrasco Marcano | México |
-| Richard Tyler | USA | → MSG2 enviado 27/07 (inglés) |
+| Nombre | Método | Fecha |
+|--------|--------|-------|
+| Paulo A. Escobar MD FACS | LinkedIn | 29/07/26 |
+| María Eugenia Fracchia | WhatsApp (1164521943) | 29/07/26 |
+| Paul Puissegur | WhatsApp (+34 632872433) | 30/07/26 — enviar mañana, 5hs diferencia |
 
-### LUXURY 1.0 — MSG1 enviados 22/07/26
+### Matías Varone — recontacto programado
 
-| # | Nombre | Empresa | País | Idioma |
-|---|--------|---------|------|--------|
-| 18 | Bernardo Quijano Nieto | Clinica Oftalmocenter | Colombia | ES |
-| 33 | Gabriel Uribe | The Global Chamber | Mexico | ES |
-| 34 | Juan Carlos Garcia Villalaz | PDC Training | Panama | ES |
-| 41 | John Graham Harper | Lumaflex Body Pro | USA | EN |
-| 45 | Kim Zoller | ID360 | USA | EN |
-| 47 | Jose Miguez | Wall Breaker Mexico | Mexico | ES |
-| 51 | Erin Atkinson | Prism Wellness | USA | EN |
-| 60 | Lina Vanegas Matiz | Betterfly | Mexico | ES |
-| 61 | Adalberto Maldonado Romero | enlace | Mexico | ES |
-| 65 | Christopher Pena | Sequel Brands | USA | EN |
+Recontactar fin de octubre / noviembre 2026. Propuso él mismo hablar a fin de año — acción global desde Francia en curso. Engagement HIGH.
 
-### MINERIA 2.0 — MSG1 enviados 27/07/26
+### Alejandra Salas Petit — reunión confirmada
 
-Tomas Berwanger (HIDROIL), Jorge Andrés Maino Gaete (DrillAr), Matias Bacolla (Industrias Baco), Andrés Ybarnegaray (Integra Capital), Camilo Acero (Recon57), Marco Castillo Alucema (A&C Ingenieria)
+Reunión 29/07/26 15h CEST. Email: alejandra.salas.petit@gmail.com
 
-### Otros MSG1 enviados 27/07/26
+### FINANZAS 1.0 — MSG1 enviados 29/07/26 (pendiente respuesta)
 
-Martín Chifflet, Giovanna Beratto Allaire (Teck Resources), Germán Parada (SERPA), Juan Alberto González Esparza, María Eugenia Fracchia (Inflex), Nicolas Astiz, Juan Jose Cruzado (GPower), Karla Osorio Rujano, Ezequiel Jaroslavsky, Fonzo Martin Jorge Juan, Germán Loforte (Fissore), Marco Castillo Alucema, Eugenio Ezequiel Esposito (FSC)
+| Nombre | País | Empresa |
+|--------|------|---------|
+| Adrián Luque Páez | España | Europea Seguros COMEX |
+| Alicia Pérez Patrón | España | MOMENTUM |
+| Carlos González Mozuelos | México | Coppel |
+| Estíbaliz Aguado | España | Juba |
+| Gustavo Adolfo Arias Buitrago | Colombia | HDI Seguros |
+| Julio Martínez Reyes | México | Peibo Fintech |
+| Patricia Villarruel Gordillo | España | Banco Pichincha |
+| Paul Puissegur | España | INESPRO |
+
+### MINERIA 2.0 — MSG1 enviados 29/07/26
+
+| Nombre | País | Empresa |
+|--------|------|---------|
+| Javier Schifani | Argentina | Bioeléctrica |
+
+### Otros MSG1 enviados 29/07/26
+
+Román Gómez (Cal Blay Catering, España)
 
 ### Cerrados / Recontacto
 
 | Nombre | Estado |
 |--------|--------|
-| Edinson Velasquez Castellanos | Cerrado 22/07 — sin conversion |
-| Laura Centeno Salas | Recontactar oct/26 — sin presupuesto ahora |
-| Paula Cafferata | Recontactar oct/26 — trabajan in-house |
-| Brenda Vaca | Recontactar oct/26 — eligió otra agencia por ahora |
+| Cristina Raquel Hernández | No interesada — 28/07 |
+| Ezequiel Jaroslavsky | Contacto equivocado — respondió que el like era personal |
+| Brenda Vaca | Recontactar oct/26 |
+| Laura Centeno Salas | Recontactar oct/26 |
+| Paula Cafferata | Recontactar oct/26 |
+| Matías Varone | Recontactar nov/26 — acción global Francia en curso |
 
-### Batch pendiente de respuesta (MSG1 enviado 16/07)
-Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José Ignacio Ruiz, Geraldine Valencia, Tania Barquet, María Celeste Viejo, Karim Casado, Julián Vargas, Romina Borzutzky, Rodrigo Burillo, Mirna Guillén, Viviana Vásconez
+### Batch pendiente de respuesta (MSG1 enviado 27/07)
 
-### MSG1 enviados 21/07/26 (pendiente respuesta)
-Arisdelssy Martinez, Gabriel Utgés, Antonio Grgicevic, Verónica Arévalo Montesdeoca, Israel Contreras Mora, Dafna Brilovich Zimerman, Kivony Poyser C.
+Martín Chifflet, Matias Bacolla, Giovanna Beratto Allaire, Germán Parada, Juan Sebastian Montejo, Tomas Berwanger, Eugenio Ezequiel Esposito, Jorge Andrés Maino Gaete, Nicolas Astiz, Fonzo Martin Jorge Juan, Germán Loforte
 
-### LUXURY 1.0 — pendiente de aceptación
-Contactos restantes de la lista — invitaciones enviadas, esperar aceptación para MSG1.
+### Batch pendiente de respuesta (MSG1 enviado 16/07 y 21/07)
+
+Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José Ignacio Ruiz, Geraldine Valencia, Tania Barquet, María Celeste Viejo, Karim Casado, Julián Vargas, Romina Borzutzky, Rodrigo Burillo, Mirna Guillén, Viviana Vásconez, Arisdelssy Martinez, Gabriel Utgés, Antonio Grgicevic, Verónica Arévalo Montesdeoca, Israel Contreras Mora, Dafna Brilovich Zimerman, Kivony Poyser C.
 
 ---
 
 ## Fixes técnicos importantes (recordar)
+
 - "No interesado" = `noInterest: true` en historial.json, NO stage 5
 - stage 5 = "Seg. 2" en el programa (seguimiento 2)
-- Campos historial: `name`, `date`, `stage` (int)
-- Ximena Ruget: preguntó casos en salud → respondimos con energía (TGS/Transener), aceptó dossier igual
-- Libra Seguros NO es cliente de salud — nunca mencionar para sector salud/psicología/medicina
-- Sin clientes Hint en salud — presentar solo por metodología cuando es sector salud
+- Campos historial: `name`, `date`, `stage` (int), `id` (slug obligatorio)
+- **BUG FIXEADO 29/07:** `/api/historial` crasheaba si alguna entrada carecía de `id` → entradas manuales sin `id` rompían todas las guardadas posteriores
+- **Fix 29/07:** `save-profile` ahora también agrega el contacto a historial.json con stage 1 al crear el .md
+- Libra Seguros NO es cliente de salud — nunca para sector salud/medicina
+- Sin clientes Hint en salud ni educación — presentar solo por metodología
 
 ---
 
-## LUXURY — estrategia MSG1 validada 22/07
+## Stats al cierre 29/07/26
 
-**Fórmula aprobada:**
-- Ultra-corto (3 líneas)
-- Observación específica de la trayectoria del founder
-- Cierre: "Me generó una pregunta leyendo tu perfil"
-- Inglés para contactos USA, español para LATAM
-
-**Clientes USA procesados (inglés):** #6 Brent Anderson, #7 Jeff Epstein, #10 Cesar Quintero, #11 Ivette Mayo, #14 Christine Fisher, #19 Kim Mittelstadt, #20 Dr Don Buford, #27 Cristina Hernández, #31 Michelle Lores, #35 Steve Adams, #36 Richard Tyler, #37 Michael Buffington, #38 Samuel Guzmán, #40 Tom Cobin — pendientes de aceptación
-
----
-
-## Stats al cierre 27/07/26
-- Total historial: 703 contactos
-- Sesión 27/07: ~25 MSG1 nuevos (LUXURY + MINERIA 2.0 + sin lista) + 4 MSG2 (Juan David, Karla, Cristina Raquel, Richard Tyler) + Alejandra reunion confirmada 29/07 + Brenda recontacto futuro
-- casos-exito.md creado con 4 reuniones cerradas
-- CLAUDE.md actualizado: regla de longitud MSG2 (máx 6-8 líneas)
-- Próxima sesión: SEG1 para Armando/Ximena/Jenny/Claudia Hoyos/Claudia Arango (todos pasaron 48-72hs)
+- Total historial: ~730 contactos
+- Sesión 29/07: 8 MSG2 (Andrés, Paulo, Claudia Merino, Ignacio, Beto, Sonia, Omar, Adrián, Román) + 3 dossiers (Paulo, María Eugenia, Paul Puissegur) + 10 MSG1 FINANZAS 1.0 + 1 MSG1 MINERIA 2.0 (Schifani)
+- Fix crítico servidor: historial upsert tolerante a entradas sin id
+- Próxima sesión: SEG1 urgente para Armando/Ximena/Víctor/Jenny/Claudia Hoyos/Claudia Arango (todos +6 días sin respuesta)

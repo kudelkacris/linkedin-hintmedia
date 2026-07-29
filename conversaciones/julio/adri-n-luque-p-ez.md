@@ -5,7 +5,7 @@
 **Empresa:** Dirección Aseguradora - ICEA
 **Pais:** España
 **Sector:** Seguros (Insurtech/Transformación Digital)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 29/07/26
 
 ---
 
@@ -26,5 +26,16 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola, Florencia! Encantado de saludarte y gracias por escribirme.
+> Así es, el trabajo en equipo es fundamental en cualquier área, más en marketing que es un área completamente multidisciplinar. Solo puedo ponerte un ejemplo y es que, hemos tenido a una persona de baja en el equipo dos meses y eso ha hecho que perdamos algunos puntos de tasa de conversión.
+> Si falta una pieza del engranaje, todo el sistema se resiente.
+
+## MSG2 (29/07/26)
+> Buenas Adrián! Ese ejemplo lo dice todo. Una persona de baja dos meses y ya se siente en conversión — eso muestra cuánto de la ejecución vive dentro del equipo y depende de personas concretas.
+> En marketing de seguros, ese suele ser el punto ciego: el criterio está, pero la producción no tiene estructura por fuera del equipo interno.
+> Trabajo en Hint Media con aseguradoras como Libra Seguros en construir esa capa externa: contenido y comunicación que funciona aunque el equipo tenga movimientos.
+> Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo están abordando en Europea, creo que podríamos tener una conversación interesante.
 
 ## Notas

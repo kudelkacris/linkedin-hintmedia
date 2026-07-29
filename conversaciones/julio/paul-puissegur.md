@@ -5,7 +5,7 @@
 **Empresa:** España
 **Pais:** España
 **Sector:** Ingeniería, construcción, logística, infraestructura
-**Estado:** MSG1 enviado
+**Estado:** Dossier por WhatsApp — 29/07/26
 
 ---
 
@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1
+> Gracias, Florencia. No, no tengo consulta. De todas formas muchas gracias.
+
+## Aclaración + dossier (29/07/26)
+> Jaja no, al revés! La consulta era mía para vos. Trabajo en Hint Media con empresas en expansión internacional en comunicación y posicionamiento, y lo que leí de tu trabajo me llamó la atención.
+> Si en algún momento tiene sentido una charla breve, acá estoy. Si no, ningún problema.
+
+## Respuesta — WA
+> Tenés mi WhatsApp +34 632872433. Recordá que tenemos 5 horas de diferencia.
+
 ## Notas
+- **WhatsApp:** +34 632872433 (España, 5hs de diferencia con Argentina)
+- Dossier a enviar por WhatsApp mañana.

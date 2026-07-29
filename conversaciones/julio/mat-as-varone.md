@@ -36,4 +36,15 @@
 > Trabajo en Hint Media con empresas de servicios financieros como Destiny Group en construir esa capa: la comunicación que diferencia antes de que llegue la comparación.
 > Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo están resolviendo en Edenred, creo que podríamos tener una conversación interesante.
 
+## Respuesta MSG2
+> 100% de acuerdo. Son (somos) casi todos iguales en relación a features, lo que diferencia a las empresas son las personas.
+> Luego sí, si tenes 8000M USD para quemar en publicidad, seguramente tracciones jeje.. pero no sé cuánto retengas.
+> Te propongo que hablemos para fines de año, ahora estamos ya comprometidos con una acción global dentro de acuerdos que tenemos desde Francia. Espero que en breve veas mucho de Edenred ;)
+
+## Cierre temporal (29/07/26)
+> Buenas Matías! Me alegra que coincidamos, y lo de retención lo resumiste perfecto.
+> Nos hablamos para fin de año entonces. Mucho éxito con lo que viene de Francia!
+
 ## Notas
+- **Recontactar:** fin de octubre / noviembre 2026 — propuso él mismo hablar a fin de año, acción global desde Francia en curso. Curiosidad por ver qué lanzan.
+- Engagement HIGH: validó el insight, lo amplió ("las personas son las que diferencian"), humor genuino.
