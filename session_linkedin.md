@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 29/07/26 (cierre)
+## Última sesión: 29/07/26 tarde (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -39,6 +39,7 @@
 | Paulo A. Escobar MD FACS | LinkedIn | 29/07/26 |
 | María Eugenia Fracchia | WhatsApp (1164521943) | 29/07/26 |
 | Paul Puissegur | WhatsApp (+34 632872433) | 30/07/26 — enviar mañana, 5hs diferencia |
+| Alexandra Pérez Idárraga | LinkedIn | 29/07/26 |
 
 ### Matías Varone — recontacto programado
 
@@ -57,7 +58,7 @@ Reunión 29/07/26 15h CEST. Email: alejandra.salas.petit@gmail.com
 | Carlos González Mozuelos | México | Coppel |
 | Estíbaliz Aguado | España | Juba |
 | Gustavo Adolfo Arias Buitrago | Colombia | HDI Seguros |
-| Julio Martínez Reyes | México | Peibo Fintech |
+| ~~Julio Martínez Reyes~~ | México | Peibo Fintech — MSG2 enviado 29/07 |
 | Patricia Villarruel Gordillo | España | Banco Pichincha |
 | Paul Puissegur | España | INESPRO |
 
@@ -104,9 +105,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 29/07/26
+## Stats al cierre 29/07/26 tarde
 
 - Total historial: ~730 contactos
-- Sesión 29/07: 8 MSG2 (Andrés, Paulo, Claudia Merino, Ignacio, Beto, Sonia, Omar, Adrián, Román) + 3 dossiers (Paulo, María Eugenia, Paul Puissegur) + 10 MSG1 FINANZAS 1.0 + 1 MSG1 MINERIA 2.0 (Schifani)
-- Fix crítico servidor: historial upsert tolerante a entradas sin id
-- Próxima sesión: SEG1 urgente para Armando/Ximena/Víctor/Jenny/Claudia Hoyos/Claudia Arango (todos +6 días sin respuesta)
+- Sesión 29/07 mañana: 8 MSG2 + 3 dossiers + 10 MSG1 FINANZAS 1.0 + 1 MSG1 MINERIA 2.0
+- Sesión 29/07 tarde: MSG2 Julio Martínez Reyes + dossier Alexandra Pérez Idárraga
+- Nuevo cierre dossier en CLAUDE.md: "Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante."
+- Próxima sesión: SEG1 urgente para Armando/Ximena/Víctor/Jenny/Claudia Hoyos/Claudia Arango + Paul Puissegur WhatsApp
