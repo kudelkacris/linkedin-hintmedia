@@ -5,7 +5,7 @@
 **Empresa:** Madrid y alrededores
 **Pais:**
 **Sector:** Servicios Financieros / Inversión / Capital
-**Estado:** MSG2 enviado — 29/07/26
+**Estado:** No interesada — 30/07/26
 
 ---
 
@@ -36,4 +36,8 @@
 > Trabajo en Hint Media con empresas de servicios financieros como Libra Seguros en construir esa capa: comunicación ejecutiva que posiciona la firma antes de que llegue el próximo cliente institucional.
 > Tenemos casos concretos de ese tipo de trabajo. Me interesa ver cómo lo están abordando ustedes, creo que podríamos tener una conversación interesante.
 
+## Respuesta MSG2
+> Gracias, Florencia 😉🤗😄 Estamos convencidos de la relevancia de la narrativa y lo trabajamos intensamente, muchas gracias
+
 ## Notas
+- Cierre educado. "Lo trabajamos intensamente" = cubierto internamente. No abrió puerta.

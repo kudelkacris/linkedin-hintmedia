@@ -5,7 +5,7 @@
 **Empresa:** Juba
 **Pais:** España
 **Sector:** Industrial / Seguridad Laboral / Manufactura de EPIs
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 30/07/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> Hola Florencia, si está en mi mano, encantada de ayudarte. Saludos
+
+## MSG2 (30/07/26)
+> Buenas Estíbaliz! Te cuento.
+> En sectores donde el producto es funcional, la narrativa no compite con el catálogo, lo amplifica. Las marcas que más posicionan no son las que mejor explican el EPI, sino las que hacen visible el valor humano detrás. Exactamente lo que intentás construir con esa reflexión sobre prevención.
+> Trabajo en Hint Media con marcas como Destiny Group en construir esa capa. Comunicación que conecta con el decisor B2B y con el usuario final al mismo tiempo, con mensaje consistente en todos los canales.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
