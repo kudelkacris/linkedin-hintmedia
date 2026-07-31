@@ -125,7 +125,7 @@
 | 116 | Juan Jorge Hopkins | Gerente general | — | 2º | Argentina | |
 | 117 | Silvio Medina | Gerente general | — | 2º | Argentina | |
 | 118 | Marco Castillo Alucema | Gerente general | A&C Ingenieria | 3º | Chile | |
-| 119 | Martha Samaniego de la Parra | Gerente general | O-tek | 3º | México | |
+| 119 | Martha Samaniego de la Parra | Gerente general | O-tek | 3º | México | 29/07/26 |
 | 120 | Luis Molins | Gerente general | MECANOTÉCNICA SACIFI | 3º | Argentina | |
 | 121 | Daniel Schwindt | Gerente de Central | Energia Argentina S.A. | 2º | Argentina | |
 | 122 | Renzo Agresta | Gerente general | TIP TOP ARGENTINA | 2º | Argentina | |

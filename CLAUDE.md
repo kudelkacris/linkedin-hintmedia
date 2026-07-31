@@ -135,7 +135,8 @@ Ejecutar obligatoriamente antes de devolver cualquier mensaje:
 
 [ ] Respondí realmente el último mensaje del prospecto.
 [ ] Incorporé información nueva, no repetí MSG1.
-[ ] Hint aparece como consecuencia de la conversación, no como pitch.
+[ ] B2 tiene una pregunta genuina — no es una excusa para llegar al pitch.
+[ ] Hint aparece en B3 como explicación de por qué preguntaba, no como presentación de la empresa.
 [ ] El prospecto entiende quién es Hint antes de que llegue el dossier.
 [ ] El dossier tiene contexto (qué contiene) antes del CTA.
 [ ] Cada burbuja cumple un único objetivo.
@@ -156,7 +157,7 @@ Si la respuesta es "siguiendo un proceso" → reescribir completamente.
 Cada mensaje cumple un rol distinto en la secuencia. No son mensajes independientes.
 
 MSG1 = CURIOSIDAD — generar suficiente intriga para que responda. Nada más.
-MSG2 = VALOR — mostrar qué hace Hint y por qué es relevante para esta persona. Pedir dossier.
+MSG2 = CONSULTA + VALOR — honrar el contrato del MSG1 con una pregunta real, y desde ahí presentar Hint como explicación. Pedir dossier.
 SEG1 = PRUEBA — aportar una prueba concreta (resultado, dato, caso) con ángulo rotado. No repetir el valor de MSG2.
 SEG2 = URGENCIA — si llegó hasta acá sin responder, proponer reunión directamente o cerrar el ciclo.
 
@@ -187,16 +188,26 @@ Publicaciones recientes → actividad → logros → experiencia → cargo (últ
 
 # MSG2
 
-**Objetivo:** generar una conversación natural que termine, de forma lógica, en el envío del dossier.
+**Objetivo:** honrar el contrato psicológico del MSG1 ("tenía una consulta") con una pregunta genuina, y desde esa pregunta hacer aparecer Hint como consecuencia natural — no como pitch.
+
+**Lógica de progresión:**
+MSG1 creó una expectativa: el prospecto espera una consulta.
+Si vas directo al pitch, el cerebro siente un cambio de tema (bait and switch).
+La solución: hacer la consulta primero. Hint aparece como la explicación de por qué preguntabas — no como el motivo de la conversación.
 
 **Estructura obligatoria — 4 burbujas, cada una con UN solo objetivo:**
 
-B1 — CONECTAR con la respuesta del prospecto. Máx 2 líneas.
-B2 — APORTAR una idea o hacer UNA pregunta breve. Máx 2 líneas.
-B3 — HINT: qué hacemos + con quién trabajamos + por qué le escribimos. Máx 2-3 líneas. El prospecto debe entender en menos de 10 segundos qué es Hint.
-B4 — DOSSIER: explicar qué contiene + pedir permiso. Nunca solo "¿te puedo enviar un dossier?" sin contexto.
+B1 — CONECTAR con la respuesta del prospecto. Retomar exactamente lo que dijo. Máx 2 líneas.
+B2 — CONSULTA GENUINA: una pregunta que solo alguien de su rol puede responder. Que sea real. Que nazca de lo que dijo en su respuesta. Máx 2 líneas.
+B3 — EXPLICACIÓN: por qué hacés esa pregunta. Ahí aparece Hint — no como pitch sino como "trabajo con ese problema todos los días". Máx 2-3 líneas.
+B4 — DOSSIER: contexto + pedir permiso. Nunca solo "¿te puedo enviar un dossier?" sin contexto.
 
 Nunca cambiar ese orden. Nunca mezclar dos objetivos en una misma burbuja.
+
+**Por qué este orden funciona:**
+- Nunca mentiste: realmente tenías una consulta.
+- Hint aparece porque la conversación la llevó hasta ahí, no porque "aprovechaste para vender".
+- El prospecto siente que el interés es genuino y recién después descubre que ese interés viene de lo que hacés profesionalmente.
 
 **REGLA DE LONGITUD — CRÍTICA (aprendizaje Zu Camargo / 27/07/26):**
 El MSG2 completo no debe superar 6-8 líneas totales. Si el mensaje se ve largo antes de enviarlo, está mal.

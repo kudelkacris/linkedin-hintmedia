@@ -5,7 +5,7 @@
 **Empresa:** Comunicación Estratégica
 **Pais:** Chile
 **Sector:** Educación (sector HIGH dossier rate 35.7%)
-**Estado:** MSG2 enviado — 29/07/26
+**Estado:** No interesado — 31/07/26 ("por ahora lo vemos internamente, el área se creó hace poco")
 
 ---
 

@@ -1,6 +1,6 @@
 # Contactos FINANZAS 1.0 — Banca / Finanzas / Asset Management
 
-**Estado:** Lista guardada en Navigator 28/07/26 — invitaciones pendientes de enviar
+**Estado:** Invitaciones enviadas 29/07/26 — MSG1 en curso
 **Países:** España, Colombia, Argentina, Chile, México
 **Sub-sectores:** Seguros / Asset Management / Fintech / Banca / Inversiones
 
@@ -51,3 +51,14 @@
 - **#12 Lola Bordás Dolz** — cambió de FINNOVA (CMO) a Masía Losar (Gerente). Empresa ya no es financiera. Evaluar al responder.
 - **#9 Patricia Villarruel Gordillo** — cargo actual es Líder de Contenidos de Marca (más operativo que Directora de Marketing).
 - **#27 Alvaro Caballero del Campo** — cambió de hotel a GRUPO NET GLOBAL. Verificar sector al responder.
+
+## Conexiones aceptadas
+
+| # | Nombre | Fecha aceptación |
+|---|--------|-----------------|
+| 7 | Fernanda Bondesío | 29/07/26 |
+| 8 | Lorena Gutiérrez Guzmán | 30/07/26 |
+| 17 | Alejandro Gayo Peláez | 30/07/26 |
+| 21 | Alejandro Domínguez Feliú | 29/07/26 |
+| 31 | Claudia Patricia Rios Molina | 29/07/26 |
+| 33 | Eva Muñoz Navascués | 29/07/26 |

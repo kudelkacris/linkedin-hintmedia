@@ -75,6 +75,14 @@ Lista armada: 22/07/26. Total: 68 contactos. Invitaciones pendientes.
 
 ---
 
+## Conexiones aceptadas
+
+| # | Nombre | Fecha aceptación |
+|---|--------|-----------------|
+| 10 | Cesar Quintero | 31/07/26 |
+
+---
+
 ## Prioridad de outreach
 
 **Alta (conectar primero, mejor fit):** #1–34 — dueños/fundadores LATAM y Miami con negocio propio y alto ticket
