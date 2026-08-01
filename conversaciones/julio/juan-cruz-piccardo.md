@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1 (01/08/26)
+> "Hola Florencia, A disposición cuando gustes"
+
+## MSG2 (01/08/26)
+> Buenas Juan Cruz! La consulta va por la reestructuración de GEMSA.
+> Cuando un proceso de esa magnitud está en marcha, cómo manejás la narrativa hacia afuera para que inversores, reguladores y mercado lo lean como transformación estratégica y no como señal de riesgo?
+> En Hint Media trabajamos con empresas de energía como TGS y Transener en esa capa: que la comunicación acompañe los cambios estructurales sin amplificar la incertidumbre que naturalmente generan.
+> Tenemos un dossier con casos concretos de ese trabajo. Te lo mando por acá si te parece.
+
+**Estado:** MSG2 enviado — 01/08/26
+
 ## Notas
+- CEO nivel → tono ENTRE PARES, CTA más directo sin "si le encontrás sentido"

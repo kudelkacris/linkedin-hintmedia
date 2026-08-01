@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1 (01/08/26)
+> "Hola Florencia! Cuéntame. Si si puedo ayudarte"
+
+## MSG2 (01/08/26)
+> Buenas Stefany! La consulta va por la narrativa regional.
+> En el Cono Sur, con mercados tan distintos entre sí, cómo mantienen una identidad de marca consistente para los artistas cuando cada país tiene sus propias reglas y prioridades comerciales?
+> En Hint Media trabajamos con esa tensión: ejecución local con narrativa que siga siendo una sola. Es el desafío de casi cualquier marca que opera en más de un mercado al mismo tiempo.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido creo que podríamos tener una conversación interesante.
+
+**Estado:** MSG2 enviado — 01/08/26
+
 ## Notas

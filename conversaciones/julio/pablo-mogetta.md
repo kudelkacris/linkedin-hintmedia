@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1 (01/08/26)
+> "Buenas, Como va?"
+
+## MSG2 (01/08/26)
+> Buenas Pablo! Bien por acá, gracias.
+> La consulta era sobre el post de abastecimiento: cómo mantenés una narrativa coherente de "solución integrada" cuando tenés múltiples proveedores independientes, cada uno con su propio tono y realidad operativa?
+> Trabajo en Hint Media con plataformas y empresas B2B que tienen ese mismo desafío: muchos actores, un solo mensaje que tiene que sonar consistente.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido creo que podríamos tener una conversación interesante.
+
+**Estado:** MSG2 enviado — 01/08/26
+
 ## Notas

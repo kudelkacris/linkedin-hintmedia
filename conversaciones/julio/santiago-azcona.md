@@ -27,4 +27,18 @@
 
 ---
 
+## Respuesta MSG1 (01/08/26)
+> "Buenas, de todo el marketing spam que recibo este ha sido el más elaborado e interesante, ¿qué consulta tenés?"
+
+## MSG2 (01/08/26) — en 3 partes
+**Parte 1:**
+> Gracias, destacar entre la multitud es algo de lo que hacemos
+
+**Parte 2-4:**
+> Cuánto trabajo se van en DAMS en comunicar la misma empresa a dos públicos completamente distintos: los clientes técnicos como Barrick o Glencore, y los stakeholders ESG que los certifican como B-Corp?
+> Trabajamos con empresas de energía e infraestructura como TGS, Transener y Sullair Argentina, exactamente en eso.
+> Tenemos un dossier con casos concretos. Te lo mando por acá si te parece, y si le encontrás sentido creo que podríamos tener una conversación que valga la pena.
+
+**Estado:** MSG2 enviado — 01/08/26
+
 ## Notas

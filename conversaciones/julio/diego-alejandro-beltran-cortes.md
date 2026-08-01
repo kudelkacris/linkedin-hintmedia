@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1 (01/08/26)
+> "Hola Florencia, Claro que si. En que te puedo ayudar?"
+
+## MSG2 (01/08/26)
+> Buenas Diego! La consulta va por la expansión.
+> Cuando Foraco crece hacia Chile o suma equipos nuevos, cómo aseguran que la narrativa que los diferencia, seguridad, desarrollo de talento, estándar de calidad, sea reconocida en el mercado y no quede solo en las publicaciones internas?
+> Trabajo en Hint Media con empresas de energía e infraestructura como TGS, Transener y Sullair Argentina en ese desafío: que la reputación operativa se vuelva posicionamiento visible antes de que llegue el próximo proyecto grande.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido creo que podríamos tener una conversación interesante.
+
+**Estado:** MSG2 enviado — 01/08/26
+
 ## Notas

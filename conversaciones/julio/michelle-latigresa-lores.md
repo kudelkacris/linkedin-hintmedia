@@ -36,7 +36,17 @@
 > I work at Hint Media with founders in the wellness and coaching space on building the narrative layer that makes lived, complex work coherent to an audience that hasn't lived it.
 > We have a brief portfolio with concrete examples of that kind of work. Happy to send it here if that's not too much trouble, or let me know who else I should loop in.
 
+## Respuesta MSG2 (01/08/26)
+> "Florencia, I apologize for the delayed response. Your message actually arrived at a very interesting time. I have been reflecting on the transition from developing the system internally to communicating it externally, and your observation really resonated with me. The work began through lived experience, but over time it evolved into a structured methodology with defined phases, principles, assessments, and practices. One of the challenges I have been exploring is exactly what you identified: how to preserve the depth of the work while making it accessible and coherent for people who have not lived the journey themselves. I would love to see the portfolio examples you mentioned."
+
+## Confirmación dossier (01/08/26)
+> That's exactly the tension, and it sounds like you're already further along than most. A structured methodology with defined phases is actually easier to translate narratively than something purely intuitive. The work is real, the question is just making it legible to someone who hasn't lived it.
+> I'll send the portfolio here shortly. Just a heads up, our materials are currently in Spanish but I'm putting together an English version for you specifically. If after seeing it you'd like to talk, I think we could have a genuinely interesting conversation.
+
+**Estado:** Dossier confirmado — 01/08/26 (pendiente envío versión en inglés)
+
 ## Notas
 - Engagement HIGH — respuesta muy elaborada, curiosidad genuina y recíproca
 - En inglés (USA, Miami)
 - Sector: Personal Development / Coaching / Wellness — sin clientes Hint directos en este sector
+- Dossier pendiente en inglés — traducir antes de enviar
