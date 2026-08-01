@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 31/07/26 (cierre)
+## Última sesión: 01/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -117,13 +117,13 @@ Actualizado en CLAUDE.md el 31/07/26.
 1. SEG1 urgente: Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé (todos vencidos)
 2. MSG1 para nuevos conectados FINANZAS 1.0 (6 personas)
 3. MSG1 para nuevos conectados ARGENTINA ENERGÍA (12 personas excepto Carlos Gingins)
-4. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
+4. MSG1 para conectados nuevos de FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
+5. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
 
 ---
 
-## Stats al cierre 31/07/26
+## Stats al cierre 01/08/26
 
 - Total historial: ~730+ contactos
-- Semana 27-31/07: 64 contactos registrados
-- Objetivo semana próxima: 200 conexiones nuevas (TECH LATAM 1.0)
-- Sesión 31/07: Estíbaliz dossier, Ignacio no interesado, Kelly dossier, Carlos Gingins MSG1, TECH LATAM lista creada, nueva metodología MSG2 aplicada
+- Sesión 01/08: Armado FCT COMMS 1.0 (100 personas), BATCH CEO-FOUNDERS (26 personas), invitaciones enviadas, carpeta CONECTADOS/FCT COMMS creada
+- Listas activas con invitaciones pendientes: FCT COMMS 1.0 (100) + BATCH CEO-FOUNDERS (26) = 126 contactos esperando aceptación
