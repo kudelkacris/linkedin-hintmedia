@@ -29007,5 +29007,17 @@
     "cargo": "Gerente de Proyectos",
     "empresa": "GPower S.A.",
     "pais": "Argentina"
+  },
+  {
+    "id": "gustavo-regner",
+    "nombre": "Gustavo Regner",
+    "name": "Gustavo Regner",
+    "cargo": "Founder & CEO",
+    "empresa": "REGNER",
+    "sector": "Consultoría/Compliance/Risk",
+    "pais": "Argentina",
+    "stage": "2",
+    "estado": "MSG2 enviado",
+    "date": "01/08/26"
   }
 ]
