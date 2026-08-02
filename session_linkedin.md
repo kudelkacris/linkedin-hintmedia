@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 01/08/26 (cierre)
+## Última sesión: 02/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -127,3 +127,24 @@ Actualizado en CLAUDE.md el 31/07/26.
 - Total historial: ~730+ contactos
 - Sesión 01/08: Armado FCT COMMS 1.0 (100 personas), BATCH CEO-FOUNDERS (26 personas), invitaciones enviadas, carpeta CONECTADOS/FCT COMMS creada
 - Listas activas con invitaciones pendientes: FCT COMMS 1.0 (100) + BATCH CEO-FOUNDERS (26) = 126 contactos esperando aceptación
+
+---
+
+## Stats al cierre 02/08/26
+
+- Sesión 02/08: Auditoría completa de julio y junio. Sin stage changes ni mensajes enviados.
+- Archivos creados en `ESTO PASO EN JULIO/`:
+  - `AUDITORIA-JULIO-2026.md` — pipeline completo, reuniones, contactos con teléfono/mail, errores, taxonomía de objeciones
+  - `QUE-SIGUE-AGOSTO-SEPTIEMBRE.md` — plan semana a semana con prioridades 0-6
+  - `CURIOSIDADES-JULIO.md` — 16 perlitas + 5 patrones, leídas 283 conversaciones
+  - `CURIOSIDADES-JUNIO.md` — 13 perlitas + 5 patrones, leídas 172 conversaciones
+- Patrones clave identificados: dossier parece una sola persona (Evin Tapia), "ya tenemos agencia" no es cierre, reuniones salieron de fuera del ICP esperado, errores de junio generaron reglas de metodología
+
+## Prioridades para próxima sesión (sin cambios desde 01/08)
+
+1. SEG1 urgente: Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé (todos vencidos)
+2. MSG1 para nuevos conectados FINANZAS 1.0 (6 personas)
+3. MSG1 para nuevos conectados ARGENTINA ENERGÍA (12 personas excepto Carlos Gingins)
+4. MSG1 para conectados nuevos de FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
+5. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
+6. Actualizar dossier: sección equipo visible (Prioridad 0 de agosto)
