@@ -1203,7 +1203,7 @@
         "text": "Santiago, gracias por conectar! 👋\n\nMe llamó la atención el post donde explicabas las alteraciones geológicas como \"pistas de detectives\" para los mineros. No es lo que suele hacer un gerente de consultora cuando quiere vender. La mayoría arranca con el problema, vos arrancaste con la pregunta.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -1443,7 +1443,7 @@
         "text": "Cristián, gracias por conectar. 👋\n\nMe llamó la atención cómo enfocás la charla en la Universidad de Mendoza. No es lo que la mayoría de los GMs hace cuando podría estar cerrando deals — tomás tiempo para trabajar con estudiantes de ingeniería. Eso dice bastante sobre cómo construís credibilidad en el mercado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -1515,7 +1515,7 @@
         "text": "Roberto, gracias por conectar! 👋\n\nMe llamó la atención la publicación donde le pedías a la red que apoyara el canal de tu hijo. No es lo que normalmente ves de un gerente en LinkedIn en medio de expansion regional. Dice bastante sobre cómo priorizás las cosas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -1688,7 +1688,7 @@
         "text": "Fernanda, gracias por conectar 👋\n\nMe llamó la atención cómo comunicaste el lanzamiento de Capital Femenino. No hiciste un anuncio estándar. Literalmente le dedicaste publicaciones enteras a presentar a las personas que armaron el programa contigo. Eso no es lo que típicamente hace la gente cuando quiere destacar un logro.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -2174,7 +2174,7 @@
         "text": "Fonzo, gracias por conectar! 👋\n\nEstuve viendo que llevas 15 años con NICK en el sector minero de Santa Cruz. Es un contexto bastante particular, donde los operadores cambian ciclos rápido y los proveedores que logran mantenerse son los que anticipan esos cambios. Debe ser una etapa interesante en ese sentido.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -29019,5 +29019,35 @@
     "stage": "2",
     "estado": "MSG2 enviado",
     "date": "01/08/26"
+  },
+  {
+    "id": "gabriela-gutierrez-b",
+    "name": "Gabriela Gutierrez B",
+    "cargo": "Fractional CMO | Marketing Executive",
+    "empresa": "ITJ / Fraktionals",
+    "sector": "Tecnologia / Consultoria / Marketing",
+    "pais": "Mexico",
+    "stage": 1,
+    "date": "2026-08-03"
+  },
+  {
+    "id": "karen-nieves",
+    "name": "Karen Nieves",
+    "cargo": "CEO / Head of Growth LATAM",
+    "empresa": "Karen Nieves Agency / CoinEx Global",
+    "sector": "FinTech / Web3 / Crypto",
+    "pais": "Colombia",
+    "stage": 1,
+    "date": "2026-08-03"
+  },
+  {
+    "id": "romina-luna-venegas",
+    "name": "Romina Luna Venegas",
+    "cargo": "Sr. Videogames PM | Narrative Design Professor",
+    "empresa": "UADE / Makenaide Producciones",
+    "sector": "Videojuegos / Entretenimiento / Educacion",
+    "pais": "Argentina",
+    "stage": 1,
+    "date": "2026-08-03"
   }
 ]

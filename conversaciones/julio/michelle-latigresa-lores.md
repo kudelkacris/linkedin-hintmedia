@@ -43,10 +43,20 @@
 > That's exactly the tension, and it sounds like you're already further along than most. A structured methodology with defined phases is actually easier to translate narratively than something purely intuitive. The work is real, the question is just making it legible to someone who hasn't lived it.
 > I'll send the portfolio here shortly. Just a heads up, our materials are currently in Spanish but I'm putting together an English version for you specifically. If after seeing it you'd like to talk, I think we could have a genuinely interesting conversation.
 
-**Estado:** Dossier confirmado — 01/08/26 (pendiente envío versión en inglés)
+**Estado:** Activa — respondió post-dossier con clarificación de necesidades — 03/08/26
+
+## Respuesta post-dossier (03/08/26)
+> "Hi Florencia, Thank you for taking the time to clarify your process and share more about your work. I understand that your focus is on creating the narrative and communication layer around a methodology, helping founders make their work more coherent, accessible, and recognizable without losing the integrity of what makes it unique. That distinction is important to me because I have already developed the methodology, the frameworks, the exercises, and the foundational architecture of The Method. The challenge I am currently addressing is not primarily how to communicate the work, but how to build the pathway for the right people and organizations to discover it, engage with it, and enter into it. At this stage, what I am looking for is support with areas such as strategic reach, audience development, partnerships, business development, sales pathways, lead generation, and onboarding systems. If this is within the scope of what you offer, I would be happy to continue the conversation. If your work is focused primarily on narrative development and communications, I completely understand."
+
+## Respuesta (03/08/26)
+> Hi Michelle! That clarity is really helpful.
+> The work we do at Hint covers the distribution side: paid media, social media, email, SEO, content. The channels that build audience and generate leads. The narrative layer is not a separate project, it is what makes those channels convert for work as specific as The Method. Without it, distribution amplifies noise. With it, it amplifies signal.
+> Business development, partnerships, and onboarding systems are outside our scope. But if the gap you are trying to close is between the methodology and the people it is designed for, the channel work is exactly where we would start.
+> If that sounds like the right fit, I would love to continue the conversation.
 
 ## Notas
 - Engagement HIGH — respuesta muy elaborada, curiosidad genuina y recíproca
 - En inglés (USA, Miami)
 - Sector: Personal Development / Coaching / Wellness — sin clientes Hint directos en este sector
-- Dossier pendiente en inglés — traducir antes de enviar
+- Clarificó que su necesidad es reach/distribution, no solo narrativa
+- Hint cubre: paid media, social, email, SEO, contenido. NO cubre: partnerships, biz dev, onboarding systems

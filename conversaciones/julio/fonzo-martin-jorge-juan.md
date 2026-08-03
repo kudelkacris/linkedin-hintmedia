@@ -5,7 +5,7 @@
 **Empresa:** Gerente General
 **Pais:** Argentina
 **Sector:** Minería
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/08/26)
+> "Hola Florencia si, decime"
+
+## MSG2 (03/08/26)
+> Buenas Fonzo! Te preguntaba por el contexto del sector.
+> Cuando un operador grande frena o cambia ciclo, ¿cómo sostienen presencia? ¿Hay algo que hacen diferente en esos momentos?
+> Trabajo en Hint Media con empresas de energía como TGS y Transener en construir esa capa: que el expertise llegue al mercado de forma consistente sin depender de que el líder esté en todo.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

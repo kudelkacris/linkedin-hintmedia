@@ -5,7 +5,7 @@
 **Empresa:** Comunicación, RRPP y RSE
 **Pais:** Argentina
 **Sector:** Finanzas / Advisory / Inversiones
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/08/26)
+> "Hola Florencia, buen día. Me encantaría conocer tu consulta. Saludos"
+
+## MSG2 (03/08/26)
+> Buenas Fernanda! Claro. Va por Capital Femenino.
+> Cuando una iniciativa así empieza a crecer en varios países al mismo tiempo, cómo sostienen la coherencia narrativa sin que todo tenga que pasar por vos?
+> Trabajo en Hint Media con empresas como Libra Seguros y Destiny Group en esa capa externa: que la comunicación de una iniciativa se ejecute con consistencia aunque el equipo central esté enfocado en otras prioridades.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

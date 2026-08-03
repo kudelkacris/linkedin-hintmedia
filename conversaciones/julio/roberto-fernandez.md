@@ -5,7 +5,7 @@
 **Empresa:** Gerente Brasil
 **Pais:** Brasil
 **Sector:** Energía - Oil & Gas
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/08/26)
+> "Buenas noches Florencia, como estas?"
+
+## MSG2 (03/08/26)
+> Muy bien Roberto, gracias! Y vos?
+> Te quería preguntar algo sobre la expansión en Brasil. Entre un evento sectorial y el otro, cómo sostienen presencia en el mercado? La agenda de Bahia Oil & Gas y Mossoró captura mucha atención, pero los meses entre medio son los más difíciles para mantener visibilidad.
+> Trabajo en Hint Media con empresas de energía como TGS y Transener, exactamente en esa capa: amplificar la narrativa técnica sin depender solo de los eventos para estar presentes.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

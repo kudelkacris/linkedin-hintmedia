@@ -39,6 +39,12 @@
 > Trabajamos con empresas de energía e infraestructura como TGS, Transener y Sullair Argentina, exactamente en eso.
 > Tenemos un dossier con casos concretos. Te lo mando por acá si te parece, y si le encontrás sentido creo que podríamos tener una conversación que valga la pena.
 
-**Estado:** MSG2 enviado — 01/08/26
+**Estado:** Dossier confirmado — 03/08/26
+
+## Respuesta MSG2 (03/08/26)
+> "Si mandame"
+
+## Dossier enviado (03/08/26)
+> Buenas Santiago! Acá va. Cualquier pregunta que surja, me avisás.
 
 ## Notas

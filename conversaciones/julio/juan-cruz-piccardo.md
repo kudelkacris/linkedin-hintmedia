@@ -38,5 +38,16 @@
 
 **Estado:** MSG2 enviado — 01/08/26
 
+## Respuesta MSG2 (03/08/26)
+> "Florencia, La comunicación (interna y externa) fue uno de los pilares en los cuales se apoyó este proceso tan complejo. Definimos el objetivo de este proceso: la reestructuración de la deuda como la de la compañía (fue muy compleja dado q implicó transformar una administración de empresa familiar a una cia con gobierno corporativo, matriz de riesgo, procesos etc.) tuvo como primer objetivo mantener y consolidar la operación. Por ende, la comunicación buscó dar a conocer este objetivo y explicar cómo se iba a realizar. Tener una operación consolidada permite ofrecer a los inversores argumentos sólidos para acompañar en la reestructuración. Al mismo tiempo, definir el objetivo explicar este proceso a nuestra gente permitió enfocarse en lo fundamental y reducir la incertidumbre."
+
+## MSG3 (03/08/26)
+> Buenas Juan Cruz! No es habitual que alguien comparta ese nivel de detalle sobre un proceso así. Se agradece.
+> El objetivo como ancla narrativa primero. Eso es lo que permite que el mensaje hacia inversores y hacia adentro sean coherentes sin contradecirse.
+> Con TGS y Transener trabajamos exactamente eso: construir el argumento central del proceso antes de comunicar a ninguna audiencia. Una vez que ese argumento existe, adaptarlo para inversores, reguladores o equipos internos no genera contradicciones, porque todos parten del mismo "para qué".
+> El riesgo más común que vemos es cuando las empresas empiezan a comunicar antes de tener ese núcleo claro. Ahí los mensajes empiezan a divergir solos.
+
 ## Notas
-- CEO nivel → tono ENTRE PARES, CTA más directo sin "si le encontrás sentido"
+- CEO nivel → tono ENTRE PARES
+- Respondió con criterio real y detallado — engagement HIGH
+- Sin CTA todavía, conversación informativa. Si responde de nuevo, ir a reunión directa.
