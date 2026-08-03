@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Energía / Oil & Gas / Infraestructura industrial
-**Estado:** MSG2 enviado
+**Estado:** Dossier confirmado — 03/08/26
 
 ---
 
@@ -35,5 +35,11 @@
 > En un mercado tan especializado como tribología, donde la credibilidad depende mucho de quién está en la sala, cómo sostienen presencia comercial entre una conferencia y la siguiente, en geografías tan distintas como LATAM y Europa?
 > Trabajo en Hint Media con empresas de energía como TGS y Transener en construir esa capa: que el expertise llegue al mercado de forma consistente sin depender de que el líder esté en todo.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
+## Respuesta MSG2 (03/08/26)
+> "Flor, dale, pasame información. Nosotros tenemos fuerza comercial con personas de experiencia en nuestras regiones. Yo, como líder, no necesito estar físicamente en todos lados. Espero la info y comentamos."
+
+## Dossier enviado (03/08/26)
+> Buenas Cristián! Tiene sentido, no es lo mismo cuando hay estructura regional. Te mando la info. Comentamos después.
 
 ## Notas

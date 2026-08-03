@@ -5,7 +5,7 @@
 **Empresa:** UADE / Gobierno de la Ciudad de Buenos Aires / Makenaide Producciones
 **Pais:** Argentina
 **Sector:** Videojuegos / Entretenimiento / Educación
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 03/08/26
 
 ---
 
@@ -26,6 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/08/26)
+> "hola / si / contame / yo por lo menos siempre creo en el aprendizaje continuo, las mentorías no son una formula probada, y el programa de incubadoras de Chile del cual tengo experiencia no es exactamente igual a los procesos que tienen en Argentina, por lo cual siento que al ser mi primera mentoría en Incubate es un proceso de aprendizaje / con esto dicho quedo atenta a tus consultas"
+
+## MSG2 (03/08/26)
+> Buenas Romina! Claro, tiene sentido. La consulta va por Makenaide.
+> Un videojuego narrativo con propósito tan específico como tolerancia cultural necesita llegar a una audiencia muy particular. Cómo hacen para que ese propósito sea visible antes de que alguien llegue al juego?
+> Trabajo en Hint Media en construir esa capa: que la misión de un proyecto sea legible externamente antes de que el producto tenga que hablar por sí solo.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
 - Argentina (Buenos Aires)

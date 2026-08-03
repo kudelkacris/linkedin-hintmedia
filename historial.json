@@ -1443,7 +1443,7 @@
         "text": "Cristián, gracias por conectar. 👋\n\nMe llamó la atención cómo enfocás la charla en la Universidad de Mendoza. No es lo que la mayoría de los GMs hace cuando podría estar cerrando deals — tomás tiempo para trabajar con estudiantes de ingeniería. Eso dice bastante sobre cómo construís credibilidad en el mercado.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -29027,8 +29027,9 @@
     "empresa": "ITJ / Fraktionals",
     "sector": "Tecnologia / Consultoria / Marketing",
     "pais": "Mexico",
-    "stage": 1,
-    "date": "2026-08-03"
+    "stage": 0,
+    "date": "2026-08-03",
+    "noInterest": true
   },
   {
     "id": "karen-nieves",
@@ -29047,7 +29048,7 @@
     "empresa": "UADE / Makenaide Producciones",
     "sector": "Videojuegos / Entretenimiento / Educacion",
     "pais": "Argentina",
-    "stage": 1,
+    "stage": 2,
     "date": "2026-08-03"
   }
 ]

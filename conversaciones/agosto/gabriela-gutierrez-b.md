@@ -5,7 +5,7 @@
 **Empresa:** ITJ / Fraktionals
 **Pais:** México
 **Sector:** Tecnología / Consultoría / Marketing
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — no interesada — 03/08/26
 
 ---
 
@@ -39,6 +39,12 @@
 > Te pregunto porque en Hint Media trabajamos exactamente en esa intersección.
 
 ---
+
+## Cierre (03/08/26)
+> "Hola Florencia. No estamos buscando un proveedor. Te lo agradezco."
+
+## Respuesta cierre
+> Hola Gabriela! Perfecto, sin problema. Quedo por acá si en algún momento cambia el panorama. Suerte con ITJ!
 
 ## Notas
 - México (Guadalajara), trabajo remoto
