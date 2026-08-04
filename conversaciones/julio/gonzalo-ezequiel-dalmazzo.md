@@ -5,7 +5,7 @@
 **Empresa:** Universidad Blas Pascal
 **Pais:** Argentina
 **Sector:** Hotelería / Turismo
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 03/08/26
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (03/08/26)
+> "Sí, claro"
+
+## MSG2 (03/08/26)
+> Buenas Gonzalo! La consulta va por algo que vi en el perfil.
+> Sos Vocero Regional de AHTRA y aplicás IA en hotelería. Cuando impulsás algo así desde adentro, cómo lo comunicás hacia el sector para que otros operadores lo adopten y no quede como práctica interna tuya?
+> Trabajo en Hint Media con empresas de turismo como Destiny Group y Tasarolli en construir esa capa: que las iniciativas de un referente del sector sean visibles y replicables más allá de su hotel.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

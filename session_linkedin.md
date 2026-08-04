@@ -4,21 +4,21 @@
 
 ---
 
-## Última sesión: 02/08/26 (cierre)
+## Última sesión: 03/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
-| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 urgente — 10 días |
-| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — 10 días |
-| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — 10 días |
-| Jenny Carolina López | 3 - Dossier enviado | Dossier 23/07 | SEG1 urgente |
-| Claudia Hoyos Bastidas | 3 - Dossier por mail | Dossier 23/07 | SEG1 urgente |
-| Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 | SEG1 urgente |
-| Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 | SEG1 urgente |
+| Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 urgente — vencido |
+| Armando Godoy Sepúlveda | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — vencido |
+| Ximena Ruget | 3 - Dossier enviado | Dossier 21/07 | SEG1 urgente — vencido |
+| Jenny Carolina López | 3 - Dossier enviado | Dossier 23/07 | SEG1 urgente — vencido |
+| Claudia Hoyos Bastidas | 3 - Dossier por mail | Dossier 23/07 | SEG1 urgente — vencido |
+| Claudia Arango Alvarez | 3 - Dossier enviado | Dossier 23/07 | SEG1 urgente — vencido |
+| Aideé Granados | 2 - MSG2 enviado | MSG2 22/07 | SEG1 urgente — vencido |
 | Zu Camargo | 2 - MSG2 enviado | MSG2 23/07 | SEG1 pronto |
-| Michelle LaTigresa Lores | 2 - MSG2 enviado | MSG2 23/07 (inglés) | SEG1 pronto |
+| Michelle LaTigresa Lores | 3 - Activa | Respondió 03/08 — clarificó necesidades (reach/distribution) | Responder, conversación abierta |
 | Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
 | Karla Osorio Rujano | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
 | Marco Castillo Alucema | 2 - MSG2 enviado | MSG2 28/07 | Esperar respuesta |
@@ -30,7 +30,16 @@
 | Román Gómez | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
 | Adrián Luque Páez | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
 | Rafael Borges | 2 - MSG2 enviado | MSG2 30/07 — sector real Farmacéutico/Servier | Esperar respuesta |
-| Carlos Gingins | 1 - MSG1 enviado | MSG1 31/07 — Rio Limay Oil Field, ángulo Ormuz | Esperar respuesta |
+| Carlos Gingins | 1 - MSG1 enviado | MSG1 31/07 — Rio Limay Oil Field | Esperar respuesta |
+| Fonzo Martin Jorge Juan | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
+| Juan Cruz Piccardo | 2 - Conversación activa | MSG3 informativo 03/08 — sin CTA | Si responde, proponer reunión directa |
+| Roberto Fernandez | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
+| Fernanda Bondesío | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
+| Cristián Schmid | 3 - Dossier confirmado | 03/08 — "dale, pasame info, tenemos fuerza regional" | Esperar respuesta |
+| Gonzalo Dalmazzo | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
+| Claudia Patricia Rios Molina | 3 - Dossier enviado | 03/08 — respondió con POV fuerte sobre sostenibilidad integrada | Esperar respuesta |
+| Karen Nieves | 1 - MSG1 enviado | MSG1 03/08 | Esperar respuesta |
+| Romina Luna Venegas | 2 - MSG2 enviado | MSG2 03/08 — por Makenaide Producciones | Esperar respuesta |
 
 ### Stage 3 — dossier enviado (pendiente seguimiento)
 
@@ -42,15 +51,19 @@
 | Alexandra Pérez Idárraga | LinkedIn | 29/07/26 |
 | Estíbaliz Aguado | LinkedIn | 31/07/26 |
 | Kelly Marimon | LinkedIn | 31/07/26 |
+| Santiago Azcona | LinkedIn | 03/08/26 |
+| Cristián Schmid | LinkedIn | 03/08/26 |
+| Claudia Patricia Rios Molina | LinkedIn | 03/08/26 |
 
 ### Cerrados / No interesados
 
 | Nombre | Estado |
 |--------|--------|
-| Ignacio Andree Muñoz Flores | No interesado — 31/07 ("lo vemos internamente, área nueva") |
+| Ignacio Andree Muñoz Flores | No interesado — 31/07 |
 | Sonia Pérez-Castro | No interesada — 30/07 |
 | Cristina Raquel Hernández | No interesada — 28/07 |
 | Ezequiel Jaroslavsky | Contacto equivocado |
+| Gabriela Gutiérrez B | No interesada — 03/08 ("no estamos buscando proveedor") |
 | Brenda Vaca | Recontactar oct/26 |
 | Laura Centeno Salas | Recontactar oct/26 |
 | Paula Cafferata | Recontactar oct/26 |
@@ -64,24 +77,17 @@ Recontactar fin de octubre / noviembre 2026. Engagement HIGH.
 
 Reunión 29/07/26 15h CEST. (email en .md de contacto)
 
-### FINANZAS 1.0 — conexiones aceptadas esta semana
+### ARGENTINA ENERGÍA 1.0 — pendientes MSG1
 
-| Nombre | Stage | Estado |
-|--------|-------|--------|
-| Fernanda Bondesío | 1 | Pendiente MSG1 |
-| Lorena Gutiérrez Guzmán | 1 | Pendiente MSG1 |
-| Alejandro Gayo Peláez | 1 | Pendiente MSG1 |
-| Alejandro Domínguez Feliú | 1 | Pendiente MSG1 |
-| Claudia Patricia Rios Molina | 1 | Pendiente MSG1 |
-| Eva Muñoz Navascués | 1 | Pendiente MSG1 |
+Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego, Diego Beltran
 
-### ARGENTINA ENERGÍA 1.0 — conexiones aceptadas esta semana (de batch 30/07)
+### FINANZAS 1.0 — pendientes MSG1
 
-Fernando Damonte, Cristián Schmid, Santiago Azcona, Gonzalo Dalmazzo, Diego Beltran, Juan Cruz Piccardo, Gustavo Encajes, Roberto Fernandez, Carlos Gingins (MSG1 enviado), Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego
+Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, Eva Muñoz Navascués
 
 ### Batch pendiente de respuesta (MSG1 enviado 27/07)
 
-Martín Chifflet, Matias Bacolla, Giovanna Beratto Allaire, Germán Parada, Juan Sebastian Montejo, Tomas Berwanger, Eugenio Ezequiel Esposito, Jorge Andrés Maino Gaete, Nicolas Astiz, Fonzo Martin Jorge Juan, Germán Loforte
+Martín Chifflet, Matias Bacolla, Giovanna Beratto Allaire, Germán Parada, Juan Sebastian Montejo, Tomas Berwanger, Eugenio Ezequiel Esposito, Jorge Andrés Maino Gaete, Nicolas Astiz, Germán Loforte
 
 ### Batch pendiente de respuesta (MSG1 enviado 16/07 y 21/07)
 
@@ -112,39 +118,18 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Próxima sesión — prioridades
+## Stats al cierre 03/08/26
 
-1. SEG1 urgente: Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé (todos vencidos)
-2. MSG1 para nuevos conectados FINANZAS 1.0 (6 personas)
-3. MSG1 para nuevos conectados ARGENTINA ENERGÍA (12 personas excepto Carlos Gingins)
-4. MSG1 para conectados nuevos de FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
-5. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
+- Total historial: 745 contactos
+- Sesión 03/08: 12 conversaciones trabajadas, 3 nuevos contactos cargados (Gabriela Gutiérrez, Karen Nieves, Romina Luna Venegas), 3 dossiers nuevos (Santiago Azcona, Cristián Schmid, Claudia Rios), 1 cerrada (Gabriela Gutiérrez B)
+- Nuevos en stage 2: Fonzo Martin, Roberto Fernandez, Fernanda Bondesío, Gonzalo Dalmazzo, Romina Luna Venegas, Cristián Schmid (luego pasó a 3)
+- Juan Cruz Piccardo: conversación de alto engagement, CEO compartió criterio real — sin CTA todavía
 
----
+## Prioridades para próxima sesión
 
-## Stats al cierre 01/08/26
-
-- Total historial: ~730+ contactos
-- Sesión 01/08: Armado FCT COMMS 1.0 (100 personas), BATCH CEO-FOUNDERS (26 personas), invitaciones enviadas, carpeta CONECTADOS/FCT COMMS creada
-- Listas activas con invitaciones pendientes: FCT COMMS 1.0 (100) + BATCH CEO-FOUNDERS (26) = 126 contactos esperando aceptación
-
----
-
-## Stats al cierre 02/08/26
-
-- Sesión 02/08: Auditoría completa de julio y junio. Sin stage changes ni mensajes enviados.
-- Archivos creados en `ESTO PASO EN JULIO/`:
-  - `AUDITORIA-JULIO-2026.md` — pipeline completo, reuniones, contactos con teléfono/mail, errores, taxonomía de objeciones
-  - `QUE-SIGUE-AGOSTO-SEPTIEMBRE.md` — plan semana a semana con prioridades 0-6
-  - `CURIOSIDADES-JULIO.md` — 16 perlitas + 5 patrones, leídas 283 conversaciones
-  - `CURIOSIDADES-JUNIO.md` — 13 perlitas + 5 patrones, leídas 172 conversaciones
-- Patrones clave identificados: dossier parece una sola persona (Evin Tapia), "ya tenemos agencia" no es cierre, reuniones salieron de fuera del ICP esperado, errores de junio generaron reglas de metodología
-
-## Prioridades para próxima sesión (sin cambios desde 01/08)
-
-1. SEG1 urgente: Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé (todos vencidos)
-2. MSG1 para nuevos conectados FINANZAS 1.0 (6 personas)
-3. MSG1 para nuevos conectados ARGENTINA ENERGÍA (12 personas excepto Carlos Gingins)
-4. MSG1 para conectados nuevos de FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
+1. SEG1 urgente (todos vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
+2. MSG1 pendientes ARGENTINA ENERGÍA: Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego, Diego Beltran
+3. MSG1 pendientes FINANZAS 1.0: Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, Eva Muñoz Navascués
+4. MSG1 para FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
 5. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
 6. Actualizar dossier: sección equipo visible (Prioridad 0 de agosto)

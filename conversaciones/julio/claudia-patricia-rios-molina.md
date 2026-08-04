@@ -5,7 +5,7 @@
 **Empresa:** Bolsa Mercantil de Colombia oficial
 **Pais:** Colombia
 **Sector:** Energía / Mercados Financieros
-**Estado:** MSG1 enviado
+**Estado:** Dossier confirmado — 03/08/26
 
 ---
 
@@ -27,4 +27,23 @@
 
 ---
 
+## Respuesta MSG1 (03/08/26)
+> "Hola Florencia. Dime cuál es tu inquietud?"
+
+## MSG2 (03/08/26)
+> Buenas Claudia! Va por algo que mencionaste en el post sobre reputación digital.
+> En un mercado como el energético, donde la agenda de sostenibilidad y la de negocio a veces se perciben como contradictorias, cómo construís una narrativa que sea creíble para reguladores y para el mercado financiero al mismo tiempo?
+> Trabajo en Hint Media con empresas de energía como TGS y Transener en esa intersección: la comunicación que sostiene tanto la agenda ESG como la credibilidad comercial del sector.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
+## Respuesta MSG2 (03/08/26)
+> "Ok. Sí... envíamelo para entender mejor tu duda. En principio no tiene por qué haber dicotomía y si la hubiese es que hay algo que no suma. Yo no veo estrategia de sostenibilidad por un lado y de negocio por otro lado. Si la separas estás perdiendo la esencia: la estrategia de negocio debe ser sostenible."
+
+## Dossier + respuesta (03/08/26)
+> Buenas Claudia! Tiene razón: la dicotomía no debería existir en la estrategia. Donde sí la vemos aparecer es en la comunicación externa: cuando la narrativa hacia el mercado financiero y la narrativa hacia reguladores o comunidades se separan y empiezan a contradecirse, aunque la estrategia de fondo sea la misma.
+> Acá va el dossier.
+
 ## Notas
+- VP de Comunicaciones — tono de igual a igual
+- Tiene POV fuerte: estrategia de negocio debe ser sostenible, no hay dicotomía
+- Dossier confirmado
