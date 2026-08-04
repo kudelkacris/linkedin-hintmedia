@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 03/08/26 (cierre)
+## Última sesión: 04/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -20,7 +20,6 @@
 | Zu Camargo | 2 - MSG2 enviado | MSG2 23/07 | SEG1 pronto |
 | Michelle LaTigresa Lores | 3 - Activa | Respondió 03/08 — clarificó necesidades (reach/distribution) | Responder, conversación abierta |
 | Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
-| Karla Osorio Rujano | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
 | Marco Castillo Alucema | 2 - MSG2 enviado | MSG2 28/07 | Esperar respuesta |
 | Christopher Carvajal | 2 - MSG2 enviado | MSG2 29/07 — "Lo que te quede mas cómodo" | Retomar |
 | Andrés Ybarnegaray | 2 - MSG2 enviado | MSG2 29/07 | Esperar respuesta |
@@ -35,11 +34,12 @@
 | Juan Cruz Piccardo | 2 - Conversación activa | MSG3 informativo 03/08 — sin CTA | Si responde, proponer reunión directa |
 | Roberto Fernandez | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Fernanda Bondesío | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
+| Gonzalo Dalmazzo | 3 - Dossier enviado | Dossier 04/08 | Esperar respuesta |
 | Cristián Schmid | 3 - Dossier confirmado | 03/08 — "dale, pasame info, tenemos fuerza regional" | Esperar respuesta |
-| Gonzalo Dalmazzo | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Claudia Patricia Rios Molina | 3 - Dossier enviado | 03/08 — respondió con POV fuerte sobre sostenibilidad integrada | Esperar respuesta |
 | Karen Nieves | 1 - MSG1 enviado | MSG1 03/08 | Esperar respuesta |
-| Romina Luna Venegas | 2 - MSG2 enviado | MSG2 03/08 — por Makenaide Producciones | Esperar respuesta |
+| Karla Osorio Rujano | 3 - Dossier enviado | Dossier 04/08 | Esperar respuesta |
+| Gustavo Regner | 3 - Dossier enviado | Dossier 04/08 — quiere coordinar llamada | SEG1 / coordinar call |
 
 ### Stage 3 — dossier enviado (pendiente seguimiento)
 
@@ -54,6 +54,9 @@
 | Santiago Azcona | LinkedIn | 03/08/26 |
 | Cristián Schmid | LinkedIn | 03/08/26 |
 | Claudia Patricia Rios Molina | LinkedIn | 03/08/26 |
+| Gustavo Regner | LinkedIn | 04/08/26 |
+| Karla Osorio Rujano | LinkedIn | 04/08/26 |
+| Gonzalo Dalmazzo | LinkedIn | 04/08/26 |
 
 ### Cerrados / No interesados
 
@@ -64,6 +67,7 @@
 | Cristina Raquel Hernández | No interesada — 28/07 |
 | Ezequiel Jaroslavsky | Contacto equivocado |
 | Gabriela Gutiérrez B | No interesada — 03/08 ("no estamos buscando proveedor") |
+| Romina Luna Venegas | No interesada — 04/08 (tiene agencia Ask Comunicaciones) |
 | Brenda Vaca | Recontactar oct/26 |
 | Laura Centeno Salas | Recontactar oct/26 |
 | Paula Cafferata | Recontactar oct/26 |
@@ -84,6 +88,14 @@ Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raine
 ### FINANZAS 1.0 — pendientes MSG1
 
 Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, Eva Muñoz Navascués
+
+### FCT COMMS 1.0 — pendientes MSG1 (~60 personas conectadas 01-04/08)
+
+Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Sergio Doval, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Eduardo Ochoa, Rita Galmarini, Pablo Menegol, Federico Mila, José Antonio Pedraza, Lucas De Nardo, Federico Arce, Andrés Quiles Ruiz, Marcelo Magaña, Pablo Julián Mateo, Brian Schwartz, Sandra Suárez Pérez, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Paula Honisch, Jorge Lopez Acevedo, Raul Bermeo, Daniela Moreno Arciniegas, Clara Massenzio, Angélica Cabrera, Marcela Moncada Peraza, Lola Bordás Dolz, Francisca Riveros, Fernando Diosdado, Marcelo Fondacaro, Julio Madrazo, Paola Manjarrés, Cristian De Luca, Bruno Caravantes, Leonardo Garcia Medina, Manny Larcher, Rodrigo Alvial, Catalina Escobar Bravo, Rui Goncalves, Maria Cristina Giraldo, Daniela Buján, Carolina Martinez Plazas, Magdalena Del Solar, Monica Saavedra Nieto, Valeria Abadi, Jorge Barahona, María Camila Segura Matiz (ya stage 3), Cristian González, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa, Alfredo Escolar
+
+### MINERÍA 2.0 — pendientes MSG1
+
+Pablo Modon, Diego Galetto, Mariano Armando, Guillermo Fantini, Fabian Cabana
 
 ### Batch pendiente de respuesta (MSG1 enviado 27/07)
 
@@ -118,18 +130,17 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Stats al cierre 03/08/26
+## Stats al cierre 04/08/26
 
 - Total historial: 745 contactos
-- Sesión 03/08: 12 conversaciones trabajadas, 3 nuevos contactos cargados (Gabriela Gutiérrez, Karen Nieves, Romina Luna Venegas), 3 dossiers nuevos (Santiago Azcona, Cristián Schmid, Claudia Rios), 1 cerrada (Gabriela Gutiérrez B)
-- Nuevos en stage 2: Fonzo Martin, Roberto Fernandez, Fernanda Bondesío, Gonzalo Dalmazzo, Romina Luna Venegas, Cristián Schmid (luego pasó a 3)
-- Juan Cruz Piccardo: conversación de alto engagement, CEO compartió criterio real — sin CTA todavía
+- Sesión 04/08: 3 dossiers nuevos (Gustavo Regner, Karla Osorio Rujano, Gonzalo Dalmazzo), 1 cerrada (Romina Luna Venegas — tiene agencia propia), ~60 nuevas conexiones FCT COMMS mapeadas pendientes MSG1
+- Gustavo Regner: quiere coordinar llamada después de ver el dossier
 
 ## Prioridades para próxima sesión
 
 1. SEG1 urgente (todos vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
-2. MSG1 pendientes ARGENTINA ENERGÍA: Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego, Diego Beltran
-3. MSG1 pendientes FINANZAS 1.0: Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, Eva Muñoz Navascués
-4. MSG1 para FCT COMMS 1.0 / BATCH CEO-FOUNDERS cuando acepten
-5. Armar TECH LATAM 1.0 en Sales Navigator (objetivo 200 contactos — México primero)
+2. MSG1 batch FCT COMMS (~60 personas conectadas — arrancar por los de mayor seniority/señal)
+3. MSG1 pendientes ARGENTINA ENERGÍA: Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego, Diego Beltran
+4. MSG1 pendientes FINANZAS 1.0: Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, Eva Muñoz Navascués
+5. Coordinar call con Gustavo Regner (respondió positivo al dossier)
 6. Actualizar dossier: sección equipo visible (Prioridad 0 de agosto)

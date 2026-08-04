@@ -36,6 +36,21 @@
 > Trabajo en Hint Media en construir esa capa: que la misión de un proyecto sea legible externamente antes de que el producto tenga que hablar por sí solo.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
+## Respuesta MSG2 (04/08/26)
+> "Perfecto / Si ya hemos hecho entrevistas / Si te parece mándame correo y tengamos una reunión / Rominal@gmail.com"
+
+## Dossier enviado por mail — 04/08/26
+Email: Rominal@gmail.com
+Mail enviado con dossier + contexto de qué hace Hint para Makenaide.
+
+## Cierre (04/08/26)
+> "Yo ya trabajo con una agencia de medios gracias que me hace el mismo trabajo y portafolio askcomunicaciones / No estamos interesados"
+Nota: detectó posible IA en el mensaje. Tiene agencia propia (Ask Comunicaciones).
+
+## Estado: CERRADA — No interesada
+
+---
+
 ## Notas
 - Argentina (Buenos Aires)
 - Fundadora Makenaide Producciones (videojuegos narrativos, tolerancia cultural, destacados en Chile)

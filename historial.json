@@ -2089,7 +2089,7 @@
   },
   {
     "id": "1785178546644",
-    "date": "27/07/26",
+    "date": "2026-08-04",
     "name": "Karla Osorio Rujano",
     "empresa": "Panamá",
     "variantTitle": "Estrategia desde lo táctico",
@@ -2102,7 +2102,7 @@
         "text": "Karla, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación sobre Sala Panamá. No escribiste sobre la sala en sí, sino sobre el valor de los datos que generaría. La mayoría lo hubiera hecho al revés.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 2,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -29016,9 +29016,9 @@
     "empresa": "REGNER",
     "sector": "Consultoría/Compliance/Risk",
     "pais": "Argentina",
-    "stage": "2",
-    "estado": "MSG2 enviado",
-    "date": "01/08/26"
+    "stage": "3",
+    "estado": "Dossier enviado",
+    "date": "2026-08-04"
   },
   {
     "id": "gabriela-gutierrez-b",
@@ -29048,7 +29048,9 @@
     "empresa": "UADE / Makenaide Producciones",
     "sector": "Videojuegos / Entretenimiento / Educacion",
     "pais": "Argentina",
-    "stage": 2,
-    "date": "2026-08-03"
+    "stage": 3,
+    "email": "Rominal@gmail.com",
+    "date": "2026-08-04",
+    "noInterest": true
   }
 ]

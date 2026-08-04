@@ -47,4 +47,10 @@ Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te 
 
 ---
 
-## Estado: MSG2 enviado
+## Respuesta MSG2 (04/08/26)
+> "hola Florencia! gracias por tu mensaje, dale, mandame el dossier, lo miro y vemos de coordinar una llamada ¿si?"
+
+## Dossier enviado — 04/08/26
+Enviado por LinkedIn. Quedó en coordinar llamada.
+
+## Estado: Stage 3 — Dossier enviado
