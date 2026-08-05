@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1 (05/08/26)
+> "Sí, claro"
+
+## MSG2 (05/08/26)
+> Buenas Jorge!
+> La consulta era sobre Ethos Patagonia. En un mercado lleno de proyectos que se autodenominan regenerativos, quería entender cómo pensás hacer que la diferencia de Ethos sea legible antes de que alguien lo visite o lo financie.
+> Trabajo en Hint Media con proyectos de impacto que tienen ese mismo desafío: la narrativa tiene que sostener lo que la operación promete, antes de que el viajero o el inversor llegue.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
+**Estado:** MSG2 enviado
+
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** We Global Talent
 **Pais:** Argentina (Buenos Aires)
 **Sector:** Consultoría / Headhunting / RRHH
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -23,6 +23,15 @@
 > El informe de We Global Talent en Clarín me llamó la atención. No por el dato en sí, sino por la decisión detrás: publicar inteligencia propia en lugar de amplificar lo que publican otros.
 > Para una consultora de headhunting, eso es una forma de comunicar diferente a la del sector.
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+## Respuesta MSG1 (05/08/26)
+> "Hola Flor. Contame como puedo ayudarte"
+
+## MSG2 (05/08/26)
+> Buenas Carolina! Justo te iba a contar.
+> El informe en Clarín, el newsletter, las apariciones en Canal de la Ciudad... quería saber si detrás hay una estrategia de comunicación planificada, o si cada cosa surgió más como oportunidad puntual.
+> Te lo pregunto porque trabajo en Hint Media con fundadoras en ese mismo punto: ya tienen presencia, pero todavía no tienen el sistema que la hace sostenible.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
 - 16.7K seguidores LinkedIn

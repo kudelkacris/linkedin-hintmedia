@@ -1920,7 +1920,7 @@
         "text": "Jorge, gracias por conectar 👋\n\nMe llamó la atención la publicación donde cuestionás el greenwashing en turismo regenerativo — específicamente la parte donde decís que si no hay transparencia, participación comunitaria real e impacto medible, no es regeneración. Y acaba de coincidir con el anuncio de Ethos Patagonia buscando inversores y advisors. No es casual que hayas puesto eso públicamente justo antes de lanzar el proyecto.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
@@ -29929,11 +29929,20 @@
   },
   {
     "name": "Carolina Cianfagna",
-    "stage": 1,
+    "stage": 2,
     "date": "2026-08-05",
     "sector": "Consultoria / Headhunting / RRHH",
     "cargo": "Founder & CEO",
     "empresa": "We Global Talent",
+    "pais": "Argentina"
+  },
+  {
+    "name": "Daniela Bujan",
+    "stage": 2,
+    "date": "2026-08-05",
+    "sector": "Educacion / EdTech",
+    "cargo": "Cofundadora",
+    "empresa": "Auroria",
     "pais": "Argentina"
   }
 ]

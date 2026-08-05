@@ -5,7 +5,7 @@
 **Empresa:** Daniela Buján
 **Pais:** Argentina
 **Sector:** Educación / EdTech
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (05/08/26)
+> "Hola Florencia, cómo andas? contame"
+
+## MSG2 (05/08/26)
+> Buenas Daniela! Bien gracias.
+> Llevas tiempo instalando el concepto de "deuda cognitiva" antes de hablar del producto. La consulta era sobre eso: si trabajás primero el problema y después aparece Auroria, o los movés en paralelo. Porque si van muy juntos puede sonar a que creaste el problema para vender la solución.
+> Trabajo en Hint Media con fundadoras de EdTech en ese mismo desafío: comunicar cuando el mercado todavía no tiene vocabulario para lo que ofrecés.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
