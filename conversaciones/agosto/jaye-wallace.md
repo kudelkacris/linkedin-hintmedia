@@ -31,8 +31,17 @@
 > I work at Hint Media with executives in exactly that position: strong brand behind them, but their individual voice still needs its own infrastructure.
 > We have a brief dossier with concrete cases. Happy to send it here if it makes sense, and if it resonates, I think it could be an interesting conversation.
 
+## Respuesta MSG2 (06/08/26)
+> "Oh I understand, my apologies for misunderstanding. So I wouldn't need that for myself right now. Maybe soon, however not right now. I have CEO's, Founders and Executives within my network that may have interest though."
+
+## MSG3 (06/08/26)
+> Really appreciate that.
+> If any name comes to mind, happy to reach out directly — just share who and I'll take it from there.
+> Or I can send you the dossier and you forward it to whoever you think it fits. Whatever's easier for you.
+
 ## Notas
 - En inglés (USA)
 - 5.4K seguidores
 - Programa generó análisis pero MSG1 vacío (bug token cutoff). MSG1 generado manualmente.
 - Sector Consultoría/Tech — clientes Hint: Destiny Group, Libra Seguros.
+- No es prospecto directo — ofrece red de CEOs/Founders/Executives como canal de referidos.

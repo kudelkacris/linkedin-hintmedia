@@ -5,7 +5,7 @@
 **Empresa:** Plurall
 **Pais:** Colombia
 **Sector:** Fintech / Financial Services
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -19,7 +19,16 @@
 ---
 
 ## MSG1
->
+> (generado por programa 05/08/26)
+
+## Respuesta MSG1 (06/08/26)
+> "Hola Florencia, cuéntame"
+
+## MSG2 (06/08/26)
+> Buenas Monica!
+> La consulta era sobre lo que pasa cuando la empresa escala tan rápido. Con el crecimiento que tiene Plurall, cómo decidís qué contar externamente y con qué frecuencia, sin caer en el ruido que cuestionabas?
+> Trabajo en Hint Media con founders y equipos de producto en fase de escala: construir narrativa que comunique el crecimiento sin depender del volumen de publicaciones.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ---
 
