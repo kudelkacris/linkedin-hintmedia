@@ -5,7 +5,7 @@
 **Empresa:** Valuetainment
 **Pais:** USA (Fort Lauderdale, Florida)
 **Sector:** Consultoría / Coaching / Networking Events
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -21,6 +21,15 @@
 > Jaye, thanks for connecting!
 > That line stayed with me: "this is a lifestyle, and a choice." Most people in your space talk about the ROI of being in the right room. You're talking about the decision to live that way.
 > I had a question and wanted to see if you could help.
+
+## Respuesta MSG1 (05/08/26)
+> "We have an entire Media dept that handles that. We are the largest business Podcast on YouTube and Spotify, so we don't really have problems like that. Look up PBD Podcast."
+
+## MSG2 (05/08/26)
+> Fair — PBD's scale is hard to argue with.
+> My question was about something else. With the media machine covered, what are you building for your own presence outside of it — BDC-Medical, your positioning as equity partner? That's a story that doesn't live inside the podcast.
+> I work at Hint Media with executives in exactly that position: strong brand behind them, but their individual voice still needs its own infrastructure.
+> We have a brief dossier with concrete cases. Happy to send it here if it makes sense, and if it resonates, I think it could be an interesting conversation.
 
 ## Notas
 - En inglés (USA)

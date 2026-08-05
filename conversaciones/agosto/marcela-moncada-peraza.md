@@ -5,7 +5,7 @@
 **Empresa:** Área metropolitana de Bogotá D.C.
 **Pais:** España
 **Sector:** Tecnología / Infraestructura TI / B2G
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,13 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (05/08/26)
+> "Hola Florencia, claro que si cuentame"
+
+## MSG2 (05/08/26)
+> La consulta era sobre la expansión. El mensaje de "conexión y visión compartida" que pusiste en el centro del Summit, cuando escalás a nuevos mercados lo replicás de forma consistente o depende mucho de que estés vos en cada conversación?
+> Trabajo en Hint Media con directoras comerciales en ese momento: la estrategia de relacionamiento funciona bien a cierta escala, pero se vuelve frágil cuando hay más mercados y más actores.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
