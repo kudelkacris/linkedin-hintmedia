@@ -1848,12 +1848,16 @@
         "text": "Hola Paola, un gusto conectar 👋\n\nMe llamó la atención cómo impulsás los espacios de Tiendanube sin armar el discurso tradicional de \"somos los mejores\". Cada vez que comparten sobre BUFA, FinFest o Sesiones Nube, el crédito va hacia los equipos y hacia la comunidad, no hacia la empresa. Eso no es lo que suele pasar en alianzas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
         "date": "05/08/26",
         "note": ""
+      },
+      {
+        "stage": 2,
+        "date": "05/08/26"
       }
     ]
   },
@@ -1992,7 +1996,7 @@
         "text": "Catalina, gracias por conectar! 👋\n\nMe llamó la atención la reflexión que compartiste hace poco sobre el seguimiento en alianzas. Lo que más me gustó fue que lo plantearas no como una tarea administrativa sino como algo que empieza antes de cualquier contrato, en el primer \"te escribo la próxima semana\" que realmente se cumple. No es lo que escuchas normalmente cuando hablan de alianzas.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
