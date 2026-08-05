@@ -335,27 +335,12 @@ Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></tex
           <div id="sector-intel-bar" style="display:none;padding:6px 10px;background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:8px;font-size:11.5px;line-height:1.5;color:#7A3800"></div>
 
           <div class="row2">
-            <div>
-              <label class="lbl">Idioma</label>
-              <select class="sel" id="idioma">
-                <option value="es">Español</option>
-                <option value="en">English</option>
-              </select>
-            </div>
-            <div>
-              <label class="lbl">Tono</label>
-              <select class="sel" id="tono">
-                <option value="ameno">Ameno y cercano</option>
-                <option value="profesional">Profesional</option>
-                <option value="directo">Directo al grano</option>
-              </select>
-            </div>
           </div>
 
           <button class="btn-main" id="gen-btn" onclick="generateOpeners()">
             <svg id="gen-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             <div class="spinner" id="gen-spin"></div>
-            <span id="gen-txt">Generar mensajes de apertura (A + C)</span>
+            <span id="gen-txt">Generar mensaje de apertura</span>
           </button>
         </div>
       </div>
@@ -593,9 +578,7 @@ Si DESCARTAR: no generar mensajes. Responder solo "Prospecto descartado." + moti
 REGLAS MSG1:
 - Objetivo único: transformar contacto frío en conversación
 - NO vender, NO diagnosticar, NO hablar de servicios, NO hablar de reuniones
-- Generar EXACTAMENTE 2 variantes: A y C
-- PRINCIPIO CENTRAL: VARIANTE A = LA PERSONA. VARIANTE C = EL TRABAJO.
-  Si ambas hablan del mismo hecho, proyecto o situación aunque usen palabras distintas: SCORE -4 a ambas y reescribir.
+- Generar EXACTAMENTE 1 variante: A (Variante A únicamente)
 
 - VARIANTE A — LA PERSONA:
   TONO: humana, curiosa, no corporativa.
@@ -617,24 +600,6 @@ REGLAS MSG1:
   * MSG1_B3 TEXTUAL EXACTO: "Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
   Ejemplo (Francesco): "Me llamó la atención la publicación sobre la alianza con TVMAX. Lo que más me gustó fue que le diste bastante crédito al equipo detrás del proyecto. No suele ser lo primero que la gente destaca cuando anuncia algo así."
 
-- VARIANTE C — EL TRABAJO:
-  TONO: analítica, estratégica, profesional.
-  ÁNGULO — solo señales del TRABAJO:
-    * Proyecto concreto, alianza, lanzamiento
-    * Crecimiento, expansión, escala
-    * Complejidad operativa, implementación
-    * Transformación, mercado, responsabilidad
-  Ejemplos de apertura correcta en C:
-    "Me llamó la atención que lideres..."
-    "Me llamó la atención el crecimiento..."
-    "Me llamó la atención la complejidad de..."
-    "Me llamó la atención la escala de..."
-  PROHIBIDO en C: valores personales, reflexiones del prospecto, cómo comunica. NUNCA el mismo hecho que A.
-  * MSG1_B1: [Nombre], gracias por conectar! 👋
-  * MSG1_B2: "Estuve revisando un poco lo que vienen haciendo en [empresa]." + observación del contexto de negocio.
-  * MSG1_B3 TEXTUAL EXACTO: "Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar."
-  Ejemplo (Francesco): "Estuve revisando un poco lo que vienen haciendo en Starbay y me llamó la atención el acuerdo con TVMAX justo en la previa del Mundial. Imagino que una iniciativa así abre bastantes frentes al mismo tiempo."
-  * SOLO estas 3 burbujas.
 
 ACTUALIZACIÓN V2 — MENOS CONSULTOR, MÁS CONVERSACIÓN
 Después de generar la observación y la interpretación del trabajo, aplicar estas reglas obligatorias antes de escribir MSG2.
@@ -880,13 +845,6 @@ MSG1_B2: texto burbuja 2
 MSG1_B3: texto burbuja 3
 RESPUESTA: (ejemplo de respuesta esperada)
 
----VARIANTE---
-TITULO: Investigación + logro
-SCORE: (número del 1 al 10)
-TIP: (por qué funciona mostrar que investigaste con logro específico)
-MSG1_B1: [Nombre], gracias por conectar! 👋
-MSG1_B2: Vi que [cargo en empresa], [qué hace la empresa en 1 frase]. [logro específico extraído del perfil, dato concreto]. SIN pregunta, SIN observación, SIN opinión. Solo hechos. SIN guion largo.
-MSG1_B3: Si es correcto lo que leí, tenía una duda y quería saber si me podrías ayudar. (EXACTO, no modificar)
 RESPUESTA: (ejemplo de respuesta esperada)`;
 
 // ─── SYNC JEFE ───────────────────────────────────────────────────────
@@ -984,13 +942,9 @@ function trimProfile(raw) {
 // ─── GENERATE OPENERS ───────────────────────────────────────────────
 async function generateOpeners() {
   const profile = document.getElementById('profile-input').value.trim();
-  const idioma = document.getElementById('idioma').value;
-  const tono = document.getElementById('tono').value;
-
   if (!profile) { alert('Pegá el perfil de LinkedIn primero'); return; }
 
   state.profile = profile;
-  state.idioma = idioma;
   state.selectedVariant = null;
   state.conversationHistory = [];
   state.rawText = '';
@@ -1003,8 +957,8 @@ async function generateOpeners() {
   const prompt = `PERFIL A ANALIZAR:
 ${trimProfile(profile)}
 
-IDIOMA: ${idioma === 'es' ? 'Español' : 'English'}
-TONO: ${tono}
+IDIOMA: Español
+TONO: Profesional
 
 Analizá este perfil y generá la salida EXACTAMENTE con este formato — sin agregar texto adicional antes o entre secciones:
 
@@ -1050,12 +1004,6 @@ MSG1_B2: ...
 MSG1_B3: Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 RESPUESTA: ...
 
----VARIANTE---
-TITULO: Investigación + logro
-TIP: ...
-MSG1_B1: [Nombre], gracias por conectar! 👋
-MSG1_B2: Estuve revisando un poco lo que venís haciendo. Me llamó la atención [hecho concreto]. [observación breve]. Solo hechos.
-MSG1_B3: Si es correcto lo que leí, tenía una duda y quería saber si me podías ayudar.
 RESPUESTA: ...`;
 
   // ── Contexto histórico del HIE (sin API, lee KB local) ──────────────────
@@ -1433,8 +1381,8 @@ function renderVariants(text) {
   // blocks[0] may be the analysis section (no TITULO) — skip it
   const startIdx = /TITULO:/i.test(blocks[0]) ? 0 : 1;
   const variantBlocks = blocks.slice(startIdx, startIdx + 4);
-  const tagClass = ['vtag-a','vtag-c','vtag-c','vtag-d'];
-  const tagLabel = ['Variante A','Variante C','Variante C','Variante D'];
+  const tagClass = ['vtag-a','vtag-a','vtag-a','vtag-a'];
+  const tagLabel = ['Variante A','Variante A','Variante A','Variante A'];
 
   // First pass: parse scores to find best
   const parsedBlocks = variantBlocks.slice(0, 4).map((block, idx) => {
@@ -1602,7 +1550,7 @@ ${historyText}
 
 La persona acaba de responder: "${replyText}"
 
-IDIOMA: ${state.idioma==='es'?'Español':'English'}
+IDIOMA: Español
 
 Analizá qué dijo y generá el mensaje exacto que Florencia debería mandar ahora.
 
