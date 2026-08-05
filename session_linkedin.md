@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 05/08/26 (cierre)
+## Última sesión: 06/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -38,16 +38,20 @@
 | Claudia Patricia Rios Molina | 3 - Dossier enviado | 03/08 — respondió con POV fuerte sobre sostenibilidad integrada | Esperar respuesta |
 | Karen Nieves | 1 - MSG1 enviado | MSG1 03/08 | Esperar respuesta |
 | Karla Osorio Rujano | 3 - Dossier enviado | Dossier 04/08 | Esperar respuesta |
-| Gustavo Regner | 3 - Dossier enviado | Dossier 04/08 — quiere coordinar llamada | SEG1 / coordinar call |
+| Gustavo Regner | 3 - Dossier enviado | Dossier 04/08 — quiere coordinar llamada | Coordinar call urgente |
 | Manny Larcher | 2 - MSG2 enviado | MSG2 05/08 — respondió "please share" | Esperar respuesta |
 | Jorge Barahona | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
-| Carolina Cianfagna | 2 - MSG2 enviado | MSG2 05/08 — respondió "trabajo con agencia de prensa", redirigido a owned channels | Esperar respuesta |
-| Jaye Wallace | 2 - MSG2 enviado | MSG2 05/08 — respondió sobre PBD podcast, redirigido a marca personal BDC-Medical | Esperar respuesta |
+| Carolina Cianfagna | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
+| Jaye Wallace | 2 - MSG3 enviado | MSG3 06/08 — ofrece red CEOs/Founders como referidos | Esperar respuesta |
 | Marcela Moncada Peraza | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
-| Marcelo Magaña | 2 - MSG2 enviado | MSG2 05/08 — respondió con apertura total "cuéntame" | Esperar respuesta |
+| Marcelo Magaña | 2 - MSG2 enviado | MSG2 05/08 — respondió "cuéntame" | Esperar respuesta |
 | Catalina Escobar Bravo | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
 | Sandra Suárez Pérez | 1 - MSG1 enviado | Respondió 05/08 — habló de libro vs. marca personal | MSG2 pendiente |
-| Daniela Moreno Arciniegas | 1 - MSG1 enviado | MSG1 05/08 | MSG2 pendiente |
+| Daniela Moreno Arciniegas | 3 - Dossier enviado | Dossier 06/08 — "feliz de hacer sinergia" | Esperar respuesta |
+| Monica Saavedra Nieto | 2 - MSG2 enviado | MSG2 06/08 — Co-Founder Plurall fintech | Esperar respuesta |
+| Cristian De Luca | 3 - Dossier enviado | Dossier 06/08 — voz personal, no de empresa | Esperar respuesta |
+| Cristian González | 2 - MSG2 enviado | MSG2 06/08 — Founder Bocha Agency / educación | Esperar respuesta |
+| Paula Honisch | 2 - MSG2 enviado | MSG2 06/08 — consultora compliance | Esperar respuesta |
 
 ### Stage 3 — dossier enviado (pendiente seguimiento)
 
@@ -66,6 +70,8 @@
 | Karla Osorio Rujano | LinkedIn | 04/08/26 |
 | Gonzalo Dalmazzo | LinkedIn | 04/08/26 |
 | Daniela Buján | Mail (danielabujan@gmail.com) | 05/08/26 |
+| Daniela Moreno Arciniegas | LinkedIn | 06/08/26 |
+| Cristian De Luca | LinkedIn | 06/08/26 |
 
 ### Cerrados / No interesados
 
@@ -82,6 +88,8 @@
 | Laura Centeno Salas | Recontactar oct/26 |
 | Paula Cafferata | Recontactar oct/26 |
 | Matías Varone | Recontactar nov/26 |
+| Angélica Cabrera | Recontactar nov/26 — área Influencer Mktg no lanzada, tienen plan propio |
+| Francisca Riveros N. | Recontactar nov/26 — equipo propio cubierto (CCO Copec) |
 
 ### ARGENTINA ENERGÍA 1.0 — pendientes MSG1
 
@@ -93,9 +101,9 @@ Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, 
 
 ### FCT COMMS 1.0 — pendientes MSG1 (restantes)
 
-Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Sergio Doval, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Eduardo Ochoa, Rita Galmarini, Pablo Menegol, Federico Mila, Federico Arce, Andrés Quiles Ruiz, Pablo Julián Mateo, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Paula Honisch, Jorge Lopez Acevedo, Clara Massenzio, Angélica Cabrera, Francisca Riveros, Fernando Diosdado, Marcelo Fondacaro, Julio Madrazo, Paola Manjarrés, Cristian De Luca, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Maria Cristina Giraldo, Carolina Martinez Plazas, Magdalena Del Solar, Monica Saavedra Nieto, Valeria Abadi, Cristian González, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa, Alfredo Escolar
+Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Sergio Doval, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Eduardo Ochoa, Rita Galmarini, Pablo Menegol, Federico Mila, Federico Arce, Andrés Quiles Ruiz, Pablo Julián Mateo, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Jorge Lopez Acevedo, Clara Massenzio, Fernando Diosdado, Marcelo Fondacaro, Julio Madrazo, Paola Manjarrés, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Maria Cristina Giraldo, Carolina Martinez Plazas, Magdalena Del Solar, Valeria Abadi, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa, Alfredo Escolar
 
-### MSG1 generados hoy (confirmar envío)
+### MSG1 generados (confirmar envío)
 
 José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás Dolz, Raul Bermeo
 
@@ -139,20 +147,16 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Stats al cierre 05/08/26
+## Stats al cierre 06/08/26
 
 - Total historial: 795 contactos
-- Agosto: 51 personas procesadas
-- Costo agosto: $0.94 / $0.018 por perfil
-- Cache hit rate: 64%
-- Sesión 05/08: 7 MSG2 enviados (Manny, Jorge, Carolina C., Jaye, Marcela, Marcelo, Catalina), 1 dossier por mail (Daniela Buján), fixes técnicos servidor.py + index.html
+- Sesión 06/08: 4 MSG2 enviados (Monica Saavedra, Cristian González, Paula Honisch, Francisca Riveros), 2 dossiers enviados (Daniela Moreno, Cristian De Luca), 2 cerradas recontactar nov/26 (Angélica Cabrera, Francisca Riveros), Jaye Wallace MSG3 referidos
 
 ## Prioridades para próxima sesión
 
 1. SEG1 urgente (todos vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
 2. Sandra Suárez Pérez — MSG2 pendiente (conversación activa sobre libro vs. marca personal)
-3. Daniela Moreno — MSG2 pendiente
-4. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
-5. Coordinar call con Gustavo Regner
-6. MSG1 batch FCT COMMS restantes
-7. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0
+3. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
+4. Coordinar call con Gustavo Regner — urgente
+5. MSG1 batch FCT COMMS restantes
+6. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0

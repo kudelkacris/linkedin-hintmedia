@@ -5,7 +5,7 @@
 **Empresa:** Empresas Copec
 **Pais:** Chile
 **Sector:** Sector de Energía/Infraestructura (Copec, ARAUCO, Abastible) con iniciativas transversales educación/sostenibilidad
-**Estado:** MSG1 enviado
+**Estado:** Recontactar nov/26 — equipo propio cubierto, sin necesidad ahora
 
 ---
 
@@ -25,6 +25,22 @@
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
+## Respuesta MSG1 (06/08/26)
+> "Hola Florencia, gracias por tu feedback! Cuéntame"
+
+## MSG2 (06/08/26)
+> Buenas Francisca!
+> La consulta era sobre el ritmo de producción. Con tantas iniciativas corriendo al mismo tiempo en Copec, cómo manejan la producción de contenido estratégico sin que el equipo interno se sature?
+> Trabajo en Hint Media con equipos de comunicación en energía e infraestructura, como TGS y Transener, en sostener ese ritmo sin sobrecargar el equipo propio.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
+## Respuesta MSG2 (06/08/26)
+> "Gracias, Florencia! La verdad es que estamos perfectamente funcionando con mi equipo. Si a futuro surge alguna necesidad, te aviso. Saludos!"
+
+## Cierre (06/08/26)
+> "Perfecto Francisca! Quedo por acá para cuando lo necesiten. Mucho éxito!"
+
 ---
 
 ## Notas
+- Recontactar noviembre 2026
