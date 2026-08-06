@@ -5,7 +5,7 @@
 **Empresa:** Área metropolitana de Aguascalientes
 **Pais:** México
 **Sector:** Consultoría / Liderazgo Ejecutivo / Educación Corporativa / Relaciones Institucionales
-**Estado:** MSG1 enviado
+**Estado:** Stage 2 — MSG2 enviado
 
 ---
 

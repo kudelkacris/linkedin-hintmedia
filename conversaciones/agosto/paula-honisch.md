@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Consultoría / Compliance / Gobernanza Corporativa
-**Estado:** MSG1 enviado
+**Estado:** Stage 3 — Dossier enviado
 
 ---
 

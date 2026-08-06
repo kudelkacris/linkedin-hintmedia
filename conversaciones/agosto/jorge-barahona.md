@@ -36,6 +36,9 @@
 > Trabajo en Hint Media con proyectos de impacto que tienen ese mismo desafío: la narrativa tiene que sostener lo que la operación promete, antes de que el viajero o el inversor llegue.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
-**Estado:** MSG2 enviado
+**Estado:** Stage 3 — Dossier enviado
+
+## Respuesta MSG2 (06/08/26)
+> "Ok / Sin compromiso"
 
 ## Notas

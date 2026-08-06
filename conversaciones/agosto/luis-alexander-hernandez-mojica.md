@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1 (06/08/26)
+> "Hola muy buen día Florencia, gracias por tomarte el tiempo de leer mi artículo. Veo que tienes la capacidad de ver mas allá de lo escrito. Te paso mi usuario de wp: alexhernandez.negocios / Me puedes escribir por allí y conversamos"
+
+## MSG2 (06/08/26) — enviado por WhatsApp
+> Buenas Luis!
+> Lo que describís del "arquitecto de negocios" — diagnóstico antes que pitch — se nota también en cómo publicás. No es casualidad.
+> La consulta era sobre eso: ese contenido estratégico que generás, artículos, reflexiones, análisis, tiene una narrativa integrada que te posiciona como referente, o cada pieza vive suelta y el efecto se diluye?
+> Trabajo en Hint Media con ejecutivos en esa posición — con Destiny Group, por ejemplo, construimos la capa de comunicación que integró la voz del liderazgo con la narrativa comercial de la empresa.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
 ## Notas
+- **WhatsApp:** alexhernandez.negocios
+- Conversación migrada a WhatsApp por pedido del prospecto (06/08/26)

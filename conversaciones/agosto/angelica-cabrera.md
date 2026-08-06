@@ -5,7 +5,7 @@
 **Empresa:** Agencia Montalvo
 **Pais:** México (Ciudad de México)
 **Sector:** Agencia / PR / Creator Economy
-**Estado:** MSG2 enviado
+**Estado:** Recontactar nov/26 — área Influencer Marketing no lanzada aún, tienen plan propio
 
 ---
 
@@ -34,6 +34,11 @@
 
 ---
 
+## Cierre (06/08/26)
+> "Claro! Si en algún momento quieren sumar algo externo o charlar sobre cómo trabajamos, acá estamos. Muchos éxitos y estamos al habla para cualquier duda."
+
 ## Notas
 - Perfil muy rico: TEDx speaker, jurado internacional, marcas top tier
 - Sector Agencia/PR — sin cliente Hint específico para este sector, presentar por metodología
+- Área de Influencer Marketing en Montalvo no lanzada aún — tienen plan propio
+- Recontactar noviembre 2026

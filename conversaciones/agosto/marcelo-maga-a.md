@@ -5,7 +5,7 @@
 **Empresa:** Unlearni
 **Pais:** Chile
 **Sector:** Consultoría / Transformación Digital / EdTech
-**Estado:** MSG2 enviado
+**Estado:** Stage 3 — Dossier enviado
 
 ---
 

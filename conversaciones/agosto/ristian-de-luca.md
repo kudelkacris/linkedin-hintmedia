@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Retail / Supermayorista (Supermayorista Vital) — pero la industria real es Talento y Transformación Organizacional
-**Estado:** MSG1 enviado
+**Estado:** Stage 3 — Dossier enviado
 
 ---
 
@@ -26,5 +26,11 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## MSG2 (06/08/26)
+> [MSG2 + dossier enviado. Texto no registrado en sesión anterior.]
+
+## Respuesta MSG2 (06/08/26)
+> "Gracias Flor! Lo miro y te cuento"
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Fintech / Servicios Financieros
-**Estado:** MSG1 enviado
+**Estado:** Stage 2 — MSG2 enviado
 
 ---
 
@@ -24,5 +24,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (06/08/26)
+> "Hola Flor! Cómo estás? Así lo veo yo, tenemos que trabajar en conjunto."
+
+## MSG2 (06/08/26)
+> Buenas Lucas! Me alegra que lo veas así.
+> La consulta era sobre eso. Cuando armaste los equipos multidisciplinarios en Prex para unificar Argentina y Perú, la narrativa sobre por qué eso funcionó llegó a nivel directivo, o quedó como un logro interno?
+> Trabajo en Hint Media con líderes de compliance en ese desafío. Con Libra Seguros construimos la capa de comunicación que convirtió su proceso de governance en el argumento que el CEO llevó al directorio.
+> Tenemos un dossier breve con casos así. Te lo mando y si le encontrás sentido, lo conversamos.
 
 ## Notas
