@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Fintech / Servicios Financieros
-**Estado:** Stage 2 — MSG2 enviado
+**Estado:** Stage 3 — Dossier enviado
 
 ---
 
@@ -34,4 +34,8 @@
 > Trabajo en Hint Media con líderes de compliance en ese desafío. Con Libra Seguros construimos la capa de comunicación que convirtió su proceso de governance en el argumento que el CEO llevó al directorio.
 > Tenemos un dossier breve con casos así. Te lo mando y si le encontrás sentido, lo conversamos.
 
+## Respuesta MSG2 (06/08/26)
+> "Si dale! Pásame sin problema / Si necesitas algo sobre los procesos también avísame estoy dispuesto a charlar al respecto / Te dejo mi celular / 1162721683"
+
 ## Notas
+- **Celular:** 1162721683

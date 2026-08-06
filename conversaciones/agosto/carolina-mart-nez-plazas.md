@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Real Estate / Infraestructura / Mercados de Capitales
-**Estado:** MSG1 enviado
+**Estado:** Stage 2 — MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (06/08/26)
+> "Si, asi es" (con reacciones 👏👍😊)
+
+## MSG2 (06/08/26)
+> Tiene sentido. Y eso casi no se ve en perfiles de inversión y board.
+> La consulta era sobre eso. En el trabajo con directorios, lo más difícil suele ser el análisis o convencer a los otros actores de que ese análisis es correcto?
+> Trabajo en Hint Media con líderes en ese punto exacto: tienen el criterio, pero la capa de comunicación que lo hace visible ante inversores, socios o directorio todavía no está armada. Con Destiny Group construimos exactamente esa capa.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
