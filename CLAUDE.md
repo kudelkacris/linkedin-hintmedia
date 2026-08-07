@@ -253,6 +253,26 @@ En B3: no listar servicios. Elegir UNO relevante para el prospecto.
 **Cierre dossier (frase fija, siempre igual):**
 "Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante."
 
+**ESTILO B3 — cómo presentar Hint (actualizado 07/08/26):**
+B3 no lista servicios. Nombra el problema del prospecto y explica qué construye Hint para resolverlo — en lenguaje elegante, no de agencia.
+
+Estructura modelo:
+"En Hint Media acompañamos a [tipo de líder] en ese momento: [qué construimos, en términos del dolor del prospecto]. [Resultado que se logra]."
+
+Ejemplo (caso Carlos Fiscal — founder en transición):
+"En Hint Media acompañamos a fundadores en ese momento: comunicación ejecutiva, contenido con criterio propio, posicionamiento de marca personal y presencia digital que sostiene la conversación antes de que el negocio esté en condiciones de hacerlo solo."
+
+Reglas de estilo B3:
+- Palabras elegantes: "acompañamos", "construimos la capa", "sostenemos la conversación", "presencia que sostiene"
+- Nunca: "somos una agencia", "ofrecemos servicios", listar features
+- El prospecto debe sentir que entendiste su situación, no que le estás vendiendo
+- Máx 2-3 líneas. Denso pero sin relleno.
+
+**Cierre después del dossier (variante elegante):**
+"Si alguno de esos frentes te genera interés, tenemos casos concretos que lo ilustran. Y si tiene sentido, podríamos profundizarlo en una conversación."
+
+Usar esta variante cuando el prospecto abrió la puerta con entusiasmo o propuso reunión. Suena más entre pares que la versión estándar.
+
 **EJEMPLO CANÓNICO — caso Silvia Rojas:**
 Contexto: respondió "Buenas tardes doña Florencia, un gusto. Si así es como pienso. Pero yo llevo años liderando equipos. No solo soy de marketing."
 

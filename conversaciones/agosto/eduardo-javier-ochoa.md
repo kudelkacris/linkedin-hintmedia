@@ -5,7 +5,7 @@
 **Empresa:** Profesional independiente
 **Pais:** Argentina
 **Sector:** Ciberseguridad / Gobernanza de Riesgo
-**Estado:** MSG2 enviado (stage 2) — conversación activa
+**Estado:** Dossier confirmado (stage 3)
 
 ---
 
@@ -44,4 +44,5 @@
 
 ## Notas
 - Conversación activa, metodología real compartida (métricas de impacto en dinero)
+- Respondió "Perfecto" → dossier confirmado 07/08/26
 - MSG3 = presentación Hint + dossier
