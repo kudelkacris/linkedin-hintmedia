@@ -5,7 +5,7 @@
 **Empresa:** Estrategias de Empleabilidad
 **Pais:** Argentina
 **Sector:** Retail Automotriz (Dietrich es concesionario Ford)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (stage 2)
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+"Gracias Flor, decime en qué te puedo ayudar"
+
+## MSG2
+> Buenas Daniela, gracias.
+> Lo que me preguntaba es cómo estás sosteniendo esa doble presencia: la speaker de empleabilidad y liderazgo hacia afuera, y la gestión operativa de talento hacia adentro. A veces esas dos voces crecen en direcciones distintas.
+> Trabajo en Hint Media con empresas que necesitan que la voz del liderazgo sea consistente en ambos frentes. Trabajamos con equipos como el de Destiny Group en construir esa capa de comunicación ejecutiva sin que quede todo en una sola persona.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

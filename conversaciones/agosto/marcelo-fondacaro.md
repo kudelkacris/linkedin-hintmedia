@@ -5,7 +5,7 @@
 **Empresa:** Veritran
 **Pais:** Argentina
 **Sector:** Fintech / Banca Digital
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (stage 2)
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+"Hola Florencia, muchas gracias por tu mensaje. ¿Cómo puedo ayudarte? Saludos"
+
+## MSG2
+> Buenas Marcelo, gracias.
+> Lo que me preguntaba es cómo están trasladando esa narrativa de "oportunidad compartida" cuando Veritran entra a un mercado nuevo. Ese frame funciona muy bien en NuevoDinero porque el ecosistema ya te conoce. Cómo lo sostienen donde no tienen esa base todavía.
+> Trabajo en Hint Media con empresas de servicios financieros, como Libra Seguros y Destiny Group, en construir la capa de comunicación ejecutiva: que la voz del liderazgo llegue consistente en mercados donde aún no tienen historia construida.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

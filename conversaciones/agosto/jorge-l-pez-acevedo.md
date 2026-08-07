@@ -5,7 +5,7 @@
 **Empresa:** SOC Asesores-InterCrédito
 **Pais:** México
 **Sector:** Fintech / Financial Services / Consultoría Financiera
-**Estado:** MSG1 enviado
+**Estado:** Dossier confirmado (stage 3)
 
 ---
 
@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1
+"Si, me parece bien. Pronto iniciaré un proyecto nuevo y podría ser también de utilidad para este reto."
+
+## MSG2
+> Buenas Jorge, gracias.
+> Lo que me llamó la atención es justamente eso: la mayoría en el sector lo delega o lo improvisa. Vos lo formalizaste. Me pregunto cómo lo estás escalando ahora que la operación crece.
+> Trabajo en Hint Media con empresas de servicios financieros, como Destiny Group y Libra Seguros, en construir esa capa: que la voz del liderazgo sea consistente y escalable sin perder autoridad.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
 ## Notas
+- Confirmó dossier: "Si, me parece bien" + mencionó proyecto nuevo en camino — señal de necesidad concreta
+- Dossier enviado 07/08/26

@@ -5,7 +5,7 @@
 **Empresa:** Central Dock Sud S.A.
 **Pais:** Argentina
 **Sector:** Energía
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (stage 2)
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+"Sí, claro"
+
+## MSG2
+> Buenas Fabián, gracias.
+> Lo que me preguntaba es cómo están comunicando hacia afuera los proyectos de transición, como ALMA. Porque hay una tensión interesante ahí: Central Dock Sud tiene 119 años de historia como operador, y al mismo tiempo está apostando a baterías y nuevas tecnologías. Cómo se narra eso sin que parezca un discurso de innovación genérico.
+> Trabajo en Hint Media con empresas del sector energético, como TGS y Transener, en construir esa narrativa: que la transformación se vea real y no solo como comunicado de prensa.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
