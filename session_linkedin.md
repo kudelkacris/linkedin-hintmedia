@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 06/08/26 (cierre)
+## Última sesión: 08/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -52,6 +52,15 @@
 | Cristian De Luca | 3 - Dossier enviado | Dossier 06/08 — voz personal, no de empresa | Esperar respuesta |
 | Cristian González | 2 - MSG2 enviado | MSG2 06/08 — Founder Bocha Agency / educación | Esperar respuesta |
 | Paula Honisch | 2 - MSG2 enviado | MSG2 06/08 — consultora compliance | Esperar respuesta |
+| Jorge López Acevedo | 3 - Dossier confirmado | 07/08 — "Pronto iniciaré un proyecto nuevo" | Esperar respuesta |
+| Daniela Fernanda Perez | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
+| Marcelo Fondacaro | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
+| Fabian Cabana | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
+| Eduardo Javier Ochoa | 3 - Dossier confirmado | 07/08 — "Perfecto" | Esperar respuesta |
+| Carlos Fiscal | 2 - MSG2 enviado | MSG2 07/08 — founder en transición, pitch elegante sin dossier | Si responde, proponer conversación |
+| Federico Mila | 2 - Conversación activa | 07/08 — branding consultant, propuso reunión sin saber que Hint es agencia | Manejar con honestidad + complementariedad |
+| Pablo Menegol | 2 - MSG2 enviado | MSG2 07/08 — CEO Newcrux, expansión Brasil | Esperar respuesta |
+| Sergio Doval | 2 - MSG2 enviado | MSG2 08/08 — CEO Taquion, Share of Attention | Esperar respuesta |
 
 ### Stage 3 — dossier enviado (pendiente seguimiento)
 
@@ -147,10 +156,11 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Stats al cierre 06/08/26
+## Stats al cierre 08/08/26
 
-- Total historial: 795 contactos
-- Sesión 06/08: 4 MSG2 enviados (Monica Saavedra, Cristian González, Paula Honisch, Francisca Riveros), 2 dossiers enviados (Daniela Moreno, Cristian De Luca), 2 cerradas recontactar nov/26 (Angélica Cabrera, Francisca Riveros), Jaye Wallace MSG3 referidos
+- Total historial: 795+ contactos
+- Sesión 07-08/08: 5 MSG2 enviados (Daniela Perez, Marcelo Fondacaro, Fabian Cabana, Pablo Menegol, Sergio Doval), 2 dossiers confirmados (Jorge López, Eduardo Ochoa), Carlos Fiscal pitch elegante sin dossier, CLAUDE.md actualizado con estilo B3 elegante
+- MSG1 generados: Rita Galmarini, Carlos Merchan Cubillos, Tomás Sarmiento, Raúl González-Romero, Daniel Materón, Germán Suarez, Martin Ossa, Francisco Seguel, Tomás Sahli, Jeffrey Gladden (inglés)
 
 ## Prioridades para próxima sesión
 
@@ -158,5 +168,6 @@ Actualizado en CLAUDE.md el 31/07/26.
 2. Sandra Suárez Pérez — MSG2 pendiente (conversación activa sobre libro vs. marca personal)
 3. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
 4. Coordinar call con Gustavo Regner — urgente
-5. MSG1 batch FCT COMMS restantes
-6. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0
+5. Javier Infantino — NO es un prospecto de Hint. El MSG que pegó el usuario fue enviado por Royal English (otra agencia). Contexto: Javier recibió un MSG1 de Royal English (idiomas/inglés ejecutivo). No confundir con prospecto Hint.
+6. MSG1 batch FCT COMMS restantes
+7. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0
