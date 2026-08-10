@@ -35,6 +35,15 @@
 > I ask because I work at Hint Media with founders building platforms at the intersection of community and growth — helping translate what they've actually built into a narrative that lands before anyone asks.
 > We have a short portfolio with cases of founders who went through that same translation challenge. Happy to share it here if that sounds relevant.
 
+## Respuesta MSG2 (10/08/26)
+> "Honestly, that clarity is something we're still sharpening — the short answer we lead with is: we're not a directory or an ad platform, we make curated introductions to businesses actively seeking customers, capital, or talent. It's the 'human-driven' part that separates it — real vetting and matching, not just a bigger database to scroll through. Where it probably still falls short is making that land instantly, before someone has to read three sentences to get it. If Hint Media has a specific angle on how to sharpen that first-impression narrative, I'd be curious to hear it."
+
+## MSG3 (10/08/26)
+> That's actually a cleaner starting point than most founders have. You already know the enemy (directories, ad platforms) and the differentiator (human vetting). The gap is just the sequence.
+> The three-sentence problem usually happens when the pitch starts with what you do instead of what the audience is tired of. Your Cannes framing was closer: "compression of access." That's a feeling, not a feature.
+> The line that might land faster: "Not a bigger network. A better introduction." Or something that puts the exhaustion first, the scroll, the noise, the unvetted DMs, before the solution.
+> I'd rather show you this with context around Colaeb specifically than explain it in theory. Would a short call make sense? I think we could sharpen that first-impression line in 20 minutes.
+
 ## Notas
 - En inglés (USA)
 - 19.7K seguidores LinkedIn

@@ -5,7 +5,7 @@
 **Empresa:** InnerAbs México
 **Pais:** México
 **Sector:** Consultoría / Servicios Profesionales / Gobierno Corporativo
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -26,5 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> "Buenas noches. Florencia. Me gustaría escucharte."
+
+## MSG2 (10/08/26)
+> Buenas Raúl!
+> Escribir "estoy rehaciendo la mía" en un artículo que van a leer tus propios clientes es una decisión con peso. Implica que tu proceso de transformación es parte de lo que ofrecés, no algo separado de ello.
+> Cómo manejás eso cuando estás en el medio de tu propia reconstrucción y al mismo tiempo acompañando a un CEO que todavía no llegó a ese punto?
+> En Hint Media trabajo con consultores con metodología propia en construir la capa de comunicación que hace legible ese proceso hacia afuera. Clientes como Destiny Group y Libra Seguros.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

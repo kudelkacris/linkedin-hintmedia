@@ -5,7 +5,7 @@
 **Empresa:** Plus Trade World
 **Pais:** Argentina
 **Sector:** TradeTech, Comercio Exterior, Finanzas Comerciales, Infraestructura de Datos
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -26,5 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (10/08/26)
+> "Florencia! Buen día! Gracias a vos! Contame…"
+
+## MSG2 (10/08/26)
+> Buenas Matias!
+> Anclar cada cifra global en un caso concreto, la cooperativa, el exportador honesto, no es lo que sale naturalmente cuando uno trabaja en infraestructura de datos. Es una decisión editorial.
+> Cuando presentás ante un banco o regulador que opera en puros números, usás la misma lógica o ahí cambiás de registro?
+> En Hint Media trabajo con empresas de tech y fintech en eso: construir la capa de comunicación que hace legible un producto B2B complejo para audiencias que hablan lenguajes distintos. Clientes como Destiny Group y Libra Seguros.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

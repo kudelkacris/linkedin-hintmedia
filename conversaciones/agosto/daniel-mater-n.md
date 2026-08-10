@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Fintech / Inclusión Financiera
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -26,5 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (10/08/26)
+> "Tu análisis es correcto Florencia. Pregúntame que si lo sé te contesto 🙏"
+
+## MSG2 (10/08/26)
+> Buenas Daniel!
+> Lo que me quedó de la publicación de la Junta es que mostrás los puntos ciegos y los límites de pérdida tolerable. Eso construye un tipo de credibilidad diferente.
+> Cuando presentás ante un fondo en España y cuando contás la historia de María, cómo hacés para que el mismo propósito suene creíble en los dos registros al mismo tiempo?
+> En Hint Media trabajo con fundadores en expansión en eso: que la narrativa de propósito sea legible para quien financia y para quien recibe el crédito. Clientes como Libra Seguros y Destiny Group.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

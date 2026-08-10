@@ -290,6 +290,62 @@ Por qué funciona:
 
 ---
 
+# FEW-SHOT — MENSAJES QUE CONVIRTIERON (usar como referencia de tono y estructura)
+
+Estos son los MSG2 reales que generaron más conversación y/o cerraron reunión.
+Antes de escribir cualquier MSG2, revisar estos ejemplos y hacer coincidir el tono.
+
+**PATRÓN B2 QUE CONVIERTE (obligatorio):**
+1. INSIGHT: afirmación propia que demuestra que entendiste su mundo — no repetir lo que dijeron, darle profundidad
+2. PREGUNTA: concreta sobre su operación real, no sobre el concepto abstracto
+
+INCORRECTO: "Cómo hacés para comunicar tu metodología en el mercado?"
+CORRECTO: "Llegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?"
+
+La diferencia: la pregunta correcta nombra algo concreto de su realidad (16 tiendas, apertura, coordinación), no pide que expliquen su metodología en abstracto.
+
+---
+
+**Ejemplo 1 — Alejandra Salas (Comunicaciones/Advocacy → reunión confirmada)**
+Contexto: respondió "Hola Florencia, si claro si puedo ayudarte lo haré con gusto"
+
+Buenas Alejandra!
+Alinear el lenguaje entre administraciones, retailers, agricultores y sociedad civil sobre un mismo tema es uno de los trabajos de comunicación más difíciles que existen — cada actor tiene incentivos completamente distintos.
+Cómo lo encarabas cuando el mensaje que funcionaba para una administración no conectaba con los agricultores?
+En Hint Media trabajamos comunicación y contenido con organizaciones que necesitan sostener coherencia narrativa en ecosistemas de múltiples actores. Clientes como Destiny Group y Libra Seguros.
+Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+---
+
+**Ejemplo 2 — Brenda Vaca (Retail → dossier + conversación extendida)**
+Contexto: respondió "Hola Florencia, claro dime qué duda tienes"
+
+Buenas Brenda! Lo de dar la voz al equipo al anunciar una apertura no es lo más común en retail, la mayoría lo centra en la marca o el local.
+Llegar a 16 tiendas en ese ritmo, cómo hacés para que la coherencia de marca en cada apertura nueva no dependa de que estés vos coordinando cada detalle?
+En Hint Media trabajamos con marcas de retail en expansión, como Destiny Group y Tasarolli, en comunicación de marca y contenido.
+Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te puedo enviar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+---
+
+**Ejemplo 3 — Michelle LaTigresa (Coaching/Wellness en inglés → conversación más larga del proyecto)**
+Contexto: respondió con párrafo elaborado sobre "creating conditions for growth vs recovering"
+
+That distinction, creating conditions for growth versus simply recovering, is exactly what I was picking up on. There's something architecturally different about what you're doing now.
+My question was around how that intention becomes visible externally. The move from personal testimony to a replicable system is a communication problem as much as a methodology one. Most people who carry that kind of depth struggle to make it legible without flattening it.
+I work at Hint Media with founders in the wellness and coaching space on building the narrative layer that makes lived, complex work coherent to an audience that hasn't lived it.
+We have a brief portfolio with concrete examples of that kind of work. Happy to send it here if that's not too much trouble, or let me know who else I should loop in.
+
+---
+
+**Tono que convierte — reglas extraídas de estos ejemplos:**
+- B1 reformula lo que dijeron con una capa de profundidad propia (no los repite, los interpreta con criterio)
+- B2 abre con afirmación, cierra con pregunta operativa concreta
+- B3 nombra un tipo de cliente (no un servicio), una oración máximo
+- Sin muletillas: no "claro", "sin duda", "por supuesto", "definitivamente"
+- Tono de igual a igual, no de vendedor ni de asistente
+
+---
+
 # CLASIFICACIÓN ANTES DE PROPONER REUNIÓN (ejecutar siempre)
 
 Antes de escribir cualquier SEG1 o mensaje con CTA de reunión, clasificar al prospecto.
