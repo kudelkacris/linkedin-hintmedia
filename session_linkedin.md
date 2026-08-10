@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 08/08/26 (cierre)
+## Última sesión: 10/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -156,18 +156,37 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Stats al cierre 08/08/26
+## Stats al cierre 10/08/26
 
-- Total historial: 795+ contactos
-- Sesión 07-08/08: 5 MSG2 enviados (Daniela Perez, Marcelo Fondacaro, Fabian Cabana, Pablo Menegol, Sergio Doval), 2 dossiers confirmados (Jorge López, Eduardo Ochoa), Carlos Fiscal pitch elegante sin dossier, CLAUDE.md actualizado con estilo B3 elegante
-- MSG1 generados: Rita Galmarini, Carlos Merchan Cubillos, Tomás Sarmiento, Raúl González-Romero, Daniel Materón, Germán Suarez, Martin Ossa, Francisco Seguel, Tomás Sahli, Jeffrey Gladden (inglés)
+- Total historial: 813 contactos
+- Sesión 10/08: sin MSG1/MSG2 enviados — sesión de estrategia y listas
+- LISTA-TODO-AGOSTO-2026.json creada: 199 contactos, 174 activos, invites enviados 10/08
+- Funnel real analizado: 797 MSG1 → 375 MSG2 (47%) → 180 dossier (48%) → 4 reuniones (2.2%) — cuello de botella confirmado en dossier→reunión
+- Feedback guardado: Educación NO es sector de Hint — sacar de cualquier análisis futuro
+
+### Lista AGOSTO 2026 — ya conectados con MSG1 pendiente (11)
+
+| Nombre | Empresa | Nota |
+|--------|---------|------|
+| Macarena Vargas Losada | CODELCO | VP Legal — aceptó 10/08 |
+| Pedro Donado Manrique | Zona Franca Barranquilla | aceptó 10/08 |
+| Tamara Lopez Leyton | Comunidad IA LATAM | aceptó 10/08 — EN LÍNEA |
+| Juan Camilo Velasco Hoyos | Deriv Colombia | aceptó 10/08 |
+| Carlos Hernando Fonseca Sanclemente | Keralty/Colsanitas | aceptó 10/08 |
+| Jonathan Schein | d3 | ya conectado |
+| Fabiana De Nicolo | Southbridge Seguros | ya conectada — seguros |
+| Maria Cristina Giraldo Chamorro | appinIT | ya conectada — FCT COMMS |
+| Victor Perez-Cotapos | ComunidadFeliz.com | ya conectado |
+| Alfredo Escolar | Mix Branding | ya conectado — FCT COMMS |
+| Carla Mariman Ibarra | PrevenConCiencia | ya conectada |
 
 ## Prioridades para próxima sesión
 
-1. SEG1 urgente (todos vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
-2. Sandra Suárez Pérez — MSG2 pendiente (conversación activa sobre libro vs. marca personal)
-3. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
-4. Coordinar call con Gustavo Regner — urgente
-5. Javier Infantino — NO es un prospecto de Hint. El MSG que pegó el usuario fue enviado por Royal English (otra agencia). Contexto: Javier recibió un MSG1 de Royal English (idiomas/inglés ejecutivo). No confundir con prospecto Hint.
+1. **MSG1 urgente — 11 ya conectados** (ver tabla arriba)
+2. SEG1 urgente (vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
+3. Sandra Suárez Pérez — MSG2 pendiente (libro vs. marca personal)
+4. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
+5. Coordinar call con Gustavo Regner — urgente
 6. MSG1 batch FCT COMMS restantes
 7. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0
+8. Javier Infantino — NO es prospecto Hint. Fue contactado por Royal English (otra agencia). No confundir.
