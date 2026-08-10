@@ -55,6 +55,20 @@
 > That's the sequence — name the exhaustion, then the contrast. The tagline lands harder because the person already felt the frustration in the line before it.
 > If that direction makes sense, I can map the same frame to your three verticals (customers, capital, talent) separately — each one starts at a different exhaustion.
 
+## Respuesta MSG4 (10/08/26)
+> "Hey Florencia, This is genuinely good work — 'Most platforms give you a bigger database to scroll. Colaeb makes one introduction' lands exactly right. Yes, please map the same frame to customers, capital, and talent separately — curious to see where each exhaustion point differs across the three."
+
+## MSG5 (10/08/26) — tres frames por vertical
+> Here's the same frame mapped to each vertical:
+>
+> Customers: "Most lead lists give you companies that fit the profile. Colaeb finds the ones actively looking to buy right now." The exhaustion here is timing — qualified-looking leads that were never in buying mode.
+>
+> Capital: "Most founders spend months pitching investors who were never the right fit for their stage or model. Colaeb finds the ones already looking for what you're building." The exhaustion here is the pitch-deck loop — correct-looking investors, wrong moment or wrong thesis.
+>
+> Talent: "Most hiring gives you resumes that match the job description. Colaeb finds the person who matches the company." The exhaustion here is depth — technically correct profiles that miss on context, culture, or actual need.
+>
+> Each exhaustion is different: timing, fit, depth. The fix is the same — one introduction that's already aligned, instead of a database to sort through.
+
 ## Notas
 - En inglés (USA)
 - 19.7K seguidores LinkedIn
