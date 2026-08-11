@@ -5,7 +5,7 @@
 **Empresa:** Filabe
 **Pais:** Argentina
 **Sector:** Real Estate / Desarrollo Inmobiliario
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1
+> "Hola como estas? Un gusto" (+ emojis copy-paste)
+
+## MSG2 (11/08/26)
+> Buenas Diego, bien gracias!
+> Lo que publicas sobre el trabajo "puertas adentro" me generó una duda concreta: en desarrollos con varios proyectos activos al mismo tiempo, cada uno con su propio ritmo y audiencia, cómo hacés para que el relato de cada proyecto sume a la marca de Filabe y no quede como historias separadas sin hilo conductor?
+> En Hint Media acompañamos a empresas en expansión en construir esa capa: que cada proyecto, cada etapa, refuerce la credibilidad de la empresa ante inversores y compradores futuros.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicás a quién se lo puedo hacer llegar.
 
 ## Notas

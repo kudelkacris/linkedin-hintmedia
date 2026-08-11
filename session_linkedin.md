@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 10/08/26 (cierre)
+## Última sesión: 11/08/26 (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -61,6 +61,9 @@
 | Federico Mila | 2 - Conversación activa | 07/08 — branding consultant, propuso reunión sin saber que Hint es agencia | Manejar con honestidad + complementariedad |
 | Pablo Menegol | 2 - MSG2 enviado | MSG2 07/08 — CEO Newcrux, expansión Brasil | Esperar respuesta |
 | Sergio Doval | 2 - MSG2 enviado | MSG2 08/08 — CEO Taquion, Share of Attention | Esperar respuesta |
+| Mariano Daniel Armando | 2 - MSG2 enviado | MSG2 11/08 — Grupo SIT, topografía/energía | Esperar respuesta |
+| Diego Galetto | 2 - MSG2 enviado | MSG2 11/08 — Filabe, real estate Argentina | Esperar respuesta |
+| Martin Orlando | 2 - MSG2 enviado | MSG2 11/08 — Innovia Healthcare, Costa Rica | Esperar respuesta |
 
 ### Stage 3 — dossier enviado (pendiente seguimiento)
 
@@ -86,6 +89,7 @@
 
 | Nombre | Estado |
 |--------|--------|
+| Mauro Rochet Pagua | No interesado — 11/08 ("Gracias, no lo necesito por ahora") |
 | Ignacio Andree Muñoz Flores | No interesado — 31/07 |
 | Sonia Pérez-Castro | No interesada — 30/07 |
 | Cristina Raquel Hernández | No interesada — 28/07 |
@@ -100,6 +104,21 @@
 | Angélica Cabrera | Recontactar nov/26 — área Influencer Mktg no lanzada, tienen plan propio |
 | Francisca Riveros N. | Recontactar nov/26 — equipo propio cubierto (CCO Copec) |
 
+### MSG1 pendiente urgente — ya conectados (11/08)
+
+**Grupo A — sesión anterior:**
+Macarena Vargas Losada (CODELCO), Pedro Donado Manrique (Zona Franca Barranquilla), Tamara Lopez Leyton (Comunidad IA LATAM), Juan Camilo Velasco Hoyos (Deriv Colombia), Carlos Hernando Fonseca Sanclemente (Keralty), Victor Perez-Cotapos (ComunidadFeliz.com), Carla Mariman Ibarra (PrevenConCiencia)
+
+**Grupo B — AGOSTO 2026 / FCT COMMS, aceptaron 9-11/08:**
+Pablo Vergara (Fintoc), Marcelo Erezuma B., Sebastian Olano (SoFi), Ernesto Seidel, Diego Felipe Santana G. (Grant Thornton), Lionel Cymerman, Laura Peña Rodriguez, Vanesa Gambirazio (ID4YOU), Ana María Marcet (Fintech SGR), Carol Báez Pineda (Bolsa Mercantil Colombia), Juan Felipe Gómez Martínez (Nacional de Seguros), Daniel Seva, Rafael Ruiz (Betterfly), Diego San Esteban, Marcelo Franceschini, Leonardo Oscar Iglesias (YPF/UCEMA), David Riveros Fonseca (Hackmetrix), Jimena Ruiz Velásquez (FINAGRO), Marcos Nicolaides, Patricio O'Kon, Andrea Grobocopatel (FLOR), Diego Manfio (OSDE), Sebastian Rimmele, Santiago José Reyes Botero (TGI gas Colombia), Guillermo Barbero (FIRST CF), Monica Melito, Tatyana Orozco De La Cruz (Consultia), Alex Reyes-Ortiz, Maximiliano Santa Cruz, Álvaro Bohórquez, Maximiliano Quintana
+
+**Grupo C — orgánicos con buen fit (prioridad media):**
+Néstor Consuegra Gutiérrez (Promigas), Andres Lopez Gibson (Darcy Partners energía), Marcelo Riquelme (Petroplastic), Luciano Fucello (Oil & Gas Vaca Muerta), Tomas de Pablos Souza (Minerales críticos), Igor Elias (Mining), Alejandro Rodrigo Monteiro (OFEPHI), Enrique Vidal Bazterrica (GARMIN Marketing), Laís Aoki (Intermac Seguros), Mariano Fiorito (Schroders), Jorge Ivan Otalvaro Tobon (VP Banca), Juan Ignacio Abuchdid (Grupo IEB)
+
+### Confirmar envío MSG1
+
+José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás Dolz, Raul Bermeo
+
 ### ARGENTINA ENERGÍA 1.0 — pendientes MSG1
 
 Fernando Damonte, Gustavo Encajes, Pablo Mogetta, Daniel De Nigris, Gaston Raineri, Martha Samaniego, Diego Beltran
@@ -110,15 +129,7 @@ Lorena Gutiérrez Guzmán, Alejandro Gayo Peláez, Alejandro Domínguez Feliú, 
 
 ### FCT COMMS 1.0 — pendientes MSG1 (restantes)
 
-Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Sergio Doval, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Eduardo Ochoa, Rita Galmarini, Pablo Menegol, Federico Mila, Federico Arce, Andrés Quiles Ruiz, Pablo Julián Mateo, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Jorge Lopez Acevedo, Clara Massenzio, Fernando Diosdado, Marcelo Fondacaro, Julio Madrazo, Paola Manjarrés, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Maria Cristina Giraldo, Carolina Martinez Plazas, Magdalena Del Solar, Valeria Abadi, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa, Alfredo Escolar
-
-### MSG1 generados (confirmar envío)
-
-José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás Dolz, Raul Bermeo
-
-### MINERÍA 2.0 — pendientes MSG1
-
-Pablo Modon, Diego Galetto, Mariano Armando, Guillermo Fantini, Fabian Cabana
+Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Rita Galmarini, Federico Arce, Andrés Quiles Ruiz, Pablo Julián Mateo, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Clara Massenzio, Fernando Diosdado, Julio Madrazo, Paola Manjarrés, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Carolina Martinez Plazas, Magdalena Del Solar, Valeria Abadi, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa
 
 ### Batch pendiente de respuesta (MSG1 enviado 27/07)
 
@@ -156,37 +167,18 @@ Actualizado en CLAUDE.md el 31/07/26.
 
 ---
 
-## Stats al cierre 10/08/26
+## Stats al cierre 11/08/26
 
-- Total historial: 813 contactos
-- Sesión 10/08: sin MSG1/MSG2 enviados — sesión de estrategia y listas
-- LISTA-TODO-AGOSTO-2026.json creada: 199 contactos, 174 activos, invites enviados 10/08
-- Funnel real analizado: 797 MSG1 → 375 MSG2 (47%) → 180 dossier (48%) → 4 reuniones (2.2%) — cuello de botella confirmado en dossier→reunión
-- Feedback guardado: Educación NO es sector de Hint — sacar de cualquier análisis futuro
-
-### Lista AGOSTO 2026 — ya conectados con MSG1 pendiente (11)
-
-| Nombre | Empresa | Nota |
-|--------|---------|------|
-| Macarena Vargas Losada | CODELCO | VP Legal — aceptó 10/08 |
-| Pedro Donado Manrique | Zona Franca Barranquilla | aceptó 10/08 |
-| Tamara Lopez Leyton | Comunidad IA LATAM | aceptó 10/08 — EN LÍNEA |
-| Juan Camilo Velasco Hoyos | Deriv Colombia | aceptó 10/08 |
-| Carlos Hernando Fonseca Sanclemente | Keralty/Colsanitas | aceptó 10/08 |
-| Jonathan Schein | d3 | ya conectado |
-| Fabiana De Nicolo | Southbridge Seguros | ya conectada — seguros |
-| Maria Cristina Giraldo Chamorro | appinIT | ya conectada — FCT COMMS |
-| Victor Perez-Cotapos | ComunidadFeliz.com | ya conectado |
-| Alfredo Escolar | Mix Branding | ya conectado — FCT COMMS |
-| Carla Mariman Ibarra | PrevenConCiencia | ya conectada |
+- Total historial: 813+ contactos
+- Sesión 11/08: MSG2 generado para Mariano Armando, Diego Galetto, Martin Orlando. Mauro Rochet cerrado (no interesado). Match completo 100+ nuevas conexiones vs listas.
+- Funnel real: 797 MSG1 → 375 MSG2 (47%) → 180 dossier (48%) → 4 reuniones (2.2%)
 
 ## Prioridades para próxima sesión
 
-1. **MSG1 urgente — 11 ya conectados** (ver tabla arriba)
-2. SEG1 urgente (vencidos): Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
-3. Sandra Suárez Pérez — MSG2 pendiente (libro vs. marca personal)
-4. Confirmar envío MSG1: José Antonio Pedraza, Lucas De Nardo, Brian Schwartz, Lola Bordás, Raul Bermeo
-5. Coordinar call con Gustavo Regner — urgente
-6. MSG1 batch FCT COMMS restantes
-7. MSG1 pendientes ARGENTINA ENERGÍA y FINANZAS 1.0
-8. Javier Infantino — NO es prospecto Hint. Fue contactado por Royal English (otra agencia). No confundir.
+1. **MSG1 urgente — Grupo A** (7 contactos, sesión anterior)
+2. **MSG1 Grupo B** (~31 contactos de AGOSTO/FCT COMMS)
+3. **SEG1 vencidos** — Armando, Ximena, Víctor, Jenny, Claudia Hoyos, Claudia Arango, Aideé
+4. **MSG2 pendiente** — Sandra Suárez Pérez (libro vs. marca personal)
+5. **Coordinar call** — Gustavo Regner urgente
+6. **MSG1 Grupo C** — orgánicos con buen fit (energía/seguros)
+7. Javier Infantino — NO es prospecto Hint. Fue contactado por Royal English (otra agencia). No confundir.
