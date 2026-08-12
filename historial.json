@@ -6,7 +6,7 @@
     "empresa": "Glya",
     "sector": "HealthTech",
     "pais": "Colombia",
-    "stage": 3,
+    "stage": 4,
     "estado": "Dossier enviado",
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
@@ -31,7 +31,7 @@
     "empresa": "ADILISA",
     "sector": "Agroindustria / B2B",
     "pais": "Ecuador",
-    "stage": 3,
+    "stage": 4,
     "estado": "Dossier enviado",
     "fecha": "23/07/26",
     "date": "23/07/26",
@@ -621,7 +621,7 @@
     "cargo": "Socio Fundadora - Psiquiatra Perinatal",
     "sector": "Salud mental",
     "name": "Jenny Carolina Lopez",
-    "stage": 3,
+    "stage": 4,
     "estado": "Dossier enviado"
   },
   {
@@ -3698,7 +3698,7 @@
         "text": "Karla, gracias por conectar! 👋\n\nMe llamó la atención cómo enfocaste la publicación sobre Sala Panamá. No escribiste sobre la sala en sí, sino sobre el valor de los datos que generaría. La mayoría lo hubiera hecho al revés.\n\nSi estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -4573,7 +4573,9 @@
         "date": "10/07/26",
         "note": ""
       }
-    ]
+    ],
+    "recontact": "2026-11-12",
+    "recontactNote": "SEG1 enviado 21/07, sin respuesta. Recontactar en 3 meses."
   },
   {
     "id": "1783690975263",
@@ -4738,7 +4740,7 @@
         "text": "Armando, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo escribiste sobre tu salida de Falabella. La mayorÃ­a de las personas anuncian un cambio de empresa. Vos explicaste quÃ© te llevabas contigo del equipo anterior. No es lo que ves normalmente.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -4914,7 +4916,9 @@
         "date": "10/07/26",
         "note": ""
       }
-    ]
+    ],
+    "recontact": "2026-11-12",
+    "recontactNote": "Ya trabajan con agencia. Dossier enviado igual. Recontactar en 3 meses."
   },
   {
     "id": "1783621060627",
@@ -5279,7 +5283,9 @@
     ],
     "email": "fdiaz@gasdelsur.cl",
     "emailNota": "Fernando DÃ­az â€” Gerente Marketing Gasdelsur",
-    "estado": "Dossier por mail"
+    "estado": "Dossier por mail",
+    "recontact": "2026-11-12",
+    "recontactNote": "Ya trabajan con agencia. Referido a Fernando Diaz (fdiaz@gasdelsur.cl). Recontactar en 3 meses."
   },
   {
     "id": "1783351423592",
@@ -5382,7 +5388,9 @@
       }
     ],
     "estado": "Referido a Argerie Ramirez (Walmart)",
-    "dossierMail": true
+    "dossierMail": true,
+    "recontact": "2026-09-12",
+    "recontactNote": "Refirió a Argerie Ramirez (Argerie.Ramirez@walmart.com). Mandar mail a Argerie en 1 mes."
   },
   {
     "id": "1783351090478",
@@ -5528,7 +5536,9 @@
         "note": ""
       }
     ],
-    "email": "jdelfierro@activomas.cl; iosorio@activomas.cl"
+    "email": "jdelfierro@activomas.cl; iosorio@activomas.cl",
+    "recontact": "2026-09-12",
+    "recontactNote": "No buscan agencia ahora. Dossier enviado a jdelfierro@activomas.cl + iosorio@activomas.cl. Recontactar en 1 mes."
   },
   {
     "id": "1783350754458",
@@ -6903,7 +6913,9 @@
         "stage": 2,
         "date": "03/07/26"
       }
-    ]
+    ],
+    "recontact": "2026-09-12",
+    "recontactNote": "Revisó dossier, está incorporando agencia. Dijo que se contacta cuando necesite. Recontactar en 1 mes."
   },
   {
     "id": "1782951289396",
@@ -8798,7 +8810,9 @@
         "date": "01/07/26",
         "note": "Hola Florencia! Gracias a ti por escribirme.\n\nClaro que si, dime por favor, Â¿en quÃ© te puedo colaborar?"
       }
-    ]
+    ],
+    "recontact": "2026-09-12",
+    "recontactNote": "SEG1 enviado 21/07, respondio bien pero estaba de incapacidad medica. Recontactar en 1 mes."
   },
   {
     "id": "1782577994349",
@@ -9201,7 +9215,9 @@
         "note": "czazzali@aminerals.cl"
       }
     ],
-    "dossierMail": true
+    "dossierMail": true,
+    "recontact": "2026-11-12",
+    "recontactNote": "SEG1 enviado 21/07, sin respuesta. Recontactar en 3 meses."
   },
   {
     "id": "1782138983964",
@@ -10868,7 +10884,7 @@
         "text": "Carmen, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n el cierre que hiciste de tu etapa en Diaco. Lo que mÃ¡s me gustÃ³ fue que el Ã©nfasis no estuvo en logros propios sino en agradecer al equipo y remarcar que \"los mejores resultados nacen cuando se trabaja con propÃ³sito y con personas extraordinarias\". No es lo que tÃ­picamente ves cuando alguien se va de una compaÃ±Ã­a.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": "3",
+    "stage": 0,
     "stageHistory": [
       {
         "stage": 1,
@@ -10880,7 +10896,8 @@
         "date": "01/07/26",
         "note": ""
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1781827855742",
@@ -11389,7 +11406,7 @@
         "text": "Claudia, gracias por conectar! ðŸ‘‹\n\nMe quedÃ³ dando vueltas tu publicaciÃ³n sobre #PonteLa10. EspecÃ­ficamente lo que escribiste sobre la trampa comÃºn en marketing: creer que una campaÃ±a es buena solo porque el momento es relevante. Y que lo que garantiza apropiaciÃ³n real es que \"la gente que la creÃ³ se la crea primero\". Eso no es lo que escucho decir a la mayorÃ­a de los directores de marketing.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -27702,7 +27719,7 @@
         "text": "Lo enviamos devuelta en un rato entonces Miguel. Habra sido un error nuestro, estamos en contacto"
       }
     ],
-    "stage": 3,
+    "stage": 0,
     "stageHistory": [
       {
         "stage": 1,
@@ -27720,7 +27737,8 @@
         "note": "gerencia@kipclin.com"
       }
     ],
-    "dossierMail": true
+    "dossierMail": true,
+    "noInterest": true
   },
   {
     "id": "1780933381653",
@@ -29943,7 +29961,7 @@
         "text": "Hola JosuÃ©! Eso es exactamente lo que quise decir cuando leÃ­ tu publicaciÃ³n.\n\nEl pico es la trampa. Se siente bien en el momento, suben las visualizaciones, el cliente queda contento, pero no construye nada. Y el problema es que muchos nunca salen de ese ciclo porque nadie les hace la pregunta de fondo: Â¿hacia dÃ³nde querÃ©s que vaya esta marca en dos aÃ±os?\n\nEso es justo en lo que trabajamos desde Hint Media: ayudar a marcas e instituciones a construir esa visiÃ³n y ejecutar la comunicaciÃ³n que la sostenga en el tiempo. No picos, sino presencia con direcciÃ³n. Hemos trabajado con TGS y Libra Seguros en ese tipo de estructura.\n\nTe puedo enviar un dossier por acÃ¡ si no es mucha molestia, o me indicarÃ­as a quiÃ©n se lo puedo mandar?"
       }
     ],
-    "stage": "3",
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
