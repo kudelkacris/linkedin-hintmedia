@@ -476,8 +476,12 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass
 
+class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+
 if __name__ == '__main__':
     _start_watcher()
-    with socketserver.TCPServer(('0.0.0.0', PORT), RequestHandler) as httpd:
+    with ThreadedTCPServer(('0.0.0.0', PORT), RequestHandler) as httpd:
         print(f'Servidor corriendo en http://localhost:{PORT}')
         httpd.serve_forever()

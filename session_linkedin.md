@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 12/08/26 (cierre)
+## Última sesión: 12/08/26 — sesión tarde (cierre)
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -50,6 +50,9 @@
 | Diego Galetto | 2 - MSG2 enviado | MSG2 11/08 — Filabe, real estate Argentina | Esperar respuesta |
 | Martin Orlando | 2 - MSG2 enviado | MSG2 11/08 — Innovia Healthcare, Costa Rica | Esperar respuesta |
 | Claudia Patricia Rios Molina | 4 - SEG1 enviado | SEG1 12/08 — respondió con POV fuerte sobre narrativa | Esperar respuesta |
+| Macarena Vargas Losada | 2 - MSG2 enviado | MSG2 12/08 tarde — CODELCO Fundición | Esperar respuesta |
+| Laura Peña Rodriguez | 2 - MSG2 enviado | MSG2 12/08 tarde — CFO + Co-founder Legatus | Esperar respuesta |
+| Aleksán Buyuk Kurt | 2 - MSG3 enviado | MSG3 12/08 tarde — Hint insertado liviando, enfoque marca personal | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado hoy (12/08)
 
@@ -114,7 +117,7 @@
 ### MSG1 pendiente urgente — ya conectados
 
 **Grupo A — sesión anterior:**
-Macarena Vargas Losada (CODELCO), Pedro Donado Manrique (Zona Franca Barranquilla), Tamara Lopez Leyton (Comunidad IA LATAM), Juan Camilo Velasco Hoyos (Deriv Colombia), Carlos Hernando Fonseca Sanclemente (Keralty), Victor Perez-Cotapos (ComunidadFeliz.com), Carla Mariman Ibarra (PrevenConCiencia)
+Pedro Donado Manrique (Zona Franca Barranquilla), Tamara Lopez Leyton (Comunidad IA LATAM), Juan Camilo Velasco Hoyos (Deriv Colombia), Carlos Hernando Fonseca Sanclemente (Keralty), Victor Perez-Cotapos (ComunidadFeliz.com), Carla Mariman Ibarra (PrevenConCiencia) — Macarena Vargas Losada: MSG2 enviado 12/08
 
 **Grupo B — AGOSTO 2026 / FCT COMMS, aceptaron 9-11/08:**
 Pablo Vergara (Fintoc), Marcelo Erezuma B., Sebastian Olano (SoFi), Ernesto Seidel, Diego Felipe Santana G. (Grant Thornton), Lionel Cymerman, Laura Peña Rodriguez, Vanesa Gambirazio (ID4YOU), Ana María Marcet (Fintech SGR), Carol Báez Pineda (Bolsa Mercantil Colombia), Juan Felipe Gómez Martínez (Nacional de Seguros), Daniel Seva, Rafael Ruiz (Betterfly), Diego San Esteban, Marcelo Franceschini, Leonardo Oscar Iglesias (YPF/UCEMA), David Riveros Fonseca (Hackmetrix), Jimena Ruiz Velásquez (FINAGRO), Marcos Nicolaides, Patricio O'Kon, Andrea Grobocopatel (FLOR), Diego Manfio (OSDE), Sebastian Rimmele, Santiago José Reyes Botero (TGI gas Colombia), Guillermo Barbero (FIRST CF), Monica Melito, Tatyana Orozco De La Cruz (Consultia), Alex Reyes-Ortiz, Maximiliano Santa Cruz, Maximiliano Quintana
@@ -152,17 +155,28 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 12/08/26
+## Stats al cierre 12/08/26 tarde
 
 - Total historial: 814 contactos
-- Sesión 12/08: SEG1 batch completo — 16 contactos a stage 4, 12 a recontacto, 2 noInterest
-- Fix página: contactos con recontact excluidos de Dossier stats y columna proximos
-- Dossier activo real: ~5 (Daniela Buján, Gonzalo Dalmazzo, Eduardo Ochoa + pocos más)
+- Sesión tarde 12/08: Macarena Vargas Losada (stage 2), Rafael Ruiz (stage 3), Santiago José Reyes Botero (stage 3), Laura Peña Rodriguez (stage 2 nueva), Aleksán Buyuk Kurt (MSG3 Hint insertado)
+- Técnico: index.html análisis oculto (corre en background), RESUMEN ESTRUCTURADO removido, ThreadingMixIn fix concurrencia
+- **Idea nueva metodología MSG1:** revelar Hint al final del MSG1 (1 línea) en lugar de "tenía una consulta". Simulación MC 10k iteraciones proyecta +5 dossieres por 100 mensajes. 6 ejemplos generados para agosto contacts (Cristhian Fuentes, Juan Pablo Nieto, Rita Galmarini, Tomás Sarmiento, Clara Massenzio, Uri Martinich). Pendiente: testear en campo.
+
+## Activos nuevos sesión tarde 12/08
+
+| Nombre | Stage | Nota |
+|--------|-------|------|
+| Macarena Vargas Losada | 2 - MSG2 enviado | CODELCO, respondió MSG1 |
+| Rafael Ruiz | 3 - Dossier enviado | Betterfly, InsurTech, explicación ventas sin listar servicios |
+| Santiago José Reyes Botero | 3 - Dossier enviado | TGI Oil & Gas Colombia, mándamelo sin problema |
+| Laura Peña Rodriguez | 2 - MSG2 enviado | CFO + Co-founder Legatus, Colombia |
+| Aleksán Buyuk Kurt | 2 - MSG3 enviado | TEDx Speaker sports/entertainment, Hint insertado liviando |
 
 ## Prioridades para próxima sesión
 
-1. **MSG1 urgente — Grupo A** (7 contactos, varias sesiones pendiente)
-2. **MSG1 Grupo B** (~30 contactos AGOSTO/FCT COMMS)
+1. **MSG1 urgente — Grupo A** (7 contactos: Pedro Donado, Tamara Lopez, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman — Macarena ya hecha)
+2. **MSG1 Grupo B** (~30 contactos AGOSTO/FCT COMMS pendientes)
 3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján (pegar conversación)
-4. **MSG2 pendiente** — Sandra Suárez Pérez
+4. **MSG2 pendiente** — Sandra Suárez Pérez (respondió sobre libro vs. marca personal)
 5. **MSG1 Grupo C** — orgánicos energía/seguros
+6. **Testear nueva metodología MSG1** en campo — 6 ejemplos agosto listos para enviar
