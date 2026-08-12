@@ -1313,69 +1313,6 @@ function renderVariants(text) {
   // Store analysis in state so selectVariant() can include it in the .md
   state.lastAnalysis = { resumen, hechos, interpretacion, senalHumana, tension, hipotesis, angulo, sector, area, seniority, confLevel, confReason, allowedMsg1 };
 
-  if (resumen || hechos || interpretacion || senalHumana || tension || hipotesis || angulo) {
-    const ap = document.createElement('div');
-    ap.style.cssText = 'background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:11px;padding:13px 15px;font-size:12px;line-height:1.65;display:flex;flex-direction:column;gap:7px;animation:fadeUp .3s ease both';
-    ap.innerHTML = `
-      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--orange);margin-bottom:1px">Análisis estratégico</div>
-      ${resumen ? `<div><span style="font-weight:600;color:var(--dark)">Quién es: </span>${esc(resumen)}</div>` : ''}
-      ${hechos ? `<div><span style="font-weight:600;color:var(--dark)">Hechos: </span>${esc(hechos)}</div>` : ''}
-      ${interpretacion ? `<div><span style="font-weight:600;color:var(--dark)">Interpretación del trabajo: </span>${esc(interpretacion)}</div>` : ''}
-      ${senalHumana ? `<div style="background:#F0FFF4;border-radius:7px;padding:6px 10px;border:1px solid #9FD9B4"><span style="font-weight:600;color:#1A7A3C">Señal humana: </span>${esc(senalHumana)}</div>` : ''}
-      ${tension ? `<div style="background:#F0F7FF;border-radius:7px;padding:6px 10px;border:1px solid #C5DDF6"><span style="font-weight:600;color:#1A5FA8">Tensión profesional: </span>${esc(tension)}</div>` : ''}
-      ${hipotesis ? `<div><span style="font-weight:600;color:var(--dark)">Hipótesis conversacional: </span>${esc(hipotesis)}</div>` : ''}
-      ${angulo ? `<div style="background:var(--orange-light);border-radius:7px;padding:6px 10px"><span style="font-weight:600;color:#993C1D">Ángulo: </span>${esc(angulo)}</div>` : ''}`;
-    results.appendChild(ap);
-  }
-
-  if (inferenceRisk || irrepetibilidad || debilidades || confidenceScore) {
-    const auditBox = document.createElement('div');
-    auditBox.style.cssText = 'background:#F7F7FA;border:1.5px dashed #C8C8D4;border-radius:11px;padding:13px 15px;font-size:12px;line-height:1.65;display:flex;flex-direction:column;gap:7px;animation:fadeUp .3s ease both';
-    auditBox.innerHTML = `
-      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#6B6B7A;margin-bottom:1px">Auditoría interna (no afecta los mensajes)</div>
-      ${inferenceRisk ? `<div><span style="font-weight:600;color:var(--dark)">Riesgo de inferencia: </span>${esc(inferenceRisk)}</div>` : ''}
-      ${irrepetibilidad ? `<div><span style="font-weight:600;color:var(--dark)">Irrepetibilidad: </span>${esc(irrepetibilidad)}</div>` : ''}
-      ${confidenceScore ? `<div><span style="font-weight:600;color:var(--dark)">Confianza del análisis: </span>${esc(confidenceScore)}</div>` : ''}
-      ${debilidades ? `<div><span style="font-weight:600;color:var(--dark)">Debilidades de esta secuencia: </span>${esc(debilidades)}</div>` : ''}`;
-    results.appendChild(auditBox);
-  }
-
-  // FASE 2/3/4 — acordeones colapsables (no afectan generación de mensajes)
-  const priorityColor = { HOT: '#27AE60', MEDIUM: '#E8A23D', LOW: '#999' };
-  if (confLevel || confReason || signalSource || allowedMsg1) {
-    results.appendChild(makeAccordion('Confidence', [
-      confLevel ? ['Nivel de confianza', confLevel] : null,
-      signalSource ? ['Fuente de la señal', signalSource] : null,
-      allowedMsg1 ? ['Permitido para MSG1', allowedMsg1] : null,
-      confReason ? ['Motivo', confReason] : null,
-    ].filter(Boolean)));
-  }
-  if (profileType || seniority || infoLevel || sector || area || decisionPower || buyingRole || commercialRelevance || classificationReason) {
-    results.appendChild(makeAccordion('Profile Classification', [
-      profileType ? ['Tipo de perfil', profileType] : null,
-      seniority ? ['Seniority', seniority] : null,
-      infoLevel ? ['Nivel de información', infoLevel] : null,
-      sector ? ['Sector', sector] : null,
-      area ? ['Área', area] : null,
-      decisionPower ? ['Poder de decisión', decisionPower] : null,
-      buyingRole ? ['Rol de compra', buyingRole] : null,
-      commercialRelevance ? ['Relevancia comercial', commercialRelevance] : null,
-      classificationReason ? ['Motivo', classificationReason] : null,
-    ].filter(Boolean)));
-  }
-  if (signalQuality || personalizationDepth || conversationProbability || commercialRelevanceScore || hallucinationRisk || globalScore || recommendedPriority) {
-    const prioColor = priorityColor[(recommendedPriority||'').toUpperCase()] || '#999';
-    results.appendChild(makeAccordion('Scoring', [
-      signalQuality ? ['Calidad de señal', signalQuality + '/10'] : null,
-      personalizationDepth ? ['Profundidad de personalización', personalizationDepth + '/10'] : null,
-      conversationProbability ? ['Probabilidad de conversación', conversationProbability + '/10'] : null,
-      commercialRelevanceScore ? ['Relevancia comercial', commercialRelevanceScore + '/10'] : null,
-      hallucinationRisk ? ['Riesgo de inventar (hallucination)', hallucinationRisk + '/10'] : null,
-      globalScore ? ['Score global', globalScore + '/10'] : null,
-      recommendedPriority ? ['Prioridad recomendada', `<span style="font-weight:700;color:${prioColor}">${esc(recommendedPriority)}</span>`, true] : null,
-    ].filter(Boolean)));
-  }
-
   // Parse ---VARIANTE--- blocks
   const blocks = text.split(/\s*---\s*VARIANTE\s*[A-Z]?\s*---\s*/i).filter(b => b.trim());
   // blocks[0] may be the analysis section (no TITULO) — skip it
@@ -2719,7 +2656,6 @@ function histRestore(id) {
       <button class="copy-btn" onclick="copyContextFor('${en.id}','profileconv',this)" title="Perfil + conversación, sin instrucciones">🧩 Copiar perfil + conversación</button>
       <button class="copy-btn" onclick="copyContextFor('${en.id}','structured',this)" title="Perfil + resumen estructurado + conversación + etapa + objetivo">📋 Copiar contexto completo para Claude</button>
     </div>
-    ${renderStructuredSummary(en)}
     ${renderStageBar(en)}
     ${renderAdvanceBox(en)}
     <div class="msg-label">Primer mensaje (enviado)</div>
