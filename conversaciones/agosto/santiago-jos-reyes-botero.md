@@ -5,7 +5,7 @@
 **Empresa:** Sales Navigator
 **Pais:** Colombia
 **Sector:** Oil & Gas / Energía / Infraestructura
-**Estado:** MSG2 enviado
+**Estado:** 3 - Dossier enviado
 
 ---
 
@@ -35,5 +35,12 @@
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicarías a quién se lo puedo hacer llegar?
 
 ---
+
+## Respuesta MSG2
+> "Mándamelo sin problema"
+
+## MSG3 — dossier
+> te lo mando ahora!
+> y si le encontrás algo interesante, me avisás y lo charlamos.
 
 ## Notas
