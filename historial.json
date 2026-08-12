@@ -215,7 +215,9 @@
     "name": "Paul Puissegur",
     "stage": 3,
     "date": "29/07/26",
-    "whatsapp": "+34632872433"
+    "whatsapp": "+34632872433",
+    "recontact": "2026-09-12",
+    "recontactNote": "Paso contacto por WhatsApp. Recontactar en 1 mes."
   },
   {
     "id": "pau-laporte",
@@ -1357,7 +1359,7 @@
         "text": "\n\n\n\n"
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -1709,7 +1711,9 @@
         "date": "05/08/26",
         "note": ""
       }
-    ]
+    ],
+    "recontact": "2026-09-12",
+    "recontactNote": "Paso contacto por WhatsApp. Recontactar en 1 mes."
   },
   {
     "id": "1785960692688",
