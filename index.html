@@ -2138,17 +2138,12 @@ function renderProximos() {
   }
   const active = [..._histEntries].filter(en => {
     if (en.noInterest || (en.stage||1) > 4) return false;
-    if (en.followup_date) {
-      const fd = parseFollowupDate(en.followup_date);
-      if (fd && fd > today) return false;
-    }
+    if (en.recontact || en.followup_date) return false;
     return true;
   });
   const recontactEntries = [..._histEntries].filter(en => {
     if (en.noInterest) return false;
-    if (!en.followup_date) return false;
-    const fd = parseFollowupDate(en.followup_date);
-    return fd && fd > today;
+    return !!(en.recontact || en.followup_date);
   });
   const reunionEntries = [..._histEntries].filter(en => !en.noInterest && parseInt(en.stage) === 6);
   const countEl = document.getElementById('prox-count');
@@ -2549,7 +2544,8 @@ function renderHistStats() {
   const counts = {1:0,2:0,3:0,4:0,5:0,6:0,noint:0,email:0,recontact:0};
   _histEntries.forEach(e => {
     if (e.noInterest) { counts.noint++; return; }
-    if (e.followup_date) counts.recontact++;
+    const hasRecontact = !!(e.recontact || e.followup_date);
+    if (hasRecontact) { counts.recontact++; return; }
     counts[e.stage||1] = (counts[e.stage||1]||0) + 1;
     if (histHasEmail(e)) counts.email++;
   });
@@ -2594,15 +2590,10 @@ function renderHistoryList() {
   let filtered = q ? sorted.filter(searchEntry) : sorted;
   if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
   else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
-  else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!en.followup_date);
+  else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!(en.recontact || en.followup_date));
   else if (_histStageFilter) filtered = filtered.filter(en => {
     if (en.noInterest) return false;
-    if (en.followup_date) {
-      const p = en.followup_date.split('/').map(Number);
-      const fd = new Date(p[2] < 100 ? 2000+p[2] : p[2], p[1]-1, p[0]);
-      const td = new Date(); td.setHours(0,0,0,0);
-      if (fd > td) return false;
-    }
+    if (en.recontact || en.followup_date) return false;
     return String(en.stage||1) === String(_histStageFilter);
   });
   if (!filtered.length) {
