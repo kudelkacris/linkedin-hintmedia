@@ -37,4 +37,12 @@
 > En tu trabajo con organizaciones deportivas, cómo llevás ese argumento a las mesas donde se decide cuánto monetizar?
 > Trabajo en comunicación de marca con organizaciones que enfrentan exactamente ese dilema. Si tiene sentido profundizarlo, me contás.
 
+## Respuesta MSG2
+> "Yo trabajo con industrias tradicionales y puse un pie en el deporte hace 2 años. Todos sufren la misma problemática. Renovar el modelo de negocio. De nada sirve presionar desde la comunicación solamente si no readaptas el modelo."
+
+## MSG3
+> Coincido. Comunicar un modelo roto solo acelera la fricción con el mercado.
+> Donde sí hay un nudo es en la transición: cuando el modelo ya cambió internamente pero la narrativa externa todavía habla del modelo viejo. Ahí la comunicación tiene que ir primero, no después.
+> Cómo manejás ese timing con tus clientes? En Hint Media trabajamos exactamente en ese momento, con organizaciones que ya tomaron la decisión de cambiar pero todavía no lograron que el mercado lo lea así.
+
 ## Notas
