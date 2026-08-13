@@ -27,4 +27,23 @@
 
 ---
 
+## Respuesta MSG1 (13/08/26)
+> "Hola Florencia, cómo estás? Gracias por tu comentario. Dime en qué te puedo ayudar"
+
+## MSG2 (13/08/26)
+> Buenas Tamara! Muy bien, gracias.
+> La consulta era sobre eso: cuando el Congreso empieza a escalar canales, podcast, revista, membresías, cómo se mantiene que la comunicación siga sintiéndose genuina y no de agencia.
+> En Hint Media acompañamos a referentes tech en esa transición: construir la capa de comunicación que crece sin perder el espíritu que diferencia al proyecto.
+> Tenemos un dossier breve con casos de ese tipo, a qué mail te lo mando?
+
+## Respuesta MSG2 (13/08/26)
+> "Tenemos un departamento de comunicaciones, conformado por Periodista, RRPP, antropólogo y un equipo que mantiene la comunicación constante tanto con los speaker, embajadores y público en general"
+
+## MSG3 (13/08/26) — redirección
+> Buenas Tamara! Tiene sentido, ese equipo está armado para mantener el vínculo interno fuerte.
+> Hint opera más hacia afuera: que el Congreso sea visible para quienes todavía no forman parte. Paid media, contenido que escale a nuevas audiencias, posicionamiento externo.
+> Si en algún momento quieren reforzar ese frente, sería una buena conversación.
+
+## Estado: Stage 2 — conversación activa, puerta entreabierta
+
 ## Notas

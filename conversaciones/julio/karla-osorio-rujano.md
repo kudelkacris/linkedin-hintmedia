@@ -47,6 +47,18 @@ Enviado por LinkedIn.
 
 ---
 
+## SEG1 (12/08/26)
+> Buenas Karla! Si llegaste a ver el material, los datos que mencionabas de la Sala Panamá son exactamente el tipo de insight que más vale documentar antes de la próxima decisión. Si te generó alguna duda o querés conversar, acá estoy.
+
+## Respuesta SEG1 (13/08/26)
+> "Florencia buen día, cómo estás? que pena no responderte antes. Puedes reenviarme la propuesta al correo y así manejamos la comunicación por esa vía, gracias. kosorio@visitpanama.com"
+
+## Respuesta enviada (13/08/26)
+> Buenas Karla! Con gusto, te lo mando ahora por ese correo.
+
+## Estado: Stage 3 — Dossier por mail (kosorio@visitpanama.com)
+
 ## Notas
 - Proyecto de impacto nacional para Panamá — visión largo plazo
 - MSG2 breve estilo "vender sin vender"
+- Email: kosorio@visitpanama.com (visitpanama = PROMTUR PANAMA, institución pública turismo)
