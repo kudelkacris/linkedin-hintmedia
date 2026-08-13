@@ -160,7 +160,6 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 - Total historial: 814 contactos
 - Sesión tarde 12/08: Macarena Vargas Losada (stage 2), Rafael Ruiz (stage 3), Santiago José Reyes Botero (stage 3), Laura Peña Rodriguez (stage 2 nueva), Aleksán Buyuk Kurt (MSG3 Hint insertado)
 - Técnico: index.html análisis oculto (corre en background), RESUMEN ESTRUCTURADO removido, ThreadingMixIn fix concurrencia
-- **Idea nueva metodología MSG1:** revelar Hint al final del MSG1 (1 línea) en lugar de "tenía una consulta". Simulación MC 10k iteraciones proyecta +5 dossieres por 100 mensajes. 6 ejemplos generados para agosto contacts (Cristhian Fuentes, Juan Pablo Nieto, Rita Galmarini, Tomás Sarmiento, Clara Massenzio, Uri Martinich). Pendiente: testear en campo.
 
 ## Activos nuevos sesión tarde 12/08
 
@@ -172,11 +171,118 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 | Laura Peña Rodriguez | 2 - MSG2 enviado | CFO + Co-founder Legatus, Colombia |
 | Aleksán Buyuk Kurt | 2 - MSG3 enviado | TEDx Speaker sports/entertainment, Hint insertado liviando |
 
+---
+
+## Sesión 13/08/26 — Nueva metodología MSG1 (NO tocar hasta testear)
+
+### Problema identificado en el funnel actual
+
+El funnel tiene demasiados pasos entre el momento warm (cuando responden MSG1) y la reunión:
+MSG1 → responden → MSG2 largo → dossier → esperás → SEG1 → SEG2 → quizás reunión
+
+El dossier es la barrera principal. No entre el prospecto y Hint, sino entre Hint y la reunión.
+
+### Nueva fórmula MSG1 — "Vi X → Dolor Y → Hint Z → CTA híbrido"
+
+Estructura completa (aplicable directo en MSG1, sin esperar respuesta):
+
+```
+L1: "Buenas [nombre]!"
+L2: Vi [algo concreto y específico del perfil — publicación, decisión, situación]
+L3: En ese contexto el desafío suele ser [pain exacto derivado de lo que se vio, no genérico]
+L4: En Hint Media acompañamos a [tipo de perfil] en [eso exacto]
+L5: CTA híbrido — dossier + reunión en una sola oración
+```
+
+**CTA híbrido (elegir variante según tono):**
+- "Te mando un dossier breve con casos de ese tipo, y si tiene sentido, lo vemos en una llamada?"
+- "Tengo casos concretos armados. Te los mando, y si tiene sentido, lo charlamos rápido."
+- "Te mando casos concretos por acá, y si alguno te resuena, armamos una conversación."
+
+**Por qué el CTA híbrido:** el dossier baja la fricción del sí inmediato. La reunión queda plantada como paso natural — no como segundo pedido sino como consecuencia obvia del dossier.
+
+### Reglas de aplicación
+
+- El pain en L3 tiene que ser derivado del perfil, no genérico. Si no hay señal clara → usar MSG1 clásico.
+- L4 no lista servicios. Nombra el problema que resuelve Hint.
+- Aplicar a CEO/Founder con señal fuerte primero. Manager/Coord → seguir con MSG1 clásico.
+- Si no hay publicación reciente ni dolor visible → no forzar. MSG1 clásico convierte bien.
+
+### Cuándo usar MSG1 clásico vs nueva fórmula
+
+| Perfil | Señal | Pain visible | MSG1 a usar |
+|--------|-------|--------------|-------------|
+| CEO / Founder | Publicación reciente | Sí | Nueva fórmula |
+| CEO / Founder | Solo perfil | No claro | Clásico |
+| Director / VP | Publicación reciente | Sí | Nueva fórmula o clásico |
+| Manager | Cualquiera | Cualquiera | Clásico siempre |
+| Speaker / Marca personal | Alta actividad | Sí | Nueva fórmula liviana |
+
+### Ejemplos canónicos (probados en sesión 13/08/26)
+
+**Cristhian Fuentes** — Founder ORSON, Substack, ex Coca-Cola
+
+```
+Buenas Cristhian!
+Vi que fundaste ORSON después de Coca-Cola y además mantenés un Substack propio.
+En ese contexto el desafío suele ser el inverso: la agencia comunica bien para sus clientes pero la marca de la agencia misma no tiene la misma capa de contenido que les recomienda a ellos.
+En Hint Media acompañamos a fundadores de agencias en construir esa presencia propia.
+Te mando un dossier breve con casos de ese tipo, y si tiene sentido, lo vemos en una llamada?
+```
+
+**Juan Pablo Nieto** — CEO SearchMAS, presencia local en era IA
+
+```
+Buenas Juan Pablo!
+Vi que SearchMAS gestiona presencia local de múltiples marcas en Google.
+En ese contexto el desafío suele aparecer hacia adentro: la empresa que más sabe de presencia online para sus clientes es la que menos tiempo tiene para aplicarlo a la propia.
+En Hint Media trabajamos con líderes tech en construir esa capa de comunicación de marca propia.
+Te mando casos concretos, y si tiene sentido, armamos una conversación.
+```
+
+**Clara Massenzio** — Jefa de Marketing Cerro Castor + PopperStore
+
+```
+Buenas Clara!
+Vi que gestionás el marketing de Cerro Castor y PopperStore al mismo tiempo.
+En ese contexto el desafío suele ser sostener dos voces de marca distintas con los mismos recursos, sin que una consuma todo el tiempo a costa de la otra.
+En Hint Media sumamos capacidad de contenido y producción para que el equipo interno no tenga que elegir.
+Te mando un dossier breve con casos de ese tipo. Si te resuena, lo vemos en 20 minutos?
+```
+
+**Uri Martinich** — CEO Agencia ROI, SEO y Reputación Online
+
+```
+Buenas Uri!
+Vi que trabajás reputación online y SEO para mercados competitivos.
+En ese contexto el desafío suele ser que la narrativa del liderazgo de tus clientes no está construida — y cuando los algoritmos cambian, no hay capa propia que sostenga la reputación.
+En Hint Media acompañamos a agencias y sus clientes en construir esa capa ejecutiva.
+Tengo casos concretos armados. Te los mando, y si tiene sentido, lo charlamos rápido.
+```
+
+### MSG2 con CTA híbrido (cuando responden al MSG1 clásico)
+
+Si el prospecto respondió al MSG1 clásico, el MSG2 ahora va directo a dossier+reunión sin el paso del dossier como obstáculo separado:
+
+```
+B1: conectar con lo que dijeron (2 líneas)
+B2: Hint + pain específico (2 líneas)
+B3: "Te mando un dossier breve con casos de ese tipo, y si tiene sentido, lo vemos en una llamada?"
+```
+
+Sin B4 separado. Sin "te puedo mandar el dossier?". Todo en una sola oración al final.
+
+### Próximo paso
+
+Testear nueva fórmula en campo con los contactos pendientes de MSG1 (Grupo A + Grupo B).
+Comparar en 30 días: tasa de respuesta MSG1 nueva vs clásica, y tiempo promedio hasta reunión.
+
+---
+
 ## Prioridades para próxima sesión
 
-1. **MSG1 urgente — Grupo A** (7 contactos: Pedro Donado, Tamara Lopez, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman — Macarena ya hecha)
-2. **MSG1 Grupo B** (~30 contactos AGOSTO/FCT COMMS pendientes)
+1. **Testear nueva fórmula MSG1** — Grupo A (Pedro Donado, Tamara Lopez, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman) con nueva fórmula donde haya señal clara
+2. **MSG1 Grupo B** (~30 contactos AGOSTO/FCT COMMS pendientes) — mezcla de fórmula nueva y clásica según perfil
 3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján (pegar conversación)
 4. **MSG2 pendiente** — Sandra Suárez Pérez (respondió sobre libro vs. marca personal)
 5. **MSG1 Grupo C** — orgánicos energía/seguros
-6. **Testear nueva metodología MSG1** en campo — 6 ejemplos agosto listos para enviar
