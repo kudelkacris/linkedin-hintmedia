@@ -37,4 +37,13 @@
 > En Hint Media trabajamos con organizaciones en minería y energía, como TGS y Transener, en construir esa capa: narrativa ejecutiva que llegue de forma consistente a múltiples actores sin que cada uno sienta que recibió algo distinto.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si no es mucha molestia, o me indicarías a quién se lo puedo hacer llegar?
 
+## Respuesta MSG2 (13/08/26) — CIERRE
+> "El área de Asuntos corporativos y comunicaciones ya está trabajando en ese proyecto con una consultora que fue acordada además con Anglo para estos efectos. Saludos y quedamos en contacto. Macarena"
+
+## Respuesta enviada (13/08/26)
+> Macarena! Gracias por la claridad. Tiene todo el sentido.
+> Si en algún momento surge algo fuera de ese proyecto o cambia la situación, acá quedamos.
+
+## Estado: Recontacto nov/26 — consultora cerrada por Anglo para proyecto Andina-Los Bronces
+
 ## Notas
