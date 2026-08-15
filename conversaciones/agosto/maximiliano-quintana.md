@@ -5,7 +5,7 @@
 **Empresa:** Consultoria Independente
 **Pais:** Argentina
 **Sector:** Marketing / Comunicación / Creatividad Digital (No energía — su contexto es Multi-Sector desde la consultoría: Real Estate, iGaming, Retail, Nonprofits)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -19,7 +19,24 @@
 ---
 
 ## MSG1
->
+> Buenas Maximiliano!
+> Lo del post del video me quedó. "Nadie me preguntó con qué IA. Todos preguntaron cuánto tiempo llevó."
+> Ese desplazamiento, de la herramienta al proceso, es exactamente donde está el próximo diferencial. Y la mayoría todavía no lo vio.
+> Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Buenas tardes Florencia, definitivamente el proceso lo es todo!! la elaboración de un sistema, una metodología rítmica pasa a jugar un papel determinante en el resultado, un Pipeline de trabajo bien pulido es un gran compañero!! Cuál es tu consulta? En qué te puedo ayudar?
+
+---
+
+## MSG2
+> Buenas Maximiliano!
+> Exacto. La metodología es lo que no se puede copiar, porque incluye el criterio de quien la diseña. Eso es lo que sostiene el diferencial cuando la herramienta ya la tiene todo el mundo.
+> Cuando aparece un cliente nuevo, cómo lográs que eso sea lo primero que entiende, antes de tener que explicarlo desde cero en una reunión?
+> En Hint Media trabajamos con marcas y consultores, como Destiny Group y Tasarolli, en construir la capa narrativa que hace visible ese criterio antes de que el cliente llegue.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ---
 

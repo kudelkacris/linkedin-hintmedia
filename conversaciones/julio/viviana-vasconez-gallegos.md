@@ -5,7 +5,7 @@
 **Empresa:** ADILISA (Aditivos y Alimentos)
 **Pais:** Ecuador
 **Sector:** Agroindustria / B2B Industrial
-**Estado:** Dossier enviado
+**Estado:** Cerrada / Recontacto sept/26
 
 ---
 
@@ -23,6 +23,11 @@
 > Si te sirve ver cómo lo abordamos, con gusto te cuento.
 
 ---
+
+## Respuesta / Cierre
+> Florencia, buen día. Te agradezco la información, si tengo alguna consulta te escribo. Muchas gracias
+
+Cierre suave 15/08/26. Recontacto sept/26.
 
 ## Notas
 - Variante C (Suposición)

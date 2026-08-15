@@ -5,7 +5,7 @@
 **Empresa:** Hendercross Global Services
 **Pais:** Argentina
 **Sector:** Consultoría / Transformación Digital / Enterprise Software
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,20 @@
 > Me llamó la atención la manera en que contaste lo del evento en Austral — que comenzaras por "el foco es la persona" y no por los algoritmos. No es lo que la mayoría destaca cuando habla de IA. La mayoría empieza por lo tecnológico.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1
+> Hola Florencia, gracias por escribir! Totalmente, el factor humano es lo primero. Contame con confianza de qué se trata la consulta y lo revisamos juntos. Un saludo!
+
+---
+
+## MSG2
+> Buenas Pablo!
+> Tiene sentido. Cuando todo el mundo habla de lo mismo, la postura "personas primero" no es solo filosofía, es un diferencial real.
+> En consultoría tech, el mayor activo no es el portfolio de proyectos, es la perspectiva de quien lo lidera. Cómo hacés para que esa diferencia en el enfoque sea visible externamente antes de que el cliente llegue a la primera conversación?
+> En Hint Media trabajamos con consultoras en transformación digital, como Destiny Group, en construir la capa narrativa que hace legible ese criterio en el mercado.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ---
 
