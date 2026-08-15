@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 13/08/26 — sesión mañana (cierre)
+## Última sesión: 15/08/26 — sesión tarde
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -51,6 +51,8 @@
 | Claudia Patricia Rios Molina | 4 - SEG1 enviado | SEG1 12/08 — respondió con POV fuerte sobre narrativa | Esperar respuesta |
 | Aleksán Buyuk Kurt | 2 - MSG3 enviado | MSG3 12/08 tarde — Hint insertado liviando, enfoque marca personal | Esperar respuesta |
 | Pablo Arroyo Blanco | 2 - MSG2 enviado | MSG2 13/08 — Odoo/PyMES Costa Rica, dossier por mail | Esperar respuesta |
+| Pablo Julián Mateo | 2 - MSG2 enviado | MSG2 15/08 — Hendercross, consultoría Salesforce/IA Argentina | Esperar respuesta |
+| Maximiliano Quintana | 2 - MSG2 enviado | MSG2 15/08 — consultor identidad visual/narrativa IA, Bali Indumentaria | Esperar respuesta |
 | Tamara Lopez Leyton | 2 - Conversación activa | MSG3 13/08 — redirección amplificación externa, puerta entreabierta | Esperar respuesta |
 | Karla Osorio Rujano | 4 - SEG1 + email | SEG1 12/08 + email kosorio@visitpanama.com 13/08 | Jefe envía dossier por mail |
 
@@ -88,6 +90,7 @@
 | Claudia Hoyos | oct/26 | Mail claudia.hoyos@enex.cl |
 | Michelle LaTigresa | oct/26 | BD/partnerships, no scope Hint ahora |
 | Macarena Vargas Losada | nov/26 | Consultora cerrada con Anglo para Andina-Los Bronces |
+| Viviana Vasconez Gallegos | sept/26 | Cierre suave 15/08 — "si tengo consulta te escribo", recontactar |
 | Robinson Carrera | nov/26 | Dossier a Fernando Díaz (fdiaz@gasdelsur.cl) |
 | Claudia Zazzali | nov/26 | — |
 | David Beltrán | nov/26 | — |
@@ -156,20 +159,18 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 13/08/26 mañana
+## Stats al cierre 15/08/26 tarde
 
 - Total historial: 814 contactos
-- Sesión mañana 13/08: Pablo Arroyo (MSG2, stage 2), Tamara Lopez (MSG2+redirección), Karla Osorio (email kosorio@visitpanama.com), Macarena Vargas (cierre temporal, recontacto nov/26)
-- Nueva metodología MSG1 aplicada en sesión 13/08 mañana (ver sesión anterior para ejemplos)
+- Sesión 15/08: Pablo Julián Mateo (MSG2), Maximiliano Quintana (MSG2), Viviana Vasconez (cierre recontacto sept/26)
 
-## Activos nuevos sesión mañana 13/08
+## Activos nuevos sesión 15/08
 
 | Nombre | Stage | Nota |
 |--------|-------|------|
-| Pablo Arroyo Blanco | 2 - MSG2 enviado | Odoo/WillDom Costa Rica, dossier por mail |
-| Tamara Lopez Leyton | 2 - Conversación activa | Equipo interno comunicaciones — redirección amplificación externa |
-| Karla Osorio Rujano | Email capturado | kosorio@visitpanama.com — jefe envía dossier |
-| Macarena Vargas Losada | Recontacto nov/26 | Consultora cerrada por Anglo para proyecto Andina-Los Bronces |
+| Pablo Julián Mateo | 2 - MSG2 enviado | Hendercross, consultoría Salesforce/IA, Argentina |
+| Maximiliano Quintana | 2 - MSG2 enviado | Consultor identidad visual/narrativa IA, Bali Indumentaria |
+| Viviana Vasconez Gallegos | Recontacto sept/26 | Cierre suave — "si tengo consulta te escribo" |
 
 ---
 
