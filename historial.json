@@ -8168,5 +8168,42 @@
     "stage": "1",
     "date": "17/08/26",
     "empresa": ""
+  },
+  {
+    "name": "José Antonio Pedraza",
+    "stage": "3",
+    "date": "17/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Maximiliano Quintana",
+    "stage": "3",
+    "date": "17/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Ana Beatriz Estrada",
+    "stage": "6",
+    "date": "18/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Pablo Julián Mateo",
+    "stage": "2",
+    "date": "15/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Claudia Hoyos Bastidas",
+    "stage": "3",
+    "date": "13/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Macarena Vargas Losada",
+    "stage": "0",
+    "date": "13/08/26",
+    "empresa": "",
+    "noInterest": true
   }
 ]
