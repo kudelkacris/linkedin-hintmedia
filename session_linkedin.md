@@ -170,6 +170,27 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 |--------|-------|------|
 | Ana Beatriz Estrada | 6 - Reunión agendada | Miércoles 18/08/26 11am — pendiente email para Google Meet |
 
+---
+
+## Sesión 17/08/26
+
+### Movimientos
+| Nombre | Stage anterior | Stage nuevo | Nota |
+|--------|---------------|-------------|------|
+| Maximiliano Quintana | 2 | 3 - Dossier enviado | "Sí, mándamelo" — dossier enviado |
+| José (Antonio) Pedraza | 1 | 2 - MSG2 enviado | Respondió "En qué te puedo ayudar?" — MSG2 sobre Tokenchampions |
+
+### Cambios en programa (index.html)
+- **Nueva fórmula MSG1**: 3 burbujas — señal+insight / pain+Hint+cliente / CTA de biblioteca
+- **Biblioteca CTA**: 6 tipos (CONFIRMAR_PAIN, OBTENER_CONTEXTO, CURIOSIDAD, POSIBLE_ENCAJE, AVANZAR, ELECCIÓN_SIMPLE) — aplicado a MSG1 y MSG2
+- **Clientes por sector estricto**: no mezclar sectores al nombrar clientes Hint
+- **CTA max 1 línea / 15 palabras**: BURBUJA 3 de MSG1 y PASO 3 de MSG2
+
+### Pendiente sesión 17/08
+- Regla de clientes por sector en MSG1 BURBUJA 2 (falta implementar en código)
+- Describir qué hace Hint con cada cliente (no solo nombrar)
+- Testear nueva fórmula con más perfiles antes de confirmar
+
 ## Listas nuevas
 
 | Lista | Sector | Contactos | Estado |

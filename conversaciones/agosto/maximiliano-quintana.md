@@ -5,7 +5,7 @@
 **Empresa:** Consultoria Independente
 **Pais:** Argentina
 **Sector:** Marketing / Comunicación / Creatividad Digital (No energía — su contexto es Multi-Sector desde la consultoría: Real Estate, iGaming, Retail, Nonprofits)
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -39,5 +39,12 @@
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ---
+
+## Respuesta MSG2
+> Sí, perfecto, mándamelo para que lo hojee, y saber de qué se trata
+
+## Dossier
+> Perfecto Maximiliano, te lo mando ahora.
+> Si algo resuena con lo que estás armando, lo conversamos.
 
 ## Notas

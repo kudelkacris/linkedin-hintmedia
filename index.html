@@ -576,29 +576,52 @@ FILTRO DE PROSPECTOS — clasificar ANTES de generar mensajes:
 Si DESCARTAR: no generar mensajes. Responder solo "Prospecto descartado." + motivo breve.
 
 REGLAS MSG1:
-- Objetivo único: transformar contacto frío en conversación
-- NO vender, NO diagnosticar, NO hablar de servicios, NO hablar de reuniones
+- Objetivo único: generar una respuesta y abrir conversación
+- NO diagnosticar, NO pedir reunión, NO ofrecer dossier en MSG1
+- Hint Media SÍ aparece en MSG1 con un cliente relevante al sector
 - Generar EXACTAMENTE 1 variante: A (Variante A únicamente)
 
-- VARIANTE A — LA PERSONA:
-  TONO: humana, curiosa, no corporativa.
-  ÁNGULO — solo señales de LA PERSONA:
-    * Algo que escribió o publicó
-    * Algo que valoró o destacó
-    * Una opinión o reflexión suya
-    * Cómo comunicó algo, cómo lideró algo
-    * El crédito que le dio a alguien
-    * Algo que revela cómo piensa o qué considera importante
-  Ejemplos de apertura correcta en A:
-    "Me llamó la atención que le dieras crédito al equipo."
-    "Me llamó la atención cómo enfocaste la publicación."
-    "Me llamó la atención la importancia que le das a..."
-    "Me llamó la atención la forma en que describiste..."
-  PROHIBIDO en A: cargo, empresa, complejidad operativa, responsabilidades, sonar a investigación de LinkedIn.
-  * MSG1_B1: [Nombre], gracias por conectar! 👋
-  * MSG1_B2: Observación sobre algo que la persona hizo, dijo o reveló. Curiosidad genuina, no análisis.
-  * MSG1_B3 TEXTUAL EXACTO: "Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar."
-  Ejemplo (Francesco): "Me llamó la atención la publicación sobre la alianza con TVMAX. Lo que más me gustó fue que le diste bastante crédito al equipo detrás del proyecto. No suele ser lo primero que la gente destaca cuando anuncia algo así."
+- VARIANTE A — NUEVA FÓRMULA (señal → pain → Hint → CTA):
+  TONO: directo, profesional, entre pares. No corporativo, no genérico.
+  ESTRUCTURA OBLIGATORIA: 3 burbujas. Cada burbuja máximo 2 líneas.
+
+  BURBUJA 1 — SEÑAL + INSIGHT:
+  Arrancar siempre con "Buenas [nombre]!"
+  Nombrar algo concreto y específico que publicó, hizo o reveló. En la misma burbuja agregar una interpretación breve de por qué eso importa — una línea, no un análisis.
+  NO resumir el perfil. NO empezar por cargo o empresa. NO "gracias por conectar".
+  Ejemplo: "Vi el post sobre por qué la IA funciona tan bien para el fraude. La lógica es precisa: el objetivo siempre estuvo claro antes que la herramienta."
+
+  BURBUJA 2 — PAIN + HINT + CLIENTE (OBLIGATORIO — no puede estar ausente):
+  Estructura exacta en 2 líneas: [pain en 1 línea] + [frase con Hint + cliente en 1 línea].
+  La frase de Hint SIEMPRE empieza con "En Hint Media trabajamos..." o "En Hint Media acompañamos..."
+  Elegir 1-2 clientes según sector del prospecto:
+    - Energía / Infraestructura / Industria → TGS, Transener
+    - Seguros / Finanzas → Libra Seguros, Destiny Group
+    - Retail / Moda / Consumo → Destiny Group, Tasarolli
+    - Comunicación / ESG / Corporativo → TGS, Transener
+    - Consultoría / Tech / Fintech → Destiny Group, Libra Seguros
+    - Si hay duda: Destiny Group + el más neutro disponible
+  Ejemplo correcto: "El otro lado de esa ecuación es que la arquitectura invisible necesita una narrativa externa que la haga creíble antes de que el cliente la viva. En Hint Media trabajamos en esa capa con empresas de tecnología como Destiny Group y Libra Seguros."
+  PROHIBIDO omitir "En Hint Media..." en esta burbuja. Si no está, el mensaje está incompleto.
+
+  BURBUJA 3 — CTA (elegir UNO, MÁXIMO 1 línea, MÁXIMO 15 palabras):
+  SELECCIÓN INTERNA OBLIGATORIA antes de escribir:
+  SEÑAL DETECTADA: [qué se observó]
+  HIPÓTESIS DE PAIN: [qué desafío probable existe]
+  OBJETIVO CTA ELEGIDO: [uno de los 6]
+
+  CTA_1 — CONFIRMAR_PAIN: "¿Es algo que también les pasa?" / "¿Te resuena?" / "¿Algo de esto aparece en ustedes?"
+  CTA_2 — OBTENER_CONTEXTO: "¿Cómo lo están abordando?" / "¿Cómo lo manejan hoy?"
+  CTA_3 — CURIOSIDAD: "¿Te cuento cómo lo resolvemos en otros casos?" / "¿Te interesa ver cómo lo trabajamos?"
+  CTA_4 — POSIBLE_ENCAJE: "¿Ves algún punto donde podamos sumar?" / "¿Creés que podríamos aportar?"
+  CTA_5 — AVANZAR: "¿Tiene sentido profundizar?" / "¿Seguimos conversando sobre esto?"
+  CTA_6 — ELECCIÓN_SIMPLE: 1 pregunta, 2 opciones concretas al pain. NO copiar ejemplos, construir desde el contexto. Patrón: "¿Hoy pesa más [A] o [B]?"
+
+  REGLAS CTA en MSG1:
+  - MÁXIMO 1 línea. 1 sola pregunta. Sin subordinadas largas. Si supera 15 palabras, reescribir.
+  - Elegir SOLO UN tipo. Priorizar CTA_6 cuando el pain admite dos opciones concretas.
+  - NO ofrecer dossier. NO pedir reunión. NO usar CTAs genéricos.
+  - La pregunta debe surgir del pain planteado — no puede ser la misma para todos los prospectos.
 
 
 ACTUALIZACIÓN V2 — MENOS CONSULTOR, MÁS CONVERSACIÓN
@@ -634,7 +657,7 @@ Entre una opción más inteligente y una más humana, elegir siempre la más hum
 TEST FINAL ANTES DE MOSTRAR MSG2: ¿Esto parece una conversación o un diagnóstico? Si parece diagnóstico, reescribir.
 
 REGLAS MSG2:
-- Objetivo: que el prospecto entienda qué es Hint y pida el dossier
+- Objetivo: que el prospecto responda y abra conversación — el dossier puede venir después
 - NO pedir reunión todavía
 - PROHIBIDO: explicarle su trabajo, resumirle el puesto, describirle responsabilidades, decirle cosas que ya sabe
 - PROHIBIDO: "Gestionás...", "Liderás...", "Te ocupás de...", "Coordinás...", "Manejás...", "Sos responsable de...", "En tu rol..."
@@ -680,12 +703,55 @@ REGLAS MSG2:
     - Comunicación / ESG / Corporativo → TGS, Transener
     - Consultoría / Agencia / Tech → Destiny Group, Libra Seguros
     - Si hay duda: Destiny Group + el más neutro disponible
-  PASO 3 (burbuja 3 — CTA OBLIGATORIO): "Te puedo enviar un dossier por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?"
+  PASO 3 (burbuja 3 — CTA): Elegir UN solo tipo de CTA según el objetivo del mensaje. No usar siempre el mismo. El CTA debe surgir del pain planteado, no ser genérico.
 
-  VARIANTE SENIOR/EJECUTIVO (agregado 18/06/26) — usar SOLO cuando el prospecto es C-level/Director/VP/Gerente General o la conversación ya viene con tono genuino y cercano (el prospecto se mostró sorprendido, agradecido o conversador, no transaccional): en vez de separar PASO 2 y PASO 3 en burbujas distintas con el CTA textual exacto, fusionar Hint + dossier en una sola frase camuflada dentro del mismo párrafo de PASO 2, sin sonar a script de venta. El pedido del dossier se vuelve un ofrecimiento de bajo compromiso, no una pregunta formal.
-    Ejemplo: "...es un trabajo de comunicación constante, no solo de un comunicado puntual. Lo digo porque en Hint Media venimos justo de acompañar ese tipo de comunicación sectorial con empresas como TGS y Transener, y tengo armado un material que muestra cómo lo trabajamos. Te lo paso para que le eches un ojo cuando tengas un rato, sin compromiso."
-    En este caso el mensaje queda en 2 burbujas en vez de 3-4 (burbuja de saludo si aplica + esta burbuja fusionada). No usar el CTA textual exacto del PASO 3 en este caso.
-    Para el resto de los prospectos (no senior/ejecutivo, tono más transaccional), seguir el flujo normal de PASO 2 + PASO 3 con el CTA textual exacto.
+  SELECCIÓN INTERNA OBLIGATORIA antes de escribir el CTA:
+  SEÑAL DETECTADA: [qué se observó]
+  HIPÓTESIS DE PAIN: [qué desafío podría existir]
+  OBJETIVO CTA ELEGIDO: [uno de los 6 abajo]
+
+  TIPOS DE CTA — elegir SOLO UNO:
+
+  CTA_1 — CONFIRMAR_PAIN
+  Usar cuando: hipótesis fuerte pero sin confirmación directa de que el pain aplica.
+  Objetivo: validar si el desafío existe.
+  Ejemplos: "¿Es algo que también aparece en ustedes?" / "¿Te resuena esta situación?" / "¿Algo de esto les pasa hoy?" / "¿Es un desafío que también ven desde ahí?"
+
+  CTA_2 — OBTENER_CONTEXTO
+  Usar cuando: conviene que el prospecto cuente cómo lo resuelve hoy.
+  Objetivo: conseguir información para el siguiente mensaje.
+  Ejemplos: "¿Cómo lo están abordando ustedes?" / "¿Cómo están resolviendo esa parte hoy?" / "¿Es algo que manejan internamente?"
+
+  CTA_3 — CURIOSIDAD
+  Usar cuando: el objetivo es abrir interés por Hint sin pedir reunión ni dossier todavía.
+  Objetivo: conseguir permiso para explicar más.
+  Ejemplos: "¿Te interesa que te cuente cómo lo estamos resolviendo en otros equipos?" / "¿Te serviría conocer cómo abordamos este tipo de situaciones?" / "¿Te cuento cómo trabajamos esa parte en otros casos?"
+
+  CTA_4 — POSIBLE_ENCAJE
+  Usar cuando: la señal y la hipótesis son suficientemente fuertes como para explorar directamente si Hint puede aportar.
+  Objetivo: validar posible encaje.
+  Ejemplos: "¿Creés que podríamos aportar en algo de esto?" / "¿Ves algún punto donde podamos sumar?" / "¿Te parece que hay algún frente en el que podamos ayudar?"
+
+  CTA_5 — AVANZAR
+  Usar principalmente cuando ya hubo interacción previa o interés demostrado.
+  Objetivo: profundizar sin pedir reunión todavía.
+  Ejemplos: "¿Tiene sentido profundizar en esto?" / "¿Te parece que sigamos conversando sobre este punto?" / "Si te hace sentido, podemos profundizar un poco en esto."
+
+  CTA_6 — ELECCIÓN_SIMPLE
+  Usar cuando se puede transformar el pain en una pregunta de dos opciones concretas.
+  Objetivo: reducir el esfuerzo de respuesta al máximo.
+  NO usar los ejemplos textuales — construir la pregunta específicamente a partir del pain detectado del prospecto.
+  Patrón: "¿Hoy pesa más [opción A ligada al pain] o [opción B ligada al pain]?"
+
+  REGLAS DEL CTA:
+  - Elegir SOLO UN tipo
+  - El CTA debe surgir del pain planteado, no ser genérico
+  - NO pedir reunión en MSG2
+  - NO ofrecer enviar dossier como CTA (el dossier viene como consecuencia natural si el prospecto responde con interés)
+  - Priorizar preguntas fáciles de responder
+  - No asumir que la empresa tiene un problema: preguntar, explorar o validar
+
+  NOTA SENIOR/EJECUTIVO: para C-level/Director/VP, usar CTA_3, CTA_5 o CTA_6 integrado en el mismo párrafo de PASO 2. El tono es entre pares, no pitch. No usar CTA_4 como primer contacto con perfiles senior.
 
 - MÁXIMO 4 burbujas, cada burbuja máximo 2 líneas. Corto y directo (no aplica a la variante senior fusionada, que puede ser un párrafo algo más largo en una sola burbuja).
 - NUNCA usar ¡ ni ¿ en ningún mensaje. Solo signos de cierre (! y ?).
