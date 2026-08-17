@@ -189,6 +189,9 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 | Maximiliano Quintana | 2 | 3 - Dossier enviado | "Sí, mándamelo" — dossier enviado |
 | José (Antonio) Pedraza | 1 | 3 - Dossier enviado | Respondió "En qué te puedo ayudar?" — MSG2 + dossier |
 | Victor Perez-Cotapos | 1 | 2 - MSG2 enviado | Respondió sobre separar voz personal de ComunidadFeliz |
+| Iñigo Biain | 1 | 2 - MSG2 enviado | Respondió sobre licitaciones — MSG2 enviado 17/08 tarde |
+| Carolina Rojas | 1 | 2 - MSG2 enviado | Respondió con metodología "uno o dos pasos adelante" — MSG2 enviado 17/08 tarde |
+| Pamela Auszenker, CFA | 1 | cerrada | Rechazó educadamente — "Por el momento no" |
 
 ### MSG1 enviados hoy (stage 1)
 José Luis Olivieri, Alfredo Zepeda P., Adriana Bassi Martínez, Sebastian Benabidez, Roy Magariños, Mariano Fiorito CFA (Schroders), Diego Felipe Santana G. (Grant Thornton), Carlos Marcuello Aguirre, Sebastian Olano, Matias Arturo (Launch Consulting), Mateo De Los Rios (Treble), Alejandro Osores Namihas, Jose F. Villegas Delgado, Jorge Ivan Otalvaro Tobon, Laís Aoki, Andres Lopez Gibson, Juan Pablo Boccardi, María José Gutiérrez, Sonia Salvatierra, Carolina Rojas, Leonardo Oscar Iglesias, Carol Báez Pineda (BMC), Francisco Troncoso, Maurice Poirrier, Juana Pérez Martínez, Juan Camilo Velasco Hoyos, Pedro Donado Manrique, Lionel Cymerman
