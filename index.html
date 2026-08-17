@@ -887,14 +887,14 @@ CAPA DE CONFIANZA — clasificar la señal antes de redactar:
 - HIGH: hecho explícito y observable (publicación, comentario, logro citado textualmente).
 - MEDIUM: inferencia directa anclada en el trabajo o la experiencia.
 - LOW: hipótesis débil o extrapolación sin anclaje claro.
-REGLA: MSG1 solo con señal HIGH. MSG2 acepta HIGH o MEDIUM. Señal LOW: usar TENSION_PROFESIONAL genérica y asentarlo en CONFIDENCE_REASON.
+REGLA: SIEMPRE generar MSG1_B1/B2/B3, sin excepción. Si CONFIDENCE_LEVEL es HIGH, partir de SEÑAL_HUMANA. Si MEDIUM o LOW, partir de TENSION_PROFESIONAL como base. El CONFIDENCE_LEVEL solo afecta el ángulo, nunca impide generar el mensaje.
 
 ---VARIANTE---
 TITULO: (nombre corto variante A)
 SCORE: (número del 1 al 10 — qué tan fuerte es esta variante para este prospecto)
 MSG1_B1: [todo el contenido de burbuja 1 en esta misma línea, sin saltos de línea]
 MSG1_B2: [todo el contenido de burbuja 2 en esta misma línea, sin saltos de línea]
-MSG1_B3: [todo el contenido de burbuja 3 en esta misma línea, sin saltos de línea]`;
+MSG1_B3: [CTA específico para este prospecto — máx 15 palabras, 1 sola pregunta, elegir de CTA_1 a CTA_6 según contexto, NUNCA copiar ejemplos]`;
 
 // ─── SYNC JEFE ───────────────────────────────────────────────────────
 async function syncJefe() {
@@ -1047,13 +1047,9 @@ RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW)
 
 ---VARIANTE---
 TITULO: (variante A — observación humana desde SEÑAL_HUMANA)
-TIP: ...
-MSG1_B1: ...
-MSG1_B2: ...
-MSG1_B3: Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
-RESPUESTA: ...
-
-RESPUESTA: ...`;
+MSG1_B1: (burbuja 1: Buenas [nombre]! + señal concreta + 1 línea de interpretación — máx 35 palabras — sin saltos de línea internos)
+MSG1_B2: (burbuja 2: [pain/tensión] + "En Hint Media trabajamos/acompañamos..." + cliente por sector — máx 30 palabras — sin saltos de línea internos)
+MSG1_B3: (burbuja 3: CTA específico para este prospecto — máx 15 palabras — 1 sola pregunta — elegir de CTA_1 a CTA_6)`;
 
   // ── Contexto histórico del HIE (sin API, lee KB local) ──────────────────
   let hieContext = '';
@@ -1388,7 +1384,9 @@ function renderVariants(text) {
     const msg1 = getBubbles('MSG1_B');
 
     const fullText = ['── MENSAJE 1 ──', ...msg1.map(b => b.text)].join('\n');
-    const b1html = msg1.map(b => `<div class="bwrap out"><div class="bub">${esc(b.text)}</div></div>`).join('');
+    const b1html = msg1.length
+      ? msg1.map(b => `<div class="bwrap out"><div class="bub">${esc(b.text)}</div></div>`).join('')
+      : `<div style="padding:14px 16px;color:#999;font-size:12.5px;font-style:italic;border:1.5px dashed #ddd;border-radius:9px;text-align:center">No se generó el mensaje para este perfil. Intentá de nuevo.</div>`;
 
     const varEl = document.createElement('div');
     varEl.className = 'variant' + (isBest ? ' variant-best' : '');

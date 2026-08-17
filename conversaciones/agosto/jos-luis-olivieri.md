@@ -5,7 +5,7 @@
 **Empresa:** Country Manager
 **Pais:** Chile
 **Sector:** Tecnología / Infraestructura Digital / Telecomunicaciones
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Cómo están manejando ustedes ese balance hoy entre lo que Datco promete y lo que la gente realmente ve en el terreno?
 
 ---
+
+## Respuesta MSG1
+> Hola, gracias por tu nota. Tenemos un portafolio de clientes pequeño. Si seguís lo que nuestro grupo publica verás que no hay mucho contenido. No somos generadores de knowhow. Nuestra comunicación es uno a uno, si bien en algunos casos nos vemos "obligados" a comunicar algo más por entidades regulatorias. Estamos por lo general en el 2do piso como suele decirse.
+
+## MSG2
+> Tiene sentido, el 2do piso tiene su lógica. Si la relación es uno a uno, la comunicación masiva sobra.
+> Lo que me queda como pregunta: cuando un cliente nuevo evalúa a Datco frente a otro proveedor de infraestructura, qué es lo que define que se inclinen por ustedes? Es solo la red, o hay algo más que entra en ese momento?
+> En Hint Media trabajamos con empresas como TGS y Transener que operan igual: no necesitan presencia masiva, pero sí necesitan que su criterio y su track record sean legibles para el decisor correcto.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas
