@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 15/08/26 — sesión tarde
+## Última sesión: 16/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -159,18 +159,24 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 15/08/26 tarde
+## Stats al cierre 16/08/26
 
 - Total historial: 814 contactos
-- Sesión 15/08: Pablo Julián Mateo (MSG2), Maximiliano Quintana (MSG2), Viviana Vasconez (cierre recontacto sept/26)
+- Sesión 16/08: Ana Beatriz Estrada (reunión agendada stage 6), nueva lista INDUSTRIA-ARG creada
 
-## Activos nuevos sesión 15/08
+## Activos nuevos sesión 16/08
 
 | Nombre | Stage | Nota |
 |--------|-------|------|
-| Pablo Julián Mateo | 2 - MSG2 enviado | Hendercross, consultoría Salesforce/IA, Argentina |
-| Maximiliano Quintana | 2 - MSG2 enviado | Consultor identidad visual/narrativa IA, Bali Indumentaria |
-| Viviana Vasconez Gallegos | Recontacto sept/26 | Cierre suave — "si tengo consulta te escribo" |
+| Ana Beatriz Estrada | 6 - Reunión agendada | Miércoles 18/08/26 11am — pendiente email para Google Meet |
+
+## Listas nuevas
+
+| Lista | Sector | Contactos | Estado |
+|-------|--------|-----------|--------|
+| INDUSTRIA-ARG | Maquinaria automatización, Construcción, Transporte camión, Envases/embalajes — Argentina | 192 clasificados (54 alto / 56 medio / 82 descarte) | Cargada 16/08/26 — MSG1 pendiente |
+
+**Prioridad 1er grado INDUSTRIA-ARG:** Pablo Cabrera (Gerente Comercial, LLT Traslados), Fernando Tarraga (Coordinador ventas, Nueva Casa), Gonzalo Sanchez (Responsable Cotizaciones, Baipro)
 
 ---
 
@@ -210,8 +216,9 @@ B3: "Tenemos un dossier breve con casos de ese tipo, a qué mail te lo mando?"
 
 ## Prioridades para próxima sesión
 
-1. **MSG1 Grupo A** — Pedro Donado, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman (nueva fórmula donde haya señal clara)
-2. **MSG1 Grupo B** — ~25 contactos AGOSTO/FCT COMMS pendientes
-3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
-4. **MSG2 pendiente** — Sandra Suárez Pérez (respondió sobre libro vs. marca personal)
-5. **MSG1 Grupo C** — orgánicos energía/seguros
+1. **REUNIÓN 18/08 11am** — Ana Beatriz Estrada, Central de Uniformes (Panamá) — confirmar email para Google Meet
+2. **MSG1 Grupo A** — Pedro Donado, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman
+3. **MSG1 Grupo B** — ~25 contactos AGOSTO/FCT COMMS pendientes
+4. **MSG1 INDUSTRIA-ARG 1er grado** — Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez
+5. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
+6. **MSG2 pendiente** — Sandra Suárez Pérez
