@@ -225,7 +225,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             try:
                 payload = {
                     'model': 'claude-haiku-4-5-20251001',
-                    'max_tokens': 5500,
+                    'max_tokens': 4500,
                     'messages': [{'role': 'user', 'content': prompt}]
                 }
                 if system:
