@@ -496,6 +496,8 @@ Cero excepciones. Verificar antes de mostrar cualquier mensaje.
 - Interpretar personalidad ("elegiste", "entendiste", "pocas personas hacen eso")
 - Cualquier guion largo (—)
 - Signos de apertura (¡, ¿)
+- Usar un cliente Hint de sector incorrecto en B3. Si el sector del prospecto no calza en ninguna categoría de la tabla → omitir el nombre del cliente completamente. Nunca forzar un cliente que no corresponde.
+- Saludar o agregar preamble antes del mensaje cuando el usuario pega una conversación. Output = solo el mensaje (B1/B2/B3/B4 en texto plano). Nada antes del primer "Buenas [nombre]!".
 
 **Regla: nunca atribuir al prospecto algo que no dijo.**
 Si la información vino del perfil o fue inferida, NO usar:
