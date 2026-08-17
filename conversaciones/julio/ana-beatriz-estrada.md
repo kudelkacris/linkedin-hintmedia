@@ -5,7 +5,7 @@
 **Empresa:** Central de Uniformes
 **Pais:** Panamá
 **Sector:** Uniformes / Marca Empleadora / Servicios Corporativos
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** Reunión agendada — 18/08/26 11am Google Meet
 
 ---
 
@@ -42,7 +42,20 @@
 ## Dossier enviado (06/07/26)
 > Buenas Ana Beatriz! Perfecto, en unos minutos te lo enviamos a gerencia-ventas@centraldeuniformes.com. Cualquier consulta acá estamos.
 
+## SEG1 (21/07/26)
+> Buenas Ana! Mandamos el material a gerencia-ventas. Llegó a las personas correctas? Si tiene sentido, podemos coordinar algo rápido para verlo juntos.
+
+## Respuesta SEG1 (16/08/26) — REUNIÓN AGENDADA
+> Buen día, podemos coordinar una sesión virtual para este próximo miércoles 18 de agosto 11 am
+
+## Mensaje confirmación reunión (16/08/26)
+> Buenas Ana Beatriz! Confirmado miércoles 18 a las 11 am.
+> Para que la reunión sea útil para las dos: en Hint trabajamos con empresas B2B de la región en comunicación de marca, para que la propuesta de valor llegue al cliente antes de que el proceso sea solo de precio. Si tiene sentido para lo que están construyendo en Central de Uniformes, creo que podemos aportar algo concreto.
+> A qué correo te enviamos el link de Google Meet?
+
 ## Notas
 - Email dossier: gerencia-ventas@centraldeuniformes.com
-- ICP limpio: Gerente compradora, no proveedora de comunicaciones
-- SEG1 en 48-72hs si no responde
+- ICP limpio: GM + Gerente Comercial, Panamá
+- Reunión: miércoles 18/08/26 11am — pendiente email para Google Meet
+- Clientes grandes: Banistmo, Más Móvil, Pascual, Porsche Panamá
+- CEO empresa: Jorge Bresler (también en LinkedIn, compartió mismo Summit)
