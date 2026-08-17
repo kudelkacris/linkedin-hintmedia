@@ -5,7 +5,7 @@
 **Empresa:** InfoNegocios (Director desde 2003)
 **Pais:** Argentina (Córdoba)
 **Sector:** Media / Periodismo / Comunicación
-**Estado:** 1 - MSG1 enviado (respuesta a su outreach)
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,6 +26,14 @@
 > Buenas Iñigo! Me sumé al newsletter.
 > Lo que me quedó de los 8 bullets del Expo EFI es que cada uno es una nota completa comprimida. La decisión de cuánto dar para que el lector quiera el resto es más difícil de lo que parece.
 > 23 años construyendo audiencias en Córdoba, cómo evolucionó ese criterio para decidir qué merece titular y qué no?
+
+## Respuesta MSG1 (17/08/26)
+> "Tal cual... en esos eventos hay muchas 'cositas' que a veces son poco para nota... y siempre corriendo contra el cierre :))"
+
+## MSG2 (17/08/26)
+> Muchas historias que merecerían ser nota no sobreviven el cierre porque nadie las preparó para ese momento.
+> Trabajo con empresas en armar esa capa — que cuando el periodista tiene 10 minutos, la historia ya venga digerida. Con compañías de energía e infraestructura principalmente.
+> Desde InfoNegocios, cómo lo ven — cuando una empresa llega con todo listo vs cuando hay que construirlo desde cero?
 
 ## Notas
 - InfoNegocios: 18K seguidores LinkedIn, 23 años de operación en Córdoba

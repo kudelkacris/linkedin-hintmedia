@@ -8047,7 +8047,8 @@
     "name": "José Luis Olivieri",
     "stage": "2",
     "date": "17/08/26",
-    "empresa": "Datco"
+    "empresa": "Datco",
+    "notes": "Cerrada - referido a Celeste Neyra celeste.neyra@datco.net"
   },
   {
     "name": "Alfredo Zepeda P.",
@@ -8469,5 +8470,13 @@
     "stage": 1,
     "date": "17/08/26",
     "empresa": "Gerente General"
+  },
+  {
+    "name": "Inigo Biain",
+    "stage": "2",
+    "date": "17/08/26",
+    "empresa": "InfoNegocios",
+    "sector": "Media / Periodismo",
+    "pais": "Argentina"
   }
 ]

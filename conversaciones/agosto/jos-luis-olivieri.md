@@ -5,7 +5,7 @@
 **Empresa:** Country Manager
 **Pais:** Chile
 **Sector:** Tecnología / Infraestructura Digital / Telecomunicaciones
-**Estado:** MSG2 enviado
+**Estado:** Cerrada — referido a Celeste Neyra (celeste.neyra@datco.net)
 
 ---
 
@@ -36,4 +36,16 @@
 > En Hint Media trabajamos con empresas como TGS y Transener que operan igual: no necesitan presencia masiva, pero sí necesitan que su criterio y su track record sean legibles para el decisor correcto.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
+## Respuesta MSG2 (17/08/26)
+> "Los casos donde aún yendo uno a uno los decisores bajan el martillo. Participamos de muchas licitaciones públicas con criterios claramente establecidos en..."
+> "En cualquier caso no soy la persona con quien quisieras hablar… envíale una nota a celeste.neyra@datco.net. Ella es marketing grupo datco."
+> "Lo q yo estoy haciendo acá en Chile es un shadow marketing… distinto a lo del grupo.. pero mejor q hables con ella… éxitos"
+
+## Cierre (17/08/26)
+> Genial José Luis, fue una conversación interesante. Me llevé bastante de lo que compartiste sobre el 2do piso y las licitaciones. Le escribo a Celeste.
+> Y lo del shadow marketing en Chile me da curiosidad — si en algún momento querés intercambiar ideas sobre ese lado, acá estoy.
+
 ## Notas
+- **REFERIDO: Celeste Neyra — celeste.neyra@datco.net — Marketing Grupo Datco**
+- José Luis hace "shadow marketing" en Chile para Datco (diferente al grupo)
+- Conversación cerrada con él — contacto real es Celeste
