@@ -5,7 +5,7 @@
 **Empresa:** Chile
 **Pais:** Chile
 **Sector:** Tecnología / Consultoría / Educación (liderazgo y transformación organizacional)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Cómo lo están pensando desde Continuum cuando acompañan a clientes en esa situación?
 
 ---
+
+## Respuesta MSG1 (17/08/26)
+> "Hola, como bien dices, no estoy haciendo lo que hace la mayoría porque no es mi objetivo sonar como experta en IA. Hoy en la práctica nadie lo es, sería pretencioso decir que lo somos porque hemos estado explorando formas de trabajar y soluciones con IA, en este momento estamos todos aprendiendo, unos más adelante otros más atrás. Algo que siempre hemos hecho con los clientes (y nos ha dado buenos resultados) es tener un acercamiento cercano a sus dolores, sin necesidad de mostrarnos como 'expertos' sino simplemente guiándolos en un camino donde vamos uno o dos pasos más adelante de ellos. Y esa cercanía y sencillez la agradecen bastante, porque nadie quiere sentir que está demasiado atrasado en conocimientos."
+
+## MSG2 (17/08/26)
+> Lo de "uno o dos pasos más adelante" como diferenciador es más honesto que cualquier claim de expertise — y probablemente más difícil de comunicar externamente.
+> La pregunta que me queda: cuando un cliente nuevo evalúa Continuum frente a otra consultora, cómo hacen legible ese diferenciador sin caer en los mismos mecanismos que están evitando?
+> En Hint Media trabajamos con equipos de consultoría y liderazgo, como Destiny Group y Libra Seguros, en construir esa capa: que el criterio y la perspectiva sean lo que captura al cliente correcto, no el portfolio.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

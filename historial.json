@@ -1408,7 +1408,7 @@
         "text": "Buenas Carolina, tu reflexión sobre \"gestionar el cambio en medio de la niebla\" me quedó dando vueltas. No escribiste un artículo sobre management, escribiste una confesión de que ni los gurús entienden adónde va la IA, pero los líderes igualmente tienen que elegir cómo comunicar eso a sus equipos. Eso no es lo que la mayoría hace cuando tiene que sonar como expert.\n\nEn Hint Media trabajamos con equipos de comunicación y transformación (TGS, Transener) que están atravesando precisamente eso: transformaciones donde el plan original queda obsoleto cada 3 meses, pero igual necesitan que su gente confíe en la dirección. La tensión es hacer que todo suene coherente cuando la realidad es que no hay certeza total.\n\nCómo lo están pensando desde Continuum cuando acompañan a clientes en esa situación?"
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -8048,7 +8048,14 @@
     "stage": "2",
     "date": "17/08/26",
     "empresa": "Datco",
-    "notes": "Cerrada - referido a Celeste Neyra celeste.neyra@datco.net"
+    "notes": "Cerrada - referido a Celeste Neyra celeste.neyra@datco.net",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "17/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Alfredo Zepeda P.",
@@ -8233,7 +8240,7 @@
   },
   {
     "name": "Pamela Auszenker, CFA",
-    "stage": 1,
+    "stage": "cerrada",
     "date": "17/08/26",
     "empresa": "Chile"
   },
