@@ -172,24 +172,34 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Sesión 17/08/26
+## Sesión 17/08/26 — CERRADA
 
 ### Movimientos
 | Nombre | Stage anterior | Stage nuevo | Nota |
 |--------|---------------|-------------|------|
 | Maximiliano Quintana | 2 | 3 - Dossier enviado | "Sí, mándamelo" — dossier enviado |
-| José (Antonio) Pedraza | 1 | 2 - MSG2 enviado | Respondió "En qué te puedo ayudar?" — MSG2 sobre Tokenchampions |
+| José (Antonio) Pedraza | 1 | 3 - Dossier enviado | Respondió "En qué te puedo ayudar?" — MSG2 + dossier |
+| Victor Perez-Cotapos | 1 | 2 - MSG2 enviado | Respondió sobre separar voz personal de ComunidadFeliz |
 
-### Cambios en programa (index.html)
+### MSG1 enviados hoy (stage 1)
+José Luis Olivieri, Alfredo Zepeda P., Adriana Bassi Martínez, Sebastian Benabidez, Roy Magariños, Mariano Fiorito CFA (Schroders), Diego Felipe Santana G. (Grant Thornton), Carlos Marcuello Aguirre, Sebastian Olano, Matias Arturo (Launch Consulting), Mateo De Los Rios (Treble), Alejandro Osores Namihas, Jose F. Villegas Delgado, Jorge Ivan Otalvaro Tobon, Laís Aoki, Andres Lopez Gibson, Juan Pablo Boccardi, María José Gutiérrez, Sonia Salvatierra, Carolina Rojas, Leonardo Oscar Iglesias, Carol Báez Pineda (BMC), Francisco Troncoso, Maurice Poirrier, Juana Pérez Martínez, Juan Camilo Velasco Hoyos, Pedro Donado Manrique, Lionel Cymerman
+
+### Cambios en programa (index.html / servidor.py)
 - **Nueva fórmula MSG1**: 3 burbujas — señal+insight / pain+Hint+cliente / CTA de biblioteca
-- **Biblioteca CTA**: 6 tipos (CONFIRMAR_PAIN, OBTENER_CONTEXTO, CURIOSIDAD, POSIBLE_ENCAJE, AVANZAR, ELECCIÓN_SIMPLE) — aplicado a MSG1 y MSG2
-- **Clientes por sector estricto**: no mezclar sectores al nombrar clientes Hint
-- **CTA max 1 línea / 15 palabras**: BURBUJA 3 de MSG1 y PASO 3 de MSG2
+- **Biblioteca CTA**: 6 tipos — DEFAULT = CTA_2 (OBTENER_CONTEXTO) sin pain confirmado
+- **Límites absolutos**: B1=35 palabras, B2=30, B3=15, total=80 (referencia agentes sales: <100)
+- **Eliminados 54 ¿** del prompt — contradecían el blocklist
+- **Fix burbujas vacías**: output en una sola línea por burbuja
+- **max_tokens**: 4500
 
-### Pendiente sesión 17/08
-- Regla de clientes por sector en MSG1 BURBUJA 2 (falta implementar en código)
-- Describir qué hace Hint con cada cliente (no solo nombrar)
-- Testear nueva fórmula con más perfiles antes de confirmar
+### Cambios CLAUDE.md (reglas permanentes)
+- Si sector no calza → omitir cliente, nunca usar uno incorrecto
+- Al recibir conversación pegada → solo el mensaje, sin preamble
+
+### Fix crítico historial.json
+- Archivo corrupto (8.5MB, escritura interrumpida mid-write)
+- Recuperados 660 entradas + 27 agregados manualmente = 687 total
+- Servidor: escritura atómica (temp + rename) + profileRaw limitado a 500 chars
 
 ## Listas nuevas
 

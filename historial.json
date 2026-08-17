@@ -8205,5 +8205,23 @@
     "date": "13/08/26",
     "empresa": "",
     "noInterest": true
+  },
+  {
+    "name": "Christian Wiens",
+    "stage": 1,
+    "date": "17/08/26",
+    "empresa": "Loman"
+  },
+  {
+    "name": "Tania León González",
+    "stage": 1,
+    "date": "17/08/26",
+    "empresa": "Cronoss"
+  },
+  {
+    "name": "Andres Roepke Del Solar",
+    "stage": 1,
+    "date": "17/08/26",
+    "empresa": "Chile"
   }
 ]
