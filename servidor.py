@@ -267,8 +267,15 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                         else:
                             no_id.append(entry)
                     merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True) + no_id
-                    with open(HIST_FILE, 'w', encoding='utf-8') as f:
+                    # Strip profileRaw to max 500 chars to prevent file bloat
+                    for e in merged:
+                        if 'profileRaw' in e and len(e.get('profileRaw','')) > 500:
+                            e['profileRaw'] = e['profileRaw'][:500]
+                    # Atomic write: temp file + rename to prevent corruption
+                    tmp = HIST_FILE + '.tmp'
+                    with open(tmp, 'w', encoding='utf-8') as f:
                         json.dump(merged, f, ensure_ascii=False, indent=2)
+                    os.replace(tmp, HIST_FILE)
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
