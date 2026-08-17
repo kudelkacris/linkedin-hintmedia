@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 16/08/26
+## Última sesión: 17/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -55,6 +55,10 @@
 | Maximiliano Quintana | 2 - MSG2 enviado | MSG2 15/08 — consultor identidad visual/narrativa IA, Bali Indumentaria | Esperar respuesta |
 | Tamara Lopez Leyton | 2 - Conversación activa | MSG3 13/08 — redirección amplificación externa, puerta entreabierta | Esperar respuesta |
 | Karla Osorio Rujano | 4 - SEG1 + email | SEG1 12/08 + email kosorio@visitpanama.com 13/08 | Jefe envía dossier por mail |
+| M. Wilma Lepre | 1 - MSG1 enviado | MSG1 17/08 — People Team Manager LATAM, Marcus Thomas LLC, ecosistema AI/Salesforce | Esperar respuesta |
+| Maximiliano Caro | 1 - MSG1 enviado | MSG1 17/08 — Head of Operations ERON International, iGaming/Fintech, post LATAM 1K reacciones | Esperar respuesta |
+| Pablo Emilio Salas | 1 - MSG1 enviado | MSG1 17/08 — Gerente General CAPAC SRL, servicios petroleros Mendoza | Esperar respuesta |
+| Iñigo Biain | 2 - MSG2 enviado | MSG2 17/08 — Periodista/Editor InfoNegocios Córdoba, ángulo licitaciones y narrativa | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado (12/08)
 
@@ -108,6 +112,7 @@
 
 | Nombre | Estado |
 |--------|--------|
+| José Luis Olivieri | Cerrada 17/08 — referido a **Celeste Neyra** (celeste.neyra@datco.net, Marketing Grupo Datco) |
 | Mauro Rochet Pagua | No interesado — 11/08 |
 | Ignacio Andree Muñoz Flores | No interesado — 31/07 |
 | Sonia Pérez-Castro | No interesada — 30/07 |
@@ -117,6 +122,10 @@
 | Romina Luna Venegas | No interesada — 04/08 |
 | Miguel Bocanument Gomez | No interesado — 12/08 |
 | Carmen Helena Villabona Ayala | No interesada — 12/08 |
+
+### Pendiente urgente — acción directa
+
+- **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08. Escribirle por mail o LinkedIn presentándose y mencionando que Olivieri sugirió el contacto.
 
 ### MSG1 pendiente urgente — ya conectados
 
