@@ -8204,8 +8204,13 @@
   {
     "name": "Claudia Hoyos Bastidas",
     "stage": "3",
-    "date": "13/08/26",
-    "empresa": ""
+    "date": "2026-08-13",
+    "empresa": "Enex",
+    "id": "claudia-hoyos-bastidas",
+    "email": "claudia.hoyos@enex.cl",
+    "sector": "Energia",
+    "pais": "Chile",
+    "recontact": "2026-10-01"
   },
   {
     "name": "Macarena Vargas Losada",
@@ -8707,5 +8712,15 @@
     "sector": "Audiovisual / Marketing",
     "pais": "Ecuador",
     "empresa": "TISHAL"
+  },
+  {
+    "id": "karla-osorio-rujano",
+    "name": "Karla Osorio Rujano",
+    "stage": 4,
+    "date": "2026-08-12",
+    "sector": "Turismo / Gobierno",
+    "pais": "Panama",
+    "empresa": "Visit Panama",
+    "email": "kosorio@visitpanama.com"
   }
 ]
