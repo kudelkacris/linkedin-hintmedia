@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 17/08/26
+## Última sesión: 18/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -34,7 +34,6 @@
 | Jaye Wallace | 2 - MSG3 enviado | MSG3 06/08 — ofrece red CEOs/Founders como referidos | Esperar respuesta |
 | Marcela Moncada Peraza | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
 | Catalina Escobar Bravo | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
-| Sandra Suárez Pérez | 1 - MSG1 enviado | Respondió 05/08 — habló de libro vs. marca personal | MSG2 pendiente |
 | Monica Saavedra Nieto | 2 - MSG2 enviado | MSG2 06/08 — Co-Founder Plurall fintech | Esperar respuesta |
 | Cristian González | 2 - MSG2 enviado | MSG2 06/08 — Founder Bocha Agency / educación | Esperar respuesta |
 | Daniela Fernanda Perez | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
@@ -52,13 +51,18 @@
 | Aleksán Buyuk Kurt | 2 - MSG3 enviado | MSG3 12/08 tarde — Hint insertado liviando, enfoque marca personal | Esperar respuesta |
 | Pablo Arroyo Blanco | 2 - MSG2 enviado | MSG2 13/08 — Odoo/PyMES Costa Rica, dossier por mail | Esperar respuesta |
 | Pablo Julián Mateo | 2 - MSG2 enviado | MSG2 15/08 — Hendercross, consultoría Salesforce/IA Argentina | Esperar respuesta |
-| Maximiliano Quintana | 2 - MSG2 enviado | MSG2 15/08 — consultor identidad visual/narrativa IA, Bali Indumentaria | Esperar respuesta |
+| Maximiliano Quintana | 3 - Dossier enviado | Dossier 17/08 — "Sí, mándamelo" | Esperar respuesta |
 | Tamara Lopez Leyton | 2 - Conversación activa | MSG3 13/08 — redirección amplificación externa, puerta entreabierta | Esperar respuesta |
-| Karla Osorio Rujano | 4 - SEG1 + email | SEG1 12/08 + email kosorio@visitpanama.com 13/08 | Jefe envía dossier por mail |
-| M. Wilma Lepre | 1 - MSG1 enviado | MSG1 17/08 — People Team Manager LATAM, Marcus Thomas LLC, ecosistema AI/Salesforce | Esperar respuesta |
-| Maximiliano Caro | 1 - MSG1 enviado | MSG1 17/08 — Head of Operations ERON International, iGaming/Fintech, post LATAM 1K reacciones | Esperar respuesta |
+| M. Wilma Lepre | 1 - MSG1 enviado | MSG1 17/08 — People Team Manager LATAM, Marcus Thomas LLC | Esperar respuesta |
+| Maximiliano Caro | 1 - MSG1 enviado | MSG1 17/08 — Head of Operations ERON International, iGaming/Fintech | Esperar respuesta |
 | Pablo Emilio Salas | 1 - MSG1 enviado | MSG1 17/08 — Gerente General CAPAC SRL, servicios petroleros Mendoza | Esperar respuesta |
-| Iñigo Biain | 2 - MSG2 enviado | MSG2 17/08 — Periodista/Editor InfoNegocios Córdoba, ángulo licitaciones y narrativa | Esperar respuesta |
+| Iñigo Biain | 2 - MSG2 enviado | MSG2 17/08 — Periodista/Editor InfoNegocios Córdoba | Esperar respuesta |
+| Victor Perez-Cotapos | 2 - MSG2 enviado | MSG2 17/08 — separar voz personal de ComunidadFeliz | Esperar respuesta |
+| Carolina Rojas | 2 - MSG2 enviado | MSG2 17/08 — metodología "uno o dos pasos adelante" | Esperar respuesta |
+| Sandra Suárez Pérez | 3 - Dossier LinkedIn | Dossier 18/08 — speakers y autoras | Esperar respuesta |
+| Luis Mendieta Padilla | 2 - MSG2 enviado | MSG2 18/08 — métricas antes de arrancar, Ecuador audiovisual | Esperar respuesta |
+| Patricio O'Kon | 3 - Dossier por mail | Dossier 18/08 — patricio@papelpicadoweb.com | Jefe envía dossier |
+| Gabriel Cardozo | 2 - MSG2 enviado | MSG2 18/08 — apunta a referido dentro de Fabrica SRL | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado (12/08)
 
@@ -99,6 +103,7 @@
 | Claudia Zazzali | nov/26 | — |
 | David Beltrán | nov/26 | — |
 | María Eugenia Fracchia | nov/26 | Celu 1164521943, dossier por WA |
+| Juan Felipe Gómez Martínez | nov/26 | Casa matriz centraliza RRSS — cierre suave 18/08 |
 
 ### Pendiente sin SEG1
 
@@ -112,6 +117,8 @@
 
 | Nombre | Estado |
 |--------|--------|
+| Jose Fernando Martinez | Cerrada 18/08 — no es su área, foco en partnerships directos |
+| Pamela Auszenker, CFA | Cerrada 17/08 — rechazó educadamente |
 | José Luis Olivieri | Cerrada 17/08 — referido a **Celeste Neyra** (celeste.neyra@datco.net, Marketing Grupo Datco) |
 | Mauro Rochet Pagua | No interesado — 11/08 |
 | Ignacio Andree Muñoz Flores | No interesado — 31/07 |
@@ -125,22 +132,24 @@
 
 ### Pendiente urgente — acción directa
 
-- **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08. Escribirle por mail o LinkedIn presentándose y mencionando que Olivieri sugirió el contacto.
+- **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08.
+- **Patricio O'Kon** — dossier por mail a patricio@papelpicadoweb.com. Jefe debe enviar.
 
 ### MSG1 pendiente urgente — ya conectados
 
-**Grupo A — sesión anterior:**
-Pedro Donado Manrique (Zona Franca Barranquilla), Tamara Lopez Leyton: en conversación, Juan Camilo Velasco Hoyos (Deriv Colombia), Carlos Hernando Fonseca Sanclemente (Keralty), Victor Perez-Cotapos (ComunidadFeliz.com), Carla Mariman Ibarra (PrevenConCiencia)
+**Grupo A:** Pedro Donado Manrique, Juan Camilo Velasco Hoyos, Carlos Fonseca, Carla Mariman Ibarra
 
-**Grupo B — AGOSTO 2026 / FCT COMMS, aceptaron 9-11/08:**
-Pablo Vergara (Fintoc), Marcelo Erezuma B., Sebastian Olano (SoFi), Ernesto Seidel, Diego Felipe Santana G. (Grant Thornton), Lionel Cymerman, Laura Peña Rodriguez: MSG2 enviado, Vanesa Gambirazio (ID4YOU), Ana María Marcet (Fintech SGR), Carol Báez Pineda (Bolsa Mercantil Colombia), Juan Felipe Gómez Martínez (Nacional de Seguros), Daniel Seva, Rafael Ruiz: Dossier enviado, Diego San Esteban, Marcelo Franceschini, Leonardo Oscar Iglesias (YPF/UCEMA), David Riveros Fonseca (Hackmetrix), Jimena Ruiz Velásquez (FINAGRO), Marcos Nicolaides, Patricio O'Kon, Andrea Grobocopatel (FLOR), Diego Manfio (OSDE), Sebastian Rimmele, Santiago José Reyes Botero: Dossier enviado, Guillermo Barbero (FIRST CF), Monica Melito, Tatyana Orozco De La Cruz (Consultia), Alex Reyes-Ortiz, Maximiliano Santa Cruz, Maximiliano Quintana
+**Grupo B — AGOSTO 2026 / FCT COMMS pendientes MSG1:**
+Pablo Vergara, Marcelo Erezuma B., Ernesto Seidel, Diego Felipe Santana G., Lionel Cymerman, Vanesa Gambirazio, Ana María Marcet, Carol Báez Pineda, Daniel Seva, Diego San Esteban, Marcelo Franceschini, Leonardo Oscar Iglesias, David Riveros Fonseca, Jimena Ruiz Velásquez, Marcos Nicolaides, Andrea Grobocopatel, Diego Manfio, Sebastian Rimmele, Guillermo Barbero, Monica Melito, Tatyana Orozco De La Cruz, Alex Reyes-Ortiz, Maximiliano Santa Cruz
 
-**Grupo C — orgánicos con buen fit (prioridad media):**
-Néstor Consuegra Gutiérrez (Promigas), Andres Lopez Gibson (Darcy Partners energía), Marcelo Riquelme (Petroplastic), Luciano Fucello (Oil & Gas Vaca Muerta), Tomas de Pablos Souza (Minerales críticos), Igor Elias (Mining), Alejandro Rodrigo Monteiro (OFEPHI), Enrique Vidal Bazterrica (GARMIN Marketing), Laís Aoki (Intermac Seguros), Mariano Fiorito (Schroders), Jorge Ivan Otalvaro Tobon (VP Banca), Juan Ignacio Abuchdid (Grupo IEB)
+**Grupo C — orgánicos pendientes:**
+Néstor Consuegra Gutiérrez, Marcelo Riquelme, Luciano Fucello, Tomas de Pablos Souza, Igor Elias, Alejandro Rodrigo Monteiro, Enrique Vidal Bazterrica, Laís Aoki, Mariano Fiorito, Juan Ignacio Abuchdid
+
+**INDUSTRIA-ARG (MSG1 pendiente — 85 contactos conectados 16-18/08)**
 
 ### FCT COMMS 1.0 — pendientes MSG1
 
-Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Rita Galmarini, Federico Arce, Andrés Quiles Ruiz, Pablo Julián Mateo, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Clara Massenzio, Fernando Diosdado, Julio Madrazo, Paola Manjarrés, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Carolina Martinez Plazas, Magdalena Del Solar, Valeria Abadi, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa
+Uri Martinich, Raúl González-Romero, Tomás Sarmiento, Cristhian Fuentes, Carlos Merchan Cubillos, Matias Vazquez, Luis Miguel Alzate, Juan Pablo Nieto, Rita Galmarini, Federico Arce, Andrés Quiles Ruiz, Mariemma Ramos Nava, Eugenia Kessler, Luis Hernandez Mojica, Clara Massenzio, Fernando Diosdado, Julio Madrazo, Paola Manjarrés, Bruno Caravantes, Leonardo Garcia Medina, Rodrigo Alvial, Rui Goncalves, Carolina Martinez Plazas, Magdalena Del Solar, Valeria Abadi, Edwar Ruiz Pimentel, Daniela López Ochoa, Janette Rodríguez Villa
 
 ### Batch pendiente de respuesta (MSG1 enviado 27/07)
 
@@ -157,69 +166,32 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 - "No interesado" = `noInterest: true` en historial.json, NO stage 5
 - stage 5 = "Seg. 2" en el programa (seguimiento 2)
 - Campos historial: `name`, `date`, `stage` (int), `id` (slug obligatorio)
+- Entradas sin `id` no se pueden abrir en el viewer — siempre agregar id al crear entradas nuevas
 - Libra Seguros NO es cliente de salud — nunca para sector salud/medicina
 - Sin clientes Hint en salud ni educación — presentar solo por metodología
 - Rafael Borges: sector real = Farmacéutico/Servier Panamá
-- max_tokens servidor.py = 5500 (fix bug perfiles ricos, 05/08/26)
+- max_tokens servidor.py = 5500
 - Variante C eliminada — solo Variante A (28.5% conversión vs 19.4%)
-- Campo `recontact` = fecha ISO (ej: "2026-09-12") — el programa lo lee para excluir del conteo Dossier y de proximos
-- index.html Linkedin: usa campo `recontact` (no `followup_date`) para clasificar recontactos
+- Campo `recontact` = fecha ISO (ej: "2026-11-18") — excluye del conteo Dossier y de proximos
+- index.html Linkedin: usa campo `recontact` para clasificar recontactos
 - idioma/tono hardcodeados: Español / Profesional
 
 ---
 
-## Stats al cierre 16/08/26
+## Stats al cierre 18/08/26
 
-- Total historial: 814 contactos
-- Sesión 16/08: Ana Beatriz Estrada (reunión agendada stage 6), nueva lista INDUSTRIA-ARG creada
+- Total historial: ~768 contactos
+- Sesión 18/08: Sandra Suárez (dossier LI), Patricio O'Kon (dossier mail), Luis Mendieta (MSG2), Gabriel Cardozo (MSG2 + referido), Juan Felipe Gómez (recontact nov/26), Jose Fernando Martinez (cerrada)
+- Fix viewer: entradas sin `id` no abren — corregido Patricio O'Kon, Claudia Hoyos, Karla Osorio
 
-## Activos nuevos sesión 16/08
+## Prioridades para próxima sesión
 
-| Nombre | Stage | Nota |
-|--------|-------|------|
-| Ana Beatriz Estrada | 6 - Reunión agendada | Miércoles 18/08/26 11am — pendiente email para Google Meet |
-
----
-
-## Sesión 17/08/26 — CERRADA
-
-### Movimientos
-| Nombre | Stage anterior | Stage nuevo | Nota |
-|--------|---------------|-------------|------|
-| Maximiliano Quintana | 2 | 3 - Dossier enviado | "Sí, mándamelo" — dossier enviado |
-| José (Antonio) Pedraza | 1 | 3 - Dossier enviado | Respondió "En qué te puedo ayudar?" — MSG2 + dossier |
-| Victor Perez-Cotapos | 1 | 2 - MSG2 enviado | Respondió sobre separar voz personal de ComunidadFeliz |
-| Iñigo Biain | 1 | 2 - MSG2 enviado | Respondió sobre licitaciones — MSG2 enviado 17/08 tarde |
-| Carolina Rojas | 1 | 2 - MSG2 enviado | Respondió con metodología "uno o dos pasos adelante" — MSG2 enviado 17/08 tarde |
-| Pamela Auszenker, CFA | 1 | cerrada | Rechazó educadamente — "Por el momento no" |
-
-### MSG1 enviados hoy (stage 1)
-José Luis Olivieri, Alfredo Zepeda P., Adriana Bassi Martínez, Sebastian Benabidez, Roy Magariños, Mariano Fiorito CFA (Schroders), Diego Felipe Santana G. (Grant Thornton), Carlos Marcuello Aguirre, Sebastian Olano, Matias Arturo (Launch Consulting), Mateo De Los Rios (Treble), Alejandro Osores Namihas, Jose F. Villegas Delgado, Jorge Ivan Otalvaro Tobon, Laís Aoki, Andres Lopez Gibson, Juan Pablo Boccardi, María José Gutiérrez, Sonia Salvatierra, Carolina Rojas, Leonardo Oscar Iglesias, Carol Báez Pineda (BMC), Francisco Troncoso, Maurice Poirrier, Juana Pérez Martínez, Juan Camilo Velasco Hoyos, Pedro Donado Manrique, Lionel Cymerman
-
-### Cambios en programa (index.html / servidor.py)
-- **Nueva fórmula MSG1**: 3 burbujas — señal+insight / pain+Hint+cliente / CTA de biblioteca
-- **Biblioteca CTA**: 6 tipos — DEFAULT = CTA_2 (OBTENER_CONTEXTO) sin pain confirmado
-- **Límites absolutos**: B1=35 palabras, B2=30, B3=15, total=80 (referencia agentes sales: <100)
-- **Eliminados 54 ¿** del prompt — contradecían el blocklist
-- **Fix burbujas vacías**: output en una sola línea por burbuja
-- **max_tokens**: 4500
-
-### Cambios CLAUDE.md (reglas permanentes)
-- Si sector no calza → omitir cliente, nunca usar uno incorrecto
-- Al recibir conversación pegada → solo el mensaje, sin preamble
-
-### Fix crítico historial.json
-- Archivo corrupto (8.5MB, escritura interrumpida mid-write)
-- Recuperados 660 entradas + 27 agregados manualmente = 687 total
-- Servidor: escritura atómica (temp + rename) + profileRaw limitado a 500 chars
-
-## Listas nuevas
-
-| Lista | Sector | Contactos | Estado |
-|-------|--------|-----------|--------|
-| INDUSTRIA-ARG | Maquinaria automatización, Construcción, Transporte camión, Envases/embalajes — Argentina | 192 clasificados (54 alto / 56 medio / 82 descarte) | Cargada 16/08/26 — MSG1 pendiente |
-
-**Prioridad 1er grado INDUSTRIA-ARG:** Pablo Cabrera (Gerente Comercial, LLT Traslados), Fernando Tarraga (Coordinador ventas, Nueva Casa), Gonzalo Sanchez (Responsable Cotizaciones, Baipro)
+1. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
+2. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+3. **MSG1 Grupo A** — Pedro Donado, Juan Camilo Velasco, Carlos Fonseca, Carla Mariman
+4. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
+5. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+6. **MSG2 pendiente** — Sandra Suárez (respondió al dossier?)
 
 ---
 
@@ -237,14 +209,6 @@ L5: CTA híbrido — dossier + reunión en una sola oración
 
 **CTA híbrido:** "Te mando un dossier breve con casos de ese tipo, y si tiene sentido, lo vemos en una llamada?"
 
-### MSG2 con CTA híbrido (cuando responden al MSG1 clásico)
-
-```
-B1: conectar con lo que dijeron (2 líneas)
-B2: Hint + pain específico (2 líneas)
-B3: "Tenemos un dossier breve con casos de ese tipo, a qué mail te lo mando?"
-```
-
 ### Cuándo usar MSG1 clásico vs nueva fórmula
 
 | Perfil | Señal | Pain visible | MSG1 a usar |
@@ -254,14 +218,3 @@ B3: "Tenemos un dossier breve con casos de ese tipo, a qué mail te lo mando?"
 | Director / VP | Publicación reciente | Sí | Nueva fórmula o clásico |
 | Manager | Cualquiera | Cualquiera | Clásico siempre |
 | Speaker / Marca personal | Alta actividad | Sí | Nueva fórmula liviana |
-
----
-
-## Prioridades para próxima sesión
-
-1. **REUNIÓN 18/08 11am** — Ana Beatriz Estrada, Central de Uniformes (Panamá) — confirmar email para Google Meet
-2. **MSG1 Grupo A** — Pedro Donado, Juan Camilo Velasco, Carlos Fonseca, Victor Perez-Cotapos, Carla Mariman
-3. **MSG1 Grupo B** — ~25 contactos AGOSTO/FCT COMMS pendientes
-4. **MSG1 INDUSTRIA-ARG 1er grado** — Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez
-5. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
-6. **MSG2 pendiente** — Sandra Suárez Pérez

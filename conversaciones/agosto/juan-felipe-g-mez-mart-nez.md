@@ -5,7 +5,7 @@
 **Empresa:** Nacional de Seguros Colombia
 **Pais:** Colombia
 **Sector:** Seguros
-**Estado:** MSG1 enviado
+**Estado:** Recontacto nov/26 — 18/08/26
 
 ---
 
@@ -27,4 +27,11 @@
 
 ---
 
+## Respuesta MSG1 (18/08/26)
+> "Actualmente desde casa matriz tenemos centralizado el manejo de redes y relacionamiento externo, por lo que por el momento esta necesidad la estamos atendiendo con recursos internos. Si esta situación en el futuro llega a cambiar, seguramente te busco para revisar a profundidad."
+
+## Cierre enviado (18/08/26)
+> "Tiene sentido Juan Felipe, gracias por la transparencia. Quedo en contacto para cuando el panorama cambie. Suerte con la expansión, se viene grande."
+
 ## Notas
+- Recontactar nov/26 — casa matriz centraliza RRSS, no hay apertura ahora
