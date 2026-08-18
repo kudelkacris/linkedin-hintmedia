@@ -5,7 +5,8 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Deporte / Marketing Deportivo / Medios
-**Estado:** MSG1 enviado
+**Estado:** Dossier por mail — 18/08/26
+**Email:** patricio@papelpicadoweb.com
 
 ---
 
@@ -18,9 +19,19 @@
 
 ---
 
-## MSG1
->
+## MSG1 (18/08/26)
+> Buenas Patricio!
+> Vi tu nota sobre Pirlo, Castanio y cómo nadie cuida las marcas de los jugadores cuando más lo necesitan.
+> En ese contexto el desafío suele ser ese: inversión en exposición sin una capa narrativa que la sostenga destruye capital simbólico más rápido de lo que lo construye.
+> En Hint Media trabajamos esa capa: narrativa y contenido que convierte exposición en capital de marca real.
+> Te mando un dossier breve con casos concretos, y si tiene sentido, lo vemos en una llamada?
 
----
+## Respuesta MSG1 (18/08/26)
+> "Gracias x contactar. Mandame a patricio@papelpicadoweb.com."
+
+## Dossier por mail (18/08/26)
+- Email: patricio@papelpicadoweb.com
+- Confirmación enviada por LinkedIn: "Genial Patricio, envío por ahí y estamos en contacto."
 
 ## Notas
+- Dossier se envía por mail desde Florencia. Jefe debe ver este contacto en el programa.
