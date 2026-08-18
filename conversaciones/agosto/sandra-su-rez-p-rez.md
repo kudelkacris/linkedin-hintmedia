@@ -5,7 +5,7 @@
 **Empresa:** Vistage Colombia
 **Pais:** Colombia
 **Sector:** Educación Ejecutiva / Desarrollo Profesional / Coaching
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — 18/08/26
 
 ---
 
@@ -33,5 +33,14 @@
 ## Respuesta MSG1 — 2 (05/08/26)
 > "Son dos temas diferentes. Una cosa es divulgar contenido de un libro y otra es la comunicación de mi marca personal o empresa."
 
+## Intercambio (18/08/26)
+> Florencia: "La consulta era sobre esa tensión que percibí: estás conformando un círculo muy selectivo de 16 líderes, y al mismo tiempo producís contenido masivo en YouTube y redes. Quería entender cómo hacés para que lo público amplifique lo exclusivo, en vez de diluirlo."
+> Sandra: "Son dos temas diferentes. Una cosa es divulgar contenido de un libro que escribí y otra cosa es participar de un grupo de empresarios. No hay ninguna tensión porque son actividades diferentes."
+> Florencia: "No lo había entendido así. Y lo del libro me llama la atención — en Hint trabajamos con speakers y autoras en hacer que su contenido llegue más lejos, más canales, más audiencias. Si querés te mando el dossier."
+> Sandra: "Me lo puedes mandar y lo reviso."
+
+## Dossier enviado (18/08/26)
+> "Acá va el dossier — tiene casos de speakers y autoras que acompañamos en distribución de contenido y amplificación de canal. Si alguno resuena con lo que estás construyendo con el libro, creo que podemos tener una conversación interesante."
+
 ## Notas
-- MSG2 pendiente — conversación activa sobre libro + marca personal
+- Dossier enviado por LinkedIn — seguimiento en 48-72hs

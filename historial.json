@@ -8266,7 +8266,8 @@
     "name": "Jose Fernando (₿) Martinez",
     "stage": 1,
     "date": "17/08/26",
-    "empresa": "Área metropolitana de Bogotá D.C."
+    "empresa": "Área metropolitana de Bogotá D.C.",
+    "noInterest": true
   },
   {
     "name": "M. Wilma Lepre (she/her)",
@@ -8485,5 +8486,215 @@
     "empresa": "InfoNegocios",
     "sector": "Media / Periodismo",
     "pais": "Argentina"
+  },
+  {
+    "name": "Guillermo Barbero",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "FIRST Corporate Finance Advisors S.A."
+  },
+  {
+    "name": "Luciano Fucello",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Tomas de Pablos Souza",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Matías Peralta",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Marcos Nicolaides",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Presidente de Empresas Nicolaides"
+  },
+  {
+    "name": "Brian Brenta",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Andrea Grobocopatel",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Fundación FLOR"
+  },
+  {
+    "name": "Patricio Quijada Menanteaux",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Alex Reyes-Ortiz",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Vida y Abundancia"
+  },
+  {
+    "name": "Igor Elias",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Área metropolitana de Santiago"
+  },
+  {
+    "name": "Sebastian Plotno",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Vice President - LATAM"
+  },
+  {
+    "name": "Mariano Pizarro",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Comunicación ♦ Viajes y Turismo"
+  },
+  {
+    "name": "Anita Marambio Reynes",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Andres Meta",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Patricio O´Kon",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Luis Bermejo",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "ALAYA Capital"
+  },
+  {
+    "name": "Adriana Meldini",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "LinkedIn"
+  },
+  {
+    "name": "Valeria Buitrago",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Family Office Club"
+  },
+  {
+    "name": "Carlos Honorato Comandari",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Área metropolitana de Santiago"
+  },
+  {
+    "name": "Mariano Ricco .",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Mariano Rubinstein",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Sura Gaming"
+  },
+  {
+    "name": "Resha Shroff",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Lynx Automaton"
+  },
+  {
+    "name": "Guillermo Guiricich",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Marianela Cisternas Soto",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Fundación Belén Educa"
+  },
+  {
+    "name": "René Zuleta",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "San José Metropolitan Area"
+  },
+  {
+    "name": "Wilson Pais",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "VCs"
+  },
+  {
+    "name": "Pablo Cabrera",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "B2B - Traslados corporativos 🌿"
+  },
+  {
+    "name": "Gonzalo A. Sanchez",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Baipro"
+  },
+  {
+    "name": "Gabriel Cardozo",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Fabrica SRL"
+  },
+  {
+    "name": "Sebastian Bazzani",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "UTN BA"
+  },
+  {
+    "name": "Jonatan (Joni) Lopez",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Bioingepro SRL"
+  },
+  {
+    "name": "Melanie Weimberg",
+    "stage": 1,
+    "date": "18/08/26",
+    "empresa": "Manantial Grupo Humano"
+  },
+  {
+    "id": "sandra-suarez-perez",
+    "name": "Sandra Suárez Pérez",
+    "stage": 3,
+    "date": "2026-08-05",
+    "sector": "Educación Ejecutiva / Coaching",
+    "pais": "Colombia",
+    "empresa": "Vistage Colombia"
+  },
+  {
+    "id": "luis-mendieta-padilla",
+    "name": "Luis Mendieta Padilla",
+    "stage": 2,
+    "date": "2026-08-12",
+    "sector": "Audiovisual / Marketing",
+    "pais": "Ecuador",
+    "empresa": "TISHAL"
   }
 ]

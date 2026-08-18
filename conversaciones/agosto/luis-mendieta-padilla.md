@@ -5,7 +5,7 @@
 **Empresa:** Director y Productor TISHAL
 **Pais:** Ecuador
 **Sector:** Audiovisual / Marketing / Producción Creativa
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — 18/08/26
 
 ---
 
@@ -26,5 +26,15 @@
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
 
 ---
+
+## Respuesta MSG1 (18/08/26)
+> "Hola, mucho gusto. Disculpa que recién responda. Cómo te va! Buen día, claro, en el mundo real todos quieren resultados. Cuéntame en qué te puedo ayudar..."
+
+## MSG2 (18/08/26)
+> Buenas Luis!
+> En el mundo real todos quieren resultados. El problema es que nadie define cuáles antes de arrancar.
+> Cómo hacés para que el cliente acuerde métricas concretas antes de empezar?
+> En Hint trabajamos exactamente en eso con marcas que necesitan contenido con retorno medible, no solo presencia.
+> Tenemos un dossier breve con casos concretos. Te lo mando por acá si te parece?
 
 ## Notas
