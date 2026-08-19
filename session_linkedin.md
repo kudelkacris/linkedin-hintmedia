@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 18/08/26
+## Última sesión: 19/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -178,20 +178,18 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 18/08/26
+## Stats al cierre 19/08/26
 
 - Total historial: ~768 contactos
-- Sesión 18/08: Sandra Suárez (dossier LI), Patricio O'Kon (dossier mail), Luis Mendieta (MSG2), Gabriel Cardozo (MSG2 + referido), Juan Felipe Gómez (recontact nov/26), Jose Fernando Martinez (cerrada)
-- Fix viewer: entradas sin `id` no abren — corregido Patricio O'Kon, Claudia Hoyos, Karla Osorio
+- Sesión 19/08: Juan Camilo Velasco Hoyos (MSG2 — fintech multipaís), Magdalena Ruete Aguirre (MSG2 — dossier directo)
 
 ## Prioridades para próxima sesión
 
 1. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
 2. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-3. **MSG1 Grupo A** — Pedro Donado, Juan Camilo Velasco, Carlos Fonseca, Carla Mariman
+3. **MSG1 Grupo A** — Pedro Donado, Carlos Fonseca, Carla Mariman
 4. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
 5. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
-6. **MSG2 pendiente** — Sandra Suárez (respondió al dossier?)
 
 ---
 

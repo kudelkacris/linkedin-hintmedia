@@ -5,7 +5,7 @@
 **Empresa:** Universidad Complutense de Madrid
 **Pais:** Argentina
 **Sector:** Educación Ejecutiva / Finanzas / Transformación Digital
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,12 @@
 > Cómo están abordando la comunicación de esta etapa de lanzamiento desde PRIME?
 
 ---
+
+## Respuesta MSG1
+> Hola Florencia. Gracias por tu tiempo en leer mi Perfil y por tus palabras.
+
+## MSG2
+> Gracias a vos, Magdalena.
+> Te mando el dossier por acá para que veas los casos, y si algo te resuena lo charlamos.
 
 ## Notas

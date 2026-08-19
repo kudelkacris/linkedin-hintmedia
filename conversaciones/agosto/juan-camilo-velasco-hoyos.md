@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Fintech / Servicios Financieros
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,13 @@
 > ¿Es algo que también aparece cuando escalás operaciones en Colombia y Brasil simultáneamente?
 
 ---
+
+## Respuesta MSG1
+> Exacto! Es el cuello de botella clásico del crecimiento acelerado. Cuando expandes operaciones a través de varios mercados al mismo tiempo, el diseño arquitectónico de nada sirve si la primera línea operativa se desborda. Resolver ese puente entre estrategia y capacidad de ejecución es el verdadero reto.
+
+## MSG2
+> Claro que sí, y en expansión multipaís se multiplica: Colombia no corre igual que Brasil, y lo que funciona en un mercado puede frenar al otro.
+> Lo que hacemos en Hint es meter el equipo de ejecución directo en la estructura del cliente para que ese puente no dependa de que el arquitecto esté en todas partes al mismo tiempo. Tenemos casos concretos de empresas que estaban exactamente en ese punto.
+> Si querés te paso el dossier, y si algún caso te resuena, lo charlamos.
 
 ## Notas
