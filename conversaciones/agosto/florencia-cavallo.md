@@ -5,7 +5,7 @@
 **Empresa:** Sales Navigator
 **Pais:** Argentina
 **Sector:** Energía (inferido por ubicación Rosario, pero no explícito en perfil — riesgo bajo)
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -24,6 +24,14 @@
 > En Hint Media trabajamos como equipo integrado en marketing y operaciones de empresas como Sullair y TGS, armando procesos que aguanten crecimiento sin que todo dependa de personas. Exactamente lo que una PMO necesita que suceda en ejecución.
 >
 > Si te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda.
+
+---
+
+## Respuesta MSG1
+> "Hola Florencia, si me interesaría que me compartas el dossier. Muchas gracias por contactarme"
+
+## Dossier (20/08/26)
+> Perfecto, te lo comparto ahora. Cuando lo veas me contás qué te pareció y si tiene sentido lo charlamos.
 
 ---
 

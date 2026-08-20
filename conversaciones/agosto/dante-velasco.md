@@ -5,7 +5,7 @@
 **Empresa:** Mendoza y alrededores
 **Pais:** Argentina
 **Sector:** Construcción / Infraestructura / Oil & Gas / Minería
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -24,6 +24,14 @@
 > En Hint Media trabajamos con empresas de infraestructura como Sullair, TGS y Transener en construir la narrativa que hace legible la capacidad técnica antes de que los proyectos lleguen a licitación.
 >
 > Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.
+
+---
+
+## Respuesta MSG1
+> "Pasame el dossier"
+
+## Dossier (20/08/26)
+> Perfecto, te lo comparto ahora. Cuando lo veas me contás qué te pareció y si tiene sentido lo charlamos.
 
 ---
 
