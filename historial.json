@@ -1,5 +1,15 @@
 [
   {
+    "name": "Francisco Jones",
+    "cargo": "Ing. Electricista Industrial | CEO ING&TEC S.R.L.",
+    "empresa": "ING&TEC S.R.L.",
+    "pais": "Argentina",
+    "sector": "Energía / Infraestructura Eléctrica",
+    "stage": "3",
+    "date": "20/08/26",
+    "id": "francisco-jones"
+  },
+  {
     "id": "ximena-ruget",
     "nombre": "Ximena Ruget",
     "cargo": "Co-Founder & President",
@@ -333,7 +343,8 @@
     "sector": "Gobierno Digital / Tech",
     "stage": "1",
     "date": "17/08/26",
-    "id": "maurice-poirrier"
+    "id": "maurice-poirrier",
+    "recontact": "2026-11-20"
   },
   {
     "id": "matias-varone",
@@ -8723,5 +8734,157 @@
     "pais": "Panama",
     "empresa": "Visit Panama",
     "email": "kosorio@visitpanama.com"
+  },
+  {
+    "name": "Martin Pita",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Universidad Nacional del Comahue (Neuquén)"
+  },
+  {
+    "name": "Christian Alberto Liberatore",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Gerente de Operaciones"
+  },
+  {
+    "name": "Renzo Gabriel De Stefano",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Tomas Vassallo",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "ARQUITECTO FAU-UNLP"
+  },
+  {
+    "name": "Mariela Schenone",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Finanzas, Tecnología & Real Estate"
+  },
+  {
+    "name": "Cristian Díaz",
+    "stage": 0,
+    "date": "20/08/26",
+    "empresa": "Valvtronic S.A.",
+    "estado": "No interesado",
+    "stageHistory": [
+      {
+        "stage": 0,
+        "date": "20/08/26",
+        "note": "Cerrada"
+      }
+    ]
+  },
+  {
+    "name": "Sofia Diaz",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Mauro Enzo Gallina",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "PREAR Soluciones Premoldeadas"
+  },
+  {
+    "name": "Romina Victoria Giubergia Quirós",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Customer Experience (CX)"
+  },
+  {
+    "name": "Victoria (vitu - she/her) Molina, PMP®",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "BetterPros"
+  },
+  {
+    "name": "Adrián Martín Ferrando",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Capital Humano"
+  },
+  {
+    "name": "Eduardo Tato",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "CINC S.A."
+  },
+  {
+    "name": "Federico Martinez",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Magirus GmbH"
+  },
+  {
+    "name": "Marcelo R. (MarChello) Matarazzi",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "UNIVERSIDAD TECNOLOGICA NACIONAL"
+  },
+  {
+    "name": "Fernando Moyano Saldivia",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Sebastian Kemerer",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Racklatina S.A."
+  },
+  {
+    "name": "Antonio Perez Espinoza",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Mapei Argentina"
+  },
+  {
+    "name": "Lucía Abalone",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Ingeniera civil"
+  },
+  {
+    "name": "Fernanda Patrone",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Estefania Andreu",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Project - Civil Engineer"
+  },
+  {
+    "name": "RENE ROLANDO CORREA",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Brava Soluciones Oil & Gas"
+  },
+  {
+    "name": "Solana Milagros Galarza",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Mediterráneo S.A."
+  },
+  {
+    "name": "Priscila Elisabeth Iantosca",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Marketing Estrategy & Brand Leader"
+  },
+  {
+    "name": "Jose Ignacio Petrillo",
+    "stage": 1,
+    "date": "20/08/26",
+    "empresa": "Grupo PMP"
   }
 ]

@@ -5,7 +5,7 @@
 **Empresa:** Gobierno Digital Chile
 **Pais:** Chile
 **Sector:** Gobierno Digital / Tech / Bitcoin
-**Estado:** MSG1 enviado
+**Estado:** Cerrado — recontacto nov/26
 
 ---
 
@@ -22,6 +22,15 @@
 > Buenas Maurice! El post cuando asumiste en la SGD me quedó dando vueltas. No escribiste "voy a mejorar las plataformas", escribiste "los ciudadanos debemos sentirlo y sentirnos orgullosos de ello". Eso no es un objetivo técnico, es un objetivo narrativo.
 > En el Estado digital, el gap suele estar justo ahí: la infraestructura avanza, pero la comunicación al ciudadano no la acompaña. En Hint Media trabajamos con empresas como TGS y Transener en construir la capa narrativa que hace legible lo que la infraestructura hace.
 > Cómo lo están pensando desde la SGD?
+
+---
+
+## Respuesta MSG1
+> "No estamos buscando apoyo narrativo o de medios por ahora. Quizás en un futuro! Gracias"
+
+**Cierre enviado:** "Perfecto Maurice, tiene sentido. Quedo por acá cuando cambie el momento."
+
+**Recontacto:** nov/26
 
 ---
 

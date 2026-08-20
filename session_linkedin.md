@@ -63,6 +63,8 @@
 | Luis Mendieta Padilla | 2 - MSG2 enviado | MSG2 18/08 — métricas antes de arrancar, Ecuador audiovisual | Esperar respuesta |
 | Patricio O'Kon | 3 - Dossier por mail | Dossier 18/08 — patricio@papelpicadoweb.com | Jefe envía dossier |
 | Gabriel Cardozo | 2 - MSG2 enviado | MSG2 18/08 — apunta a referido dentro de Fabrica SRL | Esperar respuesta |
+| Francisco Jones | 3 - Dossier enviado | Dossier 20/08 — respondió en 2 min, sector energía/infra | SEG1 pendiente |
+| Pedro Donado Manrique | 2 - MSG2 enviado | MSG2 20/08 — nuevo cierre dossier+reunión | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado (12/08)
 
@@ -137,7 +139,7 @@
 
 ### MSG1 pendiente urgente — ya conectados
 
-**Grupo A:** Pedro Donado Manrique, Juan Camilo Velasco Hoyos, Carlos Fonseca, Carla Mariman Ibarra
+**Grupo A:** Juan Camilo Velasco Hoyos, Carlos Fonseca, Carla Mariman Ibarra
 
 **Grupo B — AGOSTO 2026 / FCT COMMS pendientes MSG1:**
 Pablo Vergara, Marcelo Erezuma B., Ernesto Seidel, Diego Felipe Santana G., Lionel Cymerman, Vanesa Gambirazio, Ana María Marcet, Carol Báez Pineda, Daniel Seva, Diego San Esteban, Marcelo Franceschini, Leonardo Oscar Iglesias, David Riveros Fonseca, Jimena Ruiz Velásquez, Marcos Nicolaides, Andrea Grobocopatel, Diego Manfio, Sebastian Rimmele, Guillermo Barbero, Monica Melito, Tatyana Orozco De La Cruz, Alex Reyes-Ortiz, Maximiliano Santa Cruz
@@ -178,10 +180,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 19/08/26
+## Stats al cierre 20/08/26
 
-- Total historial: ~768 contactos
-- Sesión 19/08: Juan Camilo Velasco Hoyos (MSG2 — fintech multipaís), Magdalena Ruete Aguirre (MSG2 — dossier directo)
+- Total historial: ~769 contactos
+- Sesión 20/08: Francisco Jones (MSG1+dossier mismo día — sector energía/infra, respondió en 2 min), Maurice Poirrier (cerrado — recontact nov/26), Pedro Donado Manrique (MSG2 enviado — nuevo cierre dossier+reunión)
 
 ## Prioridades para próxima sesión
 
