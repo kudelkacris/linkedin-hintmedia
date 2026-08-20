@@ -335,6 +335,14 @@ Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></tex
           <div id="sector-intel-bar" style="display:none;padding:6px 10px;background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:8px;font-size:11.5px;line-height:1.5;color:#7A3800"></div>
 
           <div class="row2">
+            <div>
+              <label class="lbl">Tipo de contacto</label>
+              <select class="sel" id="contact-type">
+                <option value="desconocido">Desconocido</option>
+                <option value="decisor">Decisor (Director/VP/CEO)</option>
+                <option value="no-decisor">No decisor (Specialist/Manager)</option>
+              </select>
+            </div>
           </div>
 
           <button class="btn-main" id="gen-btn" onclick="generateOpeners()">
@@ -376,7 +384,7 @@ Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></tex
           <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
           <div>
             <div class="card-ttl">Mensajes generados</div>
-            <div class="card-sub">A y C · hacé click en "Usar esta" para continuar la conversación</div>
+            <div class="card-sub">3 burbujas · dossier + reunión · hacé click en "Usar esta" para continuar</div>
           </div>
         </div>
         <div class="card-body" style="padding:0">
@@ -577,7 +585,7 @@ Si DESCARTAR: no generar mensajes. Responder solo "Prospecto descartado." + moti
 
 REGLAS MSG1:
 - Objetivo único: generar una respuesta y abrir conversación
-- NO diagnosticar, NO pedir reunión, NO ofrecer dossier en MSG1
+- NO diagnosticar en MSG1. El dossier y la reunión SÍ van en B3 (ver BURBUJA 3)
 - Hint Media SÍ aparece en MSG1 con un cliente relevante al sector
 - Generar EXACTAMENTE 1 variante: A (Variante A únicamente)
 
@@ -593,43 +601,51 @@ REGLAS MSG1:
 
   EJEMPLO COMPLETO DE SALIDA CORRECTA (respetar este largo como referencia):
   MSG1_B1: Buenas Carol! Tu post de los Diálogos sobre Compras Públicas me quedó dando vueltas. No invitaste a hablar de normativa, invitaste a hablar de cómo tomar mejores decisiones. Eso no es lo que suele comunicar un VP jurídico.
-  MSG1_B2: En mercados regulados, lo jurídico casi siempre aparece como freno. En Hint Media trabajamos con organizaciones como TGS y Transener en construir la narrativa que lo reposiciona como habilitador.
-  MSG1_B3: Cómo lo están trabajando desde la BMC?
+  MSG1_B2: En Hint Media trabajamos con organizaciones como TGS en construir la narrativa que hace legible lo que la infraestructura hace, antes de que el cliente llegue a preguntar.
+  MSG1_B3: Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.
 
   BURBUJA 1 — SEÑAL + INSIGHT:
   "Buenas [nombre]!" + señal concreta + 1 línea de interpretación. TODO en una sola línea de output, sin saltos internos.
   NO resumir el perfil. NO empezar por cargo o empresa. NO "gracias por conectar".
 
   BURBUJA 2 — PAIN + HINT + CLIENTE (OBLIGATORIO):
-  2 oraciones: [pain] + "En Hint Media trabajamos/acompañamos..." + cliente según sector:
-    - Energía / Infraestructura / Industria → TGS, Transener
-    - Seguros / Finanzas → Libra Seguros, Destiny Group
-    - Retail / Moda / Consumo → Destiny Group, Tasarolli
-    - Comunicación / ESG / Corporativo → TGS, Transener
-    - Consultoría / Tech / Fintech → Destiny Group, Libra Seguros
-    - Si hay duda: Destiny Group + el más neutro disponible
+  2 oraciones: [pain] + "En Hint Media trabajamos/acompañamos..." + UN SOLO cliente según sector (el más relevante):
+
+    MAPA COMPLETO DE CLIENTES POR SECTOR (nombrar los que aplican, máx 3, SIEMPRE Sullair primero cuando aplica):
+    - Energía / Gas / Electricidad / Redes / Transporte energético → Sullair, TGS y Transener
+    - Oil & Gas / Perforación / Minería / Industria pesada / Petróleo → Sullair y Tassaroli
+    - Industria / Maquinaria / Manufactura / Construcción / Logística → Sullair
+    - Seguros / Aseguradoras → Libra Seguros (SOLO este sector — nombrar solo este)
+    - Turismo / Hotelería / Viajes / Alojamiento / Real Estate turístico → Destiny Group y Spain Collection
+    - Entretenimiento / Festivales / Eventos / Shows / Cultura → Grupo One Entertainment
+    - Educación / Formación / Idiomas / Capacitación / Universidades / E-learning → Royal English Argentina
+    - Tech / App / Software / SaaS / Startup / Digital / Plataformas → Agora
+    - Consultoría / Finanzas / Legal / Admin / Salud / Retail / ESG / Comunicación / TODO LO DEMÁS → Sullair, TGS y Transener
+
   PROHIBIDO omitir "En Hint Media..." — si no está, el mensaje está incompleto.
+  PROHIBIDO usar Libra Seguros fuera del sector seguros.
+  PROHIBIDO usar Destiny Group / Spain Collection / Be Our Guest fuera del sector turismo/hotelería/viajes.
+  PROHIBIDO usar Royal English Argentina fuera del sector educación/formación.
+  PROHIBIDO usar Agora fuera del sector tech/software/app.
+  PROHIBIDO usar Grupo One Entertainment fuera del sector entretenimiento/festivales/eventos.
 
-  BURBUJA 3 — CTA (elegir UNO, MÁXIMO 1 línea, MÁXIMO 15 palabras):
-  SELECCIÓN INTERNA OBLIGATORIA antes de escribir:
-  SEÑAL DETECTADA: [qué se observó]
-  HIPÓTESIS DE PAIN: [qué desafío probable existe]
-  OBJETIVO CTA ELEGIDO: [uno de los 6]
+  BURBUJA 3 — CTA (dossier + reunión, elegir variante según TIPO_CONTACTO):
+  Usar la variante que corresponde según el TIPO_CONTACTO indicado en el prompt.
 
-  CTA_1 — CONFIRMAR_PAIN: "Es algo que también les pasa?" / "Te resuena?" / "Algo de esto aparece en ustedes?"
-  CTA_2 — OBTENER_CONTEXTO: "Cómo lo están abordando?" / "Cómo lo manejan hoy?"
-  CTA_3 — CURIOSIDAD: "Te cuento cómo lo resolvemos en otros casos?" / "Te interesa ver cómo lo trabajamos?"
-  CTA_4 — POSIBLE_ENCAJE: "Ves algún punto donde podamos sumar?" / "Creés que podríamos aportar?"
-  CTA_5 — AVANZAR: "Tiene sentido profundizar?" / "Seguimos conversando sobre esto?"
-  CTA_6 — ELECCIÓN_SIMPLE: 1 pregunta, 2 opciones concretas al pain. NO copiar ejemplos, construir desde el contexto. Patrón: "Hoy pesa más [A] o [B]?"
+  VARIANTE_DECISOR (para Director / VP / CEO / C-Level):
+  "Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
 
-  REGLAS CTA en MSG1:
-  - MÁXIMO 1 línea. 1 sola pregunta. Sin subordinadas largas. Si supera 15 palabras, reescribir.
-  - DEFAULT: usar CTA_2 (OBTENER_CONTEXTO) cuando no hay pain confirmado en el perfil o publicaciones del prospecto. Invita a que el prospecto cuente cómo lo hace — no asume que tiene un problema.
-  - CTA_1 y CTA_6 solo si el prospecto ya mostró o dijo en sus propias palabras que algo le cuesta, le pesa o le preocupa.
-  - Elegir SOLO UN tipo. NO mezclar.
-  - NO ofrecer dossier. NO pedir reunión. NO usar CTAs genéricos.
-  - La pregunta debe surgir del contexto del prospecto — no puede ser la misma para todos.
+  VARIANTE_DESCONOCIDO (cuando no se sabe si es decisor):
+  "Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
+
+  VARIANTE_NO_DECISOR (para Specialist / Analyst / Coordinator / Manager sin poder de compra claro):
+  "Si te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda."
+
+  REGLAS BURBUJA 3:
+  - Usar EXACTAMENTE la frase de la variante que corresponde. No parafrasear.
+  - PROHIBIDO terminar con pregunta. El CTA es una oferta, no una interrogación.
+  - PROHIBIDO "¿te puedo enviar...?", "si querés...", "en algún momento...", "cuando tengas tiempo..."
+  - El prospecto decide una sola vez (dossier + reunión juntos). No pedir permiso dos veces.
 
 
 ACTUALIZACIÓN V2 — MENOS CONSULTOR, MÁS CONVERSACIÓN
@@ -704,13 +720,18 @@ REGLAS MSG2:
     Incorrecto: "Apostar a que el cliente hable dice que para vos la prueba real pesa más que el discurso."
     Correcto: "Cuando una empresa pone al cliente al frente de la conversación, normalmente aparece el desafío de sostener esa prueba y credibilidad de forma consistente en cada interacción."
     Objetivo: el prospecto debe pensar "entiende el trabajo que hago" / "entiende la complejidad que existe detrás de lo que hago". NUNCA "analizó mi personalidad" / "me está vendiendo" / "me hizo un perfil psicológico".
-  PASO 2 (burbuja 2): Introducir Hint de forma natural (no como frase armada). Qué hacemos, cómo trabajamos, 1-2 clientes relevantes — elegir según sector:
-    - Energía / Infraestructura / Industria pesada → TGS, Transener
-    - Seguros / Finanzas / Servicios → Libra Seguros, Destiny Group
-    - Retail / Moda / Deportes / Consumo masivo → Destiny Group, Tasarolli
-    - Comunicación / ESG / Corporativo → TGS, Transener
-    - Consultoría / Agencia / Tech → Destiny Group, Libra Seguros
-    - Si hay duda: Destiny Group + el más neutro disponible
+  PASO 2 (burbuja 2): Introducir Hint de forma natural (no como frase armada). Qué hacemos, cómo trabajamos, UN SOLO cliente relevante — elegir según sector:
+    MAPA COMPLETO DE CLIENTES POR SECTOR (nombrar los que aplican, máx 3, SIEMPRE Sullair primero cuando aplica):
+    - Energía / Gas / Electricidad / Redes / Transporte energético → Sullair, TGS y Transener
+    - Oil & Gas / Perforación / Minería / Industria pesada / Petróleo → Sullair y Tassaroli
+    - Industria / Maquinaria / Manufactura / Construcción / Logística → Sullair
+    - Seguros / Aseguradoras → Libra Seguros (SOLO este sector)
+    - Turismo / Hotelería / Viajes / Alojamiento / Real Estate turístico → Destiny Group y Spain Collection
+    - Entretenimiento / Festivales / Eventos / Shows / Cultura → Grupo One Entertainment
+    - Educación / Formación / Idiomas / Capacitación / Universidades / E-learning → Royal English Argentina
+    - Tech / App / Software / SaaS / Startup / Digital / Plataformas → Agora
+    - TODO LO DEMÁS → Sullair, TGS y Transener
+  PROHIBIDO usar Libra Seguros fuera de seguros. PROHIBIDO usar Destiny Group fuera de turismo/eventos. PROHIBIDO usar Royal English fuera de educación. PROHIBIDO usar Agora fuera de tech/software. PROHIBIDO usar Grupo One fuera de entretenimiento/eventos.
   PASO 3 (burbuja 3 — CTA): Elegir UN solo tipo de CTA según el objetivo del mensaje. No usar siempre el mismo. El CTA debe surgir del pain planteado, no ser genérico.
 
   SELECCIÓN INTERNA OBLIGATORIA antes de escribir el CTA:
@@ -1003,9 +1024,17 @@ async function generateOpeners() {
   document.getElementById('conv-thread').style.display = 'none';
   document.getElementById('conv-thread').innerHTML = '';
 
+  const contactType = document.getElementById('contact-type').value;
+  const contactTypeLabel = {
+    'decisor': 'DECISOR (Director/VP/CEO)',
+    'no-decisor': 'NO_DECISOR (Specialist/Manager sin poder de compra claro)',
+    'desconocido': 'DESCONOCIDO'
+  }[contactType] || 'DESCONOCIDO';
+
   const prompt = `PERFIL A ANALIZAR:
 ${trimProfile(profile)}
 
+TIPO_CONTACTO: ${contactTypeLabel}
 IDIOMA: Español
 TONO: Profesional
 
@@ -1048,8 +1077,8 @@ RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW)
 ---VARIANTE---
 TITULO: (variante A — observación humana desde SEÑAL_HUMANA)
 MSG1_B1: (burbuja 1: Buenas [nombre]! + señal concreta + 1 línea de interpretación — máx 35 palabras — sin saltos de línea internos)
-MSG1_B2: (burbuja 2: [pain/tensión] + "En Hint Media trabajamos/acompañamos..." + cliente por sector — máx 30 palabras — sin saltos de línea internos)
-MSG1_B3: (burbuja 3: CTA específico para este prospecto — máx 15 palabras — 1 sola pregunta — elegir de CTA_1 a CTA_6)`;
+MSG1_B2: (burbuja 2: "En Hint Media trabajamos con [tipo de empresa/líder] como [clientes del mapa según sector — Sullair siempre primero cuando aplica, máx 3] en [qué construimos para su caso concreto]" — máx 30 palabras — sin saltos de línea internos — sin pregunta al final)
+MSG1_B3: (burbuja 3: usar EXACTAMENTE la variante que corresponde al TIPO_CONTACTO indicado — no parafrasear — sin saltos de línea internos)`;
 
   // ── Contexto histórico del HIE (sin API, lee KB local) ──────────────────
   let hieContext = '';

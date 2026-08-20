@@ -238,13 +238,16 @@ El insight va primero. Demuestra expertise antes de mencionar Hint. El prospecto
 
 Adaptar el insight según lo que dijo el prospecto en su respuesta. Nunca pegar el insight textual si el prospecto ya tocó ese tema — reformular o saltearlo y ir directo a B3.
 
-**Clientes por sector (verificar sector antes de elegir):**
-- Energía/Infra/ESG: TGS, Transener
-- Seguros/Finanzas: Libra Seguros, Destiny Group
-- Retail/Moda: Destiny Group, Tasarolli
-- Consultoría/Tech: Destiny Group, Libra Seguros
-- Farmacéutico/Salud: Libra Seguros, Destiny Group
-- Turismo/Eventos: Destiny Group, Tasarolli
+**Clientes por sector (Sullair siempre primero cuando aplica, máx 3):**
+- Energía / Gas / Electricidad / Redes → Sullair, TGS y Transener
+- Oil & Gas / Perforación / Minería / Industria pesada → Sullair y Tassaroli
+- Industria / Maquinaria / Manufactura / Construcción → Sullair
+- Seguros → Libra Seguros (SOLO este sector)
+- Turismo / Hotelería / Viajes / Alojamiento → Destiny Group y Spain Collection
+- Entretenimiento / Festivales / Eventos → Grupo One Entertainment
+- Educación / Formación / Idiomas / Capacitación → Royal English Argentina
+- Tech / App / Software / SaaS / Startup / Digital → Agora
+- Todo lo demás → Sullair, TGS y Transener
 
 **Hint Media — qué es:**
 Agencia de comunicación omnicanal. Hace: identidad y branding, contenidos multiplataforma, audiovisual, storydoing, paid media (Meta/Google), email marketing, social media management, vocería digital/CEO, SEO.
@@ -458,14 +461,23 @@ Reglas de formato no negociables. Aplican a MSG1, MSG2, SEG1 y cualquier mensaje
 
 # CLIENTES POR SECTOR
 
-Verificar el sector real del prospecto antes de elegir el cliente ejemplo. Error grave si no calza.
+Verificar el sector real del prospecto antes de elegir. Sullair siempre primero cuando aplica. Máx 3 clientes por mensaje.
 
-- Energía/Infra/ESG: TGS, Transener
-- Seguros/Finanzas: Libra Seguros, Destiny Group
-- Retail/Moda: Destiny Group, Tasarolli
-- Consultoría/Tech: Destiny Group, Libra Seguros
-- Farmacéutico/Salud: Libra Seguros, Destiny Group
-- Turismo/Eventos: Destiny Group, Tasarolli
+- Energía / Gas / Electricidad / Redes / Transporte energético → Sullair, TGS y Transener
+- Oil & Gas / Perforación / Minería / Industria pesada / Petróleo → Sullair y Tassaroli
+- Industria / Maquinaria / Manufactura / Construcción / Logística → Sullair
+- Seguros / Aseguradoras → Libra Seguros (SOLO este sector)
+- Turismo / Hotelería / Viajes / Alojamiento / Real Estate turístico → Destiny Group y Spain Collection
+- Entretenimiento / Festivales / Eventos / Shows / Cultura → Grupo One Entertainment
+- Educación / Formación / Idiomas / Capacitación / Universidades → Royal English Argentina
+- Tech / App / Software / SaaS / Startup / Digital / Plataformas → Agora
+- Consultoría / Finanzas / Legal / Admin / Salud / Retail / ESG / Comunicación / TODO LO DEMÁS → Sullair, TGS y Transener
+
+PROHIBIDO usar Libra Seguros fuera de seguros.
+PROHIBIDO usar Destiny Group / Spain Collection fuera de turismo/hotelería/viajes.
+PROHIBIDO usar Royal English fuera de educación/formación.
+PROHIBIDO usar Agora fuera de tech/software/app.
+PROHIBIDO usar Grupo One Entertainment fuera de entretenimiento/festivales/eventos.
 
 ---
 
