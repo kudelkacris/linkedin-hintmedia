@@ -5,7 +5,7 @@
 **Empresa:** Racklatina S.A.
 **Pais:** Uruguay
 **Sector:** Energía / Industria / Infraestructura (Racklatina opera en automatización industrial, control industrial, power)
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (budget pausado — ex agencia Stand)
 
 ---
 
@@ -27,4 +27,12 @@
 
 ---
 
+## Respuesta MSG1
+> Felicitó el gancho/icebreaker. Estaban con agencia "Stand" pero pausaron por presupuesto. Dio contacto: Patricia Cirillo es la responsable de MARCOM en su equipo. "Lo tendremos en cuenta si volvemos a retomar."
+
+## MSG2 (respuesta enviada)
+> Sebastian, este tipo de respuesta no es lo más común. La mayoría hubiera ignorado el mensaje o mandado un "gracias, no por ahora". Que te hayas tomado el tiempo de leerlo, entenderlo y además compartir contexto real sobre cómo funciona Racklatina por adentro dice mucho.
+> Te mando el dossier igual, no para que decidas nada ahora sino para que cuando retomen el trabajo con una agencia tengan un punto de referencia de cómo trabajamos. Así la conversación, si se da, arranca con pie derecho.
+
 ## Notas
+- Contacto clave: Patricia Cirillo — responsable MARCOM Racklatina

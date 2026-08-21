@@ -5,7 +5,7 @@
 **Empresa:** Grupo DEMA
 **Pais:** Argentina
 **Sector:** Construcción / Infraestructura / Productos Industriales (agua, gas, calefacción)
-**Estado:** MSG1 enviado
+**Estado:** No interesado
 
 ---
 
@@ -27,4 +27,11 @@
 
 ---
 
+## Respuesta MSG1
+> No es su área de Marketing. No hay posibilidad de abrir comunicación con nuevas propuestas actualmente. Respondió igual por cortesía.
+
+## Cierre
+> Fabián, muy agradecida que hayas respondido igual. Si en algún momento el contexto cambia, acá estamos.
+
 ## Notas
+- Cerrado. No interesado.

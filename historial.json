@@ -2173,6 +2173,7 @@
     "date": "21/08/26",
     "name": "Lucas Matias Salvatore",
     "empresa": "Grupo Salvatore",
+    "email": "Lms@idero.com.ar",
     "variantTitle": "Credibilidad desde el Proceso Real",
     "profileRaw": "Lucas Matias Salvatore\n\n· 1er\n\nDirector en Grupo Salvatore\n\nArgentina\n\n·\n\nInformación de contacto\n\nGrupo Salvatore\n\n24.495 seguidores\n\n·\n\nMás de 500 contactos\n\nAldana, Eliana y 99 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nIr a mi sitio web\n\nPerfil mejorado con Premium\nOtros perfiles seguidos junto con Lucas Matias\n\n    Ver perfil\n\n    María Belen Sibelli \n\n    Talent Hunter |+88K | Recruiting Specialist Sr | Hunting Freelance & Procesos End-to-End |\n\n    Seguido por Cecilia, M",
     "msg1": "Buenas Lucas, me quedó dando vueltas algo en tus últimas publicaciones sobre Espacio Añelo. No vendes edificios ni rentabilidad, vendes el proceso real: cada material, cada socio, cada paso visible. No es lo que la mayoría hace cuando quiere que inviertan 2 millones.\n\nEn Hint Media trabajamos con empresas como TGS y Transener que tienen que comunicar infraestructura compleja de forma que genere confianza y diferenciación. Acompañamos en convertir ejecución real en narrativa consistente a escala.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.",
@@ -2183,12 +2184,12 @@
         "text": "Buenas Lucas, me quedó dando vueltas algo en tus últimas publicaciones sobre Espacio Añelo. No vendes edificios ni rentabilidad, vendes el proceso real: cada material, cada socio, cada paso visible. No es lo que la mayoría hace cuando quiere que inviertan 2 millones.\n\nEn Hint Media trabajamos con empresas como TGS y Transener que tienen que comunicar infraestructura compleja de forma que genere confianza y diferenciación. Acompañamos en convertir ejecución real en narrativa consistente a escala.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
       }
     ],
-    "stage": 1,
+    "stage": "3",
     "stageHistory": [
       {
-        "stage": 1,
+        "stage": "3",
         "date": "21/08/26",
-        "note": ""
+        "note": "Dossier por mail - Lms@idero.com.ar"
       }
     ]
   },
@@ -2375,12 +2376,12 @@
         "text": "Buenas Fhellaweith! Me llamó la atención que en dos meses completaras Jira, gestión de proyectos y comunicación. No es lo que hace la mayoría cuando quiere seguir siendo analista. Parece que estás armando algo más.\n\nEn Hint Media trabajamos con empresas como Sullair, TGS y Transener en hacerle visible al mercado el trabajo técnico que pasa desapercibido. Cuando alguien comienza a comunicar mejor, suelen cambiar las cosas.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 1,
+    "stage": "3",
     "stageHistory": [
       {
-        "stage": 1,
+        "stage": "3",
         "date": "21/08/26",
-        "note": ""
+        "note": "Dossier enviado"
       }
     ]
   },
@@ -5676,6 +5677,7 @@
   {
     "name": "Fabián Larobina",
     "stage": "1",
+    "noInterest": true,
     "date": "20/08/26",
     "empresa": "Grupo DEMA",
     "cargo": "Especialista en desarrollo de productos para el circuito del agua. Marketing Estratégico. Arquitecto. Fotógrafo.",
@@ -6487,7 +6489,7 @@
   },
   {
     "name": "Marcelo R. (MarChello) Matarazzi",
-    "stage": 2,
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "UNIVERSIDAD TECNOLOGICA NACIONAL",
     "cargo": "Planificación Vial - Evaluaciones, Supervisión de Obras, y Control de Gestión en A.V.P. Chubut. Monitoreo técnico y legal de una Red Vial.",
@@ -7074,7 +7076,7 @@
   },
   {
     "name": "Sebastian Kemerer",
-    "stage": "1",
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "Racklatina S.A.",
     "cargo": "Gerente de  Marketing y Producto en Racklatina S.A.",
@@ -11632,7 +11634,7 @@
   },
   {
     "name": "Marcelo R. (MarChello) Matarazzi",
-    "stage": 2,
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "UNIVERSIDAD TECNOLOGICA NACIONAL"
   },
@@ -11644,7 +11646,7 @@
   },
   {
     "name": "Sebastian Kemerer",
-    "stage": "1",
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "Racklatina S.A."
   },
@@ -11771,6 +11773,7 @@
   {
     "name": "Fabián Larobina",
     "stage": "1",
+    "noInterest": true,
     "date": "20/08/26",
     "empresa": "Grupo DEMA"
   },
@@ -12536,7 +12539,7 @@
   },
   {
     "name": "Marcelo R. (MarChello) Matarazzi",
-    "stage": 2,
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "UNIVERSIDAD TECNOLOGICA NACIONAL"
   },
@@ -12548,7 +12551,7 @@
   },
   {
     "name": "Sebastian Kemerer",
-    "stage": 1,
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "Racklatina S.A."
   },
@@ -12674,7 +12677,8 @@
   },
   {
     "name": "Fabián Larobina",
-    "stage": 1,
+    "stage": "1",
+    "noInterest": true,
     "date": "20/08/26",
     "empresa": "Grupo DEMA"
   },
@@ -12771,5 +12775,16 @@
     "cargo": "Técnico Constructor Nacional | Sobrestante de Inspección",
     "empresa": "Ministerio de Infraestructura, Servicios Públicos y Habitat",
     "pais": "Argentina"
+  },
+  {
+    "id": "isabel-barrios",
+    "name": "Isabel Barrios",
+    "stage": "1",
+    "noInterest": true,
+    "date": "20/08/26",
+    "empresa": "—",
+    "cargo": "Contadora Pública | Control de Gestión | Certificado NIIF (ICAEW) | Reporting Estratégico",
+    "pais": "Argentina",
+    "sector": "Finanzas / Control de Gestión"
   }
 ]

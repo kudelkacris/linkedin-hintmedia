@@ -5,7 +5,7 @@
 **Empresa:** UNIVERSIDAD TECNOLOGICA NACIONAL
 **Pais:** Argentina
 **Sector:** Energía / Infraestructura / Sector Público
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -35,5 +35,12 @@
 > Lo de "no existe filosofía de las cosas" en el sector público es lo más preciso que leí sobre por qué los diagnósticos técnicos correctos no traccionan: no es solo falta de información, es que no hay un marco compartido desde donde interpretarla.
 > Cómo hacés para que un análisis que sabés que es técnicamente correcto llegue a quienes toman decisiones sin que el sesgo político o la disonancia lo desvirtúe antes de aterrizar?
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
+
+## Respuesta MSG2
+> Respondió con su historia del Congreso de Caminos Rurales 2024: dijo públicamente que el problema no era la falta de datos sino que los receptores no estaban preparados para comprenderlos. Emojis de aprobación + apertura total.
+
+## MSG3
+> Lo del congreso de 2024 cierra el círculo: decir en un ámbito técnico que el problema no es la ausencia de datos sino la capacidad institucional de interpretarlos requiere un nivel de convicción que la mayoría evita expresar en voz alta en ese tipo de foro.
+> Te mando el dossier por acá. Y si al leerlo encontrás algún punto que valga la pena conversar, creo que podríamos tener una charla interesante.
 
 ## Notas
