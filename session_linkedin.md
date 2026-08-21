@@ -192,8 +192,9 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ## Stats al cierre 21/08/26
 
-- Total historial: 1157 entradas
-- Sesión 21/08: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
+- Total historial: 1156 entradas (1 duplicado eliminado — Patricio O'Kon)
+- Sesión 21/08 mañana: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
+- Sesión 21/08 tarde: dossier Daniel Pasacantando (mail, lo eleva internamente), fix viewer (respuestas del prospecto ahora visibles entre MSG1 y MSG2)
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -204,6 +205,7 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 ## Prioridades para próxima sesión
 
 1. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
+2. **Dossier por mail — Daniel Pasacantando** — enviado a D.pasacantando@depaoli-trosce.com.ar, lo eleva internamente (Depaoli-Trosce Constructora)
 2. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
 3. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
 4. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
