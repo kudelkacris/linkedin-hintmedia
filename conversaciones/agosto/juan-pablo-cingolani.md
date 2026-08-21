@@ -5,7 +5,7 @@
 **Empresa:** Blangino
 **Pais:** Argentina
 **Sector:** Construcción / Industria del Hormigón
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -24,6 +24,14 @@
 > En Hint Media trabajamos con empresas industriales como Sullair en construir la narrativa que sostiene la credibilidad operativa durante la expansión, para que calidad y procesos se comuniquen como ventaja, no como requisito.
 >
 > Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.
+
+---
+
+## Respuesta MSG1
+> "Hola, me interesa saber. Me podes pasar esos casos?"
+
+## Dossier (20/08/26)
+> Perfecto, te lo comparto ahora. Cuando lo veas me contás qué te pareció y si tiene sentido lo charlamos.
 
 ---
 

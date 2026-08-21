@@ -35,4 +35,19 @@
 
 ---
 
+## Audios post-dossier (20/08/26)
+> Dante escuchó el dossier y respondió con 2 audios:
+> — "Lo que hago es algo más terrenal, más humano. Para empresas grandes, porque tienen otro público. No me interesa una comunicación automática."
+> — "Quizás con otro presupuesto, pero hoy en las constructoras el presupuesto está en mano de obra y personal."
+
+## Respuesta enviada (20/08/26)
+> Gracias por los audios Dante, lo valoro.
+> Lo que describís tiene sentido, y de hecho es el enfoque con el que más trabajamos: lo concreto, lo real, lo que se construye desde la capacidad técnica y no desde lo cosmético. En sectores como oil & gas y minería, la comunicación que funciona no es la que parece agencia, es la que hace legible la trayectoria del equipo antes de que entre en licitación. Eso es lo que diferencia a los proveedores que llegan a la mesa de los que quedan afuera aunque tengan el mismo nivel técnico.
+> Trabajamos con empresas de distintos tamaños y el modelo se adapta al momento, al presupuesto y a lo que necesita el equipo.
+> Si a futuro querés ver cómo lo hacemos en la práctica y explorar si hay algo que tenga sentido para lo que estás construyendo, con gusto coordinamos una charla.
+
+---
+
 ## Notas
+- Aclaración: ya no trabaja en PERI (jun 2023 - abr 2026). Ahora en COGSAU + Cartellone (abr 2026).
+- Objeción principal: presupuesto limitado en constructoras. Dejar puerta abierta sin presionar.

@@ -5,7 +5,7 @@
 **Empresa:** Vendedor Tersuave
 **Pais:** Argentina
 **Sector:** Retail / Consumo Masivo / Comercio
-**Estado:** MSG1 enviado
+**Estado:** Recontact pendiente (referido a contacto Índigo)
 
 ---
 
@@ -27,4 +27,14 @@
 
 ---
 
+## Respuesta MSG1
+> "Hola Florencia como estas? Gracias por el mensaje. Por las dudas, aclaro que yo trabajo en Tersuave y el equipo era el de Indigo que son clientes nuestros. Entiendo que tu trabajo se vuelca hacia equipos como el de ellos. Si es así avisame y te contacto con la persona responsable."
+
+## Respuesta enviada
+> Hola Juan Manuel! Gracias por aclararlo, tiene sentido. Si podés conectarme con alguien del equipo de Índigo que maneje comunicación o marketing, perfecto. Lo que vi en el post de la capacitación me generó curiosidad por cómo trabajan.
+
+---
+
 ## Notas
+- Juan Manuel es vendedor en Tersuave, NO parte de Índigo. La capacitación fue de él a Índigo (su cliente).
+- Ofreció conectar con la persona responsable en Índigo. Esperar su referido.

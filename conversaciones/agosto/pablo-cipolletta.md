@@ -5,7 +5,7 @@
 **Empresa:** Ingeniero Civil
 **Pais:** Argentina
 **Sector:** Construcción / Infraestructura / Marketplace
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -24,6 +24,14 @@
 > En Hint Media acompañamos a empresas como Sullair y TGS en transformar expertise operativa en narrativa que el mercado entienda y se suma. Justamente cuando hay doble frente.
 >
 > Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.
+
+---
+
+## Respuesta MSG1
+> "Hola Florencia, gracias por tu contacto. Sin compromiso no tengo inconveniente en recibir el dossier."
+
+## Dossier (20/08/26)
+> Perfecto, te lo comparto ahora. Cuando lo veas me contás qué te pareció y si tiene sentido lo charlamos.
 
 ---
 

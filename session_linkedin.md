@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 19/08/26
+## Última sesión: 20/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -28,7 +28,7 @@
 | Roberto Fernandez | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Fernanda Bondesío | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Gonzalo Dalmazzo | 3 - Dossier enviado | Dossier 04/08 | SEG1 pendiente |
-| Karen Nieves | 1 - MSG1 enviado | MSG1 03/08 | Esperar respuesta |
+| Karen Nieves | 2 - MSG2 enviado | MSG2 20/08 — CEO KN Agency/CoinEx, FinTech/Web3 | Esperar respuesta |
 | Manny Larcher | 2 - MSG2 enviado | MSG2 05/08 — respondió "please share" | Esperar respuesta |
 | Carolina Cianfagna | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
 | Jaye Wallace | 2 - MSG3 enviado | MSG3 06/08 — ofrece red CEOs/Founders como referidos | Esperar respuesta |
@@ -65,6 +65,9 @@
 | Gabriel Cardozo | 2 - MSG2 enviado | MSG2 18/08 — apunta a referido dentro de Fabrica SRL | Esperar respuesta |
 | Francisco Jones | 3 - Dossier enviado | Dossier 20/08 — respondió en 2 min, sector energía/infra | SEG1 pendiente |
 | Pedro Donado Manrique | 2 - MSG2 enviado | MSG2 20/08 — nuevo cierre dossier+reunión | Esperar respuesta |
+| Juan Pablo Cingolani | 3 - Dossier enviado | Dossier 20/08 — Ingeniero Civil Blangino, construcción/hormigón | Esperar respuesta |
+| Juan Manuel Sordo | 1 - Referido pendiente | 20/08 — vendedor Tersuave, capacitó equipo Índigo (cliente suyo), ofreció conectar con responsable Índigo | Esperar referido |
+| Dante Velasco | 3 - Seguimiento activo | Dossier 20/08 — respondió con audios (objeción: humano vs automático, presupuesto). Respuesta enviada. | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado (12/08)
 

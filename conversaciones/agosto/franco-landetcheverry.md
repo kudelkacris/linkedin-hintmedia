@@ -5,7 +5,7 @@
 **Empresa:** ORSEP
 **Pais:** Argentina
 **Sector:** Energía / Infraestructura Hídrica
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -24,6 +24,15 @@
 > En Hint Media trabajamos con organizaciones como TGS y Transener en hacer legible lo que la infraestructura hace antes de que el stakeholder llegue a preguntar. Cuando sos voz de criterio técnico en contextos de riesgo, eso cobra peso diferente.
 >
 > Si te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda.
+
+---
+
+## Respuesta MSG1
+> Corrigió: no es "regulador" sino "fiscalizador" (ORSEP — controla que concesionarias cumplan contratos). Tiene red WhatsApp con expertos de AR/MX/CL/UY/CO/VE/GT/ES. Dijo "me interesa el dossier, es algo que no había pensado."
+
+## Dossier (20/08/26)
+> Tiene sentido la distinción, y la hace más interesante todavía. Que haya una red activa entre Argentina, Chile, Colombia y España con los principales referentes del sector dice bastante de cómo se mueve el conocimiento ahí.
+> Te mando el dossier ahora. Cuando lo veas me contás qué te pareció y si tiene sentido lo charlamos.
 
 ---
 
