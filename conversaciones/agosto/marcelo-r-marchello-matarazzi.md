@@ -5,7 +5,7 @@
 **Empresa:** UNIVERSIDAD TECNOLOGICA NACIONAL
 **Pais:** Argentina
 **Sector:** Energía / Infraestructura / Sector Público
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,14 @@
 > Cómo lo están trabajando desde tu lado en la planificación vial, especialmente en contextos de presión de recursos?
 
 ---
+
+## Respuesta MSG1
+> "no existe filosofía de las cosas" en sector público. Disonancia cognitiva, sesgos políticos, información incorrecta, falta de conocimiento histórico. Cierra con afecto y apertura.
+
+## MSG2
+> Buenas Marcelo!
+> Lo de "no existe filosofía de las cosas" en el sector público es lo más preciso que leí sobre por qué los diagnósticos técnicos correctos no traccionan: no es solo falta de información, es que no hay un marco compartido desde donde interpretarla.
+> Cómo hacés para que un análisis que sabés que es técnicamente correcto llegue a quienes toman decisiones sin que el sesgo político o la disonancia lo desvirtúe antes de aterrizar?
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ## Notas

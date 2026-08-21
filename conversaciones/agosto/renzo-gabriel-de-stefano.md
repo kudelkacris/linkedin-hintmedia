@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Energía / Infraestructura / Construcción Civil
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -27,4 +27,15 @@
 
 ---
 
+## Respuesta MSG1
+> Contenido financiero es proyecto personal, no de Hexagon. Reconoce que "la claridad para comunicar técnico a no-técnicos es una habilidad que sigo aprendiendo."
+
+## MSG2
+> Buenas Renzo!
+> Lo que describís sobre comunicar técnico para no-técnicos tiene mucho sentido en tu rol también. Coordinar proyectos BIM con clientes de varios países implica ese mismo ejercicio, solo que con entregables técnicos en el medio.
+> Cómo hacen para que el cliente confíe en el criterio del equipo antes de ver el resultado final?
+> En Hint acompañamos a empresas de infraestructura y tech en esa capa de comunicación, desde narrativa hasta presencia digital.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá, y si le encontrás sentido o conocés a alguien dentro de Hexagon a quien le pueda sumar, me avisás.
+
 ## Notas
+- 21/08/26: Renzo NO es decisor en Hexagon. Objetivo: referido interno. Ángulo pivoteado desde proyecto personal financiero hacia dolor de Hexagon (BIM + clientes internacionales).

@@ -5,7 +5,7 @@
 **Empresa:** Latinoamérica
 **Pais:** Argentina
 **Sector:** B2B Industrial / Packaging / Logística
-**Estado:** MSG1 enviado
+**Estado:** Conversación activa — aceptó call, coordinando Google Meet
 
 ---
 
@@ -27,4 +27,13 @@
 
 ---
 
+## Respuesta MSG1
+> "Hola Florencia, buen día, si queres llámame en el día de hoy, 12 hs. Saludos" — aceptó call desde MSG1.
+
+## MSG2
+> Buenas Luciano! Perfecto.
+> La idea es mostrarte en 20 minutos lo que hacemos y ver si tiene sentido para tu empresa, sin compromiso.
+> Me pasás tu mail de trabajo y te mando el Google Meet?
+
 ## Notas
+- 21/08/26: aceptó call desde MSG1. Pendiente que pase mail de trabajo para enviar Meet.
