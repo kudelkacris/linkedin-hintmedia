@@ -10,7 +10,7 @@
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
-| Marcelo R. Matarazzi | 2 - MSG2 enviado | MSG2 21/08 — "no existe filosofía de las cosas" sector público | Esperar respuesta |
+| Marcelo R. Matarazzi | 3 - Dossier enviado | 21/08 noche — respondió con historia del Congreso Caminos Rurales 2024, dossier enviado como adjunto | SEG1 pendiente |
 | Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
 | Renzo Gabriel De Stefano | 2 - MSG2 enviado | MSG2 21/08 — pivote a Hexagon, objetivo referido interno | Esperar respuesta |
 | Leonardo Ortellado | 3 - Dossier enviado | Dossier 21/08 — aceptó desde MSG1 | SEG1 pendiente |
@@ -192,9 +192,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ## Stats al cierre 21/08/26
 
-- Total historial: 1156 entradas (1 duplicado eliminado — Patricio O'Kon)
+- Total historial: 1157 entradas
 - Sesión 21/08 mañana: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
-- Sesión 21/08 tarde: dossier Daniel Pasacantando (mail, lo eleva internamente), fix viewer (respuestas del prospecto ahora visibles entre MSG1 y MSG2)
+- Sesión 21/08 tarde: dossier Daniel Pasacantando (mail, lo eleva internamente), fix viewer
+- Sesión 21/08 noche: dossiers Matarazzi/Kemerer/Salvatore(mail)/Fhellaweith, cierres Larobina/Barrios. Kemerer: budget pausado, contacto Patricia Cirillo (MARCOM Racklatina)
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -206,10 +207,12 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 1. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
 2. **Dossier por mail — Daniel Pasacantando** — enviado a D.pasacantando@depaoli-trosce.com.ar, lo eleva internamente (Depaoli-Trosce Constructora)
-2. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
-3. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
-4. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-5. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado, Matarazzi
+4. **Tomas Ibarlin** — respondió, procesar
+5. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
+6. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+7. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+8. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
 
 ---
 
