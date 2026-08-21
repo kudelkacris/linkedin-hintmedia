@@ -16,7 +16,7 @@
     "empresa": "Glya",
     "sector": "HealthTech",
     "pais": "Colombia",
-    "stage": 4,
+    "stage": "4",
     "estado": "Dossier enviado",
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
@@ -42,7 +42,7 @@
     "empresa": "ADILISA",
     "sector": "Agroindustria / B2B",
     "pais": "Ecuador",
-    "stage": 4,
+    "stage": "4",
     "estado": "Dossier enviado",
     "fecha": "23/07/26",
     "date": "23/07/26",
@@ -76,7 +76,7 @@
     "empresa": "SAIA Importadora Andina",
     "sector": "Automotriz / Retail",
     "pais": "Ecuador",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -87,7 +87,7 @@
     "empresa": "Allergan Aesthetics (AbbVie)",
     "sector": "Farmacéutico / Salud",
     "pais": "México",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -96,7 +96,7 @@
   {
     "id": "sonia-perez-castro",
     "name": "Sonia Pérez-Castro",
-    "stage": 2,
+    "stage": "2",
     "date": "29/07/26",
     "noInterest": true,
     "stageHistory": [
@@ -105,7 +105,8 @@
         "date": "17/08/26",
         "note": "Cerrada"
       }
-    ]
+    ],
+    "empresa": "—"
   },
   {
     "id": "sergio-ariel-chiossone",
@@ -127,7 +128,7 @@
     "empresa": "SEGUROS UNIDOS",
     "sector": "Seguros",
     "pais": "Ecuador",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Sebastian Estevez",
@@ -140,7 +141,7 @@
     "empresa": "UADE / Makenaide Producciones",
     "sector": "Videojuegos / Entretenimiento / Educacion",
     "pais": "Argentina",
-    "stage": 3,
+    "stage": "3",
     "email": "Rominal@gmail.com",
     "date": "2026-08-04",
     "noInterest": true
@@ -152,7 +153,7 @@
     "empresa": "Viña Casas del Bosque",
     "sector": "Retail / Consumo",
     "pais": "Chile",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -161,8 +162,9 @@
   {
     "id": "roman-gomez",
     "name": "Román Gómez",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "rodrigo-burillo",
@@ -171,7 +173,7 @@
     "empresa": "PiperAI (Aircall)",
     "sector": "Tech / SaaS",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -201,7 +203,7 @@
     "empresa": "Servipag",
     "sector": "Servicios Financieros / Fintech",
     "pais": "Chile",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Ricardo Vargas Burgos",
@@ -237,11 +239,12 @@
   {
     "id": "paul-puissegur",
     "name": "Paul Puissegur",
-    "stage": 3,
+    "stage": "3",
     "date": "29/07/26",
     "whatsapp": "+34632872433",
     "recontact": "2026-09-12",
-    "recontactNote": "Paso contacto por WhatsApp. Recontactar en 1 mes."
+    "recontactNote": "Paso contacto por WhatsApp. Recontactar en 1 mes.",
+    "empresa": "—"
   },
   {
     "id": "pau-laporte",
@@ -259,8 +262,9 @@
   {
     "id": "patricia-villarruel-gordillo",
     "name": "Patricia Villarruel Gordillo",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": "1",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "pasquale-scaldaferri",
@@ -279,8 +283,9 @@
   {
     "id": "omar-diaz-reyes",
     "name": "Omar Díaz Reyes",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "nacho-alonso-cembrano",
@@ -302,7 +307,7 @@
     "empresa": "Mercantil Panamá",
     "sector": "Finanzas / Banca",
     "pais": "Panamá",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -343,7 +348,7 @@
     "empresa": "UAC",
     "sector": "Educación",
     "pais": "Chile",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -363,8 +368,9 @@
   {
     "id": "matias-varone",
     "name": "Matías Varone",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "mathias-vier",
@@ -386,7 +392,7 @@
     "empresa": "PHD Media Spain",
     "sector": "Agencias / Medios / Marketing",
     "pais": "Espana",
-    "stage": 4,
+    "stage": "4",
     "estado": "SEG1 enviado",
     "fecha": "06/07/26",
     "name": "Marta Saenz Herrera",
@@ -412,7 +418,7 @@
     "empresa": "Vaitty",
     "sector": "Seguros / Insurtech",
     "pais": "Argentina",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -425,7 +431,7 @@
     "empresa": "HealthMate",
     "sector": "Salud / HealthTech",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "No interesado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -459,7 +465,7 @@
     "empresa": "Acuarium Piscinas & Spas",
     "sector": "Retail / Servicios",
     "pais": "Costa Rica",
-    "stage": 4,
+    "stage": "4",
     "estado": "SEG1 enviado",
     "fecha": "06/07/26",
     "name": "Marc Roca",
@@ -472,7 +478,7 @@
     "empresa": "Incentro España",
     "sector": "Tech / Consultoría / Cloud",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -486,7 +492,7 @@
     "cargo": "Head of Marketing",
     "sector": "HR Tech / Bienestar corporativo",
     "name": "Lina Vanegas Matiz",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -510,7 +516,7 @@
     "empresa": "Novitec Consultores",
     "sector": "Tech / Consultoría SAP",
     "pais": "Costa Rica",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -522,7 +528,7 @@
     "cargo": "Founder CEO",
     "sector": "Liderazgo / Coaching ejecutivo",
     "name": "Kim Zoller",
-    "stage": 1,
+    "stage": "1",
     "estado": "CERRADA — not interested right now",
     "noInterest": true
   },
@@ -533,7 +539,7 @@
     "empresa": "SOMNI Game Studios",
     "sector": "Gaming / Entretenimiento",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -546,14 +552,15 @@
     "empresa": "Karen Nieves Agency / CoinEx Global",
     "sector": "FinTech / Web3 / Crypto",
     "pais": "Colombia",
-    "stage": 1,
+    "stage": "1",
     "date": "2026-08-03"
   },
   {
     "id": "julio-martinez-reyes",
     "name": "Julio Martínez Reyes",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "julian-vargas",
@@ -562,7 +569,7 @@
     "empresa": "Query",
     "sector": "Tech / Consultoría",
     "pais": "Colombia",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -588,7 +595,7 @@
     "empresa": "AURUM",
     "sector": "Branding / Marketing",
     "pais": "",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Juanjo Pereira Seijo",
@@ -625,7 +632,7 @@
     "cargo": "Fundador Director",
     "sector": "Consultoria / Formacion ejecutiva",
     "name": "Juan Carlos Garcia Villalaz",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -649,7 +656,7 @@
     "cargo": "Founder CEO Estratega Transformacion Ejecutiva",
     "sector": "Consultoria / Coaching ejecutivo",
     "name": "Jose Miguez",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -659,7 +666,7 @@
     "empresa": "Linkener",
     "sector": "Energía / SaaS",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -672,7 +679,7 @@
     "empresa": "Prumisa",
     "sector": "Manufactura / B2B",
     "pais": "Costa Rica",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Jonathan Josafat Rivas Carvajal",
@@ -686,7 +693,7 @@
     "cargo": "CEO",
     "sector": "Wellness tech",
     "name": "John Graham Harper",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -697,14 +704,15 @@
     "cargo": "Socio Fundadora - Psiquiatra Perinatal",
     "sector": "Salud mental",
     "name": "Jenny Carolina Lopez",
-    "stage": 4,
+    "stage": "4",
     "estado": "Dossier enviado"
   },
   {
     "id": "javier-schifani",
     "name": "Javier Schifani",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": "1",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "javier-salas-isequilla",
@@ -726,7 +734,7 @@
     "empresa": "SPIN GRUPO S.A. DE C.V.",
     "sector": "Químicos Industriales",
     "pais": "México",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -737,7 +745,7 @@
     "empresa": "EAE Business School",
     "sector": "Marketing / Educacion",
     "pais": "Panama",
-    "stage": 4,
+    "stage": "4",
     "estado": "SEG1 enviado",
     "fecha": "06/07/26",
     "name": "Ingrith Munoz Herrera",
@@ -777,7 +785,7 @@
     "empresa": "Lulubit",
     "sector": "Fintech / Crypto",
     "pais": "Panamá",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -791,15 +799,16 @@
     "empresa": "REGNER",
     "sector": "Consultoría/Compliance/Risk",
     "pais": "Argentina",
-    "stage": 4,
+    "stage": "4",
     "estado": "Dossier enviado",
     "date": "2026-08-04"
   },
   {
     "id": "gustavo-adolfo-arias-buitrago",
     "name": "Gustavo Adolfo Arias Buitrago",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": "1",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "geraldine-valencia-trujillo",
@@ -808,7 +817,7 @@
     "empresa": "Veladero (Barrick Gold)",
     "sector": "Energía / Minería",
     "pais": "Argentina",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -821,7 +830,7 @@
     "empresa": "ITJ / Fraktionals",
     "sector": "Tecnologia / Consultoria / Marketing",
     "pais": "Mexico",
-    "stage": 0,
+    "stage": "0",
     "date": "2026-08-03",
     "noInterest": true,
     "stageHistory": [
@@ -839,7 +848,7 @@
     "empresa": "Inkema",
     "sector": "Industrial / Manufactura",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -851,7 +860,7 @@
     "cargo": "Executive Director Mexico City",
     "sector": "Business development",
     "name": "Gabriel Uribe",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -913,7 +922,7 @@
     "empresa": "Ilustre Municipalidad de La Granja",
     "sector": "Gobierno Local / Comunicacion Publica",
     "pais": "Chile",
-    "stage": 4,
+    "stage": "4",
     "estado": "Cerrado — por ahora no",
     "fecha": "23/07/26",
     "date": "23/07/26",
@@ -944,8 +953,9 @@
   {
     "id": "estibaliz-aguado",
     "name": "Estíbaliz Aguado",
-    "stage": 4,
-    "date": "31/07/26"
+    "stage": "4",
+    "date": "31/07/26",
+    "empresa": "—"
   },
   {
     "id": "esteban-aragon-correa",
@@ -954,7 +964,7 @@
     "empresa": "Universitaria Agustiniana",
     "sector": "Educación",
     "pais": "Colombia",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -968,7 +978,7 @@
     "cargo": "Founder Clinical Director",
     "sector": "Wellness / Salud mental",
     "name": "Erin Atkinson",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -1018,7 +1028,7 @@
     "empresa": "NURIA Labs",
     "sector": "Consultoría / Tech",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -1031,7 +1041,7 @@
     "empresa": "Irrational Agency",
     "sector": "Agencia Creativa / Marketing",
     "pais": "Argentina",
-    "stage": 4,
+    "stage": "4",
     "estado": "SEG1 enviado",
     "fecha": "06/07/26",
     "name": "Diana Kuhlmann",
@@ -1044,7 +1054,7 @@
     "empresa": "heydiga",
     "sector": "Tech / AI",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -1052,7 +1062,7 @@
   },
   {
     "name": "Daniela Bujan",
-    "stage": 3,
+    "stage": "3",
     "date": "2026-08-05",
     "sector": "Educacion / EdTech",
     "cargo": "Cofundadora",
@@ -1082,7 +1092,7 @@
     "empresa": "Chocolatería Entrelagos",
     "sector": "Consumo Masivo / Retail",
     "pais": "Chile",
-    "stage": 1,
+    "stage": "1",
     "estado": "No interesada",
     "date": "21/07/26",
     "noInterest": true,
@@ -1102,14 +1112,15 @@
     "cargo": "President Franchise Development",
     "sector": "Fitness franchise",
     "name": "Christopher Pena",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
     "id": "christopher-carvajal",
     "name": "Christopher Carvajal",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "name": "Carol Báez Pineda",
@@ -1137,13 +1148,14 @@
   {
     "id": "carlos-gonzalez-mozuelos",
     "name": "Carlos González Mozuelos",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": "1",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "carlos-gingins",
     "name": "Carlos Gingins",
-    "stage": 1,
+    "stage": "1",
     "date": "31/07/26",
     "sector": "Energía / Oil & Gas / Vaca Muerta",
     "cargo": "Gerente General",
@@ -1159,7 +1171,7 @@
     "cargo": "Fundador y Director",
     "sector": "Oftalmologia",
     "name": "Bernardo Quijano Nieto",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -1182,7 +1194,7 @@
     "empresa": "MC Logística",
     "sector": "Logística / Tecnología",
     "pais": "Costa Rica",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -1194,7 +1206,7 @@
     "pais": "Costa Rica",
     "sector": "Retail / E-commerce / Retail Media",
     "email": "Argerie.Ramirez@walmart.com",
-    "stage": 4,
+    "stage": "4",
     "estado": "SEG1 enviado",
     "fecha": "08/07/26",
     "emailNota": "Referida por Tatiana Guido NÃºÃ±ez â€” Job Marketing Specialist Walmart Connect",
@@ -1207,7 +1219,7 @@
     "empresa": "WICO Combustibles",
     "sector": "Energía / Combustibles",
     "pais": "Argentina",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "date": "21/07/26"
   },
@@ -1218,7 +1230,7 @@
     "empresa": "MindWired",
     "sector": "Consultoría / Tech",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -1231,7 +1243,7 @@
     "empresa": "Manager Hero",
     "sector": "Consultoría / Executive Advisory",
     "pais": "México",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "date": "10/08/26"
   },
@@ -1242,7 +1254,7 @@
     "empresa": "Universidad Latina de Costa Rica",
     "sector": "Advertising / Creative Services",
     "pais": "Costa Rica",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Allan Jimenez Monge",
@@ -1251,8 +1263,9 @@
   {
     "id": "alicia-perez-patron",
     "name": "Alicia Pérez Patrón",
-    "stage": 1,
-    "date": "29/07/26"
+    "stage": "1",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "id": "alexandra-perez-idarraga",
@@ -1262,7 +1275,7 @@
     "empresa": "Move Nutrition",
     "sector": "Salud / Bienestar / Nutrición",
     "pais": "Colombia",
-    "stage": 4,
+    "stage": "4",
     "estado": "Dossier enviado",
     "fecha": "29/07/26",
     "date": "29/07/26"
@@ -1274,7 +1287,7 @@
     "empresa": "Ovianta",
     "sector": "Salud / HealthTech",
     "pais": "España",
-    "stage": 1,
+    "stage": "1",
     "estado": "No interesado",
     "fecha": "16/07/26",
     "date": "16/07/26",
@@ -1323,14 +1336,15 @@
     "cargo": "Founder",
     "sector": "Salud preventiva",
     "name": "Aidee Granados",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado"
   },
   {
     "id": "adrian-luque-paez",
     "name": "Adrián Luque Páez",
-    "stage": 2,
-    "date": "29/07/26"
+    "stage": "2",
+    "date": "29/07/26",
+    "empresa": "—"
   },
   {
     "empresa": "enlace",
@@ -1340,7 +1354,7 @@
     "cargo": "Consejero Profesional Independiente",
     "sector": "Consultoria independiente",
     "name": "Adalberto Maldonado Romero",
-    "stage": 1,
+    "stage": "1",
     "estado": "MSG1 enviado"
   },
   {
@@ -1350,7 +1364,7 @@
     "empresa": "Grupo VerdeAzul",
     "sector": "Real Estate / Hospitality",
     "pais": "Panama",
-    "stage": 2,
+    "stage": "2",
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Acelis Tunon Singh",
@@ -1371,7 +1385,7 @@
         "text": "Buenas Andres. Algo que me quedó dando vueltas del evento de completaciones: no armaste la presentación tradicional, les diste la voz a los operadores, a RevSolz, a Seismos. Eso no es lo que suele hacer quien \"lidera\" un evento.\n\nEn Hint Media trabajamos con TGS y Transener en algo parecido: transformar cómo se comunica la innovación en energía para que no suene a venta sino a solución. Porque cuando el sector se cree el discurso, recién ahí adopta.\n\nCómo lo están manejando ustedes desde Darcy, ese equilibrio entre amplificar innovación y que sea creíble en campo?"
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1395,7 +1409,7 @@
         "text": "Buenas Juan Pablo! La forma en que explicaste la arquitectura del Simetrik Agent no fue sobre features — fue sobre decisiones. Determinística para lo que no puede variar, probabilística para lo que sí. Eso es raro en un VP que lanza producto. La mayoría vende features.\n\nEn empresas que escalan GTM global (TGS, Transener, Destiny Group) el mismo dilema aparece: cómo mantener una narrativa coherente en múltiples mercados y equipos sin que se fragmente. Ahí es donde solemos ayudar desde Hint Media — el equipo insertado en paralelo que sostiene la ejecución sin sumar capas de management.\n\n¿Cómo lo están abordando en Simetrik hoy mientras staffean la capa media?"
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1419,7 +1433,7 @@
         "text": "Buenas María José. Leí tu reflexión sobre IA y la brecha de capacidades — eso de \"el verdadero riesgo no es que avance demasiado rápido, sino que nuestras capacidades avancen demasiado lentamente.\" No es lo que típicamente plantean los CEOs en educación.\n\nLo interesante es que ya tenés 4 negocios distintos (educación online, ciberseguridad, formación técnica, postgrados) que en realidad están respondiendo exactamente esa pregunta. Pero me da la impresión de que la conexión entre todos esos frentes podría amplificarse mucho más como narrativa.\n\nCómo lo ven desde Grupo Enovus: es un desafío de comunicación o ya está en la estrategia que cada negocio vaya por su lado."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1443,7 +1457,7 @@
         "text": "Buenas Sonia! Tu post sobre la transición de ejecutiva a directora me quedó dando vueltas. No escribiste sobre nuevas responsabilidades. Escribiste sobre un cambio de mirada: dejar de ejecutar para pasar a anticipar riesgos y contribuir a estrategia de largo plazo. Eso es un cambio de verdad.\n\nMe imagino que con la modernización regulatoria que están impulsando desde la CNV, una buena parte de eso que describís pasa por sostener esa visión ante públicos muy distintos: el mercado, los regulados, la opinión pública. En Hint Media trabajamos con organizaciones como TGS y Transener justamente en construir narrativa que acompañe transformaciones complejas sin perder credibilidad en el camino.\n\nCómo están manejando hoy la comunicación de estos cambios regulatorios hacia los distintos actores?"
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1515,7 +1529,7 @@
         "text": "Carolina, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo comunicÃ¡s Startup Weekend PanamÃ¡. No es lo que la mayorÃ­a hace cuando quiere mostrar una iniciativa propia. Vos en cambio nombrÃ¡s mentores por nombre, les das crÃ©dito al equipo, compartÃ­s la historia completa. Dice algo sobre cÃ³mo entendÃ©s que funciona el liderazgo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -1560,7 +1574,7 @@
         "text": "Te lo dejo por aqui, estamos en contacto para el futuro. Buen finde!"
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -1676,7 +1690,7 @@
         "text": "Irving, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo planteas las sesiones regionales de Under Armour. No hablÃ¡s de objetivos ni alineaciones formales, hablÃ¡s de \"conectar con teammates y clientes, y las personas que dÃ­a a dÃ­a impulsan la marca\". Eso no es lo tÃ­pico cuando se resume una reuniÃ³n corporativa.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1724,7 +1738,7 @@
         "text": "Aldangel, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que compartÃ­s cada logro. Cuando recibiste el reconocimiento como Mejor LÃ­der de Mercadeo, lo primero que escribiste fue que el logro es del equipo, no tuyo. La mayorÃ­a de la gente lo harÃ­a al revÃ©s.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1772,7 +1786,7 @@
         "text": "MarÃ­a Paz, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo documentaste el lanzamiento de Bon Parfumeur en Colombia. No solo mostraste el evento, sino el trabajo detrÃ¡s: el equipo involucrado, el concepto, los detalles de cÃ³mo la marca llegÃ³ a esa ejecuciÃ³n. Eso no es lo que normalmente se destaca cuando se anuncia un lanzamiento.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1820,7 +1834,7 @@
         "text": "Grethel, gracias por conectar. ðŸ‘‹\n\nVi que hace poco pasaste a AI Marketing Strategist en Blue Polaris. Lo que me llamÃ³ la atenciÃ³n fue cÃ³mo vienen estructurando esa serie de webinars sobre crÃ©dito e IA â€” no es una campaÃ±a puntual, es una construcciÃ³n de narrativa en capÃ­tulos. Eso toma tiempo y una visiÃ³n clara de a quiÃ©n le hablÃ¡s y quÃ© necesitan escuchar.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1868,7 +1882,7 @@
         "text": "Tatiana, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n que hiciste hace un tiempo sobre los comentarios que reciben en el equipo de marketing. \"Â¿Que tanto hacen? Â¿Por quÃ© durarÃ¡n tanto?\" Eso que escribiste \"DetrÃ¡s del telÃ³n siempre es hermoso trabajar cada detalle con pasiÃ³n aunque los demÃ¡s no lo entiendan\" quedÃ³ grabado. No es lo que cualquiera publica cuando estÃ¡ frustrado.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -1931,7 +1945,7 @@
         "text": "Carmen, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ mucho la atenciÃ³n tu publicaciÃ³n sobre la jornada con Camila en Juan Valdez, especialmente cÃ³mo desmenuzaste quÃ© hace que ese lugar funcione: estructura, alineaciÃ³n, enfoque. Lo interesante es que no escribiste \"quÃ© hizo ella\" sino cÃ³mo su equipo vive esa estrategia dÃ­a a dÃ­a. Eso es poco comÃºn en LinkedIn.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -1979,7 +1993,7 @@
         "text": "Ricardo, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la reflexiÃ³n que compartiste despuÃ©s del MBA sobre la estrategia como capacidad, no como documento. Especialmente la parte sobre ajustar continuamente sin perder el rumbo. No es lo que la mayorÃ­a comunica cuando habla de liderazgo estratÃ©gico.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -2032,7 +2046,7 @@
         "text": "Carmen, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que escribÃ­s sobre relaciones comerciales â€” especÃ­ficamente que \"los mejores negocios se cierran despuÃ©s de aÃ±os de presencia constante\". No es algo que la mayorÃ­a de directores comerciales explicite de esa manera. La mayorÃ­a apunta a velocidad. Vos apuntÃ¡s a consistencia.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2080,7 +2094,7 @@
         "text": "Carmen, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n el cierre que hiciste de tu etapa en Diaco. Lo que mÃ¡s me gustÃ³ fue que el Ã©nfasis no estuvo en logros propios sino en agradecer al equipo y remarcar que \"los mejores resultados nacen cuando se trabaja con propÃ³sito y con personas extraordinarias\". No es lo que tÃ­picamente ves cuando alguien se va de una compaÃ±Ã­a.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 0,
+    "stage": "0",
     "stageHistory": [
       {
         "stage": 1,
@@ -2134,7 +2148,7 @@
         "text": "JosÃ© Pablo, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo comunicas los logros en Lipigas. Cuando compartiste los Effie, cuando hablaste del Great Place to Work, cuando lanzaron BioGNL â€” en todos esos momentos le diste espacio al equipo antes que a ti. No es lo que la mayorÃ­a hace cuando anuncia un reconocimiento de esa magnitud.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 3,
+    "stage": "3",
     "stageHistory": [
       {
         "stage": 1,
@@ -2193,7 +2207,7 @@
         "text": "Andrea, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la reflexiÃ³n que compartiste sobre experiencias vs. contenido. Particularmente esto: \"Los asistentes no recuerdan todo lo que se dijo, recuerdan cÃ³mo se sintieron.\" No es lo que normalmente se ve cuando alguien comunica sobre eventos, donde suele primar el reporte de nÃºmeros.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2241,7 +2255,7 @@
         "text": "Diana, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la reflexiÃ³n que compartiste en el aniversario de Growth Digital. Dijiste que lo que realmente hace la diferencia es \"el factor humano: quÃ© gran orgullo es caminar al lado de profesionales y mujeres tan extraordinarias\". No es lo que la mayorÃ­a destaca cuando habla de 2 aÃ±os en una posiciÃ³n. La mayorÃ­a habla de nÃºmeros y logros.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2289,7 +2303,7 @@
         "text": "Mladens, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que contÃ¡s la historia de Javier de la Rosa â€” en lugar de destacar un logro de planta, le diste voz a Ã©l y a cÃ³mo el equipo lo sostuvo. No es lo que la mayorÃ­a hace cuando quiere comunicar. Menos aÃºn en Oil & Gas.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2337,7 +2351,7 @@
         "text": "Lidia, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n que compartiste sobre carreras no lineales en la era de IA. No es lo tÃ­pico que alguien desde marketing en una empresa grande se anima a publicar. Da la impresiÃ³n de que para vos la adaptabilidad y el aprendizaje constante importan mÃ¡s que la progresiÃ³n tradicional.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 3,
+    "stage": "3",
     "stageHistory": [
       {
         "stage": 1,
@@ -2401,7 +2415,7 @@
         "text": "Ana MarÃ­a, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n tu reflexiÃ³n sobre \"Inteligencia Aumentada\" hace poco. Escribiste que la IA libera tiempo creativo para lo que realmente importa: conectar de forma genuina con las audiencias. No es lo que escuchas habitualmente cuando la gente habla de optimizaciÃ³n.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2501,7 +2515,7 @@
         "text": "Carolina, gracias por conectar! ðŸ‘‹\n\nEstuve revisando un poco lo que venÃ­s haciendo en ACM. Imagino que coordinar comunicaciÃ³n para minerÃ­a desde una asociaciÃ³n debe abrir varios frentes al mismo tiempo: empresas con narrativas distintas, comunidades locales, reguladores, medios que ya vienen con perspectivas armadas sobre el sector.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -2554,7 +2568,7 @@
         "text": "Andrea, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n que hace poco publicaras la entrada al diplomado de ComunicaciÃ³n PolÃ­tica en UAI. No es lo usual ver a alguien en tu posiciÃ³n invertir tiempo en eso mientras lidera estrategia digital en una empresa como Abastible. Da la impresiÃ³n de que estÃ¡s buscando entender algo mÃ¡s profundo sobre cÃ³mo funciona la comunicaciÃ³n cuando hay contextos regulatorios o de reputaciÃ³n de por medio.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -2607,7 +2621,7 @@
         "text": "Ninon, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo comunicaste tu salida de Teck. Mientras muchos usan un cambio de empresa para un anuncio promocional, vos escribiste sobre aprendizajes, sobre el equipo que dejabas, sobre quÃ© se llevan ustedes de eso. Dice mucho sobre cÃ³mo ves el trabajo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -2660,7 +2674,7 @@
         "text": "Gabriela, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ mucho la atenciÃ³n la publicaciÃ³n que hiciste sobre la \"rueda de la vida\" de Meyer. EspecÃ­ficamente cuando preguntÃ¡s si tu vida hoy estÃ¡ en coherencia con lo que decÃ­s que es importante. Casi nadie publica eso. La mayorÃ­a solo publica lo que estÃ¡ funcionando.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -2713,7 +2727,7 @@
         "text": "Mathew, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n del anillo. No porque sea una buena historia, sino por lo que dijiste al final: \"This has everything to do with work. Sometimes you don't have the right tools... and eventually, you figure it out.\" Eso es honesto. Casi nadie expone que el trabajo real muchas veces pasa por resolver con lo que tenÃ©s, no con lo que necesitÃ¡s.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2761,7 +2775,7 @@
         "text": "Erwin, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n sobre el Master en BI que terminaste hace poco. No es lo que tÃ­picamente celebra un VP de marketing â€” normalmente es \"hicimos esta campaÃ±a, ganamos este award\". Vos publicaste \"aprendÃ­ a interpretar datos\" y luego compartiste la anÃ©cdota de Miguel Ãngel. Da la sensaciÃ³n de que para vos la excelencia no es agregar cosas, es remover lo que no funciona.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2809,7 +2823,7 @@
         "text": "Roberto, gracias por conectar.\n\nMe quedÃ³ la impresiÃ³n de que hay una lectura bastante clara en tu perfil: compartÃ­s contenido sobre liderazgo que se basa en confianza y empatÃ­a constantemente. \"La confianza no llega despuÃ©s del resultado, llega despuÃ©s de la confianza.\" Lo publicÃ¡s, lo valorÃ¡s, y eso dice algo. Pero al mismo tiempo gestionÃ¡s un grupo industrial complejo que necesita rigor, mÃ©tricas, y ejecuciÃ³n. Eso suele abrir una fricciÃ³n interesante.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2839,7 +2853,7 @@
         "text": "Cristina, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n sobre Kellogg, especialmente cuando mencionÃ¡s que querÃ­as \"pensar mÃ¡s estratÃ©gicamente sobre crecimiento centrado en el cliente\". Eso no es cualquier intenciÃ³n â€” la mayorÃ­a completa un programa y listo. Vos ademÃ¡s lo escribÃ­s pensando en cÃ³mo aplicarlo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -2902,7 +2916,7 @@
         "text": "SebastiÃ¡n, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la reflexiÃ³n que compartiste sobre Dallas y MÃ©xico. No es lo que la mayorÃ­a escribe cuando viaja â€” la mayorÃ­a cuenta el viaje, vos pusiste el foco en que \"las partnerships y equipos fuertes se construyen intencionalmente\" y que tomar tiempo en persona genera mejor alineamiento y conversaciones mÃ¡s claras. Eso dice algo sobre cÃ³mo pensÃ¡s la coordinaciÃ³n.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -2950,7 +2964,7 @@
         "text": "Paola, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo planteÃ¡s la comunicaciÃ³n en el panel del Leadership Forum. La frase sobre \"coherencia entre propÃ³sito, valores, acciones e impacto\" â€” no es lo que escuchas todos los dÃ­as. La mayorÃ­a habla de campaÃ±as, vos hablÃ¡s de consistencia.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3001,7 +3015,7 @@
         "text": "Hola Flor! Si claro en quÃ© te puedo ayudar"
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -3054,7 +3068,7 @@
         "text": "Paula, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ mucho la atenciÃ³n la publicaciÃ³n que compartiste sobre el joven geÃ³logo. Lo que mÃ¡s me gustÃ³ fue que en lugar de venderle a la gente el \"valor de FEXMIN\", decidiste contar una historia concreta de lo que pasÃ³ adentro. No es lo que suele hacer la mayorÃ­a cuando quiere promocionar algo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3118,7 +3132,7 @@
         "text": "Johnny, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n que hiciste hace poco sobre el Zero-Click Era. No fue solo un anÃ¡lisis de datos, fue tu lectura de la brecha: \"la velocidad a la que adoptan cambios las empresas versus la velocidad del mercado es clave\". Eso es lo que la mayorÃ­a pasa por alto.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -3171,7 +3185,7 @@
         "text": "Mario, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que escribiste sobre la convenciÃ³n en EspaÃ±a: \"las mejores estrategias se construyen junto a quienes creen en el mismo propÃ³sito\". Es lo opuesto a lo que la mayorÃ­a hace cuando arma un plan estratÃ©gico. Y ahora estÃ¡s buscando Analista de Contenido y DiseÃ±o, asÃ­ que imagino que la ejecuciÃ³n de esa visiÃ³n necesita gente detrÃ¡s.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3235,7 +3249,7 @@
         "text": "Wilberth, gracias por conectar. ðŸ‘‹\n\nVi tu publicaciÃ³n de hace una semana. Lo que mÃ¡s me llamÃ³ la atenciÃ³n fue que en lugar de destacar tus logros, le diste el protagonismo a la creatividad y el talento del equipo. No es lo que la mayorÃ­a hace cuando acaba de ascender a jefe.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3298,7 +3312,7 @@
         "text": "Yanelly, gracias por conectar! ðŸ‘‹\n\nMe quedÃ³ la reflexiÃ³n que compartiste sobre la segunda ediciÃ³n de Talent Up. Lo que me llamÃ³ la atenciÃ³n no fue solo el evento en sÃ­, sino cÃ³mo describiste el proceso: algo que empezÃ³ como una idea y se convirtiÃ³ en iniciativa, y cÃ³mo eso te obligÃ³ a descubrir Ã¡reas de liderazgo que no sabÃ­as que tenÃ­as.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3361,7 +3375,7 @@
         "text": "Juan Pablo, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que posicionaste el lanzamiento del estudio de adopciÃ³n de IA. Entre muchas opciones, elegiste empezar hablando de llevar la IA \"desde experimentaciÃ³n a creaciÃ³n de valor real\" â€” no de implementaciÃ³n de herramientas. Eso dice algo sobre cÃ³mo ves el trabajo que necesita una empresa en esta etapa.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3409,7 +3423,7 @@
         "text": "Ãngela, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo escribiste el anuncio de Colombiamoda Miami 2026. Abriste con \"Empezamos\" y \"Crecemos\", no con \"Se realizarÃ¡\". No es lo que la mayorÃ­a hace cuando anuncia un evento, especialmente en sector corporativo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3457,7 +3471,7 @@
         "text": "MarÃ­a BelÃ©n, gracias por conectar ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n que fueras a PeÃ±alolÃ©n a recorrer el proyecto antes de armar la estrategia. No es lo que la mayorÃ­a escribe cuando habla de marketing inmobiliario. Dice algo de cÃ³mo pensÃ¡s las cosas.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3526,7 +3540,7 @@
         "text": "Kristela, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n sobre el vestido blanco. Particularmente porque no era una foto de antes-y-despuÃ©s de lo que suele ser \"transformaciÃ³n\" en redes. Era una historia sobre autoconocimiento atravesando cambios fÃ­sicos reales, sin esperar el cuerpo perfecto para estar presente. Eso dice bastante sobre cÃ³mo vos enseÃ±as â€” desde la coherencia vivida, no desde la teorÃ­a o los estÃ¡ndares.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -3579,7 +3593,7 @@
         "text": "CÃ©sar, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo comunicÃ¡s los espacios que venÃ­s coordinando. No es lo tÃ­pico: en lugar de destacar tu rol como expositor o coordinador, le das la voz al diÃ¡logo, a los otros expositores, a la necesidad sectorial. Y ese \"en ciberseguridad no se compite, se colabora\" parece bastante deliberado.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 4,
+    "stage": "4",
     "stageHistory": [
       {
         "stage": 1,
@@ -3644,7 +3658,7 @@
         "text": "Guillermo, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n cÃ³mo enfocaste la publicaciÃ³n sobre la reuniÃ³n comercial. Pusiste el reconocimiento al equipo al frente, y despuÃ©s mencionaste \"generar valor y cumplir expectativas de clientes\". No es el orden que la mayorÃ­a usa cuando quiere hablar de resultados.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -3697,7 +3711,7 @@
         "text": "Julia, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la publicaciÃ³n del Workplace Design Conference. Lo que mÃ¡s me gustÃ³ fue que en lugar de vender la plataforma, pusiste el foco en la pregunta: quÃ© hace que una oficina sea un lugar al que las personas quieran volver. Y despuÃ©s le diste crÃ©dito explÃ­cito a 3g office y Globant. No es lo que la mayorÃ­a hace cuando organiza un evento corporativo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3745,7 +3759,7 @@
         "text": "Ana MarÃ­a, gracias por conectar! ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n que cierres tu presentaciÃ³n diciendo que estÃ¡s en bÃºsqueda activa. No suele ser algo que las personas comuniquemos asÃ­ en LinkedIn â€” generalmente lo dejamos implÃ­cito. Me quedÃ³ la impresiÃ³n de que buscÃ¡s algo que vaya mÃ¡s allÃ¡ del tÃ­tulo.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 2,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -3798,7 +3812,7 @@
         "text": "Constanza, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ la atenciÃ³n la forma en que describiste lo que pasa en hotelerÃ­a: \"nuevas historias por construir\". No es lo que la mayorÃ­a pone cuando habla de su rol. Normalmente se queda en tareas o responsabilidades, pero vos fuiste directo a la narrativa.\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3846,7 +3860,7 @@
         "text": "Michael, gracias por conectar ðŸ‘‹\n\nEstuve revisando un poco lo que vienen haciendo en Panacredit. Me llamÃ³ la atenciÃ³n el movimiento que estÃ¡n haciendo con PrestaFÃ¡cil en El Salvador justo en la previa de consolidar la operaciÃ³n regional. Imagino que en canales alternativos eso genera bastante complejidad simultÃ¡nea.\n\nSi es correcto lo que leÃ­, tenÃ­a una duda y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 1,
+    "stage": "1",
     "stageHistory": [
       {
         "stage": 1,
@@ -3894,7 +3908,7 @@
         "text": "Nicole, gracias por conectar. ðŸ‘‹\n\nMe llamÃ³ bastante la atenciÃ³n esa publicaciÃ³n donde cuestionabas el discurso de IA que estÃ¡ predominando en fintech. EspecÃ­ficamente lo que dijiste sobre que el problema no es la tecnologÃ­a sino la arquitectura, los datos y los procesos que no conversan. No es lo que tÃ­picamente ve alguien en eventos tech cuando todo el mundo vende \"transformaciÃ³n digital ahora\".\n\nSi estoy entendiendo bien lo que leÃ­, tenÃ­a una consulta y querÃ­a saber si me podÃ­as ayudar."
       }
     ],
-    "stage": 3,
+    "stage": "3",
     "stageHistory": [
       {
         "stage": 1,
@@ -3937,25 +3951,25 @@
     "name": "Alfredo Zepeda P.",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Adriana Bassi Martínez",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Sebastian Benabidez",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Roy Magariños",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Mariano Fiorito",
@@ -3973,13 +3987,13 @@
     "name": "Carlos Marcuello Aguirre",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Sebastian Olano",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Matias Arturo",
@@ -3997,25 +4011,25 @@
     "name": "Alejandro Osores Namihas",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Jose F. Villegas Delgado",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Jorge Ivan Otalvaro Tobon",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Laís Aoki",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Victor Perez-Cotapos",
@@ -4027,55 +4041,55 @@
     "name": "Leonardo Oscar Iglesias",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Juan Camilo Velasco Hoyos",
     "stage": "2",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Pedro Donado Manrique",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Lionel Cymerman",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Claudia Patricia Rios Molina",
     "stage": "1",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "José Antonio Pedraza",
     "stage": "3",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Maximiliano Quintana",
     "stage": "3",
     "date": "17/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Ana Beatriz Estrada",
     "stage": "6",
     "date": "18/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Pablo Julián Mateo",
     "stage": "2",
     "date": "15/08/26",
-    "empresa": ""
+    "empresa": "—"
   },
   {
     "name": "Claudia Hoyos Bastidas",
@@ -4092,30 +4106,30 @@
     "name": "Macarena Vargas Losada",
     "stage": "0",
     "date": "13/08/26",
-    "empresa": "",
+    "empresa": "—",
     "noInterest": true
   },
   {
     "name": "Christian Wiens",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Loman"
   },
   {
     "name": "Tania León González",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Cronoss"
   },
   {
     "name": "Andres Roepke Del Solar",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Ana María Marcet",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Finova SA"
   },
@@ -4127,25 +4141,25 @@
   },
   {
     "name": "Paula Justo",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Ernesto Seidel",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Néstor Consuegra Gutiérrez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Colombia"
   },
   {
     "name": "Jose Fernando (₿) Martinez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Área metropolitana de Bogotá D.C.",
     "noInterest": true,
@@ -4159,188 +4173,188 @@
   },
   {
     "name": "M. Wilma Lepre (she/her)",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Christian Gonzalez Ackerknecht",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Área metropolitana de Santiago"
   },
   {
     "name": "Vanesa Gambirazio",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "UCA"
   },
   {
     "name": "Julian Torres Gomez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Ontop (YC Alumni W21)"
   },
   {
     "name": "Enrique Vidal Bazterrica",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "GARMIN"
   },
   {
     "name": "Tomás Fourcade",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Advanta Global"
   },
   {
     "name": "Juan Ignacio Abuchdid",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Dycasa Sociedad Anonima"
   },
   {
     "name": "Flavio Beretta",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Maximiliano Caro",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Marcelo Erezuma B.",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Sales Navigator"
   },
   {
     "name": "Marcelo Franceschini",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Odaclick Game Studio"
   },
   {
     "name": "Diego Kirschenbaum",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Capital Humano"
   },
   {
     "name": "Luciano (Emprendedor) Nicora",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "GP Pampa Start"
   },
   {
     "name": "Maximiliano Santa Cruz",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Matías Negrotto",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Cristian Osorio",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "CEO IntercapIT"
   },
   {
     "name": "Pablo Vergara",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Head of Operations @ Fintoc"
   },
   {
     "name": "Ingrid Aranela",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Kinross Chile"
   },
   {
     "name": "David Azar",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Outsmart Labs"
   },
   {
     "name": "Juan Pablo Baraona Reyes",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Miguel A. Kiguel",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Executive Director of EconViews"
   },
   {
     "name": "Sebastian Rimmele",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Clusterciar"
   },
   {
     "name": "Juan Felipe Gómez Martínez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Nacional de Seguros Colombia",
     "recontact": "2026-11-18"
   },
   {
     "name": "Diego Manfio",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Ingenieria SIMA SA"
   },
   {
     "name": "Felipe Trujillo Lopez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Vicepresidente Downstream Ecopetrol S.A"
   },
   {
     "name": "Jaime (CAMS, CPAML, PMP) Ramirez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "FINX"
   },
   {
     "name": "Alejandro Rodrigo Monteiro",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Luis Yangali Abad",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Área metropolitana de Santiago"
   },
   {
     "name": "Tatyana Orozco De La Cruz",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Consultia"
   },
   {
     "name": "Daniel Ibañez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Daniel Seva",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Presidente InverLease S.A."
   },
@@ -4352,19 +4366,19 @@
   },
   {
     "name": "Monica Melito",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Jimena Ruiz Velásquez",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Área metropolitana de Bogotá D.C."
   },
   {
     "name": "Pablo Emilio Salas",
-    "stage": 1,
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Gerente General"
   },
@@ -4378,91 +4392,91 @@
   },
   {
     "name": "Guillermo Barbero",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "FIRST Corporate Finance Advisors S.A."
   },
   {
     "name": "Luciano Fucello",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Tomas de Pablos Souza",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Matías Peralta",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Marcos Nicolaides",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Presidente de Empresas Nicolaides"
   },
   {
     "name": "Brian Brenta",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Andrea Grobocopatel",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Fundación FLOR"
   },
   {
     "name": "Patricio Quijada Menanteaux",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Alex Reyes-Ortiz",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Vida y Abundancia"
   },
   {
     "name": "Igor Elias",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Área metropolitana de Santiago"
   },
   {
     "name": "Sebastian Plotno",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Vice President - LATAM"
   },
   {
     "name": "Mariano Pizarro",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Comunicación ♦ Viajes y Turismo"
   },
   {
     "name": "Anita Marambio Reynes",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Chile"
   },
   {
     "name": "Andres Meta",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Patricio O´Kon",
-    "stage": 3,
+    "stage": "3",
     "date": "2026-08-18",
     "empresa": "CryptoSports / Papel Picado",
     "email": "patricio@papelpicadoweb.com",
@@ -4472,110 +4486,110 @@
   },
   {
     "name": "Luis Bermejo",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "ALAYA Capital"
   },
   {
     "name": "Adriana Meldini",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "LinkedIn"
   },
   {
     "name": "Valeria Buitrago",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Family Office Club"
   },
   {
     "name": "Carlos Honorato Comandari",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Área metropolitana de Santiago"
   },
   {
     "name": "Mariano Ricco .",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Mariano Rubinstein",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Sura Gaming"
   },
   {
     "name": "Resha Shroff",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Lynx Automaton"
   },
   {
     "name": "Guillermo Guiricich",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Marianela Cisternas Soto",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Fundación Belén Educa"
   },
   {
     "name": "René Zuleta",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "San José Metropolitan Area"
   },
   {
     "name": "Wilson Pais",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "VCs"
   },
   {
     "name": "Pablo Cabrera",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "B2B - Traslados corporativos 🌿"
   },
   {
     "name": "Gonzalo A. Sanchez",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Baipro"
   },
   {
     "name": "Gabriel Cardozo",
-    "stage": 2,
+    "stage": "2",
     "date": "18/08/26",
     "empresa": "Fabrica SRL"
   },
   {
     "name": "Sebastian Bazzani",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "UTN BA"
   },
   {
     "name": "Jonatan (Joni) Lopez",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Bioingepro SRL"
   },
   {
     "name": "Melanie Weimberg",
-    "stage": 1,
+    "stage": "1",
     "date": "18/08/26",
     "empresa": "Manantial Grupo Humano"
   },
   {
     "id": "sandra-suarez-perez",
     "name": "Sandra Suárez Pérez",
-    "stage": 3,
+    "stage": "3",
     "date": "2026-08-05",
     "sector": "Educación Ejecutiva / Coaching",
     "pais": "Colombia",
@@ -4584,7 +4598,7 @@
   {
     "id": "luis-mendieta-padilla",
     "name": "Luis Mendieta Padilla",
-    "stage": 2,
+    "stage": "2",
     "date": "2026-08-12",
     "sector": "Audiovisual / Marketing",
     "pais": "Ecuador",
@@ -4593,7 +4607,7 @@
   {
     "id": "karla-osorio-rujano",
     "name": "Karla Osorio Rujano",
-    "stage": 4,
+    "stage": "4",
     "date": "2026-08-12",
     "sector": "Turismo / Gobierno",
     "pais": "Panama",
@@ -4602,37 +4616,37 @@
   },
   {
     "name": "Martin Pita",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Universidad Nacional del Comahue (Neuquén)"
   },
   {
     "name": "Christian Alberto Liberatore",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Gerente de Operaciones"
   },
   {
     "name": "Renzo Gabriel De Stefano",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Tomas Vassallo",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "ARQUITECTO FAU-UNLP"
   },
   {
     "name": "Mariela Schenone",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Finanzas, Tecnología & Real Estate"
   },
   {
     "name": "Cristian Díaz",
-    "stage": 0,
+    "stage": "0",
     "date": "20/08/26",
     "empresa": "Valvtronic S.A.",
     "estado": "No interesado",
@@ -4646,151 +4660,151 @@
   },
   {
     "name": "Sofia Diaz",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Mauro Enzo Gallina",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "PREAR Soluciones Premoldeadas"
   },
   {
     "name": "Romina Victoria Giubergia Quirós",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Customer Experience (CX)"
   },
   {
     "name": "Victoria (vitu - she/her) Molina, PMP®",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "BetterPros"
   },
   {
     "name": "Adrián Martín Ferrando",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Capital Humano"
   },
   {
     "name": "Eduardo Tato",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "CINC S.A."
   },
   {
     "name": "Federico Martinez",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Magirus GmbH"
   },
   {
     "name": "Marcelo R. (MarChello) Matarazzi",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "UNIVERSIDAD TECNOLOGICA NACIONAL"
   },
   {
     "name": "Fernando Moyano Saldivia",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Sebastian Kemerer",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Racklatina S.A."
   },
   {
     "name": "Antonio Perez Espinoza",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Mapei Argentina"
   },
   {
     "name": "Lucía Abalone",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Ingeniera civil"
   },
   {
     "name": "Fernanda Patrone",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Estefania Andreu",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Project - Civil Engineer"
   },
   {
     "name": "RENE ROLANDO CORREA",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Brava Soluciones Oil & Gas"
   },
   {
     "name": "Solana Milagros Galarza",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Mediterráneo S.A."
   },
   {
     "name": "Priscila Elisabeth Iantosca",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Marketing Estrategy & Brand Leader"
   },
   {
     "name": "Jose Ignacio Petrillo",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Grupo PMP"
   },
   {
     "name": "💯Juan Manuel Sordo",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Vendedor Tersuave"
   },
   {
     "name": "Martín Isnardi",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Emanuel Alegre",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Gerente Técnico Operativo"
   },
   {
     "name": "Luciano Fornaro",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Latinoamérica"
   },
   {
     "name": "Pablo Cipolletta",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Ingeniero Civil"
   },
   {
     "name": "Paula Ghirardi",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Project Manager"
   },
   {
     "name": "Luciano Serventi",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Transportes Crexell"
   },
@@ -4802,31 +4816,31 @@
   },
   {
     "name": "Juan Manuel Cabrera",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Responsable SyT LLT"
   },
   {
     "name": "Lucas Carballo",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Bricons"
   },
   {
     "name": "Franco Landetcheverry",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "ORSEP"
   },
   {
     "name": "Damian Carlos Faruch",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Argentina"
   },
   {
     "name": "Fabián Larobina",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Grupo DEMA"
   },
@@ -4838,37 +4852,37 @@
   },
   {
     "name": "Jesús H. Ferré",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "GEMSA"
   },
   {
     "name": "Cristina Sanchez Cervelo",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Buenos Aires y alrededores"
   },
   {
     "name": "Lucas Manuel Granieri",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Atrim Global"
   },
   {
     "name": "Candela Lucia Potarski",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Universidad Tecnológica Nacional BA"
   },
   {
     "name": "Juan Pablo Cingolani",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Blangino"
   },
   {
     "name": "Maximiliano F. Batista",
-    "stage": 1,
+    "stage": "1",
     "date": "20/08/26",
     "empresa": "Planexware"
   }
