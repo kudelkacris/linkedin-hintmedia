@@ -5,7 +5,7 @@
 **Empresa:** Cronoss
 **Pais:** Colombia
 **Sector:** Ed-Tech / Fintech / Educación Financiera
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -24,6 +24,21 @@
 > Eso que hiciste — traducir reconocimiento externo en narrativa de propósito — es lo que la mayoría de las empresas no logra hacer consistente. En Hint Media trabajamos exactamente eso con equipos de ed-tech y fintech: convertir logros reales en narrativa que resuene en LATAM sin perder credibilidad.
 >
 > Cómo estás manejando esa narrativa desde el lado del crecimiento y la comercial? Es algo que suele dividir equipos.
+
+---
+
+## Respuesta MSG1
+> 👏 👍 😊
+> Hola hola, a qué se dedica tu empresa exactamente?
+
+---
+
+## MSG2
+> Buenas Tania!
+> Comunicación estratégica. Acompañamos a equipos de liderazgo en construir la capa de narrativa que sostiene el crecimiento: posicionamiento ejecutivo, contenido con criterio, paid media.
+> Lo que veo en Cronoss: tienen reconocimiento y credibilidad real. Cómo lo estás traduciendo al canal comercial en LATAM donde la desconfianza en fintech todavía pesa?
+> Trabajamos con empresas de tecnología como Agora en exactamente ese tipo de desafío.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
 ---
 
