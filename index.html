@@ -2041,24 +2041,20 @@ let _weekState = {}; // { 'YY-MM-W': true/false }
 
 async function initHist() {
   let localData = [];
-  try { localData = JSON.parse(localStorage.getItem('hm_hist_v2') || '[]'); } catch {}
+  const validEntry = e => !!(e.name || e.nombre);
+  try { localData = (JSON.parse(localStorage.getItem('hm_hist_v2') || '[]')).filter(validEntry); } catch {}
 
   try {
     const res = await fetch('/api/historial');
-    const data = await res.json();
-    if (Array.isArray(data) && data.length > 0) {
-      // Use whichever has more entries (local may have unsaved session data)
-      if (localData.length > data.length) {
-        _histEntries = localData;
-        histPersist(); // sync local → server
-      } else {
-        _histEntries = data;
-        // Keep localStorage in sync
-        try { localStorage.setItem('hm_hist_v2', JSON.stringify(data)); } catch {}
-      }
+    const raw = await res.json();
+    const data = Array.isArray(raw) ? raw.filter(validEntry) : [];
+    if (data.length > 0) {
+      // Server is authoritative — always use server data
+      _histEntries = data;
+      try { localStorage.setItem('hm_hist_v2', JSON.stringify(data)); } catch {}
     } else if (localData.length > 0) {
       _histEntries = localData;
-      histPersist(); // sync local → server
+      histPersist();
     }
   } catch {
     _histEntries = localData.length > 0 ? localData : [];
