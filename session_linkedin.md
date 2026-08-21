@@ -180,18 +180,24 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 20/08/26
+## Stats al cierre 20/08/26 (tarde)
 
-- Total historial: ~769 contactos
-- Sesión 20/08: Francisco Jones (MSG1+dossier mismo día — sector energía/infra, respondió en 2 min), Maurice Poirrier (cerrado — recontact nov/26), Pedro Donado Manrique (MSG2 enviado — nuevo cierre dossier+reunión)
+- Total historial: 1101 contactos reales (limpiado — 499 stubs/logs eliminados)
+- Sesión 20/08 mañana: Francisco Jones (dossier — energía), Maurice Poirrier (cerrado), Pedro Donado (MSG2)
+- Sesión 20/08 tarde: Dante Velasco (dossier stage 3 — respondió en 9 min), Florencia Cavallo (dossier stage 3)
+
+## Cambios importantes de metodología (20/08/26)
+
+- **MSG1 ahora es 3 burbujas** — Hint aparece en B2, dossier+reunión juntos en B3 (CTA único)
+- **Mapa de clientes completo** — Sullair siempre primero. Agora (tech), Royal English (educación), Grupo One (eventos), Spain Collection (turismo), Tassaroli (Oil & Gas) ahora disponibles
+- **A testear** — medir tasa de respuesta de la nueva metodología vs anterior (primera sesión: 2 dossiers de los enviados hoy)
 
 ## Prioridades para próxima sesión
 
 1. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
 2. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-3. **MSG1 Grupo A** — Pedro Donado, Carlos Fonseca, Carla Mariman
-4. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján
-5. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones
+4. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
 
 ---
 
