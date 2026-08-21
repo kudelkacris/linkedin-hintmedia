@@ -4,12 +4,17 @@
 
 ---
 
-## Última sesión: 20/08/26
+## Última sesión: 21/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
+| Marcelo R. Matarazzi | 2 - MSG2 enviado | MSG2 21/08 — "no existe filosofía de las cosas" sector público | Esperar respuesta |
+| Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
+| Renzo Gabriel De Stefano | 2 - MSG2 enviado | MSG2 21/08 — pivote a Hexagon, objetivo referido interno | Esperar respuesta |
+| Leonardo Ortellado | 3 - Dossier enviado | Dossier 21/08 — aceptó desde MSG1 | SEG1 pendiente |
+| Tomas Ibarlin | 1 - MSG1 generado | MSG1 21/08 — inspector obra pública Santa Fe, perfil junior | Esperar respuesta |
 | Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 urgente — vencido |
 | Álvaro Bohórquez | 2 - MSG2 enviado | MSG2 12/08 — respondió con newsletter propio | Esperar respuesta |
 | Juan David Londoño Gomez | 2 - MSG2 enviado | MSG2 27/07 | Esperar respuesta |
@@ -117,11 +122,13 @@
 | Daniela Buján | Sin .md — pegar conversación para hacer SEG1 |
 | Gonzalo Dalmazzo | Stage 3 activo — SEG1 pendiente |
 | Eduardo Javier Ochoa | Stage 3 activo — SEG1 pendiente |
+| Leonardo Ortellado | Stage 3 activo — SEG1 pendiente |
 
 ### Cerrados / No interesados
 
 | Nombre | Estado |
 |--------|--------|
+| Idis Luque Garcia | Cerrada 21/08 — salió de GVA, nueva posición sin manejo de marketing |
 | Jose Fernando Martinez | Cerrada 18/08 — no es su área, foco en partnerships directos |
 | Pamela Auszenker, CFA | Cerrada 17/08 — rechazó educadamente |
 | José Luis Olivieri | Cerrada 17/08 — referido a **Celeste Neyra** (celeste.neyra@datco.net, Marketing Grupo Datco) |
@@ -183,11 +190,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 20/08/26 (tarde)
+## Stats al cierre 21/08/26
 
-- Total historial: 1101 contactos reales (limpiado — 499 stubs/logs eliminados)
-- Sesión 20/08 mañana: Francisco Jones (dossier — energía), Maurice Poirrier (cerrado), Pedro Donado (MSG2)
-- Sesión 20/08 tarde: Dante Velasco (dossier stage 3 — respondió en 9 min), Florencia Cavallo (dossier stage 3)
+- Total historial: 1157 entradas
+- Sesión 21/08: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -197,10 +203,11 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ## Prioridades para próxima sesión
 
-1. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
-2. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones
-4. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+1. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
+2. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
+3. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
+4. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+5. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
 
 ---
 
