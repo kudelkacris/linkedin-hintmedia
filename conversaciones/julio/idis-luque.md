@@ -5,7 +5,7 @@
 **Empresa:** Hospitalidad y Servicios.
 **Pais:** Panamá
 **Sector:** Hospitalidad / Servicios
-**Estado:** SEG1 enviado — 21/07/26
+**Estado:** CERRADO — 21/08/26
 
 ---
 
@@ -46,5 +46,11 @@
 > Sí, claro
 
 ---
+
+## Cierre
+21/08/26 — Salió de GVA. Nueva posición sin manejo de marketing. Respondió con buena onda.
+> "Hola Gracias, ya no estoy en GVA y donde estoy actualmente no veo Marketing. Gracias y exitos."
+
+Respuesta enviada: "Hola Idis, muchas gracias por avisarme. Te deseo lo mejor en esta nueva etapa. Cuando el contexto lo permita, acá estamos."
 
 ## Notas

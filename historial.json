@@ -1622,14 +1622,15 @@
         "text": "Buenas Daniel! Vi que te anotaste en el curso de Power BI con Liga de Compradores hace poco. No es lo que típicamente hace un comprador que quiere \"mantener lo que funciona\" — parece que buscás cambiar cómo tomas decisiones desde los datos.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.\n\nEn Hint Media trabajamos con equipos de construcción e industria como Sullair en transformar cómo comunican y ejecutan cambios operativos sin que todo dependa de una sola persona. Te envío el dossier para que veas cómo lo hacemos."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
         "date": "21/08/26",
         "note": ""
       }
-    ]
+    ],
+    "email": "D.pasacantando@depaoli-trosce.com.ar"
   },
   {
     "id": "1787325911051",
@@ -8451,12 +8452,13 @@
   },
   {
     "name": "Idis Luque",
-    "stage": "4",
+    "stage": 0,
     "date": "06/07/26",
     "empresa": "Hospitalidad y Servicios.",
     "cargo": "Directora de Ventas, Marketing y Comunicaciones | Liderazgo Ejecutivo | Estrategia Comercial y Crecimiento de Portafolios Multipropiedad en Hospitalid",
     "pais": "Panamá",
-    "sector": "Hospitalidad / Servicios"
+    "sector": "Hospitalidad / Servicios",
+    "noInterest": true
   },
   {
     "name": "Ignacio Andree Muñoz Flores",
