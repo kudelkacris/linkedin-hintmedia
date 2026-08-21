@@ -30,9 +30,8 @@
 ## Respuesta MSG1
 > "Gracias Florecia lo hice por mi cuenta a nivel empresa no pasa por mi esa decisión. Te paso mi mail D.pasacantando@depaoli-trosce.com.ar. Si queres enviarme una propuesta la elevo."
 
-## MSG2
-> Gracias Daniel! Te lo mando ahora a D.pasacantando@depaoli-trosce.com.ar
-> Es un dossier breve con casos concretos de lo que hacemos en comunicación de marca y contenido para empresas industriales. Si al que lo revisa le genera alguna pregunta, acá estamos.
+## MSG2 (enviado 21/08 15:08)
+> Buenisimo Dani, te agradezco, en un ratito te lo envio y vemos como proseguimos. Es un dossier breve con casos concretos de lo que hacemos en comunicación de marca y contenido para empresas industriales. Si al que lo revisa le genera alguna pregunta, acá estamos.
 
 ## Notas
 - 21/08/26: no es decisor. Dossier por mail. Se ofrece como campeón interno — lo eleva. Email: D.pasacantando@depaoli-trosce.com.ar. Empresa: Depaoli-Trosce.
