@@ -43,4 +43,12 @@
 > Lo del congreso de 2024 cierra el círculo: decir en un ámbito técnico que el problema no es la ausencia de datos sino la capacidad institucional de interpretarlos requiere un nivel de convicción que la mayoría evita expresar en voz alta en ese tipo de foro.
 > Te mando el dossier por acá. Y si al leerlo encontrás algún punto que valga la pena conversar, creo que podríamos tener una charla interesante.
 
+## Respuesta MSG3 / Dossier (22/08/26)
+> "Gracias Flor!! Especialmente por tus devoluciones, son exactas. Ahí me descargo el dossier y claro está que busco la disrupción, así como ustedes también entienden que la cosa va por ahí en muchos casos. Abrazo y hermoso finde."
+
+## Respuesta cierre finde (22/08/26)
+> Abrazo Marcelo! Lindo finde también. Lo de la disrupción es exactamente el hilo que une los casos del dossier. Cuando lo veas me contás.
+
+**Engagement:** HIGH — descargando dossier, se identifica con la disrupción, apertura total.
+
 ## Notas

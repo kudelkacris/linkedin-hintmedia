@@ -36,4 +36,14 @@
 
 ---
 
+## Respuesta dossier (22/08/26)
+> Revisó el dossier. Transparente: ORSEP depende del Tesoro Nacional, sin presupuesto para terceros. Él es campo/ingeniería, comunicación fuera de su scope. Derivó al Departamento de Comunicaciones en Capital Federal vía web oficial.
+
+## Cierre (22/08/26)
+> Buenas Franco, gracias por la honestidad y por haberte tomado el tiempo de revisar.
+> Entendemos la situación, no hay apuro. Vamos a buscar el contacto en Comunicaciones por los canales oficiales. Y si en algún momento cambia el panorama o cruzamos caminos de otra forma, acá estamos.
+> Mucho éxito!
+
+**Estado final:** Cerrado suave — sin presupuesto institucional. Recontacto largo plazo (2027). Buscar Departamento de Comunicaciones ORSEP por canales oficiales.
+
 ## Notas
