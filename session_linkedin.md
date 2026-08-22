@@ -4,13 +4,13 @@
 
 ---
 
-## Última sesión: 21/08/26
+## Última sesión: 22/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
-| Marcelo R. Matarazzi | 3 - Dossier enviado | 21/08 noche — respondió con historia del Congreso Caminos Rurales 2024, dossier enviado como adjunto | SEG1 pendiente |
+| Marcelo R. Matarazzi | 3 - Dossier enviado | 22/08 — respondió al dossier "busco la disrupción", engagement HIGH. Respuesta enviada: "Lo de la disrupción es exactamente el hilo que une los casos del dossier." | SEG1 pendiente si no responde |
 | Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
 | Renzo Gabriel De Stefano | 2 - MSG2 enviado | MSG2 21/08 — pivote a Hexagon, objetivo referido interno | Esperar respuesta |
 | Leonardo Ortellado | 3 - Dossier enviado | Dossier 21/08 — aceptó desde MSG1 | SEG1 pendiente |
@@ -128,6 +128,7 @@
 
 | Nombre | Estado |
 |--------|--------|
+| Franco Landetcheverry | Cerrado 22/08 — ORSEP sin presupuesto (Tesoro Nacional), él es campo/ingeniería. Recontact 2027-03-01. Buscar Dpto. Comunicaciones ORSEP por web oficial. |
 | Idis Luque Garcia | Cerrada 21/08 — salió de GVA, nueva posición sin manejo de marketing |
 | Jose Fernando Martinez | Cerrada 18/08 — no es su área, foco en partnerships directos |
 | Pamela Auszenker, CFA | Cerrada 17/08 — rechazó educadamente |
@@ -190,12 +191,13 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 21/08/26
+## Stats al cierre 22/08/26
 
 - Total historial: 1157 entradas
 - Sesión 21/08 mañana: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
 - Sesión 21/08 tarde: dossier Daniel Pasacantando (mail, lo eleva internamente), fix viewer
 - Sesión 21/08 noche: dossiers Matarazzi/Kemerer/Salvatore(mail)/Fhellaweith, cierres Larobina/Barrios. Kemerer: budget pausado, contacto Patricia Cirillo (MARCOM Racklatina)
+- Sesión 22/08: cierre Franco Landetcheverry (recontact 2027), Matarazzi respondió dossier positivo (engagement HIGH)
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -207,12 +209,14 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 1. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
 2. **Dossier por mail — Daniel Pasacantando** — enviado a D.pasacantando@depaoli-trosce.com.ar, lo eleva internamente (Depaoli-Trosce Constructora)
-3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado, Matarazzi
-4. **Tomas Ibarlin** — respondió, procesar
-5. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
-6. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-7. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
-8. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
+4. **Matarazzi** — esperar respuesta tras mensaje de hoy; si no responde en 48hs → SEG1
+5. **Tomas Ibarlin** — respondió, procesar
+6. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
+7. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+8. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+9. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+10. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar (referido por Franco Landetcheverry)
 
 ---
 
