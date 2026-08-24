@@ -5,7 +5,8 @@
 **Empresa:** Ingenieria SIMA SA
 **Pais:** Argentina
 **Sector:** Energía (hidrocarburos, innovación, negocios estratégicos)
-**Estado:** MSG1 enviado
+**Estado:** Stage 3 — Dossier por mail (pendiente envío jefe)
+**Email:** dmanfio@sima.com.ar
 
 ---
 
@@ -27,4 +28,14 @@
 
 ---
 
+## Respuesta MSG1 (24/08/26)
+> Compartió su charla TED "Ser feliz es de valientes" (TEDxSanIsidro) — sobre felicidad, valentía y GRACTITUD (gratitud + actitud). Dio email directo: dmanfio@sima.com.ar. Engagement HIGH.
+
+## MSG2
+> Diego, lo vi. "Ser feliz es de valientes" no es lo que uno espera de un VP de Ingeniería en Vaca Muerta. La mayoría habla de proyectos y reservas. Vos hablás de GRACTITUD.
+> Cómo conviven esas dos cosas en el día a día, el mundo técnico de SIMA y esa filosofía que mostrás en el TED?
+> En Hint trabajamos con líderes de energía en construir esa capa: que la voz personal sea tan legible como los resultados del proyecto.
+> Te mando el dossier al mail que me pasaste?
+
 ## Notas
+- **Dossier por mail:** dmanfio@sima.com.ar — jefe debe enviar

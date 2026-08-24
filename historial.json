@@ -1693,7 +1693,7 @@
     "date": "21/08/26",
     "name": "Joaquín Goyechea",
     "empresa": "ARINCO SA",
-    "variantTitle": "Obra Visible — Narrativa desde la Ejecución Real",
+    "variantTitle": "Obra Visible - Narrativa desde la Ejecución Real",
     "profileRaw": "Joaquín Goyechea\n\n· 1er\n\nJefe de obra en ARINCO SA | Ejecución de proyectos de construcción\n\nArgentina\n\n·\n\nInformación de contacto\n\nARINCO SA\n\nUniversidad Tecnológica Nacional\n\nMás de 500 contactos\n\nEduardo Javier, Rodolfo y 7 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Joaquín\n\n    Ver perfil\n\n    María Belen Sibelli \n\n    Talent Hunter |+88K | Recruiting Specialist Sr | Hunting Freelance & Procesos End-to-End |\n\n    Seguido por Cecilia, Mauric",
     "msg1": "Buenas Joaquín! Me quedó dando vueltas cómo documentás cada fase de construcción con ese nivel de detalle. No es lo que suele hacer un Jefe de Obra: la mayoría espera a terminar para contar la historia.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS en construir narrativa de infraestructura compleja de forma que los clientes vean avance, confianza y expertise antes de que todo esté terminado.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.",
     "msg2": "",
@@ -1703,7 +1703,7 @@
         "text": "Buenas Joaquín! Me quedó dando vueltas cómo documentás cada fase de construcción con ese nivel de detalle. No es lo que suele hacer un Jefe de Obra: la mayoría espera a terminar para contar la historia.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS en construir narrativa de infraestructura compleja de forma que los clientes vean avance, confianza y expertise antes de que todo esté terminado.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 1,
+    "stage": 3,
     "stageHistory": [
       {
         "stage": 1,
@@ -5595,8 +5595,9 @@
   },
   {
     "name": "Diego Manfio",
-    "stage": "1",
+    "stage": "3",
     "date": "17/08/26",
+    "email": "dmanfio@sima.com.ar",
     "empresa": "Ingenieria SIMA SA",
     "cargo": "VP Ejecutivo en Ingenieria SIMA SA | Energía, Proyectos, Alianzas",
     "pais": "Argentina",
@@ -6959,7 +6960,7 @@
   },
   {
     "name": "RENE ROLANDO CORREA",
-    "stage": "1",
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "Brava Soluciones Oil & Gas",
     "cargo": "Inspector General Instalaciones de SUPERFICIE / DUCTOS / HDD / MOVIMIENTO SUELO / CIVIL",
@@ -11283,8 +11284,9 @@
   },
   {
     "name": "Diego Manfio",
-    "stage": "1",
+    "stage": "3",
     "date": "17/08/26",
+    "email": "dmanfio@sima.com.ar",
     "empresa": "Ingenieria SIMA SA"
   },
   {
@@ -11677,7 +11679,7 @@
   },
   {
     "name": "RENE ROLANDO CORREA",
-    "stage": "1",
+    "stage": "3",
     "date": "20/08/26",
     "empresa": "Brava Soluciones Oil & Gas"
   },
@@ -12189,8 +12191,9 @@
   },
   {
     "name": "Diego Manfio",
-    "stage": 1,
+    "stage": 3,
     "date": "17/08/26",
+    "email": "dmanfio@sima.com.ar",
     "empresa": "Ingenieria SIMA SA"
   },
   {
@@ -12583,7 +12586,7 @@
   },
   {
     "name": "RENE ROLANDO CORREA",
-    "stage": 1,
+    "stage": 3,
     "date": "20/08/26",
     "empresa": "Brava Soluciones Oil & Gas"
   },

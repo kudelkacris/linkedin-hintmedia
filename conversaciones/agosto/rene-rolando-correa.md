@@ -5,7 +5,7 @@
 **Empresa:** Brava Soluciones Oil & Gas
 **Pais:** Argentina
 **Sector:** Energía (Oil & Gas), Infraestructura
-**Estado:** MSG1 enviado
+**Estado:** Stage 3 — Dossier enviado
 
 ---
 
@@ -26,5 +26,10 @@
 > Cómo están resolviendo hoy la comunicación de hallazgos entre las distintas disciplinas en Brava?
 
 ---
+
+## Respuesta MSG1 (24/08/26)
+> 👍 solamente. Engagement LOW.
+
+## Dossier enviado 24/08/26 (con explicación breve)
 
 ## Notas

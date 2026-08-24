@@ -5,7 +5,7 @@
 **Empresa:** Presidente de Empresas Nicolaides
 **Pais:** Chile
 **Sector:** Energía / Minería / Tratamiento de Aguas / Industria
-**Estado:** MSG1 enviado
+**Estado:** Cierre suave 24/08/26
 
 ---
 
@@ -26,5 +26,8 @@
 > Cómo lo están manejando hoy desde el equipo de comunicación?
 
 ---
+
+## Respuesta MSG1 (24/08/26)
+> "Hay un pequeño equipo que se hace cargo del tema siguiendo las directrices del Directorio." Están cubiertos internamente. Cierre suave: "Marcos, gracias por la info. Si en algún momento necesitan una mano externa, acá estamos."
 
 ## Notas
