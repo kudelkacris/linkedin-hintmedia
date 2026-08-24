@@ -5,7 +5,7 @@
 **Empresa:** Bioingepro SRL
 **Pais:** Argentina
 **Sector:** Ingeniería Ambiental / Tratamiento Industrial
-**Estado:** MSG1 enviado
+**Estado:** Stage 2 — MSG2 enviado 24/08/26 (buscando referido interno)
 
 ---
 
@@ -27,4 +27,12 @@
 
 ---
 
+## Respuesta MSG1 (24/08/26)
+> "es raro que intentes ofrecerme algo, cuestionando un simple posteo. Igual me gustaría saber que es ese 'dice algo sobre cómo ven...' / Yo soy el responsable de Compras, no de marketing. / Y en un punto si priorizamos el trabajo del equipo." — Leve resistencia inicial, curiosidad genuina, nos avisó que no es el decisor.
+
+## MSG2 (24/08/26)
+> Jonatan, tenés razón que usé el post como punto de entrada. La lectura era esta: la mayoría de empresas técnicas eligen hablar primero de la tecnología. Cuando elegís mostrar el equipo, estás diciendo que el diferenciador real es la gente, no el producto. Eso es una postura.
+> Sabiendo que no sos el área, con quién tendría sentido hablar dentro de Bioingepro sobre comunicación?
+
 ## Notas
+- Esperando referido interno hacia área de marketing/comunicación de Bioingepro
