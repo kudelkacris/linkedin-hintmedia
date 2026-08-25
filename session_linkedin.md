@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 24/08/26
+## Última sesión: 25/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -17,8 +17,7 @@
 | Jonatan Lopez | 2 - MSG2 enviado | 24/08 — resistencia inicial + "soy de Compras no marketing". MSG2: aclaré la lectura del post + pedí referido interno. | Esperar referido de contacto marketing/comms en Bioingepro |
 | Lola Bordás Dolz | 2 - MSG2 pendiente | 24/08 — respondió "Hola Florencia,". MSG2 no cerrado. | Abrir charla sin sonar a pitch — pendiente próxima sesión |
 | Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
-| Renzo Gabriel De Stefano | 2 - MSG2 enviado | MSG2 21/08 — pivote a Hexagon, objetivo referido interno | Esperar respuesta |
-| Leonardo Ortellado | 3 - Dossier enviado | Dossier 21/08 — aceptó desde MSG1 | SEG1 pendiente |
+| Renzo Gabriel De Stefano | 3 - Dossier enviado | 25/08 — respondió emojis + aceptó dossier + ofrece derivar si encuentra punto de entrada en Hexagon | Esperar respuesta |
 | Tomas Ibarlin | 1 - MSG1 generado | MSG1 21/08 — inspector obra pública Santa Fe, perfil junior | Esperar respuesta |
 | Víctor Venegas Pezo | 2 - MSG2 enviado | MSG2 21/07 | SEG1 urgente — vencido |
 | Álvaro Bohórquez | 2 - MSG2 enviado | MSG2 12/08 — respondió con newsletter propio | Esperar respuesta |
@@ -37,7 +36,6 @@
 | Juan Cruz Piccardo | 2 - Conversación activa | MSG3 informativo 03/08 — sin CTA | Si responde, proponer reunión directa |
 | Roberto Fernandez | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Fernanda Bondesío | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
-| Gonzalo Dalmazzo | 3 - Dossier enviado | Dossier 04/08 | SEG1 pendiente |
 | Karen Nieves | 2 - MSG2 enviado | MSG2 20/08 — CEO KN Agency/CoinEx, FinTech/Web3 | Esperar respuesta |
 | Manny Larcher | 2 - MSG2 enviado | MSG2 05/08 — respondió "please share" | Esperar respuesta |
 | Carolina Cianfagna | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
@@ -49,7 +47,6 @@
 | Daniela Fernanda Perez | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
 | Marcelo Fondacaro | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
 | Fabian Cabana | 2 - MSG2 enviado | MSG2 07/08 | Esperar respuesta |
-| Eduardo Javier Ochoa | 3 - Dossier confirmado | 07/08 — "Perfecto" | SEG1 pendiente |
 | Carlos Fiscal | 2 - MSG2 enviado | MSG2 07/08 — founder en transición, pitch elegante sin dossier | Si responde, proponer conversación |
 | Federico Mila | 2 - Conversación activa | 07/08 — branding consultant, propuso reunión sin saber que Hint es agencia | Manejar con honestidad + complementariedad |
 | Pablo Menegol | 2 - MSG2 enviado | MSG2 07/08 — CEO Newcrux, expansión Brasil | Esperar respuesta |
@@ -61,7 +58,6 @@
 | Aleksán Buyuk Kurt | 2 - MSG3 enviado | MSG3 12/08 tarde — Hint insertado liviando, enfoque marca personal | Esperar respuesta |
 | Pablo Arroyo Blanco | 2 - MSG2 enviado | MSG2 13/08 — Odoo/PyMES Costa Rica, dossier por mail | Esperar respuesta |
 | Pablo Julián Mateo | 2 - MSG2 enviado | MSG2 15/08 — Hendercross, consultoría Salesforce/IA Argentina | Esperar respuesta |
-| Maximiliano Quintana | 3 - Dossier enviado | Dossier 17/08 — "Sí, mándamelo" | Esperar respuesta |
 | Tamara Lopez Leyton | 2 - Conversación activa | MSG3 13/08 — redirección amplificación externa, puerta entreabierta | Esperar respuesta |
 | M. Wilma Lepre | 1 - MSG1 enviado | MSG1 17/08 — People Team Manager LATAM, Marcus Thomas LLC | Esperar respuesta |
 | Maximiliano Caro | 1 - MSG1 enviado | MSG1 17/08 — Head of Operations ERON International, iGaming/Fintech | Esperar respuesta |
@@ -69,36 +65,46 @@
 | Iñigo Biain | 2 - MSG2 enviado | MSG2 17/08 — Periodista/Editor InfoNegocios Córdoba | Esperar respuesta |
 | Victor Perez-Cotapos | 2 - MSG2 enviado | MSG2 17/08 — separar voz personal de ComunidadFeliz | Esperar respuesta |
 | Carolina Rojas | 2 - MSG2 enviado | MSG2 17/08 — metodología "uno o dos pasos adelante" | Esperar respuesta |
-| Sandra Suárez Pérez | 3 - Dossier LinkedIn | Dossier 18/08 — speakers y autoras | Esperar respuesta |
 | Luis Mendieta Padilla | 2 - MSG2 enviado | MSG2 18/08 — métricas antes de arrancar, Ecuador audiovisual | Esperar respuesta |
 | Patricio O'Kon | 3 - Dossier por mail | Dossier 18/08 — patricio@papelpicadoweb.com | Jefe envía dossier |
 | Gabriel Cardozo | 2 - MSG2 enviado | MSG2 18/08 — apunta a referido dentro de Fabrica SRL | Esperar respuesta |
-| Francisco Jones | 3 - Dossier enviado | Dossier 20/08 — respondió en 2 min, sector energía/infra | SEG1 pendiente |
 | Pedro Donado Manrique | 2 - MSG2 enviado | MSG2 20/08 — nuevo cierre dossier+reunión | Esperar respuesta |
-| Juan Pablo Cingolani | 3 - Dossier enviado | Dossier 20/08 — Ingeniero Civil Blangino, construcción/hormigón | Esperar respuesta |
 | Juan Manuel Sordo | 1 - Referido pendiente | 20/08 — vendedor Tersuave, capacitó equipo Índigo (cliente suyo), ofreció conectar con responsable Índigo | Esperar referido |
 | Dante Velasco | 3 - Seguimiento activo | Dossier 20/08 — respondió con audios (objeción: humano vs automático, presupuesto). Respuesta enviada. | Esperar respuesta |
+| Sandra Zárate | 3 - Dossier enviado | 25/08 — respondió MSG1 pidiendo propuesta para compartir con líderes de Boreh | Jefe envía dossier |
 
-### Stage 4 — SEG1 enviado (12/08)
+### Stage 4 — SEG1 enviado
 
-| Nombre | Sector |
+| Nombre | SEG1 enviado | Sector |
+|--------|-------------|--------|
+| Gustavo Regner | 12/08 | Consultoría |
+| Marcelo Magaña | 12/08 | Consultoría/Tech |
+| Paula Honisch | 12/08 | Compliance |
+| Jorge López Acevedo | 12/08 | Finanzas/Fintech |
+| Daniela Moreno Arciniegas | 12/08 | Partnerships |
+| Cristian De Luca | 12/08 | HR/Talento |
+| Jorge Barahona | 12/08 | Turismo/UX |
+| Santiago Azcona | 12/08 | — |
+| Claudia Patricia Rios Molina | 12/08 | Comunicaciones |
+| Francisco Peralta | 12/08 | — |
+| Kelly Marimon | 12/08 | — |
+| Cristián Schmid | 12/08 | — |
+| Estíbaliz Aguado | 12/08 | — |
+| Alexandra Pérez Idárraga | 12/08 | Nutrición/Wellness |
+| Paulo Escobar MD | 12/08 | Salud |
+| Raúl González-Romero | 12/08 | Consultoría/Gobierno Corporativo |
+| Maximiliano Quintana | 25/08 | Consultoría/Narrativa Visual |
+| Gonzalo Ezequiel Dalmazzo | 25/08 | Hotelería/Turismo |
+| Francisco Jones | 25/08 | Energía/Infraestructura |
+| Juan Pablo Cingolani | 25/08 | Construcción/Hormigón |
+| Leonardo Ortellado | 25/08 | Energía/Infraestructura |
+| Sandra Suárez Pérez | 25/08 | Consultoría/Speaker/Autora |
+
+### Cerrados hoy (25/08)
+
+| Nombre | Estado |
 |--------|--------|
-| Gustavo Regner | Consultoría |
-| Marcelo Magaña | Consultoría/Tech |
-| Paula Honisch | Compliance |
-| Jorge López Acevedo | Finanzas/Fintech |
-| Daniela Moreno Arciniegas | Partnerships |
-| Cristian De Luca | HR/Talento |
-| Jorge Barahona | Turismo/UX |
-| Santiago Azcona | — |
-| Claudia Patricia Rios Molina | Comunicaciones |
-| Francisco Peralta | — |
-| Kelly Marimon | — |
-| Cristián Schmid | — |
-| Estíbaliz Aguado | — |
-| Alexandra Pérez Idárraga | Nutrición/Wellness |
-| Paulo Escobar MD | Salud |
-| Raúl González-Romero | Consultoría/Gobierno Corporativo |
+| Eduardo Javier Ochoa | Cerrado 25/08 — cierre cordial sin interés real (emojis + "Gracias") |
 
 ### Recontacto programado
 
@@ -120,39 +126,12 @@
 | María Eugenia Fracchia | nov/26 | Celu 1164521943, dossier por WA |
 | Juan Felipe Gómez Martínez | nov/26 | Casa matriz centraliza RRSS — cierre suave 18/08 |
 
-### Pendiente sin SEG1
-
-| Nombre | Motivo |
-|--------|--------|
-| Daniela Buján | Sin .md — pegar conversación para hacer SEG1 |
-| Gonzalo Dalmazzo | Stage 3 activo — SEG1 pendiente |
-| Eduardo Javier Ochoa | Stage 3 activo — SEG1 pendiente |
-| Leonardo Ortellado | Stage 3 activo — SEG1 pendiente |
-
-### Cerrados / No interesados
-
-| Nombre | Estado |
-|--------|--------|
-| Franco Landetcheverry | Cerrado 22/08 — ORSEP sin presupuesto (Tesoro Nacional), él es campo/ingeniería. Recontact 2027-03-01. Buscar Dpto. Comunicaciones ORSEP por web oficial. |
-| Idis Luque Garcia | Cerrada 21/08 — salió de GVA, nueva posición sin manejo de marketing |
-| Jose Fernando Martinez | Cerrada 18/08 — no es su área, foco en partnerships directos |
-| Pamela Auszenker, CFA | Cerrada 17/08 — rechazó educadamente |
-| José Luis Olivieri | Cerrada 17/08 — referido a **Celeste Neyra** (celeste.neyra@datco.net, Marketing Grupo Datco) |
-| Mauro Rochet Pagua | No interesado — 11/08 |
-| Ignacio Andree Muñoz Flores | No interesado — 31/07 |
-| Sonia Pérez-Castro | No interesada — 30/07 |
-| Cristina Raquel Hernández | No interesada — 28/07 |
-| Ezequiel Jaroslavsky | Contacto equivocado |
-| Gabriela Gutiérrez B | No interesada — 03/08 |
-| Romina Luna Venegas | No interesada — 04/08 |
-| Miguel Bocanument Gomez | No interesado — 12/08 |
-| Carmen Helena Villabona Ayala | No interesada — 12/08 |
-
 ### Pendiente urgente — acción directa
 
 - **Diego Manfio** — dossier por mail a dmanfio@sima.com.ar. Jefe debe enviar.
 - **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08.
 - **Patricio O'Kon** — dossier por mail a patricio@papelpicadoweb.com. Jefe debe enviar.
+- **Sandra Zárate** — dossier para compartir con líderes de Boreh. Jefe debe enviar.
 
 ### MSG1 pendiente urgente — ya conectados
 
@@ -197,28 +176,27 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 24/08/26
+## Stats al cierre 25/08/26
 
 - Total historial: 1157+ entradas
-- Sesión 24/08: René Rolando Correa dossier (👍→dossier), Marcos Nicolaides cierre suave, Joaquín Goyechea dossier, Diego Manfio MSG2+dossier mail (dmanfio@sima.com.ar), Lola Bordás Dolz MSG2 pendiente, Jonatan Lopez MSG2 referido, Luis Cabral dossier
+- Sesión 25/08: SEG1 batch 6 contactos (Quintana, Dalmazzo, Jones, Cingolani, Ortellado, Sandra Suárez), Eduardo Ochoa cerrado cordialmente, Renzo dossier stage 3, Sandra Zárate respondió MSG1 (dossier pendiente para Boreh)
 
 ## Cambios importantes de metodología (20/08/26)
 
 - **MSG1 ahora es 3 burbujas** — Hint aparece en B2, dossier+reunión juntos en B3 (CTA único)
 - **Mapa de clientes completo** — Sullair siempre primero. Agora (tech), Royal English (educación), Grupo One (eventos), Spain Collection (turismo), Tassaroli (Oil & Gas) ahora disponibles
-- **A testear** — medir tasa de respuesta de la nueva metodología vs anterior (primera sesión: 2 dossiers de los enviados hoy)
+- **A testear** — medir tasa de respuesta de la nueva metodología vs anterior
 
 ## Prioridades para próxima sesión
 
-1. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+1. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net), Sandra Zárate (para líderes Boreh)
 2. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
 3. **Lola Bordás Dolz** — MSG2 pendiente, abrir charla sin pitch
-4. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral (48hs), Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
-5. **Matarazzi** — SEG1 si no respondió
-6. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
-7. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-8. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
-9. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar (referido por Franco Landetcheverry)
+4. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral (48hs cumplidas), Matarazzi
+5. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes
+6. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+7. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+8. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
 
 ---
 
