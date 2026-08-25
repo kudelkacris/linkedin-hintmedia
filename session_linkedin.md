@@ -4,13 +4,18 @@
 
 ---
 
-## Última sesión: 22/08/26
+## Última sesión: 24/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
 | Marcelo R. Matarazzi | 3 - Dossier enviado | 22/08 — respondió al dossier "busco la disrupción", engagement HIGH. Respuesta enviada: "Lo de la disrupción es exactamente el hilo que une los casos del dossier." | SEG1 pendiente si no responde |
+| Diego Manfio | 3 - Dossier por mail pendiente | 24/08 — respondió MSG1 con TED talk "Ser feliz es de valientes" + email directo dmanfio@sima.com.ar. MSG2 enviado. | Jefe envía dossier a dmanfio@sima.com.ar |
+| Joaquín Goyechea | 3 - Dossier enviado | 24/08 — "pásame para ver de qué trata". Dossier enviado. | SEG1 si no responde en 48hs |
+| Luis Cabral | 3 - Dossier enviado | 24/08 — "enviame el dossier y lo revisaré con interés". Dossier enviado. | SEG1 si no responde en 48hs |
+| Jonatan Lopez | 2 - MSG2 enviado | 24/08 — resistencia inicial + "soy de Compras no marketing". MSG2: aclaré la lectura del post + pedí referido interno. | Esperar referido de contacto marketing/comms en Bioingepro |
+| Lola Bordás Dolz | 2 - MSG2 pendiente | 24/08 — respondió "Hola Florencia,". MSG2 no cerrado. | Abrir charla sin sonar a pitch — pendiente próxima sesión |
 | Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
 | Renzo Gabriel De Stefano | 2 - MSG2 enviado | MSG2 21/08 — pivote a Hexagon, objetivo referido interno | Esperar respuesta |
 | Leonardo Ortellado | 3 - Dossier enviado | Dossier 21/08 — aceptó desde MSG1 | SEG1 pendiente |
@@ -145,6 +150,7 @@
 
 ### Pendiente urgente — acción directa
 
+- **Diego Manfio** — dossier por mail a dmanfio@sima.com.ar. Jefe debe enviar.
 - **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08.
 - **Patricio O'Kon** — dossier por mail a patricio@papelpicadoweb.com. Jefe debe enviar.
 
@@ -191,13 +197,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 22/08/26
+## Stats al cierre 24/08/26
 
-- Total historial: 1157 entradas
-- Sesión 21/08 mañana: MSG2 Matarazzi/Fornaro (call coordinando)/De Stefano, dossier Ortellado, MSG1 Ibarlin, cierre Idis Luque Garcia
-- Sesión 21/08 tarde: dossier Daniel Pasacantando (mail, lo eleva internamente), fix viewer
-- Sesión 21/08 noche: dossiers Matarazzi/Kemerer/Salvatore(mail)/Fhellaweith, cierres Larobina/Barrios. Kemerer: budget pausado, contacto Patricia Cirillo (MARCOM Racklatina)
-- Sesión 22/08: cierre Franco Landetcheverry (recontact 2027), Matarazzi respondió dossier positivo (engagement HIGH)
+- Total historial: 1157+ entradas
+- Sesión 24/08: René Rolando Correa dossier (👍→dossier), Marcos Nicolaides cierre suave, Joaquín Goyechea dossier, Diego Manfio MSG2+dossier mail (dmanfio@sima.com.ar), Lola Bordás Dolz MSG2 pendiente, Jonatan Lopez MSG2 referido, Luis Cabral dossier
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -207,16 +210,15 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ## Prioridades para próxima sesión
 
-1. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
-2. **Dossier por mail — Daniel Pasacantando** — enviado a D.pasacantando@depaoli-trosce.com.ar, lo eleva internamente (Depaoli-Trosce Constructora)
-3. **SEG1 pendiente** — Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
-4. **Matarazzi** — esperar respuesta tras mensaje de hoy; si no responde en 48hs → SEG1
-5. **Tomas Ibarlin** — respondió, procesar
+1. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
+2. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
+3. **Lola Bordás Dolz** — MSG2 pendiente, abrir charla sin pitch
+4. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral (48hs), Gonzalo Dalmazzo, Eduardo Ochoa, Daniela Buján, Francisco Jones, Leonardo Ortellado
+5. **Matarazzi** — SEG1 si no respondió
 6. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes (prioridad: Pablo Cabrera, Fernando Tarraga, Gonzalo Sanchez)
 7. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-8. **Dossier por mail** — Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net)
-9. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
-10. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar (referido por Franco Landetcheverry)
+8. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+9. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar (referido por Franco Landetcheverry)
 
 ---
 
