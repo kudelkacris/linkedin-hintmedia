@@ -35,4 +35,9 @@
 
 ---
 
+## SEG1 (25/08/26)
+> Juan Pablo, pudiste echarle un vistazo al dossier? Si algo te llamó la atención, lo charlamos cuando tengas un rato.
+
+**Estado:** SEG1 enviado
+
 ## Notas

@@ -33,4 +33,9 @@
 ## Dossier enviado
 21/08/26 — Aceptó desde MSG1, dossier enviado por LinkedIn.
 
+## SEG1 (25/08/26)
+> Leonardo, pudiste echarle un vistazo al dossier? Si algo te llamó la atención, lo charlamos cuando tengas un rato.
+
+**Estado:** SEG1 enviado
+
 ## Notas

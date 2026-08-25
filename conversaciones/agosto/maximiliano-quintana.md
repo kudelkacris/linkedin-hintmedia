@@ -47,4 +47,10 @@
 > Perfecto Maximiliano, te lo mando ahora.
 > Si algo resuena con lo que estás armando, lo conversamos.
 
+## SEG1 (25/08/26)
+> Cuando el criterio se puede copiar, el diferencial desaparece. Cuando no se puede, el cliente lo percibe antes de que arranque el proyecto.
+> Lo vemos en una llamada?
+
+**Estado:** SEG1 enviado
+
 ## Notas

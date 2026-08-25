@@ -125,7 +125,7 @@
   {
     "id": "sandra-suarez-perez",
     "name": "Sandra Suárez Pérez",
-    "stage": 3,
+    "stage": 4,
     "date": "2026-08-05",
     "sector": "Educación Ejecutiva / Coaching",
     "pais": "Colombia",
@@ -904,7 +904,7 @@
     "empresa": "ING&TEC S.R.L.",
     "pais": "Argentina",
     "sector": "Energía / Infraestructura Eléctrica",
-    "stage": "3",
+    "stage": 4,
     "date": "20/08/26",
     "id": "francisco-jones"
   },
@@ -2352,7 +2352,7 @@
         "text": "Buenas Leonardo! Tu post de Chivilcoy II me quedó dando vueltas. No fue \"yo entregué 60 MVA en plazo\", fue \"todos los que participaron logramos esto sorteando 120 días de lluvia\". Eso no es lo que suele comunicar un Gerente de Proyecto.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en hacer legible la ejecución de proyectos complejos de infraestructura. Cuando la inversión y el resultado son visibles, cambia quién quiere estar adentro.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -5605,7 +5605,7 @@
   },
   {
     "name": "Eduardo Javier Ochoa",
-    "stage": "3",
+    "stage": 4,
     "date": "07/08/26",
     "empresa": "Profesional independiente",
     "cargo": "Founder @ LEADSEC | Ayudamos a directivos y empresas a proteger la continuidad del negocio reduciendo el riesgo digital, la dependencia crítica e impr",
@@ -5777,7 +5777,7 @@
   },
   {
     "name": "Francisco Jones",
-    "stage": "3",
+    "stage": 4,
     "date": "20/08/26",
     "empresa": "ING&TEC S.R.L. / ENERCOM Construcciones Civiles SA",
     "cargo": "Ing. Electricista Industrial | CEO ING&TEC S.R.L.",
@@ -6121,7 +6121,7 @@
   },
   {
     "name": "Juan Pablo Cingolani",
-    "stage": "3",
+    "stage": 4,
     "date": "20/08/26",
     "empresa": "Blangino",
     "cargo": "Ingeniero Civil | Coordinación de calidad, control de procesos y mejora continua en la industria del hormigón | Gestión de proyectos y liderazgo de eq",
@@ -6717,7 +6717,7 @@
   },
   {
     "name": "Maximiliano Quintana",
-    "stage": "3",
+    "stage": 4,
     "date": "12/08/26",
     "empresa": "Consultoria Independente",
     "cargo": "Estratega de Identidad Visual y Narrativa con IA | Fundador & Gestor de Marca de Bali Indumentaria",
@@ -6969,7 +6969,7 @@
   },
   {
     "name": "Renzo Gabriel De Stefano",
-    "stage": 2,
+    "stage": 3,
     "date": "20/08/26",
     "empresa": "Argentina",
     "cargo": "BIM Project Manager | Civil Infrastructure | Civil 3D & Infraworks Specialist | Hexagon Multivista",
@@ -7042,7 +7042,7 @@
   },
   {
     "name": "Sandra Suárez Pérez",
-    "stage": "3",
+    "stage": 4,
     "date": "05/08/26",
     "empresa": "Vistage Colombia",
     "cargo": "CEO, mentora, coach y speaker | Chair Vistage | Poder personal | Liderazgo | Gerencia | Comunicación efectiva | Negociación | Coaching Ejecutivo | Mie",
@@ -8373,7 +8373,7 @@
   },
   {
     "name": "Gonzalo Ezequiel Dalmazzo",
-    "stage": "2",
+    "stage": 4,
     "date": "31/07/26",
     "empresa": "Universidad Blas Pascal",
     "cargo": "Gerente Hotelero | Vocero Regional AHTRA Chubut | Inteligencia Aumentada aplicada a la Hotelería",
@@ -11058,7 +11058,7 @@
   },
   {
     "name": "Maximiliano Quintana",
-    "stage": "3",
+    "stage": 4,
     "date": "17/08/26",
     "empresa": "—"
   },
@@ -11563,7 +11563,7 @@
   },
   {
     "name": "Renzo Gabriel De Stefano",
-    "stage": 2,
+    "stage": 3,
     "date": "20/08/26",
     "empresa": "Argentina"
   },
@@ -11813,7 +11813,7 @@
   },
   {
     "name": "Juan Pablo Cingolani",
-    "stage": "3",
+    "stage": 4,
     "date": "20/08/26",
     "empresa": "Blangino"
   },
@@ -11965,7 +11965,7 @@
   },
   {
     "name": "Maximiliano Quintana",
-    "stage": "3",
+    "stage": 4,
     "date": "17/08/26",
     "empresa": ""
   },
@@ -12470,7 +12470,7 @@
   },
   {
     "name": "Renzo Gabriel De Stefano",
-    "stage": 2,
+    "stage": 3,
     "date": "20/08/26",
     "empresa": "Argentina"
   },
@@ -12720,7 +12720,7 @@
   },
   {
     "name": "Juan Pablo Cingolani",
-    "stage": "3",
+    "stage": 4,
     "date": "20/08/26",
     "empresa": "Blangino"
   },

@@ -35,3 +35,9 @@
 - Tiene sitio web propio: ingenierojones.com.ar
 - Director de Obra en ENERCOM + CEO ING&TEC (25 años)
 - Respondió en 2 minutos — interés alto
+
+## SEG1 (25/08/26)
+> Francisco, las empresas de infra que mejor comunican no son las que más invierten en pauta, son las que tienen narrativa técnica consolidada antes de entrar a la licitación.
+> Si algo tiene sentido, lo charlamos.
+
+**Estado:** SEG1 enviado

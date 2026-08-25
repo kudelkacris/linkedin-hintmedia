@@ -46,3 +46,15 @@
 - Conversación activa, metodología real compartida (métricas de impacto en dinero)
 - Respondió "Perfecto" → dossier confirmado 07/08/26
 - MSG3 = presentación Hint + dossier
+
+## SEG1 (25/08/26)
+> Eduardo, el mayor activo en consultoría no es el portfolio, es la perspectiva del founder. El cliente no compra el servicio, compra el criterio.
+> Si en algún momento tiene sentido charlarlo, acá estoy.
+
+## Respuesta SEG1
+> 👏👍😊 Gracias Florencia
+
+## Cierre (25/08/26)
+> Eduardo, para cuando el momento sea el indicado, acá estamos. Éxitos con LEADSEC.
+
+**Estado:** Cerrado — cierre cordial sin interés real

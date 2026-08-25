@@ -36,4 +36,13 @@
 > Trabajo en Hint Media con empresas de turismo como Destiny Group y Tasarolli en construir esa capa: que las iniciativas de un referente del sector sean visibles y replicables más allá de su hotel.
 > Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.
 
+## Dossier (04/08/26)
+Enviado por LinkedIn. Visto, sin respuesta.
+
+## SEG1 (25/08/26)
+> Gonzalo, los voceros que más traccionan en el sector no son los que más saben, son los que tienen narrativa propia antes de llegar al panel.
+> Viste algo del dossier que te resonó?
+
+**Estado:** SEG1 enviado
+
 ## Notas
