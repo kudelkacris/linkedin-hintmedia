@@ -5927,15 +5927,6 @@
     "sector": "Energía (inferido por ubicación Rosario, pero no explícito en perfil — riesgo bajo)"
   },
   {
-    "name": "Foto de portada",
-    "stage": "3",
-    "date": "05/08/26",
-    "empresa": "Daniela Buján",
-    "cargo": "Cofundadora de Auroria 🌈 | Emprendedora EdTech | Marketer estratégica en Educación y Tecnología B2B | Reputación, Ética e IA | Speaker | Docente",
-    "pais": "Argentina",
-    "sector": "Educación / EdTech"
-  },
-  {
     "name": "Francisca Riveros N.",
     "stage": "2",
     "date": "05/08/26",
@@ -8150,7 +8141,8 @@
     "empresa": "Director de Comunicaciones y Mercadeo",
     "cargo": "Director de Comunicaciones y Mercadeo",
     "pais": "Colombia",
-    "sector": "Educación (Institución Internacional)"
+    "sector": "Educación (Institución Internacional)",
+    "recontact": "2026-11-01"
   },
   {
     "name": "David Beltrán Figueroa",
@@ -8159,7 +8151,8 @@
     "empresa": "Altamira International School",
     "cargo": "Director de Comunicaciones y Mercadeo",
     "pais": "Colombia",
-    "sector": "Educación"
+    "sector": "Educación",
+    "recontact": "2026-11-01"
   },
   {
     "name": "David Zafra",
@@ -9267,7 +9260,8 @@
     "empresa": "Inflex S.A.",
     "cargo": "General Manager en Inflex S.A.",
     "pais": "Argentina",
-    "sector": "Energía / Gases especiales / GNC / Transición energética"
+    "sector": "Energía / Gases especiales / GNC / Transición energética",
+    "recontact": "2026-11-01"
   },
   {
     "name": "Marc Roca",
@@ -11068,7 +11062,8 @@
     "empresa": "Biofarma",
     "cargo": "Responsable de Comunicación en Biofarma",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "recontact": "2026-11-01"
   },
   {
     "name": "Micaela Ravina",
@@ -11182,7 +11177,8 @@
         "stage": 3,
         "date": "26/08/26"
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "name": "Paula Quijada",
