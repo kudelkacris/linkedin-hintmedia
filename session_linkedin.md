@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 25/08/26
+## Última sesión: 26/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -176,9 +176,10 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 25/08/26
+## Stats al cierre 26/08/26
 
 - Total historial: 1157+ entradas
+- Sesión 26/08: campaña de 199 conexiones nuevas enviadas en 3 batches — COMMS_MARKETING_LATAM (73), SAAS_FOUNDERS_ARGENTINA (64), HEAD_GROWTH_ARGENTINA (62). Sin conversaciones procesadas. Revisar aceptaciones en ~72hs (aprox 28/08).
 - Sesión 25/08: SEG1 batch 6 contactos (Quintana, Dalmazzo, Jones, Cingolani, Ortellado, Sandra Suárez), Eduardo Ochoa cerrado cordialmente, Renzo dossier stage 3, Sandra Zárate respondió MSG1 (dossier pendiente para Boreh)
 
 ## Cambios importantes de metodología (20/08/26)
@@ -189,14 +190,15 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ## Prioridades para próxima sesión
 
-1. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net), Sandra Zárate (para líderes Boreh)
-2. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
-3. **Lola Bordás Dolz** — MSG2 pendiente, abrir charla sin pitch
-4. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral (48hs cumplidas), Matarazzi
-5. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes
-6. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
-7. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
-8. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
+1. **Revisar aceptaciones 199 conexiones nuevas** (~28/08) — generar MSG1 con Sullair de anchor para quienes aceptaron de los 3 batches nuevos
+2. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net), Sandra Zárate (para líderes Boreh)
+3. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
+4. **Lola Bordás Dolz** — MSG2 pendiente, abrir charla sin pitch
+5. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral (48hs cumplidas), Matarazzi
+6. **MSG1 INDUSTRIA-ARG** — 85 contactos pendientes
+7. **MSG1 Grupo B FCT COMMS** — ~23 contactos pendientes
+8. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+9. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
 
 ---
 
