@@ -71,6 +71,16 @@
     "date": "21/07/26"
   },
   {
+    "id": "tomas-ibarlin",
+    "name": "Tomas Ibarlin",
+    "date": "2026-08-21",
+    "stage": 1,
+    "sector": "Sector Público / Infraestructura / Construcción Civil",
+    "cargo": "Técnico Constructor Nacional | Sobrestante de Inspección",
+    "empresa": "Ministerio de Infraestructura, Servicios Públicos y Habitat",
+    "pais": "Argentina"
+  },
+  {
     "id": "tania-barquet",
     "nombre": "Tania Barquet",
     "cargo": "Head of Marketing",
@@ -751,6 +761,17 @@
     "date": "21/07/26"
   },
   {
+    "id": "isabel-barrios",
+    "name": "Isabel Barrios",
+    "stage": "1",
+    "noInterest": true,
+    "date": "20/08/26",
+    "empresa": "—",
+    "cargo": "Contadora Pública | Control de Gestión | Certificado NIIF (ICAEW) | Reporting Estratégico",
+    "pais": "Argentina",
+    "sector": "Finanzas / Control de Gestión"
+  },
+  {
     "id": "ingrith-munoz-herrera",
     "nombre": "Ingrith Munoz Herrera",
     "cargo": "Estratega de Marketing y Comunicacion",
@@ -1390,6 +1411,127 @@
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Acelis Tunon Singh"
+  },
+  {
+    "id": "1787782312649",
+    "date": "26/08/26",
+    "name": "Daniel D´Agostino",
+    "empresa": "People Brand",
+    "variantTitle": "Variante A — Autenticidad vs. Escala",
+    "profileRaw": "Daniel D´Agostino\n\n· 1er\n\nMarketing Manager | Marketing Campaigns I Content Marketing I B2B I Growth\n\nComuna 1, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nPeople Brand\n\nUniversidad de Buenos Aires\n\n3.704 seguidores\n\nAna, Eliana y 44 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Daniel\n\n    Ver perfil\n\n    Connie🧠♥️ Ansaldi\n\n    Foundress • Academia de Polímatas • La Dinner de los Founders • Reinvention Queen •CUX Ai • Host: ",
+    "msg1": "Buenas Daniel! Tu comentario sobre cómo LinkedIn castiga el contenido IA me quedó dando vueltas. No solo decís que hay que ser más humanos, lo estás practicando: cada reflexión tiene una intención atrás, como cuando escribís sobre cómo el espacio del Basavilbaso comunica antes de que empiece el evento. Eso no es lo que la mayoría hace cuando quiere crecer.\n\nEn Hint Media trabajamos con empresas boutique como Destiny Group en construir narrativa que escale presencia sin perder esa intención estratégica que vos valorás. Cada pieza de comunicación tiene que tener punto de vista.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Daniel! Tu comentario sobre cómo LinkedIn castiga el contenido IA me quedó dando vueltas. No solo decís que hay que ser más humanos, lo estás practicando: cada reflexión tiene una intención atrás, como cuando escribís sobre cómo el espacio del Basavilbaso comunica antes de que empiece el evento. Eso no es lo que la mayoría hace cuando quiere crecer.\n\nEn Hint Media trabajamos con empresas boutique como Destiny Group en construir narrativa que escale presencia sin perder esa intención estratégica que vos valorás. Cada pieza de comunicación tiene que tener punto de vista.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1787782296658",
+    "date": "26/08/26",
+    "name": "Guilherme Lorensani",
+    "empresa": "Emulzint Zeelandia",
+    "variantTitle": "Jornada Líquida — El Trade Marketing que Falla",
+    "profileRaw": "Guilherme Lorensani\n\n· 1er\n\nEstratégia | Inteligência de Mercado | Marketing | Produto | Marca | Portfólio | Categorias | Trade\n\nCampinas, San Pablo, Brasil\n\n·\n\nInformación de contacto\n\nEmulzint Zeelandia\n\n2.495 seguidores\n\n·\n\nMás de 500 contactos\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Guilherme\n\n    Ver perfil\n\n    Connie🧠♥️ Ansaldi\n\n    Foundress • Academia de Polímatas • La Dinner de los Founders • Reinvention Queen •CUX Ai • Host: Innovadores Atómicos.  😎 Inc",
+    "msg1": "Buenas Guilherme, vi tu repost sobre la \"jornada líquida\" del comprador moderno. No es una crítica a trade marketing, es una observación sobre cómo el mercado evolucionó más rápido que la narrativa que comunica esa evolución.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir comunicación que haga visible la complejidad estratégica de lo que hacen, antes de que el cliente llegue a preguntar.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Guilherme, vi tu repost sobre la \"jornada líquida\" del comprador moderno. No es una crítica a trade marketing, es una observación sobre cómo el mercado evolucionó más rápido que la narrativa que comunica esa evolución.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir comunicación que haga visible la complejidad estratégica de lo que hacen, antes de que el cliente llegue a preguntar.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1787779380044",
+    "date": "26/08/26",
+    "name": "Adriana Beatriz Lopez",
+    "empresa": "Muchtek Tecnoperfiles",
+    "variantTitle": "Visibilidad de Expertise Técnico",
+    "profileRaw": "Adriana Beatriz Lopez\n\n· 1er\n\nJefe  Grandes Proyectos Especialista en Relac.Institucionales Muchtek Tecnoperfiles Group  (Empresa extrusora de perfiles de PVC de Alta Prestación)\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nMuchtek Tecnoperfiles\n\nPassive House Institute.Darmstadt Alemania\n\nMás de 500 contactos\n\nMaría Fernanda, Graciela y 1 contacto más en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Adriana Beatriz\n\n    Ver per",
+    "msg1": "Buenas Adriana! Me quedó dando vueltas que vayas a estar en la Bienal ARQ contando la experiencia de Base Marambio. No es lo que suelen hacer los jefes de proyectos — mostrar el trabajo desde adentro, no solo el resultado.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible la complejidad técnica antes de que el cliente llegue a preguntar. Cuando se trata de soluciones de alto desempeño, la historia importa tanto como la especificación.\n\nSi te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Adriana! Me quedó dando vueltas que vayas a estar en la Bienal ARQ contando la experiencia de Base Marambio. No es lo que suelen hacer los jefes de proyectos — mostrar el trabajo desde adentro, no solo el resultado.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible la complejidad técnica antes de que el cliente llegue a preguntar. Cuando se trata de soluciones de alto desempeño, la historia importa tanto como la especificación.\n\nSi te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1787779282843",
+    "date": "26/08/26",
+    "name": "Valentin Bardelli",
+    "empresa": "Ingeniero civil",
+    "variantTitle": "Claridad Técnica en Obra Compleja",
+    "profileRaw": "Valentin Bardelli\n\n· 1er\n\nIngeniero civil \n\nBuenos Aires y alrededores\n\n·\n\nInformación de contacto\n\nOVERCON S.R.L.\n\nUniversidad Nacional de La Plata\n\n964 seguidores\n\n·\n\nMás de 500 contactos\n\nPatricio, Jose Ignacio y 5 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Valentin\n\n    Ver perfil\n\n    Mai Pistiner\n\n    Comunicadora y fundadora Academia Comunica \n\n    Seguido por Agustín, Paula y 77 personas más que conoces\n    Ver perfil\n\n    Veronica Clim",
+    "msg1": "Buenas Valentín! Tu post sobre la columna del aeropuerto de Recife me quedó resonando — explicaste por qué esa geometría particular resuelve carga, pandeo y fluidez de tránsito al mismo tiempo. No escribiste \"miren esta columna bonita\", escribiste el razonamiento. Eso es raro.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en comunicar decisiones de infraestructura compleja para que los equipos alineados no terminen interpretando cada paso a su modo. Cuando la especificación técnica es clara desde el inicio, los desvíos bajan drásticamente.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Valentín! Tu post sobre la columna del aeropuerto de Recife me quedó resonando — explicaste por qué esa geometría particular resuelve carga, pandeo y fluidez de tránsito al mismo tiempo. No escribiste \"miren esta columna bonita\", escribiste el razonamiento. Eso es raro.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en comunicar decisiones de infraestructura compleja para que los equipos alineados no terminen interpretando cada paso a su modo. Cuando la especificación técnica es clara desde el inicio, los desvíos bajan drásticamente.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
+      }
+    ],
+    "stage": 2,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1787779263908",
+    "date": "26/08/26",
+    "name": "Soledad Martinez",
+    "empresa": "Argentina",
+    "variantTitle": "Alineamiento durante expansión — ángulo cultura",
+    "profileRaw": "Soledad Martinez\n\n· 1er\n\nGerente de RRHH Argentina & Chile\n\nArgentina\n\n·\n\nInformación de contacto\n\nMapei Argentina\n\nUADE Business School\n\nMás de 500 contactos\n\nMaría Laura, Rocío y 30 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Soledad\n\n    Ver perfil\n\n    Mai Pistiner\n\n    Comunicadora y fundadora Academia Comunica \n\n    Seguido por Agustín, Paula y 77 personas más que conoces\n    Ver perfil\n\n    Veronica Climent \n\n    Directora de People & Cul",
+    "msg1": "Buenas Soledad, la jornada de integración interáreas que compartiste me quedó dando vuelta. No es una reunión de RRHH, es una apuesta deliberada a que equipos que nunca trabajaron juntos hablen el mismo idioma. Eso suele ser más difícil cuanto más crecés.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir narrativa interna que viaje —igual— entre oficinas, plantas y geografías. Cuando escalas, el riesgo no es perder la gente, es perder la coherencia.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Soledad, la jornada de integración interáreas que compartiste me quedó dando vuelta. No es una reunión de RRHH, es una apuesta deliberada a que equipos que nunca trabajaron juntos hablen el mismo idioma. Eso suele ser más difícil cuanto más crecés.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir narrativa interna que viaje —igual— entre oficinas, plantas y geografías. Cuando escalas, el riesgo no es perder la gente, es perder la coherencia.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": ""
+      }
+    ],
+    "noInterest": true
   },
   {
     "id": "1787326208371",
@@ -6740,7 +6882,8 @@
     "empresa": "Manantial Grupo Humano",
     "cargo": "Sr Recruiter | People & talent | Conectando talento con empresas con propósito",
     "pais": "Argentina",
-    "sector": "Salud/Gerontología"
+    "sector": "Salud/Gerontología",
+    "noInterest": true
   },
   {
     "name": "Miguel A. Kiguel",
@@ -11547,7 +11690,8 @@
     "name": "Melanie Weimberg",
     "stage": "1",
     "date": "18/08/26",
-    "empresa": "Manantial Grupo Humano"
+    "empresa": "Manantial Grupo Humano",
+    "noInterest": true
   },
   {
     "name": "Martin Pita",
@@ -12454,7 +12598,8 @@
     "name": "Melanie Weimberg",
     "stage": 1,
     "date": "18/08/26",
-    "empresa": "Manantial Grupo Humano"
+    "empresa": "Manantial Grupo Humano",
+    "noInterest": true
   },
   {
     "name": "Martin Pita",
@@ -12773,24 +12918,141 @@
     "empresa": "Argentina"
   },
   {
-    "id": "tomas-ibarlin",
-    "name": "Tomas Ibarlin",
-    "date": "2026-08-21",
+    "name": "Jhoan Vega",
     "stage": 1,
-    "sector": "Sector Público / Infraestructura / Construcción Civil",
-    "cargo": "Técnico Constructor Nacional | Sobrestante de Inspección",
-    "empresa": "Ministerio de Infraestructura, Servicios Públicos y Habitat",
-    "pais": "Argentina"
+    "date": "26/08/26",
+    "empresa": "Gestión Comercial"
   },
   {
-    "id": "isabel-barrios",
-    "name": "Isabel Barrios",
-    "stage": "1",
-    "noInterest": true,
-    "date": "20/08/26",
-    "empresa": "—",
-    "cargo": "Contadora Pública | Control de Gestión | Certificado NIIF (ICAEW) | Reporting Estratégico",
-    "pais": "Argentina",
-    "sector": "Finanzas / Control de Gestión"
+    "name": "Sergio Priano",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "CONTROL PARA LA INDUSTRIA S.A."
+  },
+  {
+    "name": "Jessica Jacob",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Panamá"
+  },
+  {
+    "name": "Juan Ignacio Virga",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Agustin Macchiarulo",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Consultor de negocios"
+  },
+  {
+    "name": "Carolina Carreira",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Panamá"
+  },
+  {
+    "name": "Fabiola M. del Mar Portillo",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Seguridad y Salud Ocupacional"
+  },
+  {
+    "name": "Susan Gonzalez",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Transporte"
+  },
+  {
+    "name": "Michael (Mike) Rodríguez",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Fincomercio"
+  },
+  {
+    "name": "Christian Shule",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Tucson Argentina"
+  },
+  {
+    "name": "Jenny Pacheco Collazos",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "International Drill Management Corp."
+  },
+  {
+    "name": "Lucas Eduardo Caceres",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Sofia Diaz Garcia",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Colombia"
+  },
+  {
+    "name": "Jorge O. Gatto",
+    "stage": 3,
+    "date": "26/08/26",
+    "empresa": "RAM Execution"
+  },
+  {
+    "name": "Carlos Jamardo Arrigo",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Miniso Argentina"
+  },
+  {
+    "name": "Laura Viegas",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Felipe Terán Caro",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Sales Navigator"
+  },
+  {
+    "name": "Techi Asplindh",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Priscilla Fiorin",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": ""
+  },
+  {
+    "name": "Pablo Urrutia",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Colombia"
+  },
+  {
+    "name": "Silvana A Coronado Sanabria",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Universidad EAN"
+  },
+  {
+    "name": "Belén Conca",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Resguarda"
+  },
+  {
+    "name": "José Romero Victorica",
+    "stage": 1,
+    "date": "26/08/26",
+    "empresa": "Argentina"
   }
 ]

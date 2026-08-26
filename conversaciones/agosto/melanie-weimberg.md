@@ -5,7 +5,7 @@
 **Empresa:** Manantial Grupo Humano
 **Pais:** Argentina
 **Sector:** Salud/Gerontología
-**Estado:** MSG1 enviado
+**Estado:** Cerrada — en transición, referido Antonela Del Franco
 
 ---
 
@@ -27,4 +27,13 @@
 
 ---
 
+## Respuesta MSG1
+> Ya no está en Manantial. Transición profesional y personal. Referido: Antonela Del Franco (ocupa su posición actual en Manantial). — 26/08/26
+
+## Cierre enviado
+> Buenas Melanie! Gracias por contarme. Las transiciones dobles, en lo profesional y lo personal al mismo tiempo, toman lo suyo. Ojalá lo que viene se acomode bien. Voy a conectar con Antonela Del Franco, muchas gracias por el dato. Quedamos en contacto, y cuando estés establecida en tu próximo rol hablamos con gusto.
+
+---
+
 ## Notas
+- Conectar con Antonela Del Franco en Manantial (reemplaza a Melanie en selección)
