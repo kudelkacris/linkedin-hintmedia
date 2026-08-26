@@ -192,7 +192,7 @@
     "empresa": "Gasdelsur",
     "sector": "Energia (GLP)",
     "pais": "Chile",
-    "stage": "3",
+    "stage": "4",
     "estado": "Dossier por mail",
     "fecha": "06/07/26",
     "email": "fdiaz@gasdelsur.cl",
@@ -243,7 +243,7 @@
   {
     "id": "paul-puissegur",
     "name": "Paul Puissegur",
-    "stage": 3,
+    "stage": "4",
     "date": "29/07/26",
     "whatsapp": "+34632872433",
     "recontact": "2026-09-12",
@@ -519,7 +519,7 @@
     "empresa": "PHD Media / Educacion",
     "sector": "Educacion / EdTech",
     "pais": "Espana",
-    "stage": "3",
+    "stage": "4",
     "estado": "Dossier enviado",
     "fecha": "06/07/26",
     "followup_date": "01/10/26",
@@ -769,7 +769,14 @@
     "empresa": "—",
     "cargo": "Contadora Pública | Control de Gestión | Certificado NIIF (ICAEW) | Reporting Estratégico",
     "pais": "Argentina",
-    "sector": "Finanzas / Control de Gestión"
+    "sector": "Finanzas / Control de Gestión",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "ingrith-munoz-herrera",
@@ -1100,7 +1107,7 @@
   },
   {
     "name": "Daniela Bujan",
-    "stage": 3,
+    "stage": "4",
     "date": "2026-08-05",
     "sector": "Educacion / EdTech",
     "cargo": "Cofundadora",
@@ -5404,12 +5411,18 @@
   },
   {
     "name": "Angélica Cabrera",
-    "stage": "0",
+    "stage": "2",
     "date": "06/08/26",
     "empresa": "Agencia Montalvo",
     "cargo": "Head of External Comms & Influencer Marketing",
     "pais": "México (Ciudad de México)",
-    "sector": "Agencia / PR / Creator Economy"
+    "sector": "Agencia / PR / Creator Economy",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Anita Marambio Reynes",
@@ -5598,7 +5611,14 @@
     "empresa": "Valvtronic S.A.",
     "cargo": "Gerente de Servicio Técnico Post Venta en Valvtronic S.A. | Ingeniero Electromecánico | Docente Universitario en UNGS",
     "pais": "Argentina",
-    "sector": "Energía / Oil & Gas / Manufactura industrial"
+    "sector": "Energía / Oil & Gas / Manufactura industrial",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Cristian González",
@@ -5825,7 +5845,14 @@
     "empresa": "Grupo DEMA",
     "cargo": "Especialista en desarrollo de productos para el circuito del agua. Marketing Estratégico. Arquitecto. Fotógrafo.",
     "pais": "Argentina",
-    "sector": "Construcción / Infraestructura / Productos Industriales (agua, gas, calefacción)"
+    "sector": "Construcción / Infraestructura / Productos Industriales (agua, gas, calefacción)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Fabian Cabana",
@@ -5910,12 +5937,18 @@
   },
   {
     "name": "Francisca Riveros N.",
-    "stage": "0",
+    "stage": "2",
     "date": "05/08/26",
     "empresa": "Empresas Copec",
     "cargo": "Chief Communications Officer en Empresas Copec",
     "pais": "Chile",
-    "sector": "Sector de Energía/Infraestructura (Copec, ARAUCO, Abastible) con iniciativas transversales educación/sostenibilidad"
+    "sector": "Sector de Energía/Infraestructura (Copec, ARAUCO, Abastible) con iniciativas transversales educación/sostenibilidad",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Francisco Jones",
@@ -6145,12 +6178,18 @@
   },
   {
     "name": "José (Antonio) Pedraza",
-    "stage": "1",
+    "stage": "2",
     "date": "05/08/26",
     "empresa": "Proximo Technologies",
     "cargo": "CEO at Proximo Technologies",
     "pais": "México",
-    "sector": "Tecnología / Fintech / Blockchain / RWA Tokenization"
+    "sector": "Tecnología / Fintech / Blockchain / RWA Tokenization",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "José Luis Olivieri",
@@ -6159,7 +6198,14 @@
     "empresa": "Country Manager",
     "cargo": "Country Manager",
     "pais": "Chile",
-    "sector": "Tecnología / Infraestructura Digital / Telecomunicaciones"
+    "sector": "Tecnología / Infraestructura Digital / Telecomunicaciones",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "José (Antonio) Pedraza",
@@ -6186,7 +6232,14 @@
     "empresa": "Área metropolitana de Bogotá D.C.",
     "cargo": "**Empresa:** Área metropolitana de Bogotá D.C.",
     "pais": "Colombia",
-    "sector": "Fintech / Crypto / Blockchain"
+    "sector": "Fintech / Crypto / Blockchain",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Jose Ignacio Petrillo",
@@ -6208,13 +6261,19 @@
   },
   {
     "name": "Juan Felipe Gómez Martínez",
-    "stage": "0",
+    "stage": "1",
     "date": "17/08/26",
     "empresa": "Nacional de Seguros Colombia",
     "cargo": "Finance Director | FP&A | Strategic Finance | Corporate Planning | Ex-Multinational | MBA Candidate | Driving EBITDA & Growth",
     "pais": "Colombia",
     "sector": "Seguros",
-    "recontact": "Recontacto nov/26"
+    "recontact": "Recontacto nov/26",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Juan Ignacio Abuchdid",
@@ -6335,12 +6394,18 @@
   },
   {
     "name": "Laura Peña Rodriguez",
-    "stage": "1",
+    "stage": "2",
     "date": "12/08/26",
     "empresa": "Pontificia Universidad Javeriana",
     "cargo": "CFO & Vicepresidente de Planeación | Vicepresidente Ejecutiva I Estrategia Financiera | Crecimiento Sostenible | Gobierno Corporativo | Miembro de Jun",
     "pais": "Colombia",
-    "sector": "Finanzas / Sector Público / Microfinanzas"
+    "sector": "Finanzas / Sector Público / Microfinanzas",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Laura Peña Rodriguez",
@@ -6380,12 +6445,18 @@
   },
   {
     "name": "Lola Bordás Dolz",
-    "stage": "1",
+    "stage": "2",
     "date": "05/08/26",
     "empresa": "Finnova",
     "cargo": "Chief Marketing Officer en Fundación Finnova, Responsable de Womenfortech en Finnova",
     "pais": "España",
-    "sector": "Sostenibilidad / Transición Verde / Educación + Emprendimiento"
+    "sector": "Sostenibilidad / Transición Verde / Educación + Emprendimiento",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Lola Bordás Dolz",
@@ -6416,7 +6487,7 @@
   },
   {
     "name": "Lucas De Nardo",
-    "stage": "3",
+    "stage": "4",
     "date": "05/08/26",
     "empresa": "Buenos Aires y alrededores",
     "cargo": "Head of Compliance | Compliance Manager | Regulatory & Business Risk Strategy in Fintech | AML · KYC · Fraud Prevention | IA aplicada a Procesos de Co",
@@ -7000,7 +7071,14 @@
     "empresa": "Chile",
     "cargo": "Directora de Empresas / Comunicaciones / Finanzas / Ética / Mercados",
     "pais": "Chile",
-    "sector": "Educación / Comunicación / Finanzas"
+    "sector": "Educación / Comunicación / Finanzas",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Pamela Auszenker, CFA",
@@ -7076,7 +7154,7 @@
   },
   {
     "name": "Rafael Ruiz",
-    "stage": "3",
+    "stage": "4",
     "date": "12/08/26",
     "empresa": "**Pais:** Argentina",
     "cargo": "Global Insurance Director @ Betterfly | Data Science, AI | Strategy",
@@ -7194,7 +7272,7 @@
   },
   {
     "name": "Santiago José Reyes Botero",
-    "stage": "3",
+    "stage": "4",
     "date": "12/08/26",
     "empresa": "Sales Navigator",
     "cargo": "C-level Executive | CSO | MBA | Board member | ESG | General Counsel | Oil & Gas |",
@@ -7654,12 +7732,18 @@
   },
   {
     "name": "Andrea Trejo",
-    "stage": "1",
+    "stage": "2",
     "date": "02/07/26",
     "empresa": "Panama Convention Center",
     "cargo": "Marketing & PR Panama Convention Center Managed by Legends Global",
     "pais": "Panamá",
-    "sector": "Turismo / Eventos / MICE"
+    "sector": "Turismo / Eventos / MICE",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Ángel Guarín",
@@ -7726,7 +7810,7 @@
   },
   {
     "name": "Armando Godoy Sepúlveda",
-    "stage": "3",
+    "stage": "4",
     "date": "10/07/26",
     "empresa": "Universidad Adolfo Ibáñez",
     "cargo": "Aportando creatividad a las Comunicaciones Internas",
@@ -7871,7 +7955,7 @@
   },
   {
     "name": "Claudia Arango Alvarez",
-    "stage": "3",
+    "stage": "4",
     "date": "18/06/26 (respuesta julio 2026)",
     "empresa": "F2X - Flypass",
     "cargo": "Directora de Marketing Estratégico | Liderazgo Consciente | Marcas con sentido y coherencia | Transformación de Marca | Growth | Posicionamiento estratégico",
@@ -7959,7 +8043,14 @@
     "empresa": "FUNDACER",
     "cargo": "Senior Educational Consultant | Learning Strategist | Experiential Design & Facilitation Expert \"Fostering growth through insight, presence, and authe",
     "pais": "Espana",
-    "sector": "Educación / Desarrollo Personal / Servicios Comunitarios"
+    "sector": "Educación / Desarrollo Personal / Servicios Comunitarios",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Dafna Brilovich Zimerman",
@@ -8144,12 +8235,18 @@
   },
   {
     "name": "Diego Jiménez",
-    "stage": "1",
+    "stage": "4",
     "date": "01/07/26",
     "empresa": "LEAD University",
     "cargo": "Máster en Marketing Digital 📈 Lic. Comunicación de Mercadeo 🧠 Publicista 💻",
     "pais": "Costa Rica",
-    "sector": "Educación (LEAD University, función principal actual) / Seguros (Grupo INS, 3+ años) / Retail automotriz (Red Motors, pasado)"
+    "sector": "Educación (LEAD University, función principal actual) / Seguros (Grupo INS, 3+ años) / Retail automotriz (Red Motors, pasado)",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Diego Jiménez",
@@ -8290,7 +8387,7 @@
   },
   {
     "name": "Evin Tapia",
-    "stage": "3",
+    "stage": "4",
     "date": "06/07/26",
     "empresa": "Pardini & Asociados",
     "cargo": "Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici",
@@ -8376,7 +8473,14 @@
     "empresa": "Abastible",
     "cargo": "Jefe de Trade Marketing en Abastible | Estrategia comercial en canal tradicional y distribuidores  | Innovación aplicada a Ventas",
     "pais": "Argentina",
-    "sector": "Energía / Distribución / Consumo (gas, energía alternativa, productos para Pymes)"
+    "sector": "Energía / Distribución / Consumo (gas, energía alternativa, productos para Pymes)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Francisco Peralta Cortés",
@@ -8408,12 +8512,18 @@
   },
   {
     "name": "Gabriel Murillo",
-    "stage": "0",
+    "stage": "2",
     "date": "23/07/26",
     "empresa": "INCAE Business School",
     "cargo": "Senior Manager | Diversification • Strategic Partnerships • External Manufacturing | FMCG",
     "pais": "Costa Rica",
-    "sector": "FMCG / Alimentos (secundario: Agro/Lácteo)"
+    "sector": "FMCG / Alimentos (secundario: Agro/Lácteo)",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Gabriel Uribe",
@@ -8575,7 +8685,14 @@
     "empresa": "Gerente de Marca",
     "cargo": "Gerente de Marca",
     "pais": "Costa Rica",
-    "sector": "Belleza, Lujo, Distribución"
+    "sector": "Belleza, Lujo, Distribución",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Huanda Aguilar",
@@ -8612,7 +8729,14 @@
     "empresa": "Comunicación Estratégica",
     "cargo": "Encargado de Comunicaciones Colegio San Pedro Nolasco - Vitacura | Magíster en Comunicación Estratégica",
     "pais": "Chile",
-    "sector": "Educación (sector HIGH dossier rate 35.7%)"
+    "sector": "Educación (sector HIGH dossier rate 35.7%)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Ing. Santiago García Díaz",
@@ -8667,7 +8791,14 @@
     "cargo": "Marketing Manager / Comunicacion Corporativa",
     "pais": "(sin datos)",
     "sector": "Marketing / Comunicacion Corporativa",
-    "recontact": "Recontacto oct/26"
+    "recontact": "Recontacto oct/26",
+    "stageHistory": [
+      {
+        "stage": 0,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Javier Andres Lievano",
@@ -8689,7 +8820,7 @@
   },
   {
     "name": "Javiera Del Fierro Manns",
-    "stage": "3",
+    "stage": "4",
     "date": "06/07/26",
     "empresa": "Activo Más Inversiones",
     "cargo": "Jefa de Personas y Comunicaciones Activo Más",
@@ -8698,7 +8829,7 @@
   },
   {
     "name": "Jenny Carolina López",
-    "stage": "3",
+    "stage": "4",
     "date": "22/07/26",
     "empresa": "Trascender Centro Psicológico",
     "cargo": "Socio Fundadora — Psiquiatra Perinatal",
@@ -8806,7 +8937,7 @@
   },
   {
     "name": "Josue Medina",
-    "stage": "3",
+    "stage": "4",
     "date": "12/06/26",
     "empresa": "#OPEN_TO_WORK (en búsqueda activa)",
     "cargo": "Comunicación, marketing estratégico y producción audiovisual. MBA énfasis gerencia",
@@ -9484,7 +9615,7 @@
   },
   {
     "name": "Paul Puissegur",
-    "stage": "3",
+    "stage": "4",
     "date": "29/07/26",
     "empresa": "España",
     "cargo": "International Development Director | Global Strategy | Strategic Partnerships | Market Expansion | MBA | M.Sc | M.A. |",
@@ -9522,12 +9653,18 @@
   },
   {
     "name": "Pedro Andrés Miranda Borie",
-    "stage": "1",
+    "stage": "4",
     "date": "01/07/26",
     "empresa": "ProntoPaga",
     "cargo": "Marketing / Digital / Comunicación Digital / Transformación Digital / Comunicaciones",
     "pais": "Chile",
-    "sector": "Fintech / Pagos Digitales"
+    "sector": "Fintech / Pagos Digitales",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Pedro Andrés Miranda Borie",
@@ -9609,7 +9746,14 @@
     "empresa": "Charlotte",
     "cargo": "Global Sales & Leadership Expert | Producer of Emmy-Nominated Films | Broadway Producer | CEO, Richard Tyler International, Inc.® | Creator of Sales I",
     "pais": "**Sector:** Entrenamiento empresarial, desarrollo de liderazgo, consultoría de ventas, producción audiovisual",
-    "sector": "Entrenamiento empresarial, desarrollo de liderazgo, consultoría de ventas, producción audiovisual"
+    "sector": "Entrenamiento empresarial, desarrollo de liderazgo, consultoría de ventas, producción audiovisual",
+    "stageHistory": [
+      {
+        "stage": 0,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Roberto Fernandez",
@@ -9622,7 +9766,7 @@
   },
   {
     "name": "Robinson Carrera Astudillo",
-    "stage": "3",
+    "stage": "4",
     "date": "06/07/26",
     "empresa": "Gasdelsur",
     "cargo": "Gerente comercial en Gasdelsur",
@@ -9707,7 +9851,7 @@
   },
   {
     "name": "Santiago Salguero Buitrago",
-    "stage": "3",
+    "stage": "4",
     "date": "01/07/26",
     "empresa": "YMCA Colombia",
     "cargo": "Gestor de Comunicaciones",
@@ -9730,7 +9874,14 @@
     "empresa": "Hyatt Regency Panamá",
     "cargo": "Sales & Marketing | Managment | Revenue |  Strategy | Data Analysis | B2B | Hospitality | Tourism",
     "pais": "Panamá",
-    "sector": "Hospitalidad / Turismo"
+    "sector": "Hospitalidad / Turismo",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Sebastián Estévez",
@@ -9833,7 +9984,7 @@
   },
   {
     "name": "Tatiana Guido Núñez",
-    "stage": "3",
+    "stage": "4",
     "date": "06/07/26",
     "empresa": "Walmart Connect México y Centroamérica",
     "cargo": "Comunicación, marketing, marketing digital, retail media.",
@@ -9961,7 +10112,7 @@
   },
   {
     "name": "Ximena Ruget",
-    "stage": "3",
+    "stage": "4",
     "date": "15/07/26",
     "empresa": "Glya",
     "cargo": "Co-Founder & President",
@@ -9980,7 +10131,7 @@
   },
   {
     "name": "Alberto Castro Velzaquez",
-    "stage": "3",
+    "stage": "4",
     "date": "10/06/26 (MSG1), 25/06/26 (MSG2)",
     "empresa": "Uraján de Luna",
     "cargo": "",
@@ -10061,7 +10212,7 @@
   },
   {
     "name": "Carla Bertossi",
-    "stage": "3",
+    "stage": "4",
     "date": "23/06/26 - 26/06/26",
     "empresa": "Novartis",
     "cargo": "Marketing Associate",
@@ -10075,7 +10226,14 @@
     "empresa": "Grupo Eurobelleza",
     "cargo": "CEO",
     "pais": "",
-    "sector": "Belleza"
+    "sector": "Belleza",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Carlos Alberto Vargas Serrato",
@@ -10174,11 +10332,18 @@
     "empresa": "Enap",
     "cargo": "Comunicaciones Corporativas",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Claudia Zazzali",
-    "stage": "3",
+    "stage": "4",
     "date": "25/06/26",
     "empresa": "Antofagasta Minerals",
     "cargo": "Sub Gerenta Comunicaciones Antofagasta Minerals Norte",
@@ -10187,7 +10352,7 @@
   },
   {
     "name": "Cristina Loaiza",
-    "stage": "3",
+    "stage": "4",
     "date": "18/06/26",
     "empresa": "Nutrisnacks (Mafam)",
     "cargo": "Marketing & Digital Strategy",
@@ -10205,12 +10370,18 @@
   },
   {
     "name": "Daniel Mendoza López",
-    "stage": "3",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "Loymark (agencia digital/marketing)",
     "cargo": "Marketing Automation Specialist, Loymark",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Daniel Samaniego",
@@ -10232,12 +10403,18 @@
   },
   {
     "name": "David Spaggiari",
-    "stage": "0",
+    "stage": "4",
     "date": "01/06/26 (MSG1) — SEG1 17/06/26 — cierre 18/06/26",
     "empresa": "Olnatura",
     "cargo": "CEO | Director General",
     "pais": "",
-    "sector": "Sustainable Product Manufacturing — suplementos dietarios y productos de salud"
+    "sector": "Sustainable Product Manufacturing — suplementos dietarios y productos de salud",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Dulce Rodríguez",
@@ -10246,7 +10423,14 @@
     "empresa": "CORBANA (Corporación Bananera Nacional)",
     "cargo": "Estratega de Marketing y Comunicación, CORBANA",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Dyana Díaz",
@@ -10277,21 +10461,33 @@
   },
   {
     "name": "Ericka Torres",
-    "stage": "3",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "Novogar Costa Rica (desarrollo inmobiliario)",
     "cargo": "Gerente de Marketing, Novogar Costa Rica",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Evanny Monge Córdoba",
-    "stage": "3",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "Texas Tech University - Costa Rica (TTU-CR)",
     "cargo": "Marketing Lead, Texas Tech University - Costa Rica",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Fabio Daniel Robledo Cadavid",
@@ -10318,7 +10514,14 @@
     "empresa": "Abbott",
     "cargo": "Regional Brand Manager, LATAM",
     "pais": "",
-    "sector": "Pharma"
+    "sector": "Pharma",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Fiorella Mora",
@@ -10376,12 +10579,18 @@
   },
   {
     "name": "Guille Tejada",
-    "stage": "3",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "Komunika Latam (agencia de PR, comunicación y marketing)",
     "cargo": "Head of PR, Digital and Marketing Communications, Komunika Latam",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Guillermo Perez",
@@ -10418,7 +10627,14 @@
     "cargo": "Líder de Imagen / Marketing",
     "pais": "",
     "sector": "Distribución mayorista — construcción, agro, jardinería, autorepuestos, limpieza, protección personal, industrias",
-    "recontact": "Recontacto oct/26"
+    "recontact": "Recontacto oct/26",
+    "stageHistory": [
+      {
+        "stage": 0,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Johnathan Andres Torres Bermúdez",
@@ -10427,7 +10643,14 @@
     "empresa": "Tec (detalle no disponible)",
     "cargo": "Líder de Marketing (16 personas, presupuesto $1M USD)",
     "pais": "",
-    "sector": "(no especificado — perfil con operación grande)"
+    "sector": "(no especificado — perfil con operación grande)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Johnny Garbanzo G",
@@ -10449,12 +10672,18 @@
   },
   {
     "name": "José Adrián Brenes M.",
-    "stage": "1",
+    "stage": "2",
     "date": "18/06/26 (MSG1, MSG2 y respuesta final el mismo día)",
     "empresa": "Grupo Inteca (antes Nestlé)",
     "cargo": "(ex) Channel Sales Manager / Jefe Comercial",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Jose Alcazar Moya",
@@ -10467,12 +10696,18 @@
   },
   {
     "name": "Jose Carlos Restrepo",
-    "stage": "1",
+    "stage": "3",
     "date": "",
     "empresa": "—",
     "cargo": "",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Jose Luis Pascual",
@@ -10508,25 +10743,44 @@
     "empresa": "BAOBAB",
     "cargo": "Gerente General | CMO | CCO",
     "pais": "",
-    "sector": "Transformación de negocios, multicultural (Europa, Asia, LATAM)"
+    "sector": "Transformación de negocios, multicultural (Europa, Asia, LATAM)",
+    "stageHistory": [
+      {
+        "stage": 0,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Juan Yepes",
-    "stage": "0",
+    "stage": "4",
     "date": "20/06/26",
     "empresa": "Colombiana de Comercio / Corbeta / Alkosto S.A",
     "cargo": "Director de Marketing",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Julian Fernando Sanchez Cardona",
-    "stage": "1",
+    "stage": "3",
     "date": "10/06/26",
     "empresa": "El Éxito Betancur y Asociados S.A. (marcas: Pretty Woman, Boccelli)",
     "cargo": "Jefe Ecommerce y Marketing Digital",
     "pais": "",
-    "sector": "Retail / Moda / Consumo masivo"
+    "sector": "Retail / Moda / Consumo masivo",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Julián Tovar",
@@ -10598,7 +10852,14 @@
     "empresa": "Aceros Carazo Reimers (materiales de construcción/acero)",
     "cargo": "Jefe de Mercadeo, Aceros Carazo Reimers",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Laura Zarta",
@@ -10607,16 +10868,29 @@
     "empresa": "Ecopetrol",
     "cargo": "Brand Management | Sponsorships, Events and Social Media",
     "pais": "",
-    "sector": "Energía"
+    "sector": "Energía",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Leidy Sandi Jimenez",
-    "stage": "3",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "Congero Technology Group (AI, ERP, CRM, Billing, RPA — LATAM)",
     "cargo": "Marketing Lead, Congero Technology Group",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Lidia Monge",
@@ -10656,7 +10930,7 @@
   },
   {
     "name": "Madeleyn Fonseca Suárez",
-    "stage": "3",
+    "stage": "4",
     "date": "25/06/26",
     "empresa": "Hummingbirds",
     "cargo": "Social Media Content Specialist",
@@ -10665,12 +10939,18 @@
   },
   {
     "name": "Marcela Alfaro Ubico",
-    "stage": "1",
+    "stage": "4",
     "date": "",
     "empresa": "—",
     "cargo": "",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "María Belén Astudillo Abarzúa",
@@ -10679,7 +10959,14 @@
     "empresa": "CFL Inmobiliaria",
     "cargo": "Jefa de Marketing",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "María Emma Pereira",
@@ -10701,7 +10988,7 @@
   },
   {
     "name": "María Vargas",
-    "stage": "3",
+    "stage": "4",
     "date": "10/06/26",
     "empresa": "Toucan Rescue Ranch",
     "cargo": "Communication & Strategy for Social Impact | Marketing | Fundraising | Sustainability",
@@ -10719,12 +11006,18 @@
   },
   {
     "name": "Mariana Ossandón Vera",
-    "stage": "1",
+    "stage": "2",
     "date": "18/06/26 (MSG1, MSG2 y cierre el mismo día)",
     "empresa": "Lipigas",
     "cargo": "Encargada de Comunicaciones Corporativas, Periodista UDP",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Mariano Rodriguez",
@@ -10755,12 +11048,18 @@
   },
   {
     "name": "Matthew Hernandez",
-    "stage": "1",
+    "stage": "3",
     "date": "15/06/26 (MSG2) — dossier 18/06/26",
     "empresa": "Nexsys Centroamérica y Caribe (distribuidor tech: Adobe, Red Hat, SonicWall, Salesforce)",
     "cargo": "Marketing Coordinator, Nexsys Centroamérica y Caribe",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Meliné Gejekoushian",
@@ -10872,12 +11171,18 @@
   },
   {
     "name": "Patricio García",
-    "stage": "1",
+    "stage": "3",
     "date": "10/06/26",
     "empresa": "Consultor Freelance (ex agencia propia)",
     "cargo": "Consultor / Estratega de Marketing",
     "pais": "",
-    "sector": "Consultoría / Agencia"
+    "sector": "Consultoría / Agencia",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Paula Quijada",
@@ -10940,16 +11245,29 @@
     "empresa": "(no especificada en la conversación)",
     "cargo": "",
     "pais": "",
-    "sector": "(no especificado)"
+    "sector": "(no especificado)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "26/08/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Santiago Cicchetti",
-    "stage": "1",
+    "stage": "4",
     "date": "",
     "empresa": "—",
     "cargo": "",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 3,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Steven Alfaro",
@@ -10962,12 +11280,18 @@
   },
   {
     "name": "Tatiana Alfaro",
-    "stage": "1",
+    "stage": "4",
     "date": "15/06/26",
     "empresa": "—",
     "cargo": "Soluciones de Marketing Sostenible",
     "pais": "",
-    "sector": ""
+    "sector": "",
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "26/08/26"
+      }
+    ]
   },
   {
     "name": "Tatiana Alvarez 🇨🇷",
