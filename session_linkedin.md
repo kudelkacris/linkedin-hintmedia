@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 26/08/26 (tarde)
+## Última sesión: 27/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -12,10 +12,10 @@
 |--------|-------|-------------------|--------------|
 | Marcelo R. Matarazzi | 3 - Dossier enviado | 22/08 — respondió al dossier "busco la disrupción", engagement HIGH. Respuesta enviada. | SEG1 pendiente si no responde |
 | Diego Manfio | 3 - Dossier por mail pendiente | 24/08 — respondió MSG1 con TED talk + email directo dmanfio@sima.com.ar. MSG2 enviado. | Jefe envía dossier a dmanfio@sima.com.ar |
-| Joaquín Goyechea | 3 - Dossier enviado | 24/08 — "pásame para ver de qué trata". Dossier enviado. | SEG1 si no responde en 48hs |
-| Luis Cabral | 3 - Dossier enviado | 24/08 — "enviame el dossier y lo revisaré con interés". Dossier enviado. | SEG1 si no responde en 48hs |
+| Joaquín Goyechea | 3 - Dossier enviado | 24/08 — "pásame para ver de qué trata". Dossier enviado. | SEG1 urgente — vencido 48hs |
+| Luis Cabral | 3 - Dossier enviado | 24/08 — "enviame el dossier y lo revisaré con interés". Dossier enviado. | SEG1 urgente — vencido 48hs |
 | Jonatan Lopez | 2 - MSG2 enviado | 24/08 — resistencia inicial + "soy de Compras no marketing". MSG2: aclaré la lectura + pedí referido interno. | Esperar referido de contacto marketing/comms en Bioingepro |
-| Lola Bordás Dolz | 2 - MSG2 pendiente | 24/08 — respondió "Hola Florencia,". MSG2 no cerrado. | Abrir charla sin sonar a pitch — pendiente próxima sesión |
+| Lola Bordás Dolz | 2 - MSG2 pendiente | 24/08 — respondió "Hola Florencia,". MSG2 no cerrado. | Abrir charla sin sonar a pitch — pendiente |
 | Luciano Fornaro | 2 - Coordinando call | 21/08 — aceptó call, pidiendo mail trabajo para Google Meet | Pendiente mail |
 | Renzo Gabriel De Stefano | 3 - Dossier enviado | 25/08 — respondió emojis + aceptó dossier + ofrece derivar si encuentra punto de entrada en Hexagon | Esperar respuesta |
 | Tomas Ibarlin | 1 - MSG1 generado | MSG1 21/08 — inspector obra pública Santa Fe, perfil junior | Esperar respuesta |
@@ -76,6 +76,10 @@
 | Jorge O. Gatto | 3 - Dossier enviado | 26/08 — aceptó "lo voy a leer con atención" | SEG1 si no responde en 48hs |
 | Valentín Bardelli | 2 - Conversación activa | 26/08 — preguntó "cuál sería el motivo de la reunión", MSG2 enviado explicando valor + referido | Esperar respuesta |
 | Federico Stephan | 2 - MSG2 enviado | 26/08 — Filadd YC S21, AI Specialist. MSG2 con pitch directo + CTA referido | Esperar respuesta |
+| Luis Arturo Baquero Franco | 3 - Dossier enviado | 27/08 — aceptó dossier con emojis + "mándamelos". Dossier enviado. | SEG1 en 48hs si no responde |
+| Clara Cecilia Uparela Imbeth | 3 - Dossier enviado | 27/08 — "Perfecto". Dossier enviado. | SEG1 en 48hs si no responde |
+| Daniel D'Agostino | 3 - Dossier enviado | 27/08 — "dale aguardo el material". Dossier enviado. | SEG1 en 48hs si no responde |
+| Adriana Meldini | 2 - MSG2 enviado | 27/08 — propuso "pensar algo juntas". MSG2 exploratorio enviado. | Esperar respuesta — no dossier todavía |
 
 ### Stage 4 — SEG1 enviado
 
@@ -184,13 +188,13 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 26/08/26 (tarde)
+## Stats al cierre 27/08/26
 
-- Total historial: 1157+ entradas
-- Stage 3 (dossier real, sin SEG1): 50 → corregido a ~45 tras auditoria stages
+- Total historial: 1165+ entradas
+- Stage 3 (dossier): ~48
 - Stage 4 (SEG1 enviado): 135
 - Stage 6 (reunión): 7
-- Sesión tarde 26/08: Alicia Pérez Patrón (stage 3), Jorge O. Gatto (stage 3), Valentín Bardelli (stage 2 conversación activa), Soledad Martinez (cerrada), Melanie Weimberg (cerrada, referido Antonela Del Franco). Auditoría de stages: 87→50 en stage 3, stage 4 sube a 135.
+- Sesión 27/08: Luis Arturo Baquero (stage 3), Clara Cecilia Uparela (stage 3), Daniel D'Agostino (stage 3), Adriana Meldini (stage 2 MSG2 exploratorio). Founders batch MSG1: Magdalena Laplacette, Gonzalo Rioja, Stefano Mazzei, Nicolas Surijon, Juan Rossi.
 
 ## Cambios importantes de metodología (20/08/26)
 
@@ -205,11 +209,12 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 3. **Contactar Antonela Del Franco** — reemplaza a Melanie Weimberg en Manantial
 4. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
 5. **Lola Bordás Dolz** — MSG2 pendiente
-6. **SEG1 pendiente** — Joaquín Goyechea, Luis Cabral, Alicia Pérez Patrón, Jorge O. Gatto (48hs)
-7. **MSG1 INDUSTRIA-ARG** — ~85 contactos pendientes
-8. **MSG1 Grupo B FCT COMMS** — ~22 contactos pendientes
-9. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
-10. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
+6. **SEG1 urgente** — Joaquín Goyechea, Luis Cabral (vencidos), Alicia Pérez Patrón, Jorge O. Gatto, Luis Arturo Baquero, Clara Cecilia Uparela, Daniel D'Agostino (48hs desde 27/08)
+7. **Founders batch pendientes** — Victoria Cabanelas, Patrick Summers, Javier D. Caruso, Horacio Cacciatore
+8. **MSG1 INDUSTRIA-ARG** — ~85 contactos pendientes
+9. **MSG1 Grupo B FCT COMMS** — ~22 contactos pendientes
+10. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
+11. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
 
 ---
 
