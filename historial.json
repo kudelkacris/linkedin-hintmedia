@@ -13429,5 +13429,25 @@
         "pais":  "Argentina",
         "sector":  "Tech / IA",
         "date":  "27/08/26"
+    },
+    {
+        "id":  "nicolas-surijon-270826",
+        "empresa":  "DirMOD",
+        "stage":  1,
+        "name":  "Nicolas Surijon",
+        "cargo":  "CEO \u0026 Co-Founder",
+        "pais":  "Argentina",
+        "sector":  "Tech / Cloud / Sector Publico",
+        "date":  "27/08/26"
+    },
+    {
+        "id":  "juan-rossi-270826",
+        "empresa":  "Devlights",
+        "stage":  1,
+        "name":  "Juan Rossi",
+        "cargo":  "Co-Founder \u0026 CEO",
+        "pais":  "Argentina",
+        "sector":  "Tech / SaaS / Nearshore",
+        "date":  "27/08/26"
     }
 ]
