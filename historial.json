@@ -13399,5 +13399,35 @@
         "stage":  1,
         "date":  "26/08/26",
         "empresa":  "Argentina"
+    },
+    {
+        "id":  "magdalena-laplacette-270826",
+        "empresa":  "SpotIn",
+        "stage":  1,
+        "name":  "Magdalena Laplacette",
+        "cargo":  "Founder \u0026 Head of Growth",
+        "pais":  "Argentina",
+        "sector":  "Tech / App",
+        "date":  "27/08/26"
+    },
+    {
+        "id":  "gonzalo-rioja-270826",
+        "empresa":  "WeSpeak",
+        "stage":  1,
+        "name":  "Gonzalo Rioja",
+        "cargo":  "Co-Founder \u0026 CEO",
+        "pais":  "Argentina/Espana",
+        "sector":  "Tech / SaaS Hoteleria",
+        "date":  "27/08/26"
+    },
+    {
+        "id":  "stefano-mazzei-270826",
+        "empresa":  "RedLazo",
+        "stage":  1,
+        "name":  "Stefano Mazzei",
+        "cargo":  "CEO \u0026 Co-Founder",
+        "pais":  "Argentina",
+        "sector":  "Tech / IA",
+        "date":  "27/08/26"
     }
 ]
