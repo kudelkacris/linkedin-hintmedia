@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Tecnología / Software (Genesys = Customer Experience Software)
-**Estado:** MSG1 enviado
+**Estado:** Stage 3 — Dossier enviado (27/08/26)
 
 ---
 

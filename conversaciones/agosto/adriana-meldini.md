@@ -5,7 +5,7 @@
 **Empresa:** LinkedIn
 **Pais:** Argentina
 **Sector:** Servicios profesionales / Consultoría (Employer Branding, Comunicación Estratégica)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (27/08/26) — propone colaboración, explorar si sus clientes necesitan ejecución
 
 ---
 
@@ -27,4 +27,12 @@
 
 ---
 
+## MSG2
+> Buenas Adriana, totalmente de acuerdo. La coherencia entre esas capas es lo que hace que una estrategia aguante en el tiempo, y también lo que más se subestima en la etapa de diseño.
+> Me generás curiosidad con lo de pensar algo juntas. Contame qué tenés en mente, si es algo con clientes tuyos o algo más de construcción de tu propia presencia en el mercado.
+
+---
+
 ## Notas
+- Perfil consultora, no cliente directo. Propuso colaboración/proyecto conjunto.
+- Ángulo: explorar si sus clientes necesitan ejecución (→ Hint entra) o si piensa en colaboración diferente.
