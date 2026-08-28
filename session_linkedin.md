@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 27/08/26
+## Última sesión: 28/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -120,6 +120,8 @@
 
 | Nombre | Fecha | Nota |
 |--------|-------|------|
+| Gonzalo Rioja | sept/26 | Post-Hotelga (2-4 sept) — "Gracias!" sin apertura, recontactar con ángulo nuevo |
+| Juan Rossi | oct/26 | SEG1 en 48hs si no responde al dossier |
 | Brenda Vaca | sept/26 | Recontactar en 1 mes |
 | Santiago Salguero | sept/26 | Recontactar en 1 mes |
 | Tatiana Guido | sept/26 | Mail a Argerie Ramirez (Argerie.Ramirez@walmart.com) |
@@ -188,13 +190,13 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 27/08/26
+## Stats al cierre 28/08/26
 
 - Total historial: 1165+ entradas
-- Stage 3 (dossier): ~48
+- Stage 3 (dossier): ~49
 - Stage 4 (SEG1 enviado): 135
 - Stage 6 (reunión): 7
-- Sesión 27/08: Luis Arturo Baquero (stage 3), Clara Cecilia Uparela (stage 3), Daniel D'Agostino (stage 3), Adriana Meldini (stage 2 MSG2 exploratorio). Founders batch MSG1: Magdalena Laplacette, Gonzalo Rioja, Stefano Mazzei, Nicolas Surijon, Juan Rossi.
+- Sesión 28/08: Juan Rossi (stage 3 — aceptó dossier). Gonzalo Rioja (cierre suave — "Gracias!" sin apertura, recontactar post-Hotelga sept).
 
 ## Cambios importantes de metodología (20/08/26)
 
