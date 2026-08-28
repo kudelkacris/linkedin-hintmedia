@@ -5,7 +5,7 @@
 **Empresa:** WeSpeak
 **Pais:** España (Valencia) / LATAM
 **Sector:** Tech / SaaS (IA conversacional para hotelería)
-**Estado:** MSG1 enviado (27/08/26)
+**Estado:** Cierre suave (28/08/26) — respondió "Gracias!" + emojis, no aceptó dossier. Puerta abierta.
 
 ---
 

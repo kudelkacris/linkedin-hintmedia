@@ -5,7 +5,7 @@
 **Empresa:** Devlights
 **Pais:** Argentina (Corrientes)
 **Sector:** Tech / SaaS / Nearshore Development
-**Estado:** MSG1 enviado (27/08/26)
+**Estado:** Dossier enviado (28/08/26)
 
 ---
 
@@ -26,6 +26,12 @@
 > Tenemos un dossier breve con esos casos. Te lo mando por acá si te parece, o me decís si no es el momento.
 
 ---
+
+## Respuesta MSG1
+> Buen día Florencia. Dale, con mucho gusto le pego una mirada.
+
+## Dossier enviado (28/08/26)
+Contexto: casos de empresas tech con narrativa fuerte concentrada en el founder. CTA: llamada si resuena algo.
 
 ## Notas
 - Post "Four friends. Zero investors." en destacados — 143 reacciones, mismo cliente del primer proyecto hoy tiene 40+ personas Devlights full-time.
