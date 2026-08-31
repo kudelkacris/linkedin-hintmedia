@@ -1,0 +1,673 @@
+<title>El problema post-dossier · Hint Media</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
+
+<style>
+:root {
+  --bg:         #FAFAFA;
+  --bg-alt:     #F2F2F0;
+  --surface:    #FFFFFF;
+  --card:       #F5F5F3;
+  --border:     #E0DDD8;
+  --text:       #1A1A18;
+  --muted:      #6B6860;
+  --accent:     #C84B20;
+  --accent-dim: #FBE9E3;
+  --success:    #2A7A4B;
+  --succ-dim:   #E3F5EB;
+  --warn:       #8A6800;
+  --warn-dim:   #FBF2D8;
+  --info:       #1A5CA8;
+  --info-dim:   #DDE8F8;
+  --stripe:     rgba(26,26,24,.03);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:         #141412;
+    --bg-alt:     #1C1C1A;
+    --surface:    #222220;
+    --card:       #2A2A28;
+    --border:     #383835;
+    --text:       #E8E6E0;
+    --muted:      #8A887F;
+    --accent:     #E86030;
+    --accent-dim: #2C1408;
+    --success:    #4AAA6A;
+    --succ-dim:   #0C2016;
+    --warn:       #C89A20;
+    --warn-dim:   #241E04;
+    --info:       #5090E0;
+    --info-dim:   #0C1A30;
+    --stripe:     rgba(255,255,255,.025);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:         #141412;
+  --bg-alt:     #1C1C1A;
+  --surface:    #222220;
+  --card:       #2A2A28;
+  --border:     #383835;
+  --text:       #E8E6E0;
+  --muted:      #8A887F;
+  --accent:     #E86030;
+  --accent-dim: #2C1408;
+  --success:    #4AAA6A;
+  --succ-dim:   #0C2016;
+  --warn:       #C89A20;
+  --warn-dim:   #241E04;
+  --info:       #5090E0;
+  --info-dim:   #0C1A30;
+  --stripe:     rgba(255,255,255,.025);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  padding-bottom: 80px;
+}
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+
+/* HEADER */
+.page-header {
+  border-bottom: 1px solid var(--border);
+  padding: 56px 0 48px;
+}
+.header-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+.header-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: clamp(32px, 5.5vw, 58px);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -.03em;
+  margin-bottom: 20px;
+  text-wrap: balance;
+}
+.header-title em { font-style: normal; color: var(--accent); }
+.header-sub {
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 560px;
+  line-height: 1.6;
+}
+
+/* SECTION */
+.section { padding: 52px 0 0; }
+.section-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* EMBUDO VISUAL */
+.funnel-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 36px;
+  margin-bottom: 16px;
+}
+.funnel-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.funnel-stages { display: flex; flex-direction: column; gap: 10px; }
+.fs {
+  display: grid;
+  grid-template-columns: 180px 1fr 80px 100px;
+  align-items: center;
+  gap: 16px;
+}
+.fs-label { font-size: 13px; font-weight: 600; }
+.fs-bar-wrap { height: 22px; background: var(--card); border-radius: 6px; overflow: hidden; }
+.fs-bar { height: 100%; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; }
+.fs-n {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.fs-pct { font-size: 12px; color: var(--muted); }
+.fs-divider {
+  grid-column: 1/-1;
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0;
+  opacity: .5;
+}
+
+/* NOTA CRITICA */
+.nota-critica {
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 20px 24px;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.7;
+}
+.nota-critica strong { color: var(--accent); font-weight: 700; }
+
+/* CASOS GRID */
+.casos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.caso-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 22px;
+  position: relative;
+  overflow: hidden;
+}
+.caso-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+}
+.caso-reunion::before { background: var(--success); }
+.caso-cierre::before { background: var(--accent); }
+.caso-pendiente::before { background: var(--warn); }
+.caso-info::before { background: var(--info); }
+.caso-tag {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: 3px 10px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.tag-reunion { background: var(--succ-dim); color: var(--success); }
+.tag-cierre { background: var(--accent-dim); color: var(--accent); }
+.tag-pendiente { background: var(--warn-dim); color: var(--warn); }
+.tag-info { background: var(--info-dim); color: var(--info); }
+.caso-name {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.caso-context { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.caso-quote {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.caso-body { font-size: 13px; color: var(--text); line-height: 1.6; }
+
+/* RAZONES */
+.razon-list { display: flex; flex-direction: column; gap: 16px; }
+.razon-item {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  align-items: start;
+}
+.razon-n {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  padding-top: 2px;
+}
+.razon-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+.razon-body { font-size: 13px; color: var(--muted); line-height: 1.65; }
+.razon-body strong { color: var(--text); font-weight: 600; }
+
+/* FIXES */
+.fix-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.fix-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+.fix-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.fix-icon {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.fix-title { font-size: 14px; font-weight: 700; }
+.fix-body { font-size: 13px; color: var(--muted); line-height: 1.65; }
+.fix-body strong { color: var(--text); font-weight: 600; }
+.fix-urgente { border-color: var(--accent); }
+.fix-urgente .fix-icon { background: var(--accent-dim); }
+
+/* STAT ROW */
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.stat-cell {
+  background: var(--surface);
+  padding: 20px 20px;
+  text-align: center;
+}
+.stat-n {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1;
+  margin-bottom: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.stat-l { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.stat-sub { font-size: 11px; color: var(--muted); margin-top: 3px; opacity: .7; }
+
+/* PATTERN TABLE */
+.pattern-table {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.pattern-table th {
+  background: var(--bg-alt);
+  padding: 12px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--muted);
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.pattern-table td {
+  padding: 12px 16px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.pattern-table tr:last-child td { border-bottom: none; }
+.pattern-table tr:nth-child(even) td { background: var(--stripe); }
+.pattern-table td:first-child { font-weight: 600; }
+
+/* PILL */
+.pill { display: inline-block; padding: 3px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; }
+.pill-green { background: var(--succ-dim); color: var(--success); }
+.pill-red { background: var(--accent-dim); color: var(--accent); }
+.pill-amber { background: var(--warn-dim); color: var(--warn); }
+.pill-blue { background: var(--info-dim); color: var(--info); }
+
+/* FOOTER */
+.page-footer {
+  margin-top: 64px;
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 680px) {
+  .casos-grid, .fix-grid { grid-template-columns: 1fr; }
+  .stat-row { grid-template-columns: 1fr 1fr; }
+  .fs { grid-template-columns: 120px 1fr 60px 80px; }
+}
+</style>
+
+<div class="page-header">
+  <div class="wrap">
+    <div class="header-label">Análisis de falla · Post-dossier</div>
+    <div class="header-title">158 dossiers.<br><em>7 reuniones.</em></div>
+    <div class="header-sub">Qué pasa después de que el prospecto acepta el dossier — dónde se rompe el embudo y por qué la mayoría desaparece en silencio.</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- EMBUDO -->
+  <div class="section">
+    <div class="section-title">El embudo completo</div>
+
+    <div class="stat-row">
+      <div class="stat-cell">
+        <div class="stat-n" style="color:var(--muted)">787</div>
+        <div class="stat-l">Contactados</div>
+        <div class="stat-sub">3 meses</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-n" style="color:var(--info)">311</div>
+        <div class="stat-l">Respondieron</div>
+        <div class="stat-sub">39.5%</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-n" style="color:var(--warn)">158</div>
+        <div class="stat-l">Dossier</div>
+        <div class="stat-sub">50.8% de resp.</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-n" style="color:var(--accent)">7</div>
+        <div class="stat-l">Reunión</div>
+        <div class="stat-sub">4.4% de dossiers</div>
+      </div>
+    </div>
+
+    <div class="funnel-wrap">
+      <div class="funnel-title">Qué pasó con los 158 dossiers</div>
+      <div class="funnel-stages">
+
+        <div class="fs">
+          <div class="fs-label">Dossier enviado</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:100%;background:var(--border)"></div></div>
+          <div class="fs-n" style="color:var(--muted)">158</div>
+          <div class="fs-pct">base 100%</div>
+        </div>
+
+        <div class="fs">
+          <div class="fs-label" style="color:var(--warn)">Sin SEG1 aún</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:22.8%;background:var(--warn)"></div></div>
+          <div class="fs-n" style="color:var(--warn)">36</div>
+          <div class="fs-pct">22.8% — pendiente</div>
+        </div>
+
+        <div class="fs">
+          <div class="fs-label">Recibieron SEG1</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:75.9%;background:var(--info)"></div></div>
+          <div class="fs-n" style="color:var(--info)">120</div>
+          <div class="fs-pct">75.9%</div>
+        </div>
+
+        <div class="fs fs-divider"></div>
+
+        <div class="fs">
+          <div class="fs-label" style="color:var(--success)">Respondieron SEG1</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:14.6%;background:var(--success)"></div></div>
+          <div class="fs-n" style="color:var(--success)">23</div>
+          <div class="fs-pct">19.2% de los con SEG1</div>
+        </div>
+
+        <div class="fs">
+          <div class="fs-label" style="color:var(--accent)">Ghostearon post-SEG1</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:61.4%;background:var(--accent)"></div></div>
+          <div class="fs-n" style="color:var(--accent)">97</div>
+          <div class="fs-pct">80.8% silencio total</div>
+        </div>
+
+        <div class="fs">
+          <div class="fs-label" style="color:var(--muted)">Dijeron "no" explícito</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:6.3%;background:var(--muted)"></div></div>
+          <div class="fs-n" style="color:var(--muted)">10</div>
+          <div class="fs-pct">6.3%</div>
+        </div>
+
+        <div class="fs fs-divider"></div>
+
+        <div class="fs">
+          <div class="fs-label" style="color:var(--success);font-weight:700">Reunión cerrada</div>
+          <div class="fs-bar-wrap"><div class="fs-bar" style="width:4.4%;background:var(--success)"></div></div>
+          <div class="fs-n" style="color:var(--success)">7</div>
+          <div class="fs-pct">4.4% del total dossier</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="nota-critica">
+      <strong>El problema central:</strong> 97 personas recibieron el dossier, recibieron el seguimiento, y desaparecieron. No dijeron no. No dijeron sí. Simplemente se apagaron. Ese es el agujero del embudo — no el MSG1, no el MSG2.
+    </div>
+  </div>
+
+  <!-- LOS 23 QUE RESPONDIERON -->
+  <div class="section">
+    <div class="section-title">Los 23 que respondieron al seguimiento · qué pasó</div>
+
+    <table class="pattern-table" style="margin-bottom:16px">
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th>Cantidad</th>
+          <th>Patrón</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reunión cerrada</td>
+          <td><span class="pill pill-green">7</span></td>
+          <td>HIGH engagement desde MSG2. Respuesta larga y entusiasta. Confirman el dossier con curiosidad real.</td>
+          <td>Coordinaron por mail, Google Meet.</td>
+        </tr>
+        <tr>
+          <td>Cierre cordial</td>
+          <td><span class="pill pill-red">8</span></td>
+          <td>Respondieron al SEG1 con un "👍 gracias" o "éxitos". La puerta queda abierta pero sin urgencia.</td>
+          <td>Cerrado suave. Recontactar en 60-90 días.</td>
+        </tr>
+        <tr>
+          <td>No es el momento</td>
+          <td><span class="pill pill-red">5</span></td>
+          <td>"No necesitamos asesoría externa", "trabajamos in-house", "no es el momento".</td>
+          <td>Cierre explícito. Algunos con recontacto futuro.</td>
+        </tr>
+        <tr>
+          <td>Enganchados pero sin avanzar</td>
+          <td><span class="pill pill-amber">3</span></td>
+          <td>Respondieron con interés ("me parece interesante", "qué hacen exactamente") pero no propusieron ni aceptaron reunión.</td>
+          <td>Sin SEG2 sistemático → se perdieron.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="casos-grid">
+
+      <div class="caso-card caso-reunion">
+        <div class="caso-tag tag-reunion">Reunión cerrada ✓</div>
+        <div class="caso-name">Alejandra Salas Petit</div>
+        <div class="caso-context">España · Advocacy/Comunicación · julio 2026</div>
+        <div class="caso-quote">"El tipo de trabajo que comentas me resulta especialmente interesante... gran parte de mi trayectoria ha estado vinculada a comunicación en entornos con múltiples stakeholders."</div>
+        <div class="caso-body">HIGH engagement desde el MSG2. Cuando llegó el SEG1 ya estaba predispuesta. Reunión el martes 29/07 vía Google Meet. El patrón: la reunión estaba ganada o perdida desde el MSG2, no desde el SEG1.</div>
+      </div>
+
+      <div class="caso-card caso-cierre">
+        <div class="caso-tag tag-cierre">Cierre cordial</div>
+        <div class="caso-name">Eduardo Javier Ochoa</div>
+        <div class="caso-context">Argentina · CiberSeguridad/Consultoría · agosto 2026</div>
+        <div class="caso-quote">"👍👍😊 Gracias Florencia"</div>
+        <div class="caso-body">Conversación genuina sobre métricas de impacto en dinero. Alta calidad de intercambio. Respondió al SEG1 con emoji. Después de eso: cierre suave "Éxitos con LEADSEC". Sin SEG2 — se cerró ahí. Con una propuesta concreta de reunión en el SEG1 podría haber convertido.</div>
+      </div>
+
+      <div class="caso-card caso-cierre">
+        <div class="caso-tag tag-cierre">No es el momento</div>
+        <div class="caso-name">Paula Cafferata</div>
+        <div class="caso-context">Argentina · Legal/Comunicación · julio 2026</div>
+        <div class="caso-quote">"No necesitan asesoría externa."</div>
+        <div class="caso-body">Respondió al SEG1 con rechazo claro: trabajan 100% in-house. Cierre limpio, recontacto oct/26. La información más útil que podemos obtener: saber que no es el canal para ellos ahora.</div>
+      </div>
+
+      <div class="caso-card caso-pendiente">
+        <div class="caso-tag tag-pendiente">Enganchado sin avanzar</div>
+        <div class="caso-name">Rafael Ruiz</div>
+        <div class="caso-context">Argentina · InsurTech/Seguros · agosto 2026</div>
+        <div class="caso-quote">"No sé bien qué hacen ustedes, pero sin problema enviame lo que tengas."</div>
+        <div class="caso-body">Aceptó el dossier con curiosidad real. Conversación sobre embedded experience. Está en stage 3 — recibió el dossier pero aún no recibió SEG1. Sin seguimiento → en riesgo de perderse en silencio. Es exactamente el perfil que puede convertir con SEG1 a tiempo.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- POR QUÉ GHOSTEAN -->
+  <div class="section">
+    <div class="section-title">Por qué los 97 desaparecen · diagnóstico</div>
+
+    <div class="razon-list">
+
+      <div class="razon-item">
+        <div class="razon-n">01</div>
+        <div>
+          <div class="razon-title">El dossier sale de LinkedIn y pierde urgencia</div>
+          <div class="razon-body">La mayoría de dossiers se mandan por email. El prospecto sale del canal activo, lo guarda en una carpeta, y "lo va a leer cuando tenga tiempo". Ese tiempo nunca llega. <strong>No hay fricción positiva para que lo abra hoy.</strong></div>
+        </div>
+      </div>
+
+      <div class="razon-item">
+        <div class="razon-n">02</div>
+        <div>
+          <div class="razon-title">36 de 158 nunca recibieron SEG1 — se perdieron por falta de ejecución</div>
+          <div class="razon-body">El 22.8% de los dossiers enviados no tiene SEG1 programado ni ejecutado. No es que fallaron — <strong>nunca tuvieron seguimiento.</strong> Algunos son recientes (agosto, dentro de la ventana de 48-72h), pero otros llevan semanas. Son los más urgentes de procesar en septiembre.</div>
+        </div>
+      </div>
+
+      <div class="razon-item">
+        <div class="razon-n">03</div>
+        <div>
+          <div class="razon-title">El SEG1 rota el ángulo, pero el prospecto ya tomó su decisión</div>
+          <div class="razon-body">Si el dossier no generó urgencia, el SEG1 llega cuando la decisión ya es "no por ahora". El ángulo rotado (win personal, nueva perspectiva) es buena técnica, pero llega tarde. <strong>La reunión se gana o se pierde en el MSG2, no en el SEG1.</strong></div>
+        </div>
+      </div>
+
+      <div class="razon-item">
+        <div class="razon-n">04</div>
+        <div>
+          <div class="razon-title">No hay SEG2 — el embudo termina en SEG1</div>
+          <div class="razon-body">El protocolo menciona SEG2, pero no se ejecuta sistemáticamente. Después del SEG1 sin respuesta, la conversación muere. <strong>4-7 días después del SEG1, un mensaje muy breve</strong> ("¿llegó bien el dossier?") puede rescatar 3-5 reuniones por mes sin esfuerzo extra significativo.</div>
+        </div>
+      </div>
+
+      <div class="razon-item">
+        <div class="razon-n">05</div>
+        <div>
+          <div class="razon-title">La propuesta de reunión en el SEG1 no tiene urgencia concreta</div>
+          <div class="razon-body">"Creo que podríamos tener una conversación interesante" es vaga. No propone día, horario, ni duración. El prospecto que podría decir sí no tiene nada concreto a qué responder. <strong>Una propuesta específica duplica la probabilidad de respuesta</strong>: "¿te funciona el jueves a las 15h? 20 minutos."</div>
+        </div>
+      </div>
+
+      <div class="razon-item">
+        <div class="razon-n">06</div>
+        <div>
+          <div class="razon-title">El dossier es genérico para el sector del prospecto</div>
+          <div class="razon-body">El dossier actual muestra casos generales de Hint. Un prospecto de energía recibe los mismos casos que uno de tech. <strong>Sin personalización visible, el prospecto siente que le mandaron el mismo material que a todos.</strong> Versión B del dossier por sector podría mejorar la conversión post-dossier en 10-15 puntos.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- QUÉ HACER -->
+  <div class="section">
+    <div class="section-title">Qué hacer en septiembre · acciones concretas</div>
+
+    <div class="fix-grid">
+
+      <div class="fix-card fix-urgente">
+        <div class="fix-header">
+          <div class="fix-icon">🔥</div>
+          <div class="fix-title">SEG1 inmediato a los 36 pendientes</div>
+        </div>
+        <div class="fix-body">Hay 36 personas que aceptaron el dossier y nunca recibieron seguimiento. Algunos llevan semanas. <strong>Prioridad 1 de septiembre, antes de cualquier MSG1 nuevo.</strong> Lista: Luis Cabral, Joaquín Goyechea, Luis Baquero, Jorge O. Gatto, Clara Uparela, Daniel D'Agostino, Dante Velasco, Marcelo Matarazzi + 28 más.</div>
+      </div>
+
+      <div class="fix-card fix-urgente">
+        <div class="fix-header">
+          <div class="fix-icon">📅</div>
+          <div class="fix-title">SEG1 con propuesta de horario concreto</div>
+        </div>
+        <div class="fix-body">Cambiar el CTA del SEG1 de vago a específico. En vez de "si tiene sentido lo charlamos": <strong>"¿Te funciona el jueves o viernes de esta semana? 20 minutos, te propongo martes 15h o jueves 16h."</strong> Dar una opción binaria, no una pregunta abierta.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-header">
+          <div class="fix-icon">📩</div>
+          <div class="fix-title">Implementar SEG2 sistemático</div>
+        </div>
+        <div class="fix-body">4-7 días después del SEG1 sin respuesta: mensaje de una sola oración. Sin mención al dossier. Un dato nuevo, una pregunta corta, o simplemente cierre: <strong>"¿Llegó bien el material?"</strong> — esa pregunta tiene respuesta. "Creo que podríamos tener una conversación" no la tiene.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-header">
+          <div class="fix-icon">📋</div>
+          <div class="fix-title">Versión B del dossier por sector</div>
+        </div>
+        <div class="fix-body">Energía recibe portada y caso de Sullair/TGS. Tech recibe caso Agora. Seguros recibe Libra. <strong>El cambio es mínimo en producción pero máximo en percepción</strong> — el prospecto siente que el material fue preparado para alguien como él.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-header">
+          <div class="fix-icon">🎯</div>
+          <div class="fix-title">Medir HIGH engagement en MSG2 → proponer reunión ahí mismo</div>
+        </div>
+        <div class="fix-body">Cuando el prospecto responde con un párrafo de entusiasmo en MSG2 (caso Alejandra Salas), <strong>no esperar al SEG1</strong>. Mandarel dossier y agregar: "Si le encontrás algo interesante, ¿te va bien la semana que viene?" La reunión ya está ganada — solo hay que proponerla.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-header">
+          <div class="fix-icon">🔄</div>
+          <div class="fix-title">Recontactar los "cierre cordial" de julio en octubre</div>
+        </div>
+        <div class="fix-body">8 personas cerraron con "👍 gracias" o "éxitos". No dijeron no — dijeron "ahora no". A 60-90 días, un mensaje de 2 líneas con una señal nueva de su sector puede reabrir la conversación. <strong>Son los más fáciles de reconvertir porque ya saben quiénes somos.</strong></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="page-footer">
+    <span>Hint Media · Post-dossier analysis · 30/08/26</span>
+    <span>Datos: 158 dossiers, 164 entries stage 3+ en historial.json (789 total)</span>
+  </div>
+
+</div>

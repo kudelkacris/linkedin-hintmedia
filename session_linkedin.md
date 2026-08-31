@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 28/08/26
+## Última sesión: 30/08/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -190,13 +190,27 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 28/08/26
+## Stats al cierre 30/08/26
 
-- Total historial: 1165+ entradas
-- Stage 3 (dossier): ~49
-- Stage 4 (SEG1 enviado): 135
+- Total historial: **789 entradas** (deduplicado 30/08 — eran 1.189 con 400 duplicados)
+- Stage 3 (dossier, sin SEG1): 36
+- Stage 4 (SEG1 enviado): 120
 - Stage 6 (reunión): 7
-- Sesión 28/08: Juan Rossi (stage 3 — aceptó dossier). Gonzalo Rioja (cierre suave — "Gracias!" sin apertura, recontactar post-Hotelga sept).
+- Sesión 30/08: Auditoría completa agosto. Deduplicación historial.json. 3 informes generados en AGOSTO INFORME/.
+
+## Informes generados 30/08/26
+
+Carpeta: `AGOSTO INFORME/`
+- `auditoria-agosto.html` — auditoría completa agosto (341 contactos, 26.7% resp, 24 dossiers)
+- `informe-3-meses.html` — análisis acumulado junio→agosto (787 contactos, 311 resp, 158 dossiers, 7 reuniones)
+- `post-dossier.html` — análisis embudo post-dossier: 158 dossiers → 7 reuniones (4.4%). 97 ghostearon post-SEG1. 36 sin SEG1 aún.
+
+## Hallazgo crítico 30/08/26
+
+El embudo se rompe DESPUÉS del dossier, no antes:
+- 36 dossiers sin SEG1 (primer agujero — puro olvido de ejecución)
+- 97 de 120 con SEG1 ghostearon en silencio (80.8%)
+- **Prioridad 1 septiembre**: SEG1 a los 36 pendientes + cambiar CTA a horario concreto + implementar SEG2
 
 ## Cambios importantes de metodología (20/08/26)
 

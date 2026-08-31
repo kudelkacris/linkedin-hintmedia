@@ -1,0 +1,938 @@
+<title>Tres Meses · Hint Media</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap">
+
+<style>
+/* ─── TOKENS ─── */
+:root {
+  --bg:         #F5F7FB;
+  --bg-alt:     #EBF0FA;
+  --surface:    #FFFFFF;
+  --card:       #F0F4FC;
+  --border:     #CBD5E8;
+  --text:       #0F172A;
+  --muted:      #526480;
+  --accent:     #0969DA;
+  --accent-dim: #DBEAFE;
+  --success:    #1A7F37;
+  --succ-dim:   #DCFCE7;
+  --warn:       #9A6700;
+  --warn-dim:   #FEF3C7;
+  --danger:     #C0392B;
+  --dang-dim:   #FEE2E2;
+  --jun:        #7C3AED;
+  --jul:        #0369A1;
+  --ago:        #0D7561;
+  --stripe:     rgba(15,23,42,.03);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:         #0D1117;
+    --bg-alt:     #161B22;
+    --surface:    #1C2330;
+    --card:       #21293A;
+    --border:     #30363D;
+    --text:       #E6EDF3;
+    --muted:      #848D97;
+    --accent:     #58A6FF;
+    --accent-dim: #0D2145;
+    --success:    #3FB950;
+    --succ-dim:   #0D2A14;
+    --warn:       #D29922;
+    --warn-dim:   #2A1E04;
+    --danger:     #F85149;
+    --dang-dim:   #2A0A09;
+    --jun:        #A78BFA;
+    --jul:        #38BDF8;
+    --ago:        #34D399;
+    --stripe:     rgba(255,255,255,.02);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:         #0D1117;
+  --bg-alt:     #161B22;
+  --surface:    #1C2330;
+  --card:       #21293A;
+  --border:     #30363D;
+  --text:       #E6EDF3;
+  --muted:      #848D97;
+  --accent:     #58A6FF;
+  --accent-dim: #0D2145;
+  --success:    #3FB950;
+  --succ-dim:   #0D2A14;
+  --warn:       #D29922;
+  --warn-dim:   #2A1E04;
+  --danger:     #F85149;
+  --dang-dim:   #2A0A09;
+  --jun:        #A78BFA;
+  --jul:        #38BDF8;
+  --ago:        #34D399;
+  --stripe:     rgba(255,255,255,.02);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding-bottom: 80px;
+}
+
+/* ─── LAYOUT ─── */
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+/* ─── HEADER ─── */
+.page-header {
+  background: var(--text);
+  color: var(--bg);
+  padding: 56px 0 48px;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent, transparent 40px,
+    rgba(255,255,255,.02) 40px, rgba(255,255,255,.02) 41px
+  );
+}
+.header-inner { position: relative; z-index: 1; }
+.header-label {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .5;
+  margin-bottom: 14px;
+}
+.header-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  margin-bottom: 16px;
+}
+.header-title span { opacity: .3; }
+.header-sub {
+  font-size: 14px;
+  opacity: .5;
+  max-width: 480px;
+}
+.header-months {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.month-chip {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 100px;
+  letter-spacing: .06em;
+}
+.chip-jun { background: rgba(124,58,237,.25); color: #A78BFA; border: 1px solid rgba(167,139,250,.25); }
+.chip-jul { background: rgba(3,105,161,.25); color: #38BDF8; border: 1px solid rgba(56,189,248,.25); }
+.chip-ago { background: rgba(13,117,97,.25); color: #34D399; border: 1px solid rgba(52,211,153,.25); }
+
+/* ─── TOTALES ─── */
+.totals-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 32px 0;
+}
+.totals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.total-cell {
+  background: var(--surface);
+  padding: 24px 28px;
+  text-align: center;
+}
+.total-n {
+  font-family: 'Unbounded', sans-serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 900;
+  letter-spacing: -.03em;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.total-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.total-sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+  opacity: .7;
+}
+
+/* ─── SECTIONS ─── */
+.section { padding: 48px 0 0; }
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ─── MES × METRICS GRID ─── */
+.month-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr 1fr 1fr;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.mg-header {
+  display: contents;
+}
+.mg-col-header {
+  padding: 14px 20px;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+.mg-col-header:first-child { text-align: left; color: var(--muted); }
+.mg-col-header.jun { color: var(--jun); }
+.mg-col-header.jul { color: var(--jul); }
+.mg-col-header.ago { color: var(--ago); }
+.mg-row {
+  display: contents;
+}
+.mg-row > div {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.mg-row:last-child > div { border-bottom: none; }
+.mg-row:nth-child(even) > div { background: var(--stripe); }
+.mg-label { color: var(--muted); font-weight: 500; }
+.mg-val { text-align: center; font-weight: 600; font-variant-numeric: tabular-nums; }
+.mg-val.big {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.mg-sub { font-size: 11px; color: var(--muted); font-weight: 400; }
+.trend-up { color: var(--success); }
+.trend-dn { color: var(--danger); }
+.trend-neu { color: var(--warn); }
+
+/* ─── FUNNEL BARS ─── */
+.funnel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.funnel-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+}
+.funnel-month {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.funnel-month.jun { color: var(--jun); }
+.funnel-month.jul { color: var(--jul); }
+.funnel-month.ago { color: var(--ago); }
+.funnel-stage { margin-bottom: 12px; }
+.funnel-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.funnel-stage-label { font-size: 11px; color: var(--muted); width: 72px; flex-shrink: 0; }
+.funnel-bar-wrap { flex: 1; height: 8px; background: var(--card); border-radius: 4px; overflow: hidden; }
+.funnel-bar { height: 100%; border-radius: 4px; }
+.funnel-n { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; width: 32px; text-align: right; }
+.funnel-pct { font-size: 10px; color: var(--muted); }
+.bar-jun { background: var(--jun); }
+.bar-jul { background: var(--jul); }
+.bar-ago { background: var(--ago); }
+
+/* ─── TENDENCIA VISUAL ─── */
+.trend-visual {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 36px;
+}
+.trend-bar-v {
+  flex: 1;
+  border-radius: 3px 3px 0 0;
+  min-height: 4px;
+}
+
+/* ─── STAT PILLS ─── */
+.pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+.pill-muted { background: var(--card); color: var(--muted); border-color: var(--border); }
+.pill-success { background: var(--succ-dim); color: var(--success); }
+.pill-warn { background: var(--warn-dim); color: var(--warn); }
+.pill-danger { background: var(--dang-dim); color: var(--danger); }
+.pill-accent { background: var(--accent-dim); color: var(--accent); }
+
+/* ─── PAISES ─── */
+.pais-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+.pais-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+.pais-name { font-weight: 600; font-size: 13px; margin-bottom: 6px; }
+.pais-bar-wrap { height: 4px; background: var(--card); border-radius: 2px; overflow: hidden; margin-bottom: 5px; }
+.pais-bar { height: 100%; background: var(--accent); border-radius: 2px; }
+.pais-n { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ─── SENIORITY ─── */
+.seniority-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.seniority-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.seniority-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.seniority-n {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -.02em;
+  margin-bottom: 4px;
+}
+.seniority-hie {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* ─── METODOLOGIA ─── */
+.metod-list { display: flex; flex-direction: column; gap: 12px; }
+.metod-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+  align-items: start;
+}
+.metod-month {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding-top: 3px;
+}
+.metod-month.jun { color: var(--jun); }
+.metod-month.jul { color: var(--jul); }
+.metod-month.ago { color: var(--ago); }
+.metod-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+.metod-body strong { color: var(--text); font-weight: 600; }
+
+/* ─── INSIGHTS ─── */
+.insights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.insight-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.insight-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: 3px 10px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.tag-up { background: var(--succ-dim); color: var(--success); }
+.tag-dn { background: var(--dang-dim); color: var(--danger); }
+.tag-neu { background: var(--warn-dim); color: var(--warn); }
+.tag-info { background: var(--accent-dim); color: var(--accent); }
+.insight-title { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+.insight-body { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+/* ─── REUNIONES ─── */
+.reunion-list { display: flex; flex-direction: column; gap: 8px; }
+.reunion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+}
+.reunion-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot-jun { background: var(--jun); }
+.dot-jul { background: var(--jul); }
+.dot-ago { background: var(--ago); }
+.reunion-name { font-weight: 600; flex: 1; }
+.reunion-meta { color: var(--muted); font-size: 12px; }
+
+/* ─── FOOTER ─── */
+.page-footer {
+  margin-top: 64px;
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 700px) {
+  .totals-grid { grid-template-columns: 1fr 1fr; }
+  .funnel-grid { grid-template-columns: 1fr; }
+  .month-grid { grid-template-columns: 120px 1fr 1fr 1fr; font-size: 12px; }
+  .insights-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="page-header">
+  <div class="wrap header-inner">
+    <div class="header-label">Hint Media · LinkedIn Outreach · Análisis acumulado</div>
+    <div class="header-title">Tres meses.<br><span>Un proyecto.</span></div>
+    <div class="header-sub">Evolución del outreach comercial de Hint Media en LinkedIn desde el inicio hasta hoy. Datos reales, sin estimaciones.</div>
+    <div class="header-months">
+      <div class="month-chip chip-jun">Junio 2026</div>
+      <div class="month-chip chip-jul">Julio 2026</div>
+      <div class="month-chip chip-ago">Agosto 2026</div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── TOTALES GLOBALES ─── -->
+<div class="totals-bar">
+  <div class="wrap">
+    <div class="totals-grid">
+      <div class="total-cell">
+        <div class="total-n" style="color:var(--accent)">787</div>
+        <div class="total-label">Contactos totales</div>
+        <div class="total-sub">3 meses de outreach</div>
+      </div>
+      <div class="total-cell">
+        <div class="total-n" style="color:var(--success)">311</div>
+        <div class="total-label">Respondieron</div>
+        <div class="total-sub">39.5% del total</div>
+      </div>
+      <div class="total-cell">
+        <div class="total-n" style="color:var(--warn)">158</div>
+        <div class="total-label">Dossiers enviados</div>
+        <div class="total-sub">50.8% de los que resp.</div>
+      </div>
+      <div class="total-cell">
+        <div class="total-n" style="color:var(--danger)">7</div>
+        <div class="total-label">Reuniones cerradas</div>
+        <div class="total-sub">0.9% conversión total</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- ─── MES x METRICAS ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Evolución mes a mes</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="month-grid">
+      <!-- Headers -->
+      <div class="mg-col-header">Métrica</div>
+      <div class="mg-col-header jun">Junio</div>
+      <div class="mg-col-header jul">Julio</div>
+      <div class="mg-col-header ago">Agosto</div>
+
+      <!-- Contactos -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left">Contactos nuevos</div>
+        <div class="mg-val jun"><span class="big">172</span></div>
+        <div class="mg-val jul"><span class="big">283</span> <span class="mg-sub trend-up">+65%</span></div>
+        <div class="mg-val ago"><span class="big">332</span> <span class="mg-sub trend-up">+17%</span></div>
+      </div>
+
+      <!-- Respondieron -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left">Respondieron MSG1</div>
+        <div class="mg-val jun">132 <span class="mg-sub trend-up">76.7%</span></div>
+        <div class="mg-val jul">102 <span class="mg-sub trend-dn">36.0% ↓</span></div>
+        <div class="mg-val ago">77 <span class="mg-sub trend-dn">23.2% ↓</span></div>
+      </div>
+
+      <!-- Dossier -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left">Dossiers enviados</div>
+        <div class="mg-val jun">76 <span class="mg-sub">57.6% de resp.</span></div>
+        <div class="mg-val jul">46 <span class="mg-sub">45.1% de resp.</span></div>
+        <div class="mg-val ago">36 <span class="mg-sub trend-up">46.8% de resp.</span></div>
+      </div>
+
+      <!-- Reuniones -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left">Reuniones cerradas</div>
+        <div class="mg-val jun">2</div>
+        <div class="mg-val jul" style="color:var(--success);font-weight:700">3</div>
+        <div class="mg-val ago" style="color:var(--muted)">~1–2</div>
+      </div>
+
+      <!-- Cierres -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left">Cierres (no interesa)</div>
+        <div class="mg-val jun">10</div>
+        <div class="mg-val jul">13</div>
+        <div class="mg-val ago">6</div>
+      </div>
+
+      <!-- Tasa resp -->
+      <div class="mg-row">
+        <div class="mg-label mg-val" style="text-align:left;font-weight:700">Tasa de respuesta</div>
+        <div class="mg-val jun" style="font-family:'Unbounded',sans-serif;font-size:15px;font-weight:700;color:var(--jun)">76.7%</div>
+        <div class="mg-val jul" style="font-family:'Unbounded',sans-serif;font-size:15px;font-weight:700;color:var(--jul)">36.0%</div>
+        <div class="mg-val ago" style="font-family:'Unbounded',sans-serif;font-size:15px;font-weight:700;color:var(--ago)">23.2%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── FUNNEL ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Pipeline por mes</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="funnel-grid">
+
+      <!-- JUNIO -->
+      <div class="funnel-card">
+        <div class="funnel-month jun">Junio</div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Contactados</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jun" style="width:100%"></div></div>
+            <span class="funnel-n" style="color:var(--jun)">172</span>
+          </div>
+          <div class="funnel-pct">base</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Respondieron</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jun" style="width:76.7%"></div></div>
+            <span class="funnel-n" style="color:var(--jun)">132</span>
+          </div>
+          <div class="funnel-pct">76.7%</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Dossier</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jun" style="width:44.2%"></div></div>
+            <span class="funnel-n" style="color:var(--jun)">76</span>
+          </div>
+          <div class="funnel-pct">44.2% del total</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Reunión</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jun" style="width:1.2%"></div></div>
+            <span class="funnel-n" style="color:var(--jun)">2</span>
+          </div>
+          <div class="funnel-pct">1.2% del total</div>
+        </div>
+      </div>
+
+      <!-- JULIO -->
+      <div class="funnel-card">
+        <div class="funnel-month jul">Julio</div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Contactados</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jul" style="width:100%"></div></div>
+            <span class="funnel-n" style="color:var(--jul)">283</span>
+          </div>
+          <div class="funnel-pct">base</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Respondieron</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jul" style="width:36%"></div></div>
+            <span class="funnel-n" style="color:var(--jul)">102</span>
+          </div>
+          <div class="funnel-pct">36.0%</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Dossier</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jul" style="width:16.3%"></div></div>
+            <span class="funnel-n" style="color:var(--jul)">46</span>
+          </div>
+          <div class="funnel-pct">16.3% del total</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Reunión</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-jul" style="width:1.1%"></div></div>
+            <span class="funnel-n" style="color:var(--jul)">3</span>
+          </div>
+          <div class="funnel-pct">1.1% del total</div>
+        </div>
+      </div>
+
+      <!-- AGOSTO -->
+      <div class="funnel-card">
+        <div class="funnel-month ago">Agosto</div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Contactados</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-ago" style="width:100%"></div></div>
+            <span class="funnel-n" style="color:var(--ago)">332</span>
+          </div>
+          <div class="funnel-pct">base</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Respondieron</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-ago" style="width:23.2%"></div></div>
+            <span class="funnel-n" style="color:var(--ago)">77</span>
+          </div>
+          <div class="funnel-pct">23.2%</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Dossier</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-ago" style="width:10.8%"></div></div>
+            <span class="funnel-n" style="color:var(--ago)">36</span>
+          </div>
+          <div class="funnel-pct">10.8% del total</div>
+        </div>
+        <div class="funnel-stage">
+          <div class="funnel-row">
+            <span class="funnel-stage-label">Reunión</span>
+            <div class="funnel-bar-wrap"><div class="funnel-bar bar-ago" style="width:0.5%"></div></div>
+            <span class="funnel-n" style="color:var(--ago)">~1</span>
+          </div>
+          <div class="funnel-pct">~0.5% del total</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── REUNIONES CONFIRMADAS ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Reuniones cerradas · 7 totales</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="reunion-list">
+      <div class="reunion-item">
+        <div class="reunion-dot dot-jun"></div>
+        <span class="reunion-name">Giovanna Troncoso</span>
+        <span class="reunion-meta">Junio · Chile</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-jun"></div>
+        <span class="reunion-name">Yescenia Navarro</span>
+        <span class="reunion-meta">Junio · LATAM</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-jul"></div>
+        <span class="reunion-name">Silvia Rojas</span>
+        <span class="reunion-meta">Julio · Costa Rica · Amerge (Amazon Ads)</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-jul"></div>
+        <span class="reunion-name">Alejandra Salas Petit</span>
+        <span class="reunion-meta">Julio · España · Comunicaciones/Advocacy</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-jul"></div>
+        <span class="reunion-name">Ana Beatriz Estrada</span>
+        <span class="reunion-meta">Julio · Panamá</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-ago"></div>
+        <span class="reunion-name">Luciano Fornaro</span>
+        <span class="reunion-meta">Agosto · Argentina · aceptó call, pendiente mail de trabajo</span>
+      </div>
+      <div class="reunion-item">
+        <div class="reunion-dot dot-ago"></div>
+        <span class="reunion-name">Luis Pérez (Foamtec)</span>
+        <span class="reunion-meta">Agosto · primera call con deck McKinsey</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── PAÍSES ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Geografía · top países</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="pais-grid">
+      <div class="pais-card">
+        <div class="pais-name">Argentina 🇦🇷</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:100%"></div></div>
+        <div class="pais-n">180 contactos · 22.8% del total</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">Colombia 🇨🇴</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:40%"></div></div>
+        <div class="pais-n">72 contactos · 9.1%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">Chile 🇨🇱</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:37.8%"></div></div>
+        <div class="pais-n">68 contactos · 8.6%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">España 🇪🇸</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:28.9%"></div></div>
+        <div class="pais-n">65 contactos · 8.3%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">Costa Rica 🇨🇷</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:18.9%"></div></div>
+        <div class="pais-n">34 contactos · 4.3%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">Panamá 🇵🇦</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:12.8%"></div></div>
+        <div class="pais-n">23 contactos · 2.9%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">México 🇲🇽</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:11.1%"></div></div>
+        <div class="pais-n">20 contactos · 2.5%</div>
+      </div>
+      <div class="pais-card">
+        <div class="pais-name">Perú 🇵🇪</div>
+        <div class="pais-bar-wrap"><div class="pais-bar" style="width:6.7%"></div></div>
+        <div class="pais-n">12 contactos · 1.5%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SENIORITY ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Seniority contactado</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="seniority-grid">
+      <div class="seniority-card">
+        <div class="seniority-title">CEO / Founder</div>
+        <div class="seniority-n" style="color:var(--accent)">150</div>
+        <div class="seniority-hie">HIE histórico: 10% dossier · Nuestro agosto: ~36% resp</div>
+      </div>
+      <div class="seniority-card">
+        <div class="seniority-title">Manager / Gerente</div>
+        <div class="seniority-n" style="color:var(--success)">139</div>
+        <div class="seniority-hie">HIE: 20.6% dossier · Perfil óptimo Director+</div>
+      </div>
+      <div class="seniority-card">
+        <div class="seniority-title">Director / GM</div>
+        <div class="seniority-n" style="color:var(--warn)">112</div>
+        <div class="seniority-hie">HIE: 27.3% dossier · Mayor conversión por dato</div>
+      </div>
+      <div class="seniority-card">
+        <div class="seniority-title">Specialist / Coord</div>
+        <div class="seniority-n" style="color:var(--danger)">30</div>
+        <div class="seniority-hie">Sin poder de decisión · Evitar en sept</div>
+      </div>
+      <div class="seniority-card">
+        <div class="seniority-title">VP</div>
+        <div class="seniority-n" style="color:var(--muted)">7</div>
+        <div class="seniority-hie">Subrepresentado · Potencial alto</div>
+      </div>
+      <div class="seniority-card">
+        <div class="seniority-title">Otros / sin dato</div>
+        <div class="seniority-n" style="color:var(--muted)">349</div>
+        <div class="seniority-hie">Sin campo cargo en historial</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── INSIGHTS ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Qué aprendimos · insights clave</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <div class="insight-tag tag-dn">Tendencia ↓</div>
+        <div class="insight-title">La tasa de respuesta baja cada mes</div>
+        <div class="insight-body">76.7% → 36% → 23.2%. No es fracaso: junio tenía listas más curadas. Al escalar a cold outreach masivo en julio/agosto el ratio baja — es la mecánica del canal. El volumen compensa: <strong>787 contactos en 3 meses</strong> vs lo que haría un equipo humano solo.</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-tag tag-up">Tendencia ↑</div>
+        <div class="insight-title">La conversión respuesta→dossier se mantiene estable</div>
+        <div class="insight-body">57.6% → 45.1% → 46.8%. De cada 10 personas que responden, ~5 terminan pidiendo o aceptando el dossier. Esto valida que el <strong>MSG2 funciona</strong>: el problema no es la calidad de la conversación, es el volumen que llega a ella.</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-tag tag-info">Hallazgo</div>
+        <div class="insight-title">CEO/Founder responde más de lo que predice el HIE</div>
+        <div class="insight-body">El HIE dice 10% dossier para CEO en frío. En agosto los CEO/Founder respondieron al ~36%. La señal humana específica (publicaciones, logros personales) supera la barrera fría del cargo.</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-tag tag-dn">Alerta</div>
+        <div class="insight-title">Finanzas/Banca: 0 respuestas en n=12</div>
+        <div class="insight-body">En agosto, ningún prospecto de banca/finanzas respondió. El mensaje no conecta con su mundo. Requiere ángulo completamente distinto o pausar ese segmento hasta tener un caso Hint del sector.</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-tag tag-up">Hallazgo</div>
+        <div class="insight-title">Las reuniones se cierran por email, no por LinkedIn</div>
+        <div class="insight-body">La mayoría de reuniones pasaron por dar el mail de coordinación. El flujo LinkedIn → mail → Google Meet es el pipeline real. Optimizar ese último paso (pedir mail rápido, proponer horario directo) puede desbloquear 2-3 reuniones que hoy quedan en "te paso el mail".</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-tag tag-neu">En progreso</div>
+        <div class="insight-title">Nueva fórmula MSG1 (desde 20/08): primeros datos positivos</div>
+        <div class="insight-body">3 burbujas + Hint en B2 + CTA híbrido dossier+reunión. Primeras conversiones: 72% resp→dossier en n pequeño. Hipótesis a verificar en sept con n≥30 en INDUSTRIA-ARG batch.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── METODOLOGIA ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Cómo evolucionó la metodología</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="metod-list">
+      <div class="metod-item">
+        <div class="metod-month jun">Junio</div>
+        <div class="metod-body">
+          <strong>Arranque y aprendizaje.</strong> MSG1 con señal de cargo/empresa como punto de partida. MSG2 sin estructura fija. Sin CLAUDE.md. Sin blocklist sistematizada. Se probó el canal, se confirmó que funciona. Tasa alta por listas curadas y efecto "novedad del outreach".
+        </div>
+      </div>
+      <div class="metod-item">
+        <div class="metod-month jul">Julio</div>
+        <div class="metod-body">
+          <strong>Sistematización.</strong> CLAUDE.md con reglas estrictas. Señal humana como prioridad (publicaciones, logros, actividad vs cargo). Estructura 4 burbujas en MSG2. Blocklist de frases prohibidas. SEG1 con rotación de valor y win personal. Clasificación ENTRE PARES / CONSULTIVA / EXPLORATORIA para CTA de reunión. Primer SEG1 batch (19 mensajes en una sesión). Reuniones pico: 3.
+        </div>
+      </div>
+      <div class="metod-item">
+        <div class="metod-month ago">Agosto</div>
+        <div class="metod-body">
+          <strong>Escala y refinamiento.</strong> Mayor volumen (332 contactos). Nueva fórmula MSG1 desde el 20/08: 3 burbujas + Hint en B2 + CTA híbrido. Signal Scan obligatorio antes de SEG1. Protocolo win personal explícito. Inteligencia sectorial por listas (TOIA energía, EDUCA). Deduplicación de historial.json (400 duplicados eliminados). HIE con datos reales de 427 contactos para calibrar tono y sector.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── PRÓXIMO PASO ─── -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Qué define septiembre</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="pills-row">
+      <div class="pill pill-danger">199 conexiones sin procesar (urgente)</div>
+      <div class="pill pill-warn">SEG1 batch: Goyechea, Cabral, Baquero, Clara Uparela</div>
+      <div class="pill pill-accent">Test nueva fórmula en INDUSTRIA-ARG (~85 contactos)</div>
+      <div class="pill pill-success">Luciano Fornaro: cerrar mail → primera reunión sept</div>
+      <div class="pill pill-muted">FCT COMMS 2.0: ~22 contactos LATAM comms</div>
+      <div class="pill pill-muted">Prioridad: Director > CEO para empresas nuevas</div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin-top:4px">
+      <p style="font-size:13px;color:var(--muted);line-height:1.8">
+        El volumen ya es sostenible. El próximo cuello de botella es el <strong style="color:var(--text)">paso dossier→reunión</strong>: de 158 dossiers enviados, solo 7 se convirtieron en reunión (4.4%). Optimizar ese tramo — versión B del dossier, seguimiento más rápido, propuesta de reunión directa en SEG1 cuando el interés es explícito — puede duplicar las reuniones sin aumentar el volumen de outreach.
+      </p>
+    </div>
+  </div>
+
+  <!-- ─── FOOTER ─── -->
+  <div class="page-footer">
+    <span>Hint Media · LinkedIn Outreach · Análisis 3 meses (junio–agosto 2026)</span>
+    <span>Generado 30/08/26 · Datos: historial.json (789 entradas) + 787 conversaciones .md</span>
+  </div>
+
+</div>
