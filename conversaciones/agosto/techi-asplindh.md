@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Cybersecurity / Technology / B2B SaaS
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -26,5 +26,14 @@
 > Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.
 
 ---
+
+## Respuesta MSG1
+> 👏👍😊 Hola Florencia, muchas gracias por tu mensaje. No recuperé el libro pero lo tengo presente adentro. Enviame el dossier para entender sus servicios. Igualmente te comento que hoy estamos trabajando con 2 agencias para nuestro posicionamiento, pero siempre son bienvenidas las propuestas. Saludos
+
+## MSG2 (acompaña dossier)
+> Buenas Techi, te lo mando. Si algo genera interés, lo vemos en una llamada.
+
+**Dossier enviado:** 01/09/26
+**Próximo paso:** SEG1 en 48hs si no responde
 
 ## Notas
