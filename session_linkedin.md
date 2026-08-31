@@ -190,20 +190,21 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 30/08/26
+## Stats al cierre 31/08/26
 
-- Total historial: **789 entradas** (deduplicado 30/08 — eran 1.189 con 400 duplicados)
+- Total historial: **789 entradas** (sin cambios)
 - Stage 3 (dossier, sin SEG1): 36
 - Stage 4 (SEG1 enviado): 120
 - Stage 6 (reunión): 7
-- Sesión 30/08: Auditoría completa agosto. Deduplicación historial.json. 3 informes generados en AGOSTO INFORME/.
+- Sesión 31/08: Generación PPTX informe agosto para el jefe. Sin conversaciones procesadas.
 
-## Informes generados 30/08/26
+## Informes generados 30-31/08/26
 
 Carpeta: `AGOSTO INFORME/`
 - `auditoria-agosto.html` — auditoría completa agosto (341 contactos, 26.7% resp, 24 dossiers)
 - `informe-3-meses.html` — análisis acumulado junio→agosto (787 contactos, 311 resp, 158 dossiers, 7 reuniones)
 - `post-dossier.html` — análisis embudo post-dossier: 158 dossiers → 7 reuniones (4.4%). 97 ghostearon post-SEG1. 36 sin SEG1 aún.
+- `Informe_Agosto_2026_LinkedIn.pptx` — 10 slides para el jefe: KPIs, embudo, conversaciones, costo bot (~USD 0.087/msg, ~USD 20-35 agosto), reuniones, objeciones, prioridades sept.
 
 ## Hallazgo crítico 30/08/26
 
