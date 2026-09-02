@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 30/08/26
+## Última sesión: 02/09/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -79,7 +79,13 @@
 | Luis Arturo Baquero Franco | 3 - Dossier enviado | 27/08 — aceptó dossier con emojis + "mándamelos". Dossier enviado. | SEG1 en 48hs si no responde |
 | Clara Cecilia Uparela Imbeth | 3 - Dossier enviado | 27/08 — "Perfecto". Dossier enviado. | SEG1 en 48hs si no responde |
 | Daniel D'Agostino | 3 - Dossier enviado | 27/08 — "dale aguardo el material". Dossier enviado. | SEG1 en 48hs si no responde |
-| Adriana Meldini | 2 - MSG2 enviado | 27/08 — propuso "pensar algo juntas". MSG2 exploratorio enviado. | Esperar respuesta — no dossier todavía |
+| Adriana Meldini | CERRADA | 02/09 — propuso colaboración embajadores/employer branding. Hint declinó formalmente. | — |
+| Tomas Rivero | 3 - Dossier enviado | 02/09 — MSG2 enviado, aceptó dossier "dale buenísimo". Dossier enviado por LinkedIn. Respondió: "voy a verlo en detenimiento y te digo cuando podríamos agendar algo breve" | Seguimiento en unos días |
+| Alexandra Oropeza castro | CERRADA | 02/09 — vio dossier, interesada en vocería digital pero priorizando búsqueda. Declinó por ahora. Puerta abierta. | Recontactar si cambia situación |
+| Mariano Bustos | 2 - MSG2 enviado | 02/09 — respondió "si obvio". MSG2 enviado. Reclamó que no explicamos el proceso. Respuesta con explicación enviada. | Esperar respuesta / dossier pendiente |
+| Christian Shule | 3 - Dossier enviado | 02/09 — en transición laboral (dejó Tucson). Preguntó por performance + AI content. Dossier enviado. | Recontactar cuando tenga nueva función |
+| Lea Abud | 1 - Puerta abierta | 02/09 — respondió no tiene clientes ahora. Pidió Calendly. Respuesta: mandamos Calendly la próxima semana. | **RECORDATORIO: mandar Calendly próxima semana (09/09)** |
+| Martin D'Elia | CERRADA | 02/09 — IBM Consulting = proveedor de transformación digital, no cliente. Cierre suave enviado. | — |
 
 ### Stage 4 — SEG1 enviado
 
@@ -190,12 +196,12 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 31/08/26
+## Stats al cierre 02/09/26
 
-- Total historial: **789 entradas** (sin cambios)
-- Stage 3 (dossier, sin SEG1): 36
-- Stage 4 (SEG1 enviado): 120
-- Stage 6 (reunión): 7
+- Total historial: **789 entradas**
+- Stage 3 nuevos hoy: Tomas Rivero, Alexandra Oropeza, Christian Shule
+- Stage 2 nuevos hoy: Mariano Bustos
+- Cerrados hoy: Adriana Meldini (colaboración), Martin D'Elia (no cliente), Alexandra (declinó)
 - Sesión 31/08: Generación PPTX informe agosto para el jefe. Sin conversaciones procesadas.
 
 ## Informes generados 30-31/08/26
