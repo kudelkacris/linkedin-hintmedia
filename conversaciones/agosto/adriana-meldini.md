@@ -5,7 +5,7 @@
 **Empresa:** LinkedIn
 **Pais:** Argentina
 **Sector:** Servicios profesionales / Consultoría (Employer Branding, Comunicación Estratégica)
-**Estado:** MSG2 enviado (27/08/26) — propone colaboración, explorar si sus clientes necesitan ejecución
+**Estado:** CERRADA — propuso colaboración, Hint declinó formalmente (02/09/26)
 
 ---
 
@@ -33,6 +33,15 @@
 
 ---
 
+## Respuesta MSG2 (propuesta colaboración)
+> Creo que ahí podríamos complementarnos muy bien: ustedes desde la estrategia y comunicación de marca, y yo sumándome en esa parte más vinculada a personas, líderes y embajadores. Si tienen clientes donde esto pueda tener sentido, podemos pensar una propuesta juntas.
+
+## Respuesta nuestra (declive)
+> Buenas Adriana, muchas gracias por la propuesta, realmente se nota la claridad con la que pensás la complementariedad entre las áreas.
+> Por el momento Hint no está incorporando colaboraciones externas en esa línea, así que no sería honesto avanzar sabiendo eso.
+> Quedo con tu perfil en mente por si el contexto cambia.
+
 ## Notas
-- Perfil consultora, no cliente directo. Propuso colaboración/proyecto conjunto.
-- Ángulo: explorar si sus clientes necesitan ejecución (→ Hint entra) o si piensa en colaboración diferente.
+- Perfil consultora, no cliente directo.
+- Propuso colaboración como embajadores/employer branding para clientes Hint.
+- Declinamos formalmente el 02/09/26. Conversación cerrada.

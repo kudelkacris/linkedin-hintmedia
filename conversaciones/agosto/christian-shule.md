@@ -5,7 +5,7 @@
 **Empresa:** Tucson Argentina
 **Pais:** Argentina
 **Sector:** Real Estate / Construcción / Retail de Construcción
-**Estado:** MSG1 enviado
+**Estado:** Dossier enviado — en transición laboral, recontactar cuando tenga nueva función (02/09/26)
 
 ---
 
@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1
+> Hola Florencia como estas, gracias por el contacto, estoy en medio de un proceso de cambio laboral ahora (ya deje de trabajar en Tucson) es probable que en breve te recontacte en caso de que puedan aportar al crecimiento en la próxima función. De momento me seria de utilidad conocer si uds se enfocan en performance y generación de contenido de marca (acelerado por IA). Enviame tu dossier por favor.
+
+## Respuesta nuestra
+> Buenas Christian, gracias por avisarme.
+> Sí, trabajamos en contenido de marca y performance. Lo que hacemos concretamente: estrategia de contenido, producción multiplataforma, paid media (Meta/Google), posicionamiento digital y vocería ejecutiva. Todo con IA integrada en la producción para acelerar tiempos sin perder la voz de cada empresa.
+> Te mando el dossier por acá. Cuando lo veas, si le encontrás sentido, agendamos algo cuando estés acomodado en la nueva función.
+
 ## Notas
+- Dejó Tucson Argentina, en transición laboral
+- Interesado en performance + AI-accelerated content
+- Dossier enviado. Recontactar cuando tenga nueva función.
+- Potencial cliente futuro — no inmediato
