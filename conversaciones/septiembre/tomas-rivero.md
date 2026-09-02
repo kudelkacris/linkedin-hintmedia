@@ -45,3 +45,4 @@
 ## Notas
 - Industrial Designer / CEO según análisis
 - Sector Diseño Industrial / Hardware / Manufactura → cliente: Sullair
+- 02/09 respuesta post-dossier: "Gracias!, voy a verlo en detenimiento y te digo cuando podríamos agendar algo breve" → seguimiento en unos días

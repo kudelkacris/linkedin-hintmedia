@@ -46,4 +46,5 @@
 ## Notas
 - Actualmente Store Manager Victoria's Secret, buscando BD/Partnerships
 - Interesada en vocería digital para su marca personal (no empresa)
-- Potencial cliente individual
+- 02/09 declinó: priorizando otras cosas en su búsqueda, no quiere sumar servicio ahora. Puerta abierta para más adelante.
+- Cierre cálido enviado.
