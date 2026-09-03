@@ -4,12 +4,15 @@
 
 ---
 
-## Última sesión: 02/09/26
+## Última sesión: 03/09/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
 | Nombre | Stage | Último movimiento | Próximo paso |
 |--------|-------|-------------------|--------------|
+| Juan Garófalo | 2 - MSG2 enviado | 03/09 — preguntó qué hacen. MSG2 con explicación simple de Hint + dossier. | Esperar respuesta |
+| Felipe Seia | 2 - MSG2 enviado | 03/09 — respondió "Genial". MSG2: narrativa In NOA, Sullair, dossier. | Esperar respuesta |
+| Armando Aratani | 2 - Conversación activa | 03/09 — respondió con párrafo elaborado sobre contenido reflexivo vs corporativo. Charla sin pitch, deslizamos punto de distribución. | Esperar respuesta |
 | Marcelo R. Matarazzi | 3 - Dossier enviado | 22/08 — respondió al dossier "busco la disrupción", engagement HIGH. Respuesta enviada. | SEG1 pendiente si no responde |
 | Diego Manfio | 3 - Dossier por mail pendiente | 24/08 — respondió MSG1 con TED talk + email directo dmanfio@sima.com.ar. MSG2 enviado. | Jefe envía dossier a dmanfio@sima.com.ar |
 | Joaquín Goyechea | 3 - Dossier enviado | 24/08 — "pásame para ver de qué trata". Dossier enviado. | SEG1 urgente — vencido 48hs |
@@ -147,6 +150,7 @@
 
 ### Pendiente urgente — acción directa
 
+- **Pablo Rego** — dossier por mail a prego@tiendainglesa.com.uy. Jefe debe enviar.
 - **Diego Manfio** — dossier por mail a dmanfio@sima.com.ar. Jefe debe enviar.
 - **Celeste Neyra** (celeste.neyra@datco.net) — Marketing Grupo Datco. Referido por José Luis Olivieri 17/08.
 - **Patricio O'Kon** — dossier por mail a patricio@papelpicadoweb.com. Jefe debe enviar.
@@ -196,13 +200,12 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
-## Stats al cierre 02/09/26
+## Stats al cierre 03/09/26
 
 - Total historial: **789 entradas**
-- Stage 3 nuevos hoy: Tomas Rivero, Alexandra Oropeza, Christian Shule
-- Stage 2 nuevos hoy: Mariano Bustos
-- Cerrados hoy: Adriana Meldini (colaboración), Martin D'Elia (no cliente), Alexandra (declinó)
-- Sesión 31/08: Generación PPTX informe agosto para el jefe. Sin conversaciones procesadas.
+- Stage 3 nuevos hoy: Pablo Rego (dossier mail prego@tiendainglesa.com.uy)
+- Stage 2 nuevos hoy: Juan Garófalo, Felipe Seia, Armando Aratani
+- Sesión corta — 4 conversaciones procesadas
 
 ## Informes generados 30-31/08/26
 
