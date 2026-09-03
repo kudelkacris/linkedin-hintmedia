@@ -1506,6 +1506,54 @@
     "name": "Acelis Tunon Singh"
   },
   {
+    "id": "1788375517391",
+    "date": "02/09/26",
+    "name": "Nicolas Surijon",
+    "empresa": "Buenos Aires y alrededores",
+    "variantTitle": "Transformación Digital que Habla Dos Idiomas",
+    "profileRaw": "Nicolas Surijon\n\n· 1er\n\nCEO & Co-Founder @ DirMOD - CSO @ LATIL.IO 4 X Entreprenuer | IA | Tecnología | Planificación Estrategica | Innovación\n\nBuenos Aires y alrededores\n\n·\n\nInformación de contacto\n\nDirMOD\n\nUniversidad Austral, Buenos Aires\n\n3.786 seguidores\n\n·\n\nMás de 500 contactos\n\nLeonardo, Mati y 23 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nVer mis servicios\n\nPerfil mejorado con Premium\n\nSales Insights\n\nSeñales clave\n\nEstudios en común\n\nNicolas ha publicado en los últimos",
+    "msg1": "Buenas Nicolas! Me quedó dando vueltas que para el AI Experience hayas diseñado dos tracks separados: uno para negocio, otro para técnica. No es lo que suele hacer quien cree que la transformación digital es un tema que se cuenta de una sola forma.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en traducir estrategia de transformación para que suene como oportunidad de negocio, no como proyecto de IT. El desafío que vemos es que la mayoría cuenta su IA como feature, no como cambio.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien en DirMOD corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Nicolas! Me quedó dando vueltas que para el AI Experience hayas diseñado dos tracks separados: uno para negocio, otro para técnica. No es lo que suele hacer quien cree que la transformación digital es un tema que se cuenta de una sola forma.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en traducir estrategia de transformación para que suene como oportunidad de negocio, no como proyecto de IT. El desafío que vemos es que la mayoría cuenta su IA como feature, no como cambio.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien en DirMOD corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "02/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788375324347",
+    "date": "02/09/26",
+    "name": "Franciele Bayer",
+    "empresa": "Brw Suprimentos",
+    "variantTitle": "Variante A — Publicación del equipo + premios + énfasis en orquestación colectiva",
+    "profileRaw": "Franciele Bayer\n\n· 1er\n\nGerente de Marketing Sênior  Comunicação I Marketing l Desenvolvimento de Produto I Marketing Internacional | Customer Experience | Eventos I Campanhas | Leads I Especialista em Branding l Atacado e Varejo.\n\nCuritiba, Estado de Paraná, Brasil\n\n·\n\nInformación de contacto\n\nBrw Suprimentos\n\nInstituto Infnet\n\n2.705 seguidores\n\nGiselle es contacto en común\nEnviar mensaje\nVer en Sales Navigator\nOtros perfiles seguidos junto con Franciele\n\n    Ver perfil\n\n    Juan Fernández-Estr",
+    "msg1": "Buenas Franciele, tu post sobre los 4 premios me quedó dando vueltas. No celebraste el logro de liderazgo, celebraste que \"cuando trabajamos juntos, grandes conquistas acontecen\". Eso no es lo que suele comunicar un Gerente de Marketing.\n\nEn Hint Media trabajamos con equipos de marketing como Destiny Group en eventos y presencia de marca masiva, donde la ejecución consistente a través de múltiples puntos es el desafío real, no la estrategia.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Franciele, tu post sobre los 4 premios me quedó dando vueltas. No celebraste el logro de liderazgo, celebraste que \"cuando trabajamos juntos, grandes conquistas acontecen\". Eso no es lo que suele comunicar un Gerente de Marketing.\n\nEn Hint Media trabajamos con equipos de marketing como Destiny Group en eventos y presencia de marca masiva, donde la ejecución consistente a través de múltiples puntos es el desafío real, no la estrategia.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "02/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
     "id": "1788369769710",
     "date": "02/09/26",
     "name": "Lidiane Grigoletto",
@@ -10739,9 +10787,10 @@
   },
   {
     "name": "Pablo Rego",
-    "stage": 1,
+    "stage": 3,
     "date": "02/09/26",
-    "empresa": "Tienda Inglesa"
+    "empresa": "Tienda Inglesa",
+    "email": "prego@tiendainglesa.com.uy"
   },
   {
     "name": "Tomas Rivero",
@@ -10766,5 +10815,59 @@
     "stage": 1,
     "date": "02/09/26",
     "empresa": "EAE Business School"
+  },
+  {
+    "name": "Martín Schifani",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "UNHCR Spain (ACNUR)"
+  },
+  {
+    "name": "Alejandro Stockdale",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "Sales Navigator"
+  },
+  {
+    "name": "Everton Gardezan",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "Escola Conquer"
+  },
+  {
+    "name": "Juan Miller",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "Naranja X"
+  },
+  {
+    "name": "Juan Garófalo",
+    "stage": 2,
+    "date": "02/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Erick Franco Barraza",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "Colombia"
+  },
+  {
+    "name": "Felipe Seia",
+    "stage": 2,
+    "date": "02/09/26",
+    "empresa": "IN NOA"
+  },
+  {
+    "name": "Guido Leiva",
+    "stage": 1,
+    "date": "02/09/26",
+    "empresa": "Data4Sales"
+  },
+  {
+    "name": "Armando Aratani",
+    "stage": 2,
+    "date": "02/09/26",
+    "empresa": "LongPing High-Tech"
   }
 ]
