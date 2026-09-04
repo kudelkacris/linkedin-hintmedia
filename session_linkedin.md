@@ -4,7 +4,7 @@
 
 ---
 
-## Última sesión: 03/09/26
+## Última sesión: 04/09/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
 
@@ -75,13 +75,13 @@
 | Juan Manuel Sordo | 1 - Referido pendiente | 20/08 — vendedor Tersuave, ofreció conectar con responsable Índigo | Esperar referido |
 | Dante Velasco | 3 - Seguimiento activo | Dossier 20/08 — respondió con audios (objeción: humano vs automático). Respuesta enviada. | Esperar respuesta |
 | Sandra Zárate | 3 - Dossier enviado | 25/08 — respondió MSG1 pidiendo propuesta para compartir con líderes de Boreh | Jefe envía dossier |
-| Alicia Pérez Patrón | 3 - Dossier enviado | 26/08 — aceptó dossier "mandamelo, por supuesto" | SEG1 si no responde en 48hs |
-| Jorge O. Gatto | 3 - Dossier enviado | 26/08 — aceptó "lo voy a leer con atención" | SEG1 si no responde en 48hs |
+| Alicia Pérez Patrón | 4 - SEG1 enviado | 04/09 — SEG1: coherencia cuando la comunicación pasa por varias manos | Esperar respuesta |
+| Jorge O. Gatto | 4 - SEG1 enviado | 04/09 — SEG1: voz del founder es la puerta comercial de RAM Execution | Esperar respuesta |
 | Valentín Bardelli | 2 - Conversación activa | 26/08 — preguntó "cuál sería el motivo de la reunión", MSG2 enviado explicando valor + referido | Esperar respuesta |
 | Federico Stephan | 2 - MSG2 enviado | 26/08 — Filadd YC S21, AI Specialist. MSG2 con pitch directo + CTA referido | Esperar respuesta |
-| Luis Arturo Baquero Franco | 3 - Dossier enviado | 27/08 — aceptó dossier con emojis + "mándamelos". Dossier enviado. | SEG1 en 48hs si no responde |
-| Clara Cecilia Uparela Imbeth | 3 - Dossier enviado | 27/08 — "Perfecto". Dossier enviado. | SEG1 en 48hs si no responde |
-| Daniel D'Agostino | 3 - Dossier enviado | 27/08 — "dale aguardo el material". Dossier enviado. | SEG1 en 48hs si no responde |
+| Luis Arturo Baquero Franco | 6 - REUNIÓN AGENDADA | 04/09 — respondió al follow-up post-SEG1 proponiendo meet. Compartió Google Calendar. | Asistir a reunión |
+| Clara Cecilia Uparela Imbeth | 4 - SEG1 enviado | 04/09 — SEG1: visión del líder queda invisible en transformaciones de escala | Esperar respuesta |
+| Daniel D'Agostino | 4 - SEG1 enviado | 04/09 — SEG1: mantener criterio cuando sube el volumen en content B2B | Esperar respuesta |
 | Adriana Meldini | CERRADA | 02/09 — propuso colaboración embajadores/employer branding. Hint declinó formalmente. | — |
 | Tomas Rivero | 3 - Dossier enviado | 02/09 — MSG2 enviado, aceptó dossier "dale buenísimo". Dossier enviado por LinkedIn. Respondió: "voy a verlo en detenimiento y te digo cuando podríamos agendar algo breve" | Seguimiento en unos días |
 | Alexandra Oropeza castro | CERRADA | 02/09 — vio dossier, interesada en vocería digital pero priorizando búsqueda. Declinó por ahora. Puerta abierta. | Recontactar si cambia situación |
@@ -200,6 +200,15 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 
 ---
 
+## Stats al cierre 04/09/26
+
+- Total historial: **789 entradas**
+- Stage 6 nuevos hoy: **Luis Arturo Baquero Franco** — reunión agendada (flujo completo MSG1→dossier→SEG1→follow-up→reunión)
+- Stage 4 nuevos hoy: Joaquín Goyechea, Luis Cabral, Alicia Pérez Patrón, Jorge O. Gatto, Clara Cecilia Uparela Imbeth, Daniel D'Agostino
+- Cerrados hoy: Juan Garófalo (noInterest), Daniel Hernández (noInterest)
+- Nuevos archivos: HINT_VOZ.md creado (calibración de voz Florencia)
+- CLAUDE.md: sección SEG1 completamente reescrita con REGLA DE LENGUAJE, REGLA DE NO SOBREINTERPRETAR, OUTPUT 4 variantes
+
 ## Stats al cierre 03/09/26
 
 - Total historial: **789 entradas**
@@ -230,15 +239,17 @@ El embudo se rompe DESPUÉS del dossier, no antes:
 
 ## Prioridades para próxima sesión
 
-1. **Revisar aceptaciones 199 conexiones nuevas** (~28/08) — generar MSG1 para quienes aceptaron de los 3 batches nuevos
-2. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net), Sandra Zárate (para líderes Boreh)
-3. **Contactar Antonela Del Franco** — reemplaza a Melanie Weimberg en Manantial
-4. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
-5. **Lola Bordás Dolz** — MSG2 pendiente
-6. **SEG1 urgente** — Joaquín Goyechea, Luis Cabral (vencidos), Alicia Pérez Patrón, Jorge O. Gatto, Luis Arturo Baquero, Clara Cecilia Uparela, Daniel D'Agostino (48hs desde 27/08)
-7. **Founders batch pendientes** — Victoria Cabanelas, Patrick Summers, Javier D. Caruso, Horacio Cacciatore
-8. **MSG1 INDUSTRIA-ARG** — ~85 contactos pendientes
-9. **MSG1 Grupo B FCT COMMS** — ~22 contactos pendientes
+1. **Seguimiento SEG1 enviados 04/09** — Joaquín Goyechea, Luis Cabral, Alicia Pérez Patrón, Jorge O. Gatto, Clara Cecilia Uparela, Daniel D'Agostino (esperar respuesta, SEG2 si no responden)
+2. **Reunión Lucho Baquero** — coordinar horario vía Google Calendar que compartió
+3. **Revisar aceptaciones 199 conexiones nuevas** (~28/08) — generar MSG1 para quienes aceptaron de los 3 batches nuevos
+4. **Dossier por mail** — Diego Manfio (dmanfio@sima.com.ar), Patricio O'Kon (patricio@papelpicadoweb.com), Celeste Neyra (celeste.neyra@datco.net), Sandra Zárate (para líderes Boreh)
+5. **Contactar Antonela Del Franco** — reemplaza a Melanie Weimberg en Manantial
+6. **Call Luciano Fornaro** — pendiente que pase mail de trabajo para Google Meet
+7. **Lola Bordás Dolz** — MSG2 pendiente
+8. **Lea Abud** — mandar Calendly semana del 09/09
+9. **Founders batch pendientes** — Victoria Cabanelas, Patrick Summers, Javier D. Caruso, Horacio Cacciatore
+10. **MSG1 INDUSTRIA-ARG** — ~85 contactos pendientes
+11. **MSG1 Grupo B FCT COMMS** — ~22 contactos pendientes
 10. **Patricia Cirillo** — contacto referido por Sebastian Kemerer, MARCOM Racklatina Uruguay
 11. **ORSEP Comunicaciones** — buscar contacto en web oficial orsep.gob.ar
 
