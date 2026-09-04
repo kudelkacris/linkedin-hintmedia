@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Tecnología / Software (Genesys = Customer Experience Software)
-**Estado:** Stage 4 — SEG1 enviado 04/09/26
+**Estado:** Stage 6 — Reunión agendada 04/09/26
 
 ---
 
@@ -32,5 +32,22 @@
 > Buenas Lucho!
 > Para un coach, el trabajo propio es el mejor diferenciador. Y también el más difícil de hacer ver.
 > Viste algo en el dossier que te haya resonado para esta etapa?
+
+## Respuesta SEG1 — 04/09/26
+> "Hola Frorencia. Gracias por el contacto. Me resuena el tema de contenido obviamente por que requiere tiempo, pero aun estoy en un proceso creativo que aun no termina y no se cual sea el momento para tener un equipo externo.."
+
+## Respuesta Hint al SEG1 — 04/09/26
+> Tiene sentido, Lucho. No todo tiene que estar terminado para empezar a moverse.
+> Lo que hacemos en esa etapa es exactamente eso: acompañar el proceso desde afuera, tomando lo que va surgiendo y construyendo comunicación con eso.
+> Ideas en proceso, punto de vista en formación, voz que todavía está encontrando su forma. Eso ya es material.
+> Si en algún momento querés ver cómo lo hacemos, me avisás.
+
+## Respuesta Lucho — Reunión agendada 04/09/26
+> "Flore, hagamos una reu y me cuentas, para entender. Aún estoy entendiendo que quiero hacer yo y en donde hace sentido empezar a tener un equipo. De paso yo también te cuento qué es lo que estoy haciendo! Te dejo aquí un link para que saques un espacio que te sirva en la agenda y nos vemos." [compartió link Google Calendar]
+
+## Cierre Hint — 04/09/26
+> Buenas Lucho! Me parece perfecto. Entro al link y saco un espacio.
+> Y me alegra que cuentes lo que estás construyendo, eso ayuda a entender bien dónde tiene sentido arrancar.
+> Nos vemos pronto!
 
 ## Notas
