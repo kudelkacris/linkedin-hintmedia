@@ -5,7 +5,7 @@
 **Empresa:** Grupo KSE
 **Pais:** Colombia
 **Sector:** Transformación Digital / ERP / SAP / Consultoría Tecnológica
-**Estado:** Stage 3 — Dossier enviado (27/08/26)
+**Estado:** Stage 4 — SEG1 enviado 04/09/26
 
 ---
 
@@ -26,5 +26,11 @@
 > Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.
 
 ---
+
+## SEG1 enviado 04/09/26
+
+> Buenas Clara!
+> En transformaciones de esa escala, lo que suele quedar invisible es la visión del líder que la condujo.
+> Viste algo en el dossier que te haya resonado?
 
 ## Notas

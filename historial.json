@@ -1393,7 +1393,7 @@
   {
     "id": "alicia-perez-patron",
     "name": "Alicia Pérez Patrón",
-    "stage": 3,
+    "stage": 4,
     "date": "29/07/26",
     "pais": "España",
     "sector": "Real Estate / Finanzas Alternativas (Gestoras de Inversión Inmobiliaria)",
@@ -1592,7 +1592,7 @@
         "text": "Buenas Daniel! Tu comentario sobre cómo LinkedIn castiga el contenido IA me quedó dando vueltas. No solo decís que hay que ser más humanos, lo estás practicando: cada reflexión tiene una intención atrás, como cuando escribís sobre cómo el espacio del Basavilbaso comunica antes de que empiece el evento. Eso no es lo que la mayoría hace cuando quiere crecer.\n\nEn Hint Media trabajamos con empresas boutique como Destiny Group en construir narrativa que escale presencia sin perder esa intención estratégica que vos valorás. Cada pieza de comunicación tiene que tener punto de vista.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -1603,6 +1603,11 @@
         "stage": 3,
         "date": "27/08/26",
         "note": "Dossier enviado"
+      },
+      {
+        "stage": 4,
+        "date": "04/09/26",
+        "note": "SEG1 enviado"
       }
     ]
   },
@@ -1991,7 +1996,7 @@
         "text": "Buenas Clara. Hace poco compartiste una reflexión sobre cómo los mejores líderes se detienen cuando sus equipos necesitan ayuda, incluso bajo presión. No es lo que suele escucharse en implementaciones SAP, donde el foco tiende a ser solo el sistema y los números.\n\nEn Hint Media acompañamos a empresas como Transener y TGS en construir la narrativa que hace visible lo que sus transformaciones logran, antes de que todo termine siendo solo un proyecto cerrado. La diferencia suele estar en cómo se cuenta la historia.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -2002,6 +2007,11 @@
         "stage": 3,
         "date": "27/08/26",
         "note": "Dossier enviado"
+      },
+      {
+        "stage": 4,
+        "date": "04/09/26",
+        "note": "SEG1 enviado"
       }
     ]
   },
@@ -2222,7 +2232,7 @@
         "text": "Buenas Luis Arturo! Tu post sobre el nuevo nivel que se abre me quedó reverberando. No escribiste \"me voy de Genesys\", escribiste \"la mayor transformación no fue la de una región, fue la mía\". Eso es decir bastante en una publicación.\n\nEn Hint Media trabajamos con líderes en transformación como TGS y Transener en convertir lo que construyeron internamente en narrativa legible para el mercado, sin que pierda profundidad ni autenticidad. Muchas veces eso es lo que separa una transición coherente de una que suena improvisada.\n\nSi te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
@@ -2233,6 +2243,11 @@
         "stage": 3,
         "date": "27/08/26",
         "note": "Dossier enviado"
+      },
+      {
+        "stage": 4,
+        "date": "04/09/26",
+        "note": "SEG1 enviado"
       }
     ]
   },
@@ -2636,12 +2651,17 @@
         "text": "Buenas Luis. Vi tu reflexión sobre organizaciones donde los problemas nunca desaparecen, solo cambian de fecha. Eso que describís—resolver el efecto pero no la causa—es exactamente lo que sucede cuando la urgencia operativa no deja tiempo para entender el proceso.\n\nEn Hint Media trabajamos con empresas como Sullair en transformar cómo comunican hacia adentro lo que sucede en planta: haciendo visible el trabajo de mejora continua que muchas veces queda eclipsado por las urgencias operativas.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
         "date": "21/08/26",
         "note": ""
+      },
+      {
+        "stage": 4,
+        "date": "04/09/26",
+        "note": "SEG1 enviado"
       }
     ]
   },
@@ -8956,7 +8976,7 @@
   },
   {
     "name": "Jorge O. Gatto",
-    "stage": 3,
+    "stage": 4,
     "date": "26/08/26",
     "empresa": "RAM Execution"
   },

@@ -5,7 +5,7 @@
 **Empresa:** RAM Execution
 **Pais:** Argentina
 **Sector:** Servicios Profesionales / Consultoría / Interim Management
-**Estado:** Dossier enviado
+**Estado:** Stage 4 — SEG1 enviado 04/09/26
 
 ---
 
@@ -31,5 +31,11 @@
 > Hola Florencia, gracias por escribirme. Me alegra que la publicación te haya resultado interesante. Es un tema que me apasiona y sobre el que vengo trabajando hace mucho tiempo. Con gusto recibo el dossier. Lo voy a leer con atención y después seguimos la conversación. — 26/08/26
 
 ---
+
+## SEG1 enviado 04/09/26
+
+> Buenas Jorge!
+> En una firma como RAM Execution, tu voz es lo que abre la puerta comercial.
+> Viste algo en el dossier que aplique a cómo querés que eso sea visible en el mercado?
 
 ## Notas

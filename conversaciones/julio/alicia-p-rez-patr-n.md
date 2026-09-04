@@ -5,7 +5,7 @@
 **Empresa:** MOMENTUM
 **Pais:** España
 **Sector:** Real Estate / Finanzas Alternativas (Gestoras de Inversión Inmobiliaria)
-**Estado:** Dossier enviado
+**Estado:** Stage 4 — SEG1 enviado 04/09/26
 
 ---
 
@@ -43,5 +43,11 @@
 > Mandamelo, si, por supuesto. Gracias — 26/08/26. Dossier aceptado.
 
 ---
+
+## SEG1 enviado 04/09/26
+
+> Buenas Alicia!
+> Me quedé pensando en lo que hablamos sobre coherencia cuando la comunicación pasa por varias manos.
+> Viste algo en el dossier que aplique a lo que estás encarando?
 
 ## Notas

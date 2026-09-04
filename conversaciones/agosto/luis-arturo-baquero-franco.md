@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Tecnología / Software (Genesys = Customer Experience Software)
-**Estado:** Stage 3 — Dossier enviado (27/08/26)
+**Estado:** Stage 4 — SEG1 enviado 04/09/26
 
 ---
 
@@ -26,5 +26,11 @@
 > Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.
 
 ---
+
+## SEG1 enviado 04/09/26
+
+> Buenas Lucho!
+> Para un coach, el trabajo propio es el mejor diferenciador. Y también el más difícil de hacer ver.
+> Viste algo en el dossier que te haya resonado para esta etapa?
 
 ## Notas

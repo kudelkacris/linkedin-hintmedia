@@ -5,7 +5,7 @@
 **Empresa:** People Brand
 **Pais:** Argentina
 **Sector:** Educación / Eventos Corporativos / Experiencias de Marca
-**Estado:** MSG1 enviado
+**Estado:** Stage 4 — SEG1 enviado 04/09/26
 
 ---
 
@@ -26,5 +26,11 @@
 > Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada.
 
 ---
+
+## SEG1 enviado 04/09/26
+
+> Buenas Daniel!
+> Lo más difícil en content B2B no es generar ideas sino mantener el criterio cuando el volumen sube.
+> Viste algo en el dossier que aplique a lo que estás manejando?
 
 ## Notas

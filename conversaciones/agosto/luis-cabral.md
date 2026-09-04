@@ -32,4 +32,12 @@
 
 ## Dossier enviado 24/08/26
 
+## SEG1 enviado 04/09/26
+
+> Buenas Luis!
+> Lo que describiste sobre la urgencia desplazando la mejora me quedó dando vueltas.
+> Viste algo en el dossier que te haya resonado para tu realidad?
+
+**Estado:** Stage 4 — SEG1 enviado
+
 ## Notas
