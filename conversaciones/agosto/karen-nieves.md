@@ -5,7 +5,7 @@
 **Empresa:** Karen Nieves Agency / CoinEx Global
 **Pais:** Colombia
 **Sector:** FinTech / Web3 / Crypto
-**Estado:** MSG2 enviado (stage 2)
+**Estado:** Dossier enviado (stage 3)
 
 ---
 
@@ -34,6 +34,15 @@
 > Buenas Karen!
 > La consulta era sobre algo que escribiste después de Money Expo: que los mejores negocios empiezan en una conversación, no en una presentación. Cómo hacés para que KN Agency genere esas conversaciones cuando no estás vos para arrancarlas?
 > En Hint Media acompañamos a fundadores y agencias en construir la capa de comunicación que sostiene esa presencia entre evento y evento: vocería digital, contenido que sostiene el pipeline entre evento y evento. Tenemos un dossier con casos. Te lo mando por acá y si tiene sentido lo charlamos.
+
+---
+
+## Respuesta MSG2
+> "Florencia, justamente ese es uno de los retos en los que estamos trabajando: lograr que la marca y el equipo mantengan activas esas conversaciones, incluso cuando yo no estoy presente. Me interesa conocer cómo lo abordan desde Hint Media; envíame el dossier y lo reviso con gusto."
+
+## Dossier (04/09/26)
+> Perfecto, ya te lo mando.
+> Tiene casos de fundadores en esa transición exacta: de presencia personal a sistema que funciona sin ellos. Si algo te resulta útil, me escribís y vemos.
 
 ---
 
