@@ -44,4 +44,18 @@
 >
 > Tengo un dossier con casos concretos. Te lo mando por acá si te parece?
 
+## Respuesta MSG2
+
+> Entiendo Florencia! Muchas gracias. Actualmente canalizamos esas funciones internamente. Pero gracias por tu interés
+
+## Estado final
+
+**CERRADO — 04/09/26**
+Maneja las funciones internamente. Cierre cordial enviado.
+
+## Cierre enviado
+
+> Buenas Juan! Tiene todo el sentido, gracias por la respuesta.
+> Quedo por acá si en algún momento cambia el panorama.
+
 ## Notas

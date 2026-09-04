@@ -10844,7 +10844,8 @@
     "name": "Juan Garófalo",
     "stage": 2,
     "date": "02/09/26",
-    "empresa": "Argentina"
+    "empresa": "Argentina",
+    "noInterest": true
   },
   {
     "name": "Erick Franco Barraza",
@@ -10869,5 +10870,12 @@
     "stage": 2,
     "date": "02/09/26",
     "empresa": "LongPing High-Tech"
+  },
+  {
+    "name": "Daniel Hernández",
+    "stage": 1,
+    "date": "04/09/26",
+    "empresa": "",
+    "noInterest": true
   }
 ]
