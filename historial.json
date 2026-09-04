@@ -2020,12 +2020,22 @@
         "text": "Buenas Joaquín! Me quedó dando vueltas cómo documentás cada fase de construcción con ese nivel de detalle. No es lo que suele hacer un Jefe de Obra: la mayoría espera a terminar para contar la historia.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS en construir narrativa de infraestructura compleja de forma que los clientes vean avance, confianza y expertise antes de que todo esté terminado.\n\nSi te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
       }
     ],
-    "stage": 3,
+    "stage": 4,
     "stageHistory": [
       {
         "stage": 1,
         "date": "21/08/26",
         "note": ""
+      },
+      {
+        "stage": 3,
+        "date": "24/08/26",
+        "note": "Dossier enviado"
+      },
+      {
+        "stage": 4,
+        "date": "04/09/26",
+        "note": "SEG1 enviado"
       }
     ]
   },

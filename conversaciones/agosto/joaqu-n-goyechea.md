@@ -32,4 +32,11 @@
 
 ## Dossier enviado 24/08/26
 
+## SEG1 enviado 04/09/26
+
+> Buenas Joaquín!
+> Quería saber si viste algo que les pueda servir para lo que están trabajando en ARINCO.
+
+**Estado:** Stage 4 — SEG1 enviado
+
 ## Notas
