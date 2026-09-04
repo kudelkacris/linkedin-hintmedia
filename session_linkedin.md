@@ -39,7 +39,7 @@
 | Juan Cruz Piccardo | 2 - Conversación activa | MSG3 informativo 03/08 — sin CTA | Si responde, proponer reunión directa |
 | Roberto Fernandez | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
 | Fernanda Bondesío | 2 - MSG2 enviado | MSG2 03/08 | Esperar respuesta |
-| Karen Nieves | 2 - MSG2 enviado | MSG2 20/08 — CEO KN Agency/CoinEx, FinTech/Web3 | Esperar respuesta |
+| Karen Nieves | 3 - Dossier enviado | 04/09 — respondió con pain confirmado + pidió dossier. Dossier enviado. | SEG1 en 48-72hs si no responde |
 | Manny Larcher | 2 - MSG2 enviado | MSG2 05/08 — respondió "please share" | Esperar respuesta |
 | Carolina Cianfagna | 2 - MSG2 enviado | MSG2 05/08 | Esperar respuesta |
 | Jaye Wallace | 2 - MSG3 enviado | MSG3 06/08 — ofrece red CEOs/Founders como referidos | Esperar respuesta |
@@ -199,6 +199,12 @@ Lorena Miguel, David Zafra, Angélica Marrón, Dídac Pérez, Ianir Sonis, José
 - idioma/tono hardcodeados: Español / Profesional
 
 ---
+
+## Stats al cierre 04/09/26 (tarde)
+
+- Total historial: **789 entradas**
+- Stage 3 nuevos hoy (tarde): **Karen Nieves** — confirmó pain exacto, pidió dossier, dossier enviado
+- Sesión corta — 1 conversación procesada
 
 ## Stats al cierre 04/09/26
 
