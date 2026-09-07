@@ -4,6 +4,207 @@
 
 ---
 
+## Última sesión: 07/09/26
+
+### Batch conexiones 07/09/26 — 45 contactos construcción (Keyword: construcción director infraestructura argentina chile)
+
+**Estado:** Pendiente conexiones — CONSTRUCCIÓN DECISORES
+
+| # | Nombre | Empresa | Cargo | País |
+|---|--------|---------|-------|-------|
+| 1 | Nicolas Armentano | — | Co-Desarrollador | ARG |
+| 2 | Eduardo González | Arquidomo | Fundador y Director | ARG |
+| 3 | Fernando Chiappe | Chiappe + Podworny | Director/Fundador | ARG |
+| 4 | Eduardo Gargevcich | Innza | Cofundador y Director Ejecutivo | ARG |
+| 5 | Diego Fabian Alvarez | VISSIVO | Director | ARG |
+| 6 | Hector Ruben Giambroni | INGESER CONSTRUCCIONES | Desarrollo Negocios | ARG |
+| 7 | Laureano Bauer | Cantera La Chola II | Gerente - Arenas | ARG |
+| 8 | Ana Morales | — | Socio Gerente | ARG |
+| 9 | Nadia López Cartes | — | Director General | ARG |
+| 10 | ANDREA PIROLA | LIBRA CONSULTORA TÉCNICA | Directora | ARG |
+| 11 | Claudio Oscar Zambito | — | Director | ARG |
+| 12 | Leonardo Semplice | — | Director | ARG |
+| 13 | Gonzalo Vecchiet | — | Gerente | ARG |
+| 14 | Adrián José Cottura | SFsystem | Director Depto Técnico | ARG |
+| 15 | Arq. Erick Kennedy | Promadera | Director General | ARG |
+| 16 | Patricia Irrgang | — | Gerente | ARG |
+| 17 | Ing. Luis Bosch | Instituto Innovación UNC | Director | ARG |
+| 18 | Leonela Varcasia | — | — | ARG |
+| 19 | Ana Emilia Weiss | Ilubaires S.A. | Directora | ARG |
+| 20 | Nicolás Pablo Ricci | Concretus SA | Director | ARG |
+| 21 | German Martina | URETEK ARGENTINA | Fundador y Director | ARG |
+| 22 | Flavio Melián | Guido Mogetta Constructora | Gerente División Minería | ARG |
+| 23 | Sebastian Lamelas | — | Director | ARG |
+| 24 | Alejandro Martín Aguirre | Techint Ingeniería y Construcción | Gte Innovación Aplicada | ARG |
+| 25 | Juan Manuel Vazquez | LATAM Passivhaus Institute | Director Ejecutivo | ARG |
+| 26 | Ignacio Foyatier | Innza | Cofundador y Director Ejecutivo | ARG |
+| 27 | Marcela Ospital | — | President | ARG |
+| 28 | Fhaner Romero | CONSTRUCTORABIMRYME | Gerente | ARG |
+| 29 | Eduardo Markowsky | Ingenium.ar | Director General | ARG |
+| 30 | RAUL PABLO MARTIN | — | Director | ARG |
+| 31 | Pablo Pugliese | — | Director General | ARG |
+| 32 | Guillermo Daniel Mussich | Grupo Gdm Anclajes y Fijaciones | Owner - Director CEO | ARG |
+| 33 | Mariano Wolkstein | — | Director | ARG |
+| 34 | Luis Alvarez | — | Director General | ARG |
+| 35 | Gonzalo Irrazabal | Stand Motion | Director General | ARG |
+| 36 | Jose Rodriguez | — | Director General / Ing Civil | ARG |
+| 37 | Milagros Turino | — | Managing Director - Founder | ARG |
+| 38 | Diego Aguirre | Grupo Pose | Director | ARG |
+| 39 | Alejandro Romero Oneto | LESKO SACIFIA | Vicepresidente & CEO | ARG |
+| 40 | Mauricio Scarlato | Montajes Interacero S.A. | Director | ARG |
+| 41 | Miguel Angel Montenegro | GRUPO MONTENEGRO S.R.L. | Director General | ARG |
+| 42 | Noelia Gramajo | Gramajo Seybold Arquitectura | Director General | ARG |
+| 43 | Lucas Matias Salvatore | Grupo Salvatore | Director | ARG |
+| 44 | Lucas Longarela | ARQUITECTOS.LB | Director General | ARG |
+| 45 | Francisco Paolini | Grupo Paolini | CEO | ARG |
+| 46 | Walter D. Barbieri | Barbieri | Director | ARG |
+| 47 | Hernán Adducci | Adducci Instalaciones Sanitarias | Director General | ARG |
+| 48 | Gervasio Ruiz de Gopegui | Universidad del CEMA | Co-Director Real Estate | ARG |
+| 49 | Hernán Franco | LINZ GROUP | Director Ejecutivo | ARG |
+| 50 | Alfredo Córdoba de Alzaga | AC Ingeniería | Director | ARG |
+
+**Resumen batch 07/09/26 (construcción):**
+- Total contactos: 50
+- Tipo: Director General + Founder (decision makers)
+- Sector: 100% construcción/infraestructura
+- Tasa calificados: ~85% (excelente)
+- **Próximo paso:** Copiar nombres, mandar 50 conexiones
+
+---
+
+### Batch conexiones 07/09/26 — 14 contactos fintech (Keyword: fintech cfo coo founder)
+
+**Estado:** Pendiente conexiones — FINTECH DECISORES
+
+| # | Nombre | Empresa | Cargo | País |
+|---|--------|---------|-------|-------|
+| 1 | Juan Pablo Londoño | Colombia Fintech / Technovation | Co-founder & CEO | COL |
+| 2 | Andrey Peshkov | Mia | Founder & CEO | ARG |
+| 3 | Juan Pablo Garrido | Kaxflo | Founder & CEO | COL |
+| 4 | David Sandoval | FUNDDERS | COO & Co-Founder | COL |
+| 5 | David Lequain | FSI HUB | Founder & Managing Director | CHI |
+| 6 | Jose Alba | Lifebiotech | Co-Founder & Partner | COL |
+| 7 | Angela María Beltrán Díaz | Angela Beltrán Finanzas | Co-Founder | COL |
+| 8 | Felipe Gaviria | GOU Payments | Gerente BD | COL |
+| 9 | Gabriel Rosinol | Hastee | Chief Financial Officer | ESP |
+| 10 | Andres Vergara | MAIndset Chile | Founding Partner | CHI |
+| 11 | Daniel Gomez Velez | Sencia | Director Financiero | COL |
+| 12 | Marcos Milanes | Milanes Soluciones | Cofundador | ESP |
+| 13 | — | — | — | — |
+| 14 | — | — | — | — |
+
+**Resumen batch 07/09/26 (fintech):**
+- Total contactos: 14
+- Tipo: Founder/CEO + CFO (decision makers directos)
+- Sector: 100% fintech/finanzas
+- **Próximo paso:** Copiar nombres, abrir LinkedIn, mandar 14 conexiones
+
+---
+
+### Batch conexiones 07/09/26 — 24 contactos (Keyword: mining chile argentina director marketing)
+
+**Estado:** Pendiente conexiones — FULL BATCH (todos, sin filtro)
+
+| # | Nombre | Empresa | Cargo | País |
+|---|--------|---------|-------|-------|
+| 1 | José Gustavo de Castro Alem | South American Brands / Lithium Chile | CEO & Board Member | ARG |
+| 2 | Carlos Muscolo | Yokogawa | Country Manager | CHI |
+| 3 | Analía Angulo Rodríguez | ikoni | Founder & Director | ARG |
+| 4 | Miguel Soto Jiménez | Sotoval Ingeniería & Construcción | Founder & Director | PER |
+| 5 | Thomas Hagen | Arkema | Managing Director | ARG |
+| 6 | Patricio Radeljak | Tapcox | Founder & Director | ARG |
+| 7 | Daniel Fuente | Axis Communications | Regional Sales Manager | ARG |
+| 8 | Joaquin Spini | InPlus Consulting | Founder & Director | ARG |
+| 9 | Luciana Bengardino | Ackermann | Country Manager Mexico | MEX |
+| 10 | Daniel Weiner | Metlen Energy & Metals | Project Director | CHI |
+| 11 | Lieven Cooreman | Belgalux | Commercial Director | BRA |
+| 12 | Javier Pernas | SIMPLEXsrl | Director Fractional Sales & BD | ARG |
+| 13 | Ernesto Diaz | Rystad Energy | SVP Latin America | ARG |
+| 14 | Lorena A. | ABC Gestiona SpA / WIM Chile | Gerente Corporativo + Líder Comms | CHI |
+| 15 | Nora Fiorini | — | Lecturer Mining for Translators | ARG |
+| 16 | Lionel Di Loreto Resano | Achilles Group | Territory Manager | PER |
+| 17 | Jorge N. Peña | LiThronzero | Founder & Strategic Advisor | ARG |
+| 18 | Sergio Slipczuk | Consultoría Independiente | Consultor | CHI |
+| 19 | Gabriela Quiñoa | EY | Partner | ARG |
+| 20 | Eduardo Gigante | Universidad Buenos Aires | Professor / ex-Director Litio Gobierno | ARG |
+| 21 | Guillermo Orioli | Motive SRL | Area Manager | ARG |
+| 22 | Facundo Corsi | Universidad Austral | Fintech Program Professor | ARG |
+| 23 | Sebastian Parigi | Automóvil Club Argentino | Institutional Affairs Director | ARG |
+| 24 | Jorge A. Ulsen Rivas | DeciDes | Director & Coach | CHI |
+
+**Resumen batch 07/09/26 (mining keyword):**
+- Total contactos: 24
+- Ruido esperado: ~70-80%
+- Estrategia: Full batch, filtro en inbox (respuestas = real prospects)
+- **Próximo paso:** Copiar perfil URLs, abrir en batch, enviar 24 conexiones, luego MSG1
+
+---
+
+### Batch conexiones 07/09/26 — 52 contactos (Keyword: founder OR ceo + energy/mining/oil/construction)
+
+**Estado:** Conexiones enviadas 7/9/26
+
+| Nombre | Empresa | País | Estado | Fecha |
+|--------|---------|-------|--------|-------|
+| Juan Ignacio Caffa | Morfy | ARG | Inv enviada | 7/9 |
+| Gaston Remy | NUQLEA | ARG | Inv enviada | 7/9 |
+| Tomas Gonzalez Ruiz | Glim | ARG | Inv enviada | 7/9 |
+| Matias Rebasa | MROBOT SOLUTIONS | ARG | Inv enviada | 7/9 |
+| Ramiro Olivera | Calice | ARG | Inv enviada | 7/9 |
+| Eduardo C. | Exomindset | ARG | Inv enviada | 7/9 |
+| Martín Mendez | WIZOR | ARG | Inv enviada | 7/9 |
+| Rodrigo Nasif Salum | Pharmware | ARG | Inv enviada | 7/9 |
+| Matias Peire | GRIDX | ARG | Inv enviada | 7/9 |
+| Matias Lerner | First Plug | ARG | ✅ Aceptada | 7/9 |
+| Christian Bau | SOMOS FINZO | ARG | Inv enviada | 7/9 |
+| Marcelo Suárez | Consultora Gestal | ARG | Inv enviada | 7/9 |
+| Manuel Beaudroit | Belo | ARG | ✅ Aceptada | 7/9 |
+| Sergio Mastandrea | Nunchi | ARG | Inv enviada | 7/9 |
+| Celeste P. | BTLANDIA SA | ARG | Inv enviada | 7/9 |
+| Jony Kierszenowicz | Fyhunters | ARG | Inv enviada | 7/9 |
+| Jesica Logioco | Safari Group HR | ARG | Inv enviada | 7/9 |
+| Fernando Martinez Avila | FMA Coliving | ARG | Inv enviada | 7/9 |
+| Adriana Marina | — | ARG | Inv enviada | 7/9 |
+| Carlos Villar | HINS | ARG | Inv enviada | 7/9 |
+| Freddy Neuman | Capybaras Agency | ARG | Inv enviada | 7/9 |
+| Tomás Criado | EPICAL | ARG | Inv enviada | 7/9 |
+| Silvia Haskler | Vistage | ARG | Inv enviada | 7/9 |
+| Rigoberto M. | Tekne | ARG | Inv enviada | 7/9 |
+| Pablo Mlynkiewicz | Freelance Consultant | ARG | Inv enviada | 7/9 |
+| Micaela Strahovsky | Nexor AI | CHI | Inv enviada | 7/9 |
+| Lucas Tortonese de la Llave | Menta | ARG | ✅ Aceptada | 7/9 |
+| Lisandro Pavetti | Operonda/Guarnic | CHI | Inv enviada | 7/9 |
+| Consuelo Summers | Your True Potential | ARG | Inv enviada | 7/9 |
+| Rocío Azparren | Webstarted | ARG | Inv enviada | 7/9 |
+| Gabriel Benmergui | Silver.dev | ARG | Inv enviada | 7/9 |
+| Manuel Concha Muñoz | KAME | CHI | Inv enviada | 7/9 |
+| Constanza Gomez | Cualy by Calificadas | ARG | Inv enviada | 7/9 |
+| Virginia Cuomo | ikiXGo | ARG | Inv enviada | 7/9 |
+| Christian Uriel Solano | IVIX Robotics | ARG | Inv enviada | 7/9 |
+| Hernan Lucio | Huma | ARG | Inv enviada | 7/9 |
+| Fernando Coronel | JUNA | ARG | ✅ Aceptada | 7/9 |
+| Fer Eillman | TalentCross | ARG | ✅ Aceptada | 7/9 |
+| Sebastián Fernández | Ovidio IT Consulting | ARG | ✅ Aceptada | 7/9 |
+| Joaquín María Tagle | On The Rocks | ARG | Inv enviada | 7/9 |
+| Jorge Pablo Dobrusky | TESTER SMART USA | ARG | Inv enviada | 7/9 |
+| Wally Wallingre | WTF? Agency | ARG | Inv enviada | 7/9 |
+| Marcelo Nardini | WOW! Customer Experience | ARG | Inv enviada | 7/9 |
+| Dan Hirsch | Skater Elephant | ARG | Inv enviada | 7/9 |
+| Cecilia Inés Giordano | — | ARG | Inv enviada | 7/9 |
+| Eduardo García Sáenz | INI | ARG | Inv enviada | 7/9 |
+| Eduardo Kbal | USS Seguridad Integral | ARG | Inv enviada | 7/9 |
+| Juan Cruz Gonzalez Sevilla | Nerdcube Club by NODOS | ARG | Inv enviada | 7/9 |
+| Ignacio Adrian Lerer | Frigorífico FRIAR SA | ARG | ✅ Aceptada | 7/9 |
+| Carlos Jamardo Arrigo | Miniso Argentina | ARG | ✅ Aceptada | 7/9 |
+
+**Resumen batch 7/9/26:**
+- Total conexiones: 52
+- Aceptadas inmediato: 8 (15.4%)
+- Invitación enviada: 44
+- **Próximo paso:** 48-72hs esperar respuestas. Enviar MSG1 a aceptadas.
+
+---
+
 ## Última sesión: 04/09/26
 
 ### Conversaciones activas (pendiente respuesta del prospecto)
