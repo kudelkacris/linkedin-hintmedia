@@ -4,7 +4,22 @@
 
 ---
 
-## Última sesión: 07/09/26
+## Última sesión: 08/09/26
+
+- Creado `casos-hint-dossier.md`: fuente de verdad de casos reales por cliente (extraído del dossier PDF real que compartió el usuario). Consultar antes de citar servicios de un cliente en cualquier mensaje — varios MSG1 previos habían inventado casos (ej. Agora con "recruiting", que no es real).
+- MSG1 nuevos: Patricia Fernández (VAIRIX), Nelson Irías Núñez (Biif, CEO), Victor Oliva (JV Energía Mendoza), Guillermo Daniel Mussich (GDM Anclajes, vendiendo la empresa tras 28 años), Ricardo Fernández (Director Modernización San Roque, clasificado DUDOSO).
+- Lucrecia Maria Burgos: prospecto descartado por criterio (médica sin poder de decisión) pero se generó igual por pedido explícito del usuario — dejar nota si se repite el patrón.
+- Dossier ofrecido/confirmado: Yoel Colombo, Arq. Erick Kennedy, Consuelo Summers (ella escribió primero pitcheando su propio método, se giró la conversación hacia Hint).
+- Cerrados sin interés: Gia Gillio (malentendido — pensó que era oferta laboral), Luciana Domínguez, Javier D. Caruso, Ignacio Adrian Lerer, Eduardo García Sáenz, David Bahamón León.
+- Conversación activa: Rafael Morfes (Silver.dev — redirigido a hablar con el founder Gabriel vía sitio para partnership), Manuel Rojo Vivot, Elymar Velásquez González (mensaje inicial confuso, se aclaró).
+- Vendor inbound (no prospecto de venta): Jorge Pablo Dobrusky D'Andrea (Tester's Companies) ofreció Testing/QA + base de 145K contactos B2B — evaluado, testing no sirve, base de contactos posible pero pendiente de vetting (preguntas de calificación enviadas).
+- Batches pendientes de sesiones previas (construcción 50 + fintech 14, ver 07/09/26 abajo): fintech tiene 12 con invitación enviada nada más (sin MSG1 real, corregido error de mi parte). Construcción sigue casi sin tocar.
+- Corregidos varios errores de cliente-fuera-de-sector en mensajes ya enviados (TGS/Transener citados para prospectos de tech/design/construcción en vez de Agora/Sullair) — documentado en cada .md afectado.
+- Commit + push a ambos repos (linkedin-hintmedia master, linkedin-historial main) hecho.
+
+---
+
+## Sesión anterior: 07/09/26
 
 ### Batch conexiones 07/09/26 — 45 contactos construcción (Keyword: construcción director infraestructura argentina chile)
 
