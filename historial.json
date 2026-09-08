@@ -1,437 +1,5 @@
 [
   {
-    "id": "juan-pablo-londono",
-    "name": "Juan Pablo Londoño",
-    "cargo": "Co-founder & CEO",
-    "empresa": "Colombia Fintech / Technovation",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "andrey-peshkov",
-    "name": "Andrey Peshkov",
-    "cargo": "Founder & CEO",
-    "empresa": "Mia",
-    "sector": "Fintech",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "juan-pablo-garrido",
-    "name": "Juan Pablo Garrido",
-    "cargo": "Founder & CEO",
-    "empresa": "Kaxflo",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "david-sandoval",
-    "name": "David Sandoval",
-    "cargo": "COO & Co-Founder",
-    "empresa": "FUNDDERS",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "david-lequain",
-    "name": "David Lequain",
-    "cargo": "Founder & Managing Director",
-    "empresa": "FSI HUB",
-    "sector": "Fintech",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "jose-alba",
-    "name": "Jose Alba",
-    "cargo": "Co-Founder and Partner",
-    "empresa": "Lifebiotech",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "angela-maria-beltran-diaz",
-    "name": "Angela María Beltrán Díaz",
-    "cargo": "Co-Founder",
-    "empresa": "Angela Beltrán Finanzas",
-    "sector": "Fintech/Finanzas",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "felipe-gaviria",
-    "name": "Felipe Gaviria",
-    "cargo": "Gerente Desarrollo Negocio",
-    "empresa": "GOU Payments",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "gabriel-rosinol",
-    "name": "Gabriel Rosinol",
-    "cargo": "Chief Financial Officer",
-    "empresa": "Hastee",
-    "sector": "Fintech",
-    "pais": "España",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "andres-vergara",
-    "name": "Andres Vergara",
-    "cargo": "Founding Partner",
-    "empresa": "MAIndset Chile",
-    "sector": "Fintech/AI",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "daniel-gomez-velez",
-    "name": "Daniel Gomez Velez",
-    "cargo": "Director Financiero",
-    "empresa": "Sencia",
-    "sector": "Fintech",
-    "pais": "Colombia",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "marcos-milanes",
-    "name": "Marcos Milanes",
-    "cargo": "Cofundador",
-    "empresa": "Milanes Soluciones",
-    "sector": "Fintech",
-    "pais": "España",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "fintech-decisores"
-  },
-  {
-    "id": "jose-gustavo-de-castro-alem",
-    "name": "José Gustavo de Castro Alem",
-    "cargo": "CEO & Board Member",
-    "empresa": "South American Brands / Lithium Chile Inc",
-    "sector": "Minería",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "carlos-muscolo",
-    "name": "Carlos Muscolo",
-    "cargo": "Country Manager",
-    "empresa": "Yokogawa",
-    "sector": "Industrial",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "analia-angulo-rodriguez",
-    "name": "Analía Angulo Rodríguez",
-    "cargo": "Founder & Director",
-    "empresa": "ikoni | Marketing Estratégico",
-    "sector": "Marketing/Comunicaciones",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "miguel-soto-jimenez",
-    "name": "Miguel Soto Jiménez",
-    "cargo": "Socio Fundador y Director",
-    "empresa": "Sotoval Ingeniería & Construcción S.A.C.",
-    "sector": "Construcción/Minería",
-    "pais": "Perú",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "thomas-hagen",
-    "name": "Thomas Hagen",
-    "cargo": "Managing Director",
-    "empresa": "Arkema",
-    "sector": "Química/Industrial",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "patricio-radeljak",
-    "name": "Patricio Radeljak",
-    "cargo": "Fundador & Director",
-    "empresa": "Tapcox",
-    "sector": "Industrial/Construcción",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "daniel-fuente",
-    "name": "Daniel Fuente",
-    "cargo": "Regional Sales Manager",
-    "empresa": "Axis Communications",
-    "sector": "Ventas/Tecnología",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "joaquin-spini",
-    "name": "Joaquin Spini",
-    "cargo": "Fundador & Director General",
-    "empresa": "InPlus Consulting",
-    "sector": "Consultoría",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "luciana-bengardino",
-    "name": "Luciana Bengardino",
-    "cargo": "Country Manager Mexico",
-    "empresa": "Ackermann",
-    "sector": "Comercial",
-    "pais": "México",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "daniel-weiner",
-    "name": "Daniel Weiner",
-    "cargo": "Project Director",
-    "empresa": "Metlen Energy & Metals",
-    "sector": "Minería/Energía",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "lieven-cooreman",
-    "name": "Lieven Cooreman",
-    "cargo": "Commercial Director",
-    "empresa": "Belgalux - Câmara de Comércio e Indústria",
-    "sector": "Minería/Comercial",
-    "pais": "Brasil",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "javier-pernas",
-    "name": "Javier Pernas",
-    "cargo": "Director of Fractional Sales and Business Development",
-    "empresa": "SIMPLEXsrl",
-    "sector": "Ventas/BD",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "ernesto-diaz",
-    "name": "Ernesto Diaz",
-    "cargo": "Senior Vice President, Latin America",
-    "empresa": "Rystad Energy",
-    "sector": "Energía",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "lorena-abc-gestiona",
-    "name": "Lorena A.",
-    "cargo": "Gerente Corporativo de Personas + Líder Comms WIM",
-    "empresa": "ABC Gestiona SpA / Women in Mining Chile",
-    "sector": "Minería/Comunicaciones",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "nora-fiorini",
-    "name": "Nora Fiorini",
-    "cargo": "Lecturer - Mining for Translators",
-    "empresa": "—",
-    "sector": "Academia/Minería",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "lionel-di-loreto-resano",
-    "name": "Lionel Di Loreto Resano",
-    "cargo": "Territory Manager",
-    "empresa": "Achilles Group Limited",
-    "sector": "Ventas/Comercial",
-    "pais": "Perú",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "jorge-pena-lithronzero",
-    "name": "Jorge N. Peña",
-    "cargo": "Founder & Strategic Advisor",
-    "empresa": "LiThronzero",
-    "sector": "Litio/Energía",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "sergio-slipczuk",
-    "name": "Sergio Slipczuk",
-    "cargo": "Consultor Independiente",
-    "empresa": "Consultoría individual",
-    "sector": "Consultoría",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "gabriela-quinoa",
-    "name": "Gabriela Quiñoa",
-    "cargo": "Partner",
-    "empresa": "EY",
-    "sector": "Consultoría",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "eduardo-gigante",
-    "name": "Eduardo Gigante",
-    "cargo": "Professor / ex-Director Nacional Litio",
-    "empresa": "Universidad de Buenos Aires",
-    "sector": "Litio/Gobierno",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "guillermo-orioli",
-    "name": "Guillermo Orioli",
-    "cargo": "Area Manager",
-    "empresa": "Motive SRL",
-    "sector": "Industrial/Comercial",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "facundo-corsi",
-    "name": "Facundo Corsi",
-    "cargo": "Fintech and Digital Business Program Professor",
-    "empresa": "Universidad Austral",
-    "sector": "Academia/Fintech",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "sebastian-parigi",
-    "name": "Sebastian Parigi",
-    "cargo": "Institutional Affairs Director",
-    "empresa": "Automóvil Club Argentino",
-    "sector": "Institucional",
-    "pais": "Argentina",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
-    "id": "jorge-ulsen-rivas",
-    "name": "Jorge A. Ulsen Rivas",
-    "cargo": "Director - Asesor Sr. - Speaker Internacional",
-    "empresa": "DeciDes",
-    "sector": "Consultoría/Coach",
-    "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
-    "date": "07/09/26",
-    "lista": "mining-chile-argentina"
-  },
-  {
     "id": "ximena-ruget",
     "nombre": "Ximena Ruget",
     "cargo": "Co-Founder & President",
@@ -513,6 +81,18 @@
     "pais": "Argentina"
   },
   {
+    "id": "thomas-hagen",
+    "name": "Thomas Hagen",
+    "cargo": "Managing Director",
+    "empresa": "Arkema",
+    "sector": "Química/Industrial",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "tania-barquet",
     "nombre": "Tania Barquet",
     "cargo": "Head of Marketing",
@@ -554,6 +134,18 @@
     "empresa": "Madrid y alrededores"
   },
   {
+    "id": "sergio-slipczuk",
+    "name": "Sergio Slipczuk",
+    "cargo": "Consultor Independiente",
+    "empresa": "Consultoría individual",
+    "sector": "Consultoría",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "sergio-ariel-chiossone",
     "nombre": "Sergio Ariel Chiossone",
     "cargo": "CEO",
@@ -565,6 +157,18 @@
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
     "name": "Sergio Ariel Chiossone"
+  },
+  {
+    "id": "sebastian-parigi",
+    "name": "Sebastian Parigi",
+    "cargo": "Institutional Affairs Director",
+    "empresa": "Automóvil Club Argentino",
+    "sector": "Institucional",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "sebastian-estevez",
@@ -718,6 +322,18 @@
     "name": "Pau Laporte"
   },
   {
+    "id": "patricio-radeljak",
+    "name": "Patricio Radeljak",
+    "cargo": "Fundador & Director",
+    "empresa": "Tapcox",
+    "sector": "Industrial/Construcción",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "name": "Patricio O´Kon",
     "stage": 3,
     "date": "2026-08-18",
@@ -762,6 +378,18 @@
     "empresa": "Clar"
   },
   {
+    "id": "nora-fiorini",
+    "name": "Nora Fiorini",
+    "cargo": "Lecturer - Mining for Translators",
+    "empresa": "—",
+    "sector": "Academia/Minería",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "nicolas-surijon-270826",
     "empresa": "DirMOD",
     "stage": 1,
@@ -796,6 +424,18 @@
     "fecha": "16/07/26",
     "date": "16/07/26",
     "name": "Mirna Guillén"
+  },
+  {
+    "id": "miguel-soto-jimenez",
+    "name": "Miguel Soto Jiménez",
+    "cargo": "Socio Fundador y Director",
+    "empresa": "Sotoval Ingeniería & Construcción S.A.C.",
+    "sector": "Construcción/Minería",
+    "pais": "Perú",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "miguel-hernandez-mindshore",
@@ -932,6 +572,18 @@
     ]
   },
   {
+    "id": "marcos-milanes",
+    "name": "Marcos Milanes",
+    "cargo": "Cofundador",
+    "empresa": "Milanes Soluciones",
+    "sector": "Fintech",
+    "pais": "España",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
     "id": "marce-aragones",
     "name": "Marce Aragones",
     "cargo": "CAIO & CMO",
@@ -977,6 +629,18 @@
     "cargo": "ingeniería en dirección y producción de artes audiovisuales"
   },
   {
+    "id": "luciana-bengardino",
+    "name": "Luciana Bengardino",
+    "cargo": "Country Manager Mexico",
+    "empresa": "Ackermann",
+    "sector": "Comercial",
+    "pais": "México",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "lorena-miguel-pariente",
     "nombre": "Lorena Miguel Pariente",
     "cargo": "Marketing & Communication Manager",
@@ -990,6 +654,30 @@
     "name": "Lorena Miguel Pariente"
   },
   {
+    "id": "lorena-abc-gestiona",
+    "name": "Lorena A.",
+    "cargo": "Gerente Corporativo de Personas + Líder Comms WIM",
+    "empresa": "ABC Gestiona SpA / Women in Mining Chile",
+    "sector": "Minería/Comunicaciones",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
+    "id": "lionel-di-loreto-resano",
+    "name": "Lionel Di Loreto Resano",
+    "cargo": "Territory Manager",
+    "empresa": "Achilles Group Limited",
+    "sector": "Ventas/Comercial",
+    "pais": "Perú",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "empresa": "Betterfly",
     "id": "lina-vanegas-matiz",
     "date": "22/07/26",
@@ -999,6 +687,18 @@
     "name": "Lina Vanegas Matiz",
     "stage": 1,
     "estado": "MSG1 enviado"
+  },
+  {
+    "id": "lieven-cooreman",
+    "name": "Lieven Cooreman",
+    "cargo": "Commercial Director",
+    "empresa": "Belgalux - Câmara de Comércio e Indústria",
+    "sector": "Minería/Comercial",
+    "pais": "Brasil",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "laura-chacon-munoz",
@@ -1139,6 +839,30 @@
     "date": "27/08/26"
   },
   {
+    "id": "juan-pablo-londono",
+    "name": "Juan Pablo Londoño",
+    "cargo": "Co-founder & CEO",
+    "empresa": "Colombia Fintech / Technovation",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "juan-pablo-garrido",
+    "name": "Juan Pablo Garrido",
+    "cargo": "Founder & CEO",
+    "empresa": "Kaxflo",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
     "id": "juan-l-pez-ib-ez",
     "nombre": "Juan LÃ³pez IbÃ¡Ã±ez",
     "cargo": "COO & Co-Founder",
@@ -1200,6 +924,54 @@
     "name": "Jose Ignacio Ruiz"
   },
   {
+    "id": "jose-gustavo-de-castro-alem",
+    "name": "José Gustavo de Castro Alem",
+    "cargo": "CEO & Board Member",
+    "empresa": "South American Brands / Lithium Chile Inc",
+    "sector": "Minería",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
+    "id": "jose-alba",
+    "name": "Jose Alba",
+    "cargo": "Co-Founder and Partner",
+    "empresa": "Lifebiotech",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "jorge-ulsen-rivas",
+    "name": "Jorge A. Ulsen Rivas",
+    "cargo": "Director - Asesor Sr. - Speaker Internacional",
+    "empresa": "DeciDes",
+    "sector": "Consultoría/Coach",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
+    "id": "jorge-pena-lithronzero",
+    "name": "Jorge N. Peña",
+    "cargo": "Founder & Strategic Advisor",
+    "empresa": "LiThronzero",
+    "sector": "Litio/Energía",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "jonathan-josafat-rivas-carvajal",
     "nombre": "Jonathan Josafat Rivas Carvajal",
     "cargo": "Marketing Fraccional | Manufactura & B2B",
@@ -1221,6 +993,18 @@
     "name": "John Graham Harper",
     "stage": 1,
     "estado": "MSG1 enviado"
+  },
+  {
+    "id": "joaquin-spini",
+    "name": "Joaquin Spini",
+    "cargo": "Fundador & Director General",
+    "empresa": "InPlus Consulting",
+    "sector": "Consultoría",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "empresa": "Trascender Centro Psicologico",
@@ -1255,6 +1039,18 @@
     "stage": "1",
     "conectado": "15/07/2026",
     "date": "15/07/26"
+  },
+  {
+    "id": "javier-pernas",
+    "name": "Javier Pernas",
+    "cargo": "Director of Fractional Sales and Business Development",
+    "empresa": "SIMPLEXsrl",
+    "sector": "Ventas/BD",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "israel-contreras-mora",
@@ -1360,6 +1156,18 @@
     "empresa": "Área metropolitana de Bogotá D.C."
   },
   {
+    "id": "guillermo-orioli",
+    "name": "Guillermo Orioli",
+    "cargo": "Area Manager",
+    "empresa": "Motive SRL",
+    "sector": "Industrial/Comercial",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "id": "gonzalo-rioja-270826",
     "empresa": "WeSpeak",
     "stage": 1,
@@ -1381,6 +1189,18 @@
     "fecha": "16/07/26",
     "date": "16/07/26",
     "name": "Geraldine Valencia Trujillo"
+  },
+  {
+    "id": "gabriela-quinoa",
+    "name": "Gabriela Quiñoa",
+    "cargo": "Partner",
+    "empresa": "EY",
+    "sector": "Consultoría",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "gabriela-gutierrez-b",
@@ -1423,6 +1243,18 @@
     "estado": "MSG1 enviado"
   },
   {
+    "id": "gabriel-rosinol",
+    "name": "Gabriel Rosinol",
+    "cargo": "Chief Financial Officer",
+    "empresa": "Hastee",
+    "sector": "Fintech",
+    "pais": "España",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
     "id": "francy-ferro",
     "nombre": "Francy Ferro",
     "cargo": "Head of Media / Marketing Director",
@@ -1458,6 +1290,18 @@
     "id": "francisco-jones"
   },
   {
+    "id": "felipe-gaviria",
+    "name": "Felipe Gaviria",
+    "cargo": "Gerente Desarrollo Negocio",
+    "empresa": "GOU Payments",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
     "id": "felipe-calder-n",
     "nombre": "Felipe CalderÃ³n",
     "cargo": "Co-Founder & CEO",
@@ -1483,6 +1327,18 @@
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
     "name": "Fausto Ruiz Madrid"
+  },
+  {
+    "id": "facundo-corsi",
+    "name": "Facundo Corsi",
+    "cargo": "Fintech and Digital Business Program Professor",
+    "empresa": "Universidad Austral",
+    "sector": "Academia/Fintech",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "fabian-ignacio-corbalan-beltran",
@@ -1522,6 +1378,18 @@
     "name": "Esteban Aragón Correa"
   },
   {
+    "id": "ernesto-diaz",
+    "name": "Ernesto Diaz",
+    "cargo": "Senior Vice President, Latin America",
+    "empresa": "Rystad Energy",
+    "sector": "Energía",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
+  },
+  {
     "empresa": "Prism Wellness",
     "id": "erin-atkinson",
     "date": "22/07/26",
@@ -1557,6 +1425,18 @@
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
     "name": "Elena Alcover Jorge"
+  },
+  {
+    "id": "eduardo-gigante",
+    "name": "Eduardo Gigante",
+    "cargo": "Professor / ex-Director Nacional Litio",
+    "empresa": "Universidad de Buenos Aires",
+    "sector": "Litio/Gobierno",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "diego-andr-s-morales-torres",
@@ -1611,6 +1491,30 @@
     "name": "David Zafra"
   },
   {
+    "id": "david-sandoval",
+    "name": "David Sandoval",
+    "cargo": "COO & Co-Founder",
+    "empresa": "FUNDDERS",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "david-lequain",
+    "name": "David Lequain",
+    "cargo": "Founder & Managing Director",
+    "empresa": "FSI HUB",
+    "sector": "Fintech",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
     "name": "Daniela Bujan",
     "stage": "4",
     "date": "2026-08-05",
@@ -1620,6 +1524,18 @@
     "pais": "Argentina",
     "email": "danielabujan@gmail.com",
     "id": "daniela-bujan"
+  },
+  {
+    "id": "daniel-weiner",
+    "name": "Daniel Weiner",
+    "cargo": "Project Director",
+    "empresa": "Metlen Energy & Metals",
+    "sector": "Minería/Energía",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "daniel-gratz",
@@ -1634,6 +1550,30 @@
     "nota": "Tiene equipo propio en B2Chat. Mensaje adaptado para Director con carga de escala.",
     "date": "15/07/26",
     "name": "Daniel Gratz"
+  },
+  {
+    "id": "daniel-gomez-velez",
+    "name": "Daniel Gomez Velez",
+    "cargo": "Director Financiero",
+    "empresa": "Sencia",
+    "sector": "Fintech",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "daniel-fuente",
+    "name": "Daniel Fuente",
+    "cargo": "Regional Sales Manager",
+    "empresa": "Axis Communications",
+    "sector": "Ventas/Tecnología",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "dafna-brilovich-zimerman",
@@ -1709,6 +1649,18 @@
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
     "name": "Carlos Varea Filella"
+  },
+  {
+    "id": "carlos-muscolo",
+    "name": "Carlos Muscolo",
+    "cargo": "Country Manager",
+    "empresa": "Yokogawa",
+    "sector": "Industrial",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "carlos-gonzalez-mozuelos",
@@ -1798,6 +1750,54 @@
     "fecha": "16/07/26",
     "date": "16/07/26",
     "name": "Angelica Marron Blasquez"
+  },
+  {
+    "id": "angela-maria-beltran-diaz",
+    "name": "Angela María Beltrán Díaz",
+    "cargo": "Co-Founder",
+    "empresa": "Angela Beltrán Finanzas",
+    "sector": "Fintech/Finanzas",
+    "pais": "Colombia",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "andrey-peshkov",
+    "name": "Andrey Peshkov",
+    "cargo": "Founder & CEO",
+    "empresa": "Mia",
+    "sector": "Fintech",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "andres-vergara",
+    "name": "Andres Vergara",
+    "cargo": "Founding Partner",
+    "empresa": "MAIndset Chile",
+    "sector": "Fintech/AI",
+    "pais": "Chile",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "fintech-decisores"
+  },
+  {
+    "id": "analia-angulo-rodriguez",
+    "name": "Analía Angulo Rodríguez",
+    "cargo": "Founder & Director",
+    "empresa": "ikoni | Marketing Estratégico",
+    "sector": "Marketing/Comunicaciones",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "Inv enviada",
+    "date": "07/09/26",
+    "lista": "mining-chile-argentina"
   },
   {
     "id": "alvaro-bohorquez",
@@ -1936,6 +1936,366 @@
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Acelis Tunon Singh"
+  },
+  {
+    "id": "1788895279213",
+    "date": "08/09/26",
+    "name": "Gabriela Quiñoa",
+    "empresa": "Argentina",
+    "variantTitle": "Narrativa de transformación sin desconexión operativa",
+    "profileRaw": "Gabriela Quiñoa\n\n· 1er\n\nPartner at EY - People Consulting Leader - Spanish South America | Organizational Transformation | Talent and Leadership Development | Change with Purpose | Quantum Evolution | Intrapreneurship | SW50 Women Leadership\n\nArgentina\n\n·\n\nInformación de contacto\n\nEY\n\nHarvard Business School Online\n\nMás de 500 contactos\n\nGabriel, Sebastian y 28 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Gabriela\n\n    Ver perfil\n\n    Camila ",
+    "msg1": "Buenas Gabriela! Me quedó dando vueltas cómo en tus últimas publicaciones no hablas de transformación como programa interno, sino como insight de mercado. Eso es bastante diferente a lo que suele comunicar un Partner de consultoría.\n\nEn Hint Media trabajamos con líderes de transformación como los equipos de TGS y Transener en construir la narrativa que hace legible la complejidad organizacional mientras la ejecución está ocurriendo, sin que una cosa cancele la otra.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Gabriela! Me quedó dando vueltas cómo en tus últimas publicaciones no hablas de transformación como programa interno, sino como insight de mercado. Eso es bastante diferente a lo que suele comunicar un Partner de consultoría.\n\nEn Hint Media trabajamos con líderes de transformación como los equipos de TGS y Transener en construir la narrativa que hace legible la complejidad organizacional mientras la ejecución está ocurriendo, sin que una cosa cancele la otra.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788894619221",
+    "date": "08/09/26",
+    "name": "Sergio Slipczuk",
+    "empresa": "Consultoría independiente",
+    "variantTitle": "Escalabilidad sin perder adaptabilidad",
+    "profileRaw": "Sergio Slipczuk\n\n· 1er\n\nCultura productiva y diseño de recursos de gestión\n\nPeñaflor, Región Metropolitana de Santiago, Chile\n\n·\n\nInformación de contacto\n\nConsultoría independiente\n\nUniversidad de Buenos Aires / UBA\n\n8.406 seguidores\n\nJosé Tomás, Roberto Aron y 37 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Sergio\n\n    Ver perfil\n\n    Víctor Manuel Valle \n\n    Former CEO Google Argentina | CEO PIEPER AI -  We advise CEOs and C-level on AI De",
+    "msg1": "Buenas Sergio! Me quedó esa impresión en tu perfil: desarrollaste metodologías que entrenan a 900+ personas simultáneamente sin sacarlas del puesto, midiendo impacto individual. No es lo que suele priorizar la mayoría cuando diseña para escala.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en escalar ejecución de marketing y comunicación sin que pierda coherencia ni personalización por geografía o equipo. Es el mismo desafío que resolvés vos, pero en otro frente.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Sergio! Me quedó esa impresión en tu perfil: desarrollaste metodologías que entrenan a 900+ personas simultáneamente sin sacarlas del puesto, midiendo impacto individual. No es lo que suele priorizar la mayoría cuando diseña para escala.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en escalar ejecución de marketing y comunicación sin que pierda coherencia ni personalización por geografía o equipo. Es el mismo desafío que resolvés vos, pero en otro frente.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788894405409",
+    "date": "08/09/26",
+    "name": "Marcos Milanes",
+    "empresa": "Milanes Soluciones",
+    "variantTitle": "Multi-negocio + coherencia operativa",
+    "profileRaw": "Marcos Milanes\n\n· 1er\n\nBuilding fintech & IT infrastructure across Spain and Cuba · Founder of Quantum, Verdecia & Milanés Soluciones\n\nBarcelona, Cataluña, España\n\n·\n\nInformación de contacto\n\nMilanes Soluciones\n\nUniversidad de La Habana\n\nMás de 500 contactos\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Marcos\n\n    Ver perfil\n\n    Sofia Contreras \n\n    ↗️ Founder & CEO @masteryhaus  📕 Autora best-seller “Pasa a la Acción”\n\n    Seguido por Giuliano, Martina y 183 per",
+    "msg1": "Buenas Marcos! Me quedó dando vueltas tu descripción de construir infraestructura fintech y IT en dos geografías completamente distintas. La complejidad de eso suele ser el 20% técnica y el 80% coordinación.\n\nEn Hint Media trabajamos con founders y operadores que escalan múltiples frentes —como lo hacés vos— en construir narrativa clara que sostenga la ejecución sin que se disperse el posicionamiento entre negocios.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Marcos! Me quedó dando vueltas tu descripción de construir infraestructura fintech y IT en dos geografías completamente distintas. La complejidad de eso suele ser el 20% técnica y el 80% coordinación.\n\nEn Hint Media trabajamos con founders y operadores que escalan múltiples frentes —como lo hacés vos— en construir narrativa clara que sostenga la ejecución sin que se disperse el posicionamiento entre negocios.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788894354857",
+    "date": "08/09/26",
+    "name": "Freddy Neuman",
+    "empresa": "Capybaras Agency",
+    "variantTitle": "Narrativa Omnichannel — la marca ante múltiples mercados simultáneamente",
+    "profileRaw": "Freddy Neuman\n\n· 1er\n\nFounder & CEO at Capybaras Agency | Driving Profit Growth for Amazon Brands | Passion & MBA skills applied to ecommerce\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nCapybaras Agency\n\nUniversidad de 'San Andrés'\n\nMás de 500 contactos\n\nGabriel, Sofía y 35 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nIr a mi sitio web\nMás\n\nPerfil mejorado con Premium\nOtros perfiles seguidos junto con Freddy\n\n    Ver perfil\n\n    Sofia Contrera",
+    "msg1": "Buenas Freddy! Me quedó dando vueltas tu modelo: 100M+ en ventas distribuidos en múltiples plataformas y mercados al mismo tiempo. La mayoría de agencias controla la ejecución. Ustedes controlan que todo cuente la misma historia.\n\nEn Hint Media trabajamos con líderes de expansión como TGS y Transener en construir la narrativa que hace legible la complejidad operativa antes de que el cliente llegue a preguntar. Cuando una marca opera en múltiples mercados, sostener coherencia de posicionamiento mientras escala ejecución suele abrir varios frentes.\n\nTe cuento cómo lo resolvemos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Freddy! Me quedó dando vueltas tu modelo: 100M+ en ventas distribuidos en múltiples plataformas y mercados al mismo tiempo. La mayoría de agencias controla la ejecución. Ustedes controlan que todo cuente la misma historia.\n\nEn Hint Media trabajamos con líderes de expansión como TGS y Transener en construir la narrativa que hace legible la complejidad operativa antes de que el cliente llegue a preguntar. Cuando una marca opera en múltiples mercados, sostener coherencia de posicionamiento mientras escala ejecución suele abrir varios frentes.\n\nTe cuento cómo lo resolvemos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788894011629",
+    "date": "08/09/26",
+    "name": "David Sandoval",
+    "empresa": "FUNDDERS",
+    "variantTitle": "Garantía vs. Promesa — La Tensión Profesional de Escalar Implementación",
+    "profileRaw": "David Sandoval\n\n· 1er\n\nCOO y Co-fundador de Fundders | Traduzco finanzas, KPI’s y data en decisiones que se ejecutan | Procesos más eficientes con IA y tecnología | Analítica financiera | Investigación de operaciones | Consultoría estratégica\n\nBogotá, Distrito Capital, Colombia\n\n·\n\nInformación de contacto\n\nFUNDDERS\n\nUniversidad de los Andes - Colombia\n\nMás de 500 contactos\n\nJuan Felipe, Enrique y 17 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nVer mis servicios\nMás\nOtros perfiles",
+    "msg1": "Buenas David! Leí tu rechazo a la consultoría tradicional — \"dejas de proponer lo óptimo y empezás a proponer lo que sobrevive implementación\". No muchos fundan un negocio alrededor de esa fricción. Me quedó la pregunta: cómo escalás eso sin que cada proyecto siga dependiendo de vos.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en traducir soluciones complejas en narrativa que sea legible en el mercado, antes de que el cliente termine preguntando. Algo parecido a lo que hacés vos operacionalmente — pero en comunicación.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas David! Leí tu rechazo a la consultoría tradicional — \"dejas de proponer lo óptimo y empezás a proponer lo que sobrevive implementación\". No muchos fundan un negocio alrededor de esa fricción. Me quedó la pregunta: cómo escalás eso sin que cada proyecto siga dependiendo de vos.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en traducir soluciones complejas en narrativa que sea legible en el mercado, antes de que el cliente termine preguntando. Algo parecido a lo que hacés vos operacionalmente — pero en comunicación.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893952522",
+    "date": "08/09/26",
+    "name": "Juan Pablo Londoño",
+    "empresa": "Technovation",
+    "variantTitle": "Variante A — Traducción de complejidad como eje conversacional",
+    "profileRaw": "Juan Pablo Londoño\n\n· 1er\n\nCEO en Technovation | Digital Lending & Crédito Digital B2C/B2B en LATAM | Credit Risk, Origination & Fintech Strategy\n\nBogotá, Distrito Capital, Colombia\n\n·\n\nInformación de contacto\n\nTechnovation\n\nThe University of Hong Kong\n\n21.134 seguidores\n\n·\n\nMás de 500 contactos\n\nLaura, Victor y 77 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Juan Pablo\n\n    Ver perfil\n\n    Patricia Jebsen \n\n    Board member and business advi",
+    "msg1": "Buenas Juan Pablo! Tu post sobre Search, Branch & Bound y A* me quedó dando vueltas, pero no por la teoría. Me llamó la atención cómo pasaste de \"concepto del MIT\" a \"¿y si la lógica fuera diferente?\" en originación. Eso no es lo que la mayoría hace cuando comparte innovación.\n\nEn Hint Media trabajamos con organizaciones como TGS en hacer legible la complejidad tecnológica ante equipos y stakeholders que necesitan entender el \"por qué\" antes de ejecutar. La mayoría de consultores fintech luchan con eso.\n\nVale la pena que te cuente cómo lo estamos resolviendo con otros equipos que navegan esa tensión?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Juan Pablo! Tu post sobre Search, Branch & Bound y A* me quedó dando vueltas, pero no por la teoría. Me llamó la atención cómo pasaste de \"concepto del MIT\" a \"¿y si la lógica fuera diferente?\" en originación. Eso no es lo que la mayoría hace cuando comparte innovación.\n\nEn Hint Media trabajamos con organizaciones como TGS en hacer legible la complejidad tecnológica ante equipos y stakeholders que necesitan entender el \"por qué\" antes de ejecutar. La mayoría de consultores fintech luchan con eso.\n\nVale la pena que te cuente cómo lo estamos resolviendo con otros equipos que navegan esa tensión?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893551133",
+    "date": "08/09/26",
+    "name": "Eduardo Gigante",
+    "empresa": "Argentina",
+    "variantTitle": "Narrativa de territorio + ecosistema minero",
+    "profileRaw": "Eduardo Gigante\n\n· 1er\n\nCritical Minerals & Commodities Consultant | Focus on Lithium Value Chains\n\nArgentina\n\n·\n\nInformación de contacto\n\nUniversidad de Buenos Aires\n\nUniversidad de Buenos Aires\n\n5.027 seguidores\n\n·\n\nMás de 500 contactos\n\nAldana, Ariel Ernesto y 32 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Eduardo\n\n    Ver perfil\n\n    Pablo Sibilla \n\n    President & CEO at Renault Argentina 🇦🇷.                        Membre du comité Arge",
+    "msg1": "Buenas Eduardo! Tu post sobre por qué se desarrolló el litio en Argentina me quedó dando vueltas. No es un argumento sobre minerales, es un argumento sobre cómo construir ecosistema. Eso no es lo que suele comunicar el sector habitualmente.\n\nEn Hint Media trabajamos con líderes en minería y energía como TGS y Transener en construir la narrativa que hace legible la complejidad de proyectos de escala cuando hay múltiples audiencias — gobierno, inversores, comunidad, talento.\n\nTe interesa que te cuente cómo lo estamos resolviendo en otros casos?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Eduardo! Tu post sobre por qué se desarrolló el litio en Argentina me quedó dando vueltas. No es un argumento sobre minerales, es un argumento sobre cómo construir ecosistema. Eso no es lo que suele comunicar el sector habitualmente.\n\nEn Hint Media trabajamos con líderes en minería y energía como TGS y Transener en construir la narrativa que hace legible la complejidad de proyectos de escala cuando hay múltiples audiencias — gobierno, inversores, comunidad, talento.\n\nTe interesa que te cuente cómo lo estamos resolviendo en otros casos?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893535373",
+    "date": "08/09/26",
+    "name": "Luciana Bengardino",
+    "empresa": "ACKERMANN",
+    "variantTitle": "Moderadora de Narrativa Ejecutiva",
+    "profileRaw": "Luciana Bengardino\n\n· 1er\n\nCountry Manager Mexico ACKERMANN  | Executive Search C-level & Boards -Liderazgo Ejecutivo\n\nÁrea metropolitana de Ciudad de México\n\n·\n\nInformación de contacto\n\nACKERMANN\n\nUniversidad de Buenos Aires\n\n27.975 seguidores\n\nRoberto Aron, Diego y 79 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Luciana\n\n    Ver perfil\n\n    Lucia Carranza \n\n    Asesoro a profesionales de LATAM a conseguir empleo remoto internacional | Recru",
+    "msg1": "Buenas Luciana! Me quedó en la cabeza cómo nombraste a cada panelista en el DCH México. No solo los presentaste: les construiste contexto. Eso no es lo que suele hacer un moderador de un evento más.\n\nEn Hint Media acompañamos a líderes y equipos como TGS y Transener en construir la narrativa que hace legible su expertise en mercados donde la credibilidad no viene del discurso, sino de cómo se cuenta la acción concreta. Trabajamos desde adentro de su estructura.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Luciana! Me quedó en la cabeza cómo nombraste a cada panelista en el DCH México. No solo los presentaste: les construiste contexto. Eso no es lo que suele hacer un moderador de un evento más.\n\nEn Hint Media acompañamos a líderes y equipos como TGS y Transener en construir la narrativa que hace legible su expertise en mercados donde la credibilidad no viene del discurso, sino de cómo se cuenta la acción concreta. Trabajamos desde adentro de su estructura.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893327972",
+    "date": "08/09/26",
+    "name": "Jorge A. Ulsen Rivas",
+    "empresa": "Chile",
+    "variantTitle": "Reposicionamiento hacia impacto — transición visibilizada",
+    "profileRaw": "Jorge A. Ulsen Rivas\n\n· 1er\n\nExperto en Transformación Organizacional, Talento, Comunicaciones, Agilidad, Liderazgo – Director, Speaker, Asesor Sr., Tariner- Master en RRHH - Certificaciones en Agilidad, Change Management, Liderazgo, PNL\n\nChile\n\n·\n\nInformación de contacto\n\nDeciDes ::: Consultoría | Formación | Coaching\n\nUniversitat de Lleida\n\n14.864 seguidores\n\nMaría Jesús, Laura y 97 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nActividad\n\n14.864 seguidores\nPublicaciones\nCome",
+    "msg1": "Buenas Jorge! Vi que hace poco asumiste como Mentor de Impacto. No es casualidad que hayas elegido mostrar ese cambio públicamente — dice bastante sobre cómo pensás el siguiente capítulo de tu trabajo.\n\nEn Hint Media trabajamos con equipos de transformación organizacional de empresas como ENGIE y otras del sector minero-energético, construyendo narrativa interna que haga legible la transformación antes de que el cambio fracase por falta de conexión con las personas.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Jorge! Vi que hace poco asumiste como Mentor de Impacto. No es casualidad que hayas elegido mostrar ese cambio públicamente — dice bastante sobre cómo pensás el siguiente capítulo de tu trabajo.\n\nEn Hint Media trabajamos con equipos de transformación organizacional de empresas como ENGIE y otras del sector minero-energético, construyendo narrativa interna que haga legible la transformación antes de que el cambio fracase por falta de conexión con las personas.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893312755",
+    "date": "08/09/26",
+    "name": "José Gustavo de Castro Alem",
+    "empresa": "Argentina",
+    "variantTitle": "Amplificador de voces + posicionamiento en minería sostenible",
+    "profileRaw": "José Gustavo de Castro Alem\n\n· 1er\n\nSenior Engineer Executive in Mining Strategic & Marketing Management Consultant\n\nArgentina\n\n·\n\nInformación de contacto\n\nLithium Chile Inc\n\nNorthwestern University - Kellogg School of Management\n\n11.713 seguidores\n\n·\n\nMás de 500 contactos\n\nCamilo, Martina y 73 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nVer mis servicios\nMás\n\nPerfil mejorado con Premium\nOtros perfiles seguidos junto con José Gustavo\n\n    Ver perfil\n\n    Hugo Alconada Mon\n\n    M",
+    "msg1": "Buenas José Gustavo, me quedó dando vueltas que compartas un artículo sobre cómo la ciencia aprende a mirar al ser humano, y después amplifies públicamente el logro de alguien más en economía espacial. No es lo que típicamente hace un CEO de minería.\n\nEn Hint Media trabajamos con líderes en sectores complejos como TGS y Transener en hacer audible la estrategia empresarial para actores que no son técnicos. Cuando existe fricción regulatoria o social, la ejecución técnica suele quedarse sin relato.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas José Gustavo, me quedó dando vueltas que compartas un artículo sobre cómo la ciencia aprende a mirar al ser humano, y después amplifies públicamente el logro de alguien más en economía espacial. No es lo que típicamente hace un CEO de minería.\n\nEn Hint Media trabajamos con líderes en sectores complejos como TGS y Transener en hacer audible la estrategia empresarial para actores que no son técnicos. Cuando existe fricción regulatoria o social, la ejecución técnica suele quedarse sin relato.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788893297321",
+    "date": "08/09/26",
+    "name": "Joaquin Spini",
+    "empresa": "InPlus Consulting",
+    "variantTitle": "Tensión multidivisional — Nexo entre audiencias con lógicas distintas",
+    "profileRaw": "Joaquin Spini\n\n· 1er\n\nFundador & Director General | Miembro de Directorio | Asesor Financiero a Emprendedores, Pymes y Empresas Familiares | M&A | CFO en Empresas Nacionales y Multinacionales Latam | Estrategias de Negocio | Gestión de Cambio\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nInPlus Consulting\n\nIAE - Universidad Austral, Buenos Aires\n\nMás de 500 contactos\n\nGraciela Lucía, Darío Ezequiel y 43 contactos más en común\nEnviar mensaje\nVer en Sales Navigat",
+    "msg1": "Buenas Joaquín! Tu perfil como nexo entre directorios, inversores y casas matrices internacionales en procesos de M&A me quedó dando vueltas. No es solo traducir números, es hacer que realidades completamente distintas hablen el mismo lenguaje financiero.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible la complejidad estratégica antes de que lleguemos a la mesa de negociación. Especialmente cuando hay múltiples actores con urgencias diferentes.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Joaquín! Tu perfil como nexo entre directorios, inversores y casas matrices internacionales en procesos de M&A me quedó dando vueltas. No es solo traducir números, es hacer que realidades completamente distintas hablen el mismo lenguaje financiero.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible la complejidad estratégica antes de que lleguemos a la mesa de negociación. Especialmente cuando hay múltiples actores con urgencias diferentes.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788892086342",
+    "date": "08/09/26",
+    "name": "Carolina Soto",
+    "empresa": "Gerente General",
+    "variantTitle": "Proporcionalidad operativa — reposicionamiento de decisiones comerciales",
+    "profileRaw": "Carolina Soto\n\n· 1er\n\nGerente General\n\nColombia\n\n·\n\nInformación de contacto\n\nCAUCHOS CORONA S A\n\nEAFIT\n\nMás de 500 contactos\n\nJose Carlos, Walid y 3 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Carolina\n\n    Ver perfil\n\n    Belén Cuello\n\n    Talent Acquisition | Recruiter |  HR Soft\n\n    Seguido por Candela, Agostina y 92 personas más que conoces\n    Seguir\n    Ver perfil\n\n    Antonella Bruno \n\n    People & Culture Manager | HR Business Partn",
+    "msg1": "Buenas Carolina! Tu reflexión sobre el costo real de una hora de producción detenida vs 20 dólares de materia prima me quedó dando vueltas. No estás tratando un problema de compras. Estás recalibrando dónde está realmente la decisión.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en construir la narrativa operativa que hace legible por qué ciertas decisiones comerciales son las correctas, antes de que se vuelvan conflicto interno o externo.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Carolina! Tu reflexión sobre el costo real de una hora de producción detenida vs 20 dólares de materia prima me quedó dando vueltas. No estás tratando un problema de compras. Estás recalibrando dónde está realmente la decisión.\n\nEn Hint Media trabajamos con organizaciones como TGS y Transener en construir la narrativa operativa que hace legible por qué ciertas decisiones comerciales son las correctas, antes de que se vuelvan conflicto interno o externo.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788891893244",
+    "date": "08/09/26",
+    "name": "Felipe Quiroz, LCAM",
+    "empresa": "The Yachtclub @ Portofino",
+    "variantTitle": "Variante A — Transición reciente como ángulo de entrada",
+    "profileRaw": "Felipe Quiroz, LCAM\n\n· 1er\n\nGeneral Manager at The Yachtclub @ Portofino\n\nMiami Beach, Florida, Estados Unidos\n\n·\n\nInformación de contacto\n\nMarquis Association Management\n\nAmerican Flyers\n\nMás de 500 contactos\n\nTony y Bryant son contactos en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Felipe\n\n    Ver perfil\n\n    Federico Rodriguez \n\n    Account Executive Sr | B2B Sales | KAM | Business Development | Commercial Strategy | LinkedIn Top 3 Creator Argentina 2025",
+    "msg1": "Buenas Felipe! Vi que hace 8 meses asumiste como GM en The Yachtclub. Una propiedad como esa no solo se gestiona operativamente; cada comunicación hacia residentes y potenciales tiene que contar algo específico sobre por qué esa dirección es diferente.\n\nEn Hint Media trabajamos con empresas como Destiny Group en construir la narrativa que hace legible el valor diferencial de la propiedad, más allá de lo operativo. Eso muchas veces es lo que convierte a potenciales en residentes.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Felipe! Vi que hace 8 meses asumiste como GM en The Yachtclub. Una propiedad como esa no solo se gestiona operativamente; cada comunicación hacia residentes y potenciales tiene que contar algo específico sobre por qué esa dirección es diferente.\n\nEn Hint Media trabajamos con empresas como Destiny Group en construir la narrativa que hace legible el valor diferencial de la propiedad, más allá de lo operativo. Eso muchas veces es lo que convierte a potenciales en residentes.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788888221261",
+    "date": "08/09/26",
+    "name": "Juan Rossi",
+    "empresa": "Devlights",
+    "variantTitle": "Flexibilidad como diferenciador — desde HackaLab",
+    "profileRaw": "Juan Rossi\n\n· 1er\n\nCo-Founder & CEO at Devlights | Scaling SaaS & software companies through simple, effective nearshore development\n\nArgentina\n\n·\n\nInformación de contacto\n\nDevlights - Argentina\n\nMás de 500 contactos\n\nAdriana, Humberto y 26 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nConcertar una cita\nMás\n\nPerfil mejorado con Premium\n\nSales Insights\n\nSeñales clave\n\nGrupo en común\n\nJuan ha publicado en los últimos 30 días\nMostrar toda la información\nAcerca de\n\nAs CEO of Devlight",
+    "msg1": "Buenas Juan! Justo tu post sobre HackaLab me quedó dando vueltas. No publicaste un caso de cliente, publicaste cómo una herramienta interna se reinventó en otro contexto. Eso dice mucho de cómo construís en Devlights.\n\nEn Hint Media trabajamos con empresas como Agora en transformar capacidad técnica/interna en narrativa coherente que el mercado entienda y diferencie. Cuando crece una organización de servicios, muchas veces la mejor historia que tienen para contar queda invisible.\n\nVale la pena que te cuente cómo lo trabajamos?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Juan! Justo tu post sobre HackaLab me quedó dando vueltas. No publicaste un caso de cliente, publicaste cómo una herramienta interna se reinventó en otro contexto. Eso dice mucho de cómo construís en Devlights.\n\nEn Hint Media trabajamos con empresas como Agora en transformar capacidad técnica/interna en narrativa coherente que el mercado entienda y diferencie. Cuando crece una organización de servicios, muchas veces la mejor historia que tienen para contar queda invisible.\n\nVale la pena que te cuente cómo lo trabajamos?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1788886456191",
+    "date": "08/09/26",
+    "name": "Anto Medone",
+    "empresa": "Argentina",
+    "variantTitle": "Variante A — Observación desde la decisión deliberada de sostener clientes en escenarios múltiples",
+    "profileRaw": "Anto Medone\n\n· 1er\n\nHead of Growth & Client Success\n\nArgentina\n\n·\n\nInformación de contacto\n\nwww.pow.la\n\nMás de 500 contactos\n\nGraciela Lucía, Matias y 22 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\n\nSales Insights\n\nSeñales clave\n\nEstudios en común\n\nGrupo en común\nMostrar toda la información\nAcerca de\n\nProfesional con más de diez años de trayectoria, caracterizada por la mejora continua, el liderazgo transversal y la orientación a resultados.\nActualmente me desempeño como Hea",
+    "msg1": "Buenas Anto, me quedó dando vueltas tu post sobre Equus. No presentaste un caso y listo — una semana después estabas en una mesa privada construyendo estrategia con el cliente. Eso no es lo que la mayoría hace cuando quiere demostrar que es partner.\n\nEn Hint Media trabajamos con empresas SaaS como TGS y Transener en construir la narrativa que hace visible lo que el equipo de producto y operación hace de verdad, antes de que el cliente termine pidiendo reunión.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Anto, me quedó dando vueltas tu post sobre Equus. No presentaste un caso y listo — una semana después estabas en una mesa privada construyendo estrategia con el cliente. Eso no es lo que la mayoría hace cuando quiere demostrar que es partner.\n\nEn Hint Media trabajamos con empresas SaaS como TGS y Transener en construir la narrativa que hace visible lo que el equipo de producto y operación hace de verdad, antes de que el cliente termine pidiendo reunión.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": ""
+      }
+    ]
   },
   {
     "id": "1788375517391",
@@ -2136,6 +2496,11 @@
         "stage": 1,
         "date": "26/08/26",
         "note": ""
+      },
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
       }
     ],
     "noInterest": true
@@ -5841,7 +6206,14 @@
     "empresa": "LinkedIn",
     "cargo": "Employer Branding | Cultura Organizacional | Comunicación & Branding Estratégico | Marca Personal y Posicionamiento de Líderes en LinkedIn | Consultor",
     "pais": "Argentina",
-    "sector": "Servicios profesionales / Consultoría (Employer Branding, Comunicación Estratégica)"
+    "sector": "Servicios profesionales / Consultoría (Employer Branding, Comunicación Estratégica)",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Juan pablo Polastrelli",
@@ -6555,7 +6927,14 @@
     "cargo": "Director Creativo · Especialista en Branding Corporativo, Marketing y Comunicación Empresarial | +10 años impulsando marcas mediante Branding, Publici",
     "pais": "Panamá",
     "sector": "Agencia / Consultoría Creativa",
-    "noInterest": true
+    "noInterest": true,
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Fabián Larobina",
@@ -7484,7 +7863,14 @@
     "cargo": "Sr Recruiter | People & talent | Conectando talento con empresas con propósito",
     "pais": "Argentina",
     "sector": "Salud/Gerontología",
-    "noInterest": true
+    "noInterest": true,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Valeria Buitrago",
@@ -11094,7 +11480,14 @@
     "cargo": "Marketing Manager",
     "pais": "",
     "sector": "",
-    "noInterest": true
+    "noInterest": true,
+    "stageHistory": [
+      {
+        "stage": 4,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Lucas Manuel Granieri",
@@ -11275,7 +11668,14 @@
     "name": "Martin D'Elia",
     "stage": 1,
     "date": "02/09/26",
-    "empresa": "IBM"
+    "empresa": "IBM",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Gustavo Mercau",
@@ -11344,5 +11744,779 @@
     "date": "04/09/26",
     "empresa": "",
     "noInterest": true
+  },
+  {
+    "name": "Juan Pablo Campetella",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Wallbit (YC W23)"
+  },
+  {
+    "name": "Pedro Padis",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Brasil"
+  },
+  {
+    "name": "Juan Manuel Porcaro",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Draper Cygnus"
+  },
+  {
+    "name": "Maria Gabriela Larrosa",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Torneos"
+  },
+  {
+    "name": "Manuel Rojo Vivot",
+    "stage": 2,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores",
+    "estado": "MSG2/explicacion enviada, esperando respuesta"
+  },
+  {
+    "name": "Ale Sarra",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Universidad de Buenos Aires"
+  },
+  {
+    "name": "Nicolás Briasco",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Luciana Domínguez",
+    "stage": 2,
+    "date": "08/09/26",
+    "empresa": "Transmutá Studio",
+    "estado": "Cerrada - no busca servicios por ahora"
+  },
+  {
+    "name": "Javier Treviño",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Walmart de México y Centroamérica"
+  },
+  {
+    "name": "Martín Furmanski",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Tamara De Martino",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Soul Digital"
+  },
+  {
+    "name": "Mercedes Puddu",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Yoel Colombo",
+    "stage": 3,
+    "date": "08/09/26",
+    "empresa": "Estudio YC",
+    "estado": "Dossier ofrecido"
+  },
+  {
+    "name": "Jeremias Rios",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Rosario y alrededores"
+  },
+  {
+    "name": "Francisco Leitao López",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Área metropolitana de Santiago"
+  },
+  {
+    "name": "Agustin Albiero",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Jimena Lovera",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Lucía Cernadas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Relaciones del Trabajo"
+  },
+  {
+    "name": "David Bahamón León",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Sales Navigator",
+    "estado": "No interesado"
+  },
+  {
+    "name": "Lucas Julián Kolaric",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Wayni"
+  },
+  {
+    "name": "Victoria Cabanelas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LATAM)"
+  },
+  {
+    "name": "Matias Lonardi",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Y Combinator"
+  },
+  {
+    "name": "Rafael Morfes",
+    "stage": 2,
+    "date": "08/09/26",
+    "empresa": "Silver.dev",
+    "estado": "Conversacion activa - redirigido a hablar con Gabriel founder via sitio"
+  },
+  {
+    "name": "Julián Giacché",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Mercedes Dori",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LATAM"
+  },
+  {
+    "name": "Maria Lucila Picallo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Bidcom"
+  },
+  {
+    "name": "Nicolás Carril",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Ruben Guttelsohn",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Euro Packaging"
+  },
+  {
+    "name": "Elymar Velásquez González",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Regrow",
+    "estado": "Conversacion activa - aclarando propuesta"
+  },
+  {
+    "name": "Manuel Altomonte",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Área metropolitana de Santiago"
+  },
+  {
+    "name": "Sebastián Lutz",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Ramiro Furtado",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Manteca"
+  },
+  {
+    "name": "Gabriel Miller Pérez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Microsoft, GM, Nokia"
+  },
+  {
+    "name": "Cecilia Camors Montes",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "EL OBSERVADOR"
+  },
+  {
+    "name": "Cristhián Reveco Letelier",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Cervecería Kross."
+  },
+  {
+    "name": "Facundo Marino",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Wallbit (YC W23)"
+  },
+  {
+    "name": "Martin Rubino Gurtubay",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Zepo Intelligence"
+  },
+  {
+    "name": "Ivan Ruesga Pelayo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Cazcabel Tequila"
+  },
+  {
+    "name": "Flavio Balmaceda",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Responsable de Linea Diseño GAMA"
+  },
+  {
+    "name": "Juan Manuel Amorós",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "EMPRELATAM"
+  },
+  {
+    "name": "Horacio Cacciatore",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Fernando H Giannoni",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Roche"
+  },
+  {
+    "name": "Patrick Summers",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Legal Map"
+  },
+  {
+    "name": "YANINA SOLEDAD CIAFFI",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Foto de portada",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "María Angélica Restrepo Uribe"
+  },
+  {
+    "name": "Natalia Giménez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "DavinciBot"
+  },
+  {
+    "name": "Erica Albuquerque",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Consórcio Embracon"
+  },
+  {
+    "name": "Wendy Corti",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Business Development @ JABU"
+  },
+  {
+    "name": "Javier D. Caruso",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Webstarted",
+    "estado": "No interesado"
+  },
+  {
+    "name": "Matias Lerner",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "First Plug"
+  },
+  {
+    "name": "Pedro Lopez Matheu",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": ""
+  },
+  {
+    "name": "Mariano Soca",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Diego Foti",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Gerente de marketing y publicidad"
+  },
+  {
+    "name": "Alejandro Berdomas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "The Workshop Factory"
+  },
+  {
+    "name": "Paulo Gómez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Waiis"
+  },
+  {
+    "name": "Francisco Mato",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Lucia Battistessa",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Renato Cuéllar Álvarez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LatAm"
+  },
+  {
+    "name": "Paula Nadjaria",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Sales Navigator"
+  },
+  {
+    "name": "Juan Francisco Gonzalez Alonso",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "MercadoLibre.com"
+  },
+  {
+    "name": "Andrea Bertone",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LATAM"
+  },
+  {
+    "name": "Silvana Elizabeth Pirchi",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": ""
+  },
+  {
+    "name": "Yanina Laura Capalucci",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "YC Consultora"
+  },
+  {
+    "name": "Daniel Sena",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Mercado Livre"
+  },
+  {
+    "name": "Diego Majlis",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Gabriela Rizzo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "IERIC"
+  },
+  {
+    "name": "Nicolas Exequiel Razquin Pastoriza",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Prevencionista de Riesgos Laborales"
+  },
+  {
+    "name": "Leonardo Martin Fadel",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Julián Vélez Granda",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Nosfui"
+  },
+  {
+    "name": "Noelia Cano",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Blend Expert"
+  },
+  {
+    "name": "Andrés Durban",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Facimex Valores S.A."
+  },
+  {
+    "name": "Julian Abreu",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Bubbl"
+  },
+  {
+    "name": "Beatriz Monreal Haase",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Fernando Faganello",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Angelica Garcia",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "ComunidadFeliz"
+  },
+  {
+    "name": "Gia Gillio",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Accenture Argentina",
+    "estado": "Cerrada - no interesada por ahora, nuevo trabajo Accenture"
+  },
+  {
+    "name": "Juan Paternina",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Publicis Groupe"
+  },
+  {
+    "name": "Alejandro Connolly",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "PUENTE Argentina"
+  },
+  {
+    "name": "Marcos Martos",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "EPET N° 2 Centenario Neuquen"
+  },
+  {
+    "name": "Liliana Gómez Arenas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "GreenSQA"
+  },
+  {
+    "name": "Monica Jimenez Gonzalez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Área metropolitana de Bogotá D.C."
+  },
+  {
+    "name": "Jose Petrillo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Grupo PMP"
+  },
+  {
+    "name": "Matias Baglietto",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Director Comercial"
+  },
+  {
+    "name": "Roberto Sánchez Seaward",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "INCAE"
+  },
+  {
+    "name": "Gastón (GasZ3) Zelarayan",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Yelitza Silva Zambrano",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Camila Ayala Alvarez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Colombia"
+  },
+  {
+    "name": "María de los Milagros Gómez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Customer Success"
+  },
+  {
+    "name": "Sebastian Groppa",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Andres Fajardo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Colombia"
+  },
+  {
+    "name": "Leidy Barragán Hernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Epiroc"
+  },
+  {
+    "name": "Ignacio Adrian (Adrián Lerer) Lerer",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Fer Eillman    ✔",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "TalentCross®️",
+    "estado": "En pausa - foco en problema comercial interno"
+  },
+  {
+    "name": "Sebastián Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Pablo Mlynkiewicz",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Freelance Consultant"
+  },
+  {
+    "name": "Maria Jose Gonzales Chaves",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Silver.dev"
+  },
+  {
+    "name": "Eduardo García Sáenz",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores",
+    "estado": "No interesado - otras prioridades"
+  },
+  {
+    "name": "Germán Reisenauer",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Gervasio Ruiz de Gopegui",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "IRSA"
+  },
+  {
+    "name": "Joaquín María Tagle",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "On The Rocks"
+  },
+  {
+    "name": "Fernando Martinez Avila",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "FMA Coliving"
+  },
+  {
+    "name": "Arq. Erick Kennedy",
+    "stage": 3,
+    "date": "08/09/26",
+    "empresa": "Madera con tecnologia BIM",
+    "estado": "Dossier ofrecido, confirmo interes"
+  },
+  {
+    "name": "Rodrigo Nasif Salum",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": ""
+  },
+  {
+    "name": "Sergio Mastandrea",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Adsmood"
+  },
+  {
+    "name": "Carlos Villar",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Fundador y Presidente - HINS"
+  },
+  {
+    "name": "Hernán Franco",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LINZ GROUP"
+  },
+  {
+    "name": "Tomás Criado",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Epical"
+  },
+  {
+    "name": "Freddy Neuman",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Capybaras Agency"
+  },
+  {
+    "name": "Hector Ruben Giambroni",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Rosario y alrededores"
+  },
+  {
+    "name": "Miguel Angel Montenegro",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Virginia Cuomo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Rigoberto Malca La Rosa",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Ignacio Foyatier",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Innza"
+  },
+  {
+    "name": "Christian Bau",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "SOMOS FINZO"
+  },
+  {
+    "name": "Leonela Varcasia",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Lucas Longarela",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "ARQUITECTOS.LB"
+  },
+  {
+    "name": "Cecilia Inés Giordano",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Ramiro Olivera",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "CALICE"
+  },
+  {
+    "name": "Noelia Gramajo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Gramajo Seybold - Arquitectura"
+  },
+  {
+    "name": "Consuelo Summers",
+    "stage": 3,
+    "date": "08/09/26",
+    "empresa": "Consuelo Summers (independiente)",
+    "estado": "Dossier ofrecido"
+  },
+  {
+    "name": "Patricia Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "VAIRIX",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Lucrecia Maria Burgos",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "ICBA Instituto Cardiovascular",
+    "estado": "MSG1 enviado (override de descarte)"
+  },
+  {
+    "name": "Nelson Irías Núñez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Biif",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Victor Oliva",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "JV Energía Mendoza",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Guillermo Daniel Mussich",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Grupo GDM Anclajes y Fijaciones",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Ricardo Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Municipalidad de San Roque",
+    "estado": "MSG1 enviado (DUDOSO)"
   }
 ]

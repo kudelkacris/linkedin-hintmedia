@@ -602,7 +602,7 @@ REGLAS MSG1:
   EJEMPLO COMPLETO DE SALIDA CORRECTA (respetar este largo como referencia):
   MSG1_B1: Buenas Carol! Tu post de los Diálogos sobre Compras Públicas me quedó dando vueltas. No invitaste a hablar de normativa, invitaste a hablar de cómo tomar mejores decisiones. Eso no es lo que suele comunicar un VP jurídico.
   MSG1_B2: En Hint Media trabajamos con organizaciones como TGS en construir la narrativa que hace legible lo que la infraestructura hace, antes de que el cliente llegue a preguntar.
-  MSG1_B3: Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene.
+  MSG1_B3: Te cuento cómo lo resolvimos con esas empresas?
 
   BURBUJA 1 — SEÑAL + INSIGHT:
   "Buenas [nombre]!" + señal concreta + 1 línea de interpretación. TODO en una sola línea de output, sin saltos internos.
@@ -629,23 +629,23 @@ REGLAS MSG1:
   PROHIBIDO usar Agora fuera del sector tech/software/app.
   PROHIBIDO usar Grupo One Entertainment fuera del sector entretenimiento/festivales/eventos.
 
-  BURBUJA 3 — CTA (dossier + reunión, elegir variante según TIPO_CONTACTO):
+  BURBUJA 3 — CTA de curiosidad (elegir variante según TIPO_CONTACTO):
   Usar la variante que corresponde según el TIPO_CONTACTO indicado en el prompt.
 
   VARIANTE_DECISOR (para Director / VP / CEO / C-Level):
-  "Si te parece, te envío el dossier con esos casos y lo vemos en una llamada de 20 minutos la semana que viene."
+  "Te cuento cómo lo resolvimos con esas empresas?"
 
   VARIANTE_DESCONOCIDO (cuando no se sabe si es decisor):
-  "Si te parece, te envío el dossier con esos casos. Cuando lo revises me comentás qué te pareció y, si tiene sentido, coordinamos una llamada."
+  "Vale la pena que te cuente cómo lo trabajamos con esas empresas?"
 
   VARIANTE_NO_DECISOR (para Specialist / Analyst / Coordinator / Manager sin poder de compra claro):
-  "Si te parece, te envío el dossier con esos casos. Quizás tiene sentido que lo revises primero y, si le encontrás valor, lo compartís con quien corresponda."
+  "Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
 
   REGLAS BURBUJA 3:
   - Usar EXACTAMENTE la frase de la variante que corresponde. No parafrasear.
-  - PROHIBIDO terminar con pregunta. El CTA es una oferta, no una interrogación.
+  - PROHIBIDO mencionar dossier, reunión o llamada en B3. Eso llega cuando el prospecto responde.
   - PROHIBIDO "¿te puedo enviar...?", "si querés...", "en algún momento...", "cuando tengas tiempo..."
-  - El prospecto decide una sola vez (dossier + reunión juntos). No pedir permiso dos veces.
+  - El objetivo de B3 es CURIOSIDAD, no cierre. La reunión surge de la conversación, no se fuerza.
 
 
 ACTUALIZACIÓN V2 — MENOS CONSULTOR, MÁS CONVERSACIÓN
@@ -963,39 +963,97 @@ function trimProfile(raw) {
     /^\d+\s*[·•]\s*\d+$/,
     /^Ver perfil de /i,
     /^[·•]\s*(1er|2º|3º|1st|2nd|3rd)$/i,
+    /^Ver empresa:/i,
+    /^\d[\d.,]*\s+seguidores?$/i,
   ];
 
   const lines = raw.split('\n');
   const result = [];
-  let skipBlock = false;
   const seenLong = new Set();
+
+  // Section state machine
+  let section = 'header'; // header | skip | about | destacado | activity | experience | done
+  let actCount = 0;       // own activity posts included
+  let inCompanyPost = false;
+  let expLines = 0;
 
   for (let i = 0; i < lines.length; i++) {
     const t = lines[i].trim();
 
-    // "Otros perfiles seguidos" — skip block until major section
-    if (/^Otros perfiles seguidos junto con/i.test(t)) {
-      skipBlock = true;
-      continue;
+    // ── Section transitions ───────────────────────────────────────────
+    if (/^Otros perfiles seguidos/i.test(t))          { section = 'skip'; continue; }
+    if (/^Acerca de$/i.test(t))                        { section = 'about'; result.push(lines[i]); continue; }
+    if (/^Destacado$/i.test(t))                        { section = 'destacado'; continue; } // SKIP entirely
+    if (/^Actividad$/i.test(t))                        { section = 'activity'; result.push(lines[i]); continue; }
+    if (/^Experiencia$/i.test(t))                      { section = 'experience'; result.push(lines[i]); continue; }
+    if (/^(Formación|Educación|Aptitudes|Principales aptitudes|Idiomas|Certificaciones|Logros|Proyectos|Voluntariado|Intereses)$/i.test(t)) {
+      section = 'done'; break;
     }
-    if (skipBlock) {
-      if (/^(Actividad|Experiencia|Formación|Educación|Destacado|Intereses)$/i.test(t)) {
-        skipBlock = false;
-        result.push(lines[i]);
+
+    // ── Skip section (Otros perfiles) ────────────────────────────────
+    if (section === 'skip') {
+      if (/^(Acerca de|Destacado|Actividad|Experiencia)$/i.test(t)) {
+        if (/^Destacado$/i.test(t)) { section = 'destacado'; }
+        else if (/^Acerca de$/i.test(t)) { section = 'about'; result.push(lines[i]); }
+        else if (/^Actividad$/i.test(t)) { section = 'activity'; result.push(lines[i]); }
+        else if (/^Experiencia$/i.test(t)) { section = 'experience'; result.push(lines[i]); }
       }
       continue;
     }
 
-    if (t && SKIP_LINE.some(p => p.test(t))) continue;
+    // ── Destacado: skip entire section ───────────────────────────────
+    if (section === 'destacado') continue;
 
-    // Deduplicate long lines (duplicate posts in activity section)
-    if (t.length >= 70) {
-      const key = t.substring(0, 80);
-      if (seenLong.has(key)) continue;
-      seenLong.add(key);
+    // ── Done ─────────────────────────────────────────────────────────
+    if (section === 'done') break;
+
+    // ── Universal noise filter ────────────────────────────────────────
+    if (!t) { result.push(lines[i]); continue; } // preserve blank lines for later collapse
+    if (SKIP_LINE.some(p => p.test(t))) continue;
+
+    // ── Header / About: include everything ───────────────────────────
+    if (section === 'header' || section === 'about') {
+      if (t.length >= 70) {
+        const key = t.substring(0, 80);
+        if (seenLong.has(key)) continue;
+        seenLong.add(key);
+      }
+      result.push(lines[i]);
+      continue;
     }
 
-    result.push(lines[i]);
+    // ── Activity: own posts only, max 2 ──────────────────────────────
+    if (section === 'activity') {
+      // "Ver empresa:" marks start of a company-attributed post — skip it
+      if (/^Ver empresa:/i.test(t)) { inCompanyPost = true; continue; }
+
+      // Timestamp line like "2 días •" marks start of a new post
+      if (/^\d+\s*(día|semana|mes|año|hora|minuto)/i.test(t) && /[•·]/.test(t)) {
+        if (inCompanyPost) continue; // company post timestamp, ignore
+        actCount++;
+        if (actCount > 2) continue;
+      }
+
+      if (inCompanyPost) continue;
+      if (actCount > 2) continue;
+
+      // Deduplicate (headline repeated inside activity block)
+      if (t.length >= 70) {
+        const key = t.substring(0, 80);
+        if (seenLong.has(key)) continue;
+        seenLong.add(key);
+      }
+      result.push(lines[i]);
+      continue;
+    }
+
+    // ── Experience: only first entry (~25 lines) ──────────────────────
+    if (section === 'experience') {
+      expLines++;
+      if (expLines > 25) continue;
+      result.push(lines[i]);
+      continue;
+    }
   }
 
   // Collapse multiple blank lines to one
@@ -1006,7 +1064,7 @@ function trimProfile(raw) {
     else { blanks = 0; out.push(line); }
   }
 
-  return out.join('\n').trim();
+  return out.join('\n').trim().substring(0, 3000);
 }
 
 // ─── GENERATE OPENERS ───────────────────────────────────────────────
@@ -1095,7 +1153,7 @@ MSG1_B3: (burbuja 3: usar EXACTAMENTE la variante que corresponde al TIPO_CONTAC
   const fullPrompt = hieContext ? `${hieContext}\n\n${prompt}` : prompt;
 
   try {
-    const text = await callAPI(fullPrompt, SYSTEM);
+    const text = await callAPI(fullPrompt, SYSTEM, 2000);
     state.rawText = text;
     renderVariants(text);
     state.conversationHistory.push({ role: 'system', text: `Perfil analizado: ${profile.substring(0,300)}` });
@@ -1681,11 +1739,11 @@ function addNextStep(currentStep) {
 }
 
 // ─── API CALL (via servidor local) ──────────────────────────────────
-async function callAPI(prompt, system) {
+async function callAPI(prompt, system, maxTokens) {
   const res = await fetch('/api/generate', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ prompt, system: system || '' })
+    body: JSON.stringify({ prompt, system: system || '', max_tokens: maxTokens || 1500 })
   });
   const data = await res.json();
   if (!res.ok || data.error) throw new Error(data.error || 'Error en la API');

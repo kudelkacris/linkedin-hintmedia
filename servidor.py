@@ -169,6 +169,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     content = f.read()
                 self.send_response(200)
                 self.send_header('Content-Type', 'text/html; charset=utf-8')
+                self.send_header('Cache-Control', 'no-store')
                 self.end_headers()
                 self.wfile.write(content.encode('utf-8'))
             except:
@@ -223,9 +224,10 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             prompt = data.get('prompt', '')
             system = data.get('system', '')
             try:
+                req_max_tokens = data.get('max_tokens', 1500)
                 payload = {
                     'model': 'claude-haiku-4-5-20251001',
-                    'max_tokens': 4500,
+                    'max_tokens': req_max_tokens,
                     'messages': [{'role': 'user', 'content': prompt}]
                 }
                 if system:
