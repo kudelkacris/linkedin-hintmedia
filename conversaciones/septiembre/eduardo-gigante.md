@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Minería / Energía / Litio
-**Estado:** MSG2 enviado
+**Estado:** Conversación activa — sin venta, cultivando relación (paso 1 de 3 del plan de referido)
 
 ---
 
@@ -41,5 +41,19 @@
 
 ---
 
+## Respuesta Eduardo (segunda, extensa)
+> Eduardo (15:48): respuesta larga y sustanciosa sobre las dimensiones del recurso litio (técnica, legal, social, ambiental) y cómo su interacción define el "ecosistema de desarrollo". Plantea que las mineras conocen la dinámica pero no comprenden bien la interacción entre dimensiones (ej. dominan lo comunitario pero no I+D ni geopolítica del recurso + vínculo académico). Conclusión: insistir solo en comunicar extracción tapa los logros reales en desarrollo territorial.
+
+**Decisión (09/09):** NO vender en esta respuesta. Es una conversación genuina de alto nivel intelectual, no una consulta comercial — responder con el mismo espíritu, sin CTA ni mención de Hint. Mantener la puerta abierta a que él mismo pregunte por Hint más adelante (mismo patrón que "dejar que pregunten" de casos de marca personal).
+
+## Respuesta enviada (sin venta)
+> Uy Eduardo, gracias por semejante respuesta. Me quedo con esa distinción entre conocer la dinámica y comprender cómo interactúan esas dimensiones, ahí parece estar el nudo real. Y coincido en que el problema no es hablar de extracción, sino que eso tape todo lo demás que sí están logrando en el territorio.
+
 ## Notas
 - Eduardo es profesor/consultor, sin empresa propia con budget de marketing. Sin CTA de dossier en MSG2 a propósito. Valor potencial: red de contactos en minería/litio (ex Director Nacional de Litio y Baterías, consultor sector).
+- Nivel de profundidad e involucramiento alto — vale la pena cultivar la relación en el tiempo, no apurar el pitch. Buen candidato a referido dentro del ecosistema litio/minería.
+
+**Plan para conseguir referido (09/09, sin ejecutar todavía):**
+1. Sostener 1-2 intercambios más con el mismo tono intelectual, sin CTA — construir confianza real primero.
+2. Cuando surja naturalmente, reencuadrar el dossier como recurso para que ÉL comparta con alguna minera en ese punto ciego (no como venta a él): "Justo por lo que describís, tenemos casos concretos de cómo se resuelve esto en la práctica. Si te cruzás con alguna minera que esté en ese punto ciego que mencionás, capaz les sirve. Te lo mando por si querés tenerlo a mano."
+3. Si responde bien a eso, ahí sí preguntar directo: "Se te ocurre alguna empresa del sector a la que le sirva esto?" — nunca "pasame contactos".

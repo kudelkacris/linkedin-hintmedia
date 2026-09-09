@@ -141,7 +141,7 @@
     "sector": "Consultoría",
     "pais": "Chile",
     "stage": "2",
-    "estado": "MSG2 enviado - filtro pre-reunión",
+    "estado": "Declinó (74 años, interés epistémico) - conversación activa sin venta",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -1435,7 +1435,7 @@
     "sector": "Litio/Gobierno",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "Conversación activa sin venta - potencial referido",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -1985,7 +1985,7 @@
         "note": ""
       }
     ],
-    "estado": "MSG2 enviado - filtro pre-reunión"
+    "estado": "Declinó (74 años, interés epistémico) - conversación activa sin venta"
   },
   {
     "id": "1788894405409",
@@ -2105,7 +2105,8 @@
         "date": "08/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "Conversación activa sin venta - potencial referido"
   },
   {
     "id": "1788893535373",

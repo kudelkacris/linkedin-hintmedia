@@ -4,7 +4,12 @@
 
 ---
 
-## Última sesión: 09/09/26 (procesando respuestas al batch del 08/09)
+## Última sesión: 09/09/26 (procesando respuestas al batch del 08/09) — cierre
+
+- **Nueva pauta de metodología: "no vender" cuando corresponde.** Con prospectos que responden con contenido genuino/intelectual (no comercial) o que declinan explícitamente por no ser compradores, la jugada es sostener la charla sin CTA ni mención de Hint, cultivando la relación por si deriva a alguien de su red más adelante. Dos casos hoy:
+  - **Eduardo Gigante** (consultor litio/minería, ex funcionario): respondió con análisis extenso y genuino sobre dimensiones del recurso litio. Se le contestó sin vender. Plan de 3 pasos guardado en su .md para eventualmente pedir referido (nunca antes de 1-2 intercambios más).
+  - **Sergio Slipczuk** (consultor RRHH, 74 años, Chile): tras el filtro pre-reunión, declinó explícito ("estoy de salida del mercado... interés puramente epistémico, no soy comprador"). **Confirma que el filtro nuevo funciona** — evitó coordinar una llamada sin intención de compra. Se sigue la charla en tono intelectual, sin venta, por su red de contactos corporativos (Techint, Antofagasta Minerals, Banco de Chile, Collahuasi).
+- Commit + push a ambos repos pendiente de cierre.
 
 - **Nueva regla de metodología:** antes de coordinar cualquier reunión, siempre mandar primero un mensaje filtro explicando qué hace Hint y preguntando si tiene sentido para lo que la persona está armando — sin importar el nivel de engagement. Ver `[[feedback-filtrar-antes-de-reunion]]` en memoria. Ya evitó una reunión sin fit real (Pablo Mlynkiewicz).
 - **Estadística real del batch 08/09:** 141 mensajes (MSG1/MSG2) con fecha 08/09/26 en historial.json. Solo 23 respondieron de verdad (16.3%) — 5 registros con estado "MSG1 enviado" no son respuestas reales, son solo el log del envío.
