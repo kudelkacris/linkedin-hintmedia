@@ -5,7 +5,7 @@
 **Empresa:** DavinciBot
 **Pais:** Uruguay
 **Sector:** Tech / SaaS (plataforma de comunicación omnicanal)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 propuesto (pendiente confirmar envío)
 
 ---
 
@@ -26,5 +26,15 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta y seguimiento
+> Natalia (16:48): vale la pena sí.
+
+**IMPORTANTE — error de cliente-fuera-de-sector en MSG1:** citó Sullair y Destiny Group (industria/turismo) para una prospecta de tech/SaaS (DavinciBot, plataforma omnicanal con IA). Corresponde Agora (tech/SaaS/plataformas). No se puede deshacer el MSG1 ya enviado.
+
+**MSG2 propuesto (corrige el cliente a Agora):**
+> Te cuento cómo lo armamos: tomamos la transformación técnica que lidera un equipo, como el crecimiento de DavinciBot, y construimos el relato que la vuelve visible afuera. Contenido, casos, la voz de quien lidera el cambio, para que el mercado entienda el valor sin perderse en la explicación técnica.
+> Con Agora trabajamos justo esa capa en tech.
+> Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Consultoría independiente
 **Pais:** Chile
 **Sector:** Consultoría / Formación / Recursos Humanos / Organizacional
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — filtro pre-reunión
 
 ---
 
@@ -26,5 +26,11 @@
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
 ---
+
+## Respuesta y seguimiento
+> Sergio (19:28): Siempre tiene sentido. Hablemos.
+> Florencia: filtro antes de agendar (regla nueva 08/09) — "Antes de agendar, te cuento en corto de qué se trata... Tiene sentido para lo que estás armando con tu consultoría? Si es así, lo hablamos en una llamada."
+
+**Perfil:** 25+ años consultoría independiente, clientes corporativos reales (Techint, Banco de Chile, Antofagasta Minerals, Collahuasi, Entel, Novartis, Scotiabank) — presupuesto real, a diferencia de Victor Oliva/Pablo Mlynkiewicz. Ojo: actividad reciente en LinkedIn errática (geopolítica, contenido pseudocientífico) — no descalifica pero personalidad puede ser difícil de asesorar en tono. Clasificación: ENTRE PARES.
 
 ## Notas

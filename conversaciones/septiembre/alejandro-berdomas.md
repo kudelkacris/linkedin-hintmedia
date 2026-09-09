@@ -5,7 +5,7 @@
 **Empresa:** The Workshop Factory
 **Pais:** Argentina
 **Sector:** Educación / SaaS / Marketing Services (SAMY es plataforma de marketing)
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo resolvimos con esas empresas?
 
 ---
+
+## Respuesta y cierre
+> Alejandro (0:49): No, muchas gracias!
+> Florencia: Dale Alejandro, gracias por avisar. Saludos!
 
 ## Notas

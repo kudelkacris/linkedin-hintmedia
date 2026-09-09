@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Recruiting / Recursos Humanos (con expansión hacia Oil & Gas y Minería)
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo resolvimos con esas empresas?
 
 ---
+
+## Respuesta y cierre
+> Sebastián (16:20): Gracias, no por el momento.
+> Florencia: Sin problema, gracias por avisarme. Si en algún momento te sirve, me escribís sin drama.
 
 ## Notas

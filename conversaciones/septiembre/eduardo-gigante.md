@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Minería / Energía / Litio
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -27,4 +27,19 @@
 
 ---
 
+## Respuesta Eduardo
+> Hola Florencia, ante todo mucho gusto y gracias por el contacto. Si por supuesto, comentame de los trabajos que vienen llevando a cabo.
+
+---
+
+## MSG2
+> Buenas Eduardo, un gusto también.
+>
+> Lo que más me interesa de tu post es esa distinción entre extracción y ecosistema de conocimiento. En Hint Media trabajamos la comunicación de proyectos mineros y energéticos de escala, como TGS y Transener, ayudando a que esa complejidad llegue clara a gobierno, inversores y comunidad.
+>
+> Con tu mirada desde adentro del sector litio, te pregunto: ese problema de comunicar solo la extracción y no el desarrollo territorial, lo ves como algo que las empresas del sector todavía no resolvieron bien?
+
+---
+
 ## Notas
+- Eduardo es profesor/consultor, sin empresa propia con budget de marketing. Sin CTA de dossier en MSG2 a propósito. Valor potencial: red de contactos en minería/litio (ex Director Nacional de Litio y Baterías, consultor sector).

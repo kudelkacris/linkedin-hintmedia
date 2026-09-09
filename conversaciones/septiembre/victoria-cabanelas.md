@@ -5,7 +5,7 @@
 **Empresa:** LATAM)
 **Pais:** Argentina
 **Sector:** Agencia / SaaS / Consultoría Empresarial
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
 ---
+
+## Cierre
+> Victoria (13:18): Gracias Florencia, no estoy interesada en esos servicios. Saludos.
+> Florencia: Gracias a vos Victoria, un gusto igual. Saludos!
 
 ## Notas

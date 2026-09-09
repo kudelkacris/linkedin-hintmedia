@@ -5,7 +5,7 @@
 **Empresa:** LiThron
 **Pais:** Argentina
 **Sector:** Energía, Minería, Sustentabilidad
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — soft close (recontact: 2026-11-08)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo trabajamos en esos casos?
 
 ---
+
+## Respuesta y cierre
+> Jorge (19:51): Hola Florencia, buenas tardes. Por el momento, no pero lo tendre en cuenta. Muchas gracias!! Saludos.
+> Florencia: Gracias Jorge, todo bien. Quedo por acá si en algún momento cambia.
 
 ## Notas

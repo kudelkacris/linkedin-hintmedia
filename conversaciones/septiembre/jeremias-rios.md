@@ -5,7 +5,7 @@
 **Empresa:** Rosario y alrededores
 **Pais:** Argentina
 **Sector:** Deportes / Entretenimiento
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — filtro pre-reunión (pidió reunión, dio celular: 3415703006)
 
 ---
 
@@ -26,5 +26,11 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta y seguimiento
+> Jeremias (9:10): Florencia. Como estas? Gracias por tu mensaje. Agradezco mucho tu ofrecimiento, cuando quieras hablamos y te cuento un poco la situacion del club. Te dejo mi celular: 3415703006
+> Florencia: filtro antes de coordinar la llamada — "En Hint Media ayudamos a instituciones a que lo que ya vienen construyendo... tenga ejecución de contenido consistente sin sobrecargar al equipo. Con Destiny Group trabajamos justo ese tipo de ejecución. Tiene sentido para lo que están armando en Newell's? Si es así, coordinamos la llamada."
+
+**Perfil:** Gerente de Marketing real (empleado, con equipo y presupuesto) en Newell's Old Boys — clasificación CONSULTIVA. Alto engagement, dio celular directo. Si confirma, llamar al celular (no forzar Google Meet, el canal ya lo definió él).
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Transformación Organizacional / Consultoría Estratégica (cross-sector)
-**Estado:** MSG1 enviado
+**Estado:** Recontacto programado (motivo de salud) — recontact: 2026-11-01
 
 ---
 
@@ -26,5 +26,11 @@
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
 ---
+
+## Respuesta y seguimiento
+> Virginia (18:55): Hola Flor, estoy atravesando un momento de salud complejo, quizas más adelante podamos compartir experiencias y evaluar sinergias.
+> Florencia: Hola Virginia, gracias por contarme. Ojalá te recuperes pronto, no hay ningún apuro. Cuando quieras retomamos, con gusto.
+
+Tema sensible — sin CTA, sin pitch. Recontactar en 1-2 meses (nov/26), nunca antes.
 
 ## Notas

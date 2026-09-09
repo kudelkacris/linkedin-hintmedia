@@ -30,6 +30,9 @@
 ## Respuesta y seguimiento
 > Yoel (15:20): Hola Florencia, si vale la pena creo.
 > Florencia: explicación de cómo trabajamos (narrativa + vocería sostenida, clientes TGS/Transener) + oferta de dossier.
-> Yoel: sin respuesta aún, dossier ofrecido.
+> Yoel (11:37, día siguiente): Si, mandame.
+> Florencia: dossier enviado.
+
+**Próximo paso:** SEG1 en 48-72hs si no responde tras recibir el dossier.
 
 ## Notas

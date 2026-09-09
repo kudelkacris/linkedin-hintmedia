@@ -5,7 +5,7 @@
 **Empresa:** On The Rocks
 **Pais:** Argentina
 **Sector:** Tech & Fintech (servicios de comunicación)
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Cierre
+> Joaquín (16:18): Buenas, no, gracias.
+> Florencia: Dale Joaquín, gracias por avisar. Saludos!
 
 ## Notas

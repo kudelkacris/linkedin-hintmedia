@@ -34,4 +34,10 @@
 
 **IMPORTANTE — error de MSG1 corregido:** el MSG1 citó TGS y Transener (energía) para un consultor de construcción en madera — no calza. Debería ser Sullair (industria/construcción). Corregido en la explicación posterior.
 
+**IMPORTANTE — frase blocklist usada (08/09):** la explicación de Hint incluyó "Somos una agencia de comunicación" — frase explícitamente prohibida en CLAUDE.md. No repetir. Ya salió y no se puede deshacer, pero corregir en próximos mensajes similares.
+
+## Cierre / próximo paso
+> Erick (16:27): Perfecto (confirmó recibir dossier + eventual reunión).
+> **Acción pendiente:** enviar dossier — jefe/Florencia debe mandarlo. Marcar Estado stage 3 confirmado.
+
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Área metropolitana de Bogotá D.C.
 **Pais:** Argentina
 **Sector:** Energía / Oil & Gas
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — cierre neutro (noInterest)
 
 ---
 
@@ -26,5 +26,11 @@
 > Vale la pena que te cuente cómo lo resolvemos con esas empresas?
 
 ---
+
+## Respuesta y cierre
+> Monica (16:57): Gracias por tu feedback Florencia. Saludos, Monica.
+> Florencia: Gracias a vos Monica, un gusto. Si en algún momento tiene sentido retomarlo, me escribís.
+
+Nota: no se enganchó con la pregunta del MSG1, cierre educado sin apertura. Alta seniority (Board Member/General Counsel) — no forzar.
 
 ## Notas

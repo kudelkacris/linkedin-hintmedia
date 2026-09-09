@@ -5,7 +5,7 @@
 **Empresa:** Regrow
 **Pais:** Argentina
 **Sector:** Multi-sector (SaaS, eCommerce, FMCG, Fintech, Turismo, Agencias)
-**Estado:** Conversación activa — aclarando propuesta, esperando respuesta
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -32,5 +32,9 @@
 > Florencia: aclaración simple — Hint es agencia de comunicación (contenido, redes, vocería de marca), ver si a ella o algún cliente le sirve sumar esa capa. (corregido: se sacó mención de "colaboración" porque Hint no hace trabajo gratuito/trueque, todo es pago)
 
 **Nota MSG1:** el mensaje original mezclaba conceptos (equipo integrado tipo staff augmentation + narrativa) y quedó confuso — de ahí la pregunta de Elymar. Para próximos mensajes similares, mantener el pitch más simple y directo.
+
+## Cierre
+> Elymar (13:06): No Florencia, muchas gracias.
+> Florencia: Todo bien Elymar, gracias por avisar. Cualquier cosa quedo por acá.
 
 ## Notas

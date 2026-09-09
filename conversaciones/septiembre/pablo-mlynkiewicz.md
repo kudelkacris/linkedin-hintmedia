@@ -5,7 +5,7 @@
 **Empresa:** Freelance Consultant
 **Pais:** Argentina
 **Sector:** Tech/SaaS, Fintech, Energía (potencial), Sector Público
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (noInterest)
 
 ---
 
@@ -26,5 +26,12 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta y seguimiento
+> Pablo (17:54): Hola Florencia, buenas tardes! Gracias por escribirme y por agregarme a tu red de contactos. Muy bueno lo que decis, claro, charlemos. Pasame opciones de agenda y nos organizamos!
+> Florencia: filtro antes de agendar — explicación breve de qué hace Hint (presencia pública para quien lidera un tema complejo) conectado a su transición reciente a consultor independiente, cierre con "Tiene sentido para lo que estás armando?"
+> Pablo (14:16): Gracias Florencia por la aclaración. No estoy interesado por el momento. Saludos y gracias.
+
+**Clasificación fit cliente:** freelance recién independizado (2 meses), sin presupuesto de agencia todavía — el filtro confirmó que no era el momento. Cierre cordial enviado.
 
 ## Notas

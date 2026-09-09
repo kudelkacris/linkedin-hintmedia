@@ -140,8 +140,8 @@
     "empresa": "Consultoría individual",
     "sector": "Consultoría",
     "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
+    "stage": "2",
+    "estado": "MSG2 enviado - filtro pre-reunión",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -385,7 +385,7 @@
     "sector": "Academia/Minería",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "MSG1 enviado",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -967,9 +967,10 @@
     "sector": "Litio/Energía",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "Cierre suave - por el momento no",
     "date": "07/09/26",
-    "lista": "mining-chile-argentina"
+    "lista": "mining-chile-argentina",
+    "recontact": "2026-11-08"
   },
   {
     "id": "jonathan-josafat-rivas-carvajal",
@@ -1976,14 +1977,15 @@
         "text": "Buenas Sergio! Me quedó esa impresión en tu perfil: desarrollaste metodologías que entrenan a 900+ personas simultáneamente sin sacarlas del puesto, midiendo impacto individual. No es lo que suele priorizar la mayoría cuando diseña para escala.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en escalar ejecución de marketing y comunicación sin que pierda coherencia ni personalización por geografía o equipo. Es el mismo desafío que resolvés vos, pero en otro frente.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
         "date": "08/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "MSG2 enviado - filtro pre-reunión"
   },
   {
     "id": "1788894405409",
@@ -11793,7 +11795,14 @@
     "stage": 2,
     "date": "08/09/26",
     "empresa": "Transmutá Studio",
-    "estado": "Cerrada - no busca servicios por ahora"
+    "estado": "Cerrada - no busca servicios por ahora",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Javier Treviño",
@@ -11824,13 +11833,15 @@
     "stage": 3,
     "date": "08/09/26",
     "empresa": "Estudio YC",
-    "estado": "Dossier ofrecido"
+    "estado": "Dossier enviado"
   },
   {
     "name": "Jeremias Rios",
-    "stage": 1,
+    "stage": "2",
     "date": "08/09/26",
-    "empresa": "Rosario y alrededores"
+    "empresa": "Rosario y alrededores",
+    "estado": "MSG2 enviado - filtro pre-reunión",
+    "id": "jeremias-rios-newells"
   },
   {
     "name": "Francisco Leitao López",
@@ -11873,7 +11884,10 @@
     "name": "Victoria Cabanelas",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "LATAM)"
+    "empresa": "LATAM)",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "victoria-cabanelas"
   },
   {
     "name": "Matias Lonardi",
@@ -11923,7 +11937,9 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Regrow",
-    "estado": "Conversacion activa - aclarando propuesta"
+    "estado": "Cerrado - sin interés",
+    "noInterest": true,
+    "id": "elymar-velasquez-gonzalez"
   },
   {
     "name": "Manuel Altomonte",
@@ -12044,7 +12060,14 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Webstarted",
-    "estado": "No interesado"
+    "estado": "No interesado",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Matias Lerner",
@@ -12074,7 +12097,10 @@
     "name": "Alejandro Berdomas",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "The Workshop Factory"
+    "empresa": "The Workshop Factory",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "alejandro-berdomas"
   },
   {
     "name": "Paulo Gómez",
@@ -12207,7 +12233,14 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Accenture Argentina",
-    "estado": "Cerrada - no interesada por ahora, nuevo trabajo Accenture"
+    "estado": "Cerrada - no interesada por ahora, nuevo trabajo Accenture",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Juan Paternina",
@@ -12237,7 +12270,10 @@
     "name": "Monica Jimenez Gonzalez",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Área metropolitana de Bogotá D.C."
+    "empresa": "Área metropolitana de Bogotá D.C.",
+    "noInterest": true,
+    "estado": "Cerrado - cierre neutro",
+    "id": "monica-jimenez-gonzalez"
   },
   {
     "name": "Jose Petrillo",
@@ -12303,7 +12339,14 @@
     "name": "Ignacio Adrian (Adrián Lerer) Lerer",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
+    "empresa": "Buenos Aires y alrededores",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Fer Eillman    ✔",
@@ -12316,13 +12359,19 @@
     "name": "Sebastián Fernández",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
+    "empresa": "Buenos Aires y alrededores",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "sebastian-fernandez-ovidio"
   },
   {
     "name": "Pablo Mlynkiewicz",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Freelance Consultant"
+    "empresa": "Freelance Consultant",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "pablo-mlynkiewicz"
   },
   {
     "name": "Maria Jose Gonzales Chaves",
@@ -12353,7 +12402,10 @@
     "name": "Joaquín María Tagle",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "On The Rocks"
+    "empresa": "On The Rocks",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "joaquin-maria-tagle"
   },
   {
     "name": "Fernando Martinez Avila",
@@ -12366,7 +12418,7 @@
     "stage": 3,
     "date": "08/09/26",
     "empresa": "Madera con tecnologia BIM",
-    "estado": "Dossier ofrecido, confirmo interes"
+    "estado": "Dossier confirmado - pendiente envío"
   },
   {
     "name": "Rodrigo Nasif Salum",
@@ -12420,7 +12472,10 @@
     "name": "Virginia Cuomo",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Argentina"
+    "empresa": "Argentina",
+    "recontact": "2026-11-01",
+    "estado": "Recontacto programado (motivo de salud)",
+    "id": "virginia-cuomo"
   },
   {
     "name": "Rigoberto Malca La Rosa",
@@ -12500,10 +12555,11 @@
   },
   {
     "name": "Victor Oliva",
-    "stage": 1,
+    "stage": "2",
     "date": "08/09/26",
     "empresa": "JV Energía Mendoza",
-    "estado": "MSG1 enviado"
+    "estado": "MSG2 enviado - dossier ofrecido",
+    "id": "victor-oliva-jv-energia"
   },
   {
     "name": "Guillermo Daniel Mussich",
