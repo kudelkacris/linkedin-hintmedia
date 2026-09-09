@@ -5,7 +5,7 @@
 **Empresa:** Customer Success
 **Pais:** Argentina
 **Sector:** SaaS / Tech
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — filtro pre-reunión
 
 ---
 
@@ -26,5 +26,13 @@
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
 ---
+
+## Respuesta y seguimiento
+> María (14:54): Hola Florencia, gracias por notarlo! desde ya si me encantaria.
+> Florencia: "Que bueno! Te cuento cortito: ayudamos a que la forma en que un equipo resuelve y comunica hacia el cliente se sostenga con voz y contenido propio, sin que dependa de una sola persona explicando todo cada vez. Con Agora trabajamos justo eso en tech. Te parece que tiene sentido para lo que hacés en digi? Si es así, lo vemos en una llamada."
+
+**IMPORTANTE — error de cliente corregido:** el MSG1 citó TGS y Transener (energía) para una prospecta de SaaS/Fintech (digi, YC W22) — no calza. Corresponde Agora (tech/SaaS). Corregido en el MSG2.
+
+**Perfil:** Customer Success Manager en digi (fintech SaaS, YC W22 | Start Path), 4+ años, con equipo a cargo (OKRs, onboarding, KPIs, upselling) — real, no freelancer. Clasificación si pide reunión: CONSULTIVA (Manager). Todo pago, sin excepciones — no ofrecer nada gratuito si lo pregunta.
 
 ## Notas

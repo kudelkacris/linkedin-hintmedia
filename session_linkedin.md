@@ -4,7 +4,19 @@
 
 ---
 
-## Última sesión: 08/09/26
+## Última sesión: 09/09/26 (procesando respuestas al batch del 08/09)
+
+- **Nueva regla de metodología:** antes de coordinar cualquier reunión, siempre mandar primero un mensaje filtro explicando qué hace Hint y preguntando si tiene sentido para lo que la persona está armando — sin importar el nivel de engagement. Ver `[[feedback-filtrar-antes-de-reunion]]` en memoria. Ya evitó una reunión sin fit real (Pablo Mlynkiewicz).
+- **Estadística real del batch 08/09:** 141 mensajes (MSG1/MSG2) con fecha 08/09/26 en historial.json. Solo 23 respondieron de verdad (16.3%) — 5 registros con estado "MSG1 enviado" no son respuestas reales, son solo el log del envío.
+- **Cerrados sin interés (08/09→09/09):** Sebastián Fernández, Monica Jimenez Gonzalez, Pablo Mlynkiewicz (tras filtro), Alejandro Berdomas, Elymar Velásquez González, Victoria Cabanelas, Joaquín María Tagle.
+- **Recontacto programado:** Virginia Cuomo (motivo de salud, nov/26), Jorge N. Peña (cierre suave, nov/26).
+- **Dossier:** Yoel Colombo (enviado), Arq. Erick Kennedy (confirmado "Perfecto", pendiente que el jefe lo envíe). Nota: el mensaje a Erick usó la frase blocklist "Somos una agencia de comunicación" — no repetir.
+- **Conversaciones activas con MSG2/filtro enviado:** Sergio Slipczuk (alto interés, "Siempre tiene sentido"), Jeremias Rios (Gerente Marketing Newell's, dio celular 3415703006), María de los Milagros Gómez (CS Manager en digi/fintech, muy interesada), Victor Oliva (dossier ofrecido, clasificado DUDOSO como cliente directo — mejor como referido, ver su .md), Natalia Giménez (MSG2 propuesto, corrige cliente a Agora por error de sector en MSG1).
+- **Errores de cliente-fuera-de-sector corregidos en MSG2 (no en el MSG1 ya enviado):** Natalia Giménez y María de los Milagros Gómez — MSG1 citó TGS/Transener (energía) para prospectas de tech/SaaS. Corresponde Agora. Revisar antes de futuros MSG1 en sector tech/SaaS/fintech.
+- **Nora Fiorini:** contacto de batch anterior (07/09) que escribió cordialmente sin pedir nada — se le mandó pitch directo de Hint (sin curiosidad previa) por pedido explícito del usuario, ya que el sector (traducción especializada) no calza en ninguna categoría de clientes — se omitió nombre de cliente.
+- Commit + push a ambos repos (linkedin-hintmedia master, linkedin-historial main) hecho.
+
+## Sesión anterior: 08/09/26
 
 - Creado `casos-hint-dossier.md`: fuente de verdad de casos reales por cliente (extraído del dossier PDF real que compartió el usuario). Consultar antes de citar servicios de un cliente en cualquier mensaje — varios MSG1 previos habían inventado casos (ej. Agora con "recruiting", que no es real).
 - MSG1 nuevos: Patricia Fernández (VAIRIX), Nelson Irías Núñez (Biif, CEO), Victor Oliva (JV Energía Mendoza), Guillermo Daniel Mussich (GDM Anclajes, vendiendo la empresa tras 28 años), Ricardo Fernández (Director Modernización San Roque, clasificado DUDOSO).
