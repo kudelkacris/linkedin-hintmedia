@@ -4,7 +4,18 @@
 
 ---
 
-## Última sesión: 09/09/26 (procesando respuestas al batch del 08/09) — cierre
+## Última sesión: 10/09/26 — cierre
+
+- **Alfredo Córdoba de Alzaga** (Director AC Ingeniería, HVAC/Industria/Construcción): MSG2 enviado, insight sobre auditoría de pliegos vs presupuesto barato, cliente Sullair, dossier ofrecido. Stage 2.
+- **Sergio Slipczuk**: continúa seguimiento intelectual sin venta (2 intercambios más sobre su metodología de tutoría/detección de abandono). Sigue clasificado sin venta, cultivando relación por su red corporativa.
+- **Dan Hirsch** (Fractional CTO): respondió que está fuera del país hasta 22/10, pidió retomar después. Recontacto programado 2026-10-22. Ojo: MSG1 citó TGS/Transener para sector Tech — corresponde Agora, corregir al recontactar.
+- **Juan Pablo Rossi** (Director JPR Consulting, Finanzas Corporativas): aceptó dossier + propuso canal de sinergia/referidos mutuos (él recomienda clientes a Hint, Hint lo recomienda a él). Pendiente que el jefe evalúe la propuesta de sinergia. Stage 3.
+- **Antonio Francisco Landa Ortíz** (Gerente Mercadotecnia, Farmacéutica México): MSG2 enviado sobre tensión RX/OTC vs regulador, sin cliente Hint (regla: no hay clientes en salud/farma). Stage 2.
+- **Diego Foti** (Gerente Marketing, Turismo): aclaró que su post es parte de una campaña de humanización sostenida, no aislado. MSG2 con pregunta sobre coherencia entre áreas, cliente Destiny Group. Stage 2.
+- **Nueva regla de estilo (feedback 10/09):** no repetir la misma frase de cierre de dossier (B4) textual en mensajes consecutivos a distintos prospectos — parafrasear siempre. Ver `[[feedback-variar-frase-dossier]]` en memoria.
+- Commit + push a ambos repos (linkedin-hintmedia master, linkedin-historial main) hecho.
+
+## Sesión anterior: 09/09/26 (procesando respuestas al batch del 08/09)
 
 - **Nueva pauta de metodología: "no vender" cuando corresponde.** Con prospectos que responden con contenido genuino/intelectual (no comercial) o que declinan explícitamente por no ser compradores, la jugada es sostener la charla sin CTA ni mención de Hint, cultivando la relación por si deriva a alguien de su red más adelante. Dos casos hoy:
   - **Eduardo Gigante** (consultor litio/minería, ex funcionario): respondió con análisis extenso y genuino sobre dimensiones del recurso litio. Se le contestó sin vender. Plan de 3 pasos guardado en su .md para eventualmente pedir referido (nunca antes de 1-2 intercambios más).
