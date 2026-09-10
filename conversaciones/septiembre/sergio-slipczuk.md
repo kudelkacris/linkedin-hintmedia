@@ -42,4 +42,8 @@
 > Sí las leí, Sergio, por eso arranqué justo por los 900 colaboradores simultáneos y no por tu cargo. Con 74 años y esa trayectoria tiene total sentido que hoy sea epistémico y no comercial, ninguna objeción ahí.
 > Lo que me quedó de tus posts es esa idea de que se evalúa al relator y a las galletas del curso, pero nunca si alguien realmente entendió algo. Es el mismo problema que planteás en gestión del conocimiento aplicado a productividad, solo que en RRHH nadie lo dice tan claro. Vos que lo mediste en terreno con miles de personas, encontraste alguna forma de medir comprensión real que no caiga en esa misma trampa?
 
+## Seguimiento intelectual (10/09)
+> Sergio: describió en detalle su metodología de tutoría (contenidos "inteligentes", plan de aplicación 1:1, calificación por colores, informe estadístico mensual, endomarketing tercerizado).
+> Florencia: sin pitch (confirmado sin venta). Preguntó si el dato de colores en el tiempo alguna vez sirvió para detectar abandono antes de que pasara, o si es más diagnóstico que predictivo.
+
 ## Notas

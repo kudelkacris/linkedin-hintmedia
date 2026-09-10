@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** GovTech / SaaS / Automatización empresarial / IA
-**Estado:** MSG1 enviado
+**Estado:** Cerrado — declinó explícitamente (09/09)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo estamos resolviendo en otros casos?
 
 ---
+
+## Cierre (09/09)
+> Gastón (17:51): gracias pero no Flor. mil exitos de todos modos con el hunt <3
+> Florencia: agradeció, cierre cordial sin insistir.
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Rosario y alrededores
 **Pais:** Argentina
 **Sector:** Deportes / Entretenimiento
-**Estado:** MSG2 enviado — filtro pre-reunión (pidió reunión, dio celular: 3415703006)
+**Estado:** En evaluación — propuso canje (10/09)
 
 ---
 
@@ -32,5 +32,11 @@
 > Florencia: filtro antes de coordinar la llamada — "En Hint Media ayudamos a instituciones a que lo que ya vienen construyendo... tenga ejecución de contenido consistente sin sobrecargar al equipo. Con Destiny Group trabajamos justo ese tipo de ejecución. Tiene sentido para lo que están armando en Newell's? Si es así, coordinamos la llamada."
 
 **Perfil:** Gerente de Marketing real (empleado, con equipo y presupuesto) en Newell's Old Boys — clasificación CONSULTIVA. Alto engagement, dio celular directo. Si confirma, llamar al celular (no forzar Google Meet, el canal ya lo definió él).
+
+## Respuesta y seguimiento (10/09)
+> Jeremias (14:59): el club atraviesa una situacion financiera compleja donde todo lo que contratemos lo tenemos que hacer a traves del canje de publicidad, presencia de marca y activos digitales... Si tiene sentido esto, coordinemos.
+> Florencia: "Gracias Jeremias! Lo vamos a evaluar de nuestro lado y seguimos en contacto en el corto plazo. Saludos!"
+
+Nota: propuso canje, no pago. Queda en evaluación interna, no confirmado.
 
 ## Notas

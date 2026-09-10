@@ -47,6 +47,32 @@
     ]
   },
   {
+    "name": "Virginia Cuomo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Argentina",
+    "recontact": "2026-11-01",
+    "estado": "Recontacto programado (motivo de salud)",
+    "id": "virginia-cuomo"
+  },
+  {
+    "name": "Victoria Cabanelas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "LATAM)",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "victoria-cabanelas"
+  },
+  {
+    "name": "Victor Oliva",
+    "stage": "2",
+    "date": "08/09/26",
+    "empresa": "JV Energía Mendoza",
+    "estado": "MSG2 enviado - dossier ofrecido",
+    "id": "victor-oliva-jv-energia"
+  },
+  {
     "id": "vicente-nicol-s-tud-n",
     "nombre": "Vicente NicolÃ¡s TudÃ³n",
     "cargo": "CEO & Co-Founder",
@@ -140,8 +166,8 @@
     "empresa": "Consultoría individual",
     "sector": "Consultoría",
     "pais": "Chile",
-    "stage": "1",
-    "estado": "Inv enviada",
+    "stage": "2",
+    "estado": "Declinó (74 años, interés epistémico) - conversación activa sin venta",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -169,6 +195,15 @@
     "estado": "Inv enviada",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
+  },
+  {
+    "name": "Sebastián Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Buenos Aires y alrededores",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "sebastian-fernandez-ovidio"
   },
   {
     "id": "sebastian-estevez",
@@ -368,6 +403,15 @@
     "name": "Pasquale Scaldaferri"
   },
   {
+    "name": "Pablo Mlynkiewicz",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Freelance Consultant",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "pablo-mlynkiewicz"
+  },
+  {
     "id": "omar-diaz-reyes",
     "name": "Omar Díaz Reyes",
     "stage": 2,
@@ -385,7 +429,7 @@
     "sector": "Academia/Minería",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "MSG1 enviado",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -411,6 +455,15 @@
     "lista": "HINTCREATIVO",
     "date": "15/07/26",
     "name": "Nacho Alonso Cembrano"
+  },
+  {
+    "name": "Monica Jimenez Gonzalez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Área metropolitana de Bogotá D.C.",
+    "noInterest": true,
+    "estado": "Cerrado - cierre neutro",
+    "id": "monica-jimenez-gonzalez"
   },
   {
     "id": "mirna-guillen",
@@ -523,6 +576,14 @@
     "estado": "SEG1 enviado",
     "fecha": "06/07/26",
     "name": "Marta Saenz Herrera"
+  },
+  {
+    "name": "María de los Milagros Gómez",
+    "stage": "2",
+    "date": "08/09/26",
+    "empresa": "Customer Success",
+    "estado": "MSG2 enviado - filtro pre-reunión",
+    "id": "maria-milagros-gomez-digi"
   },
   {
     "id": "maria-fernanda-saenz",
@@ -967,9 +1028,10 @@
     "sector": "Litio/Energía",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "Cierre suave - por el momento no",
     "date": "07/09/26",
-    "lista": "mining-chile-argentina"
+    "lista": "mining-chile-argentina",
+    "recontact": "2026-11-08"
   },
   {
     "id": "jonathan-josafat-rivas-carvajal",
@@ -1005,6 +1067,23 @@
     "estado": "Inv enviada",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
+  },
+  {
+    "name": "Joaquín María Tagle",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "On The Rocks",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "joaquin-maria-tagle"
+  },
+  {
+    "name": "Jeremias Rios",
+    "stage": "2",
+    "date": "08/09/26",
+    "empresa": "Rosario y alrededores",
+    "estado": "MSG2 enviado - filtro pre-reunión",
+    "id": "jeremias-rios-newells"
   },
   {
     "empresa": "Trascender Centro Psicologico",
@@ -1414,6 +1493,15 @@
     "name": "Enrique Chaparro"
   },
   {
+    "name": "Elymar Velásquez González",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Regrow",
+    "estado": "Cerrado - sin interés",
+    "noInterest": true,
+    "id": "elymar-velasquez-gonzalez"
+  },
+  {
     "id": "elena-alcover-jorge",
     "nombre": "Elena Alcover Jorge",
     "cargo": "CEO & Co-Founder",
@@ -1434,7 +1522,7 @@
     "sector": "Litio/Gobierno",
     "pais": "Argentina",
     "stage": "1",
-    "estado": "Inv enviada",
+    "estado": "Conversación activa sin venta - potencial referido",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
   },
@@ -1867,6 +1955,15 @@
     ]
   },
   {
+    "name": "Alejandro Berdomas",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "The Workshop Factory",
+    "noInterest": true,
+    "estado": "Cerrado - sin interés",
+    "id": "alejandro-berdomas"
+  },
+  {
     "id": "alberto-garc-a-mart-nez-de-artola",
     "nombre": "Alberto GarcÃ­a MartÃ­nez de Artola",
     "cargo": "Co-Founder y CMO",
@@ -1938,25 +2035,241 @@
     "name": "Acelis Tunon Singh"
   },
   {
-    "id": "1788895511584",
-    "date": "08/09/26",
-    "name": "Noelia Gramajo",
-    "empresa": "Gramajo Seybold - Arquitectura",
-    "variantTitle": "Variante A — Formación y posicionamiento diferencial en construcción",
-    "profileRaw": "Noelia Gramajo\n\n· 1er\n\nArquitecta - Especialista en Gerenciamiento y Direccion de Proyectos y Obras\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nGramajo Seybold - Arquitectura\n\nUniversidad de Buenos Aires\n\n396 contactos\n\nMatías, Vanina y 5 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Noelia\n\n    Ver perfil\n\n    Eleonora Cuenca \n\n    Chief Talent and People Officer\n\n    Seguido por Luis y Débora\n    Seguir\n ",
-    "msg1": "Buenas Noelia! Tu post sobre la Mesa Sectorial me quedó dando vueltas. No presentaste lo que hace Gramajo Seybold, presentaste una convicción: que la calidad de una obra comienza en quién la ejecuta.\n\nEn Hint Media trabajamos con empresas constructoras y desarrollistas como TGS en construir la narrativa que convierte el expertise técnico en algo visible y diferenciador ante el mercado, antes de que el cliente llegue a preguntar.\n\nTe cuento cómo lo trabajamos con esas empresas?",
+    "id": "1789061348130",
+    "date": "10/09/26",
+    "name": "Walmor Fonseca Roim",
+    "empresa": "MBA USP/Esalq",
+    "variantTitle": "Innovación agrícola y narrativa coherente — tensión natural de crecimiento",
+    "profileRaw": "Walmor Fonseca Roim\n\n· 1er\n\nGerente Geral de Marketing | Go To Market | Pricing | Gerente de Vendas | Gerente de Desenvolvimento de Mercado | Gerente de R&D | Gestão de Portfólios e Produtos | Gestão de Projetos | Novos Negócios | B2B | B2C\n\nLimeira, San Pablo, Brasil\n\n·\n\nInformación de contacto\n\nMBA USP/Esalq\n\n5.258 seguidores\n\n·\n\nMás de 500 contactos\n\nMaria Agustina es contacto en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Walmor\n\n    Ver perfil\n\n    Domi",
+    "msg1": "Buenas Walmor! Me quedó dando vueltas cómo estás construyendo la narrativa de agricultura regenerativa en un sector donde la mayoría aún habla de productividad tradicional. No es solo un mensaje diferente, es casi un cambio cultural que tenés que comunicar.\n\nEn Hint Media trabajamos con plataformas y empresas de agroindustria como Sullair y TGS en armar la narrativa que hace legible la innovación antes de que llegue el cliente a preguntar.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
     "msg2": "",
     "conversationHistory": [
       {
         "role": "sent",
-        "text": "Buenas Noelia! Tu post sobre la Mesa Sectorial me quedó dando vueltas. No presentaste lo que hace Gramajo Seybold, presentaste una convicción: que la calidad de una obra comienza en quién la ejecuta.\n\nEn Hint Media trabajamos con empresas constructoras y desarrollistas como TGS en construir la narrativa que convierte el expertise técnico en algo visible y diferenciador ante el mercado, antes de que el cliente llegue a preguntar.\n\nTe cuento cómo lo trabajamos con esas empresas?"
+        "text": "Buenas Walmor! Me quedó dando vueltas cómo estás construyendo la narrativa de agricultura regenerativa en un sector donde la mayoría aún habla de productividad tradicional. No es solo un mensaje diferente, es casi un cambio cultural que tenés que comunicar.\n\nEn Hint Media trabajamos con plataformas y empresas de agroindustria como Sullair y TGS en armar la narrativa que hace legible la innovación antes de que llegue el cliente a preguntar.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
       }
     ],
     "stage": 1,
     "stageHistory": [
       {
         "stage": 1,
-        "date": "08/09/26",
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789060658881",
+    "date": "10/09/26",
+    "name": "Juan Pablo Garrido",
+    "empresa": "Auburn University",
+    "variantTitle": "Tensión de Credibilidad en Fintech Regulado",
+    "profileRaw": "Juan Pablo Garrido\n\n· 1er\n\nFounder & CEO @ Kaxflo | AI-First Data Driven Credit Originator for LATAM SMEs\n\nBogotá, Distrito Capital, Colombia\n\n·\n\nInformación de contacto\n\nAuburn University\n\nMás de 500 contactos\n\nJuan Sebastian, Karla y 20 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Juan Pablo\n\n    Ver perfil\n\n    Mariano Sigman \n\n    Neurocientifico, Autor de El Poder de las Palabras\n\n    Seguido por Carlos, Martín y 110 personas más que con",
+    "msg1": "Buenas Juan Pablo! El hecho de que hayas sido cliente antes de fundar Kaxflo te pone en una posición poco común: conocés el problema desde adentro, pero ahora tenés que convencer al mercado de que esa misma invisibilidad no es un riesgo, es una oportunidad.\n\nEn Hint Media trabajamos con empresas fintech y de seguros como Libra Seguros en construir la narrativa que hace legible por qué el modelo funciona — antes de que reguladores, bancos y clientes lleguen a verificarlo por su cuenta.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Juan Pablo! El hecho de que hayas sido cliente antes de fundar Kaxflo te pone en una posición poco común: conocés el problema desde adentro, pero ahora tenés que convencer al mercado de que esa misma invisibilidad no es un riesgo, es una oportunidad.\n\nEn Hint Media trabajamos con empresas fintech y de seguros como Libra Seguros en construir la narrativa que hace legible por qué el modelo funciona — antes de que reguladores, bancos y clientes lleguen a verificarlo por su cuenta.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789060647854",
+    "date": "10/09/26",
+    "name": "Eduardo Kbal",
+    "empresa": "USS",
+    "variantTitle": "Arquitectura Multi-Negocio — Tensión de Coherencia",
+    "profileRaw": "Eduardo Kbal\n\n· 1er\n\nCEO en USS | Emprendedor serial | Ayudamos a dueños y gerentes de empresas a proteger y optimizar sus activos y flotas, mediante soluciones de IoT, videovigilancia, control de acceso, drones y sensores.\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nUSS Seguridad Integral\n\nColumbia Business School\n\n5.449 seguidores\n\n·\n\nMás de 500 contactos\n\nFabián, Matias y 31 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\n\nSales Insights\n\n",
+    "msg1": "Buenas Eduardo! Lo que me llamó la atención es que en 10 años pasaste de una unidad de seguridad a 7 negocios distintos con identidades propias. Eso dice bastante sobre tu capacidad de expansión, pero genera una tensión interesante: cómo hacerle entender al mercado que USS es una sola estrategia.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS que enfrentan exactamente este desafío: comunicar complejidad operativa sin perder coherencia. Nos insertamos como equipo para hacer que la arquitectura sea legible.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Eduardo! Lo que me llamó la atención es que en 10 años pasaste de una unidad de seguridad a 7 negocios distintos con identidades propias. Eso dice bastante sobre tu capacidad de expansión, pero genera una tensión interesante: cómo hacerle entender al mercado que USS es una sola estrategia.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS que enfrentan exactamente este desafío: comunicar complejidad operativa sin perder coherencia. Nos insertamos como equipo para hacer que la arquitectura sea legible.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789060070957",
+    "date": "10/09/26",
+    "name": "Andres Vergara",
+    "empresa": "MAIndset Chile",
+    "variantTitle": "Observación sobre traducción de cambio tecnológico en mercados reales",
+    "profileRaw": "Andres Vergara\n\n· 1er\n\nTransforming Business with Applied AI | Industrial Engineer | Stanford MSc | Founder @Alfil Consulting & MAIndset | Speaker\n\nGran Santiago, Región Metropolitana de Santiago, Chile\n\n·\n\nInformación de contacto\n\nMAIndset Chile\n\nStanford University Graduate School of Business\n\nAlfil Consulting\n\nMás de 500 contactos\n\nGuillermo A., Roberto Aron y 66 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Andres\n\n    Ver perfil\n\n    Edua",
+    "msg1": "Buenas Andrés. Tu reflexión sobre Hassabis saliendo de DeepMind me quedó dando vueltas — no comentabas el ascenso, sino que veías algo más: que cuando cambia el talento visible, el mercado empieza a dudar de la capacidad de ejecución real detrás.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en hacer legible cómo la infraestructura se transforma sin perder tracción en el mercado — es decir, comunicar urgencia sin crear pánico, y cambio sin que todo termine siendo solo promesa.\n\nVale la pena que te cuente cómo lo trabajamos?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Andrés. Tu reflexión sobre Hassabis saliendo de DeepMind me quedó dando vueltas — no comentabas el ascenso, sino que veías algo más: que cuando cambia el talento visible, el mercado empieza a dudar de la capacidad de ejecución real detrás.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en hacer legible cómo la infraestructura se transforma sin perder tracción en el mercado — es decir, comunicar urgencia sin crear pánico, y cambio sin que todo termine siendo solo promesa.\n\nVale la pena que te cuente cómo lo trabajamos?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789059734831",
+    "date": "10/09/26",
+    "name": "Gaston Remy",
+    "empresa": "Nuqlea",
+    "variantTitle": "Construcción de Voz Estratégica en Ecosistema Tech",
+    "profileRaw": "Gaston Remy\n\n· 1er\n\nCo-Founder and CEO at Nuqlea\n\nArgentina\n\n·\n\nInformación de contacto\n\nNuqlea\n\nColumbia University in the City of New York\n\n28.537 seguidores\n\n·\n\nMás de 500 contactos\n\nCarolina Ivana, Mariano Hernán y 227 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Gaston\n\n    Ver perfil\n\n    Belén Pregelj\n\n    Talent Acquisition | Recruiter | HRBP | People Business Partner\n\n    Seguido por María Paula, Maria Eugenia y 6 personas más que co",
+    "msg1": "Buenas Gastón! Tu reflexión en el #HiloDeLaEstabilidad me quedó dando vueltas. No solo respondiste el hilo de Sofia, sino que llevaste el debate un nivel más arriba: no es solo tecnología, es previsibilidad para que la tecnología escale. Eso es pensamiento de ecosistema, no de empresa.\n\nEn Hint Media trabajamos con líderes que necesitan que su voz sea legible en contextos complejos. En energía e infraestructura, nuestro equipo acompaña empresas como TGS y Transener a convertir expertise técnica en narrativa que genera tracción con inversores, reguladores y mercado.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Gastón! Tu reflexión en el #HiloDeLaEstabilidad me quedó dando vueltas. No solo respondiste el hilo de Sofia, sino que llevaste el debate un nivel más arriba: no es solo tecnología, es previsibilidad para que la tecnología escale. Eso es pensamiento de ecosistema, no de empresa.\n\nEn Hint Media trabajamos con líderes que necesitan que su voz sea legible en contextos complejos. En energía e infraestructura, nuestro equipo acompaña empresas como TGS y Transener a convertir expertise técnica en narrativa que genera tracción con inversores, reguladores y mercado.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789059718883",
+    "date": "10/09/26",
+    "name": "Angela María Beltrán Díaz",
+    "empresa": "Payflow",
+    "variantTitle": "Variante A — Narrativa de crecimiento financiero en fintech",
+    "profileRaw": "Angela María Beltrán Díaz\n\n· 1er\n\nFinance Ops Manager I at Payflow | Senior FP&A  | Banca y consultoría financiera | Planeación financiera | Levantamiento de capital y análisis de las variaciones del flujo de caja | Informes financieros | Conferencista\n\nBogotá, Distrito Capital, Colombia\n\n·\n\nInformación de contacto\n\nPayflow (YC S21)\n\nUniversidad del Rosario\n\nMás de 500 contactos\n\nMaria Fernanda, Alfredo y 13 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos",
+    "msg1": "Buenas Angela! Tu experiencia en M&A y capital raising en fintech me quedó dando vueltas. No es solo análisis de números, es traducir complejidad financiera a una historia que convenza inversores. Eso que hacés, pocos lo hacen bien.\n\nEn Hint Media trabajamos con equipos de empresas como Sullair y TGS en construir la narrativa que hace legible el crecimiento que la operación financia, antes de que inversores o stakeholders tengan que preguntarlo.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Angela! Tu experiencia en M&A y capital raising en fintech me quedó dando vueltas. No es solo análisis de números, es traducir complejidad financiera a una historia que convenza inversores. Eso que hacés, pocos lo hacen bien.\n\nEn Hint Media trabajamos con equipos de empresas como Sullair y TGS en construir la narrativa que hace legible el crecimiento que la operación financia, antes de que inversores o stakeholders tengan que preguntarlo.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789059387884",
+    "date": "10/09/26",
+    "name": "Daniel Fuente",
+    "empresa": "Axis Communications",
+    "variantTitle": "Coordinación Regional sin Sobre-Dependencia",
+    "profileRaw": "Daniel Fuente\n\n· 1er\n\nDriving Sales & Tech Growth | Solutions for a Safer World - Regional Sales Manager  Argentina, Paraguay, Uruguay\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nAxis Communications\n\nInstituto Universitario de la Policía Federal Argentina (IUPFA)\n\nMás de 500 contactos\n\nFederico, Eliana y 118 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Daniel\n\n    Ver perfil\n\n    Beltrán Briones \n\n    Cofu",
+    "msg1": "Buenas Daniel, me llamó la atención que coordines tres mercados con realidades completamente distintas — Argentina, Paraguay, Uruguay — en soluciones de seguridad. Eso no es solo expansión comercial. Es coordinación en paralelo.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible lo que la solución técnica hace, antes de que el decisor llegue a la primera reunión. Eso libera presión operativa del equipo comercial.\n\nVale la pena que te cuente cómo lo estamos resolviendo con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Daniel, me llamó la atención que coordines tres mercados con realidades completamente distintas — Argentina, Paraguay, Uruguay — en soluciones de seguridad. Eso no es solo expansión comercial. Es coordinación en paralelo.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir la narrativa que hace legible lo que la solución técnica hace, antes de que el decisor llegue a la primera reunión. Eso libera presión operativa del equipo comercial.\n\nVale la pena que te cuente cómo lo estamos resolviendo con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789059090394",
+    "date": "10/09/26",
+    "name": "Analía Angulo Rodríguez",
+    "empresa": "Ikoni - Marketing Estratégico",
+    "variantTitle": "Variante A — La brecha que diagnostica vs. la ejecución que sostiene",
+    "profileRaw": "Analía Angulo Rodríguez\n\n· 1er\n\n| Consultora de Marketing B2B Industrial | Dirección Estratégica, Posicionamiento y Alineación Marketing–Ventas | Fundadora y Directora en Ikoni - Marketing Estratégico |\n\nArgentina\n\n·\n\nInformación de contacto\n\nikoni | Marketing Estratégico\n\nIAE Business School\n\nMás de 500 contactos\n\nGabriel, Magdalena y 24 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nIr a mi sitio web\nMás\n\nPerfil mejorado con Premium\nOtros perfiles seguidos junto con Analía\n\n    V",
+    "msg1": "Buenas Analía! Justo ayer vi que arrancaste una reflexión sobre qué cambia cómo Marketing acompaña al negocio. Es el punto donde casi siempre aparece la mayor distancia: diagnosticar qué falta es una cosa, garantizar que la ejecución no vuelva a desmoronarse es otra.\n\nEn Hint Media trabajamos con empresas en energía, oil&gas y minería como TGS y Transener precisamente en eso: consolidar la dirección estratégica que un consultor define, mediante un equipo de ejecución integrado que garantiza consistencia en el tiempo.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Analía! Justo ayer vi que arrancaste una reflexión sobre qué cambia cómo Marketing acompaña al negocio. Es el punto donde casi siempre aparece la mayor distancia: diagnosticar qué falta es una cosa, garantizar que la ejecución no vuelva a desmoronarse es otra.\n\nEn Hint Media trabajamos con empresas en energía, oil&gas y minería como TGS y Transener precisamente en eso: consolidar la dirección estratégica que un consultor define, mediante un equipo de ejecución integrado que garantiza consistencia en el tiempo.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789059001784",
+    "date": "10/09/26",
+    "name": "Soledad Vela",
+    "empresa": "HR Solution Manager",
+    "variantTitle": "Variante A — Transición a Manager + Tensión de Múltiples Frentes en KPMG HR Solutions",
+    "profileRaw": "Soledad Vela\n\n· 1er\n\nHR Solution Manager\n\nBuenos Aires, Provincia de Buenos Aires, Argentina\n\n·\n\nInformación de contacto\n\nKPMG\n\n239 contactos\n\nGraciela Lucía y Natalia son contactos en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Soledad\n\n    Ver perfil\n\n    Sofia Sacca \n\n    Talent Acquisition at IOL Inversiones\n\n    Seguido por Carlos, Federico y 16 personas más que conoces\n    Seguir\n    Ver perfil\n\n    Gustavo Paco Manriquez \n\n    CEO en Banco Supervielle",
+    "msg1": "Buenas Soledad! Me quedó dando vueltas el post de hace poco sobre los desafíos de RRHH hoy: cumplimiento normativo, nuevas expectativas de colaboradores, eficiencia simultánea. No es casual que escribas eso justo cuando pasaste a Manager.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir narrativa clara sobre cambios complejos, de forma que la comunicación no termine siendo toda carga de un área interna. Te cuento cómo lo resolvemos con esas organizaciones?\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Soledad! Me quedó dando vueltas el post de hace poco sobre los desafíos de RRHH hoy: cumplimiento normativo, nuevas expectativas de colaboradores, eficiencia simultánea. No es casual que escribas eso justo cuando pasaste a Manager.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en construir narrativa clara sobre cambios complejos, de forma que la comunicación no termine siendo toda carga de un área interna. Te cuento cómo lo resolvemos con esas organizaciones?\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789058987644",
+    "date": "10/09/26",
+    "name": "Miguel Soto Jiménez",
+    "empresa": "SERTECPET®",
+    "variantTitle": "Escalamiento multi-geografía + narrativa coherente",
+    "profileRaw": "Miguel Soto Jiménez\n\n· 1er\n\nGerente Comercial en SERTECPET® | Desarrollo de Negocios | Oil & Gas, Minería, Energía e Infraestructura | P&L Owner (USD 35MM) | Growth+25% YoY | Estratega de Ventas | Mentor Coach | Co-Fundador y Director en SOTOVAL®\n\nPerú\n\n·\n\nInformación de contacto\n\nSERTECPET®\n\nEADA - Escuela de Alta Dirección y Administración\n\n7.501 seguidores\n\n·\n\nMás de 500 contactos\n\nCarola, Geilan y 17 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos jun",
+    "msg1": "Buenas Miguel! Tu perfil me quedó dando vueltas: 25% de crecimiento anual mientras mantenés operaciones en 4 países simultáneamente. La mayoría de los ejecutivos que conozco luchan por lo uno O lo otro, no ambos.\n\nEn Hint Media trabajamos con empresas como Sullair, TGS y Transener en construir la narrativa comercial y posicionamiento que hace legible el crecimiento ante clientes y mercado, sin que dependa de una sola persona.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Miguel! Tu perfil me quedó dando vueltas: 25% de crecimiento anual mientras mantenés operaciones en 4 países simultáneamente. La mayoría de los ejecutivos que conozco luchan por lo uno O lo otro, no ambos.\n\nEn Hint Media trabajamos con empresas como Sullair, TGS y Transener en construir la narrativa comercial y posicionamiento que hace legible el crecimiento ante clientes y mercado, sin que dependa de una sola persona.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26",
         "note": ""
       }
     ]
@@ -2000,14 +2313,15 @@
         "text": "Buenas Sergio! Me quedó esa impresión en tu perfil: desarrollaste metodologías que entrenan a 900+ personas simultáneamente sin sacarlas del puesto, midiendo impacto individual. No es lo que suele priorizar la mayoría cuando diseña para escala.\n\nEn Hint Media trabajamos con empresas como TGS y Transener en escalar ejecución de marketing y comunicación sin que pierda coherencia ni personalización por geografía o equipo. Es el mismo desafío que resolvés vos, pero en otro frente.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
         "date": "08/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "Declinó (74 años, interés epistémico) - conversación activa sin venta"
   },
   {
     "id": "1788894405409",
@@ -2127,7 +2441,8 @@
         "date": "08/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "Conversación activa sin venta - potencial referido"
   },
   {
     "id": "1788893535373",
@@ -11795,9 +12110,10 @@
   },
   {
     "name": "Manuel Rojo Vivot",
-    "stage": 1,
+    "stage": 2,
     "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
+    "empresa": "Buenos Aires y alrededores",
+    "estado": "MSG2/explicacion enviada, esperando respuesta"
   },
   {
     "name": "Ale Sarra",
@@ -11813,9 +12129,17 @@
   },
   {
     "name": "Luciana Domínguez",
-    "stage": 1,
+    "stage": 2,
     "date": "08/09/26",
-    "empresa": "Transmutá Studio"
+    "empresa": "Transmutá Studio",
+    "estado": "Cerrada - no busca servicios por ahora",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Javier Treviño",
@@ -11843,15 +12167,10 @@
   },
   {
     "name": "Yoel Colombo",
-    "stage": 1,
+    "stage": 3,
     "date": "08/09/26",
-    "empresa": "Estudio YC"
-  },
-  {
-    "name": "Jeremias Rios",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Rosario y alrededores"
+    "empresa": "Estudio YC",
+    "estado": "Dossier enviado"
   },
   {
     "name": "Francisco Leitao López",
@@ -11881,19 +12200,14 @@
     "name": "David Bahamón León",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Sales Navigator"
+    "empresa": "Sales Navigator",
+    "estado": "No interesado"
   },
   {
     "name": "Lucas Julián Kolaric",
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Wayni"
-  },
-  {
-    "name": "Victoria Cabanelas",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "LATAM)"
   },
   {
     "name": "Matias Lonardi",
@@ -11903,9 +12217,10 @@
   },
   {
     "name": "Rafael Morfes",
-    "stage": 1,
+    "stage": 2,
     "date": "08/09/26",
-    "empresa": "Silver.dev"
+    "empresa": "Silver.dev",
+    "estado": "Conversacion activa - redirigido a hablar con Gabriel founder via sitio"
   },
   {
     "name": "Julián Giacché",
@@ -11936,12 +12251,6 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Euro Packaging"
-  },
-  {
-    "name": "Elymar Velásquez González",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Regrow"
   },
   {
     "name": "Manuel Altomonte",
@@ -12043,7 +12352,8 @@
     "name": "Natalia Giménez",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "DavinciBot"
+    "empresa": "DavinciBot",
+    "estado": "MSG2 propuesto - pendiente confirmar envío"
   },
   {
     "name": "Erica Albuquerque",
@@ -12061,7 +12371,15 @@
     "name": "Javier D. Caruso",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Webstarted"
+    "empresa": "Webstarted",
+    "estado": "No interesado",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Matias Lerner",
@@ -12086,12 +12404,6 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Gerente de marketing y publicidad"
-  },
-  {
-    "name": "Alejandro Berdomas",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "The Workshop Factory"
   },
   {
     "name": "Paulo Gómez",
@@ -12223,7 +12535,15 @@
     "name": "Gia Gillio",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Accenture Argentina"
+    "empresa": "Accenture Argentina",
+    "estado": "Cerrada - no interesada por ahora, nuevo trabajo Accenture",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Juan Paternina",
@@ -12248,12 +12568,6 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "GreenSQA"
-  },
-  {
-    "name": "Monica Jimenez Gonzalez",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Área metropolitana de Bogotá D.C."
   },
   {
     "name": "Jose Petrillo",
@@ -12292,12 +12606,6 @@
     "empresa": "Colombia"
   },
   {
-    "name": "María de los Milagros Gómez",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Customer Success"
-  },
-  {
     "name": "Sebastian Groppa",
     "stage": 1,
     "date": "08/09/26",
@@ -12319,25 +12627,21 @@
     "name": "Ignacio Adrian (Adrián Lerer) Lerer",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
+    "empresa": "Buenos Aires y alrededores",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "08/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Fer Eillman    ✔",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "TalentCross®️"
-  },
-  {
-    "name": "Sebastián Fernández",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
-  },
-  {
-    "name": "Pablo Mlynkiewicz",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Freelance Consultant"
+    "empresa": "TalentCross®️",
+    "estado": "En pausa - foco en problema comercial interno"
   },
   {
     "name": "Maria Jose Gonzales Chaves",
@@ -12349,7 +12653,8 @@
     "name": "Eduardo García Sáenz",
     "stage": 1,
     "date": "08/09/26",
-    "empresa": "Buenos Aires y alrededores"
+    "empresa": "Buenos Aires y alrededores",
+    "estado": "No interesado - otras prioridades"
   },
   {
     "name": "Germán Reisenauer",
@@ -12364,12 +12669,6 @@
     "empresa": "IRSA"
   },
   {
-    "name": "Joaquín María Tagle",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "On The Rocks"
-  },
-  {
     "name": "Fernando Martinez Avila",
     "stage": 1,
     "date": "08/09/26",
@@ -12377,9 +12676,10 @@
   },
   {
     "name": "Arq. Erick Kennedy",
-    "stage": 1,
+    "stage": 3,
     "date": "08/09/26",
-    "empresa": "Madera con tecnologia BIM"
+    "empresa": "Madera con tecnologia BIM",
+    "estado": "Dossier confirmado - pendiente envío"
   },
   {
     "name": "Rodrigo Nasif Salum",
@@ -12430,12 +12730,6 @@
     "empresa": "Argentina"
   },
   {
-    "name": "Virginia Cuomo",
-    "stage": 1,
-    "date": "08/09/26",
-    "empresa": "Argentina"
-  },
-  {
     "name": "Rigoberto Malca La Rosa",
     "stage": 1,
     "date": "08/09/26",
@@ -12476,5 +12770,245 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "CALICE"
+  },
+  {
+    "name": "Noelia Gramajo",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Gramajo Seybold - Arquitectura"
+  },
+  {
+    "name": "Consuelo Summers",
+    "stage": 3,
+    "date": "08/09/26",
+    "empresa": "Consuelo Summers (independiente)",
+    "estado": "Dossier ofrecido"
+  },
+  {
+    "name": "Patricia Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "VAIRIX",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Lucrecia Maria Burgos",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "ICBA Instituto Cardiovascular",
+    "estado": "MSG1 enviado (override de descarte)"
+  },
+  {
+    "name": "Nelson Irías Núñez",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Biif",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Guillermo Daniel Mussich",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Grupo GDM Anclajes y Fijaciones",
+    "estado": "MSG1 enviado"
+  },
+  {
+    "name": "Ricardo Fernández",
+    "stage": 1,
+    "date": "08/09/26",
+    "empresa": "Municipalidad de San Roque",
+    "estado": "MSG1 enviado (DUDOSO)"
+  },
+  {
+    "name": "Mehdí Caballero",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Estructuras (c)"
+  },
+  {
+    "name": "Christian Uriel Solano",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Dan Hirsch",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Universidad de Buenos Aires"
+  },
+  {
+    "name": "Micaela Strahovsky Mandiola",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Nexor AI"
+  },
+  {
+    "name": "Marcela Ospital",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Francisco Paolini",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Infraestructura, Minería y Agro"
+  },
+  {
+    "name": "Adrián José Cottura",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Arkoncept arquitecto superior"
+  },
+  {
+    "name": "Celeste Policastro",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Btlandia."
+  },
+  {
+    "name": "Pablo E Buscemi",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Pontificia Universidad Católica Argentina"
+  },
+  {
+    "name": "Paulina Valenzuela Araneda",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Socia fundadora de Datavoz"
+  },
+  {
+    "name": "Adriana Marina",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "United Nations"
+  },
+  {
+    "name": "Juan José Di Bacco",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Holcim Argentina"
+  },
+  {
+    "name": "Tomas Gonzalez Ruiz",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Glim"
+  },
+  {
+    "name": "Flavio Melián",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Oil&Gas, Minería"
+  },
+  {
+    "name": "Juan Manuel Vazquez",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Julián Rivera",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Ana Rodríguez",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Comunicación corporativa"
+  },
+  {
+    "name": "Juan Pablo Rossi",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "JPR Consulting"
+  },
+  {
+    "name": "Mariano Wolkstein",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Servicios  para la construcción SRL"
+  },
+  {
+    "name": "Lilia Borges Romero",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "INAUCO SRL"
+  },
+  {
+    "name": "Fernando Chiappe",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Chiappe + Podworny"
+  },
+  {
+    "name": "Daniel Monge",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Uber"
+  },
+  {
+    "name": "Eduardo Kbal",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "USS"
+  },
+  {
+    "name": "Rocío Azparren",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Antonio Francisco Landa Ortíz",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Gerente de Mercadotecnia"
+  },
+  {
+    "name": "Juan Cruz Gonzalez Sevilla",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "NODOS HUB"
+  },
+  {
+    "name": "Milagros Turino",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Università degli Studi di Genova"
+  },
+  {
+    "name": "Maximiliano Fujisawa",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Finanzas Corporativas"
+  },
+  {
+    "name": "Walter D. Barbieri",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Director Regional de Barbieri"
+  },
+  {
+    "name": "Lisandro Pavetti",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Operonda"
+  },
+  {
+    "name": "Marcelo Suárez",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Gestal"
+  },
+  {
+    "name": "SABRINA CARRION",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Consultora de HR"
   }
 ]

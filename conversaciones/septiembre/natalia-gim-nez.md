@@ -5,7 +5,7 @@
 **Empresa:** DavinciBot
 **Pais:** Uruguay
 **Sector:** Tech / SaaS (plataforma de comunicación omnicanal)
-**Estado:** MSG2 propuesto (pendiente confirmar envío)
+**Estado:** Dossier confirmado (10/09)
 
 ---
 
@@ -36,5 +36,9 @@
 > Te cuento cómo lo armamos: tomamos la transformación técnica que lidera un equipo, como el crecimiento de DavinciBot, y construimos el relato que la vuelve visible afuera. Contenido, casos, la voz de quien lidera el cambio, para que el mercado entienda el valor sin perderse en la explicación técnica.
 > Con Agora trabajamos justo esa capa en tech.
 > Tenemos un dossier breve con casos concretos de ese tipo de trabajo. Te lo puedo mandar por acá si no es mucha molestia, o me indicarías a quién se lo puedo mandar?
+
+## Respuesta y seguimiento (10/09)
+> Natalia (23:24): Sí.
+> Florencia: confirmó envío del dossier por LinkedIn.
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Bubbl
 **Pais:** Costa Rica
 **Sector:** Entretenimiento / Eventos / Tecnología de plataformas
-**Estado:** MSG1 enviado
+**Estado:** Dossier ofrecido (10/09)
 
 ---
 
@@ -26,5 +26,9 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta y seguimiento (10/09)
+> Julian (15:28): Mandame detalles!
+> Florencia: "Con Agora y Grupo One Entertainment trabajamos justo esa capa: comunicación y contenido para negocios que escalan operaciones complejas, cuando el crecimiento empieza a depender de coordinar muchos frentes a la vez. Te mando un dossier corto con casos concretos, así lo ves con más detalle."
 
 ## Notas

@@ -5,7 +5,7 @@
 **Empresa:** Colombia
 **Pais:** Colombia
 **Sector:** Banca Privada / Mercado de Capitales / Wealth Management
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — pidió derivación a otro equipo, pendiente referido
 
 ---
 
@@ -26,5 +26,12 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta y seguimiento (10/09)
+> Camila (18:49): Hola, con gusto puedes contarme. Aunque esos temas los maneja un equipo diferente al mío.
+> Florencia: preguntó si hay alguien de ese equipo a quien escribirle, o si prefiere derivar ella el dossier.
+> Florencia: "Te cuento en breve: trabajamos la narrativa ejecutiva y de marca de instituciones financieras, para que la diferenciación se vea consistente puertas afuera y no dependa de un solo mensaje puntual. Si te parece, te mando un dossier corto con casos concretos y así lo hacés llegar a quien corresponda."
+
+Pendiente: respuesta de Camila con contacto de referido o confirmación de derivación del dossier.
 
 ## Notas
