@@ -5,7 +5,7 @@
 **Empresa:** Gerente de Mercadotecnia
 **Pais:** México
 **Sector:** Farmacéutica
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -31,4 +31,13 @@ Nota: se envió sin mención a Hint (corrección respecto al primer borrador que
 > Antonio (14:21): Hola Buenos dias
 > Florencia: "Buenos días Antonio! Cuando rediseñaste la imagen de las líneas RX y OTC, cómo manejás que el mensaje quede atractivo en el canal de impulso sin perder lo que ya está aprobado por el regulador?"
 
+## Respuesta 2 (10/09)
+> Antonio: "ok, pues hago una investigación de mercado sobre las competencias que existen, de ahi cruzo la información con el de patente innovador y el genérico que más se venda y de ahi comenzamos con las propuestas, y que todas las leyendas vengan tal cual como el proyecto de marbete e IPP, con estas construcciones desplegamos la estrategia."
+
+## MSG2 (B3+B4)
+> Gracias por la respuesta, Antonio. Es exactamente ese cruce entre innovador, genérico y marbete/IPP lo que hace tan compleja la construcción del mensaje en su sector.
+> En Hint Media trabajamos con esa misma tensión: diseñar la comunicación para que sea atractiva en el punto de venta sin despegarse de lo que ya aprobó el regulador.
+> Le tiene sentido este tipo de trabajo para lo que están armando en su empresa? Si es así, le puedo enviar un dossier breve con casos concretos.
+
 ## Notas
+- Sector Farmacéutico: sin cliente Hint mencionado (regla — no hay clientes Hint en salud/farma, presentar solo por metodología).

@@ -5,7 +5,7 @@
 **Empresa:** Gerente de marketing y publicidad
 **Pais:** Argentina
 **Sector:** Turismo / Viajes
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -24,6 +24,14 @@
 > En Hint Media trabajamos con empresas como Destiny Group en construir que cada nueva etapa del crecimiento se comunique de forma coherente hacia afuera, sin que parezca que cada área tira para su lado.
 >
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
+
+## Respuesta (10/09)
+> Diego: "Hola Flor, es la continuidad de una campaña de humanizacion de la empresa, no un post aislado. De todas formas agradezco tu comentario. Saludos,"
+
+## MSG2
+> Buenas Diego! Que sea una campaña sostenida y no un post suelto cambia la pregunta: esa narrativa de humanización, la sostenés vos solo entre las distintas áreas o ya la tenés armada como proceso a medida que el equipo escala?
+> En Hint trabajamos justo en esa etapa, cuando una campaña así necesita sostenerse en el tiempo sin que cada área tire para su lado. Ahí es donde entramos con empresas como Destiny Group.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá, o me indicás a quién se lo mando.
 
 ---
 

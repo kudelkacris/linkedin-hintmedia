@@ -5,7 +5,7 @@
 **Empresa:** AC Ingeniería
 **Pais:** Argentina
 **Sector:** Ingeniería / Construcción / Industrial
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado
 
 ---
 
@@ -22,6 +22,15 @@
 > Buenas Alfredo! Lo de que el líder es el termostato del equipo me quedó resonando, comparar la estabilidad de un sistema técnico con la de un equipo bajo presión no es una metáfora que se le ocurra a cualquiera con formación de ingeniero.
 > Tenía una consulta, quería saber si me podías ayudar.
 
----
+## Respuesta MSG1 (10/09)
+> Alfredo: "Efectivamente, tanto en la ingeniería termomecánica como en la conducción de equipos, el principio es el mismo: el control central es el que determina la temperatura del ambiente, no el entorno... Decime en qué te puedo ayudar o cuál es tu consulta. Con gusto lo vemos."
+
+## MSG2
+> Buenas Alfredo! Lo del termostato explica bien cómo laburás bajo presión.
+> Cuando un desarrollador compara tu auditoría contra un presupuesto "impecable" y más barato sin ese rigor, cómo lográs que vea la diferencia antes del primer adicional?
+> En Hint Media trabajamos con empresas de industria y construcción, como Sullair, en hacer visible ese criterio técnico antes de que el proyecto lo necesite.
+> Tiene sentido que te mande un dossier breve con casos concretos?
 
 ## Notas
+- Sector real: Industria/Construcción/HVAC → cliente Sullair (correcto por tabla).
+- Perfil ofrece "Colaboración con proveedores" en LinkedIn — feature genérico de la plataforma, no señal de venta.

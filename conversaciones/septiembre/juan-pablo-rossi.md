@@ -5,7 +5,7 @@
 **Empresa:** JPR Consulting
 **Pais:** Argentina
 **Sector:** Finanzas Corporativas / Consultoría
-**Estado:** MSG1 enviado
+**Estado:** 3 - Dossier enviado
 
 ---
 
@@ -25,6 +25,23 @@
 >
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
+## Respuesta (10/09)
+> Juan Pablo: "Sí"
+
+## MSG2
+> Trabajamos en tres etapas: identificamos la decisión que el directorio necesita comprender, construimos el mensaje que explica qué, cómo y para qué, y lo sostenemos en los canales donde ese directorio o inversor está mirando.
+> Tenemos un dossier breve con casos concretos, como TGS y Transener. Se lo puedo enviar por acá, o me indica a quién dirigirlo.
+
+## Respuesta 2 (10/09) — dossier aceptado + propuesta de sinergia
+> Juan Pablo: "dale enviamelo y me interesaba conversar con vos porque no se si viste en mi perfil que dejé la relación de dependencia y abrí mi consultora, después de casi 25 años de relacion de dependencia por suerte me decidí por la demanda que tenía de consultas. Así y todo es difícil al principio, me interesa ver la posibilidad de abrir un canal de sinergia con uds, que uds me recomienden a empresas, y yo por supuesto a uds en las empresas que tenga de cliente"
+
+## Respuesta enviada
+> Juan Pablo, felicitaciones por el paso. Dejar 25 años de relación de dependencia y animarte con tu propia consultora, sostenido por demanda real, dice bastante.
+> En Hint Media trabajamos con consultores y directores como vos en construir la comunicación que hace visible ese método propio: contenido, presencia digital y narrativa ejecutiva para que la consultora se posicione desde el día uno, no solo boca en boca.
+> Te mando el dossier con casos concretos ahora. Si después de verlo te hace sentido, lo charlamos en una llamada.
+> Sobre la sinergia: dalo por bueno de mi lado, lo hablo puertas adentro y seguimos la conversación.
+
 ---
 
 ## Notas
+- Propuso canal de referidos mutuos (JPR Consulting ↔ Hint Media). Pendiente que el jefe evalúe y confirme internamente si se acepta la sinergia.

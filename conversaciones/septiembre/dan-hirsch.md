@@ -5,7 +5,7 @@
 **Empresa:** Universidad de Buenos Aires
 **Pais:** Argentina
 **Sector:** Technology / Software / AI / Digital Transformation
-**Estado:** MSG1 enviado
+**Estado:** 1 - Recontacto programado (22/10/26)
 
 ---
 
@@ -25,6 +25,11 @@
 >
 > Vale la pena que te cuente cómo lo resolvimos con esas empresas?
 
+## Respuesta (10/09)
+> Dan: "Hola Florencia. Mencionas grupos grandes. De curioso charlaría, pero estoy fuera de Argentina hasta el 22 de octubre. Podríamos charlar luego de esa fecha"
+> Florencia: "Perfecto Dan, sin problema. Te escribo después del 22 y lo charlamos con calma."
+
 ---
 
 ## Notas
+- Ojo: MSG1 citó TGS y Transener (energía) para sector Tech/Software/AI. Corresponde Agora. Corregir en el próximo mensaje (22/10).

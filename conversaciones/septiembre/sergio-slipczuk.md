@@ -46,4 +46,8 @@
 > Sergio: describió en detalle su metodología de tutoría (contenidos "inteligentes", plan de aplicación 1:1, calificación por colores, informe estadístico mensual, endomarketing tercerizado).
 > Florencia: sin pitch (confirmado sin venta). Preguntó si el dato de colores en el tiempo alguna vez sirvió para detectar abandono antes de que pasara, o si es más diagnóstico que predictivo.
 
+## Seguimiento intelectual 2 (10/09)
+> Sergio: explicó que si el participante abandona se marca en rojo con nombre y apellido, pero en general nadie abandona porque responde a los llamados del tutor. RRHH confirma resultado real ("gracias por todo", piden que el método vuelva al año siguiente, "no es marketing, funciona").
+> Florencia: sin pitch. Preguntó si notó algún patrón en esas llamadas — algo que decían los que estaban en rojo y volvían, distinto de los que igual terminaban abandonando pese al llamado.
+
 ## Notas
