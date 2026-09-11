@@ -5,7 +5,7 @@
 **Empresa:** AC Ingeniería
 **Pais:** Argentina
 **Sector:** Ingeniería / Construcción / Industrial
-**Estado:** 2 - MSG2 enviado
+**Estado:** 3 - Dossier confirmado
 
 ---
 
@@ -31,6 +31,10 @@
 > En Hint Media trabajamos con empresas de industria y construcción, como Sullair, en hacer visible ese criterio técnico antes de que el proyecto lo necesite.
 > Tiene sentido que te mande un dossier breve con casos concretos?
 
+## Respuesta MSG2 (11/09)
+> Alfredo: "Perfecto"
+
 ## Notas
 - Sector real: Industria/Construcción/HVAC → cliente Sullair (correcto por tabla).
 - Perfil ofrece "Colaboración con proveedores" en LinkedIn — feature genérico de la plataforma, no señal de venta.
+- Confirmó dossier 11/09 — pendiente que el jefe lo envíe.

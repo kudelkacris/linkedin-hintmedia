@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Fintech / Servicios Financieros / Crypto
-**Estado:** MSG1 enviado
+**Estado:** 2 - Dossier ofrecido (pidió propuesta, respondida, esperando OK)
 
 ---
 
@@ -26,5 +26,13 @@
 > Vale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.
 
 ---
+
+## Respuesta (11/09)
+> Nicolás: "dale compartime una propuesta por favor"
+
+## Propuesta + oferta dossier (11/09)
+> Se me ocurre algo concreto para Manguito: armar una serie de contenido que muestre justo esa parte invisible, cómo normalizan 21.000 beneficios y 14.000 comercios todos los días, con vos y Gonzalo como caras del proceso. Eso construye confianza antes de que definan el modelo de monetización, que es exactamente donde están hoy.
+> Sumado a eso, presencia consistente en LinkedIn para que cada actualización del producto tenga la misma narrativa detrás.
+> Te mando el dossier con casos concretos de cómo lo hicimos con otras empresas para que veas el formato.
 
 ## Notas

@@ -429,10 +429,16 @@
     "empresa": "—",
     "sector": "Academia/Minería",
     "pais": "Argentina",
-    "stage": "1",
+    "stage": "2",
     "estado": "MSG1 enviado",
     "date": "07/09/26",
-    "lista": "mining-chile-argentina"
+    "lista": "mining-chile-argentina",
+    "stageHistory": [
+      {
+        "stage": "2",
+        "date": "11/09/26"
+      }
+    ]
   },
   {
     "id": "nicolas-surijon-270826",
@@ -1857,10 +1863,16 @@
     "empresa": "Angela Beltrán Finanzas",
     "sector": "Fintech/Finanzas",
     "pais": "Colombia",
-    "stage": "1",
+    "stage": "2",
     "estado": "Inv enviada",
     "date": "07/09/26",
-    "lista": "fintech-decisores"
+    "lista": "fintech-decisores",
+    "stageHistory": [
+      {
+        "stage": "2",
+        "date": "11/09/26"
+      }
+    ]
   },
   {
     "id": "andrey-peshkov",
@@ -2156,12 +2168,16 @@
         "text": "Buenas Angela! Tu experiencia en M&A y capital raising en fintech me quedó dando vueltas. No es solo análisis de números, es traducir complejidad financiera a una historia que convenza inversores. Eso que hacés, pocos lo hacen bien.\n\nEn Hint Media trabajamos con equipos de empresas como Sullair y TGS en construir la narrativa que hace legible el crecimiento que la operación financia, antes de que inversores o stakeholders tengan que preguntarlo.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
         "date": "10/09/26",
         "note": ""
+      },
+      {
+        "stage": "2",
+        "date": "11/09/26"
       }
     ]
   },
@@ -12116,9 +12132,15 @@
   },
   {
     "name": "Nicolás Briasco",
-    "stage": 1,
+    "stage": "2",
     "date": "08/09/26",
-    "empresa": "Argentina"
+    "empresa": "Argentina",
+    "stageHistory": [
+      {
+        "stage": "2",
+        "date": "11/09/26"
+      }
+    ]
   },
   {
     "name": "Luciana Domínguez",
@@ -13086,7 +13108,7 @@
   },
   {
     "name": "Alfredo Córdoba de Alzaga",
-    "stage": "2",
+    "stage": "3",
     "date": "10/09/26",
     "empresa": "AC Ingeniería",
     "estado": "MSG2 enviado",
@@ -13095,6 +13117,10 @@
       {
         "stage": 1,
         "date": "10/09/26"
+      },
+      {
+        "stage": "3",
+        "date": "11/09/26"
       }
     ]
   }

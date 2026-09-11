@@ -5,7 +5,7 @@
 **Empresa:** Trix Translations
 **Pais:** Argentina
 **Sector:** Servicios Profesionales / Traducción especializada (mineria/energía) — sin categoría exacta en tabla de clientes
-**Estado:** MSG1 enviado (pitch directo, sin curiosidad previa)
+**Estado:** 2 - Dossier ofrecido (confirmó interés, esperando OK final)
 
 ---
 
@@ -22,5 +22,12 @@
 > Te interesa que te cuente cómo lo haríamos con Trix Translations?
 
 Nota: sector no calza limpio en la tabla de clientes (traducción especializada) — se omitió nombre de cliente en vez de forzar uno incorrecto.
+
+## Respuesta (11/09)
+> Nora: "Dale, me interesa ;))"
+
+## Seguimiento — oferta dossier (11/09)
+> Buenísimo Nora! Lo que armamos es simple: tomamos lo que ya venís haciendo (los posts sobre IA + especialización, las capacitaciones, los casos con ICMM, IRMA, World Bank) y lo convertimos en presencia constante, sin que dependa de que vos te sientas a escribir cada semana.
+> Te mando un dossier breve con casos concretos de ese tipo de trabajo? Así vemos si tiene sentido para Trix.
 
 ## Notas
