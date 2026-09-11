@@ -4,7 +4,16 @@
 
 ---
 
-## Última sesión: 10/09/26 — cierre
+## Última sesión: 11/09/26 — cierre
+
+- **Nora Fiorini** (Trix Translations, traducción especializada minería/ESG): confirmó interés ("Dale, me interesa ;))") al pitch directo del 08/09. Se le ofreció dossier con casos concretos (IA + especialización, ICMM/IRMA/World Bank). Stage 2, esperando OK.
+- **Angela María Beltrán Díaz** (Finance Ops Manager, Payflow, fintech Colombia): respondió con objeción directa ("Qué me quieres vender?"). Se contestó honesto y directo, manteniendo el cliente ya citado en MSG1 (Sullair/TGS) por instrucción del usuario de no romper la narrativa ya enviada, aunque el sector real (fintech) correspondería Agora. Dossier ofrecido. Stage 2.
+- **Nicolás Briasco** (Head of Growth & Product Marketing, Airtm — coautor de Manguito): pidió propuesta concreta. Se le dio una idea específica (serie de contenido sobre el trabajo invisible de normalización de datos, con él y su socio como caras) + dossier ofrecido. Stage 2.
+- **Alfredo Córdoba de Alzaga** (Director AC Ingeniería): confirmó dossier ("Perfecto"). Stage 3, pendiente que el jefe lo envíe.
+- **Eduardo Kbal** (CEO USS, seguridad/IoT): cerró explícito y cordial ("no estoy interesado"). Cerrado sin interés.
+- Commit + push a ambos repos (linkedin-hintmedia master, linkedin-historial main) hecho.
+
+## Sesión anterior: 10/09/26
 
 - **Alfredo Córdoba de Alzaga** (Director AC Ingeniería, HVAC/Industria/Construcción): MSG2 enviado, insight sobre auditoría de pliegos vs presupuesto barato, cliente Sullair, dossier ofrecido. Stage 2.
 - **Sergio Slipczuk**: continúa seguimiento intelectual sin venta (2 intercambios más sobre su metodología de tutoría/detección de abandono). Sigue clasificado sin venta, cultivando relación por su red corporativa.

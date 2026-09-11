@@ -2103,7 +2103,8 @@
         "date": "10/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "Cerrado - sin interés (11/09)"
   },
   {
     "id": "1789060070957",
@@ -13029,7 +13030,8 @@
     "name": "Eduardo Kbal",
     "stage": 1,
     "date": "10/09/26",
-    "empresa": "USS"
+    "empresa": "USS",
+    "estado": "Cerrado - sin interés (11/09)"
   },
   {
     "name": "Rocío Azparren",

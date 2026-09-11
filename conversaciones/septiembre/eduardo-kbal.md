@@ -5,7 +5,7 @@
 **Empresa:** USS
 **Pais:** Argentina
 **Sector:** Seguridad Electrónica / IoT / Transformación Digital
-**Estado:** MSG1 enviado
+**Estado:** Cerrado sin interés
 
 ---
 
@@ -26,5 +26,10 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta (11/09)
+> Eduardo: "Hola Florencia, cómo estás? Muchas gracias por tu mensaje, en este momento no estoy interesado! Saludos, Eduardo."
+
+Cerrado, cordial, sin fricción.
 
 ## Notas
