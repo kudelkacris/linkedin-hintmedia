@@ -5,7 +5,7 @@
 **Empresa:** Altius Business School / AIESEC Costa Rica
 **Pais:** Panamá
 **Sector:** Educación / ONG / Social
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (14/09)
 
 ---
 
@@ -24,6 +24,17 @@
 > Me llamó la atención la publicación que compartiste sobre el webinar de Inteligencia Emocional. Dijiste que la habilidad más poderosa que podés desarrollar como líder no es técnica, es emocional. No es lo que casi nadie publica cuando habla de gestión de proyectos o de coordinación de equipos.
 >
 > Si estoy entendiendo bien lo que leí, tenía una consulta y quería saber si me podías ayudar.
+
+---
+
+## Respuesta MSG1 (14/09)
+> Miguel: "Hola buenos días qué tal"
+
+## MSG2 (14/09)
+> Todo bien Miguel, gracias por escribir!
+> Cómo hacés para que la comunicación y coordinación de equipos se mantenga consistente entre AIESEC en Costa Rica, remoto, y Altius en Panamá, presencial, al mismo tiempo?
+> En Hint Media trabajamos con líderes que manejan varios frentes a la vez en construir la capa de comunicación que sostiene esa consistencia sin que dependa de que vos estés en todos lados.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te sirve, o me decís a quién se lo puedo hacer llegar.
 
 ---
 

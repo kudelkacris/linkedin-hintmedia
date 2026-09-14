@@ -342,6 +342,13 @@
 | Christian Shule | 3 - Dossier enviado | 02/09 — en transición laboral (dejó Tucson). Preguntó por performance + AI content. Dossier enviado. | Recontactar cuando tenga nueva función |
 | Lea Abud | 1 - Puerta abierta | 02/09 — respondió no tiene clientes ahora. Pidió Calendly. Respuesta: mandamos Calendly la próxima semana. | **RECORDATORIO: mandar Calendly próxima semana (09/09)** |
 | Martin D'Elia | CERRADA | 02/09 — IBM Consulting = proveedor de transformación digital, no cliente. Cierre suave enviado. | — |
+| Marcela Ospital | 2 - MSG2 enviado | 14/09 — respondió "Sí" al MSG1, MSG2 sobre ordenar portafolio MBD Habitar bajo narrativa madre | Esperar respuesta |
+| Miguel A. Zaldívar C. | 2 - MSG2 enviado | 14/09 — respondió saludo, MSG2 sobre coordinar comunicación AIESEC (remoto CR) y Altius (presencial Panamá) | Esperar respuesta |
+| Dr. Arturo Arciniega | 1 - MSG1 enviado | 14/09 — Global Expert Digital Dentistry México, ángulo impresión 3D como sistema no gadget | Esperar respuesta |
+| Matias Rodriguez | 1 - MSG1 enviado | 14/09 — HSE minería litio/energía Argentina, ángulo "asiento en la mesa" (share de Jorge Bonifacio) | Esperar respuesta |
+| Mehdí Caballero | CERRADA | 14/09 — declinó directo "no estamos buscando contratar esto". Cierre cordial enviado. | — |
+| Andres Vergara | 1 - MSG1 enviado | 14/09 — respondió "Gracias por tu comentario! Suerte con Hint Media!" — brush-off cordial, no abre puerta. Sin cerrar formalmente. | Evaluar si cerrar |
+| Karen Nieves | 3 - Dossier enviado | 14/09 — confirmó "Perfecto Florencia lo reviso" post-dossier | Esperar respuesta |
 
 ### Stage 4 — SEG1 enviado
 

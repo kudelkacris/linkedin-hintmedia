@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Inmobiliario / Construcción / Desarrollo Empresarial
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado (14/09)
 
 ---
 
@@ -24,6 +24,17 @@
 > En Hint Media trabajamos con líderes como los de Sullair y TGS en convertir expertise compartida en narrativa que ordena el portafolio empresarial, para que cada unidad de negocio reforce la visión madre en lugar de competir.
 >
 > Vale la pena que te cuente cómo lo trabajamos en esos casos?
+
+---
+
+## Respuesta MSG1 (14/09)
+> Marcela: "Sí"
+
+## MSG2 (14/09)
+> Buenas Marcela!
+> Portafolio con negocios tan distintos, residencial, modular, producción ganadera, fundación, cómo lográs que cada uno refuerce la visión de MBD Habitar en lugar de comunicarse como iniciativas sueltas?
+> Trabajamos justamente esa capa: ordenar el mensaje de cada unidad bajo una narrativa madre, sin que pierdan identidad propia.
+> Tenemos un dossier breve con casos concretos. Te lo mando por acá si te sirve, y si le encontrás sentido, seguimos charlando.
 
 ---
 

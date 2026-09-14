@@ -62,7 +62,14 @@
     "empresa": "LATAM)",
     "noInterest": true,
     "estado": "Cerrado - sin interés",
-    "id": "victoria-cabanelas"
+    "id": "victoria-cabanelas",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Victor Oliva",
@@ -204,7 +211,14 @@
     "empresa": "Buenos Aires y alrededores",
     "noInterest": true,
     "estado": "Cerrado - sin interés",
-    "id": "sebastian-fernandez-ovidio"
+    "id": "sebastian-fernandez-ovidio",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "sebastian-estevez",
@@ -410,7 +424,14 @@
     "empresa": "Freelance Consultant",
     "noInterest": true,
     "estado": "Cerrado - sin interés",
-    "id": "pablo-mlynkiewicz"
+    "id": "pablo-mlynkiewicz",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "omar-diaz-reyes",
@@ -470,7 +491,14 @@
     "empresa": "Área metropolitana de Bogotá D.C.",
     "noInterest": true,
     "estado": "Cerrado - cierre neutro",
-    "id": "monica-jimenez-gonzalez"
+    "id": "monica-jimenez-gonzalez",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "mirna-guillen",
@@ -586,11 +614,17 @@
   },
   {
     "name": "María de los Milagros Gómez",
-    "stage": "2",
+    "stage": "6",
     "date": "08/09/26",
     "empresa": "Customer Success",
     "estado": "MSG2 enviado - filtro pre-reunión",
-    "id": "maria-milagros-gomez-digi"
+    "id": "maria-milagros-gomez-digi",
+    "stageHistory": [
+      {
+        "stage": 6,
+        "date": "14/09/26"
+      }
+    ]
   },
   {
     "id": "maria-fernanda-saenz",
@@ -907,6 +941,14 @@
     "date": "27/08/26"
   },
   {
+    "name": "Juan Pablo Rossi",
+    "stage": "3",
+    "date": "10/09/26",
+    "empresa": "JPR Consulting",
+    "id": "juan-pablo-rossi",
+    "estado": "Dossier enviado, propuso canal de sinergia/referidos mutuos"
+  },
+  {
     "id": "juan-pablo-londono",
     "name": "Juan Pablo Londoño",
     "cargo": "Co-founder & CEO",
@@ -1038,7 +1080,14 @@
     "estado": "Cierre suave - por el momento no",
     "date": "07/09/26",
     "lista": "mining-chile-argentina",
-    "recontact": "2026-11-08"
+    "recontact": "2026-11-08",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "jonathan-josafat-rivas-carvajal",
@@ -1082,7 +1131,14 @@
     "empresa": "On The Rocks",
     "noInterest": true,
     "estado": "Cerrado - sin interés",
-    "id": "joaquin-maria-tagle"
+    "id": "joaquin-maria-tagle",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Jeremias Rios",
@@ -1516,7 +1572,14 @@
     "empresa": "Regrow",
     "estado": "Cerrado - sin interés",
     "noInterest": true,
-    "id": "elymar-velasquez-gonzalez"
+    "id": "elymar-velasquez-gonzalez",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "elena-alcover-jorge",
@@ -1538,10 +1601,24 @@
     "empresa": "Universidad de Buenos Aires",
     "sector": "Litio/Gobierno",
     "pais": "Argentina",
-    "stage": "1",
+    "stage": "2",
     "estado": "Conversación activa sin venta - potencial referido",
     "date": "07/09/26",
-    "lista": "mining-chile-argentina"
+    "lista": "mining-chile-argentina",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "14/09/26"
+      }
+    ]
+  },
+  {
+    "name": "Diego Foti",
+    "stage": 2,
+    "date": "08/09/26",
+    "empresa": "Gerente de marketing y publicidad",
+    "id": "diego-foti",
+    "estado": "MSG2 enviado"
   },
   {
     "id": "diego-andr-s-morales-torres",
@@ -1679,6 +1756,15 @@
     "estado": "Inv enviada",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
+  },
+  {
+    "name": "Dan Hirsch",
+    "stage": 1,
+    "date": "10/09/26",
+    "empresa": "Universidad de Buenos Aires",
+    "id": "dan-hirsch",
+    "recontact": "2026-10-22",
+    "estado": "Recontacto programado 22/10/26 (fuera del pais)"
   },
   {
     "id": "dafna-brilovich-zimerman",
@@ -1844,6 +1930,20 @@
     "date": "21/07/26"
   },
   {
+    "name": "Antonio Francisco Landa Ortíz",
+    "stage": "2",
+    "date": "10/09/26",
+    "empresa": "Gerente de Mercadotecnia",
+    "estado": "MSG2 enviado",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26"
+      }
+    ],
+    "id": "antonio-francisco-landa-ortiz"
+  },
+  {
     "id": "angelica-marron-blasquez",
     "nombre": "Angelica Marron Blasquez",
     "cargo": "Co-founder",
@@ -1905,10 +2005,16 @@
     "empresa": "ikoni | Marketing Estratégico",
     "sector": "Marketing/Comunicaciones",
     "pais": "Argentina",
-    "stage": "1",
+    "stage": "6",
     "estado": "Inv enviada",
     "date": "07/09/26",
-    "lista": "mining-chile-argentina"
+    "lista": "mining-chile-argentina",
+    "stageHistory": [
+      {
+        "stage": 6,
+        "date": "14/09/26"
+      }
+    ]
   },
   {
     "id": "alvaro-bohorquez",
@@ -1942,6 +2048,24 @@
     "sector": "Real Estate / Finanzas Alternativas (Gestoras de Inversión Inmobiliaria)",
     "cargo": "Marketing Director | Head of Marketing | Marketing Manager. Estrategia 360°, Branding & Performance. Growth Marketing, Inbound, Generación de demanda",
     "empresa": "MOMENTUM"
+  },
+  {
+    "name": "Alfredo Córdoba de Alzaga",
+    "stage": "3",
+    "date": "10/09/26",
+    "empresa": "AC Ingeniería",
+    "estado": "MSG2 enviado",
+    "id": "alfredo-cordoba-de-alzaga",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "10/09/26"
+      },
+      {
+        "stage": "3",
+        "date": "11/09/26"
+      }
+    ]
   },
   {
     "id": "alexandra-perez-idarraga",
@@ -1984,7 +2108,14 @@
     "empresa": "The Workshop Factory",
     "noInterest": true,
     "estado": "Cerrado - sin interés",
-    "id": "alejandro-berdomas"
+    "id": "alejandro-berdomas",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "id": "alberto-garc-a-mart-nez-de-artola",
@@ -2056,6 +2187,30 @@
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Acelis Tunon Singh"
+  },
+  {
+    "id": "1789417980600",
+    "date": "14/09/26",
+    "name": "Jose Alba",
+    "empresa": "Universidad EAN",
+    "variantTitle": "Startups como protagonistas — el posicionamiento que Jose eligió comunicar",
+    "profileRaw": "Jose Alba\n\n· 1er\n\nDean and Venture Builder | former Chief Growth and Innovation Officer | Business Growth & Corporate Venturing across CBC · Scotiabank · Tec de Monterrey | Co-Founder @LifeBioTech 🧬 | LATAM & Global\n\nBogotá, Distrito Capital, Colombia\n\n·\n\nInformación de contacto\n\nUniversidad EAN\n\nEGADE Business School del Tecnológico de Monterrey\n\n6.427 seguidores\n\n·\n\nMás de 500 contactos\n\nRICH, Carolina y 17 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguido",
+    "msg1": "Buenas Jose! Me quedó dando vueltas tu artículo en MIT Sloan sobre startups como protagonistas del tejido empresarial. No escribiste un análisis; escribiste una toma de posición sobre dónde está realmente el movimiento hoy.\n\nEn Hint Media trabajamos con líderes como los de Sullair y TGS en construir esa narrativa — cómo hacer legible hacia adentro y afuera la transformación que está ocurriendo en tiempo real, sin quedar atrapados en el discurso tradicional.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda.",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Jose! Me quedó dando vueltas tu artículo en MIT Sloan sobre startups como protagonistas del tejido empresarial. No escribiste un análisis; escribiste una toma de posición sobre dónde está realmente el movimiento hoy.\n\nEn Hint Media trabajamos con líderes como los de Sullair y TGS en construir esa narrativa — cómo hacer legible hacia adentro y afuera la transformación que está ocurriendo en tiempo real, sin quedar atrapados en el discurso tradicional.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": ""
+      }
+    ]
   },
   {
     "id": "1789060658881",
@@ -9444,12 +9599,13 @@
   },
   {
     "name": "Miguel A. Zaldívar C.",
-    "stage": "1",
-    "date": "01/07/26",
+    "stage": "2",
+    "date": "14/09/26",
     "empresa": "Altius Business School / AIESEC Costa Rica",
     "cargo": "Project Manager en Tecnología Educativa | Experto en Gestión de Proyectos y Stakeholders",
     "pais": "Panamá",
-    "sector": "Educación / ONG / Social"
+    "sector": "Educación / ONG / Social",
+    "estado": "MSG2 enviado"
   },
   {
     "name": "Ángel Guarín",
@@ -12217,7 +12373,14 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Sales Navigator",
-    "estado": "No interesado"
+    "estado": "No interesado",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Lucas Julián Kolaric",
@@ -12424,14 +12587,6 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Argentina"
-  },
-  {
-    "name": "Diego Foti",
-    "stage": 2,
-    "date": "08/09/26",
-    "empresa": "Gerente de marketing y publicidad",
-    "id": "diego-foti",
-    "estado": "MSG2 enviado"
   },
   {
     "name": "Paulo Gómez",
@@ -12703,7 +12858,14 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "Buenos Aires y alrededores",
-    "estado": "No interesado - otras prioridades"
+    "estado": "No interesado - otras prioridades",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Germán Reisenauer",
@@ -12845,7 +13007,14 @@
     "stage": 1,
     "date": "08/09/26",
     "empresa": "ICBA Instituto Cardiovascular",
-    "estado": "MSG1 enviado (override de descarte)"
+    "estado": "MSG1 enviado (override de descarte)",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "14/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Nelson Irías Núñez",
@@ -12870,9 +13039,10 @@
   },
   {
     "name": "Mehdí Caballero",
-    "stage": 1,
-    "date": "10/09/26",
-    "empresa": "Estructuras (c)"
+    "stage": "CERRADA",
+    "date": "14/09/26",
+    "empresa": "Estructuras (c)",
+    "estado": "Cerrada — sin interés"
   },
   {
     "name": "Christian Uriel Solano",
@@ -12888,15 +13058,6 @@
     ]
   },
   {
-    "name": "Dan Hirsch",
-    "stage": 1,
-    "date": "10/09/26",
-    "empresa": "Universidad de Buenos Aires",
-    "id": "dan-hirsch",
-    "recontact": "2026-10-22",
-    "estado": "Recontacto programado 22/10/26 (fuera del pais)"
-  },
-  {
     "name": "Micaela Strahovsky Mandiola",
     "stage": 1,
     "date": "10/09/26",
@@ -12904,9 +13065,10 @@
   },
   {
     "name": "Marcela Ospital",
-    "stage": 1,
-    "date": "10/09/26",
-    "empresa": "Argentina"
+    "stage": "2",
+    "date": "14/09/26",
+    "empresa": "Argentina",
+    "estado": "MSG2 enviado"
   },
   {
     "name": "Francisco Paolini",
@@ -12995,14 +13157,6 @@
     "empresa": "Comunicación corporativa"
   },
   {
-    "name": "Juan Pablo Rossi",
-    "stage": "3",
-    "date": "10/09/26",
-    "empresa": "JPR Consulting",
-    "id": "juan-pablo-rossi",
-    "estado": "Dossier enviado, propuso canal de sinergia/referidos mutuos"
-  },
-  {
     "name": "Mariano Wolkstein",
     "stage": 1,
     "date": "10/09/26",
@@ -13038,20 +13192,6 @@
     "stage": 1,
     "date": "10/09/26",
     "empresa": "Argentina"
-  },
-  {
-    "name": "Antonio Francisco Landa Ortíz",
-    "stage": "2",
-    "date": "10/09/26",
-    "empresa": "Gerente de Mercadotecnia",
-    "estado": "MSG2 enviado",
-    "stageHistory": [
-      {
-        "stage": 1,
-        "date": "10/09/26"
-      }
-    ],
-    "id": "antonio-francisco-landa-ortiz"
   },
   {
     "name": "Juan Cruz Gonzalez Sevilla",
@@ -13109,21 +13249,101 @@
     "empresa": "MBA USP/Esalq"
   },
   {
-    "name": "Alfredo Córdoba de Alzaga",
-    "stage": "3",
-    "date": "10/09/26",
-    "empresa": "AC Ingeniería",
-    "estado": "MSG2 enviado",
-    "id": "alfredo-cordoba-de-alzaga",
-    "stageHistory": [
-      {
-        "stage": 1,
-        "date": "10/09/26"
-      },
-      {
-        "stage": "3",
-        "date": "11/09/26"
-      }
-    ]
+    "name": "Maria Ignacia Fourt Pimentel",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Fourthane"
+  },
+  {
+    "name": "Walter Zuñiga Ceciliano",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Trisan Ciencias Pecuarias"
+  },
+  {
+    "name": "Nicolas Armentano",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Armentano Desarrollos Inmobiliarios"
+  },
+  {
+    "name": "Marlene Alvarado",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Supervisor HSE"
+  },
+  {
+    "name": "Adrian Rottaris",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "AREA54"
+  },
+  {
+    "name": "Claudio Oscar Zambito",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "José Mariano Olmedo Arrioja",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Valle de Bravo"
+  },
+  {
+    "name": "Juan Javier Graziano",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Luciano Paladini",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Grupo DESA"
+  },
+  {
+    "name": "Diego Aguirre",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Grupo Pose"
+  },
+  {
+    "name": "Ezequiel Mercado",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Merva SA"
+  },
+  {
+    "name": "Maximiliano Delgado",
+    "stage": 1,
+    "date": "14/09/26",
+    "empresa": "Ejecutivo Comercial – Cuentas Claves"
+  },
+  {
+    "id": "dr-arturo-arciniega",
+    "nombre": "Dr. Arturo Arciniega",
+    "name": "Dr. Arturo Arciniega",
+    "cargo": "Global Expert in Digital Dentistry | Founder, Dental Office by Arciniega",
+    "empresa": "Dental Office by Arciniega",
+    "sector": "Salud / Odontología / Tecnología médica",
+    "pais": "México",
+    "stage": "1",
+    "estado": "MSG1 enviado",
+    "lista": "",
+    "date": "14/09/26"
+  },
+  {
+    "id": "matias-rodriguez-hse",
+    "nombre": "Matias Rodriguez",
+    "name": "Matias Rodriguez",
+    "cargo": "Licenciado en Higiene y Seguridad en el Trabajo | HSE Minería/Energía",
+    "empresa": "Consultor Externo HSE",
+    "sector": "Energía / Minería / Litio",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "MSG1 enviado",
+    "lista": "",
+    "date": "14/09/26"
   }
 ]

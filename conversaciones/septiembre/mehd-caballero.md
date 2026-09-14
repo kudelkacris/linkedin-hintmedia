@@ -5,7 +5,7 @@
 **Empresa:** Estructuras (c)
 **Pais:** Argentina
 **Sector:** Ingeniería Estructural / Construcción / Infraestructura
-**Estado:** MSG1 enviado
+**Estado:** CERRADA — sin interés (14/09)
 
 ---
 
@@ -24,6 +24,12 @@
 > En Hint Media trabajamos con empresas como TGS y Transener que construyen narrativa sobre cómo resuelven complejidad técnica. Cuando un equipo como RAMÉ tiene metodología diferenciada, normalmente aparece el desafío de hacer eso visible sin perder rigor.
 >
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
+
+---
+
+## Respuesta y cierre (14/09)
+> Mehdí: "buenas Florencia, te agradezco el contanto. De momento no estamos buscando contratar este tema."
+> Florencia: "Entiendo Mehdí, gracias por avisarme! Cualquier cosa quedo por acá."
 
 ---
 
