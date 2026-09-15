@@ -588,6 +588,19 @@
     "empresa": "Edenred 🔴"
   },
   {
+    "id": "matias-rodriguez-hse",
+    "nombre": "Matias Rodriguez",
+    "name": "Matias Rodriguez",
+    "cargo": "Licenciado en Higiene y Seguridad en el Trabajo | HSE Minería/Energía",
+    "empresa": "Consultor Externo HSE",
+    "sector": "Energía / Minería / Litio",
+    "pais": "Argentina",
+    "stage": "1",
+    "estado": "MSG1 enviado",
+    "lista": "",
+    "date": "14/09/26"
+  },
+  {
     "id": "mathias-vier",
     "nombre": "Mathias Vier",
     "cargo": "CEO & Co-Founder",
@@ -1613,6 +1626,19 @@
     ]
   },
   {
+    "id": "dr-arturo-arciniega",
+    "nombre": "Dr. Arturo Arciniega",
+    "name": "Dr. Arturo Arciniega",
+    "cargo": "Global Expert in Digital Dentistry | Founder, Dental Office by Arciniega",
+    "empresa": "Dental Office by Arciniega",
+    "sector": "Salud / Odontología / Tecnología médica",
+    "pais": "México",
+    "stage": "1",
+    "estado": "MSG1 enviado",
+    "lista": "",
+    "date": "14/09/26"
+  },
+  {
     "name": "Diego Foti",
     "stage": 2,
     "date": "08/09/26",
@@ -2187,6 +2213,54 @@
     "estado": "MSG2 enviado",
     "fecha": "06/07/26",
     "name": "Acelis Tunon Singh"
+  },
+  {
+    "id": "1789509138328",
+    "date": "15/09/26",
+    "name": "Patricio Arellano Ludeña",
+    "empresa": "Grupo Empresarial Sánchez",
+    "variantTitle": "Estrategia vs Ejecución — El dolor que publicó hace 1 mes",
+    "profileRaw": "Patricio Arellano Ludeña\n\n· 1er\n\nDriving profitable growth in construction & industrial businesses | Commercial strategy & market expansion | Latam | MBA\n\nSamborondón, Guayas, Ecuador\n\n·\n\nInformación de contacto\n\nGrupo Empresarial Sánchez\n\nIMD Business School\n\nMás de 500 contactos\n\nVICTORIA, Erika y 6 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Patricio\n\n    Ver perfil\n\n    Agustina Provenzani\n\n    Digital Comms & UX leader\n\n    Seguido por ",
+    "msg1": "Buenas Patricio. Tu artículo sobre la brecha entre estrategia y ejecución me quedó resonando. No escribiste sobre cómo planificar mejor, escribiste sobre por qué los planes brillantes no llegan intactos a la ejecución. Eso no es lo que publica un VP típico.\n\nEn Hint Media trabajamos con líderes como los de TGS y Transener que atraviesan precisamente esto: estrategia clara, pero equipos que necesitan escalar la ejecución sin que todo dependa de la visión del CEO. Armamos equipos externos integrados en marketing y operaciones para que eso sea sostenible.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Patricio. Tu artículo sobre la brecha entre estrategia y ejecución me quedó resonando. No escribiste sobre cómo planificar mejor, escribiste sobre por qué los planes brillantes no llegan intactos a la ejecución. Eso no es lo que publica un VP típico.\n\nEn Hint Media trabajamos con líderes como los de TGS y Transener que atraviesan precisamente esto: estrategia clara, pero equipos que necesitan escalar la ejecución sin que todo dependa de la visión del CEO. Armamos equipos externos integrados en marketing y operaciones para que eso sea sostenible.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "15/09/26",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1789508996903",
+    "date": "15/09/26",
+    "name": "Sandra Salgado Almaraz",
+    "empresa": "Grupo Tecnovidrio",
+    "variantTitle": "Variante A — Resonancia CX + Ejecución Operativa",
+    "profileRaw": "Sandra Salgado Almaraz\n\n· 1er\n\nMarketing Manager at Grupo Tecnovidrio\n\nCiudad de México, México\n\n·\n\nInformación de contacto\n\nGrupo Tecnovidrio\n\nInstituto Tecnológico Autónomo de México\n\n1.508 seguidores\n\n·\n\nMás de 500 contactos\n\nJulio, Jaspar y 3 contactos más en común\nEnviar mensaje\nVer en Sales Navigator\nMás\nOtros perfiles seguidos junto con Sandra\n\n    Ver perfil\n\n    Agustina Provenzani\n\n    Digital Comms & UX leader\n\n    Seguido por Federico, Carlos y 30 personas más que conoces\n    Seguir\n",
+    "msg1": "Buenas Sandra! Me quedó la publicación sobre CX que compartiste hace poco. No era sobre cómo medir más, era sobre conectar experiencia con resultados de negocio. Eso es lo que intenta hacer alguien que coordina múltiples frentes.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS en armar narrativa consistente que haga legible lo que la operación hace, antes de que el cliente llegue a preguntar. Eso, en contextos con múltiples canales y líneas de negocio, suele ser donde aparece la tensión.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?",
+    "msg2": "",
+    "conversationHistory": [
+      {
+        "role": "sent",
+        "text": "Buenas Sandra! Me quedó la publicación sobre CX que compartiste hace poco. No era sobre cómo medir más, era sobre conectar experiencia con resultados de negocio. Eso es lo que intenta hacer alguien que coordina múltiples frentes.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS en armar narrativa consistente que haga legible lo que la operación hace, antes de que el cliente llegue a preguntar. Eso, en contextos con múltiples canales y líneas de negocio, suele ser donde aparece la tensión.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
+      }
+    ],
+    "stage": 1,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "15/09/26",
+        "note": ""
+      }
+    ]
   },
   {
     "id": "1789417980600",
@@ -13321,29 +13395,232 @@
     "empresa": "Ejecutivo Comercial – Cuentas Claves"
   },
   {
-    "id": "dr-arturo-arciniega",
-    "nombre": "Dr. Arturo Arciniega",
-    "name": "Dr. Arturo Arciniega",
-    "cargo": "Global Expert in Digital Dentistry | Founder, Dental Office by Arciniega",
-    "empresa": "Dental Office by Arciniega",
-    "sector": "Salud / Odontología / Tecnología médica",
-    "pais": "México",
-    "stage": "1",
-    "estado": "MSG1 enviado",
-    "lista": "",
-    "date": "14/09/26"
+    "name": "Mario Balderas Casas",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Vidusa"
   },
   {
-    "id": "matias-rodriguez-hse",
-    "nombre": "Matias Rodriguez",
-    "name": "Matias Rodriguez",
-    "cargo": "Licenciado en Higiene y Seguridad en el Trabajo | HSE Minería/Energía",
-    "empresa": "Consultor Externo HSE",
-    "sector": "Energía / Minería / Litio",
-    "pais": "Argentina",
+    "name": "Pablo Boettcher Manterola",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Perú"
+  },
+  {
+    "name": "Antonella Latorre",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Perú"
+  },
+  {
+    "name": "Javier Alexis Magaña Mendoza",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "GLN"
+  },
+  {
+    "name": "María Antonia Cárdenas V",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "EFIGAS"
+  },
+  {
+    "name": "ABRIELA ZARZA",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "ECIPSA"
+  },
+  {
+    "name": "Patricio Arellano Ludeña",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Grupo Empresarial Sánchez"
+  },
+  {
+    "name": "Matías Ricciuti",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Buenos Aires y alrededores"
+  },
+  {
+    "name": "Yunel Harcha",
+    "stage": "2",
+    "date": "15/09/26",
+    "empresa": "Fábrica Nestlé San Fernando.",
+    "estado": "MSG2 enviado"
+  },
+  {
+    "name": "Josefina Gimenez",
+    "stage": "1",
+    "date": "15/09/26",
+    "empresa": "Gerente de Desarrollo Comercial",
+    "estado": "Cerrada por ahora - no busca narrativa construida",
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "15/09/26",
+        "note": "Rechazo cordial, abierta a mkt puntual"
+      }
+    ]
+  },
+  {
+    "name": "Eduardo Tapia Sandoval",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Communications and marketing specialist."
+  },
+  {
+    "name": "Ruben Lopez",
+    "stage": "1",
+    "date": "15/09/26",
+    "empresa": "Director General de Aleatica Mexico.",
+    "estado": "Cerrado - tiene agencia propia de comunicacion",
+    "noInterest": true,
+    "stageHistory": [
+      {
+        "stage": 1,
+        "date": "15/09/26",
+        "note": "Cerrada - agencia propia"
+      }
+    ]
+  },
+  {
+    "name": "Hernan Arce",
+    "stage": "2",
+    "date": "15/09/26",
+    "empresa": "Buenos Aires y alrededores",
+    "estado": "MSG2 enviado - angulo marca personal"
+  },
+  {
+    "name": "Arturo Zevallos",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "DrillCorp"
+  },
+  {
+    "name": "Daniel Manrique Cely",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Perú"
+  },
+  {
+    "name": "Jorge Arévalo",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "CAPECO Perú"
+  },
+  {
+    "name": "Andrés Ferrés",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Barraca Paraná"
+  },
+  {
+    "name": "Miguel Ortega Villar",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Dirección Comercial – PAD"
+  },
+  {
+    "name": "Sebastián Alcaíno Peigna",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Roxia"
+  },
+  {
+    "name": "Andrea Díaz Vargas",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "MultiAceros Chile"
+  },
+  {
+    "name": "Diana Quispe Larreategui",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Perú"
+  },
+  {
+    "name": "José Santiago Moreno Santacruz",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Coordinador comercial"
+  },
+  {
+    "name": "Alexsander Quispe Ñaupa",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Perú"
+  },
+  {
+    "name": "Maria Fernanda Huby Leva",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Explomin Perforaciones"
+  },
+  {
+    "name": "Matías Núñez Malhue",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Renzo Guillen Barrientos",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Jefe Comercial Nacional"
+  },
+  {
+    "name": "Roberto A. Vidal Molina",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Dirección y Administración de Empresas"
+  },
+  {
+    "name": "Fernando Alvarez",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Uruguay"
+  },
+  {
+    "name": "María Soledad Barrios Aguiló",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "ELIAS JOEL MORALES ACHE",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Instituto Politécnico Nacional"
+  },
+  {
+    "name": "Leandro Cobas",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Argentina"
+  },
+  {
+    "name": "Daniela Araya",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "Chile"
+  },
+  {
+    "name": "Yhony Vanegas Ospino",
+    "stage": 1,
+    "date": "15/09/26",
+    "empresa": "CIPRO LATAM"
+  },
+  {
+    "id": "viviana-perlaza-florez",
+    "name": "Viviana Perlaza Flórez",
+    "nombre": "Viviana Perlaza Flórez",
+    "cargo": "Directora Comercial | Gerente de Desarrollo de Negocios B2B",
+    "empresa": "Independiente",
+    "sector": "Inmobiliario / Construccion",
+    "pais": "Colombia",
     "stage": "1",
     "estado": "MSG1 enviado",
-    "lista": "",
-    "date": "14/09/26"
+    "date": "15/09/26"
   }
 ]
