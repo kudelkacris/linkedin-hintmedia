@@ -4,6 +4,17 @@
 
 ---
 
+## Última sesión: 15/09/26 — cierre
+
+- **Josefina Gimenez** (Gerente Desarrollo Comercial, Casa Palm S.A, distribución construcción Bariloche): rechazó específicamente "narrativa construida" por ser pyme familiar que valora autenticidad. Cierre cordial + aclaración de que Hint hace marketing en general (no solo narrativa), puerta abierta. Cerrada por ahora, sin recontact fecha fija.
+- **Ruben Lopez** (Director General Aleatica México): declinó, ya tiene agencia de comunicación propia. Cerrado sin interés (`noInterest: true`).
+- **Hernan Arce** (Neurocoach/Responsable capacitación, Alra VW Concesionario, plan de ahorro): MSG1 sobre su bio ("cuando cambia el observador cambian los resultados") ya enviado sesión previa. Respondió cálido, ofreció ser puente. MSG2 giró a marca personal para él mismo (no venta a la concesionaria) — construir su marca de Neurocoach fuera de Alra. Dossier ofrecido solo a él. Stage 2.
+- **Yunel Harcha** (DPS Coordinator, Fábrica Nestlé San Fernando, Chile): MSG1 sobre Go Live de OMP ya enviado. Respondió genérico/bajo interés. MSG2 fue directo al cuerpo (sin inventar reciprocidad) preguntando sobre sostener la adopción post Go-Live. Dossier ofrecido. Stage 2.
+- **José Santiago Moreno Santacruz** (Coordinador comercial, Paraguay, industria vidrio/cerámica/hormigón + Erasmus/EMAPY): MSG1 sobre su cierre "sigamos construyendo puentes" en evento Erasmus. Respondió HIGH ("me gustaría saber más"). MSG2 honró la promesa exacta de MSG1 (explicar cómo lo trabajamos) en vez de abrir pregunta nueva — evitando contradicción. Dossier ofrecido. Stage 2.
+- **Viviana Perlaza Flórez** (Directora Comercial B2B inmobiliario, Colombia, #OPEN_TO_WORK): perfil en búsqueda de empleo, sin empresa activa — no es ICP estándar pero se avanzó por pedido explícito. MSG1 directo con ángulo marca personal/visibilidad ejecutiva para su búsqueda de rol. Stage 1, nueva entrada en historial.
+- **Alexsander Quispe Ñaupa** (Gestión Ambiental Minera, Walsh Perú): ya tenía MSG1 enviado (ángulo invernadero/reducción presupuesto) de una sesión previa el mismo día. En esta sesión se generó una segunda apertura con ángulo distinto (guanacos/radio collares) por pedido del usuario, pero **no se sobrescribió el .md** para evitar registrar un posible envío duplicado — queda pendiente confirmar con el usuario cuál ángulo se usó realmente.
+- Commits hechos en ambos repos (linkedin-hintmedia master, linkedin-historial main). **Push bloqueado dos veces por el clasificador de auto-mode** — queda pendiente pushear manualmente o con confirmación explícita al reabrir sesión.
+
 ## Última sesión: 11/09/26 — cierre
 
 - **Nora Fiorini** (Trix Translations, traducción especializada minería/ESG): confirmó interés ("Dale, me interesa ;))") al pitch directo del 08/09. Se le ofreció dossier con casos concretos (IA + especialización, ICMM/IRMA/World Bank). Stage 2, esperando OK.
