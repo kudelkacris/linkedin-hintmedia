@@ -2229,14 +2229,15 @@
         "text": "Buenas Patricio. Tu artículo sobre la brecha entre estrategia y ejecución me quedó resonando. No escribiste sobre cómo planificar mejor, escribiste sobre por qué los planes brillantes no llegan intactos a la ejecución. Eso no es lo que publica un VP típico.\n\nEn Hint Media trabajamos con líderes como los de TGS y Transener que atraviesan precisamente esto: estrategia clara, pero equipos que necesitan escalar la ejecución sin que todo dependa de la visión del CEO. Armamos equipos externos integrados en marketing y operaciones para que eso sea sostenible.\n\nVale la pena que te cuente cómo lo resolvimos con esas empresas?"
       }
     ],
-    "stage": 1,
+    "stage": 2,
     "stageHistory": [
       {
         "stage": 1,
         "date": "15/09/26",
         "note": ""
       }
-    ]
+    ],
+    "estado": "MSG2 enviado - correccion cliente Sullair"
   },
   {
     "id": "1789508996903",
@@ -13432,9 +13433,10 @@
   },
   {
     "name": "Patricio Arellano Ludeña",
-    "stage": 1,
+    "stage": 2,
     "date": "15/09/26",
-    "empresa": "Grupo Empresarial Sánchez"
+    "empresa": "Grupo Empresarial Sánchez",
+    "estado": "MSG2 enviado - correccion cliente Sullair"
   },
   {
     "name": "Matías Ricciuti",
@@ -13486,10 +13488,10 @@
   },
   {
     "name": "Hernan Arce",
-    "stage": "2",
+    "stage": "3",
     "date": "15/09/26",
     "empresa": "Buenos Aires y alrededores",
-    "estado": "MSG2 enviado - angulo marca personal"
+    "estado": "Dossier enviado"
   },
   {
     "name": "Arturo Zevallos",
@@ -13535,9 +13537,10 @@
   },
   {
     "name": "Diana Quispe Larreategui",
-    "stage": 1,
+    "stage": "2",
     "date": "15/09/26",
-    "empresa": "Perú"
+    "empresa": "Perú",
+    "estado": "MSG2 enviado"
   },
   {
     "name": "José Santiago Moreno Santacruz",
@@ -13598,7 +13601,8 @@
     "name": "Leandro Cobas",
     "stage": 1,
     "date": "15/09/26",
-    "empresa": "Argentina"
+    "empresa": "Argentina",
+    "noInterest": true
   },
   {
     "name": "Daniela Araya",

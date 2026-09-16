@@ -4,7 +4,14 @@
 
 ---
 
-## Última sesión: 15/09/26 — cierre
+## Última sesión: 16/09/26 — cierre
+
+- **Hernan Arce**: confirmó que ya no está en Alra (terminó el proyecto, volvió como vendedor en otra empresa) pero sigue buscando ir hacia coaching/neurociencias. Pidió el dossier. Se confirmó envío. Stage 3.
+- **Diana Quispe Larreategui** (Geóloga junior, Prime Frontier Group, Perú — minería/exploración): respondió HIGH pidiendo que le cuente cómo trabaja Hint. MSG2 con pregunta sobre traducir resultados geoquímicos (caso Los Alisos) a lenguaje de inversor, clientes Sullair y Tassaroli. Pidió explicación más detallada, se le dio con ejemplo concreto de Sullair. Pendiente enviar cierre final (dossier + llamada con ella y su equipo, 5 variantes generadas sin confirmar cuál se usó). Stage 2.
+- **Patricio Arellano Ludeña** (Gerente General, Grupo Empresarial Sánchez, Ecuador — construcción/industrial multisectorial, asumió el cargo hace 4 meses): respondió HIGH. MSG2 sobre aplicar 4DX en unidades con culturas distintas, dossier ofrecido. **Corregido error de MSG1**: había citado TGS/Transener (energía) para un sector que corresponde a Sullair. Stage 2.
+- **Leandro Cobas** (Sales Manager, Hitachi Energy Argentina): declinó — no está en comunicación y la responsable le pidió no compartir sus datos. Cierre cordial, puerta abierta. Cerrado.
+
+## Sesión anterior: 15/09/26 — cierre
 
 - **Josefina Gimenez** (Gerente Desarrollo Comercial, Casa Palm S.A, distribución construcción Bariloche): rechazó específicamente "narrativa construida" por ser pyme familiar que valora autenticidad. Cierre cordial + aclaración de que Hint hace marketing en general (no solo narrativa), puerta abierta. Cerrada por ahora, sin recontact fecha fija.
 - **Ruben Lopez** (Director General Aleatica México): declinó, ya tiene agencia de comunicación propia. Cerrado sin interés (`noInterest: true`).

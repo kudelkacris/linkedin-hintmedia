@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Automotriz (Strianese Ford)
-**Estado:** MSG2 enviado
+**Estado:** Dossier enviado
 
 ---
 
@@ -36,5 +36,12 @@
 > Trabajo en Hint Media con líderes que están en ese momento, construyendo marca personal y presencia digital que sostenga esa voz de forma consistente.
 > Tenemos un dossier breve con casos concretos. Te lo mando por acá si te sirve.
 
+## Respuesta MSG2
+> Pásamelo. Te comento breve ya en alra no estoy más, ser termino el proyecto, volví como vendedor en una excelente empresa Pero ya estoy buscando de nuevo ir para el lado que más me apasiona. Y pásame el dossier que mañana lo miro. Ahora me estoy yendo a realizar actividad física. Gracias Florencia
+
+## Respuesta a confirmación (16/09/26)
+> Buenas Hernan! Que bueno que estés yendo para el lado que te apasiona, tiene sentido con todo lo que veníamos hablando.
+> Te mando el dossier ahora, lo revisás con calma mañana. Que disfrutes la actividad física!
+
 ## Notas
-Ofreció ser puente/referido, pero el ángulo elegido fue marca personal para él mismo (Neurocoach, contenido semanal propio), no venta a Strianese Ford/Alra como empresa. Dossier pendiente de envío, dirigido solo a él.
+Ofreció ser puente/referido, pero el ángulo elegido fue marca personal para él mismo (Neurocoach, contenido semanal propio), no venta a Strianese Ford/Alra como empresa. Ya no trabaja en Alra (terminó el proyecto), volvió como vendedor en otra empresa pero sigue buscando ir hacia el lado que le apasiona (coaching/neurociencias). Dossier confirmado y enviado 16/09.
