@@ -4,7 +4,16 @@
 
 ---
 
-## Última sesión: 16/09/26 — cierre
+## Última sesión: 17/09/26 tarde — cierre
+
+- **Gabriela Quiñoa** (Partner EY People Consulting, transformación organizacional, Argentina): respondió HIGH a MSG1 ("dale, hablamos"). MSG2 explicó en detalle qué hace Hint (comunicación ejecutiva durante transformación, no solo kickoff) con TGS/Transener como prueba, dossier ofrecido + reunión a futuro deslizada. Se ajustó dos veces por feedback (evitar sonar a favor, no asumir gaps de EY, expandir explicación). Stage 2.
+- **Cristina Cepeda** (RRHH, Universidad Estatal de Milagro / contexto Cartorama-Eljuri, Ecuador): respondió LOW ("gracias por la observación, lo reviso") sin abrir nada concreto. Se mandó probe corto con CTA fuerte (dossier directo) para ver si engancha. Stage 2. **Nota:** sector real es logística/industrial (Sullair), MSG1 usó TGS por error — corregir si continúa.
+- **Owen Said Olivares Castañeda** (RRHH/People Analytics, México): declinó suave ("por el momento estamos bien"). Cerrado sin interés, puerta abierta.
+- **Ivanna Vaisman** (Fractional CMO, Horse Consulting, Argentina): declinó directo ("No, gracias!"). Cerrada sin interés.
+- Commit + push hecho a ambos repos (linkedin-hintmedia master, linkedin-historial main).
+- **Pendiente sin tocar:** batch conversaciones/septiembre (~40 archivos .md untracked de sesiones previas, sin commitear); SEG1 pendientes (Joaquín Goyechea, Luis Cabral, Alicia Pérez Patrón, Jorge O. Gatto, Clara Cecilia Uparela, Daniel D'Agostino); dossier por mail sin enviar (Diego Manfio, Patricio O'Kon, Celeste Neyra, Sandra Zárate, Pablo Rego).
+
+## Sesión anterior: 16/09/26 — cierre
 
 - **Hernan Arce**: confirmó que ya no está en Alra (terminó el proyecto, volvió como vendedor en otra empresa) pero sigue buscando ir hacia coaching/neurociencias. Pidió el dossier. Se confirmó envío. Stage 3.
 - **Diana Quispe Larreategui** (Geóloga junior, Prime Frontier Group, Perú — minería/exploración): respondió HIGH pidiendo que le cuente cómo trabaja Hint. MSG2 con pregunta sobre traducir resultados geoquímicos (caso Los Alisos) a lenguaje de inversor, clientes Sullair y Tassaroli. Pidió explicación más detallada, se le dio con ejemplo concreto de Sullair. Pendiente enviar cierre final (dossier + llamada con ella y su equipo, 5 variantes generadas sin confirmar cuál se usó). Stage 2.
