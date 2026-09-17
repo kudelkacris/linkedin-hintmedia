@@ -1374,7 +1374,7 @@
     "empresa": "EY",
     "sector": "Consultoría",
     "pais": "Argentina",
-    "stage": "1",
+    "stage": "2",
     "estado": "Inv enviada",
     "date": "07/09/26",
     "lista": "mining-chile-argentina"
@@ -2320,7 +2320,8 @@
         "date": "17/09/26",
         "note": ""
       }
-    ]
+    ],
+    "noInterest": true
   },
   {
     "id": "1789669472748",
@@ -2805,7 +2806,7 @@
         "text": "Buenas Gabriela! Me quedó dando vueltas cómo en tus últimas publicaciones no hablas de transformación como programa interno, sino como insight de mercado. Eso es bastante diferente a lo que suele comunicar un Partner de consultoría.\n\nEn Hint Media trabajamos con líderes de transformación como los equipos de TGS y Transener en construir la narrativa que hace legible la complejidad organizacional mientras la ejecución está ocurriendo, sin que una cosa cancele la otra.\n\nVale la pena que te cuente cómo lo trabajamos con esas empresas?"
       }
     ],
-    "stage": 1,
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
@@ -13966,7 +13967,7 @@
   },
   {
     "name": "Cristina Cepeda",
-    "stage": 1,
+    "stage": "2",
     "date": "17/09/26",
     "empresa": "Universidad Estatal de Milagro"
   },
@@ -14064,7 +14065,8 @@
     "name": "Ivanna Vaisman",
     "stage": 1,
     "date": "17/09/26",
-    "empresa": "Horse Consulting"
+    "empresa": "Horse Consulting",
+    "noInterest": true
   },
   {
     "name": "Norberto Catalan",

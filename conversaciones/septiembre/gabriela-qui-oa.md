@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Consultoría / Transformación Organizacional (transversal a energía, minería, oil & gas)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado
 
 ---
 
@@ -26,5 +26,15 @@
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
 ---
+
+## Respuesta MSG1
+> 👏👍😊 Hola Florencia, dale, hablamos
+
+## MSG2
+> Acompañamos a líderes de transformación con la comunicación ejecutiva de todo el proceso: contenido para explicar el porqué de los cambios, vocería del liderazgo hacia los equipos, y materiales que sostienen el mensaje durante todo el tiempo que dura la transformación, no solo en el kickoff.
+> Con TGS y Transener trabajamos justamente en esos momentos: cuando la ejecución ya arrancó y la comunicación interna tiene que ir al mismo ritmo que las decisiones, sin sentirse desfasada o genérica.
+> La idea es que la narrativa no dependa de un comunicado puntual, sino que tenga continuidad mientras dura el cambio.
+> Tenemos un dossier con casos concretos de ese tipo de trabajo, te lo mando por acá.
+> Y si te hace sentido lo que ves ahí, después podemos agendar una charla para ver cómo aplicaría a lo que estás liderando vos.
 
 ## Notas
