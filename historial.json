@@ -14045,9 +14045,10 @@
   },
   {
     "name": "Carolina Correa",
-    "stage": 1,
+    "stage": "3",
     "date": "17/09/26",
-    "empresa": "Argentina"
+    "empresa": "Argentina",
+    "email": "Carolina.correa@saint-gobain.com"
   },
   {
     "name": "Christian Barrios Angulo.",
