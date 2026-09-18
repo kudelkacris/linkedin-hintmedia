@@ -4,7 +4,16 @@
 
 ---
 
-## Última sesión: 17/09/26 tarde — cierre
+## Última sesión: 18/09/26 — cierre
+
+- **Carolina Correa** (Especialista Sustentabilidad/ESG/CSR, Saint-Gobain, Argentina): respondió positivo, dio mail para dossier (Carolina.correa@saint-gobain.com). Stage 3, pendiente que el jefe envíe.
+- **Ezequiel Mercado** (CEO Merva SA, real estate/construcción, Argentina): declinó suave, foco en operación puertas adentro por ahora, "hablemos más adelante". Cierre cordial, puerta abierta, sin fecha fija.
+- **Carlos Enrique Perafán Ardila** (Gerente Marketing, Área Metropolitana de Cali, Colombia): declinó por timing, firmó contrato 2 años con agencia full stack. Cierre cordial, puerta abierta, recontactar en ~2027.
+- **Cristina Cepeda** (RRHH, Ecuador): aclaró que no trabaja para la Universidad Estatal de Milagro, fue invitada como empresa participante en la feria. Se le preguntó con qué empresa participó, pendiente su respuesta. Stage 2 sin cambio.
+- Commit + push hecho a ambos repos (linkedin-hintmedia master, linkedin-historial main).
+- **Pendiente sin tocar (arrastrado de sesiones previas):** batch conversaciones/septiembre (~40 archivos .md untracked sin commitear); SEG1 pendientes (Joaquín Goyechea, Luis Cabral, Alicia Pérez Patrón, Jorge O. Gatto, Clara Cecilia Uparela, Daniel D'Agostino); dossier por mail sin enviar (Diego Manfio, Patricio O'Kon, Celeste Neyra, Sandra Zárate, Pablo Rego).
+
+## Sesión anterior: 17/09/26 tarde — cierre
 
 - **Gabriela Quiñoa** (Partner EY People Consulting, transformación organizacional, Argentina): respondió HIGH a MSG1 ("dale, hablamos"). MSG2 explicó en detalle qué hace Hint (comunicación ejecutiva durante transformación, no solo kickoff) con TGS/Transener como prueba, dossier ofrecido + reunión a futuro deslizada. Se ajustó dos veces por feedback (evitar sonar a favor, no asumir gaps de EY, expandir explicación). Stage 2.
 - **Cristina Cepeda** (RRHH, Universidad Estatal de Milagro / contexto Cartorama-Eljuri, Ecuador): respondió LOW ("gracias por la observación, lo reviso") sin abrir nada concreto. Se mandó probe corto con CTA fuerte (dossier directo) para ver si engancha. Stage 2. **Nota:** sector real es logística/industrial (Sullair), MSG1 usó TGS por error — corregir si continúa.

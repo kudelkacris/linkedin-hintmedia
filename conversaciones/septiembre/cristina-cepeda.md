@@ -33,5 +33,12 @@
 ## MSG2 (probe con CTA, LOW engagement)
 > Dale! Te mando un dossier breve con casos concretos de ese tipo de trabajo, así lo ves con calma y me contás si te hace sentido para lo que están armando en la universidad.
 
+## Respuesta MSG2
+> 👏👍😊 Te comento que yo no trabajo para la Universidad, fui invitada como empresa participante.
+
+## Seguimiento
+> Buenas Cristina! Ah tiene sentido, gracias por aclarar. Con qué empresa participaste vos en la feria?
+
 ## Notas
 - Sector real: logística/industrial (Cartorama/Eljuri) — MSG1 usó TGS, correspondía Sullair. Corregir si sigue la conversación.
+- 18/09/26: aclaró que no trabaja para la Universidad Estatal de Milagro, fue invitada como empresa participante en la feria. Empresa real sin confirmar aún, pendiente su respuesta.

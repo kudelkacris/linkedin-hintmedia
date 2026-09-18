@@ -5,7 +5,7 @@
 **Empresa:** Merva SA
 **Pais:** Argentina
 **Sector:** Real Estate / Construcción / Desarrollos Inmobiliarios e Industriales
-**Estado:** MSG1 enviado
+**Estado:** Cerrado - recontactar más adelante
 
 ---
 
@@ -25,6 +25,13 @@
 >
 > Vale la pena que te cuente cómo lo trabajamos con esas empresas?
 
+## Respuesta MSG1
+> Florencia! Son empresas muy grandes esas! Que buen desafío, nosotros ahora estamos muy enfocados en mejorar la operación puertas adentro, pero hablemos más adelante, gracias por el contacto.
+
+## Cierre
+> Total sentido, primero hay que ordenar la casa. Cuando llegue el momento hablamos con gusto. Éxitos con todo lo que viene!
+
 ---
 
 ## Notas
+- 18/09/26: respondió que ahora están enfocados en mejorar operación puertas adentro, propone hablar más adelante. Cierre cordial, puerta abierta. Sin fecha fija de recontacto.
