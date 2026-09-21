@@ -36,7 +36,13 @@
 
 **Decisión del usuario:** descartó el cierre "tenía una consulta" pese a medir 57,3%, porque genera respuestas pero no reuniones (0,85%). El cierre pasa a ser oferta concreta de un caso.
 
-**PENDIENTE CRÍTICO:** ANCLA y el Language Bank no fueron probados contra Haiku real. Todos los ejemplos los escribió un modelo grande. Falta correr el programa con un perfil y verificar que Haiku ejecute las reglas sin volver al molde.
+**VALIDADO CONTRA HAIKU REAL (20/09):** se corrió el SYSTEM completo contra la API con 3 perfiles de prueba (energía/Perú, oil&gas/Argentina, construcción/México). Score 28/30 en verificación automática. Haiku ejecuta ANCLA correctamente: usa el saludo nuevo, cita textual real, rota las anclas (usó ANCLA 1, 2 y 5), elige el cliente del sector correcto y el cierre según seniority. Cero molde comparativo, cero "vale la pena que te cuente", cero guiones largos.
+
+Defectos detectados en el test y corregidos en el acto: Haiku dejaba el placeholder [Nombre] literal; reformulaba el molde para esquivar la prohibición ("es más específico que lo que típicamente ves en perfiles comerciales"); y listaba el catálogo completo de servicios en B2 en vez de elegir uno.
+
+**Residuo conocido:** B2 todavía lista 3 servicios en algunos casos en vez de elegir uno solo, pese a la plantilla fija. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
+
+Script de validación reutilizable: `scratchpad/test_ancla.py` (extrae el SYSTEM del index.html, genera contra la API y verifica 10 reglas automáticamente).
 
 **Pendiente sin tocar (arrastrado):** batch conversaciones/septiembre (~40 .md untracked); dossier por mail sin enviar (Diego Manfio, Patricio O'Kon, Celeste Neyra, Sandra Zárate, Pablo Rego).
 
