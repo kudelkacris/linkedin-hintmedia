@@ -540,7 +540,9 @@ Reglas de formato no negociables. Aplican a MSG1, MSG2, SEG1 y cualquier mensaje
 - Frases cortas. Fragmentos OK.
 - Tono como alguien que habla, no que escribe un brief.
 - Sin línea en blanco entre burbujas del MSG2. Salto simple solamente.
-- Arrancar siempre con "Buenas [nombre]!" — nunca "Hola".
+- MSG1: arrancar SIEMPRE con "[Nombre], gracias por conectar!" seguido de "Me llamó la atención...".
+  Medido sobre 1.102 conversaciones: 66,2% de respuesta contra 10-18% de "Buenas [nombre]!". Confirmado dentro de cada mes por separado.
+- MSG2 y posteriores (el prospecto ya respondió): arrancar con "Buenas [nombre]" — nunca "Hola".
 - Cada burbuja legible en menos de 8 segundos.
 
 ---

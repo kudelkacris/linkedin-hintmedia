@@ -4,6 +4,42 @@
 
 ---
 
+## Última sesión: 20/09/26 — análisis trimestral y rediseño del sistema
+
+**Informes generados** (carpeta `SEPTIEMBRE INFORME/`):
+- `Informe_Septiembre_2026_Analisis.pptx` — 18 slides, comparativa jun/jul/ago/sep sobre 1.102 conversaciones
+- `Plan_Mas_Reuniones_2026.pptx` — 14 slides, plan de acción
+
+**Diagnóstico central:** la respuesta cayó de 75,6% (junio) a 15,9% (septiembre). Causa medida: el cambio de metodología del 20/08 metió Hint Media en el MSG1 y cambió el cierre. El motor de research está muy por encima del mercado (benchmark 7-10%); lo que se rompió es la conversión.
+
+**Hallazgos principales (todos medidos):**
+- El saludo es el factor individual más determinante: "[Nombre], gracias por conectar!" rinde 66,2% contra 10-18% de "Buenas [nombre]!". Confirmado dentro de cada período por separado.
+- La conversación convierte a reunión 6,7%; el dossier, 0,9%. **7 de las 8 reuniones NO pasaron por el dossier.**
+- 66 personas respondieron DESPUÉS de recibir el dossier y sólo 1 llegó a reunión: nunca se propuso conversar.
+- Mencionar Hint en el MSG1: 16,0% de respuesta. Sin mencionarlo: 59,1%.
+- El molde comparativo ("no es lo que la mayoría") aparecía en 41% de los mensajes, 159 veces textuales. Controlando por período el efecto se invierte: es ruido, no causa. Se limita la repetición literal, no se prohíbe la construcción.
+- El largo casi no afecta la respuesta si no hay pitch: 80-99 palabras rinde 59,7% sin pitch. Óptimo 70-85.
+- En LinkedIn el tope son 3 toques (Expandi, 13,2M mensajes): el primer follow-up rinde -0,6%, el segundo +4,05%, y 5+ rinde peor que uno solo. El benchmark de 6-12 es multicanal.
+
+**Cambios aplicados a `index.html` (SYSTEM prompt):**
+- Bloque MSG1 reemplazado por **SISTEMA ANCLA**: 5 puertas de entrada según el material real disponible, 6 anclas rotativas, test de unicidad obligatorio.
+- **Language Bank conectado**: ejemplos reales de las 8 reuniones y 38 contactos directos, con vocabulario medido.
+- Eliminada la fuente del molde: un ejemplo rotulado "Ejemplo combinado correcto" que contenía la frase. Haiku copia ejemplos antes que reglas.
+- Corregido un segundo prompt fuera del SYSTEM que imponía la fórmula vieja y anulaba los cambios.
+- B2 ahora nombra cliente del sector + UN trabajo concreto (no catálogo de servicios).
+- Cierres sin proponer horarios en frío.
+
+**Archivos nuevos:**
+- `HINT_LANGUAGE_BANK.md` — 324 líneas, mensajes reales clasificados por resultado verificado
+- `MENSAJES_RESCATE.md` — plantillas para los 148 leads sin atender
+- `rescate.json` — lista nominal (81 con dossier sin follow-up + 67 que respondieron sin MSG2)
+
+**Decisión del usuario:** descartó el cierre "tenía una consulta" pese a medir 57,3%, porque genera respuestas pero no reuniones (0,85%). El cierre pasa a ser oferta concreta de un caso.
+
+**PENDIENTE CRÍTICO:** ANCLA y el Language Bank no fueron probados contra Haiku real. Todos los ejemplos los escribió un modelo grande. Falta correr el programa con un perfil y verificar que Haiku ejecute las reglas sin volver al molde.
+
+**Pendiente sin tocar (arrastrado):** batch conversaciones/septiembre (~40 .md untracked); dossier por mail sin enviar (Diego Manfio, Patricio O'Kon, Celeste Neyra, Sandra Zárate, Pablo Rego).
+
 ## Última sesión: 18/09/26 — cierre
 
 - **Carolina Correa** (Especialista Sustentabilidad/ESG/CSR, Saint-Gobain, Argentina): respondió positivo, dio mail para dossier (Carolina.correa@saint-gobain.com). Stage 3, pendiente que el jefe envíe.
