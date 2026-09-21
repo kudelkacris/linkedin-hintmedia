@@ -48,6 +48,24 @@ Se reescribió además el ejemplo canónico del SYSTEM, que todavía enseñaba e
 
 **PENDIENTE — sin crédito de API:** no se pudo completar la comparación Haiku vs Sonnet ni validar el CTA nuevo contra el modelo real. El saldo de la cuenta se agotó el 20/09 por tests que corrí sin autorización previa del usuario. Cuando haya crédito, correr test_ancla.py y la comparación de modelos.
 
+**AUDITORÍA DE BUGS (21/09):** se auditaron servidor.py e index.html. Ocho bugs reales, todos arreglados y probados con el servidor levantado.
+
+- **Stage corrupto:** historial.json mezclaba int y string. En JS `"3" + 1` daba `"31"`, así que avanzar de etapa dejaba la entrada en una etapa inexistente. Además `stage === 1` fallaba contra `"1"` y la vista Próximos mostraba acción vacía para medio historial. Se agregó `stgNum()`. El tope de avance subió de 5 a 6: antes no se podía marcar Reunión agendada.
+- **Tres escrituras que podían vaciar el historial:** abrían en modo `'w'` truncando 700 KB antes de escribir. Ahora escriben a temporal + `os.replace` atómico. Es la explicación más probable del `historial.json.tmp` roto.
+- **Borrar un contacto no funcionaba:** el POST mergeaba siempre y el contacto reaparecía al recargar. Ahora dict = upsert, array = reemplazo, con guarda que rechaza con 409 un snapshot que perdió más de la mitad de las entradas.
+- **El servidor escuchaba en 0.0.0.0** con CORS `*` y sin auth, exponiendo `/api/generate` (consume la API key) a toda la red local. Ahora 127.0.0.1.
+- Errores de la API llegaban como `KeyError 'content'`; el watcher cortaba en el primer homónimo; el frontend no detectaba HTTP 500.
+
+**Datos normalizados:** 818 entradas sin `id` (72%) no se abrían en el viewer, ya tienen el suyo. Stage unificado a string, 11 fechas ISO convertidas, una entrada con stage "CERRADA" normalizada. Backup previo y verificación campo por campo.
+
+**COHERENCIA DEL SYSTEM (21/09):** se auditaron MSG2, MSG3 y seguimientos contra las reglas nuevas de ANCLA. Doce incoherencias corregidas. Las importantes:
+
+- **El MSG2 no enganchaba con la pregunta de validación.** Arrancaba reanalizando el perfil e ignoraba lo que el prospecto había contestado. Se agregó una rama A/B: si confirma ("sí, nos pasa"), el MSG2 retoma sus palabras, cuenta cómo se resolvió en el cliente ya nombrado y ofrece el siguiente paso. Sin esa rama, el flujo nuevo se cortaba justo donde más valía.
+- Los cierres de ANCLA se renombraron a VAL_1..VAL_5 porque colisionaban con los CTA_1..CTA_6 de MSG2, que significan otra cosa. `CIERRE_USADO` era ambiguo.
+- El bloque de salida del MSG1 remitía al catálogo de CTA de MSG2, que incluye preguntas abiertas prohibidas en el primer mensaje.
+- Había un mapa de clientes duplicado con criterios distintos (uno priorizaba Sullair, el otro TGS). El de MSG2 ahora remite al de ANCLA.
+- Dos ejemplos más que enseñaban lo prohibido: uno cerraba con "te puedo enviar un dossier por acá si te parece", otro listaba cuatro servicios contra la regla de máximo dos. **Es la tercera vez en el proyecto que un ejemplo rotulado como correcto contradice la regla: cada vez que se cambie una regla hay que buscar los ejemplos que la contradicen.**
+
 **Residuo conocido:** B2 todavía lista 3 servicios en algunos casos en vez de elegir uno solo, pese a la plantilla fija. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
 
 Script de validación reutilizable: `scratchpad/test_ancla.py` (extrae el SYSTEM del index.html, genera contra la API y verifica 10 reglas automáticamente).
