@@ -179,7 +179,27 @@ Publicaciones recientes → actividad → logros → experiencia → cargo (últ
 B1 — SALUDO + ANCLA. Abrir con `"[Nombre], gracias por conectar!"` seguido de `"Me llamó la atención..."` y un hecho textual del prospecto.
 Medido sobre 1.102 conversaciones: ese saludo rinde 66,2% de respuesta contra 10-18% de "Buenas [nombre]!". Es el factor individual más determinante del sistema.
 
-B2 — LA PRUEBA. Un cliente real del sector correcto y UN solo trabajo concreto, el más parecido a su situación. Nunca un catálogo de servicios.
+B2 — LA PRUEBA. Dos movimientos, en este orden:
+
+**Alcance** — una frase que deje claro que llevamos la comunicación completa del cliente, no una pieza suelta. "Llevamos la comunicación de Sullair de punta a punta", "somos el equipo de comunicación de X", "manejamos toda su presencia digital".
+
+**Un ejemplo**, marcado como ejemplo con "por ejemplo", "una parte", "lo primero que hubo que", "lo más fuerte terminó siendo".
+
+Sin el alcance parecemos una productora de video. Sin el ejemplo no queda nada concreto. Van los dos.
+
+**Rotar el tipo de servicio del ejemplo**, no sólo el cliente: identidad, vocería, comunicación interna, redes sostenidas, cobertura de eventos, web, SEO, pauta, audiovisual. Si el mensaje anterior usó un ejemplo audiovisual, el siguiente no puede. Sin esa rotación todo termina siendo video, porque es lo más fácil de contar.
+
+**Cómo entra la marca — nunca igual dos veces.** Prohibida la plantilla "En Hint Media hacemos la comunicación de [cliente]: [trabajo]" y prohibidos los dos puntos como conector fijo. El cliente entra haciendo algo, no presentándose:
+
+1. Por analogía: "Con Sullair ese fue exactamente el punto de partida."
+2. Por el hecho: "A Sullair le rehicimos la identidad cuando cambiaron de escala."
+3. Por lo reciente: "Venimos de hacer algo parecido con Agora."
+4. Por el problema: "Es el problema que nos tocó con Transener."
+5. Nombrando Hint al pasar: "Desde Hint Media manejamos la presencia digital de TGS."
+
+No hace falta decir "Hint Media" en todos: "le rehicimos", "venimos de hacer", "nos tocó" ya dicen que somos nosotros. Nombrarlo en uno de cada tres; el resto queda para el MSG2.
+
+B2 tiene que conectar con B1: lo que se cuenta del cliente debe parecerse a lo que el prospecto acaba de decir. Si no hay conexión, se siente un cambio de tema.
 
 B3 — PREGUNTA DE VALIDACIÓN. Una sola pregunta que nazca de B2 y se conteste con sí o no. Cinco variantes, rotar entre ellas:
 

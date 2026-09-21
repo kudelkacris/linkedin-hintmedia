@@ -76,7 +76,16 @@ Se reescribió además el ejemplo canónico del SYSTEM, que todavía enseñaba e
 
 **Nota sobre la API:** el saldo de la cuenta se agotó el 20/09 con tests que corrí sin pedir autorización. El usuario pidió el reembolso a Anthropic. De acá en adelante no se toca la API sin autorización explícita en cada caso, avisando cuántas llamadas y el costo estimado.
 
-**Residuo conocido:** B2 todavía lista 3 servicios en algunos casos en vez de elegir uno solo, pese a la plantilla fija. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
+**B2 REESCRITO (21/09, cierre):** la plantilla fija `"En Hint Media hacemos la comunicación de [cliente]: [trabajo]"` se eliminó. Dos problemas que señaló el usuario:
+
+1. **Se repetía idéntica en todos los mensajes**, con los mismos dos puntos. Era un molde nuevo, creado por mí al intentar resolver el catálogo de servicios. Cuarta vez en la sesión que una plantilla fija termina siendo un molde.
+2. **Al exigir "un solo trabajo concreto", el modelo elegía siempre el más tangible: el video.** Resultado, parecíamos una productora audiovisual en vez de una agencia integral.
+
+Ahora B2 son dos movimientos: **alcance** ("llevamos la comunicación de Sullair de punta a punta") + **un ejemplo marcado como ejemplo** ("con Tassaroli, por ejemplo, buena parte del trabajo es hacia adentro"). Más rotación obligatoria del tipo de servicio (si el anterior fue audiovisual, el siguiente no) y cinco formas distintas de que la marca entre en la conversación, sin presentarse.
+
+**Lección acumulada de la sesión:** toda plantilla fija que se le da al modelo se convierte en molde. La solución no es una plantilla mejor sino un conjunto de variantes con regla de rotación. Vale para el saludo, para el cierre, para la entrada de la marca y para el tipo de servicio.
+
+**Residuo conocido:** sin crédito de API no se pudo verificar que el modelo ejecute B2 con los dos movimientos. Las tres veces anteriores que se corrió de verdad aparecieron defectos que no se ven leyendo el prompt. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
 
 Script de validación reutilizable: `scratchpad/test_ancla.py` (extrae el SYSTEM del index.html, genera contra la API y verifica 10 reglas automáticamente).
 
