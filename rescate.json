@@ -1,0 +1,1190 @@
+{
+ "quemados": [
+  {
+   "nombre": "Ana Maria Urrea G",
+   "mes": "junio",
+   "sector": "Agencia / Marketing",
+   "pais": "Colombia",
+   "cargo": "Comunicaciones Corporativas",
+   "file": "ana-maria-urrea-g.md"
+  },
+  {
+   "nombre": "Anabel Arroyo Navarro",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Marketing & Communications Strategist / Project Manager",
+   "file": "anabel-arroyo-navarro.md"
+  },
+  {
+   "nombre": "Daniel Mendoza López",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Marketing Automation Specialist, Loymark",
+   "file": "daniel-mendoza-lopez.md"
+  },
+  {
+   "nombre": "Ericka Torres",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Gerente de Marketing, Novogar Costa Rica",
+   "file": "ericka-torres.md"
+  },
+  {
+   "nombre": "Evanny Monge Córdoba",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Marketing Lead, Texas Tech University - Costa Rica",
+   "file": "evanny-monge-cordoba.md"
+  },
+  {
+   "nombre": "Fabio Daniel Robledo Cadavid",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Multi Country General Manager",
+   "file": "fabio-daniel-robledo-cadavid.md"
+  },
+  {
+   "nombre": "Fabiola Urbina Oporta",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Coordinador de Marketing y Publicidad, Grupo Forco",
+   "file": "fabiola-urbina-oporta.md"
+  },
+  {
+   "nombre": "Guille Tejada",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Head of PR, Digital and Marketing Communications, Komunika Latam",
+   "file": "guille-tejada.md"
+  },
+  {
+   "nombre": "Jana Antonioli",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Marketing Manager",
+   "file": "jana-antonioli.md"
+  },
+  {
+   "nombre": "José Molina",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Director Comercial, Dataformas de Costa Rica",
+   "file": "jose-molina-dataformas.md"
+  },
+  {
+   "nombre": "Juliana Méndez",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Argentina",
+   "cargo": "Jefe de Capital Humano (RRHH)",
+   "file": "juliana-mendez-venoil.md"
+  },
+  {
+   "nombre": "Karina Herrera",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Marketing Coordinator",
+   "file": "karina-herrera.md"
+  },
+  {
+   "nombre": "Leidy Sandi Jimenez",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Marketing Lead, Congero Technology Group",
+   "file": "leidy-sandi-jimenez.md"
+  },
+  {
+   "nombre": "Lisandra (Lis) Chaves Leiva",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Coordinadora de Comunicación e Imagen Institucional, Sistema de Banca para el Desarrollo (SBD)",
+   "file": "lisandra-chaves-leiva.md"
+  },
+  {
+   "nombre": "Luris Elizabeth Aguilar, MBA",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Gerente de Ventas, Logística Panamá S.A.",
+   "file": "luris-elizabeth-aguilar.md"
+  },
+  {
+   "nombre": "María Jesús López Martos",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Mexico",
+   "cargo": "General Manager, SLS Cancun",
+   "file": "maria-jesus-lopez-martos.md"
+  },
+  {
+   "nombre": "Matthew Hernandez",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Marketing Coordinator, Nexsys Centroamérica y Caribe",
+   "file": "matthew-hernandez.md"
+  },
+  {
+   "nombre": "Milena Ureña",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Directora Marketing Digital, McCann San José",
+   "file": "milena-urena.md"
+  },
+  {
+   "nombre": "Pablo Blanco",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Costa Rica",
+   "cargo": "Digital Marketing Specialist / Marketing Team Leader",
+   "file": "pablo-blanco.md"
+  },
+  {
+   "nombre": "Paola Gaspard M.",
+   "mes": "junio",
+   "sector": "Salud / Farma",
+   "pais": "Panama",
+   "cargo": "Jefe de Mercadeo",
+   "file": "paola-gaspard.md"
+  },
+  {
+   "nombre": "Raul Campesino Ruiz",
+   "mes": "junio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Panama",
+   "cargo": "Director de Ventas LATAM (ex Director de Operaciones), Coderland by Izertis",
+   "file": "raul-campesino-ruiz.md"
+  },
+  {
+   "nombre": "Rocio Tome",
+   "mes": "junio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Analista de Comunicaciones (abr 2025, 1 año 3 meses)",
+   "file": "rocio-tome.md"
+  },
+  {
+   "nombre": "Tatiana Alfaro",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "(no especificado)",
+   "cargo": "Soluciones de Marketing Sostenible",
+   "file": "tatiana-alfaro.md"
+  },
+  {
+   "nombre": "Andrea Trejo",
+   "mes": "julio",
+   "sector": "Turismo / Hoteleria",
+   "pais": "Panama",
+   "cargo": "Marketing & PR Panama Convention Center Managed by Legends Global",
+   "file": "andrea-trejo.md"
+  },
+  {
+   "nombre": "Estíbaliz Aguado",
+   "mes": "julio",
+   "sector": "Finanzas / Seguros",
+   "pais": "N/D",
+   "cargo": "",
+   "file": "estibaliz-aguado.md"
+  },
+  {
+   "nombre": "javiera-del-fierro-manns",
+   "mes": "julio",
+   "sector": "Construccion / Real Estate",
+   "pais": "Chile",
+   "cargo": "Jefa de Personas y Comunicaciones Activo Más",
+   "file": "javiera-del-fierro-manns.md"
+  },
+  {
+   "nombre": "Kelly Marimon",
+   "mes": "julio",
+   "sector": "Retail / Consumo",
+   "pais": "Centroamérica",
+   "cargo": "Marketing Manager Casio para Centroamérica",
+   "file": "kelly-marimon.md"
+  },
+  {
+   "nombre": "Kim Zoller",
+   "mes": "julio",
+   "sector": "Otro",
+   "pais": "Estados Unidos",
+   "cargo": "Founder & CEO",
+   "file": "kim-zoller.md"
+  },
+  {
+   "nombre": "Paul Puissegur",
+   "mes": "julio",
+   "sector": "Construccion / Real Estate",
+   "pais": "Espana",
+   "cargo": "International Development Director | Global Strategy | Strategic Partnerships | Market Expansion | MBA | M.Sc | M.A. |",
+   "file": "paul-puissegur.md"
+  },
+  {
+   "nombre": "Christian Shule",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Commercial & Growth Manager | Channel Manager | B2B | B2C | E-Commerce | Business-driven AI | Business Growth  | Telecommunications & Digital Business",
+   "file": "christian-shule.md"
+  },
+  {
+   "nombre": "Daniel D'Agostino",
+   "mes": "agosto",
+   "sector": "Agencia / Marketing",
+   "pais": "Argentina",
+   "cargo": "Marketing Manager | Marketing Campaigns | Content Marketing | B2B | Growth",
+   "file": "daniel-dagostino.md"
+  },
+  {
+   "nombre": "Dante Velasco",
+   "mes": "agosto",
+   "sector": "Mineria",
+   "pais": "Argentina",
+   "cargo": "Sales Segment Executive / Segmento B2B Minería, Industria, Energía y Oil and Gas",
+   "file": "dante-velasco.md"
+  },
+  {
+   "nombre": "Fhellaweith Maria Tovar Escalona",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Profesional de Ingeniería Civil/ Inspectora - Jefa de Obras - Compras - Costos",
+   "file": "fhellaweith-maria-tovar-escalona.md"
+  },
+  {
+   "nombre": "Florencia Cavallo",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Contract Manager | PMO Jr. en formación | Gestión de Operaciones y Contratos | Estudiante de Administración de Empresas",
+   "file": "florencia-cavallo.md"
+  },
+  {
+   "nombre": "Francisco Jones",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Ing. Electricista Industrial | CEO ING&TEC S.R.L.",
+   "file": "francisco-jones.md"
+  },
+  {
+   "nombre": "Franco Landetcheverry",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Ingeniero Civil | Ingeniero Fiscalizador de Seguridad de Presas en ORSEP | Miembro del Comité Argentino de Presas (CAP – ICOLD) | Modelación hidráulic",
+   "file": "franco-landetcheverry.md"
+  },
+  {
+   "nombre": "Joaquín Goyechea",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Jefe de obra en ARINCO SA | Ejecución de proyectos de construcción",
+   "file": "joaqu-n-goyechea.md"
+  },
+  {
+   "nombre": "Jorge O. Gatto",
+   "mes": "agosto",
+   "sector": "Consultoria / RRHH",
+   "pais": "Argentina",
+   "cargo": "Founder & Managing Partner en RAM Execution | Executive Leadership On Demand",
+   "file": "jorge-o-gatto.md"
+  },
+  {
+   "nombre": "Juan Felipe Gómez Martínez",
+   "mes": "agosto",
+   "sector": "Finanzas / Seguros",
+   "pais": "Colombia",
+   "cargo": "Finance Director | FP&A | Strategic Finance | Corporate Planning | Ex-Multinational | MBA Candidate | Driving EBITDA & Growth",
+   "file": "juan-felipe-g-mez-mart-nez.md"
+  },
+  {
+   "nombre": "💯Juan Manuel Sordo",
+   "mes": "agosto",
+   "sector": "Retail / Consumo",
+   "pais": "Argentina",
+   "cargo": "Vendedor Tersuave",
+   "file": "juan-manuel-sordo.md"
+  },
+  {
+   "nombre": "Juan Pablo Cingolani",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Ingeniero Civil | Coordinación de calidad, control de procesos y mejora continua en la industria del hormigón | Gestión de proyectos y liderazgo de eq",
+   "file": "juan-pablo-cingolani.md"
+  },
+  {
+   "nombre": "Juan Rossi",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Co-Founder & CEO at Devlights",
+   "file": "juan-rossi.md"
+  },
+  {
+   "nombre": "Leonardo Ortellado",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Gerente de Proyecto en TEL3/PECOM",
+   "file": "leonardo-ortellado.md"
+  },
+  {
+   "nombre": "Lola Bordás Dolz",
+   "mes": "agosto",
+   "sector": "Educacion",
+   "pais": "Espana",
+   "cargo": "Chief Marketing Officer en Fundación Finnova, Responsable de Womenfortech en Finnova",
+   "file": "lola-bord-s-dolz.md"
+  },
+  {
+   "nombre": "Lucas Matias Salvatore",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Director en Grupo Salvatore",
+   "file": "lucas-matias-salvatore.md"
+  },
+  {
+   "nombre": "Luis Cabral",
+   "mes": "agosto",
+   "sector": "Industria / Logistica",
+   "pais": "Argentina",
+   "cargo": "Operaciones Industriales | Integración Producción & Calidad | Mejora Continua y Transformación Operacional | MBA",
+   "file": "luis-cabral.md"
+  },
+  {
+   "nombre": "Marcos Nicolaides",
+   "mes": "agosto",
+   "sector": "Mineria",
+   "pais": "Chile",
+   "cargo": "Presidente de Empresas Nicolaides",
+   "file": "marcos-nicolaides.md"
+  },
+  {
+   "nombre": "Pablo Cipolletta",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Ingeniero Civil",
+   "file": "pablo-cipolletta.md"
+  },
+  {
+   "nombre": "Patricio O´Kon",
+   "mes": "agosto",
+   "sector": "Agencia / Marketing",
+   "pais": "Argentina",
+   "cargo": "Founder CryptoSports & Papel Picado",
+   "file": "patricio-o-kon.md"
+  },
+  {
+   "nombre": "RENE ROLANDO CORREA",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Inspector General Instalaciones de SUPERFICIE / DUCTOS / HDD / MOVIMIENTO SUELO / CIVIL",
+   "file": "rene-rolando-correa.md"
+  },
+  {
+   "nombre": "Sandra Suárez Pérez",
+   "mes": "agosto",
+   "sector": "Educacion",
+   "pais": "Colombia",
+   "cargo": "CEO, mentora, coach y speaker | Chair Vistage | Poder personal | Liderazgo | Gerencia | Comunicación efectiva | Negociación | Coaching Ejecutivo | Mie",
+   "file": "sandra-su-rez-p-rez.md"
+  },
+  {
+   "nombre": "Analía Angulo Rodríguez",
+   "mes": "septiembre",
+   "sector": "Mineria",
+   "pais": "Argentina",
+   "cargo": "| Consultora de Marketing B2B Industrial | Dirección Estratégica, Posicionamiento y Alineación Marketing–Ventas | Fundadora y Directora en Ikoni - Mar",
+   "file": "anal-a-angulo-rodr-guez.md"
+  },
+  {
+   "nombre": "Armando Aratani",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Brasil",
+   "cargo": "Gerente de Marketing | Clientes | Acesso ao Mercado | Efetividade da Força de vendas  | CRM | Campanhas | Culturas | Field Marketing | Gerente Sênior",
+   "file": "armando-aratani.md"
+  },
+  {
+   "nombre": "Arq. Erick Kennedy",
+   "mes": "septiembre",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Consultor asesor en construcciones en Madera con tecnologia BIM",
+   "file": "arq-erick-kennedy.md"
+  },
+  {
+   "nombre": "Camila Ayala Alvarez",
+   "mes": "septiembre",
+   "sector": "Finanzas / Seguros",
+   "pais": "Colombia",
+   "cargo": "",
+   "file": "camila-ayala-alvarez.md"
+  },
+  {
+   "nombre": "Celeste Policastro",
+   "mes": "septiembre",
+   "sector": "Entretenimiento / Eventos",
+   "pais": "Argentina",
+   "cargo": "Directora & Co-Founder en Btlandia.",
+   "file": "celeste-policastro.md"
+  },
+  {
+   "nombre": "Fer Eillman    ✔",
+   "mes": "septiembre",
+   "sector": "Consultoria / RRHH",
+   "pais": "Argentina",
+   "cargo": "CEO at TalentCross®️ | 🌎 The future of hiring is here: Driving Recruitment 3.0 with AI | Matching top LATAM talent with elite market solutions",
+   "file": "fer-eillman.md"
+  },
+  {
+   "nombre": "Jeremias Rios",
+   "mes": "septiembre",
+   "sector": "Entretenimiento / Eventos",
+   "pais": "Argentina",
+   "cargo": "Gerente de Marketing del Club A. Newells Old Boys",
+   "file": "jeremias-rios.md"
+  },
+  {
+   "nombre": "Julian Abreu",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Costa Rica",
+   "cargo": "Head of Growth & Partnerships @ Bubbl | Ex-BCG | Client Engagement Strategy | Marketing | Entrepreneurship",
+   "file": "julian-abreu.md"
+  },
+  {
+   "nombre": "Lea Abud",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Fractional CMO | Brand & Marketing Consultant | Global Executive Advisor | Tech & FMCG | B2C & B2B | Ex Unilever, OLX,  Freenow Group | MBA UTDT | Mkt",
+   "file": "lea-abud.md"
+  },
+  {
+   "nombre": "Manuel Rojo Vivot",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "UX/UI & Product Designer | Design Systems · Prototipado con IA Generativa | Research → Interacción → Handoff",
+   "file": "manuel-rojo-vivot.md"
+  },
+  {
+   "nombre": "María de los Milagros Gómez",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Líder en Customer Success | Mejora continua, visión integral y liderazgo empático | Procesos, equipos y experiencia del cliente",
+   "file": "mar-a-de-los-milagros-g-mez.md"
+  },
+  {
+   "nombre": "Natalia Giménez",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Uruguay",
+   "cargo": "Fractional Sales Manager | Fractional Closer | Crecimiento B2B & Experiencia de Cliente | Omnicanalidad e IA Conversacional",
+   "file": "natalia-gim-nez.md"
+  },
+  {
+   "nombre": "Pablo Rego",
+   "mes": "septiembre",
+   "sector": "Retail / Consumo",
+   "pais": "Uruguay",
+   "cargo": "Gerente de Marketing Grupo Tienda Inglesa",
+   "file": "pablo-rego.md"
+  },
+  {
+   "nombre": "Rafael Morfes",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Technical Talent Acquisition Specialist at Silver.dev",
+   "file": "rafael-morfes.md"
+  },
+  {
+   "nombre": "Virginia Cuomo",
+   "mes": "septiembre",
+   "sector": "Educacion",
+   "pais": "Argentina",
+   "cargo": "Potencio la competitividad de tu empresa con transformaciones holísticas e inteligentes. | Construyo comunidad para una longevidad activa, con propósi",
+   "file": "virginia-cuomo.md"
+  },
+  {
+   "nombre": "Yoel Colombo",
+   "mes": "septiembre",
+   "sector": "Otro",
+   "pais": "Argentina",
+   "cargo": "Abogado y mediador | Mentor para que rediseñes como vivir la profesión | Charlas y capacitaciones | Una nueva manera de ejercer la abogacía",
+   "file": "yoel-colombo.md"
+  }
+ ],
+ "dossier_sin_seg1": [
+  {
+   "nombre": "Alberto Castro Velzaquez",
+   "mes": "junio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "N/D",
+   "cargo": "",
+   "file": "alberto-castro-velzaquez.md"
+  },
+  {
+   "nombre": "bernardo-diaz",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Panama",
+   "cargo": "Regional Marketing Manager",
+   "file": "bernardo-diaz.md"
+  },
+  {
+   "nombre": "César Maldonado S.",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Chile",
+   "cargo": "Chief Digital Officer (CDO) IT/OT",
+   "file": "cesar-maldonado.md"
+  },
+  {
+   "nombre": "Clara Ruiz Casallas",
+   "mes": "junio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Colombia",
+   "cargo": "Marketing and Pipeline Advisor",
+   "file": "clara-ruiz-casallas.md"
+  },
+  {
+   "nombre": "Claudia Zazzali",
+   "mes": "junio",
+   "sector": "Mineria",
+   "pais": "Chile",
+   "cargo": "Sub Gerenta Comunicaciones Antofagasta Minerals Norte",
+   "file": "claudia-zazzali.md"
+  },
+  {
+   "nombre": "julia-figueroa",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "N/D",
+   "cargo": "Líder de Comunicación, experta en gestión del cambio",
+   "file": "julia-figueroa.md"
+  },
+  {
+   "nombre": "manuel-garcia-villarreal",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "N/D",
+   "cargo": "Director de Marketing",
+   "file": "manuel-garcia-villarreal.md"
+  },
+  {
+   "nombre": "maria-camila-escobar-castro",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "Colombia",
+   "cargo": "Directora de Marketing Digital",
+   "file": "maria-camila-escobar-castro.md"
+  },
+  {
+   "nombre": "María Vargas",
+   "mes": "junio",
+   "sector": "Agencia / Marketing",
+   "pais": "Costa Rica",
+   "cargo": "Communication & Strategy for Social Impact | Marketing | Fundraising | Sustainability",
+   "file": "maria-vargas.md"
+  },
+  {
+   "nombre": "melania-rodriguez-morales",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "N/D",
+   "cargo": "Ventas, mercadeo y servicio al cliente",
+   "file": "melania-rodriguez-morales.md"
+  },
+  {
+   "nombre": "Meliné Gejekoushian",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "N/D",
+   "cargo": "Responsable de Comunicación en Biofarma",
+   "file": "meline-gejekoushian.md"
+  },
+  {
+   "nombre": "valeria-perez-gonzalez",
+   "mes": "junio",
+   "sector": "N/D",
+   "pais": "(no especificado)",
+   "cargo": "Performance Media Buyer",
+   "file": "valeria-perez-gonzalez.md"
+  },
+  {
+   "nombre": "Viviana Fernández Marín",
+   "mes": "junio",
+   "sector": "Agencia / Marketing",
+   "pais": "(no especificado)",
+   "cargo": "",
+   "file": "viviana-fernandez-marin.md"
+  },
+  {
+   "nombre": "Alexandra Pérez Idárraga",
+   "mes": "julio",
+   "sector": "Salud / Farma",
+   "pais": "Colombia",
+   "cargo": "Conferencista en bienestar y rendimiento | Directora de Move Nutrition",
+   "file": "alexandra-perez-idarraga.md"
+  },
+  {
+   "nombre": "armando-godoy-sep-lveda",
+   "mes": "julio",
+   "sector": "Educacion",
+   "pais": "Chile",
+   "cargo": "Aportando creatividad a las Comunicaciones Internas",
+   "file": "armando-godoy-sep-lveda.md"
+  },
+  {
+   "nombre": "brenda-vaca",
+   "mes": "julio",
+   "sector": "Retail / Consumo",
+   "pais": "Ecuador",
+   "cargo": "Creación y posicionamiento de Marcas / Branding / Lanzamiento de Productos / Fortalecimiento de PDV / Estrategias Comerciales y Ventas B2B y B2C",
+   "file": "brenda-vaca.md"
+  },
+  {
+   "nombre": "Claudia Arango Alvarez",
+   "mes": "julio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Colombia",
+   "cargo": "Directora de Marketing Estratégico | Liderazgo Consciente | Marcas con sentido y coherencia | Transformación de Marca | Growth | Posicionamiento estratégico",
+   "file": "claudia-arango-alvarez.md"
+  },
+  {
+   "nombre": "Claudia Hoyos Bastidas",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Chile",
+   "cargo": "Periodista, Diplomada en Compliance Corporativo Universidad Adolfo Ibáñez.",
+   "file": "claudia-hoyos-bastidas.md"
+  },
+  {
+   "nombre": "Claudia Patricia Rios Molina",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Colombia",
+   "cargo": "Vicepresidente de comunicaciones y sostenibilidad I comunicaciones corporativas | estrategia I reputación I sostenibilidad | innovación l relaciones i",
+   "file": "claudia-patricia-rios-molina.md"
+  },
+  {
+   "nombre": "Cristián Schmid",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "General Manager LATAM & Western Europe | Expert in Tribology & Lubrication | Corporate Transformation & Business Development | Ethical Leadership & St",
+   "file": "cristi-n-schmid.md"
+  },
+  {
+   "nombre": "david-beltr-n-figueroa",
+   "mes": "julio",
+   "sector": "Educacion",
+   "pais": "Colombia",
+   "cargo": "Director de Comunicaciones y Mercadeo",
+   "file": "david-beltr-n-figueroa.md"
+  },
+  {
+   "nombre": "david-beltran-figueroa",
+   "mes": "julio",
+   "sector": "Educacion",
+   "pais": "Colombia",
+   "cargo": "Director de Comunicaciones y Mercadeo",
+   "file": "david-beltran-figueroa.md"
+  },
+  {
+   "nombre": "fabi-n-ignacio-corbal-n-beltr-n",
+   "mes": "julio",
+   "sector": "Agencia / Marketing",
+   "pais": "Chile",
+   "cargo": "Journalist focused on strategic communications, PR & Content curator.",
+   "file": "fabi-n-ignacio-corbal-n-beltr-n.md"
+  },
+  {
+   "nombre": "francisco-peralta-cort-s",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Chile",
+   "cargo": "Chief Public Affairs & Communications Officer",
+   "file": "francisco-peralta-cort-s.md"
+  },
+  {
+   "nombre": "francisco-peralta-cortes",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Chile",
+   "cargo": "Chief Public Affairs & Communications Officer",
+   "file": "francisco-peralta-cortes.md"
+  },
+  {
+   "nombre": "Gustavo Regner",
+   "mes": "julio",
+   "sector": "Consultoria / RRHH",
+   "pais": "Argentina",
+   "cargo": "Founder & CEO — REGNER",
+   "file": "gustavo-regner.md"
+  },
+  {
+   "nombre": "ingrith-mu-oz-herrera",
+   "mes": "julio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Panama",
+   "cargo": "Estratega de Marketing y Comunicación | Gestión de marca, campañas omnicanal y liderazgo de equipos | En transición hacia nuevos sectores creativos y",
+   "file": "ingrith-mu-oz-herrera.md"
+  },
+  {
+   "nombre": "javiera-del-fierro-manns",
+   "mes": "julio",
+   "sector": "Construccion / Real Estate",
+   "pais": "Chile",
+   "cargo": "Jefa de Personas y Comunicaciones Activo Más",
+   "file": "javiera-del-fierro-manns.md"
+  },
+  {
+   "nombre": "Jenny Carolina López",
+   "mes": "julio",
+   "sector": "Salud / Farma",
+   "pais": "Colombia",
+   "cargo": "Socio Fundadora — Psiquiatra Perinatal",
+   "file": "jenny-carolina-lopez.md"
+  },
+  {
+   "nombre": "Josue Medina",
+   "mes": "julio",
+   "sector": "Consultoria / RRHH",
+   "pais": "Panama",
+   "cargo": "Comunicación, marketing estratégico y producción audiovisual. MBA énfasis gerencia",
+   "file": "josue-medina.md"
+  },
+  {
+   "nombre": "Laura Chacón Muñoz",
+   "mes": "julio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Espana",
+   "cargo": "Regional Marketing Manager",
+   "file": "laura-chac-n-mu-oz.md"
+  },
+  {
+   "nombre": "manuel-pati-o-horcajada",
+   "mes": "julio",
+   "sector": "Industria / Logistica",
+   "pais": "Espana",
+   "cargo": "CMO | Marketing Director | Marketing Manager | FMCG | Brand Management | Brand Strategy | Brand Building | Marketing and Communication | International",
+   "file": "manuel-pati-o-horcajada.md"
+  },
+  {
+   "nombre": "María Eugenia Fracchia",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "General Manager en Inflex S.A.",
+   "file": "mar-a-eugenia-fracchia.md"
+  },
+  {
+   "nombre": "marc-roca",
+   "mes": "julio",
+   "sector": "Retail / Consumo",
+   "pais": "Costa Rica",
+   "cargo": "CMO @ Acuarium Piscinas & Spas | Brand Manager @ Purax",
+   "file": "marc-roca.md"
+  },
+  {
+   "nombre": "marta-s-enz-herrera",
+   "mes": "julio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Espana",
+   "cargo": "Marketing & Communications Manager | Paid Media | Performance Marketing | Growth Marketing | Corporate Marketing | Demand Generation | Content Manager",
+   "file": "marta-s-enz-herrera.md"
+  },
+  {
+   "nombre": "Paulo A. Escobar MD FACS",
+   "mes": "julio",
+   "sector": "Salud / Farma",
+   "pais": "Colombia",
+   "cargo": "ENT Consultant | Dual Board-Certified Facial Plastic Surgeon (IBCFPRS & EBCFPRS) | Rhinoplasty Expert & Innovator | Medical Educator | Inventor  📍Bogo",
+   "file": "paulo-a-escobar-md-facs.md"
+  },
+  {
+   "nombre": "rafael-cedano",
+   "mes": "julio",
+   "sector": "Educacion",
+   "pais": "Peru",
+   "cargo": "Marketing | Marketing Educativo | Comercial | Estrategia | Branding | Posicionamiento",
+   "file": "rafael-cedano.md"
+  },
+  {
+   "nombre": "robinson-carrera-astudillo",
+   "mes": "julio",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Chile",
+   "cargo": "Gerente comercial en Gasdelsur",
+   "file": "robinson-carrera-astudillo.md"
+  },
+  {
+   "nombre": "Santiago Azcona",
+   "mes": "julio",
+   "sector": "Mineria",
+   "pais": "Argentina",
+   "cargo": "Gerente en DAMS | Innovación en Exploración Minera | Ingeniería en Proyectos Mineros |",
+   "file": "santiago-azcona.md"
+  },
+  {
+   "nombre": "Santiago Salguero Buitrago",
+   "mes": "julio",
+   "sector": "Agencia / Marketing",
+   "pais": "Colombia",
+   "cargo": "Gestor de Comunicaciones",
+   "file": "santiago-salguero-buitrago.md"
+  },
+  {
+   "nombre": "tatiana-guido-n-ez",
+   "mes": "julio",
+   "sector": "Retail / Consumo",
+   "pais": "Costa Rica",
+   "cargo": "Comunicación, marketing, marketing digital, retail media.",
+   "file": "tatiana-guido-n-ez.md"
+  },
+  {
+   "nombre": "Ximena Ruget",
+   "mes": "julio",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Colombia",
+   "cargo": "Co-Founder & President",
+   "file": "ximena-ruget.md"
+  },
+  {
+   "nombre": "Christian Shule",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Commercial & Growth Manager | Channel Manager | B2B | B2C | E-Commerce | Business-driven AI | Business Growth  | Telecommunications & Digital Business",
+   "file": "christian-shule.md"
+  },
+  {
+   "nombre": "Daniel D'Agostino",
+   "mes": "agosto",
+   "sector": "Agencia / Marketing",
+   "pais": "Argentina",
+   "cargo": "Marketing Manager | Marketing Campaigns | Content Marketing | B2B | Growth",
+   "file": "daniel-dagostino.md"
+  },
+  {
+   "nombre": "Daniel Pasacantando",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Comprador",
+   "file": "daniel-pasacantando.md"
+  },
+  {
+   "nombre": "Daniela Moreno Arciniegas",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Colombia",
+   "cargo": "Partnerships Manager",
+   "file": "daniela-moreno-arciniegas.md"
+  },
+  {
+   "nombre": "Dante Velasco",
+   "mes": "agosto",
+   "sector": "Mineria",
+   "pais": "Argentina",
+   "cargo": "Sales Segment Executive / Segmento B2B Minería, Industria, Energía y Oil and Gas",
+   "file": "dante-velasco.md"
+  },
+  {
+   "nombre": "Diego Manfio",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "VP Ejecutivo en Ingenieria SIMA SA | Energía, Proyectos, Alianzas",
+   "file": "diego-manfio.md"
+  },
+  {
+   "nombre": "Fhellaweith Maria Tovar Escalona",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Profesional de Ingeniería Civil/ Inspectora - Jefa de Obras - Compras - Costos",
+   "file": "fhellaweith-maria-tovar-escalona.md"
+  },
+  {
+   "nombre": "Florencia Cavallo",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Contract Manager | PMO Jr. en formación | Gestión de Operaciones y Contratos | Estudiante de Administración de Empresas",
+   "file": "florencia-cavallo.md"
+  },
+  {
+   "nombre": "Foto de portada",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Cofundadora de Auroria 🌈 | Emprendedora EdTech | Marketer estratégica en Educación y Tecnología B2B | Reputación, Ética e IA | Speaker | Docente",
+   "file": "foto-de-portada.md"
+  },
+  {
+   "nombre": "Franco Landetcheverry",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Ingeniero Civil | Ingeniero Fiscalizador de Seguridad de Presas en ORSEP | Miembro del Comité Argentino de Presas (CAP – ICOLD) | Modelación hidráulic",
+   "file": "franco-landetcheverry.md"
+  },
+  {
+   "nombre": "Jorge López Acevedo.",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Mexico",
+   "cargo": "Managing Partner | Director Comercial |Financial Advisory & Fintech | Estructuración de financiamiento empresarial | Crédito · Factoraje · Arrendamien",
+   "file": "jorge-l-pez-acevedo.md"
+  },
+  {
+   "nombre": "Juan Rossi",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Co-Founder & CEO at Devlights",
+   "file": "juan-rossi.md"
+  },
+  {
+   "nombre": "Karen (KARENSNOWSANDS) Nieves",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Colombia",
+   "cargo": "CEO - Strategic Growth Architect | Head of Growth Managers LATAM",
+   "file": "karen-nieves.md"
+  },
+  {
+   "nombre": "Lucas De Nardo",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Head of Compliance | Compliance Manager | Regulatory & Business Risk Strategy in Fintech | AML · KYC · Fraud Prevention | IA aplicada a Procesos de Co",
+   "file": "lucas-de-nardo.md"
+  },
+  {
+   "nombre": "Lucas Matias Salvatore",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Director en Grupo Salvatore",
+   "file": "lucas-matias-salvatore.md"
+  },
+  {
+   "nombre": "Marcelo Magaña",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Chile",
+   "cargo": "Fundador | Estratega de ROI Tecnológico y Excelencia Arquitectónica | Ayudando a CTOs a Alinear TI con el C-Suite | Transformación Digital Exponencial",
+   "file": "marcelo-maga-a.md"
+  },
+  {
+   "nombre": "Marcelo R. (MarChello) Matarazzi",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Planificación Vial - Evaluaciones, Supervisión de Obras, y Control de Gestión en A.V.P. Chubut. Monitoreo técnico y legal de una Red Vial.",
+   "file": "marcelo-r-marchello-matarazzi.md"
+  },
+  {
+   "nombre": "Pablo Cipolletta",
+   "mes": "agosto",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Ingeniero Civil",
+   "file": "pablo-cipolletta.md"
+  },
+  {
+   "nombre": "Patricio O´Kon",
+   "mes": "agosto",
+   "sector": "Agencia / Marketing",
+   "pais": "Argentina",
+   "cargo": "Founder CryptoSports & Papel Picado",
+   "file": "patricio-o-kon.md"
+  },
+  {
+   "nombre": "Paula Honisch",
+   "mes": "agosto",
+   "sector": "Consultoria / RRHH",
+   "pais": "Argentina",
+   "cargo": "Consultora internacional en Integridad y Compliance. Founder & Managing Director de Honisch y asociados. Apasionada por esencia.",
+   "file": "paula-honisch.md"
+  },
+  {
+   "nombre": "Raúl GONZÁLEZ-ROMERO",
+   "mes": "agosto",
+   "sector": "Consultoria / RRHH",
+   "pais": "Mexico",
+   "cargo": "Acompaño a CEOs, Alta Dirección y organizaciones que enfrentan desgaste operativo, desalineación entre áreas y una creciente dependencia del liderazgo",
+   "file": "ra-l-gonz-lez-romero.md"
+  },
+  {
+   "nombre": "Rafael Ruiz",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Global Insurance Director @ Betterfly | Data Science, AI | Strategy",
+   "file": "rafael-ruiz.md"
+  },
+  {
+   "nombre": "RENE ROLANDO CORREA",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Inspector General Instalaciones de SUPERFICIE / DUCTOS / HDD / MOVIMIENTO SUELO / CIVIL",
+   "file": "rene-rolando-correa.md"
+  },
+  {
+   "nombre": "ristian De Luca",
+   "mes": "agosto",
+   "sector": "Educacion",
+   "pais": "Argentina",
+   "cargo": "Talento | Aprendizaje y Desarrollo | Marca empleadora | HRBP | Comunicación | Transformación Cultural, Clima, Felicidad y Bienestar | People Experienc",
+   "file": "ristian-de-luca.md"
+  },
+  {
+   "nombre": "Romina Luna Venegas",
+   "mes": "agosto",
+   "sector": "Educacion",
+   "pais": "Argentina",
+   "cargo": "Sr. Videogames PM | Narrative Design Professor | Fundadora Makenaide Producciones",
+   "file": "romina-luna-venegas.md"
+  },
+  {
+   "nombre": "Sandra Suárez Pérez",
+   "mes": "agosto",
+   "sector": "Educacion",
+   "pais": "Colombia",
+   "cargo": "CEO, mentora, coach y speaker | Chair Vistage | Poder personal | Liderazgo | Gerencia | Comunicación efectiva | Negociación | Coaching Ejecutivo | Mie",
+   "file": "sandra-su-rez-p-rez.md"
+  },
+  {
+   "nombre": "Santiago José Reyes Botero",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Colombia",
+   "cargo": "C-level Executive | CSO | MBA | Board member | ESG | General Counsel | Oil & Gas |",
+   "file": "santiago-jos-reyes-botero.md"
+  },
+  {
+   "nombre": "Sebastian Kemerer",
+   "mes": "agosto",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Uruguay",
+   "cargo": "Gerente de  Marketing y Producto en Racklatina S.A.",
+   "file": "sebastian-kemerer.md"
+  },
+  {
+   "nombre": "Techi Asplindh",
+   "mes": "agosto",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Argentina",
+   "cargo": "Business & Marketing Executive | B2B Tech & Cybersecurity | Demand Generation | LATAM",
+   "file": "techi-asplindh.md"
+  },
+  {
+   "nombre": "Alfredo Córdoba de Alzaga",
+   "mes": "septiembre",
+   "sector": "Construccion / Real Estate",
+   "pais": "Argentina",
+   "cargo": "Director en AC Ingeniería | Consultoría & Auditoría Termomecánica HVAC | Ing. Civil (UB) - MBA (Harvard)",
+   "file": "alfredo-cordoba-de-alzaga.md"
+  },
+  {
+   "nombre": "Arq. Erick Kennedy",
+   "mes": "septiembre",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Consultor asesor en construcciones en Madera con tecnologia BIM",
+   "file": "arq-erick-kennedy.md"
+  },
+  {
+   "nombre": "Carolina Correa",
+   "mes": "septiembre",
+   "sector": "Energia / Oil&Gas",
+   "pais": "Argentina",
+   "cargo": "Especialista en Sustentabilidad, CSR/ ESG y Comunicación Corporativa",
+   "file": "carolina-correa.md"
+  },
+  {
+   "nombre": "Celeste Policastro",
+   "mes": "septiembre",
+   "sector": "Entretenimiento / Eventos",
+   "pais": "Argentina",
+   "cargo": "Directora & Co-Founder en Btlandia.",
+   "file": "celeste-policastro.md"
+  },
+  {
+   "nombre": "Hernan Arce",
+   "mes": "septiembre",
+   "sector": "Industria / Logistica",
+   "pais": "Argentina",
+   "cargo": "Líder Comercial | Desarrollo de personas y equipos comerciales | Neurocoach | Coaching Ontológico, PNL y Neurociencias aplicadas al liderazgo y los re",
+   "file": "hernan-arce.md"
+  },
+  {
+   "nombre": "Juan Pablo Rossi",
+   "mes": "septiembre",
+   "sector": "Consultoria / RRHH",
+   "pais": "Argentina",
+   "cargo": "Director de JPR Consulting | Finanzas corporativas para empresas medianas y grandes | Inversión, financiamiento y caja | IA aplicada",
+   "file": "juan-pablo-rossi.md"
+  },
+  {
+   "nombre": "Natalia Giménez",
+   "mes": "septiembre",
+   "sector": "Tecnologia / SaaS",
+   "pais": "Uruguay",
+   "cargo": "Fractional Sales Manager | Fractional Closer | Crecimiento B2B & Experiencia de Cliente | Omnicanalidad e IA Conversacional",
+   "file": "natalia-gim-nez.md"
+  },
+  {
+   "nombre": "Pablo Rego",
+   "mes": "septiembre",
+   "sector": "Retail / Consumo",
+   "pais": "Uruguay",
+   "cargo": "Gerente de Marketing Grupo Tienda Inglesa",
+   "file": "pablo-rego.md"
+  },
+  {
+   "nombre": "Tomas Rivero",
+   "mes": "septiembre",
+   "sector": "Industria / Logistica",
+   "pais": "Argentina",
+   "cargo": "Industrial Designer",
+   "file": "tomas-rivero.md"
+  },
+  {
+   "nombre": "Yoel Colombo",
+   "mes": "septiembre",
+   "sector": "Otro",
+   "pais": "Argentina",
+   "cargo": "Abogado y mediador | Mentor para que rediseñes como vivir la profesión | Charlas y capacitaciones | Una nueva manera de ejercer la abogacía",
+   "file": "yoel-colombo.md"
+  }
+ ]
+}

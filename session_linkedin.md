@@ -66,6 +66,16 @@ Se reescribió además el ejemplo canónico del SYSTEM, que todavía enseñaba e
 - Había un mapa de clientes duplicado con criterios distintos (uno priorizaba Sullair, el otro TGS). El de MSG2 ahora remite al de ANCLA.
 - Dos ejemplos más que enseñaban lo prohibido: uno cerraba con "te puedo enviar un dossier por acá si te parece", otro listaba cuatro servicios contra la regla de máximo dos. **Es la tercera vez en el proyecto que un ejemplo rotulado como correcto contradice la regla: cada vez que se cambie una regla hay que buscar los ejemplos que la contradicen.**
 
+**Archivos de esta sesión (todos versionados):**
+- SEPTIEMBRE INFORME/ — los dos decks
+- HINT_LANGUAGE_BANK.md — mensajes reales clasificados por resultado
+- MENSAJES_RESCATE.md — plantillas para los 148 leads sin atender
+- rescate.json — la lista nominal de esos 148 (81 con dossier sin follow-up + 67 que respondieron sin MSG2)
+- analisis/ — los 15 scripts usados, con README. Sirven para repetir el análisis cualquier mes sin rehacerlo.
+- test_ancla.py — valida el prompt contra el modelo. CONSUME CRÉDITOS DE API.
+
+**Nota sobre la API:** el saldo de la cuenta se agotó el 20/09 con tests que corrí sin pedir autorización. El usuario pidió el reembolso a Anthropic. De acá en adelante no se toca la API sin autorización explícita en cada caso, avisando cuántas llamadas y el costo estimado.
+
 **Residuo conocido:** B2 todavía lista 3 servicios en algunos casos en vez de elegir uno solo, pese a la plantilla fija. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
 
 Script de validación reutilizable: `scratchpad/test_ancla.py` (extrae el SYSTEM del index.html, genera contra la API y verifica 10 reglas automáticamente).
