@@ -27,6 +27,16 @@ API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
 API_URL = 'https://api.anthropic.com/v1/messages'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HIST_FILE = os.path.join(BASE_DIR, 'historial.json')
+
+
+def _save_hist(data):
+    """Escritura atomica: si el proceso muere a mitad, historial.json queda intacto.
+    Antes se abria en modo 'w' (truncando 700 KB) y un fallo dejaba el archivo vacio."""
+    tmp = HIST_FILE + '.writing'
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, HIST_FILE)
+
 CONV_DIR  = os.path.join(BASE_DIR, 'conversaciones')
 INTELLIGENCE_CONTEXT = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'context_injection.json')
 INTELLIGENCE_ALERTS  = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'alerts.json')
@@ -123,11 +133,11 @@ def _sync_md(filepath):
                         sh.append({'stage': stage, 'date': today})
                         entry['stageHistory'] = sh
                         changed = True
-                    break
+                    # sin break: puede haber varias entradas con el mismo nombre
+                    # y la convencion del proyecto es actualizarlas todas
 
             if changed:
-                with open(HIST_FILE, 'w', encoding='utf-8') as f:
-                    json.dump(historial, f, ensure_ascii=False, indent=2)
+                _save_hist(historial)
                 label = 'cerrada' if is_closed else f'stage {stage}'
                 print(f'[watcher] {name} -> {label}')
     except Exception as e:
@@ -237,7 +247,10 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                     headers={'x-api-key': API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-beta': 'prompt-caching-2024-07-31'}
                 )
                 result = response.json()
-                text = result['content'][0]['text']
+                if response.status_code != 200:
+                    msg = (result.get('error') or {}).get('message') or f'HTTP {response.status_code}'
+                    raise Exception(f'API: {msg}')
+                text = ''.join(b.get('text', '') for b in result.get('content', []) if b.get('type') == 'text')
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
@@ -258,17 +271,31 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
                             existing = json.load(f)
                     except (FileNotFoundError, json.JSONDecodeError):
                         existing = []
-                    # upsert por id — incoming puede ser array completo o entry única
+                    # El frontend manda un dict (una entrada -> upsert) o el array
+                    # completo (snapshot -> reemplazo). Antes se mergeaba siempre, asi que
+                    # borrar un contacto no tenia efecto: reaparecia al recargar.
                     if isinstance(incoming, dict):
-                        incoming = [incoming]
-                    index = {e['id']: e for e in existing if 'id' in e}
-                    no_id = [e for e in existing if 'id' not in e]
-                    for entry in incoming:
-                        if 'id' in entry:
-                            index[entry['id']] = entry
+                        index = {e['id']: e for e in existing if 'id' in e}
+                        no_id = [e for e in existing if 'id' not in e]
+                        if 'id' in incoming:
+                            index[incoming['id']] = incoming
                         else:
-                            no_id.append(entry)
-                    merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True) + no_id
+                            no_id.append(incoming)
+                        merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True) + no_id
+                    else:
+                        # Guarda: un snapshot que pierde mas de la mitad de las entradas
+                        # es casi seguro un error del cliente. No se aplica.
+                        if existing and len(incoming) < len(existing) * 0.5:
+                            self.send_response(409)
+                            self.send_header('Content-Type', 'application/json; charset=utf-8')
+                            self.send_header('Access-Control-Allow-Origin', '*')
+                            self.end_headers()
+                            self.wfile.write(json.dumps({
+                                'error': f'snapshot sospechoso: {len(incoming)} entradas contra {len(existing)} guardadas'
+                            }, ensure_ascii=False).encode('utf-8'))
+                            print(f'[historial] RECHAZADO snapshot de {len(incoming)} (habia {len(existing)})')
+                            return
+                        merged = incoming
                     # Strip profileRaw to max 500 chars to prevent file bloat
                     for e in merged:
                         if 'profileRaw' in e and len(e.get('profileRaw','')) > 500:
@@ -382,21 +409,25 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
 
                 # Always ensure contact exists in historial.json
                 try:
-                    with open(HIST_FILE, 'r', encoding='utf-8') as f:
-                        historial = json.load(f)
-                    name_lower = name.lower()
-                    exists = any(name_lower in e.get('name', '').lower() for e in historial)
-                    if not exists:
-                        historial.append({
-                            'name': name,
-                            'stage': 1,
-                            'date': today,
-                            'empresa': empresa,
-                        })
-                        with open(HIST_FILE, 'w', encoding='utf-8') as f:
-                            json.dump(historial, f, ensure_ascii=False, indent=2)
-                except Exception:
-                    pass
+                    with _hist_lock:
+                        try:
+                            with open(HIST_FILE, 'r', encoding='utf-8-sig') as f:
+                                historial = json.load(f)
+                        except (FileNotFoundError, json.JSONDecodeError):
+                            historial = []
+                        name_lower = name.lower()
+                        exists = any(name_lower in (e.get('name') or '').lower() for e in historial)
+                        if not exists:
+                            historial.append({
+                                'id': slug,
+                                'name': name,
+                                'stage': '1',
+                                'date': today,
+                                'empresa': empresa,
+                            })
+                            _save_hist(historial)
+                except Exception as e:
+                    print(f'[save-md] no se pudo actualizar historial.json: {e}')
 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
@@ -491,6 +522,6 @@ class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
 
 if __name__ == '__main__':
     _start_watcher()
-    with ThreadedTCPServer(('0.0.0.0', PORT), RequestHandler) as httpd:
+    with ThreadedTCPServer(('127.0.0.1', PORT), RequestHandler) as httpd:
         print(f'Servidor corriendo en http://localhost:{PORT}')
         httpd.serve_forever()

@@ -2356,14 +2356,18 @@ function detectEmailNote(textarea) {
   hint.style.display = /[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(textarea.value) ? '' : 'none';
 }
 
+// stage puede venir como string ("3") o int (3) segun quien lo escribio.
+// Sin esto, "3" + 1 daba "31" y corrompia la entrada.
+function stgNum(v) { const n = parseInt(v, 10); return isNaN(n) ? 1 : n; }
+
 function histAdvanceStage(id, isDossierMail) {
   const en = _histEntries.find(e => e.id === id);
-  if (!en || (en.stage||1) >= 5) return;
+  if (!en || stgNum(en.stage) >= 6) return;
   const noteEl = document.getElementById('advance-note-' + id);
   const note = noteEl ? noteEl.value.trim() : '';
-  const newStage = (en.stage||1) + 1;
+  const newStage = stgNum(en.stage) + 1;
   const dateStr = new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'2-digit',year:'2-digit'});
-  en.stage = newStage;
+  en.stage = String(newStage);
   if (isDossierMail) en.dossierMail = true;
   if (!en.stageHistory) en.stageHistory = [{stage:1, date:en.date, note:''}];
   en.stageHistory.push({stage:newStage, date:dateStr, note});
@@ -2373,8 +2377,8 @@ function histAdvanceStage(id, isDossierMail) {
 }
 function histGoBack(id) {
   const en = _histEntries.find(e => e.id === id);
-  if (!en || (en.stage||1) <= 1) return;
-  en.stage = (en.stage||1) - 1;
+  if (!en || stgNum(en.stage) <= 1) return;
+  en.stage = String(stgNum(en.stage) - 1);
   if (en.stageHistory && en.stageHistory.length > 1) en.stageHistory.pop();
   histPersist();
   renderHistoryList();
@@ -2498,10 +2502,11 @@ function stagePillProx(s) {
   return `<span class="prox-stage-pill ${cls}">${STAGE_NAMES_SHORT[s]||'Apertura'}</span>`;
 }
 function getActionForStage(stage) {
-  if (stage === 1) return 'msg2';
-  if (stage === 2) return 'dossier';
-  if (stage === 3) return 'seg1';
-  if (stage === 4) return 'seg2';
+  const s = stgNum(stage);
+  if (s === 1) return 'msg2';
+  if (s === 2) return 'dossier';
+  if (s === 3) return 'seg1';
+  if (s === 4) return 'seg2';
   return 'other';
 }
 function getEmpresaDisplay(en) {
@@ -2519,7 +2524,7 @@ function renderProximos() {
     return new Date(y < 100 ? 2000+y : y, m-1, d);
   }
   const active = [..._histEntries].filter(en => {
-    if (en.noInterest || (en.stage||1) > 4) return false;
+    if (en.noInterest || stgNum(en.stage) > 4) return false;
     if (en.recontact || en.followup_date) return false;
     return true;
   });
@@ -2640,7 +2645,7 @@ function histPersist(entry) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
-  }).catch(() => {
+  }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); }).catch(() => {
     // Show warning toast if server POST fails
     const t = document.createElement('div');
     t.textContent = '⚠️ No se guardó en servidor — guardado en local';
@@ -2884,7 +2889,7 @@ function renderHistItem(en) {
     <div class="hist-item-row">
       <div class="hist-item-name">${esc(en.name||en.nombre||'Sin nombre')}</div>
       ${overdue?`<span class="overdue-badge">⚠ ${days}d`:''}
-      ${noint?`<span class="stage-pill sp-x">✕ No int.</span>`:`<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabel(en.stage||1)}</span>`}
+      ${noint?`<span class="stage-pill sp-x">✕ No int.</span>`:`<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabelstgNum(en.stage)}</span>`}
       <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
       <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
     </div>
@@ -2976,7 +2981,7 @@ function renderHistoryList() {
   else if (_histStageFilter) filtered = filtered.filter(en => {
     if (en.noInterest) return false;
     if (en.recontact || en.followup_date) return false;
-    return String(en.stage||1) === String(_histStageFilter);
+    return StringstgNum(en.stage) === String(_histStageFilter);
   });
   if (!filtered.length) {
     list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
@@ -3018,7 +3023,7 @@ function renderHistoryList() {
     const byStage = {};
     const stageOrder = [];
     entries.forEach(en => {
-      const sk = en.noInterest ? 'noint' : String(en.stage||1);
+      const sk = en.noInterest ? 'noint' : StringstgNum(en.stage);
       if (!byStage[sk]) { byStage[sk] = []; stageOrder.push(sk); }
       byStage[sk].push(en);
     });
