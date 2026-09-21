@@ -4,6 +4,31 @@
 
 ---
 
+## Última sesión: 21/09/26 tarde — nuevas conexiones y decisores
+
+**Cierres y avances de conversación:**
+- **Gustavo Diaz** (Líder Nacional Movilidad Eléctrica, CELSA, Colombia): escribió primero. MSG2 con rapport cálido igualando su tono, respondió "Si envíalo". Stage 3, **dossier a enviar por LinkedIn** (sin mail). Nunca contestó la pregunta de fondo (quién explica la carga en flotas): buena puerta para el SEG1, y su marca personal (22.656 seguidores) es el win personal.
+- **Angela María Beltrán Díaz** (Payflow): SEG1 enviado sobre su marca personal, respondió que lo vieron y no lo necesitan por ahora. Cerrada cordial, puerta abierta. `noInterest` en historial.
+
+**Aprendizaje de estilo (Gustavo):** el MSG2 largo de 4 burbujas era un error cuando el prospecto ya abrió la puerta. Se acortó y se le devolvió calidez igualando su registro. El acuerdo de "todo más corto" NO estaba registrado en ningún lado: si se habla en sesión, dejarlo escrito en CLAUDE.md.
+
+**Búsqueda de decisores en Sales Navigator (~200 invitaciones enviadas hoy):**
+- Filtro final: Cargo actual (Director General, Gerente general, Fundador, Socio, Propietario, Director Ejecutivo), empleados 11-500, empresa privada, industria petróleo/gas + energía renovable + construcción, ARG/CHL/COL/PER, +10 años de experiencia, años en el puesto <1 y 1-3, "Ha publicado en LinkedIn" ON. NO poner filtro de Nivel de responsabilidad ni Función: excluyen a los propietarios.
+- Palabra clave: `NOT supervisor NOT analista NOT coordinador NOT asistente NOT SSOMA NOT abastecimiento NOT profesor NOT docente NOT "part-time"`. NO `NOT consultor` (volaba a Pettenon y Solange Cuadros).
+- **"Guardado" en Navigator = ya contactado.** Acertó el 100%.
+- Owner/Propietario/Socio valen más que Gerente General. Poco tiempo en el puesto = mejor ventana.
+- No existe API ni MCP de LinkedIn utilizable (la oficial no expone búsqueda, Proxycurl cerró, los MCP son scrapers y arriesgan la cuenta).
+
+**Archivos nuevos en `LISTAS NAVIGATOR/`:**
+- `DECISORES-SEP26.json` / `.md`: 50 entradas con filtros y reglas aprendidas.
+- `21-09/CONEXIONES-21-09.json` + README: 122 personas únicas (79 decisores, 22 mando medio, 7 marketing, 7 dudosos, 7 descartar/competencia). 89 invitaciones enviadas, 15 aceptadas, 18 sin invitar. **Esta tanda no pasó por el filtro de decisores**: mucha hotelería y turismo (rinde 14,3% en el HIE).
+
+**Listas para MSG1 con ancla (aceptaron 21/09):** Sadot Márquez (TISOL), David Angel (Energy Transitions), Leopoldo Zambonino, Ricki S. (VEHM), Sergio Saavedra (HASP Global), Andrés G. (Espacio Hotels), Elias Fernandini (VOLUNA), Liz Pichardini, María Emilia Arias Condori. De DECISORES: Claudio Rojas (PREANSA), Hubani Manzo (Axinntus), Carlos Kattan (Knauf), Cristhian Castillo, Benjamin Osorio (OJO: ahora Gerente de Energía en OLYMPIC), Fabani (Vectra). Para cada MSG1 hace falta la cita textual de un post reciente.
+
+**Repetidos/ojo:** Greg Barton (stage 4) y Antonio Grgicevic (stage 1) ya en historial, no escribir. Ramiro Santa García se coló dos veces (descartado). Sofía González (Connector Agency) y Pedro Casado (Morillas) son competencia. Trinidad Sotomayor (consultora) recibió invitación por error. Pablo Álvarez: verificar si es Founder o Associated Advisor en Aleph Energy. Javier Berdugo (multiseguros) → Libra Seguros. Sadot Márquez (traducción) → sin cliente citable.
+
+**Pendiente sin tocar:** medir la respuesta de las primeras 40 antes de escalar (construcción no tiene dato de conversión). Roman Pettenon, Juan Manuel Isaza, Adrian Andreani, Matías Larraín, Juan Carlos Agostini y Rocío Quiñones Lay: dueños/fundadores buenos que nunca se invitaron, buscarlos a mano. Los 148 leads de rescate (rescate.json) siguen sin atender. Dossier por mail sin enviar: Diego Manfio, Patricio O'Kon, Celeste Neyra, Sandra Zárate, Pablo Rego, Carolina Correa. Sin crédito de API: test_ancla.py y comparación Haiku vs Sonnet siguen sin correr.
+
 ## Última sesión: 20/09/26 — análisis trimestral y rediseño del sistema
 
 **Informes generados** (carpeta `SEPTIEMBRE INFORME/`):

@@ -5,7 +5,7 @@
 **Empresa:** Payflow
 **Pais:** Colombia
 **Sector:** Fintech / Tech
-**Estado:** 2 - Dossier ofrecido (respondió objeción directa, esperando OK)
+**Estado:** CERRADA 21/09 - declinó cordial, no lo necesitan por ahora
 
 ---
 
@@ -30,3 +30,16 @@ Nota: sector real es fintech/tech (Payflow) — correspondería Agora por tabla,
 > Te paso un dossier con casos concretos si te interesa, y ahí decidís si tiene sentido seguir hablando.
 
 ## Notas
+
+## SEG1 enviado (~20/09, sin dossier)
+> Buenas Angela! Me quedé pensando en eso del truco en la narrativa. Por lo que vi, tu contenido de flujo de caja e inflación ya explica cosas complejas sin que nadie tenga que preguntar.
+> Esa voz la pensás para crecer por tu cuenta o más como respaldo a tu trabajo en Payflow?
+
+## Respuesta (21/09)
+> Angela: "Gracias Florencia, gracias por la info. Muy chévere lo que hace Hint Media, por ahora lo vimos pero no lo necesitamos en el momento"
+
+## Cierre enviado (21/09)
+> Buenas Angela, gracias por contestar y por la honestidad! Me alegra que te haya resultado chévere.
+> Si más adelante algo cambia, acá estamos. Y mucho éxito con tu contenido de finanzas, se nota el laburo que hay detrás.
+
+Cerrada con puerta abierta. Sin recontacto fijo.
