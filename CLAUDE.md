@@ -174,15 +174,33 @@ Si el prospecto responde en cualquier punto, pausar la secuencia y responder seg
 **Señal humana (jerarquía para elegir el ángulo):**
 Publicaciones recientes → actividad → logros → experiencia → cargo (último recurso, nunca punto de partida)
 
-**Estructura:**
-- Citar algo concreto del prospecto (publicación, frase, decisión visible)
-- Mostrar que se entendió la idea, no solo que se leyó
-- Cerrar con apertura genuina ("tenía una consulta / quería saber si me podías ayudar")
+**Estructura — SISTEMA ANCLA (actualizado 20/09/26, ver el SYSTEM de index.html):**
+
+B1 — SALUDO + ANCLA. Abrir con `"[Nombre], gracias por conectar!"` seguido de `"Me llamó la atención..."` y un hecho textual del prospecto.
+Medido sobre 1.102 conversaciones: ese saludo rinde 66,2% de respuesta contra 10-18% de "Buenas [nombre]!". Es el factor individual más determinante del sistema.
+
+B2 — LA PRUEBA. Un cliente real del sector correcto y UN solo trabajo concreto, el más parecido a su situación. Nunca un catálogo de servicios.
+
+B3 — PREGUNTA DE VALIDACIÓN. Una sola pregunta que nazca de B2 y se conteste con sí o no. Cinco variantes, rotar entre ellas:
+
+1. "Les pasa algo parecido?" — la base
+2. "Es algo que también aparece en [empresa]?" — solo si el nombre está confirmado
+3. "Les está pasando algo así por estos días?"
+4. "Ves algo de eso por tu lado?" — para CEO, director general, gerente general
+5. "Te toca lidiar con eso a vos?" — para especialistas y perfiles técnicos
+
+**Por qué la pregunta y no el dossier:** la conversación convierte a reunión 6,7%; el dossier, 0,9%. Siete de las ocho reuniones del proyecto NO pasaron por el dossier. Mandar el PDF cierra el hilo.
+
+**Cuando contestan que sí:** un "sí, nos pasa" es una necesidad confirmada y no se deja morir. El MSG2 retoma su confirmación con sus palabras, cuenta en dos líneas cómo se resolvió en el cliente ya nombrado, y recién ahí ofrece dossier o conversación. Nunca responder a un "sí" mandando sólo el PDF.
 
 **Prohibido en MSG1:**
 - Abrir con cargo o empresa
 - Resumir el perfil
-- Mencionar Hint Media
+- Mencionar Hint Media en B1 (sí va en B2, con cliente y trabajo concreto)
+- Ofrecer el dossier: llega después de que confirme interés
+- Proponer día, horario o duración ("martes o jueves", "15 minutos")
+- Preguntas abiertas que pidan explicación ("cómo lo están manejando?", "cómo se organizan?")
+- Comparar al prospecto contra "la mayoría" o "lo que suele hacerse en el sector", en cualquier redacción
 - "Vi que sos" / "Como responsable de" / "Como gerente de"
 
 ---

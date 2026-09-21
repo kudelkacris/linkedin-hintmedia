@@ -40,6 +40,14 @@
 
 Defectos detectados en el test y corregidos en el acto: Haiku dejaba el placeholder [Nombre] literal; reformulaba el molde para esquivar la prohibición ("es más específico que lo que típicamente ves en perfiles comerciales"); y listaba el catálogo completo de servicios en B2 en vez de elegir uno.
 
+**CTA cambiado a pregunta de validación (20/09, tarde):** el cierre del MSG1 ya no ofrece el dossier. Ahora hace una pregunta que se contesta con sí o no y nace de lo que dice B2. Cinco variantes rotativas según el cargo (ver CLAUDE.md sección MSG1). Motivo: la conversación convierte a reunión 6,7% contra 0,9% del dossier, y 7 de las 8 reuniones no pasaron por el PDF.
+
+Se reescribió además el ejemplo canónico del SYSTEM, que todavía enseñaba el saludo viejo, el catálogo de servicios y el cierre con dossier. Era el mismo defecto que produjo las 159 repeticiones del molde: un ejemplo rotulado como correcto que contradecía las reglas. Ahora hay tres ejemplos, con anclas y preguntas distintas entre sí.
+
+**OBLIGACIÓN NUEVA que crea este cambio:** si el prospecto contesta "sí, nos pasa", eso es una necesidad confirmada y hay que tener el MSG2 listo. Si se deja morir, se repite el error de los 66 que respondieron al dossier y nunca recibieron propuesta de conversación.
+
+**PENDIENTE — sin crédito de API:** no se pudo completar la comparación Haiku vs Sonnet ni validar el CTA nuevo contra el modelo real. El saldo de la cuenta se agotó el 20/09 por tests que corrí sin autorización previa del usuario. Cuando haya crédito, correr test_ancla.py y la comparación de modelos.
+
 **Residuo conocido:** B2 todavía lista 3 servicios en algunos casos en vez de elegir uno solo, pese a la plantilla fija. Es mejor que el valor abstracto anterior pero no es óptimo. Revisar si persiste en producción.
 
 Script de validación reutilizable: `scratchpad/test_ancla.py` (extrae el SYSTEM del index.html, genera contra la API y verifica 10 reglas automáticamente).
