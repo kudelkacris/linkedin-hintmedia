@@ -5,7 +5,7 @@
 **Empresa:** Medicina Ocupacional, Medio Ambiente
 **Pais:** Perú
 **Sector:** Minería / Energía extractiva (Barrick Mining — operaciones)
-**Estado:** MSG1 enviado
+**Estado:** Dossier por mail (ralcides@barrick.com)
 
 ---
 
@@ -28,3 +28,4 @@
 ---
 
 ## Notas
+- 23/09/26: respondió "Me parece interesante la propuesta" y pidió enviar info a ralcides@barrick.com. Dirigido a Alcides Fernando Roldán Silva. Stage 3, pendiente que el jefe mande el dossier.
