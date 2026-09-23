@@ -4,6 +4,23 @@
 
 ---
 
+## Última sesión: 23/09/26 — respuestas, cierres y 132 conexiones aceptadas
+
+**Conversaciones:**
+- **Sebastián Francesetti** (Fundador y Director Ejecutivo, Vaca Muerta Facility Group, Añelo): escribió primero. VMFG = holding con 6 empresas y 10 líneas, promesa "un solo interlocutor". Confirmó su dolor: comunicar que VMFG es una plataforma y no un listado de proveedores. MSG2 corto, sin re-saludar, con propuesta de llamada (cliente Sullair). Stage 2. Si acepta: mail + Google Meet.
+- **Julio Vargas Hernández** (Empresa Portuaria Iquique): interés diferido, foco en la concesión portuaria. MSG2 pregunta para cuándo calcula la próxima etapa. Stage 2, **recontactar** según su fecha.
+- **Adrian Rottaris** (AREA54): no es su área, empresa en reestructuración y recortes. Cerrado cordial, puerta abierta (recontactar a alguien del área más adelante).
+- **Ignacio Foyatier** (Innza): no interesado por ahora. Cerrado cordial.
+
+**Aprendizajes de estilo (memoria nueva `feedback-sin-comillas`):** no citar al prospecto entre comillas, parafrasear. En hilo abierto no volver a saludar, ir más conciso. Cuando dan pie, ofrecer llamada directo en vez de dossier.
+
+**Conexiones aceptadas (132, pegadas por la usuaria):** 48 de `CONEXIONES-21-09.json` (30 decisores, 12 mando medio), 19 de `DECISORES-SEP26.json`, 0 de la lista de agosto, **65 sin lista** (invitados directo desde Sales Navigator; incluye a Francesetti, Gustavo Díaz y Alejandro Cabrera, que ya están en historial). Los otros 62 no pasaron por el filtro de decisores (mucha hotelería, mando medio). Competencia a no escribir: Pedro Casado (Morillas).
+**Prioridad MSG1 (energía/minería, decisores):** Armando Montes, Alejandro Auditore, Juan Ignacio Hechem (Delta Energy, prioridad alta), Nicolás Fabani (Vectra), Solange Cuadros (PERU LNG), Benjamin Osorio (Olympic), Elias Fernandini (VOLUNA), Nadia Sager (GEINSA). Falta la cita de un post reciente de cada uno.
+
+**Repos:** historial.json y .md de Francesetti/Vargas/Rottaris/Foyatier subidos a linkedin-hintmedia (master) y linkedin-historial (main). Ojo: el sistema de permisos bloqueó una vez el push a linkedin-historial en modo automático, se resolvió al reintentar por separado.
+
+**Pendiente:** armar MSG1 de los aceptados prioritarios; decidir si filtrar y guardar las 62 conexiones sin lista; los pendientes de la sesión 21/09 siguen abiertos (dossier por mail sin enviar, leads de rescate, medir respuesta de las primeras 40).
+
 ## Última sesión: 21/09/26 tarde — nuevas conexiones y decisores
 
 **Cierres y avances de conversación:**
