@@ -5,7 +5,7 @@
 **Empresa:** Empresa Portuaria Iquique - EPI
 **Pais:** Chile
 **Sector:** Energía / Infraestructura / Transporte (Portuario)
-**Estado:** MSG1 enviado
+**Estado:** MSG2 enviado — recontactar en próxima etapa
 
 ---
 
@@ -27,4 +27,17 @@
 
 ---
 
+## Respuesta MSG1
+> Buenas tardes Florencia. Me encantaría y me parece que sería posible y muy conveniente en una próxima etapa. Sin embargo, hoy nuestro foco esta en la concesión portuaria y los estudios que requerimos en otras áreas. Agradezco el contacto y estaré encantado de contactarla cuando sea posible.
+
+---
+
+## MSG2
+> Tiene todo el sentido, con la concesión portuaria en marcha el foco está ahí.
+> Para no escribirte a destiempo, más o menos para cuándo calculás esa próxima etapa?
+> Mientras tanto, mucho éxito con la concesión.
+
+---
+
 ## Notas
+- 23/09/26: interés real pero diferido (foco en concesión portuaria). MSG2 pregunta timing. RECONTACTAR según la fecha que indique.

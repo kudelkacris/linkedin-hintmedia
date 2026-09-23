@@ -4517,10 +4517,11 @@
   },
   {
     "name": "Julio Vargas Hernández",
-    "stage": "1",
+    "stage": "2",
     "date": "17/09/26",
     "empresa": "Empresa Portuaria Iquique - EPI",
-    "id": "julio-vargas-hernandez"
+    "id": "julio-vargas-hernandez",
+    "notes": "23/09 interés diferido (concesión portuaria). MSG2 pregunta timing. Recontactar."
   },
   {
     "id": "julio-martinez-reyes",
@@ -14918,5 +14919,16 @@
     "stage": "3",
     "date": "21/09/2026",
     "notes": "Escribio primero. MSG2 21/09, dossier confirmado 'Si envialo'. Enviar por LinkedIn."
+  },
+  {
+    "name": "Sebastián Francesetti",
+    "title": "Fundador y Director Ejecutivo",
+    "company": "Vaca Muerta Facility Group",
+    "location": "Argentina",
+    "sector": "Oil & Gas / servicios industriales",
+    "stage": "2",
+    "date": "23/09/2026",
+    "id": "sebastian-francesetti",
+    "notes": "Escribió primero. Confirmó dolor (comunicar que VMFG es plataforma, no listado). MSG2 23/09 propone llamada."
   }
 ]
