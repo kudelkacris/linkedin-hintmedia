@@ -6047,10 +6047,18 @@
   },
   {
     "name": "Ignacio Foyatier",
-    "stage": "1",
+    "stage": "2",
     "date": "08/09/26",
     "empresa": "Innza",
-    "id": "ignacio-foyatier"
+    "id": "ignacio-foyatier",
+    "notes": "Cerrada - no interesado",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "23/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Ignacio Andree Muñoz Flores",
@@ -10010,10 +10018,18 @@
   },
   {
     "name": "Adrian Rottaris",
-    "stage": "1",
+    "stage": "2",
     "date": "14/09/26",
     "empresa": "AREA54",
-    "id": "adrian-rottaris"
+    "id": "adrian-rottaris",
+    "notes": "Cerrada - reestructuración y recortes, no es su área",
+    "stageHistory": [
+      {
+        "stage": 2,
+        "date": "23/09/26",
+        "note": "Cerrada"
+      }
+    ]
   },
   {
     "name": "Adrian Puente Vergara",

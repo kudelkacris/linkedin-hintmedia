@@ -5,7 +5,7 @@
 **Empresa:** Innza
 **Pais:** Argentina
 **Sector:** Real Estate / Construcción / Desarrollo Urbano
-**Estado:** MSG1 enviado
+**Estado:** Cerrado - no interesado
 
 ---
 
@@ -27,4 +27,16 @@
 
 ---
 
+## Respuesta MSG1
+> Hola! como estas? perdoname la demora, no estoy interesado en tus servicios en este momento! Gracias igualmente!
+
+---
+
+## MSG2 (cierre)
+> Todo bien Ignacio, gracias por responder igual.
+> Quedamos conectados por acá, éxitos con todo lo que viene.
+
+---
+
 ## Notas
+- 23/09/26: no interesado en este momento. Cerrado con mensaje cordial.

@@ -5,7 +5,7 @@
 **Empresa:** AREA54
 **Pais:** Argentina
 **Sector:** Logística / Supply Chain / Distribución
-**Estado:** MSG1 enviado
+**Estado:** Cerrado - reestructuración y recortes, no es su área
 
 ---
 
@@ -27,4 +27,17 @@
 
 ---
 
+## Respuesta MSG1
+> Buenos días Florencia, no estoy justamente en ese departamento y no tengo injerencia sobre el mismo. Aunque puedo hablarte que estamos en una etapa de reestructuración y de recortes por cual no creo sea el momento oportuno para una propuesta de esa impronta
+
+---
+
+## MSG2 (cierre)
+> Gracias por contarme cómo está la situación, Adrian, se entiende que ahora no es el momento.
+> Que la reestructuración se ordene rápido y el lanzamiento de gastro y hotel siga creciendo.
+> Quedamos en contacto por acá.
+
+---
+
 ## Notas
+- 23/09/26: no es su área + AREA54 en reestructuración y recortes. Cerrado con mensaje cordial. Recontactar cuando pase la reestructuración (otra persona del área).
