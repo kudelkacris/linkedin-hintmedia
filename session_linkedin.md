@@ -4,6 +4,27 @@
 
 ---
 
+## Última sesión: 05/10/26 — giro del jefe: Capacitaciones + Videos de lanzamiento
+
+**Pedido del jefe (llamada del 05/10):** el servicio integral es muy amplio y las empresas grandes cotizan a fin de año. Se sale con dos productos puntuales: **capacitaciones** (LinkedIn + vocería digital para equipos internos) y **videos de lanzamiento** (motion graphics de proyectos + ilustración de cultura, casos TGS Perito Moreno, cultura TGS y Sullair). Target: **empresas grandes (200-500+), sector indiferente**, áreas RRHH, cultura, comunicación interna y corporativa. Se sale desde la **cuenta del jefe**, no la de Florencia. El jefe arma dos dossiers.
+
+**Armado:** carpeta `NUEVA_OFERTA/` con CLAUDE.md propio, programa en **localhost:3001** (`cd NUEVA_OFERTA` + `python servidor.py`), historial y conversaciones propios. Selector de línea, aviso si el prospecto ya fue contactado por Florencia, Haiku como modelo (pedido explícito). El programa principal (3000) quedó intacto.
+- B1 **sin "Me llamó la atención"** (pedido del usuario): entra directo al hecho ("Vi que…", "Leí lo de…", "Felicitaciones por…").
+- Bloqueado: video NGL de TGS (no publicado), Transener como caso de video, afirmar que ya capacitamos a clientes.
+- Problema conocido: Haiku a veces agrega una frase de opinión al final del B1 en videos. Idea: darle ejemplos en el SYSTEM.
+
+**Listas:**
+- `NUEVA_OFERTA/listas/2026-10-05-comunicacion-interna.md`: búsqueda "comunicación interna", 16 de 25 útiles. Consultar con el jefe: Julián Cebreiro (Transener = cliente) y Adriana Shimabukuro (TGN = competencia de TGS). Nicolas Doyle (Nucleoeléctrica) es 1er grado: escribirle ya.
+- `conexiones/2026-10-05-aceptadas-sin-msg1.md`: **181 aceptadas en la cuenta de Florencia, 179 sin ningún mensaje.** 13 → nueva oferta (Bettina Llapur, Sergio Roses CHRO, Paula Patiño, Grupo Xcaret, Cámara Argentina de Empresas Mineras como canal), ~95 → marketing integral, ~70 descartadas con motivo. Error corregido: había descartado 120 por el titular.
+
+**Pendiente para mañana:**
+1. MSG1 a los aceptados sin mensaje: primero los 13 de la nueva oferta (3001) y los prioritarios de energía en marketing integral (3000). Hace falta el perfil o un post de cada uno.
+2. Headline, "Acerca de" y Destacados del perfil del jefe (necesito cómo está hoy).
+3. Borrador del temario de capacitaciones (`[LINK TEMARIO]`). Carpeta de videos publicados (`[LINK VIDEOS]`), la arma el jefe.
+4. Confirmar con el jefe: nueva oferta desde la cuenta de Florencia para esos 13, Cebreiro y Shimabukuro, Sales Navigator en su cuenta.
+
+---
+
 ## Última sesión: 23/09/26 — respuestas, cierres y 132 conexiones aceptadas
 
 **Conversaciones:**

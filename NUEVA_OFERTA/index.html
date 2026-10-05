@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hint Media · Capacitaciones y Videos</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#FF5C35;--orange-dark:#CC3A1A;--orange-light:#FFF0EB;
+  --dark:#0D0D0D;--dark2:#1A1A1A;--dark3:#2A2A2A;
+  --mid:#666;--light:#F5F3EF;--white:#FFFFFF;--border:#E8E5DF;
+  --green:#27AE60;--green-light:#EAF7EF;
+  --blue-light:#E6F1FB;--blue:#1A5FA8;
+  --shadow:0 2px 16px rgba(0,0,0,0.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--light);color:var(--dark);min-height:100vh}
+
+/* HEADER */
+header{background:var(--dark);padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--orange)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-dot{width:28px;height:28px;background:var(--orange);border-radius:6px;display:flex;align-items:center;justify-content:center}
+.logo-dot svg{width:15px;height:15px;stroke:white;fill:none;stroke-width:2}
+.logo-name{font-family:'DM Serif Display',serif;font-size:17px;color:white}
+.logo-sub{font-size:11px;color:#777;margin-top:1px}
+.status-pill{background:var(--dark3);border:1px solid #333;border-radius:20px;padding:4px 12px;font-size:11.5px;color:#aaa;display:flex;align-items:center;gap:6px}
+.status-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+/* PROXIMOS PANEL */
+#proximos-bar{background:var(--dark2);border-bottom:2px solid #333;padding:0 2rem;position:sticky;top:56px;z-index:99}
+#proximos-toggle{display:flex;align-items:center;gap:10px;height:38px;cursor:pointer;user-select:none}
+#proximos-toggle:hover .prox-label{color:white}
+.prox-label{font-size:12px;font-weight:600;color:#aaa;transition:color .15s}
+.prox-count{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;background:#333;color:#ccc}
+.prox-count.has-overdue{background:#7C1D00;color:#FF9980}
+.prox-chevron{margin-left:auto;color:#555;font-size:13px;transition:transform .2s}
+#proximos-body{display:none;padding:10px 0 14px}
+#proximos-body.open{display:flex;gap:16px;animation:slideDown .2s ease;overflow-x:auto;align-items:flex-start}
+/* Columnas de acción */
+.prox-col{flex:0 0 300px;min-width:240px;max-width:320px}
+.prox-col-head{display:flex;align-items:center;gap:7px;padding:6px 10px;border-radius:7px 7px 0 0;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.prox-col-head.col-msg2{background:#3A1500;color:#FF9060}
+.prox-col-head.col-dossier{background:#002040;color:#60A8FF}
+.prox-col-head.col-seg{background:#1A1040;color:#A080FF}
+.prox-col-head.col-other{background:#1A1A1A;color:#888}
+.prox-col-head.col-reunion{background:#0D2A0D;color:#5CE05C}
+.prox-col-count{font-weight:800;font-size:13px;margin-left:auto}
+.prox-col-body{background:#161616;border:1px solid #2A2A2A;border-top:none;border-radius:0 0 7px 7px;max-height:260px;overflow-y:auto}
+.prox-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid #1F1F1F;cursor:pointer;transition:background .12s}
+.prox-row:last-child{border-bottom:none}
+.prox-row:hover{background:#1F1F1F}
+.prox-row.overdue-row{border-left:2px solid #7C1D00}
+.prox-row-info{flex:1;min-width:0}
+.prox-row-name{font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prox-row-empresa{font-size:10px;color:#555;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prox-row-days{font-size:11px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.prox-row-days.red{color:#FF5C35}
+.prox-row-days.orange{color:#FFA040}
+.prox-row-days.green{color:#27AE60}
+.prox-empty-col{padding:14px 10px;font-size:11px;color:#444;text-align:center;font-style:italic}
+.prox-col-head.col-recontact{background:#1A2A1A;color:#60C080}
+.recontact-picker{background:#1A1A2A;border:1px solid #3A3A5A;border-radius:8px;padding:10px;margin-top:8px;display:none}
+.recontact-picker.open{display:block}
+.recontact-opt{display:inline-block;background:#2A2A4A;color:#A0A0FF;border:none;border-radius:5px;padding:4px 10px;font-size:11px;cursor:pointer;margin:2px}
+.recontact-opt:hover{background:#3A3A6A}
+.recontact-current{font-size:11px;color:#60C080;margin-bottom:6px}
+.recontact-clear{background:#3A1A1A;color:#FF6060;border:none;border-radius:5px;padding:3px 9px;font-size:10px;cursor:pointer;margin-left:6px}
+
+/* CONTAINER */
+.page{max-width:1060px;margin:0 auto;padding:2rem 1.5rem 5rem}
+.page-title{margin-bottom:1.5rem}
+.page-title h1{font-family:'DM Serif Display',serif;font-size:26px;color:var(--dark);line-height:1.2;margin-bottom:3px}
+.page-title h1 em{color:var(--orange);font-style:italic}
+.page-title p{font-size:13px;color:var(--mid)}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:420px 1fr;gap:1.5rem;align-items:start}
+
+/* CARD */
+.card{background:white;border-radius:14px;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden}
+.card-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-icon{width:30px;height:30px;border-radius:7px;background:var(--orange-light);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-icon svg{width:15px;height:15px;stroke:var(--orange);fill:none;stroke-width:2}
+.card-ttl{font-size:13px;font-weight:600;color:var(--dark)}
+.card-sub{font-size:11px;color:var(--mid);margin-top:1px}
+.card-body{padding:16px}
+
+/* FORM */
+textarea.profile{width:100%;min-height:240px;padding:12px;font-family:'DM Sans',sans-serif;font-size:12.5px;line-height:1.6;color:var(--dark);background:var(--light);border:1.5px solid var(--border);border-radius:9px;resize:vertical;outline:none;transition:border-color .2s}
+textarea.profile:focus{border-color:var(--orange);background:white}
+textarea.profile::placeholder{color:#bbb}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}
+label.lbl{display:block;font-size:11px;font-weight:600;color:var(--mid);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+select.sel{width:100%;padding:8px 10px;font-family:'DM Sans',sans-serif;font-size:12.5px;color:var(--dark);background:var(--light);border:1.5px solid var(--border);border-radius:7px;outline:none;cursor:pointer;transition:border-color .2s;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center}
+select.sel:focus{border-color:var(--orange)}
+
+/* BUTTONS */
+.btn-main{width:100%;margin-top:12px;padding:11px;background:var(--orange);color:white;border:none;border-radius:9px;font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .2s,transform .1s}
+.btn-main:hover{background:var(--orange-dark)}
+.btn-main:active{transform:scale(.98)}
+.btn-main:disabled{background:#ccc;cursor:not-allowed}
+.btn-main svg{width:16px;height:16px;stroke:white;fill:none;stroke-width:2;flex-shrink:0}
+.spinner{width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;display:none;flex-shrink:0}
+
+/* RESULTS PANEL */
+.results-wrap{display:flex;flex-direction:column;gap:12px}
+.empty-state{text-align:center;padding:3rem 1.5rem;color:#ccc}
+.empty-state svg{width:44px;height:44px;stroke:#ddd;fill:none;stroke-width:1.5;margin:0 auto 10px;display:block}
+.empty-state p{font-size:12.5px;line-height:1.6;color:#bbb}
+
+/* LOADING */
+.loading-box{display:none;flex-direction:column;align-items:center;padding:2.5rem;gap:12px}
+.loading-ring{width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--orange);border-radius:50%;animation:spin .8s linear infinite}
+.loading-lbl{font-size:12.5px;color:var(--mid)}
+
+/* VARIANT CARD */
+.variant{border:1px solid var(--border);border-radius:11px;overflow:hidden;animation:fadeUp .35s ease both}
+.variant:nth-child(1){animation-delay:.05s}
+.variant:nth-child(2){animation-delay:.15s}
+.variant:nth-child(3){animation-delay:.25s}
+.var-head{display:flex;align-items:center;justify-content:space-between;padding:9px 13px;background:var(--light);border-bottom:1px solid var(--border)}
+.var-left{display:flex;align-items:center;gap:7px}
+.vtag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
+.variant-best{border:2px solid #F97316;box-shadow:0 0 0 3px #FFF0EB}
+.best-badge{font-size:10px;font-weight:700;background:#F97316;color:white;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
+.vtag-a{background:#FFF0EB;color:#993C1D}
+.vtag-b{background:var(--green-light);color:#1A6635}
+.vtag-c{background:var(--blue-light);color:var(--blue)}
+.vtag-d{background:#F3EEFF;color:#6B21A8}
+.vtitle{font-size:12px;font-weight:600;color:var(--dark)}
+.copy-btn{font-size:11px;color:var(--mid);background:white;border:1px solid var(--border);border-radius:6px;padding:3px 9px;cursor:pointer;display:flex;align-items:center;gap:3px;transition:all .15s;font-family:'DM Sans',sans-serif}
+.copy-btn:hover{border-color:var(--orange);color:var(--orange)}
+.copy-btn svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
+
+/* CHAT */
+.msg-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#bbb;padding:7px 13px 2px}
+.chat-area{padding:10px 13px;background:#FAFAF8;display:flex;flex-direction:column;gap:5px}
+.bwrap{display:flex}
+.bwrap.out{justify-content:flex-start}
+.bwrap.in{justify-content:flex-end}
+.bub{max-width:86%;padding:7px 12px;border-radius:16px 16px 16px 4px;font-size:12px;line-height:1.55;color:var(--dark);background:white;border:1px solid var(--border);white-space:pre-wrap;word-break:break-word}
+.bub.in{border-radius:16px 16px 4px 16px;background:var(--blue-light);border-color:#C5DDF6;color:#0A3A6B}
+.bub.hl{background:var(--orange-light);border-color:#FFD0BC}
+.bub.wait{background:none;border:1px dashed #ccc;color:#aaa;font-style:italic;font-size:11px;max-width:100%;border-radius:7px;padding:5px 9px}
+.var-tip{padding:7px 13px;border-top:1px solid var(--border);font-size:11px;color:var(--mid);display:flex;align-items:flex-start;gap:5px;background:white}
+.var-tip svg{width:13px;height:13px;stroke:var(--orange);fill:none;stroke-width:2;flex-shrink:0;margin-top:1px}
+
+/* USE THIS BUTTON */
+.use-btn{width:100%;padding:8px;background:none;border:1px dashed var(--orange);border-radius:7px;color:var(--orange);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;transition:all .15s;margin-top:4px}
+.use-btn:hover{background:var(--orange-light)}
+.use-btn svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2}
+
+/* CONVERSATION THREAD */
+.thread{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+.thread-step{border:1px solid var(--border);border-radius:11px;overflow:hidden;animation:slideDown .3s ease both}
+.thread-step-head{padding:9px 13px;background:var(--dark2);display:flex;align-items:center;justify-content:space-between}
+.thread-step-head span{font-size:11.5px;font-weight:600;color:white}
+.thread-step-head small{font-size:10.5px;color:#888}
+.reply-box{padding:12px 13px;background:var(--light);border-bottom:1px solid var(--border)}
+.reply-box label{display:block;font-size:11px;font-weight:600;color:var(--mid);margin-bottom:5px;text-transform:uppercase;letter-spacing:.04em}
+textarea.reply-input{width:100%;padding:9px 11px;font-family:'DM Sans',sans-serif;font-size:12.5px;line-height:1.55;color:var(--dark);background:white;border:1.5px solid var(--border);border-radius:8px;resize:vertical;min-height:70px;outline:none;transition:border-color .2s}
+textarea.reply-input:focus{border-color:var(--orange)}
+textarea.reply-input::placeholder{color:#bbb;font-style:italic}
+.reply-actions{display:flex;gap:7px;margin-top:8px}
+.btn-reply{flex:1;padding:8px;background:var(--orange);color:white;border:none;border-radius:7px;font-family:'DM Sans',sans-serif;font-size:12.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;transition:background .15s}
+.btn-reply:hover{background:var(--orange-dark)}
+.btn-reply:disabled{background:#ccc;cursor:not-allowed}
+.btn-reply svg{width:14px;height:14px;stroke:white;fill:none;stroke-width:2}
+.btn-reply .mini-spin{width:13px;height:13px;border:2px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;display:none}
+.response-bubble{padding:10px 13px;background:#FAFAF8;display:flex;flex-direction:column;gap:5px}
+
+/* SELECTED INDICATOR */
+.selected-tag{background:var(--green);color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em}
+
+/* HISTORY */
+.hist-panel{margin-top:12px}
+.hist-count{font-size:10px;background:var(--orange);color:white;padding:1px 7px;border-radius:20px;font-weight:700;min-width:20px;text-align:center}
+.hist-list{padding:0 10px 10px;display:flex;flex-direction:column;gap:6px}
+.hist-item{padding:9px 11px;border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all .15s;background:var(--light);display:flex;flex-direction:column}
+.hist-item:hover{border-color:var(--orange);background:var(--orange-light)}
+.hist-item-row{display:flex;align-items:center;gap:5px}
+.hist-item-name{font-size:12.5px;font-weight:600;color:var(--dark);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hist-item-meta{font-size:10.5px;color:var(--mid);margin-top:3px;display:flex;gap:6px;align-items:center}
+.hist-item-var{font-size:10px;padding:1px 6px;border-radius:10px;background:var(--blue-light);color:var(--blue);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px}
+.hist-empty{text-align:center;padding:1.5rem;color:#bbb;font-size:12px}
+.hist-del{background:none;border:none;cursor:pointer;padding:2px 5px;color:#ccc;font-size:11px;border-radius:4px;transition:all .15s;flex-shrink:0}
+.hist-del:hover{color:#c0392b;background:#fdf0ef}
+.hist-chevron{width:14px;height:14px;stroke:var(--mid);fill:none;stroke-width:2;transition:transform .2s;margin-left:8px;flex-shrink:0}
+
+@media(max-width:750px){.grid{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+
+/* STAGE PILLS */
+.stage-pill{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.03em;white-space:nowrap}
+.sp-1{background:#FFF0EB;color:#993C1D}
+.sp-2{background:#E6F1FB;color:#1A5FA8}
+.sp-3{background:#F3EEFF;color:#6B21A8}
+.sp-4{background:#EAF7EF;color:#1A6635}
+.sp-5{background:#F0F0F0;color:#555}
+.sp-x{background:#F0F0F0;color:#999}
+.hist-item.noint{opacity:.55}
+.hist-item.noint .hist-item-name{text-decoration:line-through;color:#aaa}
+.hist-chip{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;border:1.5px solid var(--border);background:var(--light);color:var(--mid);cursor:pointer;transition:all .15s;user-select:none}
+.hsc{background:white;border:1px solid var(--border);border-radius:9px;padding:8px 11px;display:flex;flex-direction:column;gap:1px;flex:1;min-width:70px;cursor:pointer;transition:all .15s;user-select:none}
+.hsc:hover{border-color:var(--orange)}
+.hsc.active{border-color:var(--orange);background:var(--orange-light)}
+.hsc.active .hsc-num{color:var(--orange)}
+.hsc.blue-card{border-color:#C4DAFA}
+.hsc.blue-card:hover,.hsc.blue-card.active{border-color:#1A5FA8;background:#E6F1FB}
+.hsc.blue-card.active .hsc-num,.hsc.blue-card:hover .hsc-num{color:#1A5FA8}
+.hsc-num{font-size:18px;font-weight:700;color:var(--dark)}
+.hsc-lbl{font-size:10px;color:var(--mid)}
+.hist-chip:hover{border-color:var(--orange);color:var(--orange)}
+.hist-chip.active{border-color:var(--orange);background:var(--orange-light);color:var(--orange-dark)}
+.hist-chip.blue{color:#1A5FA8;border-color:#C4DAFA}
+.hist-chip.blue.active{border-color:#1A5FA8;background:#E6F1FB;color:#1A5FA8}
+
+/* STAGE BAR */
+.stage-bar{display:flex;align-items:center;padding:11px 14px;background:var(--light);border-bottom:1px solid var(--border)}
+.stage-step{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1}
+.stage-dot{width:22px;height:22px;border-radius:50%;background:#E0DDD7;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#999}
+.stage-dot.done{background:var(--orange);color:white}
+.stage-dot.curr{background:var(--orange);color:white;box-shadow:0 0 0 3px #FFD0BC}
+.stage-lbl{font-size:9px;color:var(--mid);text-align:center;line-height:1.3;max-width:52px}
+.stage-lbl.act{color:var(--orange);font-weight:700}
+.stage-line{height:2px;flex:1;background:#E0DDD7;margin-bottom:16px}
+.stage-line.done{background:var(--orange)}
+
+/* WEEK SECTIONS */
+.week-section{margin-bottom:5px}
+.week-header{display:flex;align-items:center;gap:8px;padding:7px 11px;background:var(--dark2);border-radius:8px;cursor:pointer;user-select:none;transition:background .15s}
+.week-header:hover{background:#222}
+.week-label{font-size:11.5px;font-weight:600;color:#ccc;flex:1}
+.week-count{font-size:10px;font-weight:700;background:#333;color:#aaa;padding:1px 7px;border-radius:20px;flex-shrink:0}
+.week-chevron{font-size:13px;color:#555;transition:transform .2s;flex-shrink:0}
+.week-body{display:flex;flex-direction:column;gap:4px;padding:6px 0 2px}
+/* STAGE SUB-SECTIONS */
+.stage-group{margin-bottom:2px}
+.stage-group-header{display:flex;align-items:center;gap:7px;padding:5px 9px 5px 14px;background:#F5F3EF;border-radius:6px;cursor:pointer;user-select:none;transition:background .12s;border-left:3px solid var(--border)}
+.stage-group-header:hover{background:#EDEAE4}
+.stage-group-label{font-size:11px;font-weight:600;color:var(--mid);flex:1}
+.stage-group-count{font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;background:rgba(0,0,0,.07);color:var(--mid);flex-shrink:0}
+.stage-group-chev{font-size:12px;color:#bbb;transition:transform .2s;flex-shrink:0}
+.stage-group-body{display:flex;flex-direction:column;gap:5px;padding:5px 0 2px 0}
+
+/* ADVANCE BOX */
+.advance-box{padding:10px 14px;border-bottom:1px solid var(--border);background:white;display:flex;flex-direction:column;gap:7px}
+.advance-note{width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;line-height:1.5;border:1.5px solid var(--border);border-radius:7px;outline:none;resize:none;min-height:52px;color:var(--dark);background:var(--light)}
+.advance-note:focus{border-color:var(--orange);background:white}
+.btn-advance{padding:7px 13px;background:var(--dark2);color:white;border:none;border-radius:7px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .15s;align-self:flex-start}
+.btn-advance:hover{background:var(--dark)}
+.stage-log-item{font-size:11px;color:var(--mid);display:flex;gap:6px;align-items:flex-start;line-height:1.45}
+.stage-log-dot{width:6px;height:6px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:4px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-dot">
+      <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    </div>
+    <div>
+      <div class="logo-name">Hint Media</div>
+      <div class="logo-sub">Capacitaciones y Videos</div>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:8px">
+    <button id="sync-btn" onclick="syncJefe()" style="background:#1a1a1a;border:1px solid #444;border-radius:20px;padding:4px 12px;font-size:11.5px;color:#aaa;cursor:pointer;display:flex;align-items:center;gap:6px;font-family:'DM Sans',sans-serif;transition:all .15s" onmouseover="this.style.borderColor='#FF5C35';this.style.color='#FF5C35'" onmouseout="this.style.borderColor='#444';this.style.color='#aaa'">
+      <svg id="sync-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+      <span id="sync-txt">Sincronizar</span>
+    </button>
+    <button id="hie-alerts-btn" onclick="toggleHIEAlerts()" style="display:none;background:#1a1a1a;border:1px solid #444;border-radius:20px;padding:4px 12px;font-size:11.5px;color:#aaa;cursor:pointer;align-items:center;gap:6px;font-family:'DM Sans',sans-serif;transition:all .15s">
+      <span id="hie-alerts-dot" style="width:7px;height:7px;border-radius:50%;background:#E8A23D;display:inline-block"></span>
+      <span id="hie-alerts-txt">0 alertas</span>
+    </button>
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      <span id="status-txt">Listo</span>
+    </div>
+  </div>
+</header>
+
+<div id="hie-alerts-panel" style="display:none;background:#1C1200;border-bottom:1px solid #3A2800;padding:0 2rem">
+  <div id="hie-alerts-body" style="padding:10px 0 12px;display:flex;flex-direction:column;gap:6px"></div>
+</div>
+
+<div id="proximos-bar">
+  <div id="proximos-toggle" onclick="toggleProximos()">
+    <span style="font-size:14px">📅</span>
+    <span class="prox-label">Próximos a contactar</span>
+    <span class="prox-count" id="prox-count">0</span>
+    <span class="prox-chevron" id="prox-chevron">▼</span>
+  </div>
+  <div id="proximos-body"></div>
+</div>
+
+<div class="page">
+  <div class="page-title">
+    <h1>Mensajes que <em>abren puertas</em></h1>
+    <p>Pegá el perfil · Generá los mensajes · Respondé en tiempo real</p>
+  </div>
+
+  <div class="grid">
+
+    <!-- LEFT: INPUT -->
+    <div>
+      <div class="card">
+        <div class="card-head">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div class="card-ttl">Perfil del prospect</div>
+            <div class="card-sub">Pegá todo el texto de LinkedIn</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <textarea class="profile" id="profile-input" placeholder="Pegá acá el perfil completo de LinkedIn...
+
+Nombre, cargo, empresa, descripción, lo que sea. Cuanto más texto pegues, más personalizado queda el mensaje.
+
+Ejemplo:
+Grecia Soberanes Fragoso
+Marketing Grouper Manager | Sr. Brand Manager
+Dermocosmetics | Beauty Care | Skin Care..." oninput="autoDetectEmpresa()"></textarea>
+
+          <div style="padding:4px 0 2px;display:flex;align-items:center;gap:8px">
+            <label style="font-size:11px;font-weight:600;color:var(--mid);white-space:nowrap">Empresa</label>
+            <input id="empresa-input" type="text" placeholder="Se detecta automáticamente..." style="flex:1;padding:5px 9px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
+          </div>
+
+          <div id="sector-intel-bar" style="display:none;padding:6px 10px;background:#FFF8F5;border:1.5px solid #FFD0BC;border-radius:8px;font-size:11.5px;line-height:1.5;color:#7A3800"></div>
+
+          <div class="row2">
+            <div>
+              <label class="lbl">Línea</label>
+              <select class="sel" id="linea">
+                <option value="videos">Videos de lanzamiento</option>
+                <option value="capacitaciones">Capacitaciones</option>
+              </select>
+            </div>
+            <div>
+              <label class="lbl">Tipo de contacto</label>
+              <select class="sel" id="contact-type">
+                <option value="desconocido">Desconocido</option>
+                <option value="decisor">Decisor (Director/VP/CEO)</option>
+                <option value="no-decisor">No decisor (Specialist/Manager)</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn-main" id="gen-btn" onclick="generateOpeners()">
+            <svg id="gen-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <div class="spinner" id="gen-spin"></div>
+            <span id="gen-txt">Generar mensaje de apertura</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- HISTORY PANEL -->
+      <div class="card hist-panel">
+        <div class="card-head" onclick="toggleHistory()" style="cursor:pointer">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><polyline points="12 8 12 12 14 14"/><path d="M3.05 11a9 9 0 1 0 .5-4"/><polyline points="3 3 3 7 7 7"/></svg></div>
+          <div style="flex:1">
+            <div class="card-ttl">Historial</div>
+            <div class="card-sub">Prospectos contactados</div>
+          </div>
+          <span class="hist-count" id="hist-count">0</span>
+          <svg class="hist-chevron" id="hist-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+        <div id="hist-body" style="display:none">
+          <div id="hist-statcards" style="display:flex;flex-wrap:wrap;gap:7px;padding:10px 10px 4px"></div>
+          <div id="hist-stats" style="display:flex;flex-wrap:wrap;gap:5px;padding:4px 10px 4px"></div>
+          <div style="padding:4px 10px 6px">
+            <input id="hist-search" type="text" placeholder="Buscar nombre, email, empresa, conversación..." oninput="renderHistoryList()" style="width:100%;padding:7px 10px;font-family:'DM Sans',sans-serif;font-size:12px;border:1.5px solid var(--border);border-radius:7px;outline:none;background:var(--light);color:var(--dark)" onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='var(--border)'">
+          </div>
+          <div class="hist-list" id="hist-list">
+            <div class="hist-empty">Todavía no hay prospectos guardados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: RESULTS -->
+    <div id="right-col">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+          <div>
+            <div class="card-ttl">Mensajes generados</div>
+            <div class="card-sub">3 burbujas · ancla + prueba + pregunta · hacé click en "Usar esta" para continuar</div>
+          </div>
+        </div>
+        <div class="card-body" style="padding:0">
+          <div class="loading-box" id="loading">
+            <div class="loading-ring"></div>
+            <div class="loading-lbl">Analizando perfil y generando mensajes...</div>
+          </div>
+          <div class="results-wrap" id="results" style="padding:14px">
+            <div class="empty-state">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              <p>Pegá un perfil a la izquierda<br>y hacé click en <strong>Generar</strong></p>
+            </div>
+          </div>
+        </div>
+      </card>
+
+      <!-- CONVERSATION THREAD (appears after selecting a variant) -->
+      <div class="thread" id="conv-thread" style="display:none"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+// State
+let state = {
+  profile: '',
+  idioma: 'es',
+  selectedVariant: null,
+  conversationHistory: [],
+  rawText: '',
+  _historyId: null
+};
+
+const SYSTEM = `Sos el motor de prospeccion outbound de Hint Media para DOS lineas de producto puntuales.
+NO vendemos la comunicacion integral. Vendemos UNA cosa concreta por mensaje, segun la LINEA que llega en el prompt.
+
+QUIEN ESCRIBE:
+- Los mensajes salen desde la cuenta de LinkedIn de un socio de Hint Media (no desde la cuenta de Florencia).
+- Primera persona del singular o plural ("hicimos", "trabajo con"). Tono de igual a igual, profesional, argentino neutro.
+- Los contactos son NUEVOS para esta cuenta: nunca hacer referencia a mensajes anteriores de Florencia.
+
+TARGET COMUN A LAS DOS LINEAS:
+- Empresas grandes: 200 a 500 empleados o mas. Una empresa chica no tiene area de comunicacion interna ni presupuesto de capacitacion.
+- Sector: NO importa (actualizado 05/10/26). Lo unico que filtra es el tamano: empresa grande. Argentina primero (Peru, Colombia y Ecuador en segundo lugar).
+- Las pruebas son de energia (TGS, Sullair, Transener) y se usan igual en cualquier rubro: lo que se muestra es el tipo de video o de capacitacion, no el sector.
+- Areas: RRHH, cultura, comunicacion interna, comunicacion corporativa.
+- TIMING: las empresas grandes cotizan y arman el plan del ano siguiente hacia fin de ano. Estamos en esa ventana: el plan 2027 se arma ahora. Usarlo como contexto, nunca como presion.
+
+FILTRO DE PROSPECTOS — clasificar ANTES de generar mensajes:
+- APTO: trabaja en una empresa grande (200+ empleados), de cualquier rubro, en un area de RRHH, cultura, comunicacion interna o comunicacion corporativa, con capacidad de decision o influencia.
+- DUDOSO: empresa de tamano incierto, o area cercana pero no exacta. Generar con salvedad en CLASSIFICATION_REASON.
+- DESCARTAR: busca empleo / freelancer / consultor individual / estudiante / empresa chica evidente / area sin relacion (finanzas, legal, operaciones puras).
+Si DESCARTAR: no generar mensajes. Responder solo "Prospecto descartado." + motivo breve.
+
+=========================================================================
+LINEA 1 — VIDEOS DE LANZAMIENTO
+=========================================================================
+QUE VENDEMOS: videos cortos (1 a 2 minutos) que cuentan un proyecto grande o la cultura de la empresa.
+Dos tecnicas: motion graphics con After Effects e imagenes generadas con IA (para obras, plantas, ductos, inversiones)
+e ilustracion animada (para cultura, valores, liderazgo, comunicacion interna).
+
+DOS SUB-ANGULOS (elegir uno segun el perfil):
+
+SUB-ANGULO A — PROYECTO
+  Para: comunicacion corporativa, comunicacion externa, relaciones institucionales, prensa.
+  Ancla: un proyecto, obra, ampliacion, inversion o anuncio de la empresa (RIGI, Vaca Muerta, planta nueva, ducto, mina).
+  Idea de fondo (solo para orientar, NUNCA escribirla en el mensaje): un proyecto de cientos de millones se explica en dos minutos.
+
+SUB-ANGULO B — CULTURA
+  Para: RRHH, cultura, comunicacion interna, employer branding, desarrollo organizacional.
+  Ancla: un post sobre valores, cultura, liderazgo, onboarding, clima, lanzamiento de un programa interno.
+  Idea de fondo (solo para orientar, NUNCA escribirla en el mensaje): contados en un video corto, los valores llegan igual a planta y a oficina.
+
+PRUEBAS REALES (usar SOLO estas, no inventar otras):
+  - TGS, ampliacion del gasoducto Perito Moreno: video en motion graphics que explica la obra (plantas compresoras, loops, capacidad nueva). PUBLICADO. NO decir en que canales salio.
+  - TGS, video de cultura: valores, cualidades de liderazgo y el sueno 2030 contados con ilustracion animada. Se uso en redes y en comunicacion interna. PUBLICADO.
+  - Sullair: video institucional de lanzamiento. PUBLICADO. Ese video trajo varios trabajos nuevos.
+  - TGS, proyecto de liquidos de Vaca Muerta (gasoducto de 100 km, planta de fraccionamiento y terminal de exportacion en Bahia Blanca): NO PUBLICADO TODAVIA. PROHIBIDO mencionarlo hasta que se confirme que salio.
+  PROHIBIDO decir que hicimos videos para Transener (pidieron presupuesto, no hay video).
+  PROHIBIDO nombrar personas de empresas clientes.
+
+=========================================================================
+LINEA 2 — CAPACITACIONES
+=========================================================================
+QUE VENDEMOS: capacitaciones para equipos internos de empresas grandes.
+  - LinkedIn: como usarlo bien a nivel profesional, perfil, que publicar, como contar el trabajo propio y el de la empresa.
+  - Voceria digital: para gerentes y referentes que tienen que hablar en nombre de la empresa en redes.
+Las dicta un facilitador con experiencia dando capacitaciones dentro de empresas grandes del sector energia.
+PROHIBIDO nombrar al facilitador (todavia no esta confirmado).
+
+PARA: director o gerente de RRHH, capacitacion, desarrollo organizacional, talento, aprendizaje, cultura, comunicacion interna.
+ANCLA: un post sobre capacitacion, formacion, desarrollo de lideres, marca empleadora, plan anual, programa nuevo, embajadores de marca.
+
+PRUEBA REAL (usar SOLO esta, no inventar otras):
+  - Llevamos la voceria digital de la gerencia de Transener y la presencia en LinkedIn de TGS. Lo que funciona ahi es lo que se baja a la capacitacion.
+  PROHIBIDO afirmar que ya dimos capacitaciones a TGS, Transener o cualquier cliente. No es cierto.
+  PROHIBIDO inventar cantidad de personas capacitadas, horas, resultados o metricas.
+
+=========================================================================
+REGLAS MSG1 (las dos lineas)
+=========================================================================
+OBJETIVO UNICO: que el prospecto conteste. No vender, no mandar material, no pedir reunion.
+Generar EXACTAMENTE 1 variante (un solo bloque ---VARIANTE---).
+
+ESTRUCTURA — 3 burbujas:
+B1 — SALUDO + ANCLA
+  Abrir SIEMPRE con el nombre real + ", gracias por conectar!" (con signo de exclamacion, nunca con punto)
+  y seguir DIRECTO con el hecho verificable, dicho como lo diria una persona en un chat.
+  PROHIBIDO "Me llamo la atencion" y sus variantes ("me resulto interesante", "me parecio muy interesante", "me quede pensando").
+  Formas de entrar al hecho, rotar entre ellas:
+    "Vi que arrancaron la construccion del VMOS."
+    "Lei lo de los valores armados con 300 personas en todas las plantas."
+    "Lo del programa de lideres de planta, 60 supervisores en cuatro meses."
+    "Felicitaciones por la aprobacion de Los Azules en el RIGI."
+    "Estuve viendo el anuncio del parque solar en Mendoza."
+  El hecho puede ser un post del prospecto (preferido) o un anuncio concreto de su empresa (proyecto, obra, programa).
+  B1 nombra el hecho y PARA AHI: despues del hecho no va ninguna oracion de comentario. PROHIBIDO en B1: mencionar video, capacitacion o Hint; opinar sobre lo que el
+  proyecto o la empresa "necesita"; decir que algo "casi nunca se cuenta" o "podria ser un video";
+  comparar contra el sector ("pocas empresas...", "no es comun..."); cerrar con una valoracion ("eso dice mucho", "es clave").
+  No inventar anos ni fechas que no esten en el perfil.
+  Nunca abrir por el cargo. Nunca resumir el perfil. Nunca inferir personalidad.
+B2 — LA PRUEBA
+  UNA prueba real de la linea elegida, con el cliente por su nombre y lo que hicimos con sustantivos concretos.
+  Usar SOLO los datos listados en PRUEBAS REALES de esa prueba. PROHIBIDO agregar donde circulo, que resultados tuvo,
+  cuanta gente lo vio o adjetivos de resultado ("con buenos resultados", "tuvo mucho impacto").
+  PROHIBIDO pasar un dato de una prueba a otra (lo de "redes y comunicacion interna" es SOLO del video de cultura).
+  En CAPACITACIONES, PROHIBIDO sugerir que la capacitacion ya se dio a un cliente. Forma permitida:
+    "Desde Hint Media llevamos la voceria digital de la gerencia de Transener. Con eso armamos una capacitacion de LinkedIn y voceria para equipos internos."
+  Tiene que parecerse a lo que el prospecto acaba de mostrar en B1. Si no se parece, es un cambio de tema.
+  El cliente entra haciendo algo, no presentandose. Rotar la forma:
+    "Con TGS hicimos algo parecido para la ampliacion del Perito Moreno."
+    "Venimos de hacer el video de cultura de TGS: valores y liderazgo en ilustracion animada."
+    "Desde Hint Media llevamos la voceria digital de la gerencia de Transener."
+  PROHIBIDA la plantilla "En Hint Media hacemos X para Y:". PROHIBIDO el catalogo de servicios. PROHIBIDO el valor abstracto ("narrativa", "legible", "capa de comunicacion").
+B3 — PREGUNTA DE SI O NO
+  UNA sola pregunta, que nazca de B2 y se conteste con si o no. Ejemplos por linea (no copiar textual, rotar):
+    VIDEOS / PROYECTO: "Lo tienen pensado contar en video?" / "Ya tienen resuelto como presentarlo hacia afuera?"
+    VIDEOS / CULTURA:  "Lo trabajan tambien en video hacia adentro?" / "Es algo que esta en agenda para el ano que viene?"
+    CAPACITACIONES:    "Es algo que tienen en el plan de capacitacion 2027?" / "Lo trabajan hoy con los equipos?"
+  La pregunta ofrece UNA sola opcion (no "hacia afuera o hacia adentro?").
+  PROHIBIDO: mandar link o material, ofrecer presupuesto, proponer dia u horario, preguntas abiertas ("como lo manejan?").
+
+LONGITUD: entre 60 y 85 palabras en total. Nunca mas de 95. Una idea por burbuja. Se tiene que entender en una sola lectura.
+
+AL FINAL DEL OUTPUT agregar: CIERRE_USADO con el numero 1 (proyecto), 2 (cultura) o 3 (capacitaciones), para medir cada sub-linea.
+
+=========================================================================
+REGLAS MSG2 (cuando el prospecto responde)
+=========================================================================
+Responder primero a lo que dijo. La conversacion manda sobre el perfil.
+
+RAMA A — DIJO QUE SI / mostro interes:
+  B1: retomar su respuesta con sus palabras (parafraseadas, sin comillas). Max 2 lineas.
+  B2: contar en una o dos lineas como lo resolvimos en el cliente ya nombrado (duracion del video, tecnica, donde circulo; o en capacitaciones, que se trabaja).
+  B3: ofrecer el material con contexto y pedir permiso:
+      VIDEOS: "Tengo una carpeta con tres o cuatro videos de ese estilo. Te la paso por aca si te parece, y si le ves sentido lo charlamos."  [LINK VIDEOS]
+      CAPACITACIONES: "Tengo un temario breve con los contenidos y el formato. Te lo paso por aca si te parece, y si le ves sentido lo charlamos." [LINK TEMARIO]
+RAMA B — DIJO QUE NO / ya lo tienen resuelto:
+  No insistir con el mismo producto. Agradecer breve, dejar el material como referencia para mas adelante ("por si en el plan del ano que viene aparece algo asi"), sin pregunta de cierre forzada.
+RAMA C — PREGUNTO PRECIO O MODALIDAD:
+  Responder lo que se pueda sin inventar numeros: depende de duracion y tecnica (videos) o de cantidad de personas y modalidad (capacitaciones). Proponer una llamada corta para cotizar bien. Pedir mail para el Google Meet. Nunca WhatsApp.
+RAMA D — DERIVO A OTRA PERSONA:
+  Agradecer y pedir el nombre o el contacto de esa persona. Una sola pregunta.
+
+Si el prospecto pide reunion o se ve claro el interes: proponer llamada por Google Meet y pedir el mail.
+
+=========================================================================
+REGLAS SEGUIMIENTOS (SEG1 — despues de mandar el material, 48 a 72 hs sin respuesta)
+=========================================================================
+- No preguntar "pudiste ver los videos?". Preguntar si alguno le sirve para algo que tengan en marcha o en el plan del ano que viene.
+- Entrar por algo nuevo si lo hay: un anuncio de su empresa, una obra nueva, un post reciente.
+- Corto: 3 a 5 lineas. Una sola pregunta. Sin volver a explicar los servicios.
+- Si el prospecto es muy senior, ofrecer la opcion de derivar: "Y si no sos vos quien lo lleva, sabes con quien tendria sentido charlarlo?"
+SEG2: cierre de ciclo si no hubo respuesta, dejando la puerta abierta para el plan del ano que viene.
+
+=========================================================================
+PROHIBIDO — sin excepcion
+=========================================================================
+- Signos de apertura: NUNCA "¿" ni "¡". Solo "?" y "!" de cierre. Revisar cada burbuja antes de entregar.
+- Guion largo dentro de los mensajes.
+- "Gracias por la apertura", "Por eso te escribo", "Te escribo porque", "Somos una agencia", "Muchas empresas...",
+  "Es un desafio que vemos seguido", "No se si viste", "Quedo atento", "Cualquier duda", "Retomo", "Quiero hacer seguimiento",
+  "Vi que sos", "Como responsable de", "Como gerente de".
+- Comparar al prospecto contra "la mayoria" o "lo que suele hacerse en el sector".
+- Interpretar personalidad: "elegiste", "entendiste", "se nota que", "claramente", "eso no es casual".
+- Atribuir al prospecto algo que no dijo ("como me comentabas" si vino del perfil).
+- Inventar clientes, videos, capacitaciones, numeros o resultados.
+
+PROHIBIDO EN TODOS LOS MENSAJES:
+- Más de una pregunta por mensaje
+- Bullets o listas dentro de las burbujas
+- Frases como "me obsesiona" o "me voló la cabeza"
+- Sonar vendedor, consultor o auditor
+- Parecer automatizado
+- Más de 2 emojis por mensaje
+- Bloques de texto largos
+- Guiones largos (—) para separar frases. Usar coma, punto o dos puntos en su lugar.
+
+FORMATO DE BURBUJAS:
+Cada mensaje se divide en burbujas cortas separadas.
+Una sola idea por burbuja, legible en una lectura (una lectura alcanza).
+Cada burbuja es un párrafo separado.
+Escribir cada burbuja en una línea nueva.
+
+SALIDA OBLIGATORIA — usar EXACTAMENTE este formato:
+
+RESUMEN: (2-3 líneas sobre quién es y qué hace realmente)
+HECHOS: (hechos observables del perfil, sin interpretar — lista breve)
+INTERPRETACION_TRABAJO: (qué significa realmente hacer este trabajo, en 1 frase — NO el cargo)
+SEÑAL_HUMANA: (qué publicó, compartió o mostró esta persona — lo que decidió mostrar al mundo. Si no hay, escribir: "Sin señal identificada — usar tensión profesional")
+TENSION_PROFESIONAL: (la tensión natural del rol — NUNCA una carencia, problema o necesidad inventada)
+HIPOTESIS_CONVERSACIONAL: (qué conversación interesante podría tener esta persona — NO qué le podríamos vender)
+ANGULO: (desde dónde arrancamos — debe ser la SEÑAL_HUMANA si existe, si no la TENSION_PROFESIONAL)
+INFERENCE_RISK: (BAJO / MEDIO / ALTO) + justificación breve separada por " — "
+IRREPETIBILIDAD: (número del 1 al 10) + justificación breve separada por " — "
+DEBILIDADES_DE_ESTA_SECUENCIA: (1 a 3 debilidades reales, separadas por " | ")
+CONFIDENCE_SCORE: (número del 1 al 10) + justificación breve separada por " — "
+CIERRE_USADO: (1 = videos proyecto / 2 = videos cultura / 3 = capacitaciones — sirve para medir cada sub-linea)
+
+=== CONFIDENCE ===
+CONFIDENCE_LEVEL: (HIGH / MEDIUM / LOW — de la señal principal usada en MSG1/MSG2)
+CONFIDENCE_REASON: (justificación breve)
+SIGNAL_SOURCE: (PUBLICATION / COMMENT / EXPERIENCE / ABOUT / ACTIVITY / CERTIFICATION / CARGO)
+ALLOWED_FOR_MSG1: (YES / NO — YES solo si CONFIDENCE_LEVEL es HIGH)
+
+=== PROFILE CLASSIFICATION ===
+PROFILE_TYPE: (DECISION_MAKER / INFLUENCER / SPECIALIST / JUNIOR / POTENTIAL_PARTNER)
+SENIORITY: (C_LEVEL / DIRECTOR / MANAGER / SPECIALIST)
+INFORMATION_LEVEL: (RICH / MEDIUM / POOR)
+SECTOR: (sector de la empresa)
+AREA: (área/función del prospecto)
+DECISION_POWER: (HIGH / MEDIUM / LOW)
+BUYING_ROLE: (ECONOMIC_BUYER / TECHNICAL_BUYER / INFLUENCER / CHAMPION / USER)
+COMMERCIAL_RELEVANCE: (HIGH / MEDIUM / LOW)
+CLASSIFICATION_REASON: (justificación breve)
+
+=== SCORING ===
+SIGNAL_QUALITY: (1-10)
+PERSONALIZATION_DEPTH: (1-10)
+CONVERSATION_PROBABILITY: (1-10)
+COMMERCIAL_RELEVANCE_SCORE: (1-10)
+HALLUCINATION_RISK: (1-10)
+GLOBAL_SCORE: (1-10)
+RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW)
+
+CAPA DE CONFIANZA — clasificar la señal antes de redactar:
+- HIGH: hecho explícito y observable (publicación, comentario, logro citado textualmente).
+- MEDIUM: inferencia directa anclada en el trabajo o la experiencia.
+- LOW: hipótesis débil o extrapolación sin anclaje claro.
+REGLA: SIEMPRE generar MSG1_B1/B2/B3, sin excepción. Si CONFIDENCE_LEVEL es HIGH, partir de SEÑAL_HUMANA. Si MEDIUM o LOW, partir de TENSION_PROFESIONAL como base. El CONFIDENCE_LEVEL solo afecta el ángulo, nunca impide generar el mensaje.
+
+---VARIANTE---
+TITULO: (nombre corto variante A)
+SCORE: (número del 1 al 10 — qué tan fuerte es esta variante para este prospecto)
+MSG1_B1: [todo el contenido de burbuja 1 en esta misma línea, sin saltos de línea]
+MSG1_B2: [todo el contenido de burbuja 2 en esta misma línea, sin saltos de línea]
+MSG1_B3: [UNA pregunta de si o no que nace de B2, segun la LINEA y el sub-angulo. Max 15 palabras. Sin link, sin material, sin horarios]`;
+
+// ─── SYNC JEFE ───────────────────────────────────────────────────────
+async function syncJefe() {
+  const btn = document.getElementById('sync-btn');
+  const txt = document.getElementById('sync-txt');
+  txt.textContent = 'Sincronizando...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('/api/sync', { method: 'POST' });
+    const data = await res.json();
+    txt.textContent = data.ok ? '✓ Sincronizado' : '✗ Error';
+    setTimeout(() => { txt.textContent = 'Sincronizar'; btn.disabled = false; }, 3000);
+  } catch {
+    txt.textContent = '✗ Error';
+    setTimeout(() => { txt.textContent = 'Sincronizar'; btn.disabled = false; }, 3000);
+  }
+}
+
+// ─── TRIM PROFILE (strip LinkedIn UI noise before sending to API) ────
+function trimProfile(raw) {
+  if (!raw) return raw;
+
+  const SKIP_LINE = [
+    /^Ver en Sales Navigator$/i,
+    /^Enviar mensaje$/i,
+    /^Ver imagen$/i,
+    /^Mostrar todo$/i,
+    /^Mostrar todos los elementos destacados$/i,
+    /^Solicitar servicios$/i,
+    /^Sales Insights$/i,
+    /^Señales clave$/i,
+    /^Publicaciones$/,
+    /^Comentarios$/,
+    /^Vídeos$/,
+    /^Imágenes$/,
+    /^Documentos$/,
+    /^Logotipo de /i,
+    /seguidores? en común/i,
+    /contactos? en común/i,
+    /^Seguido por .+ (que conoces|más que conoces)/i,
+    /^\d+\s+reacciones?$/i,
+    /^\d+\s+comentarios?$/i,
+    /^[·•]\s*\d+\s*(reacciones?|comentarios?)$/i,
+    /^\d+\s*[·•]\s*\d+\s*comentarios?$/i,
+    /^\d+\s*[·•]\s*\d+$/,
+    /^Ver perfil de /i,
+    /^[·•]\s*(1er|2º|3º|1st|2nd|3rd)$/i,
+    /^Ver empresa:/i,
+    /^\d[\d.,]*\s+seguidores?$/i,
+  ];
+
+  const lines = raw.split('\n');
+  const result = [];
+  const seenLong = new Set();
+
+  // Section state machine
+  let section = 'header'; // header | skip | about | destacado | activity | experience | done
+  let actCount = 0;       // own activity posts included
+  let inCompanyPost = false;
+  let expLines = 0;
+
+  for (let i = 0; i < lines.length; i++) {
+    const t = lines[i].trim();
+
+    // ── Section transitions ───────────────────────────────────────────
+    if (/^Otros perfiles seguidos/i.test(t))          { section = 'skip'; continue; }
+    if (/^Acerca de$/i.test(t))                        { section = 'about'; result.push(lines[i]); continue; }
+    if (/^Destacado$/i.test(t))                        { section = 'destacado'; continue; } // SKIP entirely
+    if (/^Actividad$/i.test(t))                        { section = 'activity'; result.push(lines[i]); continue; }
+    if (/^Experiencia$/i.test(t))                      { section = 'experience'; result.push(lines[i]); continue; }
+    if (/^(Formación|Educación|Aptitudes|Principales aptitudes|Idiomas|Certificaciones|Logros|Proyectos|Voluntariado|Intereses)$/i.test(t)) {
+      section = 'done'; break;
+    }
+
+    // ── Skip section (Otros perfiles) ────────────────────────────────
+    if (section === 'skip') {
+      if (/^(Acerca de|Destacado|Actividad|Experiencia)$/i.test(t)) {
+        if (/^Destacado$/i.test(t)) { section = 'destacado'; }
+        else if (/^Acerca de$/i.test(t)) { section = 'about'; result.push(lines[i]); }
+        else if (/^Actividad$/i.test(t)) { section = 'activity'; result.push(lines[i]); }
+        else if (/^Experiencia$/i.test(t)) { section = 'experience'; result.push(lines[i]); }
+      }
+      continue;
+    }
+
+    // ── Destacado: skip entire section ───────────────────────────────
+    if (section === 'destacado') continue;
+
+    // ── Done ─────────────────────────────────────────────────────────
+    if (section === 'done') break;
+
+    // ── Universal noise filter ────────────────────────────────────────
+    if (!t) { result.push(lines[i]); continue; } // preserve blank lines for later collapse
+    if (SKIP_LINE.some(p => p.test(t))) continue;
+
+    // ── Header / About: include everything ───────────────────────────
+    if (section === 'header' || section === 'about') {
+      if (t.length >= 70) {
+        const key = t.substring(0, 80);
+        if (seenLong.has(key)) continue;
+        seenLong.add(key);
+      }
+      result.push(lines[i]);
+      continue;
+    }
+
+    // ── Activity: own posts only, max 2 ──────────────────────────────
+    if (section === 'activity') {
+      // "Ver empresa:" marks start of a company-attributed post — skip it
+      if (/^Ver empresa:/i.test(t)) { inCompanyPost = true; continue; }
+
+      // Timestamp line like "2 días •" marks start of a new post
+      if (/^\d+\s*(día|semana|mes|año|hora|minuto)/i.test(t) && /[•·]/.test(t)) {
+        if (inCompanyPost) continue; // company post timestamp, ignore
+        actCount++;
+        if (actCount > 2) continue;
+      }
+
+      if (inCompanyPost) continue;
+      if (actCount > 2) continue;
+
+      // Deduplicate (headline repeated inside activity block)
+      if (t.length >= 70) {
+        const key = t.substring(0, 80);
+        if (seenLong.has(key)) continue;
+        seenLong.add(key);
+      }
+      result.push(lines[i]);
+      continue;
+    }
+
+    // ── Experience: only first entry (~25 lines) ──────────────────────
+    if (section === 'experience') {
+      expLines++;
+      if (expLines > 25) continue;
+      result.push(lines[i]);
+      continue;
+    }
+  }
+
+  // Collapse multiple blank lines to one
+  const out = [];
+  let blanks = 0;
+  for (const line of result) {
+    if (line.trim() === '') { if (++blanks <= 1) out.push(line); }
+    else { blanks = 0; out.push(line); }
+  }
+
+  return out.join('\n').trim().substring(0, 3000);
+}
+
+// ─── LINEAS DE PRODUCTO ─────────────────────────────────────────────
+const LINEAS = {
+  videos: {
+    label: 'VIDEOS DE LANZAMIENTO (elegir sub-angulo PROYECTO o CULTURA segun el area del prospecto)',
+    b1: 'Ancla en un proyecto, obra o anuncio de su empresa (sub-angulo PROYECTO) o en un post sobre cultura, valores o comunicacion interna (sub-angulo CULTURA).',
+    b2: 'UNA prueba real de la LINEA 1: video del Perito Moreno de TGS (proyecto), video de cultura de TGS (cultura) o video de Sullair. Nunca el video de liquidos de Vaca Muerta (no salio).',
+    b3: 'Proyecto: si lo tienen pensado contar en video. Cultura: si lo trabajan en video hacia adentro.'
+  },
+  capacitaciones: {
+    label: 'CAPACITACIONES (LinkedIn y voceria digital para equipos internos)',
+    b1: 'Ancla en un post sobre capacitacion, formacion, desarrollo de lideres, marca empleadora o un programa interno.',
+    b2: 'Prueba real de la LINEA 2: voceria digital de la gerencia de Transener / LinkedIn de TGS, y que eso se baja a capacitacion. Nunca afirmar que ya capacitamos a un cliente.',
+    b3: 'Si es algo que tienen en el plan de capacitacion del ano que viene, o si lo trabajan hoy con los equipos.'
+  }
+};
+
+let _previos = null;
+async function checkContactoPrevio(name) {
+  try {
+    if (!_previos) {
+      const r = await fetch('/api/previos');
+      _previos = r.ok ? await r.json() : [];
+    }
+    const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+    const n = norm(name);
+    if (!n || n === 'sin nombre') return null;
+    return _previos.find(p => norm(p.name) === n) || null;
+  } catch (_) {
+    return null;
+  }
+}
+
+// ─── GENERATE OPENERS ───────────────────────────────────────────────
+async function generateOpeners() {
+  const profile = document.getElementById('profile-input').value.trim();
+  if (!profile) { alert('Pegá el perfil de LinkedIn primero'); return; }
+
+  const previo = await checkContactoPrevio(histExtractName(profile));
+  if (previo && !confirm(`${previo.name} ya fue contactado desde la cuenta de Florencia (stage ${previo.stage || '?'}, ${previo.date || 'sin fecha'}).\n\nGenerar igual?`)) return;
+
+  state.profile = profile;
+  state.linea = document.getElementById('linea').value;
+  state.selectedVariant = null;
+  state.conversationHistory = [];
+  state.rawText = '';
+  state._historyId = null;
+
+  setLoading(true, 'gen');
+  document.getElementById('conv-thread').style.display = 'none';
+  document.getElementById('conv-thread').innerHTML = '';
+
+  const contactType = document.getElementById('contact-type').value;
+  const contactTypeLabel = {
+    'decisor': 'DECISOR (Director/VP/CEO)',
+    'no-decisor': 'NO_DECISOR (Specialist/Manager sin poder de compra claro)',
+    'desconocido': 'DESCONOCIDO'
+  }[contactType] || 'DESCONOCIDO';
+
+  const prompt = `PERFIL A ANALIZAR:
+${trimProfile(profile)}
+
+TIPO_CONTACTO: ${contactTypeLabel}
+LINEA: ${LINEAS[state.linea].label}
+IDIOMA: Español
+TONO: Profesional
+
+Analizá este perfil y generá la salida EXACTAMENTE con este formato — sin agregar texto adicional antes o entre secciones:
+
+RESUMEN: ...
+HECHOS: (hechos observables del perfil, sin interpretar)
+INTERPRETACION_TRABAJO: (qué significa realmente hacer este trabajo, 1 frase — NO el cargo)
+SEÑAL_HUMANA: (qué publicó/compartió/mostró esta persona — o "Sin señal identificada — usar tensión profesional")
+TENSION_PROFESIONAL: (tensión natural del rol — NUNCA una carencia o necesidad inventada)
+HIPOTESIS_CONVERSACIONAL: (qué conversación interesante podría tener esta persona — NO qué le venderíamos)
+ANGULO: (debe partir de SEÑAL_HUMANA si existe, si no de TENSION_PROFESIONAL)
+
+=== CONFIDENCE ===
+CONFIDENCE_LEVEL: (HIGH / MEDIUM / LOW)
+CONFIDENCE_REASON: ...
+SIGNAL_SOURCE: (PUBLICATION / COMMENT / EXPERIENCE / ABOUT / ACTIVITY / CERTIFICATION / CARGO)
+ALLOWED_FOR_MSG1: (YES / NO)
+
+=== PROFILE CLASSIFICATION ===
+PROFILE_TYPE: (DECISION_MAKER / INFLUENCER / SPECIALIST / JUNIOR / POTENTIAL_PARTNER)
+SENIORITY: (C_LEVEL / DIRECTOR / MANAGER / SPECIALIST)
+INFORMATION_LEVEL: (RICH / MEDIUM / POOR)
+SECTOR: ...
+AREA: ...
+DECISION_POWER: (HIGH / MEDIUM / LOW)
+BUYING_ROLE: (ECONOMIC_BUYER / TECHNICAL_BUYER / INFLUENCER / CHAMPION / USER)
+COMMERCIAL_RELEVANCE: (HIGH / MEDIUM / LOW)
+CLASSIFICATION_REASON: ...
+
+=== SCORING ===
+SIGNAL_QUALITY: (1-10)
+PERSONALIZATION_DEPTH: (1-10)
+CONVERSATION_PROBABILITY: (1-10)
+COMMERCIAL_RELEVANCE_SCORE: (1-10)
+HALLUCINATION_RISK: (1-10)
+GLOBAL_SCORE: (1-10)
+RECOMMENDED_PRIORITY: (HOT / MEDIUM / LOW)
+
+---VARIANTE---
+TITULO: (variante A — observación humana desde SEÑAL_HUMANA)
+MSG1_B1: (burbuja 1: "[Nombre real], gracias por conectar!" + hecho verificable dicho directo (Vi que / Lei lo de / Felicitaciones por). PROHIBIDO "Me llamo la atencion". ${LINEAS[state.linea].b1} 20-30 palabras, sin saltos internos)
+MSG1_B2: (burbuja 2 OBLIGATORIA: ${LINEAS[state.linea].b2} Cliente por su nombre propio, trabajo con sustantivos concretos, conectado con B1. 25-40 palabras, sin pregunta)
+MSG1_B3: (burbuja 3: UNA pregunta de si o no que nace de B2. ${LINEAS[state.linea].b3} Sin link, sin material, sin horarios. 6-14 palabras)
+CIERRE_USADO: (1 = videos proyecto / 2 = videos cultura / 3 = capacitaciones)`;
+
+  // ── Contexto histórico del HIE (sin API, lee KB local) ──────────────────
+  let hieContext = '';
+  try {
+    const hieRes = await fetch('/api/intelligence');
+    if (hieRes.ok) {
+      const hieData = await hieRes.json();
+      hieContext = buildHIEContextBlock(hieData.context, profile);
+    }
+  } catch(_) {
+    // Si el HIE no está disponible, el sistema sigue funcionando normalmente
+  }
+
+  const fullPrompt = hieContext ? `${hieContext}\n\n${prompt}` : prompt;
+
+  try {
+    const text = await callAPI(fullPrompt, SYSTEM, 2000);
+    state.rawText = text;
+    renderVariants(text);
+    state.conversationHistory.push({ role: 'system', text: `Perfil analizado: ${profile.substring(0,300)}` });
+  } catch(e) {
+    showError(e.message);
+  } finally {
+    setLoading(false, 'gen');
+  }
+}
+
+// ─── HIE ALERTS ──────────────────────────────────────────────────────────────
+async function loadHIEAlerts() {
+  try {
+    const res = await fetch('/api/intelligence');
+    if (!res.ok) return;
+    const data = await res.json();
+    const alertsData = data.alerts || {};
+    const alerts = alertsData.alertas || [];
+    if (!alerts.length) return;
+
+    const btn = document.getElementById('hie-alerts-btn');
+    const txt = document.getElementById('hie-alerts-txt');
+    const dot = document.getElementById('hie-alerts-dot');
+    const body = document.getElementById('hie-alerts-body');
+
+    const alta = alerts.filter(a => a.severidad === 'ALTA').length;
+    txt.textContent = `${alerts.length} alerta${alerts.length > 1 ? 's' : ''} HIE`;
+    dot.style.background = alta > 0 ? '#FF5C35' : '#E8A23D';
+    btn.style.display = 'flex';
+    if (alta > 0) {
+      btn.style.borderColor = '#FF5C35';
+      btn.style.color = '#FF5C35';
+    }
+
+    const sevLabel = { ALTA: '[!]', MEDIA: '[~]', INFO: '[i]' };
+    const sevColor = { ALTA: '#FF5C35', MEDIA: '#E8A23D', INFO: '#888' };
+    body.innerHTML = alerts.map(a => `
+      <div style="display:flex;align-items:baseline;gap:8px;font-size:12px;line-height:1.4">
+        <span style="color:${sevColor[a.severidad]||'#888'};font-weight:700;flex-shrink:0">${sevLabel[a.severidad]||''}</span>
+        <span style="color:#FFD080">${esc(a.titulo)}</span>
+      </div>
+    `).join('');
+  } catch(_) {}
+}
+
+function toggleHIEAlerts() {
+  const panel = document.getElementById('hie-alerts-panel');
+  const btn   = document.getElementById('hie-alerts-btn');
+  const open  = panel.style.display !== 'none';
+  panel.style.display = open ? 'none' : 'block';
+  btn.style.background = open ? '#1a1a1a' : '#2A1800';
+}
+
+// ─── HIE REPLY SCORER ────────────────────────────────────────────────────────
+// Señales positivas y negativas cargadas desde signals.json (via /api/intelligence)
+let _hieSignals = null;
+
+async function loadHIESignals() {
+  if (_hieSignals) return _hieSignals;
+  try {
+    const res = await fetch('/api/intelligence');
+    if (!res.ok) return null;
+    const data = await res.json();
+    const kb = data.context;
+    // Extraer señales del context (el servidor sirve context_injection.json,
+    // pero signals.json está en KB por separado — usamos datos hardcodeados
+    // desde el último run del engine como fallback si no están en context)
+    _hieSignals = {
+      positive: ['correcto', 'contenido', 'marcas', 'interesante', 'nosotros', 'años',
+                 'sin', 'eso', 'mismo', 'puede', 'media', 'apoyarte', 'embargo', 'area'],
+      negative: ['escribirme', 'cuentame', 'cual', 'alegra'],
+      // Umbrales validados empíricamente
+      LONG_RESPONSE_CHARS: 200,    // >200 → señal positiva
+      MEDIUM_RESPONSE_CHARS: 100,  // 100-200 → neutral
+      // Tasas históricas para mostrar en UI
+      dossier_pct: { HIGH: 81.8, MEDIUM: 71.1, LOW: 31.5 },
+    };
+    return _hieSignals;
+  } catch(_) {
+    return null;
+  }
+}
+
+async function scoreReply(textarea, stepNum) {
+  const text = textarea.value.trim();
+  const scoreEl = document.getElementById(`reply-score-${stepNum}`);
+  if (!scoreEl) return;
+
+  if (text.length < 10) {
+    scoreEl.style.display = 'none';
+    return;
+  }
+
+  const signals = await loadHIESignals();
+  if (!signals) return;
+
+  const lower = text.toLowerCase();
+  const words = lower.match(/\b[a-záéíóúüñ]{3,}\b/g) || [];
+  const wordSet = new Set(words);
+
+  // Calcular score
+  let score = 0;
+  const found_pos = [];
+  const found_neg = [];
+
+  // Longitud (predictor más fuerte)
+  if (text.length >= signals.LONG_RESPONSE_CHARS) {
+    score += 3;
+  } else if (text.length >= signals.MEDIUM_RESPONSE_CHARS) {
+    score += 1;
+  }
+
+  // Pregunta (2do predictor más fuerte)
+  if (text.includes('?')) score += 2;
+
+  // Señales positivas
+  for (const w of signals.positive) {
+    if (wordSet.has(w)) { score += 1; found_pos.push(w); }
+  }
+
+  // Señales negativas
+  for (const w of signals.negative) {
+    if (wordSet.has(w)) { score -= 1; found_neg.push(w); }
+  }
+
+  // Clasificar
+  let nivel, color, bg, hist_pct, label;
+  if (score >= 5) {
+    nivel = 'HIGH'; color = '#1A7A3C'; bg = '#EBF9F1';
+    hist_pct = signals.dossier_pct.HIGH; label = 'Señal alta de conversión';
+  } else if (score >= 2) {
+    nivel = 'MEDIUM'; color = '#8A5C00'; bg = '#FFF8E6';
+    hist_pct = signals.dossier_pct.MEDIUM; label = 'Señal media';
+  } else {
+    nivel = 'LOW'; color = '#7A3800'; bg = '#FFF0EB';
+    hist_pct = signals.dossier_pct.LOW; label = 'Señal baja';
+  }
+
+  // Razones
+  const reasons = [];
+  if (text.length >= signals.LONG_RESPONSE_CHARS) reasons.push(`respuesta larga (${text.length} chars)`);
+  if (text.includes('?')) reasons.push('hace una pregunta');
+  if (found_pos.length > 0) reasons.push(`palabras clave: ${found_pos.slice(0,3).join(', ')}`);
+  if (found_neg.length > 0) reasons.push(`señales frías: ${found_neg.join(', ')}`);
+
+  scoreEl.style.display = 'block';
+  scoreEl.style.background = bg;
+  scoreEl.style.borderColor = color;
+  scoreEl.style.color = color;
+  scoreEl.innerHTML = `
+    <strong>${label}</strong> · ${hist_pct}% llegaron a dossier con este patrón
+    <br><span style="opacity:.75;font-size:10.5px">${reasons.join(' · ') || 'respuesta corta'}</span>
+  `;
+}
+
+// ─── HIE CONTEXT BUILDER ─────────────────────────────────────────────────────
+function buildHIEContextBlock(ctx, profileText) {
+  if (!ctx || !ctx.por_sector) return '';
+
+  // Detectar sector del prospecto desde el texto del perfil (heurística rápida)
+  // El sistema completo de detección está en Python; acá hacemos una aproximación
+  const profileLower = profileText.toLowerCase();
+  const sectorMap = {
+    'Energía': ['tgs', 'transener', 'energía', 'ecopetrol', 'petrobras', 'gas', 'oil', 'eléctric'],
+    'Minería': ['minería', 'antofagasta', 'newmont', 'barrick', 'bhp', 'miner'],
+    'Educación': ['universidad', 'educación', 'edutech', 'business school', 'institute'],
+    'Seguros/Finanzas': ['seguros', 'finanzas', 'libra', 'banca', 'fintech', 'crédito'],
+    'Farmacéutico': ['farmacéutico', 'abbott', 'novartis', 'laboratorio', 'pharma', 'salud latam'],
+    'Tecnología': ['software', 'technology', 'tech', 'datos', 'crm', 'erp', 'saas'],
+    'Real Estate': ['inmobil', 'real estate', 'desarrollo inmobiliario'],
+    'Retail/Consumo': ['retail', 'consumo', 'moda', 'tasarolli'],
+    'Turismo/Hotelería': ['hotel', 'turismo', 'hospitalidad', 'resort'],
+    'Agencia/Marketing': ['agencia', 'marketing', 'publicidad', 'comunicación'],
+    'Consultoría/Legal': ['consultor', 'consulting', 'legal', 'abogad'],
+    'Salud/Clínica': ['clínica', 'hospital', 'salud', 'médic'],
+  };
+
+  let detectedSector = null;
+  for (const [sector, keywords] of Object.entries(sectorMap)) {
+    if (keywords.some(k => profileLower.includes(k))) {
+      detectedSector = sector;
+      break;
+    }
+  }
+
+  const sectorData = detectedSector ? ctx.por_sector[detectedSector] : null;
+  const globalData = ctx.metadata || {};
+  const variantes = ctx.variantes || {};
+  const insights = ctx.insights_criticos || [];
+
+  // Solo agregar contexto si hay datos relevantes
+  const lines = ['=== CONTEXTO HISTÓRICO (HIE — basado en datos reales) ==='];
+  lines.push(`Base de datos: ${globalData.n_total || 0} contactos reales. Dossier rate global: ${globalData.dossier_rate_global || 0}%.`);
+
+  if (sectorData && sectorData.n >= 5) {
+    lines.push(`\nSECTOR DETECTADO: ${detectedSector}`);
+    lines.push(`- Dossier rate en este sector: ${sectorData.dossier_pct}% (n=${sectorData.n}, confianza: ${sectorData.confianza})`);
+    if (sectorData.mejor_seniority && sectorData.mejor_seniority !== 'INSUFFICIENT_DATA') {
+      lines.push(`- Mejor seniority en este sector: ${sectorData.mejor_seniority}`);
+    }
+    if (sectorData.mejor_variante && sectorData.mejor_variante !== 'INSUFFICIENT_DATA') {
+      lines.push(`- Variante con más conversión: ${sectorData.mejor_variante}`);
+    }
+    if (sectorData.clientes_hint && sectorData.clientes_hint.length > 0) {
+      lines.push(`- Clientes Hint más relevantes para este sector: ${sectorData.clientes_hint.join(', ')}`);
+    }
+  }
+
+  if (Object.keys(variantes).length >= 2) {
+    const varLines = Object.entries(variantes)
+      .filter(([, v]) => v.n >= 10)
+      .sort((a, b) => b[1].dossier_pct - a[1].dossier_pct)
+      .map(([v, d]) => `Variante ${v}: ${d.dossier_pct}% (n=${d.n})`);
+    if (varLines.length > 0) lines.push(`\nVARIANTES (global): ${varLines.join(' | ')}`);
+  }
+
+  if (insights.length > 0) {
+    lines.push('\nINSIGHTS CRÍTICOS:');
+    insights.slice(0, 3).forEach(i => lines.push(`- ${i.titulo}`));
+  }
+
+  lines.push('\nUsá este contexto solo como referencia para priorizar. No lo menciones en los mensajes.');
+  lines.push('=== FIN CONTEXTO HIE ===');
+
+  return lines.join('\n');
+}
+
+// ─── RENDER VARIANTS ────────────────────────────────────────────────
+function renderVariants(text) {
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  results.style.padding = '14px';
+  results.style.display = 'flex';
+  results.style.flexDirection = 'column';
+  results.style.gap = '12px';
+
+  if (/^\s*prospecto descartado/i.test(text)) {
+    const box = document.createElement('div');
+    box.style.cssText = 'background:#FFF0F0;border:1.5px solid #F5B5B5;border-radius:11px;padding:13px 15px;font-size:13px;line-height:1.6;color:#902020';
+    box.textContent = text.trim();
+    results.appendChild(box);
+    return;
+  }
+
+  // Parse strategic analysis
+  const getField = key => {
+    const re = new RegExp('^' + key + ':\\s*(.+)', 'im');
+    const m = text.match(re);
+    return m ? m[1].trim() : '';
+  };
+  const resumen = getField('RESUMEN');
+  const hechos = getField('HECHOS');
+  const interpretacion = getField('INTERPRETACION_TRABAJO');
+  const senalHumana = getField('SEÑAL_HUMANA');
+  const tension = getField('TENSION_PROFESIONAL');
+  const hipotesis = getField('HIPOTESIS_CONVERSACIONAL');
+  const angulo = getField('ANGULO');
+  const inferenceRisk = getField('INFERENCE_RISK');
+  const irrepetibilidad = getField('IRREPETIBILIDAD');
+  const debilidades = getField('DEBILIDADES_DE_ESTA_SECUENCIA');
+  const confidenceScore = getField('CONFIDENCE_SCORE');
+
+  // FASE 2 — Confidence layer
+  const confLevel = getField('CONFIDENCE_LEVEL');
+  const confReason = getField('CONFIDENCE_REASON');
+  const signalSource = getField('SIGNAL_SOURCE');
+  const allowedMsg1 = getField('ALLOWED_FOR_MSG1');
+
+  // FASE 3 — Profile classification
+  const profileType = getField('PROFILE_TYPE');
+  const seniority = getField('SENIORITY');
+  const infoLevel = getField('INFORMATION_LEVEL');
+  const sector = getField('SECTOR');
+  const area = getField('AREA');
+  const decisionPower = getField('DECISION_POWER');
+  const buyingRole = getField('BUYING_ROLE');
+  const commercialRelevance = getField('COMMERCIAL_RELEVANCE');
+  const classificationReason = getField('CLASSIFICATION_REASON');
+
+  // FASE 4 — Scoring multidimensional
+  const signalQuality = getField('SIGNAL_QUALITY');
+  const personalizationDepth = getField('PERSONALIZATION_DEPTH');
+  const conversationProbability = getField('CONVERSATION_PROBABILITY');
+  const commercialRelevanceScore = getField('COMMERCIAL_RELEVANCE_SCORE');
+  const hallucinationRisk = getField('HALLUCINATION_RISK');
+  const globalScore = getField('GLOBAL_SCORE');
+  const recommendedPriority = getField('RECOMMENDED_PRIORITY');
+
+  // Store analysis in state so selectVariant() can include it in the .md
+  state.lastAnalysis = { resumen, hechos, interpretacion, senalHumana, tension, hipotesis, angulo, sector, area, seniority, confLevel, confReason, allowedMsg1 };
+
+  // Parse ---VARIANTE--- blocks
+  const blocks = text.split(/\s*---\s*VARIANTE\s*[A-Z]?\s*---\s*/i).filter(b => b.trim());
+  // blocks[0] may be the analysis section (no TITULO) — skip it
+  const startIdx = /TITULO:/i.test(blocks[0]) ? 0 : 1;
+  const variantBlocks = blocks.slice(startIdx, startIdx + 4);
+  const tagClass = ['vtag-a','vtag-a','vtag-a','vtag-a'];
+  const tagLabel = ['Variante A','Variante A','Variante A','Variante A'];
+
+  // First pass: parse scores to find best
+  const parsedBlocks = variantBlocks.slice(0, 4).map((block, idx) => {
+    const lines = block.trim().split('\n').map(l => l.trim()).filter(l => l);
+    const get = k => { const l = lines.find(l => l.toLowerCase().startsWith(k.toLowerCase() + ':')); return l ? l.slice(l.indexOf(':') + 1).trim() : ''; };
+    return { block, idx, lines, get, score: parseInt(get('SCORE')) || 0 };
+  });
+  const maxScore = Math.max(...parsedBlocks.map(p => p.score));
+
+  parsedBlocks.forEach(({ block, idx, lines, get }) => {
+    if (idx > 3) return;
+    const getBubbles = prefix => lines.filter(l => l.toLowerCase().startsWith(prefix.toLowerCase())).map(l => ({ text: l.slice(l.indexOf(':') + 1).trim(), hl: false }));
+
+    const titulo = get('TITULO') || get('TITLE') || tagLabel[idx];
+    const score = parseInt(get('SCORE')) || 0;
+    const isBest = maxScore > 0 && score === maxScore;
+    const msg1 = getBubbles('MSG1_B');
+
+    const fullText = ['── MENSAJE 1 ──', ...msg1.map(b => b.text)].join('\n');
+    const b1html = msg1.length
+      ? msg1.map(b => `<div class="bwrap out"><div class="bub">${esc(b.text)}</div></div>`).join('')
+      : `<div style="padding:14px 16px;color:#999;font-size:12.5px;font-style:italic;border:1.5px dashed #ddd;border-radius:9px;text-align:center">No se generó el mensaje para este perfil. Intentá de nuevo.</div>`;
+
+    const varEl = document.createElement('div');
+    varEl.className = 'variant' + (isBest ? ' variant-best' : '');
+    varEl.id = `variant-${idx}`;
+    varEl.innerHTML = `
+      <div class="var-head">
+        <div class="var-left">
+          <span class="vtag ${tagClass[idx]}">${tagLabel[idx]}</span>
+          <span class="vtitle">${esc(titulo)}</span>
+          ${isBest ? `<span class="best-badge">⭐ Mejor opción</span>` : ''}
+        </div>
+        <button class="copy-btn" onclick="copyTxt(this,\`${escAttr(fullText)}\`)">
+          <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+      <div class="msg-label">Primer mensaje</div>
+      <div class="chat-area">${b1html}</div>
+      <button class="use-btn" onclick="selectVariant(${idx}, '${idx}', \`${escAttr(fullText)}\`, \`${escAttr(msg1.map(b=>b.text).join('\n\n'))}\`)">
+        <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        Usar esta variante → continuar conversación
+      </button>`;
+    results.appendChild(varEl);
+  });
+
+  if (!results.querySelector('.variant')) showError('No se pudieron generar los mensajes. Intentá de nuevo.');
+}
+
+// ─── SELECT VARIANT ─────────────────────────────────────────────────
+function selectVariant(idx, letter, fullText, msg1Text) {
+  document.querySelectorAll('.variant').forEach((v,i) => {
+    const btn = v.querySelector('.use-btn');
+    const head = v.querySelector('.var-head .var-left');
+    if(i === idx) {
+      btn.innerHTML = `<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2"><polyline points="20 6 9 17 4 12"/></svg> Seleccionada`;
+      btn.style.background = 'var(--green-light)';
+      btn.style.borderColor = 'var(--green)';
+      btn.style.color = 'var(--green)';
+      if(!head.querySelector('.selected-tag')) {
+        const tag = document.createElement('span');
+        tag.className = 'selected-tag';
+        tag.textContent = 'EN USO';
+        head.appendChild(tag);
+      }
+    } else {
+      btn.style.opacity = '0.4';
+      btn.disabled = true;
+    }
+  });
+
+  state.selectedVariant = { idx, letter, msg1: msg1Text, msg2: '' };
+  state.conversationHistory.push({ role: 'sent', text: msg1Text });
+
+  // Save to history (lightweight — no rawText)
+  const varTitleEl = document.querySelector(`#variant-${idx} .vtitle`);
+  const variantTitle = varTitleEl ? varTitleEl.textContent.trim() : `Variante ${idx + 1}`;
+  const histId = state._historyId || String(Date.now());
+  state._historyId = histId;
+  const _name = histExtractName(state.profile);
+  const _empresa = (document.getElementById('empresa-input')?.value?.trim()) || histExtractEmpresa(msg1Text, state.profile);
+  histUpsert({
+    id: histId,
+    date: new Date().toLocaleDateString('es-AR', { day:'2-digit', month:'2-digit', year:'2-digit' }),
+    name: _name,
+    empresa: _empresa,
+    variantTitle,
+    linea: state.linea || 'videos',
+    profileRaw: state.profile || '',
+    msg1: msg1Text,
+    msg2: '',
+    conversationHistory: [{ role: 'sent', text: msg1Text }]
+  });
+
+  // Auto-save .md in conversaciones/julio/
+  fetch('/api/save-md', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: _name, empresa: _empresa, linea: state.linea || 'videos', msg1: msg1Text, profileRaw: state.profile || '', analysis: state.lastAnalysis || {} })
+  }).catch(() => {});
+
+  const thread = document.getElementById('conv-thread');
+  thread.style.display = 'flex';
+  thread.innerHTML = '';
+  addReplyStep(thread, 1);
+
+  setTimeout(() => thread.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+}
+
+// ─── ADD REPLY STEP ──────────────────────────────────────────────────
+function addReplyStep(thread, stepNum) {
+  const stepEl = document.createElement('div');
+  stepEl.className = 'thread-step';
+  stepEl.id = `step-${stepNum}`;
+  const es = state.idioma === 'es';
+  stepEl.innerHTML = `
+    <div class="thread-step-head">
+      <span>${es ? '💬 Qué te respondió?' : '💬 What did they reply?'}</span>
+      <small>${es ? 'Pegá su respuesta exacta' : 'Paste their exact reply'}</small>
+    </div>
+    <div class="reply-box">
+      <textarea class="reply-input" id="reply-${stepNum}" placeholder="${es ? 'Pegá acá lo que te escribió...\n\nEjemplo: "Hola Florencia, así es. Ese es mi cargo. En qué te puedo ayudar?"' : 'Paste what they wrote...\n\nExample: "Hi Florencia, that\'s correct. How can I help you?"'}" oninput="scoreReply(this, ${stepNum})"></textarea>
+      <div id="reply-score-${stepNum}" style="display:none;margin-top:6px;padding:7px 10px;border-radius:7px;font-size:11.5px;line-height:1.5;border:1.5px solid"></div>
+      <div class="reply-actions">
+        <button class="btn-reply" id="reply-btn-${stepNum}" onclick="handleReply(${stepNum})">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <div class="mini-spin" id="reply-spin-${stepNum}"></div>
+          <span id="reply-btn-txt-${stepNum}">${es ? 'Generar respuesta' : 'Generate reply'}</span>
+        </button>
+      </div>
+    </div>
+    <div class="response-bubble" id="response-${stepNum}" style="display:none"></div>`;
+  thread.appendChild(stepEl);
+}
+
+// ─── HANDLE REPLY ────────────────────────────────────────────────────
+async function handleReply(stepNum) {
+  const replyText = document.getElementById(`reply-${stepNum}`).value.trim();
+  if(!replyText) { alert(state.idioma==='es'?'Pegá la respuesta primero':'Paste their reply first'); return; }
+
+  const btn = document.getElementById(`reply-btn-${stepNum}`);
+  const spin = document.getElementById(`reply-spin-${stepNum}`);
+  const btnTxt = document.getElementById(`reply-btn-txt-${stepNum}`);
+
+  btn.disabled = true;
+  spin.style.display = 'block';
+  btnTxt.textContent = state.idioma==='es'?'Generando...':'Generating...';
+  document.getElementById('status-txt').textContent = 'Procesando...';
+
+  state.conversationHistory.push({ role: 'received', text: replyText });
+
+  const historyText = state.conversationHistory.map(m => {
+    if(m.role==='system') return `[CONTEXTO: ${m.text}]`;
+    if(m.role==='sent') return `NOSOTROS ENVIAMOS:\n${m.text}`;
+    if(m.role==='received') return `PROSPECT RESPONDIÓ:\n${m.text}`;
+    if(m.role==='suggested') return `NOSOTROS ENVIAMOS:\n${m.text}`;
+    return '';
+  }).join('\n\n---\n\n');
+
+  const prompt = `CONVERSACIÓN EN CURSO:
+${historyText}
+
+La persona acaba de responder: "${replyText}"
+
+LINEA: ${LINEAS[state.linea || 'videos'].label}
+IDIOMA: Español
+
+Analizá qué dijo y generá el mensaje exacto que deberíamos mandar ahora, siguiendo REGLAS MSG2 (ramas A, B, C o D).
+
+Si ya se mandó el material (carpeta de videos o temario) y esta respuesta es la reacción a eso o algo posterior, esto es un SEG1: aplicá la lógica de REGLAS SEGUIMIENTOS del SYSTEM.
+Antes de redactar, clasificá internamente ENGAGEMENT_LEVEL (LOW / MEDIUM / HIGH) usando TODA la conversación, y elegí el modo correspondiente (Detectar interés / Detectar interés + CTA / CTA directo) según esa clasificación. No mandes CTA de llamada a un engagement LOW.
+
+Devolvé SOLO el mensaje en burbujas, con este formato:
+BURBUJA1: texto
+BURBUJA2: texto
+BURBUJA3: texto (si hace falta)
+BURBUJA4: texto con [HIGHLIGHT] si es el cierre/call-to-action
+
+Después agregá:
+ENGAGEMENT_LEVEL: (LOW / MEDIUM / HIGH / N-A si todavía no aplica — + justificación breve en la misma línea, separada por " — ")
+ANALISIS: (1 línea explicando por qué este mensaje en función de lo que respondieron)
+SIGUIENTE: (qué se espera que pase después - "call agendada", "pide más info", "no interesado", etc.)`;
+
+  try {
+    const text = await callAPI(prompt, SYSTEM);
+    renderReplyResponse(stepNum, replyText, text);
+  } catch(e) {
+    btn.disabled = false;
+    spin.style.display = 'none';
+    btnTxt.textContent = state.idioma==='es'?'Generar respuesta':'Generate reply';
+    alert('Error: ' + e.message);
+  } finally {
+    document.getElementById('status-txt').textContent = 'Listo';
+  }
+}
+
+// ─── RENDER CRE RESPONSE ─────────────────────────────────────────────
+function renderCREResponse(stepNum, replyText, rawMsg) {
+  // CRE outputs plain text bubbles separated by newlines (no labels)
+  const bubbles = rawMsg.split('\n').map(l => l.trim()).filter(l => l);
+  const fullReply = bubbles.join('\n');
+  state.conversationHistory.push({ role: 'suggested', text: fullReply });
+  if (state._historyId) histUpdateConv(state._historyId, state.conversationHistory);
+
+  const responseEl = document.getElementById(`response-${stepNum}`);
+  responseEl.style.display = 'flex';
+  responseEl.style.flexDirection = 'column';
+  responseEl.style.gap = '5px';
+  responseEl.style.padding = '10px 13px';
+
+  responseEl.innerHTML = `
+    <div class="msg-label" style="color:var(--blue)">Ellos dijeron</div>
+    <div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div>
+    <div class="msg-label" style="margin-top:6px">Tu respuesta sugerida <span style="font-size:10px;background:#EDE7FF;color:#3B1E8C;padding:2px 7px;border-radius:10px;margin-left:5px;font-weight:600">CRE</span></div>
+    ${bubbles.map(b => `<div class="bwrap out"><div class="bub">${esc(b)}</div></div>`).join('')}
+    <div style="display:flex;gap:7px;margin-top:8px">
+      <button class="btn-reply" style="flex:1" onclick="copyTxt(this,\`${escAttr(fullReply)}\`)">
+        <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        <span>Copiar respuesta</span>
+      </button>
+      <button class="btn-reply" style="flex:1;background:var(--dark2)" onclick="addNextStep(${stepNum})">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        <span>${state.idioma==='es'?'Volvió a responder →':'They replied again →'}</span>
+      </button>
+    </div>`;
+
+  document.getElementById(`reply-${stepNum}`).disabled = true;
+  const replyBox = document.getElementById(`reply-btn-${stepNum}`);
+  replyBox.disabled = true;
+  replyBox.style.opacity = '0.4';
+  document.getElementById(`reply-spin-${stepNum}`).style.display = 'none';
+  document.getElementById(`reply-btn-txt-${stepNum}`).textContent = state.idioma==='es'?'Enviado':'Sent';
+}
+
+// ─── RENDER REPLY RESPONSE ───────────────────────────────────────────
+function renderReplyResponse(stepNum, replyText, text) {
+  const lines = text.split('\n').map(l=>l.trim()).filter(l=>l);
+  const bubbles = lines.filter(l=>/^BURBUJA\d+:/i.test(l)).map(l=>{ const v=l.slice(l.indexOf(':')+1).trim(); return {text:v.replace('[HIGHLIGHT]','').trim(),hl:v.includes('[HIGHLIGHT]')}; });
+  const analisis = (lines.find(l=>/^ANALISIS:/i.test(l))||'').replace(/^ANALISIS:/i,'').trim();
+  const siguiente = (lines.find(l=>/^SIGUIENTE:/i.test(l))||'').replace(/^SIGUIENTE:/i,'').trim();
+  const engagement = (lines.find(l=>/^ENGAGEMENT_LEVEL:/i.test(l))||'').replace(/^ENGAGEMENT_LEVEL:/i,'').trim();
+
+  const fullReply = bubbles.map(b=>b.text).join('\n\n');
+  state.conversationHistory.push({ role: 'suggested', text: fullReply });
+  if (state._historyId) histUpdateConv(state._historyId, state.conversationHistory);
+
+  const responseEl = document.getElementById(`response-${stepNum}`);
+  responseEl.style.display = 'flex';
+  responseEl.style.flexDirection = 'column';
+  responseEl.style.gap = '5px';
+  responseEl.style.padding = '10px 13px';
+
+  responseEl.innerHTML = `
+    <div class="msg-label" style="color:var(--blue)">Ellos dijeron</div>
+    <div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div>
+    <div class="msg-label" style="margin-top:6px">Tu respuesta sugerida</div>
+    ${bubbles.map(b=>`<div class="bwrap out"><div class="bub${b.hl?' hl':''}">${esc(b.text)}</div></div>`).join('')}
+    ${engagement&&!/^N-A/i.test(engagement)?`<div style="margin-top:6px;padding:5px 10px;background:#EDE7FF;border-radius:7px;font-size:11px;color:#3B1E8C;display:flex;gap:5px"><span>📶</span><span><strong>Engagement:</strong> ${esc(engagement)}</span></div>`:''}
+    ${analisis?`<div style="margin-top:6px;padding:7px 10px;background:var(--orange-light);border-radius:7px;font-size:11px;color:#4A1B0C;display:flex;gap:5px;align-items:flex-start"><span style="color:var(--orange);flex-shrink:0">→</span><span>${esc(analisis)}</span></div>`:''}
+    ${siguiente?`<div style="margin-top:4px;padding:5px 10px;background:var(--green-light);border-radius:7px;font-size:11px;color:#1A6635;display:flex;gap:5px"><span>✓</span><span><strong>Próximo paso:</strong> ${esc(siguiente)}</span></div>`:''}
+    <div style="display:flex;gap:7px;margin-top:8px">
+      <button class="btn-reply" style="flex:1" onclick="copyTxt(this,\`${escAttr(fullReply)}\`)">
+        <svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        <span>Copiar respuesta</span>
+      </button>
+      <button class="btn-reply" style="flex:1;background:var(--dark2)" onclick="addNextStep(${stepNum})">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        <span>${state.idioma==='es'?'Volvió a responder →':'They replied again →'}</span>
+      </button>
+    </div>`;
+
+  document.getElementById(`reply-${stepNum}`).disabled = true;
+  const replyBox = document.getElementById(`reply-btn-${stepNum}`);
+  replyBox.disabled = true;
+  replyBox.style.opacity = '0.4';
+  document.getElementById(`reply-spin-${stepNum}`).style.display = 'none';
+  document.getElementById(`reply-btn-txt-${stepNum}`).textContent = state.idioma==='es'?'Enviado':'Sent';
+}
+
+// ─── ADD NEXT STEP ───────────────────────────────────────────────────
+function addNextStep(currentStep) {
+  const thread = document.getElementById('conv-thread');
+  const nextStep = currentStep + 1;
+  addReplyStep(thread, nextStep);
+  setTimeout(() => document.getElementById(`step-${nextStep}`).scrollIntoView({ behavior:'smooth', block:'start' }), 100);
+}
+
+// ─── API CALL (via servidor local) ──────────────────────────────────
+async function callAPI(prompt, system, maxTokens) {
+  const res = await fetch('/api/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt, system: system || '', max_tokens: maxTokens || 1500 })
+  });
+  const data = await res.json();
+  if (!res.ok || data.error) throw new Error(data.error || 'Error en la API');
+  return data.text;
+}
+
+// ─── UI HELPERS ──────────────────────────────────────────────────────
+function setLoading(on, type) {
+  if(type === 'gen') {
+    const btn = document.getElementById('gen-btn');
+    const spin = document.getElementById('gen-spin');
+    const icon = document.getElementById('gen-icon');
+    const txt = document.getElementById('gen-txt');
+    const loading = document.getElementById('loading');
+    const results = document.getElementById('results');
+    btn.disabled = on;
+    spin.style.display = on ? 'block' : 'none';
+    icon.style.display = on ? 'none' : 'block';
+    txt.textContent = on ? 'Generando...' : 'Generar mensajes de apertura';
+    loading.style.display = on ? 'flex' : 'none';
+    results.style.display = on ? 'none' : 'flex';
+    document.getElementById('status-txt').textContent = on ? 'Procesando...' : 'Listo';
+  }
+}
+
+function showError(msg) {
+  const results = document.getElementById('results');
+  results.style.display = 'flex';
+  results.innerHTML = `<div style="padding:2rem;text-align:center;color:#c0392b;font-size:12.5px"><strong>Error:</strong> ${esc(msg)}<br><br><small style="color:#999">Verificá tu conexión y que la API key sea válida.</small></div>`;
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/\n/g,'<br>');
+}
+function escAttr(s) {
+  return String(s||'').replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$/g,'\\$').replace(/"/g,'&quot;').replace(/\r?\n/g,'\\n');
+}
+
+let _accordionSeq = 0;
+function makeAccordion(title, rows) {
+  const id = 'acc-' + (++_accordionSeq);
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.style.animation = 'fadeUp .3s ease both';
+  const rowsHtml = rows.map(([label, value, rawHtml]) =>
+    `<div style="display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:5px 0;border-bottom:1px solid var(--border)">
+      <span style="color:var(--mid)">${esc(label)}</span>
+      <span style="font-weight:600;color:var(--dark);text-align:right">${rawHtml ? value : esc(value)}</span>
+    </div>`
+  ).join('');
+  el.innerHTML = `
+    <div class="card-head" style="cursor:pointer;padding:10px 14px" onclick="toggleAccordion('${id}')">
+      <div style="flex:1;font-size:12px;font-weight:700;color:var(--dark)">${esc(title)}</div>
+      <svg class="hist-chevron" id="${id}-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+    <div id="${id}-body" style="display:none;padding:4px 14px 12px">${rowsHtml}</div>`;
+  return el;
+}
+function toggleAccordion(id) {
+  const body = document.getElementById(id + '-body');
+  const chev = document.getElementById(id + '-chev');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chev.style.transform = open ? '' : 'rotate(180deg)';
+}
+function copyTxt(btn, text) {
+  const cleanText = text.replace(/\\n/g,'\n');
+  navigator.clipboard.writeText(cleanText).then(()=>{
+    const o = btn.innerHTML;
+    btn.innerHTML = btn.innerHTML.replace(/<span>.*?<\/span>/,'<span>✓ Copiado</span>');
+    setTimeout(()=>{ btn.innerHTML = o; }, 2000);
+  });
+}
+
+// ─── CONTEXTO PARA CLAUDE ────────────────────────────────────────────
+function formatConvHistoryPlain(en) {
+  const hist = en.conversationHistory || [];
+  return hist.map(m => {
+    if (m.role === 'system') return `[CONTEXTO: ${m.text}]`;
+    if (m.role === 'sent') return `NOSOTROS ENVIAMOS:\n${m.text}`;
+    if (m.role === 'received') return `PROSPECTO RESPONDIÓ:\n${m.text}`;
+    if (m.role === 'suggested') return `NOSOTROS ENVIAMOS:\n${m.text}`;
+    return m.text || '';
+  }).join('\n\n---\n\n');
+}
+function buildClaudeFullContext(en) {
+  const empresa = en.empresa || '—';
+  const stage = stgLabel(en.stage || 1);
+  const conv = formatConvHistoryPlain(en) || '(sin conversación registrada)';
+  return [
+    '==================================================',
+    'PERFIL COMPLETO', '',
+    en.profileRaw || '(no se guardó perfil completo para este contacto)', '',
+    '==================================================',
+    'EMPRESA', '',
+    empresa, '',
+    '==================================================',
+    'CONVERSACIÓN', '',
+    conv, '',
+    '==================================================',
+    'ETAPA ACTUAL', '',
+    stage, '',
+    '==================================================',
+    'OBJETIVO', '',
+    'Generar el próximo mensaje según metodología Hint Media.',
+    '=================================================='
+  ].join('\n');
+}
+function buildClaudeProfileOnly(en) {
+  return [
+    '==================================================',
+    'PERFIL COMPLETO', '',
+    en.profileRaw || '(no se guardó perfil completo para este contacto)',
+    '=================================================='
+  ].join('\n');
+}
+function buildClaudeProfileConv(en) {
+  const conv = formatConvHistoryPlain(en) || '(sin conversación registrada)';
+  return (en.profileRaw || '(no se guardó perfil completo para este contacto)') + '\n\n*\n\n' + conv;
+}
+function buildClaudeStructuredContext(en) {
+  const conv = formatConvHistoryPlain(en) || '(sin conversación registrada)';
+  const stage = stgLabel(en.stage || 1);
+  return [
+    '=== PERFIL ORIGINAL ===', '',
+    en.profileRaw || '(no se guardó perfil completo para este contacto)', '',
+    '=== RESUMEN ESTRUCTURADO ===', '',
+    'Tipo perfil: ' + (en.tipoPerfil || ''),
+    'Sector: ' + (en.sector || ''),
+    'Empresa: ' + (en.empresa || ''),
+    'Nivel interés: ' + (en.nivelInteres || ''),
+    'Señal detectada: ' + (en.senalDetectada || ''),
+    'Ángulo MSG1: ' + (en.anguloMsg1 || ''),
+    'Hipótesis MSG2: ' + (en.hipotesisMsg2 || ''), '',
+    '=== CONVERSACIÓN COMPLETA ===', '',
+    conv, '',
+    '=== ETAPA ACTUAL ===', '',
+    stage, '',
+    '=== OBJETIVO ===', '',
+    'Generar siguiente mensaje según metodología Hint Media.'
+  ].join('\n');
+}
+function copyContextFor(id, mode, btn) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  let text;
+  if (mode === 'full') text = buildClaudeFullContext(en);
+  else if (mode === 'profile') text = buildClaudeProfileOnly(en);
+  else if (mode === 'structured') text = buildClaudeStructuredContext(en);
+  else text = buildClaudeProfileConv(en);
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = '✓ Copiado';
+    setTimeout(() => { btn.textContent = orig; }, 2000);
+  });
+}
+function escHtmlAttr(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function updateStructFieldLocal(id, field, value) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  en[field] = value;
+}
+function persistStructField(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  histPersist(en);
+}
+function structFieldHtml(en, field, label) {
+  return `<div style="display:flex;flex-direction:column;gap:2px">
+    <label style="font-size:9.5px;color:var(--mid);font-weight:600">${label}</label>
+    <input type="text" value="${escHtmlAttr(en[field]||'')}" oninput="updateStructFieldLocal('${en.id}','${field}',this.value)" onblur="persistStructField('${en.id}')" style="font-size:11.5px;padding:5px 7px;border:1px solid var(--border);border-radius:6px;background:#fafafa">
+  </div>`;
+}
+function renderStructuredSummary(en) {
+  return `<div style="padding:10px 13px;display:flex;flex-direction:column;gap:6px;background:#fff;border-bottom:1px solid var(--border)">
+    <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid)">Resumen estructurado <span style="font-weight:400;text-transform:none;letter-spacing:0">(no se manda a la IA, solo para tu referencia)</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+      ${structFieldHtml(en,'tipoPerfil','Tipo de perfil')}
+      ${structFieldHtml(en,'sector','Sector')}
+      ${structFieldHtml(en,'nivelInteres','Nivel de interés')}
+      ${structFieldHtml(en,'senalDetectada','Señal detectada')}
+      ${structFieldHtml(en,'anguloMsg1','Ángulo MSG1')}
+      ${structFieldHtml(en,'hipotesisMsg2','Hipótesis MSG2')}
+      ${structFieldHtml(en,'estadoActual','Estado actual')}
+    </div>
+  </div>`;
+}
+
+document.addEventListener('keydown', e => { if(e.ctrlKey && e.key==='Enter') generateOpeners(); });
+
+// ─── HISTORY ─────────────────────────────────────────────────────────
+
+const STAGES = [null,
+  {label:'Apertura'},
+  {label:'En conversación'},
+  {label:'Dossier enviado'},
+  {label:'Seguimiento 1'},
+  {label:'Seguimiento 2'},
+  {label:'Reunión confirmada'}
+];
+const STAGE_COLORS = ['','sp-1','sp-2','sp-3','sp-4','sp-5','sp-5'];
+const STAGE_NAMES_SHORT = ['','Apertura','En conv.','Dossier','Seg. 1','Seg. 2','Reunión'];
+
+function stgLabel(s){ return (STAGES[s]||{label:'?'}).label; }
+
+function renderStageBar(en) {
+  const cur = en.stage || 1;
+  let h = '<div class="stage-bar">';
+  for (let i=1;i<=5;i++) {
+    const done = i < cur, curr = i === cur;
+    h += '<div class="stage-step">';
+    h += '<div class="stage-dot' + (done?' done':curr?' curr':'') + '">' + i + '</div>';
+    h += '<div class="stage-lbl' + (curr?' act':'') + '">' + STAGE_NAMES_SHORT[i] + '</div>';
+    h += '</div>';
+    if (i<5) h += '<div class="stage-line' + (done?' done':'') + '"></div>';
+  }
+  h += '</div>';
+  return h;
+}
+
+function renderAdvanceBox(en) {
+  const cur = en.stage || 1;
+  const log = en.stageHistory || [{stage:1, date:en.date, note:''}];
+  let h = '<div class="advance-box">';
+  if (log.length) {
+    h += '<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);margin-bottom:2px">Registro</div>';
+    h += log.map(l =>
+      '<div class="stage-log-item"><div class="stage-log-dot"></div><span><strong>' + stgLabel(l.stage) + '</strong> · ' + l.date + (l.note ? ' — <em>' + esc(l.note) + '</em>' : '') + '</span></div>'
+    ).join('');
+  }
+  // botones acción
+  h += '<div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap">';
+  if (cur > 1) {
+    h += '<button class="btn-advance" style="background:#444;flex:0" onclick="histGoBack(\'' + en.id + '\')">';
+    h += '← Volver a ' + stgLabel(cur - 1) + '</button>';
+  }
+  if (!en.noInterest) {
+    h += '<button class="btn-advance" style="background:#888;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
+    h += '✕ No interesado</button>';
+    h += '<button class="btn-advance" style="background:#1A2A3A;flex:0" onclick="toggleRecontactPicker(\'' + en.id + '\')">';
+    h += '⏰ Recontactar</button>';
+  } else {
+    h += '<button class="btn-advance" style="background:#444;flex:0" onclick="histMarkNoInterest(\'' + en.id + '\')">';
+    h += '↩ Reactivar</button>';
+  }
+  h += '</div>';
+  const recontactDate = en.followup_date || '';
+  h += '<div class="recontact-picker" id="recontact-picker-' + en.id + '">';
+  if (recontactDate) {
+    h += '<div class="recontact-current">Programado: ' + recontactDate + '<button class="recontact-clear" onclick="clearRecontact(\'' + en.id + '\')">Cancelar</button></div>';
+  }
+  h += '<span style="font-size:10px;color:#777;display:block;margin-bottom:5px">Recontactar en:</span>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',1)">1 mes</button>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',3)">3 meses</button>';
+  h += '<button class="recontact-opt" onclick="setRecontact(\'' + en.id + '\',6)">6 meses</button>';
+  h += '</div>';
+  if (!en.noInterest) {
+    if (cur < 5) {
+      h += '<div style="font-size:11px;color:var(--mid);margin-top:8px">Qué pasó? <span style="color:#bbb">(opcional — si te dieron email, pegalo acá)</span></div>';
+      h += '<textarea class="advance-note" id="advance-note-' + en.id + '" placeholder="Ej: Respondió con interés... o pegá el mail si lo dieron" oninput="detectEmailNote(this)"></textarea>';
+      h += '<div id="email-hint-' + en.id + '" style="display:none;font-size:11px;color:#1A5FA8;background:#E6F1FB;border-radius:6px;padding:4px 9px;margin-top:4px">📧 Email detectado</div>';
+      if (cur === 2) {
+        h += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px">';
+        h += '<button class="btn-advance" style="margin-top:0" onclick="histAdvanceStage(\'' + en.id + '\',false)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>';
+        h += 'Dossier</button>';
+        h += '<button class="btn-advance" style="margin-top:0;background:#1A5FA8" onclick="histAdvanceStage(\'' + en.id + '\',true)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>';
+        h += 'Dossier × mail</button>';
+        h += '</div>';
+      } else {
+        h += '<button class="btn-advance" onclick="histAdvanceStage(\'' + en.id + '\',false)">';
+        h += '<svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:white;fill:none;stroke-width:2"><polyline points="9 18 15 12 9 6"/></svg>';
+        h += 'Avanzar → ' + stgLabel(cur + 1) + '</button>';
+      }
+    } else {
+      h += '<div style="font-size:11px;color:var(--green);font-weight:600;display:flex;gap:5px;align-items:center;margin-top:2px"><span>✓</span><span>Secuencia completa</span></div>';
+    }
+  }
+  h += '</div>';
+  return h;
+}
+
+function detectEmailNote(textarea) {
+  const id = textarea.id.replace('advance-note-','');
+  const hint = document.getElementById('email-hint-' + id);
+  if (!hint) return;
+  hint.style.display = /[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(textarea.value) ? '' : 'none';
+}
+
+// stage puede venir como string ("3") o int (3) segun quien lo escribio.
+// Sin esto, "3" + 1 daba "31" y corrompia la entrada.
+function stgNum(v) { const n = parseInt(v, 10); return isNaN(n) ? 1 : n; }
+
+function histAdvanceStage(id, isDossierMail) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en || stgNum(en.stage) >= 6) return;
+  const noteEl = document.getElementById('advance-note-' + id);
+  const note = noteEl ? noteEl.value.trim() : '';
+  const newStage = stgNum(en.stage) + 1;
+  const dateStr = new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'2-digit',year:'2-digit'});
+  en.stage = String(newStage);
+  if (isDossierMail) en.dossierMail = true;
+  if (!en.stageHistory) en.stageHistory = [{stage:1, date:en.date, note:''}];
+  en.stageHistory.push({stage:newStage, date:dateStr, note});
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+function histGoBack(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en || stgNum(en.stage) <= 1) return;
+  en.stage = String(stgNum(en.stage) - 1);
+  if (en.stageHistory && en.stageHistory.length > 1) en.stageHistory.pop();
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+function histMarkNoInterest(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  en.noInterest = !en.noInterest;
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+function toggleRecontactPicker(id) {
+  const picker = document.getElementById('recontact-picker-' + id);
+  if (picker) picker.classList.toggle('open');
+}
+function setRecontact(id, months) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  const d = new Date();
+  d.setMonth(d.getMonth() + months);
+  en.followup_date = d.toLocaleDateString('es-AR', {day:'2-digit', month:'2-digit', year:'numeric'});
+  histPersist();
+  renderProximos();
+  histRestore(id);
+  const picker = document.getElementById('recontact-picker-' + id);
+  if (picker) picker.classList.remove('open');
+}
+function clearRecontact(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+  delete en.followup_date;
+  histPersist();
+  renderProximos();
+  histRestore(id);
+}
+
+let _histEntries = [];
+let _histStageFilter = '';
+let _weekState = {}; // { 'YY-MM-W': true/false }
+
+async function initHist() {
+  let localData = [];
+  const validEntry = e => !!(e.name || e.nombre);
+  try { localData = (JSON.parse(localStorage.getItem('hm_hist_v2') || '[]')).filter(validEntry); } catch {}
+
+  try {
+    const res = await fetch('/api/historial');
+    const raw = await res.json();
+    const data = Array.isArray(raw) ? raw.filter(validEntry) : [];
+    if (data.length > 0) {
+      // Server is authoritative — always use server data
+      _histEntries = data;
+      try { localStorage.setItem('hm_hist_v2', JSON.stringify(data)); } catch {}
+    } else if (localData.length > 0) {
+      _histEntries = localData;
+      histPersist();
+    }
+  } catch {
+    _histEntries = localData.length > 0 ? localData : [];
+  }
+  renderHistoryList();
+  if (_histEntries.length) {
+    document.getElementById('hist-body').style.display = 'block';
+    document.getElementById('hist-chevron').style.transform = 'rotate(180deg)';
+  }
+}
+
+function parseDateEntry(str) {
+  const p = (str||'').split('/');
+  if (p.length !== 3) return null;
+  const [d, m, y] = p.map(Number);
+  return new Date(2000 + y, m - 1, d);
+}
+function daysAgo(dateStr) {
+  const d = parseDateEntry(dateStr);
+  if (!d) return 0;
+  return Math.floor((Date.now() - d.getTime()) / 86400000);
+}
+function getLastActivityDate(entry) {
+  const hist = entry.stageHistory;
+  if (hist && hist.length > 0) return hist[hist.length - 1].date;
+  return entry.date;
+}
+function getOverdueEntries() {
+  return _histEntries
+    .filter(en => daysAgo(getLastActivityDate(en)) >= 7)
+    .sort((a, b) => daysAgo(getLastActivityDate(b)) - daysAgo(getLastActivityDate(a)));
+}
+function renderAlertBanner() {
+  renderProximos();
+}
+function toggleProximos() {
+  const body = document.getElementById('proximos-body');
+  const chev = document.getElementById('prox-chevron');
+  const open = body.classList.contains('open');
+  body.classList.toggle('open', !open);
+  chev.style.transform = open ? '' : 'rotate(180deg)';
+}
+function getThreshold(en) {
+  const s = en.stage || 1;
+  if (s === 2) return 2;
+  if (s === 3) return 5;
+  if (s === 4) return 7;
+  return 7;
+}
+function getSnippet(en) {
+  const hist = en.conversationHistory || [];
+  for (let i = hist.length - 1; i >= 0; i--) {
+    const r = hist[i];
+    if (r.role === 'received' || r.sender === 'them') {
+      const t = (r.text || '').trim().replace(/\n/g,' ');
+      return t.length > 55 ? t.substring(0,52)+'…' : t;
+    }
+  }
+  return '';
+}
+function stagePillProx(s) {
+  const cls = s===2?'psp-2':s===3?'psp-3':'psp-1';
+  return `<span class="prox-stage-pill ${cls}">${STAGE_NAMES_SHORT[s]||'Apertura'}</span>`;
+}
+function getActionForStage(stage) {
+  const s = stgNum(stage);
+  if (s === 1) return 'msg2';
+  if (s === 2) return 'dossier';
+  if (s === 3) return 'seg1';
+  if (s === 4) return 'seg2';
+  return 'other';
+}
+function getEmpresaDisplay(en) {
+  if (en.empresa) return en.empresa;
+  const m1 = (en.msg1 || '').match(/en\s+([A-Z][^\.,\n]{2,30})/);
+  if (m1) return m1[1];
+  if (en.email) { const d = en.email.split('@')[1]; if (d) return d.split('.')[0]; }
+  return '';
+}
+function renderProximos() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  function parseFollowupDate(str) {
+    if (!str) return null;
+    const [d,m,y] = str.split('/').map(Number);
+    return new Date(y < 100 ? 2000+y : y, m-1, d);
+  }
+  const active = [..._histEntries].filter(en => {
+    if (en.noInterest || stgNum(en.stage) > 4) return false;
+    if (en.recontact || en.followup_date) return false;
+    return true;
+  });
+  const recontactEntries = [..._histEntries].filter(en => {
+    if (en.noInterest) return false;
+    return !!(en.recontact || en.followup_date);
+  });
+  const reunionEntries = [..._histEntries].filter(en => !en.noInterest && parseInt(en.stage) === 6);
+  const countEl = document.getElementById('prox-count');
+  const body = document.getElementById('proximos-body');
+  if (!countEl || !body) return;
+  const enriched = active.map(en => {
+    const days = daysAgo(getLastActivityDate(en));
+    const thresh = getThreshold(en);
+    const remaining = thresh - days;
+    const overdue = remaining <= 0;
+    const action = getActionForStage(en.stage || 1);
+    return { en, days, remaining, overdue, action };
+  }).sort((a,b) => a.remaining - b.remaining);
+  const overdueCnt = enriched.filter(x => x.overdue).length;
+  countEl.textContent = enriched.length;
+  countEl.className = 'prox-count' + (overdueCnt > 0 ? ' has-overdue' : '');
+  const cols = [
+    { key:'msg2',    head:'col-msg2',   label:'Enviar MSG2',      emoji:'💬' },
+    { key:'dossier', head:'col-dossier',label:'Enviar dossier',   emoji:'📄' },
+    { key:'seg1',    head:'col-seg',    label:'Seguimiento 1',    emoji:'🔁' },
+    { key:'seg2',    head:'col-seg',    label:'Seguimiento 2',    emoji:'🔁' },
+  ];
+  function daysLabel(x) {
+    if (x.overdue) return { text: `hace ${x.days}d`, cls: 'red' };
+    if (x.remaining === 0) return { text: 'Hoy', cls: 'orange' };
+    if (x.remaining === 1) return { text: 'Mañana', cls: 'orange' };
+    return { text: `en ${x.remaining}d`, cls: 'green' };
+  }
+  const recontactRows = recontactEntries.sort((a,b) => {
+    const fa = parseFollowupDate(a.followup_date), fb = parseFollowupDate(b.followup_date);
+    return fa - fb;
+  }).map(en => {
+    const fd = parseFollowupDate(en.followup_date);
+    const diffDays = Math.round((fd - today) / 86400000);
+    const empresa = getEmpresaDisplay(en);
+    let text, cls;
+    if (diffDays <= 0) { text = 'Hoy'; cls = 'orange'; }
+    else if (diffDays === 1) { text = 'Mañana'; cls = 'orange'; }
+    else if (diffDays <= 7) { text = `en ${diffDays}d`; cls = 'orange'; }
+    else { text = en.followup_date; cls = 'green'; }
+    return `<div class="prox-row" onclick="proxCardClick('${en.id}')">
+      <div class="prox-row-info">
+        <div class="prox-row-name">${esc(en.name)}</div>
+        ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+      </div>
+      <div class="prox-row-days ${cls}">${text}</div>
+    </div>`;
+  }).join('') || `<div class="prox-empty-col">Sin pendientes</div>`;
+
+  body.innerHTML = cols.map(col => {
+    const items = enriched.filter(x => x.action === col.key);
+    const rows = items.length === 0
+      ? `<div class="prox-empty-col">Sin pendientes</div>`
+      : items.map(x => {
+          const { text, cls } = daysLabel(x);
+          const empresa = getEmpresaDisplay(x.en);
+          return `<div class="prox-row${x.overdue ? ' overdue-row' : ''}" onclick="proxCardClick('${x.en.id}')">
+            <div class="prox-row-info">
+              <div class="prox-row-name">${esc(x.en.name)}</div>
+              ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+            </div>
+            <div class="prox-row-days ${cls}">${text}</div>
+          </div>`;
+        }).join('');
+    return `<div class="prox-col">
+      <div class="prox-col-head ${col.head}">
+        <span>${col.emoji} ${col.label}</span>
+        <span class="prox-col-count">${items.length}</span>
+      </div>
+      <div class="prox-col-body">${rows}</div>
+    </div>`;
+  }).join('') + `<div class="prox-col">
+    <div class="prox-col-head col-reunion">
+      <span>🤝 Reuniones</span>
+      <span class="prox-col-count">${reunionEntries.length}</span>
+    </div>
+    <div class="prox-col-body">${
+      reunionEntries.length === 0
+        ? '<div class="prox-empty-col">Sin reuniones aún</div>'
+        : reunionEntries.map(en => {
+            const empresa = getEmpresaDisplay(en);
+            return `<div class="prox-row" onclick="proxCardClick('${en.id}')">
+              <div class="prox-row-info">
+                <div class="prox-row-name">${esc(en.name||en.nombre||'')}</div>
+                ${empresa ? `<div class="prox-row-empresa">${esc(empresa)}</div>` : ''}
+              </div>
+              <div class="prox-row-days green">Reunion</div>
+            </div>`;
+          }).join('')
+    }</div>
+  </div>
+  <div class="prox-col">
+    <div class="prox-col-head col-recontact">
+      <span>⏰ Recontactar</span>
+      <span class="prox-col-count">${recontactEntries.length}</span>
+    </div>
+    <div class="prox-col-body">${recontactRows}</div>
+  </div>`;
+}
+function proxCardClick(id) {
+  histRestore(id);
+  document.getElementById('hist-body').style.display = 'block';
+  document.getElementById('hist-chevron').style.transform = 'rotate(180deg)';
+  toggleProximos();
+}
+function histPersist(entry) {
+  // Always backup to localStorage first
+  try { localStorage.setItem('hm_hist_v2', JSON.stringify(_histEntries)); } catch(e) {}
+
+  const payload = entry ? entry : _histEntries;
+  fetch('/api/historial', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); }).catch(() => {
+    // Show warning toast if server POST fails
+    const t = document.createElement('div');
+    t.textContent = '⚠️ No se guardó en servidor — guardado en local';
+    t.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#FFF3CD;color:#856404;padding:10px 16px;border-radius:8px;font-size:12px;font-weight:600;z-index:9999;border:1px solid #FFEEBA;box-shadow:0 2px 8px rgba(0,0,0,.15)';
+    document.body.appendChild(t);
+    setTimeout(() => t.remove(), 4000);
+  });
+}
+function histExtractName(profile) {
+  return (profile || '').trim().split('\n').map(l => l.trim()).find(l => l) || 'Sin nombre';
+}
+function autoDetectEmpresa() {
+  const profile = document.getElementById('profile-input').value;
+  const input = document.getElementById('empresa-input');
+  if (!input || input.dataset.manual === '1') return;
+  const empresa = histExtractEmpresaFromProfile(profile);
+  input.value = empresa;
+  updateSectorIntelBar(profile);
+}
+
+async function updateSectorIntelBar(profileText) {
+  const bar = document.getElementById('sector-intel-bar');
+  if (!bar || !profileText || profileText.length < 30) { if(bar) bar.style.display='none'; return; }
+
+  // Reusar la detección de sector del buildHIEContextBlock
+  const sectorMap = {
+    'Energía': ['tgs', 'transener', 'energía', 'ecopetrol', 'petrobras', 'gas', 'oil', 'eléctric'],
+    'Minería': ['minería', 'antofagasta', 'newmont', 'barrick', 'bhp', 'miner'],
+    'Educación': ['universidad', 'educación', 'edutech', 'business school', 'institute'],
+    'Seguros/Finanzas': ['seguros', 'finanzas', 'libra', 'banca', 'fintech', 'crédito'],
+    'Farmacéutico': ['farmacéutico', 'abbott', 'novartis', 'laboratorio', 'pharma'],
+    'Tecnología': ['software', 'technology', 'tech', 'datos', 'crm', 'erp', 'saas'],
+    'Real Estate': ['inmobil', 'real estate', 'desarrollo inmobiliario'],
+    'Retail/Consumo': ['retail', 'consumo', 'moda', 'tasarolli'],
+    'Turismo/Hotelería': ['hotel', 'turismo', 'hospitalidad', 'resort', 'vacations'],
+    'Agencia/Marketing': ['agencia', 'marketing', 'publicidad'],
+    'Consultoría/Legal': ['consultor', 'consulting', 'legal', 'abogad'],
+    'Salud/Clínica': ['clínica', 'hospital', 'salud'],
+    'Construcción/Materiales': ['construc', 'materiales', 'ternium', 'acero'],
+  };
+
+  const lower = profileText.toLowerCase();
+  let sector = null;
+  for (const [s, kws] of Object.entries(sectorMap)) {
+    if (kws.some(k => lower.includes(k))) { sector = s; break; }
+  }
+
+  if (!sector) { bar.style.display = 'none'; return; }
+
+  try {
+    const res = await fetch('/api/intelligence');
+    if (!res.ok) { bar.style.display = 'none'; return; }
+    const data = await res.json();
+    const ctx = data.context || {};
+    const sd = (ctx.por_sector || {})[sector];
+    const varA = (ctx.variantes || {})['A'];
+    const varC = (ctx.variantes || {})['C'];
+
+    if (!sd) { bar.style.display = 'none'; return; }
+
+    const conf = { HIGH: '🟢', MEDIUM: '🟡', LOW: '🔴', INSUFFICIENT: '⚫' };
+    const varText = (varA && varC)
+      ? `Var A ${varA.dossier_pct}% vs C ${varC.dossier_pct}%`
+      : '';
+    const clientes = (sd.clientes_hint || []).join(', ');
+
+    bar.style.display = 'block';
+    bar.innerHTML = `
+      <strong>${sector}</strong> ${conf[sd.confianza]||''} &nbsp;·&nbsp;
+      Dossier histórico: <strong>${sd.dossier_pct}%</strong> (n=${sd.n}) &nbsp;·&nbsp;
+      ${varText ? varText + ' &nbsp;·&nbsp;' : ''}
+      Clientes: <em>${clientes}</em>
+    `;
+  } catch(_) { bar.style.display = 'none'; }
+}
+function histExtractEmpresaFromProfile(profile) {
+  const lines = (profile||'').split('\n').map(l => l.trim()).filter(l => l);
+  for (let i = 1; i < Math.min(lines.length, 10); i++) {
+    const l = lines[i];
+    const ma = l.match(/\bat\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (ma) return ma[1].trim();
+    const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (me) return me[1].trim();
+    if (!l.includes('|') && !l.includes(',') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && l.length < 50 && !/grado|años|er |ción$|miento$|contacto|mensaje|navigator|enviar|conectar/i.test(l)) return l;
+  }
+  return '';
+}
+function extractEmail(text) {
+  const m = (text||'').match(/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/);
+  return m ? m[0] : null;
+}
+function domainToEmpresa(email) {
+  const domain = (email||'').split('@')[1] || '';
+  const base = domain.replace(/\.(com|org|net|co|ar|cr|pa|mx|uy|cl|pe|br|info|biz)(\.[a-z]{2})?$/i,'');
+  return base.replace(/[-_.]/g,' ').replace(/\b\w/g,c=>c.toUpperCase()).trim();
+}
+function histHasEmail(en) {
+  if (en.dossierMail) return true;
+  if (en.email) return true;
+  for (const sh of (en.stageHistory||[])) {
+    if (/[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}/.test(sh.note||'')) return true;
+  }
+  return false;
+}
+
+function histExtractEmpresa(msg1, profile) {
+  // Try msg1 first: "en Company —"
+  const m = (msg1||'').match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^—\n]{2,50}?)\s*—/);
+  if (m) return m[1].trim();
+  // Fallback: profile text — look for "at Company" or "en Company" in headline lines
+  const lines = (profile||'').split('\n').map(l => l.trim()).filter(l => l);
+  for (let i = 1; i < Math.min(lines.length, 8); i++) {
+    const l = lines[i];
+    // "Title at Company" or "Title en Company"
+    const ma = l.match(/\bat\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (ma) return ma[1].trim();
+    const me = l.match(/\ben\s+([A-ZÁÉÍÓÚÑÜ][^|·\n]{2,40}?)(?:\s*[|·]|$)/);
+    if (me) return me[1].trim();
+    // Standalone company line: short, capitalized, no | separators
+    if (!l.includes('|') && !l.includes(',') && /^[A-ZÁÉÍÓÚÑÜ]/.test(l) && l.split(' ').length <= 5 && l.length > 3 && !/grado|años|er |ción$|miento$|contacto|mensaje|navigator|enviar|conectar/i.test(l)) {
+      return l;
+    }
+  }
+  return '';
+}
+function histUpsert(entry) {
+  const i = _histEntries.findIndex(e => e.id === entry.id);
+  if (i >= 0) {
+    // preserve stage + stageHistory on upsert
+    entry.stage = entry.stage || _histEntries[i].stage || 1;
+    entry.stageHistory = entry.stageHistory || _histEntries[i].stageHistory || [{stage:1, date:entry.date, note:''}];
+    _histEntries[i] = entry;
+  } else {
+    if (!entry.stage) entry.stage = 1;
+    if (!entry.stageHistory) entry.stageHistory = [{stage:1, date:entry.date, note:''}];
+    _histEntries.unshift(entry);
+  }
+  if (_histEntries.length > 2000) _histEntries = _histEntries.slice(0, 2000);
+  histPersist(entry);
+  renderHistoryList();
+}
+function histUpdateConv(id, conversationHistory) {
+  const i = _histEntries.findIndex(e => e.id === id);
+  if (i >= 0) { _histEntries[i].conversationHistory = [...conversationHistory]; histPersist(); }
+}
+function histEditEmpresa(id, e) {
+  e.stopPropagation();
+  const entry = _histEntries.find(en => en.id === id);
+  if (!entry) return;
+  const nuevo = prompt('Empresa:', entry.empresa || '');
+  if (nuevo === null) return;
+  entry.empresa = nuevo.trim();
+  histPersist();
+  renderHistoryList();
+  histRestore(id);
+}
+function histRename(id, e) {
+  e.stopPropagation();
+  const entry = _histEntries.find(en => en.id === id);
+  if (!entry) return;
+  const nuevo = prompt('Nuevo nombre:', entry.name);
+  if (!nuevo || !nuevo.trim() || nuevo.trim() === entry.name) return;
+  entry.name = nuevo.trim();
+  histPersist();
+  renderHistoryList();
+}
+function histDeleteEntry(id, e) {
+  e.stopPropagation();
+  _histEntries = _histEntries.filter(en => en.id !== id);
+  histPersist();
+  renderHistoryList();
+}
+function toggleHistory() {
+  const body = document.getElementById('hist-body');
+  const chevron = document.getElementById('hist-chevron');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  chevron.style.transform = open ? '' : 'rotate(180deg)';
+}
+function filterHistChip(val) {
+  _histStageFilter = (_histStageFilter === val) ? '' : val;
+  renderHistoryList();
+}
+
+// ─── WEEK HELPERS ────────────────────────────────────────────────────
+function getWeekKey(dateStr) {
+  const p = (dateStr||'').split('/');
+  if (p.length < 3) return 'unknown';
+  const day = parseInt(p[0]);
+  const wk = day <= 7 ? 1 : day <= 14 ? 2 : day <= 21 ? 3 : 4;
+  return `${p[2]}-${p[1]}-${wk}`;
+}
+function getWeekLabel(weekKey) {
+  if (weekKey === 'unknown') return 'Sin fecha';
+  const [yr, mo, wk] = weekKey.split('-');
+  const months = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  const moName = months[parseInt(mo)-1] || mo;
+  const ranges = {'1':'1–7','2':'8–14','3':'15–21','4':'22–31'};
+  const yearFull = parseInt(yr) < 100 ? 2000+parseInt(yr) : parseInt(yr);
+  return `Semana ${wk} · ${ranges[wk] || '?'} ${moName} ${yearFull}`;
+}
+function currentWeekKey() {
+  const now = new Date();
+  const day = now.getDate();
+  const mo = String(now.getMonth()+1).padStart(2,'0');
+  const yr = String(now.getFullYear()).slice(-2);
+  const wk = day <= 7 ? 1 : day <= 14 ? 2 : day <= 21 ? 3 : 4;
+  return `${yr}-${mo}-${wk}`;
+}
+function toggleWeek(key) {
+  _weekState[key] = !_weekState[key];
+  renderHistoryList();
+}
+function toggleStageGroup(sectionKey, e) {
+  e.stopPropagation();
+  _weekState[sectionKey] = !_weekState[sectionKey];
+  renderHistoryList();
+}
+function getStageGroupKey(weekKey, stageKey) {
+  return `${weekKey}||${stageKey}`;
+}
+function getStageSectionLabel(stageKey) {
+  const map = {
+    '1':'MSG1 enviado','2':'MSG2 enviado','3':'Dossier enviado',
+    '4':'SEG1 enviado','5':'Seguimiento 2','6':'Reunión agendada','noint':'No interesados'
+  };
+  return map[String(stageKey)] || `Stage ${stageKey}`;
+}
+function getStageSectionColor(stageKey) {
+  const map = {
+    '1':'#FF5C35','2':'#1A5FA8','3':'#6B21A8',
+    '4':'#27AE60','5':'#888','6':'#E8A23D','noint':'#999'
+  };
+  return map[String(stageKey)] || '#888';
+}
+function renderHistItem(en) {
+  const days = daysAgo(getLastActivityDate(en));
+  const overdue = !en.noInterest && days >= 7;
+  const noint = !!en.noInterest;
+  return `<div class="hist-item${noint?' noint':''}" onclick="histRestore('${en.id}')" style="${overdue?'border-color:#FFBCB0':''}">
+    <div class="hist-item-row">
+      <div class="hist-item-name">${esc(en.name||en.nombre||'Sin nombre')}</div>
+      ${overdue?`<span class="overdue-badge">⚠ ${days}d`:''}
+      ${noint?`<span class="stage-pill sp-x">✕ No int.</span>`:`<span class="stage-pill ${STAGE_COLORS[en.stage||1]}">${stgLabelstgNum(en.stage)}</span>`}
+      <button class="hist-del" onclick="histRename('${en.id}', event)" title="Renombrar" style="font-size:13px">✏️</button>
+      <button class="hist-del" onclick="histDeleteEntry('${en.id}', event)" title="Eliminar">✕</button>
+    </div>
+    <div class="hist-item-meta">
+      <span>${en.date}</span>
+      ${(()=>{ const emailFb=extractEmail((en.stageHistory||[]).map(s=>s.note||'').join(' ')); const emp=en.empresa||histExtractEmpresa(en.msg1,'')||(emailFb?domainToEmpresa(emailFb):''); return emp?`<span style="color:#888;font-size:10.5px"><span style="font-weight:600;color:var(--mid)">Empresa:</span> ${esc(emp)}</span>`:''; })()}
+      ${en.email?`<span style="font-size:10px;background:#EAF4FF;color:#1A5DAB;padding:1px 6px;border-radius:10px;font-weight:600" title="${esc(en.email)}${en.emailNota?' · '+esc(en.emailNota):''}">✉ ${esc(en.email)}${en.emailNota?' · '+esc(en.emailNota):''}</span>`:''}
+      <span class="hist-item-var">${esc(en.variantTitle)}</span>
+    </div>
+  </div>`;
+}
+function renderHistStatCards(counts) {
+  const el = document.getElementById('hist-statcards');
+  if (!el) return;
+  const cards = [
+    {val:'', num: _histEntries.length, lbl:'Total', color:'var(--dark)'},
+    {val:'1', num: counts[1], lbl:'Apertura', color:'#993C1D'},
+    {val:'2', num: counts[2], lbl:'Conv.', color:'#1A5FA8'},
+    {val:'3', num: counts[3], lbl:'Dossier', color:'#6B21A8'},
+    {val:'email', num: counts.email, lbl:'× mail', color:'#1A5FA8', blue:true},
+    {val:'4', num: counts[4], lbl:'Seg. 1', color:'#1A6635'},
+    {val:'5', num: counts[5], lbl:'Seg. 2', color:'#555'},
+    {val:'6', num: counts[6], lbl:'Reuniones', color:'#1A6635'},
+    {val:'recontact', num: counts.recontact, lbl:'Recontacto', color:'#27AE60'},
+    {val:'noint', num: counts.noint, lbl:'No int.', color:'#999'},
+  ];
+  el.innerHTML = cards.map(c => {
+    const isActive = _histStageFilter === c.val && c.val !== '';
+    return `<div class="hsc${isActive?' active':''}${c.blue?' blue-card':''}" onclick="filterHistChip('${c.val}')">
+      <div class="hsc-num" style="color:${c.color}">${c.num}</div>
+      <div class="hsc-lbl">${c.lbl}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderHistStats() {
+  const bar = document.getElementById('hist-stats');
+  if (!bar) return;
+  const counts = {1:0,2:0,3:0,4:0,5:0,6:0,noint:0,email:0,recontact:0};
+  _histEntries.forEach(e => {
+    if (e.noInterest) { counts.noint++; return; }
+    const hasRecontact = !!(e.recontact || e.followup_date);
+    if (hasRecontact) { counts.recontact++; return; }
+    counts[e.stage||1] = (counts[e.stage||1]||0) + 1;
+    if (histHasEmail(e)) counts.email++;
+  });
+  const chips = [
+    {val:'1', label:`Apertura · ${counts[1]}`},
+    {val:'2', label:`Conv. · ${counts[2]}`},
+    {val:'3', label:`Dossier · ${counts[3]}`},
+    {val:'email', label:`📧 Mail · ${counts.email}`, blue:true},
+    {val:'4', label:`Seg.1 · ${counts[4]}`},
+    {val:'5', label:`Seg.2 · ${counts[5]}`},
+    {val:'6', label:`🤝 Reuniones · ${counts[6]}`},
+    {val:'recontact', label:`⏰ Recontacto · ${counts.recontact}`},
+    {val:'noint', label:`No int. · ${counts.noint}`},
+  ];
+  bar.innerHTML = chips.map(c =>
+    `<span class="hist-chip${_histStageFilter === c.val ? ' active' : ''}${c.blue ? ' blue' : ''}" onclick="filterHistChip('${c.val}')">${c.label}</span>`
+  ).join('');
+  renderHistStatCards(counts);
+}
+function renderHistoryList() {
+  document.getElementById('hist-count').textContent = _histEntries.length;
+  renderAlertBanner();
+  renderHistStats();
+  const list = document.getElementById('hist-list');
+  if (!_histEntries.length) {
+    list.innerHTML = '<div class="hist-empty">Todavía no hay prospectos guardados</div>';
+    return;
+  }
+  const q = (document.getElementById('hist-search')?.value || '').toLowerCase().trim();
+  const parseDate = d => { const p=(d||'').split('/'); if(p.length!==3) return 0; const day=parseInt(p[0]),month=parseInt(p[1]),year=parseInt(p[2])+(parseInt(p[2])<100?2000:0); return year*10000+month*100+day; };
+  const sorted = _histEntries.map((e,i)=>({e,i})).sort((a,b)=>{ const dd=parseDate(b.e.date)-parseDate(a.e.date); return dd!==0?dd:b.i-a.i; }).map(x=>x.e);
+  function searchEntry(en) {
+    if ((en.name||en.nombre||'').toLowerCase().includes(q)) return true;
+    if ((en.empresa||'').toLowerCase().includes(q)) return true;
+    if ((en.variantTitle||'').toLowerCase().includes(q)) return true;
+    if ((en.msg1||'').toLowerCase().includes(q)) return true;
+    if ((en.msg2||'').toLowerCase().includes(q)) return true;
+    for (const sh of (en.stageHistory||[])) { if ((sh.note||'').toLowerCase().includes(q)) return true; }
+    for (const c of (en.conversationHistory||[])) { if ((c.text||'').toLowerCase().includes(q)) return true; }
+    return false;
+  }
+  let filtered = q ? sorted.filter(searchEntry) : sorted;
+  if (_histStageFilter === 'noint') filtered = filtered.filter(en => en.noInterest);
+  else if (_histStageFilter === 'email') filtered = filtered.filter(en => !en.noInterest && histHasEmail(en));
+  else if (_histStageFilter === 'recontact') filtered = filtered.filter(en => !!(en.recontact || en.followup_date));
+  else if (_histStageFilter) filtered = filtered.filter(en => {
+    if (en.noInterest) return false;
+    if (en.recontact || en.followup_date) return false;
+    return StringstgNum(en.stage) === String(_histStageFilter);
+  });
+  if (!filtered.length) {
+    list.innerHTML = '<div class="hist-empty">Sin resultados para "' + esc(q) + '"</div>';
+    return;
+  }
+
+  // ── Group by week ──────────────────────────────────────────────────
+  const byWeek = {};
+  const weekOrder = [];
+  filtered.forEach(en => {
+    const wk = getWeekKey(en.date);
+    if (!byWeek[wk]) { byWeek[wk] = []; weekOrder.push(wk); }
+    byWeek[wk].push(en);
+  });
+
+  // Sort weeks newest first
+  const parseWk = k => { if(k==='unknown') return 0; const [y,m,w]=k.split('-').map(Number); const yr=y<100?2000+y:y; return yr*10000+m*100+w; };
+  weekOrder.sort((a,b) => parseWk(b) - parseWk(a));
+
+  // Default: current week open; first week open if nothing current
+  const curWk = currentWeekKey();
+  const hasAnyOpen = weekOrder.some(wk => _weekState[wk] === true);
+  weekOrder.forEach((wk, i) => {
+    if (_weekState[wk] === undefined) {
+      _weekState[wk] = (wk === curWk) || (!hasAnyOpen && i === 0);
+    }
+  });
+
+  // If search or filter active, expand all
+  const hasFilter = q || _histStageFilter;
+
+  list.innerHTML = weekOrder.map(wk => {
+    const entries = byWeek[wk];
+    const isOpen = hasFilter ? true : !!_weekState[wk];
+    const label = getWeekLabel(wk);
+    const chevronStyle = isOpen ? 'transform:rotate(180deg)' : '';
+
+    // Group entries by stage within this week
+    const byStage = {};
+    const stageOrder = [];
+    entries.forEach(en => {
+      const sk = en.noInterest ? 'noint' : StringstgNum(en.stage);
+      if (!byStage[sk]) { byStage[sk] = []; stageOrder.push(sk); }
+      byStage[sk].push(en);
+    });
+    // Sort stages: noint last, rest ascending
+    const stageRank = s => s==='noint' ? 99 : parseInt(s)||0;
+    stageOrder.sort((a,b) => stageRank(a) - stageRank(b));
+
+    const stageGroupsHtml = stageOrder.map(sk => {
+      const sgKey = getStageGroupKey(wk, sk);
+      if (_weekState[sgKey] === undefined) _weekState[sgKey] = true; // default open
+      const sgOpen = !!_weekState[sgKey];
+      const color = getStageSectionColor(sk);
+      const sgLabel = getStageSectionLabel(sk);
+      const sgItems = byStage[sk].map(en => renderHistItem(en)).join('');
+      return `<div class="stage-group">
+        <div class="stage-group-header" style="border-left-color:${color}" onclick="toggleStageGroup('${sgKey}',event)">
+          <span class="stage-group-label" style="color:${color}">${sgLabel}</span>
+          <span class="stage-group-count">${byStage[sk].length}</span>
+          <span class="stage-group-chev" style="${sgOpen?'transform:rotate(180deg)':''}">▾</span>
+        </div>
+        <div class="stage-group-body" style="display:${sgOpen?'flex':'none'}">${sgItems}</div>
+      </div>`;
+    }).join('');
+
+    return `<div class="week-section">
+      <div class="week-header" onclick="toggleWeek('${wk}')">
+        <span class="week-label">${label}</span>
+        <span class="week-count">${entries.length}</span>
+        <span class="week-chevron" style="${chevronStyle}">▾</span>
+      </div>
+      <div class="week-body" style="display:${isOpen?'flex':'none'}">
+        ${stageGroupsHtml}
+      </div>
+    </div>`;
+  }).join('');
+}
+function histRestore(id) {
+  const en = _histEntries.find(e => e.id === id);
+  if (!en) return;
+
+  state.conversationHistory = [...(en.conversationHistory || [])];
+  state._historyId = id;
+
+  const empEl = document.getElementById('empresa-input');
+  if (empEl) { empEl.value = en.empresa || ''; empEl.dataset.manual = '0'; }
+
+  // Show history detail view in right column
+  const results = document.getElementById('results');
+  document.getElementById('loading').style.display = 'none';
+  results.style.display = 'flex';
+  results.style.flexDirection = 'column';
+  results.style.gap = '12px';
+  results.style.padding = '14px';
+
+  const msg1Bubbles = en.msg1.replace(/\\n/g,'\n').split('\n\n').filter(t=>t.trim());
+  const b1html = msg1Bubbles.map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+
+  const detailEl = document.createElement('div');
+  detailEl.className = 'variant';
+  detailEl.innerHTML = `
+    <div class="var-head">
+      <div class="var-left">
+        <span class="vtag vtag-b">Historial</span>
+        <span class="vtitle">${esc(en.name)} — ${esc(en.variantTitle)}</span>
+      </div>
+      <span style="font-size:10.5px;color:var(--mid)">${en.date}</span>
+    </div>
+    <div style="padding:6px 13px;background:var(--light);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px">
+      <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--mid)">Empresa</span>
+      <span id="empresa-display-${en.id}" style="font-size:12px;font-weight:600;color:var(--dark)">${esc(en.empresa||'—')}</span>
+      <button class="hist-del" style="font-size:11px;margin-left:2px" onclick="histEditEmpresa('${en.id}', event)" title="Editar empresa">✏️</button>
+    </div>
+    ${en.email ? `<div style="padding:5px 13px;background:var(--light);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px">
+      <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--mid)">Email dossier</span>
+      <a href="mailto:${esc(en.email)}" style="font-size:12px;font-weight:600;color:#1A5DAB;text-decoration:none">${esc(en.email)}</a>
+    </div>` : ''}
+    <div style="padding:8px 13px;background:#fff;border-bottom:1px solid var(--border);display:flex;gap:6px;flex-wrap:wrap">
+      <button class="copy-btn" onclick="copyContextFor('${en.id}','full',this)" title="Perfil + empresa + conversación + etapa + objetivo, listo para pegar en Claude">📋 Copiar contexto para Claude</button>
+      <button class="copy-btn" onclick="copyContextFor('${en.id}','profile',this)" title="Solo el perfil completo">👤 Copiar solo perfil</button>
+      <button class="copy-btn" onclick="copyContextFor('${en.id}','profileconv',this)" title="Perfil + conversación, sin instrucciones">🧩 Copiar perfil + conversación</button>
+      <button class="copy-btn" onclick="copyContextFor('${en.id}','structured',this)" title="Perfil + resumen estructurado + conversación + etapa + objetivo">📋 Copiar contexto completo para Claude</button>
+    </div>
+    ${renderStageBar(en)}
+    ${renderAdvanceBox(en)}
+    <div class="msg-label">Primer mensaje (enviado)</div>
+    <div class="chat-area">${b1html}</div>`;
+  results.innerHTML = '';
+  results.appendChild(detailEl);
+
+  // Conversation thread — past exchanges + active step
+  const thread = document.getElementById('conv-thread');
+  thread.style.display = 'flex';
+  thread.innerHTML = '';
+  const history = en.conversationHistory || [];
+  let stepNum = 1;
+  let i = 0;
+  while (i < history.length && history[i].role !== 'received') i++;
+  while (i < history.length) {
+    if (history[i].role === 'received') {
+      const replyText = history[i].text;
+      const suggested = history[i+1] && history[i+1].role === 'suggested' ? history[i+1].text : null;
+      if (suggested) {
+        const stepEl = document.createElement('div');
+        stepEl.className = 'thread-step';
+        const bHtml = suggested.replace(/\\n/g,'\n').split('\n\n').filter(t=>t).map(t=>`<div class="bwrap out"><div class="bub">${esc(t)}</div></div>`).join('');
+        stepEl.innerHTML = `<div class="thread-step-head"><span>💬 Intercambio ${stepNum}</span><small>Historial</small></div><div class="response-bubble" style="display:flex;flex-direction:column;gap:5px;padding:10px 13px"><div class="msg-label" style="color:var(--blue)">Ellos dijeron</div><div class="bwrap in"><div class="bub in">${esc(replyText)}</div></div><div class="msg-label" style="margin-top:6px">Respuesta enviada</div>${bHtml}</div>`;
+        thread.appendChild(stepEl);
+        stepNum++; i += 2;
+      } else i++;
+    } else i++;
+  }
+  addReplyStep(thread, stepNum);
+  setTimeout(() => document.getElementById('right-col').scrollIntoView({ behavior:'smooth', block:'start' }), 100);
+}
+
+function recuperarSesion() {
+  const missing = [];
+  missing.forEach((e, i) => {
+    if (!_histEntries.find(h => h.name === e.name)) {
+      _histEntries.push({ id: String(Date.now() - (missing.length - i) * 1000), date: '04/06/26', name: e.name, variantTitle: e.variantTitle, msg1: '', msg2: '', conversationHistory: [] });
+    }
+  });
+  histPersist();
+  renderHistoryList();
+  document.getElementById('btn-recuperar').style.display = 'none';
+}
+
+initHist();
+loadHIEAlerts();
+</script>
+</body>
+</html>

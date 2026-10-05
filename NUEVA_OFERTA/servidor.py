@@ -1,0 +1,510 @@
+#!/usr/bin/env python3
+import json
+import http.server
+import socketserver
+import httpx
+import os
+import threading
+import subprocess
+import unicodedata
+import re as _re
+from datetime import datetime as _dt
+
+_hist_lock = threading.Lock()
+
+# Servidor de la linea Capacitaciones + Videos de lanzamiento.
+# Corre aparte del programa principal (puerto 3001) con su propio historial y conversaciones.
+# La API key se toma de .env.local de esta carpeta o, si no existe, de la carpeta padre.
+_here = os.path.dirname(os.path.abspath(__file__))
+for _env_path in (os.path.join(_here, '.env.local'), os.path.join(os.path.dirname(_here), '.env.local')):
+    if os.path.exists(_env_path):
+        with open(_env_path) as _f:
+            for _line in _f:
+                _line = _line.strip()
+                if _line and not _line.startswith('#') and '=' in _line:
+                    _k, _v = _line.split('=', 1)
+                    os.environ.setdefault(_k.strip(), _v.strip())
+
+PORT = int(os.environ.get('NUEVA_OFERTA_PORT', 3001))
+API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+API_URL = 'https://api.anthropic.com/v1/messages'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+HIST_FILE = os.path.join(BASE_DIR, 'historial.json')
+# Historial de la cuenta de Florencia: solo lectura, para avisar si un prospecto ya fue contactado
+HIST_PREVIO = os.path.join(os.path.dirname(BASE_DIR), 'historial.json')
+
+
+def _save_hist(data):
+    """Escritura atomica: si el proceso muere a mitad, historial.json queda intacto.
+    Antes se abria en modo 'w' (truncando 700 KB) y un fallo dejaba el archivo vacio."""
+    tmp = HIST_FILE + '.writing'
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, HIST_FILE)
+
+CONV_DIR  = os.path.join(BASE_DIR, 'conversaciones')
+INTELLIGENCE_CONTEXT = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'context_injection.json')
+INTELLIGENCE_ALERTS  = os.path.join(BASE_DIR, 'hint_intelligence', 'outputs', 'alerts.json')
+
+client = httpx.Client(timeout=httpx.Timeout(connect=15.0, read=120.0, write=10.0, pool=5.0))
+
+# ── File watcher: sync .md stages → historial.json ──────────────────────────
+
+def _norm(name):
+    """Normalize name: remove accents, lowercase, collapse spaces."""
+    nfkd = unicodedata.normalize('NFKD', str(name))
+    stripped = ''.join(c for c in nfkd if not unicodedata.combining(c))
+    return ' '.join(stripped.lower().split())
+
+def _detect_stage(content):
+    """
+    Returns (stage: int|None, is_closed: bool).
+    Stage order: 1=Apertura 2=MSG2 3=Dossier 4=SEG1 5=SEG2 6=Reunión
+    """
+    estado = ''
+    m = _re.search(r'\*\*Estado:\*\*\s*(.+)', content, _re.IGNORECASE)
+    if m:
+        estado = m.group(1).lower()
+
+    if 'cerrada' in estado or 'no interesad' in estado or 'descartad' in estado:
+        return (None, True)
+    if 'reunión' in estado or 'reunion' in estado or 'call agendada' in estado:
+        return (6, False)
+    if 'seg2' in estado or 'seguimiento 2' in estado:
+        return (5, False)
+    if 'seg1' in estado or 'seguimiento 1' in estado:
+        return (4, False)
+    if 'dossier enviado' in estado or 'msg3' in estado:
+        return (3, False)
+    if 'msg2' in estado or 'en conv' in estado:
+        return (2, False)
+    if 'msg1' in estado or 'apertura' in estado:
+        return (1, False)
+
+    # Fallback: section headers (most advanced wins)
+    cl = content.lower()
+    if '## seg2' in cl:
+        return (5, False)
+    if '## seg1' in cl:
+        return (4, False)
+    if 'dossier enviado' in cl or '## msg3' in cl:
+        return (3, False)
+    if '## msg2' in cl:
+        return (2, False)
+    if '## msg1' in cl:
+        return (1, False)
+
+    return (None, False)
+
+def _sync_md(filepath):
+    """Read one .md and update historial.json if stage changed."""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Extract name from first # heading
+        nm = _re.search(r'^#\s+(.+)$', content, _re.MULTILINE)
+        if not nm:
+            return
+        name = nm.group(1).strip()
+
+        stage, is_closed = _detect_stage(content)
+        if stage is None and not is_closed:
+            return
+
+        with _hist_lock:
+            try:
+                with open(HIST_FILE, 'r', encoding='utf-8-sig') as f:
+                    historial = json.load(f)
+            except (FileNotFoundError, json.JSONDecodeError):
+                return
+
+            norm_target = _norm(name)
+            changed = False
+            for entry in historial:
+                entry_name = entry.get('name') or entry.get('nombre') or ''
+                if _norm(entry_name) == norm_target:
+                    cur = int(entry.get('stage', 1))
+                    sh  = entry.get('stageHistory', [])
+                    today = _dt.now().strftime('%d/%m/%y')
+
+                    if is_closed:
+                        if not any('Cerrada' in str(s.get('note', '')) for s in sh):
+                            sh.append({'stage': cur, 'date': today, 'note': 'Cerrada'})
+                            entry['stageHistory'] = sh
+                            changed = True
+                    elif stage > cur:
+                        entry['stage'] = str(stage)
+                        sh.append({'stage': stage, 'date': today})
+                        entry['stageHistory'] = sh
+                        changed = True
+                    # sin break: puede haber varias entradas con el mismo nombre
+                    # y la convencion del proyecto es actualizarlas todas
+
+            if changed:
+                _save_hist(historial)
+                label = 'cerrada' if is_closed else f'stage {stage}'
+                print(f'[watcher] {name} -> {label}')
+    except Exception as e:
+        print(f'[watcher] error en {filepath}: {e}')
+
+def _start_watcher():
+    try:
+        from watchdog.observers import Observer
+        from watchdog.events import FileSystemEventHandler
+
+        class _Handler(FileSystemEventHandler):
+            def _handle(self, path):
+                if path.endswith('.md'):
+                    _sync_md(path)
+            def on_modified(self, event):
+                if not event.is_directory:
+                    self._handle(event.src_path)
+            def on_created(self, event):
+                if not event.is_directory:
+                    self._handle(event.src_path)
+
+        if not os.path.exists(CONV_DIR):
+            os.makedirs(CONV_DIR, exist_ok=True)
+        obs = Observer()
+        obs.schedule(_Handler(), CONV_DIR, recursive=True)
+        obs.daemon = True
+        obs.start()
+        print(f'[watcher] monitoreando conversaciones/')
+    except ImportError:
+        print('[watcher] watchdog no instalado — pip install watchdog')
+
+# ── End watcher ──────────────────────────────────────────────────────────────
+
+class RequestHandler(http.server.BaseHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/' or self.path == '/index.html':
+            try:
+                with open(os.path.join(BASE_DIR, 'index.html'), 'r', encoding='utf-8') as f:
+                    content = f.read()
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/html; charset=utf-8')
+                self.send_header('Cache-Control', 'no-store')
+                self.end_headers()
+                self.wfile.write(content.encode('utf-8'))
+            except:
+                self.send_response(404)
+                self.end_headers()
+        elif self.path == '/api/historial':
+            try:
+                with open(HIST_FILE, 'r', encoding='utf-8-sig') as f:
+                    data = f.read()
+            except FileNotFoundError:
+                data = '[]'
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(data.encode('utf-8'))
+        elif self.path == '/api/previos':
+            try:
+                with open(HIST_PREVIO, 'r', encoding='utf-8-sig') as f:
+                    previo = json.load(f)
+                data = [{'name': e.get('name') or e.get('nombre') or '', 'stage': e.get('stage'), 'date': e.get('date')}
+                        for e in previo if (e.get('name') or e.get('nombre'))]
+            except (FileNotFoundError, json.JSONDecodeError):
+                data = []
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(data, ensure_ascii=False).encode('utf-8'))
+        elif self.path.startswith('/api/intelligence'):
+            # Sirve context_injection.json y alerts.json al frontend
+            # GET /api/intelligence?sector=X&seniority=Y
+            # devuelve contexto histórico relevante para ese prospecto
+            try:
+                ctx = {}
+                if os.path.exists(INTELLIGENCE_CONTEXT):
+                    with open(INTELLIGENCE_CONTEXT, 'r', encoding='utf-8') as f:
+                        ctx = json.load(f)
+                alerts_data = {}
+                if os.path.exists(INTELLIGENCE_ALERTS):
+                    with open(INTELLIGENCE_ALERTS, 'r', encoding='utf-8') as f:
+                        alerts_data = json.load(f)
+                result = json.dumps({'context': ctx, 'alerts': alerts_data}, ensure_ascii=False)
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(result.encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'context': {}, 'alerts': {}, 'error': str(e)}, ensure_ascii=False).encode('utf-8'))
+        else:
+            self.send_response(404)
+            self.end_headers()
+
+    def do_POST(self):
+        content_length = int(self.headers.get('Content-Length', 0))
+        body = self.rfile.read(content_length).decode('utf-8')
+
+        if self.path == '/api/generate':
+            data = json.loads(body)
+            prompt = data.get('prompt', '')
+            system = data.get('system', '')
+            try:
+                req_max_tokens = data.get('max_tokens', 1500)
+                payload = {
+                    'model': 'claude-haiku-4-5-20251001',
+                    'max_tokens': req_max_tokens,
+                    'messages': [{'role': 'user', 'content': prompt}]
+                }
+                if system:
+                    payload['system'] = [{'type': 'text', 'text': system, 'cache_control': {'type': 'ephemeral'}}]
+                response = client.post(API_URL,
+                    json=payload,
+                    headers={'x-api-key': API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-beta': 'prompt-caching-2024-07-31'}
+                )
+                result = response.json()
+                if response.status_code != 200:
+                    msg = (result.get('error') or {}).get('message') or f'HTTP {response.status_code}'
+                    raise Exception(f'API: {msg}')
+                text = ''.join(b.get('text', '') for b in result.get('content', []) if b.get('type') == 'text')
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'text': text}, ensure_ascii=False).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
+
+        elif self.path == '/api/historial':
+            try:
+                incoming = json.loads(body)
+                with _hist_lock:
+                    try:
+                        with open(HIST_FILE, 'r', encoding='utf-8-sig') as f:
+                            existing = json.load(f)
+                    except (FileNotFoundError, json.JSONDecodeError):
+                        existing = []
+                    # El frontend manda un dict (una entrada -> upsert) o el array
+                    # completo (snapshot -> reemplazo). Antes se mergeaba siempre, asi que
+                    # borrar un contacto no tenia efecto: reaparecia al recargar.
+                    if isinstance(incoming, dict):
+                        index = {e['id']: e for e in existing if 'id' in e}
+                        no_id = [e for e in existing if 'id' not in e]
+                        if 'id' in incoming:
+                            index[incoming['id']] = incoming
+                        else:
+                            no_id.append(incoming)
+                        merged = sorted(index.values(), key=lambda e: e.get('id', ''), reverse=True) + no_id
+                    else:
+                        # Guarda: un snapshot que pierde mas de la mitad de las entradas
+                        # es casi seguro un error del cliente. No se aplica.
+                        if existing and len(incoming) < len(existing) * 0.5:
+                            self.send_response(409)
+                            self.send_header('Content-Type', 'application/json; charset=utf-8')
+                            self.send_header('Access-Control-Allow-Origin', '*')
+                            self.end_headers()
+                            self.wfile.write(json.dumps({
+                                'error': f'snapshot sospechoso: {len(incoming)} entradas contra {len(existing)} guardadas'
+                            }, ensure_ascii=False).encode('utf-8'))
+                            print(f'[historial] RECHAZADO snapshot de {len(incoming)} (habia {len(existing)})')
+                            return
+                        merged = incoming
+                    # Strip profileRaw to max 500 chars to prevent file bloat
+                    for e in merged:
+                        if 'profileRaw' in e and len(e.get('profileRaw','')) > 500:
+                            e['profileRaw'] = e['profileRaw'][:500]
+                    # Atomic write: temp file + rename to prevent corruption
+                    tmp = HIST_FILE + '.tmp'
+                    with open(tmp, 'w', encoding='utf-8') as f:
+                        json.dump(merged, f, ensure_ascii=False, indent=2)
+                    os.replace(tmp, HIST_FILE)
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(b'{"ok":true}')
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
+
+        elif self.path == '/api/save-md':
+            try:
+                import re
+                from datetime import date
+                d = json.loads(body)
+                name = d.get('name', '').strip()
+                empresa = d.get('empresa', '').strip()
+                linea = d.get('linea', '').strip()
+                msg1 = d.get('msg1', '').strip()
+                profile_raw = d.get('profileRaw', '').strip()
+
+                # Extract cargo and country from profileRaw
+                cargo = ''
+                pais = ''
+                lines_clean = [l.strip() for l in profile_raw.split('\n') if l.strip()]
+
+                # Cargo: LinkedIn headline always appears right after the "· 1er / · 2º" connection line
+                for i, line in enumerate(lines_clean):
+                    if re.search(r'·\s*(1er|2º|3º|1st|2nd|3rd)', line) and i + 1 < len(lines_clean):
+                        candidate = lines_clean[i + 1]
+                        # Skip if it looks like a location or generic text
+                        if not re.search(r'(Argentina|Colombia|Chile|México|Panamá|Costa Rica|Perú|Uruguay|España|Brasil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala)', candidate, re.I):
+                            cargo = candidate[:150]
+                        break
+
+                # Country: scan all lines
+                pais_pattern = r'(Argentina|Colombia|Chile|México|Mexico|Panamá|Panama|Costa Rica|Perú|Peru|Uruguay|España|Espana|Brasil|Brazil|Venezuela|Ecuador|Bolivia|Paraguay|Guatemala|Honduras|El Salvador|Nicaragua|Rep\. Dominicana|Puerto Rico)'
+                for line in lines_clean:
+                    if not pais:
+                        m = re.search(pais_pattern, line, re.I)
+                        if m:
+                            pais = m.group(1)
+
+                # Build slug for filename
+                slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+                if not slug:
+                    slug = 'contacto-' + str(int(__import__('time').time()))
+
+                # Determine current month folder
+                month = date.today().strftime('%B').lower()  # julio, agosto, etc.
+                month_map = {'january':'enero','february':'febrero','march':'marzo','april':'abril',
+                             'may':'mayo','june':'junio','july':'julio','august':'agosto',
+                             'september':'septiembre','october':'octubre','november':'noviembre','december':'diciembre'}
+                month_es = month_map.get(month, month)
+                folder = os.path.join(BASE_DIR, 'conversaciones', month_es)
+                os.makedirs(folder, exist_ok=True)
+
+                filepath = os.path.join(folder, slug + '.md')
+                today = date.today().strftime('%d/%m/%y')
+
+                analysis = d.get('analysis', {})
+
+                # Only create if doesn't exist yet
+                if not os.path.exists(filepath):
+                    lines_md = [
+                        f'# {name}',
+                        '',
+                        f'**Fecha:** {today}',
+                        f'**Cargo:** {cargo}' if cargo else '**Cargo:**',
+                        f'**Empresa:** {empresa}' if empresa else '**Empresa:**',
+                        f'**Pais:** {pais}' if pais else '**Pais:**',
+                        f'**Sector:** {analysis.get("sector", "")}' if analysis.get('sector') else '**Sector:**',
+                        f'**Linea:** {linea}' if linea else '**Linea:**',
+                        '**Estado:** MSG1 enviado',
+                        '',
+                        '---',
+                        '',
+                    ]
+                    # Analysis section
+                    a_fields = [
+                        ('Señal humana', analysis.get('senalHumana')),
+                        ('Tensión profesional', analysis.get('tension')),
+                        ('Hipótesis', analysis.get('hipotesis')),
+                        ('Ángulo MSG1', analysis.get('angulo')),
+                        ('Confidence', analysis.get('confLevel')),
+                    ]
+                    has_analysis = any(v for _, v in a_fields)
+                    if has_analysis:
+                        lines_md.append('## Análisis')
+                        for label, val in a_fields:
+                            if val:
+                                lines_md.append(f'- **{label}:** {val}')
+                        lines_md += ['', '---', '']
+                    lines_md.append('## MSG1')
+                    for bubble in msg1.split('\n'):
+                        if bubble.strip():
+                            lines_md.append(f'> {bubble}')
+                        else:
+                            lines_md.append('>')
+                    lines_md += ['', '---', '', '## Notas', '']
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        f.write('\n'.join(lines_md))
+
+                # Always ensure contact exists in historial.json
+                try:
+                    with _hist_lock:
+                        try:
+                            with open(HIST_FILE, 'r', encoding='utf-8-sig') as f:
+                                historial = json.load(f)
+                        except (FileNotFoundError, json.JSONDecodeError):
+                            historial = []
+                        name_lower = name.lower()
+                        exists = any(name_lower in (e.get('name') or '').lower() for e in historial)
+                        if not exists:
+                            historial.append({
+                                'id': slug,
+                                'name': name,
+                                'stage': '1',
+                                'date': today,
+                                'empresa': empresa,
+                                'linea': linea,
+                            })
+                            _save_hist(historial)
+                except Exception as e:
+                    print(f'[save-md] no se pudo actualizar historial.json: {e}')
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': True, 'file': filepath}, ensure_ascii=False).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}, ensure_ascii=False).encode('utf-8'))
+
+        elif self.path == '/api/sync':
+            try:
+                msgs = []
+                for cmd in [
+                    ['git', '-C', BASE_DIR, 'add', 'historial.json'],
+                    ['git', '-C', BASE_DIR, 'commit', '-m', 'sync historial', '--allow-empty'],
+                    ['git', '-C', BASE_DIR, 'push'],
+                ]:
+                    r = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+                    msgs.append(r.stdout.strip() or r.stderr.strip())
+                    if r.returncode != 0 and cmd[3] != 'commit':
+                        raise Exception(msgs[-1])
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': True, 'msg': ' | '.join(msgs)}, ensure_ascii=False).encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'ok': False, 'msg': str(e)}, ensure_ascii=False).encode('utf-8'))
+
+        else:
+            self.send_response(404)
+            self.end_headers()
+
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
+
+    def log_message(self, format, *args):
+        pass
+
+class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+
+if __name__ == '__main__':
+    _start_watcher()
+    with ThreadedTCPServer(('127.0.0.1', PORT), RequestHandler) as httpd:
+        print(f'Servidor corriendo en http://localhost:{PORT}')
+        httpd.serve_forever()
