@@ -5,7 +5,7 @@
 **Empresa:** Milanes Soluciones
 **Pais:** España
 **Sector:** Fintech / Infraestructura IT / Tecnología Financiera
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado (06/10/26)
 
 ---
 
@@ -28,3 +28,9 @@
 ---
 
 ## Notas
+
+## MSG2 (respondió: Hola Florencia, te leo) — 06/10/26
+> Buenas Marcos! Gracias por leerme.
+> Con Quantum, Verdecia y Milanés Soluciones corriendo a la vez, cómo hacés para que cada una se entienda sola en el mercado sin que todas dependan de que estés vos explicándolas?
+> Trabajamos con empresas de tecnología como Agora en la comunicación que hace que un producto o una marca se entienda sin intermediarios.
+> Tenemos un dossier breve con casos concretos. Te lo puedo mandar por acá si te parece, y si le encontrás sentido, creo que podríamos tener una conversación interesante.

@@ -5,7 +5,7 @@
 **Empresa:** DavinciBot
 **Pais:** Uruguay
 **Sector:** Tech / SaaS (plataforma de comunicación omnicanal)
-**Estado:** Dossier confirmado (10/09)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -42,3 +42,9 @@
 > Florencia: confirmó envío del dossier por LinkedIn.
 
 ## Notas
+
+## SEG1 — 06/10/26
+> Buenas Nati! Cómo andás? Me volvió a la cabeza lo que escribiste sobre la RSE como oportunidad real, no como marketing.
+> Como fractional, tu nombre es lo que la gente se lleva cuando termina un proyecto. Hoy se ve afuera ese criterio con el que trabajás, o queda solo en cada reunión?
+> Si algo del dossier te hizo sentido para eso, contame.
+Ángulo: posicionamiento personal.

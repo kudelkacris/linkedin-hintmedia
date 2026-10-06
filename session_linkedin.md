@@ -4,6 +4,52 @@
 
 ---
 
+## Cierre 06/10/26 (tarde) — tanda masiva MSG1 y cambios de método
+
+**Hecho:** tanda masiva de MSG1 genérico a ~116 conexiones del backlog (15-23/09), con plantilla formal de 3 burbujas. Lista y plantilla completas en `conversaciones/octubre/tanda-masiva-msg1-06oct26.md`. Todo desde la cuenta de Florencia, sin usar el programa.
+
+**Reglas nuevas del usuario (esta sesión):**
+- B1 = solo "[Nombre], gracias por conectar." (no resumir ni traducir el titular).
+- Registro formal, "usted/ustedes", sin voseo coloquial ("Les está pasando algo así por estos días" no gustó).
+- No repetir palabras en un mismo mensaje ni usar "envío/enviar/mandar".
+- No mezclar dos clientes en una burbuja ("También hacemos videos... como el de Sullair" confundía). Un cliente y un solo mensaje claro.
+- No usar "me llamó la atención", "te hizo sentido", "chico".
+- B3 elegido: "Están buscando un equipo para la comunicación de [empresa], o es algo que piensan resolver más adelante?"
+- B2 cuenta cómo trabajaríamos con ESA empresa (proceso), sin entregable único ni "video, video, video".
+- Capacitaciones: "en comunicación y vocería para equipos y gerentes" (no solo LinkedIn).
+- Si el perfil es colega (agencia, ghostwriter, diseñador), B3 de colaboración.
+- Entregar B1+B2 en un bloque de código y B3 en otro, para copiar.
+
+**Respuestas hoy:** Alfredo Córdoba (cerrado, tiene todo cubierto), Nicolás Briasco (no entendió el SEG1, se aclaró), Marco Cermeño (no ahora), Nicolás Fabani (más adelante), Hansell Mendoza (preguntó qué hacemos), Juan Luis Peralta (colega, propuesta de derivación), Sabrina Carrion y Marcos Milanes (MSG2 enviados).
+
+**Pendiente:**
+- Verificar con el jefe si se puede decir que Agora/Destiny/Libra tienen videos o capacitaciones (hoy solo Sullair y TGS están autorizados).
+- Medir respuesta de la plantilla genérica vs MSG1 con ancla (66,2%).
+- Pablo Rego y Alcides Roldán: falta mandar el dossier por mail.
+- Esperar contacto de Erick Kennedy (Subsecretaría de Industria de Corrientes).
+- Registrar la reunión de Baquero (15/09).
+- Perfiles RRHH/CHRO de la tanda (Paula Patiño, Sergio Roses, Mariana Ortiz, Gabriela Jauregui, Liz Pichardini, Rodrigo Villarreal) reservarlos para la cuenta del jefe.
+- Push a los dos repos pendiente (el sistema bloqueó el git push, ver abajo).
+
+---
+
+## Última sesión: 06/10/26 — ronda de SEG1 sobre dossiers de septiembre
+
+**Hecho (stage 4 = SEG1 enviado, asumido enviado por el usuario):** Erick Kennedy (respuesta a referido), Natalia Giménez, Celeste Policastro, Juan Pablo Rossi, Alfredo Córdoba de Alzaga, Hernán Arce, Carolina Correa, Julián Abreu, Nicolás Briasco, Nora Fiorini, Gustavo Díaz, Yoel Colombo, Tomás Rivero. MSG2 (stage 2): Sabrina Carrion, Marcos Milanes. Post-reunión Luis Baquero (sigue stage 6).
+
+**Regla del usuario esta sesión:** todo prospecto cuya conversación pega ya recibió el dossier, no volver a marcarlo como pendiente. Con la conversación pegada no saludar de nuevo si el hilo está abierto (caso Erick). No usar "te hizo sentido" ni "chico". Si el mensaje tiene que vender Hint (caso Rossi), vender, no solo proponer referido.
+
+**Pendiente para seguir:**
+- **Pablo Rego** (Tienda Inglesa) y **Alcides Roldán Silva** (Barrick): NO se les mandó el dossier por mail todavía. Mandar primero, después SEG1.
+- **Erick Kennedy:** esperar el contacto de la Subsecretaría de Industria de Corrientes (él es el capacitador, no el decisor).
+- **Luis Baquero:** registrar qué se habló en la reunión del 15/09; el post-reunión ya está armado.
+- **Analía Angulo (Ikoni)** y **Alexandra Oropeza Castro:** sin novedades, esperar.
+- **Hernán Arce:** reservar su oferta de ser puente para SEG2.
+- **Mariano Bustos:** descartado por el usuario.
+- Revisar agosto/julio/junio por dossiers sin SEG1.
+
+---
+
 ## Última sesión: 05/10/26 — giro del jefe: Capacitaciones + Videos de lanzamiento
 
 **Pedido del jefe (llamada del 05/10):** el servicio integral es muy amplio y las empresas grandes cotizan a fin de año. Se sale con dos productos puntuales: **capacitaciones** (LinkedIn + vocería digital para equipos internos) y **videos de lanzamiento** (motion graphics de proyectos + ilustración de cultura, casos TGS Perito Moreno, cultura TGS y Sullair). Target: **empresas grandes (200-500+), sector indiferente**, áreas RRHH, cultura, comunicación interna y corporativa. Se sale desde la **cuenta del jefe**, no la de Florencia. El jefe arma dos dossiers.

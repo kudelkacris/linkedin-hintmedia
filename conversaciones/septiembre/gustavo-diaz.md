@@ -5,7 +5,7 @@
 **Empresa:** CELSA SAS
 **Pais:** Colombia (Medellin, Antioquia)
 **Sector:** Automotriz / Movilidad electrica / Flotas
-**Estado:** 3 - Dossier confirmado (enviar por LinkedIn)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -47,3 +47,9 @@ Nota de proceso: la primera version era de 4 burbujas completas y quedo larga pa
 - **Dossier a enviar por LinkedIn**, no por mail. Pendiente que lo mande el jefe.
 - Nunca contesto la pregunta de fondo (quien le explica la carga al cliente en flotas). Si retoma la charla, esa puerta sigue abierta y es buen material para el SEG1.
 - Su marca personal propia es un angulo fuerte para el SEG1: tiene 22.656 seguidores y produce contenido con criterio. El win personal esta ahi, no en CELSA.
+
+## SEG1 — 06/10/26
+> Buenas Gustavo! Cómo andás? Con 22 mil seguidores y contenido con criterio propio sobre flotas y movilidad eléctrica, tu voz ya es un diferencial en el sector.
+> Hoy, quien te busca para una consultoría o para sumarte a un equipo, llega a vos por ese contenido o por contactos?
+> Si querés, te cuento cómo hacemos que esa marca personal trabaje para vos sin que te lleve tiempo.
+Ángulo: marca personal. Nunca contestó la pregunta de flotas del MSG2.

@@ -5,7 +5,7 @@
 **Empresa:** Btlandia.
 **Pais:** Argentina
 **Sector:** Entretenimiento / Eventos / Experiencias
-**Estado:** Dossier enviado (10/09)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -37,3 +37,9 @@
 **Perfil:** Directora & Co-Founder de Btlandia, agencia de eventos/BTL, 18 años en la industria. Clasificación: ENTRE PARES.
 
 ## Notas
+
+## SEG1 — 06/10/26
+> Buenas Celeste! Cómo andás? Me quedé pensando en lo que decías de Palladio y los vínculos que se sostienen aunque no haya urgencia.
+> Los eventos que producen en Btlandia, siguen conversando con su gente después del día del evento, o ahí termina el trabajo?
+> Si en algún cliente tuyo eso es algo que falta, lo charlamos entre agencias.
+Ángulo: entre pares / colaboración de agencias. Usuario pidió NO usar 'te hizo sentido'.

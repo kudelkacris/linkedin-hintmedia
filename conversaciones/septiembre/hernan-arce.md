@@ -5,7 +5,7 @@
 **Empresa:** Buenos Aires y alrededores
 **Pais:** Argentina
 **Sector:** Automotriz (Strianese Ford)
-**Estado:** Dossier enviado
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -45,3 +45,9 @@
 
 ## Notas
 Ofreció ser puente/referido, pero el ángulo elegido fue marca personal para él mismo (Neurocoach, contenido semanal propio), no venta a Strianese Ford/Alra como empresa. Ya no trabaja en Alra (terminó el proyecto), volvió como vendedor en otra empresa pero sigue buscando ir hacia el lado que le apasiona (coaching/neurociencias). Dossier confirmado y enviado 16/09.
+
+## SEG1 — 06/10/26
+> Buenas Hernán! Cómo andás? Quedé pensando en lo que escribiste sobre capacitar vendedores con herramientas o desarrollar personas, y en que estás yendo para el lado que te apasiona.
+> Hoy, quien te busca para ese trabajo de coaching y neurociencias, te encuentra rápido y entiende cómo trabajás, o todavía se arma por recomendación?
+> Si querés te cuento cómo lo resolvemos en Hint Media para que tu marca propia se vea sin depender de un empleador.
+Nota: ofreció ser puente en MSG1, todavía no usado. Reservar para SEG2.

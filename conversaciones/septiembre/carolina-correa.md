@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Materiales / Construcción / Energía (transversalmente)
-**Estado:** Dossier por mail
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -29,3 +29,9 @@
 
 ## Notas
 - 18/09/26: respondió con emojis y dio mail para dossier. Dirigido a Carolina Correa - Especialista Sustentabilidad/ESG, Saint-Gobain. Mail: Carolina.correa@saint-gobain.com
+
+## SEG1 — 06/10/26
+> Buenas Carolina! Cómo andás? Te escribo por acá porque el mail con el dossier puede haber quedado perdido en una bandeja corporativa.
+> Armar un reporte que cada stakeholder pueda recorrer a su manera lleva mucho trabajo de coordinación. Esa parte, de adaptar el mensaje a cada audiencia, queda toda en tus manos o la comparten con alguien?
+> Si algo del dossier te sirve para aliviar eso, contame.
+OJO: confirmar que el mail con el dossier a Carolina.correa@saint-gobain.com salió realmente.

@@ -1,0 +1,139 @@
+# Tanda masiva MSG1 genérico — 06/10/26 (cuenta de Florencia)
+
+**Qué es:** backlog de conexiones aceptadas del 15 al 23/09 sin MSG1. Se mandó un MSG1 genérico, sin el programa, pasando perfiles por chat. 116 contactos.
+
+**Plantilla (3 burbujas, formal, sin signos de apertura ni guiones largos):**
+- B1: `[Nombre], gracias por conectar.` y nada más (decisión del usuario: no resumir ni traducir el titular, porque se equivocaba, ej. café).
+- B2: `En Hint Media llevamos la comunicación de [cliente del sector]` + una frase de cómo trabajaríamos con ESA empresa/rubro (proceso, no entregable). Un solo cliente o los de su sector, nunca dos clientes mezclados en una misma burbuja. Sin "me llamó la atención", sin "envío/enviar/mandar".
+- B3: `Están buscando un equipo para la comunicación de [empresa], o es algo que piensan resolver más adelante?` Con "su empresa" si el perfil no la muestra, "socio" si el B2 ya dice "equipos", singular para freelancers.
+- Colegas (agencias, ghostwriters, diseñadores, consultoras de marca): B3 pasa a pregunta de colaboración "lo resuelven adentro o con equipos externos?".
+- Formato de entrega al usuario: B1+B2 en un bloque de código, B3 en otro, para copiar de una vez.
+
+**Línea nueva del jefe (capacitaciones/videos) en el B2, solo si encaja:** videos solo con Sullair o TGS Perito Moreno; capacitaciones "en comunicación y vocería para equipos y gerentes" sin atribuir a ningún cliente. Perfiles RRHH/CHRO (Paula Patiño, Sergio Roses, Mariana Ortiz, Gabriela Jauregui, Liz Pichardini, Rodrigo Villarreal) conviene reservarlos para la cuenta del jefe.
+
+**Descartados por el usuario/yo (no se mandó):** Roberto Larrea Lazo, Nicolás Avilés Castillo, Marco A. Díaz García, Emerson Martinez, Celeste Toro, Pablo Gordillo, Martin Grados, Mauricio Juarez, Sebastián Francesetti y Gustavo Díaz (ya tenían conversación).
+
+## Contactos a los que se les mandó (asumido)
+- Ernesto Cuzcano Cossi
+- Ramon Villa
+- Enrique Moises Ponce Suarez
+- Enrique Alejandro Rodriguez Guerrero
+- Angélica Rosales
+- Laura Salvucci
+- Eduardo González
+- Ana María Pozo Soissa
+- Alexander Kessler
+- Carolina Reveco Jaña
+- Juan Pablo Vega Doval
+- Andrea Sanchez Schiavon
+- Jose Rafael Montufar Zavala
+- Shareny Elizabeth Ramos Molina
+- Juan Luis Peralta Espinoza
+- Juan Carlos Uribe Cortes
+- Gabriela Jauregui
+- Gastón Rubio
+- Roberto Pablo Silva Galvis
+- Carlos Jose Kattan
+- Claudio Rojas Farías
+- Nicolás M. Fabani
+- Cristhian Castillo Peña
+- Lorena Cuevas
+- Jonathan Oyola
+- Josué Cáceres Frías
+- Leopoldo J. Zambonino
+- Mike Glennon
+- Hubani Manzo Orozco
+- Sadot Márquez
+- David Angel
+- Javier Altamirano
+- Elias P. Fernandini
+- José Carlos Díaz Valdivia
+- Fabian Minotti
+- Maria Emilia Arias Condori
+- Andrés Guevara
+- Gustavo Gabriel Mesiano
+- Marvin Martinez
+- Sergio Saavedra Medina
+- Mike Villalobos
+- Benjamin Osorio Garrido
+- Sergio Sepulveda Cuevas
+- Ricardo A. Agudelo
+- Liz Pichardini
+- Sebastián Muñoz Duque
+- Gonzalo Morales
+- Monica Ballesteros Puerto
+- Rodrigo Villarreal
+- Lisandro León Liguori
+- Nadia Sager
+- Carolina Cardona
+- Pedro Miguel Casado Casero
+- Celia Sarmiento Reyes
+- Ralph Oliver Facho Castañeda
+- Eduardo Rodríguez Merino
+- Katarina Brunbäck
+- Yonathan Apfelbaum
+- Florencia Benaim
+- Camilo Fonseca
+- Eduardo Andrés Troncoso Peña
+- Alejandro Auditore
+- Elffee Mendoza Carruitero
+- Cristhian Durán
+- Victor Manuel Luqueño Jasso
+- Antonio Ruiz Guerra
+- Eduardo Castro
+- Marco Cermeño
+- Manuel Antonio Aguilar Reynafarje
+- Gracia Roldán
+- Edoardo Penna
+- David Serrano
+- Manuel Arias
+- Javier Canales Macías
+- Valeria Silva
+- Leidy Yudith López Puentes
+- Paula Andrea Patiño Villamizar
+- Alejandro Cabrera
+- Gregorio Del Campo
+- Mariafernanda Visbal B
+- Gustavo Cabrera Sotomayor
+- Solange Cuadros Ramirez
+- Hansell Mendoza
+- Francisco Morales Ramírez
+- Sergio Roses
+- Alex Pels
+- Juan Ignacio Hechem
+- Miguel Calderón
+- Edward Robeson
+- Mario Cabrera Maldonado
+- Ana Luz Romero Wolosenczuk
+- David Ezequiel Zacarias
+- Linked Carrera Reyes
+- Gonzalo Valdettaro Herz
+- Antero J. Alvarado
+- Jacqueline Villamil
+- Rafael Zacarias
+- Juan David Duque Cárdenas
+- Ramiro Santa García
+- Marta Grosso
+- Manuel Concha Muñoz
+- Guillermo Moray
+- Alejandro Loraschi
+- Vicente Manjarrez
+- Catalina Campis Velez
+- Emilio Uribe
+- Iván Verdún
+- Alex Sakkal
+- Kat Pajuelo
+- Shianny Vasquez
+- Matias Mendelberg
+- Valentino Riva
+- Frank Fernandez
+- Mariana Ortiz Tapia
+- Armando Montes
+- Rodrigo Lazarte Molina
+
+## Respuestas recibidas (06/10)
+- **Marco Cermeño:** de momento no buscan equipo, lo tendrá en cuenta. Cerrado amable.
+- **Nicolás M. Fabani:** "ya lo veremos en su momento". Se le preguntó para cuándo calcula verlo, para recontactar.
+- **Hansell Mendoza:** no entendió si hacemos marketing para su empresa (freelance de estructuras en Florida). Se le respondió que sí y se le preguntó cómo le llegan los clientes.
+- **Juan Luis Peralta Espinoza:** consultor externo, "estamos en el mismo rol". Se le propuso cruzar proyectos o derivar. Posible colaboración.
+- Medir tasa de respuesta de esta plantilla genérica vs el MSG1 con ancla (66,2%) antes de repetirla.

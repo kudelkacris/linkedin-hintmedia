@@ -5,7 +5,7 @@
 **Empresa:** Bubbl
 **Pais:** Costa Rica
 **Sector:** Entretenimiento / Eventos / Tecnología de plataformas
-**Estado:** Dossier ofrecido (10/09)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -32,3 +32,9 @@
 > Florencia: "Con Agora y Grupo One Entertainment trabajamos justo esa capa: comunicación y contenido para negocios que escalan operaciones complejas, cuando el crecimiento empieza a depender de coordinar muchos frentes a la vez. Te mando un dossier corto con casos concretos, así lo ves con más detalle."
 
 ## Notas
+
+## SEG1 — 06/10/26
+> Buenas Julián! Cómo andás? Lo de Memberships en Bubbl me sigue dando vueltas.
+> Cuando sale algo así, cómo hacen para que el organizador lo entienda igual en el mail, en la app y en lo que dicen ustedes en redes?
+> Si te sirve, te cuento cómo lo resolvimos con Agora.
+Ángulo: coherencia entre canales.

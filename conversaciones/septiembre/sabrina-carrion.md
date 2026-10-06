@@ -5,7 +5,7 @@
 **Empresa:** Consultora de HR
 **Pais:** Argentina
 **Sector:** Educación / Desarrollo / RRHH
-**Estado:** MSG1 enviado
+**Estado:** 2 - MSG2 enviado (06/10/26)
 
 ---
 
@@ -28,3 +28,10 @@
 ---
 
 ## Notas
+
+## MSG2 (respondió al MSG1: Dale! Me encantaría) — 06/10/26
+> Buenas Sabrina! Dale, te cuento.
+> Hacemos la comunicación de empresas como Sullair y TGS, y lo que más nos piden es que los cambios internos se entiendan en todos los niveles.
+> A vos, cuando tenés que llevar un cambio de equipo a una empresa, qué es lo que más se te traba al bajarlo?
+> Tenemos un dossier breve con casos. Si querés te lo paso por acá.
+Nota: el MSG1 usó Destiny Group (turismo), cliente fuera de sector.

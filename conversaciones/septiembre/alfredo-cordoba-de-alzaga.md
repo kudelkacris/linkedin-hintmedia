@@ -5,7 +5,7 @@
 **Empresa:** AC Ingeniería
 **Pais:** Argentina
 **Sector:** Ingeniería / Construcción / Industrial
-**Estado:** 3 - Dossier confirmado
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -38,3 +38,9 @@
 - Sector real: Industria/Construcción/HVAC → cliente Sullair (correcto por tabla).
 - Perfil ofrece "Colaboración con proveedores" en LinkedIn — feature genérico de la plataforma, no señal de venta.
 - Confirmó dossier 11/09 — pendiente que el jefe lo envíe.
+
+## SEG1 — 06/10/26
+> Buenas Alfredo! Cómo andás? Me quedé con la pregunta de la auditoría contra el presupuesto más barato, que es donde un rigor como el tuyo suele quedar sin explicar.
+> En Hint Media hacemos que ese criterio se vea: contenido técnico, tu voz como director y presencia digital, para que el desarrollador te llegue ya sabiendo por qué auditás distinto. Como con Sullair en industria.
+> Si querés lo charlamos en una llamada corta.
+Nota: nunca contestó la pregunta del MSG2, solo dijo Perfecto.

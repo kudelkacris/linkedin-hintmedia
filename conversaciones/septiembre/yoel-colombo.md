@@ -5,7 +5,7 @@
 **Empresa:** Estudio YC
 **Pais:** Argentina
 **Sector:** Servicios Profesionales / Derecho / Coaching y Desarrollo Profesional
-**Estado:** Dossier enviado (stage 3)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -36,3 +36,9 @@
 **Próximo paso:** SEG1 en 48-72hs si no responde tras recibir el dossier.
 
 ## Notas
+
+## SEG1 — 06/10/26
+> Buenas Yoel! Cómo andás? Me quedé pensando en eso de que el desarrollo profesional no implique un costo personal desmedido.
+> Las charlas y capacitaciones que das, quién se ocupa de contarlas y difundirlas, las armás vos o ya tenés a alguien?
+> Si hoy te suman horas de trabajo, es justo algo que nos podemos sacar de encima por vos.
+Ángulo: reducir carga personal.

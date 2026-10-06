@@ -5,7 +5,7 @@
 **Empresa:** Trix Translations
 **Pais:** Argentina
 **Sector:** Servicios Profesionales / Traducción especializada (mineria/energía) — sin categoría exacta en tabla de clientes
-**Estado:** 2 - Dossier ofrecido (confirmó interés, esperando OK final)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -31,3 +31,8 @@ Nota: sector no calza limpio en la tabla de clientes (traducción especializada)
 > Te mando un dossier breve con casos concretos de ese tipo de trabajo? Así vemos si tiene sentido para Trix.
 
 ## Notas
+
+## SEG1 — 06/10/26
+> Buenas Nora! Cómo andás? Con el reconocimiento de Mujer Inspiradora en Minería y todo lo que trabajaste con ICMM e IRMA, cuando una empresa minera busca a alguien para traducir ESG, te encuentra por recomendación o te buscan directamente?
+> Si algo del dossier te sirve para que esa reputación se vea más, contame.
+Ángulo: posicionamiento como referente.

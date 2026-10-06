@@ -5,7 +5,7 @@
 **Empresa:** Industrial Designer
 **Pais:** Argentina
 **Sector:** Diseño Industrial / Hardware / Manufactura
-**Estado:** Dossier enviado (02/09/26)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -46,3 +46,8 @@
 - Industrial Designer / CEO según análisis
 - Sector Diseño Industrial / Hardware / Manufactura → cliente: Sullair
 - 02/09 respuesta post-dossier: "Gracias!, voy a verlo en detenimiento y te digo cuando podríamos agendar algo breve" → seguimiento en unos días
+
+## SEG1 — 06/10/26
+> Buenas Tomás! Cómo andás? Pudiste ver el dossier con calma?
+> Si querés vemos algo breve, así te cuento cómo lo trabajaríamos en tu caso.
+Nota: el 02/09 dijo que lo vería y avisaría para agendar. Usuario pidió que el mensaje sea con él, no derivar a su equipo.

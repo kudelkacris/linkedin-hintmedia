@@ -5,7 +5,7 @@
 **Empresa:** Argentina
 **Pais:** Argentina
 **Sector:** Fintech / Servicios Financieros / Crypto
-**Estado:** 2 - Dossier ofrecido (pidió propuesta, respondida, esperando OK)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -36,3 +36,9 @@
 > Te mando el dossier con casos concretos de cómo lo hicimos con otras empresas para que veas el formato.
 
 ## Notas
+
+## SEG1 (pidió propuesta) — 06/10/26
+> Buenas Nicolás! Cómo andás? Cómo viene Manguito con lo del modelo de monetización?
+> La idea de mostrar cómo normalizan los beneficios la armaríamos nosotros de punta a punta, para que vos y Gonzalo solo pongan la cara y no el tiempo. Cómo lo ves?
+> Si querés, lo bajamos a algo concreto en una llamada corta.
+Ángulo: reducir carga operativa.

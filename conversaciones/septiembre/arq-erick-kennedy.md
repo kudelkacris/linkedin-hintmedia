@@ -5,7 +5,7 @@
 **Empresa:** Madera con tecnologia BIM
 **Pais:** Argentina
 **Sector:** Construcción / Infraestructura / Sostenibilidad / Energía (por la narrativa de eficiencia energética y emisiones)
-**Estado:** Dossier enviado (stage 3)
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -41,3 +41,9 @@
 > **Acción pendiente:** enviar dossier — jefe/Florencia debe mandarlo. Marcar Estado stage 3 confirmado.
 
 ## Notas
+
+## SEG1 + respuesta a referido — 06/10/26
+> SEG1: Buenas Erick! Cómo viene la gira de capacitaciones en madera? Viste algo del material que te sirva? Si querés lo charlamos y te cuento cómo resolvimos algo parecido con Sullair.
+> Erick respondió: le pasó el dossier a la ministra de Industria de Corrientes. Él es el capacitador, el programa lo planteó él a la provincia y trabaja para la Subsecretaría de Industria, que coordina las capacitaciones en el interior.
+> Florencia: Mirá qué bien, entonces el programa es tuyo. Con quién de la Subsecretaría convendría hablar, con quien coordina las capacitaciones en el interior o con alguien de comunicación? Si querés presentarnos vos, mejor, y si no me pasás un contacto.
+PRÓXIMO PASO: esperar el contacto de la Subsecretaría. Él NO es el decisor, es el capacitador. Ángulo = referido, no venta a él.

@@ -5,7 +5,7 @@
 **Empresa:** JPR Consulting
 **Pais:** Argentina
 **Sector:** Finanzas Corporativas / Consultoría
-**Estado:** 3 - Dossier enviado
+**Estado:** 4 - SEG1 enviado (06/10/26)
 
 ---
 
@@ -45,3 +45,9 @@
 
 ## Notas
 - Propuso canal de referidos mutuos (JPR Consulting ↔ Hint Media). Pendiente que el jefe evalúe y confirme internamente si se acepta la sinergia.
+
+## SEG1 (HIGH, propuso canal de recomendaciones) — 06/10/26
+> Buenas Juan Pablo! Cómo andás? Con la consultora recién abierta, lo que más pesa es que el mercado te encuentre y entienda rápido cómo trabajás, sin depender solo de que te recomienden.
+> Eso es lo que hacemos en Hint Media: contenido, presencia digital y tu voz como director para que JPR se posicione desde el primer día. Y lo del canal de recomendaciones lo vemos en paralelo.
+> Si querés lo charlamos en una llamada corta.
+Nota: él propuso canal de referidos mutuos. Usuario pidió que el mensaje venda Hint, no solo referido. Filtrar antes de agendar: qué empresas recomendaría.

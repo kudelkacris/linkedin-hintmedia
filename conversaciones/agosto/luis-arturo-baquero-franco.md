@@ -51,3 +51,8 @@
 > Nos vemos pronto!
 
 ## Notas
+
+## Post-reunión (reunión 15/09 por Meet) — 06/10/26
+> Buenas Lucho! Cómo andás? Me quedé pensando en lo que charlamos del proceso creativo que estás armando.
+> Cómo lo viste vos después de la reunión? Hay algo que te gustaría que armemos de forma concreta para probar?
+Nota: el 14/09 Florencia le recordó la reunión del 15/09. Falta registrar qué se habló en la reunión. Usuario pidió NO usar la palabra 'chico'.
