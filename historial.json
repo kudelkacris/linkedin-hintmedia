@@ -14962,5 +14962,70 @@
     "date": "23/09/2026",
     "id": "sebastian-francesetti",
     "notes": "Escribió primero. Confirmó dolor (comunicar que VMFG es plataforma, no listado). MSG2 23/09 propone llamada."
+  },
+  {
+    "name": "Francisco Morales Ramírez",
+    "stage": "3",
+    "date": "07/10/26",
+    "empresa": "Proas SpA",
+    "email": "fmorales@proasspa.com",
+    "estado": "Dossier por mail",
+    "notas": "Interesado pero no es prioridad (20+ años, trabajo por recomendación). Pidió propuesta por mail. Pendiente que el jefe envíe dossier a fmorales@proasspa.com.",
+    "id": "francisco-morales-ramirez"
+  },
+  {
+    "name": "Eduardo González",
+    "id": "eduardo-gonzalez",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado (cerrado sin interés)",
+    "empresa": "Arquidomo (Fundador y Director)",
+    "noInterest": true,
+    "notas": "MSG1 genérico 06/10. Respondió: comunicación planificada con recursos propios, micro pyme en desarrollo. Cierre cordial, puerta abierta para apoyo puntual más adelante."
+  },
+  {
+    "name": "Juan David Duque Cárdenas",
+    "id": "juan-david-duque-cardenas",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado (cerrado sin interés)",
+    "noInterest": true,
+    "notas": "MSG1 genérico 06/10. Respondió: ya tienen agencia que los ayuda. Cierre cordial, quedamos a disposición para sumar otra mirada."
+  },
+  {
+    "name": "Guillermo Moray",
+    "id": "guillermo-moray",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado",
+    "empresa": "Concret-Nor (Consultor Comercial, dirige ingreso a minería)",
+    "notas": "MSG1 genérico 06/10 (Sullair/Tassaroli, contar el paso a minería antes de la primera licitación). Respondió: Hablemos. MSG2: Calendly + qué hacemos (comunicación completa ante mineras: identidad, web, LinkedIn, material de licitaciones). Ojo: es consultor independiente desde abr/26, puede no decidir; preguntar en la llamada quién más participa. Sin actividad publicada. Pendiente: si agenda, mail + Google Meet."
+  },
+  {
+    "name": "Elias P. Fernandini",
+    "id": "elias-p-fernandini",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado",
+    "empresa": "VOLUNA (Co-Founder, Minería)",
+    "notas": "MSG1 genérico 06/10. Respondió: buscan más ayuda con materiales de marketing ad hoc, preguntó si lo hacemos. MSG2: sí, por proyecto o continuo, ejemplo Sullair con material a medida, pregunta qué materiales urgen ahora. 'Ad hoc' = a medida (no ad honorem). Esperar respuesta."
+  },
+  {
+    "name": "Manuel Antonio Aguilar Reynafarje",
+    "id": "manuel-antonio-aguilar-reynafarje",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado (cerrado sin interés)",
+    "noInterest": true,
+    "notas": "MSG1 genérico 06/10. Respondió: no han tocado ese tema. Cierre cordial, puerta abierta."
+  },
+  {
+    "name": "Hansell Mendoza",
+    "id": "hansell-mendoza",
+    "stage": "2",
+    "date": "07/10/26",
+    "estado": "MSG2 enviado (cerrado sin interés)",
+    "noInterest": true,
+    "notas": "MSG1 genérico 06/10. Preguntó qué hacemos, luego respondió que por ahora no lo tiene programado. Cierre cordial, puerta abierta."
   }
 ]
