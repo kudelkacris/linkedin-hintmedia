@@ -225,6 +225,32 @@ B3 — PREGUNTA DE VALIDACIÓN. Una sola pregunta que nazca de B2 y se conteste 
 
 ---
 
+# TANDAS DE CONEXIONES ACEPTADAS (MSG1 corto, actualizado 09/10/26)
+
+Cuando el usuario pega una lista de perfiles de "Contactos" para escribirles rápido (sin el programa):
+
+- **Una cuenta, dos enfoques.** Las aceptadas de la cuenta incluyen las dos líneas. Cruzar cada nombre con `conexiones/2026-10-05-aceptadas-sin-msg1.md` (marketing integral) y `NUEVA_OFERTA/listas/2026-10-07-invitaciones-enviadas.md` (Capacitaciones + Videos) para saber qué enfoque le toca.
+- **Orden:** devolver los mensajes en el mismo orden en que se pegaron. No reordenar por prioridad.
+- **Hablarle a todos.** No descartar a nadie. Sin rol de compra → pedir referido ("Sabe quién lleva hoy la comunicación de...?"). Consultores → ángulo de derivación. Competencia o colegas → colaboración. Perfil en inglés → en inglés. Única excepción: quien ya recibió MSG1.
+- **Formato:** B1 = "[Nombre], gracias por conectar." / B2 = cliente + una frase de valor para su rubro / B3 = pregunta. B1+B2 en un bloque de código, B3 en otro. Registro formal (usted).
+- **Clientes en B2:** no nombrar solo Sullair. Industria, energía y todo lo demás → "Sullair, TGS y Transener" como alcance. Sectores con cliente exclusivo (seguros, turismo, tech) siguen la tabla.
+- **Obra del cliente ≠ trabajo nuestro.** Si se cita una obra (ej. ampliación del gasoducto Perito Moreno), dejar claro que hicimos la comunicación: "Llevamos la comunicación de TGS, y una de las piezas fue el video que presentó la ampliación del gasoducto Perito Moreno." Nunca "trabajamos con TGS en la ampliación del gasoducto".
+- **B3, la pregunta (cambiada el 09/10/26):**
+  - Prohibido "o es algo que piensan resolver más adelante?": la salida "más adelante" cierra la charla.
+  - Tampoco validación que suene a examen o marque una falta ("Hoy COTESO muestra esos trabajos?" quedó atacante).
+  - Sí: consulta humana y cálida que pide su mirada de experto, con dos opciones. Ej: "Usted que acompaña a tantos dueños, nota que les cuesta más soltar el control o explicar lo que esperan del equipo?" / "Desde RRHH, le pasa que a los líderes les cuesta más entender los cambios o bajarlos a su gente?"
+  - Rotar la entrada (Usted que..., Desde su lado..., En su experiencia...). Prohibido "me da curiosidad", "segundo plano" y los dos puntos en cualquier parte del mensaje.
+  - Prohibido dar por hecho datos que no dijo (nuevo en el cargo, "ahora que está conociendo los equipos"). Prohibido preguntar por cosas confidenciales (lo que se habla en grupos Vistage).
+- **Capacitaciones:** "armamos capacitaciones en comunicación y vocería para equipos y gerentes", sin atribuirlas a ningún cliente.
+- **Variante hiring (próxima lista):** marcar quién está contratando marketing/contenido/CM. Mensaje: equipo completo en lugar de una contratación, aclarando de entrada que trabajamos a distancia.
+
+**Cuando preguntan precio o producción (caso Vicente Alvarez Boggio, 09/10/26):**
+- Precio de arranque autorizado: **800 USD mensuales**, gestión de redes y contenido. La pauta se suma.
+- Producción fuera de Buenos Aires (interior o exterior): viajamos con el equipo con traslados a cargo del cliente, o graban ellos con guiones y lineamientos nuestros y nosotros editamos y postproducimos.
+- Si el prospecto está charlando y preguntando, responder solo lo que pregunta. No ofrecer llamada en cada mensaje.
+
+---
+
 # MSG2
 
 **Objetivo:** honrar el contrato psicológico del MSG1 ("tenía una consulta") con una pregunta genuina, y desde esa pregunta hacer aparecer Hint como consecuencia natural — no como pitch.

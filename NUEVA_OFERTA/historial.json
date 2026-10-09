@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "name": "Ana Paula Fernández del Castillo Quintana",
+    "id": "ana-paula-fernandez-del-castillo-quintana",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Grupo Xcaret (Institutional Development & Strategy)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: video TGS Perito Moreno. B3 \"previsto para próximos proyectos o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Alfredo Phillips",
+    "id": "alfredo-phillips",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Corporate Affairs, RRII, ESG",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: video TGS Perito Moreno (versión corregida). B3 proyecto en agenda. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Javiera Valenzuela Cuellar",
+    "id": "javiera-valenzuela-cuellar",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Especialista RRHH (empresa sin dato)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 previsto o más adelante. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Javier Calvo Pérez",
+    "id": "javier-calvo-perez",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Fundador Liderman (seguridad, empresa grande)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 evaluando o quién es la persona indicada. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Maria Bettina Llapur",
+    "id": "maria-bettina-llapur",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Directora de Comunicación, RRII, ESG",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: video TGS Perito Moreno. B3 proyecto próximo. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Alejandra Cardona",
+    "id": "alejandra-cardona",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Cámara Argentina de Empresas Mineras (Directora Ejecutiva), canal",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: Sullair + capacitaciones. B3 ofrecer a socios. Ojo: estaba como \"lo charla el jefe\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "José Eduardo Muñoz Seguel",
+    "id": "jose-eduardo-munoz-seguel",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Consultor plantas de gas, formación de operadores",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Diego Stuppia",
+    "id": "diego-stuppia",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Chair Vistage Argentina (aliado/canal)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Gonzalo Alfonsin",
+    "id": "gonzalo-alfonsin",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Lucciano's (Business GM)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Federico Agusto",
+    "id": "federico-agusto",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Cirion Technologies (HR Director Cluster Sur)",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: capacitaciones. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Alejandro Stivaktas",
+    "id": "alejandro-stivaktas",
+    "stage": "1",
+    "date": "09/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "LLYC (Director de Asuntos Públicos), competencia",
+    "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: colaboración. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  }
+]

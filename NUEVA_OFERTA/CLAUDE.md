@@ -10,7 +10,7 @@ Origen: llamada con el jefe del 05/10/26. El servicio integral es muy amplio y l
 
 ## Cuenta y programa
 
-- Los mensajes salen **desde la cuenta de LinkedIn del jefe**, no de la de Florencia. La agenda de energía de Florencia ya está saturada.
+- **Corrección 09/10/26:** es todo una misma cuenta con dos enfoques distintos (marketing integral y Capacitaciones + Videos). Las aceptadas de las dos tandas aparecen juntas en la lista de contactos: cruzar con `listas/2026-10-07-invitaciones-enviadas.md` para saber qué enfoque le toca a cada uno. Reglas de tono del MSG1 corto (pregunta cálida, sin "más adelante", sin dos puntos, obra del cliente ≠ trabajo nuestro): ver sección "TANDAS DE CONEXIONES ACEPTADAS" del CLAUDE.md padre.
 - Programa: `python servidor.py` dentro de esta carpeta → **http://localhost:3001** (el de Florencia sigue en 3000).
 - Historial propio: `NUEVA_OFERTA/historial.json`. Conversaciones: `NUEVA_OFERTA/conversaciones/<mes>/`.
 - El programa avisa si el prospecto ya fue contactado desde la cuenta de Florencia (lee `../historial.json` sin modificarlo).
@@ -123,3 +123,20 @@ El sector no importa: el filtro que manda es el **tamaño de empresa**.
 - [ ] Confirmar al facilitador de capacitaciones y el temario.
 - [ ] Confirmar cuándo sale el video NGL de TGS para sumarlo como prueba.
 - [ ] Sales Navigator en la cuenta del jefe (está viendo el costo).
+
+---
+
+## Búsqueda v2 en Sales Navigator (aprendido el 06/10/26)
+
+Reemplaza a "Búsqueda única" de arriba. Lo que se probó y cómo quedó:
+
+- **Base fija (decisores):** Empleados 1.001-5.000 / 5.001-10.000 / 10.001+ (501-1.000 solo en energía y minería). Argentina. Privada + Empresa pública. Nivel **Director, Vicepresidente, Gerente con experiencia**. **Sacar Sénior**: ahí caen analistas, HRBP y reclutadores.
+- **Cargo actual** no acepta texto libre en la cuenta del jefe. Las palabras clave van en la caja de arriba, buscan en TODO el perfil (por eso entran consultores que "fueron" directores). Controlar con **Sector → excluir**: consultoría, servicios de RRHH, educación superior, administración gubernamental, publicidad.
+- **Palabras clave RRHH:** `"director de recursos humanos" OR "directora de recursos humanos" OR "gerente de recursos humanos" OR "gerente de rrhh" OR "HR director" OR "head of people" OR "chief people officer" OR "director de capital humano"`
+- **Energía y minería:** mismo cargo con `AND (energía OR minería OR petróleo OR "oil & gas" OR litio OR cobre OR eléctrica OR renovable)`. "Ha publicado en LinkedIn" apagado.
+- **Comunicación / asuntos corporativos:** por palabras clave (`"asuntos corporativos" OR "relaciones institucionales" OR "comunicación corporativa" OR "corporate affairs" OR "public affairs"`), sin filtro de Función y sin "Ha publicado". Con Función salen casi solo Estado, medios y agencias. Mejor aún: buscar por lista de empresas.
+- **Rinde:** RRHH grande da ~50% de útiles; energía y minería ~50%; comunicación por palabras clave ~10%.
+- **No sirve para vender:** consultores y fractional, Vistage, coaches, docentes, universidades, Estado, agencias, venta de software de RRHH (Humand), reclutadores. Algunos sirven de aliados (conocen gerentes de RRHH).
+- **Decisores no RRHH:** el video de proyecto lo decide comunicación, asuntos corporativos o gerencia general. En empresas medianas (200-1.000) el GG decide todo; en grandes ir al director de área, no al CEO (CEO en frío convierte 10% frente a 25%).
+- **Antes de invitar:** cruzar con `../historial.json` (Florencia) y con `listas/2026-10-07-invitaciones-enviadas.md`. Una persona por empresa.
+- Clientes (TGS, Transener, Sullair) y competidores de clientes (TGN, Aggreko): los decide el jefe. PECOM: Florencia tiene conversaciones abiertas.

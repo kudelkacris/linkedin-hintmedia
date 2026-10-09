@@ -4,6 +4,32 @@
 
 ---
 
+## Cierre 09/10/26 — tanda MSG1 corto (57 contactos) y cambio del cierre
+
+**Hecho:** se cruzaron 139 aceptadas contra todas las listas. **Es una sola cuenta con dos enfoques** (corregido: antes figuraba que la línea Capacitaciones + Videos salía desde la cuenta del jefe). Se armó MSG1 corto a 55 aceptadas del 23/09 al 06/10, en el orden en que se pegaron. Detalle completo en `conversaciones/octubre/tanda-msg1-09oct26.md`. Marketing integral → `historial.json`; Capacitaciones + Videos → `NUEVA_OFERTA/historial.json` (11).
+
+**Respuestas:**
+- **Vicente Alvarez Boggio** (Ventura BnB, Lima): pidió precio (800 USD/mes desde), dossier y si grabamos en Perú. Cerró "no de momento" por la distancia. Estaba contratando analista de marketing → origen de la variante hiring.
+- **Gilberto Garza** (Wertek AI / IAES): respondió a los 2 minutos, MSG2 enviado (stage 2).
+
+**Reglas nuevas (escritas en CLAUDE.md, sección "TANDAS DE CONEXIONES ACEPTADAS", y en los dos index.html):**
+- B3 sin "o es algo que piensan resolver más adelante?". Ahora: consulta cálida que pide su mirada, con dos opciones. Sin dos puntos, sin "me da curiosidad", sin "segundo plano", sin dar por hecho datos que no dijo.
+- Obra del cliente ≠ trabajo nuestro (caso gasoducto Perito Moreno): decir que hicimos la comunicación, nunca la obra.
+- B2 nombra Sullair, TGS y Transener, no solo Sullair.
+- No descartar a nadie (referido, derivación o colaboración). Orden de los mensajes = orden en que se pegaron.
+- Precio de arranque 800 USD/mes (redes + contenido). Producción fuera de Buenos Aires: viaje a cargo del cliente o graban ellos con guiones nuestros.
+- Con un prospecto que está charlando, no ofrecer llamada en cada mensaje.
+
+**Pendiente para la próxima sesión:**
+1. **Variante hiring:** en la próxima lista marcar quién está contratando marketing/contenido. Búsqueda sugerida: Empleos de LinkedIn (community manager, marketing digital, contenidos; 11-200 empleados; última semana) → contactar a quien publicó el aviso.
+2. MSG1 a las ~55 aceptadas del 06 al 09/10 (línea Capacitaciones + Videos). Prioridad: De Stefano, Battolla, Scotti, Martens, Olivera. Una persona por empresa (Biosidus → Battolla; Raízen y PAE, elegir uno). LLYC (Mateu) es competencia.
+3. 14 aceptadas sin lista: Buranello, M. G. Gutierrez (Scania), Scaramella, Decoud, Pedace, Santacroce, Wotherspoon, Lema, Zambrano, Leon Astorga, Cardinali, Mateu.
+4. Confirmar qué versión del B3 se envió a Blanchart, Ubilla, Zárate, Diana Garcia y Cervantes. Medir respuesta por versión el 14/10.
+5. Gilberto Garza: si responde, caso TGS (idea técnica que se entiende afuera) y después Wertek AI.
+6. Arrastrados: dossier por mail a Pablo Rego y Alcides Roldán; reunión Baquero sin registrar; Dan Hirsch recontacto 22/10 (cliente Agora); Alejandra Cardona estaba marcada "lo charla el jefe".
+
+---
+
 ## Cierre 06/10/26 (tarde) — tanda masiva MSG1 y cambios de método
 
 **Hecho:** tanda masiva de MSG1 genérico a ~116 conexiones del backlog (15-23/09), con plantilla formal de 3 burbujas. Lista y plantilla completas en `conversaciones/octubre/tanda-masiva-msg1-06oct26.md`. Todo desde la cuenta de Florencia, sin usar el programa.
