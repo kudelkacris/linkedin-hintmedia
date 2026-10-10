@@ -4,6 +4,19 @@
 
 ---
 
+## Sesión 10/10/26 — respuestas a la tanda del 09/10
+
+- **José Eduardo Muñoz Seguel** (GSP Consultora, Capacitaciones): aceptó la idea de un módulo de comunicación y vocería para jefes dentro de sus programas para YPF, Pecom, Pluspetrol y ministerios de educación. Presencial. Dossier general enviado. **Charla la semana del 12/10, falta mail o día.** Antes: temario, precio y modelo (reventa o comisión) con el jefe. Ficha en `NUEVA_OFERTA/conversaciones/jose-eduardo-munoz-seguel.md`.
+- **Gilberto Garza** (Wertek AI): no sabe quién adopta IAES. MSG3 desde marketing, ir por Wertek (producto pago). Esperando.
+- **Roberto Bellido** (Punto Horeca): tema pendiente, "te tengo en mente". MSG2 con pregunta redes o mostrar proyectos.
+- **Aarón Flores** (Premier Motors Honduras): todo interno + externos temporales. MSG2. Es CEO de Bishop Digital Agency.
+- **Gustavo Diaz**: "suena interesante" al SEG1 de marca personal. Se le explicó el proceso. Precio de marca personal a confirmar con el jefe.
+- **Gonzalo Silman**: se fue de WakeUp. **Javier Calvo**: vendió Liderman, cerrado con agradecimiento. **Irving**: solopreneur, cerrado cordial.
+
+**Reglas de tono nuevas (memoria feedback_tono_mensajes):** escribir como charla real. En hilo abierto no nombrar a la persona, no repetir lo que dijo, no agradecer cada respuesta. No afirmar de más ni suponer cosas que no dijo.
+
+---
+
 ## Cierre 09/10/26 — tanda MSG1 corto (57 contactos) y cambio del cierre
 
 **Hecho:** se cruzaron 139 aceptadas contra todas las listas. **Es una sola cuenta con dos enfoques** (corregido: antes figuraba que la línea Capacitaciones + Videos salía desde la cuenta del jefe). Se armó MSG1 corto a 55 aceptadas del 23/09 al 06/10, en el orden en que se pegaron. Detalle completo en `conversaciones/octubre/tanda-msg1-09oct26.md`. Marketing integral → `historial.json`; Capacitaciones + Videos → `NUEVA_OFERTA/historial.json` (11).

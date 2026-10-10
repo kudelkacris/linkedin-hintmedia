@@ -6071,7 +6071,7 @@
   },
   {
     "name": "Ignacio Andree Muñoz Flores",
-    "stage": "1",
+    "stage": "2",
     "date": "23/07/26",
     "empresa": "Comunicación Estratégica",
     "cargo": "Encargado de Comunicaciones Colegio San Pedro Nolasco - Vitacura | Magíster en Comunicación Estratégica",
@@ -6084,7 +6084,9 @@
         "note": "Cerrada"
       }
     ],
-    "id": "ignacio-andree-munoz-flores"
+    "id": "ignacio-andree-munoz-flores",
+    "notes": "10/10/26: todo interno, contratan equipos externos temporales. MSG2 cálido: lanzamientos o contenido diario? Es CEO de Bishop Digital Agency (posible colaboración).",
+    "company": "Premier Motors Honduras"
   },
   {
     "name": "Ignacio Adrian (Adrián Lerer) Lerer",
@@ -10255,14 +10257,16 @@
         "text": "Buenas Johanna! Tu enfoque en \"líder integradora\" me quedó dando vueltas. No es lo que suele escribir alguien que solo busca números, sino alguien que entiende que la confianza con clientes y equipos es tan crítica como la venta misma.\n\nEn Hint Media trabajamos con empresas como Sullair y TGS que enfrentan el desafío de mantener coherencia comercial y narrativa mientras sus equipos escalan. Complementamos esa capacidad de ejecución en marketing y comunicación.\n\nVale la pena que te cuente cómo lo trabajamos? Si tiene sentido lo compartís con quien corresponda."
       }
     ],
-    "stage": "1",
+    "stage": "2",
     "stageHistory": [
       {
         "stage": 1,
         "date": "17/09/26",
         "note": ""
       }
-    ]
+    ],
+    "notes": "10/10/26: todo interno, contratan equipos externos temporales. MSG2 cálido: lanzamientos o contenido diario? Es CEO de Bishop Digital Agency (posible colaboración).",
+    "company": "Premier Motors Honduras"
   },
   {
     "id": "1789668992562",
@@ -14950,7 +14954,7 @@
     "sector": "Automotriz / Movilidad electrica",
     "stage": "4",
     "date": "21/09/2026",
-    "notes": "Escribio primero. MSG2 21/09, dossier confirmado 'Si envialo'. Enviar por LinkedIn. | 06/10/26: SEG1"
+    "notes": "Escribio primero. MSG2 21/09, dossier confirmado 'Si envialo'. Enviar por LinkedIn. | 06/10/26: SEG1 | 10/10/26: respondió 'Suena interesante' al SEG1 de marca personal. Se le explicó el proceso (charla mensual, perfil, posts que aprueba) y se preguntó consultorías o equipo. Ojo: OPEN_TO_WORK, precio marca personal a confirmar con jefe."
   },
   {
     "name": "Sebastián Francesetti",
@@ -15040,11 +15044,13 @@
   {
     "name": "Aarón Flores",
     "id": "aaron-flores",
-    "stage": "1",
+    "stage": "2",
     "date": "09/10/26",
     "estado": "MSG1 enviado",
     "empresa": "Marketing & Sales Manager vehículos nueva energía (Changan, GWM); CEO Bishop Digital Agency",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Sullair. B3 \"adentro o con equipo externo\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Sullair. B3 \"adentro o con equipo externo\". Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "notes": "10/10/26: todo interno, contratan equipos externos temporales. MSG2 cálido: lanzamientos o contenido diario? Es CEO de Bishop Digital Agency (posible colaboración).",
+    "company": "Premier Motors Honduras"
   },
   {
     "name": "Jeronimo Carullo",
@@ -15067,11 +15073,12 @@
   {
     "name": "Gonzalo Silman",
     "id": "gonzalo-silman",
-    "stage": "1",
+    "stage": "2",
     "date": "09/10/26",
     "estado": "MSG1 enviado",
     "empresa": "WakeUp Labs (Co-Founder), software",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Agora. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Agora. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "notes": "10/10/26: se fue de WakeUp. Se le preguntó en qué anda ahora."
   },
   {
     "name": "Samanta Peretti",
@@ -15103,11 +15110,13 @@
   {
     "name": "Roberto Bellido",
     "id": "roberto-bellido",
-    "stage": "1",
+    "stage": "2",
     "date": "09/10/26",
     "estado": "MSG1 enviado",
     "empresa": "Distribuidor tabletop para hotelería",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Destiny Group. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Destiny Group. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "notes": "10/10/26: 'tema pendiente de resolver bien, te tengo en mente'. MSG2: elogio a sus posts + pregunta redes o mostrar proyectos (NHOW, Casa Cacao Chuncho).",
+    "company": "Punto HORECA SAC"
   },
   {
     "name": "Erick Bonilla Andrade",
@@ -15238,11 +15247,13 @@
   {
     "name": "Irving De los Santos Reyes",
     "id": "irving-de-los-santos-reyes",
-    "stage": "1",
+    "stage": "2",
     "date": "09/10/26",
     "estado": "MSG1 enviado",
     "empresa": "COGNITIA (consultor IA, colega)",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: colaboración. B3 colaboración. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: colaboración. B3 colaboración. Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "notes": "10/10/26: solopreneur, paga mentoría. Cierre cordial con puerta abierta a derivación. Sin presupuesto.",
+    "company": "COGNITIA"
   },
   {
     "name": "María Fernanda Rodríguez Crespo",
@@ -15441,6 +15452,8 @@
     "stage": "2",
     "estado": "MSG2 enviado",
     "empresa": "Wertek AI (Founder & CEO) / IAES",
-    "notas": "MSG1 tanda 09/10 (versión Agora). Respondió: IAES sin fines de lucro, Rosetta Stone entre OT e IT. MSG2: pregunta quién lo adopta primero, planta o sistemas. Ver conversaciones/octubre/gilberto-garza.md"
+    "notas": "MSG1 tanda 09/10 (versión Agora). Respondió: IAES sin fines de lucro, Rosetta Stone entre OT e IT. MSG2: pregunta quién lo adopta primero, planta o sistemas. Ver conversaciones/octubre/gilberto-garza.md",
+    "notes": "10/10/26: no sabe quién adopta IAES (descargas, uso académico). Wertek ya en producción. MSG3: ordenar quién llega y llevarlo a Wertek (Agora) + pregunta: clientes llegan por proveedores de servicio o contacto directo?",
+    "company": "Wertek AI"
   }
 ]
