@@ -53,3 +53,22 @@ Nota de proceso: la primera version era de 4 burbujas completas y quedo larga pa
 > Hoy, quien te busca para una consultoría o para sumarte a un equipo, llega a vos por ese contenido o por contactos?
 > Si querés, te cuento cómo hacemos que esa marca personal trabaje para vos sin que te lleve tiempo.
 Ángulo: marca personal. Nunca contestó la pregunta de flotas del MSG2.
+
+## Respuesta SEG1 (09/10/26)
+> Gustavo: "Hola, Florencia. Suena interesante..."
+
+### Explicación del proceso (10/10/26)
+> Charla inicial para entender recorrido y a quién quiere llegar (flotas, concesionarias, marcas en movilidad eléctrica). Ajuste de perfil (titular, acerca de, destacados). Charla para sacar temas, publicaciones con su mirada (posts, carruseles, video corto), él aprueba. Medir qué contenido trae contactos.
+> Hoy te interesa más que te encuentren para consultorías o para sumarte a un equipo?
+
+### Respuesta (10/10/26)
+> Le llegan más pedidos de asesoría gratis que ofertas de empleo. Ayer lo llamó una empresa de turismo ejecutivo para que les explicara la transición a eléctrico. Los concesionarios son más reacios a pedir información porque creen que ya saben. Quiere llegar a gremios y cámaras de comercio, incluso crear un gremio a futuro. Está desempleado. Pidió precio en dólares.
+
+### Respuesta con precio (10/10/26)
+> Jajaja, nunca falta el que pide una manito sin pagar 😅
+> Lo de los concesionarios tiene lógica: como venden autos, creen que ya saben. Una empresa que tiene que pasar su flota a eléctrico, en cambio, necesita que alguien con experiencia le explique cómo hacerlo, y ahí es donde vos sumás.
+> Gracias por ser tan directo, Gustavo. El servicio arranca en 800 USD mensuales e incluye tu perfil y el contenido. La pauta va aparte.
+> La idea es que esas llamadas dejen de ser favores y se conviertan en consultorías, y ahí la cuenta cambia.
+> Y armar algo propio en el sector más adelante me parece un gran objetivo. Ese lugar se gana mostrando criterio, y vos ya lo tenés 😊
+
+**Aprendizajes de redacción (10/10/26):** no repetir textual lo que dijo el prospecto (suena a reforzar como robot); seguir el hilo como charla real reaccionando a lo que contó; no cerrar puertas por su situación (nada de "quizás no sea el momento"); evitar frases ambiguas o sobradoras ("sé que no es poco", "sabe que no sabe").

@@ -10,10 +10,10 @@
 - **Gilberto Garza** (Wertek AI): no sabe quién adopta IAES. MSG3 desde marketing, ir por Wertek (producto pago). Esperando.
 - **Roberto Bellido** (Punto Horeca): tema pendiente, "te tengo en mente". MSG2 con pregunta redes o mostrar proyectos.
 - **Aarón Flores** (Premier Motors Honduras): todo interno + externos temporales. MSG2. Es CEO de Bishop Digital Agency.
-- **Gustavo Diaz**: "suena interesante" al SEG1 de marca personal. Se le explicó el proceso. Precio de marca personal a confirmar con el jefe.
+- **Gustavo Diaz**: está desempleado, le piden asesoría gratis, quiere llegar a gremios y cámaras. Pidió precio en USD → se le pasó 800 USD/mes (perfil + contenido, pauta aparte), puerta abierta. Esperando respuesta. Stage 4.
 - **Gonzalo Silman**: se fue de WakeUp. **Javier Calvo**: vendió Liderman, cerrado con agradecimiento. **Irving**: solopreneur, cerrado cordial.
 
-**Reglas de tono nuevas (memoria feedback_tono_mensajes):** escribir como charla real. En hilo abierto no nombrar a la persona, no repetir lo que dijo, no agradecer cada respuesta. No afirmar de más ni suponer cosas que no dijo.
+**Reglas de tono nuevas (memoria feedback_tono_mensajes):** escribir como charla real. En hilo abierto no nombrar a la persona, no repetir lo que dijo, no agradecer cada respuesta. No afirmar de más ni suponer cosas que no dijo. No cerrar puertas por la situación del prospecto (desempleo, presupuesto). Evitar frases ambiguas o sobradoras.
 
 ---
 
