@@ -15229,11 +15229,12 @@
   {
     "name": "Rebeca Zumbado Briceño",
     "id": "rebeca-zumbado-briceno",
-    "stage": "1",
-    "date": "09/10/26",
-    "estado": "MSG1 enviado",
+    "stage": "2",
+    "date": "12/10/26",
+    "estado": "MSG2 enviado",
     "empresa": "Mercadeo en Callizo Aromas",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: sin cliente. B3 adentro o externo. Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: sin cliente. B3 adentro o externo. Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "notes": "12/10/26: respondió que lo resuelven dentro de Callizo. MSG2: pregunta si cuesta más contar un aroma nuevo por la historia de marca o mostrando el producto. Sin pitch."
   },
   {
     "name": "Rafael Díaz Palma",
@@ -15252,7 +15253,7 @@
     "estado": "MSG1 enviado",
     "empresa": "COGNITIA (consultor IA, colega)",
     "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: colaboración. B3 colaboración. Ver conversaciones/octubre/tanda-msg1-09oct26.md",
-    "notes": "10/10/26: solopreneur, paga mentoría. Cierre cordial con puerta abierta a derivación. Sin presupuesto.",
+    "notes": "10/10/26: solopreneur, paga mentoría. Cierre cordial con puerta abierta a derivación. Sin presupuesto. 12/10/26: devolvió agradecimiento, se cerró con puerta abierta a derivación y colaboración.",
     "company": "COGNITIA"
   },
   {
@@ -15375,11 +15376,13 @@
   {
     "name": "Jose Montalvo",
     "id": "jose-montalvo",
-    "stage": "1",
-    "date": "09/10/26",
-    "estado": "MSG1 enviado",
+    "stage": "2",
+    "date": "12/10/26",
+    "estado": "MSG2 enviado (cerrado sin interés)",
     "empresa": "Humandroid (Co-Founder), robótica",
-    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Agora. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+    "notas": "MSG1 corto tanda 09/10 (marketing integral). Cliente: Agora. B3 \"buscan equipo o más adelante\". Ver conversaciones/octubre/tanda-msg1-09oct26.md",
+    "noInterest": true,
+    "notes": "12/10/26: lo generan con equipo interno, por ahora no. Cierre cordial, puerta abierta para algo puntual."
   },
   {
     "name": "Luis Antonio Pinto Sanchez",

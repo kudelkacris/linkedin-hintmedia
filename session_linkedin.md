@@ -4,6 +4,16 @@
 
 ---
 
+## Sesión 12/10/26 — auditoría de la semana y respuestas
+
+- **Auditoría semana 06-10/10** guardada en `conversaciones/octubre/auditoria-semana-06-10oct26.md`: 171 MSG1, 17 respuestas (~10%), 0 reuniones, 37% de la tanda del 06/10 eran perfiles de "descartar". Plan de la semana adentro.
+- **Rebeca Zumbado Briceño** (Callizo Aromas): lo resuelven adentro. MSG2 sin pitch, pregunta por contar un aroma nuevo (historia de marca o producto). Stage 2.
+- **Irving De los Santos Reyes** (COGNITIA): agradeció, cierre con puerta abierta a derivación y colaboración.
+- **Jose Montalvo** (Humandroid): lo hacen con equipo interno. Cierre cordial, puerta abierta para algo puntual. Cerrado.
+- **Pendiente:** el plan de la semana (Muñoz Seguel, Moray, Fernandini, Garza, Bellido, Aarón Flores, mails de dossier, medición del B3 el 14/10, SEG1 solo a decisores, cargar 109 de la tanda del 06/10 al historial).
+
+---
+
 ## Sesión 10/10/26 — respuestas a la tanda del 09/10
 
 - **José Eduardo Muñoz Seguel** (GSP Consultora, Capacitaciones): aceptó la idea de un módulo de comunicación y vocería para jefes dentro de sus programas para YPF, Pecom, Pluspetrol y ministerios de educación. Presencial. Dossier general enviado. **Charla la semana del 12/10, falta mail o día.** Antes: temario, precio y modelo (reventa o comisión) con el jefe. Ficha en `NUEVA_OFERTA/conversaciones/jose-eduardo-munoz-seguel.md`.
