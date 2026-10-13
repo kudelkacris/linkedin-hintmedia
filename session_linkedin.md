@@ -4,6 +4,16 @@
 
 ---
 
+## Sesión 13/10/26 — respuestas a la tanda
+
+- **Nadia Sager** (GEINSA): por ahora no, quiere el contacto para futuro. Cierre cordial, puerta abierta. Cerrada.
+- **Juan Pablo Rossi** (JPR Consulting): pidió charla. Respuesta: mail para Meet y dos días (completar). Sin usar "sinergia" ni prometer recomendaciones. **Pendiente:** el jefe decide la propuesta de recomendaciones mutuas; llevar también el ángulo de posible cliente.
+- **Luis Orlando Arias Heredia** (speaker financiero): maneja la comunicación solo, ofrece derivar por finanzas. Cierre cordial con derivación. Cerrado.
+- **Aprendizaje:** al abrir sesión leer el session completo y los feedbacks de tono, no solo el principio. Reglas que fallé: dar solo el mensaje (sin preámbulo ni notas) y no repetir palabras dentro de un mismo mensaje.
+- **Sigue pendiente de 12/10:** Muñoz Seguel (falta mail/día), Moray, Fernandini, Garza, Bellido, Aarón Flores, Gustavo Diaz, mails de dossier (Pablo Rego, Alcides Roldán), medición del B3 el 14/10, cargar 109 de la tanda del 06/10 al historial.
+
+---
+
 ## Sesión 12/10/26 — auditoría de la semana y respuestas
 
 - **Auditoría semana 06-10/10** guardada en `conversaciones/octubre/auditoria-semana-06-10oct26.md`: 171 MSG1, 17 respuestas (~10%), 0 reuniones, 37% de la tanda del 06/10 eran perfiles de "descartar". Plan de la semana adentro.
