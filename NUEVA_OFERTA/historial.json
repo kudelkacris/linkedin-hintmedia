@@ -101,5 +101,205 @@
     "estado": "MSG1 enviado",
     "empresa": "LLYC (Director de Asuntos Públicos), competencia",
     "notas": "MSG1 corto tanda 09/10 (Capacitaciones + Videos). Cliente: colaboración. B3 cálida de experiencia (versión final). Ver conversaciones/octubre/tanda-msg1-09oct26.md"
+  },
+  {
+    "name": "Gerardo De Stefano",
+    "id": "gerardo-de-stefano",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Bases Internacionales GOL (Gente y Cultura)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Quimey Peralta",
+    "id": "quimey-peralta",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Caylent (HRBP Manager)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Julieta Scaramella",
+    "id": "julieta-scaramella",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Aeropuertos Argentina (Jefa de Sustentabilidad)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Maria Heiland",
+    "id": "maria-heiland",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Linser (CEO)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Maria Daniela Decoud",
+    "id": "maria-daniela-decoud",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Sustentabilidad y asuntos corporativos",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Diego Virgilio",
+    "id": "diego-virgilio",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Enerflex (Gerente RRHH)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Lucas Goñi",
+    "id": "lucas-goni",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Tecpetrol (RTOC Completion Director)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Leo Lamas",
+    "id": "leo-lamas",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Mind The Gap / Vistage (aliado)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Natalia Rivero",
+    "id": "natalia-rivero",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Ecogas (GG)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Ignacio Mones Cazon",
+    "id": "ignacio-mones-cazon",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "ESUCO (Gerente RRHH y RRLL)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Demian Podolsky",
+    "id": "demian-podolsky",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Director RRHH, Legales y Asuntos Públicos",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Alejandro Stracquadaino",
+    "id": "alejandro-stracquadaino",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Hospital Sirio Libanés (Gerente RRHH)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Roman Malceñido",
+    "id": "roman-malcenido",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Sociedad Comercial del Plata (Director General)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Diego Buranello",
+    "id": "diego-buranello",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "La Serenísima (Dir. Asuntos Corporativos y Sustentabilidad)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Carolina Jacob",
+    "id": "carolina-jacob",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Global HR Leader, Women in Tech (aliada)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Tamara Gallardo",
+    "id": "tamara-gallardo",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Quintino (HR Manager)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Magalí Scozziero",
+    "id": "magali-scozziero",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Wiener lab (Desarrollo Organizacional)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Maria Fabiana Lavorato",
+    "id": "maria-fabiana-lavorato",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "Gastronómica (RRHH)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Guillermo Martens",
+    "id": "guillermo-martens",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "EDEMSA (Gerente RRHH, employer branding)",
+    "linea": "videos",
+    "notas": "MSG1 corto tanda 14/10 (videos). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
+  },
+  {
+    "name": "Francisca Acevedo",
+    "id": "francisca-acevedo",
+    "stage": "1",
+    "date": "14/10/26",
+    "estado": "MSG1 enviado",
+    "empresa": "ACSA (Gerente RRHH)",
+    "linea": "capacitaciones",
+    "notas": "MSG1 corto tanda 14/10 (capacitaciones). B3 mixto. Ver conversaciones/octubre/tanda-msg1-14oct26.md"
   }
 ]

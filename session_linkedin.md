@@ -4,6 +4,16 @@
 
 ---
 
+## Sesión 14/10/26 — tanda MSG1 de aceptadas 06-07/10
+
+- **Tanda 35 MSG1** (orden pegado) en `conversaciones/octubre/tanda-msg1-14oct26.md`: 15 marketing integral → `historial.json`, 20 capacitaciones/videos → `NUEVA_OFERTA/historial.json` (campo `linea`). Stage 1.
+- **Regla nueva (memoria `feedback-enfoque-por-perfil`):** el enfoque sale del perfil, no de la lista. Capacitación solo RRHH/cultura; comunicación/sustentabilidad → videos; GG/marketing/pymes → marketing integral; consultores/aliados → referido. "TGS" a secas (no "LinkedIn de TGS"). B3 = consulta cálida + adentro o afuera.
+- **Charlas sin venta:** Catherine Ricaldi (Perú, WinC, pregunta por G.Lab, tuteo) y Lucía Toppa (FAU UNT, pregunta por convocatoria de la diplomatura). Ambas escribieron primero.
+- **Javier Garcia Sarasa:** "no por el momento", cerrado cordial.
+- **Pendiente:** ~60 aceptadas sin MSG1 de la lista pegada hoy (detalle al final de la tanda), prioridad Villamil (VMOS), Scotti, Battolla. D'Adamo (Kaeser = competencia Sullair) lo decide el jefe. Casentini y Polzinetti en espera. Bruno Cardinali: confirmar si se puede decir que hacemos comunicación con comunidades. Sigue todo lo del 13/10.
+
+---
+
 ## Sesión 13/10/26 — respuestas a la tanda
 
 - **Nadia Sager** (GEINSA): por ahora no, quiere el contacto para futuro. Cierre cordial, puerta abierta. Cerrada.
