@@ -169,6 +169,12 @@ Si el prospecto responde en cualquier punto, pausar la secuencia y responder seg
 
 # MSG1
 
+**REGLA DE CLARIDAD (18/10/26), pisa todo lo de abajo:** el jefe marcó que los mensajes no se entienden. Volvemos a personalizar con el programa (index.html, sección REGLA DE CLARIDAD del SYSTEM), pero simple y bien escrito.
+- B1: "[Nombre], gracias por conectar!" + un hecho concreto suyo dicho simple ("Vi su publicación sobre las obras de Ezeiza"). Sin interpretarlo, sin anclas rebuscadas ("lo que dejó afuera", "el orden en que lo contó").
+- B2: "En Hint Media hacemos la comunicación de empresas como [cliente]: [dos cosas concretas]." Palabras de todos los días (redes, videos, contenido, web, imagen de marca, pauta). Nada de "piezas", "narrativa", "capa", "de punta a punta".
+- B3: una pregunta simple sobre comunicación (la manejan adentro o con alguien externo?). Si no lleva comunicación, preguntar con quién hablar. Nunca sobre su especialidad ni con jerga de su rubro.
+- 45 a 70 palabras. Test: alguien que no trabaja en marketing entiende qué hacemos y qué le pedimos en una sola lectura.
+
 **Objetivo:** generar suficiente curiosidad para que el prospecto responda. No vender. No mencionar Hint todavía.
 
 **Señal humana (jerarquía para elegir el ángulo):**
@@ -226,6 +232,12 @@ B3 — PREGUNTA DE VALIDACIÓN. Una sola pregunta que nazca de B2 y se conteste 
 ---
 
 # TANDAS DE CONEXIONES ACEPTADAS (MSG1 corto, actualizado 09/10/26)
+
+**REGLA DE CLARIDAD (18/10/26), pisa todo lo de abajo:** el jefe marcó que los mensajes no se entienden. Volvemos a personalizar con el programa (index.html, sección REGLA DE CLARIDAD del SYSTEM), pero simple y bien escrito.
+- B1: "[Nombre], gracias por conectar!" + un hecho concreto suyo dicho simple ("Vi su publicación sobre las obras de Ezeiza"). Sin interpretarlo, sin anclas rebuscadas ("lo que dejó afuera", "el orden en que lo contó").
+- B2: "En Hint Media hacemos la comunicación de empresas como [cliente]: [dos cosas concretas]." Palabras de todos los días (redes, videos, contenido, web, imagen de marca, pauta). Nada de "piezas", "narrativa", "capa", "de punta a punta".
+- B3: una pregunta simple sobre comunicación (la manejan adentro o con alguien externo?). Si no lleva comunicación, preguntar con quién hablar. Nunca sobre su especialidad ni con jerga de su rubro.
+- 45 a 70 palabras. Test: alguien que no trabaja en marketing entiende qué hacemos y qué le pedimos en una sola lectura.
 
 Cuando el usuario pega una lista de perfiles de "Contactos" para escribirles rápido (sin el programa):
 

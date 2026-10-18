@@ -4,6 +4,17 @@
 
 ---
 
+## Sesión 18/10/26 — mensajes que no se entienden, regla de claridad
+
+- **El jefe: los mensajes no se entienden, no queda claro de una qué hacemos.** Diagnóstico: anclas rebuscadas, jerga del rubro (RTOC), preguntas sobre la especialidad del prospecto, dos ofertas juntas y perfiles que no llevan comunicación.
+- **REGLA DE CLARIDAD** en el SYSTEM de index.html y en CLAUDE.md (pisa al SISTEMA ANCLA y a la consulta cálida de las tandas). Volvemos a personalizar con el programa, pero simple: B1 "[Nombre], gracias por conectar!" + un hecho suyo sin interpretar; B2 "En Hint Media hacemos la comunicación de empresas como [cliente]: [dos cosas concretas]" (sin "Soy Florencia"); B3 pregunta llana (adentro o externo, o con quién hablar). 45-70 palabras. Memoria `feedback-claridad-msg1`.
+- **Respuestas de la tanda 14/10** (estado en historial, stage sin cambio porque no se confirmó el envío de las respuestas propuestas): Maria Emilia Arias Condori (no lleva comunicación, cerrada), Lucas Goñi (Tecpetrol interno → pedir referido), Leandro Reales (casa matriz, novedades locales → seguir charla por sus posts), Jesica Mateu (LLYC, colaboración en filmación en territorio), Bruno Cardinali (comunidades interno, cerrar), Nicolas Gonella (cerrado, opcional felicitar premio).
+- **Target recomendado para conexiones:** marketing/comunicación o dueño/GG en empresas argentinas de 50-500 empleados de industria, energía, proveedores de oil & gas, construcción industrial y logística. Filtro "publicó en 30 días" y "contratando marketing". Evitar técnicos/legal/auditoría, multinacionales con casa matriz, grandes con comunicación propia (YPF, Tecpetrol, CGC), agencias.
+- **Invitaciones 17/10:** 22 enviadas (CEOs/founders tech y consultoras, varios RRHH, Chile/México/Colombia), lista en `conexiones/2026-10-17-invitaciones-enviadas.md`.
+- **Pendiente mañana:** nueva tanda de conexiones con el target recomendado; MSG1 con la regla de claridad a las aceptadas; enviar/confirmar respuestas a Lucas, Leandro, Jesica y Bruno. Sigue lo del 14/10.
+
+---
+
 ## Sesión 14/10/26 — tanda MSG1 de aceptadas 06-07/10
 
 - **Tanda 35 MSG1** (orden pegado) en `conversaciones/octubre/tanda-msg1-14oct26.md`: 15 marketing integral → `historial.json`, 20 capacitaciones/videos → `NUEVA_OFERTA/historial.json` (campo `linea`). Stage 1.
